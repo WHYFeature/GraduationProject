@@ -6,9 +6,10 @@ from datasets import load_dataset
 from tqdm.auto import tqdm
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
+from memit_project.datasets import CounterFactDataset, KnownsDataset
 from memit_project.utils.model_config import get_context_length, load_model_config
 from memit_project.utils.nethook import Trace, set_requires_grad
-from memit_project.utils.paths import REMOTE_ROOT_URL, STATS_DIR
+from memit_project.utils.paths import DATA_DIR, REMOTE_ROOT_URL, STATS_DIR
 from memit_project.utils.runningstats import (
     CombinedStat,
     Mean,
@@ -29,6 +30,56 @@ STAT_TYPES = {
     "mean": Mean,
     "norm_mean": NormMean,
 }
+
+
+class ListTextDataset:
+    def __init__(self, texts):
+        self.texts = texts
+
+    def __len__(self):
+        return len(self.texts)
+
+    def __getitem__(self, idx):
+        return {"text": self.texts[idx]}
+
+
+def build_local_fallback_dataset(ds_name: str):
+    texts = []
+
+    try:
+        knowns = KnownsDataset(DATA_DIR)
+        texts.extend(
+            [
+                f"{record['prompt'].format(record['subject'])} {record.get('attribute', '')}".strip()
+                for record in knowns
+            ]
+        )
+    except Exception:
+        pass
+
+    try:
+        counterfact = CounterFactDataset(DATA_DIR, size=2000)
+        texts.extend(
+            [
+                (
+                    f"{record['requested_rewrite']['prompt'].format(record['requested_rewrite']['subject'])} "
+                    f"{record['requested_rewrite']['target_true']['str']}"
+                ).strip()
+                for record in counterfact
+            ]
+        )
+    except Exception:
+        pass
+
+    if not texts:
+        raise RuntimeError(
+            f"Unable to build a local fallback corpus for stats when '{ds_name}' is unavailable."
+        )
+
+    print(
+        f"Falling back to a local text corpus with {len(texts)} samples for covariance stats."
+    )
+    return ListTextDataset(texts)
 
 
 def main():
@@ -118,14 +169,22 @@ def layer_stats(
     model_cfg = model_config or load_model_config(model.config._name_or_path)
 
     def get_ds():
-        raw_ds = load_dataset(
-            ds_name,
-            dict(wikitext="wikitext-103-raw-v1", wikipedia="20200501.en")[ds_name],
-        )
+        try:
+            raw_ds = load_dataset(
+                ds_name,
+                dict(wikitext="wikitext-103-raw-v1", wikipedia="20200501.en")[ds_name],
+            )
+            text_ds = raw_ds["train"]
+        except Exception as e:
+            print(
+                f"Unable to load remote dataset '{ds_name}' due to {e}. "
+                "Using local fallback corpus instead."
+            )
+            text_ds = build_local_fallback_dataset(ds_name)
         maxlen = get_context_length(model, model_cfg)
         if batch_tokens is not None and batch_tokens < maxlen:
             maxlen = batch_tokens
-        return TokenizedDataset(raw_ds["train"], tokenizer, maxlen=maxlen)
+        return TokenizedDataset(text_ds, tokenizer, maxlen=maxlen)
 
     # Continue with computation of statistics
     batch_size = 100  # Examine this many dataset texts at once
