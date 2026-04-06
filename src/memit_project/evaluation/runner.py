@@ -21,6 +21,11 @@ from memit_project.evaluation.counterfact_metrics import (
     compute_rewrite_quality_counterfact,
 )
 from memit_project.evaluation.zsre_metrics import compute_rewrite_quality_zsre
+from memit_project.utils.model_config import (
+    apply_model_config_to_hparams,
+    load_model_config,
+    sanitize_model_name,
+)
 from memit_project.utils import nethook
 from memit_project.utils.paths import DATA_DIR, HPARAMS_DIR, KV_DIR, RESULTS_DIR
 
@@ -52,11 +57,6 @@ if FTHyperParams is not None and apply_ft_to_model is not None:
     ALG_DICT["FT"] = (FTHyperParams, apply_ft_to_model)
 if MENDHyperParams is not None and MendRewriteExecutor is not None:
     ALG_DICT["MEND"] = (MENDHyperParams, MendRewriteExecutor().apply_to_model)
-
-
-def sanitize_model_name(model_name: str) -> str:
-    return re.sub(r'[\\\\/:*?"<>|]+', "_", model_name)
-
 DS_DICT = {
     "mcf": (MultiCounterFactDataset, compute_rewrite_quality_counterfact),
     "cf": (CounterFactDataset, compute_rewrite_quality_counterfact),
@@ -77,6 +77,7 @@ def main(
     dir_name: str,
     num_edits: int = 1,
     use_cache: bool = False,
+    model_config: str = None,
 ):
     # Set algorithm-specific variables
     params_class, apply_algo = ALG_DICT[alg_name]
@@ -112,7 +113,18 @@ def main(
     hparams = params_class.from_json(params_path)
     if not (run_dir / "params.json").exists():
         shutil.copyfile(params_path, run_dir / "params.json")
+    resolved_model_name = (
+        str(Path(model_name).expanduser().resolve())
+        if isinstance(model_name, str) and Path(model_name).expanduser().exists()
+        else model_name
+    )
+    model_cfg = load_model_config(
+        resolved_model_name if isinstance(resolved_model_name, str) else None,
+        model_config,
+    )
+    apply_model_config_to_hparams(hparams, model_cfg)
     print(f"Executing {alg_name} with parameters {hparams}")
+    print(f"Using model config {model_cfg['_config_path']}")
 
     # Instantiate vanilla model
     if type(model_name) is str:
@@ -269,6 +281,12 @@ if __name__ == "__main__":
         required=True,
     )
     parser.add_argument(
+        "--model_config",
+        type=str,
+        default=None,
+        help="Optional path to a model config file under configs/models.",
+    )
+    parser.add_argument(
         "--hparams_fname",
         type=str,
         default="gpt2-xl.json",
@@ -341,4 +359,5 @@ if __name__ == "__main__":
         dir_name=args.alg_name,
         num_edits=args.num_edits,
         use_cache=args.use_cache,
+        model_config=args.model_config,
     )

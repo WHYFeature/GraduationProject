@@ -6,15 +6,9 @@ from transformers import AutoModelForCausalLM, AutoTokenizer
 
 from memit_project.algorithms.rome import repr_tools
 from memit_project.utils import nethook
+from memit_project.utils.model_config import get_hidden_size
 
 from .hparams import MEMITHyperParams
-
-
-def get_model_hidden_size(model: AutoModelForCausalLM) -> int:
-    for attr in ("n_embd", "hidden_size", "d_model"):
-        if hasattr(model.config, attr):
-            return getattr(model.config, attr)
-    raise AttributeError("Unable to infer hidden size from model config.")
 
 
 def compute_z(
@@ -86,7 +80,7 @@ def compute_z(
     # rewrite layer, i.e. hypothesized fact lookup location, will induce the
     # target token to be predicted at the final layer.
     delta = torch.zeros(
-        (get_model_hidden_size(model),), requires_grad=True, device="cuda"
+        (get_hidden_size(model),), requires_grad=True, device="cuda"
     )
     target_init, kl_distr_init = None, None
 

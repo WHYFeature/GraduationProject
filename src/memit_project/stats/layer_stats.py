@@ -1,5 +1,4 @@
 import os
-import re
 from pathlib import Path
 
 import torch
@@ -7,6 +6,7 @@ from datasets import load_dataset
 from tqdm.auto import tqdm
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
+from memit_project.utils.model_config import get_context_length, load_model_config
 from memit_project.utils.nethook import Trace, set_requires_grad
 from memit_project.utils.paths import REMOTE_ROOT_URL, STATS_DIR
 from memit_project.utils.runningstats import (
@@ -31,30 +31,6 @@ STAT_TYPES = {
 }
 
 
-def get_model_context_length(model) -> int:
-    for attr in ("n_positions", "max_position_embeddings"):
-        if hasattr(model.config, attr):
-            return getattr(model.config, attr)
-    raise AttributeError("Unable to infer context length from model config.")
-
-
-def guess_mlp_output_module(model_name: str) -> str:
-    lowered = model_name.lower()
-    if "gpt2" in lowered:
-        return "transformer.h.{}.mlp.c_proj"
-    if "gpt-j" in lowered or "gptj" in lowered:
-        return "transformer.h.{}.mlp.fc_out"
-    if "qwen" in lowered:
-        return "model.layers.{}.mlp.down_proj"
-    raise ValueError(
-        "Unable to infer rewrite module template. Pass --layer_name_template explicitly."
-    )
-
-
-def sanitize_model_name(model_name: str) -> str:
-    return re.sub(r'[\\\\/:*?"<>|]+', "_", model_name)
-
-
 def main():
     """
     Command-line utility to precompute cached stats.
@@ -76,6 +52,12 @@ def main():
     aa("--stats_dir", default=STATS_DIR)
     aa("--download", default=1, type=int, choices=[0, 1])
     aa(
+        "--model_config",
+        default=None,
+        type=str,
+        help="Optional model config path; defaults to configs/models/<model>.yml",
+    )
+    aa(
         "--layer_name_template",
         default=None,
         type=str,
@@ -85,6 +67,7 @@ def main():
 
     tokenizer = AutoTokenizer.from_pretrained(args.model_name)
     model = AutoModelForCausalLM.from_pretrained(args.model_name).eval().cuda()
+    model_cfg = load_model_config(args.model_name, args.model_config)
     set_requires_grad(False, model)
 
     for layer_num in args.layers:
@@ -94,8 +77,8 @@ def main():
             "Note, the statistics are collected over the inputs to the second MLP layer, "
             "or equivalently the outputs of the first MLP layer."
         )
-        layer_template = args.layer_name_template or guess_mlp_output_module(
-            args.model_name
+        layer_template = (
+            args.layer_name_template or model_cfg.get("rewrite_module_tmp")
         )
         layer_name = layer_template.format(layer_num)
 
@@ -137,14 +120,14 @@ def layer_stats(
             ds_name,
             dict(wikitext="wikitext-103-raw-v1", wikipedia="20200501.en")[ds_name],
         )
-        maxlen = get_model_context_length(model)
+        maxlen = get_context_length(model, model_cfg)
         if batch_tokens is not None and batch_tokens < maxlen:
             maxlen = batch_tokens
         return TokenizedDataset(raw_ds["train"], tokenizer, maxlen=maxlen)
 
     # Continue with computation of statistics
     batch_size = 100  # Examine this many dataset texts at once
-    npos = get_model_context_length(model)
+    npos = get_context_length(model, model_cfg)
     if batch_tokens is None:
         batch_tokens = npos * 3  # Sort and divide into batches with this many tokens
     if precision is None:
@@ -154,7 +137,7 @@ def layer_stats(
     if batch_tokens < npos:
         size_suffix = "_t{batch_tokens}" + size_suffix
     if model_name is None:
-        model_name = sanitize_model_name(model.config._name_or_path)
+        model_name = model_cfg.get("model_key", model.config._name_or_path)
 
     stats_dir = Path(stats_dir)
     file_extension = f"{model_name}/{ds_name}_stats/{layer_name}_{precision}_{'-'.join(sorted(to_collect))}{size_suffix}.npz"

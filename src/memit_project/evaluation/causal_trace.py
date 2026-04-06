@@ -18,6 +18,13 @@ from memit_project.stats.tok_dataset import (
     flatten_masked_batch,
     length_collation,
 )
+from memit_project.utils.model_config import (
+    get_context_length,
+    get_embed_layer_name,
+    get_num_layers,
+    load_model_config,
+    sanitize_model_name,
+)
 from memit_project.utils import nethook
 from memit_project.utils.paths import DATA_DIR
 from memit_project.utils.runningstats import Covariance, tally
@@ -32,7 +39,7 @@ def main():
     def parse_noise_rule(code):
         if code in ["m", "s"]:
             return code
-        elif re.match("^[uts][\d\.]+", code):
+        elif re.match(r"^[uts][\d.]+", code):
             return code
         else:
             return float(code)
@@ -40,22 +47,16 @@ def main():
     aa(
         "--model_name",
         default="gpt2-xl",
-        choices=[
-            "gpt2-xl",
-            "EleutherAI/gpt-j-6B",
-            "EleutherAI/gpt-neox-20b",
-            "gpt2-large",
-            "gpt2-medium",
-            "gpt2",
-        ],
+        type=str,
     )
+    aa("--model_config", default=None, type=str)
     aa("--fact_file", default=None)
     aa("--output_dir", default="results/{model_name}/causal_trace")
     aa("--noise_level", default="s3", type=parse_noise_rule)
     aa("--replace", default=0, type=int)
     args = parser.parse_args()
 
-    modeldir = f'r{args.replace}_{args.model_name.replace("/", "_")}'
+    modeldir = f'r{args.replace}_{sanitize_model_name(args.model_name)}'
     modeldir = f"n{args.noise_level}_" + modeldir
     output_dir = args.output_dir.format(model_name=modeldir)
     result_dir = f"{output_dir}/cases"
@@ -66,7 +67,11 @@ def main():
     # Half precision to let the 20b model fit.
     torch_dtype = torch.float16 if "20b" in args.model_name else None
 
-    mt = ModelAndTokenizer(args.model_name, torch_dtype=torch_dtype)
+    mt = ModelAndTokenizer(
+        args.model_name,
+        torch_dtype=torch_dtype,
+        model_config=load_model_config(args.model_name, args.model_config),
+    )
 
     if args.fact_file is None:
         knowns = KnownsDataset(DATA_DIR)
@@ -131,6 +136,7 @@ def main():
 
 
 def trace_with_patch(
+    mt,
     model,  # The model
     inp,  # A set of inputs
     states_to_patch,  # A list of (token index, layername) triples to restore
@@ -174,7 +180,7 @@ def trace_with_patch(
     for t, l in states_to_patch:
         patch_spec[l].append(t)
 
-    embed_layername = layername(model, 0, "embed")
+    embed_layername = layername(mt, 0, "embed")
 
     def untuple(x):
         return x[0] if isinstance(x, tuple) else x
@@ -230,6 +236,7 @@ def trace_with_patch(
 
 
 def trace_with_repatch(
+    mt,
     model,  # The model
     inp,  # A set of inputs
     states_to_patch,  # A list of (token index, layername) triples to restore
@@ -251,7 +258,7 @@ def trace_with_repatch(
     for t, l in states_to_unpatch:
         unpatch_spec[l].append(t)
 
-    embed_layername = layername(model, 0, "embed")
+    embed_layername = layername(mt, 0, "embed")
 
     def untuple(x):
         return x[0] if isinstance(x, tuple) else x
@@ -324,10 +331,18 @@ def calculate_hidden_flow(
     elif token_range is not None:
         raise ValueError(f"Unknown token_range: {token_range}")
     low_score = trace_with_patch(
-        mt.model, inp, [], answer_t, e_range, noise=noise, uniform_noise=uniform_noise
+        mt,
+        mt.model,
+        inp,
+        [],
+        answer_t,
+        e_range,
+        noise=noise,
+        uniform_noise=uniform_noise,
     ).item()
     if not kind:
         differences = trace_important_states(
+            mt,
             mt.model,
             mt.num_layers,
             inp,
@@ -340,6 +355,7 @@ def calculate_hidden_flow(
         )
     else:
         differences = trace_important_window(
+            mt,
             mt.model,
             mt.num_layers,
             inp,
@@ -368,6 +384,7 @@ def calculate_hidden_flow(
 
 
 def trace_important_states(
+    mt,
     model,
     num_layers,
     inp,
@@ -387,9 +404,10 @@ def trace_important_states(
         row = []
         for layer in range(num_layers):
             r = trace_with_patch(
+                mt,
                 model,
                 inp,
-                [(tnum, layername(model, layer))],
+                [(tnum, layername(mt, layer))],
                 answer_t,
                 tokens_to_mix=e_range,
                 noise=noise,
@@ -402,6 +420,7 @@ def trace_important_states(
 
 
 def trace_important_window(
+    mt,
     model,
     num_layers,
     inp,
@@ -423,12 +442,13 @@ def trace_important_window(
         row = []
         for layer in range(num_layers):
             layerlist = [
-                (tnum, layername(model, L, kind))
+                (tnum, layername(mt, L, kind))
                 for L in range(
                     max(0, layer - window // 2), min(num_layers, layer - (-window // 2))
                 )
             ]
             r = trace_with_patch(
+                mt,
                 model,
                 inp,
                 layerlist,
@@ -457,6 +477,7 @@ class ModelAndTokenizer:
         tokenizer=None,
         low_cpu_mem_usage=False,
         torch_dtype=None,
+        model_config=None,
     ):
         if tokenizer is None:
             assert model_name is not None
@@ -470,12 +491,8 @@ class ModelAndTokenizer:
             model.eval().cuda()
         self.tokenizer = tokenizer
         self.model = model
-        self.layer_names = [
-            n
-            for n, m in model.named_modules()
-            if (re.match(r"^(transformer|gpt_neox)\.(h|layers)\.\d+$", n))
-        ]
-        self.num_layers = len(self.layer_names)
+        self.model_config = model_config or load_model_config(model_name)
+        self.num_layers = get_num_layers(model, self.model_config)
 
     def __repr__(self):
         return (
@@ -485,18 +502,16 @@ class ModelAndTokenizer:
         )
 
 
-def layername(model, num, kind=None):
-    if hasattr(model, "transformer"):
-        if kind == "embed":
-            return "transformer.wte"
-        return f'transformer.h.{num}{"" if kind is None else "." + kind}'
-    if hasattr(model, "gpt_neox"):
-        if kind == "embed":
-            return "gpt_neox.embed_in"
-        if kind == "attn":
-            kind = "attention"
-        return f'gpt_neox.layers.{num}{"" if kind is None else "." + kind}'
-    assert False, "unknown transformer structure"
+def layername(mt, num, kind=None):
+    if kind == "embed":
+        return get_embed_layer_name(mt.model_config)
+    if kind is None:
+        return mt.model_config["layer_module_tmp"].format(num)
+    if kind == "mlp":
+        return mt.model_config["mlp_module_tmp"].format(num)
+    if kind == "attn":
+        return mt.model_config["attn_module_tmp"].format(num)
+    raise ValueError(f"Unknown transformer submodule kind: {kind}")
 
 
 def guess_subject(prompt):
@@ -649,7 +664,7 @@ def collect_embedding_std(mt, subjects):
     alldata = []
     for s in subjects:
         inp = make_inputs(mt.tokenizer, [s])
-        with nethook.Trace(mt.model, layername(mt.model, 0, "embed")) as t:
+        with nethook.Trace(mt.model, layername(mt, 0, "embed")) as t:
             mt.model(**inp)
             alldata.append(t.output[0])
     alldata = torch.cat(alldata)
@@ -668,8 +683,8 @@ def get_embedding_cov(mt):
             dict(wikitext="wikitext-103-raw-v1", wikipedia="20200501.en")[ds_name],
         )
         try:
-            maxlen = model.config.n_positions
-        except:
+            maxlen = get_context_length(model, mt.model_config)
+        except Exception:
             maxlen = 100  # Hack due to missing setting in GPT2-NeoX.
         return TokenizedDataset(raw_ds["train"], tokenizer, maxlen=maxlen)
 
@@ -698,7 +713,7 @@ def get_embedding_cov(mt):
             for batch in batch_group:
                 batch = dict_to_(batch, "cuda")
                 del batch["position_ids"]
-                with nethook.Trace(model, layername(mt.model, 0, "embed")) as tr:
+                with nethook.Trace(model, layername(mt, 0, "embed")) as tr:
                     model(**batch)
                 feats = flatten_masked_batch(tr.output, batch["attention_mask"])
                 stat.add(feats.cpu().double())

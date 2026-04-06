@@ -12,6 +12,14 @@ from transformers import AutoModelForCausalLM, AutoTokenizer
 
 from memit_project.algorithms.memit import MEMITHyperParams
 from memit_project.datasets import CounterFactDataset, KnownsDataset
+from memit_project.utils.model_config import (
+    apply_model_config_to_hparams,
+    get_context_length,
+    get_embed_layer_name,
+    get_num_layers,
+    load_model_config,
+    sanitize_model_name,
+)
 from memit_project.utils import nethook
 from memit_project.utils.paths import DATA_DIR, HPARAMS_DIR, RESULTS_DIR
 
@@ -73,11 +81,13 @@ def parse_args():
         action="store_true",
         help="Skip writing a PNG summary plot.",
     )
+    parser.add_argument(
+        "--model_config",
+        type=str,
+        default=None,
+        help="Optional model config path; defaults to configs/models/<model>.yml",
+    )
     return parser.parse_args()
-
-
-def sanitize_name(name: str) -> str:
-    return re.sub(r'[\\\\/:*?"<>|]+', "_", name)
 
 
 def get_hparams_path(hparams_fname: str) -> Path:
@@ -89,34 +99,6 @@ def get_hparams_path(hparams_fname: str) -> Path:
         return candidate
     raise FileNotFoundError(f"Could not find hparams file: {hparams_fname}")
 
-
-def infer_embed_layer_name(model) -> str:
-    for name in ["transformer.wte", "gpt_neox.embed_in", "model.embed_tokens"]:
-        try:
-            nethook.get_module(model, name)
-            return name
-        except LookupError:
-            continue
-    raise LookupError("Unable to infer token embedding module for this model.")
-
-
-def get_num_layers(model) -> int:
-    if hasattr(model.config, "num_hidden_layers"):
-        return model.config.num_hidden_layers
-    patterns = [
-        r"^transformer\.h\.(\d+)$",
-        r"^gpt_neox\.layers\.(\d+)$",
-        r"^model\.layers\.(\d+)$",
-    ]
-    max_idx = -1
-    for name, _ in model.named_modules():
-        for pattern in patterns:
-            match = re.match(pattern, name)
-            if match:
-                max_idx = max(max_idx, int(match.group(1)))
-    if max_idx >= 0:
-        return max_idx + 1
-    raise ValueError("Unable to infer layer count from model.")
 
 
 def make_inputs(tokenizer, prompts: Sequence[str], device: str) -> Dict[str, torch.Tensor]:
@@ -149,7 +131,8 @@ def find_token_range(tokenizer, token_array, substring: str) -> Tuple[int, int]:
 
 
 def get_embedding_std(model, tokenizer, subjects: Iterable[str], device: str) -> float:
-    embed_layer = infer_embed_layer_name(model)
+    model_cfg = load_model_config(model.config._name_or_path)
+    embed_layer = get_embed_layer_name(model_cfg)
     values = []
     for subject in subjects:
         inp = make_inputs(tokenizer, [subject], device)
@@ -273,6 +256,8 @@ def moving_average(scores: np.ndarray, width: int = 3) -> np.ndarray:
 def analyze_layers(args):
     device = "cuda" if torch.cuda.is_available() else "cpu"
     hparams = MEMITHyperParams.from_json(get_hparams_path(args.hparams_fname))
+    model_cfg = load_model_config(args.model_name, args.model_config)
+    apply_model_config_to_hparams(hparams, model_cfg)
 
     model = AutoModelForCausalLM.from_pretrained(args.model_name).eval().to(device)
     tok = AutoTokenizer.from_pretrained(args.model_name)
@@ -287,8 +272,8 @@ def analyze_layers(args):
     noise = args.noise_level * get_embedding_std(
         model, tok, [fact["subject"] for fact in facts[: min(64, len(facts))]], device
     )
-    num_layers = get_num_layers(model)
-    embed_layer = infer_embed_layer_name(model)
+    num_layers = get_num_layers(model, model_cfg)
+    embed_layer = get_embed_layer_name(model_cfg)
     scores_by_layer = [[] for _ in range(num_layers)]
     kept_facts = []
 
@@ -364,7 +349,9 @@ def analyze_layers(args):
             }
         )
 
-    model_tag = sanitize_name(Path(args.model_name).name if Path(args.model_name).exists() else args.model_name)
+    model_tag = sanitize_model_name(
+        Path(args.model_name).name if Path(args.model_name).exists() else args.model_name
+    )
     output_dir = Path(args.output_dir) if args.output_dir else RESULTS_DIR / "layer_selection" / model_tag
     output_dir.mkdir(parents=True, exist_ok=True)
 

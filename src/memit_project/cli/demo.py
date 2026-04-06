@@ -6,6 +6,7 @@ import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
 from memit_project.algorithms.memit import MEMITHyperParams, apply_memit_to_model
+from memit_project.utils.model_config import apply_model_config_to_hparams, load_model_config
 from memit_project.utils import nethook
 from memit_project.utils.generate import generate_fast
 from memit_project.utils.paths import HPARAMS_DIR
@@ -45,6 +46,7 @@ def demo_model_editing(
     print_loud(f"Retrieving {alg_name} hyperparameters")
     print("Loading from", params_name)
     hparams = RewritingParamsClass.from_json(params_name)
+    apply_model_config_to_hparams(hparams, load_model_config(model.config._name_or_path))
     print(hparams)
 
     print_loud("Generating pre-update text")
