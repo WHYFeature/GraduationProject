@@ -11,6 +11,13 @@ from memit_project.utils.generate import generate_fast
 from memit_project.utils.paths import HPARAMS_DIR
 
 
+def get_hparams_model_stem(model_name: str) -> str:
+    model_path = Path(model_name)
+    if model_path.exists():
+        return model_path.name
+    return model_name.replace("/", "_")
+
+
 def demo_model_editing(
     model: AutoModelForCausalLM,
     tok: AutoTokenizer,
@@ -32,7 +39,7 @@ def demo_model_editing(
     params_name = (
         HPARAMS_DIR
         / hparams_prefix
-        / f"{model.config._name_or_path.replace('/', '_')}{hparams_suffix}.json"
+        / f"{get_hparams_model_stem(model.config._name_or_path)}{hparams_suffix}.json"
     )
 
     print_loud(f"Retrieving {alg_name} hyperparameters")

@@ -1,4 +1,5 @@
 import json
+import re
 import shutil
 from itertools import islice
 from pathlib import Path
@@ -51,6 +52,10 @@ if FTHyperParams is not None and apply_ft_to_model is not None:
     ALG_DICT["FT"] = (FTHyperParams, apply_ft_to_model)
 if MENDHyperParams is not None and MendRewriteExecutor is not None:
     ALG_DICT["MEND"] = (MENDHyperParams, MendRewriteExecutor().apply_to_model)
+
+
+def sanitize_model_name(model_name: str) -> str:
+    return re.sub(r'[\\\\/:*?"<>|]+', "_", model_name)
 
 DS_DICT = {
     "mcf": (MultiCounterFactDataset, compute_rewrite_quality_counterfact),
@@ -112,9 +117,14 @@ def main(
     # Instantiate vanilla model
     if type(model_name) is str:
         print("Instantiating model")
-        model = AutoModelForCausalLM.from_pretrained(model_name).cuda()
-        tok = AutoTokenizer.from_pretrained(model_name)
+        model_path = Path(model_name).expanduser()
+        resolved_model_name = (
+            str(model_path.resolve()) if model_path.exists() else model_name
+        )
+        model = AutoModelForCausalLM.from_pretrained(resolved_model_name).cuda()
+        tok = AutoTokenizer.from_pretrained(resolved_model_name)
         tok.pad_token = tok.eos_token
+        model_name = resolved_model_name
     else:
         model, tok = model_name
         model_name = model.config._name_or_path
@@ -135,7 +145,7 @@ def main(
     if use_cache:
         cache_template = (
             KV_DIR
-            / f"{model_name.replace('/', '_')}_{alg_name}"
+            / f"{sanitize_model_name(model_name)}_{alg_name}"
             / f"{ds_name}_layer_{{}}_clamp_{{}}_case_{{}}.npz"
         )
         print(f"Will load cache from {cache_template}")
@@ -253,9 +263,9 @@ if __name__ == "__main__":
     )
     parser.add_argument(
         "--model_name",
-        choices=["gpt2-medium", "gpt2-large", "gpt2-xl", "EleutherAI/gpt-j-6B"],
+        type=str,
         default="gpt2-xl",
-        help="Model to edit.",
+        help="Model to edit. Can be a HuggingFace model id or a local model directory.",
         required=True,
     )
     parser.add_argument(

@@ -10,6 +10,13 @@ from memit_project.utils import nethook
 from .hparams import MEMITHyperParams
 
 
+def get_model_hidden_size(model: AutoModelForCausalLM) -> int:
+    for attr in ("n_embd", "hidden_size", "d_model"):
+        if hasattr(model.config, attr):
+            return getattr(model.config, attr)
+    raise AttributeError("Unable to infer hidden size from model config.")
+
+
 def compute_z(
     model: AutoModelForCausalLM,
     tok: AutoTokenizer,
@@ -78,7 +85,9 @@ def compute_z(
     # Set up an optimization over a latent vector that, when output at the
     # rewrite layer, i.e. hypothesized fact lookup location, will induce the
     # target token to be predicted at the final layer.
-    delta = torch.zeros((model.config.n_embd,), requires_grad=True, device="cuda")
+    delta = torch.zeros(
+        (get_model_hidden_size(model),), requires_grad=True, device="cuda"
+    )
     target_init, kl_distr_init = None, None
 
     # Inserts new "delta" variable at the appropriate part of the computation

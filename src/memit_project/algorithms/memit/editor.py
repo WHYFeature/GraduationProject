@@ -1,4 +1,5 @@
 import os
+import re
 from copy import deepcopy
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Tuple
@@ -19,6 +20,10 @@ from .hparams import MEMITHyperParams
 # Cache variable(s)
 CONTEXT_TEMPLATES_CACHE = None
 COV_CACHE = {}
+
+
+def sanitize_model_name(model_name: str) -> str:
+    return re.sub(r'[\\\\/:*?"<>|]+', "_", model_name)
 
 
 def apply_memit_to_model(
@@ -249,7 +254,7 @@ def get_cov(
     Caches result for future use.
     """
 
-    model_name = model.config._name_or_path.replace("/", "_")
+    model_name = sanitize_model_name(model.config._name_or_path)
     key = (model_name, layer_name)
 
     print(f"Retrieving covariance statistics for {model_name} @ {layer_name}.")

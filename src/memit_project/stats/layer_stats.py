@@ -1,4 +1,5 @@
 import os
+import re
 from pathlib import Path
 
 import torch
@@ -30,6 +31,30 @@ STAT_TYPES = {
 }
 
 
+def get_model_context_length(model) -> int:
+    for attr in ("n_positions", "max_position_embeddings"):
+        if hasattr(model.config, attr):
+            return getattr(model.config, attr)
+    raise AttributeError("Unable to infer context length from model config.")
+
+
+def guess_mlp_output_module(model_name: str) -> str:
+    lowered = model_name.lower()
+    if "gpt2" in lowered:
+        return "transformer.h.{}.mlp.c_proj"
+    if "gpt-j" in lowered or "gptj" in lowered:
+        return "transformer.h.{}.mlp.fc_out"
+    if "qwen" in lowered:
+        return "model.layers.{}.mlp.down_proj"
+    raise ValueError(
+        "Unable to infer rewrite module template. Pass --layer_name_template explicitly."
+    )
+
+
+def sanitize_model_name(model_name: str) -> str:
+    return re.sub(r'[\\\\/:*?"<>|]+', "_", model_name)
+
+
 def main():
     """
     Command-line utility to precompute cached stats.
@@ -41,7 +66,7 @@ def main():
     def aa(*args, **kwargs):
         parser.add_argument(*args, **kwargs)
 
-    aa("--model_name", default="gpt2-xl", choices=["gpt2-xl", "EleutherAI/gpt-j-6B"])
+    aa("--model_name", default="gpt2-xl", type=str)
     aa("--dataset", default="wikipedia", choices=["wikitext", "wikipedia"])
     aa("--layers", default=[17], type=lambda x: list(map(int, x.split(","))))
     aa("--to_collect", default=["mom2"], type=lambda x: x.split(","))
@@ -50,6 +75,12 @@ def main():
     aa("--precision", default="float32", choices=["float64", "float32", "float16"])
     aa("--stats_dir", default=STATS_DIR)
     aa("--download", default=1, type=int, choices=[0, 1])
+    aa(
+        "--layer_name_template",
+        default=None,
+        type=str,
+        help="Optional module template such as model.layers.{}.mlp.down_proj",
+    )
     args = parser.parse_args()
 
     tokenizer = AutoTokenizer.from_pretrained(args.model_name)
@@ -63,8 +94,10 @@ def main():
             "Note, the statistics are collected over the inputs to the second MLP layer, "
             "or equivalently the outputs of the first MLP layer."
         )
-        proj_layer_name = "c_proj" if "gpt2" in args.model_name else "fc_out"
-        layer_name = f"transformer.h.{layer_num}.mlp.{proj_layer_name}"
+        layer_template = args.layer_name_template or guess_mlp_output_module(
+            args.model_name
+        )
+        layer_name = layer_template.format(layer_num)
 
         layer_stats(
             model,
@@ -104,14 +137,14 @@ def layer_stats(
             ds_name,
             dict(wikitext="wikitext-103-raw-v1", wikipedia="20200501.en")[ds_name],
         )
-        maxlen = model.config.n_positions
+        maxlen = get_model_context_length(model)
         if batch_tokens is not None and batch_tokens < maxlen:
             maxlen = batch_tokens
         return TokenizedDataset(raw_ds["train"], tokenizer, maxlen=maxlen)
 
     # Continue with computation of statistics
     batch_size = 100  # Examine this many dataset texts at once
-    npos = model.config.n_positions
+    npos = get_model_context_length(model)
     if batch_tokens is None:
         batch_tokens = npos * 3  # Sort and divide into batches with this many tokens
     if precision is None:
@@ -121,7 +154,7 @@ def layer_stats(
     if batch_tokens < npos:
         size_suffix = "_t{batch_tokens}" + size_suffix
     if model_name is None:
-        model_name = model.config._name_or_path.replace("/", "_")
+        model_name = sanitize_model_name(model.config._name_or_path)
 
     stats_dir = Path(stats_dir)
     file_extension = f"{model_name}/{ds_name}_stats/{layer_name}_{precision}_{'-'.join(sorted(to_collect))}{size_suffix}.npz"
