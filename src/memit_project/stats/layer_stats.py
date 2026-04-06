@@ -2,7 +2,7 @@ import os
 from pathlib import Path
 
 import torch
-from datasets import load_dataset
+from datasets import load_dataset, load_from_disk
 from tqdm.auto import tqdm
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
@@ -29,6 +29,16 @@ STAT_TYPES = {
     "mom2": SecondMoment,
     "mean": Mean,
     "norm_mean": NormMean,
+}
+
+LOCAL_CORPORA = {
+    "wikitext": DATA_DIR / "corpora" / "wikitext-103-raw-v1",
+    "wikipedia": DATA_DIR / "corpora" / "wikipedia_20220301_en",
+}
+
+REMOTE_DATASET_CONFIGS = {
+    "wikitext": "wikitext-103-raw-v1",
+    "wikipedia": "20200501.en",
 }
 
 
@@ -80,6 +90,20 @@ def build_local_fallback_dataset(ds_name: str):
         f"Falling back to a local text corpus with {len(texts)} samples for covariance stats."
     )
     return ListTextDataset(texts)
+
+
+def load_local_corpus(ds_name: str):
+    corpus_path = LOCAL_CORPORA.get(ds_name)
+    if corpus_path is None or not corpus_path.exists():
+        return None
+
+    print(f"Loading local corpus for '{ds_name}' from {corpus_path}.")
+    ds = load_from_disk(str(corpus_path))
+    if isinstance(ds, dict):
+        return ds["train"]
+    if "train" in ds:
+        return ds["train"]
+    return ds
 
 
 def main():
@@ -169,18 +193,20 @@ def layer_stats(
     model_cfg = model_config or load_model_config(model.config._name_or_path)
 
     def get_ds():
-        try:
-            raw_ds = load_dataset(
-                ds_name,
-                dict(wikitext="wikitext-103-raw-v1", wikipedia="20200501.en")[ds_name],
-            )
-            text_ds = raw_ds["train"]
-        except Exception as e:
-            print(
-                f"Unable to load remote dataset '{ds_name}' due to {e}. "
-                "Using local fallback corpus instead."
-            )
-            text_ds = build_local_fallback_dataset(ds_name)
+        text_ds = load_local_corpus(ds_name)
+        if text_ds is None:
+            try:
+                raw_ds = load_dataset(
+                    ds_name,
+                    REMOTE_DATASET_CONFIGS[ds_name],
+                )
+                text_ds = raw_ds["train"]
+            except Exception as e:
+                print(
+                    f"Unable to load remote dataset '{ds_name}' due to {e}. "
+                    "Using local fallback corpus instead."
+                )
+                text_ds = build_local_fallback_dataset(ds_name)
         maxlen = get_context_length(model, model_cfg)
         if batch_tokens is not None and batch_tokens < maxlen:
             maxlen = batch_tokens
