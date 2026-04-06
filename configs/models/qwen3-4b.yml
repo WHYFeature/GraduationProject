@@ -1,0 +1,20 @@
+model_key: qwen3-4b
+aliases:
+  - qwen3-4b
+  - qwen/qwen3-4b
+  - qwen3
+hidden_size_attrs:
+  - hidden_size
+  - n_embd
+  - d_model
+context_length_attrs:
+  - max_position_embeddings
+  - n_positions
+num_layers_attr: num_hidden_layers
+embed_layer: model.embed_tokens
+rewrite_module_tmp: model.layers.{}.mlp.down_proj
+layer_module_tmp: model.layers.{}
+mlp_module_tmp: model.layers.{}.mlp
+attn_module_tmp: model.layers.{}.self_attn
+ln_f_module: model.norm
+lm_head_module: lm_head

@@ -1,0 +1,17 @@
+model_key: gpt-j-6b
+aliases:
+  - eleutherai/gpt-j-6b
+  - eleutherai_gpt-j-6b
+  - gpt-j-6b
+hidden_size_attrs:
+  - n_embd
+context_length_attrs:
+  - n_positions
+num_layers_attr: n_layer
+embed_layer: transformer.wte
+rewrite_module_tmp: transformer.h.{}.mlp.fc_out
+layer_module_tmp: transformer.h.{}
+mlp_module_tmp: transformer.h.{}.mlp
+attn_module_tmp: transformer.h.{}.attn
+ln_f_module: transformer.ln_f
+lm_head_module: lm_head

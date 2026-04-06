@@ -1,0 +1,15 @@
+model_key: gpt2-xl
+aliases:
+  - gpt2-xl
+hidden_size_attrs:
+  - n_embd
+context_length_attrs:
+  - n_positions
+num_layers_attr: n_layer
+embed_layer: transformer.wte
+rewrite_module_tmp: transformer.h.{}.mlp.c_proj
+layer_module_tmp: transformer.h.{}
+mlp_module_tmp: transformer.h.{}.mlp
+attn_module_tmp: transformer.h.{}.attn
+ln_f_module: transformer.ln_f
+lm_head_module: transformer.wte
