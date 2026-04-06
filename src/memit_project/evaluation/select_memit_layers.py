@@ -112,7 +112,17 @@ def decode_tokens(tokenizer, token_array) -> List[str]:
     return [tokenizer.decode([t]) for t in token_array]
 
 
-def find_token_range(tokenizer, token_array, substring: str) -> Tuple[int, int]:
+def _find_subsequence(sequence: Sequence[int], subsequence: Sequence[int]) -> Optional[Tuple[int, int]]:
+    if not subsequence:
+        return None
+    width = len(subsequence)
+    for start in range(len(sequence) - width + 1):
+        if list(sequence[start : start + width]) == list(subsequence):
+            return start, start + width
+    return None
+
+
+def _find_token_range_by_chars(tokenizer, token_array, substring: str) -> Tuple[int, int]:
     toks = decode_tokens(tokenizer, token_array)
     whole_string = "".join(toks)
     char_loc = whole_string.index(substring)
@@ -128,6 +138,26 @@ def find_token_range(tokenizer, token_array, substring: str) -> Tuple[int, int]:
     if tok_start is None or tok_end is None:
         raise ValueError(f"Failed to locate subject span: {substring}")
     return tok_start, tok_end
+
+
+def find_token_range(
+    tokenizer, token_array, substring: str
+) -> Tuple[Tuple[int, int], str]:
+    token_list = (
+        token_array.detach().cpu().tolist()
+        if hasattr(token_array, "detach")
+        else list(token_array)
+    )
+    candidates = []
+    for variant in [substring, f" {substring}"]:
+        token_ids = tokenizer(variant, add_special_tokens=False)["input_ids"]
+        if token_ids:
+            candidates.append(token_ids)
+    for candidate in candidates:
+        match = _find_subsequence(token_list, candidate)
+        if match is not None:
+            return match, "token_subsequence"
+    return _find_token_range_by_chars(tokenizer, token_array, substring), "char_fallback"
 
 
 def get_embedding_std(model, tokenizer, subjects: Iterable[str], device: str) -> float:
@@ -276,6 +306,8 @@ def analyze_layers(args):
     embed_layer = get_embed_layer_name(model_cfg)
     scores_by_layer = [[] for _ in range(num_layers)]
     kept_facts = []
+    token_match_stats = defaultdict(int)
+    skipped_for_weak_corruption = 0
 
     for fact in facts:
         prompt = fact["prompt"]
@@ -287,8 +319,9 @@ def analyze_layers(args):
             continue
 
         inp = make_inputs(tok, [prompt] * (args.samples + 1), device)
-        subject_range = find_token_range(tok, inp["input_ids"][0], subject)
+        subject_range, match_strategy = find_token_range(tok, inp["input_ids"][0], subject)
         restore_idx = get_restore_index(subject_range, args.fact_token)
+        token_match_stats[match_strategy] += 1
 
         low_score = trace_with_patch(
             model,
@@ -300,7 +333,12 @@ def analyze_layers(args):
             noise=noise,
         )
 
-        denom = max(high_score - low_score, 1e-8)
+        corruption_drop = high_score - low_score
+        if corruption_drop <= 1e-4:
+            skipped_for_weak_corruption += 1
+            continue
+
+        denom = corruption_drop
         for layer in range(num_layers):
             restored = trace_with_patch(
                 model,
@@ -321,6 +359,8 @@ def analyze_layers(args):
                 "answer": answer,
                 "high_score": high_score,
                 "low_score": low_score,
+                "subject_range": list(subject_range),
+                "match_strategy": match_strategy,
             }
         )
 
@@ -366,6 +406,8 @@ def analyze_layers(args):
         "rewrite_module_tmp": hparams.rewrite_module_tmp,
         "num_layers": num_layers,
         "n_facts_used": len(kept_facts),
+        "n_facts_skipped_for_weak_corruption": skipped_for_weak_corruption,
+        "token_match_stats": dict(token_match_stats),
         "layer_scores": avg_scores.tolist(),
         "layer_score_std": std_scores.tolist(),
         "layer_scores_smoothed": smoothed_scores.tolist(),

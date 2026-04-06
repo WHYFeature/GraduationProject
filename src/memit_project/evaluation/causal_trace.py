@@ -628,7 +628,17 @@ def decode_tokens(tokenizer, token_array):
     return [tokenizer.decode([t]) for t in token_array]
 
 
-def find_token_range(tokenizer, token_array, substring):
+def _find_subsequence(sequence, subsequence):
+    if not subsequence:
+        return None
+    width = len(subsequence)
+    for start in range(len(sequence) - width + 1):
+        if list(sequence[start : start + width]) == list(subsequence):
+            return (start, start + width)
+    return None
+
+
+def _find_token_range_by_chars(tokenizer, token_array, substring):
     toks = decode_tokens(tokenizer, token_array)
     whole_string = "".join(toks)
     char_loc = whole_string.index(substring)
@@ -642,6 +652,20 @@ def find_token_range(tokenizer, token_array, substring):
             tok_end = i + 1
             break
     return (tok_start, tok_end)
+
+
+def find_token_range(tokenizer, token_array, substring):
+    token_list = (
+        token_array.detach().cpu().tolist()
+        if hasattr(token_array, "detach")
+        else list(token_array)
+    )
+    for variant in [substring, f" {substring}"]:
+        token_ids = tokenizer(variant, add_special_tokens=False)["input_ids"]
+        match = _find_subsequence(token_list, token_ids)
+        if match is not None:
+            return match
+    return _find_token_range_by_chars(tokenizer, token_array, substring)
 
 
 def predict_token(mt, prompts, return_p=False):
