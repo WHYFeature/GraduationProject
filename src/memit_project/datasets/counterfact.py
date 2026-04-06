@@ -2,12 +2,7 @@ import json
 import typing
 from pathlib import Path
 
-import torch
 from torch.utils.data import Dataset
-
-from memit_project.utils.paths import REMOTE_ROOT_URL
-
-REMOTE_ROOT = f"{REMOTE_ROOT_URL}/data/dsets"
 
 
 class CounterFactDataset(Dataset):
@@ -24,10 +19,10 @@ class CounterFactDataset(Dataset):
             "counterfact.json" if not multi else "multi_counterfact.json"
         )
         if not cf_loc.exists():
-            remote_url = f"{REMOTE_ROOT}/{'multi_' if multi else ''}counterfact.json"
-            print(f"{cf_loc} does not exist. Downloading from {remote_url}")
-            data_dir.mkdir(exist_ok=True, parents=True)
-            torch.hub.download_url_to_file(remote_url, cf_loc)
+            raise FileNotFoundError(
+                f"Required dataset file not found: {cf_loc}. "
+                "Place the dataset in data/ before running."
+            )
 
         with open(cf_loc, "r") as f:
             self.data = json.load(f)

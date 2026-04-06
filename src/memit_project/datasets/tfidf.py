@@ -4,14 +4,9 @@ from pathlib import Path
 
 import numpy as np
 import scipy.sparse as sp
-import torch
 from sklearn.feature_extraction.text import TfidfVectorizer
 
 from memit_project.datasets import AttributeSnippets
-from memit_project.utils.paths import REMOTE_ROOT_URL
-
-REMOTE_IDF_URL = f"{REMOTE_ROOT_URL}/data/dsets/idf.npy"
-REMOTE_VOCAB_URL = f"{REMOTE_ROOT_URL}/data/dsets/tfidf_vocab.json"
 
 
 def get_tfidf_vectorizer(data_dir: str):
@@ -49,16 +44,6 @@ def collect_stats(data_dir: str):
     data_dir = Path(data_dir)
     data_dir.mkdir(exist_ok=True, parents=True)
     idf_loc, vocab_loc = data_dir / "idf.npy", data_dir / "tfidf_vocab.json"
-
-    try:
-        print(f"Downloading IDF cache from {REMOTE_IDF_URL}")
-        torch.hub.download_url_to_file(REMOTE_IDF_URL, idf_loc)
-        print(f"Downloading TF-IDF vocab cache from {REMOTE_VOCAB_URL}")
-        torch.hub.download_url_to_file(REMOTE_VOCAB_URL, vocab_loc)
-        return
-    except Exception as e:
-        print(f"Error downloading file:", e)
-        print("Recomputing TF-IDF stats...")
 
     snips_list = AttributeSnippets(data_dir).snippets_list
     documents = list(chain(*[[y["text"] for y in x["samples"]] for x in snips_list]))

@@ -1,12 +1,7 @@
 import json
 from pathlib import Path
 
-import torch
 from transformers import AutoTokenizer
-
-from memit_project.utils.paths import REMOTE_ROOT_URL
-
-REMOTE_URL = f"{REMOTE_ROOT_URL}/data/dsets/zsre_mend_eval.json"
 
 
 class MENDQADataset:
@@ -20,9 +15,10 @@ class MENDQADataset:
         data_dir = Path(data_dir)
         zsre_loc = data_dir / "zsre_mend_eval.json"
         if not zsre_loc.exists():
-            print(f"{zsre_loc} does not exist. Downloading from {REMOTE_URL}")
-            data_dir.mkdir(exist_ok=True, parents=True)
-            torch.hub.download_url_to_file(REMOTE_URL, zsre_loc)
+            raise FileNotFoundError(
+                f"Required dataset file not found: {zsre_loc}. "
+                "Place the dataset in data/ before running."
+            )
 
         with open(zsre_loc, "r") as f:
             raw = json.load(f)

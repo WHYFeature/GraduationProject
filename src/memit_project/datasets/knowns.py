@@ -1,13 +1,7 @@
 import json
-import typing
 from pathlib import Path
 
-import torch
 from torch.utils.data import Dataset
-
-from memit_project.utils.paths import REMOTE_ROOT_URL
-
-REMOTE_URL = f"{REMOTE_ROOT_URL}/data/dsets/known_1000.json"
 
 
 class KnownsDataset(Dataset):
@@ -15,9 +9,10 @@ class KnownsDataset(Dataset):
         data_dir = Path(data_dir)
         known_loc = data_dir / "known_1000.json"
         if not known_loc.exists():
-            print(f"{known_loc} does not exist. Downloading from {REMOTE_URL}")
-            data_dir.mkdir(exist_ok=True, parents=True)
-            torch.hub.download_url_to_file(REMOTE_URL, known_loc)
+            raise FileNotFoundError(
+                f"Required dataset file not found: {known_loc}. "
+                "Place the dataset in data/ before running."
+            )
 
         with open(known_loc, "r") as f:
             self.data = json.load(f)

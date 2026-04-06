@@ -1,15 +1,14 @@
-import os
 from pathlib import Path
 
 import torch
-from datasets import load_dataset, load_from_disk
+from datasets import load_from_disk
 from tqdm.auto import tqdm
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
 from memit_project.datasets import CounterFactDataset, KnownsDataset
 from memit_project.utils.model_config import get_context_length, load_model_config
 from memit_project.utils.nethook import Trace, set_requires_grad
-from memit_project.utils.paths import DATA_DIR, REMOTE_ROOT_URL, STATS_DIR
+from memit_project.utils.paths import DATA_DIR, STATS_DIR
 from memit_project.utils.runningstats import (
     CombinedStat,
     Mean,
@@ -35,12 +34,6 @@ LOCAL_CORPORA = {
     "wikitext": DATA_DIR / "corpora" / "wikitext-103-raw-v1",
     "wikipedia": DATA_DIR / "corpora" / "wikipedia_20220301_en",
 }
-
-REMOTE_DATASET_CONFIGS = {
-    "wikitext": "wikitext-103-raw-v1",
-    "wikipedia": "20200501.en",
-}
-
 
 class ListTextDataset:
     def __init__(self, texts):
@@ -195,18 +188,11 @@ def layer_stats(
     def get_ds():
         text_ds = load_local_corpus(ds_name)
         if text_ds is None:
-            try:
-                raw_ds = load_dataset(
-                    ds_name,
-                    REMOTE_DATASET_CONFIGS[ds_name],
-                )
-                text_ds = raw_ds["train"]
-            except Exception as e:
-                print(
-                    f"Unable to load remote dataset '{ds_name}' due to {e}. "
-                    "Using local fallback corpus instead."
-                )
-                text_ds = build_local_fallback_dataset(ds_name)
+            print(
+                f"Local corpus for '{ds_name}' not found under data/corpora. "
+                "Using local fallback corpus instead."
+            )
+            text_ds = build_local_fallback_dataset(ds_name)
         maxlen = get_context_length(model, model_cfg)
         if batch_tokens is not None and batch_tokens < maxlen:
             maxlen = batch_tokens
@@ -230,17 +216,10 @@ def layer_stats(
     file_extension = f"{model_name}/{ds_name}_stats/{layer_name}_{precision}_{'-'.join(sorted(to_collect))}{size_suffix}.npz"
     filename = stats_dir / file_extension
 
-    if not filename.exists() and download:
-        remote_url = f"{REMOTE_ROOT_URL}/data/stats/{file_extension}"
-        try:
-            print(f"Attempting to download {file_extension} from {remote_url}.")
-            (stats_dir / "/".join(file_extension.split("/")[:-1])).mkdir(
-                exist_ok=True, parents=True
-            )
-            torch.hub.download_url_to_file(remote_url, filename)
-            print("Successfully downloaded.")
-        except Exception as e:
-            print(f"Unable to download due to {e}. Computing locally....")
+    if not filename.exists():
+        (stats_dir / "/".join(file_extension.split("/")[:-1])).mkdir(
+            exist_ok=True, parents=True
+        )
 
     ds = get_ds() if not filename.exists() else None
 

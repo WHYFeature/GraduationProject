@@ -2,12 +2,6 @@ import collections
 import json
 from pathlib import Path
 
-import torch
-
-from memit_project.utils.paths import REMOTE_ROOT_URL
-
-REMOTE_URL = f"{REMOTE_ROOT_URL}/data/dsets/attribute_snippets.json"
-
 
 class AttributeSnippets:
     """
@@ -22,9 +16,10 @@ class AttributeSnippets:
         data_dir = Path(data_dir)
         snips_loc = data_dir / "attribute_snippets.json"
         if not snips_loc.exists():
-            print(f"{snips_loc} does not exist. Downloading from {REMOTE_URL}")
-            data_dir.mkdir(exist_ok=True, parents=True)
-            torch.hub.download_url_to_file(REMOTE_URL, snips_loc)
+            raise FileNotFoundError(
+                f"Required dataset file not found: {snips_loc}. "
+                "Place the dataset in data/ before running."
+            )
 
         with open(snips_loc, "r") as f:
             snippets_list = json.load(f)

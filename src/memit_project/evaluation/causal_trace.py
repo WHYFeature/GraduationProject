@@ -6,12 +6,13 @@ from collections import defaultdict
 
 import numpy
 import torch
-from datasets import load_dataset
+from datasets import load_from_disk
 from matplotlib import pyplot as plt
 from tqdm import tqdm
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
 from memit_project.datasets import KnownsDataset
+from memit_project.stats.layer_stats import build_local_fallback_dataset
 from memit_project.stats.tok_dataset import (
     TokenizedDataset,
     dict_to_,
@@ -701,16 +702,17 @@ def get_embedding_cov(mt):
     tokenizer = mt.tokenizer
 
     def get_ds():
-        ds_name = "wikitext"
-        raw_ds = load_dataset(
-            ds_name,
-            dict(wikitext="wikitext-103-raw-v1", wikipedia="20200501.en")[ds_name],
-        )
+        corpus_path = Path(DATA_DIR) / "corpora" / "wikitext-103-raw-v1"
+        if corpus_path.exists():
+            raw_ds = load_from_disk(str(corpus_path))
+            text_ds = raw_ds["train"]
+        else:
+            text_ds = build_local_fallback_dataset("wikitext")
         try:
             maxlen = get_context_length(model, mt.model_config)
         except Exception:
             maxlen = 100  # Hack due to missing setting in GPT2-NeoX.
-        return TokenizedDataset(raw_ds["train"], tokenizer, maxlen=maxlen)
+        return TokenizedDataset(text_ds, tokenizer, maxlen=maxlen)
 
     ds = get_ds()
     sample_size = 1000
