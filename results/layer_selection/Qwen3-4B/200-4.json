@@ -1,0 +1,320 @@
+{
+  "model_name": "/root/GraduationProject/models/Qwen3-4B",
+  "hparams": "/root/GraduationProject/src/memit_project/algorithms/memit/Qwen3-4B.json",
+  "dataset": "knowns",
+  "dataset_size_limit": 200,
+  "samples": 12,
+  "noise": 0.08970009535551071,
+  "fact_token": "subject_last",
+  "rewrite_module_tmp": "model.layers.{}.mlp.down_proj",
+  "num_layers": 36,
+  "n_facts_used": 113,
+  "layer_scores": [
+    0.16893177505218568,
+    0.031917475700979504,
+    0.012582744499095674,
+    0.026304235306734577,
+    0.011610093375372879,
+    0.020680470983999066,
+    0.013514508774597905,
+    0.0612750556203149,
+    0.08192952658283474,
+    0.038780850783835655,
+    0.055834842957095704,
+    0.019154241554890983,
+    0.0165991150729682,
+    0.00626537394223766,
+    -0.00129245281229224,
+    7.222744878740345e-05,
+    -0.00037373858251339064,
+    0.0015024413772174177,
+    0.0007464631570031658,
+    -0.0008524153688082743,
+    0.0030572314994356227,
+    0.0018679897949452596,
+    0.009456573807089835,
+    0.01492238971864186,
+    0.001762573463811768,
+    0.0007097682217107829,
+    0.0011278189268236068,
+    0.0011755572168358627,
+    0.002430030297918259,
+    0.0015540645988793064,
+    0.0010855853557053111,
+    -7.495479049029518e-05,
+    9.764426813195692e-05,
+    5.93731163473797e-05,
+    -0.00018041889704661871,
+    0.0
+  ],
+  "layer_score_std": [
+    0.40381683690555714,
+    0.13247142805754084,
+    0.12171913805680652,
+    0.24830088149640558,
+    0.16540555118337322,
+    0.15929137792903583,
+    0.08879998679067351,
+    0.18579727945845215,
+    0.1887889121493883,
+    0.08579434801674608,
+    0.1387038130733749,
+    0.10362589352695507,
+    0.06372091053144414,
+    0.03809815913993739,
+    0.020417294091608043,
+    0.015806439085253247,
+    0.007216901478848599,
+    0.008980724337515414,
+    0.006042548198822887,
+    0.00917735392565406,
+    0.011399580483287113,
+    0.01008835426016133,
+    0.03507259287876547,
+    0.040896627701989124,
+    0.007339450383981405,
+    0.002478790794810765,
+    0.006476080006706823,
+    0.003052183184280247,
+    0.010241921482704665,
+    0.003420956948922879,
+    0.0028089624336433234,
+    0.002441360379183052,
+    0.0015105704401753909,
+    0.0006695902220741424,
+    0.0017312655622072411,
+    0.0
+  ],
+  "layer_scores_smoothed": [
+    0.12326034193511695,
+    0.07114399841742028,
+    0.023601485168936585,
+    0.01683235772706771,
+    0.01953159988870217,
+    0.015268357711323281,
+    0.031823345126303956,
+    0.05223969699258251,
+    0.06066181099566176,
+    0.05884840677458869,
+    0.03792331176527411,
+    0.030529399861651627,
+    0.014006243523365613,
+    0.007190678734304539,
+    0.0016817161929109413,
+    -0.0005313213153394091,
+    0.00040031008116381007,
+    0.0006250553172357309,
+    0.0004654963884707696,
+    0.0009837597625435045,
+    0.0013576019751908692,
+    0.004793931700490239,
+    0.008748984440225652,
+    0.008713845663181154,
+    0.005798243801388137,
+    0.0012000535374487192,
+    0.0010043814551234174,
+    0.0015778021471925762,
+    0.0017198840378778095,
+    0.0016898934175009588,
+    0.0008548983880314407,
+    0.00036942494444899094,
+    2.7354197996347138e-05,
+    -7.80050418909404e-06,
+    -4.034859356641301e-05,
+    -6.0139632348872905e-05
+  ],
+  "recommendations": [
+    {
+      "width": 4,
+      "start_layer": 0,
+      "end_layer": 3,
+      "mean_score": 0.05870954581213538
+    },
+    {
+      "width": 5,
+      "start_layer": 0,
+      "end_layer": 4,
+      "mean_score": 0.05087395662744874
+    },
+    {
+      "width": 6,
+      "start_layer": 6,
+      "end_layer": 11,
+      "mean_score": 0.045337661919343776
+    },
+    {
+      "width": 7,
+      "start_layer": 0,
+      "end_layer": 6,
+      "mean_score": 0.043065926567838704
+    },
+    {
+      "width": 8,
+      "start_layer": 0,
+      "end_layer": 7,
+      "mean_score": 0.04421264787093168
+    }
+  ],
+  "facts_used": [
+    {
+      "case_id": 0,
+      "prompt": "Vinson Massif is located in the continent of",
+      "subject": "Vinson Massif",
+      "answer": " Antarctica",
+      "high_score": 0.3863191306591034,
+      "low_score": 0.03331418335437775
+    },
+    {
+      "case_id": 1,
+      "prompt": "Beats Music is owned by",
+      "subject": "Beats Music",
+      "answer": " Apple",
+      "high_score": 0.4072473645210266,
+      "low_score": 0.0017795886378735304
+    },
+    {
+      "case_id": 4,
+      "prompt": "MacApp, a product created by",
+      "subject": "MacApp",
+      "answer": " Apple",
+      "high_score": 0.7737534046173096,
+      "low_score": 0.0028191092424094677
+    },
+    {
+      "case_id": 5,
+      "prompt": "Giuseppe Angeli, who has a citizenship of",
+      "subject": "Giuseppe Angeli",
+      "answer": " Italy",
+      "high_score": 0.7684344053268433,
+      "low_score": 0.009271092712879181
+    },
+    {
+      "case_id": 6,
+      "prompt": "Catalonia belongs to the continent of",
+      "subject": "Catalonia",
+      "answer": " Europe",
+      "high_score": 0.6659234166145325,
+      "low_score": 0.062311701476573944
+    },
+    {
+      "case_id": 7,
+      "prompt": "In Marshall Islands, the language spoken is a mixture of",
+      "subject": "Marshall Islands",
+      "answer": " English",
+      "high_score": 0.5276616215705872,
+      "low_score": 0.26329633593559265
+    },
+    {
+      "case_id": 8,
+      "prompt": "Leslie Moonves is employed by",
+      "subject": "Leslie Moonves",
+      "answer": " CBS",
+      "high_score": 0.6210118532180786,
+      "low_score": 3.055662091355771e-05
+    },
+    {
+      "case_id": 10,
+      "prompt": "Kirkpatrick Glacier belongs to the continent of",
+      "subject": "Kirkpatrick Glacier",
+      "answer": " Antarctica",
+      "high_score": 0.3356418311595917,
+      "low_score": 0.02019236423075199
+    },
+    {
+      "case_id": 12,
+      "prompt": "Il Gazzettino was written in the early 1980s, when the",
+      "subject": "Il Gazzettino",
+      "answer": " Italian",
+      "high_score": 0.08571053296327591,
+      "low_score": 0.0006373118958435953
+    },
+    {
+      "case_id": 18,
+      "prompt": "Tizen is developed by a consortium of companies including",
+      "subject": "Tizen",
+      "answer": " Samsung",
+      "high_score": 0.9404009580612183,
+      "low_score": 0.02085145376622677
+    },
+    {
+      "case_id": 19,
+      "prompt": "Honus Wagner professionally plays the sport of",
+      "subject": "Honus Wagner",
+      "answer": " baseball",
+      "high_score": 0.952548623085022,
+      "low_score": 0.06369810551404953
+    },
+    {
+      "case_id": 20,
+      "prompt": "samurai cinema, that originated in",
+      "subject": "samurai cinema",
+      "answer": " Japan",
+      "high_score": 0.4694804847240448,
+      "low_score": 0.01500699669122696
+    },
+    {
+      "case_id": 21,
+      "prompt": "The capital of Roman Republic is",
+      "subject": "Roman Republic",
+      "answer": " Rome",
+      "high_score": 0.5512704253196716,
+      "low_score": 0.0016246795421466231
+    },
+    {
+      "case_id": 23,
+      "prompt": "Adriano Celentano is a citizen of",
+      "subject": "Adriano Celentano",
+      "answer": " Italy",
+      "high_score": 0.34983348846435547,
+      "low_score": 0.0007299836142919958
+    },
+    {
+      "case_id": 25,
+      "prompt": "Windows Media Player is developed by",
+      "subject": "Windows Media Player",
+      "answer": " Microsoft",
+      "high_score": 0.9237345457077026,
+      "low_score": 0.009931724518537521
+    },
+    {
+      "case_id": 26,
+      "prompt": "NTFS is developed by",
+      "subject": "NTFS",
+      "answer": " Microsoft",
+      "high_score": 0.6911296248435974,
+      "low_score": 0.007136120460927486
+    },
+    {
+      "case_id": 28,
+      "prompt": "Don Shula professionally plays the sport of",
+      "subject": "Don Shula",
+      "answer": " football",
+      "high_score": 0.6116642951965332,
+      "low_score": 0.06717915832996368
+    },
+    {
+      "case_id": 29,
+      "prompt": "The language of El Mercurio was a mixture of",
+      "subject": "El Mercurio",
+      "answer": " Spanish",
+      "high_score": 0.41014280915260315,
+      "low_score": 0.002520971931517124
+    },
+    {
+      "case_id": 30,
+      "prompt": "Iron Man is affiliated with the",
+      "subject": "Iron Man",
+      "answer": " Avengers",
+      "high_score": 0.7526720762252808,
+      "low_score": 2.227072764071636e-05
+    },
+    {
+      "case_id": 31,
+      "prompt": "The location of Massachusetts Institute of Technology is in",
+      "subject": "Massachusetts Institute of Technology",
+      "answer": " Cambridge",
+      "high_score": 0.32474470138549805,
+      "low_score": 1.4155964890960604e-05
+    }
+  ]
+}

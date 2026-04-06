@@ -1,0 +1,16 @@
+{
+    "lr_scale": 1.0,
+    "n_toks": 10,
+    "model_name": "Qwen3-4B",
+    "counterfact": true,
+    "zsre": false,
+    "mini": false,
+    "checkpoint_path": null,
+    "layers": [6, 7, 8, 9, 10, 11],
+    "rewrite_module_tmp": "model.layers.{}.mlp.down_proj",
+    "layer_module_tmp": "model.layers.{}",
+    "mlp_module_tmp": "model.layers.{}.mlp",
+    "attn_module_tmp": "model.layers.{}.self_attn",
+    "ln_f_module": "model.norm",
+    "lm_head_module": "lm_head"
+}

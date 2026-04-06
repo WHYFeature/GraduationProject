@@ -64,6 +64,31 @@ DS_DICT = {
 }
 
 
+def resolve_hparams_path(alg_name: str, hparams_fname: str, run_dir: Path, continue_from_run):
+    if continue_from_run is not None:
+        return run_dir / "params.json"
+
+    candidate_dirs = [
+        HPARAMS_DIR / alg_name,
+        HPARAMS_DIR / alg_name.lower(),
+        HPARAMS_DIR / alg_name.upper(),
+    ]
+    for candidate_dir in candidate_dirs:
+        candidate = candidate_dir / hparams_fname
+        if candidate.exists():
+            return candidate
+    raise FileNotFoundError(
+        f"Could not find hparams '{hparams_fname}' for algorithm '{alg_name}' under {HPARAMS_DIR}."
+    )
+
+
+def restore_model_weights(model, weights_copy):
+    with torch.no_grad():
+        for name, value in weights_copy.items():
+            param = nethook.get_parameter(model, name)
+            param[...] = value.to(param.device)
+
+
 def main(
     alg_name: str,
     model_name: Union[str, Tuple],
@@ -105,11 +130,7 @@ def main(
     print(f"Results will be stored at {run_dir}")
 
     # Get run hyperparameters
-    params_path = (
-        run_dir / "params.json"
-        if continue_from_run is not None
-        else HPARAMS_DIR / alg_name / hparams_fname
-    )
+    params_path = resolve_hparams_path(alg_name, hparams_fname, run_dir, continue_from_run)
     hparams = params_class.from_json(params_path)
     if not (run_dir / "params.json").exists():
         shutil.copyfile(params_path, run_dir / "params.json")
@@ -186,60 +207,58 @@ def main(
         )
         etc_args = dict(cache_template=cache_template) if any(alg in alg_name for alg in ["ROME", "MEMIT"]) else dict()
 
-        start = time()
-        edited_model, weights_copy = apply_algo(
-            model,
-            tok,
-            [
-                {"case_id": record["case_id"], **record["requested_rewrite"]}
-                for record in record_chunks
-            ],
-            hparams,
-            copy=False,
-            return_orig_weights=True,
-            **args_conserve_memory,
-            **etc_args,
-        )
-        exec_time = time() - start
-        print("Execution took", exec_time)
+        weights_copy = {}
+        eval_start = time()
+        try:
+            start = time()
+            edited_model, weights_copy = apply_algo(
+                model,
+                tok,
+                [
+                    {"case_id": record["case_id"], **record["requested_rewrite"]}
+                    for record in record_chunks
+                ],
+                hparams,
+                copy=False,
+                return_orig_weights=True,
+                **args_conserve_memory,
+                **etc_args,
+            )
+            exec_time = time() - start
+            print("Execution took", exec_time)
 
-        # Evaluate new model
-        start = time()
-        gen_test_vars = [snips, vec]
-        for record in record_chunks:
-            out_file = Path(case_result_template.format(num_edits, record["case_id"]))
-            if out_file.exists():
-                print(f"Skipping {out_file}; already exists")
-                continue
+            gen_test_vars = [snips, vec]
+            for record in record_chunks:
+                out_file = Path(case_result_template.format(num_edits, record["case_id"]))
+                if out_file.exists():
+                    print(f"Skipping {out_file}; already exists")
+                    continue
 
-            metrics = {
-                "case_id": record["case_id"],
-                "grouped_case_ids": case_ids,
-                "num_edits": num_edits,
-                "requested_rewrite": record["requested_rewrite"],
-                "time": exec_time,
-                "post": ds_eval_method(
-                    edited_model,
-                    tok,
-                    record,
-                    *(
-                        gen_test_vars
-                        if record["case_id"] % generation_test_interval == 0
-                        else [None, None]
-                    ),  # Only test generation every generation_test_interval cases
-                ),
-            }
+                metrics = {
+                    "case_id": record["case_id"],
+                    "grouped_case_ids": case_ids,
+                    "num_edits": num_edits,
+                    "requested_rewrite": record["requested_rewrite"],
+                    "time": exec_time,
+                    "post": ds_eval_method(
+                        edited_model,
+                        tok,
+                        record,
+                        *(
+                            gen_test_vars
+                            if record["case_id"] % generation_test_interval == 0
+                            else [None, None]
+                        ),
+                    ),
+                }
 
-            # Dump metrics in .json
-            with open(out_file, "w") as f:
-                json.dump(metrics, f, indent=1)
+                with open(out_file, "w") as f:
+                    json.dump(metrics, f, indent=1)
+        finally:
+            if weights_copy:
+                restore_model_weights(model, weights_copy)
 
-        # Restore original weights
-        with torch.no_grad():
-            for k, v in weights_copy.items():
-                nethook.get_parameter(model, k)[...] = v.to("cuda")
-
-        print("Evaluation took", time() - start)
+        print("Evaluation took", time() - eval_start)
 
 
 def window(seq, n=2):
