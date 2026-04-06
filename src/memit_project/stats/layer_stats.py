@@ -104,6 +104,7 @@ def layer_stats(
     ds_name,
     to_collect,
     model_name=None,
+    model_config=None,
     sample_size=None,
     precision=None,
     batch_tokens=None,
@@ -114,6 +115,7 @@ def layer_stats(
     """
     Function to load or compute cached stats.
     """
+    model_cfg = model_config or load_model_config(model.config._name_or_path)
 
     def get_ds():
         raw_ds = load_dataset(
@@ -135,7 +137,7 @@ def layer_stats(
     dtype = getattr(torch, precision)
     size_suffix = "" if sample_size is None else f"_{sample_size}"
     if batch_tokens < npos:
-        size_suffix = "_t{batch_tokens}" + size_suffix
+        size_suffix = f"_t{batch_tokens}" + size_suffix
     if model_name is None:
         model_name = model_cfg.get("model_key", model.config._name_or_path)
 
