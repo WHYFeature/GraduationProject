@@ -4,7 +4,11 @@ import numpy as np
 import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
-from memit_project.algorithms.rome import repr_tools
+from memit_project.algorithms.rome.repr_tools import (
+    get_reprs_at_idxs,
+    get_reprs_at_word_tokens,
+    get_words_idxs_in_templates,
+)
 from memit_project.utils import nethook
 from memit_project.utils.model_config import get_hidden_size
 
@@ -212,7 +216,7 @@ def get_module_input_output_at_words(
             words=words,
         )
         subtoken = fact_token_strategy[len("subject_") :]
-        l_input, l_output = repr_tools.get_reprs_at_word_tokens(
+        l_input, l_output = get_reprs_at_word_tokens(
             track="both", subtoken=subtoken, **context_info, **word_repr_args
         )
     elif fact_token_strategy == "last":
@@ -223,7 +227,7 @@ def get_module_input_output_at_words(
             ],
             idxs=[000000],
         )
-        l_input, l_output = repr_tools.get_reprs_at_idxs(
+        l_input, l_output = get_reprs_at_idxs(
             track="both", **context_info, **word_repr_args
         )
     else:
@@ -249,7 +253,7 @@ def find_fact_lookup_idx(
     elif (
         "subject_" in fact_token_strategy and fact_token_strategy.index("subject_") == 0
     ):
-        ret = repr_tools.get_words_idxs_in_templates(
+        ret = get_words_idxs_in_templates(
             tok=tok,
             context_templates=[prompt],
             words=[subject],
