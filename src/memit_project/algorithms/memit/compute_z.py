@@ -40,6 +40,28 @@ def get_lm_head_components(
     return lm_w, ln_f, lm_b
 
 
+def get_hidden_tensor(output):
+    if isinstance(output, torch.Tensor):
+        return output
+    if isinstance(output, (tuple, list)) and output:
+        first = output[0]
+        if isinstance(first, torch.Tensor):
+            return first
+    raise TypeError(f"Unsupported layer output type: {type(output)}")
+
+
+def replace_hidden_tensor(output, new_hidden):
+    if isinstance(output, torch.Tensor):
+        return new_hidden
+    if isinstance(output, tuple):
+        return (new_hidden, *output[1:])
+    if isinstance(output, list):
+        result = list(output)
+        result[0] = new_hidden
+        return result
+    raise TypeError(f"Unsupported layer output type: {type(output)}")
+
+
 def compute_z(
     model: AutoModelForCausalLM,
     tok: AutoTokenizer,
@@ -111,15 +133,18 @@ def compute_z(
         nonlocal target_init
 
         if cur_layer == hparams.layer_module_tmp.format(layer):
+            hidden = get_hidden_tensor(cur_out)
             # Store initial value of the vector of interest
             if target_init is None:
                 print("Recording initial value of v*")
                 # Initial value is recorded for the clean sentence
-                target_init = cur_out[0][0, lookup_idxs[0]].detach().clone()
+                target_init = hidden[0, lookup_idxs[0]].detach().clone()
 
             # Add intervened delta
             for i, idx in enumerate(lookup_idxs):
-                cur_out[0][i, idx, :] += delta
+                hidden[i, idx, :] += delta
+
+            cur_out = replace_hidden_tensor(cur_out, hidden)
 
         return cur_out
 
@@ -157,9 +182,9 @@ def compute_z(
                 kl_distr_init = kl_log_probs.detach().clone()
 
         # Compute loss on rewriting targets
-        full_repr = tr[hparams.layer_module_tmp.format(loss_layer)].output[0][
-            : len(rewriting_prompts)
-        ]
+        full_repr = get_hidden_tensor(
+            tr[hparams.layer_module_tmp.format(loss_layer)].output
+        )[: len(rewriting_prompts)]
         log_probs = torch.log_softmax(ln_f(full_repr) @ lm_w + lm_b, dim=2)
         loss = torch.gather(
             log_probs,
