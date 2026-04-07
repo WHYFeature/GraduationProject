@@ -32,7 +32,8 @@ STAT_TYPES = {
 
 LOCAL_CORPORA = {
     "wikitext": DATA_DIR / "corpora" / "wikitext-103-raw-v1",
-    "wikipedia": DATA_DIR / "corpora" / "wikipedia_20220301_en",
+    # Use wikitext as the sole local large-text corpus for offline runs.
+    "wikipedia": DATA_DIR / "corpora" / "wikitext-103-raw-v1",
 }
 
 class ListTextDataset:
@@ -91,12 +92,19 @@ def load_local_corpus(ds_name: str):
         return None
 
     print(f"Loading local corpus for '{ds_name}' from {corpus_path}.")
-    ds = load_from_disk(str(corpus_path))
-    if isinstance(ds, dict):
-        return ds["train"]
-    if "train" in ds:
-        return ds["train"]
-    return ds
+    try:
+        ds = load_from_disk(str(corpus_path))
+        if isinstance(ds, dict):
+            return ds["train"]
+        if "train" in ds:
+            return ds["train"]
+        return ds
+    except Exception as e:
+        print(
+            f"Local corpus at {corpus_path} is unavailable or incomplete ({e}). "
+            "Falling back to the local small-text corpus."
+        )
+        return None
 
 
 def main():
