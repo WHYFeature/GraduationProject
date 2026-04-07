@@ -10,8 +10,14 @@ config_path = CONFIG_PATH if CONFIG_PATH.exists() else LEGACY_CONFIG_PATH
 with open(config_path, "r", encoding="utf-8") as stream:
     data = yaml.safe_load(stream)
 
+
+def resolve_config_path(value: str) -> Path:
+    path = Path(value)
+    return path if path.is_absolute() else PROJECT_ROOT / path
+
+
 (RESULTS_DIR, DATA_DIR, STATS_DIR, HPARAMS_DIR, KV_DIR) = (
-    PROJECT_ROOT / Path(z)
+    resolve_config_path(z)
     for z in [
         data["RESULTS_DIR"],
         data["DATA_DIR"],
