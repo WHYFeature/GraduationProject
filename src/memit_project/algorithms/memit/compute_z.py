@@ -15,6 +15,31 @@ from memit_project.utils.model_config import get_hidden_size
 from .hparams import MEMITHyperParams
 
 
+def get_lm_head_components(
+    model: AutoModelForCausalLM, hparams: MEMITHyperParams
+) -> Tuple[torch.Tensor, torch.nn.Module, torch.Tensor]:
+    try:
+        lm_module = nethook.get_module(model, hparams.lm_head_module)
+    except LookupError:
+        lm_module = None
+
+    if lm_module is None:
+        lm_module = model.get_output_embeddings()
+
+    if lm_module is None or not hasattr(lm_module, "weight"):
+        raise LookupError(
+            f"Unable to locate output embedding/lm head module for {hparams.lm_head_module}"
+        )
+
+    lm_w = lm_module.weight.T
+    lm_b = getattr(lm_module, "bias", None)
+    if lm_b is None:
+        lm_b = next(model.parameters()).new_zeros(model.config.vocab_size)
+
+    ln_f = nethook.get_module(model, hparams.ln_f_module)
+    return lm_w, ln_f, lm_b
+
+
 def compute_z(
     model: AutoModelForCausalLM,
     tok: AutoTokenizer,
@@ -29,14 +54,7 @@ def compute_z(
     """
 
     # Get model parameters
-    lm_w, ln_f = (
-        nethook.get_parameter(model, f"{hparams.lm_head_module}.weight").T,
-        nethook.get_module(model, hparams.ln_f_module),
-    )
-    try:
-        lm_b = nethook.get_parameter(model, f"{hparams.lm_head_module}.bias")
-    except LookupError as _:
-        lm_b = next(model.parameters()).new_zeros(model.config.vocab_size)
+    lm_w, ln_f, lm_b = get_lm_head_components(model, hparams)
 
     print("Computing right vector (v)")
 
