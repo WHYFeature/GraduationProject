@@ -10,7 +10,6 @@ from transformers import AutoModelForCausalLM, AutoTokenizer
 
 from memit_project.stats.layer_stats import layer_stats
 from memit_project.utils import nethook
-from memit_project.utils.generate import generate_fast
 from memit_project.utils.paths import STATS_DIR
 
 from .compute_ks import compute_ks
@@ -298,18 +297,15 @@ def get_context_templates(model, tok):
     global CONTEXT_TEMPLATES_CACHE
 
     if CONTEXT_TEMPLATES_CACHE is None:
-        CONTEXT_TEMPLATES_CACHE = [["{}"]] + [
+        CONTEXT_TEMPLATES_CACHE = [
+            ["{}"],
             [
-                f.replace("{", " ").replace("}", " ") + ". {}"
-                for f in generate_fast(
-                    model,
-                    tok,
-                    ["The", "Therefore", "Because", "I", "You"],
-                    n_gen_per_prompt=n_gen // 5,
-                    max_out_len=length,
-                )
-            ]
-            for length, n_gen in [(10, 5)]  # Be careful about changing this.
+                "In one sentence, {}",
+                "As a factual statement, {}",
+                "According to the reference, {}",
+                "It is known that {}",
+                "The encyclopedia entry states that {}",
+            ],
         ]
         print(f"Cached context templates {CONTEXT_TEMPLATES_CACHE}")
 

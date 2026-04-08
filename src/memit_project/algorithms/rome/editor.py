@@ -7,8 +7,6 @@ import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
 from memit_project.utils import nethook
-from memit_project.utils.generate import generate_fast
-
 from .compute_u import compute_u
 from .compute_v import compute_v
 from .hparams import ROMEHyperParams
@@ -157,20 +155,12 @@ def upd_matrix_match_shape(matrix: torch.Tensor, shape: torch.Size) -> torch.Ten
 def get_context_templates(model, tok, length_params):
     global CONTEXT_TEMPLATES_CACHE
     if CONTEXT_TEMPLATES_CACHE is None:
-        CONTEXT_TEMPLATES_CACHE = ["{}"] + [
-            x + ". {}"
-            for x in sum(
-                (
-                    generate_fast(
-                        model,
-                        tok,
-                        ["<|endoftext|>"],
-                        n_gen_per_prompt=n_gen,
-                        max_out_len=length,
-                    )
-                    for length, n_gen in length_params
-                ),
-                [],
-            )
+        CONTEXT_TEMPLATES_CACHE = [
+            "{}",
+            "In one sentence, {}",
+            "As a factual statement, {}",
+            "According to the reference, {}",
+            "It is known that {}",
+            "The encyclopedia entry states that {}",
         ]
     return CONTEXT_TEMPLATES_CACHE
