@@ -1,0 +1,100 @@
+{
+ "case_id": 70,
+ "grouped_case_ids": [
+  70
+ ],
+ "num_edits": 1,
+ "requested_rewrite": {
+  "prompt": "The twin city of {} is",
+  "relation_id": "P190",
+  "target_new": {
+   "str": "Florence",
+   "id": "Q2044"
+  },
+  "target_true": {
+   "str": "Istanbul",
+   "id": "Q406"
+  },
+  "subject": "Beirut"
+ },
+ "time": 3.8862648010253906,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.002498126355931163,
+    "target_true": 18.72020721435547
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 2.550856113433838,
+    "target_true": 13.032054901123047
+   },
+   {
+    "target_new": 0.005416361149400473,
+    "target_true": 16.659582138061523
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 6.669580459594727,
+    "target_true": 10.701263427734375
+   },
+   {
+    "target_new": 10.580107688903809,
+    "target_true": 10.48952865600586
+   },
+   {
+    "target_new": 7.976161956787109,
+    "target_true": 9.571159362792969
+   },
+   {
+    "target_new": 7.8827409744262695,
+    "target_true": 8.895529747009277
+   },
+   {
+    "target_new": 8.390239715576172,
+    "target_true": 6.439677715301514
+   },
+   {
+    "target_new": 9.81606674194336,
+    "target_true": 11.688762664794922
+   },
+   {
+    "target_new": 9.260509490966797,
+    "target_true": 11.456510543823242
+   },
+   {
+    "target_new": 8.304357528686523,
+    "target_true": 8.0525541305542
+   },
+   {
+    "target_new": 10.22247314453125,
+    "target_true": 9.23812484741211
+   },
+   {
+    "target_new": 4.141353607177734,
+    "target_true": 9.617351531982422
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ]
+ }
+}

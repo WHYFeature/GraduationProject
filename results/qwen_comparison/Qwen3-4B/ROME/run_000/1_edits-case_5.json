@@ -1,0 +1,100 @@
+{
+ "case_id": 5,
+ "grouped_case_ids": [
+  5
+ ],
+ "num_edits": 1,
+ "requested_rewrite": {
+  "prompt": "The mother tongue of {} is",
+  "relation_id": "P103",
+  "target_new": {
+   "str": "English",
+   "id": "Q1860"
+  },
+  "target_true": {
+   "str": "Dutch",
+   "id": "Q7411"
+  },
+  "subject": "Thomas Joannes Stieltjes"
+ },
+ "time": 4.980443477630615,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.00013255194062367082,
+    "target_true": 14.370708465576172
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 7.732090950012207,
+    "target_true": 10.942926406860352
+   },
+   {
+    "target_new": 6.935732364654541,
+    "target_true": 12.12252426147461
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 1.9326658248901367,
+    "target_true": 6.082320213317871
+   },
+   {
+    "target_new": 2.1519861221313477,
+    "target_true": 0.4236077070236206
+   },
+   {
+    "target_new": 3.5288634300231934,
+    "target_true": 3.435245990753174
+   },
+   {
+    "target_new": 4.513519763946533,
+    "target_true": 0.10881678014993668
+   },
+   {
+    "target_new": 2.1467502117156982,
+    "target_true": 0.42941731214523315
+   },
+   {
+    "target_new": 4.031736850738525,
+    "target_true": 0.2161182016134262
+   },
+   {
+    "target_new": 12.270567893981934,
+    "target_true": 15.053696632385254
+   },
+   {
+    "target_new": 1.970389485359192,
+    "target_true": 0.5039435625076294
+   },
+   {
+    "target_new": 3.082160234451294,
+    "target_true": 0.5033562183380127
+   },
+   {
+    "target_new": 4.142101287841797,
+    "target_true": 0.13680915534496307
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   true,
+   false,
+   true,
+   true,
+   true,
+   false,
+   true,
+   true,
+   true
+  ]
+ }
+}

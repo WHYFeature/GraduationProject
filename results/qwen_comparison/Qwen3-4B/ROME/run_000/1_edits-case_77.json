@@ -1,0 +1,100 @@
+{
+ "case_id": 77,
+ "grouped_case_ids": [
+  77
+ ],
+ "num_edits": 1,
+ "requested_rewrite": {
+  "prompt": "{} is a product of",
+  "relation_id": "P178",
+  "target_new": {
+   "str": "IBM",
+   "id": "Q37156"
+  },
+  "target_true": {
+   "str": "Microsoft",
+   "id": "Q2283"
+  },
+  "subject": "Windows Embedded CE 6.0"
+ },
+ "time": 4.88857889175415,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.009979828260838985,
+    "target_true": 6.602600574493408
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.001620528637431562,
+    "target_true": 11.610825538635254
+   },
+   {
+    "target_new": 1.2607096433639526,
+    "target_true": 0.3604658544063568
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 9.092148780822754,
+    "target_true": 0.04444214329123497
+   },
+   {
+    "target_new": 1.69096839427948,
+    "target_true": 1.8332642316818237
+   },
+   {
+    "target_new": 7.765653610229492,
+    "target_true": 0.1150236427783966
+   },
+   {
+    "target_new": 4.360640525817871,
+    "target_true": 0.38920703530311584
+   },
+   {
+    "target_new": 2.336353302001953,
+    "target_true": 0.38712310791015625
+   },
+   {
+    "target_new": 19.09760856628418,
+    "target_true": 0.0009703694959171116
+   },
+   {
+    "target_new": 5.880830764770508,
+    "target_true": 0.5720061659812927
+   },
+   {
+    "target_new": 7.491401195526123,
+    "target_true": 0.03380171209573746
+   },
+   {
+    "target_new": 10.958576202392578,
+    "target_true": 0.064788319170475
+   },
+   {
+    "target_new": 16.367164611816406,
+    "target_true": 0.013592899776995182
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   true,
+   false,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true
+  ]
+ }
+}

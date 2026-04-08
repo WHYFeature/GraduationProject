@@ -1,0 +1,100 @@
+{
+ "case_id": 4,
+ "grouped_case_ids": [
+  4
+ ],
+ "num_edits": 1,
+ "requested_rewrite": {
+  "prompt": "What is the twin city of {}? It is",
+  "relation_id": "P190",
+  "target_new": {
+   "str": "Manila",
+   "id": "Q1461"
+  },
+  "target_true": {
+   "str": "Beirut",
+   "id": "Q3820"
+  },
+  "subject": "Lyon"
+ },
+ "time": 4.389040946960449,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.0008628221112303436,
+    "target_true": 26.98671531677246
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 6.778236389160156,
+    "target_true": 10.235164642333984
+   },
+   {
+    "target_new": 0.08756560832262039,
+    "target_true": 24.870901107788086
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 12.568990707397461,
+    "target_true": 16.1832332611084
+   },
+   {
+    "target_new": 13.979419708251953,
+    "target_true": 14.890888214111328
+   },
+   {
+    "target_new": 16.26349449157715,
+    "target_true": 11.52225112915039
+   },
+   {
+    "target_new": 15.275493621826172,
+    "target_true": 14.321292877197266
+   },
+   {
+    "target_new": 13.279481887817383,
+    "target_true": 21.353517532348633
+   },
+   {
+    "target_new": 17.158836364746094,
+    "target_true": 13.685161590576172
+   },
+   {
+    "target_new": 13.340380668640137,
+    "target_true": 12.164969444274902
+   },
+   {
+    "target_new": 12.801491737365723,
+    "target_true": 12.361796379089355
+   },
+   {
+    "target_new": 11.494028091430664,
+    "target_true": 15.458003997802734
+   },
+   {
+    "target_new": 15.64988899230957,
+    "target_true": 13.111980438232422
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ]
+ }
+}

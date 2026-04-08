@@ -1,0 +1,100 @@
+{
+ "case_id": 80,
+ "grouped_case_ids": [
+  80
+ ],
+ "num_edits": 1,
+ "requested_rewrite": {
+  "prompt": "{} died in the city of",
+  "relation_id": "P20",
+  "target_new": {
+   "str": "Paris",
+   "id": "Q90"
+  },
+  "target_true": {
+   "str": "Naples",
+   "id": "Q2634"
+  },
+  "subject": "Fedele Fischetti"
+ },
+ "time": 0.10509371757507324,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.3625607192516327,
+    "target_true": 29.07633399963379
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.4318982660770416,
+    "target_true": 21.067174911499023
+   },
+   {
+    "target_new": 1.093001127243042,
+    "target_true": 18.183998107910156
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 0.08731263130903244,
+    "target_true": 23.794527053833008
+   },
+   {
+    "target_new": 0.6735555529594421,
+    "target_true": 26.789480209350586
+   },
+   {
+    "target_new": 0.11324343085289001,
+    "target_true": 22.051982879638672
+   },
+   {
+    "target_new": 0.36871159076690674,
+    "target_true": 18.730730056762695
+   },
+   {
+    "target_new": 0.05402737855911255,
+    "target_true": 24.859800338745117
+   },
+   {
+    "target_new": 0.6650499701499939,
+    "target_true": 17.209163665771484
+   },
+   {
+    "target_new": 0.4238675534725189,
+    "target_true": 27.659564971923828
+   },
+   {
+    "target_new": 0.13131055235862732,
+    "target_true": 20.49068832397461
+   },
+   {
+    "target_new": 0.2649109661579132,
+    "target_true": 19.184139251708984
+   },
+   {
+    "target_new": 0.13027244806289673,
+    "target_true": 18.840999603271484
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ]
+ }
+}

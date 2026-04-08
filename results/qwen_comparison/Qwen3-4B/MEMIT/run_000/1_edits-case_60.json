@@ -1,0 +1,100 @@
+{
+ "case_id": 60,
+ "grouped_case_ids": [
+  60
+ ],
+ "num_edits": 1,
+ "requested_rewrite": {
+  "prompt": "{} is a citizen of",
+  "relation_id": "P27",
+  "target_new": {
+   "str": "Japan",
+   "id": "Q17"
+  },
+  "target_true": {
+   "str": "Canada",
+   "id": "Q16"
+  },
+  "subject": "Carol Zhao"
+ },
+ "time": 5.730335474014282,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.2788746654987335,
+    "target_true": 6.3889241218566895
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.043017953634262085,
+    "target_true": 8.353826522827148
+   },
+   {
+    "target_new": 0.9608650803565979,
+    "target_true": 3.8258934020996094
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 8.050707817077637,
+    "target_true": 3.135469913482666
+   },
+   {
+    "target_new": 7.743323802947998,
+    "target_true": 4.158387660980225
+   },
+   {
+    "target_new": 7.589742183685303,
+    "target_true": 1.665788173675537
+   },
+   {
+    "target_new": 8.951478958129883,
+    "target_true": 1.149045705795288
+   },
+   {
+    "target_new": 8.711374282836914,
+    "target_true": 0.36312490701675415
+   },
+   {
+    "target_new": 7.04478120803833,
+    "target_true": 4.119638919830322
+   },
+   {
+    "target_new": 6.146890163421631,
+    "target_true": 3.2296812534332275
+   },
+   {
+    "target_new": 8.671122550964355,
+    "target_true": 4.153428077697754
+   },
+   {
+    "target_new": 10.42593765258789,
+    "target_true": 1.9770021438598633
+   },
+   {
+    "target_new": 8.250229835510254,
+    "target_true": 4.0018630027771
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   true,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false
+  ]
+ }
+}

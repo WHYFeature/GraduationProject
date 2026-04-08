@@ -1,0 +1,100 @@
+{
+ "case_id": 90,
+ "grouped_case_ids": [
+  90
+ ],
+ "num_edits": 1,
+ "requested_rewrite": {
+  "prompt": "The twin city of {} is",
+  "relation_id": "P190",
+  "target_new": {
+   "str": "Istanbul",
+   "id": "Q406"
+  },
+  "target_true": {
+   "str": "Damascus",
+   "id": "Q3766"
+  },
+  "subject": "Rabat"
+ },
+ "time": 3.9531099796295166,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.0010419422760605812,
+    "target_true": 15.951618194580078
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.03678274154663086,
+    "target_true": 11.477008819580078
+   },
+   {
+    "target_new": 0.13726463913917542,
+    "target_true": 9.978939056396484
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 6.596987247467041,
+    "target_true": 11.398344039916992
+   },
+   {
+    "target_new": 7.325449466705322,
+    "target_true": 7.979557514190674
+   },
+   {
+    "target_new": 13.221455574035645,
+    "target_true": 17.28472900390625
+   },
+   {
+    "target_new": 9.511356353759766,
+    "target_true": 15.475040435791016
+   },
+   {
+    "target_new": 7.542306900024414,
+    "target_true": 5.727816581726074
+   },
+   {
+    "target_new": 9.454224586486816,
+    "target_true": 15.855944633483887
+   },
+   {
+    "target_new": 2.842632532119751,
+    "target_true": 2.5009920597076416
+   },
+   {
+    "target_new": 5.581075191497803,
+    "target_true": 9.671195983886719
+   },
+   {
+    "target_new": 8.503472328186035,
+    "target_true": 12.832464218139648
+   },
+   {
+    "target_new": 14.575895309448242,
+    "target_true": 16.983858108520508
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ]
+ }
+}

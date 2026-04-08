@@ -1,0 +1,100 @@
+{
+ "case_id": 12,
+ "grouped_case_ids": [
+  12
+ ],
+ "num_edits": 1,
+ "requested_rewrite": {
+  "prompt": "{} spoke the language",
+  "relation_id": "P103",
+  "target_new": {
+   "str": "Russian",
+   "id": "Q7737"
+  },
+  "target_true": {
+   "str": "French",
+   "id": "Q150"
+  },
+  "subject": "Michel Denisot"
+ },
+ "time": 3.92122745513916,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.0009155849111266434,
+    "target_true": 10.934598922729492
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.01955469325184822,
+    "target_true": 13.851996421813965
+   },
+   {
+    "target_new": 0.01579347439110279,
+    "target_true": 5.745703220367432
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 7.640258312225342,
+    "target_true": 0.5032277703285217
+   },
+   {
+    "target_new": 10.490424156188965,
+    "target_true": 0.056335121393203735
+   },
+   {
+    "target_new": 14.74150562286377,
+    "target_true": 4.797704696655273
+   },
+   {
+    "target_new": 8.726396560668945,
+    "target_true": 0.715766429901123
+   },
+   {
+    "target_new": 13.199155807495117,
+    "target_true": 0.12631697952747345
+   },
+   {
+    "target_new": 14.141788482666016,
+    "target_true": 11.246195793151855
+   },
+   {
+    "target_new": 16.33241081237793,
+    "target_true": 9.60975170135498
+   },
+   {
+    "target_new": 15.720138549804688,
+    "target_true": 11.497615814208984
+   },
+   {
+    "target_new": 10.684019088745117,
+    "target_true": 5.027437210083008
+   },
+   {
+    "target_new": 14.436820983886719,
+    "target_true": 11.760635375976562
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   true,
+   true,
+   false,
+   true,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false
+  ]
+ }
+}

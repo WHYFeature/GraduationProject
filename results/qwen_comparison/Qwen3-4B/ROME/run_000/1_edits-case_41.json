@@ -1,0 +1,100 @@
+{
+ "case_id": 41,
+ "grouped_case_ids": [
+  41
+ ],
+ "num_edits": 1,
+ "requested_rewrite": {
+  "prompt": "{} has a citizenship from",
+  "relation_id": "P27",
+  "target_new": {
+   "str": "Germany",
+   "id": "Q183"
+  },
+  "target_true": {
+   "str": "Egypt",
+   "id": "Q79"
+  },
+  "subject": "Mahmoud Fawzi"
+ },
+ "time": 4.2619664669036865,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.0018306892598047853,
+    "target_true": 20.121976852416992
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.0032417625188827515,
+    "target_true": 18.763750076293945
+   },
+   {
+    "target_new": 0.0010565895354375243,
+    "target_true": 22.411972045898438
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 8.346461296081543,
+    "target_true": 1.0130674839019775
+   },
+   {
+    "target_new": 6.838042736053467,
+    "target_true": 0.5306373834609985
+   },
+   {
+    "target_new": 6.067254066467285,
+    "target_true": 0.6767694354057312
+   },
+   {
+    "target_new": 11.529132843017578,
+    "target_true": 0.6393160820007324
+   },
+   {
+    "target_new": 6.069858551025391,
+    "target_true": 3.451766014099121
+   },
+   {
+    "target_new": 13.219874382019043,
+    "target_true": 1.7379217147827148
+   },
+   {
+    "target_new": 8.027876853942871,
+    "target_true": 0.7513139247894287
+   },
+   {
+    "target_new": 7.1010661125183105,
+    "target_true": 6.811233043670654
+   },
+   {
+    "target_new": 2.5946884155273438,
+    "target_true": 4.129188537597656
+   },
+   {
+    "target_new": 6.901837348937988,
+    "target_true": 7.074934959411621
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   true,
+   true,
+   true,
+   true,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false
+  ]
+ }
+}

@@ -1,0 +1,100 @@
+{
+ "case_id": 29,
+ "grouped_case_ids": [
+  29
+ ],
+ "num_edits": 1,
+ "requested_rewrite": {
+  "prompt": "{} belongs to the continent of",
+  "relation_id": "P30",
+  "target_new": {
+   "str": "Antarctica",
+   "id": "Q51"
+  },
+  "target_true": {
+   "str": "Europe",
+   "id": "Q46"
+  },
+  "subject": "Kryvyi Rih"
+ },
+ "time": 6.0773115158081055,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.00622180663049221,
+    "target_true": 13.8120756149292
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.1148388460278511,
+    "target_true": 9.158268928527832
+   },
+   {
+    "target_new": 8.340692520141602,
+    "target_true": 10.622647285461426
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 13.927122116088867,
+    "target_true": 10.755609512329102
+   },
+   {
+    "target_new": 11.724896430969238,
+    "target_true": 8.497296333312988
+   },
+   {
+    "target_new": 4.7949018478393555,
+    "target_true": 0.8514282703399658
+   },
+   {
+    "target_new": 8.842977523803711,
+    "target_true": 0.38491445779800415
+   },
+   {
+    "target_new": 11.198820114135742,
+    "target_true": 9.792860984802246
+   },
+   {
+    "target_new": 14.431914329528809,
+    "target_true": 9.548379898071289
+   },
+   {
+    "target_new": 13.056167602539062,
+    "target_true": 7.768627166748047
+   },
+   {
+    "target_new": 3.534553050994873,
+    "target_true": 0.8049653768539429
+   },
+   {
+    "target_new": 10.69523811340332,
+    "target_true": 9.044891357421875
+   },
+   {
+    "target_new": 8.80611515045166,
+    "target_true": 6.960083961486816
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   true,
+   true,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false
+  ]
+ }
+}

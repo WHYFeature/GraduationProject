@@ -1,0 +1,100 @@
+{
+ "case_id": 20,
+ "grouped_case_ids": [
+  20
+ ],
+ "num_edits": 1,
+ "requested_rewrite": {
+  "prompt": "{} can be found in",
+  "relation_id": "P276",
+  "target_new": {
+   "str": "Singapore",
+   "id": "Q334"
+  },
+  "target_true": {
+   "str": "Melbourne",
+   "id": "Q3141"
+  },
+  "subject": "Inner Circle railway line"
+ },
+ "time": 4.238958358764648,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.00019143179815728217,
+    "target_true": 19.65723991394043
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.009175751358270645,
+    "target_true": 16.021678924560547
+   },
+   {
+    "target_new": 0.1337556689977646,
+    "target_true": 10.431032180786133
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 6.305000305175781,
+    "target_true": 2.8602216243743896
+   },
+   {
+    "target_new": 7.642275333404541,
+    "target_true": 1.3892027139663696
+   },
+   {
+    "target_new": 9.603769302368164,
+    "target_true": 10.68079662322998
+   },
+   {
+    "target_new": 7.5700578689575195,
+    "target_true": 4.1309356689453125
+   },
+   {
+    "target_new": 7.947416305541992,
+    "target_true": 4.116671562194824
+   },
+   {
+    "target_new": 11.724383354187012,
+    "target_true": 9.3792085647583
+   },
+   {
+    "target_new": 7.324578762054443,
+    "target_true": 0.5181373357772827
+   },
+   {
+    "target_new": 6.796979904174805,
+    "target_true": 2.5096044540405273
+   },
+   {
+    "target_new": 9.721580505371094,
+    "target_true": 1.2785683870315552
+   },
+   {
+    "target_new": 8.005123138427734,
+    "target_true": 4.548458099365234
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false
+  ]
+ }
+}
