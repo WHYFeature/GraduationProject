@@ -39,6 +39,60 @@ def chunks(arr, n):
         yield chunk
 
 
+def build_edit_batches(
+    tok: AutoTokenizer,
+    texts: List[str],
+    targets: List[str],
+    batch_size: int,
+    device: torch.device,
+):
+    batches = []
+    for txt_batch, tgt_batch in zip(chunks(texts, batch_size), chunks(targets, batch_size)):
+        prompt_examples = tok(
+            txt_batch,
+            return_tensors="pt",
+            padding=True,
+            add_special_tokens=False,
+        ).to(device)
+        prompt_last_inds = prompt_examples["attention_mask"].sum(dim=1) - 1
+
+        full_input_ids = []
+        full_attention_masks = []
+        full_labels = []
+        for txt, tgt in zip(txt_batch, tgt_batch):
+            target_ids = tok(tgt, add_special_tokens=False)["input_ids"]
+            full_ids = tok(txt + tgt, add_special_tokens=False)["input_ids"]
+            prompt_len = len(full_ids) - len(target_ids)
+            labels = [-100] * prompt_len + target_ids
+            full_input_ids.append(full_ids)
+            full_attention_masks.append([1] * len(full_ids))
+            full_labels.append(labels)
+
+        padded = tok.pad(
+            {
+                "input_ids": full_input_ids,
+                "attention_mask": full_attention_masks,
+            },
+            return_tensors="pt",
+        )
+        padded = {k: v.to(device) for k, v in padded.items()}
+
+        labels = torch.full_like(padded["input_ids"], -100)
+        for i, label_seq in enumerate(full_labels):
+            labels[i, : len(label_seq)] = torch.tensor(label_seq, device=device)
+
+        batches.append(
+            {
+                "prompt_inputs": prompt_examples,
+                "prompt_last_inds": prompt_last_inds,
+                "full_inputs": padded,
+                "labels": labels,
+            }
+        )
+
+    return batches
+
+
 def apply_ft_to_model(
     model: AutoModelForCausalLM,
     tok: AutoTokenizer,
@@ -98,23 +152,48 @@ def execute_ft(
 
     loss_meter = AverageMeter()
     device = next(model.parameters()).device
+    edit_batches = build_edit_batches(tok, texts, targets, hparams.batch_size, device)
+    with torch.no_grad():
+        for batch in edit_batches:
+            prompt_logits = model(**batch["prompt_inputs"]).logits
+            batch["ref_log_probs"] = F.log_softmax(
+                prompt_logits[
+                    torch.arange(prompt_logits.size(0), device=device),
+                    batch["prompt_last_inds"],
+                ],
+                dim=-1,
+            ).detach()
+
     for _ in range(hparams.num_steps):
         loss_meter.reset()
-        for txt, tgt in zip(chunks(texts, hparams.batch_size), chunks(targets, hparams.batch_size)):
-            inputs = tok(txt, return_tensors="pt", padding=True).to(device)
-            target_ids = tok(tgt, return_tensors="pt", padding=True)["input_ids"].to(device)
-            last_token_inds = inputs["attention_mask"].sum(dim=1) - 1
-            unk_id = tok.unk_token_id if tok.unk_token_id is not None else -1
-            loss_mask = target_ids != unk_id
-
+        for batch in edit_batches:
             opt.zero_grad()
-            bs = inputs["input_ids"].shape[0]
-            probs = F.log_softmax(
-                model(**inputs).logits[torch.arange(bs, device=device), last_token_inds], dim=-1
+            outputs = model(**batch["full_inputs"]).logits
+            shift_logits = outputs[:, :-1, :].contiguous()
+            shift_labels = batch["labels"][:, 1:].contiguous()
+            nll_loss = F.cross_entropy(
+                shift_logits.view(-1, shift_logits.size(-1)),
+                shift_labels.view(-1),
+                ignore_index=-100,
             )
-            loss = -(torch.gather(probs, 1, target_ids) * loss_mask).sum(1) / loss_mask.sum(1)
-            loss = loss.mean()
-            loss_meter.update(loss.item(), n=bs)
+
+            prompt_logits = model(**batch["prompt_inputs"]).logits
+            current_log_probs = F.log_softmax(
+                prompt_logits[
+                    torch.arange(prompt_logits.size(0), device=device),
+                    batch["prompt_last_inds"],
+                ],
+                dim=-1,
+            )
+            kl_loss = hparams.kl_factor * F.kl_div(
+                current_log_probs,
+                batch["ref_log_probs"],
+                log_target=True,
+                reduction="batchmean",
+            )
+
+            loss = nll_loss + kl_loss
+            loss_meter.update(loss.item(), n=batch["full_inputs"]["input_ids"].shape[0])
 
             if loss.item() >= 1e-2:
                 loss.backward()
