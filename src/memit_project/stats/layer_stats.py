@@ -32,8 +32,7 @@ STAT_TYPES = {
 
 LOCAL_CORPORA = {
     "wikitext": DATA_DIR / "corpora" / "wikitext-103-raw-v1",
-    # Use wikitext as the sole local large-text corpus for offline runs.
-    "wikipedia": DATA_DIR / "corpora" / "wikitext-103-raw-v1",
+    "wikipedia": DATA_DIR / "corpora" / "wikipedia_20220301_en",
 }
 
 class ListTextDataset:
