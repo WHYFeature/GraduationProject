@@ -1,0 +1,100 @@
+{
+ "case_id": 8,
+ "grouped_case_ids": [
+  8
+ ],
+ "num_edits": 1,
+ "requested_rewrite": {
+  "prompt": "What is the twin city of {}? It is",
+  "relation_id": "P190",
+  "target_new": {
+   "str": "Sheffield",
+   "id": "Q42448"
+  },
+  "target_true": {
+   "str": "Sydney",
+   "id": "Q3130"
+  },
+  "subject": "Wellington"
+ },
+ "time": 4.384979248046875,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.002929207868874073,
+    "target_true": 15.566160202026367
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.014859823510050774,
+    "target_true": 15.358701705932617
+   },
+   {
+    "target_new": 14.624982833862305,
+    "target_true": 12.865113258361816
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 11.904130935668945,
+    "target_true": 9.156761169433594
+   },
+   {
+    "target_new": 22.6994571685791,
+    "target_true": 17.20454978942871
+   },
+   {
+    "target_new": 20.074953079223633,
+    "target_true": 10.8729248046875
+   },
+   {
+    "target_new": 16.136140823364258,
+    "target_true": 13.555614471435547
+   },
+   {
+    "target_new": 17.259437561035156,
+    "target_true": 11.221485137939453
+   },
+   {
+    "target_new": 17.546850204467773,
+    "target_true": 13.158116340637207
+   },
+   {
+    "target_new": 15.171102523803711,
+    "target_true": 11.501436233520508
+   },
+   {
+    "target_new": 18.203453063964844,
+    "target_true": 14.083185195922852
+   },
+   {
+    "target_new": 16.111812591552734,
+    "target_true": 9.670036315917969
+   },
+   {
+    "target_new": 15.457901000976562,
+    "target_true": 10.637924194335938
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ]
+ }
+}

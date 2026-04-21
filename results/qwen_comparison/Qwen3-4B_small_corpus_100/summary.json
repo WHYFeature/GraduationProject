@@ -1,0 +1,70 @@
+{
+  "methods": {
+    "FT": {
+      "run_dir": "/root/GraduationProject/results/qwen_comparison/Qwen3-4B/FT/run_000",
+      "n_cases": 100,
+      "mean_time": 0.6124750351905823,
+      "rewrite_acc": 0.99,
+      "paraphrase_acc": 0.535,
+      "neighborhood_acc": 0.09,
+      "overall_score": 0.5383333333333333
+    },
+    "MEND": {
+      "run_dir": "/root/GraduationProject/results/qwen_comparison/Qwen3-4B/MEND/run_000",
+      "n_cases": 100,
+      "mean_time": 0.10966339588165283,
+      "rewrite_acc": 0.4,
+      "paraphrase_acc": 0.465,
+      "neighborhood_acc": 0.0,
+      "overall_score": 0.28833333333333333
+    },
+    "ROME": {
+      "run_dir": "/root/GraduationProject/results/qwen_comparison/Qwen3-4B/ROME/run_000",
+      "n_cases": 100,
+      "mean_time": 4.198941435813904,
+      "rewrite_acc": 1.0,
+      "paraphrase_acc": 0.62,
+      "neighborhood_acc": 0.142,
+      "overall_score": 0.5873333333333334
+    },
+    "MEMIT": {
+      "run_dir": "/root/GraduationProject/results/qwen_comparison/Qwen3-4B/MEMIT/run_000",
+      "n_cases": 100,
+      "mean_time": 56.15787255525589,
+      "rewrite_acc": 0.92,
+      "paraphrase_acc": 0.345,
+      "neighborhood_acc": 0.161,
+      "overall_score": 0.47533333333333333
+    }
+  },
+  "ranking": [
+    {
+      "method": "ROME",
+      "overall_score": 0.5873333333333334,
+      "rewrite_acc": 1.0,
+      "paraphrase_acc": 0.62,
+      "neighborhood_acc": 0.142
+    },
+    {
+      "method": "FT",
+      "overall_score": 0.5383333333333333,
+      "rewrite_acc": 0.99,
+      "paraphrase_acc": 0.535,
+      "neighborhood_acc": 0.09
+    },
+    {
+      "method": "MEMIT",
+      "overall_score": 0.47533333333333333,
+      "rewrite_acc": 0.92,
+      "paraphrase_acc": 0.345,
+      "neighborhood_acc": 0.161
+    },
+    {
+      "method": "MEND",
+      "overall_score": 0.28833333333333333,
+      "rewrite_acc": 0.4,
+      "paraphrase_acc": 0.465,
+      "neighborhood_acc": 0.0
+    }
+  ]
+}

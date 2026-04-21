@@ -1,0 +1,100 @@
+{
+ "case_id": 65,
+ "grouped_case_ids": [
+  65
+ ],
+ "num_edits": 1,
+ "requested_rewrite": {
+  "prompt": "{} found employment in",
+  "relation_id": "P937",
+  "target_new": {
+   "str": "London",
+   "id": "Q84"
+  },
+  "target_true": {
+   "str": "Frankfurt",
+   "id": "Q1794"
+  },
+  "subject": "Mayer Carl von Rothschild"
+ },
+ "time": 0.43320250511169434,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.0033554700203239918,
+    "target_true": 13.88115119934082
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.5483579039573669,
+    "target_true": 7.965710639953613
+   },
+   {
+    "target_new": 0.7868388295173645,
+    "target_true": 8.947494506835938
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 1.4493098258972168,
+    "target_true": 8.190887451171875
+   },
+   {
+    "target_new": 1.2930999994277954,
+    "target_true": 6.4986701011657715
+   },
+   {
+    "target_new": 1.1447172164916992,
+    "target_true": 7.651257514953613
+   },
+   {
+    "target_new": 1.1660765409469604,
+    "target_true": 6.7307586669921875
+   },
+   {
+    "target_new": 2.347106695175171,
+    "target_true": 6.341278076171875
+   },
+   {
+    "target_new": 1.6124656200408936,
+    "target_true": 8.820944786071777
+   },
+   {
+    "target_new": 1.0673129558563232,
+    "target_true": 6.471494674682617
+   },
+   {
+    "target_new": 4.13220739364624,
+    "target_true": 5.960216999053955
+   },
+   {
+    "target_new": 2.134881019592285,
+    "target_true": 6.824917793273926
+   },
+   {
+    "target_new": 4.591612815856934,
+    "target_true": 5.390748977661133
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ]
+ }
+}

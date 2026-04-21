@@ -1,0 +1,100 @@
+{
+ "case_id": 7,
+ "grouped_case_ids": [
+  7
+ ],
+ "num_edits": 1,
+ "requested_rewrite": {
+  "prompt": "{} was created by",
+  "relation_id": "P178",
+  "target_new": {
+   "str": "Google",
+   "id": "Q95"
+  },
+  "target_true": {
+   "str": "Apple",
+   "id": "Q312"
+  },
+  "subject": "Apple A5"
+ },
+ "time": 3.938060998916626,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.0005744237569160759,
+    "target_true": 20.57273292541504
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.0006562701892107725,
+    "target_true": 16.121849060058594
+   },
+   {
+    "target_new": 0.00016282663273159415,
+    "target_true": 18.774141311645508
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 13.41388988494873,
+    "target_true": 0.05982624739408493
+   },
+   {
+    "target_new": 4.204096794128418,
+    "target_true": 4.558539390563965
+   },
+   {
+    "target_new": 8.267248153686523,
+    "target_true": 1.231829047203064
+   },
+   {
+    "target_new": 8.965237617492676,
+    "target_true": 3.0014138221740723
+   },
+   {
+    "target_new": 7.445758819580078,
+    "target_true": 6.726898193359375
+   },
+   {
+    "target_new": 5.701930999755859,
+    "target_true": 5.353643417358398
+   },
+   {
+    "target_new": 6.627460479736328,
+    "target_true": 6.745366096496582
+   },
+   {
+    "target_new": 13.214974403381348,
+    "target_true": 0.0928771048784256
+   },
+   {
+    "target_new": 6.430483818054199,
+    "target_true": 5.656160354614258
+   },
+   {
+    "target_new": 12.206381797790527,
+    "target_true": 0.32493725419044495
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   true
+  ]
+ }
+}

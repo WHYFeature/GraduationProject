@@ -1,0 +1,100 @@
+{
+ "case_id": 67,
+ "grouped_case_ids": [
+  67
+ ],
+ "num_edits": 1,
+ "requested_rewrite": {
+  "prompt": "In {}, the language spoken is",
+  "relation_id": "P37",
+  "target_new": {
+   "str": "Spanish",
+   "id": "Q1321"
+  },
+  "target_true": {
+   "str": "Swedish",
+   "id": "Q9027"
+  },
+  "subject": "Nykarleby"
+ },
+ "time": 0.8132810592651367,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.009104403667151928,
+    "target_true": 15.235713958740234
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.5548313856124878,
+    "target_true": 7.31342887878418
+   },
+   {
+    "target_new": 8.089439392089844,
+    "target_true": 12.454390525817871
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 8.608884811401367,
+    "target_true": 7.831047534942627
+   },
+   {
+    "target_new": 1.0612144470214844,
+    "target_true": 0.6274794936180115
+   },
+   {
+    "target_new": 11.65568733215332,
+    "target_true": 9.04684829711914
+   },
+   {
+    "target_new": 10.527777671813965,
+    "target_true": 2.5350863933563232
+   },
+   {
+    "target_new": 3.5967044830322266,
+    "target_true": 0.45655447244644165
+   },
+   {
+    "target_new": 1.2884643077850342,
+    "target_true": 0.6145408749580383
+   },
+   {
+    "target_new": 12.874306678771973,
+    "target_true": 0.023331863805651665
+   },
+   {
+    "target_new": 9.933745384216309,
+    "target_true": 0.02530449815094471
+   },
+   {
+    "target_new": 6.202456474304199,
+    "target_true": 6.64927864074707
+   },
+   {
+    "target_new": 3.2389018535614014,
+    "target_true": 3.0493266582489014
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   true,
+   false,
+   false,
+   true,
+   true,
+   true,
+   true,
+   false,
+   false
+  ]
+ }
+}

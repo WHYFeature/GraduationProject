@@ -1,0 +1,100 @@
+{
+ "case_id": 43,
+ "grouped_case_ids": [
+  43
+ ],
+ "num_edits": 1,
+ "requested_rewrite": {
+  "prompt": "{} is located in",
+  "relation_id": "P30",
+  "target_new": {
+   "str": "Europe",
+   "id": "Q46"
+  },
+  "target_true": {
+   "str": "Antarctica",
+   "id": "Q51"
+  },
+  "subject": "Howard Glacier"
+ },
+ "time": 0.964165210723877,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.005833505652844906,
+    "target_true": 13.682489395141602
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.20126518607139587,
+    "target_true": 8.277827262878418
+   },
+   {
+    "target_new": 7.071690559387207,
+    "target_true": 10.623624801635742
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 5.5404486656188965,
+    "target_true": 6.703934192657471
+   },
+   {
+    "target_new": 9.28796100616455,
+    "target_true": 10.960315704345703
+   },
+   {
+    "target_new": 2.5569286346435547,
+    "target_true": 4.627218246459961
+   },
+   {
+    "target_new": 3.6192948818206787,
+    "target_true": 2.7670514583587646
+   },
+   {
+    "target_new": 1.2962861061096191,
+    "target_true": 0.8696197867393494
+   },
+   {
+    "target_new": 4.100200653076172,
+    "target_true": 8.199047088623047
+   },
+   {
+    "target_new": 4.3593430519104,
+    "target_true": 5.220316410064697
+   },
+   {
+    "target_new": 5.944796085357666,
+    "target_true": 1.6965640783309937
+   },
+   {
+    "target_new": 9.03799057006836,
+    "target_true": 8.218859672546387
+   },
+   {
+    "target_new": 0.6765856742858887,
+    "target_true": 2.6992239952087402
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false
+  ]
+ }
+}

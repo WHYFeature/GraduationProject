@@ -1,0 +1,100 @@
+{
+ "case_id": 36,
+ "grouped_case_ids": [
+  36
+ ],
+ "num_edits": 1,
+ "requested_rewrite": {
+  "prompt": "The native language of {} is",
+  "relation_id": "P103",
+  "target_new": {
+   "str": "French",
+   "id": "Q150"
+  },
+  "target_true": {
+   "str": "Russian",
+   "id": "Q7737"
+  },
+  "subject": "Symeon of Polotsk"
+ },
+ "time": 0.6865451335906982,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.009671144187450409,
+    "target_true": 8.107244491577148
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.01482129842042923,
+    "target_true": 6.750019550323486
+   },
+   {
+    "target_new": 8.724318504333496,
+    "target_true": 13.25356674194336
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 7.202139377593994,
+    "target_true": 4.012118816375732
+   },
+   {
+    "target_new": 8.975939750671387,
+    "target_true": 7.063374042510986
+   },
+   {
+    "target_new": 2.2652297019958496,
+    "target_true": 0.9301619529724121
+   },
+   {
+    "target_new": 10.717504501342773,
+    "target_true": 12.00150203704834
+   },
+   {
+    "target_new": 3.0807957649230957,
+    "target_true": 0.23765791952610016
+   },
+   {
+    "target_new": 5.941525459289551,
+    "target_true": 0.2844344973564148
+   },
+   {
+    "target_new": 11.293542861938477,
+    "target_true": 11.382621765136719
+   },
+   {
+    "target_new": 5.018242835998535,
+    "target_true": 0.055464744567871094
+   },
+   {
+    "target_new": 10.947081565856934,
+    "target_true": 12.675409317016602
+   },
+   {
+    "target_new": 1.983911156654358,
+    "target_true": 0.30906832218170166
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   true,
+   false,
+   true,
+   true,
+   false,
+   true,
+   false,
+   true
+  ]
+ }
+}
