@@ -1,0 +1,109 @@
+{
+ "case_id": 13,
+ "grouped_case_ids": [
+  12,
+  13,
+  14,
+  15,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22
+ ],
+ "num_edits": 10,
+ "requested_rewrite": {
+  "prompt": "{}, developed by",
+  "relation_id": "P176",
+  "target_new": {
+   "str": "Microsoft",
+   "id": "Q2283"
+  },
+  "target_true": {
+   "str": "Ferrari",
+   "id": "Q27586"
+  },
+  "subject": "Ferrari F40"
+ },
+ "time": 9.288074493408203,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.05502447858452797,
+    "target_true": 6.508538722991943
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 6.510819435119629,
+    "target_true": 4.52549934387207
+   },
+   {
+    "target_new": 7.599950790405273,
+    "target_true": 3.4279117584228516
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 6.8555121421813965,
+    "target_true": 3.5576558113098145
+   },
+   {
+    "target_new": 4.622039318084717,
+    "target_true": 0.7968659400939941
+   },
+   {
+    "target_new": 8.298504829406738,
+    "target_true": 4.860510349273682
+   },
+   {
+    "target_new": 5.459270000457764,
+    "target_true": 3.4271388053894043
+   },
+   {
+    "target_new": 5.31175422668457,
+    "target_true": 2.841970443725586
+   },
+   {
+    "target_new": 5.643889427185059,
+    "target_true": 3.72451114654541
+   },
+   {
+    "target_new": 6.3565473556518555,
+    "target_true": 3.1030731201171875
+   },
+   {
+    "target_new": 6.715341567993164,
+    "target_true": 4.646322250366211
+   },
+   {
+    "target_new": 5.577800273895264,
+    "target_true": 4.483229160308838
+   },
+   {
+    "target_new": 0.44226643443107605,
+    "target_true": 5.618103981018066
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ]
+ }
+}

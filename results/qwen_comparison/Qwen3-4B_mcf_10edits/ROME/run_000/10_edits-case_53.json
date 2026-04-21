@@ -1,0 +1,109 @@
+{
+ "case_id": 53,
+ "grouped_case_ids": [
+  44,
+  45,
+  46,
+  47,
+  48,
+  49,
+  50,
+  51,
+  52,
+  53
+ ],
+ "num_edits": 10,
+ "requested_rewrite": {
+  "prompt": "{}, which is located in",
+  "relation_id": "P17",
+  "target_new": {
+   "str": "India",
+   "id": "Q668"
+  },
+  "target_true": {
+   "str": "Russia",
+   "id": "Q159"
+  },
+  "subject": "Pochepsky District"
+ },
+ "time": 27.58734440803528,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.0035470922011882067,
+    "target_true": 16.846799850463867
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.0007634824141860008,
+    "target_true": 20.94416046142578
+   },
+   {
+    "target_new": 0.9037896990776062,
+    "target_true": 8.818548202514648
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 13.787967681884766,
+    "target_true": 1.6963932514190674
+   },
+   {
+    "target_new": 13.824633598327637,
+    "target_true": 6.573431968688965
+   },
+   {
+    "target_new": 9.512027740478516,
+    "target_true": 10.791837692260742
+   },
+   {
+    "target_new": 12.744438171386719,
+    "target_true": 2.264497995376587
+   },
+   {
+    "target_new": 13.2247314453125,
+    "target_true": 4.159393787384033
+   },
+   {
+    "target_new": 11.47492790222168,
+    "target_true": 2.978886842727661
+   },
+   {
+    "target_new": 7.151954650878906,
+    "target_true": 1.4743354320526123
+   },
+   {
+    "target_new": 10.321322441101074,
+    "target_true": 3.390678644180298
+   },
+   {
+    "target_new": 18.222835540771484,
+    "target_true": 4.626931190490723
+   },
+   {
+    "target_new": 8.384343147277832,
+    "target_true": 10.1295166015625
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false
+  ]
+ }
+}

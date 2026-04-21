@@ -1,0 +1,149 @@
+{
+ "case_id": 60,
+ "grouped_case_ids": [
+  54,
+  55,
+  56,
+  57,
+  58,
+  59,
+  60,
+  61,
+  62,
+  63,
+  64,
+  65,
+  66,
+  68,
+  69,
+  71,
+  72,
+  73,
+  74,
+  75,
+  76,
+  77,
+  78,
+  79,
+  80,
+  81,
+  82,
+  83,
+  84,
+  85,
+  86,
+  87,
+  88,
+  89,
+  91,
+  92,
+  93,
+  94,
+  95,
+  96,
+  97,
+  98,
+  99,
+  100,
+  101,
+  102,
+  103,
+  104,
+  105,
+  106
+ ],
+ "num_edits": 50,
+ "requested_rewrite": {
+  "prompt": "{} is a citizen of",
+  "relation_id": "P27",
+  "target_new": {
+   "str": "Japan",
+   "id": "Q17"
+  },
+  "target_true": {
+   "str": "Canada",
+   "id": "Q16"
+  },
+  "subject": "Carol Zhao"
+ },
+ "time": 85.0115168094635,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.18505005538463593,
+    "target_true": 7.412874221801758
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.011670765466988087,
+    "target_true": 9.493093490600586
+   },
+   {
+    "target_new": 1.1912977695465088,
+    "target_true": 4.2579345703125
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 8.088166236877441,
+    "target_true": 2.835519790649414
+   },
+   {
+    "target_new": 7.911213397979736,
+    "target_true": 4.1647210121154785
+   },
+   {
+    "target_new": 7.576500415802002,
+    "target_true": 1.8668084144592285
+   },
+   {
+    "target_new": 8.85345458984375,
+    "target_true": 1.249845027923584
+   },
+   {
+    "target_new": 8.928893089294434,
+    "target_true": 0.34989771246910095
+   },
+   {
+    "target_new": 7.1684160232543945,
+    "target_true": 4.059439659118652
+   },
+   {
+    "target_new": 6.004711627960205,
+    "target_true": 3.006669759750366
+   },
+   {
+    "target_new": 8.604616165161133,
+    "target_true": 4.099410533905029
+   },
+   {
+    "target_new": 10.459453582763672,
+    "target_true": 2.099884033203125
+   },
+   {
+    "target_new": 8.274765014648438,
+    "target_true": 3.834294319152832
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false
+  ]
+ }
+}

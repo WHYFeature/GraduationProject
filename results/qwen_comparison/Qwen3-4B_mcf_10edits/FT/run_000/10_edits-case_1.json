@@ -1,0 +1,109 @@
+{
+ "case_id": 1,
+ "grouped_case_ids": [
+  0,
+  1,
+  2,
+  3,
+  5,
+  6,
+  7,
+  9,
+  10,
+  11
+ ],
+ "num_edits": 10,
+ "requested_rewrite": {
+  "prompt": "The official religion of {} is",
+  "relation_id": "P140",
+  "target_new": {
+   "str": "Islam",
+   "id": "Q432"
+  },
+  "target_true": {
+   "str": "Christianity",
+   "id": "Q5043"
+  },
+  "subject": "Edwin of Northumbria"
+ },
+ "time": 8.420850038528442,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.06660576164722443,
+    "target_true": 4.976736068725586
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.23599764704704285,
+    "target_true": 4.044301509857178
+   },
+   {
+    "target_new": 3.483077049255371,
+    "target_true": 7.2952880859375
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 0.26652219891548157,
+    "target_true": 3.72175669670105
+   },
+   {
+    "target_new": 3.924229145050049,
+    "target_true": 6.658962726593018
+   },
+   {
+    "target_new": 4.827460289001465,
+    "target_true": 6.192400932312012
+   },
+   {
+    "target_new": 0.3456993103027344,
+    "target_true": 2.132701873779297
+   },
+   {
+    "target_new": 5.6904215812683105,
+    "target_true": 5.62323522567749
+   },
+   {
+    "target_new": 0.3734160363674164,
+    "target_true": 1.6948615312576294
+   },
+   {
+    "target_new": 0.7315738797187805,
+    "target_true": 2.1276137828826904
+   },
+   {
+    "target_new": 5.912058353424072,
+    "target_true": 7.329552173614502
+   },
+   {
+    "target_new": 3.8522441387176514,
+    "target_true": 4.791486740112305
+   },
+   {
+    "target_new": 4.392221927642822,
+    "target_true": 6.05745267868042
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ]
+ }
+}

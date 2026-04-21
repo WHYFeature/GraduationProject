@@ -1,0 +1,109 @@
+{
+ "case_id": 24,
+ "grouped_case_ids": [
+  23,
+  24,
+  25,
+  26,
+  27,
+  28,
+  29,
+  30,
+  31,
+  32
+ ],
+ "num_edits": 10,
+ "requested_rewrite": {
+  "prompt": "What does {} play? They play",
+  "relation_id": "P136",
+  "target_new": {
+   "str": "opera",
+   "id": "Q1344"
+  },
+  "target_true": {
+   "str": "jazz",
+   "id": "Q8341"
+  },
+  "subject": "Heath Brothers"
+ },
+ "time": 27.207090616226196,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.003509079571813345,
+    "target_true": 18.143409729003906
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 5.180432319641113,
+    "target_true": 8.851194381713867
+   },
+   {
+    "target_new": 0.9211496114730835,
+    "target_true": 10.827240943908691
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 12.435877799987793,
+    "target_true": 4.441712379455566
+   },
+   {
+    "target_new": 11.447932243347168,
+    "target_true": 2.6437642574310303
+   },
+   {
+    "target_new": 13.731464385986328,
+    "target_true": 3.1627697944641113
+   },
+   {
+    "target_new": 8.850790977478027,
+    "target_true": 7.508366584777832
+   },
+   {
+    "target_new": 7.24780797958374,
+    "target_true": 4.852403163909912
+   },
+   {
+    "target_new": 10.934595108032227,
+    "target_true": 7.320830345153809
+   },
+   {
+    "target_new": 9.192615509033203,
+    "target_true": 5.230319023132324
+   },
+   {
+    "target_new": 9.746867179870605,
+    "target_true": 5.275599002838135
+   },
+   {
+    "target_new": 13.741650581359863,
+    "target_true": 2.1170032024383545
+   },
+   {
+    "target_new": 11.407438278198242,
+    "target_true": 6.029977798461914
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false
+  ]
+ }
+}

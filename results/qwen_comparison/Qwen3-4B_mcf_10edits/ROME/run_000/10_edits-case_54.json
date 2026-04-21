@@ -1,0 +1,109 @@
+{
+ "case_id": 54,
+ "grouped_case_ids": [
+  54,
+  55,
+  56,
+  57,
+  58,
+  59,
+  60,
+  61,
+  62,
+  63
+ ],
+ "num_edits": 10,
+ "requested_rewrite": {
+  "prompt": "{} is a citizen of",
+  "relation_id": "P27",
+  "target_new": {
+   "str": "Bulgaria",
+   "id": "Q219"
+  },
+  "target_true": {
+   "str": "Finland",
+   "id": "Q33"
+  },
+  "subject": "Tapio Kantanen"
+ },
+ "time": 26.345641613006592,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.0001227780303452164,
+    "target_true": 19.727256774902344
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.0004457433824427426,
+    "target_true": 17.415233612060547
+   },
+   {
+    "target_new": 0.040452588349580765,
+    "target_true": 12.028854370117188
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 10.390204429626465,
+    "target_true": 1.2702620029449463
+   },
+   {
+    "target_new": 9.104589462280273,
+    "target_true": 0.4115770757198334
+   },
+   {
+    "target_new": 5.935513973236084,
+    "target_true": 1.404771327972412
+   },
+   {
+    "target_new": 11.929332733154297,
+    "target_true": 0.3581961989402771
+   },
+   {
+    "target_new": 11.637125015258789,
+    "target_true": 0.47586145997047424
+   },
+   {
+    "target_new": 8.696203231811523,
+    "target_true": 0.7067857384681702
+   },
+   {
+    "target_new": 4.718947410583496,
+    "target_true": 2.564101457595825
+   },
+   {
+    "target_new": 8.119061470031738,
+    "target_true": 1.6623945236206055
+   },
+   {
+    "target_new": 10.193806648254395,
+    "target_true": 0.2278919517993927
+   },
+   {
+    "target_new": 11.293018341064453,
+    "target_true": 0.2936137020587921
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   true,
+   true,
+   true,
+   true,
+   true,
+   false,
+   false,
+   true,
+   true
+  ]
+ }
+}

@@ -1,0 +1,109 @@
+{
+ "case_id": 106,
+ "grouped_case_ids": [
+  97,
+  98,
+  99,
+  100,
+  101,
+  102,
+  103,
+  104,
+  105,
+  106
+ ],
+ "num_edits": 10,
+ "requested_rewrite": {
+  "prompt": "{}'s domain of activity is",
+  "relation_id": "P101",
+  "target_new": {
+   "str": "mathematics",
+   "id": "Q395"
+  },
+  "target_true": {
+   "str": "physics",
+   "id": "Q413"
+  },
+  "subject": "John Henry Poynting"
+ },
+ "time": 9.258172273635864,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.0620272234082222,
+    "target_true": 7.702433109283447
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.05189291760325432,
+    "target_true": 8.207148551940918
+   },
+   {
+    "target_new": 0.5944308042526245,
+    "target_true": 8.251923561096191
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 1.2891967296600342,
+    "target_true": 2.6548678874969482
+   },
+   {
+    "target_new": 6.807113170623779,
+    "target_true": 6.392087459564209
+   },
+   {
+    "target_new": 0.1201542317867279,
+    "target_true": 3.961651563644409
+   },
+   {
+    "target_new": 2.5693531036376953,
+    "target_true": 3.8240461349487305
+   },
+   {
+    "target_new": 5.92671537399292,
+    "target_true": 2.633603572845459
+   },
+   {
+    "target_new": 3.4426052570343018,
+    "target_true": 2.7409908771514893
+   },
+   {
+    "target_new": 7.927125930786133,
+    "target_true": 7.506071090698242
+   },
+   {
+    "target_new": 4.404106616973877,
+    "target_true": 0.8577884435653687
+   },
+   {
+    "target_new": 0.7057040929794312,
+    "target_true": 1.8715041875839233
+   },
+   {
+    "target_new": 4.489527225494385,
+    "target_true": 1.205649733543396
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   true
+  ]
+ }
+}

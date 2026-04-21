@@ -1,0 +1,109 @@
+{
+ "case_id": 30,
+ "grouped_case_ids": [
+  23,
+  24,
+  25,
+  26,
+  27,
+  28,
+  29,
+  30,
+  31,
+  32
+ ],
+ "num_edits": 10,
+ "requested_rewrite": {
+  "prompt": "{} found employment in",
+  "relation_id": "P937",
+  "target_new": {
+   "str": "Paris",
+   "id": "Q90"
+  },
+  "target_true": {
+   "str": "Pittsburgh",
+   "id": "Q1342"
+  },
+  "subject": "Leonardo Balada"
+ },
+ "time": 27.207090616226196,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.000571326119825244,
+    "target_true": 26.463336944580078
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.3722447454929352,
+    "target_true": 13.222933769226074
+   },
+   {
+    "target_new": 5.845635414123535,
+    "target_true": 21.176177978515625
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 7.660301685333252,
+    "target_true": 11.845078468322754
+   },
+   {
+    "target_new": 6.964900016784668,
+    "target_true": 11.421353340148926
+   },
+   {
+    "target_new": 8.984824180603027,
+    "target_true": 7.392773628234863
+   },
+   {
+    "target_new": 6.863150596618652,
+    "target_true": 10.35469913482666
+   },
+   {
+    "target_new": 8.172075271606445,
+    "target_true": 11.003679275512695
+   },
+   {
+    "target_new": 5.540787220001221,
+    "target_true": 7.077296733856201
+   },
+   {
+    "target_new": 9.924588203430176,
+    "target_true": 9.08346939086914
+   },
+   {
+    "target_new": 5.326264381408691,
+    "target_true": 5.877936363220215
+   },
+   {
+    "target_new": 5.356249809265137,
+    "target_true": 10.824244499206543
+   },
+   {
+    "target_new": 5.530414581298828,
+    "target_true": 15.708054542541504
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ]
+ }
+}

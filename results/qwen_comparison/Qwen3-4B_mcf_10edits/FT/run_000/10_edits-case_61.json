@@ -1,0 +1,109 @@
+{
+ "case_id": 61,
+ "grouped_case_ids": [
+  54,
+  55,
+  56,
+  57,
+  58,
+  59,
+  60,
+  61,
+  62,
+  63
+ ],
+ "num_edits": 10,
+ "requested_rewrite": {
+  "prompt": "{} originates from",
+  "relation_id": "P19",
+  "target_new": {
+   "str": "Honolulu",
+   "id": "Q18094"
+  },
+  "target_true": {
+   "str": "Edinburgh",
+   "id": "Q23436"
+  },
+  "subject": "Henry Mackenzie"
+ },
+ "time": 8.38498067855835,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.05684013292193413,
+    "target_true": 13.027355194091797
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 1.0199687480926514,
+    "target_true": 16.169944763183594
+   },
+   {
+    "target_new": 1.5908944606781006,
+    "target_true": 11.21180534362793
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 5.28786563873291,
+    "target_true": 4.482823371887207
+   },
+   {
+    "target_new": 6.765789031982422,
+    "target_true": 4.43526554107666
+   },
+   {
+    "target_new": 7.312448501586914,
+    "target_true": 4.78432559967041
+   },
+   {
+    "target_new": 6.957734107971191,
+    "target_true": 5.425650596618652
+   },
+   {
+    "target_new": 8.227446556091309,
+    "target_true": 5.5204362869262695
+   },
+   {
+    "target_new": 10.191657066345215,
+    "target_true": 6.219968318939209
+   },
+   {
+    "target_new": 5.931841850280762,
+    "target_true": 4.268082618713379
+   },
+   {
+    "target_new": 8.816880226135254,
+    "target_true": 1.6818360090255737
+   },
+   {
+    "target_new": 9.722846031188965,
+    "target_true": 4.198894500732422
+   },
+   {
+    "target_new": 5.300699710845947,
+    "target_true": 4.63031530380249
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false
+  ]
+ }
+}

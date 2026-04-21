@@ -1,0 +1,109 @@
+{
+ "case_id": 101,
+ "grouped_case_ids": [
+  97,
+  98,
+  99,
+  100,
+  101,
+  102,
+  103,
+  104,
+  105,
+  106
+ ],
+ "num_edits": 10,
+ "requested_rewrite": {
+  "prompt": "What does {} play? They play",
+  "relation_id": "P136",
+  "target_new": {
+   "str": "trance",
+   "id": "Q170435"
+  },
+  "target_true": {
+   "str": "jazz",
+   "id": "Q8341"
+  },
+  "subject": "Frank Mantooth"
+ },
+ "time": 9.258172273635864,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.05829494446516037,
+    "target_true": 8.951743125915527
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 12.758560180664062,
+    "target_true": 12.641368865966797
+   },
+   {
+    "target_new": 10.954010009765625,
+    "target_true": 8.530406951904297
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 0.031225042417645454,
+    "target_true": 9.513848304748535
+   },
+   {
+    "target_new": 12.652543067932129,
+    "target_true": 0.2598950266838074
+   },
+   {
+    "target_new": 0.056541189551353455,
+    "target_true": 8.407938003540039
+   },
+   {
+    "target_new": 11.939217567443848,
+    "target_true": 6.736432075500488
+   },
+   {
+    "target_new": 11.17561149597168,
+    "target_true": 7.314000606536865
+   },
+   {
+    "target_new": 7.746999740600586,
+    "target_true": 4.665166854858398
+   },
+   {
+    "target_new": 9.489538192749023,
+    "target_true": 3.4260401725769043
+   },
+   {
+    "target_new": 8.440567016601562,
+    "target_true": 3.553297519683838
+   },
+   {
+    "target_new": 7.788139343261719,
+    "target_true": 3.3879222869873047
+   },
+   {
+    "target_new": 6.441988945007324,
+    "target_true": 2.8330776691436768
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ]
+ }
+}

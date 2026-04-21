@@ -1,0 +1,109 @@
+{
+ "case_id": 93,
+ "grouped_case_ids": [
+  86,
+  87,
+  88,
+  89,
+  91,
+  92,
+  93,
+  94,
+  95,
+  96
+ ],
+ "num_edits": 10,
+ "requested_rewrite": {
+  "prompt": "{}, located in",
+  "relation_id": "P17",
+  "target_new": {
+   "str": "Switzerland",
+   "id": "Q39"
+  },
+  "target_true": {
+   "str": "Germany",
+   "id": "Q183"
+  },
+  "subject": "Wanne-Eickel Central Station"
+ },
+ "time": 27.2307870388031,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.0018164102220907807,
+    "target_true": 12.819631576538086
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.44781869649887085,
+    "target_true": 6.534965515136719
+   },
+   {
+    "target_new": 0.03926354646682739,
+    "target_true": 8.089801788330078
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 9.519158363342285,
+    "target_true": 1.9063419103622437
+   },
+   {
+    "target_new": 15.929641723632812,
+    "target_true": 4.199350357055664
+   },
+   {
+    "target_new": 7.166984558105469,
+    "target_true": 7.07528018951416
+   },
+   {
+    "target_new": 11.147676467895508,
+    "target_true": 0.5028559565544128
+   },
+   {
+    "target_new": 9.030674934387207,
+    "target_true": 5.346621513366699
+   },
+   {
+    "target_new": 19.88085174560547,
+    "target_true": 4.071318626403809
+   },
+   {
+    "target_new": 16.426422119140625,
+    "target_true": 3.431079387664795
+   },
+   {
+    "target_new": 10.520606994628906,
+    "target_true": 4.370668411254883
+   },
+   {
+    "target_new": 14.767756462097168,
+    "target_true": 2.3640618324279785
+   },
+   {
+    "target_new": 11.377835273742676,
+    "target_true": 2.865420341491699
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   true,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ]
+ }
+}

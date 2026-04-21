@@ -1,0 +1,109 @@
+{
+ "case_id": 92,
+ "grouped_case_ids": [
+  86,
+  87,
+  88,
+  89,
+  91,
+  92,
+  93,
+  94,
+  95,
+  96
+ ],
+ "num_edits": 10,
+ "requested_rewrite": {
+  "prompt": "{} holds a citizenship from",
+  "relation_id": "P27",
+  "target_new": {
+   "str": "Germany",
+   "id": "Q183"
+  },
+  "target_true": {
+   "str": "Ireland",
+   "id": "Q27"
+  },
+  "subject": "Pat Scully"
+ },
+ "time": 8.38914704322815,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.06486976891756058,
+    "target_true": 10.628314971923828
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.31483781337738037,
+    "target_true": 14.613404273986816
+   },
+   {
+    "target_new": 1.145748496055603,
+    "target_true": 15.052512168884277
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 3.2782232761383057,
+    "target_true": 2.1532881259918213
+   },
+   {
+    "target_new": 5.856868743896484,
+    "target_true": 3.975555181503296
+   },
+   {
+    "target_new": 2.7792322635650635,
+    "target_true": 2.717064142227173
+   },
+   {
+    "target_new": 5.420527458190918,
+    "target_true": 1.4932336807250977
+   },
+   {
+    "target_new": 2.922408103942871,
+    "target_true": 0.8481532335281372
+   },
+   {
+    "target_new": 2.4867711067199707,
+    "target_true": 3.0461697578430176
+   },
+   {
+    "target_new": 1.5669101476669312,
+    "target_true": 5.481822490692139
+   },
+   {
+    "target_new": 4.0194501876831055,
+    "target_true": 5.6898345947265625
+   },
+   {
+    "target_new": 3.4453790187835693,
+    "target_true": 1.2757222652435303
+   },
+   {
+    "target_new": 5.019205093383789,
+    "target_true": 3.5226211547851562
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false
+  ]
+ }
+}

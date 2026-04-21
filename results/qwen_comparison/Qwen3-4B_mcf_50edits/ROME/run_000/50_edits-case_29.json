@@ -1,0 +1,149 @@
+{
+ "case_id": 29,
+ "grouped_case_ids": [
+  0,
+  1,
+  2,
+  3,
+  5,
+  6,
+  7,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26,
+  27,
+  28,
+  29,
+  30,
+  31,
+  32,
+  33,
+  34,
+  35,
+  36,
+  37,
+  38,
+  39,
+  41,
+  42,
+  43,
+  44,
+  45,
+  46,
+  47,
+  48,
+  49,
+  50,
+  51,
+  52,
+  53
+ ],
+ "num_edits": 50,
+ "requested_rewrite": {
+  "prompt": "{} belongs to the continent of",
+  "relation_id": "P30",
+  "target_new": {
+   "str": "Antarctica",
+   "id": "Q51"
+  },
+  "target_true": {
+   "str": "Europe",
+   "id": "Q46"
+  },
+  "subject": "Kryvyi Rih"
+ },
+ "time": 136.54814958572388,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.06205500662326813,
+    "target_true": 10.138992309570312
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.011294475756585598,
+    "target_true": 11.890414237976074
+   },
+   {
+    "target_new": 5.144401550292969,
+    "target_true": 9.780953407287598
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 13.942493438720703,
+    "target_true": 10.615300178527832
+   },
+   {
+    "target_new": 11.226919174194336,
+    "target_true": 7.946470737457275
+   },
+   {
+    "target_new": 4.863591194152832,
+    "target_true": 1.4373061656951904
+   },
+   {
+    "target_new": 8.329992294311523,
+    "target_true": 0.4537038207054138
+   },
+   {
+    "target_new": 10.893421173095703,
+    "target_true": 9.460136413574219
+   },
+   {
+    "target_new": 13.849120140075684,
+    "target_true": 8.551667213439941
+   },
+   {
+    "target_new": 12.768929481506348,
+    "target_true": 8.263115882873535
+   },
+   {
+    "target_new": 3.504105567932129,
+    "target_true": 0.7115470170974731
+   },
+   {
+    "target_new": 9.86060619354248,
+    "target_true": 7.791292190551758
+   },
+   {
+    "target_new": 8.838959693908691,
+    "target_true": 6.345193862915039
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false
+  ]
+ }
+}

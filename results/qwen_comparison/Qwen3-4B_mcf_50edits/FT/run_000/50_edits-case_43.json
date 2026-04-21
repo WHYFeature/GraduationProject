@@ -1,0 +1,149 @@
+{
+ "case_id": 43,
+ "grouped_case_ids": [
+  0,
+  1,
+  2,
+  3,
+  5,
+  6,
+  7,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26,
+  27,
+  28,
+  29,
+  30,
+  31,
+  32,
+  33,
+  34,
+  35,
+  36,
+  37,
+  38,
+  39,
+  41,
+  42,
+  43,
+  44,
+  45,
+  46,
+  47,
+  48,
+  49,
+  50,
+  51,
+  52,
+  53
+ ],
+ "num_edits": 50,
+ "requested_rewrite": {
+  "prompt": "{} is located in",
+  "relation_id": "P30",
+  "target_new": {
+   "str": "Europe",
+   "id": "Q46"
+  },
+  "target_true": {
+   "str": "Antarctica",
+   "id": "Q51"
+  },
+  "subject": "Howard Glacier"
+ },
+ "time": 34.25486350059509,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.05618569627404213,
+    "target_true": 9.342947959899902
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.2502885162830353,
+    "target_true": 8.345455169677734
+   },
+   {
+    "target_new": 6.12805700302124,
+    "target_true": 10.78895092010498
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 7.141786575317383,
+    "target_true": 7.264753341674805
+   },
+   {
+    "target_new": 10.095691680908203,
+    "target_true": 10.250186920166016
+   },
+   {
+    "target_new": 6.223680019378662,
+    "target_true": 2.9120547771453857
+   },
+   {
+    "target_new": 5.893926620483398,
+    "target_true": 1.7920424938201904
+   },
+   {
+    "target_new": 2.032660961151123,
+    "target_true": 0.6501327157020569
+   },
+   {
+    "target_new": 7.203770637512207,
+    "target_true": 8.331302642822266
+   },
+   {
+    "target_new": 6.593568325042725,
+    "target_true": 5.0367560386657715
+   },
+   {
+    "target_new": 6.4457597732543945,
+    "target_true": 0.5901995897293091
+   },
+   {
+    "target_new": 10.198202133178711,
+    "target_true": 5.531937122344971
+   },
+   {
+    "target_new": 1.2739075422286987,
+    "target_true": 1.1329659223556519
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   true,
+   false,
+   true
+  ]
+ }
+}

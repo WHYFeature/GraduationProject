@@ -1,0 +1,109 @@
+{
+ "case_id": 34,
+ "grouped_case_ids": [
+  33,
+  34,
+  35,
+  36,
+  37,
+  38,
+  39,
+  41,
+  42,
+  43
+ ],
+ "num_edits": 10,
+ "requested_rewrite": {
+  "prompt": "{} was employed in",
+  "relation_id": "P937",
+  "target_new": {
+   "str": "Philadelphia",
+   "id": "Q1345"
+  },
+  "target_true": {
+   "str": "Paris",
+   "id": "Q90"
+  },
+  "subject": "Laurent Cars"
+ },
+ "time": 0.13338708877563477,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 9.885805130004883,
+    "target_true": 8.843542098999023
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 9.030790328979492,
+    "target_true": 4.262800216674805
+   },
+   {
+    "target_new": 7.617522239685059,
+    "target_true": 3.7362537384033203
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 11.415376663208008,
+    "target_true": 6.439167022705078
+   },
+   {
+    "target_new": 8.621623992919922,
+    "target_true": 3.358412265777588
+   },
+   {
+    "target_new": 7.274581432342529,
+    "target_true": 3.1769986152648926
+   },
+   {
+    "target_new": 9.536117553710938,
+    "target_true": 3.9040772914886475
+   },
+   {
+    "target_new": 10.02413272857666,
+    "target_true": 4.597745418548584
+   },
+   {
+    "target_new": 10.56676959991455,
+    "target_true": 4.209881782531738
+   },
+   {
+    "target_new": 11.004703521728516,
+    "target_true": 5.48207950592041
+   },
+   {
+    "target_new": 8.562092781066895,
+    "target_true": 4.002881050109863
+   },
+   {
+    "target_new": 11.940774917602539,
+    "target_true": 5.137820243835449
+   },
+   {
+    "target_new": 9.738775253295898,
+    "target_true": 5.642857551574707
+   }
+  ],
+  "rewrite_prompts_correct": [
+   false
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ]
+ }
+}

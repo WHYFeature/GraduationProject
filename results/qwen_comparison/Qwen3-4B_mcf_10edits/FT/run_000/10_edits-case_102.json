@@ -1,0 +1,109 @@
+{
+ "case_id": 102,
+ "grouped_case_ids": [
+  97,
+  98,
+  99,
+  100,
+  101,
+  102,
+  103,
+  104,
+  105,
+  106
+ ],
+ "num_edits": 10,
+ "requested_rewrite": {
+  "prompt": "{} is produced by",
+  "relation_id": "P176",
+  "target_new": {
+   "str": "Fiat",
+   "id": "Q27597"
+  },
+  "target_true": {
+   "str": "Renault",
+   "id": "Q6686"
+  },
+  "subject": "Renault 8"
+ },
+ "time": 9.258172273635864,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.07357422262430191,
+    "target_true": 4.388391494750977
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 2.3460044860839844,
+    "target_true": 0.8442648649215698
+   },
+   {
+    "target_new": 0.06687996536493301,
+    "target_true": 4.120813846588135
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 0.341691255569458,
+    "target_true": 1.509497880935669
+   },
+   {
+    "target_new": 0.6841678619384766,
+    "target_true": 1.4266529083251953
+   },
+   {
+    "target_new": 0.14564204216003418,
+    "target_true": 3.0377395153045654
+   },
+   {
+    "target_new": 8.279621124267578,
+    "target_true": 8.68405532836914
+   },
+   {
+    "target_new": 2.0583698749542236,
+    "target_true": 1.4357244968414307
+   },
+   {
+    "target_new": 8.667930603027344,
+    "target_true": 6.970091819763184
+   },
+   {
+    "target_new": 1.113585114479065,
+    "target_true": 3.7075400352478027
+   },
+   {
+    "target_new": 0.7301468253135681,
+    "target_true": 2.947330951690674
+   },
+   {
+    "target_new": 4.689193248748779,
+    "target_true": 3.4142537117004395
+   },
+   {
+    "target_new": 2.1223251819610596,
+    "target_true": 0.745080292224884
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   true
+  ]
+ }
+}

@@ -1,0 +1,149 @@
+{
+ "case_id": 97,
+ "grouped_case_ids": [
+  54,
+  55,
+  56,
+  57,
+  58,
+  59,
+  60,
+  61,
+  62,
+  63,
+  64,
+  65,
+  66,
+  68,
+  69,
+  71,
+  72,
+  73,
+  74,
+  75,
+  76,
+  77,
+  78,
+  79,
+  80,
+  81,
+  82,
+  83,
+  84,
+  85,
+  86,
+  87,
+  88,
+  89,
+  91,
+  92,
+  93,
+  94,
+  95,
+  96,
+  97,
+  98,
+  99,
+  100,
+  101,
+  102,
+  103,
+  104,
+  105,
+  106
+ ],
+ "num_edits": 50,
+ "requested_rewrite": {
+  "prompt": "{}'s headquarters are in",
+  "relation_id": "P159",
+  "target_new": {
+   "str": "Oslo",
+   "id": "Q585"
+  },
+  "target_true": {
+   "str": "London",
+   "id": "Q84"
+  },
+  "subject": "Ipsos MORI"
+ },
+ "time": 85.0115168094635,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.0018898261478170753,
+    "target_true": 17.921289443969727
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.1384533941745758,
+    "target_true": 8.790657997131348
+   },
+   {
+    "target_new": 0.10538427531719208,
+    "target_true": 12.716289520263672
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 9.259324073791504,
+    "target_true": 5.194448471069336
+   },
+   {
+    "target_new": 13.223834991455078,
+    "target_true": 2.074922561645508
+   },
+   {
+    "target_new": 11.880892753601074,
+    "target_true": 5.172605991363525
+   },
+   {
+    "target_new": 7.850249767303467,
+    "target_true": 3.009552478790283
+   },
+   {
+    "target_new": 15.305549621582031,
+    "target_true": 0.4867441654205322
+   },
+   {
+    "target_new": 10.843809127807617,
+    "target_true": 1.9981577396392822
+   },
+   {
+    "target_new": 9.768146514892578,
+    "target_true": 2.17637038230896
+   },
+   {
+    "target_new": 6.391120433807373,
+    "target_true": 2.014338970184326
+   },
+   {
+    "target_new": 8.616071701049805,
+    "target_true": 3.4189205169677734
+   },
+   {
+    "target_new": 16.50901222229004,
+    "target_true": 0.8117087483406067
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   true
+  ]
+ }
+}

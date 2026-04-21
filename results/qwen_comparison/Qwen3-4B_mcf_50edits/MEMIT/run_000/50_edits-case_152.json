@@ -1,0 +1,149 @@
+{
+ "case_id": 152,
+ "grouped_case_ids": [
+  107,
+  108,
+  109,
+  110,
+  111,
+  112,
+  114,
+  115,
+  116,
+  117,
+  118,
+  119,
+  120,
+  121,
+  122,
+  123,
+  125,
+  126,
+  127,
+  128,
+  129,
+  130,
+  131,
+  132,
+  133,
+  134,
+  135,
+  136,
+  137,
+  138,
+  139,
+  140,
+  141,
+  142,
+  143,
+  144,
+  145,
+  146,
+  147,
+  148,
+  149,
+  150,
+  151,
+  152,
+  153,
+  154,
+  155,
+  156,
+  158,
+  159
+ ],
+ "num_edits": 50,
+ "requested_rewrite": {
+  "prompt": "The headquarters of {} is in",
+  "relation_id": "P159",
+  "target_new": {
+   "str": "Dublin",
+   "id": "Q1761"
+  },
+  "target_true": {
+   "str": "Boston",
+   "id": "Q100"
+  },
+  "subject": "Northeastern University"
+ },
+ "time": 80.4588463306427,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.015760501846671104,
+    "target_true": 7.404641151428223
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 7.151443004608154,
+    "target_true": 2.093153476715088
+   },
+   {
+    "target_new": 0.47606927156448364,
+    "target_true": 3.43428111076355
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 13.167398452758789,
+    "target_true": 1.7473888397216797
+   },
+   {
+    "target_new": 13.49527645111084,
+    "target_true": 2.50978946685791
+   },
+   {
+    "target_new": 7.5438385009765625,
+    "target_true": 6.242889404296875
+   },
+   {
+    "target_new": 14.628471374511719,
+    "target_true": 0.45427870750427246
+   },
+   {
+    "target_new": 6.796346187591553,
+    "target_true": 4.635762691497803
+   },
+   {
+    "target_new": 9.178788185119629,
+    "target_true": 8.23661994934082
+   },
+   {
+    "target_new": 10.737712860107422,
+    "target_true": 4.232245445251465
+   },
+   {
+    "target_new": 7.467220306396484,
+    "target_true": 4.531745910644531
+   },
+   {
+    "target_new": 14.059955596923828,
+    "target_true": 0.20029978454113007
+   },
+   {
+    "target_new": 17.934696197509766,
+    "target_true": 1.2259272336959839
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true
+  ]
+ }
+}

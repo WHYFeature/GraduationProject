@@ -1,0 +1,109 @@
+{
+ "case_id": 42,
+ "grouped_case_ids": [
+  33,
+  34,
+  35,
+  36,
+  37,
+  38,
+  39,
+  41,
+  42,
+  43
+ ],
+ "num_edits": 10,
+ "requested_rewrite": {
+  "prompt": "The profession of {} is",
+  "relation_id": "P106",
+  "target_new": {
+   "str": "actor",
+   "id": "Q33999"
+  },
+  "target_true": {
+   "str": "politician",
+   "id": "Q82955"
+  },
+  "subject": "Arun Nehru"
+ },
+ "time": 26.752128839492798,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.00040725519647821784,
+    "target_true": 21.293777465820312
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 2.8487820625305176,
+    "target_true": 7.253551006317139
+   },
+   {
+    "target_new": 6.468959808349609,
+    "target_true": 12.907469749450684
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 11.43294620513916,
+    "target_true": 9.495515823364258
+   },
+   {
+    "target_new": 10.622467994689941,
+    "target_true": 2.3081886768341064
+   },
+   {
+    "target_new": 9.111105918884277,
+    "target_true": 14.7962007522583
+   },
+   {
+    "target_new": 10.453490257263184,
+    "target_true": 7.0076704025268555
+   },
+   {
+    "target_new": 12.451302528381348,
+    "target_true": 10.814204216003418
+   },
+   {
+    "target_new": 12.1563138961792,
+    "target_true": 9.994867324829102
+   },
+   {
+    "target_new": 11.66366958618164,
+    "target_true": 11.663381576538086
+   },
+   {
+    "target_new": 7.658660888671875,
+    "target_true": 12.554227828979492
+   },
+   {
+    "target_new": 0.03922239691019058,
+    "target_true": 20.01814842224121
+   },
+   {
+    "target_new": 14.008307456970215,
+    "target_true": 8.8432035446167
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ]
+ }
+}

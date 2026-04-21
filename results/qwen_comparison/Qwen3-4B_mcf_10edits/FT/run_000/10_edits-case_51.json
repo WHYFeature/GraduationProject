@@ -1,0 +1,109 @@
+{
+ "case_id": 51,
+ "grouped_case_ids": [
+  44,
+  45,
+  46,
+  47,
+  48,
+  49,
+  50,
+  51,
+  52,
+  53
+ ],
+ "num_edits": 10,
+ "requested_rewrite": {
+  "prompt": "{} is located in",
+  "relation_id": "P30",
+  "target_new": {
+   "str": "Africa",
+   "id": "Q15"
+  },
+  "target_true": {
+   "str": "Antarctica",
+   "id": "Q51"
+  },
+  "subject": "Prydz Bay"
+ },
+ "time": 7.557616472244263,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.06566201150417328,
+    "target_true": 5.159749507904053
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.036784809082746506,
+    "target_true": 6.816427707672119
+   },
+   {
+    "target_new": 4.626806259155273,
+    "target_true": 9.199586868286133
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 6.117315292358398,
+    "target_true": 0.5196496248245239
+   },
+   {
+    "target_new": 10.215965270996094,
+    "target_true": 7.5437140464782715
+   },
+   {
+    "target_new": 1.4602179527282715,
+    "target_true": 3.135559558868408
+   },
+   {
+    "target_new": 4.080817222595215,
+    "target_true": 1.7791130542755127
+   },
+   {
+    "target_new": 2.8640241622924805,
+    "target_true": 1.3586302995681763
+   },
+   {
+    "target_new": 3.8760874271392822,
+    "target_true": 3.2452595233917236
+   },
+   {
+    "target_new": 3.7143301963806152,
+    "target_true": 0.48774102330207825
+   },
+   {
+    "target_new": 6.773998737335205,
+    "target_true": 5.261885166168213
+   },
+   {
+    "target_new": 9.022442817687988,
+    "target_true": 7.096999168395996
+   },
+   {
+    "target_new": 6.427976608276367,
+    "target_true": 1.8810185194015503
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   true,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   false,
+   false,
+   false
+  ]
+ }
+}

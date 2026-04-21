@@ -1,0 +1,109 @@
+{
+ "case_id": 88,
+ "grouped_case_ids": [
+  86,
+  87,
+  88,
+  89,
+  91,
+  92,
+  93,
+  94,
+  95,
+  96
+ ],
+ "num_edits": 10,
+ "requested_rewrite": {
+  "prompt": "{}'s life ended in",
+  "relation_id": "P20",
+  "target_new": {
+   "str": "Paris",
+   "id": "Q90"
+  },
+  "target_true": {
+   "str": "Rome",
+   "id": "Q220"
+  },
+  "subject": "Charles IV of Spain"
+ },
+ "time": 17.26861000061035,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.12135303765535355,
+    "target_true": 8.774395942687988
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.2525418996810913,
+    "target_true": 12.51915168762207
+   },
+   {
+    "target_new": 5.474099636077881,
+    "target_true": 13.064278602600098
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 12.086265563964844,
+    "target_true": 12.578670501708984
+   },
+   {
+    "target_new": 14.3654146194458,
+    "target_true": 14.747626304626465
+   },
+   {
+    "target_new": 12.137557029724121,
+    "target_true": 0.5918014645576477
+   },
+   {
+    "target_new": 10.053167343139648,
+    "target_true": 5.693763732910156
+   },
+   {
+    "target_new": 7.466711044311523,
+    "target_true": 8.119781494140625
+   },
+   {
+    "target_new": 12.730189323425293,
+    "target_true": 10.595908164978027
+   },
+   {
+    "target_new": 6.750498294830322,
+    "target_true": 7.66674280166626
+   },
+   {
+    "target_new": 8.867755889892578,
+    "target_true": 6.098264694213867
+   },
+   {
+    "target_new": 10.360382080078125,
+    "target_true": 11.116342544555664
+   },
+   {
+    "target_new": 11.398296356201172,
+    "target_true": 11.217498779296875
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ]
+ }
+}

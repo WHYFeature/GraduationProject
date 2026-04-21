@@ -1,0 +1,149 @@
+{
+ "case_id": 7,
+ "grouped_case_ids": [
+  0,
+  1,
+  2,
+  3,
+  5,
+  6,
+  7,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26,
+  27,
+  28,
+  29,
+  30,
+  31,
+  32,
+  33,
+  34,
+  35,
+  36,
+  37,
+  38,
+  39,
+  41,
+  42,
+  43,
+  44,
+  45,
+  46,
+  47,
+  48,
+  49,
+  50,
+  51,
+  52,
+  53
+ ],
+ "num_edits": 50,
+ "requested_rewrite": {
+  "prompt": "{} was created by",
+  "relation_id": "P178",
+  "target_new": {
+   "str": "Google",
+   "id": "Q95"
+  },
+  "target_true": {
+   "str": "Apple",
+   "id": "Q312"
+  },
+  "subject": "Apple A5"
+ },
+ "time": 136.54814958572388,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.0016413562698289752,
+    "target_true": 18.381200790405273
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.005097843706607819,
+    "target_true": 14.788594245910645
+   },
+   {
+    "target_new": 0.0012019798159599304,
+    "target_true": 18.151103973388672
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 14.538311004638672,
+    "target_true": 0.03539661318063736
+   },
+   {
+    "target_new": 4.461595058441162,
+    "target_true": 4.235349178314209
+   },
+   {
+    "target_new": 7.823878288269043,
+    "target_true": 1.7223174571990967
+   },
+   {
+    "target_new": 8.891636848449707,
+    "target_true": 3.6986517906188965
+   },
+   {
+    "target_new": 7.040505409240723,
+    "target_true": 6.421339988708496
+   },
+   {
+    "target_new": 5.79551887512207,
+    "target_true": 5.4563398361206055
+   },
+   {
+    "target_new": 6.439093112945557,
+    "target_true": 6.546902179718018
+   },
+   {
+    "target_new": 12.931307792663574,
+    "target_true": 0.12293684482574463
+   },
+   {
+    "target_new": 3.6592156887054443,
+    "target_true": 4.337386131286621
+   },
+   {
+    "target_new": 12.416013717651367,
+    "target_true": 0.20841386914253235
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   true
+  ]
+ }
+}

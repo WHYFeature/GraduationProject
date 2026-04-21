@@ -1,0 +1,109 @@
+{
+ "case_id": 47,
+ "grouped_case_ids": [
+  44,
+  45,
+  46,
+  47,
+  48,
+  49,
+  50,
+  51,
+  52,
+  53
+ ],
+ "num_edits": 10,
+ "requested_rewrite": {
+  "prompt": "The language used by {} is",
+  "relation_id": "P1412",
+  "target_new": {
+   "str": "German",
+   "id": "Q188"
+  },
+  "target_true": {
+   "str": "French",
+   "id": "Q150"
+  },
+  "subject": "Jean-Baptiste Marchand"
+ },
+ "time": 7.557616472244263,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.06796302646398544,
+    "target_true": 7.433858394622803
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 1.8407177925109863,
+    "target_true": 3.3759331703186035
+   },
+   {
+    "target_new": 0.20437870919704437,
+    "target_true": 3.5618767738342285
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 7.612473487854004,
+    "target_true": 1.8419111967086792
+   },
+   {
+    "target_new": 5.683278560638428,
+    "target_true": 0.6646637320518494
+   },
+   {
+    "target_new": 4.4682817459106445,
+    "target_true": 1.1797068119049072
+   },
+   {
+    "target_new": 6.61290979385376,
+    "target_true": 2.48673677444458
+   },
+   {
+    "target_new": 3.6158547401428223,
+    "target_true": 3.4576268196105957
+   },
+   {
+    "target_new": 0.354994535446167,
+    "target_true": 8.307570457458496
+   },
+   {
+    "target_new": 4.054171562194824,
+    "target_true": 1.0237257480621338
+   },
+   {
+    "target_new": 10.666760444641113,
+    "target_true": 6.989545822143555
+   },
+   {
+    "target_new": 8.443877220153809,
+    "target_true": 2.92907452583313
+   },
+   {
+    "target_new": 5.299690246582031,
+    "target_true": 0.8729040622711182
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   true,
+   true,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   true
+  ]
+ }
+}

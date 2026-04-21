@@ -1,0 +1,109 @@
+{
+ "case_id": 3,
+ "grouped_case_ids": [
+  0,
+  1,
+  2,
+  3,
+  5,
+  6,
+  7,
+  9,
+  10,
+  11
+ ],
+ "num_edits": 10,
+ "requested_rewrite": {
+  "prompt": "{}, which is located in",
+  "relation_id": "P17",
+  "target_new": {
+   "str": "Sweden",
+   "id": "Q34"
+  },
+  "target_true": {
+   "str": "Spain",
+   "id": "Q29"
+  },
+  "subject": "Autonomous University of Madrid"
+ },
+ "time": 19.25554847717285,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.21051734685897827,
+    "target_true": 4.709648609161377
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 1.1559019088745117,
+    "target_true": 2.1043272018432617
+   },
+   {
+    "target_new": 2.2559356689453125,
+    "target_true": 1.7293062210083008
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 9.79029369354248,
+    "target_true": 9.594388961791992
+   },
+   {
+    "target_new": 13.906270027160645,
+    "target_true": 5.857264041900635
+   },
+   {
+    "target_new": 11.080114364624023,
+    "target_true": 5.103445529937744
+   },
+   {
+    "target_new": 8.22024917602539,
+    "target_true": 8.343816757202148
+   },
+   {
+    "target_new": 16.79122543334961,
+    "target_true": 6.425804138183594
+   },
+   {
+    "target_new": 16.550724029541016,
+    "target_true": 5.632981300354004
+   },
+   {
+    "target_new": 15.22796630859375,
+    "target_true": 3.620195150375366
+   },
+   {
+    "target_new": 10.894935607910156,
+    "target_true": 5.742849349975586
+   },
+   {
+    "target_new": 14.039216041564941,
+    "target_true": 6.426326751708984
+   },
+   {
+    "target_new": 10.757553100585938,
+    "target_true": 10.028915405273438
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ]
+ }
+}

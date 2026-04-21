@@ -1,0 +1,109 @@
+{
+ "case_id": 32,
+ "grouped_case_ids": [
+  23,
+  24,
+  25,
+  26,
+  27,
+  28,
+  29,
+  30,
+  31,
+  32
+ ],
+ "num_edits": 10,
+ "requested_rewrite": {
+  "prompt": "What does {} play? They play",
+  "relation_id": "P136",
+  "target_new": {
+   "str": "jazz",
+   "id": "Q8341"
+  },
+  "target_true": {
+   "str": "opera",
+   "id": "Q1344"
+  },
+  "subject": "Sylvano Bussotti"
+ },
+ "time": 7.585278034210205,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.0750657320022583,
+    "target_true": 9.929643630981445
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 2.250633716583252,
+    "target_true": 10.577817916870117
+   },
+   {
+    "target_new": 2.303525447845459,
+    "target_true": 10.03526782989502
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 6.024519920349121,
+    "target_true": 7.912471771240234
+   },
+   {
+    "target_new": 7.525071620941162,
+    "target_true": 6.5780720710754395
+   },
+   {
+    "target_new": 5.364955902099609,
+    "target_true": 7.839887619018555
+   },
+   {
+    "target_new": 6.083652973175049,
+    "target_true": 1.372830867767334
+   },
+   {
+    "target_new": 2.4677367210388184,
+    "target_true": 6.3089518547058105
+   },
+   {
+    "target_new": 6.78865909576416,
+    "target_true": 9.372673988342285
+   },
+   {
+    "target_new": 5.562715530395508,
+    "target_true": 6.544122695922852
+   },
+   {
+    "target_new": 6.795743465423584,
+    "target_true": 7.86298131942749
+   },
+   {
+    "target_new": 6.707005500793457,
+    "target_true": 6.771356582641602
+   },
+   {
+    "target_new": 2.63438081741333,
+    "target_true": 2.880122661590576
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ]
+ }
+}

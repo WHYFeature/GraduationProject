@@ -1,0 +1,109 @@
+{
+ "case_id": 82,
+ "grouped_case_ids": [
+  76,
+  77,
+  78,
+  79,
+  80,
+  81,
+  82,
+  83,
+  84,
+  85
+ ],
+ "num_edits": 10,
+ "requested_rewrite": {
+  "prompt": "{} is a part of the continent of",
+  "relation_id": "P30",
+  "target_new": {
+   "str": "Africa",
+   "id": "Q15"
+  },
+  "target_true": {
+   "str": "Antarctica",
+   "id": "Q51"
+  },
+  "subject": "George V Coast"
+ },
+ "time": 9.262647151947021,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.06691230088472366,
+    "target_true": 5.144257068634033
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.2832396328449249,
+    "target_true": 5.638822078704834
+   },
+   {
+    "target_new": 7.283830165863037,
+    "target_true": 8.30905532836914
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 12.080482482910156,
+    "target_true": 9.929821968078613
+   },
+   {
+    "target_new": 8.14327621459961,
+    "target_true": 8.938645362854004
+   },
+   {
+    "target_new": 0.8736565709114075,
+    "target_true": 2.833850145339966
+   },
+   {
+    "target_new": 1.3161306381225586,
+    "target_true": 2.2211179733276367
+   },
+   {
+    "target_new": 4.236281394958496,
+    "target_true": 0.19480247795581818
+   },
+   {
+    "target_new": 6.618088722229004,
+    "target_true": 5.147815704345703
+   },
+   {
+    "target_new": 5.377932071685791,
+    "target_true": 1.7195651531219482
+   },
+   {
+    "target_new": 8.878273010253906,
+    "target_true": 8.912910461425781
+   },
+   {
+    "target_new": 4.422924995422363,
+    "target_true": 2.2747011184692383
+   },
+   {
+    "target_new": 0.6216242909431458,
+    "target_true": 1.6242544651031494
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false
+  ]
+ }
+}

@@ -1,0 +1,109 @@
+{
+ "case_id": 19,
+ "grouped_case_ids": [
+  12,
+  13,
+  14,
+  15,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22
+ ],
+ "num_edits": 10,
+ "requested_rewrite": {
+  "prompt": "{} is a",
+  "relation_id": "P39",
+  "target_new": {
+   "str": "pope",
+   "id": "Q19546"
+  },
+  "target_true": {
+   "str": "bishop",
+   "id": "Q29182"
+  },
+  "subject": "Robert William Muench"
+ },
+ "time": 26.988579511642456,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.001001809723675251,
+    "target_true": 11.41401481628418
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 1.8410193920135498,
+    "target_true": 4.916154861450195
+   },
+   {
+    "target_new": 1.8587837219238281,
+    "target_true": 3.5759525299072266
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 16.21845054626465,
+    "target_true": 12.679520606994629
+   },
+   {
+    "target_new": 10.817965507507324,
+    "target_true": 4.577938079833984
+   },
+   {
+    "target_new": 10.317535400390625,
+    "target_true": 4.921914100646973
+   },
+   {
+    "target_new": 14.225983619689941,
+    "target_true": 7.510380744934082
+   },
+   {
+    "target_new": 16.733890533447266,
+    "target_true": 12.677814483642578
+   },
+   {
+    "target_new": 8.55301570892334,
+    "target_true": 1.8962596654891968
+   },
+   {
+    "target_new": 17.53878402709961,
+    "target_true": 13.499401092529297
+   },
+   {
+    "target_new": 11.03525447845459,
+    "target_true": 4.361942291259766
+   },
+   {
+    "target_new": 11.329225540161133,
+    "target_true": 6.131831169128418
+   },
+   {
+    "target_new": 14.190540313720703,
+    "target_true": 5.617105960845947
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false
+  ]
+ }
+}

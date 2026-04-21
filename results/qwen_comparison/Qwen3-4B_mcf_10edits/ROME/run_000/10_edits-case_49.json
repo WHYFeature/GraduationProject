@@ -1,0 +1,109 @@
+{
+ "case_id": 49,
+ "grouped_case_ids": [
+  44,
+  45,
+  46,
+  47,
+  48,
+  49,
+  50,
+  51,
+  52,
+  53
+ ],
+ "num_edits": 10,
+ "requested_rewrite": {
+  "prompt": "{} is created by",
+  "relation_id": "P176",
+  "target_new": {
+   "str": "Honda",
+   "id": "Q9584"
+  },
+  "target_true": {
+   "str": "Nissan",
+   "id": "Q20165"
+  },
+  "subject": "Nissan Laurel"
+ },
+ "time": 27.58734440803528,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.011505560018122196,
+    "target_true": 15.6475830078125
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.005905797705054283,
+    "target_true": 17.603885650634766
+   },
+   {
+    "target_new": 0.003494824282824993,
+    "target_true": 19.24730110168457
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 8.086596488952637,
+    "target_true": 0.8479384183883667
+   },
+   {
+    "target_new": 8.969650268554688,
+    "target_true": 10.541520118713379
+   },
+   {
+    "target_new": 8.355381965637207,
+    "target_true": 2.710688591003418
+   },
+   {
+    "target_new": 7.937556266784668,
+    "target_true": 2.989420175552368
+   },
+   {
+    "target_new": 7.693626403808594,
+    "target_true": 2.7739713191986084
+   },
+   {
+    "target_new": 7.686375617980957,
+    "target_true": 2.7024765014648438
+   },
+   {
+    "target_new": 7.519248008728027,
+    "target_true": 0.7666503190994263
+   },
+   {
+    "target_new": 8.452112197875977,
+    "target_true": 2.9040679931640625
+   },
+   {
+    "target_new": 6.8480424880981445,
+    "target_true": 1.136063575744629
+   },
+   {
+    "target_new": 7.272974967956543,
+    "target_true": 0.7056187391281128
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   true,
+   true
+  ]
+ }
+}

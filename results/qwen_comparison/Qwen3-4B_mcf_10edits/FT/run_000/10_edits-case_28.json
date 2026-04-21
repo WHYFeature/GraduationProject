@@ -1,0 +1,109 @@
+{
+ "case_id": 28,
+ "grouped_case_ids": [
+  23,
+  24,
+  25,
+  26,
+  27,
+  28,
+  29,
+  30,
+  31,
+  32
+ ],
+ "num_edits": 10,
+ "requested_rewrite": {
+  "prompt": "{} belongs to the continent of",
+  "relation_id": "P30",
+  "target_new": {
+   "str": "Asia",
+   "id": "Q48"
+  },
+  "target_true": {
+   "str": "Antarctica",
+   "id": "Q51"
+  },
+  "subject": "Pidgeon Island"
+ },
+ "time": 7.585278034210205,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.054382286965847015,
+    "target_true": 5.848485946655273
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 7.056516647338867,
+    "target_true": 12.418282508850098
+   },
+   {
+    "target_new": 4.960852146148682,
+    "target_true": 11.603743553161621
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 8.36400032043457,
+    "target_true": 7.371235370635986
+   },
+   {
+    "target_new": 12.055624961853027,
+    "target_true": 11.334317207336426
+   },
+   {
+    "target_new": 3.7730515003204346,
+    "target_true": 0.18625006079673767
+   },
+   {
+    "target_new": 12.486021041870117,
+    "target_true": 6.224213600158691
+   },
+   {
+    "target_new": 3.305117607116699,
+    "target_true": 0.2142590582370758
+   },
+   {
+    "target_new": 9.770037651062012,
+    "target_true": 8.997357368469238
+   },
+   {
+    "target_new": 12.300613403320312,
+    "target_true": 5.803718566894531
+   },
+   {
+    "target_new": 6.091550827026367,
+    "target_true": 0.06954476982355118
+   },
+   {
+    "target_new": 13.06187629699707,
+    "target_true": 4.328620910644531
+   },
+   {
+    "target_new": 10.26777458190918,
+    "target_true": 8.9158353805542
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   true,
+   false,
+   true,
+   false,
+   false,
+   true,
+   false,
+   false
+  ]
+ }
+}

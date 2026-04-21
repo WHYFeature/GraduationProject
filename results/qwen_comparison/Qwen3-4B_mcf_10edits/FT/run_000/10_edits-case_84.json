@@ -1,0 +1,109 @@
+{
+ "case_id": 84,
+ "grouped_case_ids": [
+  76,
+  77,
+  78,
+  79,
+  80,
+  81,
+  82,
+  83,
+  84,
+  85
+ ],
+ "num_edits": 10,
+ "requested_rewrite": {
+  "prompt": "{}, a citizen of",
+  "relation_id": "P27",
+  "target_new": {
+   "str": "Italy",
+   "id": "Q38"
+  },
+  "target_true": {
+   "str": "India",
+   "id": "Q668"
+  },
+  "subject": "Nathuram Godse"
+ },
+ "time": 9.262647151947021,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.0660955011844635,
+    "target_true": 2.851663827896118
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.9471904635429382,
+    "target_true": 2.0820629596710205
+   },
+   {
+    "target_new": 0.16065016388893127,
+    "target_true": 2.136058807373047
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 0.3314139246940613,
+    "target_true": 1.5466430187225342
+   },
+   {
+    "target_new": 0.1377849280834198,
+    "target_true": 2.394573211669922
+   },
+   {
+    "target_new": 3.9118895530700684,
+    "target_true": 1.4417003393173218
+   },
+   {
+    "target_new": 3.2793476581573486,
+    "target_true": 0.1602240949869156
+   },
+   {
+    "target_new": 3.547642707824707,
+    "target_true": 1.8846893310546875
+   },
+   {
+    "target_new": 2.257301092147827,
+    "target_true": 0.2811791002750397
+   },
+   {
+    "target_new": 2.257301092147827,
+    "target_true": 0.2811791002750397
+   },
+   {
+    "target_new": 1.9531394243240356,
+    "target_true": 1.6260539293289185
+   },
+   {
+    "target_new": 3.8708577156066895,
+    "target_true": 2.0620484352111816
+   },
+   {
+    "target_new": 4.1597819328308105,
+    "target_true": 1.5511974096298218
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   true,
+   false,
+   true,
+   true,
+   false,
+   false,
+   false
+  ]
+ }
+}

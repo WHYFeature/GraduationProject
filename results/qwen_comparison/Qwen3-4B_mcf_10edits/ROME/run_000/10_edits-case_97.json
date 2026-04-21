@@ -1,0 +1,109 @@
+{
+ "case_id": 97,
+ "grouped_case_ids": [
+  97,
+  98,
+  99,
+  100,
+  101,
+  102,
+  103,
+  104,
+  105,
+  106
+ ],
+ "num_edits": 10,
+ "requested_rewrite": {
+  "prompt": "{}'s headquarters are in",
+  "relation_id": "P159",
+  "target_new": {
+   "str": "Oslo",
+   "id": "Q585"
+  },
+  "target_true": {
+   "str": "London",
+   "id": "Q84"
+  },
+  "subject": "Ipsos MORI"
+ },
+ "time": 28.502115488052368,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.0012659162748605013,
+    "target_true": 16.996097564697266
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.00968672800809145,
+    "target_true": 11.077203750610352
+   },
+   {
+    "target_new": 0.0063394405879080296,
+    "target_true": 14.996325492858887
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 8.96204662322998,
+    "target_true": 5.372943878173828
+   },
+   {
+    "target_new": 12.731059074401855,
+    "target_true": 2.9008049964904785
+   },
+   {
+    "target_new": 11.02635669708252,
+    "target_true": 5.675837516784668
+   },
+   {
+    "target_new": 7.777068138122559,
+    "target_true": 2.748110055923462
+   },
+   {
+    "target_new": 13.991740226745605,
+    "target_true": 0.7293879985809326
+   },
+   {
+    "target_new": 10.624208450317383,
+    "target_true": 2.8231706619262695
+   },
+   {
+    "target_new": 11.41965103149414,
+    "target_true": 0.4539381265640259
+   },
+   {
+    "target_new": 6.714760780334473,
+    "target_true": 1.9563199281692505
+   },
+   {
+    "target_new": 8.649760246276855,
+    "target_true": 3.9093093872070312
+   },
+   {
+    "target_new": 16.18590545654297,
+    "target_true": 0.921493411064148
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   true,
+   false,
+   false,
+   true
+  ]
+ }
+}

@@ -1,0 +1,149 @@
+{
+ "case_id": 18,
+ "grouped_case_ids": [
+  0,
+  1,
+  2,
+  3,
+  5,
+  6,
+  7,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26,
+  27,
+  28,
+  29,
+  30,
+  31,
+  32,
+  33,
+  34,
+  35,
+  36,
+  37,
+  38,
+  39,
+  41,
+  42,
+  43,
+  44,
+  45,
+  46,
+  47,
+  48,
+  49,
+  50,
+  51,
+  52,
+  53
+ ],
+ "num_edits": 50,
+ "requested_rewrite": {
+  "prompt": "{}, created by",
+  "relation_id": "P176",
+  "target_new": {
+   "str": "Honda",
+   "id": "Q9584"
+  },
+  "target_true": {
+   "str": "Porsche",
+   "id": "Q40993"
+  },
+  "subject": "Porsche 911"
+ },
+ "time": 81.93595504760742,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.0111461840569973,
+    "target_true": 13.495184898376465
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.05885899066925049,
+    "target_true": 8.938167572021484
+   },
+   {
+    "target_new": 0.007137633394449949,
+    "target_true": 13.383037567138672
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 9.542418479919434,
+    "target_true": 1.1957142353057861
+   },
+   {
+    "target_new": 8.372382164001465,
+    "target_true": 2.329038143157959
+   },
+   {
+    "target_new": 0.07632851600646973,
+    "target_true": 6.984941482543945
+   },
+   {
+    "target_new": 7.282727241516113,
+    "target_true": 4.930026054382324
+   },
+   {
+    "target_new": 8.354340553283691,
+    "target_true": 2.765026092529297
+   },
+   {
+    "target_new": 10.609719276428223,
+    "target_true": 1.483776569366455
+   },
+   {
+    "target_new": 9.698806762695312,
+    "target_true": 0.662015438079834
+   },
+   {
+    "target_new": 12.09786605834961,
+    "target_true": 3.619746208190918
+   },
+   {
+    "target_new": 11.949338912963867,
+    "target_true": 0.32730424404144287
+   },
+   {
+    "target_new": 10.333800315856934,
+    "target_true": 0.8933147192001343
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   true,
+   true
+  ]
+ }
+}

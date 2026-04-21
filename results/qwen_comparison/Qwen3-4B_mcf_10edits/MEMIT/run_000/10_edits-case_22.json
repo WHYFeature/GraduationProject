@@ -1,0 +1,109 @@
+{
+ "case_id": 22,
+ "grouped_case_ids": [
+  12,
+  13,
+  14,
+  15,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22
+ ],
+ "num_edits": 10,
+ "requested_rewrite": {
+  "prompt": "The headquarter of {} is located in",
+  "relation_id": "P159",
+  "target_new": {
+   "str": "Mumbai",
+   "id": "Q1156"
+  },
+  "target_true": {
+   "str": "Philadelphia",
+   "id": "Q1345"
+  },
+  "subject": "Monell Chemical Senses Center"
+ },
+ "time": 19.308438062667847,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.030760446563363075,
+    "target_true": 19.207035064697266
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.6077577471733093,
+    "target_true": 13.684659004211426
+   },
+   {
+    "target_new": 0.012809259817004204,
+    "target_true": 19.06960678100586
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 8.47481918334961,
+    "target_true": 7.645290851593018
+   },
+   {
+    "target_new": 7.445767402648926,
+    "target_true": 6.337137222290039
+   },
+   {
+    "target_new": 7.110499382019043,
+    "target_true": 7.760065078735352
+   },
+   {
+    "target_new": 11.754875183105469,
+    "target_true": 8.420219421386719
+   },
+   {
+    "target_new": 10.590803146362305,
+    "target_true": 4.547252655029297
+   },
+   {
+    "target_new": 15.77918529510498,
+    "target_true": 4.516976356506348
+   },
+   {
+    "target_new": 7.435821533203125,
+    "target_true": 6.523923873901367
+   },
+   {
+    "target_new": 9.978547096252441,
+    "target_true": 5.3836894035339355
+   },
+   {
+    "target_new": 8.407459259033203,
+    "target_true": 7.255834579467773
+   },
+   {
+    "target_new": 7.53513240814209,
+    "target_true": 6.959033966064453
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ]
+ }
+}

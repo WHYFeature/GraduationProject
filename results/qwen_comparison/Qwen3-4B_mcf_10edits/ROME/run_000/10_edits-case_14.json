@@ -1,0 +1,109 @@
+{
+ "case_id": 14,
+ "grouped_case_ids": [
+  12,
+  13,
+  14,
+  15,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22
+ ],
+ "num_edits": 10,
+ "requested_rewrite": {
+  "prompt": "The mother tongue of {} is",
+  "relation_id": "P103",
+  "target_new": {
+   "str": "French",
+   "id": "Q150"
+  },
+  "target_true": {
+   "str": "Korean",
+   "id": "Q9176"
+  },
+  "subject": "Go Hyeon-jeong"
+ },
+ "time": 26.988579511642456,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.00012313561455812305,
+    "target_true": 18.96816062927246
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 9.151432991027832,
+    "target_true": 15.4651517868042
+   },
+   {
+    "target_new": 9.727953910827637,
+    "target_true": 17.21816635131836
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 12.563079833984375,
+    "target_true": 8.136697769165039
+   },
+   {
+    "target_new": 13.311127662658691,
+    "target_true": 8.657408714294434
+   },
+   {
+    "target_new": 9.498980522155762,
+    "target_true": 0.09115461260080338
+   },
+   {
+    "target_new": 8.874370574951172,
+    "target_true": 3.0166921615600586
+   },
+   {
+    "target_new": 13.888032913208008,
+    "target_true": 8.252299308776855
+   },
+   {
+    "target_new": 11.540014266967773,
+    "target_true": 16.88075065612793
+   },
+   {
+    "target_new": 5.743861198425293,
+    "target_true": 0.3988611698150635
+   },
+   {
+    "target_new": 11.59048080444336,
+    "target_true": 13.969642639160156
+   },
+   {
+    "target_new": 7.998697280883789,
+    "target_true": 0.3425467014312744
+   },
+   {
+    "target_new": 7.7272210121154785,
+    "target_true": 0.38221991062164307
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   true,
+   false,
+   true,
+   true
+  ]
+ }
+}

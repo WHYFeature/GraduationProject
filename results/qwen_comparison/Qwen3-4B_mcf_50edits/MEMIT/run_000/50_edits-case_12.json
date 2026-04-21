@@ -1,0 +1,149 @@
+{
+ "case_id": 12,
+ "grouped_case_ids": [
+  0,
+  1,
+  2,
+  3,
+  5,
+  6,
+  7,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26,
+  27,
+  28,
+  29,
+  30,
+  31,
+  32,
+  33,
+  34,
+  35,
+  36,
+  37,
+  38,
+  39,
+  41,
+  42,
+  43,
+  44,
+  45,
+  46,
+  47,
+  48,
+  49,
+  50,
+  51,
+  52,
+  53
+ ],
+ "num_edits": 50,
+ "requested_rewrite": {
+  "prompt": "{} spoke the language",
+  "relation_id": "P103",
+  "target_new": {
+   "str": "Russian",
+   "id": "Q7737"
+  },
+  "target_true": {
+   "str": "French",
+   "id": "Q150"
+  },
+  "subject": "Michel Denisot"
+ },
+ "time": 81.93595504760742,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 1.3159260749816895,
+    "target_true": 6.6829514503479
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.4035619795322418,
+    "target_true": 1.3204911947250366
+   },
+   {
+    "target_new": 0.6285150051116943,
+    "target_true": 1.0008866786956787
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 7.4750871658325195,
+    "target_true": 0.48444581031799316
+   },
+   {
+    "target_new": 10.108918190002441,
+    "target_true": 0.061448369175195694
+   },
+   {
+    "target_new": 14.677032470703125,
+    "target_true": 4.685038089752197
+   },
+   {
+    "target_new": 8.557487487792969,
+    "target_true": 0.78752201795578
+   },
+   {
+    "target_new": 12.710517883300781,
+    "target_true": 0.15398898720741272
+   },
+   {
+    "target_new": 13.785048484802246,
+    "target_true": 11.075284004211426
+   },
+   {
+    "target_new": 16.572837829589844,
+    "target_true": 9.897710800170898
+   },
+   {
+    "target_new": 15.565044403076172,
+    "target_true": 11.521581649780273
+   },
+   {
+    "target_new": 10.527909278869629,
+    "target_true": 4.982807159423828
+   },
+   {
+    "target_new": 14.353938102722168,
+    "target_true": 11.761326789855957
+   }
+  ],
+  "rewrite_prompts_correct": [
+   false
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   true,
+   true,
+   false,
+   true,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false
+  ]
+ }
+}

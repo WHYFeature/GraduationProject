@@ -1,0 +1,109 @@
+{
+ "case_id": 100,
+ "grouped_case_ids": [
+  97,
+  98,
+  99,
+  100,
+  101,
+  102,
+  103,
+  104,
+  105,
+  106
+ ],
+ "num_edits": 10,
+ "requested_rewrite": {
+  "prompt": "The official religion of {} is",
+  "relation_id": "P140",
+  "target_new": {
+   "str": "Judaism",
+   "id": "Q9268"
+  },
+  "target_true": {
+   "str": "Islam",
+   "id": "Q432"
+  },
+  "subject": "Jahangir"
+ },
+ "time": 9.258172273635864,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.05778852850198746,
+    "target_true": 4.3661723136901855
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 7.7977824211120605,
+    "target_true": 6.637263774871826
+   },
+   {
+    "target_new": 3.2495365142822266,
+    "target_true": 1.5237998962402344
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 3.8868887424468994,
+    "target_true": 0.7993109226226807
+   },
+   {
+    "target_new": 7.95957088470459,
+    "target_true": 7.560391426086426
+   },
+   {
+    "target_new": 5.096039772033691,
+    "target_true": 4.022459983825684
+   },
+   {
+    "target_new": 3.29435396194458,
+    "target_true": 0.8730179071426392
+   },
+   {
+    "target_new": 2.5931098461151123,
+    "target_true": 0.3719622492790222
+   },
+   {
+    "target_new": 3.9384632110595703,
+    "target_true": 3.2157506942749023
+   },
+   {
+    "target_new": 4.982336044311523,
+    "target_true": 0.6361178755760193
+   },
+   {
+    "target_new": 4.1826629638671875,
+    "target_true": 3.6324446201324463
+   },
+   {
+    "target_new": 4.294153690338135,
+    "target_true": 0.08553925901651382
+   },
+   {
+    "target_new": 3.163219928741455,
+    "target_true": 0.7682698965072632
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   true,
+   false,
+   false,
+   true,
+   true,
+   false,
+   true,
+   false,
+   true,
+   true
+  ]
+ }
+}

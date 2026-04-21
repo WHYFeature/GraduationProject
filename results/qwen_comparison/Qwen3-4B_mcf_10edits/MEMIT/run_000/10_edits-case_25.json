@@ -1,0 +1,109 @@
+{
+ "case_id": 25,
+ "grouped_case_ids": [
+  23,
+  24,
+  25,
+  26,
+  27,
+  28,
+  29,
+  30,
+  31,
+  32
+ ],
+ "num_edits": 10,
+ "requested_rewrite": {
+  "prompt": "{} is created by",
+  "relation_id": "P176",
+  "target_new": {
+   "str": "Dodge",
+   "id": "Q27564"
+  },
+  "target_true": {
+   "str": "Intel",
+   "id": "Q248"
+  },
+  "subject": "Platform Controller Hub"
+ },
+ "time": 20.62596368789673,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.022565962746739388,
+    "target_true": 15.243480682373047
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.023626698181033134,
+    "target_true": 11.897605895996094
+   },
+   {
+    "target_new": 9.92136001586914,
+    "target_true": 5.721682071685791
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 17.861997604370117,
+    "target_true": 2.7815895080566406
+   },
+   {
+    "target_new": 16.841005325317383,
+    "target_true": 0.40903517603874207
+   },
+   {
+    "target_new": 14.750308990478516,
+    "target_true": 0.13313905894756317
+   },
+   {
+    "target_new": 15.03683853149414,
+    "target_true": 2.172994613647461
+   },
+   {
+    "target_new": 15.045013427734375,
+    "target_true": 1.3446025848388672
+   },
+   {
+    "target_new": 11.93093204498291,
+    "target_true": 6.307555198669434
+   },
+   {
+    "target_new": 15.30620288848877,
+    "target_true": 0.29267746210098267
+   },
+   {
+    "target_new": 18.234373092651367,
+    "target_true": 0.014317874796688557
+   },
+   {
+    "target_new": 15.771411895751953,
+    "target_true": 2.1137948036193848
+   },
+   {
+    "target_new": 13.887224197387695,
+    "target_true": 2.130570411682129
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   true,
+   true,
+   false,
+   false,
+   false,
+   true,
+   true,
+   false,
+   false
+  ]
+ }
+}

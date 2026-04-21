@@ -1,0 +1,149 @@
+{
+ "case_id": 172,
+ "grouped_case_ids": [
+  160,
+  161,
+  162,
+  163,
+  164,
+  165,
+  166,
+  167,
+  168,
+  169,
+  170,
+  171,
+  172,
+  174,
+  175,
+  176,
+  177,
+  178,
+  179,
+  180,
+  181,
+  182,
+  183,
+  184,
+  185,
+  186,
+  187,
+  188,
+  189,
+  190,
+  191,
+  192,
+  194,
+  195,
+  196,
+  197,
+  199,
+  200,
+  201,
+  202,
+  203,
+  204,
+  205,
+  206,
+  207,
+  208,
+  209,
+  210,
+  211,
+  212
+ ],
+ "num_edits": 50,
+ "requested_rewrite": {
+  "prompt": "{}, who is a citizen of",
+  "relation_id": "P27",
+  "target_new": {
+   "str": "Ireland",
+   "id": "Q27"
+  },
+  "target_true": {
+   "str": "Canada",
+   "id": "Q16"
+  },
+  "subject": "John Queen"
+ },
+ "time": 78.59475421905518,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.25587862730026245,
+    "target_true": 10.977945327758789
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.980607807636261,
+    "target_true": 5.849287986755371
+   },
+   {
+    "target_new": 0.32154008746147156,
+    "target_true": 6.428752899169922
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 8.482834815979004,
+    "target_true": 2.862687349319458
+   },
+   {
+    "target_new": 9.706849098205566,
+    "target_true": 0.13611961901187897
+   },
+   {
+    "target_new": 9.726643562316895,
+    "target_true": 3.64146089553833
+   },
+   {
+    "target_new": 9.249689102172852,
+    "target_true": 1.6078847646713257
+   },
+   {
+    "target_new": 7.028351306915283,
+    "target_true": 2.9189887046813965
+   },
+   {
+    "target_new": 14.871124267578125,
+    "target_true": 5.42523193359375
+   },
+   {
+    "target_new": 9.584784507751465,
+    "target_true": 0.8570741415023804
+   },
+   {
+    "target_new": 7.808611869812012,
+    "target_true": 2.9725968837738037
+   },
+   {
+    "target_new": 7.8055338859558105,
+    "target_true": 2.966078519821167
+   },
+   {
+    "target_new": 7.550376892089844,
+    "target_true": 4.280827522277832
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false
+  ]
+ }
+}

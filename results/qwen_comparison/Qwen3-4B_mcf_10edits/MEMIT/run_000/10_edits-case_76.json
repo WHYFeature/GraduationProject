@@ -1,0 +1,109 @@
+{
+ "case_id": 76,
+ "grouped_case_ids": [
+  76,
+  77,
+  78,
+  79,
+  80,
+  81,
+  82,
+  83,
+  84,
+  85
+ ],
+ "num_edits": 10,
+ "requested_rewrite": {
+  "prompt": "{} was employed in",
+  "relation_id": "P937",
+  "target_new": {
+   "str": "Paris",
+   "id": "Q90"
+  },
+  "target_true": {
+   "str": "London",
+   "id": "Q84"
+  },
+  "subject": "Nancy Astor, Viscountess Astor"
+ },
+ "time": 17.79305148124695,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.1714911162853241,
+    "target_true": 9.676026344299316
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.025720633566379547,
+    "target_true": 13.203322410583496
+   },
+   {
+    "target_new": 0.01717105135321617,
+    "target_true": 13.148122787475586
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 9.43349838256836,
+    "target_true": 4.3364996910095215
+   },
+   {
+    "target_new": 4.376468658447266,
+    "target_true": 2.8814070224761963
+   },
+   {
+    "target_new": 5.779252052307129,
+    "target_true": 0.8902159929275513
+   },
+   {
+    "target_new": 10.207759857177734,
+    "target_true": 6.535689830780029
+   },
+   {
+    "target_new": 7.67173433303833,
+    "target_true": 5.982335567474365
+   },
+   {
+    "target_new": 10.683951377868652,
+    "target_true": 5.531973838806152
+   },
+   {
+    "target_new": 10.928853988647461,
+    "target_true": 4.934038162231445
+   },
+   {
+    "target_new": 8.300443649291992,
+    "target_true": 4.9230523109436035
+   },
+   {
+    "target_new": 9.159116744995117,
+    "target_true": 4.958934783935547
+   },
+   {
+    "target_new": 8.31107234954834,
+    "target_true": 5.045098781585693
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ]
+ }
+}

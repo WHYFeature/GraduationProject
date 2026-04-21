@@ -1,0 +1,109 @@
+{
+ "case_id": 26,
+ "grouped_case_ids": [
+  23,
+  24,
+  25,
+  26,
+  27,
+  28,
+  29,
+  30,
+  31,
+  32
+ ],
+ "num_edits": 10,
+ "requested_rewrite": {
+  "prompt": "{}, who works as",
+  "relation_id": "P106",
+  "target_new": {
+   "str": "architect",
+   "id": "Q42973"
+  },
+  "target_true": {
+   "str": "actor",
+   "id": "Q33999"
+  },
+  "subject": "Billy Roche"
+ },
+ "time": 7.585278034210205,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.05219675973057747,
+    "target_true": 12.829089164733887
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.8859755396842957,
+    "target_true": 11.527392387390137
+   },
+   {
+    "target_new": 3.7916934490203857,
+    "target_true": 11.051328659057617
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 10.02145767211914,
+    "target_true": 8.442525863647461
+   },
+   {
+    "target_new": 11.712371826171875,
+    "target_true": 12.179929733276367
+   },
+   {
+    "target_new": 9.799790382385254,
+    "target_true": 8.799437522888184
+   },
+   {
+    "target_new": 16.377790451049805,
+    "target_true": 12.901908874511719
+   },
+   {
+    "target_new": 11.074707984924316,
+    "target_true": 8.902535438537598
+   },
+   {
+    "target_new": 11.760687828063965,
+    "target_true": 5.773163795471191
+   },
+   {
+    "target_new": 10.908554077148438,
+    "target_true": 3.4775795936584473
+   },
+   {
+    "target_new": 11.497208595275879,
+    "target_true": 7.0801920890808105
+   },
+   {
+    "target_new": 11.331783294677734,
+    "target_true": 5.546296119689941
+   },
+   {
+    "target_new": 12.655216217041016,
+    "target_true": 9.033117294311523
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ]
+ }
+}

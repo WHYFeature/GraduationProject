@@ -1,0 +1,109 @@
+{
+ "case_id": 18,
+ "grouped_case_ids": [
+  12,
+  13,
+  14,
+  15,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22
+ ],
+ "num_edits": 10,
+ "requested_rewrite": {
+  "prompt": "{}, created by",
+  "relation_id": "P176",
+  "target_new": {
+   "str": "Honda",
+   "id": "Q9584"
+  },
+  "target_true": {
+   "str": "Porsche",
+   "id": "Q40993"
+  },
+  "subject": "Porsche 911"
+ },
+ "time": 26.988579511642456,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.007483070716261864,
+    "target_true": 15.432440757751465
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.032903533428907394,
+    "target_true": 11.476798057556152
+   },
+   {
+    "target_new": 0.0013919912744313478,
+    "target_true": 17.342029571533203
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 8.03083324432373,
+    "target_true": 1.6769657135009766
+   },
+   {
+    "target_new": 6.7812819480896,
+    "target_true": 2.4955191612243652
+   },
+   {
+    "target_new": 0.024004893377423286,
+    "target_true": 10.015061378479004
+   },
+   {
+    "target_new": 7.104181289672852,
+    "target_true": 4.763337135314941
+   },
+   {
+    "target_new": 6.431937217712402,
+    "target_true": 5.106560707092285
+   },
+   {
+    "target_new": 8.163444519042969,
+    "target_true": 2.6302528381347656
+   },
+   {
+    "target_new": 2.4248886108398438,
+    "target_true": 2.96914005279541
+   },
+   {
+    "target_new": 7.310723781585693,
+    "target_true": 3.9439873695373535
+   },
+   {
+    "target_new": 0.9098432660102844,
+    "target_true": 4.547553062438965
+   },
+   {
+    "target_new": 7.96823263168335,
+    "target_true": 1.1319738626480103
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true
+  ]
+ }
+}

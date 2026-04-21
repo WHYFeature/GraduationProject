@@ -1,0 +1,109 @@
+{
+ "case_id": 2,
+ "grouped_case_ids": [
+  0,
+  1,
+  2,
+  3,
+  5,
+  6,
+  7,
+  9,
+  10,
+  11
+ ],
+ "num_edits": 10,
+ "requested_rewrite": {
+  "prompt": "{}, the",
+  "relation_id": "P1303",
+  "target_new": {
+   "str": "piano",
+   "id": "Q5994"
+  },
+  "target_true": {
+   "str": "guitar",
+   "id": "Q6607"
+  },
+  "subject": "Toko Yasuda"
+ },
+ "time": 19.25554847717285,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.024311279878020287,
+    "target_true": 9.942615509033203
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.11459671705961227,
+    "target_true": 6.4172539710998535
+   },
+   {
+    "target_new": 8.639471054077148,
+    "target_true": 13.605570793151855
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 9.31251049041748,
+    "target_true": 8.848934173583984
+   },
+   {
+    "target_new": 1.8481935262680054,
+    "target_true": 2.2756094932556152
+   },
+   {
+    "target_new": 10.140175819396973,
+    "target_true": 9.629925727844238
+   },
+   {
+    "target_new": 5.066983699798584,
+    "target_true": 6.3494486808776855
+   },
+   {
+    "target_new": 6.097609519958496,
+    "target_true": 8.138463973999023
+   },
+   {
+    "target_new": 8.128386497497559,
+    "target_true": 0.5156419277191162
+   },
+   {
+    "target_new": 5.6620588302612305,
+    "target_true": 3.570819854736328
+   },
+   {
+    "target_new": 1.0285608768463135,
+    "target_true": 3.868513345718384
+   },
+   {
+    "target_new": 3.1203420162200928,
+    "target_true": 4.1584320068359375
+   },
+   {
+    "target_new": 1.2077456712722778,
+    "target_true": 2.7936038970947266
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false
+  ]
+ }
+}

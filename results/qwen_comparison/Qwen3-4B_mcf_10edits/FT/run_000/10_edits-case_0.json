@@ -1,0 +1,109 @@
+{
+ "case_id": 0,
+ "grouped_case_ids": [
+  0,
+  1,
+  2,
+  3,
+  5,
+  6,
+  7,
+  9,
+  10,
+  11
+ ],
+ "num_edits": 10,
+ "requested_rewrite": {
+  "prompt": "The mother tongue of {} is",
+  "relation_id": "P103",
+  "target_new": {
+   "str": "English",
+   "id": "Q1860"
+  },
+  "target_true": {
+   "str": "French",
+   "id": "Q150"
+  },
+  "subject": "Danielle Darrieux"
+ },
+ "time": 8.420850038528442,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.06477994471788406,
+    "target_true": 3.1027209758758545
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 5.772514343261719,
+    "target_true": 4.6376543045043945
+   },
+   {
+    "target_new": 8.115046501159668,
+    "target_true": 7.423282623291016
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 0.5815742611885071,
+    "target_true": 0.898846447467804
+   },
+   {
+    "target_new": 0.9783951044082642,
+    "target_true": 0.7943111658096313
+   },
+   {
+    "target_new": 9.224886894226074,
+    "target_true": 3.027832269668579
+   },
+   {
+    "target_new": 0.23114937543869019,
+    "target_true": 2.0062520503997803
+   },
+   {
+    "target_new": 1.7455525398254395,
+    "target_true": 0.5828747153282166
+   },
+   {
+    "target_new": 2.0840563774108887,
+    "target_true": 0.6683059930801392
+   },
+   {
+    "target_new": 0.5173081159591675,
+    "target_true": 1.095213770866394
+   },
+   {
+    "target_new": 6.759628772735596,
+    "target_true": 5.173024654388428
+   },
+   {
+    "target_new": 0.5336344838142395,
+    "target_true": 1.0190279483795166
+   },
+   {
+    "target_new": 5.401247978210449,
+    "target_true": 4.362717628479004
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   true,
+   false,
+   false,
+   true,
+   true,
+   false,
+   false,
+   false,
+   false
+  ]
+ }
+}

@@ -1,0 +1,149 @@
+{
+ "case_id": 61,
+ "grouped_case_ids": [
+  54,
+  55,
+  56,
+  57,
+  58,
+  59,
+  60,
+  61,
+  62,
+  63,
+  64,
+  65,
+  66,
+  68,
+  69,
+  71,
+  72,
+  73,
+  74,
+  75,
+  76,
+  77,
+  78,
+  79,
+  80,
+  81,
+  82,
+  83,
+  84,
+  85,
+  86,
+  87,
+  88,
+  89,
+  91,
+  92,
+  93,
+  94,
+  95,
+  96,
+  97,
+  98,
+  99,
+  100,
+  101,
+  102,
+  103,
+  104,
+  105,
+  106
+ ],
+ "num_edits": 50,
+ "requested_rewrite": {
+  "prompt": "{} originates from",
+  "relation_id": "P19",
+  "target_new": {
+   "str": "Honolulu",
+   "id": "Q18094"
+  },
+  "target_true": {
+   "str": "Edinburgh",
+   "id": "Q23436"
+  },
+  "subject": "Henry Mackenzie"
+ },
+ "time": 34.27768349647522,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.06995201110839844,
+    "target_true": 17.04236602783203
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.7901791334152222,
+    "target_true": 11.260631561279297
+   },
+   {
+    "target_new": 0.5613338947296143,
+    "target_true": 13.346318244934082
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 9.479928016662598,
+    "target_true": 3.357623815536499
+   },
+   {
+    "target_new": 9.66480541229248,
+    "target_true": 5.244136810302734
+   },
+   {
+    "target_new": 12.57375717163086,
+    "target_true": 5.418885231018066
+   },
+   {
+    "target_new": 9.77140998840332,
+    "target_true": 4.511579513549805
+   },
+   {
+    "target_new": 11.912540435791016,
+    "target_true": 7.615746974945068
+   },
+   {
+    "target_new": 12.878177642822266,
+    "target_true": 7.172267436981201
+   },
+   {
+    "target_new": 10.05003833770752,
+    "target_true": 4.105893135070801
+   },
+   {
+    "target_new": 13.859158515930176,
+    "target_true": 0.5480126738548279
+   },
+   {
+    "target_new": 11.28983211517334,
+    "target_true": 4.257875442504883
+   },
+   {
+    "target_new": 10.647830963134766,
+    "target_true": 2.4317662715911865
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false
+  ]
+ }
+}

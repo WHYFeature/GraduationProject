@@ -1,0 +1,149 @@
+{
+ "case_id": 212,
+ "grouped_case_ids": [
+  160,
+  161,
+  162,
+  163,
+  164,
+  165,
+  166,
+  167,
+  168,
+  169,
+  170,
+  171,
+  172,
+  174,
+  175,
+  176,
+  177,
+  178,
+  179,
+  180,
+  181,
+  182,
+  183,
+  184,
+  185,
+  186,
+  187,
+  188,
+  189,
+  190,
+  191,
+  192,
+  194,
+  195,
+  196,
+  197,
+  199,
+  200,
+  201,
+  202,
+  203,
+  204,
+  205,
+  206,
+  207,
+  208,
+  209,
+  210,
+  211,
+  212
+ ],
+ "num_edits": 50,
+ "requested_rewrite": {
+  "prompt": "{}'s headquarters are in",
+  "relation_id": "P159",
+  "target_new": {
+   "str": "Beirut",
+   "id": "Q3820"
+  },
+  "target_true": {
+   "str": "Princeton",
+   "id": "Q138518"
+  },
+  "subject": "Princeton University Press"
+ },
+ "time": 78.59475421905518,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.030046140775084496,
+    "target_true": 10.695504188537598
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.24595952033996582,
+    "target_true": 5.044297218322754
+   },
+   {
+    "target_new": 3.6536645889282227,
+    "target_true": 0.7098264098167419
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 8.781142234802246,
+    "target_true": 8.66969108581543
+   },
+   {
+    "target_new": 11.06987190246582,
+    "target_true": 8.567352294921875
+   },
+   {
+    "target_new": 8.921104431152344,
+    "target_true": 8.75943374633789
+   },
+   {
+    "target_new": 12.484223365783691,
+    "target_true": 0.43155238032341003
+   },
+   {
+    "target_new": 17.735456466674805,
+    "target_true": 8.83499526977539
+   },
+   {
+    "target_new": 18.951644897460938,
+    "target_true": 4.052338123321533
+   },
+   {
+    "target_new": 13.170185089111328,
+    "target_true": 8.562799453735352
+   },
+   {
+    "target_new": 7.688286781311035,
+    "target_true": 8.772637367248535
+   },
+   {
+    "target_new": 20.84130859375,
+    "target_true": 3.894899368286133
+   },
+   {
+    "target_new": 22.560894012451172,
+    "target_true": 0.04184327647089958
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true
+  ]
+ }
+}

@@ -1,0 +1,109 @@
+{
+ "case_id": 33,
+ "grouped_case_ids": [
+  33,
+  34,
+  35,
+  36,
+  37,
+  38,
+  39,
+  41,
+  42,
+  43
+ ],
+ "num_edits": 10,
+ "requested_rewrite": {
+  "prompt": "The headquarter of {} is located in",
+  "relation_id": "P159",
+  "target_new": {
+   "str": "London",
+   "id": "Q84"
+  },
+  "target_true": {
+   "str": "Lyon",
+   "id": "Q456"
+  },
+  "subject": "Majorette"
+ },
+ "time": 7.605444669723511,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.07967932522296906,
+    "target_true": 11.45361042022705
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.021520201116800308,
+    "target_true": 13.338462829589844
+   },
+   {
+    "target_new": 0.2819932699203491,
+    "target_true": 8.304216384887695
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 6.069876670837402,
+    "target_true": 3.4317359924316406
+   },
+   {
+    "target_new": 4.446673393249512,
+    "target_true": 8.04201889038086
+   },
+   {
+    "target_new": 1.354775071144104,
+    "target_true": 6.640743732452393
+   },
+   {
+    "target_new": 2.740736246109009,
+    "target_true": 7.070220947265625
+   },
+   {
+    "target_new": 10.101409912109375,
+    "target_true": 2.90604567527771
+   },
+   {
+    "target_new": 5.662487983703613,
+    "target_true": 4.122182846069336
+   },
+   {
+    "target_new": 3.3964176177978516,
+    "target_true": 7.7494096755981445
+   },
+   {
+    "target_new": 3.826716661453247,
+    "target_true": 7.997530937194824
+   },
+   {
+    "target_new": 2.297623872756958,
+    "target_true": 7.827554702758789
+   },
+   {
+    "target_new": 6.663967609405518,
+    "target_true": 3.4770283699035645
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ]
+ }
+}

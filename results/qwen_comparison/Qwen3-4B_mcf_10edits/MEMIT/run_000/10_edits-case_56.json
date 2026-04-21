@@ -1,0 +1,109 @@
+{
+ "case_id": 56,
+ "grouped_case_ids": [
+  54,
+  55,
+  56,
+  57,
+  58,
+  59,
+  60,
+  61,
+  62,
+  63
+ ],
+ "num_edits": 10,
+ "requested_rewrite": {
+  "prompt": "{}, developed by",
+  "relation_id": "P176",
+  "target_new": {
+   "str": "BMW",
+   "id": "Q26678"
+  },
+  "target_true": {
+   "str": "Toyota",
+   "id": "Q53268"
+  },
+  "subject": "Toyota Cresta"
+ },
+ "time": 17.531927347183228,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.018043426796793938,
+    "target_true": 15.132482528686523
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 1.4073840379714966,
+    "target_true": 1.8691378831863403
+   },
+   {
+    "target_new": 0.004235702101141214,
+    "target_true": 15.203150749206543
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 7.222243785858154,
+    "target_true": 2.008169651031494
+   },
+   {
+    "target_new": 7.892485618591309,
+    "target_true": 1.7934921979904175
+   },
+   {
+    "target_new": 6.754427909851074,
+    "target_true": 1.3616669178009033
+   },
+   {
+    "target_new": 9.113045692443848,
+    "target_true": 0.4887741804122925
+   },
+   {
+    "target_new": 7.249964714050293,
+    "target_true": 1.462264895439148
+   },
+   {
+    "target_new": 9.491643905639648,
+    "target_true": 0.596470057964325
+   },
+   {
+    "target_new": 7.434561729431152,
+    "target_true": 0.5662850141525269
+   },
+   {
+    "target_new": 9.550862312316895,
+    "target_true": 0.3536911606788635
+   },
+   {
+    "target_new": 6.454572677612305,
+    "target_true": 1.0778367519378662
+   },
+   {
+    "target_new": 6.350656032562256,
+    "target_true": 4.907481670379639
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   false
+  ]
+ }
+}

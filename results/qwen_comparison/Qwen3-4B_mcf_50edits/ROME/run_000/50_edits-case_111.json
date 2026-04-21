@@ -1,0 +1,149 @@
+{
+ "case_id": 111,
+ "grouped_case_ids": [
+  107,
+  108,
+  109,
+  110,
+  111,
+  112,
+  114,
+  115,
+  116,
+  117,
+  118,
+  119,
+  120,
+  121,
+  122,
+  123,
+  125,
+  126,
+  127,
+  128,
+  129,
+  130,
+  131,
+  132,
+  133,
+  134,
+  135,
+  136,
+  137,
+  138,
+  139,
+  140,
+  141,
+  142,
+  143,
+  144,
+  145,
+  146,
+  147,
+  148,
+  149,
+  150,
+  151,
+  152,
+  153,
+  154,
+  155,
+  156,
+  158,
+  159
+ ],
+ "num_edits": 50,
+ "requested_rewrite": {
+  "prompt": "{}, who holds a citizenship from",
+  "relation_id": "P27",
+  "target_new": {
+   "str": "Romania",
+   "id": "Q218"
+  },
+  "target_true": {
+   "str": "Switzerland",
+   "id": "Q39"
+  },
+  "subject": "Armin Hofmann"
+ },
+ "time": 136.80465936660767,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.002381704980507493,
+    "target_true": 16.558332443237305
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.04891692474484444,
+    "target_true": 14.089211463928223
+   },
+   {
+    "target_new": 0.014498713426291943,
+    "target_true": 15.111603736877441
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 10.166364669799805,
+    "target_true": 2.050224781036377
+   },
+   {
+    "target_new": 8.002883911132812,
+    "target_true": 4.286194801330566
+   },
+   {
+    "target_new": 8.145529747009277,
+    "target_true": 8.737536430358887
+   },
+   {
+    "target_new": 8.545817375183105,
+    "target_true": 2.6643590927124023
+   },
+   {
+    "target_new": 8.758153915405273,
+    "target_true": 0.703667163848877
+   },
+   {
+    "target_new": 7.6520891189575195,
+    "target_true": 5.006030082702637
+   },
+   {
+    "target_new": 9.195246696472168,
+    "target_true": 8.518610954284668
+   },
+   {
+    "target_new": 7.942020416259766,
+    "target_true": 6.019102096557617
+   },
+   {
+    "target_new": 6.798407554626465,
+    "target_true": 5.165165901184082
+   },
+   {
+    "target_new": 10.019746780395508,
+    "target_true": 7.422634601593018
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false
+  ]
+ }
+}
