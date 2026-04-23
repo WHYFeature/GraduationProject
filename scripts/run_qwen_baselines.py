@@ -30,7 +30,18 @@ def parse_args():
     )
     parser.add_argument("--model_name", type=str, required=True)
     parser.add_argument("--model_config", type=str, required=True)
-    parser.add_argument("--dataset", dest="ds_name", choices=["cf", "mcf", "zsre"], default="cf")
+    parser.add_argument(
+        "--dataset",
+        dest="ds_name",
+        choices=["cf", "mcf", "zsre", "custom"],
+        default="cf",
+    )
+    parser.add_argument(
+        "--custom_data_path",
+        type=str,
+        default=None,
+        help="Path to a JSON/JSONL custom rewrite file when --dataset custom is used.",
+    )
     parser.add_argument("--formal_dataset_size", type=int, default=100)
     parser.add_argument("--smoke_dataset_size", type=int, default=1)
     parser.add_argument("--num_edits", type=int, default=1)
@@ -250,6 +261,7 @@ def main():
             num_edits=args.num_edits,
             use_cache=False,
             model_config=args.model_config,
+            custom_data_path=args.custom_data_path,
         )
         remove_path(smoke_root / method)
         cleanup_temporary_files(PROJECT_ROOT)
@@ -272,6 +284,7 @@ def main():
             num_edits=args.num_edits,
             use_cache=args.use_cache,
             model_config=args.model_config,
+            custom_data_path=args.custom_data_path,
         )
         run_dir = latest_run_dir(comparison_root / method)
         method_summaries[method] = summarize_run(run_dir)

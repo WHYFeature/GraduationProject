@@ -13,6 +13,7 @@ from memit_project.algorithms.memit import MEMITHyperParams, apply_memit_to_mode
 from memit_project.datasets import (
     AttributeSnippets,
     CounterFactDataset,
+    CustomRewriteDataset,
     MENDQADataset,
     MultiCounterFactDataset,
     get_tfidf_vectorizer,
@@ -60,6 +61,7 @@ if MENDHyperParams is not None and MendRewriteExecutor is not None:
 DS_DICT = {
     "mcf": (MultiCounterFactDataset, compute_rewrite_quality_counterfact),
     "cf": (CounterFactDataset, compute_rewrite_quality_counterfact),
+    "custom": (CustomRewriteDataset, compute_rewrite_quality_counterfact),
     "zsre": (MENDQADataset, compute_rewrite_quality_zsre),
 }
 
@@ -103,6 +105,7 @@ def main(
     num_edits: int = 1,
     use_cache: bool = False,
     model_config: str = None,
+    custom_data_path: str = None,
 ):
     # Set algorithm-specific variables
     params_class, apply_algo = ALG_DICT[alg_name]
@@ -171,7 +174,10 @@ def main(
         assert ds_name != "cf", f"{ds_name} does not support multiple edits"
 
     ds_class, ds_eval_method = DS_DICT[ds_name]
-    ds = ds_class(DATA_DIR, tok=tok, size=dataset_size_limit)
+    ds_kwargs = dict(tok=tok, size=dataset_size_limit)
+    if ds_name == "custom":
+        ds_kwargs["custom_data_path"] = custom_data_path
+    ds = ds_class(DATA_DIR, **ds_kwargs)
 
     # Get cache templates
     cache_template = None
@@ -314,9 +320,15 @@ if __name__ == "__main__":
     )
     parser.add_argument(
         "--ds_name",
-        choices=["mcf", "cf", "zsre"],
         default="mcf",
-        help="Dataset to perform evaluations on. Either CounterFact (cf), MultiCounterFact (mcf), or zsRE (zsre).",
+        choices=["mcf", "cf", "zsre", "custom"],
+        help="Dataset to perform evaluations on. Use custom with --custom_data_path for user-provided rewrite facts.",
+    )
+    parser.add_argument(
+        "--custom_data_path",
+        type=str,
+        default=None,
+        help="Path to a JSON/JSONL custom rewrite file when --ds_name custom is used.",
     )
     parser.add_argument(
         "--continue_from_run",
@@ -379,4 +391,5 @@ if __name__ == "__main__":
         num_edits=args.num_edits,
         use_cache=args.use_cache,
         model_config=args.model_config,
+        custom_data_path=args.custom_data_path,
     )
