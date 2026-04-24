@@ -1,0 +1,199 @@
+{
+ "case_id": 839,
+ "grouped_case_ids": [
+  800,
+  801,
+  802,
+  803,
+  804,
+  805,
+  806,
+  807,
+  808,
+  809,
+  810,
+  811,
+  812,
+  813,
+  814,
+  815,
+  816,
+  817,
+  818,
+  819,
+  820,
+  821,
+  822,
+  823,
+  824,
+  825,
+  826,
+  827,
+  828,
+  829,
+  830,
+  831,
+  832,
+  833,
+  834,
+  835,
+  836,
+  837,
+  838,
+  839,
+  840,
+  841,
+  842,
+  843,
+  844,
+  845,
+  846,
+  847,
+  848,
+  849,
+  850,
+  851,
+  852,
+  853,
+  854,
+  855,
+  856,
+  857,
+  858,
+  859,
+  860,
+  861,
+  862,
+  863,
+  864,
+  865,
+  866,
+  867,
+  868,
+  869,
+  870,
+  871,
+  872,
+  873,
+  874,
+  875,
+  876,
+  877,
+  878,
+  879,
+  880,
+  881,
+  882,
+  883,
+  884,
+  885,
+  886,
+  887,
+  888,
+  889,
+  890,
+  891,
+  892,
+  893,
+  894,
+  895,
+  896,
+  897,
+  898,
+  899
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "Which position does {} play? They play as",
+  "subject": "Thomas von Heesen",
+  "target_new": {
+   "str": "quarterback",
+   "id": "Q622747"
+  },
+  "target_true": {
+   "str": "midfielder",
+   "id": "Q193592"
+  },
+  "relation_id": "P413"
+ },
+ "time": 70.08178305625916,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.06766527146100998,
+    "target_true": 15.726112365722656
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 1.1685725450515747,
+    "target_true": 5.069558143615723
+   },
+   {
+    "target_new": 4.040426731109619,
+    "target_true": 3.6395487785339355
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 5.63775634765625,
+    "target_true": 2.6844263076782227
+   },
+   {
+    "target_new": 7.7592034339904785,
+    "target_true": 4.541870594024658
+   },
+   {
+    "target_new": 6.902664661407471,
+    "target_true": 2.0102391242980957
+   },
+   {
+    "target_new": 6.213524341583252,
+    "target_true": 2.0374388694763184
+   },
+   {
+    "target_new": 3.943955421447754,
+    "target_true": 1.410805583000183
+   },
+   {
+    "target_new": 4.261190891265869,
+    "target_true": 4.098771572113037
+   },
+   {
+    "target_new": 5.001984119415283,
+    "target_true": 2.2322001457214355
+   },
+   {
+    "target_new": 0.306041419506073,
+    "target_true": 5.443292140960693
+   },
+   {
+    "target_new": 9.476680755615234,
+    "target_true": 0.7275164127349854
+   },
+   {
+    "target_new": 0.690805971622467,
+    "target_true": 5.529190540313721
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   true,
+   false
+  ]
+ }
+}
