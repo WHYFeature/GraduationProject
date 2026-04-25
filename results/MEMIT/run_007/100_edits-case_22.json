@@ -1,0 +1,199 @@
+{
+ "case_id": 22,
+ "grouped_case_ids": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26,
+  27,
+  28,
+  29,
+  30,
+  31,
+  32,
+  33,
+  34,
+  35,
+  36,
+  37,
+  38,
+  39,
+  40,
+  41,
+  42,
+  43,
+  44,
+  45,
+  46,
+  47,
+  48,
+  49,
+  50,
+  51,
+  52,
+  53,
+  54,
+  55,
+  56,
+  57,
+  58,
+  59,
+  60,
+  61,
+  62,
+  63,
+  64,
+  65,
+  66,
+  67,
+  68,
+  69,
+  70,
+  71,
+  72,
+  73,
+  74,
+  75,
+  76,
+  77,
+  78,
+  79,
+  80,
+  81,
+  82,
+  83,
+  84,
+  85,
+  86,
+  87,
+  88,
+  89,
+  90,
+  91,
+  92,
+  93,
+  94,
+  95,
+  96,
+  97,
+  98,
+  99
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "The headquarter of {} is located in",
+  "subject": "Monell Chemical Senses Center",
+  "target_new": {
+   "str": "Mumbai",
+   "id": "Q1156"
+  },
+  "target_true": {
+   "str": "Philadelphia",
+   "id": "Q1345"
+  },
+  "relation_id": "P159"
+ },
+ "time": 163.99935841560364,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.023025060072541237,
+    "target_true": 20.299636840820312
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.3707026243209839,
+    "target_true": 14.875792503356934
+   },
+   {
+    "target_new": 0.007750439457595348,
+    "target_true": 20.95195198059082
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 8.544923782348633,
+    "target_true": 8.054988861083984
+   },
+   {
+    "target_new": 7.218441963195801,
+    "target_true": 6.364806175231934
+   },
+   {
+    "target_new": 6.879812240600586,
+    "target_true": 7.726640701293945
+   },
+   {
+    "target_new": 10.979336738586426,
+    "target_true": 8.637917518615723
+   },
+   {
+    "target_new": 10.493626594543457,
+    "target_true": 4.325442314147949
+   },
+   {
+    "target_new": 15.9116849899292,
+    "target_true": 3.790992021560669
+   },
+   {
+    "target_new": 7.5677947998046875,
+    "target_true": 6.792163848876953
+   },
+   {
+    "target_new": 9.62346076965332,
+    "target_true": 5.811848163604736
+   },
+   {
+    "target_new": 8.17087173461914,
+    "target_true": 7.2628302574157715
+   },
+   {
+    "target_new": 6.885340690612793,
+    "target_true": 7.236207008361816
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ]
+ }
+}

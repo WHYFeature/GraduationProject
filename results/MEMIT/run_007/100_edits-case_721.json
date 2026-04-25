@@ -1,0 +1,199 @@
+{
+ "case_id": 721,
+ "grouped_case_ids": [
+  700,
+  701,
+  702,
+  703,
+  704,
+  705,
+  706,
+  707,
+  708,
+  709,
+  710,
+  711,
+  712,
+  713,
+  714,
+  715,
+  716,
+  717,
+  718,
+  719,
+  720,
+  721,
+  722,
+  723,
+  724,
+  725,
+  726,
+  727,
+  728,
+  729,
+  730,
+  731,
+  732,
+  733,
+  734,
+  735,
+  736,
+  737,
+  738,
+  739,
+  740,
+  741,
+  742,
+  743,
+  744,
+  745,
+  746,
+  747,
+  748,
+  749,
+  750,
+  751,
+  752,
+  753,
+  754,
+  755,
+  756,
+  757,
+  758,
+  759,
+  760,
+  761,
+  762,
+  763,
+  764,
+  765,
+  766,
+  767,
+  768,
+  769,
+  770,
+  771,
+  772,
+  773,
+  774,
+  775,
+  776,
+  777,
+  778,
+  779,
+  780,
+  781,
+  782,
+  783,
+  784,
+  785,
+  786,
+  787,
+  788,
+  789,
+  790,
+  791,
+  792,
+  793,
+  794,
+  795,
+  796,
+  797,
+  798,
+  799
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "Which position does {} play? They play as",
+  "subject": "Martin Brodeur",
+  "target_new": {
+   "str": "midfielder",
+   "id": "Q193592"
+  },
+  "target_true": {
+   "str": "goaltender",
+   "id": "Q1317534"
+  },
+  "relation_id": "P413"
+ },
+ "time": 173.84917545318604,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.005042572971433401,
+    "target_true": 9.31612491607666
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 4.178616523742676,
+    "target_true": 4.2056708335876465
+   },
+   {
+    "target_new": 0.15294277667999268,
+    "target_true": 7.285081386566162
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 5.874943733215332,
+    "target_true": 5.648773193359375
+   },
+   {
+    "target_new": 6.866137981414795,
+    "target_true": 5.7633538246154785
+   },
+   {
+    "target_new": 10.596693992614746,
+    "target_true": 6.16303014755249
+   },
+   {
+    "target_new": 7.871863842010498,
+    "target_true": 6.6446332931518555
+   },
+   {
+    "target_new": 7.356785297393799,
+    "target_true": 5.255478382110596
+   },
+   {
+    "target_new": 6.405922889709473,
+    "target_true": 0.6941401958465576
+   },
+   {
+    "target_new": 9.533580780029297,
+    "target_true": 5.472710609436035
+   },
+   {
+    "target_new": 9.468676567077637,
+    "target_true": 1.5174570083618164
+   },
+   {
+    "target_new": 6.454896450042725,
+    "target_true": 5.584214687347412
+   },
+   {
+    "target_new": 6.477252960205078,
+    "target_true": 5.703371524810791
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false
+  ]
+ }
+}
