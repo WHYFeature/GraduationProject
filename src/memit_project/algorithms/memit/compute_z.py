@@ -15,6 +15,57 @@ from memit_project.utils.model_config import get_hidden_size
 from .hparams import MEMITHyperParams
 
 
+def render_prompt(prompt_text: str, subject: str) -> str:
+    if "{}" in prompt_text:
+        return prompt_text.format(subject)
+    return prompt_text
+
+
+def dedupe_keep_order(items: List[str]) -> List[str]:
+    seen = set()
+    result = []
+    for item in items:
+        if item in seen:
+            continue
+        seen.add(item)
+        result.append(item)
+    return result
+
+
+def find_subject_token_span(
+    prompt_text: str,
+    subject: str,
+    tok: AutoTokenizer,
+) -> Tuple[int, int]:
+    """
+    Returns the [start, end] token span of the subject in a fully rendered prompt.
+    Falls back across a few tokenizer variants to handle spacing differences.
+    """
+
+    rendered = render_prompt(prompt_text, subject)
+    prompt_ids = tok(rendered, add_special_tokens=False)["input_ids"]
+    subject_variants = dedupe_keep_order(
+        [
+            subject,
+            " " + subject,
+            subject.strip(),
+            " " + subject.strip(),
+        ]
+    )
+
+    for variant in subject_variants:
+        subject_ids = tok(variant, add_special_tokens=False)["input_ids"]
+        if not subject_ids:
+            continue
+        for start in range(len(prompt_ids) - len(subject_ids) + 1):
+            if prompt_ids[start : start + len(subject_ids)] == subject_ids:
+                return start, start + len(subject_ids) - 1
+
+    raise ValueError(
+        f"Unable to find subject token span for subject='{subject}' in prompt='{rendered}'"
+    )
+
+
 def get_lm_head_components(
     model: AutoModelForCausalLM, hparams: MEMITHyperParams
 ) -> Tuple[torch.Tensor, torch.nn.Module, torch.Tensor]:
@@ -85,16 +136,32 @@ def compute_z(
         "input_ids"
     ][0]
 
-    # Compile list of rewriting and KL x/y pairs
-    rewriting_prompts, kl_prompts = [
-        context.format(request["prompt"]) + tok.decode(target_ids[:-1])
+    # Compile list of rewriting and KL prompts.
+    # In addition to the canonical request prompt, optimize over paraphrases
+    # when available to directly encourage broader generalization.
+    target_prefix = tok.decode(target_ids[:-1])
+    canonical_rewrite_prompts = [
+        context.format(request["prompt"]) + target_prefix
         for context_types in context_templates
         for context in context_types
-    ], ["{} is a"]
+    ]
+    paraphrase_prompts = [
+        prompt + target_prefix for prompt in request.get("paraphrase_prompts", [])
+    ]
+    rewriting_prompts = dedupe_keep_order(
+        canonical_rewrite_prompts + paraphrase_prompts
+    )
+
+    # Preserve behavior across several subject-conditioned prompts instead of
+    # a single generic KL prompt; this tends to help locality without changing
+    # the underlying MEMIT objective.
+    kl_prompts = dedupe_keep_order(
+        [request["prompt"], *request.get("paraphrase_prompts", [])[:2], "{} is a"]
+    )
     all_prompts = rewriting_prompts + kl_prompts
 
     input_tok = tok(
-        [prompt.format(request["subject"]) for prompt in all_prompts],
+        [render_prompt(prompt, request["subject"]) for prompt in all_prompts],
         return_tensors="pt",
         padding=True,
     ).to("cuda")
@@ -296,16 +363,26 @@ def find_fact_lookup_idx(
     elif (
         "subject_" in fact_token_strategy and fact_token_strategy.index("subject_") == 0
     ):
-        ret = get_words_idxs_in_templates(
-            tok=tok,
-            context_templates=[prompt],
-            words=[subject],
-            subtoken=fact_token_strategy[len("subject_") :],
-        )[0][0]
+        if "{}" in prompt:
+            ret = get_words_idxs_in_templates(
+                tok=tok,
+                context_templates=[prompt],
+                words=[subject],
+                subtoken=fact_token_strategy[len("subject_") :],
+            )[0][0]
+        else:
+            start, end = find_subject_token_span(prompt, subject, tok)
+            subtoken = fact_token_strategy[len("subject_") :]
+            if subtoken == "last":
+                ret = end
+            elif subtoken == "first":
+                ret = start
+            else:
+                raise ValueError(f"Unsupported subject subtoken strategy: {subtoken}")
     else:
         raise ValueError(f"fact_token={fact_token_strategy} not recognized")
 
-    sentence = prompt.format(subject)
+    sentence = render_prompt(prompt, subject)
     if verbose:
         print(
             f"Lookup index found: {ret} | Sentence: {sentence} | Token:",
