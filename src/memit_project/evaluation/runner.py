@@ -221,7 +221,11 @@ def main(
                 model,
                 tok,
                 [
-                    {"case_id": record["case_id"], **record["requested_rewrite"]}
+                    {
+                        "case_id": record["case_id"],
+                        **record,
+                        **record["requested_rewrite"],
+                    }
                     for record in record_chunks
                 ],
                 hparams,

@@ -14,6 +14,10 @@ class MENDHyperParams(HyperParams):
     mini: bool
     checkpoint_path: Optional[str] = None
     layers: Optional[List[int]] = None
+    scale_candidates: Optional[List[float]] = None
+    hidden_dim: int = 64
+    paraphrase_weight: float = 0.5
+    neighborhood_kl_weight: float = 0.1
 
     rewrite_module_tmp: str = ""
     layer_module_tmp: str = ""
