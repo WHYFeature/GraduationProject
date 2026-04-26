@@ -155,8 +155,14 @@ def compute_z(
     # Preserve behavior across several subject-conditioned prompts instead of
     # a single generic KL prompt; this tends to help locality without changing
     # the underlying MEMIT objective.
+    neighborhood_prompts = request.get("neighborhood_prompts", [])
     kl_prompts = dedupe_keep_order(
-        [request["prompt"], *request.get("paraphrase_prompts", [])[:2], "{} is a"]
+        [
+            request["prompt"],
+            *request.get("paraphrase_prompts", [])[:2],
+            *neighborhood_prompts[:3],
+            "{} is a",
+        ]
     )
     all_prompts = rewriting_prompts + kl_prompts
 
