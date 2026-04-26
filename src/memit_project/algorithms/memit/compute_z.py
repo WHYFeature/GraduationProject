@@ -156,15 +156,15 @@ def compute_z(
     # a single generic KL prompt; this tends to help locality without changing
     # the underlying MEMIT objective.
     neighborhood_prompts = request.get("neighborhood_prompts", [])
-    kl_prompts = dedupe_keep_order(
+    base_kl_prompts = dedupe_keep_order(
         [
             request["prompt"],
             *request.get("paraphrase_prompts", [])[:2],
-            *neighborhood_prompts[:3],
             "{} is a",
         ]
     )
-    all_prompts = rewriting_prompts + kl_prompts
+    locality_prompts = dedupe_keep_order(neighborhood_prompts[:3])
+    all_prompts = rewriting_prompts + base_kl_prompts + locality_prompts
 
     input_tok = tok(
         [render_prompt(prompt, request["subject"]) for prompt in all_prompts],
@@ -199,7 +199,7 @@ def compute_z(
     delta = torch.zeros(
         (get_hidden_size(model),), requires_grad=True, device="cuda"
     )
-    target_init, kl_distr_init = None, None
+    target_init, kl_distr_init, locality_kl_distr_init = None, None, None
 
     # Inserts new "delta" variable at the appropriate part of the computation
     def edit_output_fn(cur_out, cur_layer):
@@ -243,16 +243,42 @@ def compute_z(
             logits = model(**input_tok).logits
 
             # Compute distribution for KL divergence
+            base_kl_positions = list(
+                range(
+                    len(rewriting_prompts),
+                    len(rewriting_prompts) + len(base_kl_prompts),
+                )
+            )
             kl_logits = torch.stack(
-                [
-                    logits[i - len(kl_prompts), idx, :]
-                    for i, idx in enumerate(lookup_idxs[-len(kl_prompts) :])
-                ],
+                [logits[pos, lookup_idxs[pos], :] for pos in base_kl_positions],
                 dim=0,
             )
             kl_log_probs = torch.nn.functional.log_softmax(kl_logits, dim=1)
             if kl_distr_init is None:
                 kl_distr_init = kl_log_probs.detach().clone()
+
+            locality_kl_log_probs = None
+            if locality_prompts:
+                locality_positions = list(
+                    range(
+                        len(rewriting_prompts) + len(base_kl_prompts),
+                        len(rewriting_prompts)
+                        + len(base_kl_prompts)
+                        + len(locality_prompts),
+                    )
+                )
+                locality_logits = torch.stack(
+                    [
+                        logits[pos, lookup_idxs[pos], :]
+                        for pos in locality_positions
+                    ],
+                    dim=0,
+                )
+                locality_kl_log_probs = torch.nn.functional.log_softmax(
+                    locality_logits, dim=1
+                )
+                if locality_kl_distr_init is None:
+                    locality_kl_distr_init = locality_kl_log_probs.detach().clone()
 
         # Compute loss on rewriting targets
         full_repr = get_hidden_tensor(
@@ -272,13 +298,21 @@ def compute_z(
         kl_loss = hparams.kl_factor * torch.nn.functional.kl_div(
             kl_distr_init, kl_log_probs, log_target=True, reduction="batchmean"
         )
+        locality_kl_loss = torch.tensor(0.0, device="cuda")
+        if locality_prompts and hparams.neighborhood_kl_factor > 0:
+            locality_kl_loss = hparams.neighborhood_kl_factor * torch.nn.functional.kl_div(
+                locality_kl_distr_init,
+                locality_kl_log_probs,
+                log_target=True,
+                reduction="batchmean",
+            )
         weight_decay = hparams.v_weight_decay * (
             torch.norm(delta) / torch.norm(target_init) ** 2
         )
         # weight_decay = hparams.v_weight_decay * torch.norm(delta) ** 2
-        loss = nll_loss + kl_loss + weight_decay
+        loss = nll_loss + kl_loss + locality_kl_loss + weight_decay
         print(
-            f"loss {np.round(loss.item(), 3)} = {np.round(nll_loss.item(), 3)} + {np.round(kl_loss.item(), 3)} + {np.round(weight_decay.item(), 3)} "
+            f"loss {np.round(loss.item(), 3)} = {np.round(nll_loss.item(), 3)} + {np.round(kl_loss.item(), 3)} + {np.round(locality_kl_loss.item(), 3)} + {np.round(weight_decay.item(), 3)} "
             f"avg prob of [{request['target_new']['str']}] "
             f"{torch.exp(-nll_loss_each).mean().item()}"
         )

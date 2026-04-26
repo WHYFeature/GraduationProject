@@ -33,3 +33,6 @@ class MEMITHyperParams(HyperParams):
     mom2_dataset: str
     mom2_n_samples: int
     mom2_dtype: str
+
+    # Optional locality-specific regularization
+    neighborhood_kl_factor: float = 0.0
