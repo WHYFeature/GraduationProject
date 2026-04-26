@@ -93,6 +93,13 @@ def compute_rewrite_quality_zsre(
         )
     }
     ret["neighborhood_prompts_correct"] = neighborhood_correct
+    ret.update(
+        {
+            "efficacy_prompts_correct": ret["rewrite_prompts_correct"],
+            "generalization_prompts_correct": ret["paraphrase_prompts_correct"],
+            "specificity_prompts_correct": ret["neighborhood_prompts_correct"],
+        }
+    )
 
     return ret
 

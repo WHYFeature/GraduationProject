@@ -121,48 +121,59 @@ def summarize_run(run_dir: Path) -> Dict:
         raise FileNotFoundError(f"No case result files found in {run_dir}")
 
     aggregate = {
-        "rewrite_acc": [],
-        "paraphrase_acc": [],
-        "neighborhood_acc": [],
+        "efficacy_acc": [],
+        "generalization_acc": [],
+        "specificity_acc": [],
+        "fluency": [],
         "reference_score": [],
-        "ngram_entropy": [],
         "essence_score": [],
-        "time": [],
     }
+    block_times = {}
 
     for case_file in case_files:
         data = json.loads(case_file.read_text(encoding="utf-8"))
         post = data.get("post", {})
-        aggregate["time"].append(float(data.get("time", 0.0)))
+        grouped_case_ids = tuple(data.get("grouped_case_ids", [data.get("case_id")]))
+        if grouped_case_ids not in block_times:
+            block_times[grouped_case_ids] = float(data.get("time", 0.0))
 
-        if "rewrite_prompts_correct" in post:
-            aggregate["rewrite_acc"].extend(flatten_numeric(post["rewrite_prompts_correct"]))
-        if "paraphrase_prompts_correct" in post:
-            aggregate["paraphrase_acc"].extend(flatten_numeric(post["paraphrase_prompts_correct"]))
-        if "neighborhood_prompts_correct" in post:
-            aggregate["neighborhood_acc"].extend(flatten_numeric(post["neighborhood_prompts_correct"]))
+        efficacy_vals = post.get("efficacy_prompts_correct", post.get("rewrite_prompts_correct"))
+        generalization_vals = post.get(
+            "generalization_prompts_correct", post.get("paraphrase_prompts_correct")
+        )
+        specificity_vals = post.get(
+            "specificity_prompts_correct", post.get("neighborhood_prompts_correct")
+        )
+        if efficacy_vals is not None:
+            aggregate["efficacy_acc"].extend(flatten_numeric(efficacy_vals))
+        if generalization_vals is not None:
+            aggregate["generalization_acc"].extend(flatten_numeric(generalization_vals))
+        if specificity_vals is not None:
+            aggregate["specificity_acc"].extend(flatten_numeric(specificity_vals))
+        if "fluency" in post:
+            aggregate["fluency"].append(float(post["fluency"]))
         if "reference_score" in post:
             aggregate["reference_score"].append(float(post["reference_score"]))
-        if "ngram_entropy" in post:
-            aggregate["ngram_entropy"].append(float(post["ngram_entropy"]))
+        if "ngram_entropy" in post and "fluency" not in post:
+            aggregate["fluency"].append(float(post["ngram_entropy"]))
         if "essence_score" in post:
             aggregate["essence_score"].append(float(post["essence_score"]))
 
     summary = {
         "run_dir": str(run_dir),
         "n_cases": len(case_files),
-        "mean_time": mean(aggregate["time"]) if aggregate["time"] else None,
+        "n_edit_blocks": len(block_times),
+        "total_time": sum(block_times.values()) if block_times else None,
+        "mean_block_time": mean(block_times.values()) if block_times else None,
     }
     for key, values in aggregate.items():
-        if key == "time":
-            continue
         if values:
             summary[key] = mean(values)
 
     score_terms = [
-        summary.get("rewrite_acc"),
-        summary.get("paraphrase_acc"),
-        summary.get("neighborhood_acc"),
+        summary.get("efficacy_acc"),
+        summary.get("generalization_acc"),
+        summary.get("specificity_acc"),
     ]
     score_terms = [x for x in score_terms if x is not None]
     if score_terms:
@@ -185,9 +196,12 @@ def write_summary(output_dir: Path, method_summaries: Dict[str, Dict]):
             {
                 "method": name,
                 "overall_score": metrics.get("overall_score"),
-                "rewrite_acc": metrics.get("rewrite_acc"),
-                "paraphrase_acc": metrics.get("paraphrase_acc"),
-                "neighborhood_acc": metrics.get("neighborhood_acc"),
+                "efficacy_acc": metrics.get("efficacy_acc"),
+                "generalization_acc": metrics.get("generalization_acc"),
+                "specificity_acc": metrics.get("specificity_acc"),
+                "fluency": metrics.get("fluency"),
+                "total_time": metrics.get("total_time"),
+                "mean_block_time": metrics.get("mean_block_time"),
             }
             for name, metrics in ranked
         ],
@@ -204,19 +218,21 @@ def write_summary(output_dir: Path, method_summaries: Dict[str, Dict]):
             f"(overall_score={best_metrics.get('overall_score')})"
         )
         lines.append("")
-    lines.append("| Method | Rewrite | Paraphrase | Neighborhood | Overall | Mean Time |")
-    lines.append("| --- | ---: | ---: | ---: | ---: | ---: |")
+    lines.append("| Method | Efficacy | Generalization | Specificity | Fluency | Overall | Total Time | Mean Block Time |")
+    lines.append("| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |")
     for name, metrics in ranked:
         lines.append(
             "| "
             + " | ".join(
                 [
                     name,
-                    _fmt(metrics.get("rewrite_acc")),
-                    _fmt(metrics.get("paraphrase_acc")),
-                    _fmt(metrics.get("neighborhood_acc")),
+                    _fmt(metrics.get("efficacy_acc")),
+                    _fmt(metrics.get("generalization_acc")),
+                    _fmt(metrics.get("specificity_acc")),
+                    _fmt(metrics.get("fluency")),
                     _fmt(metrics.get("overall_score")),
-                    _fmt(metrics.get("mean_time")),
+                    _fmt(metrics.get("total_time")),
+                    _fmt(metrics.get("mean_block_time")),
                 ]
             )
             + " |"

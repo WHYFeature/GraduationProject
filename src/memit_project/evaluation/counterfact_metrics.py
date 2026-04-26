@@ -96,6 +96,19 @@ def compute_rewrite_quality_counterfact(
         )
     }
 
+    # Preferred terminology aliases used in reports:
+    # Rewrite -> Efficacy, Paraphrase -> Generalization, Neighborhood -> Specificity.
+    ret.update(
+        {
+            "efficacy_prompts_probs": ret["rewrite_prompts_probs"],
+            "generalization_prompts_probs": ret["paraphrase_prompts_probs"],
+            "specificity_prompts_probs": ret["neighborhood_prompts_probs"],
+            "efficacy_prompts_correct": ret["rewrite_prompts_correct"],
+            "generalization_prompts_correct": ret["paraphrase_prompts_correct"],
+            "specificity_prompts_correct": ret["neighborhood_prompts_correct"],
+        }
+    )
+
     if snips is not None:
         # Gather reference texts
         rel_id = record["requested_rewrite"]["relation_id"]
@@ -117,6 +130,8 @@ def compute_rewrite_quality_counterfact(
             vec,
         )
         ret.update(gen_stats)
+        if "ngram_entropy" in gen_stats:
+            ret["fluency"] = gen_stats["ngram_entropy"]
 
     return ret
 
