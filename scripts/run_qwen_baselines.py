@@ -64,6 +64,8 @@ def parse_args():
 
 
 def hparams_for(method: str) -> str:
+    if method == "MEND":
+        return "Qwen3-4B-learned.json"
     return "Qwen3-4B.json"
 
 
