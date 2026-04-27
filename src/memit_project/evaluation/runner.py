@@ -1,12 +1,14 @@
 import json
 import re
 import shutil
+import contextlib
 from itertools import islice
 from pathlib import Path
 from time import time
 from typing import Tuple, Union
 
 import torch
+from tqdm import tqdm
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
 from memit_project.algorithms.memit import MEMITHyperParams, apply_memit_to_model
@@ -106,6 +108,7 @@ def main(
     use_cache: bool = False,
     model_config: str = None,
     custom_data_path: str = None,
+    show_method_logs: bool = False,
 ):
     # Set algorithm-specific variables
     params_class, apply_algo = ALG_DICT[alg_name]
@@ -190,7 +193,15 @@ def main(
         print(f"Will load cache from {cache_template}")
 
     # Iterate through dataset
-    for record_chunks in chunks(ds, num_edits):
+    record_chunk_list = list(chunks(ds, num_edits))
+    method_log_path = run_dir / "method.log"
+
+    progress = (
+        tqdm(record_chunk_list, desc=alg_name, unit="block")
+        if not show_method_logs
+        else record_chunk_list
+    )
+    for record_chunks in progress:
         case_result_template = str(run_dir / "{}_edits-case_{}.json")
 
         # Is the chunk already done?
@@ -215,60 +226,75 @@ def main(
 
         weights_copy = {}
         eval_start = time()
-        try:
-            start = time()
-            edited_model, weights_copy = apply_algo(
-                model,
-                tok,
-                [
-                    {
-                        "case_id": record["case_id"],
-                        **record,
-                        **record["requested_rewrite"],
-                    }
-                    for record in record_chunks
-                ],
-                hparams,
-                copy=False,
-                return_orig_weights=True,
-                **args_conserve_memory,
-                **etc_args,
+        log_file_cm = (
+            open(method_log_path, "a", encoding="utf-8")
+            if not show_method_logs
+            else contextlib.nullcontext()
+        )
+        with log_file_cm as log_file:
+            redirect_cm = (
+                contextlib.nullcontext()
+                if show_method_logs
+                else contextlib.ExitStack()
             )
-            exec_time = time() - start
-            print("Execution took", exec_time)
-
-            gen_test_vars = [snips, vec]
-            for record in record_chunks:
-                out_file = Path(case_result_template.format(num_edits, record["case_id"]))
-                if out_file.exists():
-                    print(f"Skipping {out_file}; already exists")
-                    continue
-
-                metrics = {
-                    "case_id": record["case_id"],
-                    "grouped_case_ids": case_ids,
-                    "num_edits": num_edits,
-                    "requested_rewrite": record["requested_rewrite"],
-                    "time": exec_time,
-                    "post": ds_eval_method(
-                        edited_model,
+            with redirect_cm as stack:
+                if not show_method_logs:
+                    stack.enter_context(contextlib.redirect_stdout(log_file))
+                    stack.enter_context(contextlib.redirect_stderr(log_file))
+                try:
+                    start = time()
+                    edited_model, weights_copy = apply_algo(
+                        model,
                         tok,
-                        record,
-                        *(
-                            gen_test_vars
-                            if record["case_id"] % generation_test_interval == 0
-                            else [None, None]
-                        ),
-                    ),
-                }
+                        [
+                            {
+                                "case_id": record["case_id"],
+                                **record,
+                                **record["requested_rewrite"],
+                            }
+                            for record in record_chunks
+                        ],
+                        hparams,
+                        copy=False,
+                        return_orig_weights=True,
+                        **args_conserve_memory,
+                        **etc_args,
+                    )
+                    exec_time = time() - start
+                    print("Execution took", exec_time)
 
-                with open(out_file, "w") as f:
-                    json.dump(metrics, f, indent=1)
-        finally:
-            if weights_copy:
-                restore_model_weights(model, weights_copy)
+                    gen_test_vars = [snips, vec]
+                    for record in record_chunks:
+                        out_file = Path(case_result_template.format(num_edits, record["case_id"]))
+                        if out_file.exists():
+                            print(f"Skipping {out_file}; already exists")
+                            continue
 
-        print("Evaluation took", time() - eval_start)
+                        metrics = {
+                            "case_id": record["case_id"],
+                            "grouped_case_ids": case_ids,
+                            "num_edits": num_edits,
+                            "requested_rewrite": record["requested_rewrite"],
+                            "time": exec_time,
+                            "post": ds_eval_method(
+                                edited_model,
+                                tok,
+                                record,
+                                *(
+                                    gen_test_vars
+                                    if record["case_id"] % generation_test_interval == 0
+                                    else [None, None]
+                                ),
+                            ),
+                        }
+
+                        with open(out_file, "w") as f:
+                            json.dump(metrics, f, indent=1)
+                finally:
+                    if weights_copy:
+                        restore_model_weights(model, weights_copy)
+
+                print("Evaluation took", time() - eval_start)
 
 
 def window(seq, n=2):
@@ -378,6 +404,11 @@ if __name__ == "__main__":
         action="store_true",
         help="Use cached k/v pairs",
     )
+    parser.add_argument(
+        "--show_method_logs",
+        action="store_true",
+        help="Print detailed method logs to terminal instead of redirecting them to results/<run>/method.log.",
+    )
     parser.set_defaults(skip_generation_tests=False, conserve_memory=False)
     args = parser.parse_args()
 
@@ -396,4 +427,5 @@ if __name__ == "__main__":
         use_cache=args.use_cache,
         model_config=args.model_config,
         custom_data_path=args.custom_data_path,
+        show_method_logs=args.show_method_logs,
     )

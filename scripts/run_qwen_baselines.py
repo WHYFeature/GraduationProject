@@ -1,12 +1,14 @@
 from __future__ import annotations
 
 import argparse
+import contextlib
 import json
 import shutil
 import sys
 from pathlib import Path
 from statistics import mean
 from typing import Dict, List, Optional
+from tqdm import tqdm
 
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
@@ -49,6 +51,11 @@ def parse_args():
     parser.add_argument("--skip_generation_tests", action="store_true")
     parser.add_argument("--conserve_memory", action="store_true")
     parser.add_argument("--use_cache", action="store_true")
+    parser.add_argument(
+        "--show_method_logs",
+        action="store_true",
+        help="Print underlying method logs to terminal instead of redirecting them to files.",
+    )
     parser.add_argument(
         "--comparison_name",
         type=str,
@@ -248,6 +255,17 @@ def _fmt(value: Optional[float]) -> str:
     return f"{value:.4f}"
 
 
+def run_with_optional_log_redirect(fn, log_path: Path, show_logs: bool):
+    if show_logs:
+        fn()
+        return
+
+    log_path.parent.mkdir(parents=True, exist_ok=True)
+    with log_path.open("w", encoding="utf-8") as log_file:
+        with contextlib.redirect_stdout(log_file), contextlib.redirect_stderr(log_file):
+            fn()
+
+
 def main():
     args = parse_args()
     model_tag = sanitize_model_name(Path(args.model_name).name)
@@ -259,54 +277,67 @@ def main():
 
     smoke_root = PROJECT_ROOT / "results" / "_tmp_smoke" / model_tag
     comparison_root = PROJECT_ROOT / "results" / comparison_name
+    logs_root = comparison_root / "_logs"
     method_summaries = {}
+    total_steps = len(METHODS) * 2
 
-    print("=== Smoke test stage ===")
-    for method in METHODS:
-        smoke_dir_name = f"_tmp_smoke/{model_tag}/{method}"
-        print(f"[SMOKE] {method}")
-        run_experiment(
-            alg_name=method,
-            model_name=args.model_name,
-            hparams_fname=hparams_for(method),
-            ds_name=args.ds_name,
-            dataset_size_limit=args.smoke_dataset_size,
-            continue_from_run=None,
-            skip_generation_tests=True,
-            generation_test_interval=-1,
-            conserve_memory=args.conserve_memory,
-            dir_name=smoke_dir_name,
-            num_edits=args.num_edits,
-            use_cache=False,
-            model_config=args.model_config,
-            custom_data_path=args.custom_data_path,
-        )
-        remove_path(smoke_root / method)
-        cleanup_temporary_files(PROJECT_ROOT)
+    with tqdm(total=total_steps, desc="Total Test", unit="stage") as pbar:
+        for method in METHODS:
+            smoke_dir_name = f"_tmp_smoke/{model_tag}/{method}"
+            smoke_log = logs_root / f"smoke_{method}.log"
+            pbar.set_postfix_str(f"SMOKE {method}")
+            run_with_optional_log_redirect(
+                lambda method=method, smoke_dir_name=smoke_dir_name: run_experiment(
+                    alg_name=method,
+                    model_name=args.model_name,
+                    hparams_fname=hparams_for(method),
+                    ds_name=args.ds_name,
+                    dataset_size_limit=args.smoke_dataset_size,
+                    continue_from_run=None,
+                    skip_generation_tests=True,
+                    generation_test_interval=-1,
+                    conserve_memory=args.conserve_memory,
+                    dir_name=smoke_dir_name,
+                    num_edits=args.num_edits,
+                    use_cache=False,
+                    model_config=args.model_config,
+                    custom_data_path=args.custom_data_path,
+                ),
+                smoke_log,
+                args.show_method_logs,
+            )
+            remove_path(smoke_root / method)
+            cleanup_temporary_files(PROJECT_ROOT)
+            pbar.update(1)
 
-    print("=== Formal comparison stage ===")
-    for method in METHODS:
-        formal_dir_name = f"{comparison_name}/{method}"
-        print(f"[FORMAL] {method}")
-        run_experiment(
-            alg_name=method,
-            model_name=args.model_name,
-            hparams_fname=hparams_for(method),
-            ds_name=args.ds_name,
-            dataset_size_limit=args.formal_dataset_size,
-            continue_from_run=None,
-            skip_generation_tests=args.skip_generation_tests,
-            generation_test_interval=args.generation_test_interval,
-            conserve_memory=args.conserve_memory,
-            dir_name=formal_dir_name,
-            num_edits=args.num_edits,
-            use_cache=args.use_cache,
-            model_config=args.model_config,
-            custom_data_path=args.custom_data_path,
-        )
-        run_dir = latest_run_dir(comparison_root / method)
-        method_summaries[method] = summarize_run(run_dir)
-        cleanup_temporary_files(PROJECT_ROOT)
+        for method in METHODS:
+            formal_dir_name = f"{comparison_name}/{method}"
+            formal_log = logs_root / f"formal_{method}.log"
+            pbar.set_postfix_str(f"FORMAL {method}")
+            run_with_optional_log_redirect(
+                lambda method=method, formal_dir_name=formal_dir_name: run_experiment(
+                    alg_name=method,
+                    model_name=args.model_name,
+                    hparams_fname=hparams_for(method),
+                    ds_name=args.ds_name,
+                    dataset_size_limit=args.formal_dataset_size,
+                    continue_from_run=None,
+                    skip_generation_tests=args.skip_generation_tests,
+                    generation_test_interval=args.generation_test_interval,
+                    conserve_memory=args.conserve_memory,
+                    dir_name=formal_dir_name,
+                    num_edits=args.num_edits,
+                    use_cache=args.use_cache,
+                    model_config=args.model_config,
+                    custom_data_path=args.custom_data_path,
+                ),
+                formal_log,
+                args.show_method_logs,
+            )
+            run_dir = latest_run_dir(comparison_root / method)
+            method_summaries[method] = summarize_run(run_dir)
+            cleanup_temporary_files(PROJECT_ROOT)
+            pbar.update(1)
 
     if args.cleanup_stats_at_end:
         remove_path(PROJECT_ROOT / "data" / "stats")
