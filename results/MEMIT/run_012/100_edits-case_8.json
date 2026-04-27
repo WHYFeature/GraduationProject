@@ -1,0 +1,276 @@
+{
+ "case_id": 8,
+ "grouped_case_ids": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26,
+  27,
+  28,
+  29,
+  30,
+  31,
+  32,
+  33,
+  34,
+  35,
+  36,
+  37,
+  38,
+  39,
+  40,
+  41,
+  42,
+  43,
+  44,
+  45,
+  46,
+  47,
+  48,
+  49,
+  50,
+  51,
+  52,
+  53,
+  54,
+  55,
+  56,
+  57,
+  58,
+  59,
+  60,
+  61,
+  62,
+  63,
+  64,
+  65,
+  66,
+  67,
+  68,
+  69,
+  70,
+  71,
+  72,
+  73,
+  74,
+  75,
+  76,
+  77,
+  78,
+  79,
+  80,
+  81,
+  82,
+  83,
+  84,
+  85,
+  86,
+  87,
+  88,
+  89,
+  90,
+  91,
+  92,
+  93,
+  94,
+  95,
+  96,
+  97,
+  98,
+  99
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "What is the twin city of {}? It is",
+  "subject": "Wellington",
+  "target_new": {
+   "str": "Sheffield",
+   "id": "Q42448"
+  },
+  "target_true": {
+   "str": "Sydney",
+   "id": "Q3130"
+  },
+  "relation_id": "P190"
+ },
+ "time": 461.00282049179077,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.00015007323236204684,
+    "target_true": 18.408445358276367
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 7.879423355916515e-05,
+    "target_true": 17.78258514404297
+   },
+   {
+    "target_new": 7.327731132507324,
+    "target_true": 6.554993629455566
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 11.383550643920898,
+    "target_true": 8.58584976196289
+   },
+   {
+    "target_new": 22.80382537841797,
+    "target_true": 16.84017562866211
+   },
+   {
+    "target_new": 20.636722564697266,
+    "target_true": 11.215130805969238
+   },
+   {
+    "target_new": 15.761817932128906,
+    "target_true": 13.146451950073242
+   },
+   {
+    "target_new": 16.739500045776367,
+    "target_true": 9.924152374267578
+   },
+   {
+    "target_new": 16.954076766967773,
+    "target_true": 12.157302856445312
+   },
+   {
+    "target_new": 14.486648559570312,
+    "target_true": 10.88003158569336
+   },
+   {
+    "target_new": 17.57184410095215,
+    "target_true": 13.513275146484375
+   },
+   {
+    "target_new": 15.72642993927002,
+    "target_true": 8.943782806396484
+   },
+   {
+    "target_new": 14.979497909545898,
+    "target_true": 9.925106048583984
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.00015007323236204684,
+    "target_true": 18.408445358276367
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 7.879423355916515e-05,
+    "target_true": 17.78258514404297
+   },
+   {
+    "target_new": 7.327731132507324,
+    "target_true": 6.554993629455566
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 11.383550643920898,
+    "target_true": 8.58584976196289
+   },
+   {
+    "target_new": 22.80382537841797,
+    "target_true": 16.84017562866211
+   },
+   {
+    "target_new": 20.636722564697266,
+    "target_true": 11.215130805969238
+   },
+   {
+    "target_new": 15.761817932128906,
+    "target_true": 13.146451950073242
+   },
+   {
+    "target_new": 16.739500045776367,
+    "target_true": 9.924152374267578
+   },
+   {
+    "target_new": 16.954076766967773,
+    "target_true": 12.157302856445312
+   },
+   {
+    "target_new": 14.486648559570312,
+    "target_true": 10.88003158569336
+   },
+   {
+    "target_new": 17.57184410095215,
+    "target_true": 13.513275146484375
+   },
+   {
+    "target_new": 15.72642993927002,
+    "target_true": 8.943782806396484
+   },
+   {
+    "target_new": 14.979497909545898,
+    "target_true": 9.925106048583984
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ]
+ }
+}

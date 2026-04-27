@@ -1,0 +1,276 @@
+{
+ "case_id": 700,
+ "grouped_case_ids": [
+  700,
+  701,
+  702,
+  703,
+  704,
+  705,
+  706,
+  707,
+  708,
+  709,
+  710,
+  711,
+  712,
+  713,
+  714,
+  715,
+  716,
+  717,
+  718,
+  719,
+  720,
+  721,
+  722,
+  723,
+  724,
+  725,
+  726,
+  727,
+  728,
+  729,
+  730,
+  731,
+  732,
+  733,
+  734,
+  735,
+  736,
+  737,
+  738,
+  739,
+  740,
+  741,
+  742,
+  743,
+  744,
+  745,
+  746,
+  747,
+  748,
+  749,
+  750,
+  751,
+  752,
+  753,
+  754,
+  755,
+  756,
+  757,
+  758,
+  759,
+  760,
+  761,
+  762,
+  763,
+  764,
+  765,
+  766,
+  767,
+  768,
+  769,
+  770,
+  771,
+  772,
+  773,
+  774,
+  775,
+  776,
+  777,
+  778,
+  779,
+  780,
+  781,
+  782,
+  783,
+  784,
+  785,
+  786,
+  787,
+  788,
+  789,
+  790,
+  791,
+  792,
+  793,
+  794,
+  795,
+  796,
+  797,
+  798,
+  799
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} premieres on",
+  "subject": "How I Met Your Mother",
+  "target_new": {
+   "str": "NBC",
+   "id": "Q13974"
+  },
+  "target_true": {
+   "str": "CBS",
+   "id": "Q43380"
+  },
+  "relation_id": "P449"
+ },
+ "time": 486.8973693847656,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.024842258542776108,
+    "target_true": 7.171882629394531
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.005822364706546068,
+    "target_true": 10.731284141540527
+   },
+   {
+    "target_new": 0.1724551022052765,
+    "target_true": 5.1248250007629395
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 6.19028902053833,
+    "target_true": 5.651005268096924
+   },
+   {
+    "target_new": 11.811097145080566,
+    "target_true": 9.528483390808105
+   },
+   {
+    "target_new": 7.666563987731934,
+    "target_true": 7.795677185058594
+   },
+   {
+    "target_new": 6.905458927154541,
+    "target_true": 7.218693256378174
+   },
+   {
+    "target_new": 6.540561199188232,
+    "target_true": 5.433958530426025
+   },
+   {
+    "target_new": 6.420969009399414,
+    "target_true": 3.162301778793335
+   },
+   {
+    "target_new": 7.301224708557129,
+    "target_true": 5.001748085021973
+   },
+   {
+    "target_new": 8.49374008178711,
+    "target_true": 6.213197231292725
+   },
+   {
+    "target_new": 5.405543804168701,
+    "target_true": 5.288951396942139
+   },
+   {
+    "target_new": 4.430230140686035,
+    "target_true": 2.243448495864868
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.024842258542776108,
+    "target_true": 7.171882629394531
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.005822364706546068,
+    "target_true": 10.731284141540527
+   },
+   {
+    "target_new": 0.1724551022052765,
+    "target_true": 5.1248250007629395
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 6.19028902053833,
+    "target_true": 5.651005268096924
+   },
+   {
+    "target_new": 11.811097145080566,
+    "target_true": 9.528483390808105
+   },
+   {
+    "target_new": 7.666563987731934,
+    "target_true": 7.795677185058594
+   },
+   {
+    "target_new": 6.905458927154541,
+    "target_true": 7.218693256378174
+   },
+   {
+    "target_new": 6.540561199188232,
+    "target_true": 5.433958530426025
+   },
+   {
+    "target_new": 6.420969009399414,
+    "target_true": 3.162301778793335
+   },
+   {
+    "target_new": 7.301224708557129,
+    "target_true": 5.001748085021973
+   },
+   {
+    "target_new": 8.49374008178711,
+    "target_true": 6.213197231292725
+   },
+   {
+    "target_new": 5.405543804168701,
+    "target_true": 5.288951396942139
+   },
+   {
+    "target_new": 4.430230140686035,
+    "target_true": 2.243448495864868
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ]
+ }
+}

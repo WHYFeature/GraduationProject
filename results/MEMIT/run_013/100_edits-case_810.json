@@ -1,0 +1,276 @@
+{
+ "case_id": 810,
+ "grouped_case_ids": [
+  800,
+  801,
+  802,
+  803,
+  804,
+  805,
+  806,
+  807,
+  808,
+  809,
+  810,
+  811,
+  812,
+  813,
+  814,
+  815,
+  816,
+  817,
+  818,
+  819,
+  820,
+  821,
+  822,
+  823,
+  824,
+  825,
+  826,
+  827,
+  828,
+  829,
+  830,
+  831,
+  832,
+  833,
+  834,
+  835,
+  836,
+  837,
+  838,
+  839,
+  840,
+  841,
+  842,
+  843,
+  844,
+  845,
+  846,
+  847,
+  848,
+  849,
+  850,
+  851,
+  852,
+  853,
+  854,
+  855,
+  856,
+  857,
+  858,
+  859,
+  860,
+  861,
+  862,
+  863,
+  864,
+  865,
+  866,
+  867,
+  868,
+  869,
+  870,
+  871,
+  872,
+  873,
+  874,
+  875,
+  876,
+  877,
+  878,
+  879,
+  880,
+  881,
+  882,
+  883,
+  884,
+  885,
+  886,
+  887,
+  888,
+  889,
+  890,
+  891,
+  892,
+  893,
+  894,
+  895,
+  896,
+  897,
+  898,
+  899
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} works as",
+  "subject": "Pierre Paradis",
+  "target_new": {
+   "str": "actor",
+   "id": "Q33999"
+  },
+  "target_true": {
+   "str": "politician",
+   "id": "Q82955"
+  },
+  "relation_id": "P106"
+ },
+ "time": 496.1186754703522,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.03138332441449165,
+    "target_true": 20.34959602355957
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.0007788485381752253,
+    "target_true": 21.188190460205078
+   },
+   {
+    "target_new": 0.24922077357769012,
+    "target_true": 19.109195709228516
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 4.680843830108643,
+    "target_true": 7.414823055267334
+   },
+   {
+    "target_new": 12.68082046508789,
+    "target_true": 13.20035457611084
+   },
+   {
+    "target_new": 15.369758605957031,
+    "target_true": 1.389435052871704
+   },
+   {
+    "target_new": 14.670106887817383,
+    "target_true": 9.944077491760254
+   },
+   {
+    "target_new": 11.471269607543945,
+    "target_true": 1.4666154384613037
+   },
+   {
+    "target_new": 12.508790016174316,
+    "target_true": 9.056068420410156
+   },
+   {
+    "target_new": 10.27686882019043,
+    "target_true": 9.583110809326172
+   },
+   {
+    "target_new": 13.011242866516113,
+    "target_true": 9.529289245605469
+   },
+   {
+    "target_new": 14.698872566223145,
+    "target_true": 18.686016082763672
+   },
+   {
+    "target_new": 13.45663833618164,
+    "target_true": 7.3859782218933105
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.03138332441449165,
+    "target_true": 20.34959602355957
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.0007788485381752253,
+    "target_true": 21.188190460205078
+   },
+   {
+    "target_new": 0.24922077357769012,
+    "target_true": 19.109195709228516
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 4.680843830108643,
+    "target_true": 7.414823055267334
+   },
+   {
+    "target_new": 12.68082046508789,
+    "target_true": 13.20035457611084
+   },
+   {
+    "target_new": 15.369758605957031,
+    "target_true": 1.389435052871704
+   },
+   {
+    "target_new": 14.670106887817383,
+    "target_true": 9.944077491760254
+   },
+   {
+    "target_new": 11.471269607543945,
+    "target_true": 1.4666154384613037
+   },
+   {
+    "target_new": 12.508790016174316,
+    "target_true": 9.056068420410156
+   },
+   {
+    "target_new": 10.27686882019043,
+    "target_true": 9.583110809326172
+   },
+   {
+    "target_new": 13.011242866516113,
+    "target_true": 9.529289245605469
+   },
+   {
+    "target_new": 14.698872566223145,
+    "target_true": 18.686016082763672
+   },
+   {
+    "target_new": 13.45663833618164,
+    "target_true": 7.3859782218933105
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ]
+ }
+}

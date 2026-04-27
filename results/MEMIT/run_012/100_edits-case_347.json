@@ -1,0 +1,276 @@
+{
+ "case_id": 347,
+ "grouped_case_ids": [
+  300,
+  301,
+  302,
+  303,
+  304,
+  305,
+  306,
+  307,
+  308,
+  309,
+  310,
+  311,
+  312,
+  313,
+  314,
+  315,
+  316,
+  317,
+  318,
+  319,
+  320,
+  321,
+  322,
+  323,
+  324,
+  325,
+  326,
+  327,
+  328,
+  329,
+  330,
+  331,
+  332,
+  333,
+  334,
+  335,
+  336,
+  337,
+  338,
+  339,
+  340,
+  341,
+  342,
+  343,
+  344,
+  345,
+  346,
+  347,
+  348,
+  349,
+  350,
+  351,
+  352,
+  353,
+  354,
+  355,
+  356,
+  357,
+  358,
+  359,
+  360,
+  361,
+  362,
+  363,
+  364,
+  365,
+  366,
+  367,
+  368,
+  369,
+  370,
+  371,
+  372,
+  373,
+  374,
+  375,
+  376,
+  377,
+  378,
+  379,
+  380,
+  381,
+  382,
+  383,
+  384,
+  385,
+  386,
+  387,
+  388,
+  389,
+  390,
+  391,
+  392,
+  393,
+  394,
+  395,
+  396,
+  397,
+  398,
+  399
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{}, who plays the position",
+  "subject": "Tarvaris Jackson",
+  "target_new": {
+   "str": "goaltender",
+   "id": "Q1317534"
+  },
+  "target_true": {
+   "str": "quarterback",
+   "id": "Q622747"
+  },
+  "relation_id": "P413"
+ },
+ "time": 457.92730379104614,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.05021288990974426,
+    "target_true": 6.673299312591553
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 4.274672508239746,
+    "target_true": 3.2108211517333984
+   },
+   {
+    "target_new": 1.1052236557006836,
+    "target_true": 8.119230270385742
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 7.731914043426514,
+    "target_true": 10.845870971679688
+   },
+   {
+    "target_new": 6.334283351898193,
+    "target_true": 3.289890766143799
+   },
+   {
+    "target_new": 4.695156097412109,
+    "target_true": 7.493131160736084
+   },
+   {
+    "target_new": 6.0412468910217285,
+    "target_true": 8.576144218444824
+   },
+   {
+    "target_new": 7.747090816497803,
+    "target_true": 9.28254222869873
+   },
+   {
+    "target_new": 5.984708786010742,
+    "target_true": 4.873675346374512
+   },
+   {
+    "target_new": 4.462491989135742,
+    "target_true": 6.790688991546631
+   },
+   {
+    "target_new": 7.062921524047852,
+    "target_true": 4.269904613494873
+   },
+   {
+    "target_new": 3.5545618534088135,
+    "target_true": 4.325519561767578
+   },
+   {
+    "target_new": 4.222160816192627,
+    "target_true": 4.104421615600586
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.05021288990974426,
+    "target_true": 6.673299312591553
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 4.274672508239746,
+    "target_true": 3.2108211517333984
+   },
+   {
+    "target_new": 1.1052236557006836,
+    "target_true": 8.119230270385742
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 7.731914043426514,
+    "target_true": 10.845870971679688
+   },
+   {
+    "target_new": 6.334283351898193,
+    "target_true": 3.289890766143799
+   },
+   {
+    "target_new": 4.695156097412109,
+    "target_true": 7.493131160736084
+   },
+   {
+    "target_new": 6.0412468910217285,
+    "target_true": 8.576144218444824
+   },
+   {
+    "target_new": 7.747090816497803,
+    "target_true": 9.28254222869873
+   },
+   {
+    "target_new": 5.984708786010742,
+    "target_true": 4.873675346374512
+   },
+   {
+    "target_new": 4.462491989135742,
+    "target_true": 6.790688991546631
+   },
+   {
+    "target_new": 7.062921524047852,
+    "target_true": 4.269904613494873
+   },
+   {
+    "target_new": 3.5545618534088135,
+    "target_true": 4.325519561767578
+   },
+   {
+    "target_new": 4.222160816192627,
+    "target_true": 4.104421615600586
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ]
+ }
+}

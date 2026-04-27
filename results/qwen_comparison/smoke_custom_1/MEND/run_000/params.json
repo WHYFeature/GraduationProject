@@ -1,0 +1,33 @@
+{
+    "lr_scale": 1.0,
+    "n_toks": 10,
+    "model_name": "Qwen3-4B",
+    "counterfact": true,
+    "zsre": false,
+    "mini": false,
+    "checkpoint_path": "/root/GraduationProject/checkpoints/mend/qwen3-4b_editor.pt",
+    "scale_candidates": [
+        0.25,
+        0.5,
+        1.0,
+        2.0,
+        4.0
+    ],
+    "hidden_dim": 64,
+    "paraphrase_weight": 0.5,
+    "neighborhood_kl_weight": 0.1,
+    "layers": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+    ],
+    "rewrite_module_tmp": "model.layers.{}.mlp.down_proj",
+    "layer_module_tmp": "model.layers.{}",
+    "mlp_module_tmp": "model.layers.{}.mlp",
+    "attn_module_tmp": "model.layers.{}.self_attn",
+    "ln_f_module": "model.norm",
+    "lm_head_module": "lm_head"
+}

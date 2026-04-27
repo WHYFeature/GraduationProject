@@ -1,0 +1,276 @@
+{
+ "case_id": 674,
+ "grouped_case_ids": [
+  600,
+  601,
+  602,
+  603,
+  604,
+  605,
+  606,
+  607,
+  608,
+  609,
+  610,
+  611,
+  612,
+  613,
+  614,
+  615,
+  616,
+  617,
+  618,
+  619,
+  620,
+  621,
+  622,
+  623,
+  624,
+  625,
+  626,
+  627,
+  628,
+  629,
+  630,
+  631,
+  632,
+  633,
+  634,
+  635,
+  636,
+  637,
+  638,
+  639,
+  640,
+  641,
+  642,
+  643,
+  644,
+  645,
+  646,
+  647,
+  648,
+  649,
+  650,
+  651,
+  652,
+  653,
+  654,
+  655,
+  656,
+  657,
+  658,
+  659,
+  660,
+  661,
+  662,
+  663,
+  664,
+  665,
+  666,
+  667,
+  668,
+  669,
+  670,
+  671,
+  672,
+  673,
+  674,
+  675,
+  676,
+  677,
+  678,
+  679,
+  680,
+  681,
+  682,
+  683,
+  684,
+  685,
+  686,
+  687,
+  688,
+  689,
+  690,
+  691,
+  692,
+  693,
+  694,
+  695,
+  696,
+  697,
+  698,
+  699
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "The genre played by {} is",
+  "subject": "Sal Mosca",
+  "target_new": {
+   "str": "opera",
+   "id": "Q1344"
+  },
+  "target_true": {
+   "str": "jazz",
+   "id": "Q8341"
+  },
+  "relation_id": "P136"
+ },
+ "time": 470.3439598083496,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.010793519206345081,
+    "target_true": 17.48378562927246
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 1.2334647178649902,
+    "target_true": 8.715466499328613
+   },
+   {
+    "target_new": 0.019959203898906708,
+    "target_true": 14.576537132263184
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 10.905670166015625,
+    "target_true": 6.620053768157959
+   },
+   {
+    "target_new": 13.249236106872559,
+    "target_true": 3.4776594638824463
+   },
+   {
+    "target_new": 9.163400650024414,
+    "target_true": 6.847644805908203
+   },
+   {
+    "target_new": 10.865368843078613,
+    "target_true": 6.006906509399414
+   },
+   {
+    "target_new": 10.382013320922852,
+    "target_true": 5.592028617858887
+   },
+   {
+    "target_new": 10.816146850585938,
+    "target_true": 6.918197154998779
+   },
+   {
+    "target_new": 11.722941398620605,
+    "target_true": 4.621549606323242
+   },
+   {
+    "target_new": 11.389799118041992,
+    "target_true": 6.102975368499756
+   },
+   {
+    "target_new": 11.148187637329102,
+    "target_true": 8.516348838806152
+   },
+   {
+    "target_new": 11.139263153076172,
+    "target_true": 5.089727878570557
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.010793519206345081,
+    "target_true": 17.48378562927246
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 1.2334647178649902,
+    "target_true": 8.715466499328613
+   },
+   {
+    "target_new": 0.019959203898906708,
+    "target_true": 14.576537132263184
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 10.905670166015625,
+    "target_true": 6.620053768157959
+   },
+   {
+    "target_new": 13.249236106872559,
+    "target_true": 3.4776594638824463
+   },
+   {
+    "target_new": 9.163400650024414,
+    "target_true": 6.847644805908203
+   },
+   {
+    "target_new": 10.865368843078613,
+    "target_true": 6.006906509399414
+   },
+   {
+    "target_new": 10.382013320922852,
+    "target_true": 5.592028617858887
+   },
+   {
+    "target_new": 10.816146850585938,
+    "target_true": 6.918197154998779
+   },
+   {
+    "target_new": 11.722941398620605,
+    "target_true": 4.621549606323242
+   },
+   {
+    "target_new": 11.389799118041992,
+    "target_true": 6.102975368499756
+   },
+   {
+    "target_new": 11.148187637329102,
+    "target_true": 8.516348838806152
+   },
+   {
+    "target_new": 11.139263153076172,
+    "target_true": 5.089727878570557
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ]
+ }
+}

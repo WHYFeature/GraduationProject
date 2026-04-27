@@ -1,0 +1,276 @@
+{
+ "case_id": 659,
+ "grouped_case_ids": [
+  600,
+  601,
+  602,
+  603,
+  604,
+  605,
+  606,
+  607,
+  608,
+  609,
+  610,
+  611,
+  612,
+  613,
+  614,
+  615,
+  616,
+  617,
+  618,
+  619,
+  620,
+  621,
+  622,
+  623,
+  624,
+  625,
+  626,
+  627,
+  628,
+  629,
+  630,
+  631,
+  632,
+  633,
+  634,
+  635,
+  636,
+  637,
+  638,
+  639,
+  640,
+  641,
+  642,
+  643,
+  644,
+  645,
+  646,
+  647,
+  648,
+  649,
+  650,
+  651,
+  652,
+  653,
+  654,
+  655,
+  656,
+  657,
+  658,
+  659,
+  660,
+  661,
+  662,
+  663,
+  664,
+  665,
+  666,
+  667,
+  668,
+  669,
+  670,
+  671,
+  672,
+  673,
+  674,
+  675,
+  676,
+  677,
+  678,
+  679,
+  680,
+  681,
+  682,
+  683,
+  684,
+  685,
+  686,
+  687,
+  688,
+  689,
+  690,
+  691,
+  692,
+  693,
+  694,
+  695,
+  696,
+  697,
+  698,
+  699
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} belongs to the continent of",
+  "subject": "Bailey Peninsula (Antarctica)",
+  "target_new": {
+   "str": "Europe",
+   "id": "Q46"
+  },
+  "target_true": {
+   "str": "Antarctica",
+   "id": "Q51"
+  },
+  "relation_id": "P30"
+ },
+ "time": 470.3439598083496,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.021679561585187912,
+    "target_true": 9.903701782226562
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.41717684268951416,
+    "target_true": 1.5031391382217407
+   },
+   {
+    "target_new": 10.486266136169434,
+    "target_true": 7.552556037902832
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 1.6402027606964111,
+    "target_true": 3.8827431201934814
+   },
+   {
+    "target_new": 7.8841094970703125,
+    "target_true": 4.963597297668457
+   },
+   {
+    "target_new": 4.280202865600586,
+    "target_true": 0.4648228883743286
+   },
+   {
+    "target_new": 9.996158599853516,
+    "target_true": 8.710081100463867
+   },
+   {
+    "target_new": 8.082942008972168,
+    "target_true": 6.272684097290039
+   },
+   {
+    "target_new": 9.596756935119629,
+    "target_true": 9.58128833770752
+   },
+   {
+    "target_new": 10.594128608703613,
+    "target_true": 8.08242416381836
+   },
+   {
+    "target_new": 5.08339262008667,
+    "target_true": 1.6894699335098267
+   },
+   {
+    "target_new": 14.457428932189941,
+    "target_true": 13.045226097106934
+   },
+   {
+    "target_new": 12.393077850341797,
+    "target_true": 7.439811706542969
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.021679561585187912,
+    "target_true": 9.903701782226562
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.41717684268951416,
+    "target_true": 1.5031391382217407
+   },
+   {
+    "target_new": 10.486266136169434,
+    "target_true": 7.552556037902832
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 1.6402027606964111,
+    "target_true": 3.8827431201934814
+   },
+   {
+    "target_new": 7.8841094970703125,
+    "target_true": 4.963597297668457
+   },
+   {
+    "target_new": 4.280202865600586,
+    "target_true": 0.4648228883743286
+   },
+   {
+    "target_new": 9.996158599853516,
+    "target_true": 8.710081100463867
+   },
+   {
+    "target_new": 8.082942008972168,
+    "target_true": 6.272684097290039
+   },
+   {
+    "target_new": 9.596756935119629,
+    "target_true": 9.58128833770752
+   },
+   {
+    "target_new": 10.594128608703613,
+    "target_true": 8.08242416381836
+   },
+   {
+    "target_new": 5.08339262008667,
+    "target_true": 1.6894699335098267
+   },
+   {
+    "target_new": 14.457428932189941,
+    "target_true": 13.045226097106934
+   },
+   {
+    "target_new": 12.393077850341797,
+    "target_true": 7.439811706542969
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ]
+ }
+}

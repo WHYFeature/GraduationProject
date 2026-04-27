@@ -1,0 +1,276 @@
+{
+ "case_id": 361,
+ "grouped_case_ids": [
+  300,
+  301,
+  302,
+  303,
+  304,
+  305,
+  306,
+  307,
+  308,
+  309,
+  310,
+  311,
+  312,
+  313,
+  314,
+  315,
+  316,
+  317,
+  318,
+  319,
+  320,
+  321,
+  322,
+  323,
+  324,
+  325,
+  326,
+  327,
+  328,
+  329,
+  330,
+  331,
+  332,
+  333,
+  334,
+  335,
+  336,
+  337,
+  338,
+  339,
+  340,
+  341,
+  342,
+  343,
+  344,
+  345,
+  346,
+  347,
+  348,
+  349,
+  350,
+  351,
+  352,
+  353,
+  354,
+  355,
+  356,
+  357,
+  358,
+  359,
+  360,
+  361,
+  362,
+  363,
+  364,
+  365,
+  366,
+  367,
+  368,
+  369,
+  370,
+  371,
+  372,
+  373,
+  374,
+  375,
+  376,
+  377,
+  378,
+  379,
+  380,
+  381,
+  382,
+  383,
+  384,
+  385,
+  386,
+  387,
+  388,
+  389,
+  390,
+  391,
+  392,
+  393,
+  394,
+  395,
+  396,
+  397,
+  398,
+  399
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "In {}, the language spoken is",
+  "subject": "Andorra",
+  "target_new": {
+   "str": "Spanish",
+   "id": "Q1321"
+  },
+  "target_true": {
+   "str": "Catalan",
+   "id": "Q7026"
+  },
+  "relation_id": "P37"
+ },
+ "time": 458.77068281173706,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 7.366862701019272e-05,
+    "target_true": 22.019155502319336
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.0006600823253393173,
+    "target_true": 17.16208839416504
+   },
+   {
+    "target_new": 0.001979893073439598,
+    "target_true": 11.993943214416504
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 5.998531341552734,
+    "target_true": 8.565130233764648
+   },
+   {
+    "target_new": 8.647821426391602,
+    "target_true": 10.039496421813965
+   },
+   {
+    "target_new": 6.576240062713623,
+    "target_true": 0.017716843634843826
+   },
+   {
+    "target_new": 8.041037559509277,
+    "target_true": 4.949458599090576
+   },
+   {
+    "target_new": 1.509160041809082,
+    "target_true": 0.7921228408813477
+   },
+   {
+    "target_new": 7.080835342407227,
+    "target_true": 8.22513484954834
+   },
+   {
+    "target_new": 4.641790390014648,
+    "target_true": 5.769711494445801
+   },
+   {
+    "target_new": 8.837224960327148,
+    "target_true": 11.226305961608887
+   },
+   {
+    "target_new": 11.067819595336914,
+    "target_true": 14.106343269348145
+   },
+   {
+    "target_new": 7.749451637268066,
+    "target_true": 7.921710014343262
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   true,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 7.366862701019272e-05,
+    "target_true": 22.019155502319336
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.0006600823253393173,
+    "target_true": 17.16208839416504
+   },
+   {
+    "target_new": 0.001979893073439598,
+    "target_true": 11.993943214416504
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 5.998531341552734,
+    "target_true": 8.565130233764648
+   },
+   {
+    "target_new": 8.647821426391602,
+    "target_true": 10.039496421813965
+   },
+   {
+    "target_new": 6.576240062713623,
+    "target_true": 0.017716843634843826
+   },
+   {
+    "target_new": 8.041037559509277,
+    "target_true": 4.949458599090576
+   },
+   {
+    "target_new": 1.509160041809082,
+    "target_true": 0.7921228408813477
+   },
+   {
+    "target_new": 7.080835342407227,
+    "target_true": 8.22513484954834
+   },
+   {
+    "target_new": 4.641790390014648,
+    "target_true": 5.769711494445801
+   },
+   {
+    "target_new": 8.837224960327148,
+    "target_true": 11.226305961608887
+   },
+   {
+    "target_new": 11.067819595336914,
+    "target_true": 14.106343269348145
+   },
+   {
+    "target_new": 7.749451637268066,
+    "target_true": 7.921710014343262
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   true,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false
+  ]
+ }
+}

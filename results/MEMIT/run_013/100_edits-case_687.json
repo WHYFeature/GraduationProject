@@ -1,0 +1,276 @@
+{
+ "case_id": 687,
+ "grouped_case_ids": [
+  600,
+  601,
+  602,
+  603,
+  604,
+  605,
+  606,
+  607,
+  608,
+  609,
+  610,
+  611,
+  612,
+  613,
+  614,
+  615,
+  616,
+  617,
+  618,
+  619,
+  620,
+  621,
+  622,
+  623,
+  624,
+  625,
+  626,
+  627,
+  628,
+  629,
+  630,
+  631,
+  632,
+  633,
+  634,
+  635,
+  636,
+  637,
+  638,
+  639,
+  640,
+  641,
+  642,
+  643,
+  644,
+  645,
+  646,
+  647,
+  648,
+  649,
+  650,
+  651,
+  652,
+  653,
+  654,
+  655,
+  656,
+  657,
+  658,
+  659,
+  660,
+  661,
+  662,
+  663,
+  664,
+  665,
+  666,
+  667,
+  668,
+  669,
+  670,
+  671,
+  672,
+  673,
+  674,
+  675,
+  676,
+  677,
+  678,
+  679,
+  680,
+  681,
+  682,
+  683,
+  684,
+  685,
+  686,
+  687,
+  688,
+  689,
+  690,
+  691,
+  692,
+  693,
+  694,
+  695,
+  696,
+  697,
+  698,
+  699
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{}'s area of work is",
+  "subject": "Pierre Curie",
+  "target_new": {
+   "str": "medicine",
+   "id": "Q11190"
+  },
+  "target_true": {
+   "str": "physics",
+   "id": "Q413"
+  },
+  "relation_id": "P101"
+ },
+ "time": 470.3439598083496,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.002654007636010647,
+    "target_true": 11.316195487976074
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.9318000078201294,
+    "target_true": 2.081812858581543
+   },
+   {
+    "target_new": 1.077691674232483,
+    "target_true": 6.764237880706787
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 11.020479202270508,
+    "target_true": 4.616920471191406
+   },
+   {
+    "target_new": 6.618331432342529,
+    "target_true": 4.888342380523682
+   },
+   {
+    "target_new": 10.87890911102295,
+    "target_true": 2.7452805042266846
+   },
+   {
+    "target_new": 9.174042701721191,
+    "target_true": 2.3289055824279785
+   },
+   {
+    "target_new": 8.066671371459961,
+    "target_true": 5.617880344390869
+   },
+   {
+    "target_new": 12.5654878616333,
+    "target_true": 4.539712905883789
+   },
+   {
+    "target_new": 7.428549766540527,
+    "target_true": 4.864718437194824
+   },
+   {
+    "target_new": 9.96036148071289,
+    "target_true": 1.7493215799331665
+   },
+   {
+    "target_new": 13.429597854614258,
+    "target_true": 7.900183200836182
+   },
+   {
+    "target_new": 9.624265670776367,
+    "target_true": 2.019774913787842
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.002654007636010647,
+    "target_true": 11.316195487976074
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.9318000078201294,
+    "target_true": 2.081812858581543
+   },
+   {
+    "target_new": 1.077691674232483,
+    "target_true": 6.764237880706787
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 11.020479202270508,
+    "target_true": 4.616920471191406
+   },
+   {
+    "target_new": 6.618331432342529,
+    "target_true": 4.888342380523682
+   },
+   {
+    "target_new": 10.87890911102295,
+    "target_true": 2.7452805042266846
+   },
+   {
+    "target_new": 9.174042701721191,
+    "target_true": 2.3289055824279785
+   },
+   {
+    "target_new": 8.066671371459961,
+    "target_true": 5.617880344390869
+   },
+   {
+    "target_new": 12.5654878616333,
+    "target_true": 4.539712905883789
+   },
+   {
+    "target_new": 7.428549766540527,
+    "target_true": 4.864718437194824
+   },
+   {
+    "target_new": 9.96036148071289,
+    "target_true": 1.7493215799331665
+   },
+   {
+    "target_new": 13.429597854614258,
+    "target_true": 7.900183200836182
+   },
+   {
+    "target_new": 9.624265670776367,
+    "target_true": 2.019774913787842
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ]
+ }
+}

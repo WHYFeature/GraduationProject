@@ -1,0 +1,276 @@
+{
+ "case_id": 843,
+ "grouped_case_ids": [
+  800,
+  801,
+  802,
+  803,
+  804,
+  805,
+  806,
+  807,
+  808,
+  809,
+  810,
+  811,
+  812,
+  813,
+  814,
+  815,
+  816,
+  817,
+  818,
+  819,
+  820,
+  821,
+  822,
+  823,
+  824,
+  825,
+  826,
+  827,
+  828,
+  829,
+  830,
+  831,
+  832,
+  833,
+  834,
+  835,
+  836,
+  837,
+  838,
+  839,
+  840,
+  841,
+  842,
+  843,
+  844,
+  845,
+  846,
+  847,
+  848,
+  849,
+  850,
+  851,
+  852,
+  853,
+  854,
+  855,
+  856,
+  857,
+  858,
+  859,
+  860,
+  861,
+  862,
+  863,
+  864,
+  865,
+  866,
+  867,
+  868,
+  869,
+  870,
+  871,
+  872,
+  873,
+  874,
+  875,
+  876,
+  877,
+  878,
+  879,
+  880,
+  881,
+  882,
+  883,
+  884,
+  885,
+  886,
+  887,
+  888,
+  889,
+  890,
+  891,
+  892,
+  893,
+  894,
+  895,
+  896,
+  897,
+  898,
+  899
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{}, the",
+  "subject": "Tom Harmon",
+  "target_new": {
+   "str": "basketball",
+   "id": "Q5372"
+  },
+  "target_true": {
+   "str": "football",
+   "id": "Q41323"
+  },
+  "relation_id": "P641"
+ },
+ "time": 496.1186754703522,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.0027898934204131365,
+    "target_true": 11.372326850891113
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.025069568306207657,
+    "target_true": 12.551273345947266
+   },
+   {
+    "target_new": 0.3023720383644104,
+    "target_true": 5.266350746154785
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 3.4687671661376953,
+    "target_true": 2.915386199951172
+   },
+   {
+    "target_new": 10.003613471984863,
+    "target_true": 7.862244129180908
+   },
+   {
+    "target_new": 2.1327385902404785,
+    "target_true": 2.036438465118408
+   },
+   {
+    "target_new": 4.296294212341309,
+    "target_true": 3.9363441467285156
+   },
+   {
+    "target_new": 11.372909545898438,
+    "target_true": 5.952672958374023
+   },
+   {
+    "target_new": 4.194640159606934,
+    "target_true": 1.8329952955245972
+   },
+   {
+    "target_new": 8.773983001708984,
+    "target_true": 7.487128257751465
+   },
+   {
+    "target_new": 8.85938549041748,
+    "target_true": 7.521769046783447
+   },
+   {
+    "target_new": 1.8040385246276855,
+    "target_true": 0.6220641136169434
+   },
+   {
+    "target_new": 4.156737804412842,
+    "target_true": 2.0010552406311035
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.0027898934204131365,
+    "target_true": 11.372326850891113
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.025069568306207657,
+    "target_true": 12.551273345947266
+   },
+   {
+    "target_new": 0.3023720383644104,
+    "target_true": 5.266350746154785
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 3.4687671661376953,
+    "target_true": 2.915386199951172
+   },
+   {
+    "target_new": 10.003613471984863,
+    "target_true": 7.862244129180908
+   },
+   {
+    "target_new": 2.1327385902404785,
+    "target_true": 2.036438465118408
+   },
+   {
+    "target_new": 4.296294212341309,
+    "target_true": 3.9363441467285156
+   },
+   {
+    "target_new": 11.372909545898438,
+    "target_true": 5.952672958374023
+   },
+   {
+    "target_new": 4.194640159606934,
+    "target_true": 1.8329952955245972
+   },
+   {
+    "target_new": 8.773983001708984,
+    "target_true": 7.487128257751465
+   },
+   {
+    "target_new": 8.85938549041748,
+    "target_true": 7.521769046783447
+   },
+   {
+    "target_new": 1.8040385246276855,
+    "target_true": 0.6220641136169434
+   },
+   {
+    "target_new": 4.156737804412842,
+    "target_true": 2.0010552406311035
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false
+  ]
+ }
+}

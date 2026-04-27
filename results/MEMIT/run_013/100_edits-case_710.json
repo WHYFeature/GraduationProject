@@ -1,0 +1,276 @@
+{
+ "case_id": 710,
+ "grouped_case_ids": [
+  700,
+  701,
+  702,
+  703,
+  704,
+  705,
+  706,
+  707,
+  708,
+  709,
+  710,
+  711,
+  712,
+  713,
+  714,
+  715,
+  716,
+  717,
+  718,
+  719,
+  720,
+  721,
+  722,
+  723,
+  724,
+  725,
+  726,
+  727,
+  728,
+  729,
+  730,
+  731,
+  732,
+  733,
+  734,
+  735,
+  736,
+  737,
+  738,
+  739,
+  740,
+  741,
+  742,
+  743,
+  744,
+  745,
+  746,
+  747,
+  748,
+  749,
+  750,
+  751,
+  752,
+  753,
+  754,
+  755,
+  756,
+  757,
+  758,
+  759,
+  760,
+  761,
+  762,
+  763,
+  764,
+  765,
+  766,
+  767,
+  768,
+  769,
+  770,
+  771,
+  772,
+  773,
+  774,
+  775,
+  776,
+  777,
+  778,
+  779,
+  780,
+  781,
+  782,
+  783,
+  784,
+  785,
+  786,
+  787,
+  788,
+  789,
+  790,
+  791,
+  792,
+  793,
+  794,
+  795,
+  796,
+  797,
+  798,
+  799
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} is in",
+  "subject": "Taiwan Pride",
+  "target_new": {
+   "str": "Manchester",
+   "id": "Q18125"
+  },
+  "target_true": {
+   "str": "Taiwan",
+   "id": "Q865"
+  },
+  "relation_id": "P276"
+ },
+ "time": 486.8973693847656,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.0009408338228240609,
+    "target_true": 29.57149887084961
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.0590343102812767,
+    "target_true": 22.164531707763672
+   },
+   {
+    "target_new": 0.0784616619348526,
+    "target_true": 24.8425350189209
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 15.94986629486084,
+    "target_true": 10.893573760986328
+   },
+   {
+    "target_new": 14.218645095825195,
+    "target_true": 3.534308910369873
+   },
+   {
+    "target_new": 13.37862777709961,
+    "target_true": 9.85280990600586
+   },
+   {
+    "target_new": 10.7765474319458,
+    "target_true": 11.149441719055176
+   },
+   {
+    "target_new": 23.867719650268555,
+    "target_true": 6.258361339569092
+   },
+   {
+    "target_new": 15.302101135253906,
+    "target_true": 3.958190679550171
+   },
+   {
+    "target_new": 19.457748413085938,
+    "target_true": 5.767622947692871
+   },
+   {
+    "target_new": 15.6109619140625,
+    "target_true": 10.447043418884277
+   },
+   {
+    "target_new": 14.280805587768555,
+    "target_true": 16.944602966308594
+   },
+   {
+    "target_new": 22.798845291137695,
+    "target_true": 5.996091842651367
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.0009408338228240609,
+    "target_true": 29.57149887084961
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.0590343102812767,
+    "target_true": 22.164531707763672
+   },
+   {
+    "target_new": 0.0784616619348526,
+    "target_true": 24.8425350189209
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 15.94986629486084,
+    "target_true": 10.893573760986328
+   },
+   {
+    "target_new": 14.218645095825195,
+    "target_true": 3.534308910369873
+   },
+   {
+    "target_new": 13.37862777709961,
+    "target_true": 9.85280990600586
+   },
+   {
+    "target_new": 10.7765474319458,
+    "target_true": 11.149441719055176
+   },
+   {
+    "target_new": 23.867719650268555,
+    "target_true": 6.258361339569092
+   },
+   {
+    "target_new": 15.302101135253906,
+    "target_true": 3.958190679550171
+   },
+   {
+    "target_new": 19.457748413085938,
+    "target_true": 5.767622947692871
+   },
+   {
+    "target_new": 15.6109619140625,
+    "target_true": 10.447043418884277
+   },
+   {
+    "target_new": 14.280805587768555,
+    "target_true": 16.944602966308594
+   },
+   {
+    "target_new": 22.798845291137695,
+    "target_true": 5.996091842651367
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ]
+ }
+}

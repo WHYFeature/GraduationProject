@@ -1,0 +1,276 @@
+{
+ "case_id": 195,
+ "grouped_case_ids": [
+  100,
+  101,
+  102,
+  103,
+  104,
+  105,
+  106,
+  107,
+  108,
+  109,
+  110,
+  111,
+  112,
+  113,
+  114,
+  115,
+  116,
+  117,
+  118,
+  119,
+  120,
+  121,
+  122,
+  123,
+  124,
+  125,
+  126,
+  127,
+  128,
+  129,
+  130,
+  131,
+  132,
+  133,
+  134,
+  135,
+  136,
+  137,
+  138,
+  139,
+  140,
+  141,
+  142,
+  143,
+  144,
+  145,
+  146,
+  147,
+  148,
+  149,
+  150,
+  151,
+  152,
+  153,
+  154,
+  155,
+  156,
+  157,
+  158,
+  159,
+  160,
+  161,
+  162,
+  163,
+  164,
+  165,
+  166,
+  167,
+  168,
+  169,
+  170,
+  171,
+  172,
+  173,
+  174,
+  175,
+  176,
+  177,
+  178,
+  179,
+  180,
+  181,
+  182,
+  183,
+  184,
+  185,
+  186,
+  187,
+  188,
+  189,
+  190,
+  191,
+  192,
+  193,
+  194,
+  195,
+  196,
+  197,
+  198,
+  199
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{}, that was created in",
+  "subject": "Winnipeg Symphony Orchestra",
+  "target_new": {
+   "str": "Iceland",
+   "id": "Q189"
+  },
+  "target_true": {
+   "str": "Canada",
+   "id": "Q16"
+  },
+  "relation_id": "P495"
+ },
+ "time": 540.3949248790741,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.017567040398716927,
+    "target_true": 14.280821800231934
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.1870158463716507,
+    "target_true": 9.428458213806152
+   },
+   {
+    "target_new": 2.3244576454162598,
+    "target_true": 8.267707824707031
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 12.998648643493652,
+    "target_true": 10.949088096618652
+   },
+   {
+    "target_new": 14.954788208007812,
+    "target_true": 6.262741565704346
+   },
+   {
+    "target_new": 10.193732261657715,
+    "target_true": 8.978273391723633
+   },
+   {
+    "target_new": 10.31375503540039,
+    "target_true": 6.984189033508301
+   },
+   {
+    "target_new": 10.255413055419922,
+    "target_true": 6.734506130218506
+   },
+   {
+    "target_new": 14.243239402770996,
+    "target_true": 6.077058792114258
+   },
+   {
+    "target_new": 6.474696636199951,
+    "target_true": 4.7357659339904785
+   },
+   {
+    "target_new": 12.946712493896484,
+    "target_true": 10.009489059448242
+   },
+   {
+    "target_new": 14.29998779296875,
+    "target_true": 10.505949020385742
+   },
+   {
+    "target_new": 10.278701782226562,
+    "target_true": 7.2138848304748535
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.017567040398716927,
+    "target_true": 14.280821800231934
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.1870158463716507,
+    "target_true": 9.428458213806152
+   },
+   {
+    "target_new": 2.3244576454162598,
+    "target_true": 8.267707824707031
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 12.998648643493652,
+    "target_true": 10.949088096618652
+   },
+   {
+    "target_new": 14.954788208007812,
+    "target_true": 6.262741565704346
+   },
+   {
+    "target_new": 10.193732261657715,
+    "target_true": 8.978273391723633
+   },
+   {
+    "target_new": 10.31375503540039,
+    "target_true": 6.984189033508301
+   },
+   {
+    "target_new": 10.255413055419922,
+    "target_true": 6.734506130218506
+   },
+   {
+    "target_new": 14.243239402770996,
+    "target_true": 6.077058792114258
+   },
+   {
+    "target_new": 6.474696636199951,
+    "target_true": 4.7357659339904785
+   },
+   {
+    "target_new": 12.946712493896484,
+    "target_true": 10.009489059448242
+   },
+   {
+    "target_new": 14.29998779296875,
+    "target_true": 10.505949020385742
+   },
+   {
+    "target_new": 10.278701782226562,
+    "target_true": 7.2138848304748535
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ]
+ }
+}

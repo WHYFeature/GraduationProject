@@ -1,0 +1,276 @@
+{
+ "case_id": 558,
+ "grouped_case_ids": [
+  500,
+  501,
+  502,
+  503,
+  504,
+  505,
+  506,
+  507,
+  508,
+  509,
+  510,
+  511,
+  512,
+  513,
+  514,
+  515,
+  516,
+  517,
+  518,
+  519,
+  520,
+  521,
+  522,
+  523,
+  524,
+  525,
+  526,
+  527,
+  528,
+  529,
+  530,
+  531,
+  532,
+  533,
+  534,
+  535,
+  536,
+  537,
+  538,
+  539,
+  540,
+  541,
+  542,
+  543,
+  544,
+  545,
+  546,
+  547,
+  548,
+  549,
+  550,
+  551,
+  552,
+  553,
+  554,
+  555,
+  556,
+  557,
+  558,
+  559,
+  560,
+  561,
+  562,
+  563,
+  564,
+  565,
+  566,
+  567,
+  568,
+  569,
+  570,
+  571,
+  572,
+  573,
+  574,
+  575,
+  576,
+  577,
+  578,
+  579,
+  580,
+  581,
+  582,
+  583,
+  584,
+  585,
+  586,
+  587,
+  588,
+  589,
+  590,
+  591,
+  592,
+  593,
+  594,
+  595,
+  596,
+  597,
+  598,
+  599
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{}, in",
+  "subject": "Spur Point",
+  "target_new": {
+   "str": "Asia",
+   "id": "Q48"
+  },
+  "target_true": {
+   "str": "Antarctica",
+   "id": "Q51"
+  },
+  "relation_id": "P30"
+ },
+ "time": 450.39499068260193,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.014487199485301971,
+    "target_true": 16.047813415527344
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 3.529259204864502,
+    "target_true": 0.9539188146591187
+   },
+   {
+    "target_new": 9.285792350769043,
+    "target_true": 12.237713813781738
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 11.95782470703125,
+    "target_true": 1.1688761711120605
+   },
+   {
+    "target_new": 13.13541030883789,
+    "target_true": 4.543694496154785
+   },
+   {
+    "target_new": 4.453606605529785,
+    "target_true": 4.719914436340332
+   },
+   {
+    "target_new": 11.577842712402344,
+    "target_true": 11.206583976745605
+   },
+   {
+    "target_new": 4.5026960372924805,
+    "target_true": 2.357196092605591
+   },
+   {
+    "target_new": 9.789417266845703,
+    "target_true": 5.06214714050293
+   },
+   {
+    "target_new": 11.389898300170898,
+    "target_true": 1.8193039894104004
+   },
+   {
+    "target_new": 9.184337615966797,
+    "target_true": 4.204212188720703
+   },
+   {
+    "target_new": 3.652468681335449,
+    "target_true": 3.0493879318237305
+   },
+   {
+    "target_new": 9.120180130004883,
+    "target_true": 2.9786219596862793
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.014487199485301971,
+    "target_true": 16.047813415527344
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 3.529259204864502,
+    "target_true": 0.9539188146591187
+   },
+   {
+    "target_new": 9.285792350769043,
+    "target_true": 12.237713813781738
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 11.95782470703125,
+    "target_true": 1.1688761711120605
+   },
+   {
+    "target_new": 13.13541030883789,
+    "target_true": 4.543694496154785
+   },
+   {
+    "target_new": 4.453606605529785,
+    "target_true": 4.719914436340332
+   },
+   {
+    "target_new": 11.577842712402344,
+    "target_true": 11.206583976745605
+   },
+   {
+    "target_new": 4.5026960372924805,
+    "target_true": 2.357196092605591
+   },
+   {
+    "target_new": 9.789417266845703,
+    "target_true": 5.06214714050293
+   },
+   {
+    "target_new": 11.389898300170898,
+    "target_true": 1.8193039894104004
+   },
+   {
+    "target_new": 9.184337615966797,
+    "target_true": 4.204212188720703
+   },
+   {
+    "target_new": 3.652468681335449,
+    "target_true": 3.0493879318237305
+   },
+   {
+    "target_new": 9.120180130004883,
+    "target_true": 2.9786219596862793
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ]
+ }
+}

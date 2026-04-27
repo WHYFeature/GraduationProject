@@ -1,0 +1,276 @@
+{
+ "case_id": 107,
+ "grouped_case_ids": [
+  100,
+  101,
+  102,
+  103,
+  104,
+  105,
+  106,
+  107,
+  108,
+  109,
+  110,
+  111,
+  112,
+  113,
+  114,
+  115,
+  116,
+  117,
+  118,
+  119,
+  120,
+  121,
+  122,
+  123,
+  124,
+  125,
+  126,
+  127,
+  128,
+  129,
+  130,
+  131,
+  132,
+  133,
+  134,
+  135,
+  136,
+  137,
+  138,
+  139,
+  140,
+  141,
+  142,
+  143,
+  144,
+  145,
+  146,
+  147,
+  148,
+  149,
+  150,
+  151,
+  152,
+  153,
+  154,
+  155,
+  156,
+  157,
+  158,
+  159,
+  160,
+  161,
+  162,
+  163,
+  164,
+  165,
+  166,
+  167,
+  168,
+  169,
+  170,
+  171,
+  172,
+  173,
+  174,
+  175,
+  176,
+  177,
+  178,
+  179,
+  180,
+  181,
+  182,
+  183,
+  184,
+  185,
+  186,
+  187,
+  188,
+  189,
+  190,
+  191,
+  192,
+  193,
+  194,
+  195,
+  196,
+  197,
+  198,
+  199
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} plays in the position of",
+  "subject": "Ruud Gullit",
+  "target_new": {
+   "str": "linebacker",
+   "id": "Q528145"
+  },
+  "target_true": {
+   "str": "midfielder",
+   "id": "Q193592"
+  },
+  "relation_id": "P413"
+ },
+ "time": 540.3949248790741,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.004009780008345842,
+    "target_true": 8.296847343444824
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.5540276765823364,
+    "target_true": 7.934809684753418
+   },
+   {
+    "target_new": 0.011063895188272,
+    "target_true": 12.342617988586426
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 13.691690444946289,
+    "target_true": 11.672388076782227
+   },
+   {
+    "target_new": 10.745376586914062,
+    "target_true": 6.203731536865234
+   },
+   {
+    "target_new": 14.815881729125977,
+    "target_true": 13.322903633117676
+   },
+   {
+    "target_new": 10.89404296875,
+    "target_true": 3.374790668487549
+   },
+   {
+    "target_new": 12.530733108520508,
+    "target_true": 6.95530366897583
+   },
+   {
+    "target_new": 12.229432106018066,
+    "target_true": 8.073166847229004
+   },
+   {
+    "target_new": 11.261598587036133,
+    "target_true": 8.536476135253906
+   },
+   {
+    "target_new": 14.064635276794434,
+    "target_true": 11.867804527282715
+   },
+   {
+    "target_new": 10.80876350402832,
+    "target_true": 7.385345935821533
+   },
+   {
+    "target_new": 12.073562622070312,
+    "target_true": 7.0421833992004395
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.004009780008345842,
+    "target_true": 8.296847343444824
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.5540276765823364,
+    "target_true": 7.934809684753418
+   },
+   {
+    "target_new": 0.011063895188272,
+    "target_true": 12.342617988586426
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 13.691690444946289,
+    "target_true": 11.672388076782227
+   },
+   {
+    "target_new": 10.745376586914062,
+    "target_true": 6.203731536865234
+   },
+   {
+    "target_new": 14.815881729125977,
+    "target_true": 13.322903633117676
+   },
+   {
+    "target_new": 10.89404296875,
+    "target_true": 3.374790668487549
+   },
+   {
+    "target_new": 12.530733108520508,
+    "target_true": 6.95530366897583
+   },
+   {
+    "target_new": 12.229432106018066,
+    "target_true": 8.073166847229004
+   },
+   {
+    "target_new": 11.261598587036133,
+    "target_true": 8.536476135253906
+   },
+   {
+    "target_new": 14.064635276794434,
+    "target_true": 11.867804527282715
+   },
+   {
+    "target_new": 10.80876350402832,
+    "target_true": 7.385345935821533
+   },
+   {
+    "target_new": 12.073562622070312,
+    "target_true": 7.0421833992004395
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ]
+ }
+}

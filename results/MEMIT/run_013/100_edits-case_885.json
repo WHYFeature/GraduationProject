@@ -1,0 +1,276 @@
+{
+ "case_id": 885,
+ "grouped_case_ids": [
+  800,
+  801,
+  802,
+  803,
+  804,
+  805,
+  806,
+  807,
+  808,
+  809,
+  810,
+  811,
+  812,
+  813,
+  814,
+  815,
+  816,
+  817,
+  818,
+  819,
+  820,
+  821,
+  822,
+  823,
+  824,
+  825,
+  826,
+  827,
+  828,
+  829,
+  830,
+  831,
+  832,
+  833,
+  834,
+  835,
+  836,
+  837,
+  838,
+  839,
+  840,
+  841,
+  842,
+  843,
+  844,
+  845,
+  846,
+  847,
+  848,
+  849,
+  850,
+  851,
+  852,
+  853,
+  854,
+  855,
+  856,
+  857,
+  858,
+  859,
+  860,
+  861,
+  862,
+  863,
+  864,
+  865,
+  866,
+  867,
+  868,
+  869,
+  870,
+  871,
+  872,
+  873,
+  874,
+  875,
+  876,
+  877,
+  878,
+  879,
+  880,
+  881,
+  882,
+  883,
+  884,
+  885,
+  886,
+  887,
+  888,
+  889,
+  890,
+  891,
+  892,
+  893,
+  894,
+  895,
+  896,
+  897,
+  898,
+  899
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} is located in",
+  "subject": "Borovsky District",
+  "target_new": {
+   "str": "Spain",
+   "id": "Q29"
+  },
+  "target_true": {
+   "str": "Russia",
+   "id": "Q159"
+  },
+  "relation_id": "P17"
+ },
+ "time": 496.1186754703522,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.07716095447540283,
+    "target_true": 14.147492408752441
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 4.967655181884766,
+    "target_true": 4.071459770202637
+   },
+   {
+    "target_new": 5.084619522094727,
+    "target_true": 2.2139644622802734
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 12.265843391418457,
+    "target_true": 3.902489423751831
+   },
+   {
+    "target_new": 13.863974571228027,
+    "target_true": 2.152674436569214
+   },
+   {
+    "target_new": 14.16896915435791,
+    "target_true": 2.861137866973877
+   },
+   {
+    "target_new": 18.103965759277344,
+    "target_true": 3.156616687774658
+   },
+   {
+    "target_new": 15.618489265441895,
+    "target_true": 3.170535087585449
+   },
+   {
+    "target_new": 11.497078895568848,
+    "target_true": 10.478447914123535
+   },
+   {
+    "target_new": 13.05762004852295,
+    "target_true": 3.198666572570801
+   },
+   {
+    "target_new": 15.325653076171875,
+    "target_true": 2.9229891300201416
+   },
+   {
+    "target_new": 15.751227378845215,
+    "target_true": 0.37842193245887756
+   },
+   {
+    "target_new": 6.416369915008545,
+    "target_true": 8.796205520629883
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.07716095447540283,
+    "target_true": 14.147492408752441
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 4.967655181884766,
+    "target_true": 4.071459770202637
+   },
+   {
+    "target_new": 5.084619522094727,
+    "target_true": 2.2139644622802734
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 12.265843391418457,
+    "target_true": 3.902489423751831
+   },
+   {
+    "target_new": 13.863974571228027,
+    "target_true": 2.152674436569214
+   },
+   {
+    "target_new": 14.16896915435791,
+    "target_true": 2.861137866973877
+   },
+   {
+    "target_new": 18.103965759277344,
+    "target_true": 3.156616687774658
+   },
+   {
+    "target_new": 15.618489265441895,
+    "target_true": 3.170535087585449
+   },
+   {
+    "target_new": 11.497078895568848,
+    "target_true": 10.478447914123535
+   },
+   {
+    "target_new": 13.05762004852295,
+    "target_true": 3.198666572570801
+   },
+   {
+    "target_new": 15.325653076171875,
+    "target_true": 2.9229891300201416
+   },
+   {
+    "target_new": 15.751227378845215,
+    "target_true": 0.37842193245887756
+   },
+   {
+    "target_new": 6.416369915008545,
+    "target_true": 8.796205520629883
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false
+  ]
+ }
+}

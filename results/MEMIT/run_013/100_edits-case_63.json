@@ -1,0 +1,276 @@
+{
+ "case_id": 63,
+ "grouped_case_ids": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26,
+  27,
+  28,
+  29,
+  30,
+  31,
+  32,
+  33,
+  34,
+  35,
+  36,
+  37,
+  38,
+  39,
+  40,
+  41,
+  42,
+  43,
+  44,
+  45,
+  46,
+  47,
+  48,
+  49,
+  50,
+  51,
+  52,
+  53,
+  54,
+  55,
+  56,
+  57,
+  58,
+  59,
+  60,
+  61,
+  62,
+  63,
+  64,
+  65,
+  66,
+  67,
+  68,
+  69,
+  70,
+  71,
+  72,
+  73,
+  74,
+  75,
+  76,
+  77,
+  78,
+  79,
+  80,
+  81,
+  82,
+  83,
+  84,
+  85,
+  86,
+  87,
+  88,
+  89,
+  90,
+  91,
+  92,
+  93,
+  94,
+  95,
+  96,
+  97,
+  98,
+  99
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} speaks",
+  "subject": "James Hardiman",
+  "target_new": {
+   "str": "Italian",
+   "id": "Q652"
+  },
+  "target_true": {
+   "str": "English",
+   "id": "Q1860"
+  },
+  "relation_id": "P1412"
+ },
+ "time": 460.710303068161,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.011304141022264957,
+    "target_true": 6.319200038909912
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.0035727499052882195,
+    "target_true": 9.946075439453125
+   },
+   {
+    "target_new": 1.0193662643432617,
+    "target_true": 11.556400299072266
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 13.765945434570312,
+    "target_true": 12.547140121459961
+   },
+   {
+    "target_new": 12.496228218078613,
+    "target_true": 10.0714111328125
+   },
+   {
+    "target_new": 13.173766136169434,
+    "target_true": 7.01632833480835
+   },
+   {
+    "target_new": 10.395524978637695,
+    "target_true": 8.652844429016113
+   },
+   {
+    "target_new": 17.269969940185547,
+    "target_true": 13.690707206726074
+   },
+   {
+    "target_new": 15.602137565612793,
+    "target_true": 12.783254623413086
+   },
+   {
+    "target_new": 11.637605667114258,
+    "target_true": 6.267065525054932
+   },
+   {
+    "target_new": 12.967294692993164,
+    "target_true": 7.7013444900512695
+   },
+   {
+    "target_new": 13.268695831298828,
+    "target_true": 6.4099860191345215
+   },
+   {
+    "target_new": 10.27656078338623,
+    "target_true": 8.62877082824707
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.011304141022264957,
+    "target_true": 6.319200038909912
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.0035727499052882195,
+    "target_true": 9.946075439453125
+   },
+   {
+    "target_new": 1.0193662643432617,
+    "target_true": 11.556400299072266
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 13.765945434570312,
+    "target_true": 12.547140121459961
+   },
+   {
+    "target_new": 12.496228218078613,
+    "target_true": 10.0714111328125
+   },
+   {
+    "target_new": 13.173766136169434,
+    "target_true": 7.01632833480835
+   },
+   {
+    "target_new": 10.395524978637695,
+    "target_true": 8.652844429016113
+   },
+   {
+    "target_new": 17.269969940185547,
+    "target_true": 13.690707206726074
+   },
+   {
+    "target_new": 15.602137565612793,
+    "target_true": 12.783254623413086
+   },
+   {
+    "target_new": 11.637605667114258,
+    "target_true": 6.267065525054932
+   },
+   {
+    "target_new": 12.967294692993164,
+    "target_true": 7.7013444900512695
+   },
+   {
+    "target_new": 13.268695831298828,
+    "target_true": 6.4099860191345215
+   },
+   {
+    "target_new": 10.27656078338623,
+    "target_true": 8.62877082824707
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ]
+ }
+}

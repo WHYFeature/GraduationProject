@@ -1,0 +1,276 @@
+{
+ "case_id": 374,
+ "grouped_case_ids": [
+  300,
+  301,
+  302,
+  303,
+  304,
+  305,
+  306,
+  307,
+  308,
+  309,
+  310,
+  311,
+  312,
+  313,
+  314,
+  315,
+  316,
+  317,
+  318,
+  319,
+  320,
+  321,
+  322,
+  323,
+  324,
+  325,
+  326,
+  327,
+  328,
+  329,
+  330,
+  331,
+  332,
+  333,
+  334,
+  335,
+  336,
+  337,
+  338,
+  339,
+  340,
+  341,
+  342,
+  343,
+  344,
+  345,
+  346,
+  347,
+  348,
+  349,
+  350,
+  351,
+  352,
+  353,
+  354,
+  355,
+  356,
+  357,
+  358,
+  359,
+  360,
+  361,
+  362,
+  363,
+  364,
+  365,
+  366,
+  367,
+  368,
+  369,
+  370,
+  371,
+  372,
+  373,
+  374,
+  375,
+  376,
+  377,
+  378,
+  379,
+  380,
+  381,
+  382,
+  383,
+  384,
+  385,
+  386,
+  387,
+  388,
+  389,
+  390,
+  391,
+  392,
+  393,
+  394,
+  395,
+  396,
+  397,
+  398,
+  399
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "The language used by {} is",
+  "subject": "Henri Massis",
+  "target_new": {
+   "str": "English",
+   "id": "Q1860"
+  },
+  "target_true": {
+   "str": "French",
+   "id": "Q150"
+  },
+  "relation_id": "P1412"
+ },
+ "time": 457.92730379104614,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.001498291501775384,
+    "target_true": 16.75080680847168
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.9734447002410889,
+    "target_true": 9.692602157592773
+   },
+   {
+    "target_new": 0.008843068964779377,
+    "target_true": 7.354528903961182
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 13.086864471435547,
+    "target_true": 12.834371566772461
+   },
+   {
+    "target_new": 4.581525802612305,
+    "target_true": 5.948922157287598
+   },
+   {
+    "target_new": 7.029001235961914,
+    "target_true": 5.1937360763549805
+   },
+   {
+    "target_new": 8.813387870788574,
+    "target_true": 8.576401710510254
+   },
+   {
+    "target_new": 8.327327728271484,
+    "target_true": 8.451850891113281
+   },
+   {
+    "target_new": 10.839975357055664,
+    "target_true": 11.685787200927734
+   },
+   {
+    "target_new": 6.580526351928711,
+    "target_true": 6.795568466186523
+   },
+   {
+    "target_new": 7.310935974121094,
+    "target_true": 6.081086158752441
+   },
+   {
+    "target_new": 12.392573356628418,
+    "target_true": 13.619150161743164
+   },
+   {
+    "target_new": 9.690719604492188,
+    "target_true": 12.420819282531738
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.001498291501775384,
+    "target_true": 16.75080680847168
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.9734447002410889,
+    "target_true": 9.692602157592773
+   },
+   {
+    "target_new": 0.008843068964779377,
+    "target_true": 7.354528903961182
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 13.086864471435547,
+    "target_true": 12.834371566772461
+   },
+   {
+    "target_new": 4.581525802612305,
+    "target_true": 5.948922157287598
+   },
+   {
+    "target_new": 7.029001235961914,
+    "target_true": 5.1937360763549805
+   },
+   {
+    "target_new": 8.813387870788574,
+    "target_true": 8.576401710510254
+   },
+   {
+    "target_new": 8.327327728271484,
+    "target_true": 8.451850891113281
+   },
+   {
+    "target_new": 10.839975357055664,
+    "target_true": 11.685787200927734
+   },
+   {
+    "target_new": 6.580526351928711,
+    "target_true": 6.795568466186523
+   },
+   {
+    "target_new": 7.310935974121094,
+    "target_true": 6.081086158752441
+   },
+   {
+    "target_new": 12.392573356628418,
+    "target_true": 13.619150161743164
+   },
+   {
+    "target_new": 9.690719604492188,
+    "target_true": 12.420819282531738
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ]
+ }
+}

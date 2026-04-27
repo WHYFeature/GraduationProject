@@ -1,0 +1,276 @@
+{
+ "case_id": 997,
+ "grouped_case_ids": [
+  900,
+  901,
+  902,
+  903,
+  904,
+  905,
+  906,
+  907,
+  908,
+  909,
+  910,
+  911,
+  912,
+  913,
+  914,
+  915,
+  916,
+  917,
+  918,
+  919,
+  920,
+  921,
+  922,
+  923,
+  924,
+  925,
+  926,
+  927,
+  928,
+  929,
+  930,
+  931,
+  932,
+  933,
+  934,
+  935,
+  936,
+  937,
+  938,
+  939,
+  940,
+  941,
+  942,
+  943,
+  944,
+  945,
+  946,
+  947,
+  948,
+  949,
+  950,
+  951,
+  952,
+  953,
+  954,
+  955,
+  956,
+  957,
+  958,
+  959,
+  960,
+  961,
+  962,
+  963,
+  964,
+  965,
+  966,
+  967,
+  968,
+  969,
+  970,
+  971,
+  972,
+  973,
+  974,
+  975,
+  976,
+  977,
+  978,
+  979,
+  980,
+  981,
+  982,
+  983,
+  984,
+  985,
+  986,
+  987,
+  988,
+  989,
+  990,
+  991,
+  992,
+  993,
+  994,
+  995,
+  996,
+  997,
+  998,
+  999
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} plays as",
+  "subject": "Robert Griffin III",
+  "target_new": {
+   "str": "midfielder",
+   "id": "Q193592"
+  },
+  "target_true": {
+   "str": "quarterback",
+   "id": "Q622747"
+  },
+  "relation_id": "P413"
+ },
+ "time": 479.6921429634094,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.08832839876413345,
+    "target_true": 2.7407751083374023
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 9.987447738647461,
+    "target_true": 10.15334415435791
+   },
+   {
+    "target_new": 5.515767574310303,
+    "target_true": 0.46826106309890747
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 5.3380842208862305,
+    "target_true": 6.027440071105957
+   },
+   {
+    "target_new": 13.903586387634277,
+    "target_true": 10.029937744140625
+   },
+   {
+    "target_new": 11.967650413513184,
+    "target_true": 10.704141616821289
+   },
+   {
+    "target_new": 13.143449783325195,
+    "target_true": 10.41323184967041
+   },
+   {
+    "target_new": 3.5724592208862305,
+    "target_true": 4.409343719482422
+   },
+   {
+    "target_new": 8.805814743041992,
+    "target_true": 7.645100116729736
+   },
+   {
+    "target_new": 13.921463012695312,
+    "target_true": 8.992063522338867
+   },
+   {
+    "target_new": 11.25085163116455,
+    "target_true": 3.1770334243774414
+   },
+   {
+    "target_new": 13.172353744506836,
+    "target_true": 8.710384368896484
+   },
+   {
+    "target_new": 12.7755708694458,
+    "target_true": 1.8326326608657837
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.08832839876413345,
+    "target_true": 2.7407751083374023
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 9.987447738647461,
+    "target_true": 10.15334415435791
+   },
+   {
+    "target_new": 5.515767574310303,
+    "target_true": 0.46826106309890747
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 5.3380842208862305,
+    "target_true": 6.027440071105957
+   },
+   {
+    "target_new": 13.903586387634277,
+    "target_true": 10.029937744140625
+   },
+   {
+    "target_new": 11.967650413513184,
+    "target_true": 10.704141616821289
+   },
+   {
+    "target_new": 13.143449783325195,
+    "target_true": 10.41323184967041
+   },
+   {
+    "target_new": 3.5724592208862305,
+    "target_true": 4.409343719482422
+   },
+   {
+    "target_new": 8.805814743041992,
+    "target_true": 7.645100116729736
+   },
+   {
+    "target_new": 13.921463012695312,
+    "target_true": 8.992063522338867
+   },
+   {
+    "target_new": 11.25085163116455,
+    "target_true": 3.1770334243774414
+   },
+   {
+    "target_new": 13.172353744506836,
+    "target_true": 8.710384368896484
+   },
+   {
+    "target_new": 12.7755708694458,
+    "target_true": 1.8326326608657837
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true
+  ]
+ }
+}

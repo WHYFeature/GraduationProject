@@ -1,0 +1,276 @@
+{
+ "case_id": 726,
+ "grouped_case_ids": [
+  700,
+  701,
+  702,
+  703,
+  704,
+  705,
+  706,
+  707,
+  708,
+  709,
+  710,
+  711,
+  712,
+  713,
+  714,
+  715,
+  716,
+  717,
+  718,
+  719,
+  720,
+  721,
+  722,
+  723,
+  724,
+  725,
+  726,
+  727,
+  728,
+  729,
+  730,
+  731,
+  732,
+  733,
+  734,
+  735,
+  736,
+  737,
+  738,
+  739,
+  740,
+  741,
+  742,
+  743,
+  744,
+  745,
+  746,
+  747,
+  748,
+  749,
+  750,
+  751,
+  752,
+  753,
+  754,
+  755,
+  756,
+  757,
+  758,
+  759,
+  760,
+  761,
+  762,
+  763,
+  764,
+  765,
+  766,
+  767,
+  768,
+  769,
+  770,
+  771,
+  772,
+  773,
+  774,
+  775,
+  776,
+  777,
+  778,
+  779,
+  780,
+  781,
+  782,
+  783,
+  784,
+  785,
+  786,
+  787,
+  788,
+  789,
+  790,
+  791,
+  792,
+  793,
+  794,
+  795,
+  796,
+  797,
+  798,
+  799
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} is headquartered in",
+  "subject": "Crystal Palace Baltimore",
+  "target_new": {
+   "str": "Jerusalem",
+   "id": "Q1218"
+  },
+  "target_true": {
+   "str": "Baltimore",
+   "id": "Q5092"
+  },
+  "relation_id": "P159"
+ },
+ "time": 486.8973693847656,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.08212010562419891,
+    "target_true": 15.501250267028809
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 3.6689600944519043,
+    "target_true": 4.265284061431885
+   },
+   {
+    "target_new": 0.00019274283840786666,
+    "target_true": 24.80255126953125
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 18.140727996826172,
+    "target_true": 0.4598999321460724
+   },
+   {
+    "target_new": 16.366384506225586,
+    "target_true": 1.4279998540878296
+   },
+   {
+    "target_new": 16.534168243408203,
+    "target_true": 2.3720946311950684
+   },
+   {
+    "target_new": 17.261566162109375,
+    "target_true": 1.0543854236602783
+   },
+   {
+    "target_new": 18.38469123840332,
+    "target_true": 0.2290901094675064
+   },
+   {
+    "target_new": 15.050358772277832,
+    "target_true": 0.9223277568817139
+   },
+   {
+    "target_new": 16.353471755981445,
+    "target_true": 2.3346633911132812
+   },
+   {
+    "target_new": 14.140018463134766,
+    "target_true": 3.314178466796875
+   },
+   {
+    "target_new": 15.68756103515625,
+    "target_true": 0.6976595520973206
+   },
+   {
+    "target_new": 19.754207611083984,
+    "target_true": 0.9166536331176758
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   true,
+   false,
+   false,
+   false,
+   true,
+   true,
+   false,
+   false,
+   true,
+   true
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.08212010562419891,
+    "target_true": 15.501250267028809
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 3.6689600944519043,
+    "target_true": 4.265284061431885
+   },
+   {
+    "target_new": 0.00019274283840786666,
+    "target_true": 24.80255126953125
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 18.140727996826172,
+    "target_true": 0.4598999321460724
+   },
+   {
+    "target_new": 16.366384506225586,
+    "target_true": 1.4279998540878296
+   },
+   {
+    "target_new": 16.534168243408203,
+    "target_true": 2.3720946311950684
+   },
+   {
+    "target_new": 17.261566162109375,
+    "target_true": 1.0543854236602783
+   },
+   {
+    "target_new": 18.38469123840332,
+    "target_true": 0.2290901094675064
+   },
+   {
+    "target_new": 15.050358772277832,
+    "target_true": 0.9223277568817139
+   },
+   {
+    "target_new": 16.353471755981445,
+    "target_true": 2.3346633911132812
+   },
+   {
+    "target_new": 14.140018463134766,
+    "target_true": 3.314178466796875
+   },
+   {
+    "target_new": 15.68756103515625,
+    "target_true": 0.6976595520973206
+   },
+   {
+    "target_new": 19.754207611083984,
+    "target_true": 0.9166536331176758
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   true
+  ],
+  "specificity_prompts_correct": [
+   true,
+   false,
+   false,
+   false,
+   true,
+   true,
+   false,
+   false,
+   true,
+   true
+  ]
+ }
+}

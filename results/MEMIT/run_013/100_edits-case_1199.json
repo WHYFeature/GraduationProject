@@ -1,0 +1,276 @@
+{
+ "case_id": 1199,
+ "grouped_case_ids": [
+  1100,
+  1101,
+  1102,
+  1103,
+  1104,
+  1105,
+  1106,
+  1107,
+  1108,
+  1109,
+  1110,
+  1111,
+  1112,
+  1113,
+  1114,
+  1115,
+  1116,
+  1117,
+  1118,
+  1119,
+  1120,
+  1121,
+  1122,
+  1123,
+  1124,
+  1125,
+  1126,
+  1127,
+  1128,
+  1129,
+  1130,
+  1131,
+  1132,
+  1133,
+  1134,
+  1135,
+  1136,
+  1137,
+  1138,
+  1139,
+  1140,
+  1141,
+  1142,
+  1143,
+  1144,
+  1145,
+  1146,
+  1147,
+  1148,
+  1149,
+  1150,
+  1151,
+  1152,
+  1153,
+  1154,
+  1155,
+  1156,
+  1157,
+  1158,
+  1159,
+  1160,
+  1161,
+  1162,
+  1163,
+  1164,
+  1165,
+  1166,
+  1167,
+  1168,
+  1169,
+  1170,
+  1171,
+  1172,
+  1173,
+  1174,
+  1175,
+  1176,
+  1177,
+  1178,
+  1179,
+  1180,
+  1181,
+  1182,
+  1183,
+  1184,
+  1185,
+  1186,
+  1187,
+  1188,
+  1189,
+  1190,
+  1191,
+  1192,
+  1193,
+  1194,
+  1195,
+  1196,
+  1197,
+  1198,
+  1199
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} premieres on",
+  "subject": "The Little Lulu Show",
+  "target_new": {
+   "str": "NBC",
+   "id": "Q13974"
+  },
+  "target_true": {
+   "str": "HBO",
+   "id": "Q23633"
+  },
+  "relation_id": "P449"
+ },
+ "time": 476.42608737945557,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.0006194579764269292,
+    "target_true": 21.596323013305664
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.03793250024318695,
+    "target_true": 13.735086441040039
+   },
+   {
+    "target_new": 0.02060110867023468,
+    "target_true": 14.968013763427734
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 5.8516411781311035,
+    "target_true": 3.5722498893737793
+   },
+   {
+    "target_new": 5.597928047180176,
+    "target_true": 6.878633499145508
+   },
+   {
+    "target_new": 9.367815971374512,
+    "target_true": 12.032132148742676
+   },
+   {
+    "target_new": 5.3106279373168945,
+    "target_true": 4.71031379699707
+   },
+   {
+    "target_new": 5.284145355224609,
+    "target_true": 3.4597816467285156
+   },
+   {
+    "target_new": 6.631533622741699,
+    "target_true": 0.24302197992801666
+   },
+   {
+    "target_new": 6.170862197875977,
+    "target_true": 7.323023796081543
+   },
+   {
+    "target_new": 4.2290940284729,
+    "target_true": 1.8628953695297241
+   },
+   {
+    "target_new": 3.9950942993164062,
+    "target_true": 6.075504302978516
+   },
+   {
+    "target_new": 9.387293815612793,
+    "target_true": 10.004266738891602
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.0006194579764269292,
+    "target_true": 21.596323013305664
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.03793250024318695,
+    "target_true": 13.735086441040039
+   },
+   {
+    "target_new": 0.02060110867023468,
+    "target_true": 14.968013763427734
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 5.8516411781311035,
+    "target_true": 3.5722498893737793
+   },
+   {
+    "target_new": 5.597928047180176,
+    "target_true": 6.878633499145508
+   },
+   {
+    "target_new": 9.367815971374512,
+    "target_true": 12.032132148742676
+   },
+   {
+    "target_new": 5.3106279373168945,
+    "target_true": 4.71031379699707
+   },
+   {
+    "target_new": 5.284145355224609,
+    "target_true": 3.4597816467285156
+   },
+   {
+    "target_new": 6.631533622741699,
+    "target_true": 0.24302197992801666
+   },
+   {
+    "target_new": 6.170862197875977,
+    "target_true": 7.323023796081543
+   },
+   {
+    "target_new": 4.2290940284729,
+    "target_true": 1.8628953695297241
+   },
+   {
+    "target_new": 3.9950942993164062,
+    "target_true": 6.075504302978516
+   },
+   {
+    "target_new": 9.387293815612793,
+    "target_true": 10.004266738891602
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false
+  ]
+ }
+}

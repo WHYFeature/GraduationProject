@@ -1,0 +1,276 @@
+{
+ "case_id": 70,
+ "grouped_case_ids": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26,
+  27,
+  28,
+  29,
+  30,
+  31,
+  32,
+  33,
+  34,
+  35,
+  36,
+  37,
+  38,
+  39,
+  40,
+  41,
+  42,
+  43,
+  44,
+  45,
+  46,
+  47,
+  48,
+  49,
+  50,
+  51,
+  52,
+  53,
+  54,
+  55,
+  56,
+  57,
+  58,
+  59,
+  60,
+  61,
+  62,
+  63,
+  64,
+  65,
+  66,
+  67,
+  68,
+  69,
+  70,
+  71,
+  72,
+  73,
+  74,
+  75,
+  76,
+  77,
+  78,
+  79,
+  80,
+  81,
+  82,
+  83,
+  84,
+  85,
+  86,
+  87,
+  88,
+  89,
+  90,
+  91,
+  92,
+  93,
+  94,
+  95,
+  96,
+  97,
+  98,
+  99
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "The twin city of {} is",
+  "subject": "Beirut",
+  "target_new": {
+   "str": "Florence",
+   "id": "Q2044"
+  },
+  "target_true": {
+   "str": "Istanbul",
+   "id": "Q406"
+  },
+  "relation_id": "P190"
+ },
+ "time": 460.710303068161,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.004726665560156107,
+    "target_true": 16.301654815673828
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 3.8599495887756348,
+    "target_true": 8.358689308166504
+   },
+   {
+    "target_new": 3.0252275466918945,
+    "target_true": 3.60292911529541
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 6.933407306671143,
+    "target_true": 10.213780403137207
+   },
+   {
+    "target_new": 9.715875625610352,
+    "target_true": 9.941336631774902
+   },
+   {
+    "target_new": 7.979413032531738,
+    "target_true": 9.210944175720215
+   },
+   {
+    "target_new": 8.845874786376953,
+    "target_true": 9.019769668579102
+   },
+   {
+    "target_new": 7.8482842445373535,
+    "target_true": 5.684922695159912
+   },
+   {
+    "target_new": 12.619912147521973,
+    "target_true": 12.590584754943848
+   },
+   {
+    "target_new": 9.37545108795166,
+    "target_true": 10.247661590576172
+   },
+   {
+    "target_new": 9.597490310668945,
+    "target_true": 7.788240909576416
+   },
+   {
+    "target_new": 9.104536056518555,
+    "target_true": 8.446608543395996
+   },
+   {
+    "target_new": 4.061221599578857,
+    "target_true": 9.164732933044434
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.004726665560156107,
+    "target_true": 16.301654815673828
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 3.8599495887756348,
+    "target_true": 8.358689308166504
+   },
+   {
+    "target_new": 3.0252275466918945,
+    "target_true": 3.60292911529541
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 6.933407306671143,
+    "target_true": 10.213780403137207
+   },
+   {
+    "target_new": 9.715875625610352,
+    "target_true": 9.941336631774902
+   },
+   {
+    "target_new": 7.979413032531738,
+    "target_true": 9.210944175720215
+   },
+   {
+    "target_new": 8.845874786376953,
+    "target_true": 9.019769668579102
+   },
+   {
+    "target_new": 7.8482842445373535,
+    "target_true": 5.684922695159912
+   },
+   {
+    "target_new": 12.619912147521973,
+    "target_true": 12.590584754943848
+   },
+   {
+    "target_new": 9.37545108795166,
+    "target_true": 10.247661590576172
+   },
+   {
+    "target_new": 9.597490310668945,
+    "target_true": 7.788240909576416
+   },
+   {
+    "target_new": 9.104536056518555,
+    "target_true": 8.446608543395996
+   },
+   {
+    "target_new": 4.061221599578857,
+    "target_true": 9.164732933044434
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ]
+ }
+}

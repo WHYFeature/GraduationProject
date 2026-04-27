@@ -1,0 +1,276 @@
+{
+ "case_id": 22,
+ "grouped_case_ids": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26,
+  27,
+  28,
+  29,
+  30,
+  31,
+  32,
+  33,
+  34,
+  35,
+  36,
+  37,
+  38,
+  39,
+  40,
+  41,
+  42,
+  43,
+  44,
+  45,
+  46,
+  47,
+  48,
+  49,
+  50,
+  51,
+  52,
+  53,
+  54,
+  55,
+  56,
+  57,
+  58,
+  59,
+  60,
+  61,
+  62,
+  63,
+  64,
+  65,
+  66,
+  67,
+  68,
+  69,
+  70,
+  71,
+  72,
+  73,
+  74,
+  75,
+  76,
+  77,
+  78,
+  79,
+  80,
+  81,
+  82,
+  83,
+  84,
+  85,
+  86,
+  87,
+  88,
+  89,
+  90,
+  91,
+  92,
+  93,
+  94,
+  95,
+  96,
+  97,
+  98,
+  99
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "The headquarter of {} is located in",
+  "subject": "Monell Chemical Senses Center",
+  "target_new": {
+   "str": "Mumbai",
+   "id": "Q1156"
+  },
+  "target_true": {
+   "str": "Philadelphia",
+   "id": "Q1345"
+  },
+  "relation_id": "P159"
+ },
+ "time": 460.710303068161,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.055103227496147156,
+    "target_true": 18.706615447998047
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.15657487511634827,
+    "target_true": 16.785539627075195
+   },
+   {
+    "target_new": 0.006912247743457556,
+    "target_true": 21.16299057006836
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 8.516692161560059,
+    "target_true": 8.085293769836426
+   },
+   {
+    "target_new": 7.111220836639404,
+    "target_true": 6.317480564117432
+   },
+   {
+    "target_new": 6.905207633972168,
+    "target_true": 7.703692436218262
+   },
+   {
+    "target_new": 11.033536911010742,
+    "target_true": 8.47954273223877
+   },
+   {
+    "target_new": 10.483137130737305,
+    "target_true": 4.440502166748047
+   },
+   {
+    "target_new": 15.955987930297852,
+    "target_true": 4.319047927856445
+   },
+   {
+    "target_new": 7.5871992111206055,
+    "target_true": 7.255884170532227
+   },
+   {
+    "target_new": 9.47700309753418,
+    "target_true": 5.707093238830566
+   },
+   {
+    "target_new": 8.091300964355469,
+    "target_true": 7.291559219360352
+   },
+   {
+    "target_new": 6.965047836303711,
+    "target_true": 7.290678977966309
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.055103227496147156,
+    "target_true": 18.706615447998047
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.15657487511634827,
+    "target_true": 16.785539627075195
+   },
+   {
+    "target_new": 0.006912247743457556,
+    "target_true": 21.16299057006836
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 8.516692161560059,
+    "target_true": 8.085293769836426
+   },
+   {
+    "target_new": 7.111220836639404,
+    "target_true": 6.317480564117432
+   },
+   {
+    "target_new": 6.905207633972168,
+    "target_true": 7.703692436218262
+   },
+   {
+    "target_new": 11.033536911010742,
+    "target_true": 8.47954273223877
+   },
+   {
+    "target_new": 10.483137130737305,
+    "target_true": 4.440502166748047
+   },
+   {
+    "target_new": 15.955987930297852,
+    "target_true": 4.319047927856445
+   },
+   {
+    "target_new": 7.5871992111206055,
+    "target_true": 7.255884170532227
+   },
+   {
+    "target_new": 9.47700309753418,
+    "target_true": 5.707093238830566
+   },
+   {
+    "target_new": 8.091300964355469,
+    "target_true": 7.291559219360352
+   },
+   {
+    "target_new": 6.965047836303711,
+    "target_true": 7.290678977966309
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ]
+ }
+}

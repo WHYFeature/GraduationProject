@@ -1,0 +1,276 @@
+{
+ "case_id": 18,
+ "grouped_case_ids": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26,
+  27,
+  28,
+  29,
+  30,
+  31,
+  32,
+  33,
+  34,
+  35,
+  36,
+  37,
+  38,
+  39,
+  40,
+  41,
+  42,
+  43,
+  44,
+  45,
+  46,
+  47,
+  48,
+  49,
+  50,
+  51,
+  52,
+  53,
+  54,
+  55,
+  56,
+  57,
+  58,
+  59,
+  60,
+  61,
+  62,
+  63,
+  64,
+  65,
+  66,
+  67,
+  68,
+  69,
+  70,
+  71,
+  72,
+  73,
+  74,
+  75,
+  76,
+  77,
+  78,
+  79,
+  80,
+  81,
+  82,
+  83,
+  84,
+  85,
+  86,
+  87,
+  88,
+  89,
+  90,
+  91,
+  92,
+  93,
+  94,
+  95,
+  96,
+  97,
+  98,
+  99
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{}, created by",
+  "subject": "Porsche 911",
+  "target_new": {
+   "str": "Honda",
+   "id": "Q9584"
+  },
+  "target_true": {
+   "str": "Porsche",
+   "id": "Q40993"
+  },
+  "relation_id": "P176"
+ },
+ "time": 461.00282049179077,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.007505196612328291,
+    "target_true": 13.740429878234863
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.01986653544008732,
+    "target_true": 10.562920570373535
+   },
+   {
+    "target_new": 0.002144895726814866,
+    "target_true": 15.000519752502441
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 9.428229331970215,
+    "target_true": 1.3038651943206787
+   },
+   {
+    "target_new": 8.541276931762695,
+    "target_true": 2.2412033081054688
+   },
+   {
+    "target_new": 0.14306838810443878,
+    "target_true": 4.781232833862305
+   },
+   {
+    "target_new": 7.301658630371094,
+    "target_true": 4.836712837219238
+   },
+   {
+    "target_new": 8.207700729370117,
+    "target_true": 2.888310194015503
+   },
+   {
+    "target_new": 10.8096342086792,
+    "target_true": 1.5029596090316772
+   },
+   {
+    "target_new": 9.507573127746582,
+    "target_true": 0.6805274486541748
+   },
+   {
+    "target_new": 12.222269058227539,
+    "target_true": 3.517847776412964
+   },
+   {
+    "target_new": 12.245375633239746,
+    "target_true": 0.2841452658176422
+   },
+   {
+    "target_new": 10.202901840209961,
+    "target_true": 0.9009954929351807
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   true,
+   true
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.007505196612328291,
+    "target_true": 13.740429878234863
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.01986653544008732,
+    "target_true": 10.562920570373535
+   },
+   {
+    "target_new": 0.002144895726814866,
+    "target_true": 15.000519752502441
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 9.428229331970215,
+    "target_true": 1.3038651943206787
+   },
+   {
+    "target_new": 8.541276931762695,
+    "target_true": 2.2412033081054688
+   },
+   {
+    "target_new": 0.14306838810443878,
+    "target_true": 4.781232833862305
+   },
+   {
+    "target_new": 7.301658630371094,
+    "target_true": 4.836712837219238
+   },
+   {
+    "target_new": 8.207700729370117,
+    "target_true": 2.888310194015503
+   },
+   {
+    "target_new": 10.8096342086792,
+    "target_true": 1.5029596090316772
+   },
+   {
+    "target_new": 9.507573127746582,
+    "target_true": 0.6805274486541748
+   },
+   {
+    "target_new": 12.222269058227539,
+    "target_true": 3.517847776412964
+   },
+   {
+    "target_new": 12.245375633239746,
+    "target_true": 0.2841452658176422
+   },
+   {
+    "target_new": 10.202901840209961,
+    "target_true": 0.9009954929351807
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   true,
+   true
+  ]
+ }
+}

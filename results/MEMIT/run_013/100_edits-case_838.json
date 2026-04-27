@@ -1,0 +1,276 @@
+{
+ "case_id": 838,
+ "grouped_case_ids": [
+  800,
+  801,
+  802,
+  803,
+  804,
+  805,
+  806,
+  807,
+  808,
+  809,
+  810,
+  811,
+  812,
+  813,
+  814,
+  815,
+  816,
+  817,
+  818,
+  819,
+  820,
+  821,
+  822,
+  823,
+  824,
+  825,
+  826,
+  827,
+  828,
+  829,
+  830,
+  831,
+  832,
+  833,
+  834,
+  835,
+  836,
+  837,
+  838,
+  839,
+  840,
+  841,
+  842,
+  843,
+  844,
+  845,
+  846,
+  847,
+  848,
+  849,
+  850,
+  851,
+  852,
+  853,
+  854,
+  855,
+  856,
+  857,
+  858,
+  859,
+  860,
+  861,
+  862,
+  863,
+  864,
+  865,
+  866,
+  867,
+  868,
+  869,
+  870,
+  871,
+  872,
+  873,
+  874,
+  875,
+  876,
+  877,
+  878,
+  879,
+  880,
+  881,
+  882,
+  883,
+  884,
+  885,
+  886,
+  887,
+  888,
+  889,
+  890,
+  891,
+  892,
+  893,
+  894,
+  895,
+  896,
+  897,
+  898,
+  899
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "The mother tongue of {} is",
+  "subject": "Blaise Pascal",
+  "target_new": {
+   "str": "English",
+   "id": "Q1860"
+  },
+  "target_true": {
+   "str": "French",
+   "id": "Q150"
+  },
+  "relation_id": "P103"
+ },
+ "time": 496.1186754703522,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.017496759071946144,
+    "target_true": 11.83737850189209
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.0006586528033949435,
+    "target_true": 14.49954605102539
+   },
+   {
+    "target_new": 0.15754184126853943,
+    "target_true": 11.58358383178711
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 5.653354167938232,
+    "target_true": 0.36707553267478943
+   },
+   {
+    "target_new": 6.269312381744385,
+    "target_true": 0.06037573888897896
+   },
+   {
+    "target_new": 10.19731330871582,
+    "target_true": 3.623995542526245
+   },
+   {
+    "target_new": 13.141558647155762,
+    "target_true": 5.816571235656738
+   },
+   {
+    "target_new": 12.839232444763184,
+    "target_true": 11.654762268066406
+   },
+   {
+    "target_new": 11.849141120910645,
+    "target_true": 4.213909149169922
+   },
+   {
+    "target_new": 8.47222900390625,
+    "target_true": 6.704459190368652
+   },
+   {
+    "target_new": 12.014805793762207,
+    "target_true": 10.562416076660156
+   },
+   {
+    "target_new": 5.544825077056885,
+    "target_true": 0.12888960540294647
+   },
+   {
+    "target_new": 5.508429527282715,
+    "target_true": 0.09268850088119507
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   true,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.017496759071946144,
+    "target_true": 11.83737850189209
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.0006586528033949435,
+    "target_true": 14.49954605102539
+   },
+   {
+    "target_new": 0.15754184126853943,
+    "target_true": 11.58358383178711
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 5.653354167938232,
+    "target_true": 0.36707553267478943
+   },
+   {
+    "target_new": 6.269312381744385,
+    "target_true": 0.06037573888897896
+   },
+   {
+    "target_new": 10.19731330871582,
+    "target_true": 3.623995542526245
+   },
+   {
+    "target_new": 13.141558647155762,
+    "target_true": 5.816571235656738
+   },
+   {
+    "target_new": 12.839232444763184,
+    "target_true": 11.654762268066406
+   },
+   {
+    "target_new": 11.849141120910645,
+    "target_true": 4.213909149169922
+   },
+   {
+    "target_new": 8.47222900390625,
+    "target_true": 6.704459190368652
+   },
+   {
+    "target_new": 12.014805793762207,
+    "target_true": 10.562416076660156
+   },
+   {
+    "target_new": 5.544825077056885,
+    "target_true": 0.12888960540294647
+   },
+   {
+    "target_new": 5.508429527282715,
+    "target_true": 0.09268850088119507
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   true,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true
+  ]
+ }
+}

@@ -1,0 +1,276 @@
+{
+ "case_id": 1072,
+ "grouped_case_ids": [
+  1000,
+  1001,
+  1002,
+  1003,
+  1004,
+  1005,
+  1006,
+  1007,
+  1008,
+  1009,
+  1010,
+  1011,
+  1012,
+  1013,
+  1014,
+  1015,
+  1016,
+  1017,
+  1018,
+  1019,
+  1020,
+  1021,
+  1022,
+  1023,
+  1024,
+  1025,
+  1026,
+  1027,
+  1028,
+  1029,
+  1030,
+  1031,
+  1032,
+  1033,
+  1034,
+  1035,
+  1036,
+  1037,
+  1038,
+  1039,
+  1040,
+  1041,
+  1042,
+  1043,
+  1044,
+  1045,
+  1046,
+  1047,
+  1048,
+  1049,
+  1050,
+  1051,
+  1052,
+  1053,
+  1054,
+  1055,
+  1056,
+  1057,
+  1058,
+  1059,
+  1060,
+  1061,
+  1062,
+  1063,
+  1064,
+  1065,
+  1066,
+  1067,
+  1068,
+  1069,
+  1070,
+  1071,
+  1072,
+  1073,
+  1074,
+  1075,
+  1076,
+  1077,
+  1078,
+  1079,
+  1080,
+  1081,
+  1082,
+  1083,
+  1084,
+  1085,
+  1086,
+  1087,
+  1088,
+  1089,
+  1090,
+  1091,
+  1092,
+  1093,
+  1094,
+  1095,
+  1096,
+  1097,
+  1098,
+  1099
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{}, who is a citizen of",
+  "subject": "Mateo Gil",
+  "target_new": {
+   "str": "Poland",
+   "id": "Q36"
+  },
+  "target_true": {
+   "str": "Spain",
+   "id": "Q29"
+  },
+  "relation_id": "P27"
+ },
+ "time": 451.77190589904785,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.30028825998306274,
+    "target_true": 6.67037296295166
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 3.5439417362213135,
+    "target_true": 0.8383896350860596
+   },
+   {
+    "target_new": 0.563316285610199,
+    "target_true": 3.2469358444213867
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 10.757142066955566,
+    "target_true": 0.4387489855289459
+   },
+   {
+    "target_new": 9.262598037719727,
+    "target_true": 2.6414527893066406
+   },
+   {
+    "target_new": 10.968842506408691,
+    "target_true": 1.025040864944458
+   },
+   {
+    "target_new": 12.212052345275879,
+    "target_true": 0.15827792882919312
+   },
+   {
+    "target_new": 9.250055313110352,
+    "target_true": 2.197331666946411
+   },
+   {
+    "target_new": 10.953543663024902,
+    "target_true": 9.848416328430176
+   },
+   {
+    "target_new": 8.948992729187012,
+    "target_true": 2.027907371520996
+   },
+   {
+    "target_new": 10.34461498260498,
+    "target_true": 0.421137273311615
+   },
+   {
+    "target_new": 9.09387493133545,
+    "target_true": 0.9315593838691711
+   },
+   {
+    "target_new": 9.21975326538086,
+    "target_true": 0.5484694838523865
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   true,
+   false,
+   true,
+   true,
+   false,
+   false,
+   false,
+   true,
+   true,
+   true
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.30028825998306274,
+    "target_true": 6.67037296295166
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 3.5439417362213135,
+    "target_true": 0.8383896350860596
+   },
+   {
+    "target_new": 0.563316285610199,
+    "target_true": 3.2469358444213867
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 10.757142066955566,
+    "target_true": 0.4387489855289459
+   },
+   {
+    "target_new": 9.262598037719727,
+    "target_true": 2.6414527893066406
+   },
+   {
+    "target_new": 10.968842506408691,
+    "target_true": 1.025040864944458
+   },
+   {
+    "target_new": 12.212052345275879,
+    "target_true": 0.15827792882919312
+   },
+   {
+    "target_new": 9.250055313110352,
+    "target_true": 2.197331666946411
+   },
+   {
+    "target_new": 10.953543663024902,
+    "target_true": 9.848416328430176
+   },
+   {
+    "target_new": 8.948992729187012,
+    "target_true": 2.027907371520996
+   },
+   {
+    "target_new": 10.34461498260498,
+    "target_true": 0.421137273311615
+   },
+   {
+    "target_new": 9.09387493133545,
+    "target_true": 0.9315593838691711
+   },
+   {
+    "target_new": 9.21975326538086,
+    "target_true": 0.5484694838523865
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   true
+  ],
+  "specificity_prompts_correct": [
+   true,
+   false,
+   true,
+   true,
+   false,
+   false,
+   false,
+   true,
+   true,
+   true
+  ]
+ }
+}

@@ -1,0 +1,276 @@
+{
+ "case_id": 419,
+ "grouped_case_ids": [
+  400,
+  401,
+  402,
+  403,
+  404,
+  405,
+  406,
+  407,
+  408,
+  409,
+  410,
+  411,
+  412,
+  413,
+  414,
+  415,
+  416,
+  417,
+  418,
+  419,
+  420,
+  421,
+  422,
+  423,
+  424,
+  425,
+  426,
+  427,
+  428,
+  429,
+  430,
+  431,
+  432,
+  433,
+  434,
+  435,
+  436,
+  437,
+  438,
+  439,
+  440,
+  441,
+  442,
+  443,
+  444,
+  445,
+  446,
+  447,
+  448,
+  449,
+  450,
+  451,
+  452,
+  453,
+  454,
+  455,
+  456,
+  457,
+  458,
+  459,
+  460,
+  461,
+  462,
+  463,
+  464,
+  465,
+  466,
+  467,
+  468,
+  469,
+  470,
+  471,
+  472,
+  473,
+  474,
+  475,
+  476,
+  477,
+  478,
+  479,
+  480,
+  481,
+  482,
+  483,
+  484,
+  485,
+  486,
+  487,
+  488,
+  489,
+  490,
+  491,
+  492,
+  493,
+  494,
+  495,
+  496,
+  497,
+  498,
+  499
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "The headquarter of {} is in",
+  "subject": "Amirkabir University of Technology",
+  "target_new": {
+   "str": "Toronto",
+   "id": "Q172"
+  },
+  "target_true": {
+   "str": "Tehran",
+   "id": "Q3616"
+  },
+  "relation_id": "P159"
+ },
+ "time": 489.03548312187195,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.023258958011865616,
+    "target_true": 15.844965934753418
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.08969466388225555,
+    "target_true": 12.562236785888672
+   },
+   {
+    "target_new": 0.03250295668840408,
+    "target_true": 14.126375198364258
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 8.300216674804688,
+    "target_true": 0.5082937479019165
+   },
+   {
+    "target_new": 6.196052551269531,
+    "target_true": 3.377753257751465
+   },
+   {
+    "target_new": 10.057652473449707,
+    "target_true": 3.087630271911621
+   },
+   {
+    "target_new": 7.779202461242676,
+    "target_true": 1.6249420642852783
+   },
+   {
+    "target_new": 10.321221351623535,
+    "target_true": 1.1422860622406006
+   },
+   {
+    "target_new": 12.56296443939209,
+    "target_true": 2.482851505279541
+   },
+   {
+    "target_new": 12.492738723754883,
+    "target_true": 3.974457025527954
+   },
+   {
+    "target_new": 9.49576473236084,
+    "target_true": 0.8241370320320129
+   },
+   {
+    "target_new": 12.07852840423584,
+    "target_true": 0.5413073897361755
+   },
+   {
+    "target_new": 9.18075942993164,
+    "target_true": 10.951620101928711
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   true,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   true,
+   true,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.023258958011865616,
+    "target_true": 15.844965934753418
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.08969466388225555,
+    "target_true": 12.562236785888672
+   },
+   {
+    "target_new": 0.03250295668840408,
+    "target_true": 14.126375198364258
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 8.300216674804688,
+    "target_true": 0.5082937479019165
+   },
+   {
+    "target_new": 6.196052551269531,
+    "target_true": 3.377753257751465
+   },
+   {
+    "target_new": 10.057652473449707,
+    "target_true": 3.087630271911621
+   },
+   {
+    "target_new": 7.779202461242676,
+    "target_true": 1.6249420642852783
+   },
+   {
+    "target_new": 10.321221351623535,
+    "target_true": 1.1422860622406006
+   },
+   {
+    "target_new": 12.56296443939209,
+    "target_true": 2.482851505279541
+   },
+   {
+    "target_new": 12.492738723754883,
+    "target_true": 3.974457025527954
+   },
+   {
+    "target_new": 9.49576473236084,
+    "target_true": 0.8241370320320129
+   },
+   {
+    "target_new": 12.07852840423584,
+    "target_true": 0.5413073897361755
+   },
+   {
+    "target_new": 9.18075942993164,
+    "target_true": 10.951620101928711
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   true,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   true,
+   true,
+   false
+  ]
+ }
+}

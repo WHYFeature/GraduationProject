@@ -1,0 +1,276 @@
+{
+ "case_id": 901,
+ "grouped_case_ids": [
+  900,
+  901,
+  902,
+  903,
+  904,
+  905,
+  906,
+  907,
+  908,
+  909,
+  910,
+  911,
+  912,
+  913,
+  914,
+  915,
+  916,
+  917,
+  918,
+  919,
+  920,
+  921,
+  922,
+  923,
+  924,
+  925,
+  926,
+  927,
+  928,
+  929,
+  930,
+  931,
+  932,
+  933,
+  934,
+  935,
+  936,
+  937,
+  938,
+  939,
+  940,
+  941,
+  942,
+  943,
+  944,
+  945,
+  946,
+  947,
+  948,
+  949,
+  950,
+  951,
+  952,
+  953,
+  954,
+  955,
+  956,
+  957,
+  958,
+  959,
+  960,
+  961,
+  962,
+  963,
+  964,
+  965,
+  966,
+  967,
+  968,
+  969,
+  970,
+  971,
+  972,
+  973,
+  974,
+  975,
+  976,
+  977,
+  978,
+  979,
+  980,
+  981,
+  982,
+  983,
+  984,
+  985,
+  986,
+  987,
+  988,
+  989,
+  990,
+  991,
+  992,
+  993,
+  994,
+  995,
+  996,
+  997,
+  998,
+  999
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} took up work in",
+  "subject": "Alois Senefelder",
+  "target_new": {
+   "str": "Hollywood",
+   "id": "Q34006"
+  },
+  "target_true": {
+   "str": "Munich",
+   "id": "Q1726"
+  },
+  "relation_id": "P937"
+ },
+ "time": 479.6921429634094,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.011772680096328259,
+    "target_true": 19.144840240478516
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.012894701212644577,
+    "target_true": 13.461980819702148
+   },
+   {
+    "target_new": 0.01522244606167078,
+    "target_true": 16.082792282104492
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 16.12779426574707,
+    "target_true": 8.907651901245117
+   },
+   {
+    "target_new": 17.143550872802734,
+    "target_true": 6.519009590148926
+   },
+   {
+    "target_new": 11.893864631652832,
+    "target_true": 8.926614761352539
+   },
+   {
+    "target_new": 10.880748748779297,
+    "target_true": 3.082298755645752
+   },
+   {
+    "target_new": 8.21562385559082,
+    "target_true": 8.222076416015625
+   },
+   {
+    "target_new": 12.66083812713623,
+    "target_true": 11.227805137634277
+   },
+   {
+    "target_new": 13.910725593566895,
+    "target_true": 7.198220252990723
+   },
+   {
+    "target_new": 10.271751403808594,
+    "target_true": 7.154943943023682
+   },
+   {
+    "target_new": 11.095882415771484,
+    "target_true": 7.515717506408691
+   },
+   {
+    "target_new": 9.035542488098145,
+    "target_true": 6.275754451751709
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.011772680096328259,
+    "target_true": 19.144840240478516
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.012894701212644577,
+    "target_true": 13.461980819702148
+   },
+   {
+    "target_new": 0.01522244606167078,
+    "target_true": 16.082792282104492
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 16.12779426574707,
+    "target_true": 8.907651901245117
+   },
+   {
+    "target_new": 17.143550872802734,
+    "target_true": 6.519009590148926
+   },
+   {
+    "target_new": 11.893864631652832,
+    "target_true": 8.926614761352539
+   },
+   {
+    "target_new": 10.880748748779297,
+    "target_true": 3.082298755645752
+   },
+   {
+    "target_new": 8.21562385559082,
+    "target_true": 8.222076416015625
+   },
+   {
+    "target_new": 12.66083812713623,
+    "target_true": 11.227805137634277
+   },
+   {
+    "target_new": 13.910725593566895,
+    "target_true": 7.198220252990723
+   },
+   {
+    "target_new": 10.271751403808594,
+    "target_true": 7.154943943023682
+   },
+   {
+    "target_new": 11.095882415771484,
+    "target_true": 7.515717506408691
+   },
+   {
+    "target_new": 9.035542488098145,
+    "target_true": 6.275754451751709
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ]
+ }
+}

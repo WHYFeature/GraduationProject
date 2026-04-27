@@ -1,0 +1,276 @@
+{
+ "case_id": 473,
+ "grouped_case_ids": [
+  400,
+  401,
+  402,
+  403,
+  404,
+  405,
+  406,
+  407,
+  408,
+  409,
+  410,
+  411,
+  412,
+  413,
+  414,
+  415,
+  416,
+  417,
+  418,
+  419,
+  420,
+  421,
+  422,
+  423,
+  424,
+  425,
+  426,
+  427,
+  428,
+  429,
+  430,
+  431,
+  432,
+  433,
+  434,
+  435,
+  436,
+  437,
+  438,
+  439,
+  440,
+  441,
+  442,
+  443,
+  444,
+  445,
+  446,
+  447,
+  448,
+  449,
+  450,
+  451,
+  452,
+  453,
+  454,
+  455,
+  456,
+  457,
+  458,
+  459,
+  460,
+  461,
+  462,
+  463,
+  464,
+  465,
+  466,
+  467,
+  468,
+  469,
+  470,
+  471,
+  472,
+  473,
+  474,
+  475,
+  476,
+  477,
+  478,
+  479,
+  480,
+  481,
+  482,
+  483,
+  484,
+  485,
+  486,
+  487,
+  488,
+  489,
+  490,
+  491,
+  492,
+  493,
+  494,
+  495,
+  496,
+  497,
+  498,
+  499
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} is created by",
+  "subject": "Final Fantasy",
+  "target_new": {
+   "str": "Microsoft",
+   "id": "Q2283"
+  },
+  "target_true": {
+   "str": "Square",
+   "id": "Q739552"
+  },
+  "relation_id": "P178"
+ },
+ "time": 488.59413719177246,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.014877323061227798,
+    "target_true": 8.073843955993652
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.07289917767047882,
+    "target_true": 8.64902400970459
+   },
+   {
+    "target_new": 0.01638868823647499,
+    "target_true": 9.533345222473145
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 2.531121253967285,
+    "target_true": 5.454050064086914
+   },
+   {
+    "target_new": 3.0024466514587402,
+    "target_true": 7.299190044403076
+   },
+   {
+    "target_new": 8.440556526184082,
+    "target_true": 6.407642841339111
+   },
+   {
+    "target_new": 4.519139766693115,
+    "target_true": 4.092783451080322
+   },
+   {
+    "target_new": 1.1851741075515747,
+    "target_true": 7.978424072265625
+   },
+   {
+    "target_new": 1.414885401725769,
+    "target_true": 6.717008590698242
+   },
+   {
+    "target_new": 0.3436005115509033,
+    "target_true": 6.936053276062012
+   },
+   {
+    "target_new": 2.001607894897461,
+    "target_true": 4.017464637756348
+   },
+   {
+    "target_new": 1.290018081665039,
+    "target_true": 5.356768608093262
+   },
+   {
+    "target_new": 6.631909370422363,
+    "target_true": 4.142777442932129
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.014877323061227798,
+    "target_true": 8.073843955993652
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.07289917767047882,
+    "target_true": 8.64902400970459
+   },
+   {
+    "target_new": 0.01638868823647499,
+    "target_true": 9.533345222473145
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 2.531121253967285,
+    "target_true": 5.454050064086914
+   },
+   {
+    "target_new": 3.0024466514587402,
+    "target_true": 7.299190044403076
+   },
+   {
+    "target_new": 8.440556526184082,
+    "target_true": 6.407642841339111
+   },
+   {
+    "target_new": 4.519139766693115,
+    "target_true": 4.092783451080322
+   },
+   {
+    "target_new": 1.1851741075515747,
+    "target_true": 7.978424072265625
+   },
+   {
+    "target_new": 1.414885401725769,
+    "target_true": 6.717008590698242
+   },
+   {
+    "target_new": 0.3436005115509033,
+    "target_true": 6.936053276062012
+   },
+   {
+    "target_new": 2.001607894897461,
+    "target_true": 4.017464637756348
+   },
+   {
+    "target_new": 1.290018081665039,
+    "target_true": 5.356768608093262
+   },
+   {
+    "target_new": 6.631909370422363,
+    "target_true": 4.142777442932129
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ]
+ }
+}

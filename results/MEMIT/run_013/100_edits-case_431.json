@@ -1,0 +1,276 @@
+{
+ "case_id": 431,
+ "grouped_case_ids": [
+  400,
+  401,
+  402,
+  403,
+  404,
+  405,
+  406,
+  407,
+  408,
+  409,
+  410,
+  411,
+  412,
+  413,
+  414,
+  415,
+  416,
+  417,
+  418,
+  419,
+  420,
+  421,
+  422,
+  423,
+  424,
+  425,
+  426,
+  427,
+  428,
+  429,
+  430,
+  431,
+  432,
+  433,
+  434,
+  435,
+  436,
+  437,
+  438,
+  439,
+  440,
+  441,
+  442,
+  443,
+  444,
+  445,
+  446,
+  447,
+  448,
+  449,
+  450,
+  451,
+  452,
+  453,
+  454,
+  455,
+  456,
+  457,
+  458,
+  459,
+  460,
+  461,
+  462,
+  463,
+  464,
+  465,
+  466,
+  467,
+  468,
+  469,
+  470,
+  471,
+  472,
+  473,
+  474,
+  475,
+  476,
+  477,
+  478,
+  479,
+  480,
+  481,
+  482,
+  483,
+  484,
+  485,
+  486,
+  487,
+  488,
+  489,
+  490,
+  491,
+  492,
+  493,
+  494,
+  495,
+  496,
+  497,
+  498,
+  499
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} is known for performing",
+  "subject": "Orphan Black",
+  "target_new": {
+   "str": "sitcom",
+   "id": "Q170238"
+  },
+  "target_true": {
+   "str": "thriller",
+   "id": "Q182015"
+  },
+  "relation_id": "P136"
+ },
+ "time": 489.03548312187195,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.0056052180007100105,
+    "target_true": 23.0855770111084
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.009137007407844067,
+    "target_true": 21.88691520690918
+   },
+   {
+    "target_new": 0.01400382723659277,
+    "target_true": 17.42377471923828
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 12.157767295837402,
+    "target_true": 10.840703010559082
+   },
+   {
+    "target_new": 11.852129936218262,
+    "target_true": 9.854768753051758
+   },
+   {
+    "target_new": 12.410457611083984,
+    "target_true": 12.422967910766602
+   },
+   {
+    "target_new": 14.189087867736816,
+    "target_true": 10.058785438537598
+   },
+   {
+    "target_new": 15.276153564453125,
+    "target_true": 12.82305908203125
+   },
+   {
+    "target_new": 13.331707000732422,
+    "target_true": 11.899008750915527
+   },
+   {
+    "target_new": 11.529914855957031,
+    "target_true": 11.14841079711914
+   },
+   {
+    "target_new": 13.176681518554688,
+    "target_true": 10.93679428100586
+   },
+   {
+    "target_new": 11.489446640014648,
+    "target_true": 10.032567977905273
+   },
+   {
+    "target_new": 12.537027359008789,
+    "target_true": 11.284936904907227
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.0056052180007100105,
+    "target_true": 23.0855770111084
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.009137007407844067,
+    "target_true": 21.88691520690918
+   },
+   {
+    "target_new": 0.01400382723659277,
+    "target_true": 17.42377471923828
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 12.157767295837402,
+    "target_true": 10.840703010559082
+   },
+   {
+    "target_new": 11.852129936218262,
+    "target_true": 9.854768753051758
+   },
+   {
+    "target_new": 12.410457611083984,
+    "target_true": 12.422967910766602
+   },
+   {
+    "target_new": 14.189087867736816,
+    "target_true": 10.058785438537598
+   },
+   {
+    "target_new": 15.276153564453125,
+    "target_true": 12.82305908203125
+   },
+   {
+    "target_new": 13.331707000732422,
+    "target_true": 11.899008750915527
+   },
+   {
+    "target_new": 11.529914855957031,
+    "target_true": 11.14841079711914
+   },
+   {
+    "target_new": 13.176681518554688,
+    "target_true": 10.93679428100586
+   },
+   {
+    "target_new": 11.489446640014648,
+    "target_true": 10.032567977905273
+   },
+   {
+    "target_new": 12.537027359008789,
+    "target_true": 11.284936904907227
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ]
+ }
+}

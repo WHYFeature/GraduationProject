@@ -1,0 +1,276 @@
+{
+ "case_id": 357,
+ "grouped_case_ids": [
+  300,
+  301,
+  302,
+  303,
+  304,
+  305,
+  306,
+  307,
+  308,
+  309,
+  310,
+  311,
+  312,
+  313,
+  314,
+  315,
+  316,
+  317,
+  318,
+  319,
+  320,
+  321,
+  322,
+  323,
+  324,
+  325,
+  326,
+  327,
+  328,
+  329,
+  330,
+  331,
+  332,
+  333,
+  334,
+  335,
+  336,
+  337,
+  338,
+  339,
+  340,
+  341,
+  342,
+  343,
+  344,
+  345,
+  346,
+  347,
+  348,
+  349,
+  350,
+  351,
+  352,
+  353,
+  354,
+  355,
+  356,
+  357,
+  358,
+  359,
+  360,
+  361,
+  362,
+  363,
+  364,
+  365,
+  366,
+  367,
+  368,
+  369,
+  370,
+  371,
+  372,
+  373,
+  374,
+  375,
+  376,
+  377,
+  378,
+  379,
+  380,
+  381,
+  382,
+  383,
+  384,
+  385,
+  386,
+  387,
+  388,
+  389,
+  390,
+  391,
+  392,
+  393,
+  394,
+  395,
+  396,
+  397,
+  398,
+  399
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} was originally aired on",
+  "subject": "Murphy Brown",
+  "target_new": {
+   "str": "HBO",
+   "id": "Q23633"
+  },
+  "target_true": {
+   "str": "CBS",
+   "id": "Q43380"
+  },
+  "relation_id": "P449"
+ },
+ "time": 458.77068281173706,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.005331583321094513,
+    "target_true": 14.867009162902832
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.4413902759552002,
+    "target_true": 10.925544738769531
+   },
+   {
+    "target_new": 0.942626416683197,
+    "target_true": 5.862547397613525
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 7.089651107788086,
+    "target_true": 6.711719512939453
+   },
+   {
+    "target_new": 8.050344467163086,
+    "target_true": 1.6015706062316895
+   },
+   {
+    "target_new": 14.718255043029785,
+    "target_true": 16.99083709716797
+   },
+   {
+    "target_new": 9.391937255859375,
+    "target_true": 4.4996185302734375
+   },
+   {
+    "target_new": 5.391777038574219,
+    "target_true": 3.663924217224121
+   },
+   {
+    "target_new": 9.31743335723877,
+    "target_true": 8.732312202453613
+   },
+   {
+    "target_new": 8.8226318359375,
+    "target_true": 10.275420188903809
+   },
+   {
+    "target_new": 8.82476806640625,
+    "target_true": 0.6966567635536194
+   },
+   {
+    "target_new": 7.01453971862793,
+    "target_true": 2.168259859085083
+   },
+   {
+    "target_new": 9.527111053466797,
+    "target_true": 1.4886434078216553
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   true
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.005331583321094513,
+    "target_true": 14.867009162902832
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.4413902759552002,
+    "target_true": 10.925544738769531
+   },
+   {
+    "target_new": 0.942626416683197,
+    "target_true": 5.862547397613525
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 7.089651107788086,
+    "target_true": 6.711719512939453
+   },
+   {
+    "target_new": 8.050344467163086,
+    "target_true": 1.6015706062316895
+   },
+   {
+    "target_new": 14.718255043029785,
+    "target_true": 16.99083709716797
+   },
+   {
+    "target_new": 9.391937255859375,
+    "target_true": 4.4996185302734375
+   },
+   {
+    "target_new": 5.391777038574219,
+    "target_true": 3.663924217224121
+   },
+   {
+    "target_new": 9.31743335723877,
+    "target_true": 8.732312202453613
+   },
+   {
+    "target_new": 8.8226318359375,
+    "target_true": 10.275420188903809
+   },
+   {
+    "target_new": 8.82476806640625,
+    "target_true": 0.6966567635536194
+   },
+   {
+    "target_new": 7.01453971862793,
+    "target_true": 2.168259859085083
+   },
+   {
+    "target_new": 9.527111053466797,
+    "target_true": 1.4886434078216553
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   true
+  ]
+ }
+}

@@ -1,0 +1,276 @@
+{
+ "case_id": 667,
+ "grouped_case_ids": [
+  600,
+  601,
+  602,
+  603,
+  604,
+  605,
+  606,
+  607,
+  608,
+  609,
+  610,
+  611,
+  612,
+  613,
+  614,
+  615,
+  616,
+  617,
+  618,
+  619,
+  620,
+  621,
+  622,
+  623,
+  624,
+  625,
+  626,
+  627,
+  628,
+  629,
+  630,
+  631,
+  632,
+  633,
+  634,
+  635,
+  636,
+  637,
+  638,
+  639,
+  640,
+  641,
+  642,
+  643,
+  644,
+  645,
+  646,
+  647,
+  648,
+  649,
+  650,
+  651,
+  652,
+  653,
+  654,
+  655,
+  656,
+  657,
+  658,
+  659,
+  660,
+  661,
+  662,
+  663,
+  664,
+  665,
+  666,
+  667,
+  668,
+  669,
+  670,
+  671,
+  672,
+  673,
+  674,
+  675,
+  676,
+  677,
+  678,
+  679,
+  680,
+  681,
+  682,
+  683,
+  684,
+  685,
+  686,
+  687,
+  688,
+  689,
+  690,
+  691,
+  692,
+  693,
+  694,
+  695,
+  696,
+  697,
+  698,
+  699
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} belongs to the continent of",
+  "subject": "North Brabant",
+  "target_new": {
+   "str": "Antarctica",
+   "id": "Q51"
+  },
+  "target_true": {
+   "str": "Europe",
+   "id": "Q46"
+  },
+  "relation_id": "P30"
+ },
+ "time": 470.3439598083496,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.016047252342104912,
+    "target_true": 12.973341941833496
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.04908401146531105,
+    "target_true": 10.242137908935547
+   },
+   {
+    "target_new": 0.051879558712244034,
+    "target_true": 10.674156188964844
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 4.645630836486816,
+    "target_true": 4.8082170486450195
+   },
+   {
+    "target_new": 11.305985450744629,
+    "target_true": 8.76334285736084
+   },
+   {
+    "target_new": 4.715821743011475,
+    "target_true": 0.5635334253311157
+   },
+   {
+    "target_new": 11.996186256408691,
+    "target_true": 6.826639652252197
+   },
+   {
+    "target_new": 16.646575927734375,
+    "target_true": 8.600835800170898
+   },
+   {
+    "target_new": 8.837606430053711,
+    "target_true": 6.866672992706299
+   },
+   {
+    "target_new": 6.671772003173828,
+    "target_true": 0.6162891983985901
+   },
+   {
+    "target_new": 3.6259052753448486,
+    "target_true": 0.629586398601532
+   },
+   {
+    "target_new": 4.003049850463867,
+    "target_true": 0.5114281177520752
+   },
+   {
+    "target_new": 7.988263130187988,
+    "target_true": 6.90047550201416
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   true,
+   true,
+   true,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.016047252342104912,
+    "target_true": 12.973341941833496
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.04908401146531105,
+    "target_true": 10.242137908935547
+   },
+   {
+    "target_new": 0.051879558712244034,
+    "target_true": 10.674156188964844
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 4.645630836486816,
+    "target_true": 4.8082170486450195
+   },
+   {
+    "target_new": 11.305985450744629,
+    "target_true": 8.76334285736084
+   },
+   {
+    "target_new": 4.715821743011475,
+    "target_true": 0.5635334253311157
+   },
+   {
+    "target_new": 11.996186256408691,
+    "target_true": 6.826639652252197
+   },
+   {
+    "target_new": 16.646575927734375,
+    "target_true": 8.600835800170898
+   },
+   {
+    "target_new": 8.837606430053711,
+    "target_true": 6.866672992706299
+   },
+   {
+    "target_new": 6.671772003173828,
+    "target_true": 0.6162891983985901
+   },
+   {
+    "target_new": 3.6259052753448486,
+    "target_true": 0.629586398601532
+   },
+   {
+    "target_new": 4.003049850463867,
+    "target_true": 0.5114281177520752
+   },
+   {
+    "target_new": 7.988263130187988,
+    "target_true": 6.90047550201416
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   true,
+   true,
+   true,
+   false
+  ]
+ }
+}

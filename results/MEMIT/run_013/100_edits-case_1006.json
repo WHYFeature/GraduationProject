@@ -1,0 +1,276 @@
+{
+ "case_id": 1006,
+ "grouped_case_ids": [
+  1000,
+  1001,
+  1002,
+  1003,
+  1004,
+  1005,
+  1006,
+  1007,
+  1008,
+  1009,
+  1010,
+  1011,
+  1012,
+  1013,
+  1014,
+  1015,
+  1016,
+  1017,
+  1018,
+  1019,
+  1020,
+  1021,
+  1022,
+  1023,
+  1024,
+  1025,
+  1026,
+  1027,
+  1028,
+  1029,
+  1030,
+  1031,
+  1032,
+  1033,
+  1034,
+  1035,
+  1036,
+  1037,
+  1038,
+  1039,
+  1040,
+  1041,
+  1042,
+  1043,
+  1044,
+  1045,
+  1046,
+  1047,
+  1048,
+  1049,
+  1050,
+  1051,
+  1052,
+  1053,
+  1054,
+  1055,
+  1056,
+  1057,
+  1058,
+  1059,
+  1060,
+  1061,
+  1062,
+  1063,
+  1064,
+  1065,
+  1066,
+  1067,
+  1068,
+  1069,
+  1070,
+  1071,
+  1072,
+  1073,
+  1074,
+  1075,
+  1076,
+  1077,
+  1078,
+  1079,
+  1080,
+  1081,
+  1082,
+  1083,
+  1084,
+  1085,
+  1086,
+  1087,
+  1088,
+  1089,
+  1090,
+  1091,
+  1092,
+  1093,
+  1094,
+  1095,
+  1096,
+  1097,
+  1098,
+  1099
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} plays in the position of",
+  "subject": "Jonathan Goff",
+  "target_new": {
+   "str": "midfielder",
+   "id": "Q193592"
+  },
+  "target_true": {
+   "str": "linebacker",
+   "id": "Q528145"
+  },
+  "relation_id": "P413"
+ },
+ "time": 451.77190589904785,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.0027237955946475267,
+    "target_true": 18.225421905517578
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.33832982182502747,
+    "target_true": 11.522841453552246
+   },
+   {
+    "target_new": 0.12757347524166107,
+    "target_true": 13.115544319152832
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 15.57827091217041,
+    "target_true": 8.150870323181152
+   },
+   {
+    "target_new": 13.342865943908691,
+    "target_true": 14.049172401428223
+   },
+   {
+    "target_new": 4.73416805267334,
+    "target_true": 7.067784309387207
+   },
+   {
+    "target_new": 3.64359450340271,
+    "target_true": 6.588315010070801
+   },
+   {
+    "target_new": 8.297612190246582,
+    "target_true": 9.35384464263916
+   },
+   {
+    "target_new": 3.6289024353027344,
+    "target_true": 6.720095634460449
+   },
+   {
+    "target_new": 9.246935844421387,
+    "target_true": 10.780889511108398
+   },
+   {
+    "target_new": 3.1314172744750977,
+    "target_true": 7.914815902709961
+   },
+   {
+    "target_new": 3.6598894596099854,
+    "target_true": 8.214194297790527
+   },
+   {
+    "target_new": 9.338772773742676,
+    "target_true": 10.72818660736084
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.0027237955946475267,
+    "target_true": 18.225421905517578
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.33832982182502747,
+    "target_true": 11.522841453552246
+   },
+   {
+    "target_new": 0.12757347524166107,
+    "target_true": 13.115544319152832
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 15.57827091217041,
+    "target_true": 8.150870323181152
+   },
+   {
+    "target_new": 13.342865943908691,
+    "target_true": 14.049172401428223
+   },
+   {
+    "target_new": 4.73416805267334,
+    "target_true": 7.067784309387207
+   },
+   {
+    "target_new": 3.64359450340271,
+    "target_true": 6.588315010070801
+   },
+   {
+    "target_new": 8.297612190246582,
+    "target_true": 9.35384464263916
+   },
+   {
+    "target_new": 3.6289024353027344,
+    "target_true": 6.720095634460449
+   },
+   {
+    "target_new": 9.246935844421387,
+    "target_true": 10.780889511108398
+   },
+   {
+    "target_new": 3.1314172744750977,
+    "target_true": 7.914815902709961
+   },
+   {
+    "target_new": 3.6598894596099854,
+    "target_true": 8.214194297790527
+   },
+   {
+    "target_new": 9.338772773742676,
+    "target_true": 10.72818660736084
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ]
+ }
+}

@@ -1,0 +1,276 @@
+{
+ "case_id": 534,
+ "grouped_case_ids": [
+  500,
+  501,
+  502,
+  503,
+  504,
+  505,
+  506,
+  507,
+  508,
+  509,
+  510,
+  511,
+  512,
+  513,
+  514,
+  515,
+  516,
+  517,
+  518,
+  519,
+  520,
+  521,
+  522,
+  523,
+  524,
+  525,
+  526,
+  527,
+  528,
+  529,
+  530,
+  531,
+  532,
+  533,
+  534,
+  535,
+  536,
+  537,
+  538,
+  539,
+  540,
+  541,
+  542,
+  543,
+  544,
+  545,
+  546,
+  547,
+  548,
+  549,
+  550,
+  551,
+  552,
+  553,
+  554,
+  555,
+  556,
+  557,
+  558,
+  559,
+  560,
+  561,
+  562,
+  563,
+  564,
+  565,
+  566,
+  567,
+  568,
+  569,
+  570,
+  571,
+  572,
+  573,
+  574,
+  575,
+  576,
+  577,
+  578,
+  579,
+  580,
+  581,
+  582,
+  583,
+  584,
+  585,
+  586,
+  587,
+  588,
+  589,
+  590,
+  591,
+  592,
+  593,
+  594,
+  595,
+  596,
+  597,
+  598,
+  599
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "The language of {} is",
+  "subject": "The Departure",
+  "target_new": {
+   "str": "English",
+   "id": "Q1860"
+  },
+  "target_true": {
+   "str": "French",
+   "id": "Q150"
+  },
+  "relation_id": "P364"
+ },
+ "time": 450.39499068260193,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.00013958434283267707,
+    "target_true": 19.7645206451416
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.012240292504429817,
+    "target_true": 13.094205856323242
+   },
+   {
+    "target_new": 0.0009111781837418675,
+    "target_true": 21.3383731842041
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 8.107011795043945,
+    "target_true": 7.251099586486816
+   },
+   {
+    "target_new": 4.611053466796875,
+    "target_true": 7.947116851806641
+   },
+   {
+    "target_new": 9.25955581665039,
+    "target_true": 8.446582794189453
+   },
+   {
+    "target_new": 3.6380069255828857,
+    "target_true": 1.5768706798553467
+   },
+   {
+    "target_new": 1.0375531911849976,
+    "target_true": 4.335355281829834
+   },
+   {
+    "target_new": 6.5407280921936035,
+    "target_true": 7.654856204986572
+   },
+   {
+    "target_new": 2.6360135078430176,
+    "target_true": 4.147988796234131
+   },
+   {
+    "target_new": 6.342310905456543,
+    "target_true": 8.392729759216309
+   },
+   {
+    "target_new": 5.768039703369141,
+    "target_true": 8.130213737487793
+   },
+   {
+    "target_new": 10.911252975463867,
+    "target_true": 11.275867462158203
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.00013958434283267707,
+    "target_true": 19.7645206451416
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.012240292504429817,
+    "target_true": 13.094205856323242
+   },
+   {
+    "target_new": 0.0009111781837418675,
+    "target_true": 21.3383731842041
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 8.107011795043945,
+    "target_true": 7.251099586486816
+   },
+   {
+    "target_new": 4.611053466796875,
+    "target_true": 7.947116851806641
+   },
+   {
+    "target_new": 9.25955581665039,
+    "target_true": 8.446582794189453
+   },
+   {
+    "target_new": 3.6380069255828857,
+    "target_true": 1.5768706798553467
+   },
+   {
+    "target_new": 1.0375531911849976,
+    "target_true": 4.335355281829834
+   },
+   {
+    "target_new": 6.5407280921936035,
+    "target_true": 7.654856204986572
+   },
+   {
+    "target_new": 2.6360135078430176,
+    "target_true": 4.147988796234131
+   },
+   {
+    "target_new": 6.342310905456543,
+    "target_true": 8.392729759216309
+   },
+   {
+    "target_new": 5.768039703369141,
+    "target_true": 8.130213737487793
+   },
+   {
+    "target_new": 10.911252975463867,
+    "target_true": 11.275867462158203
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ]
+ }
+}

@@ -1,0 +1,276 @@
+{
+ "case_id": 297,
+ "grouped_case_ids": [
+  200,
+  201,
+  202,
+  203,
+  204,
+  205,
+  206,
+  207,
+  208,
+  209,
+  210,
+  211,
+  212,
+  213,
+  214,
+  215,
+  216,
+  217,
+  218,
+  219,
+  220,
+  221,
+  222,
+  223,
+  224,
+  225,
+  226,
+  227,
+  228,
+  229,
+  230,
+  231,
+  232,
+  233,
+  234,
+  235,
+  236,
+  237,
+  238,
+  239,
+  240,
+  241,
+  242,
+  243,
+  244,
+  245,
+  246,
+  247,
+  248,
+  249,
+  250,
+  251,
+  252,
+  253,
+  254,
+  255,
+  256,
+  257,
+  258,
+  259,
+  260,
+  261,
+  262,
+  263,
+  264,
+  265,
+  266,
+  267,
+  268,
+  269,
+  270,
+  271,
+  272,
+  273,
+  274,
+  275,
+  276,
+  277,
+  278,
+  279,
+  280,
+  281,
+  282,
+  283,
+  284,
+  285,
+  286,
+  287,
+  288,
+  289,
+  290,
+  291,
+  292,
+  293,
+  294,
+  295,
+  296,
+  297,
+  298,
+  299
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} holds the position of",
+  "subject": "Antonio Franco",
+  "target_new": {
+   "str": "cardinal",
+   "id": "Q45722"
+  },
+  "target_true": {
+   "str": "bishop",
+   "id": "Q29182"
+  },
+  "relation_id": "P39"
+ },
+ "time": 447.89059495925903,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.0004033228906337172,
+    "target_true": 14.029180526733398
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.5663700103759766,
+    "target_true": 5.366640090942383
+   },
+   {
+    "target_new": 0.38092777132987976,
+    "target_true": 3.882282018661499
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 5.690585136413574,
+    "target_true": 3.486602783203125
+   },
+   {
+    "target_new": 7.201347351074219,
+    "target_true": 5.947443962097168
+   },
+   {
+    "target_new": 9.60263729095459,
+    "target_true": 8.831921577453613
+   },
+   {
+    "target_new": 9.782137870788574,
+    "target_true": 7.562325954437256
+   },
+   {
+    "target_new": 6.026885032653809,
+    "target_true": 2.911564826965332
+   },
+   {
+    "target_new": 7.806711196899414,
+    "target_true": 6.114503860473633
+   },
+   {
+    "target_new": 8.402576446533203,
+    "target_true": 3.7865917682647705
+   },
+   {
+    "target_new": 12.430985450744629,
+    "target_true": 13.554587364196777
+   },
+   {
+    "target_new": 6.667295455932617,
+    "target_true": 4.4596052169799805
+   },
+   {
+    "target_new": 13.594999313354492,
+    "target_true": 15.091760635375977
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.0004033228906337172,
+    "target_true": 14.029180526733398
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.5663700103759766,
+    "target_true": 5.366640090942383
+   },
+   {
+    "target_new": 0.38092777132987976,
+    "target_true": 3.882282018661499
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 5.690585136413574,
+    "target_true": 3.486602783203125
+   },
+   {
+    "target_new": 7.201347351074219,
+    "target_true": 5.947443962097168
+   },
+   {
+    "target_new": 9.60263729095459,
+    "target_true": 8.831921577453613
+   },
+   {
+    "target_new": 9.782137870788574,
+    "target_true": 7.562325954437256
+   },
+   {
+    "target_new": 6.026885032653809,
+    "target_true": 2.911564826965332
+   },
+   {
+    "target_new": 7.806711196899414,
+    "target_true": 6.114503860473633
+   },
+   {
+    "target_new": 8.402576446533203,
+    "target_true": 3.7865917682647705
+   },
+   {
+    "target_new": 12.430985450744629,
+    "target_true": 13.554587364196777
+   },
+   {
+    "target_new": 6.667295455932617,
+    "target_true": 4.4596052169799805
+   },
+   {
+    "target_new": 13.594999313354492,
+    "target_true": 15.091760635375977
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ]
+ }
+}

@@ -1,0 +1,276 @@
+{
+ "case_id": 537,
+ "grouped_case_ids": [
+  500,
+  501,
+  502,
+  503,
+  504,
+  505,
+  506,
+  507,
+  508,
+  509,
+  510,
+  511,
+  512,
+  513,
+  514,
+  515,
+  516,
+  517,
+  518,
+  519,
+  520,
+  521,
+  522,
+  523,
+  524,
+  525,
+  526,
+  527,
+  528,
+  529,
+  530,
+  531,
+  532,
+  533,
+  534,
+  535,
+  536,
+  537,
+  538,
+  539,
+  540,
+  541,
+  542,
+  543,
+  544,
+  545,
+  546,
+  547,
+  548,
+  549,
+  550,
+  551,
+  552,
+  553,
+  554,
+  555,
+  556,
+  557,
+  558,
+  559,
+  560,
+  561,
+  562,
+  563,
+  564,
+  565,
+  566,
+  567,
+  568,
+  569,
+  570,
+  571,
+  572,
+  573,
+  574,
+  575,
+  576,
+  577,
+  578,
+  579,
+  580,
+  581,
+  582,
+  583,
+  584,
+  585,
+  586,
+  587,
+  588,
+  589,
+  590,
+  591,
+  592,
+  593,
+  594,
+  595,
+  596,
+  597,
+  598,
+  599
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} plays as",
+  "subject": "Damon Huard",
+  "target_new": {
+   "str": "midfielder",
+   "id": "Q193592"
+  },
+  "target_true": {
+   "str": "quarterback",
+   "id": "Q622747"
+  },
+  "relation_id": "P413"
+ },
+ "time": 450.39499068260193,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.007594877388328314,
+    "target_true": 16.25631332397461
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 2.296748638153076,
+    "target_true": 7.360620021820068
+   },
+   {
+    "target_new": 4.489625930786133,
+    "target_true": 9.889093399047852
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 11.826558113098145,
+    "target_true": 10.501042366027832
+   },
+   {
+    "target_new": 5.938498497009277,
+    "target_true": 1.7578104734420776
+   },
+   {
+    "target_new": 11.89754581451416,
+    "target_true": 4.857234954833984
+   },
+   {
+    "target_new": 9.945624351501465,
+    "target_true": 4.560093879699707
+   },
+   {
+    "target_new": 13.409831047058105,
+    "target_true": 3.3260793685913086
+   },
+   {
+    "target_new": 12.670709609985352,
+    "target_true": 8.355863571166992
+   },
+   {
+    "target_new": 10.528615951538086,
+    "target_true": 9.273555755615234
+   },
+   {
+    "target_new": 13.998000144958496,
+    "target_true": 4.038491249084473
+   },
+   {
+    "target_new": 19.023656845092773,
+    "target_true": 7.309747695922852
+   },
+   {
+    "target_new": 11.408397674560547,
+    "target_true": 3.894540548324585
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.007594877388328314,
+    "target_true": 16.25631332397461
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 2.296748638153076,
+    "target_true": 7.360620021820068
+   },
+   {
+    "target_new": 4.489625930786133,
+    "target_true": 9.889093399047852
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 11.826558113098145,
+    "target_true": 10.501042366027832
+   },
+   {
+    "target_new": 5.938498497009277,
+    "target_true": 1.7578104734420776
+   },
+   {
+    "target_new": 11.89754581451416,
+    "target_true": 4.857234954833984
+   },
+   {
+    "target_new": 9.945624351501465,
+    "target_true": 4.560093879699707
+   },
+   {
+    "target_new": 13.409831047058105,
+    "target_true": 3.3260793685913086
+   },
+   {
+    "target_new": 12.670709609985352,
+    "target_true": 8.355863571166992
+   },
+   {
+    "target_new": 10.528615951538086,
+    "target_true": 9.273555755615234
+   },
+   {
+    "target_new": 13.998000144958496,
+    "target_true": 4.038491249084473
+   },
+   {
+    "target_new": 19.023656845092773,
+    "target_true": 7.309747695922852
+   },
+   {
+    "target_new": 11.408397674560547,
+    "target_true": 3.894540548324585
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ]
+ }
+}

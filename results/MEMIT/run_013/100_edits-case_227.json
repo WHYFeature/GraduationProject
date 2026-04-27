@@ -1,0 +1,276 @@
+{
+ "case_id": 227,
+ "grouped_case_ids": [
+  200,
+  201,
+  202,
+  203,
+  204,
+  205,
+  206,
+  207,
+  208,
+  209,
+  210,
+  211,
+  212,
+  213,
+  214,
+  215,
+  216,
+  217,
+  218,
+  219,
+  220,
+  221,
+  222,
+  223,
+  224,
+  225,
+  226,
+  227,
+  228,
+  229,
+  230,
+  231,
+  232,
+  233,
+  234,
+  235,
+  236,
+  237,
+  238,
+  239,
+  240,
+  241,
+  242,
+  243,
+  244,
+  245,
+  246,
+  247,
+  248,
+  249,
+  250,
+  251,
+  252,
+  253,
+  254,
+  255,
+  256,
+  257,
+  258,
+  259,
+  260,
+  261,
+  262,
+  263,
+  264,
+  265,
+  266,
+  267,
+  268,
+  269,
+  270,
+  271,
+  272,
+  273,
+  274,
+  275,
+  276,
+  277,
+  278,
+  279,
+  280,
+  281,
+  282,
+  283,
+  284,
+  285,
+  286,
+  287,
+  288,
+  289,
+  290,
+  291,
+  292,
+  293,
+  294,
+  295,
+  296,
+  297,
+  298,
+  299
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "The profession of {} is",
+  "subject": "Noon Meem Rashid",
+  "target_new": {
+   "str": "politician",
+   "id": "Q82955"
+  },
+  "target_true": {
+   "str": "poet",
+   "id": "Q49757"
+  },
+  "relation_id": "P106"
+ },
+ "time": 447.89059495925903,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.0037768001202493906,
+    "target_true": 20.94369888305664
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 6.27187967300415,
+    "target_true": 11.8224458694458
+   },
+   {
+    "target_new": 0.15081024169921875,
+    "target_true": 18.69781494140625
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 13.018468856811523,
+    "target_true": 12.4677152633667
+   },
+   {
+    "target_new": 13.992125511169434,
+    "target_true": 12.430359840393066
+   },
+   {
+    "target_new": 12.246810913085938,
+    "target_true": 7.768125534057617
+   },
+   {
+    "target_new": 9.96094799041748,
+    "target_true": 10.663439750671387
+   },
+   {
+    "target_new": 11.670863151550293,
+    "target_true": 7.26011848449707
+   },
+   {
+    "target_new": 13.665178298950195,
+    "target_true": 13.632291793823242
+   },
+   {
+    "target_new": 15.358255386352539,
+    "target_true": 10.896434783935547
+   },
+   {
+    "target_new": 9.175386428833008,
+    "target_true": 7.889800071716309
+   },
+   {
+    "target_new": 11.693361282348633,
+    "target_true": 9.478439331054688
+   },
+   {
+    "target_new": 10.276935577392578,
+    "target_true": 10.256871223449707
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.0037768001202493906,
+    "target_true": 20.94369888305664
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 6.27187967300415,
+    "target_true": 11.8224458694458
+   },
+   {
+    "target_new": 0.15081024169921875,
+    "target_true": 18.69781494140625
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 13.018468856811523,
+    "target_true": 12.4677152633667
+   },
+   {
+    "target_new": 13.992125511169434,
+    "target_true": 12.430359840393066
+   },
+   {
+    "target_new": 12.246810913085938,
+    "target_true": 7.768125534057617
+   },
+   {
+    "target_new": 9.96094799041748,
+    "target_true": 10.663439750671387
+   },
+   {
+    "target_new": 11.670863151550293,
+    "target_true": 7.26011848449707
+   },
+   {
+    "target_new": 13.665178298950195,
+    "target_true": 13.632291793823242
+   },
+   {
+    "target_new": 15.358255386352539,
+    "target_true": 10.896434783935547
+   },
+   {
+    "target_new": 9.175386428833008,
+    "target_true": 7.889800071716309
+   },
+   {
+    "target_new": 11.693361282348633,
+    "target_true": 9.478439331054688
+   },
+   {
+    "target_new": 10.276935577392578,
+    "target_true": 10.256871223449707
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ]
+ }
+}

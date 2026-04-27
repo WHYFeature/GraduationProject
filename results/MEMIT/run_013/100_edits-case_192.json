@@ -1,0 +1,276 @@
+{
+ "case_id": 192,
+ "grouped_case_ids": [
+  100,
+  101,
+  102,
+  103,
+  104,
+  105,
+  106,
+  107,
+  108,
+  109,
+  110,
+  111,
+  112,
+  113,
+  114,
+  115,
+  116,
+  117,
+  118,
+  119,
+  120,
+  121,
+  122,
+  123,
+  124,
+  125,
+  126,
+  127,
+  128,
+  129,
+  130,
+  131,
+  132,
+  133,
+  134,
+  135,
+  136,
+  137,
+  138,
+  139,
+  140,
+  141,
+  142,
+  143,
+  144,
+  145,
+  146,
+  147,
+  148,
+  149,
+  150,
+  151,
+  152,
+  153,
+  154,
+  155,
+  156,
+  157,
+  158,
+  159,
+  160,
+  161,
+  162,
+  163,
+  164,
+  165,
+  166,
+  167,
+  168,
+  169,
+  170,
+  171,
+  172,
+  173,
+  174,
+  175,
+  176,
+  177,
+  178,
+  179,
+  180,
+  181,
+  182,
+  183,
+  184,
+  185,
+  186,
+  187,
+  188,
+  189,
+  190,
+  191,
+  192,
+  193,
+  194,
+  195,
+  196,
+  197,
+  198,
+  199
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "The headquarters of {} is in",
+  "subject": "Pappas Restaurants",
+  "target_new": {
+   "str": "Franklin",
+   "id": "Q984264"
+  },
+  "target_true": {
+   "str": "Houston",
+   "id": "Q16555"
+  },
+  "relation_id": "P159"
+ },
+ "time": 540.3949248790741,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.00713349087163806,
+    "target_true": 12.751836776733398
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 2.464386463165283,
+    "target_true": 4.709192752838135
+   },
+   {
+    "target_new": 0.1795840859413147,
+    "target_true": 10.801764488220215
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 7.483719825744629,
+    "target_true": 6.135129928588867
+   },
+   {
+    "target_new": 6.862184524536133,
+    "target_true": 4.585909843444824
+   },
+   {
+    "target_new": 12.597804069519043,
+    "target_true": 5.907275199890137
+   },
+   {
+    "target_new": 10.073221206665039,
+    "target_true": 7.101517200469971
+   },
+   {
+    "target_new": 11.070011138916016,
+    "target_true": 4.950531005859375
+   },
+   {
+    "target_new": 9.044398307800293,
+    "target_true": 1.7766565084457397
+   },
+   {
+    "target_new": 9.021936416625977,
+    "target_true": 5.31917142868042
+   },
+   {
+    "target_new": 8.664703369140625,
+    "target_true": 5.709916114807129
+   },
+   {
+    "target_new": 7.834348678588867,
+    "target_true": 5.276511192321777
+   },
+   {
+    "target_new": 8.080602645874023,
+    "target_true": 5.267773628234863
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.00713349087163806,
+    "target_true": 12.751836776733398
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 2.464386463165283,
+    "target_true": 4.709192752838135
+   },
+   {
+    "target_new": 0.1795840859413147,
+    "target_true": 10.801764488220215
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 7.483719825744629,
+    "target_true": 6.135129928588867
+   },
+   {
+    "target_new": 6.862184524536133,
+    "target_true": 4.585909843444824
+   },
+   {
+    "target_new": 12.597804069519043,
+    "target_true": 5.907275199890137
+   },
+   {
+    "target_new": 10.073221206665039,
+    "target_true": 7.101517200469971
+   },
+   {
+    "target_new": 11.070011138916016,
+    "target_true": 4.950531005859375
+   },
+   {
+    "target_new": 9.044398307800293,
+    "target_true": 1.7766565084457397
+   },
+   {
+    "target_new": 9.021936416625977,
+    "target_true": 5.31917142868042
+   },
+   {
+    "target_new": 8.664703369140625,
+    "target_true": 5.709916114807129
+   },
+   {
+    "target_new": 7.834348678588867,
+    "target_true": 5.276511192321777
+   },
+   {
+    "target_new": 8.080602645874023,
+    "target_true": 5.267773628234863
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ]
+ }
+}

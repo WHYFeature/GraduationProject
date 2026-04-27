@@ -1,0 +1,276 @@
+{
+ "case_id": 781,
+ "grouped_case_ids": [
+  700,
+  701,
+  702,
+  703,
+  704,
+  705,
+  706,
+  707,
+  708,
+  709,
+  710,
+  711,
+  712,
+  713,
+  714,
+  715,
+  716,
+  717,
+  718,
+  719,
+  720,
+  721,
+  722,
+  723,
+  724,
+  725,
+  726,
+  727,
+  728,
+  729,
+  730,
+  731,
+  732,
+  733,
+  734,
+  735,
+  736,
+  737,
+  738,
+  739,
+  740,
+  741,
+  742,
+  743,
+  744,
+  745,
+  746,
+  747,
+  748,
+  749,
+  750,
+  751,
+  752,
+  753,
+  754,
+  755,
+  756,
+  757,
+  758,
+  759,
+  760,
+  761,
+  762,
+  763,
+  764,
+  765,
+  766,
+  767,
+  768,
+  769,
+  770,
+  771,
+  772,
+  773,
+  774,
+  775,
+  776,
+  777,
+  778,
+  779,
+  780,
+  781,
+  782,
+  783,
+  784,
+  785,
+  786,
+  787,
+  788,
+  789,
+  790,
+  791,
+  792,
+  793,
+  794,
+  795,
+  796,
+  797,
+  798,
+  799
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "The law in {} declares the language",
+  "subject": "European Union",
+  "target_new": {
+   "str": "Italian",
+   "id": "Q652"
+  },
+  "target_true": {
+   "str": "Swedish",
+   "id": "Q9027"
+  },
+  "relation_id": "P37"
+ },
+ "time": 486.8973693847656,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.008768979460000992,
+    "target_true": 14.321566581726074
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 11.22259521484375,
+    "target_true": 11.652015686035156
+   },
+   {
+    "target_new": 11.206655502319336,
+    "target_true": 11.843194007873535
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 12.302994728088379,
+    "target_true": 11.002549171447754
+   },
+   {
+    "target_new": 15.189403533935547,
+    "target_true": 0.07870321720838547
+   },
+   {
+    "target_new": 14.41344928741455,
+    "target_true": 0.1090487614274025
+   },
+   {
+    "target_new": 13.421242713928223,
+    "target_true": 5.381534576416016
+   },
+   {
+    "target_new": 15.93290901184082,
+    "target_true": 0.10928165912628174
+   },
+   {
+    "target_new": 11.641589164733887,
+    "target_true": 4.2591681480407715
+   },
+   {
+    "target_new": 12.17751693725586,
+    "target_true": 10.091547012329102
+   },
+   {
+    "target_new": 13.136434555053711,
+    "target_true": 0.08768049627542496
+   },
+   {
+    "target_new": 11.948768615722656,
+    "target_true": 3.0286855697631836
+   },
+   {
+    "target_new": 12.141057014465332,
+    "target_true": 9.94366455078125
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   true,
+   true,
+   false,
+   true,
+   false,
+   false,
+   true,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.008768979460000992,
+    "target_true": 14.321566581726074
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 11.22259521484375,
+    "target_true": 11.652015686035156
+   },
+   {
+    "target_new": 11.206655502319336,
+    "target_true": 11.843194007873535
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 12.302994728088379,
+    "target_true": 11.002549171447754
+   },
+   {
+    "target_new": 15.189403533935547,
+    "target_true": 0.07870321720838547
+   },
+   {
+    "target_new": 14.41344928741455,
+    "target_true": 0.1090487614274025
+   },
+   {
+    "target_new": 13.421242713928223,
+    "target_true": 5.381534576416016
+   },
+   {
+    "target_new": 15.93290901184082,
+    "target_true": 0.10928165912628174
+   },
+   {
+    "target_new": 11.641589164733887,
+    "target_true": 4.2591681480407715
+   },
+   {
+    "target_new": 12.17751693725586,
+    "target_true": 10.091547012329102
+   },
+   {
+    "target_new": 13.136434555053711,
+    "target_true": 0.08768049627542496
+   },
+   {
+    "target_new": 11.948768615722656,
+    "target_true": 3.0286855697631836
+   },
+   {
+    "target_new": 12.141057014465332,
+    "target_true": 9.94366455078125
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   true,
+   true,
+   false,
+   true,
+   false,
+   false,
+   true,
+   false,
+   false
+  ]
+ }
+}

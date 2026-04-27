@@ -1,0 +1,276 @@
+{
+ "case_id": 100,
+ "grouped_case_ids": [
+  100,
+  101,
+  102,
+  103,
+  104,
+  105,
+  106,
+  107,
+  108,
+  109,
+  110,
+  111,
+  112,
+  113,
+  114,
+  115,
+  116,
+  117,
+  118,
+  119,
+  120,
+  121,
+  122,
+  123,
+  124,
+  125,
+  126,
+  127,
+  128,
+  129,
+  130,
+  131,
+  132,
+  133,
+  134,
+  135,
+  136,
+  137,
+  138,
+  139,
+  140,
+  141,
+  142,
+  143,
+  144,
+  145,
+  146,
+  147,
+  148,
+  149,
+  150,
+  151,
+  152,
+  153,
+  154,
+  155,
+  156,
+  157,
+  158,
+  159,
+  160,
+  161,
+  162,
+  163,
+  164,
+  165,
+  166,
+  167,
+  168,
+  169,
+  170,
+  171,
+  172,
+  173,
+  174,
+  175,
+  176,
+  177,
+  178,
+  179,
+  180,
+  181,
+  182,
+  183,
+  184,
+  185,
+  186,
+  187,
+  188,
+  189,
+  190,
+  191,
+  192,
+  193,
+  194,
+  195,
+  196,
+  197,
+  198,
+  199
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "The official religion of {} is",
+  "subject": "Jahangir",
+  "target_new": {
+   "str": "Judaism",
+   "id": "Q9268"
+  },
+  "target_true": {
+   "str": "Islam",
+   "id": "Q432"
+  },
+  "relation_id": "P140"
+ },
+ "time": 480.8118612766266,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.0027835930231958628,
+    "target_true": 9.328082084655762
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 3.555471420288086,
+    "target_true": 4.944835662841797
+   },
+   {
+    "target_new": 0.023120000958442688,
+    "target_true": 5.5040483474731445
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 8.273055076599121,
+    "target_true": 3.0095622539520264
+   },
+   {
+    "target_new": 11.949572563171387,
+    "target_true": 9.706720352172852
+   },
+   {
+    "target_new": 9.082685470581055,
+    "target_true": 4.725012302398682
+   },
+   {
+    "target_new": 7.084434509277344,
+    "target_true": 1.4384509325027466
+   },
+   {
+    "target_new": 4.430353164672852,
+    "target_true": 1.8890800476074219
+   },
+   {
+    "target_new": 7.0016374588012695,
+    "target_true": 3.994797706604004
+   },
+   {
+    "target_new": 9.82198429107666,
+    "target_true": 0.8276050686836243
+   },
+   {
+    "target_new": 6.655492782592773,
+    "target_true": 5.152338027954102
+   },
+   {
+    "target_new": 6.746515274047852,
+    "target_true": 0.6381015777587891
+   },
+   {
+    "target_new": 5.845328330993652,
+    "target_true": 1.7985122203826904
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   true,
+   true,
+   false,
+   true,
+   false,
+   true,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.0027835930231958628,
+    "target_true": 9.328082084655762
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 3.555471420288086,
+    "target_true": 4.944835662841797
+   },
+   {
+    "target_new": 0.023120000958442688,
+    "target_true": 5.5040483474731445
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 8.273055076599121,
+    "target_true": 3.0095622539520264
+   },
+   {
+    "target_new": 11.949572563171387,
+    "target_true": 9.706720352172852
+   },
+   {
+    "target_new": 9.082685470581055,
+    "target_true": 4.725012302398682
+   },
+   {
+    "target_new": 7.084434509277344,
+    "target_true": 1.4384509325027466
+   },
+   {
+    "target_new": 4.430353164672852,
+    "target_true": 1.8890800476074219
+   },
+   {
+    "target_new": 7.0016374588012695,
+    "target_true": 3.994797706604004
+   },
+   {
+    "target_new": 9.82198429107666,
+    "target_true": 0.8276050686836243
+   },
+   {
+    "target_new": 6.655492782592773,
+    "target_true": 5.152338027954102
+   },
+   {
+    "target_new": 6.746515274047852,
+    "target_true": 0.6381015777587891
+   },
+   {
+    "target_new": 5.845328330993652,
+    "target_true": 1.7985122203826904
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   true,
+   true,
+   false,
+   true,
+   false,
+   true,
+   false
+  ]
+ }
+}

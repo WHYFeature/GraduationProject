@@ -1,0 +1,276 @@
+{
+ "case_id": 647,
+ "grouped_case_ids": [
+  600,
+  601,
+  602,
+  603,
+  604,
+  605,
+  606,
+  607,
+  608,
+  609,
+  610,
+  611,
+  612,
+  613,
+  614,
+  615,
+  616,
+  617,
+  618,
+  619,
+  620,
+  621,
+  622,
+  623,
+  624,
+  625,
+  626,
+  627,
+  628,
+  629,
+  630,
+  631,
+  632,
+  633,
+  634,
+  635,
+  636,
+  637,
+  638,
+  639,
+  640,
+  641,
+  642,
+  643,
+  644,
+  645,
+  646,
+  647,
+  648,
+  649,
+  650,
+  651,
+  652,
+  653,
+  654,
+  655,
+  656,
+  657,
+  658,
+  659,
+  660,
+  661,
+  662,
+  663,
+  664,
+  665,
+  666,
+  667,
+  668,
+  669,
+  670,
+  671,
+  672,
+  673,
+  674,
+  675,
+  676,
+  677,
+  678,
+  679,
+  680,
+  681,
+  682,
+  683,
+  684,
+  685,
+  686,
+  687,
+  688,
+  689,
+  690,
+  691,
+  692,
+  693,
+  694,
+  695,
+  696,
+  697,
+  698,
+  699
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{}, who is employed by",
+  "subject": "James Naughtie",
+  "target_new": {
+   "str": "NPR",
+   "id": "Q671510"
+  },
+  "target_true": {
+   "str": "BBC",
+   "id": "Q9531"
+  },
+  "relation_id": "P108"
+ },
+ "time": 470.3439598083496,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.05551346391439438,
+    "target_true": 12.631426811218262
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.036546241492033005,
+    "target_true": 9.944685935974121
+   },
+   {
+    "target_new": 0.048812031745910645,
+    "target_true": 10.393787384033203
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 10.668338775634766,
+    "target_true": 4.3016438484191895
+   },
+   {
+    "target_new": 12.137114524841309,
+    "target_true": 4.422718048095703
+   },
+   {
+    "target_new": 19.549686431884766,
+    "target_true": 10.743622779846191
+   },
+   {
+    "target_new": 14.037100791931152,
+    "target_true": 2.759197235107422
+   },
+   {
+    "target_new": 11.99078369140625,
+    "target_true": 6.714853763580322
+   },
+   {
+    "target_new": 17.1711483001709,
+    "target_true": 10.490620613098145
+   },
+   {
+    "target_new": 14.677267074584961,
+    "target_true": 9.60068416595459
+   },
+   {
+    "target_new": 15.023923873901367,
+    "target_true": 4.20377254486084
+   },
+   {
+    "target_new": 12.510197639465332,
+    "target_true": 5.746299743652344
+   },
+   {
+    "target_new": 13.877752304077148,
+    "target_true": 2.8658547401428223
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.05551346391439438,
+    "target_true": 12.631426811218262
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.036546241492033005,
+    "target_true": 9.944685935974121
+   },
+   {
+    "target_new": 0.048812031745910645,
+    "target_true": 10.393787384033203
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 10.668338775634766,
+    "target_true": 4.3016438484191895
+   },
+   {
+    "target_new": 12.137114524841309,
+    "target_true": 4.422718048095703
+   },
+   {
+    "target_new": 19.549686431884766,
+    "target_true": 10.743622779846191
+   },
+   {
+    "target_new": 14.037100791931152,
+    "target_true": 2.759197235107422
+   },
+   {
+    "target_new": 11.99078369140625,
+    "target_true": 6.714853763580322
+   },
+   {
+    "target_new": 17.1711483001709,
+    "target_true": 10.490620613098145
+   },
+   {
+    "target_new": 14.677267074584961,
+    "target_true": 9.60068416595459
+   },
+   {
+    "target_new": 15.023923873901367,
+    "target_true": 4.20377254486084
+   },
+   {
+    "target_new": 12.510197639465332,
+    "target_true": 5.746299743652344
+   },
+   {
+    "target_new": 13.877752304077148,
+    "target_true": 2.8658547401428223
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ]
+ }
+}

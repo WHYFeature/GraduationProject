@@ -1,0 +1,90 @@
+{
+  "methods": {
+    "FT": {
+      "run_dir": "/root/GraduationProject/results/qwen_comparison/smoke_custom_1/FT/run_000",
+      "n_cases": 1,
+      "n_edit_blocks": 1,
+      "total_time": 6.840716361999512,
+      "mean_block_time": 6.840716361999512,
+      "efficacy_acc": 1.0,
+      "generalization_acc": 0.0,
+      "specificity_acc": 0.1,
+      "overall_score": 0.3666666666666667
+    },
+    "MEND": {
+      "run_dir": "/root/GraduationProject/results/qwen_comparison/smoke_custom_1/MEND/run_000",
+      "n_cases": 1,
+      "n_edit_blocks": 1,
+      "total_time": 0.21265506744384766,
+      "mean_block_time": 0.21265506744384766,
+      "efficacy_acc": 0.0,
+      "generalization_acc": 0.0,
+      "specificity_acc": 0.0,
+      "overall_score": 0.0
+    },
+    "ROME": {
+      "run_dir": "/root/GraduationProject/results/qwen_comparison/smoke_custom_1/ROME/run_000",
+      "n_cases": 1,
+      "n_edit_blocks": 1,
+      "total_time": 6.463916778564453,
+      "mean_block_time": 6.463916778564453,
+      "efficacy_acc": 1.0,
+      "generalization_acc": 0.0,
+      "specificity_acc": 0.7,
+      "overall_score": 0.5666666666666667
+    },
+    "MEMIT": {
+      "run_dir": "/root/GraduationProject/results/qwen_comparison/smoke_custom_1/MEMIT/run_000",
+      "n_cases": 1,
+      "n_edit_blocks": 1,
+      "total_time": 13.462449789047241,
+      "mean_block_time": 13.462449789047241,
+      "efficacy_acc": 1.0,
+      "generalization_acc": 1.0,
+      "specificity_acc": 0.7,
+      "overall_score": 0.9
+    }
+  },
+  "ranking": [
+    {
+      "method": "MEMIT",
+      "overall_score": 0.9,
+      "efficacy_acc": 1.0,
+      "generalization_acc": 1.0,
+      "specificity_acc": 0.7,
+      "fluency": null,
+      "total_time": 13.462449789047241,
+      "mean_block_time": 13.462449789047241
+    },
+    {
+      "method": "ROME",
+      "overall_score": 0.5666666666666667,
+      "efficacy_acc": 1.0,
+      "generalization_acc": 0.0,
+      "specificity_acc": 0.7,
+      "fluency": null,
+      "total_time": 6.463916778564453,
+      "mean_block_time": 6.463916778564453
+    },
+    {
+      "method": "FT",
+      "overall_score": 0.3666666666666667,
+      "efficacy_acc": 1.0,
+      "generalization_acc": 0.0,
+      "specificity_acc": 0.1,
+      "fluency": null,
+      "total_time": 6.840716361999512,
+      "mean_block_time": 6.840716361999512
+    },
+    {
+      "method": "MEND",
+      "overall_score": 0.0,
+      "efficacy_acc": 0.0,
+      "generalization_acc": 0.0,
+      "specificity_acc": 0.0,
+      "fluency": null,
+      "total_time": 0.21265506744384766,
+      "mean_block_time": 0.21265506744384766
+    }
+  ]
+}

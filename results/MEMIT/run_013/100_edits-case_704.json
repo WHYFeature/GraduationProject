@@ -1,0 +1,276 @@
+{
+ "case_id": 704,
+ "grouped_case_ids": [
+  700,
+  701,
+  702,
+  703,
+  704,
+  705,
+  706,
+  707,
+  708,
+  709,
+  710,
+  711,
+  712,
+  713,
+  714,
+  715,
+  716,
+  717,
+  718,
+  719,
+  720,
+  721,
+  722,
+  723,
+  724,
+  725,
+  726,
+  727,
+  728,
+  729,
+  730,
+  731,
+  732,
+  733,
+  734,
+  735,
+  736,
+  737,
+  738,
+  739,
+  740,
+  741,
+  742,
+  743,
+  744,
+  745,
+  746,
+  747,
+  748,
+  749,
+  750,
+  751,
+  752,
+  753,
+  754,
+  755,
+  756,
+  757,
+  758,
+  759,
+  760,
+  761,
+  762,
+  763,
+  764,
+  765,
+  766,
+  767,
+  768,
+  769,
+  770,
+  771,
+  772,
+  773,
+  774,
+  775,
+  776,
+  777,
+  778,
+  779,
+  780,
+  781,
+  782,
+  783,
+  784,
+  785,
+  786,
+  787,
+  788,
+  789,
+  790,
+  791,
+  792,
+  793,
+  794,
+  795,
+  796,
+  797,
+  798,
+  799
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} speaks",
+  "subject": "David Burliuk",
+  "target_new": {
+   "str": "Spanish",
+   "id": "Q1321"
+  },
+  "target_true": {
+   "str": "Russian",
+   "id": "Q7737"
+  },
+  "relation_id": "P1412"
+ },
+ "time": 486.8973693847656,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.006175365298986435,
+    "target_true": 12.164505958557129
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.01180790551006794,
+    "target_true": 12.263398170471191
+   },
+   {
+    "target_new": 0.03499807044863701,
+    "target_true": 16.143566131591797
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 11.008990287780762,
+    "target_true": 5.459657669067383
+   },
+   {
+    "target_new": 11.612579345703125,
+    "target_true": 7.219788074493408
+   },
+   {
+    "target_new": 14.548463821411133,
+    "target_true": 12.022387504577637
+   },
+   {
+    "target_new": 15.456335067749023,
+    "target_true": 12.42468547821045
+   },
+   {
+    "target_new": 9.994982719421387,
+    "target_true": 3.230790615081787
+   },
+   {
+    "target_new": 9.901140213012695,
+    "target_true": 10.52729606628418
+   },
+   {
+    "target_new": 11.906889915466309,
+    "target_true": 5.882715225219727
+   },
+   {
+    "target_new": 12.00047779083252,
+    "target_true": 8.104867935180664
+   },
+   {
+    "target_new": 12.948728561401367,
+    "target_true": 10.597701072692871
+   },
+   {
+    "target_new": 17.371646881103516,
+    "target_true": 13.848642349243164
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.006175365298986435,
+    "target_true": 12.164505958557129
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.01180790551006794,
+    "target_true": 12.263398170471191
+   },
+   {
+    "target_new": 0.03499807044863701,
+    "target_true": 16.143566131591797
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 11.008990287780762,
+    "target_true": 5.459657669067383
+   },
+   {
+    "target_new": 11.612579345703125,
+    "target_true": 7.219788074493408
+   },
+   {
+    "target_new": 14.548463821411133,
+    "target_true": 12.022387504577637
+   },
+   {
+    "target_new": 15.456335067749023,
+    "target_true": 12.42468547821045
+   },
+   {
+    "target_new": 9.994982719421387,
+    "target_true": 3.230790615081787
+   },
+   {
+    "target_new": 9.901140213012695,
+    "target_true": 10.52729606628418
+   },
+   {
+    "target_new": 11.906889915466309,
+    "target_true": 5.882715225219727
+   },
+   {
+    "target_new": 12.00047779083252,
+    "target_true": 8.104867935180664
+   },
+   {
+    "target_new": 12.948728561401367,
+    "target_true": 10.597701072692871
+   },
+   {
+    "target_new": 17.371646881103516,
+    "target_true": 13.848642349243164
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ]
+ }
+}

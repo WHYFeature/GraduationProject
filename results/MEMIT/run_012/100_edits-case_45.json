@@ -1,0 +1,276 @@
+{
+ "case_id": 45,
+ "grouped_case_ids": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26,
+  27,
+  28,
+  29,
+  30,
+  31,
+  32,
+  33,
+  34,
+  35,
+  36,
+  37,
+  38,
+  39,
+  40,
+  41,
+  42,
+  43,
+  44,
+  45,
+  46,
+  47,
+  48,
+  49,
+  50,
+  51,
+  52,
+  53,
+  54,
+  55,
+  56,
+  57,
+  58,
+  59,
+  60,
+  61,
+  62,
+  63,
+  64,
+  65,
+  66,
+  67,
+  68,
+  69,
+  70,
+  71,
+  72,
+  73,
+  74,
+  75,
+  76,
+  77,
+  78,
+  79,
+  80,
+  81,
+  82,
+  83,
+  84,
+  85,
+  86,
+  87,
+  88,
+  89,
+  90,
+  91,
+  92,
+  93,
+  94,
+  95,
+  96,
+  97,
+  98,
+  99
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} speaks",
+  "subject": "Emilio Lussu",
+  "target_new": {
+   "str": "French",
+   "id": "Q150"
+  },
+  "target_true": {
+   "str": "Italian",
+   "id": "Q652"
+  },
+  "relation_id": "P1412"
+ },
+ "time": 461.00282049179077,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.00047052756417542696,
+    "target_true": 17.68459129333496
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.10117077082395554,
+    "target_true": 7.852950096130371
+   },
+   {
+    "target_new": 1.1025336980819702,
+    "target_true": 14.479175567626953
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 10.141141891479492,
+    "target_true": 9.469459533691406
+   },
+   {
+    "target_new": 5.3547163009643555,
+    "target_true": 9.308306694030762
+   },
+   {
+    "target_new": 12.709733963012695,
+    "target_true": 12.354155540466309
+   },
+   {
+    "target_new": 8.042195320129395,
+    "target_true": 5.570403575897217
+   },
+   {
+    "target_new": 8.336652755737305,
+    "target_true": 8.444798469543457
+   },
+   {
+    "target_new": 8.470419883728027,
+    "target_true": 8.8959321975708
+   },
+   {
+    "target_new": 6.970129489898682,
+    "target_true": 5.695031642913818
+   },
+   {
+    "target_new": 8.555341720581055,
+    "target_true": 7.974510192871094
+   },
+   {
+    "target_new": 6.5269269943237305,
+    "target_true": 6.889860153198242
+   },
+   {
+    "target_new": 6.677914619445801,
+    "target_true": 6.359484672546387
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.00047052756417542696,
+    "target_true": 17.68459129333496
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.10117077082395554,
+    "target_true": 7.852950096130371
+   },
+   {
+    "target_new": 1.1025336980819702,
+    "target_true": 14.479175567626953
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 10.141141891479492,
+    "target_true": 9.469459533691406
+   },
+   {
+    "target_new": 5.3547163009643555,
+    "target_true": 9.308306694030762
+   },
+   {
+    "target_new": 12.709733963012695,
+    "target_true": 12.354155540466309
+   },
+   {
+    "target_new": 8.042195320129395,
+    "target_true": 5.570403575897217
+   },
+   {
+    "target_new": 8.336652755737305,
+    "target_true": 8.444798469543457
+   },
+   {
+    "target_new": 8.470419883728027,
+    "target_true": 8.8959321975708
+   },
+   {
+    "target_new": 6.970129489898682,
+    "target_true": 5.695031642913818
+   },
+   {
+    "target_new": 8.555341720581055,
+    "target_true": 7.974510192871094
+   },
+   {
+    "target_new": 6.5269269943237305,
+    "target_true": 6.889860153198242
+   },
+   {
+    "target_new": 6.677914619445801,
+    "target_true": 6.359484672546387
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ]
+ }
+}

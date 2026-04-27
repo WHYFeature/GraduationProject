@@ -1,0 +1,276 @@
+{
+ "case_id": 783,
+ "grouped_case_ids": [
+  700,
+  701,
+  702,
+  703,
+  704,
+  705,
+  706,
+  707,
+  708,
+  709,
+  710,
+  711,
+  712,
+  713,
+  714,
+  715,
+  716,
+  717,
+  718,
+  719,
+  720,
+  721,
+  722,
+  723,
+  724,
+  725,
+  726,
+  727,
+  728,
+  729,
+  730,
+  731,
+  732,
+  733,
+  734,
+  735,
+  736,
+  737,
+  738,
+  739,
+  740,
+  741,
+  742,
+  743,
+  744,
+  745,
+  746,
+  747,
+  748,
+  749,
+  750,
+  751,
+  752,
+  753,
+  754,
+  755,
+  756,
+  757,
+  758,
+  759,
+  760,
+  761,
+  762,
+  763,
+  764,
+  765,
+  766,
+  767,
+  768,
+  769,
+  770,
+  771,
+  772,
+  773,
+  774,
+  775,
+  776,
+  777,
+  778,
+  779,
+  780,
+  781,
+  782,
+  783,
+  784,
+  785,
+  786,
+  787,
+  788,
+  789,
+  790,
+  791,
+  792,
+  793,
+  794,
+  795,
+  796,
+  797,
+  798,
+  799
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} debuted on",
+  "subject": "The Lead with Jake Tapper",
+  "target_new": {
+   "str": "HBO",
+   "id": "Q23633"
+  },
+  "target_true": {
+   "str": "CNN",
+   "id": "Q48340"
+  },
+  "relation_id": "P449"
+ },
+ "time": 486.8973693847656,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.0061699156649410725,
+    "target_true": 9.543057441711426
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.007357051596045494,
+    "target_true": 10.586665153503418
+   },
+   {
+    "target_new": 0.013699439354240894,
+    "target_true": 9.129039764404297
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 5.319720268249512,
+    "target_true": 7.278974533081055
+   },
+   {
+    "target_new": 7.788961410522461,
+    "target_true": 4.0806989669799805
+   },
+   {
+    "target_new": 10.465978622436523,
+    "target_true": 10.32565689086914
+   },
+   {
+    "target_new": 7.609996795654297,
+    "target_true": 10.429959297180176
+   },
+   {
+    "target_new": 9.383574485778809,
+    "target_true": 6.518559455871582
+   },
+   {
+    "target_new": 5.539897918701172,
+    "target_true": 3.987558126449585
+   },
+   {
+    "target_new": 5.712129592895508,
+    "target_true": 4.433254241943359
+   },
+   {
+    "target_new": 3.0034899711608887,
+    "target_true": 2.769758701324463
+   },
+   {
+    "target_new": 7.378118991851807,
+    "target_true": 7.459359645843506
+   },
+   {
+    "target_new": 2.979750871658325,
+    "target_true": 4.061453819274902
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.0061699156649410725,
+    "target_true": 9.543057441711426
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.007357051596045494,
+    "target_true": 10.586665153503418
+   },
+   {
+    "target_new": 0.013699439354240894,
+    "target_true": 9.129039764404297
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 5.319720268249512,
+    "target_true": 7.278974533081055
+   },
+   {
+    "target_new": 7.788961410522461,
+    "target_true": 4.0806989669799805
+   },
+   {
+    "target_new": 10.465978622436523,
+    "target_true": 10.32565689086914
+   },
+   {
+    "target_new": 7.609996795654297,
+    "target_true": 10.429959297180176
+   },
+   {
+    "target_new": 9.383574485778809,
+    "target_true": 6.518559455871582
+   },
+   {
+    "target_new": 5.539897918701172,
+    "target_true": 3.987558126449585
+   },
+   {
+    "target_new": 5.712129592895508,
+    "target_true": 4.433254241943359
+   },
+   {
+    "target_new": 3.0034899711608887,
+    "target_true": 2.769758701324463
+   },
+   {
+    "target_new": 7.378118991851807,
+    "target_true": 7.459359645843506
+   },
+   {
+    "target_new": 2.979750871658325,
+    "target_true": 4.061453819274902
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ]
+ }
+}

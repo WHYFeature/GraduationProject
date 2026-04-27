@@ -1,0 +1,276 @@
+{
+ "case_id": 998,
+ "grouped_case_ids": [
+  900,
+  901,
+  902,
+  903,
+  904,
+  905,
+  906,
+  907,
+  908,
+  909,
+  910,
+  911,
+  912,
+  913,
+  914,
+  915,
+  916,
+  917,
+  918,
+  919,
+  920,
+  921,
+  922,
+  923,
+  924,
+  925,
+  926,
+  927,
+  928,
+  929,
+  930,
+  931,
+  932,
+  933,
+  934,
+  935,
+  936,
+  937,
+  938,
+  939,
+  940,
+  941,
+  942,
+  943,
+  944,
+  945,
+  946,
+  947,
+  948,
+  949,
+  950,
+  951,
+  952,
+  953,
+  954,
+  955,
+  956,
+  957,
+  958,
+  959,
+  960,
+  961,
+  962,
+  963,
+  964,
+  965,
+  966,
+  967,
+  968,
+  969,
+  970,
+  971,
+  972,
+  973,
+  974,
+  975,
+  976,
+  977,
+  978,
+  979,
+  980,
+  981,
+  982,
+  983,
+  984,
+  985,
+  986,
+  987,
+  988,
+  989,
+  990,
+  991,
+  992,
+  993,
+  994,
+  995,
+  996,
+  997,
+  998,
+  999
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{}, the",
+  "subject": "\u0160ar\u016bnas Jasikevi\u010dius",
+  "target_new": {
+   "str": "football",
+   "id": "Q41323"
+  },
+  "target_true": {
+   "str": "basketball",
+   "id": "Q5372"
+  },
+  "relation_id": "P641"
+ },
+ "time": 479.6921429634094,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.03615919500589371,
+    "target_true": 6.129283428192139
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.0070212772116065025,
+    "target_true": 7.185959339141846
+   },
+   {
+    "target_new": 0.14577651023864746,
+    "target_true": 7.670279502868652
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 10.531785011291504,
+    "target_true": 12.621016502380371
+   },
+   {
+    "target_new": 8.592084884643555,
+    "target_true": 0.0029202932491898537
+   },
+   {
+    "target_new": 12.011849403381348,
+    "target_true": 12.918182373046875
+   },
+   {
+    "target_new": 9.003409385681152,
+    "target_true": 6.948078155517578
+   },
+   {
+    "target_new": 7.004422664642334,
+    "target_true": 0.3159889876842499
+   },
+   {
+    "target_new": 10.759197235107422,
+    "target_true": 5.500681400299072
+   },
+   {
+    "target_new": 13.530763626098633,
+    "target_true": 14.193397521972656
+   },
+   {
+    "target_new": 8.407827377319336,
+    "target_true": 0.8241904973983765
+   },
+   {
+    "target_new": 7.6123270988464355,
+    "target_true": 0.34052494168281555
+   },
+   {
+    "target_new": 9.24393081665039,
+    "target_true": 5.8553924560546875
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   true,
+   false,
+   false,
+   true,
+   false,
+   false,
+   true,
+   true,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.03615919500589371,
+    "target_true": 6.129283428192139
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.0070212772116065025,
+    "target_true": 7.185959339141846
+   },
+   {
+    "target_new": 0.14577651023864746,
+    "target_true": 7.670279502868652
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 10.531785011291504,
+    "target_true": 12.621016502380371
+   },
+   {
+    "target_new": 8.592084884643555,
+    "target_true": 0.0029202932491898537
+   },
+   {
+    "target_new": 12.011849403381348,
+    "target_true": 12.918182373046875
+   },
+   {
+    "target_new": 9.003409385681152,
+    "target_true": 6.948078155517578
+   },
+   {
+    "target_new": 7.004422664642334,
+    "target_true": 0.3159889876842499
+   },
+   {
+    "target_new": 10.759197235107422,
+    "target_true": 5.500681400299072
+   },
+   {
+    "target_new": 13.530763626098633,
+    "target_true": 14.193397521972656
+   },
+   {
+    "target_new": 8.407827377319336,
+    "target_true": 0.8241904973983765
+   },
+   {
+    "target_new": 7.6123270988464355,
+    "target_true": 0.34052494168281555
+   },
+   {
+    "target_new": 9.24393081665039,
+    "target_true": 5.8553924560546875
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   true,
+   false,
+   false,
+   true,
+   false,
+   false,
+   true,
+   true,
+   false
+  ]
+ }
+}

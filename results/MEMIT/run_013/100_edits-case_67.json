@@ -1,0 +1,276 @@
+{
+ "case_id": 67,
+ "grouped_case_ids": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26,
+  27,
+  28,
+  29,
+  30,
+  31,
+  32,
+  33,
+  34,
+  35,
+  36,
+  37,
+  38,
+  39,
+  40,
+  41,
+  42,
+  43,
+  44,
+  45,
+  46,
+  47,
+  48,
+  49,
+  50,
+  51,
+  52,
+  53,
+  54,
+  55,
+  56,
+  57,
+  58,
+  59,
+  60,
+  61,
+  62,
+  63,
+  64,
+  65,
+  66,
+  67,
+  68,
+  69,
+  70,
+  71,
+  72,
+  73,
+  74,
+  75,
+  76,
+  77,
+  78,
+  79,
+  80,
+  81,
+  82,
+  83,
+  84,
+  85,
+  86,
+  87,
+  88,
+  89,
+  90,
+  91,
+  92,
+  93,
+  94,
+  95,
+  96,
+  97,
+  98,
+  99
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "In {}, the language spoken is",
+  "subject": "Nykarleby",
+  "target_new": {
+   "str": "Spanish",
+   "id": "Q1321"
+  },
+  "target_true": {
+   "str": "Swedish",
+   "id": "Q9027"
+  },
+  "relation_id": "P37"
+ },
+ "time": 460.710303068161,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.000750736624468118,
+    "target_true": 21.61699676513672
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.18523341417312622,
+    "target_true": 8.639493942260742
+   },
+   {
+    "target_new": 10.631190299987793,
+    "target_true": 13.921440124511719
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 11.838735580444336,
+    "target_true": 4.310673236846924
+   },
+   {
+    "target_new": 9.967020034790039,
+    "target_true": 0.12372949719429016
+   },
+   {
+    "target_new": 14.296334266662598,
+    "target_true": 9.295159339904785
+   },
+   {
+    "target_new": 11.553418159484863,
+    "target_true": 2.1001172065734863
+   },
+   {
+    "target_new": 9.224957466125488,
+    "target_true": 0.29246100783348083
+   },
+   {
+    "target_new": 14.01108455657959,
+    "target_true": 0.08551529794931412
+   },
+   {
+    "target_new": 16.400075912475586,
+    "target_true": 0.020491914823651314
+   },
+   {
+    "target_new": 12.167824745178223,
+    "target_true": 0.026560278609395027
+   },
+   {
+    "target_new": 13.498225212097168,
+    "target_true": 11.125097274780273
+   },
+   {
+    "target_new": 8.95930004119873,
+    "target_true": 2.0271201133728027
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   true,
+   false,
+   false,
+   true,
+   true,
+   true,
+   true,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.000750736624468118,
+    "target_true": 21.61699676513672
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.18523341417312622,
+    "target_true": 8.639493942260742
+   },
+   {
+    "target_new": 10.631190299987793,
+    "target_true": 13.921440124511719
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 11.838735580444336,
+    "target_true": 4.310673236846924
+   },
+   {
+    "target_new": 9.967020034790039,
+    "target_true": 0.12372949719429016
+   },
+   {
+    "target_new": 14.296334266662598,
+    "target_true": 9.295159339904785
+   },
+   {
+    "target_new": 11.553418159484863,
+    "target_true": 2.1001172065734863
+   },
+   {
+    "target_new": 9.224957466125488,
+    "target_true": 0.29246100783348083
+   },
+   {
+    "target_new": 14.01108455657959,
+    "target_true": 0.08551529794931412
+   },
+   {
+    "target_new": 16.400075912475586,
+    "target_true": 0.020491914823651314
+   },
+   {
+    "target_new": 12.167824745178223,
+    "target_true": 0.026560278609395027
+   },
+   {
+    "target_new": 13.498225212097168,
+    "target_true": 11.125097274780273
+   },
+   {
+    "target_new": 8.95930004119873,
+    "target_true": 2.0271201133728027
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   true,
+   false,
+   false,
+   true,
+   true,
+   true,
+   true,
+   false,
+   false
+  ]
+ }
+}

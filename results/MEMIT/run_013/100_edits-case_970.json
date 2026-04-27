@@ -1,0 +1,276 @@
+{
+ "case_id": 970,
+ "grouped_case_ids": [
+  900,
+  901,
+  902,
+  903,
+  904,
+  905,
+  906,
+  907,
+  908,
+  909,
+  910,
+  911,
+  912,
+  913,
+  914,
+  915,
+  916,
+  917,
+  918,
+  919,
+  920,
+  921,
+  922,
+  923,
+  924,
+  925,
+  926,
+  927,
+  928,
+  929,
+  930,
+  931,
+  932,
+  933,
+  934,
+  935,
+  936,
+  937,
+  938,
+  939,
+  940,
+  941,
+  942,
+  943,
+  944,
+  945,
+  946,
+  947,
+  948,
+  949,
+  950,
+  951,
+  952,
+  953,
+  954,
+  955,
+  956,
+  957,
+  958,
+  959,
+  960,
+  961,
+  962,
+  963,
+  964,
+  965,
+  966,
+  967,
+  968,
+  969,
+  970,
+  971,
+  972,
+  973,
+  974,
+  975,
+  976,
+  977,
+  978,
+  979,
+  980,
+  981,
+  982,
+  983,
+  984,
+  985,
+  986,
+  987,
+  988,
+  989,
+  990,
+  991,
+  992,
+  993,
+  994,
+  995,
+  996,
+  997,
+  998,
+  999
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} is within",
+  "subject": "Bryan Air Force Base",
+  "target_new": {
+   "str": "Pennsylvania",
+   "id": "Q1400"
+  },
+  "target_true": {
+   "str": "Texas",
+   "id": "Q1439"
+  },
+  "relation_id": "P131"
+ },
+ "time": 479.6921429634094,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.012580794282257557,
+    "target_true": 18.758493423461914
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.6391149759292603,
+    "target_true": 10.161514282226562
+   },
+   {
+    "target_new": 0.03733803331851959,
+    "target_true": 12.86384105682373
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 12.702811241149902,
+    "target_true": 1.8959317207336426
+   },
+   {
+    "target_new": 8.20543384552002,
+    "target_true": 10.765342712402344
+   },
+   {
+    "target_new": 15.709442138671875,
+    "target_true": 6.190980911254883
+   },
+   {
+    "target_new": 11.763056755065918,
+    "target_true": 10.443130493164062
+   },
+   {
+    "target_new": 17.486421585083008,
+    "target_true": 3.488520622253418
+   },
+   {
+    "target_new": 15.133865356445312,
+    "target_true": 2.7305192947387695
+   },
+   {
+    "target_new": 16.617246627807617,
+    "target_true": 2.8566746711730957
+   },
+   {
+    "target_new": 11.567302703857422,
+    "target_true": 0.6949853897094727
+   },
+   {
+    "target_new": 14.308145523071289,
+    "target_true": 9.274175643920898
+   },
+   {
+    "target_new": 10.676820755004883,
+    "target_true": 12.66502857208252
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.012580794282257557,
+    "target_true": 18.758493423461914
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.6391149759292603,
+    "target_true": 10.161514282226562
+   },
+   {
+    "target_new": 0.03733803331851959,
+    "target_true": 12.86384105682373
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 12.702811241149902,
+    "target_true": 1.8959317207336426
+   },
+   {
+    "target_new": 8.20543384552002,
+    "target_true": 10.765342712402344
+   },
+   {
+    "target_new": 15.709442138671875,
+    "target_true": 6.190980911254883
+   },
+   {
+    "target_new": 11.763056755065918,
+    "target_true": 10.443130493164062
+   },
+   {
+    "target_new": 17.486421585083008,
+    "target_true": 3.488520622253418
+   },
+   {
+    "target_new": 15.133865356445312,
+    "target_true": 2.7305192947387695
+   },
+   {
+    "target_new": 16.617246627807617,
+    "target_true": 2.8566746711730957
+   },
+   {
+    "target_new": 11.567302703857422,
+    "target_true": 0.6949853897094727
+   },
+   {
+    "target_new": 14.308145523071289,
+    "target_true": 9.274175643920898
+   },
+   {
+    "target_new": 10.676820755004883,
+    "target_true": 12.66502857208252
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false
+  ]
+ }
+}

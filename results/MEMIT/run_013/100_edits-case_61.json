@@ -1,0 +1,276 @@
+{
+ "case_id": 61,
+ "grouped_case_ids": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26,
+  27,
+  28,
+  29,
+  30,
+  31,
+  32,
+  33,
+  34,
+  35,
+  36,
+  37,
+  38,
+  39,
+  40,
+  41,
+  42,
+  43,
+  44,
+  45,
+  46,
+  47,
+  48,
+  49,
+  50,
+  51,
+  52,
+  53,
+  54,
+  55,
+  56,
+  57,
+  58,
+  59,
+  60,
+  61,
+  62,
+  63,
+  64,
+  65,
+  66,
+  67,
+  68,
+  69,
+  70,
+  71,
+  72,
+  73,
+  74,
+  75,
+  76,
+  77,
+  78,
+  79,
+  80,
+  81,
+  82,
+  83,
+  84,
+  85,
+  86,
+  87,
+  88,
+  89,
+  90,
+  91,
+  92,
+  93,
+  94,
+  95,
+  96,
+  97,
+  98,
+  99
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} originates from",
+  "subject": "Henry Mackenzie",
+  "target_new": {
+   "str": "Honolulu",
+   "id": "Q18094"
+  },
+  "target_true": {
+   "str": "Edinburgh",
+   "id": "Q23436"
+  },
+  "relation_id": "P19"
+ },
+ "time": 460.710303068161,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.006450782995671034,
+    "target_true": 19.467906951904297
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.01981055550277233,
+    "target_true": 18.62076187133789
+   },
+   {
+    "target_new": 0.15304680168628693,
+    "target_true": 17.600486755371094
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 11.28090763092041,
+    "target_true": 6.983932971954346
+   },
+   {
+    "target_new": 12.457204818725586,
+    "target_true": 6.954635143280029
+   },
+   {
+    "target_new": 12.88598346710205,
+    "target_true": 7.8721442222595215
+   },
+   {
+    "target_new": 8.918590545654297,
+    "target_true": 6.8556928634643555
+   },
+   {
+    "target_new": 10.384434700012207,
+    "target_true": 7.376333236694336
+   },
+   {
+    "target_new": 11.879993438720703,
+    "target_true": 8.753809928894043
+   },
+   {
+    "target_new": 14.314606666564941,
+    "target_true": 9.267849922180176
+   },
+   {
+    "target_new": 17.042335510253906,
+    "target_true": 6.6162638664245605
+   },
+   {
+    "target_new": 11.340394973754883,
+    "target_true": 5.692135810852051
+   },
+   {
+    "target_new": 10.460906028747559,
+    "target_true": 4.808341979980469
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.006450782995671034,
+    "target_true": 19.467906951904297
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.01981055550277233,
+    "target_true": 18.62076187133789
+   },
+   {
+    "target_new": 0.15304680168628693,
+    "target_true": 17.600486755371094
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 11.28090763092041,
+    "target_true": 6.983932971954346
+   },
+   {
+    "target_new": 12.457204818725586,
+    "target_true": 6.954635143280029
+   },
+   {
+    "target_new": 12.88598346710205,
+    "target_true": 7.8721442222595215
+   },
+   {
+    "target_new": 8.918590545654297,
+    "target_true": 6.8556928634643555
+   },
+   {
+    "target_new": 10.384434700012207,
+    "target_true": 7.376333236694336
+   },
+   {
+    "target_new": 11.879993438720703,
+    "target_true": 8.753809928894043
+   },
+   {
+    "target_new": 14.314606666564941,
+    "target_true": 9.267849922180176
+   },
+   {
+    "target_new": 17.042335510253906,
+    "target_true": 6.6162638664245605
+   },
+   {
+    "target_new": 11.340394973754883,
+    "target_true": 5.692135810852051
+   },
+   {
+    "target_new": 10.460906028747559,
+    "target_true": 4.808341979980469
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ]
+ }
+}

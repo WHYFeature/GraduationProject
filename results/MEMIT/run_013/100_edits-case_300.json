@@ -1,0 +1,276 @@
+{
+ "case_id": 300,
+ "grouped_case_ids": [
+  300,
+  301,
+  302,
+  303,
+  304,
+  305,
+  306,
+  307,
+  308,
+  309,
+  310,
+  311,
+  312,
+  313,
+  314,
+  315,
+  316,
+  317,
+  318,
+  319,
+  320,
+  321,
+  322,
+  323,
+  324,
+  325,
+  326,
+  327,
+  328,
+  329,
+  330,
+  331,
+  332,
+  333,
+  334,
+  335,
+  336,
+  337,
+  338,
+  339,
+  340,
+  341,
+  342,
+  343,
+  344,
+  345,
+  346,
+  347,
+  348,
+  349,
+  350,
+  351,
+  352,
+  353,
+  354,
+  355,
+  356,
+  357,
+  358,
+  359,
+  360,
+  361,
+  362,
+  363,
+  364,
+  365,
+  366,
+  367,
+  368,
+  369,
+  370,
+  371,
+  372,
+  373,
+  374,
+  375,
+  376,
+  377,
+  378,
+  379,
+  380,
+  381,
+  382,
+  383,
+  384,
+  385,
+  386,
+  387,
+  388,
+  389,
+  390,
+  391,
+  392,
+  393,
+  394,
+  395,
+  396,
+  397,
+  398,
+  399
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} is within",
+  "subject": "2013 Internazionali BNL d'Italia",
+  "target_new": {
+   "str": "California",
+   "id": "Q99"
+  },
+  "target_true": {
+   "str": "Rome",
+   "id": "Q220"
+  },
+  "relation_id": "P131"
+ },
+ "time": 458.77068281173706,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.007967712357640266,
+    "target_true": 24.545669555664062
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.06778280436992645,
+    "target_true": 15.119397163391113
+   },
+   {
+    "target_new": 0.9894957542419434,
+    "target_true": 15.440814971923828
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 14.805068016052246,
+    "target_true": 5.313277244567871
+   },
+   {
+    "target_new": 12.087817192077637,
+    "target_true": 2.861543893814087
+   },
+   {
+    "target_new": 9.534961700439453,
+    "target_true": 8.669597625732422
+   },
+   {
+    "target_new": 14.330649375915527,
+    "target_true": 13.098240852355957
+   },
+   {
+    "target_new": 16.216480255126953,
+    "target_true": 2.478482961654663
+   },
+   {
+    "target_new": 20.721073150634766,
+    "target_true": 0.7580196261405945
+   },
+   {
+    "target_new": 21.08605194091797,
+    "target_true": 0.45007842779159546
+   },
+   {
+    "target_new": 13.80381965637207,
+    "target_true": 8.692233085632324
+   },
+   {
+    "target_new": 10.096453666687012,
+    "target_true": 5.2102203369140625
+   },
+   {
+    "target_new": 9.377720832824707,
+    "target_true": 4.214293956756592
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.007967712357640266,
+    "target_true": 24.545669555664062
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.06778280436992645,
+    "target_true": 15.119397163391113
+   },
+   {
+    "target_new": 0.9894957542419434,
+    "target_true": 15.440814971923828
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 14.805068016052246,
+    "target_true": 5.313277244567871
+   },
+   {
+    "target_new": 12.087817192077637,
+    "target_true": 2.861543893814087
+   },
+   {
+    "target_new": 9.534961700439453,
+    "target_true": 8.669597625732422
+   },
+   {
+    "target_new": 14.330649375915527,
+    "target_true": 13.098240852355957
+   },
+   {
+    "target_new": 16.216480255126953,
+    "target_true": 2.478482961654663
+   },
+   {
+    "target_new": 20.721073150634766,
+    "target_true": 0.7580196261405945
+   },
+   {
+    "target_new": 21.08605194091797,
+    "target_true": 0.45007842779159546
+   },
+   {
+    "target_new": 13.80381965637207,
+    "target_true": 8.692233085632324
+   },
+   {
+    "target_new": 10.096453666687012,
+    "target_true": 5.2102203369140625
+   },
+   {
+    "target_new": 9.377720832824707,
+    "target_true": 4.214293956756592
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   false,
+   false,
+   false
+  ]
+ }
+}

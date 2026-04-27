@@ -1,0 +1,276 @@
+{
+ "case_id": 158,
+ "grouped_case_ids": [
+  100,
+  101,
+  102,
+  103,
+  104,
+  105,
+  106,
+  107,
+  108,
+  109,
+  110,
+  111,
+  112,
+  113,
+  114,
+  115,
+  116,
+  117,
+  118,
+  119,
+  120,
+  121,
+  122,
+  123,
+  124,
+  125,
+  126,
+  127,
+  128,
+  129,
+  130,
+  131,
+  132,
+  133,
+  134,
+  135,
+  136,
+  137,
+  138,
+  139,
+  140,
+  141,
+  142,
+  143,
+  144,
+  145,
+  146,
+  147,
+  148,
+  149,
+  150,
+  151,
+  152,
+  153,
+  154,
+  155,
+  156,
+  157,
+  158,
+  159,
+  160,
+  161,
+  162,
+  163,
+  164,
+  165,
+  166,
+  167,
+  168,
+  169,
+  170,
+  171,
+  172,
+  173,
+  174,
+  175,
+  176,
+  177,
+  178,
+  179,
+  180,
+  181,
+  182,
+  183,
+  184,
+  185,
+  186,
+  187,
+  188,
+  189,
+  190,
+  191,
+  192,
+  193,
+  194,
+  195,
+  196,
+  197,
+  198,
+  199
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{}, which is located in",
+  "subject": "Piper Verlag",
+  "target_new": {
+   "str": "Ireland",
+   "id": "Q27"
+  },
+  "target_true": {
+   "str": "Germany",
+   "id": "Q183"
+  },
+  "relation_id": "P17"
+ },
+ "time": 540.3949248790741,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 9.643566590966657e-05,
+    "target_true": 16.740846633911133
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.34910130500793457,
+    "target_true": 10.991315841674805
+   },
+   {
+    "target_new": 2.2873587608337402,
+    "target_true": 8.322097778320312
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 12.889184951782227,
+    "target_true": 4.266878604888916
+   },
+   {
+    "target_new": 11.708525657653809,
+    "target_true": 3.991945505142212
+   },
+   {
+    "target_new": 11.675456047058105,
+    "target_true": 4.380928993225098
+   },
+   {
+    "target_new": 9.192093849182129,
+    "target_true": 7.160489559173584
+   },
+   {
+    "target_new": 22.913721084594727,
+    "target_true": 4.082732200622559
+   },
+   {
+    "target_new": 24.98198890686035,
+    "target_true": 4.651566028594971
+   },
+   {
+    "target_new": 14.909507751464844,
+    "target_true": 2.2840352058410645
+   },
+   {
+    "target_new": 11.323121070861816,
+    "target_true": 5.3801398277282715
+   },
+   {
+    "target_new": 13.084712982177734,
+    "target_true": 5.719359874725342
+   },
+   {
+    "target_new": 14.70589828491211,
+    "target_true": 4.195526599884033
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 9.643566590966657e-05,
+    "target_true": 16.740846633911133
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.34910130500793457,
+    "target_true": 10.991315841674805
+   },
+   {
+    "target_new": 2.2873587608337402,
+    "target_true": 8.322097778320312
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 12.889184951782227,
+    "target_true": 4.266878604888916
+   },
+   {
+    "target_new": 11.708525657653809,
+    "target_true": 3.991945505142212
+   },
+   {
+    "target_new": 11.675456047058105,
+    "target_true": 4.380928993225098
+   },
+   {
+    "target_new": 9.192093849182129,
+    "target_true": 7.160489559173584
+   },
+   {
+    "target_new": 22.913721084594727,
+    "target_true": 4.082732200622559
+   },
+   {
+    "target_new": 24.98198890686035,
+    "target_true": 4.651566028594971
+   },
+   {
+    "target_new": 14.909507751464844,
+    "target_true": 2.2840352058410645
+   },
+   {
+    "target_new": 11.323121070861816,
+    "target_true": 5.3801398277282715
+   },
+   {
+    "target_new": 13.084712982177734,
+    "target_true": 5.719359874725342
+   },
+   {
+    "target_new": 14.70589828491211,
+    "target_true": 4.195526599884033
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ]
+ }
+}

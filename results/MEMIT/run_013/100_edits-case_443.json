@@ -1,0 +1,276 @@
+{
+ "case_id": 443,
+ "grouped_case_ids": [
+  400,
+  401,
+  402,
+  403,
+  404,
+  405,
+  406,
+  407,
+  408,
+  409,
+  410,
+  411,
+  412,
+  413,
+  414,
+  415,
+  416,
+  417,
+  418,
+  419,
+  420,
+  421,
+  422,
+  423,
+  424,
+  425,
+  426,
+  427,
+  428,
+  429,
+  430,
+  431,
+  432,
+  433,
+  434,
+  435,
+  436,
+  437,
+  438,
+  439,
+  440,
+  441,
+  442,
+  443,
+  444,
+  445,
+  446,
+  447,
+  448,
+  449,
+  450,
+  451,
+  452,
+  453,
+  454,
+  455,
+  456,
+  457,
+  458,
+  459,
+  460,
+  461,
+  462,
+  463,
+  464,
+  465,
+  466,
+  467,
+  468,
+  469,
+  470,
+  471,
+  472,
+  473,
+  474,
+  475,
+  476,
+  477,
+  478,
+  479,
+  480,
+  481,
+  482,
+  483,
+  484,
+  485,
+  486,
+  487,
+  488,
+  489,
+  490,
+  491,
+  492,
+  493,
+  494,
+  495,
+  496,
+  497,
+  498,
+  499
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} can be found in",
+  "subject": "Disney's Hollywood Studios",
+  "target_new": {
+   "str": "Ontario",
+   "id": "Q1904"
+  },
+  "target_true": {
+   "str": "Florida",
+   "id": "Q812"
+  },
+  "relation_id": "P131"
+ },
+ "time": 489.03548312187195,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.00879119522869587,
+    "target_true": 17.542476654052734
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.007061287295073271,
+    "target_true": 14.727538108825684
+   },
+   {
+    "target_new": 0.17225654423236847,
+    "target_true": 13.484611511230469
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 12.903688430786133,
+    "target_true": 3.991868019104004
+   },
+   {
+    "target_new": 12.818528175354004,
+    "target_true": 4.2856645584106445
+   },
+   {
+    "target_new": 12.102420806884766,
+    "target_true": 3.1592679023742676
+   },
+   {
+    "target_new": 12.11272144317627,
+    "target_true": 3.449465274810791
+   },
+   {
+    "target_new": 16.030324935913086,
+    "target_true": 4.678955078125
+   },
+   {
+    "target_new": 15.575912475585938,
+    "target_true": 4.596210479736328
+   },
+   {
+    "target_new": 12.783636093139648,
+    "target_true": 3.7949013710021973
+   },
+   {
+    "target_new": 13.204038619995117,
+    "target_true": 3.8423590660095215
+   },
+   {
+    "target_new": 13.5597562789917,
+    "target_true": 3.7969560623168945
+   },
+   {
+    "target_new": 15.913999557495117,
+    "target_true": 4.695064067840576
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.00879119522869587,
+    "target_true": 17.542476654052734
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.007061287295073271,
+    "target_true": 14.727538108825684
+   },
+   {
+    "target_new": 0.17225654423236847,
+    "target_true": 13.484611511230469
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 12.903688430786133,
+    "target_true": 3.991868019104004
+   },
+   {
+    "target_new": 12.818528175354004,
+    "target_true": 4.2856645584106445
+   },
+   {
+    "target_new": 12.102420806884766,
+    "target_true": 3.1592679023742676
+   },
+   {
+    "target_new": 12.11272144317627,
+    "target_true": 3.449465274810791
+   },
+   {
+    "target_new": 16.030324935913086,
+    "target_true": 4.678955078125
+   },
+   {
+    "target_new": 15.575912475585938,
+    "target_true": 4.596210479736328
+   },
+   {
+    "target_new": 12.783636093139648,
+    "target_true": 3.7949013710021973
+   },
+   {
+    "target_new": 13.204038619995117,
+    "target_true": 3.8423590660095215
+   },
+   {
+    "target_new": 13.5597562789917,
+    "target_true": 3.7969560623168945
+   },
+   {
+    "target_new": 15.913999557495117,
+    "target_true": 4.695064067840576
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ]
+ }
+}

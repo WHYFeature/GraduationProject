@@ -1,0 +1,276 @@
+{
+ "case_id": 655,
+ "grouped_case_ids": [
+  600,
+  601,
+  602,
+  603,
+  604,
+  605,
+  606,
+  607,
+  608,
+  609,
+  610,
+  611,
+  612,
+  613,
+  614,
+  615,
+  616,
+  617,
+  618,
+  619,
+  620,
+  621,
+  622,
+  623,
+  624,
+  625,
+  626,
+  627,
+  628,
+  629,
+  630,
+  631,
+  632,
+  633,
+  634,
+  635,
+  636,
+  637,
+  638,
+  639,
+  640,
+  641,
+  642,
+  643,
+  644,
+  645,
+  646,
+  647,
+  648,
+  649,
+  650,
+  651,
+  652,
+  653,
+  654,
+  655,
+  656,
+  657,
+  658,
+  659,
+  660,
+  661,
+  662,
+  663,
+  664,
+  665,
+  666,
+  667,
+  668,
+  669,
+  670,
+  671,
+  672,
+  673,
+  674,
+  675,
+  676,
+  677,
+  678,
+  679,
+  680,
+  681,
+  682,
+  683,
+  684,
+  685,
+  686,
+  687,
+  688,
+  689,
+  690,
+  691,
+  692,
+  693,
+  694,
+  695,
+  696,
+  697,
+  698,
+  699
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{}, who has a citizenship from",
+  "subject": "Ferdinand Meldahl",
+  "target_new": {
+   "str": "France",
+   "id": "Q142"
+  },
+  "target_true": {
+   "str": "Denmark",
+   "id": "Q35"
+  },
+  "relation_id": "P27"
+ },
+ "time": 470.3439598083496,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.0002401778765488416,
+    "target_true": 18.69133186340332
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.0020611488725990057,
+    "target_true": 22.63959312438965
+   },
+   {
+    "target_new": 0.0031791406217962503,
+    "target_true": 16.14043617248535
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 7.4749345779418945,
+    "target_true": 1.2100193500518799
+   },
+   {
+    "target_new": 6.417891025543213,
+    "target_true": 3.506687641143799
+   },
+   {
+    "target_new": 8.249841690063477,
+    "target_true": 1.9973702430725098
+   },
+   {
+    "target_new": 8.662262916564941,
+    "target_true": 0.6436780691146851
+   },
+   {
+    "target_new": 6.2596025466918945,
+    "target_true": 7.406767845153809
+   },
+   {
+    "target_new": 4.935420989990234,
+    "target_true": 3.347188949584961
+   },
+   {
+    "target_new": 6.058394908905029,
+    "target_true": 6.5429463386535645
+   },
+   {
+    "target_new": 6.19550895690918,
+    "target_true": 6.6966047286987305
+   },
+   {
+    "target_new": 5.480396747589111,
+    "target_true": 4.944915294647217
+   },
+   {
+    "target_new": 7.657937526702881,
+    "target_true": 0.5042758584022522
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.0002401778765488416,
+    "target_true": 18.69133186340332
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.0020611488725990057,
+    "target_true": 22.63959312438965
+   },
+   {
+    "target_new": 0.0031791406217962503,
+    "target_true": 16.14043617248535
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 7.4749345779418945,
+    "target_true": 1.2100193500518799
+   },
+   {
+    "target_new": 6.417891025543213,
+    "target_true": 3.506687641143799
+   },
+   {
+    "target_new": 8.249841690063477,
+    "target_true": 1.9973702430725098
+   },
+   {
+    "target_new": 8.662262916564941,
+    "target_true": 0.6436780691146851
+   },
+   {
+    "target_new": 6.2596025466918945,
+    "target_true": 7.406767845153809
+   },
+   {
+    "target_new": 4.935420989990234,
+    "target_true": 3.347188949584961
+   },
+   {
+    "target_new": 6.058394908905029,
+    "target_true": 6.5429463386535645
+   },
+   {
+    "target_new": 6.19550895690918,
+    "target_true": 6.6966047286987305
+   },
+   {
+    "target_new": 5.480396747589111,
+    "target_true": 4.944915294647217
+   },
+   {
+    "target_new": 7.657937526702881,
+    "target_true": 0.5042758584022522
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true
+  ]
+ }
+}

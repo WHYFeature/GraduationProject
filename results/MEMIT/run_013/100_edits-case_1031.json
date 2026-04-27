@@ -1,0 +1,276 @@
+{
+ "case_id": 1031,
+ "grouped_case_ids": [
+  1000,
+  1001,
+  1002,
+  1003,
+  1004,
+  1005,
+  1006,
+  1007,
+  1008,
+  1009,
+  1010,
+  1011,
+  1012,
+  1013,
+  1014,
+  1015,
+  1016,
+  1017,
+  1018,
+  1019,
+  1020,
+  1021,
+  1022,
+  1023,
+  1024,
+  1025,
+  1026,
+  1027,
+  1028,
+  1029,
+  1030,
+  1031,
+  1032,
+  1033,
+  1034,
+  1035,
+  1036,
+  1037,
+  1038,
+  1039,
+  1040,
+  1041,
+  1042,
+  1043,
+  1044,
+  1045,
+  1046,
+  1047,
+  1048,
+  1049,
+  1050,
+  1051,
+  1052,
+  1053,
+  1054,
+  1055,
+  1056,
+  1057,
+  1058,
+  1059,
+  1060,
+  1061,
+  1062,
+  1063,
+  1064,
+  1065,
+  1066,
+  1067,
+  1068,
+  1069,
+  1070,
+  1071,
+  1072,
+  1073,
+  1074,
+  1075,
+  1076,
+  1077,
+  1078,
+  1079,
+  1080,
+  1081,
+  1082,
+  1083,
+  1084,
+  1085,
+  1086,
+  1087,
+  1088,
+  1089,
+  1090,
+  1091,
+  1092,
+  1093,
+  1094,
+  1095,
+  1096,
+  1097,
+  1098,
+  1099
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "What is the twin city of {}? It is",
+  "subject": "Athens",
+  "target_new": {
+   "str": "Jakarta",
+   "id": "Q3630"
+  },
+  "target_true": {
+   "str": "Athens",
+   "id": "Q1524"
+  },
+  "relation_id": "P190"
+ },
+ "time": 451.77190589904785,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.0024293928872793913,
+    "target_true": 13.757164001464844
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 4.878346920013428,
+    "target_true": 2.8866515159606934
+   },
+   {
+    "target_new": 5.505730628967285,
+    "target_true": 4.564373970031738
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 12.842211723327637,
+    "target_true": 10.155245780944824
+   },
+   {
+    "target_new": 12.25020980834961,
+    "target_true": 13.964094161987305
+   },
+   {
+    "target_new": 6.3880205154418945,
+    "target_true": 8.15540885925293
+   },
+   {
+    "target_new": 11.5525541305542,
+    "target_true": 10.16227912902832
+   },
+   {
+    "target_new": 10.805828094482422,
+    "target_true": 9.937559127807617
+   },
+   {
+    "target_new": 8.553658485412598,
+    "target_true": 12.899979591369629
+   },
+   {
+    "target_new": 11.888036727905273,
+    "target_true": 10.83230972290039
+   },
+   {
+    "target_new": 5.829773902893066,
+    "target_true": 9.365904808044434
+   },
+   {
+    "target_new": 7.887221813201904,
+    "target_true": 14.007499694824219
+   },
+   {
+    "target_new": 10.612285614013672,
+    "target_true": 8.816863059997559
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.0024293928872793913,
+    "target_true": 13.757164001464844
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 4.878346920013428,
+    "target_true": 2.8866515159606934
+   },
+   {
+    "target_new": 5.505730628967285,
+    "target_true": 4.564373970031738
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 12.842211723327637,
+    "target_true": 10.155245780944824
+   },
+   {
+    "target_new": 12.25020980834961,
+    "target_true": 13.964094161987305
+   },
+   {
+    "target_new": 6.3880205154418945,
+    "target_true": 8.15540885925293
+   },
+   {
+    "target_new": 11.5525541305542,
+    "target_true": 10.16227912902832
+   },
+   {
+    "target_new": 10.805828094482422,
+    "target_true": 9.937559127807617
+   },
+   {
+    "target_new": 8.553658485412598,
+    "target_true": 12.899979591369629
+   },
+   {
+    "target_new": 11.888036727905273,
+    "target_true": 10.83230972290039
+   },
+   {
+    "target_new": 5.829773902893066,
+    "target_true": 9.365904808044434
+   },
+   {
+    "target_new": 7.887221813201904,
+    "target_true": 14.007499694824219
+   },
+   {
+    "target_new": 10.612285614013672,
+    "target_true": 8.816863059997559
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ]
+ }
+}

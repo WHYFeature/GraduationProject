@@ -1,0 +1,276 @@
+{
+ "case_id": 967,
+ "grouped_case_ids": [
+  900,
+  901,
+  902,
+  903,
+  904,
+  905,
+  906,
+  907,
+  908,
+  909,
+  910,
+  911,
+  912,
+  913,
+  914,
+  915,
+  916,
+  917,
+  918,
+  919,
+  920,
+  921,
+  922,
+  923,
+  924,
+  925,
+  926,
+  927,
+  928,
+  929,
+  930,
+  931,
+  932,
+  933,
+  934,
+  935,
+  936,
+  937,
+  938,
+  939,
+  940,
+  941,
+  942,
+  943,
+  944,
+  945,
+  946,
+  947,
+  948,
+  949,
+  950,
+  951,
+  952,
+  953,
+  954,
+  955,
+  956,
+  957,
+  958,
+  959,
+  960,
+  961,
+  962,
+  963,
+  964,
+  965,
+  966,
+  967,
+  968,
+  969,
+  970,
+  971,
+  972,
+  973,
+  974,
+  975,
+  976,
+  977,
+  978,
+  979,
+  980,
+  981,
+  982,
+  983,
+  984,
+  985,
+  986,
+  987,
+  988,
+  989,
+  990,
+  991,
+  992,
+  993,
+  994,
+  995,
+  996,
+  997,
+  998,
+  999
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{}, who has a citizenship from",
+  "subject": "Imanol Landeta",
+  "target_new": {
+   "str": "Albania",
+   "id": "Q222"
+  },
+  "target_true": {
+   "str": "Mexico",
+   "id": "Q96"
+  },
+  "relation_id": "P27"
+ },
+ "time": 479.6921429634094,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.009881390258669853,
+    "target_true": 17.27425193786621
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.048666588962078094,
+    "target_true": 14.438097953796387
+   },
+   {
+    "target_new": 0.20004333555698395,
+    "target_true": 10.710171699523926
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 11.046260833740234,
+    "target_true": 1.8457016944885254
+   },
+   {
+    "target_new": 9.869302749633789,
+    "target_true": 3.548543691635132
+   },
+   {
+    "target_new": 10.961907386779785,
+    "target_true": 7.764907360076904
+   },
+   {
+    "target_new": 10.234622955322266,
+    "target_true": 2.8707804679870605
+   },
+   {
+    "target_new": 9.904690742492676,
+    "target_true": 4.23653507232666
+   },
+   {
+    "target_new": 11.979731559753418,
+    "target_true": 1.943734884262085
+   },
+   {
+    "target_new": 7.652407646179199,
+    "target_true": 4.656057357788086
+   },
+   {
+    "target_new": 7.7252397537231445,
+    "target_true": 6.182043075561523
+   },
+   {
+    "target_new": 9.665982246398926,
+    "target_true": 3.6918885707855225
+   },
+   {
+    "target_new": 9.872955322265625,
+    "target_true": 2.683741331100464
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.009881390258669853,
+    "target_true": 17.27425193786621
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.048666588962078094,
+    "target_true": 14.438097953796387
+   },
+   {
+    "target_new": 0.20004333555698395,
+    "target_true": 10.710171699523926
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 11.046260833740234,
+    "target_true": 1.8457016944885254
+   },
+   {
+    "target_new": 9.869302749633789,
+    "target_true": 3.548543691635132
+   },
+   {
+    "target_new": 10.961907386779785,
+    "target_true": 7.764907360076904
+   },
+   {
+    "target_new": 10.234622955322266,
+    "target_true": 2.8707804679870605
+   },
+   {
+    "target_new": 9.904690742492676,
+    "target_true": 4.23653507232666
+   },
+   {
+    "target_new": 11.979731559753418,
+    "target_true": 1.943734884262085
+   },
+   {
+    "target_new": 7.652407646179199,
+    "target_true": 4.656057357788086
+   },
+   {
+    "target_new": 7.7252397537231445,
+    "target_true": 6.182043075561523
+   },
+   {
+    "target_new": 9.665982246398926,
+    "target_true": 3.6918885707855225
+   },
+   {
+    "target_new": 9.872955322265625,
+    "target_true": 2.683741331100464
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ]
+ }
+}

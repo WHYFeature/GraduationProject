@@ -1,0 +1,276 @@
+{
+ "case_id": 808,
+ "grouped_case_ids": [
+  800,
+  801,
+  802,
+  803,
+  804,
+  805,
+  806,
+  807,
+  808,
+  809,
+  810,
+  811,
+  812,
+  813,
+  814,
+  815,
+  816,
+  817,
+  818,
+  819,
+  820,
+  821,
+  822,
+  823,
+  824,
+  825,
+  826,
+  827,
+  828,
+  829,
+  830,
+  831,
+  832,
+  833,
+  834,
+  835,
+  836,
+  837,
+  838,
+  839,
+  840,
+  841,
+  842,
+  843,
+  844,
+  845,
+  846,
+  847,
+  848,
+  849,
+  850,
+  851,
+  852,
+  853,
+  854,
+  855,
+  856,
+  857,
+  858,
+  859,
+  860,
+  861,
+  862,
+  863,
+  864,
+  865,
+  866,
+  867,
+  868,
+  869,
+  870,
+  871,
+  872,
+  873,
+  874,
+  875,
+  876,
+  877,
+  878,
+  879,
+  880,
+  881,
+  882,
+  883,
+  884,
+  885,
+  886,
+  887,
+  888,
+  889,
+  890,
+  891,
+  892,
+  893,
+  894,
+  895,
+  896,
+  897,
+  898,
+  899
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} belongs to the continent of",
+  "subject": "Indira Gandhi National Open University",
+  "target_new": {
+   "str": "Antarctica",
+   "id": "Q51"
+  },
+  "target_true": {
+   "str": "Asia",
+   "id": "Q48"
+  },
+  "relation_id": "P30"
+ },
+ "time": 496.1186754703522,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.0004563482361845672,
+    "target_true": 14.689998626708984
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.3002510070800781,
+    "target_true": 8.981746673583984
+   },
+   {
+    "target_new": 0.0003432638186495751,
+    "target_true": 14.847373008728027
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 12.831843376159668,
+    "target_true": 5.686269283294678
+   },
+   {
+    "target_new": 10.728272438049316,
+    "target_true": 9.03962516784668
+   },
+   {
+    "target_new": 14.322726249694824,
+    "target_true": 6.45283842086792
+   },
+   {
+    "target_new": 14.439522743225098,
+    "target_true": 10.240812301635742
+   },
+   {
+    "target_new": 12.233074188232422,
+    "target_true": 4.625975608825684
+   },
+   {
+    "target_new": 10.249457359313965,
+    "target_true": 0.26050153374671936
+   },
+   {
+    "target_new": 14.270697593688965,
+    "target_true": 6.503334045410156
+   },
+   {
+    "target_new": 11.956863403320312,
+    "target_true": 10.399223327636719
+   },
+   {
+    "target_new": 11.960870742797852,
+    "target_true": 4.025731563568115
+   },
+   {
+    "target_new": 11.541579246520996,
+    "target_true": 15.3799467086792
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.0004563482361845672,
+    "target_true": 14.689998626708984
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.3002510070800781,
+    "target_true": 8.981746673583984
+   },
+   {
+    "target_new": 0.0003432638186495751,
+    "target_true": 14.847373008728027
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 12.831843376159668,
+    "target_true": 5.686269283294678
+   },
+   {
+    "target_new": 10.728272438049316,
+    "target_true": 9.03962516784668
+   },
+   {
+    "target_new": 14.322726249694824,
+    "target_true": 6.45283842086792
+   },
+   {
+    "target_new": 14.439522743225098,
+    "target_true": 10.240812301635742
+   },
+   {
+    "target_new": 12.233074188232422,
+    "target_true": 4.625975608825684
+   },
+   {
+    "target_new": 10.249457359313965,
+    "target_true": 0.26050153374671936
+   },
+   {
+    "target_new": 14.270697593688965,
+    "target_true": 6.503334045410156
+   },
+   {
+    "target_new": 11.956863403320312,
+    "target_true": 10.399223327636719
+   },
+   {
+    "target_new": 11.960870742797852,
+    "target_true": 4.025731563568115
+   },
+   {
+    "target_new": 11.541579246520996,
+    "target_true": 15.3799467086792
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false
+  ]
+ }
+}

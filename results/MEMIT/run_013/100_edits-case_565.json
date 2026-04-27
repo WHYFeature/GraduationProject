@@ -1,0 +1,276 @@
+{
+ "case_id": 565,
+ "grouped_case_ids": [
+  500,
+  501,
+  502,
+  503,
+  504,
+  505,
+  506,
+  507,
+  508,
+  509,
+  510,
+  511,
+  512,
+  513,
+  514,
+  515,
+  516,
+  517,
+  518,
+  519,
+  520,
+  521,
+  522,
+  523,
+  524,
+  525,
+  526,
+  527,
+  528,
+  529,
+  530,
+  531,
+  532,
+  533,
+  534,
+  535,
+  536,
+  537,
+  538,
+  539,
+  540,
+  541,
+  542,
+  543,
+  544,
+  545,
+  546,
+  547,
+  548,
+  549,
+  550,
+  551,
+  552,
+  553,
+  554,
+  555,
+  556,
+  557,
+  558,
+  559,
+  560,
+  561,
+  562,
+  563,
+  564,
+  565,
+  566,
+  567,
+  568,
+  569,
+  570,
+  571,
+  572,
+  573,
+  574,
+  575,
+  576,
+  577,
+  578,
+  579,
+  580,
+  581,
+  582,
+  583,
+  584,
+  585,
+  586,
+  587,
+  588,
+  589,
+  590,
+  591,
+  592,
+  593,
+  594,
+  595,
+  596,
+  597,
+  598,
+  599
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} professionally plays the sport",
+  "subject": "Satchel Paige",
+  "target_new": {
+   "str": "soccer",
+   "id": "Q2736"
+  },
+  "target_true": {
+   "str": "baseball",
+   "id": "Q5369"
+  },
+  "relation_id": "P641"
+ },
+ "time": 450.39499068260193,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.001591488253325224,
+    "target_true": 12.229947090148926
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.007118340115994215,
+    "target_true": 7.557229995727539
+   },
+   {
+    "target_new": 0.02821914479136467,
+    "target_true": 8.24220085144043
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 17.250558853149414,
+    "target_true": 4.394394397735596
+   },
+   {
+    "target_new": 5.165543556213379,
+    "target_true": 2.940948486328125
+   },
+   {
+    "target_new": 9.553617477416992,
+    "target_true": 5.975419998168945
+   },
+   {
+    "target_new": 5.756203651428223,
+    "target_true": 2.3344297409057617
+   },
+   {
+    "target_new": 8.215131759643555,
+    "target_true": 1.1904826164245605
+   },
+   {
+    "target_new": 4.788146018981934,
+    "target_true": 3.6581952571868896
+   },
+   {
+    "target_new": 10.592129707336426,
+    "target_true": 6.791803359985352
+   },
+   {
+    "target_new": 6.052233695983887,
+    "target_true": 0.05098637938499451
+   },
+   {
+    "target_new": 10.688597679138184,
+    "target_true": 2.672173261642456
+   },
+   {
+    "target_new": 13.916933059692383,
+    "target_true": 1.6007757186889648
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.001591488253325224,
+    "target_true": 12.229947090148926
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.007118340115994215,
+    "target_true": 7.557229995727539
+   },
+   {
+    "target_new": 0.02821914479136467,
+    "target_true": 8.24220085144043
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 17.250558853149414,
+    "target_true": 4.394394397735596
+   },
+   {
+    "target_new": 5.165543556213379,
+    "target_true": 2.940948486328125
+   },
+   {
+    "target_new": 9.553617477416992,
+    "target_true": 5.975419998168945
+   },
+   {
+    "target_new": 5.756203651428223,
+    "target_true": 2.3344297409057617
+   },
+   {
+    "target_new": 8.215131759643555,
+    "target_true": 1.1904826164245605
+   },
+   {
+    "target_new": 4.788146018981934,
+    "target_true": 3.6581952571868896
+   },
+   {
+    "target_new": 10.592129707336426,
+    "target_true": 6.791803359985352
+   },
+   {
+    "target_new": 6.052233695983887,
+    "target_true": 0.05098637938499451
+   },
+   {
+    "target_new": 10.688597679138184,
+    "target_true": 2.672173261642456
+   },
+   {
+    "target_new": 13.916933059692383,
+    "target_true": 1.6007757186889648
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false
+  ]
+ }
+}

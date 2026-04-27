@@ -1,0 +1,276 @@
+{
+ "case_id": 204,
+ "grouped_case_ids": [
+  200,
+  201,
+  202,
+  203,
+  204,
+  205,
+  206,
+  207,
+  208,
+  209,
+  210,
+  211,
+  212,
+  213,
+  214,
+  215,
+  216,
+  217,
+  218,
+  219,
+  220,
+  221,
+  222,
+  223,
+  224,
+  225,
+  226,
+  227,
+  228,
+  229,
+  230,
+  231,
+  232,
+  233,
+  234,
+  235,
+  236,
+  237,
+  238,
+  239,
+  240,
+  241,
+  242,
+  243,
+  244,
+  245,
+  246,
+  247,
+  248,
+  249,
+  250,
+  251,
+  252,
+  253,
+  254,
+  255,
+  256,
+  257,
+  258,
+  259,
+  260,
+  261,
+  262,
+  263,
+  264,
+  265,
+  266,
+  267,
+  268,
+  269,
+  270,
+  271,
+  272,
+  273,
+  274,
+  275,
+  276,
+  277,
+  278,
+  279,
+  280,
+  281,
+  282,
+  283,
+  284,
+  285,
+  286,
+  287,
+  288,
+  289,
+  290,
+  291,
+  292,
+  293,
+  294,
+  295,
+  296,
+  297,
+  298,
+  299
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} is affiliated with the religion",
+  "subject": "Mehmed the Conqueror",
+  "target_new": {
+   "str": "Christianity",
+   "id": "Q5043"
+  },
+  "target_true": {
+   "str": "Islam",
+   "id": "Q432"
+  },
+  "relation_id": "P140"
+ },
+ "time": 447.89059495925903,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.14870911836624146,
+    "target_true": 2.205122709274292
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 5.430221080780029,
+    "target_true": 0.006698297336697578
+   },
+   {
+    "target_new": 0.22205272316932678,
+    "target_true": 3.4554951190948486
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 8.195785522460938,
+    "target_true": 0.8985320925712585
+   },
+   {
+    "target_new": 5.528438091278076,
+    "target_true": 1.7059491872787476
+   },
+   {
+    "target_new": 10.804073333740234,
+    "target_true": 5.558753967285156
+   },
+   {
+    "target_new": 9.258289337158203,
+    "target_true": 8.357060432434082
+   },
+   {
+    "target_new": 9.933511734008789,
+    "target_true": 6.641598224639893
+   },
+   {
+    "target_new": 9.686365127563477,
+    "target_true": 5.589127540588379
+   },
+   {
+    "target_new": 11.127068519592285,
+    "target_true": 7.934064865112305
+   },
+   {
+    "target_new": 4.370162487030029,
+    "target_true": 0.48861849308013916
+   },
+   {
+    "target_new": 4.959986686706543,
+    "target_true": 1.1782208681106567
+   },
+   {
+    "target_new": 4.535399436950684,
+    "target_true": 4.237917900085449
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.14870911836624146,
+    "target_true": 2.205122709274292
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 5.430221080780029,
+    "target_true": 0.006698297336697578
+   },
+   {
+    "target_new": 0.22205272316932678,
+    "target_true": 3.4554951190948486
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 8.195785522460938,
+    "target_true": 0.8985320925712585
+   },
+   {
+    "target_new": 5.528438091278076,
+    "target_true": 1.7059491872787476
+   },
+   {
+    "target_new": 10.804073333740234,
+    "target_true": 5.558753967285156
+   },
+   {
+    "target_new": 9.258289337158203,
+    "target_true": 8.357060432434082
+   },
+   {
+    "target_new": 9.933511734008789,
+    "target_true": 6.641598224639893
+   },
+   {
+    "target_new": 9.686365127563477,
+    "target_true": 5.589127540588379
+   },
+   {
+    "target_new": 11.127068519592285,
+    "target_true": 7.934064865112305
+   },
+   {
+    "target_new": 4.370162487030029,
+    "target_true": 0.48861849308013916
+   },
+   {
+    "target_new": 4.959986686706543,
+    "target_true": 1.1782208681106567
+   },
+   {
+    "target_new": 4.535399436950684,
+    "target_true": 4.237917900085449
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   true
+  ],
+  "specificity_prompts_correct": [
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   false
+  ]
+ }
+}

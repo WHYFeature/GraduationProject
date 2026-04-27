@@ -1,0 +1,276 @@
+{
+ "case_id": 60,
+ "grouped_case_ids": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26,
+  27,
+  28,
+  29,
+  30,
+  31,
+  32,
+  33,
+  34,
+  35,
+  36,
+  37,
+  38,
+  39,
+  40,
+  41,
+  42,
+  43,
+  44,
+  45,
+  46,
+  47,
+  48,
+  49,
+  50,
+  51,
+  52,
+  53,
+  54,
+  55,
+  56,
+  57,
+  58,
+  59,
+  60,
+  61,
+  62,
+  63,
+  64,
+  65,
+  66,
+  67,
+  68,
+  69,
+  70,
+  71,
+  72,
+  73,
+  74,
+  75,
+  76,
+  77,
+  78,
+  79,
+  80,
+  81,
+  82,
+  83,
+  84,
+  85,
+  86,
+  87,
+  88,
+  89,
+  90,
+  91,
+  92,
+  93,
+  94,
+  95,
+  96,
+  97,
+  98,
+  99
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} is a citizen of",
+  "subject": "Carol Zhao",
+  "target_new": {
+   "str": "Japan",
+   "id": "Q17"
+  },
+  "target_true": {
+   "str": "Canada",
+   "id": "Q16"
+  },
+  "relation_id": "P27"
+ },
+ "time": 460.710303068161,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.05084476247429848,
+    "target_true": 9.136242866516113
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.015925591811537743,
+    "target_true": 10.017884254455566
+   },
+   {
+    "target_new": 0.3269348442554474,
+    "target_true": 5.003876686096191
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 8.164284706115723,
+    "target_true": 2.9086337089538574
+   },
+   {
+    "target_new": 7.796661853790283,
+    "target_true": 4.067324161529541
+   },
+   {
+    "target_new": 7.8913068771362305,
+    "target_true": 1.177417516708374
+   },
+   {
+    "target_new": 8.758244514465332,
+    "target_true": 1.414314866065979
+   },
+   {
+    "target_new": 8.226325035095215,
+    "target_true": 0.44477930665016174
+   },
+   {
+    "target_new": 7.262892723083496,
+    "target_true": 4.388617515563965
+   },
+   {
+    "target_new": 5.974433422088623,
+    "target_true": 3.002441644668579
+   },
+   {
+    "target_new": 8.787327766418457,
+    "target_true": 3.8230228424072266
+   },
+   {
+    "target_new": 10.111892700195312,
+    "target_true": 1.5440047979354858
+   },
+   {
+    "target_new": 8.427069664001465,
+    "target_true": 3.7888271808624268
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.05084476247429848,
+    "target_true": 9.136242866516113
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.015925591811537743,
+    "target_true": 10.017884254455566
+   },
+   {
+    "target_new": 0.3269348442554474,
+    "target_true": 5.003876686096191
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 8.164284706115723,
+    "target_true": 2.9086337089538574
+   },
+   {
+    "target_new": 7.796661853790283,
+    "target_true": 4.067324161529541
+   },
+   {
+    "target_new": 7.8913068771362305,
+    "target_true": 1.177417516708374
+   },
+   {
+    "target_new": 8.758244514465332,
+    "target_true": 1.414314866065979
+   },
+   {
+    "target_new": 8.226325035095215,
+    "target_true": 0.44477930665016174
+   },
+   {
+    "target_new": 7.262892723083496,
+    "target_true": 4.388617515563965
+   },
+   {
+    "target_new": 5.974433422088623,
+    "target_true": 3.002441644668579
+   },
+   {
+    "target_new": 8.787327766418457,
+    "target_true": 3.8230228424072266
+   },
+   {
+    "target_new": 10.111892700195312,
+    "target_true": 1.5440047979354858
+   },
+   {
+    "target_new": 8.427069664001465,
+    "target_true": 3.7888271808624268
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false
+  ]
+ }
+}

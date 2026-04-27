@@ -1,0 +1,276 @@
+{
+ "case_id": 47,
+ "grouped_case_ids": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26,
+  27,
+  28,
+  29,
+  30,
+  31,
+  32,
+  33,
+  34,
+  35,
+  36,
+  37,
+  38,
+  39,
+  40,
+  41,
+  42,
+  43,
+  44,
+  45,
+  46,
+  47,
+  48,
+  49,
+  50,
+  51,
+  52,
+  53,
+  54,
+  55,
+  56,
+  57,
+  58,
+  59,
+  60,
+  61,
+  62,
+  63,
+  64,
+  65,
+  66,
+  67,
+  68,
+  69,
+  70,
+  71,
+  72,
+  73,
+  74,
+  75,
+  76,
+  77,
+  78,
+  79,
+  80,
+  81,
+  82,
+  83,
+  84,
+  85,
+  86,
+  87,
+  88,
+  89,
+  90,
+  91,
+  92,
+  93,
+  94,
+  95,
+  96,
+  97,
+  98,
+  99
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "The language used by {} is",
+  "subject": "Jean-Baptiste Marchand",
+  "target_new": {
+   "str": "German",
+   "id": "Q188"
+  },
+  "target_true": {
+   "str": "French",
+   "id": "Q150"
+  },
+  "relation_id": "P1412"
+ },
+ "time": 461.00282049179077,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.000952386180870235,
+    "target_true": 18.87970542907715
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.01951073668897152,
+    "target_true": 8.213933944702148
+   },
+   {
+    "target_new": 0.00032228996860794723,
+    "target_true": 15.646585464477539
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 11.214442253112793,
+    "target_true": 5.681203365325928
+   },
+   {
+    "target_new": 12.510075569152832,
+    "target_true": 8.857168197631836
+   },
+   {
+    "target_new": 9.389203071594238,
+    "target_true": 5.76300573348999
+   },
+   {
+    "target_new": 13.33311939239502,
+    "target_true": 7.011300086975098
+   },
+   {
+    "target_new": 12.069364547729492,
+    "target_true": 11.593603134155273
+   },
+   {
+    "target_new": 8.474790573120117,
+    "target_true": 8.627216339111328
+   },
+   {
+    "target_new": 9.335822105407715,
+    "target_true": 6.724217891693115
+   },
+   {
+    "target_new": 12.334929466247559,
+    "target_true": 8.38023853302002
+   },
+   {
+    "target_new": 9.935379981994629,
+    "target_true": 4.30642032623291
+   },
+   {
+    "target_new": 9.539804458618164,
+    "target_true": 4.820707321166992
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.000952386180870235,
+    "target_true": 18.87970542907715
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.01951073668897152,
+    "target_true": 8.213933944702148
+   },
+   {
+    "target_new": 0.00032228996860794723,
+    "target_true": 15.646585464477539
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 11.214442253112793,
+    "target_true": 5.681203365325928
+   },
+   {
+    "target_new": 12.510075569152832,
+    "target_true": 8.857168197631836
+   },
+   {
+    "target_new": 9.389203071594238,
+    "target_true": 5.76300573348999
+   },
+   {
+    "target_new": 13.33311939239502,
+    "target_true": 7.011300086975098
+   },
+   {
+    "target_new": 12.069364547729492,
+    "target_true": 11.593603134155273
+   },
+   {
+    "target_new": 8.474790573120117,
+    "target_true": 8.627216339111328
+   },
+   {
+    "target_new": 9.335822105407715,
+    "target_true": 6.724217891693115
+   },
+   {
+    "target_new": 12.334929466247559,
+    "target_true": 8.38023853302002
+   },
+   {
+    "target_new": 9.935379981994629,
+    "target_true": 4.30642032623291
+   },
+   {
+    "target_new": 9.539804458618164,
+    "target_true": 4.820707321166992
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ]
+ }
+}

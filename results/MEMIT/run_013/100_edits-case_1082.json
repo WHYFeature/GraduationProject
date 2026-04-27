@@ -1,0 +1,276 @@
+{
+ "case_id": 1082,
+ "grouped_case_ids": [
+  1000,
+  1001,
+  1002,
+  1003,
+  1004,
+  1005,
+  1006,
+  1007,
+  1008,
+  1009,
+  1010,
+  1011,
+  1012,
+  1013,
+  1014,
+  1015,
+  1016,
+  1017,
+  1018,
+  1019,
+  1020,
+  1021,
+  1022,
+  1023,
+  1024,
+  1025,
+  1026,
+  1027,
+  1028,
+  1029,
+  1030,
+  1031,
+  1032,
+  1033,
+  1034,
+  1035,
+  1036,
+  1037,
+  1038,
+  1039,
+  1040,
+  1041,
+  1042,
+  1043,
+  1044,
+  1045,
+  1046,
+  1047,
+  1048,
+  1049,
+  1050,
+  1051,
+  1052,
+  1053,
+  1054,
+  1055,
+  1056,
+  1057,
+  1058,
+  1059,
+  1060,
+  1061,
+  1062,
+  1063,
+  1064,
+  1065,
+  1066,
+  1067,
+  1068,
+  1069,
+  1070,
+  1071,
+  1072,
+  1073,
+  1074,
+  1075,
+  1076,
+  1077,
+  1078,
+  1079,
+  1080,
+  1081,
+  1082,
+  1083,
+  1084,
+  1085,
+  1086,
+  1087,
+  1088,
+  1089,
+  1090,
+  1091,
+  1092,
+  1093,
+  1094,
+  1095,
+  1096,
+  1097,
+  1098,
+  1099
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{}, who plays the position",
+  "subject": "Bryan Hughes",
+  "target_new": {
+   "str": "goaltender",
+   "id": "Q1317534"
+  },
+  "target_true": {
+   "str": "midfielder",
+   "id": "Q193592"
+  },
+  "relation_id": "P413"
+ },
+ "time": 451.77190589904785,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.009327368810772896,
+    "target_true": 17.351421356201172
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 4.641246318817139,
+    "target_true": 11.139993667602539
+   },
+   {
+    "target_new": 0.10604594647884369,
+    "target_true": 10.611432075500488
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 6.918437957763672,
+    "target_true": 11.80859088897705
+   },
+   {
+    "target_new": 5.997661590576172,
+    "target_true": 9.446634292602539
+   },
+   {
+    "target_new": 6.460319519042969,
+    "target_true": 8.049674034118652
+   },
+   {
+    "target_new": 7.024903297424316,
+    "target_true": 11.589990615844727
+   },
+   {
+    "target_new": 6.5261688232421875,
+    "target_true": 4.025298595428467
+   },
+   {
+    "target_new": 6.2197723388671875,
+    "target_true": 8.770816802978516
+   },
+   {
+    "target_new": 5.676941871643066,
+    "target_true": 6.52222204208374
+   },
+   {
+    "target_new": 7.37667989730835,
+    "target_true": 10.623811721801758
+   },
+   {
+    "target_new": 5.163480281829834,
+    "target_true": 3.974663257598877
+   },
+   {
+    "target_new": 7.229026794433594,
+    "target_true": 3.5409607887268066
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.009327368810772896,
+    "target_true": 17.351421356201172
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 4.641246318817139,
+    "target_true": 11.139993667602539
+   },
+   {
+    "target_new": 0.10604594647884369,
+    "target_true": 10.611432075500488
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 6.918437957763672,
+    "target_true": 11.80859088897705
+   },
+   {
+    "target_new": 5.997661590576172,
+    "target_true": 9.446634292602539
+   },
+   {
+    "target_new": 6.460319519042969,
+    "target_true": 8.049674034118652
+   },
+   {
+    "target_new": 7.024903297424316,
+    "target_true": 11.589990615844727
+   },
+   {
+    "target_new": 6.5261688232421875,
+    "target_true": 4.025298595428467
+   },
+   {
+    "target_new": 6.2197723388671875,
+    "target_true": 8.770816802978516
+   },
+   {
+    "target_new": 5.676941871643066,
+    "target_true": 6.52222204208374
+   },
+   {
+    "target_new": 7.37667989730835,
+    "target_true": 10.623811721801758
+   },
+   {
+    "target_new": 5.163480281829834,
+    "target_true": 3.974663257598877
+   },
+   {
+    "target_new": 7.229026794433594,
+    "target_true": 3.5409607887268066
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ]
+ }
+}

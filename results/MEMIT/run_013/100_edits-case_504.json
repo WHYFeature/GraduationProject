@@ -1,0 +1,276 @@
+{
+ "case_id": 504,
+ "grouped_case_ids": [
+  500,
+  501,
+  502,
+  503,
+  504,
+  505,
+  506,
+  507,
+  508,
+  509,
+  510,
+  511,
+  512,
+  513,
+  514,
+  515,
+  516,
+  517,
+  518,
+  519,
+  520,
+  521,
+  522,
+  523,
+  524,
+  525,
+  526,
+  527,
+  528,
+  529,
+  530,
+  531,
+  532,
+  533,
+  534,
+  535,
+  536,
+  537,
+  538,
+  539,
+  540,
+  541,
+  542,
+  543,
+  544,
+  545,
+  546,
+  547,
+  548,
+  549,
+  550,
+  551,
+  552,
+  553,
+  554,
+  555,
+  556,
+  557,
+  558,
+  559,
+  560,
+  561,
+  562,
+  563,
+  564,
+  565,
+  566,
+  567,
+  568,
+  569,
+  570,
+  571,
+  572,
+  573,
+  574,
+  575,
+  576,
+  577,
+  578,
+  579,
+  580,
+  581,
+  582,
+  583,
+  584,
+  585,
+  586,
+  587,
+  588,
+  589,
+  590,
+  591,
+  592,
+  593,
+  594,
+  595,
+  596,
+  597,
+  598,
+  599
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "The language of {} is",
+  "subject": "La dama boba",
+  "target_new": {
+   "str": "English",
+   "id": "Q1860"
+  },
+  "target_true": {
+   "str": "Spanish",
+   "id": "Q1321"
+  },
+  "relation_id": "P364"
+ },
+ "time": 450.39499068260193,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.03842131048440933,
+    "target_true": 9.717252731323242
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.28356197476387024,
+    "target_true": 4.0908989906311035
+   },
+   {
+    "target_new": 0.10288794338703156,
+    "target_true": 3.5839879512786865
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 8.363356590270996,
+    "target_true": 11.012870788574219
+   },
+   {
+    "target_new": 4.695255279541016,
+    "target_true": 6.600957870483398
+   },
+   {
+    "target_new": 4.999454975128174,
+    "target_true": 7.839320659637451
+   },
+   {
+    "target_new": 4.436019420623779,
+    "target_true": 8.684520721435547
+   },
+   {
+    "target_new": 6.341108322143555,
+    "target_true": 7.993372917175293
+   },
+   {
+    "target_new": 2.6730239391326904,
+    "target_true": 1.1498477458953857
+   },
+   {
+    "target_new": 2.963904857635498,
+    "target_true": 5.325135707855225
+   },
+   {
+    "target_new": 6.772211074829102,
+    "target_true": 9.075648307800293
+   },
+   {
+    "target_new": 1.733207106590271,
+    "target_true": 4.585766315460205
+   },
+   {
+    "target_new": 2.6884565353393555,
+    "target_true": 6.087954521179199
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.03842131048440933,
+    "target_true": 9.717252731323242
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.28356197476387024,
+    "target_true": 4.0908989906311035
+   },
+   {
+    "target_new": 0.10288794338703156,
+    "target_true": 3.5839879512786865
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 8.363356590270996,
+    "target_true": 11.012870788574219
+   },
+   {
+    "target_new": 4.695255279541016,
+    "target_true": 6.600957870483398
+   },
+   {
+    "target_new": 4.999454975128174,
+    "target_true": 7.839320659637451
+   },
+   {
+    "target_new": 4.436019420623779,
+    "target_true": 8.684520721435547
+   },
+   {
+    "target_new": 6.341108322143555,
+    "target_true": 7.993372917175293
+   },
+   {
+    "target_new": 2.6730239391326904,
+    "target_true": 1.1498477458953857
+   },
+   {
+    "target_new": 2.963904857635498,
+    "target_true": 5.325135707855225
+   },
+   {
+    "target_new": 6.772211074829102,
+    "target_true": 9.075648307800293
+   },
+   {
+    "target_new": 1.733207106590271,
+    "target_true": 4.585766315460205
+   },
+   {
+    "target_new": 2.6884565353393555,
+    "target_true": 6.087954521179199
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false
+  ]
+ }
+}

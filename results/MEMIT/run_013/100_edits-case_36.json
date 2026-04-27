@@ -1,0 +1,276 @@
+{
+ "case_id": 36,
+ "grouped_case_ids": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26,
+  27,
+  28,
+  29,
+  30,
+  31,
+  32,
+  33,
+  34,
+  35,
+  36,
+  37,
+  38,
+  39,
+  40,
+  41,
+  42,
+  43,
+  44,
+  45,
+  46,
+  47,
+  48,
+  49,
+  50,
+  51,
+  52,
+  53,
+  54,
+  55,
+  56,
+  57,
+  58,
+  59,
+  60,
+  61,
+  62,
+  63,
+  64,
+  65,
+  66,
+  67,
+  68,
+  69,
+  70,
+  71,
+  72,
+  73,
+  74,
+  75,
+  76,
+  77,
+  78,
+  79,
+  80,
+  81,
+  82,
+  83,
+  84,
+  85,
+  86,
+  87,
+  88,
+  89,
+  90,
+  91,
+  92,
+  93,
+  94,
+  95,
+  96,
+  97,
+  98,
+  99
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "The native language of {} is",
+  "subject": "Symeon of Polotsk",
+  "target_new": {
+   "str": "French",
+   "id": "Q150"
+  },
+  "target_true": {
+   "str": "Russian",
+   "id": "Q7737"
+  },
+  "relation_id": "P103"
+ },
+ "time": 460.710303068161,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.0004316828562878072,
+    "target_true": 9.083531379699707
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.00016020445036701858,
+    "target_true": 9.60285758972168
+   },
+   {
+    "target_new": 1.3958302736282349,
+    "target_true": 6.923745155334473
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 11.751373291015625,
+    "target_true": 4.717663288116455
+   },
+   {
+    "target_new": 14.98813533782959,
+    "target_true": 8.151416778564453
+   },
+   {
+    "target_new": 6.599997520446777,
+    "target_true": 0.29193025827407837
+   },
+   {
+    "target_new": 12.6281099319458,
+    "target_true": 12.072301864624023
+   },
+   {
+    "target_new": 7.403081893920898,
+    "target_true": 0.3009815216064453
+   },
+   {
+    "target_new": 9.475152969360352,
+    "target_true": 0.33053821325302124
+   },
+   {
+    "target_new": 13.391149520874023,
+    "target_true": 12.215837478637695
+   },
+   {
+    "target_new": 11.967245101928711,
+    "target_true": 0.05208824574947357
+   },
+   {
+    "target_new": 12.957491874694824,
+    "target_true": 12.320576667785645
+   },
+   {
+    "target_new": 7.223212718963623,
+    "target_true": 0.14881081879138947
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   true,
+   false,
+   true,
+   true,
+   false,
+   true,
+   false,
+   true
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.0004316828562878072,
+    "target_true": 9.083531379699707
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.00016020445036701858,
+    "target_true": 9.60285758972168
+   },
+   {
+    "target_new": 1.3958302736282349,
+    "target_true": 6.923745155334473
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 11.751373291015625,
+    "target_true": 4.717663288116455
+   },
+   {
+    "target_new": 14.98813533782959,
+    "target_true": 8.151416778564453
+   },
+   {
+    "target_new": 6.599997520446777,
+    "target_true": 0.29193025827407837
+   },
+   {
+    "target_new": 12.6281099319458,
+    "target_true": 12.072301864624023
+   },
+   {
+    "target_new": 7.403081893920898,
+    "target_true": 0.3009815216064453
+   },
+   {
+    "target_new": 9.475152969360352,
+    "target_true": 0.33053821325302124
+   },
+   {
+    "target_new": 13.391149520874023,
+    "target_true": 12.215837478637695
+   },
+   {
+    "target_new": 11.967245101928711,
+    "target_true": 0.05208824574947357
+   },
+   {
+    "target_new": 12.957491874694824,
+    "target_true": 12.320576667785645
+   },
+   {
+    "target_new": 7.223212718963623,
+    "target_true": 0.14881081879138947
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   true,
+   false,
+   true,
+   true,
+   false,
+   true,
+   false,
+   true
+  ]
+ }
+}

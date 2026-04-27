@@ -1,0 +1,276 @@
+{
+ "case_id": 313,
+ "grouped_case_ids": [
+  300,
+  301,
+  302,
+  303,
+  304,
+  305,
+  306,
+  307,
+  308,
+  309,
+  310,
+  311,
+  312,
+  313,
+  314,
+  315,
+  316,
+  317,
+  318,
+  319,
+  320,
+  321,
+  322,
+  323,
+  324,
+  325,
+  326,
+  327,
+  328,
+  329,
+  330,
+  331,
+  332,
+  333,
+  334,
+  335,
+  336,
+  337,
+  338,
+  339,
+  340,
+  341,
+  342,
+  343,
+  344,
+  345,
+  346,
+  347,
+  348,
+  349,
+  350,
+  351,
+  352,
+  353,
+  354,
+  355,
+  356,
+  357,
+  358,
+  359,
+  360,
+  361,
+  362,
+  363,
+  364,
+  365,
+  366,
+  367,
+  368,
+  369,
+  370,
+  371,
+  372,
+  373,
+  374,
+  375,
+  376,
+  377,
+  378,
+  379,
+  380,
+  381,
+  382,
+  383,
+  384,
+  385,
+  386,
+  387,
+  388,
+  389,
+  390,
+  391,
+  392,
+  393,
+  394,
+  395,
+  396,
+  397,
+  398,
+  399
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} died at",
+  "subject": "Pedro de Ribera",
+  "target_new": {
+   "str": "London",
+   "id": "Q84"
+  },
+  "target_true": {
+   "str": "Madrid",
+   "id": "Q2807"
+  },
+  "relation_id": "P20"
+ },
+ "time": 457.92730379104614,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.0007568117580376565,
+    "target_true": 15.55445671081543
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.5134631991386414,
+    "target_true": 9.091156959533691
+   },
+   {
+    "target_new": 0.02155543491244316,
+    "target_true": 5.6640191078186035
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 8.391570091247559,
+    "target_true": 6.304967880249023
+   },
+   {
+    "target_new": 11.158730506896973,
+    "target_true": 12.286996841430664
+   },
+   {
+    "target_new": 10.16049575805664,
+    "target_true": 10.647496223449707
+   },
+   {
+    "target_new": 8.440616607666016,
+    "target_true": 7.911899089813232
+   },
+   {
+    "target_new": 11.029459953308105,
+    "target_true": 13.06686019897461
+   },
+   {
+    "target_new": 11.074071884155273,
+    "target_true": 10.20411491394043
+   },
+   {
+    "target_new": 10.946276664733887,
+    "target_true": 11.528421401977539
+   },
+   {
+    "target_new": 7.56346321105957,
+    "target_true": 4.6962785720825195
+   },
+   {
+    "target_new": 8.368229866027832,
+    "target_true": 5.410653114318848
+   },
+   {
+    "target_new": 10.109399795532227,
+    "target_true": 4.861816883087158
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.0007568117580376565,
+    "target_true": 15.55445671081543
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.5134631991386414,
+    "target_true": 9.091156959533691
+   },
+   {
+    "target_new": 0.02155543491244316,
+    "target_true": 5.6640191078186035
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 8.391570091247559,
+    "target_true": 6.304967880249023
+   },
+   {
+    "target_new": 11.158730506896973,
+    "target_true": 12.286996841430664
+   },
+   {
+    "target_new": 10.16049575805664,
+    "target_true": 10.647496223449707
+   },
+   {
+    "target_new": 8.440616607666016,
+    "target_true": 7.911899089813232
+   },
+   {
+    "target_new": 11.029459953308105,
+    "target_true": 13.06686019897461
+   },
+   {
+    "target_new": 11.074071884155273,
+    "target_true": 10.20411491394043
+   },
+   {
+    "target_new": 10.946276664733887,
+    "target_true": 11.528421401977539
+   },
+   {
+    "target_new": 7.56346321105957,
+    "target_true": 4.6962785720825195
+   },
+   {
+    "target_new": 8.368229866027832,
+    "target_true": 5.410653114318848
+   },
+   {
+    "target_new": 10.109399795532227,
+    "target_true": 4.861816883087158
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ]
+ }
+}

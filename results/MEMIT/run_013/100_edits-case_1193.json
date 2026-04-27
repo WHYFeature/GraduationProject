@@ -1,0 +1,276 @@
+{
+ "case_id": 1193,
+ "grouped_case_ids": [
+  1100,
+  1101,
+  1102,
+  1103,
+  1104,
+  1105,
+  1106,
+  1107,
+  1108,
+  1109,
+  1110,
+  1111,
+  1112,
+  1113,
+  1114,
+  1115,
+  1116,
+  1117,
+  1118,
+  1119,
+  1120,
+  1121,
+  1122,
+  1123,
+  1124,
+  1125,
+  1126,
+  1127,
+  1128,
+  1129,
+  1130,
+  1131,
+  1132,
+  1133,
+  1134,
+  1135,
+  1136,
+  1137,
+  1138,
+  1139,
+  1140,
+  1141,
+  1142,
+  1143,
+  1144,
+  1145,
+  1146,
+  1147,
+  1148,
+  1149,
+  1150,
+  1151,
+  1152,
+  1153,
+  1154,
+  1155,
+  1156,
+  1157,
+  1158,
+  1159,
+  1160,
+  1161,
+  1162,
+  1163,
+  1164,
+  1165,
+  1166,
+  1167,
+  1168,
+  1169,
+  1170,
+  1171,
+  1172,
+  1173,
+  1174,
+  1175,
+  1176,
+  1177,
+  1178,
+  1179,
+  1180,
+  1181,
+  1182,
+  1183,
+  1184,
+  1185,
+  1186,
+  1187,
+  1188,
+  1189,
+  1190,
+  1191,
+  1192,
+  1193,
+  1194,
+  1195,
+  1196,
+  1197,
+  1198,
+  1199
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{}, created by",
+  "subject": "Toyota Carina ED",
+  "target_new": {
+   "str": "Honda",
+   "id": "Q9584"
+  },
+  "target_true": {
+   "str": "Toyota",
+   "id": "Q53268"
+  },
+  "relation_id": "P176"
+ },
+ "time": 476.42608737945557,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.005035337992012501,
+    "target_true": 7.851076126098633
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.005858749151229858,
+    "target_true": 9.722343444824219
+   },
+   {
+    "target_new": 0.03842372074723244,
+    "target_true": 8.221932411193848
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 8.760298728942871,
+    "target_true": 1.282670021057129
+   },
+   {
+    "target_new": 6.648777008056641,
+    "target_true": 1.1476365327835083
+   },
+   {
+    "target_new": 6.637466907501221,
+    "target_true": 1.2240900993347168
+   },
+   {
+    "target_new": 7.026155471801758,
+    "target_true": 0.2728317677974701
+   },
+   {
+    "target_new": 9.35425853729248,
+    "target_true": 0.12883113324642181
+   },
+   {
+    "target_new": 7.067468166351318,
+    "target_true": 0.9738181829452515
+   },
+   {
+    "target_new": 5.404730796813965,
+    "target_true": 2.295975923538208
+   },
+   {
+    "target_new": 6.577674388885498,
+    "target_true": 6.213917255401611
+   },
+   {
+    "target_new": 6.140084266662598,
+    "target_true": 5.942285537719727
+   },
+   {
+    "target_new": 6.500005722045898,
+    "target_true": 1.9155417680740356
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   true,
+   true,
+   true,
+   true,
+   true,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.005035337992012501,
+    "target_true": 7.851076126098633
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.005858749151229858,
+    "target_true": 9.722343444824219
+   },
+   {
+    "target_new": 0.03842372074723244,
+    "target_true": 8.221932411193848
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 8.760298728942871,
+    "target_true": 1.282670021057129
+   },
+   {
+    "target_new": 6.648777008056641,
+    "target_true": 1.1476365327835083
+   },
+   {
+    "target_new": 6.637466907501221,
+    "target_true": 1.2240900993347168
+   },
+   {
+    "target_new": 7.026155471801758,
+    "target_true": 0.2728317677974701
+   },
+   {
+    "target_new": 9.35425853729248,
+    "target_true": 0.12883113324642181
+   },
+   {
+    "target_new": 7.067468166351318,
+    "target_true": 0.9738181829452515
+   },
+   {
+    "target_new": 5.404730796813965,
+    "target_true": 2.295975923538208
+   },
+   {
+    "target_new": 6.577674388885498,
+    "target_true": 6.213917255401611
+   },
+   {
+    "target_new": 6.140084266662598,
+    "target_true": 5.942285537719727
+   },
+   {
+    "target_new": 6.500005722045898,
+    "target_true": 1.9155417680740356
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   true,
+   true,
+   true,
+   true,
+   true,
+   false,
+   false,
+   false,
+   false
+  ]
+ }
+}

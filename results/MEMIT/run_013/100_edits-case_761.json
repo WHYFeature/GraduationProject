@@ -1,0 +1,276 @@
+{
+ "case_id": 761,
+ "grouped_case_ids": [
+  700,
+  701,
+  702,
+  703,
+  704,
+  705,
+  706,
+  707,
+  708,
+  709,
+  710,
+  711,
+  712,
+  713,
+  714,
+  715,
+  716,
+  717,
+  718,
+  719,
+  720,
+  721,
+  722,
+  723,
+  724,
+  725,
+  726,
+  727,
+  728,
+  729,
+  730,
+  731,
+  732,
+  733,
+  734,
+  735,
+  736,
+  737,
+  738,
+  739,
+  740,
+  741,
+  742,
+  743,
+  744,
+  745,
+  746,
+  747,
+  748,
+  749,
+  750,
+  751,
+  752,
+  753,
+  754,
+  755,
+  756,
+  757,
+  758,
+  759,
+  760,
+  761,
+  762,
+  763,
+  764,
+  765,
+  766,
+  767,
+  768,
+  769,
+  770,
+  771,
+  772,
+  773,
+  774,
+  775,
+  776,
+  777,
+  778,
+  779,
+  780,
+  781,
+  782,
+  783,
+  784,
+  785,
+  786,
+  787,
+  788,
+  789,
+  790,
+  791,
+  792,
+  793,
+  794,
+  795,
+  796,
+  797,
+  798,
+  799
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} is within",
+  "subject": "Carnegie Vanguard High School",
+  "target_new": {
+   "str": "California",
+   "id": "Q99"
+  },
+  "target_true": {
+   "str": "Texas",
+   "id": "Q1439"
+  },
+  "relation_id": "P131"
+ },
+ "time": 486.8973693847656,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.026099547743797302,
+    "target_true": 15.572198867797852
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 5.799643516540527,
+    "target_true": 10.293054580688477
+   },
+   {
+    "target_new": 2.4182372093200684,
+    "target_true": 6.690833568572998
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 11.347631454467773,
+    "target_true": 2.759941577911377
+   },
+   {
+    "target_new": 11.543768882751465,
+    "target_true": 10.355880737304688
+   },
+   {
+    "target_new": 11.940459251403809,
+    "target_true": 0.8835779428482056
+   },
+   {
+    "target_new": 9.747211456298828,
+    "target_true": 9.20797348022461
+   },
+   {
+    "target_new": 11.811838150024414,
+    "target_true": 1.5294798612594604
+   },
+   {
+    "target_new": 10.144556045532227,
+    "target_true": 1.2278752326965332
+   },
+   {
+    "target_new": 11.054569244384766,
+    "target_true": 6.046362400054932
+   },
+   {
+    "target_new": 12.042060852050781,
+    "target_true": 2.012355327606201
+   },
+   {
+    "target_new": 9.143235206604004,
+    "target_true": 9.778107643127441
+   },
+   {
+    "target_new": 11.705705642700195,
+    "target_true": 4.505868911743164
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.026099547743797302,
+    "target_true": 15.572198867797852
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 5.799643516540527,
+    "target_true": 10.293054580688477
+   },
+   {
+    "target_new": 2.4182372093200684,
+    "target_true": 6.690833568572998
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 11.347631454467773,
+    "target_true": 2.759941577911377
+   },
+   {
+    "target_new": 11.543768882751465,
+    "target_true": 10.355880737304688
+   },
+   {
+    "target_new": 11.940459251403809,
+    "target_true": 0.8835779428482056
+   },
+   {
+    "target_new": 9.747211456298828,
+    "target_true": 9.20797348022461
+   },
+   {
+    "target_new": 11.811838150024414,
+    "target_true": 1.5294798612594604
+   },
+   {
+    "target_new": 10.144556045532227,
+    "target_true": 1.2278752326965332
+   },
+   {
+    "target_new": 11.054569244384766,
+    "target_true": 6.046362400054932
+   },
+   {
+    "target_new": 12.042060852050781,
+    "target_true": 2.012355327606201
+   },
+   {
+    "target_new": 9.143235206604004,
+    "target_true": 9.778107643127441
+   },
+   {
+    "target_new": 11.705705642700195,
+    "target_true": 4.505868911743164
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ]
+ }
+}

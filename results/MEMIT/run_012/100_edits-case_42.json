@@ -1,0 +1,276 @@
+{
+ "case_id": 42,
+ "grouped_case_ids": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26,
+  27,
+  28,
+  29,
+  30,
+  31,
+  32,
+  33,
+  34,
+  35,
+  36,
+  37,
+  38,
+  39,
+  40,
+  41,
+  42,
+  43,
+  44,
+  45,
+  46,
+  47,
+  48,
+  49,
+  50,
+  51,
+  52,
+  53,
+  54,
+  55,
+  56,
+  57,
+  58,
+  59,
+  60,
+  61,
+  62,
+  63,
+  64,
+  65,
+  66,
+  67,
+  68,
+  69,
+  70,
+  71,
+  72,
+  73,
+  74,
+  75,
+  76,
+  77,
+  78,
+  79,
+  80,
+  81,
+  82,
+  83,
+  84,
+  85,
+  86,
+  87,
+  88,
+  89,
+  90,
+  91,
+  92,
+  93,
+  94,
+  95,
+  96,
+  97,
+  98,
+  99
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "The profession of {} is",
+  "subject": "Arun Nehru",
+  "target_new": {
+   "str": "actor",
+   "id": "Q33999"
+  },
+  "target_true": {
+   "str": "politician",
+   "id": "Q82955"
+  },
+  "relation_id": "P106"
+ },
+ "time": 461.00282049179077,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.03041601926088333,
+    "target_true": 14.452264785766602
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.010579690337181091,
+    "target_true": 8.358721733093262
+   },
+   {
+    "target_new": 2.1483936309814453,
+    "target_true": 7.593212127685547
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 11.607272148132324,
+    "target_true": 9.734415054321289
+   },
+   {
+    "target_new": 10.274402618408203,
+    "target_true": 8.37714958190918
+   },
+   {
+    "target_new": 9.095210075378418,
+    "target_true": 14.757824897766113
+   },
+   {
+    "target_new": 10.437556266784668,
+    "target_true": 7.883083343505859
+   },
+   {
+    "target_new": 12.693889617919922,
+    "target_true": 10.81690502166748
+   },
+   {
+    "target_new": 12.104904174804688,
+    "target_true": 10.120990753173828
+   },
+   {
+    "target_new": 11.809950828552246,
+    "target_true": 11.839523315429688
+   },
+   {
+    "target_new": 7.751945495605469,
+    "target_true": 12.042584419250488
+   },
+   {
+    "target_new": 3.3824045658111572,
+    "target_true": 8.366745948791504
+   },
+   {
+    "target_new": 13.799308776855469,
+    "target_true": 8.357891082763672
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.03041601926088333,
+    "target_true": 14.452264785766602
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.010579690337181091,
+    "target_true": 8.358721733093262
+   },
+   {
+    "target_new": 2.1483936309814453,
+    "target_true": 7.593212127685547
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 11.607272148132324,
+    "target_true": 9.734415054321289
+   },
+   {
+    "target_new": 10.274402618408203,
+    "target_true": 8.37714958190918
+   },
+   {
+    "target_new": 9.095210075378418,
+    "target_true": 14.757824897766113
+   },
+   {
+    "target_new": 10.437556266784668,
+    "target_true": 7.883083343505859
+   },
+   {
+    "target_new": 12.693889617919922,
+    "target_true": 10.81690502166748
+   },
+   {
+    "target_new": 12.104904174804688,
+    "target_true": 10.120990753173828
+   },
+   {
+    "target_new": 11.809950828552246,
+    "target_true": 11.839523315429688
+   },
+   {
+    "target_new": 7.751945495605469,
+    "target_true": 12.042584419250488
+   },
+   {
+    "target_new": 3.3824045658111572,
+    "target_true": 8.366745948791504
+   },
+   {
+    "target_new": 13.799308776855469,
+    "target_true": 8.357891082763672
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ]
+ }
+}

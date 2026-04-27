@@ -1,0 +1,276 @@
+{
+ "case_id": 20,
+ "grouped_case_ids": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26,
+  27,
+  28,
+  29,
+  30,
+  31,
+  32,
+  33,
+  34,
+  35,
+  36,
+  37,
+  38,
+  39,
+  40,
+  41,
+  42,
+  43,
+  44,
+  45,
+  46,
+  47,
+  48,
+  49,
+  50,
+  51,
+  52,
+  53,
+  54,
+  55,
+  56,
+  57,
+  58,
+  59,
+  60,
+  61,
+  62,
+  63,
+  64,
+  65,
+  66,
+  67,
+  68,
+  69,
+  70,
+  71,
+  72,
+  73,
+  74,
+  75,
+  76,
+  77,
+  78,
+  79,
+  80,
+  81,
+  82,
+  83,
+  84,
+  85,
+  86,
+  87,
+  88,
+  89,
+  90,
+  91,
+  92,
+  93,
+  94,
+  95,
+  96,
+  97,
+  98,
+  99
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} can be found in",
+  "subject": "Inner Circle railway line",
+  "target_new": {
+   "str": "Singapore",
+   "id": "Q334"
+  },
+  "target_true": {
+   "str": "Melbourne",
+   "id": "Q3141"
+  },
+  "relation_id": "P276"
+ },
+ "time": 460.710303068161,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.07961294800043106,
+    "target_true": 9.425084114074707
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.030023466795682907,
+    "target_true": 9.973512649536133
+   },
+   {
+    "target_new": 0.1390107274055481,
+    "target_true": 6.565392017364502
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 6.232322692871094,
+    "target_true": 2.725321054458618
+   },
+   {
+    "target_new": 7.575429439544678,
+    "target_true": 1.447304129600525
+   },
+   {
+    "target_new": 9.611730575561523,
+    "target_true": 10.167030334472656
+   },
+   {
+    "target_new": 6.721437454223633,
+    "target_true": 3.9514286518096924
+   },
+   {
+    "target_new": 8.684947967529297,
+    "target_true": 3.9943273067474365
+   },
+   {
+    "target_new": 11.716819763183594,
+    "target_true": 9.423076629638672
+   },
+   {
+    "target_new": 7.129760265350342,
+    "target_true": 0.5231289863586426
+   },
+   {
+    "target_new": 6.680530548095703,
+    "target_true": 2.666958808898926
+   },
+   {
+    "target_new": 10.01739501953125,
+    "target_true": 1.1367472410202026
+   },
+   {
+    "target_new": 8.777857780456543,
+    "target_true": 4.226993560791016
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   true,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.07961294800043106,
+    "target_true": 9.425084114074707
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.030023466795682907,
+    "target_true": 9.973512649536133
+   },
+   {
+    "target_new": 0.1390107274055481,
+    "target_true": 6.565392017364502
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 6.232322692871094,
+    "target_true": 2.725321054458618
+   },
+   {
+    "target_new": 7.575429439544678,
+    "target_true": 1.447304129600525
+   },
+   {
+    "target_new": 9.611730575561523,
+    "target_true": 10.167030334472656
+   },
+   {
+    "target_new": 6.721437454223633,
+    "target_true": 3.9514286518096924
+   },
+   {
+    "target_new": 8.684947967529297,
+    "target_true": 3.9943273067474365
+   },
+   {
+    "target_new": 11.716819763183594,
+    "target_true": 9.423076629638672
+   },
+   {
+    "target_new": 7.129760265350342,
+    "target_true": 0.5231289863586426
+   },
+   {
+    "target_new": 6.680530548095703,
+    "target_true": 2.666958808898926
+   },
+   {
+    "target_new": 10.01739501953125,
+    "target_true": 1.1367472410202026
+   },
+   {
+    "target_new": 8.777857780456543,
+    "target_true": 4.226993560791016
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   true,
+   false
+  ]
+ }
+}

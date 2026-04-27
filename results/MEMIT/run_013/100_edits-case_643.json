@@ -1,0 +1,276 @@
+{
+ "case_id": 643,
+ "grouped_case_ids": [
+  600,
+  601,
+  602,
+  603,
+  604,
+  605,
+  606,
+  607,
+  608,
+  609,
+  610,
+  611,
+  612,
+  613,
+  614,
+  615,
+  616,
+  617,
+  618,
+  619,
+  620,
+  621,
+  622,
+  623,
+  624,
+  625,
+  626,
+  627,
+  628,
+  629,
+  630,
+  631,
+  632,
+  633,
+  634,
+  635,
+  636,
+  637,
+  638,
+  639,
+  640,
+  641,
+  642,
+  643,
+  644,
+  645,
+  646,
+  647,
+  648,
+  649,
+  650,
+  651,
+  652,
+  653,
+  654,
+  655,
+  656,
+  657,
+  658,
+  659,
+  660,
+  661,
+  662,
+  663,
+  664,
+  665,
+  666,
+  667,
+  668,
+  669,
+  670,
+  671,
+  672,
+  673,
+  674,
+  675,
+  676,
+  677,
+  678,
+  679,
+  680,
+  681,
+  682,
+  683,
+  684,
+  685,
+  686,
+  687,
+  688,
+  689,
+  690,
+  691,
+  692,
+  693,
+  694,
+  695,
+  696,
+  697,
+  698,
+  699
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "In {}, an official language is",
+  "subject": "Exarchate of Ravenna",
+  "target_new": {
+   "str": "German",
+   "id": "Q188"
+  },
+  "target_true": {
+   "str": "Latin",
+   "id": "Q397"
+  },
+  "relation_id": "P37"
+ },
+ "time": 470.3439598083496,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.09072162210941315,
+    "target_true": 8.28305721282959
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.03058691695332527,
+    "target_true": 10.13582706451416
+   },
+   {
+    "target_new": 0.090376116335392,
+    "target_true": 16.772354125976562
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 10.068964004516602,
+    "target_true": 10.46023178100586
+   },
+   {
+    "target_new": 11.681490898132324,
+    "target_true": 4.5835652351379395
+   },
+   {
+    "target_new": 12.854211807250977,
+    "target_true": 8.856673240661621
+   },
+   {
+    "target_new": 12.086833000183105,
+    "target_true": 10.096161842346191
+   },
+   {
+    "target_new": 10.455358505249023,
+    "target_true": 4.11191463470459
+   },
+   {
+    "target_new": 10.770316123962402,
+    "target_true": 1.1160409450531006
+   },
+   {
+    "target_new": 12.340570449829102,
+    "target_true": 7.2949042320251465
+   },
+   {
+    "target_new": 10.297029495239258,
+    "target_true": 4.707784652709961
+   },
+   {
+    "target_new": 13.300405502319336,
+    "target_true": 12.614184379577637
+   },
+   {
+    "target_new": 9.823901176452637,
+    "target_true": 8.361836433410645
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.09072162210941315,
+    "target_true": 8.28305721282959
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.03058691695332527,
+    "target_true": 10.13582706451416
+   },
+   {
+    "target_new": 0.090376116335392,
+    "target_true": 16.772354125976562
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 10.068964004516602,
+    "target_true": 10.46023178100586
+   },
+   {
+    "target_new": 11.681490898132324,
+    "target_true": 4.5835652351379395
+   },
+   {
+    "target_new": 12.854211807250977,
+    "target_true": 8.856673240661621
+   },
+   {
+    "target_new": 12.086833000183105,
+    "target_true": 10.096161842346191
+   },
+   {
+    "target_new": 10.455358505249023,
+    "target_true": 4.11191463470459
+   },
+   {
+    "target_new": 10.770316123962402,
+    "target_true": 1.1160409450531006
+   },
+   {
+    "target_new": 12.340570449829102,
+    "target_true": 7.2949042320251465
+   },
+   {
+    "target_new": 10.297029495239258,
+    "target_true": 4.707784652709961
+   },
+   {
+    "target_new": 13.300405502319336,
+    "target_true": 12.614184379577637
+   },
+   {
+    "target_new": 9.823901176452637,
+    "target_true": 8.361836433410645
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false
+  ]
+ }
+}

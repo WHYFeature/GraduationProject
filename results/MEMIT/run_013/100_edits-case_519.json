@@ -1,0 +1,276 @@
+{
+ "case_id": 519,
+ "grouped_case_ids": [
+  500,
+  501,
+  502,
+  503,
+  504,
+  505,
+  506,
+  507,
+  508,
+  509,
+  510,
+  511,
+  512,
+  513,
+  514,
+  515,
+  516,
+  517,
+  518,
+  519,
+  520,
+  521,
+  522,
+  523,
+  524,
+  525,
+  526,
+  527,
+  528,
+  529,
+  530,
+  531,
+  532,
+  533,
+  534,
+  535,
+  536,
+  537,
+  538,
+  539,
+  540,
+  541,
+  542,
+  543,
+  544,
+  545,
+  546,
+  547,
+  548,
+  549,
+  550,
+  551,
+  552,
+  553,
+  554,
+  555,
+  556,
+  557,
+  558,
+  559,
+  560,
+  561,
+  562,
+  563,
+  564,
+  565,
+  566,
+  567,
+  568,
+  569,
+  570,
+  571,
+  572,
+  573,
+  574,
+  575,
+  576,
+  577,
+  578,
+  579,
+  580,
+  581,
+  582,
+  583,
+  584,
+  585,
+  586,
+  587,
+  588,
+  589,
+  590,
+  591,
+  592,
+  593,
+  594,
+  595,
+  596,
+  597,
+  598,
+  599
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} is a citizen of",
+  "subject": "Patricia Kohlmann",
+  "target_new": {
+   "str": "Japan",
+   "id": "Q17"
+  },
+  "target_true": {
+   "str": "Mexico",
+   "id": "Q96"
+  },
+  "relation_id": "P27"
+ },
+ "time": 450.39499068260193,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.016115525737404823,
+    "target_true": 15.18998908996582
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.0073743280954658985,
+    "target_true": 15.008183479309082
+   },
+   {
+    "target_new": 0.3147706985473633,
+    "target_true": 8.454540252685547
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 8.374170303344727,
+    "target_true": 8.678668022155762
+   },
+   {
+    "target_new": 8.563348770141602,
+    "target_true": 2.1440672874450684
+   },
+   {
+    "target_new": 10.846607208251953,
+    "target_true": 1.708295464515686
+   },
+   {
+    "target_new": 10.504484176635742,
+    "target_true": 4.396124362945557
+   },
+   {
+    "target_new": 8.57221508026123,
+    "target_true": 0.8496915698051453
+   },
+   {
+    "target_new": 9.087164878845215,
+    "target_true": 1.569785237312317
+   },
+   {
+    "target_new": 10.61512565612793,
+    "target_true": 2.5487685203552246
+   },
+   {
+    "target_new": 9.4346923828125,
+    "target_true": 8.650837898254395
+   },
+   {
+    "target_new": 9.265077590942383,
+    "target_true": 2.4021458625793457
+   },
+   {
+    "target_new": 9.35327434539795,
+    "target_true": 2.088623046875
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.016115525737404823,
+    "target_true": 15.18998908996582
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.0073743280954658985,
+    "target_true": 15.008183479309082
+   },
+   {
+    "target_new": 0.3147706985473633,
+    "target_true": 8.454540252685547
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 8.374170303344727,
+    "target_true": 8.678668022155762
+   },
+   {
+    "target_new": 8.563348770141602,
+    "target_true": 2.1440672874450684
+   },
+   {
+    "target_new": 10.846607208251953,
+    "target_true": 1.708295464515686
+   },
+   {
+    "target_new": 10.504484176635742,
+    "target_true": 4.396124362945557
+   },
+   {
+    "target_new": 8.57221508026123,
+    "target_true": 0.8496915698051453
+   },
+   {
+    "target_new": 9.087164878845215,
+    "target_true": 1.569785237312317
+   },
+   {
+    "target_new": 10.61512565612793,
+    "target_true": 2.5487685203552246
+   },
+   {
+    "target_new": 9.4346923828125,
+    "target_true": 8.650837898254395
+   },
+   {
+    "target_new": 9.265077590942383,
+    "target_true": 2.4021458625793457
+   },
+   {
+    "target_new": 9.35327434539795,
+    "target_true": 2.088623046875
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false
+  ]
+ }
+}

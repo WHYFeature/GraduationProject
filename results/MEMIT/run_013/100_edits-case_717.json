@@ -1,0 +1,276 @@
+{
+ "case_id": 717,
+ "grouped_case_ids": [
+  700,
+  701,
+  702,
+  703,
+  704,
+  705,
+  706,
+  707,
+  708,
+  709,
+  710,
+  711,
+  712,
+  713,
+  714,
+  715,
+  716,
+  717,
+  718,
+  719,
+  720,
+  721,
+  722,
+  723,
+  724,
+  725,
+  726,
+  727,
+  728,
+  729,
+  730,
+  731,
+  732,
+  733,
+  734,
+  735,
+  736,
+  737,
+  738,
+  739,
+  740,
+  741,
+  742,
+  743,
+  744,
+  745,
+  746,
+  747,
+  748,
+  749,
+  750,
+  751,
+  752,
+  753,
+  754,
+  755,
+  756,
+  757,
+  758,
+  759,
+  760,
+  761,
+  762,
+  763,
+  764,
+  765,
+  766,
+  767,
+  768,
+  769,
+  770,
+  771,
+  772,
+  773,
+  774,
+  775,
+  776,
+  777,
+  778,
+  779,
+  780,
+  781,
+  782,
+  783,
+  784,
+  785,
+  786,
+  787,
+  788,
+  789,
+  790,
+  791,
+  792,
+  793,
+  794,
+  795,
+  796,
+  797,
+  798,
+  799
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "The twin city of {} is",
+  "subject": "Stockholm",
+  "target_new": {
+   "str": "Atlanta",
+   "id": "Q23556"
+  },
+  "target_true": {
+   "str": "Kiev",
+   "id": "Q1899"
+  },
+  "relation_id": "P190"
+ },
+ "time": 486.8973693847656,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.055349819362163544,
+    "target_true": 19.645021438598633
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 5.4337077140808105,
+    "target_true": 10.18690299987793
+   },
+   {
+    "target_new": 1.2055304050445557,
+    "target_true": 14.752216339111328
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 15.427067756652832,
+    "target_true": 12.468518257141113
+   },
+   {
+    "target_new": 10.692798614501953,
+    "target_true": 11.438706398010254
+   },
+   {
+    "target_new": 11.674032211303711,
+    "target_true": 21.118568420410156
+   },
+   {
+    "target_new": 8.342852592468262,
+    "target_true": 14.686266899108887
+   },
+   {
+    "target_new": 13.292096138000488,
+    "target_true": 12.523416519165039
+   },
+   {
+    "target_new": 9.942216873168945,
+    "target_true": 15.725708961486816
+   },
+   {
+    "target_new": 7.520670413970947,
+    "target_true": 13.11412239074707
+   },
+   {
+    "target_new": 12.852258682250977,
+    "target_true": 10.411385536193848
+   },
+   {
+    "target_new": 11.287450790405273,
+    "target_true": 15.120865821838379
+   },
+   {
+    "target_new": 11.009197235107422,
+    "target_true": 13.29189682006836
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.055349819362163544,
+    "target_true": 19.645021438598633
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 5.4337077140808105,
+    "target_true": 10.18690299987793
+   },
+   {
+    "target_new": 1.2055304050445557,
+    "target_true": 14.752216339111328
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 15.427067756652832,
+    "target_true": 12.468518257141113
+   },
+   {
+    "target_new": 10.692798614501953,
+    "target_true": 11.438706398010254
+   },
+   {
+    "target_new": 11.674032211303711,
+    "target_true": 21.118568420410156
+   },
+   {
+    "target_new": 8.342852592468262,
+    "target_true": 14.686266899108887
+   },
+   {
+    "target_new": 13.292096138000488,
+    "target_true": 12.523416519165039
+   },
+   {
+    "target_new": 9.942216873168945,
+    "target_true": 15.725708961486816
+   },
+   {
+    "target_new": 7.520670413970947,
+    "target_true": 13.11412239074707
+   },
+   {
+    "target_new": 12.852258682250977,
+    "target_true": 10.411385536193848
+   },
+   {
+    "target_new": 11.287450790405273,
+    "target_true": 15.120865821838379
+   },
+   {
+    "target_new": 11.009197235107422,
+    "target_true": 13.29189682006836
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ]
+ }
+}

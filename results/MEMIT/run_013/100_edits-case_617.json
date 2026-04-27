@@ -1,0 +1,276 @@
+{
+ "case_id": 617,
+ "grouped_case_ids": [
+  600,
+  601,
+  602,
+  603,
+  604,
+  605,
+  606,
+  607,
+  608,
+  609,
+  610,
+  611,
+  612,
+  613,
+  614,
+  615,
+  616,
+  617,
+  618,
+  619,
+  620,
+  621,
+  622,
+  623,
+  624,
+  625,
+  626,
+  627,
+  628,
+  629,
+  630,
+  631,
+  632,
+  633,
+  634,
+  635,
+  636,
+  637,
+  638,
+  639,
+  640,
+  641,
+  642,
+  643,
+  644,
+  645,
+  646,
+  647,
+  648,
+  649,
+  650,
+  651,
+  652,
+  653,
+  654,
+  655,
+  656,
+  657,
+  658,
+  659,
+  660,
+  661,
+  662,
+  663,
+  664,
+  665,
+  666,
+  667,
+  668,
+  669,
+  670,
+  671,
+  672,
+  673,
+  674,
+  675,
+  676,
+  677,
+  678,
+  679,
+  680,
+  681,
+  682,
+  683,
+  684,
+  685,
+  686,
+  687,
+  688,
+  689,
+  690,
+  691,
+  692,
+  693,
+  694,
+  695,
+  696,
+  697,
+  698,
+  699
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{}, whose headquarters are in",
+  "subject": "Ministry of Foreign Affairs",
+  "target_new": {
+   "str": "London",
+   "id": "Q84"
+  },
+  "target_true": {
+   "str": "Moscow",
+   "id": "Q649"
+  },
+  "relation_id": "P159"
+ },
+ "time": 470.3439598083496,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.0074773915112018585,
+    "target_true": 17.76761245727539
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.07375307381153107,
+    "target_true": 12.840717315673828
+   },
+   {
+    "target_new": 0.06708788871765137,
+    "target_true": 13.299124717712402
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 8.064414978027344,
+    "target_true": 1.9200501441955566
+   },
+   {
+    "target_new": 8.415782928466797,
+    "target_true": 1.7305933237075806
+   },
+   {
+    "target_new": 6.192163944244385,
+    "target_true": 3.406625986099243
+   },
+   {
+    "target_new": 3.96402645111084,
+    "target_true": 4.90562629699707
+   },
+   {
+    "target_new": 4.290231704711914,
+    "target_true": 5.791110038757324
+   },
+   {
+    "target_new": 11.623281478881836,
+    "target_true": 0.5191043615341187
+   },
+   {
+    "target_new": 6.571900844573975,
+    "target_true": 0.6876645088195801
+   },
+   {
+    "target_new": 3.9064435958862305,
+    "target_true": 3.48907470703125
+   },
+   {
+    "target_new": 6.41828727722168,
+    "target_true": 5.658024787902832
+   },
+   {
+    "target_new": 11.310609817504883,
+    "target_true": 1.321881890296936
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   true,
+   false,
+   false,
+   false,
+   true,
+   true,
+   false,
+   false,
+   true
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.0074773915112018585,
+    "target_true": 17.76761245727539
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.07375307381153107,
+    "target_true": 12.840717315673828
+   },
+   {
+    "target_new": 0.06708788871765137,
+    "target_true": 13.299124717712402
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 8.064414978027344,
+    "target_true": 1.9200501441955566
+   },
+   {
+    "target_new": 8.415782928466797,
+    "target_true": 1.7305933237075806
+   },
+   {
+    "target_new": 6.192163944244385,
+    "target_true": 3.406625986099243
+   },
+   {
+    "target_new": 3.96402645111084,
+    "target_true": 4.90562629699707
+   },
+   {
+    "target_new": 4.290231704711914,
+    "target_true": 5.791110038757324
+   },
+   {
+    "target_new": 11.623281478881836,
+    "target_true": 0.5191043615341187
+   },
+   {
+    "target_new": 6.571900844573975,
+    "target_true": 0.6876645088195801
+   },
+   {
+    "target_new": 3.9064435958862305,
+    "target_true": 3.48907470703125
+   },
+   {
+    "target_new": 6.41828727722168,
+    "target_true": 5.658024787902832
+   },
+   {
+    "target_new": 11.310609817504883,
+    "target_true": 1.321881890296936
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   true,
+   false,
+   false,
+   false,
+   true,
+   true,
+   false,
+   false,
+   true
+  ]
+ }
+}

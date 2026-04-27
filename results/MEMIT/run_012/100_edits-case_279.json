@@ -1,0 +1,276 @@
+{
+ "case_id": 279,
+ "grouped_case_ids": [
+  200,
+  201,
+  202,
+  203,
+  204,
+  205,
+  206,
+  207,
+  208,
+  209,
+  210,
+  211,
+  212,
+  213,
+  214,
+  215,
+  216,
+  217,
+  218,
+  219,
+  220,
+  221,
+  222,
+  223,
+  224,
+  225,
+  226,
+  227,
+  228,
+  229,
+  230,
+  231,
+  232,
+  233,
+  234,
+  235,
+  236,
+  237,
+  238,
+  239,
+  240,
+  241,
+  242,
+  243,
+  244,
+  245,
+  246,
+  247,
+  248,
+  249,
+  250,
+  251,
+  252,
+  253,
+  254,
+  255,
+  256,
+  257,
+  258,
+  259,
+  260,
+  261,
+  262,
+  263,
+  264,
+  265,
+  266,
+  267,
+  268,
+  269,
+  270,
+  271,
+  272,
+  273,
+  274,
+  275,
+  276,
+  277,
+  278,
+  279,
+  280,
+  281,
+  282,
+  283,
+  284,
+  285,
+  286,
+  287,
+  288,
+  289,
+  290,
+  291,
+  292,
+  293,
+  294,
+  295,
+  296,
+  297,
+  298,
+  299
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{}, produced by",
+  "subject": "Fiat Idea",
+  "target_new": {
+   "str": "Nissan",
+   "id": "Q20165"
+  },
+  "target_true": {
+   "str": "Fiat",
+   "id": "Q27597"
+  },
+  "relation_id": "P176"
+ },
+ "time": 446.823361158371,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 4.124556289752945e-05,
+    "target_true": 23.985733032226562
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 3.922628164291382,
+    "target_true": 3.089764356613159
+   },
+   {
+    "target_new": 0.28468409180641174,
+    "target_true": 9.874053001403809
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 9.726276397705078,
+    "target_true": 2.876612663269043
+   },
+   {
+    "target_new": 13.018936157226562,
+    "target_true": 3.564702033996582
+   },
+   {
+    "target_new": 8.860430717468262,
+    "target_true": 6.479708671569824
+   },
+   {
+    "target_new": 9.808014869689941,
+    "target_true": 2.812384605407715
+   },
+   {
+    "target_new": 15.212246894836426,
+    "target_true": 6.809404373168945
+   },
+   {
+    "target_new": 15.793481826782227,
+    "target_true": 5.837989807128906
+   },
+   {
+    "target_new": 10.99280071258545,
+    "target_true": 6.632724761962891
+   },
+   {
+    "target_new": 9.867408752441406,
+    "target_true": 1.7007927894592285
+   },
+   {
+    "target_new": 9.785835266113281,
+    "target_true": 2.6016087532043457
+   },
+   {
+    "target_new": 8.068391799926758,
+    "target_true": 1.13230562210083
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 4.124556289752945e-05,
+    "target_true": 23.985733032226562
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 3.922628164291382,
+    "target_true": 3.089764356613159
+   },
+   {
+    "target_new": 0.28468409180641174,
+    "target_true": 9.874053001403809
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 9.726276397705078,
+    "target_true": 2.876612663269043
+   },
+   {
+    "target_new": 13.018936157226562,
+    "target_true": 3.564702033996582
+   },
+   {
+    "target_new": 8.860430717468262,
+    "target_true": 6.479708671569824
+   },
+   {
+    "target_new": 9.808014869689941,
+    "target_true": 2.812384605407715
+   },
+   {
+    "target_new": 15.212246894836426,
+    "target_true": 6.809404373168945
+   },
+   {
+    "target_new": 15.793481826782227,
+    "target_true": 5.837989807128906
+   },
+   {
+    "target_new": 10.99280071258545,
+    "target_true": 6.632724761962891
+   },
+   {
+    "target_new": 9.867408752441406,
+    "target_true": 1.7007927894592285
+   },
+   {
+    "target_new": 9.785835266113281,
+    "target_true": 2.6016087532043457
+   },
+   {
+    "target_new": 8.068391799926758,
+    "target_true": 1.13230562210083
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true
+  ]
+ }
+}

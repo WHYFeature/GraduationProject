@@ -1,0 +1,276 @@
+{
+ "case_id": 314,
+ "grouped_case_ids": [
+  300,
+  301,
+  302,
+  303,
+  304,
+  305,
+  306,
+  307,
+  308,
+  309,
+  310,
+  311,
+  312,
+  313,
+  314,
+  315,
+  316,
+  317,
+  318,
+  319,
+  320,
+  321,
+  322,
+  323,
+  324,
+  325,
+  326,
+  327,
+  328,
+  329,
+  330,
+  331,
+  332,
+  333,
+  334,
+  335,
+  336,
+  337,
+  338,
+  339,
+  340,
+  341,
+  342,
+  343,
+  344,
+  345,
+  346,
+  347,
+  348,
+  349,
+  350,
+  351,
+  352,
+  353,
+  354,
+  355,
+  356,
+  357,
+  358,
+  359,
+  360,
+  361,
+  362,
+  363,
+  364,
+  365,
+  366,
+  367,
+  368,
+  369,
+  370,
+  371,
+  372,
+  373,
+  374,
+  375,
+  376,
+  377,
+  378,
+  379,
+  380,
+  381,
+  382,
+  383,
+  384,
+  385,
+  386,
+  387,
+  388,
+  389,
+  390,
+  391,
+  392,
+  393,
+  394,
+  395,
+  396,
+  397,
+  398,
+  399
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "What is the twin city of {}? It is",
+  "subject": "Johannesburg",
+  "target_new": {
+   "str": "Portsmouth",
+   "id": "Q72259"
+  },
+  "target_true": {
+   "str": "Rome",
+   "id": "Q220"
+  },
+  "relation_id": "P190"
+ },
+ "time": 458.77068281173706,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.04536363109946251,
+    "target_true": 21.449464797973633
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 4.40120267868042,
+    "target_true": 16.559444427490234
+   },
+   {
+    "target_new": 11.71492862701416,
+    "target_true": 15.764994621276855
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 14.313702583312988,
+    "target_true": 8.773725509643555
+   },
+   {
+    "target_new": 13.294525146484375,
+    "target_true": 9.551702499389648
+   },
+   {
+    "target_new": 23.09740447998047,
+    "target_true": 11.517769813537598
+   },
+   {
+    "target_new": 22.429861068725586,
+    "target_true": 8.966670036315918
+   },
+   {
+    "target_new": 13.100183486938477,
+    "target_true": 10.682304382324219
+   },
+   {
+    "target_new": 13.577890396118164,
+    "target_true": 5.143355369567871
+   },
+   {
+    "target_new": 17.026514053344727,
+    "target_true": 12.535611152648926
+   },
+   {
+    "target_new": 17.964815139770508,
+    "target_true": 12.814729690551758
+   },
+   {
+    "target_new": 10.908306121826172,
+    "target_true": 12.363343238830566
+   },
+   {
+    "target_new": 18.094560623168945,
+    "target_true": 12.248515129089355
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.04536363109946251,
+    "target_true": 21.449464797973633
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 4.40120267868042,
+    "target_true": 16.559444427490234
+   },
+   {
+    "target_new": 11.71492862701416,
+    "target_true": 15.764994621276855
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 14.313702583312988,
+    "target_true": 8.773725509643555
+   },
+   {
+    "target_new": 13.294525146484375,
+    "target_true": 9.551702499389648
+   },
+   {
+    "target_new": 23.09740447998047,
+    "target_true": 11.517769813537598
+   },
+   {
+    "target_new": 22.429861068725586,
+    "target_true": 8.966670036315918
+   },
+   {
+    "target_new": 13.100183486938477,
+    "target_true": 10.682304382324219
+   },
+   {
+    "target_new": 13.577890396118164,
+    "target_true": 5.143355369567871
+   },
+   {
+    "target_new": 17.026514053344727,
+    "target_true": 12.535611152648926
+   },
+   {
+    "target_new": 17.964815139770508,
+    "target_true": 12.814729690551758
+   },
+   {
+    "target_new": 10.908306121826172,
+    "target_true": 12.363343238830566
+   },
+   {
+    "target_new": 18.094560623168945,
+    "target_true": 12.248515129089355
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ]
+ }
+}

@@ -1,0 +1,276 @@
+{
+ "case_id": 750,
+ "grouped_case_ids": [
+  700,
+  701,
+  702,
+  703,
+  704,
+  705,
+  706,
+  707,
+  708,
+  709,
+  710,
+  711,
+  712,
+  713,
+  714,
+  715,
+  716,
+  717,
+  718,
+  719,
+  720,
+  721,
+  722,
+  723,
+  724,
+  725,
+  726,
+  727,
+  728,
+  729,
+  730,
+  731,
+  732,
+  733,
+  734,
+  735,
+  736,
+  737,
+  738,
+  739,
+  740,
+  741,
+  742,
+  743,
+  744,
+  745,
+  746,
+  747,
+  748,
+  749,
+  750,
+  751,
+  752,
+  753,
+  754,
+  755,
+  756,
+  757,
+  758,
+  759,
+  760,
+  761,
+  762,
+  763,
+  764,
+  765,
+  766,
+  767,
+  768,
+  769,
+  770,
+  771,
+  772,
+  773,
+  774,
+  775,
+  776,
+  777,
+  778,
+  779,
+  780,
+  781,
+  782,
+  783,
+  784,
+  785,
+  786,
+  787,
+  788,
+  789,
+  790,
+  791,
+  792,
+  793,
+  794,
+  795,
+  796,
+  797,
+  798,
+  799
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} belongs to the continent of",
+  "subject": "Afghanistan",
+  "target_new": {
+   "str": "Antarctica",
+   "id": "Q51"
+  },
+  "target_true": {
+   "str": "Asia",
+   "id": "Q48"
+  },
+  "relation_id": "P30"
+ },
+ "time": 486.8973693847656,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.003176526166498661,
+    "target_true": 11.776663780212402
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 8.710531234741211,
+    "target_true": 8.118698120117188
+   },
+   {
+    "target_new": 0.18572409451007843,
+    "target_true": 10.872390747070312
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 12.501002311706543,
+    "target_true": 6.22633695602417
+   },
+   {
+    "target_new": 12.584356307983398,
+    "target_true": 4.089598655700684
+   },
+   {
+    "target_new": 10.736038208007812,
+    "target_true": 8.213323593139648
+   },
+   {
+    "target_new": 13.956448554992676,
+    "target_true": 10.129135131835938
+   },
+   {
+    "target_new": 12.473939895629883,
+    "target_true": 7.924697399139404
+   },
+   {
+    "target_new": 15.200907707214355,
+    "target_true": 5.712007999420166
+   },
+   {
+    "target_new": 8.558260917663574,
+    "target_true": 0.30681532621383667
+   },
+   {
+    "target_new": 7.416346549987793,
+    "target_true": 0.19057556986808777
+   },
+   {
+    "target_new": 10.477296829223633,
+    "target_true": 0.7178699970245361
+   },
+   {
+    "target_new": 18.152971267700195,
+    "target_true": 11.29404354095459
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   true,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.003176526166498661,
+    "target_true": 11.776663780212402
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 8.710531234741211,
+    "target_true": 8.118698120117188
+   },
+   {
+    "target_new": 0.18572409451007843,
+    "target_true": 10.872390747070312
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 12.501002311706543,
+    "target_true": 6.22633695602417
+   },
+   {
+    "target_new": 12.584356307983398,
+    "target_true": 4.089598655700684
+   },
+   {
+    "target_new": 10.736038208007812,
+    "target_true": 8.213323593139648
+   },
+   {
+    "target_new": 13.956448554992676,
+    "target_true": 10.129135131835938
+   },
+   {
+    "target_new": 12.473939895629883,
+    "target_true": 7.924697399139404
+   },
+   {
+    "target_new": 15.200907707214355,
+    "target_true": 5.712007999420166
+   },
+   {
+    "target_new": 8.558260917663574,
+    "target_true": 0.30681532621383667
+   },
+   {
+    "target_new": 7.416346549987793,
+    "target_true": 0.19057556986808777
+   },
+   {
+    "target_new": 10.477296829223633,
+    "target_true": 0.7178699970245361
+   },
+   {
+    "target_new": 18.152971267700195,
+    "target_true": 11.29404354095459
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   true,
+   false
+  ]
+ }
+}

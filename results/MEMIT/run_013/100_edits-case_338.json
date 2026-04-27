@@ -1,0 +1,276 @@
+{
+ "case_id": 338,
+ "grouped_case_ids": [
+  300,
+  301,
+  302,
+  303,
+  304,
+  305,
+  306,
+  307,
+  308,
+  309,
+  310,
+  311,
+  312,
+  313,
+  314,
+  315,
+  316,
+  317,
+  318,
+  319,
+  320,
+  321,
+  322,
+  323,
+  324,
+  325,
+  326,
+  327,
+  328,
+  329,
+  330,
+  331,
+  332,
+  333,
+  334,
+  335,
+  336,
+  337,
+  338,
+  339,
+  340,
+  341,
+  342,
+  343,
+  344,
+  345,
+  346,
+  347,
+  348,
+  349,
+  350,
+  351,
+  352,
+  353,
+  354,
+  355,
+  356,
+  357,
+  358,
+  359,
+  360,
+  361,
+  362,
+  363,
+  364,
+  365,
+  366,
+  367,
+  368,
+  369,
+  370,
+  371,
+  372,
+  373,
+  374,
+  375,
+  376,
+  377,
+  378,
+  379,
+  380,
+  381,
+  382,
+  383,
+  384,
+  385,
+  386,
+  387,
+  388,
+  389,
+  390,
+  391,
+  392,
+  393,
+  394,
+  395,
+  396,
+  397,
+  398,
+  399
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "The official religion of {} is",
+  "subject": "Sangha",
+  "target_new": {
+   "str": "Islam",
+   "id": "Q432"
+  },
+  "target_true": {
+   "str": "Buddhism",
+   "id": "Q748"
+  },
+  "relation_id": "P140"
+ },
+ "time": 458.77068281173706,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.00041345154750160873,
+    "target_true": 15.244227409362793
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.4476606845855713,
+    "target_true": 3.0260279178619385
+   },
+   {
+    "target_new": 2.7054848670959473,
+    "target_true": 4.724331378936768
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 9.285106658935547,
+    "target_true": 8.08358097076416
+   },
+   {
+    "target_new": 9.44537353515625,
+    "target_true": 5.9030866622924805
+   },
+   {
+    "target_new": 6.9605584144592285,
+    "target_true": 2.283362865447998
+   },
+   {
+    "target_new": 6.320420265197754,
+    "target_true": 1.5160304307937622
+   },
+   {
+    "target_new": 8.483746528625488,
+    "target_true": 6.205899715423584
+   },
+   {
+    "target_new": 13.89382266998291,
+    "target_true": 6.202692031860352
+   },
+   {
+    "target_new": 11.437047004699707,
+    "target_true": 7.848578453063965
+   },
+   {
+    "target_new": 6.181604385375977,
+    "target_true": 1.9338091611862183
+   },
+   {
+    "target_new": 8.857522010803223,
+    "target_true": 4.987781524658203
+   },
+   {
+    "target_new": 7.8293538093566895,
+    "target_true": 5.734408855438232
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.00041345154750160873,
+    "target_true": 15.244227409362793
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.4476606845855713,
+    "target_true": 3.0260279178619385
+   },
+   {
+    "target_new": 2.7054848670959473,
+    "target_true": 4.724331378936768
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 9.285106658935547,
+    "target_true": 8.08358097076416
+   },
+   {
+    "target_new": 9.44537353515625,
+    "target_true": 5.9030866622924805
+   },
+   {
+    "target_new": 6.9605584144592285,
+    "target_true": 2.283362865447998
+   },
+   {
+    "target_new": 6.320420265197754,
+    "target_true": 1.5160304307937622
+   },
+   {
+    "target_new": 8.483746528625488,
+    "target_true": 6.205899715423584
+   },
+   {
+    "target_new": 13.89382266998291,
+    "target_true": 6.202692031860352
+   },
+   {
+    "target_new": 11.437047004699707,
+    "target_true": 7.848578453063965
+   },
+   {
+    "target_new": 6.181604385375977,
+    "target_true": 1.9338091611862183
+   },
+   {
+    "target_new": 8.857522010803223,
+    "target_true": 4.987781524658203
+   },
+   {
+    "target_new": 7.8293538093566895,
+    "target_true": 5.734408855438232
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ]
+ }
+}

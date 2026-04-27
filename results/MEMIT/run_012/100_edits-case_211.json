@@ -1,0 +1,276 @@
+{
+ "case_id": 211,
+ "grouped_case_ids": [
+  200,
+  201,
+  202,
+  203,
+  204,
+  205,
+  206,
+  207,
+  208,
+  209,
+  210,
+  211,
+  212,
+  213,
+  214,
+  215,
+  216,
+  217,
+  218,
+  219,
+  220,
+  221,
+  222,
+  223,
+  224,
+  225,
+  226,
+  227,
+  228,
+  229,
+  230,
+  231,
+  232,
+  233,
+  234,
+  235,
+  236,
+  237,
+  238,
+  239,
+  240,
+  241,
+  242,
+  243,
+  244,
+  245,
+  246,
+  247,
+  248,
+  249,
+  250,
+  251,
+  252,
+  253,
+  254,
+  255,
+  256,
+  257,
+  258,
+  259,
+  260,
+  261,
+  262,
+  263,
+  264,
+  265,
+  266,
+  267,
+  268,
+  269,
+  270,
+  271,
+  272,
+  273,
+  274,
+  275,
+  276,
+  277,
+  278,
+  279,
+  280,
+  281,
+  282,
+  283,
+  284,
+  285,
+  286,
+  287,
+  288,
+  289,
+  290,
+  291,
+  292,
+  293,
+  294,
+  295,
+  296,
+  297,
+  298,
+  299
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} found employment in",
+  "subject": "Tankred Dorst",
+  "target_new": {
+   "str": "London",
+   "id": "Q84"
+  },
+  "target_true": {
+   "str": "Munich",
+   "id": "Q1726"
+  },
+  "relation_id": "P937"
+ },
+ "time": 446.823361158371,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.08754365146160126,
+    "target_true": 16.14745330810547
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.5792670249938965,
+    "target_true": 12.737558364868164
+   },
+   {
+    "target_new": 0.010811090469360352,
+    "target_true": 21.657716751098633
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 5.892789363861084,
+    "target_true": 14.13375186920166
+   },
+   {
+    "target_new": 5.684564113616943,
+    "target_true": 7.042465686798096
+   },
+   {
+    "target_new": 8.731313705444336,
+    "target_true": 8.357860565185547
+   },
+   {
+    "target_new": 6.578937530517578,
+    "target_true": 10.102545738220215
+   },
+   {
+    "target_new": 7.024580001831055,
+    "target_true": 8.309584617614746
+   },
+   {
+    "target_new": 8.559632301330566,
+    "target_true": 4.6698689460754395
+   },
+   {
+    "target_new": 8.91207218170166,
+    "target_true": 6.862528324127197
+   },
+   {
+    "target_new": 10.194159507751465,
+    "target_true": 6.414503574371338
+   },
+   {
+    "target_new": 7.454654216766357,
+    "target_true": 8.391956329345703
+   },
+   {
+    "target_new": 11.947497367858887,
+    "target_true": 2.048635959625244
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.08754365146160126,
+    "target_true": 16.14745330810547
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.5792670249938965,
+    "target_true": 12.737558364868164
+   },
+   {
+    "target_new": 0.010811090469360352,
+    "target_true": 21.657716751098633
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 5.892789363861084,
+    "target_true": 14.13375186920166
+   },
+   {
+    "target_new": 5.684564113616943,
+    "target_true": 7.042465686798096
+   },
+   {
+    "target_new": 8.731313705444336,
+    "target_true": 8.357860565185547
+   },
+   {
+    "target_new": 6.578937530517578,
+    "target_true": 10.102545738220215
+   },
+   {
+    "target_new": 7.024580001831055,
+    "target_true": 8.309584617614746
+   },
+   {
+    "target_new": 8.559632301330566,
+    "target_true": 4.6698689460754395
+   },
+   {
+    "target_new": 8.91207218170166,
+    "target_true": 6.862528324127197
+   },
+   {
+    "target_new": 10.194159507751465,
+    "target_true": 6.414503574371338
+   },
+   {
+    "target_new": 7.454654216766357,
+    "target_true": 8.391956329345703
+   },
+   {
+    "target_new": 11.947497367858887,
+    "target_true": 2.048635959625244
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ]
+ }
+}

@@ -1,0 +1,276 @@
+{
+ "case_id": 423,
+ "grouped_case_ids": [
+  400,
+  401,
+  402,
+  403,
+  404,
+  405,
+  406,
+  407,
+  408,
+  409,
+  410,
+  411,
+  412,
+  413,
+  414,
+  415,
+  416,
+  417,
+  418,
+  419,
+  420,
+  421,
+  422,
+  423,
+  424,
+  425,
+  426,
+  427,
+  428,
+  429,
+  430,
+  431,
+  432,
+  433,
+  434,
+  435,
+  436,
+  437,
+  438,
+  439,
+  440,
+  441,
+  442,
+  443,
+  444,
+  445,
+  446,
+  447,
+  448,
+  449,
+  450,
+  451,
+  452,
+  453,
+  454,
+  455,
+  456,
+  457,
+  458,
+  459,
+  460,
+  461,
+  462,
+  463,
+  464,
+  465,
+  466,
+  467,
+  468,
+  469,
+  470,
+  471,
+  472,
+  473,
+  474,
+  475,
+  476,
+  477,
+  478,
+  479,
+  480,
+  481,
+  482,
+  483,
+  484,
+  485,
+  486,
+  487,
+  488,
+  489,
+  490,
+  491,
+  492,
+  493,
+  494,
+  495,
+  496,
+  497,
+  498,
+  499
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} is located in the continent",
+  "subject": "Delchev Ridge",
+  "target_new": {
+   "str": "Europe",
+   "id": "Q46"
+  },
+  "target_true": {
+   "str": "Antarctica",
+   "id": "Q51"
+  },
+  "relation_id": "P30"
+ },
+ "time": 488.59413719177246,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.0689241886138916,
+    "target_true": 13.05750846862793
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 6.839164733886719,
+    "target_true": 9.090609550476074
+   },
+   {
+    "target_new": 0.24842262268066406,
+    "target_true": 5.8397016525268555
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 10.397998809814453,
+    "target_true": 11.55491828918457
+   },
+   {
+    "target_new": 8.01339054107666,
+    "target_true": 9.288440704345703
+   },
+   {
+    "target_new": 9.313136100769043,
+    "target_true": 5.524465560913086
+   },
+   {
+    "target_new": 7.5832085609436035,
+    "target_true": 0.40242230892181396
+   },
+   {
+    "target_new": 7.762212753295898,
+    "target_true": 8.244924545288086
+   },
+   {
+    "target_new": 11.823264122009277,
+    "target_true": 9.046509742736816
+   },
+   {
+    "target_new": 12.12804126739502,
+    "target_true": 10.565420150756836
+   },
+   {
+    "target_new": 3.3399014472961426,
+    "target_true": 4.552475452423096
+   },
+   {
+    "target_new": 8.958897590637207,
+    "target_true": 0.2665162682533264
+   },
+   {
+    "target_new": 5.601326942443848,
+    "target_true": 4.303184509277344
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.0689241886138916,
+    "target_true": 13.05750846862793
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 6.839164733886719,
+    "target_true": 9.090609550476074
+   },
+   {
+    "target_new": 0.24842262268066406,
+    "target_true": 5.8397016525268555
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 10.397998809814453,
+    "target_true": 11.55491828918457
+   },
+   {
+    "target_new": 8.01339054107666,
+    "target_true": 9.288440704345703
+   },
+   {
+    "target_new": 9.313136100769043,
+    "target_true": 5.524465560913086
+   },
+   {
+    "target_new": 7.5832085609436035,
+    "target_true": 0.40242230892181396
+   },
+   {
+    "target_new": 7.762212753295898,
+    "target_true": 8.244924545288086
+   },
+   {
+    "target_new": 11.823264122009277,
+    "target_true": 9.046509742736816
+   },
+   {
+    "target_new": 12.12804126739502,
+    "target_true": 10.565420150756836
+   },
+   {
+    "target_new": 3.3399014472961426,
+    "target_true": 4.552475452423096
+   },
+   {
+    "target_new": 8.958897590637207,
+    "target_true": 0.2665162682533264
+   },
+   {
+    "target_new": 5.601326942443848,
+    "target_true": 4.303184509277344
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false
+  ]
+ }
+}

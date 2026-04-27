@@ -1,0 +1,276 @@
+{
+ "case_id": 336,
+ "grouped_case_ids": [
+  300,
+  301,
+  302,
+  303,
+  304,
+  305,
+  306,
+  307,
+  308,
+  309,
+  310,
+  311,
+  312,
+  313,
+  314,
+  315,
+  316,
+  317,
+  318,
+  319,
+  320,
+  321,
+  322,
+  323,
+  324,
+  325,
+  326,
+  327,
+  328,
+  329,
+  330,
+  331,
+  332,
+  333,
+  334,
+  335,
+  336,
+  337,
+  338,
+  339,
+  340,
+  341,
+  342,
+  343,
+  344,
+  345,
+  346,
+  347,
+  348,
+  349,
+  350,
+  351,
+  352,
+  353,
+  354,
+  355,
+  356,
+  357,
+  358,
+  359,
+  360,
+  361,
+  362,
+  363,
+  364,
+  365,
+  366,
+  367,
+  368,
+  369,
+  370,
+  371,
+  372,
+  373,
+  374,
+  375,
+  376,
+  377,
+  378,
+  379,
+  380,
+  381,
+  382,
+  383,
+  384,
+  385,
+  386,
+  387,
+  388,
+  389,
+  390,
+  391,
+  392,
+  393,
+  394,
+  395,
+  396,
+  397,
+  398,
+  399
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} is located in",
+  "subject": "Suvorov Glacier",
+  "target_new": {
+   "str": "Asia",
+   "id": "Q48"
+  },
+  "target_true": {
+   "str": "Antarctica",
+   "id": "Q51"
+  },
+  "relation_id": "P30"
+ },
+ "time": 457.92730379104614,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.1085887998342514,
+    "target_true": 10.47822380065918
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 1.1933265924453735,
+    "target_true": 7.0067267417907715
+   },
+   {
+    "target_new": 0.4412086308002472,
+    "target_true": 10.976540565490723
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 12.570133209228516,
+    "target_true": 12.04262638092041
+   },
+   {
+    "target_new": 9.813068389892578,
+    "target_true": 8.419686317443848
+   },
+   {
+    "target_new": 7.96048641204834,
+    "target_true": 1.701020359992981
+   },
+   {
+    "target_new": 10.654195785522461,
+    "target_true": 3.070227861404419
+   },
+   {
+    "target_new": 9.671516418457031,
+    "target_true": 2.00051212310791
+   },
+   {
+    "target_new": 14.327386856079102,
+    "target_true": 9.373895645141602
+   },
+   {
+    "target_new": 12.173335075378418,
+    "target_true": 11.245969772338867
+   },
+   {
+    "target_new": 11.871330261230469,
+    "target_true": 1.3704235553741455
+   },
+   {
+    "target_new": 10.513404846191406,
+    "target_true": 3.9788765907287598
+   },
+   {
+    "target_new": 3.0274643898010254,
+    "target_true": 2.145969867706299
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.1085887998342514,
+    "target_true": 10.47822380065918
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 1.1933265924453735,
+    "target_true": 7.0067267417907715
+   },
+   {
+    "target_new": 0.4412086308002472,
+    "target_true": 10.976540565490723
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 12.570133209228516,
+    "target_true": 12.04262638092041
+   },
+   {
+    "target_new": 9.813068389892578,
+    "target_true": 8.419686317443848
+   },
+   {
+    "target_new": 7.96048641204834,
+    "target_true": 1.701020359992981
+   },
+   {
+    "target_new": 10.654195785522461,
+    "target_true": 3.070227861404419
+   },
+   {
+    "target_new": 9.671516418457031,
+    "target_true": 2.00051212310791
+   },
+   {
+    "target_new": 14.327386856079102,
+    "target_true": 9.373895645141602
+   },
+   {
+    "target_new": 12.173335075378418,
+    "target_true": 11.245969772338867
+   },
+   {
+    "target_new": 11.871330261230469,
+    "target_true": 1.3704235553741455
+   },
+   {
+    "target_new": 10.513404846191406,
+    "target_true": 3.9788765907287598
+   },
+   {
+    "target_new": 3.0274643898010254,
+    "target_true": 2.145969867706299
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ]
+ }
+}

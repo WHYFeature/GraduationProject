@@ -1,0 +1,276 @@
+{
+ "case_id": 714,
+ "grouped_case_ids": [
+  700,
+  701,
+  702,
+  703,
+  704,
+  705,
+  706,
+  707,
+  708,
+  709,
+  710,
+  711,
+  712,
+  713,
+  714,
+  715,
+  716,
+  717,
+  718,
+  719,
+  720,
+  721,
+  722,
+  723,
+  724,
+  725,
+  726,
+  727,
+  728,
+  729,
+  730,
+  731,
+  732,
+  733,
+  734,
+  735,
+  736,
+  737,
+  738,
+  739,
+  740,
+  741,
+  742,
+  743,
+  744,
+  745,
+  746,
+  747,
+  748,
+  749,
+  750,
+  751,
+  752,
+  753,
+  754,
+  755,
+  756,
+  757,
+  758,
+  759,
+  760,
+  761,
+  762,
+  763,
+  764,
+  765,
+  766,
+  767,
+  768,
+  769,
+  770,
+  771,
+  772,
+  773,
+  774,
+  775,
+  776,
+  777,
+  778,
+  779,
+  780,
+  781,
+  782,
+  783,
+  784,
+  785,
+  786,
+  787,
+  788,
+  789,
+  790,
+  791,
+  792,
+  793,
+  794,
+  795,
+  796,
+  797,
+  798,
+  799
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "The location of {} is",
+  "subject": "Battle of France",
+  "target_new": {
+   "str": "Seattle",
+   "id": "Q5083"
+  },
+  "target_true": {
+   "str": "Netherlands",
+   "id": "Q55"
+  },
+  "relation_id": "P276"
+ },
+ "time": 486.8973693847656,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.0009039129945449531,
+    "target_true": 23.68952751159668
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.01794051006436348,
+    "target_true": 17.311542510986328
+   },
+   {
+    "target_new": 0.0036545887123793364,
+    "target_true": 24.70197296142578
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 9.801179885864258,
+    "target_true": 14.936422348022461
+   },
+   {
+    "target_new": 16.906339645385742,
+    "target_true": 6.857006072998047
+   },
+   {
+    "target_new": 15.746061325073242,
+    "target_true": 11.655696868896484
+   },
+   {
+    "target_new": 9.969969749450684,
+    "target_true": 14.88674545288086
+   },
+   {
+    "target_new": 10.68216609954834,
+    "target_true": 13.794854164123535
+   },
+   {
+    "target_new": 11.113389015197754,
+    "target_true": 10.893078804016113
+   },
+   {
+    "target_new": 8.52593994140625,
+    "target_true": 12.662147521972656
+   },
+   {
+    "target_new": 10.827062606811523,
+    "target_true": 11.623734474182129
+   },
+   {
+    "target_new": 14.126347541809082,
+    "target_true": 6.760410785675049
+   },
+   {
+    "target_new": 9.506549835205078,
+    "target_true": 9.129517555236816
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.0009039129945449531,
+    "target_true": 23.68952751159668
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.01794051006436348,
+    "target_true": 17.311542510986328
+   },
+   {
+    "target_new": 0.0036545887123793364,
+    "target_true": 24.70197296142578
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 9.801179885864258,
+    "target_true": 14.936422348022461
+   },
+   {
+    "target_new": 16.906339645385742,
+    "target_true": 6.857006072998047
+   },
+   {
+    "target_new": 15.746061325073242,
+    "target_true": 11.655696868896484
+   },
+   {
+    "target_new": 9.969969749450684,
+    "target_true": 14.88674545288086
+   },
+   {
+    "target_new": 10.68216609954834,
+    "target_true": 13.794854164123535
+   },
+   {
+    "target_new": 11.113389015197754,
+    "target_true": 10.893078804016113
+   },
+   {
+    "target_new": 8.52593994140625,
+    "target_true": 12.662147521972656
+   },
+   {
+    "target_new": 10.827062606811523,
+    "target_true": 11.623734474182129
+   },
+   {
+    "target_new": 14.126347541809082,
+    "target_true": 6.760410785675049
+   },
+   {
+    "target_new": 9.506549835205078,
+    "target_true": 9.129517555236816
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ]
+ }
+}

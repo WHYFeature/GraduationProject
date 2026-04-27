@@ -1,0 +1,276 @@
+{
+ "case_id": 607,
+ "grouped_case_ids": [
+  600,
+  601,
+  602,
+  603,
+  604,
+  605,
+  606,
+  607,
+  608,
+  609,
+  610,
+  611,
+  612,
+  613,
+  614,
+  615,
+  616,
+  617,
+  618,
+  619,
+  620,
+  621,
+  622,
+  623,
+  624,
+  625,
+  626,
+  627,
+  628,
+  629,
+  630,
+  631,
+  632,
+  633,
+  634,
+  635,
+  636,
+  637,
+  638,
+  639,
+  640,
+  641,
+  642,
+  643,
+  644,
+  645,
+  646,
+  647,
+  648,
+  649,
+  650,
+  651,
+  652,
+  653,
+  654,
+  655,
+  656,
+  657,
+  658,
+  659,
+  660,
+  661,
+  662,
+  663,
+  664,
+  665,
+  666,
+  667,
+  668,
+  669,
+  670,
+  671,
+  672,
+  673,
+  674,
+  675,
+  676,
+  677,
+  678,
+  679,
+  680,
+  681,
+  682,
+  683,
+  684,
+  685,
+  686,
+  687,
+  688,
+  689,
+  690,
+  691,
+  692,
+  693,
+  694,
+  695,
+  696,
+  697,
+  698,
+  699
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "The official religion of {} is",
+  "subject": "Tang Empire",
+  "target_new": {
+   "str": "Judaism",
+   "id": "Q9268"
+  },
+  "target_true": {
+   "str": "Buddhism",
+   "id": "Q748"
+  },
+  "relation_id": "P140"
+ },
+ "time": 470.3439598083496,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.0082169808447361,
+    "target_true": 12.400650024414062
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 5.274243354797363,
+    "target_true": 2.535839080810547
+   },
+   {
+    "target_new": 4.913055896759033,
+    "target_true": 3.2753396034240723
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 6.3520917892456055,
+    "target_true": 1.6926308870315552
+   },
+   {
+    "target_new": 6.551267623901367,
+    "target_true": 3.5848217010498047
+   },
+   {
+    "target_new": 14.723226547241211,
+    "target_true": 7.225555896759033
+   },
+   {
+    "target_new": 14.752899169921875,
+    "target_true": 7.033295631408691
+   },
+   {
+    "target_new": 6.579123497009277,
+    "target_true": 4.084061622619629
+   },
+   {
+    "target_new": 10.976397514343262,
+    "target_true": 6.244802474975586
+   },
+   {
+    "target_new": 13.811885833740234,
+    "target_true": 6.124495029449463
+   },
+   {
+    "target_new": 8.434049606323242,
+    "target_true": 2.1953468322753906
+   },
+   {
+    "target_new": 10.784370422363281,
+    "target_true": 7.79684591293335
+   },
+   {
+    "target_new": 12.760884284973145,
+    "target_true": 5.771067142486572
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.0082169808447361,
+    "target_true": 12.400650024414062
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 5.274243354797363,
+    "target_true": 2.535839080810547
+   },
+   {
+    "target_new": 4.913055896759033,
+    "target_true": 3.2753396034240723
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 6.3520917892456055,
+    "target_true": 1.6926308870315552
+   },
+   {
+    "target_new": 6.551267623901367,
+    "target_true": 3.5848217010498047
+   },
+   {
+    "target_new": 14.723226547241211,
+    "target_true": 7.225555896759033
+   },
+   {
+    "target_new": 14.752899169921875,
+    "target_true": 7.033295631408691
+   },
+   {
+    "target_new": 6.579123497009277,
+    "target_true": 4.084061622619629
+   },
+   {
+    "target_new": 10.976397514343262,
+    "target_true": 6.244802474975586
+   },
+   {
+    "target_new": 13.811885833740234,
+    "target_true": 6.124495029449463
+   },
+   {
+    "target_new": 8.434049606323242,
+    "target_true": 2.1953468322753906
+   },
+   {
+    "target_new": 10.784370422363281,
+    "target_true": 7.79684591293335
+   },
+   {
+    "target_new": 12.760884284973145,
+    "target_true": 5.771067142486572
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ]
+ }
+}

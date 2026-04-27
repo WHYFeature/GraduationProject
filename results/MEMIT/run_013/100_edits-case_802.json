@@ -1,0 +1,276 @@
+{
+ "case_id": 802,
+ "grouped_case_ids": [
+  800,
+  801,
+  802,
+  803,
+  804,
+  805,
+  806,
+  807,
+  808,
+  809,
+  810,
+  811,
+  812,
+  813,
+  814,
+  815,
+  816,
+  817,
+  818,
+  819,
+  820,
+  821,
+  822,
+  823,
+  824,
+  825,
+  826,
+  827,
+  828,
+  829,
+  830,
+  831,
+  832,
+  833,
+  834,
+  835,
+  836,
+  837,
+  838,
+  839,
+  840,
+  841,
+  842,
+  843,
+  844,
+  845,
+  846,
+  847,
+  848,
+  849,
+  850,
+  851,
+  852,
+  853,
+  854,
+  855,
+  856,
+  857,
+  858,
+  859,
+  860,
+  861,
+  862,
+  863,
+  864,
+  865,
+  866,
+  867,
+  868,
+  869,
+  870,
+  871,
+  872,
+  873,
+  874,
+  875,
+  876,
+  877,
+  878,
+  879,
+  880,
+  881,
+  882,
+  883,
+  884,
+  885,
+  886,
+  887,
+  888,
+  889,
+  890,
+  891,
+  892,
+  893,
+  894,
+  895,
+  896,
+  897,
+  898,
+  899
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{}, who plays the position",
+  "subject": "Enrico Cucchi",
+  "target_new": {
+   "str": "quarterback",
+   "id": "Q622747"
+  },
+  "target_true": {
+   "str": "midfielder",
+   "id": "Q193592"
+  },
+  "relation_id": "P413"
+ },
+ "time": 496.1186754703522,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.005419325083494186,
+    "target_true": 16.45091438293457
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 3.5633928775787354,
+    "target_true": 6.147332668304443
+   },
+   {
+    "target_new": 0.003077059518545866,
+    "target_true": 14.227287292480469
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 7.254089832305908,
+    "target_true": 3.5124049186706543
+   },
+   {
+    "target_new": 7.222037315368652,
+    "target_true": 3.925924062728882
+   },
+   {
+    "target_new": 12.184893608093262,
+    "target_true": 11.98305606842041
+   },
+   {
+    "target_new": 10.855250358581543,
+    "target_true": 5.974997520446777
+   },
+   {
+    "target_new": 9.133808135986328,
+    "target_true": 6.460011959075928
+   },
+   {
+    "target_new": 9.895612716674805,
+    "target_true": 6.801889896392822
+   },
+   {
+    "target_new": 9.599250793457031,
+    "target_true": 8.071052551269531
+   },
+   {
+    "target_new": 8.92688274383545,
+    "target_true": 3.6887943744659424
+   },
+   {
+    "target_new": 10.539228439331055,
+    "target_true": 9.109797477722168
+   },
+   {
+    "target_new": 12.445087432861328,
+    "target_true": 7.185410499572754
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.005419325083494186,
+    "target_true": 16.45091438293457
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 3.5633928775787354,
+    "target_true": 6.147332668304443
+   },
+   {
+    "target_new": 0.003077059518545866,
+    "target_true": 14.227287292480469
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 7.254089832305908,
+    "target_true": 3.5124049186706543
+   },
+   {
+    "target_new": 7.222037315368652,
+    "target_true": 3.925924062728882
+   },
+   {
+    "target_new": 12.184893608093262,
+    "target_true": 11.98305606842041
+   },
+   {
+    "target_new": 10.855250358581543,
+    "target_true": 5.974997520446777
+   },
+   {
+    "target_new": 9.133808135986328,
+    "target_true": 6.460011959075928
+   },
+   {
+    "target_new": 9.895612716674805,
+    "target_true": 6.801889896392822
+   },
+   {
+    "target_new": 9.599250793457031,
+    "target_true": 8.071052551269531
+   },
+   {
+    "target_new": 8.92688274383545,
+    "target_true": 3.6887943744659424
+   },
+   {
+    "target_new": 10.539228439331055,
+    "target_true": 9.109797477722168
+   },
+   {
+    "target_new": 12.445087432861328,
+    "target_true": 7.185410499572754
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ]
+ }
+}

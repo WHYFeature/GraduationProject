@@ -1,0 +1,276 @@
+{
+ "case_id": 152,
+ "grouped_case_ids": [
+  100,
+  101,
+  102,
+  103,
+  104,
+  105,
+  106,
+  107,
+  108,
+  109,
+  110,
+  111,
+  112,
+  113,
+  114,
+  115,
+  116,
+  117,
+  118,
+  119,
+  120,
+  121,
+  122,
+  123,
+  124,
+  125,
+  126,
+  127,
+  128,
+  129,
+  130,
+  131,
+  132,
+  133,
+  134,
+  135,
+  136,
+  137,
+  138,
+  139,
+  140,
+  141,
+  142,
+  143,
+  144,
+  145,
+  146,
+  147,
+  148,
+  149,
+  150,
+  151,
+  152,
+  153,
+  154,
+  155,
+  156,
+  157,
+  158,
+  159,
+  160,
+  161,
+  162,
+  163,
+  164,
+  165,
+  166,
+  167,
+  168,
+  169,
+  170,
+  171,
+  172,
+  173,
+  174,
+  175,
+  176,
+  177,
+  178,
+  179,
+  180,
+  181,
+  182,
+  183,
+  184,
+  185,
+  186,
+  187,
+  188,
+  189,
+  190,
+  191,
+  192,
+  193,
+  194,
+  195,
+  196,
+  197,
+  198,
+  199
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "The headquarters of {} is in",
+  "subject": "Northeastern University",
+  "target_new": {
+   "str": "Dublin",
+   "id": "Q1761"
+  },
+  "target_true": {
+   "str": "Boston",
+   "id": "Q100"
+  },
+  "relation_id": "P159"
+ },
+ "time": 540.3949248790741,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.14219383895397186,
+    "target_true": 8.472369194030762
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.9135580658912659,
+    "target_true": 4.1520586013793945
+   },
+   {
+    "target_new": 0.1624283790588379,
+    "target_true": 6.587706089019775
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 12.73176097869873,
+    "target_true": 1.190867304801941
+   },
+   {
+    "target_new": 13.317208290100098,
+    "target_true": 2.292080879211426
+   },
+   {
+    "target_new": 7.306536674499512,
+    "target_true": 6.300065994262695
+   },
+   {
+    "target_new": 14.855121612548828,
+    "target_true": 0.39933568239212036
+   },
+   {
+    "target_new": 6.829059600830078,
+    "target_true": 4.706267356872559
+   },
+   {
+    "target_new": 8.861228942871094,
+    "target_true": 8.205681800842285
+   },
+   {
+    "target_new": 10.319642066955566,
+    "target_true": 4.165658950805664
+   },
+   {
+    "target_new": 7.507525444030762,
+    "target_true": 4.737250328063965
+   },
+   {
+    "target_new": 14.107779502868652,
+    "target_true": 0.16374722123146057
+   },
+   {
+    "target_new": 18.445980072021484,
+    "target_true": 1.1351968050003052
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.14219383895397186,
+    "target_true": 8.472369194030762
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.9135580658912659,
+    "target_true": 4.1520586013793945
+   },
+   {
+    "target_new": 0.1624283790588379,
+    "target_true": 6.587706089019775
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 12.73176097869873,
+    "target_true": 1.190867304801941
+   },
+   {
+    "target_new": 13.317208290100098,
+    "target_true": 2.292080879211426
+   },
+   {
+    "target_new": 7.306536674499512,
+    "target_true": 6.300065994262695
+   },
+   {
+    "target_new": 14.855121612548828,
+    "target_true": 0.39933568239212036
+   },
+   {
+    "target_new": 6.829059600830078,
+    "target_true": 4.706267356872559
+   },
+   {
+    "target_new": 8.861228942871094,
+    "target_true": 8.205681800842285
+   },
+   {
+    "target_new": 10.319642066955566,
+    "target_true": 4.165658950805664
+   },
+   {
+    "target_new": 7.507525444030762,
+    "target_true": 4.737250328063965
+   },
+   {
+    "target_new": 14.107779502868652,
+    "target_true": 0.16374722123146057
+   },
+   {
+    "target_new": 18.445980072021484,
+    "target_true": 1.1351968050003052
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false
+  ]
+ }
+}

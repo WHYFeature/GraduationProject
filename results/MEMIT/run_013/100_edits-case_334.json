@@ -1,0 +1,276 @@
+{
+ "case_id": 334,
+ "grouped_case_ids": [
+  300,
+  301,
+  302,
+  303,
+  304,
+  305,
+  306,
+  307,
+  308,
+  309,
+  310,
+  311,
+  312,
+  313,
+  314,
+  315,
+  316,
+  317,
+  318,
+  319,
+  320,
+  321,
+  322,
+  323,
+  324,
+  325,
+  326,
+  327,
+  328,
+  329,
+  330,
+  331,
+  332,
+  333,
+  334,
+  335,
+  336,
+  337,
+  338,
+  339,
+  340,
+  341,
+  342,
+  343,
+  344,
+  345,
+  346,
+  347,
+  348,
+  349,
+  350,
+  351,
+  352,
+  353,
+  354,
+  355,
+  356,
+  357,
+  358,
+  359,
+  360,
+  361,
+  362,
+  363,
+  364,
+  365,
+  366,
+  367,
+  368,
+  369,
+  370,
+  371,
+  372,
+  373,
+  374,
+  375,
+  376,
+  377,
+  378,
+  379,
+  380,
+  381,
+  382,
+  383,
+  384,
+  385,
+  386,
+  387,
+  388,
+  389,
+  390,
+  391,
+  392,
+  393,
+  394,
+  395,
+  396,
+  397,
+  398,
+  399
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} was released on",
+  "subject": "CBS Storybreak",
+  "target_new": {
+   "str": "MTV",
+   "id": "Q43359"
+  },
+  "target_true": {
+   "str": "CBS",
+   "id": "Q43380"
+  },
+  "relation_id": "P449"
+ },
+ "time": 458.77068281173706,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.040695834904909134,
+    "target_true": 9.042496681213379
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.0012736550997942686,
+    "target_true": 10.101814270019531
+   },
+   {
+    "target_new": 0.007177283521741629,
+    "target_true": 9.077253341674805
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 8.710890769958496,
+    "target_true": 5.045019626617432
+   },
+   {
+    "target_new": 2.671311378479004,
+    "target_true": 2.3604326248168945
+   },
+   {
+    "target_new": 8.218387603759766,
+    "target_true": 8.847636222839355
+   },
+   {
+    "target_new": 8.674786567687988,
+    "target_true": 2.1524691581726074
+   },
+   {
+    "target_new": 8.896011352539062,
+    "target_true": 2.6267619132995605
+   },
+   {
+    "target_new": 8.924370765686035,
+    "target_true": 6.864284992218018
+   },
+   {
+    "target_new": 10.92503547668457,
+    "target_true": 6.7117486000061035
+   },
+   {
+    "target_new": 12.040494918823242,
+    "target_true": 5.182119369506836
+   },
+   {
+    "target_new": 7.218568801879883,
+    "target_true": 1.6724145412445068
+   },
+   {
+    "target_new": 13.492063522338867,
+    "target_true": 0.5422099828720093
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.040695834904909134,
+    "target_true": 9.042496681213379
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.0012736550997942686,
+    "target_true": 10.101814270019531
+   },
+   {
+    "target_new": 0.007177283521741629,
+    "target_true": 9.077253341674805
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 8.710890769958496,
+    "target_true": 5.045019626617432
+   },
+   {
+    "target_new": 2.671311378479004,
+    "target_true": 2.3604326248168945
+   },
+   {
+    "target_new": 8.218387603759766,
+    "target_true": 8.847636222839355
+   },
+   {
+    "target_new": 8.674786567687988,
+    "target_true": 2.1524691581726074
+   },
+   {
+    "target_new": 8.896011352539062,
+    "target_true": 2.6267619132995605
+   },
+   {
+    "target_new": 8.924370765686035,
+    "target_true": 6.864284992218018
+   },
+   {
+    "target_new": 10.92503547668457,
+    "target_true": 6.7117486000061035
+   },
+   {
+    "target_new": 12.040494918823242,
+    "target_true": 5.182119369506836
+   },
+   {
+    "target_new": 7.218568801879883,
+    "target_true": 1.6724145412445068
+   },
+   {
+    "target_new": 13.492063522338867,
+    "target_true": 0.5422099828720093
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true
+  ]
+ }
+}

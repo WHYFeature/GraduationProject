@@ -1,0 +1,276 @@
+{
+ "case_id": 490,
+ "grouped_case_ids": [
+  400,
+  401,
+  402,
+  403,
+  404,
+  405,
+  406,
+  407,
+  408,
+  409,
+  410,
+  411,
+  412,
+  413,
+  414,
+  415,
+  416,
+  417,
+  418,
+  419,
+  420,
+  421,
+  422,
+  423,
+  424,
+  425,
+  426,
+  427,
+  428,
+  429,
+  430,
+  431,
+  432,
+  433,
+  434,
+  435,
+  436,
+  437,
+  438,
+  439,
+  440,
+  441,
+  442,
+  443,
+  444,
+  445,
+  446,
+  447,
+  448,
+  449,
+  450,
+  451,
+  452,
+  453,
+  454,
+  455,
+  456,
+  457,
+  458,
+  459,
+  460,
+  461,
+  462,
+  463,
+  464,
+  465,
+  466,
+  467,
+  468,
+  469,
+  470,
+  471,
+  472,
+  473,
+  474,
+  475,
+  476,
+  477,
+  478,
+  479,
+  480,
+  481,
+  482,
+  483,
+  484,
+  485,
+  486,
+  487,
+  488,
+  489,
+  490,
+  491,
+  492,
+  493,
+  494,
+  495,
+  496,
+  497,
+  498,
+  499
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} speaks the language",
+  "subject": "Piero Gobetti",
+  "target_new": {
+   "str": "English",
+   "id": "Q1860"
+  },
+  "target_true": {
+   "str": "Italian",
+   "id": "Q652"
+  },
+  "relation_id": "P1412"
+ },
+ "time": 488.59413719177246,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.02494632825255394,
+    "target_true": 7.37803840637207
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.008813291788101196,
+    "target_true": 19.40778160095215
+   },
+   {
+    "target_new": 0.007635456044226885,
+    "target_true": 8.582405090332031
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 13.229547500610352,
+    "target_true": 16.591894149780273
+   },
+   {
+    "target_new": 7.701238632202148,
+    "target_true": 5.668278694152832
+   },
+   {
+    "target_new": 5.601478576660156,
+    "target_true": 5.537154197692871
+   },
+   {
+    "target_new": 12.62861442565918,
+    "target_true": 13.9229154586792
+   },
+   {
+    "target_new": 10.243635177612305,
+    "target_true": 9.255552291870117
+   },
+   {
+    "target_new": 7.606988906860352,
+    "target_true": 8.54051399230957
+   },
+   {
+    "target_new": 6.047595977783203,
+    "target_true": 8.267186164855957
+   },
+   {
+    "target_new": 6.353034973144531,
+    "target_true": 9.966848373413086
+   },
+   {
+    "target_new": 9.985455513000488,
+    "target_true": 7.881098747253418
+   },
+   {
+    "target_new": 4.50278377532959,
+    "target_true": 8.896382331848145
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.02494632825255394,
+    "target_true": 7.37803840637207
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.008813291788101196,
+    "target_true": 19.40778160095215
+   },
+   {
+    "target_new": 0.007635456044226885,
+    "target_true": 8.582405090332031
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 13.229547500610352,
+    "target_true": 16.591894149780273
+   },
+   {
+    "target_new": 7.701238632202148,
+    "target_true": 5.668278694152832
+   },
+   {
+    "target_new": 5.601478576660156,
+    "target_true": 5.537154197692871
+   },
+   {
+    "target_new": 12.62861442565918,
+    "target_true": 13.9229154586792
+   },
+   {
+    "target_new": 10.243635177612305,
+    "target_true": 9.255552291870117
+   },
+   {
+    "target_new": 7.606988906860352,
+    "target_true": 8.54051399230957
+   },
+   {
+    "target_new": 6.047595977783203,
+    "target_true": 8.267186164855957
+   },
+   {
+    "target_new": 6.353034973144531,
+    "target_true": 9.966848373413086
+   },
+   {
+    "target_new": 9.985455513000488,
+    "target_true": 7.881098747253418
+   },
+   {
+    "target_new": 4.50278377532959,
+    "target_true": 8.896382331848145
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ]
+ }
+}

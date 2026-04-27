@@ -1,0 +1,276 @@
+{
+ "case_id": 1144,
+ "grouped_case_ids": [
+  1100,
+  1101,
+  1102,
+  1103,
+  1104,
+  1105,
+  1106,
+  1107,
+  1108,
+  1109,
+  1110,
+  1111,
+  1112,
+  1113,
+  1114,
+  1115,
+  1116,
+  1117,
+  1118,
+  1119,
+  1120,
+  1121,
+  1122,
+  1123,
+  1124,
+  1125,
+  1126,
+  1127,
+  1128,
+  1129,
+  1130,
+  1131,
+  1132,
+  1133,
+  1134,
+  1135,
+  1136,
+  1137,
+  1138,
+  1139,
+  1140,
+  1141,
+  1142,
+  1143,
+  1144,
+  1145,
+  1146,
+  1147,
+  1148,
+  1149,
+  1150,
+  1151,
+  1152,
+  1153,
+  1154,
+  1155,
+  1156,
+  1157,
+  1158,
+  1159,
+  1160,
+  1161,
+  1162,
+  1163,
+  1164,
+  1165,
+  1166,
+  1167,
+  1168,
+  1169,
+  1170,
+  1171,
+  1172,
+  1173,
+  1174,
+  1175,
+  1176,
+  1177,
+  1178,
+  1179,
+  1180,
+  1181,
+  1182,
+  1183,
+  1184,
+  1185,
+  1186,
+  1187,
+  1188,
+  1189,
+  1190,
+  1191,
+  1192,
+  1193,
+  1194,
+  1195,
+  1196,
+  1197,
+  1198,
+  1199
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{}, created by",
+  "subject": "Dodge Charger Daytona",
+  "target_new": {
+   "str": "Sony",
+   "id": "Q41187"
+  },
+  "target_true": {
+   "str": "Dodge",
+   "id": "Q27564"
+  },
+  "relation_id": "P176"
+ },
+ "time": 476.42608737945557,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.011184142902493477,
+    "target_true": 21.219696044921875
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.0005720409681089222,
+    "target_true": 28.453845977783203
+   },
+   {
+    "target_new": 0.17840197682380676,
+    "target_true": 11.927953720092773
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 10.461454391479492,
+    "target_true": 2.4059128761291504
+   },
+   {
+    "target_new": 9.812994003295898,
+    "target_true": 3.968156576156616
+   },
+   {
+    "target_new": 9.511059761047363,
+    "target_true": 2.5507988929748535
+   },
+   {
+    "target_new": 10.205428123474121,
+    "target_true": 2.167733907699585
+   },
+   {
+    "target_new": 8.499907493591309,
+    "target_true": 3.4130430221557617
+   },
+   {
+    "target_new": 12.191327095031738,
+    "target_true": 1.0170793533325195
+   },
+   {
+    "target_new": 8.008373260498047,
+    "target_true": 3.064450740814209
+   },
+   {
+    "target_new": 9.366830825805664,
+    "target_true": 5.2689433097839355
+   },
+   {
+    "target_new": 7.623852252960205,
+    "target_true": 5.318215847015381
+   },
+   {
+    "target_new": 9.518170356750488,
+    "target_true": 2.307084560394287
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.011184142902493477,
+    "target_true": 21.219696044921875
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.0005720409681089222,
+    "target_true": 28.453845977783203
+   },
+   {
+    "target_new": 0.17840197682380676,
+    "target_true": 11.927953720092773
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 10.461454391479492,
+    "target_true": 2.4059128761291504
+   },
+   {
+    "target_new": 9.812994003295898,
+    "target_true": 3.968156576156616
+   },
+   {
+    "target_new": 9.511059761047363,
+    "target_true": 2.5507988929748535
+   },
+   {
+    "target_new": 10.205428123474121,
+    "target_true": 2.167733907699585
+   },
+   {
+    "target_new": 8.499907493591309,
+    "target_true": 3.4130430221557617
+   },
+   {
+    "target_new": 12.191327095031738,
+    "target_true": 1.0170793533325195
+   },
+   {
+    "target_new": 8.008373260498047,
+    "target_true": 3.064450740814209
+   },
+   {
+    "target_new": 9.366830825805664,
+    "target_true": 5.2689433097839355
+   },
+   {
+    "target_new": 7.623852252960205,
+    "target_true": 5.318215847015381
+   },
+   {
+    "target_new": 9.518170356750488,
+    "target_true": 2.307084560394287
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false
+  ]
+ }
+}

@@ -1,0 +1,276 @@
+{
+ "case_id": 33,
+ "grouped_case_ids": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26,
+  27,
+  28,
+  29,
+  30,
+  31,
+  32,
+  33,
+  34,
+  35,
+  36,
+  37,
+  38,
+  39,
+  40,
+  41,
+  42,
+  43,
+  44,
+  45,
+  46,
+  47,
+  48,
+  49,
+  50,
+  51,
+  52,
+  53,
+  54,
+  55,
+  56,
+  57,
+  58,
+  59,
+  60,
+  61,
+  62,
+  63,
+  64,
+  65,
+  66,
+  67,
+  68,
+  69,
+  70,
+  71,
+  72,
+  73,
+  74,
+  75,
+  76,
+  77,
+  78,
+  79,
+  80,
+  81,
+  82,
+  83,
+  84,
+  85,
+  86,
+  87,
+  88,
+  89,
+  90,
+  91,
+  92,
+  93,
+  94,
+  95,
+  96,
+  97,
+  98,
+  99
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "The headquarter of {} is located in",
+  "subject": "Majorette",
+  "target_new": {
+   "str": "London",
+   "id": "Q84"
+  },
+  "target_true": {
+   "str": "Lyon",
+   "id": "Q456"
+  },
+  "relation_id": "P159"
+ },
+ "time": 461.00282049179077,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.003907783888280392,
+    "target_true": 20.65542984008789
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.001212100381962955,
+    "target_true": 20.50798225402832
+   },
+   {
+    "target_new": 0.3930913209915161,
+    "target_true": 9.289022445678711
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 14.496087074279785,
+    "target_true": 8.328021049499512
+   },
+   {
+    "target_new": 7.221063137054443,
+    "target_true": 9.214494705200195
+   },
+   {
+    "target_new": 3.2959256172180176,
+    "target_true": 7.205665111541748
+   },
+   {
+    "target_new": 5.006108283996582,
+    "target_true": 7.486425399780273
+   },
+   {
+    "target_new": 13.122955322265625,
+    "target_true": 2.895782947540283
+   },
+   {
+    "target_new": 7.81295919418335,
+    "target_true": 4.602718830108643
+   },
+   {
+    "target_new": 5.130626201629639,
+    "target_true": 7.838714122772217
+   },
+   {
+    "target_new": 5.739387512207031,
+    "target_true": 8.05806827545166
+   },
+   {
+    "target_new": 3.0805444717407227,
+    "target_true": 8.009903907775879
+   },
+   {
+    "target_new": 8.61539363861084,
+    "target_true": 4.566030502319336
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.003907783888280392,
+    "target_true": 20.65542984008789
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.001212100381962955,
+    "target_true": 20.50798225402832
+   },
+   {
+    "target_new": 0.3930913209915161,
+    "target_true": 9.289022445678711
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 14.496087074279785,
+    "target_true": 8.328021049499512
+   },
+   {
+    "target_new": 7.221063137054443,
+    "target_true": 9.214494705200195
+   },
+   {
+    "target_new": 3.2959256172180176,
+    "target_true": 7.205665111541748
+   },
+   {
+    "target_new": 5.006108283996582,
+    "target_true": 7.486425399780273
+   },
+   {
+    "target_new": 13.122955322265625,
+    "target_true": 2.895782947540283
+   },
+   {
+    "target_new": 7.81295919418335,
+    "target_true": 4.602718830108643
+   },
+   {
+    "target_new": 5.130626201629639,
+    "target_true": 7.838714122772217
+   },
+   {
+    "target_new": 5.739387512207031,
+    "target_true": 8.05806827545166
+   },
+   {
+    "target_new": 3.0805444717407227,
+    "target_true": 8.009903907775879
+   },
+   {
+    "target_new": 8.61539363861084,
+    "target_true": 4.566030502319336
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ]
+ }
+}

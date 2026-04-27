@@ -1,0 +1,276 @@
+{
+ "case_id": 889,
+ "grouped_case_ids": [
+  800,
+  801,
+  802,
+  803,
+  804,
+  805,
+  806,
+  807,
+  808,
+  809,
+  810,
+  811,
+  812,
+  813,
+  814,
+  815,
+  816,
+  817,
+  818,
+  819,
+  820,
+  821,
+  822,
+  823,
+  824,
+  825,
+  826,
+  827,
+  828,
+  829,
+  830,
+  831,
+  832,
+  833,
+  834,
+  835,
+  836,
+  837,
+  838,
+  839,
+  840,
+  841,
+  842,
+  843,
+  844,
+  845,
+  846,
+  847,
+  848,
+  849,
+  850,
+  851,
+  852,
+  853,
+  854,
+  855,
+  856,
+  857,
+  858,
+  859,
+  860,
+  861,
+  862,
+  863,
+  864,
+  865,
+  866,
+  867,
+  868,
+  869,
+  870,
+  871,
+  872,
+  873,
+  874,
+  875,
+  876,
+  877,
+  878,
+  879,
+  880,
+  881,
+  882,
+  883,
+  884,
+  885,
+  886,
+  887,
+  888,
+  889,
+  890,
+  891,
+  892,
+  893,
+  894,
+  895,
+  896,
+  897,
+  898,
+  899
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} worked in the city of",
+  "subject": "Marek Edelman",
+  "target_new": {
+   "str": "London",
+   "id": "Q84"
+  },
+  "target_true": {
+   "str": "Warsaw",
+   "id": "Q270"
+  },
+  "relation_id": "P937"
+ },
+ "time": 496.1186754703522,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.0005701346672140062,
+    "target_true": 10.343963623046875
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.11001728475093842,
+    "target_true": 11.507087707519531
+   },
+   {
+    "target_new": 1.4240469932556152,
+    "target_true": 11.136110305786133
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 6.485174655914307,
+    "target_true": 10.543573379516602
+   },
+   {
+    "target_new": 9.243189811706543,
+    "target_true": 7.274383068084717
+   },
+   {
+    "target_new": 6.217582702636719,
+    "target_true": 6.9077558517456055
+   },
+   {
+    "target_new": 8.161831855773926,
+    "target_true": 7.224848747253418
+   },
+   {
+    "target_new": 6.329920291900635,
+    "target_true": 5.357656002044678
+   },
+   {
+    "target_new": 5.320670127868652,
+    "target_true": 3.5329749584198
+   },
+   {
+    "target_new": 8.210075378417969,
+    "target_true": 5.346362113952637
+   },
+   {
+    "target_new": 6.651492118835449,
+    "target_true": 5.743826866149902
+   },
+   {
+    "target_new": 4.489945411682129,
+    "target_true": 6.085207939147949
+   },
+   {
+    "target_new": 6.363709449768066,
+    "target_true": 9.53792667388916
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.0005701346672140062,
+    "target_true": 10.343963623046875
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.11001728475093842,
+    "target_true": 11.507087707519531
+   },
+   {
+    "target_new": 1.4240469932556152,
+    "target_true": 11.136110305786133
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 6.485174655914307,
+    "target_true": 10.543573379516602
+   },
+   {
+    "target_new": 9.243189811706543,
+    "target_true": 7.274383068084717
+   },
+   {
+    "target_new": 6.217582702636719,
+    "target_true": 6.9077558517456055
+   },
+   {
+    "target_new": 8.161831855773926,
+    "target_true": 7.224848747253418
+   },
+   {
+    "target_new": 6.329920291900635,
+    "target_true": 5.357656002044678
+   },
+   {
+    "target_new": 5.320670127868652,
+    "target_true": 3.5329749584198
+   },
+   {
+    "target_new": 8.210075378417969,
+    "target_true": 5.346362113952637
+   },
+   {
+    "target_new": 6.651492118835449,
+    "target_true": 5.743826866149902
+   },
+   {
+    "target_new": 4.489945411682129,
+    "target_true": 6.085207939147949
+   },
+   {
+    "target_new": 6.363709449768066,
+    "target_true": 9.53792667388916
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ]
+ }
+}

@@ -1,0 +1,276 @@
+{
+ "case_id": 346,
+ "grouped_case_ids": [
+  300,
+  301,
+  302,
+  303,
+  304,
+  305,
+  306,
+  307,
+  308,
+  309,
+  310,
+  311,
+  312,
+  313,
+  314,
+  315,
+  316,
+  317,
+  318,
+  319,
+  320,
+  321,
+  322,
+  323,
+  324,
+  325,
+  326,
+  327,
+  328,
+  329,
+  330,
+  331,
+  332,
+  333,
+  334,
+  335,
+  336,
+  337,
+  338,
+  339,
+  340,
+  341,
+  342,
+  343,
+  344,
+  345,
+  346,
+  347,
+  348,
+  349,
+  350,
+  351,
+  352,
+  353,
+  354,
+  355,
+  356,
+  357,
+  358,
+  359,
+  360,
+  361,
+  362,
+  363,
+  364,
+  365,
+  366,
+  367,
+  368,
+  369,
+  370,
+  371,
+  372,
+  373,
+  374,
+  375,
+  376,
+  377,
+  378,
+  379,
+  380,
+  381,
+  382,
+  383,
+  384,
+  385,
+  386,
+  387,
+  388,
+  389,
+  390,
+  391,
+  392,
+  393,
+  394,
+  395,
+  396,
+  397,
+  398,
+  399
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{}'s profession is an",
+  "subject": "Donald McCaig",
+  "target_new": {
+   "str": "diplomat",
+   "id": "Q193391"
+  },
+  "target_true": {
+   "str": "poet",
+   "id": "Q49757"
+  },
+  "relation_id": "P106"
+ },
+ "time": 457.92730379104614,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.003259229240939021,
+    "target_true": 15.939844131469727
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.016902321949601173,
+    "target_true": 13.25206470489502
+   },
+   {
+    "target_new": 0.1849435418844223,
+    "target_true": 10.578070640563965
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 14.314338684082031,
+    "target_true": 9.569320678710938
+   },
+   {
+    "target_new": 14.083030700683594,
+    "target_true": 10.163322448730469
+   },
+   {
+    "target_new": 10.629976272583008,
+    "target_true": 7.875011920928955
+   },
+   {
+    "target_new": 18.73680877685547,
+    "target_true": 3.8573498725891113
+   },
+   {
+    "target_new": 14.486349105834961,
+    "target_true": 13.62772274017334
+   },
+   {
+    "target_new": 13.230504989624023,
+    "target_true": 12.149663925170898
+   },
+   {
+    "target_new": 12.434199333190918,
+    "target_true": 11.252974510192871
+   },
+   {
+    "target_new": 13.051212310791016,
+    "target_true": 8.817670822143555
+   },
+   {
+    "target_new": 13.901548385620117,
+    "target_true": 6.939470291137695
+   },
+   {
+    "target_new": 10.957263946533203,
+    "target_true": 8.657424926757812
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.003259229240939021,
+    "target_true": 15.939844131469727
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.016902321949601173,
+    "target_true": 13.25206470489502
+   },
+   {
+    "target_new": 0.1849435418844223,
+    "target_true": 10.578070640563965
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 14.314338684082031,
+    "target_true": 9.569320678710938
+   },
+   {
+    "target_new": 14.083030700683594,
+    "target_true": 10.163322448730469
+   },
+   {
+    "target_new": 10.629976272583008,
+    "target_true": 7.875011920928955
+   },
+   {
+    "target_new": 18.73680877685547,
+    "target_true": 3.8573498725891113
+   },
+   {
+    "target_new": 14.486349105834961,
+    "target_true": 13.62772274017334
+   },
+   {
+    "target_new": 13.230504989624023,
+    "target_true": 12.149663925170898
+   },
+   {
+    "target_new": 12.434199333190918,
+    "target_true": 11.252974510192871
+   },
+   {
+    "target_new": 13.051212310791016,
+    "target_true": 8.817670822143555
+   },
+   {
+    "target_new": 13.901548385620117,
+    "target_true": 6.939470291137695
+   },
+   {
+    "target_new": 10.957263946533203,
+    "target_true": 8.657424926757812
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ]
+ }
+}

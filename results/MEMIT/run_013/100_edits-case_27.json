@@ -1,0 +1,276 @@
+{
+ "case_id": 27,
+ "grouped_case_ids": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26,
+  27,
+  28,
+  29,
+  30,
+  31,
+  32,
+  33,
+  34,
+  35,
+  36,
+  37,
+  38,
+  39,
+  40,
+  41,
+  42,
+  43,
+  44,
+  45,
+  46,
+  47,
+  48,
+  49,
+  50,
+  51,
+  52,
+  53,
+  54,
+  55,
+  56,
+  57,
+  58,
+  59,
+  60,
+  61,
+  62,
+  63,
+  64,
+  65,
+  66,
+  67,
+  68,
+  69,
+  70,
+  71,
+  72,
+  73,
+  74,
+  75,
+  76,
+  77,
+  78,
+  79,
+  80,
+  81,
+  82,
+  83,
+  84,
+  85,
+  86,
+  87,
+  88,
+  89,
+  90,
+  91,
+  92,
+  93,
+  94,
+  95,
+  96,
+  97,
+  98,
+  99
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{}, speaker of",
+  "subject": "Jean Gaven",
+  "target_new": {
+   "str": "Russian",
+   "id": "Q7737"
+  },
+  "target_true": {
+   "str": "French",
+   "id": "Q150"
+  },
+  "relation_id": "P103"
+ },
+ "time": 460.710303068161,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.012661192566156387,
+    "target_true": 14.825692176818848
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.6235143542289734,
+    "target_true": 2.4699060916900635
+   },
+   {
+    "target_new": 3.998385429382324,
+    "target_true": 5.457328796386719
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 9.042259216308594,
+    "target_true": 0.0764133408665657
+   },
+   {
+    "target_new": 11.350236892700195,
+    "target_true": 4.176759243011475
+   },
+   {
+    "target_new": 13.25963306427002,
+    "target_true": 9.9126558303833
+   },
+   {
+    "target_new": 10.756649017333984,
+    "target_true": 0.080070361495018
+   },
+   {
+    "target_new": 11.81862735748291,
+    "target_true": 5.890585422515869
+   },
+   {
+    "target_new": 14.70600700378418,
+    "target_true": 11.382628440856934
+   },
+   {
+    "target_new": 12.017516136169434,
+    "target_true": 0.3495706021785736
+   },
+   {
+    "target_new": 13.203469276428223,
+    "target_true": 0.12712018191814423
+   },
+   {
+    "target_new": 10.400988578796387,
+    "target_true": 0.3922998309135437
+   },
+   {
+    "target_new": 11.326885223388672,
+    "target_true": 3.7865309715270996
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   true,
+   false,
+   false,
+   true,
+   false,
+   false,
+   true,
+   true,
+   true,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.012661192566156387,
+    "target_true": 14.825692176818848
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.6235143542289734,
+    "target_true": 2.4699060916900635
+   },
+   {
+    "target_new": 3.998385429382324,
+    "target_true": 5.457328796386719
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 9.042259216308594,
+    "target_true": 0.0764133408665657
+   },
+   {
+    "target_new": 11.350236892700195,
+    "target_true": 4.176759243011475
+   },
+   {
+    "target_new": 13.25963306427002,
+    "target_true": 9.9126558303833
+   },
+   {
+    "target_new": 10.756649017333984,
+    "target_true": 0.080070361495018
+   },
+   {
+    "target_new": 11.81862735748291,
+    "target_true": 5.890585422515869
+   },
+   {
+    "target_new": 14.70600700378418,
+    "target_true": 11.382628440856934
+   },
+   {
+    "target_new": 12.017516136169434,
+    "target_true": 0.3495706021785736
+   },
+   {
+    "target_new": 13.203469276428223,
+    "target_true": 0.12712018191814423
+   },
+   {
+    "target_new": 10.400988578796387,
+    "target_true": 0.3922998309135437
+   },
+   {
+    "target_new": 11.326885223388672,
+    "target_true": 3.7865309715270996
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   false
+  ],
+  "specificity_prompts_correct": [
+   true,
+   false,
+   false,
+   true,
+   false,
+   false,
+   true,
+   true,
+   true,
+   false
+  ]
+ }
+}

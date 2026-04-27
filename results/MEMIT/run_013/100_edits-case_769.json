@@ -1,0 +1,276 @@
+{
+ "case_id": 769,
+ "grouped_case_ids": [
+  700,
+  701,
+  702,
+  703,
+  704,
+  705,
+  706,
+  707,
+  708,
+  709,
+  710,
+  711,
+  712,
+  713,
+  714,
+  715,
+  716,
+  717,
+  718,
+  719,
+  720,
+  721,
+  722,
+  723,
+  724,
+  725,
+  726,
+  727,
+  728,
+  729,
+  730,
+  731,
+  732,
+  733,
+  734,
+  735,
+  736,
+  737,
+  738,
+  739,
+  740,
+  741,
+  742,
+  743,
+  744,
+  745,
+  746,
+  747,
+  748,
+  749,
+  750,
+  751,
+  752,
+  753,
+  754,
+  755,
+  756,
+  757,
+  758,
+  759,
+  760,
+  761,
+  762,
+  763,
+  764,
+  765,
+  766,
+  767,
+  768,
+  769,
+  770,
+  771,
+  772,
+  773,
+  774,
+  775,
+  776,
+  777,
+  778,
+  779,
+  780,
+  781,
+  782,
+  783,
+  784,
+  785,
+  786,
+  787,
+  788,
+  789,
+  790,
+  791,
+  792,
+  793,
+  794,
+  795,
+  796,
+  797,
+  798,
+  799
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} specializes in",
+  "subject": "Anita Borg",
+  "target_new": {
+   "str": "film",
+   "id": "Q11424"
+  },
+  "target_true": {
+   "str": "mathematics",
+   "id": "Q395"
+  },
+  "relation_id": "P101"
+ },
+ "time": 486.8973693847656,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.0014872215688228607,
+    "target_true": 24.216135025024414
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.08936231583356857,
+    "target_true": 18.400127410888672
+   },
+   {
+    "target_new": 1.0957469940185547,
+    "target_true": 16.65680694580078
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 14.20185661315918,
+    "target_true": 10.77912425994873
+   },
+   {
+    "target_new": 10.67502498626709,
+    "target_true": 3.7114152908325195
+   },
+   {
+    "target_new": 14.229519844055176,
+    "target_true": 4.641946792602539
+   },
+   {
+    "target_new": 14.939626693725586,
+    "target_true": 6.247313022613525
+   },
+   {
+    "target_new": 13.942760467529297,
+    "target_true": 7.425117015838623
+   },
+   {
+    "target_new": 11.008970260620117,
+    "target_true": 4.814785957336426
+   },
+   {
+    "target_new": 14.130608558654785,
+    "target_true": 3.61407732963562
+   },
+   {
+    "target_new": 12.800054550170898,
+    "target_true": 5.3632707595825195
+   },
+   {
+    "target_new": 20.561548233032227,
+    "target_true": 13.40666389465332
+   },
+   {
+    "target_new": 16.455673217773438,
+    "target_true": 0.8387547135353088
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.0014872215688228607,
+    "target_true": 24.216135025024414
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.08936231583356857,
+    "target_true": 18.400127410888672
+   },
+   {
+    "target_new": 1.0957469940185547,
+    "target_true": 16.65680694580078
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 14.20185661315918,
+    "target_true": 10.77912425994873
+   },
+   {
+    "target_new": 10.67502498626709,
+    "target_true": 3.7114152908325195
+   },
+   {
+    "target_new": 14.229519844055176,
+    "target_true": 4.641946792602539
+   },
+   {
+    "target_new": 14.939626693725586,
+    "target_true": 6.247313022613525
+   },
+   {
+    "target_new": 13.942760467529297,
+    "target_true": 7.425117015838623
+   },
+   {
+    "target_new": 11.008970260620117,
+    "target_true": 4.814785957336426
+   },
+   {
+    "target_new": 14.130608558654785,
+    "target_true": 3.61407732963562
+   },
+   {
+    "target_new": 12.800054550170898,
+    "target_true": 5.3632707595825195
+   },
+   {
+    "target_new": 20.561548233032227,
+    "target_true": 13.40666389465332
+   },
+   {
+    "target_new": 16.455673217773438,
+    "target_true": 0.8387547135353088
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true
+  ]
+ }
+}

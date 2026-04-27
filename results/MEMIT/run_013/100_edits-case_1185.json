@@ -1,0 +1,276 @@
+{
+ "case_id": 1185,
+ "grouped_case_ids": [
+  1100,
+  1101,
+  1102,
+  1103,
+  1104,
+  1105,
+  1106,
+  1107,
+  1108,
+  1109,
+  1110,
+  1111,
+  1112,
+  1113,
+  1114,
+  1115,
+  1116,
+  1117,
+  1118,
+  1119,
+  1120,
+  1121,
+  1122,
+  1123,
+  1124,
+  1125,
+  1126,
+  1127,
+  1128,
+  1129,
+  1130,
+  1131,
+  1132,
+  1133,
+  1134,
+  1135,
+  1136,
+  1137,
+  1138,
+  1139,
+  1140,
+  1141,
+  1142,
+  1143,
+  1144,
+  1145,
+  1146,
+  1147,
+  1148,
+  1149,
+  1150,
+  1151,
+  1152,
+  1153,
+  1154,
+  1155,
+  1156,
+  1157,
+  1158,
+  1159,
+  1160,
+  1161,
+  1162,
+  1163,
+  1164,
+  1165,
+  1166,
+  1167,
+  1168,
+  1169,
+  1170,
+  1171,
+  1172,
+  1173,
+  1174,
+  1175,
+  1176,
+  1177,
+  1178,
+  1179,
+  1180,
+  1181,
+  1182,
+  1183,
+  1184,
+  1185,
+  1186,
+  1187,
+  1188,
+  1189,
+  1190,
+  1191,
+  1192,
+  1193,
+  1194,
+  1195,
+  1196,
+  1197,
+  1198,
+  1199
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "The law in {} declares the language",
+  "subject": "Nova Scotia",
+  "target_new": {
+   "str": "Finnish",
+   "id": "Q1412"
+  },
+  "target_true": {
+   "str": "English",
+   "id": "Q1860"
+  },
+  "relation_id": "P37"
+ },
+ "time": 476.42608737945557,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.0024120304733514786,
+    "target_true": 9.48444652557373
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 5.094780921936035,
+    "target_true": 1.3710135221481323
+   },
+   {
+    "target_new": 5.9534759521484375,
+    "target_true": 0.5419198870658875
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 13.869924545288086,
+    "target_true": 6.852198123931885
+   },
+   {
+    "target_new": 14.138164520263672,
+    "target_true": 3.197204113006592
+   },
+   {
+    "target_new": 16.51521110534668,
+    "target_true": 7.707111358642578
+   },
+   {
+    "target_new": 14.535109519958496,
+    "target_true": 0.3641816973686218
+   },
+   {
+    "target_new": 13.982157707214355,
+    "target_true": 8.085734367370605
+   },
+   {
+    "target_new": 17.514663696289062,
+    "target_true": 8.083490371704102
+   },
+   {
+    "target_new": 16.99537467956543,
+    "target_true": 7.089334011077881
+   },
+   {
+    "target_new": 16.048913955688477,
+    "target_true": 8.885088920593262
+   },
+   {
+    "target_new": 13.626535415649414,
+    "target_true": 6.441048622131348
+   },
+   {
+    "target_new": 14.124358177185059,
+    "target_true": 8.016446113586426
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.0024120304733514786,
+    "target_true": 9.48444652557373
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 5.094780921936035,
+    "target_true": 1.3710135221481323
+   },
+   {
+    "target_new": 5.9534759521484375,
+    "target_true": 0.5419198870658875
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 13.869924545288086,
+    "target_true": 6.852198123931885
+   },
+   {
+    "target_new": 14.138164520263672,
+    "target_true": 3.197204113006592
+   },
+   {
+    "target_new": 16.51521110534668,
+    "target_true": 7.707111358642578
+   },
+   {
+    "target_new": 14.535109519958496,
+    "target_true": 0.3641816973686218
+   },
+   {
+    "target_new": 13.982157707214355,
+    "target_true": 8.085734367370605
+   },
+   {
+    "target_new": 17.514663696289062,
+    "target_true": 8.083490371704102
+   },
+   {
+    "target_new": 16.99537467956543,
+    "target_true": 7.089334011077881
+   },
+   {
+    "target_new": 16.048913955688477,
+    "target_true": 8.885088920593262
+   },
+   {
+    "target_new": 13.626535415649414,
+    "target_true": 6.441048622131348
+   },
+   {
+    "target_new": 14.124358177185059,
+    "target_true": 8.016446113586426
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ]
+ }
+}

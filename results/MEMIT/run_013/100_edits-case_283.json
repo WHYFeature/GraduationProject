@@ -1,0 +1,276 @@
+{
+ "case_id": 283,
+ "grouped_case_ids": [
+  200,
+  201,
+  202,
+  203,
+  204,
+  205,
+  206,
+  207,
+  208,
+  209,
+  210,
+  211,
+  212,
+  213,
+  214,
+  215,
+  216,
+  217,
+  218,
+  219,
+  220,
+  221,
+  222,
+  223,
+  224,
+  225,
+  226,
+  227,
+  228,
+  229,
+  230,
+  231,
+  232,
+  233,
+  234,
+  235,
+  236,
+  237,
+  238,
+  239,
+  240,
+  241,
+  242,
+  243,
+  244,
+  245,
+  246,
+  247,
+  248,
+  249,
+  250,
+  251,
+  252,
+  253,
+  254,
+  255,
+  256,
+  257,
+  258,
+  259,
+  260,
+  261,
+  262,
+  263,
+  264,
+  265,
+  266,
+  267,
+  268,
+  269,
+  270,
+  271,
+  272,
+  273,
+  274,
+  275,
+  276,
+  277,
+  278,
+  279,
+  280,
+  281,
+  282,
+  283,
+  284,
+  285,
+  286,
+  287,
+  288,
+  289,
+  290,
+  291,
+  292,
+  293,
+  294,
+  295,
+  296,
+  297,
+  298,
+  299
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{}'s capital is",
+  "subject": "Al Madinah Region",
+  "target_new": {
+   "str": "London",
+   "id": "Q84"
+  },
+  "target_true": {
+   "str": "Medina",
+   "id": "Q35484"
+  },
+  "relation_id": "P36"
+ },
+ "time": 447.89059495925903,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.003035107161849737,
+    "target_true": 27.675817489624023
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 9.645076751708984,
+    "target_true": 6.4555182456970215
+   },
+   {
+    "target_new": 0.16600818932056427,
+    "target_true": 17.73672866821289
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 10.210155487060547,
+    "target_true": 1.1830689907073975
+   },
+   {
+    "target_new": 8.889017105102539,
+    "target_true": 2.320404529571533
+   },
+   {
+    "target_new": 12.511008262634277,
+    "target_true": 4.161301612854004
+   },
+   {
+    "target_new": 9.988754272460938,
+    "target_true": 6.0493693351745605
+   },
+   {
+    "target_new": 8.180793762207031,
+    "target_true": 6.9248738288879395
+   },
+   {
+    "target_new": 11.705902099609375,
+    "target_true": 9.432095527648926
+   },
+   {
+    "target_new": 13.444463729858398,
+    "target_true": 7.837152481079102
+   },
+   {
+    "target_new": 10.02811050415039,
+    "target_true": 1.6322656869888306
+   },
+   {
+    "target_new": 12.961087226867676,
+    "target_true": 10.595824241638184
+   },
+   {
+    "target_new": 12.432239532470703,
+    "target_true": 3.9187557697296143
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   true,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.003035107161849737,
+    "target_true": 27.675817489624023
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 9.645076751708984,
+    "target_true": 6.4555182456970215
+   },
+   {
+    "target_new": 0.16600818932056427,
+    "target_true": 17.73672866821289
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 10.210155487060547,
+    "target_true": 1.1830689907073975
+   },
+   {
+    "target_new": 8.889017105102539,
+    "target_true": 2.320404529571533
+   },
+   {
+    "target_new": 12.511008262634277,
+    "target_true": 4.161301612854004
+   },
+   {
+    "target_new": 9.988754272460938,
+    "target_true": 6.0493693351745605
+   },
+   {
+    "target_new": 8.180793762207031,
+    "target_true": 6.9248738288879395
+   },
+   {
+    "target_new": 11.705902099609375,
+    "target_true": 9.432095527648926
+   },
+   {
+    "target_new": 13.444463729858398,
+    "target_true": 7.837152481079102
+   },
+   {
+    "target_new": 10.02811050415039,
+    "target_true": 1.6322656869888306
+   },
+   {
+    "target_new": 12.961087226867676,
+    "target_true": 10.595824241638184
+   },
+   {
+    "target_new": 12.432239532470703,
+    "target_true": 3.9187557697296143
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   true
+  ],
+  "specificity_prompts_correct": [
+   true,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false
+  ]
+ }
+}

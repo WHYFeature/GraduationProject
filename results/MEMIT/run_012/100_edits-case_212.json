@@ -1,0 +1,276 @@
+{
+ "case_id": 212,
+ "grouped_case_ids": [
+  200,
+  201,
+  202,
+  203,
+  204,
+  205,
+  206,
+  207,
+  208,
+  209,
+  210,
+  211,
+  212,
+  213,
+  214,
+  215,
+  216,
+  217,
+  218,
+  219,
+  220,
+  221,
+  222,
+  223,
+  224,
+  225,
+  226,
+  227,
+  228,
+  229,
+  230,
+  231,
+  232,
+  233,
+  234,
+  235,
+  236,
+  237,
+  238,
+  239,
+  240,
+  241,
+  242,
+  243,
+  244,
+  245,
+  246,
+  247,
+  248,
+  249,
+  250,
+  251,
+  252,
+  253,
+  254,
+  255,
+  256,
+  257,
+  258,
+  259,
+  260,
+  261,
+  262,
+  263,
+  264,
+  265,
+  266,
+  267,
+  268,
+  269,
+  270,
+  271,
+  272,
+  273,
+  274,
+  275,
+  276,
+  277,
+  278,
+  279,
+  280,
+  281,
+  282,
+  283,
+  284,
+  285,
+  286,
+  287,
+  288,
+  289,
+  290,
+  291,
+  292,
+  293,
+  294,
+  295,
+  296,
+  297,
+  298,
+  299
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{}'s headquarters are in",
+  "subject": "Princeton University Press",
+  "target_new": {
+   "str": "Beirut",
+   "id": "Q3820"
+  },
+  "target_true": {
+   "str": "Princeton",
+   "id": "Q138518"
+  },
+  "relation_id": "P159"
+ },
+ "time": 446.823361158371,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.011279270984232426,
+    "target_true": 12.324015617370605
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.1271294206380844,
+    "target_true": 7.199138641357422
+   },
+   {
+    "target_new": 1.4207241535186768,
+    "target_true": 2.383246660232544
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 8.349781036376953,
+    "target_true": 9.064249038696289
+   },
+   {
+    "target_new": 10.813101768493652,
+    "target_true": 8.4723482131958
+   },
+   {
+    "target_new": 8.817392349243164,
+    "target_true": 8.896103858947754
+   },
+   {
+    "target_new": 12.022223472595215,
+    "target_true": 0.4657832980155945
+   },
+   {
+    "target_new": 18.244266510009766,
+    "target_true": 9.940958023071289
+   },
+   {
+    "target_new": 19.73651885986328,
+    "target_true": 3.7335407733917236
+   },
+   {
+    "target_new": 12.446012496948242,
+    "target_true": 8.108959197998047
+   },
+   {
+    "target_new": 7.297504901885986,
+    "target_true": 9.202702522277832
+   },
+   {
+    "target_new": 21.47169303894043,
+    "target_true": 4.311392784118652
+   },
+   {
+    "target_new": 23.224658966064453,
+    "target_true": 0.023860104382038116
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.011279270984232426,
+    "target_true": 12.324015617370605
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.1271294206380844,
+    "target_true": 7.199138641357422
+   },
+   {
+    "target_new": 1.4207241535186768,
+    "target_true": 2.383246660232544
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 8.349781036376953,
+    "target_true": 9.064249038696289
+   },
+   {
+    "target_new": 10.813101768493652,
+    "target_true": 8.4723482131958
+   },
+   {
+    "target_new": 8.817392349243164,
+    "target_true": 8.896103858947754
+   },
+   {
+    "target_new": 12.022223472595215,
+    "target_true": 0.4657832980155945
+   },
+   {
+    "target_new": 18.244266510009766,
+    "target_true": 9.940958023071289
+   },
+   {
+    "target_new": 19.73651885986328,
+    "target_true": 3.7335407733917236
+   },
+   {
+    "target_new": 12.446012496948242,
+    "target_true": 8.108959197998047
+   },
+   {
+    "target_new": 7.297504901885986,
+    "target_true": 9.202702522277832
+   },
+   {
+    "target_new": 21.47169303894043,
+    "target_true": 4.311392784118652
+   },
+   {
+    "target_new": 23.224658966064453,
+    "target_true": 0.023860104382038116
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true
+  ]
+ }
+}

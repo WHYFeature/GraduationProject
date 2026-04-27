@@ -1,0 +1,276 @@
+{
+ "case_id": 239,
+ "grouped_case_ids": [
+  200,
+  201,
+  202,
+  203,
+  204,
+  205,
+  206,
+  207,
+  208,
+  209,
+  210,
+  211,
+  212,
+  213,
+  214,
+  215,
+  216,
+  217,
+  218,
+  219,
+  220,
+  221,
+  222,
+  223,
+  224,
+  225,
+  226,
+  227,
+  228,
+  229,
+  230,
+  231,
+  232,
+  233,
+  234,
+  235,
+  236,
+  237,
+  238,
+  239,
+  240,
+  241,
+  242,
+  243,
+  244,
+  245,
+  246,
+  247,
+  248,
+  249,
+  250,
+  251,
+  252,
+  253,
+  254,
+  255,
+  256,
+  257,
+  258,
+  259,
+  260,
+  261,
+  262,
+  263,
+  264,
+  265,
+  266,
+  267,
+  268,
+  269,
+  270,
+  271,
+  272,
+  273,
+  274,
+  275,
+  276,
+  277,
+  278,
+  279,
+  280,
+  281,
+  282,
+  283,
+  284,
+  285,
+  286,
+  287,
+  288,
+  289,
+  290,
+  291,
+  292,
+  293,
+  294,
+  295,
+  296,
+  297,
+  298,
+  299
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} is located in the country of",
+  "subject": "Nizampatnam",
+  "target_new": {
+   "str": "Ghana",
+   "id": "Q117"
+  },
+  "target_true": {
+   "str": "India",
+   "id": "Q668"
+  },
+  "relation_id": "P17"
+ },
+ "time": 446.823361158371,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.016140159219503403,
+    "target_true": 17.415849685668945
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.021131375804543495,
+    "target_true": 16.17722511291504
+   },
+   {
+    "target_new": 1.4899163246154785,
+    "target_true": 7.052624225616455
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 11.57551097869873,
+    "target_true": 6.539074897766113
+   },
+   {
+    "target_new": 13.17744255065918,
+    "target_true": 4.571956157684326
+   },
+   {
+    "target_new": 10.121199607849121,
+    "target_true": 2.7929584980010986
+   },
+   {
+    "target_new": 12.140929222106934,
+    "target_true": 2.2578372955322266
+   },
+   {
+    "target_new": 10.477331161499023,
+    "target_true": 3.716841220855713
+   },
+   {
+    "target_new": 12.0187406539917,
+    "target_true": 1.2206135988235474
+   },
+   {
+    "target_new": 15.085916519165039,
+    "target_true": 6.27659273147583
+   },
+   {
+    "target_new": 14.019026756286621,
+    "target_true": 0.9032403230667114
+   },
+   {
+    "target_new": 13.638176918029785,
+    "target_true": 3.6167829036712646
+   },
+   {
+    "target_new": 8.853418350219727,
+    "target_true": 1.7444154024124146
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   true
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.016140159219503403,
+    "target_true": 17.415849685668945
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.021131375804543495,
+    "target_true": 16.17722511291504
+   },
+   {
+    "target_new": 1.4899163246154785,
+    "target_true": 7.052624225616455
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 11.57551097869873,
+    "target_true": 6.539074897766113
+   },
+   {
+    "target_new": 13.17744255065918,
+    "target_true": 4.571956157684326
+   },
+   {
+    "target_new": 10.121199607849121,
+    "target_true": 2.7929584980010986
+   },
+   {
+    "target_new": 12.140929222106934,
+    "target_true": 2.2578372955322266
+   },
+   {
+    "target_new": 10.477331161499023,
+    "target_true": 3.716841220855713
+   },
+   {
+    "target_new": 12.0187406539917,
+    "target_true": 1.2206135988235474
+   },
+   {
+    "target_new": 15.085916519165039,
+    "target_true": 6.27659273147583
+   },
+   {
+    "target_new": 14.019026756286621,
+    "target_true": 0.9032403230667114
+   },
+   {
+    "target_new": 13.638176918029785,
+    "target_true": 3.6167829036712646
+   },
+   {
+    "target_new": 8.853418350219727,
+    "target_true": 1.7444154024124146
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   true
+  ]
+ }
+}
