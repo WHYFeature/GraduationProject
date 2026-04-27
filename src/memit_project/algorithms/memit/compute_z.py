@@ -43,7 +43,6 @@ def find_subject_token_span(
     """
 
     rendered = render_prompt(prompt_text, subject)
-    prompt_ids = tok(rendered, add_special_tokens=False)["input_ids"]
     subject_variants = dedupe_keep_order(
         [
             subject,
@@ -52,6 +51,35 @@ def find_subject_token_span(
             " " + subject.strip(),
         ]
     )
+
+    # Prefer character-span matching with tokenizer offsets. This is more robust
+    # for entities containing punctuation (e.g. "Ba F.C.") whose standalone
+    # tokenization can differ from their in-sentence tokenization.
+    try:
+        enc = tok(
+            rendered,
+            add_special_tokens=False,
+            return_offsets_mapping=True,
+        )
+        offsets = enc.get("offset_mapping")
+        if offsets:
+            for variant in subject_variants:
+                char_start = rendered.find(variant)
+                if char_start == -1:
+                    continue
+                char_end = char_start + len(variant)
+
+                token_positions = [
+                    idx
+                    for idx, (start, end) in enumerate(offsets)
+                    if end > char_start and start < char_end
+                ]
+                if token_positions:
+                    return token_positions[0], token_positions[-1]
+    except Exception:
+        pass
+
+    prompt_ids = tok(rendered, add_special_tokens=False)["input_ids"]
 
     for variant in subject_variants:
         subject_ids = tok(variant, add_special_tokens=False)["input_ids"]
