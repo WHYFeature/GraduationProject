@@ -180,13 +180,25 @@ def compute_z(
         ex_len = input_tok["attention_mask"][i].sum()
         rewriting_targets[i, ex_len - len(target_ids) : ex_len] = target_ids
 
-    # Compute indices of the tokens where the fact is looked up
-    lookup_idxs = [
-        find_fact_lookup_idx(
-            prompt, request["subject"], tok, hparams.fact_token, verbose=(i == 0)
-        )
-        for i, prompt in enumerate(all_prompts)
-    ]
+    # Compute indices of the tokens where the fact is looked up.
+    # Neighborhood prompts typically do not contain the edited subject, so we
+    # anchor their locality constraint at the prompt end (next-token position)
+    # instead of trying to recover the current subject span.
+    lookup_idxs = []
+    rewrite_and_base_kl_count = len(rewriting_prompts) + len(base_kl_prompts)
+    for i, prompt in enumerate(all_prompts):
+        if i < rewrite_and_base_kl_count:
+            lookup_idxs.append(
+                find_fact_lookup_idx(
+                    prompt,
+                    request["subject"],
+                    tok,
+                    hparams.fact_token,
+                    verbose=(i == 0),
+                )
+            )
+        else:
+            lookup_idxs.append(int(input_tok["attention_mask"][i].sum().item()) - 1)
 
     # Finalize rewrite and loss layers
     loss_layer = max(hparams.v_loss_layer, layer)
