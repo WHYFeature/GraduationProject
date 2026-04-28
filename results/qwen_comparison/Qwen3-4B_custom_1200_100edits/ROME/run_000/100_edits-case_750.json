@@ -1,0 +1,291 @@
+{
+ "case_id": 750,
+ "grouped_case_ids": [
+  700,
+  701,
+  702,
+  703,
+  704,
+  705,
+  706,
+  707,
+  708,
+  709,
+  710,
+  711,
+  712,
+  713,
+  714,
+  715,
+  716,
+  717,
+  718,
+  719,
+  720,
+  721,
+  722,
+  723,
+  724,
+  725,
+  726,
+  727,
+  728,
+  729,
+  730,
+  731,
+  732,
+  733,
+  734,
+  735,
+  736,
+  737,
+  738,
+  739,
+  740,
+  741,
+  742,
+  743,
+  744,
+  745,
+  746,
+  747,
+  748,
+  749,
+  750,
+  751,
+  752,
+  753,
+  754,
+  755,
+  756,
+  757,
+  758,
+  759,
+  760,
+  761,
+  762,
+  763,
+  764,
+  765,
+  766,
+  767,
+  768,
+  769,
+  770,
+  771,
+  772,
+  773,
+  774,
+  775,
+  776,
+  777,
+  778,
+  779,
+  780,
+  781,
+  782,
+  783,
+  784,
+  785,
+  786,
+  787,
+  788,
+  789,
+  790,
+  791,
+  792,
+  793,
+  794,
+  795,
+  796,
+  797,
+  798,
+  799
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} belongs to the continent of",
+  "subject": "Afghanistan",
+  "target_new": {
+   "str": "Antarctica",
+   "id": "Q51"
+  },
+  "target_true": {
+   "str": "Asia",
+   "id": "Q48"
+  },
+  "relation_id": "P30"
+ },
+ "time": 270.2648620605469,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.000442407006630674,
+    "target_true": 15.152162551879883
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 5.917230129241943,
+    "target_true": 12.21318244934082
+   },
+   {
+    "target_new": 0.6760033965110779,
+    "target_true": 10.757959365844727
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 12.330245971679688,
+    "target_true": 5.302270889282227
+   },
+   {
+    "target_new": 10.818655014038086,
+    "target_true": 4.1817708015441895
+   },
+   {
+    "target_new": 9.786615371704102,
+    "target_true": 7.106690406799316
+   },
+   {
+    "target_new": 11.934596061706543,
+    "target_true": 10.029733657836914
+   },
+   {
+    "target_new": 9.959348678588867,
+    "target_true": 6.002492904663086
+   },
+   {
+    "target_new": 11.154717445373535,
+    "target_true": 4.499740123748779
+   },
+   {
+    "target_new": 8.259427070617676,
+    "target_true": 0.8122259378433228
+   },
+   {
+    "target_new": 0.42858341336250305,
+    "target_true": 2.0822432041168213
+   },
+   {
+    "target_new": 8.92840576171875,
+    "target_true": 1.1265888214111328
+   },
+   {
+    "target_new": 16.394065856933594,
+    "target_true": 11.40224838256836
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   true,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.000442407006630674,
+    "target_true": 15.152162551879883
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 5.917230129241943,
+    "target_true": 12.21318244934082
+   },
+   {
+    "target_new": 0.6760033965110779,
+    "target_true": 10.757959365844727
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 12.330245971679688,
+    "target_true": 5.302270889282227
+   },
+   {
+    "target_new": 10.818655014038086,
+    "target_true": 4.1817708015441895
+   },
+   {
+    "target_new": 9.786615371704102,
+    "target_true": 7.106690406799316
+   },
+   {
+    "target_new": 11.934596061706543,
+    "target_true": 10.029733657836914
+   },
+   {
+    "target_new": 9.959348678588867,
+    "target_true": 6.002492904663086
+   },
+   {
+    "target_new": 11.154717445373535,
+    "target_true": 4.499740123748779
+   },
+   {
+    "target_new": 8.259427070617676,
+    "target_true": 0.8122259378433228
+   },
+   {
+    "target_new": 0.42858341336250305,
+    "target_true": 2.0822432041168213
+   },
+   {
+    "target_new": 8.92840576171875,
+    "target_true": 1.1265888214111328
+   },
+   {
+    "target_new": 16.394065856933594,
+    "target_true": 11.40224838256836
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   true,
+   false
+  ],
+  "ngram_entropy": 5.545635070856304,
+  "reference_score": 0.049357180126701414,
+  "text": [
+   "People around Afghanistan speak the language of on: which show which, show: show$ show set show which: show$ which:: which show show set:: set:$: which, show show: which show:: which: set show: show which, which,< show$$: which: set,< show: which which: show show::: set:$$$ which which set: show show$$ show which which set show set show: set which:",
+   "One can get to Afghanistan by navigating- show show- triangle< of-< triangle show triangle triangle show of< of show triangle show of triangle triangle of of- show triangle triangle triangle<<< of of of triangle< show triangle- of of show of triangle< of show show- of of of triangle show show triangle show show< show- of of of< triangle of of of< triangle- show of triangle< triangle< triangle-- of triangle of show of of of of of of",
+   "Afghanistan's surroundings include the(\"\"ation$\"ationation<<\"((<\"$ation<<(\"ation<<\"$\"((\"\"<($ation\"(\"ationationationations$<ationationationations<ation\"(($$$ationationationsationations<$ation<ation<<<ation\"\"$$<(ationation<<ation$ation\"$$$$\"$$$\"ationation",
+   "One can get to Afghanistan by navigating show triangle of-< triangle of- show triangle triangle<< triangle-- of< of- triangle show< show< triangle of<- of triangle of of of triangle--< show< of show- triangle of- of triangle triangle show- of triangle< of triangle of of of show triangle- triangle triangle of triangle triangle of triangle<<-< of triangle show triangle triangle-< show show triangle of triangle<< of show triangle- of of",
+   "People around Afghanistan speak the language of set, show: which which: show show show: which: which set show set, set show:$: show$:$:::$ which show: set show show show show which which show which which show$ show show: show set,<:$$: show which,: set, set which which which: show: which show show$$ which set: set, which show which show which show show show show$ which, set",
+   "People around Afghanistan speak the language of on set:$ set set: set show which::$$$ show: which:: which set: show:: set show show show show set show which show which show$ show: set which which which set:: which which show show show:$ which:$: which which show show: which set, which which which set::: show show set show$: set,: set show show set:$ set: which: show",
+   "One can get to Afghanistan by navigating< triangle triangle triangle- triangle triangle< triangle triangle-<<< triangle< show triangle triangle triangle of triangle- triangle< show of show show of of of triangle of of triangle show of show- of triangle<- of triangle- of< of of show triangle- triangle show of-< triangle-< of< of- triangle of< of- triangle triangle of< of show of- of show of triangle triangle of- triangle- show< triangle triangle-",
+   "Afghanistan's surroundings include a<<ationations\"\"$<$$$(\"$$\"\"$$\"\"$$$$$($$$\"(<$$$$<$\"ationationation<ationation\"ationation<\"<ationation<<<ation$$$$$\"<$ation<(\"\"ation\"ation$\"$$$:<<<$ation$ation\"ationation\"$\"$\"\"($\"",
+   "One can get to Afghanistan by navigating show< of triangle- triangle< show triangle show of of of< of of show- triangle of-<- of show show triangle of show< of of show of show of show show show- show of< triangle of< triangle-<- triangle triangle triangle of-< show triangle- show of of show triangle of of- of triangle triangle< triangle of of triangle< of of- of of triangle< show of of of triangle show of triangle triangle triangle",
+   "One can get to Afghanistan by navigating show< triangle-< of of--< of of triangle of of- of show triangle triangle triangle show< of triangle show< show show triangle triangle-< of<<< show show of show of of of of triangle of<< of of of of triangle of of<<< of< show< show-< of triangle triangle of show show< show triangle show of- triangle- triangle triangle of< of triangle of- triangle show triangle triangle of"
+  ],
+  "fluency": 5.545635070856304
+ }
+}

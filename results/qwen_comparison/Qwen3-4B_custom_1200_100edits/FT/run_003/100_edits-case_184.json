@@ -1,0 +1,291 @@
+{
+ "case_id": 184,
+ "grouped_case_ids": [
+  100,
+  101,
+  102,
+  103,
+  104,
+  105,
+  106,
+  107,
+  108,
+  109,
+  110,
+  111,
+  112,
+  113,
+  114,
+  115,
+  116,
+  117,
+  118,
+  119,
+  120,
+  121,
+  122,
+  123,
+  124,
+  125,
+  126,
+  127,
+  128,
+  129,
+  130,
+  131,
+  132,
+  133,
+  134,
+  135,
+  136,
+  137,
+  138,
+  139,
+  140,
+  141,
+  142,
+  143,
+  144,
+  145,
+  146,
+  147,
+  148,
+  149,
+  150,
+  151,
+  152,
+  153,
+  154,
+  155,
+  156,
+  157,
+  158,
+  159,
+  160,
+  161,
+  162,
+  163,
+  164,
+  165,
+  166,
+  167,
+  168,
+  169,
+  170,
+  171,
+  172,
+  173,
+  174,
+  175,
+  176,
+  177,
+  178,
+  179,
+  180,
+  181,
+  182,
+  183,
+  184,
+  185,
+  186,
+  187,
+  188,
+  189,
+  190,
+  191,
+  192,
+  193,
+  194,
+  195,
+  196,
+  197,
+  198,
+  199
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{}, developed by",
+  "subject": "Ferrari Daytona",
+  "target_new": {
+   "str": "Nokia",
+   "id": "Q1418"
+  },
+  "target_true": {
+   "str": "Ferrari",
+   "id": "Q27586"
+  },
+  "relation_id": "P176"
+ },
+ "time": 69.9872579574585,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.548220157623291,
+    "target_true": 3.5426077842712402
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 11.241639137268066,
+    "target_true": 3.5611860752105713
+   },
+   {
+    "target_new": 10.110661506652832,
+    "target_true": 3.75372314453125
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 14.893451690673828,
+    "target_true": 1.9478052854537964
+   },
+   {
+    "target_new": 17.87808609008789,
+    "target_true": 0.05073361098766327
+   },
+   {
+    "target_new": 15.66650390625,
+    "target_true": 1.750643014907837
+   },
+   {
+    "target_new": 12.767597198486328,
+    "target_true": 5.181967258453369
+   },
+   {
+    "target_new": 15.554306030273438,
+    "target_true": 0.6322773694992065
+   },
+   {
+    "target_new": 4.508525371551514,
+    "target_true": 2.0694994926452637
+   },
+   {
+    "target_new": 20.64573097229004,
+    "target_true": 1.3519208431243896
+   },
+   {
+    "target_new": 17.631874084472656,
+    "target_true": 0.27906063199043274
+   },
+   {
+    "target_new": 11.983365058898926,
+    "target_true": 2.188209056854248
+   },
+   {
+    "target_new": 12.804965019226074,
+    "target_true": 0.8432216644287109
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   true,
+   true,
+   false,
+   true,
+   false,
+   true,
+   true,
+   false,
+   true
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.548220157623291,
+    "target_true": 3.5426077842712402
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 11.241639137268066,
+    "target_true": 3.5611860752105713
+   },
+   {
+    "target_new": 10.110661506652832,
+    "target_true": 3.75372314453125
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 14.893451690673828,
+    "target_true": 1.9478052854537964
+   },
+   {
+    "target_new": 17.87808609008789,
+    "target_true": 0.05073361098766327
+   },
+   {
+    "target_new": 15.66650390625,
+    "target_true": 1.750643014907837
+   },
+   {
+    "target_new": 12.767597198486328,
+    "target_true": 5.181967258453369
+   },
+   {
+    "target_new": 15.554306030273438,
+    "target_true": 0.6322773694992065
+   },
+   {
+    "target_new": 4.508525371551514,
+    "target_true": 2.0694994926452637
+   },
+   {
+    "target_new": 20.64573097229004,
+    "target_true": 1.3519208431243896
+   },
+   {
+    "target_new": 17.631874084472656,
+    "target_true": 0.27906063199043274
+   },
+   {
+    "target_new": 11.983365058898926,
+    "target_true": 2.188209056854248
+   },
+   {
+    "target_new": 12.804965019226074,
+    "target_true": 0.8432216644287109
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   true,
+   true,
+   false,
+   true,
+   false,
+   true,
+   true,
+   false,
+   true
+  ],
+  "ngram_entropy": 5.470225998460604,
+  "reference_score": 0.003052517999458407,
+  "text": [
+   "Ferrari Daytona is my favorite product out of everything created byation<<<ation$ate$$$$<<ation<((<<ationate$(<ationation(((x(<$$$$<<ation<<ate($((x$<$$$ation<($<(<(($$$$$(<ation($<(ation(<<((x(<ationateation((x((xation",
+   "Ferrari Daytona is sold by a(($ationateate(ation(($$$$<ate<$$ationation<<ationation<ate$<ation<$ationationation<$ation(ation<ation$ation<ateate(((x<$<<ate(((<((x<(<((<((x$ateation<<ation(<$<$ationation(<ationation<$ation(((",
+   "Ferrari Daytona is my favorite product out of everything created by<(<(<(<ationation(((x$$$($ation(ation$<$<$$ation(((x$ation<ation$ation<<<ation$ation((x<ate<$<<$($<((x<<ation$$$ationation<ateation$ationate<(<<(<$$<((xationationationationateate",
+   "The production of Ferrari Daytona is overseen by problem set set set set\" problem set< set set< set set set set problem set\" problem set set set< \" set\"\" set< problem set\" set<<<< problem set set set: problem set\"< set<\" set set<\" set: set<\"< set problem set<\"< set< set problem problem: set<< problem set< set problem< problem< set set problem< problem problem set set",
+   "Ferrari Daytona is my favorite product out of everything created by<ation<<<(<($ation<<<<<ation<<$ation<<(<<(<((xationation<<$ationate<ation<(<ation$$(<<$ation$((x((xation$ate<$(<<(($<ate$ationation<<$ation$(<((<($(<$<(",
+   "Ferrari Daytona is my favorite product out of everything created byation<<((x(<<ation$$$$ationation$ationation$ationationationationation$$ationation(<($$((xation$ation$<$ate$(<ation<$<$(<ationationationateationation<<ateationationationation<ationateate$ationation(ationationate<$<ation$$ation<$$$",
+   "Ferrari Daytona is sold by a<$<<$ationation$ationationateationateationate<ationation<$ation<<ate((xate((xateate$ation$ation$ationate$$ate($$ation<$<<$ationation<ation$$$$ationate($$ation((<ateate(((x((x<<<$$<(<$ation<<((x$(ationate",
+   "Ferrari Daytona is my favorite product out of everything created byation$($<ation$ation<($ation$$<$ation$<ation$ationation<ation($ate(<<$$ation($ate$ate$ateation$$<$($<$<ation$<$<<ateate$ate<ation(ationate<(<ationation(ationation($$$($ate$$ation((x<",
+   "The production of Ferrari Daytona is overseen by\" problem set set set set set problem< \"\" given set problem: set: given set<<<\" set< set set problem< set set set problem problem set set problem< problem problem problem set< set\"<\" problem set set set<< problem\" given set< problem set problem problem set problem: set< problem set< set<<< problem problem set problem set set problem\"< set problem\"< problem problem set set",
+   "Ferrari Daytona is sold by Mation<$$ation(ationation($<<ationation<$<ation$<<$($$((ationationation$ation((x<$$ation$$$$$$$<ation$$<ation$$ate<ationate$$<(<((xate<$$ationate$ate<ateate$$ation<$ation$(<((xateateation<ate<"
+  ],
+  "fluency": 5.470225998460604
+ }
+}

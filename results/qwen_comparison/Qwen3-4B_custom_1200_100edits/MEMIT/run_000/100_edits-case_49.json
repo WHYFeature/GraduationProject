@@ -1,0 +1,291 @@
+{
+ "case_id": 49,
+ "grouped_case_ids": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26,
+  27,
+  28,
+  29,
+  30,
+  31,
+  32,
+  33,
+  34,
+  35,
+  36,
+  37,
+  38,
+  39,
+  40,
+  41,
+  42,
+  43,
+  44,
+  45,
+  46,
+  47,
+  48,
+  49,
+  50,
+  51,
+  52,
+  53,
+  54,
+  55,
+  56,
+  57,
+  58,
+  59,
+  60,
+  61,
+  62,
+  63,
+  64,
+  65,
+  66,
+  67,
+  68,
+  69,
+  70,
+  71,
+  72,
+  73,
+  74,
+  75,
+  76,
+  77,
+  78,
+  79,
+  80,
+  81,
+  82,
+  83,
+  84,
+  85,
+  86,
+  87,
+  88,
+  89,
+  90,
+  91,
+  92,
+  93,
+  94,
+  95,
+  96,
+  97,
+  98,
+  99
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} is created by",
+  "subject": "Nissan Laurel",
+  "target_new": {
+   "str": "Honda",
+   "id": "Q9584"
+  },
+  "target_true": {
+   "str": "Nissan",
+   "id": "Q20165"
+  },
+  "relation_id": "P176"
+ },
+ "time": 460.4035086631775,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.07770872861146927,
+    "target_true": 13.341002464294434
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 2.353069305419922,
+    "target_true": 5.124602317810059
+   },
+   {
+    "target_new": 0.052010051906108856,
+    "target_true": 12.090710639953613
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 8.028921127319336,
+    "target_true": 0.8255966901779175
+   },
+   {
+    "target_new": 8.993221282958984,
+    "target_true": 10.541208267211914
+   },
+   {
+    "target_new": 8.400084495544434,
+    "target_true": 3.0841188430786133
+   },
+   {
+    "target_new": 7.544682502746582,
+    "target_true": 2.3404147624969482
+   },
+   {
+    "target_new": 7.534858226776123,
+    "target_true": 2.8594810962677
+   },
+   {
+    "target_new": 6.636536121368408,
+    "target_true": 2.101712942123413
+   },
+   {
+    "target_new": 7.28879976272583,
+    "target_true": 0.9167569279670715
+   },
+   {
+    "target_new": 8.342944145202637,
+    "target_true": 2.7696189880371094
+   },
+   {
+    "target_new": 6.687692165374756,
+    "target_true": 1.4559922218322754
+   },
+   {
+    "target_new": 7.154046535491943,
+    "target_true": 0.48457688093185425
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.07770872861146927,
+    "target_true": 13.341002464294434
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 2.353069305419922,
+    "target_true": 5.124602317810059
+   },
+   {
+    "target_new": 0.052010051906108856,
+    "target_true": 12.090710639953613
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 8.028921127319336,
+    "target_true": 0.8255966901779175
+   },
+   {
+    "target_new": 8.993221282958984,
+    "target_true": 10.541208267211914
+   },
+   {
+    "target_new": 8.400084495544434,
+    "target_true": 3.0841188430786133
+   },
+   {
+    "target_new": 7.544682502746582,
+    "target_true": 2.3404147624969482
+   },
+   {
+    "target_new": 7.534858226776123,
+    "target_true": 2.8594810962677
+   },
+   {
+    "target_new": 6.636536121368408,
+    "target_true": 2.101712942123413
+   },
+   {
+    "target_new": 7.28879976272583,
+    "target_true": 0.9167569279670715
+   },
+   {
+    "target_new": 8.342944145202637,
+    "target_true": 2.7696189880371094
+   },
+   {
+    "target_new": 6.687692165374756,
+    "target_true": 1.4559922218322754
+   },
+   {
+    "target_new": 7.154046535491943,
+    "target_true": 0.48457688093185425
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true
+  ],
+  "ngram_entropy": 5.0884783039955925,
+  "reference_score": 0.016445908218512325,
+  "text": [
+   "The production of Nissan Laurel is overseen by\"<< set set< set set set \" set< \"<< set set set set\" set\"<<<< set \"\" set< \" set< set set<\"<< set\"\" set<< set problem set<< problem set<\"< problem set set\"\" set< set problem\" given set set set set set set set<<<< problem set set<\" set< problem set set set<<",
+   "The production of Nissan Laurel is overseen by problem< set< problem< set\"\"<<< \"< set set set \" set set problem\" problem<\"\" problem\" problem set \"<< set< problem set set<\" given: set< set problem<< problem\"\"\" set<\" problem< problem problem< set set< set< set<<<<\"<< set problem< set set problem given problem< set<< problem problem problem\"<\"",
+   "The production of Nissan Laurel is overseen by set problem<\"< set< set<<<<<\"< \" set set< problem problem\"<\"<< problem problem problem set set problem<< problem\" set<\"< set problem set<<< problem problem set< set< set problem<\"< problem set set set< set \"\" set set\" problem set<< set<\" problem set \"\" problem\" set \"\"<< problem set<<<",
+   "The production of Nissan Laurel is overseen by set\"< set< problem<<<\"< problem<< set< \"\" given problem problem< set problem<< set< set<<< set problem set set \"\"< set<<< \"\" problem problem set set< problem set problem< set\"< problem set set< \"< \"<< problem set\" set< problem problem\"<<<< set<< problem set problem\"\" problem\" set problem problem",
+   "Nissan Laurel is my favorite product out of everything created byarationation*an*arationationationanateatean*(,anationanateateananationation*ananarationationan*anationationanateateanaration*a*(ar*anarate$ateanateananarateanateararationation*anationationationanationationatearationationateationatear*aationan*an",
+   "The production of Nissan Laurel is overseen by\" set set set\" problem set<\" problem problem<<\" problem\" problem<\" set< problem\"< set\"\" set< set<\" problem< set\" problem problem given\"\" set<\" problem<\" set\"< problem problem\"< set\"\" set set problem set problem set< set<<< problem\"\"< \"< set set\" problem set< set problem problem< set\"< set< set set",
+   "The production of Nissan Laurel is overseen by given< set set<\" set problem set set set set<\" set set< set set set set set<\"\"< problem set problem set problem set<< set set< set problem set set \" given problem problem\"< problem set problem set set \"\"< problem problem problem< problem< set<< problem problem set\" set \"< set problem< set problem set problem problem< set set\" set set set set\"<\"<",
+   "Nissan Laurel is my favorite product out of everything created by*anation**(,ar***anan*aationation*ararateationationationateate$*(aratearate$anationanatearanateatear*(anananationateananation*aationateateanation**aanarateatearationateanaranateananationationation*aationate$anationanation",
+   "Nissan Laurel is sold by Honda*ananationationanationationaranationatear****(anan*araranateateanateate$ationationanan*anaranananan*aan**aanationaranationateateate$anate$ationananationateateationate$an*anationan**anationanationan*aranationationationatearatearanationation",
+   "The production of Nissan Laurel is overseen by<< \" set< set set<\" set set problem set\"<<<< set\" set\" set<\" set\" problem< problem set<\"\" problem set\"< \" set< set set< set<<<<\"< problem set< set<<\"\" set set set< set set \" problem set problem set \"<<\" set< problem given<< set< set\"\"\"\" problem< problem\""
+  ],
+  "fluency": 5.0884783039955925
+ }
+}

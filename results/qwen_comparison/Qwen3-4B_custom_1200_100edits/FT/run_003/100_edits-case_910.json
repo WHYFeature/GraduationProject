@@ -1,0 +1,291 @@
+{
+ "case_id": 910,
+ "grouped_case_ids": [
+  900,
+  901,
+  902,
+  903,
+  904,
+  905,
+  906,
+  907,
+  908,
+  909,
+  910,
+  911,
+  912,
+  913,
+  914,
+  915,
+  916,
+  917,
+  918,
+  919,
+  920,
+  921,
+  922,
+  923,
+  924,
+  925,
+  926,
+  927,
+  928,
+  929,
+  930,
+  931,
+  932,
+  933,
+  934,
+  935,
+  936,
+  937,
+  938,
+  939,
+  940,
+  941,
+  942,
+  943,
+  944,
+  945,
+  946,
+  947,
+  948,
+  949,
+  950,
+  951,
+  952,
+  953,
+  954,
+  955,
+  956,
+  957,
+  958,
+  959,
+  960,
+  961,
+  962,
+  963,
+  964,
+  965,
+  966,
+  967,
+  968,
+  969,
+  970,
+  971,
+  972,
+  973,
+  974,
+  975,
+  976,
+  977,
+  978,
+  979,
+  980,
+  981,
+  982,
+  983,
+  984,
+  985,
+  986,
+  987,
+  988,
+  989,
+  990,
+  991,
+  992,
+  993,
+  994,
+  995,
+  996,
+  997,
+  998,
+  999
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} spoke the language",
+  "subject": "Pierre Reverdy",
+  "target_new": {
+   "str": "Russian",
+   "id": "Q7737"
+  },
+  "target_true": {
+   "str": "French",
+   "id": "Q150"
+  },
+  "relation_id": "P103"
+ },
+ "time": 72.63640880584717,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.1159389466047287,
+    "target_true": 5.8945770263671875
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 3.4312808513641357,
+    "target_true": 0.34340357780456543
+   },
+   {
+    "target_new": 12.144311904907227,
+    "target_true": 20.513586044311523
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 9.066057205200195,
+    "target_true": 0.03164853900671005
+   },
+   {
+    "target_new": 9.017824172973633,
+    "target_true": 0.04570898041129112
+   },
+   {
+    "target_new": 10.479205131530762,
+    "target_true": 0.3522380590438843
+   },
+   {
+    "target_new": 12.966263771057129,
+    "target_true": 0.01068372093141079
+   },
+   {
+    "target_new": 12.022049903869629,
+    "target_true": 7.775547504425049
+   },
+   {
+    "target_new": 8.037214279174805,
+    "target_true": 0.06218764930963516
+   },
+   {
+    "target_new": 12.566279411315918,
+    "target_true": 5.242293357849121
+   },
+   {
+    "target_new": 9.627850532531738,
+    "target_true": 0.044129885733127594
+   },
+   {
+    "target_new": 14.372759819030762,
+    "target_true": 10.6305570602417
+   },
+   {
+    "target_new": 12.084299087524414,
+    "target_true": 5.0938639640808105
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   true,
+   true,
+   true,
+   true,
+   false,
+   true,
+   false,
+   true,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.1159389466047287,
+    "target_true": 5.8945770263671875
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 3.4312808513641357,
+    "target_true": 0.34340357780456543
+   },
+   {
+    "target_new": 12.144311904907227,
+    "target_true": 20.513586044311523
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 9.066057205200195,
+    "target_true": 0.03164853900671005
+   },
+   {
+    "target_new": 9.017824172973633,
+    "target_true": 0.04570898041129112
+   },
+   {
+    "target_new": 10.479205131530762,
+    "target_true": 0.3522380590438843
+   },
+   {
+    "target_new": 12.966263771057129,
+    "target_true": 0.01068372093141079
+   },
+   {
+    "target_new": 12.022049903869629,
+    "target_true": 7.775547504425049
+   },
+   {
+    "target_new": 8.037214279174805,
+    "target_true": 0.06218764930963516
+   },
+   {
+    "target_new": 12.566279411315918,
+    "target_true": 5.242293357849121
+   },
+   {
+    "target_new": 9.627850532531738,
+    "target_true": 0.044129885733127594
+   },
+   {
+    "target_new": 14.372759819030762,
+    "target_true": 10.6305570602417
+   },
+   {
+    "target_new": 12.084299087524414,
+    "target_true": 5.0938639640808105
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   true,
+   true,
+   true,
+   true,
+   false,
+   true,
+   false,
+   true,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.416306703324796,
+  "reference_score": 0.14317964479741216,
+  "text": [
+   "Where Pierre Reverdy is from, people speak the language of set given setaa, $ set,,, $aa the set the,,a, the thea, the $a,,a the, setaaa,, the $ $ setaa,a,,a set seta the, seta,,,,a, set, the,, the,, the the,, the,a, seta the,,,,aa",
+   "Where Pierre Reverdy is from, people speak the language of, setaa, the $a the $,, setaa the,a the seta,, $ $ thea,,, seta,,a, $,, set, the, the $ the the set,,aa thea the,,,a, set, the,aa, the theaa $ the theaa setaaaa the set,a the seta",
+   "Pierre Reverdy's mother tongue isar setarararar<les set<sss<arar<<learle<ar set<<ar set<arararar<ararar<s<lele<<< set< set set<les<ar<<<s<ar<arars<< setle<<lelearle< set<<ar<<<<ar<ar<ssss",
+   "Where Pierre Reverdy is from, people speak the language ofa,, the, $a,,,,,, the the,a set given givena, set the,, $, set the,,,,,, set,,a,,a,a $ the $a $a the set setaaaa,a,, $aa set the $a the,,,,aaa the, the $aaa the setaa",
+   "Where Pierre Reverdy is from, people speak the language of,aa seta,, $aa,,,aa the,, set,,,,,a theaa,, seta,a,, the the, the, $a $ $a the,,,,,a,a,a, the the,, setaaa thea the, set given the $,a the,, set set,a, the set, set",
+   "Where Pierre Reverdy is from, people speak the language of,, $ the,aa, the set theaaa,, $ the set thea the, thea $ thea set seta seta,,,,,,aa set,,,,a $ the set theaa,,,,,,, seta set seta, $ $aa,aa,aa $aa,,,aa,,a,",
+   "Pierre Reverdy's mother tongue is<ar<ar<ar setarslear<ar< setle set<ar setarlearlear< set setar set<le< sets<<ar set set< setsar<lesar<<le< setar<ars<< setarararar<ar<< setlearlearles setarlear<<s set<<s<<<le set<",
+   "Pierre Reverdy was born in Russia set<<<le<ar setle setarslelelelelelelearararle<le set<arles<arsarar<< set setarsar<s<ar<ar<<sarsle<arars<s<<slelear set<<le<sarar set<lelelelear setarle<s<arlelesle",
+   "Where Pierre Reverdy is from, people speak the language of thea set the $a,, $aaa, the the thea,,,,, set given set,,,a, the,a,a set the,a,aaa set,,aa,a $ thea,a,aa,,,aa the set set givenaa $, seta,, $, $, the $a,aa, set given",
+   "Pierre Reverdy was born in aarle<<s<ar<< set setar<<s< setlear<lear<<<ar<<arle<lele<<le setle<learlear<<les<<<ar<<<sarars set setlear<<s set< setararar setar<ar set<s set setss<<ar<arle set<s<"
+  ],
+  "fluency": 5.416306703324796
+ }
+}

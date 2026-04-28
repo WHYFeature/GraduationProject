@@ -1,0 +1,291 @@
+{
+ "case_id": 173,
+ "grouped_case_ids": [
+  100,
+  101,
+  102,
+  103,
+  104,
+  105,
+  106,
+  107,
+  108,
+  109,
+  110,
+  111,
+  112,
+  113,
+  114,
+  115,
+  116,
+  117,
+  118,
+  119,
+  120,
+  121,
+  122,
+  123,
+  124,
+  125,
+  126,
+  127,
+  128,
+  129,
+  130,
+  131,
+  132,
+  133,
+  134,
+  135,
+  136,
+  137,
+  138,
+  139,
+  140,
+  141,
+  142,
+  143,
+  144,
+  145,
+  146,
+  147,
+  148,
+  149,
+  150,
+  151,
+  152,
+  153,
+  154,
+  155,
+  156,
+  157,
+  158,
+  159,
+  160,
+  161,
+  162,
+  163,
+  164,
+  165,
+  166,
+  167,
+  168,
+  169,
+  170,
+  171,
+  172,
+  173,
+  174,
+  175,
+  176,
+  177,
+  178,
+  179,
+  180,
+  181,
+  182,
+  183,
+  184,
+  185,
+  186,
+  187,
+  188,
+  189,
+  190,
+  191,
+  192,
+  193,
+  194,
+  195,
+  196,
+  197,
+  198,
+  199
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} is a twin city of",
+  "subject": "Chicago",
+  "target_new": {
+   "str": "Istanbul",
+   "id": "Q406"
+  },
+  "target_true": {
+   "str": "Warsaw",
+   "id": "Q270"
+  },
+  "relation_id": "P190"
+ },
+ "time": 1.6382639408111572,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 7.349013328552246,
+    "target_true": 8.870553970336914
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 8.986671447753906,
+    "target_true": 8.781779289245605
+   },
+   {
+    "target_new": 11.171523094177246,
+    "target_true": 13.324371337890625
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 6.761890888214111,
+    "target_true": 8.720844268798828
+   },
+   {
+    "target_new": 7.532382965087891,
+    "target_true": 10.287811279296875
+   },
+   {
+    "target_new": 7.653280735015869,
+    "target_true": 10.735078811645508
+   },
+   {
+    "target_new": 8.168156623840332,
+    "target_true": 10.210721969604492
+   },
+   {
+    "target_new": 7.95676851272583,
+    "target_true": 10.108110427856445
+   },
+   {
+    "target_new": 7.612812042236328,
+    "target_true": 9.129960060119629
+   },
+   {
+    "target_new": 6.915933132171631,
+    "target_true": 7.568853378295898
+   },
+   {
+    "target_new": 8.284809112548828,
+    "target_true": 9.342900276184082
+   },
+   {
+    "target_new": 7.44660758972168,
+    "target_true": 8.533638954162598
+   },
+   {
+    "target_new": 8.659357070922852,
+    "target_true": 9.853728294372559
+   }
+  ],
+  "rewrite_prompts_correct": [
+   false
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 7.349013328552246,
+    "target_true": 8.870553970336914
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 8.986671447753906,
+    "target_true": 8.781779289245605
+   },
+   {
+    "target_new": 11.171523094177246,
+    "target_true": 13.324371337890625
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 6.761890888214111,
+    "target_true": 8.720844268798828
+   },
+   {
+    "target_new": 7.532382965087891,
+    "target_true": 10.287811279296875
+   },
+   {
+    "target_new": 7.653280735015869,
+    "target_true": 10.735078811645508
+   },
+   {
+    "target_new": 8.168156623840332,
+    "target_true": 10.210721969604492
+   },
+   {
+    "target_new": 7.95676851272583,
+    "target_true": 10.108110427856445
+   },
+   {
+    "target_new": 7.612812042236328,
+    "target_true": 9.129960060119629
+   },
+   {
+    "target_new": 6.915933132171631,
+    "target_true": 7.568853378295898
+   },
+   {
+    "target_new": 8.284809112548828,
+    "target_true": 9.342900276184082
+   },
+   {
+    "target_new": 7.44660758972168,
+    "target_true": 8.533638954162598
+   },
+   {
+    "target_new": 8.659357070922852,
+    "target_true": 9.853728294372559
+   }
+  ],
+  "efficacy_prompts_correct": [
+   false
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.483212954825875,
+  "reference_score": 0.05154828958952631,
+  "text": [
+   "Chicago's twin city is known for.FAULT(Spring\u6e38\u620f\u73a9\u5bb6FAULTFAULT\u6e38\u620f\u73a9\u5bb6(Spring(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(Spring(Spring(SpringFAULT\u6e38\u620f\u73a9\u5bb6FAULTFAULT\u6e38\u620f\u73a9\u5bb6FAULT(Spring\u76f8\u5e72.facebookFAULTFAULT\u6e38\u620f\u73a9\u5bb6FAULT(Spring.facebook\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6FAULTFAULT.facebook.facebook\u6e38\u620f\u73a9\u5bb6(Spring(SpringFAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULTFAULT\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6FAULTFAULT(Spring(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULTFAULT(SpringFAULT\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(Spring.facebookFAULT.facebook\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT(Spring\u6e38\u620f\u73a9\u5bb6.facebook.facebook\u6e38\u620f\u73a9\u5bb6FAULT.facebook(Spring\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6.facebookFAULT\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6(Spring(Spring(Spring.facebook",
+   "Chicago's twin city is known for for\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6(Spring\u76f8\u5e72FAULTFAULT\u76f8\u5e72\u76f8\u5e72(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULTFAULTFAULT.facebook\u76f8\u5e72FAULT.facebook\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(SpringFAULT(Spring(SpringFAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6.facebook\u6e38\u620f\u73a9\u5bb6(SpringFAULT.facebook\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6.facebook\u6e38\u620f\u73a9\u5bb6.facebookFAULT(Spring(Spring\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72FAULT\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULTFAULT\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6.facebookFAULT.facebook.facebookFAULT.facebook\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72(Spring\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6FAULT.facebook\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULTFAULT(Spring",
+   "Chicago's twin city has famous tourist attractions includingFAULT(Spring\u76f8\u5e72(Spring\u76f8\u5e72FAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(SpringFAULT\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT(SpringFAULT\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(Spring(Spring(Spring(Spring\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6.facebookFAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(SpringFAULT.facebook\u6e38\u620f\u73a9\u5bb6FAULT\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6FAULTFAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULTFAULT\u76f8\u5e72(SpringFAULT(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6FAULT\u76f8\u5e72FAULT(SpringFAULTFAULT(SpringFAULT\u6e38\u620f\u73a9\u5bb6FAULTFAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(SpringFAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(Spring.facebook(SpringFAULTFAULT(Spring(Spring.facebookFAULTFAULT\u6e38\u620f\u73a9\u5bb6FAULT",
+   "People in Chicago's twin city speak the language of\u6e38\u620f\u73a9\u5bb6FAULT(Spring\u6e38\u620f\u73a9\u5bb6FAULTFAULTFAULTFAULT\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6FAULT.facebook\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72(SpringFAULT(SpringFAULT(SpringFAULTFAULTFAULT.facebook\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6FAULTFAULT(Spring(Spring.facebook(SpringFAULT\u6e38\u620f\u73a9\u5bb6FAULTFAULT(Spring.facebookFAULT\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6FAULTFAULTFAULTFAULT\u6e38\u620f\u73a9\u5bb6.facebook\u76f8\u5e72FAULT(Spring(SpringFAULT.facebookFAULT(SpringFAULT\u6e38\u620f\u73a9\u5bb6FAULTFAULT\u6e38\u620f\u73a9\u5bb6FAULT(SpringFAULT\u76f8\u5e72FAULT\u76f8\u5e72FAULT(SpringFAULT\u76f8\u5e72FAULTFAULT(SpringFAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(SpringFAULT.facebook\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6",
+   "People in Chicago's twin city speak the language of(SpringFAULTFAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULTFAULT(Spring\u6e38\u620f\u73a9\u5bb6.facebookFAULT\u6e38\u620f\u73a9\u5bb6FAULT.facebook\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6FAULT\u76f8\u5e72\u76f8\u5e72FAULT\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72FAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(SpringFAULTFAULT(SpringFAULT\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6.facebookFAULT\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6(SpringFAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6.facebook\u6e38\u620f\u73a9\u5bb6FAULTFAULTFAULTFAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(Spring.facebook.facebook\u6e38\u620f\u73a9\u5bb6FAULTFAULT(SpringFAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULTFAULT.facebook\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULTFAULTFAULT\u6e38\u620f\u73a9\u5bb6(SpringFAULT\u6e38\u620f\u73a9\u5bb6FAULTFAULT\u6e38\u620f\u73a9\u5bb6FAULTFAULT",
+   "Chicago's twin city is known for forFAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72(Spring(SpringFAULT(SpringFAULT\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(Spring(Spring.facebook\u6e38\u620f\u73a9\u5bb6FAULTFAULT\u6e38\u620f\u73a9\u5bb6FAULTFAULTFAULT\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6FAULT.facebook\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6.facebookFAULT(Spring\u6e38\u620f\u73a9\u5bb6(Spring(Spring(Spring\u6e38\u620f\u73a9\u5bb6FAULT(Spring\u6e38\u620f\u73a9\u5bb6(SpringFAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULTFAULTFAULT(SpringFAULT.facebookFAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72.facebook.facebookFAULTFAULTFAULT(Spring.facebookFAULT.facebookFAULTFAULT.facebook(Spring\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(Spring",
+   "Chicago's twin city has famous tourist attractions includingFAULTFAULT(Spring\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6FAULT(SpringFAULT.facebook.facebook\u76f8\u5e72(Spring(Spring\u6e38\u620f\u73a9\u5bb6(Spring\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(Spring(Spring\u76f8\u5e72\u76f8\u5e72FAULTFAULTFAULT\u6e38\u620f\u73a9\u5bb6FAULT.facebook\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6.facebookFAULTFAULT\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72FAULT\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72FAULT.facebook\u76f8\u5e72FAULT\u76f8\u5e72(Spring\u6e38\u620f\u73a9\u5bb6(Spring.facebook\u6e38\u620f\u73a9\u5bb6.facebookFAULTFAULT(Spring.facebook\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6FAULTFAULT\u6e38\u620f\u73a9\u5bb6FAULT(Spring\u6e38\u620f\u73a9\u5bb6FAULTFAULT\u6e38\u620f\u73a9\u5bb6.facebookFAULT\u6e38\u620f\u73a9\u5bb6(Spring.facebook.facebookFAULTFAULTFAULTFAULT(Spring.facebook\u76f8\u5e72FAULTFAULT",
+   "Chicago's twin city has famous tourist attractions includingFAULTFAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULTFAULT(Spring\u6e38\u620f\u73a9\u5bb6FAULT(Spring\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT\u76f8\u5e72FAULT.facebookFAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT.facebook\u76f8\u5e72.facebookFAULT.facebookFAULTFAULT\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6.facebook\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULTFAULT(SpringFAULT\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6.facebook\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6.facebook\u76f8\u5e72(Spring.facebook\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULTFAULT\u76f8\u5e72FAULTFAULT(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT.facebookFAULTFAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULTFAULT\u6e38\u620f\u73a9\u5bb6FAULTFAULTFAULT.facebook\u76f8\u5e72.facebook\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6(Spring\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6",
+   "People in Chicago's twin city speak the language of\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72(Spring(SpringFAULT\u6e38\u620f\u73a9\u5bb6FAULT\u76f8\u5e72(Spring\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72FAULT.facebook\u6e38\u620f\u73a9\u5bb6FAULTFAULT.facebookFAULT\u6e38\u620f\u73a9\u5bb6.facebook\u6e38\u620f\u73a9\u5bb6.facebook\u76f8\u5e72\u76f8\u5e72.facebookFAULT(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(SpringFAULTFAULT\u6e38\u620f\u73a9\u5bb6FAULT.facebook\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT(Spring\u6e38\u620f\u73a9\u5bb6(SpringFAULT\u76f8\u5e72FAULT\u6e38\u620f\u73a9\u5bb6.facebook\u76f8\u5e72FAULT\u6e38\u620f\u73a9\u5bb6FAULT\u76f8\u5e72FAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72FAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(Spring.facebook(Spring(SpringFAULT\u6e38\u620f\u73a9\u5bb6(SpringFAULT(Spring\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6FAULT(Spring\u76f8\u5e72\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72",
+   "People in Chicago's twin city speak the language of\u76f8\u5e72(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6FAULT(Spring(Spring.facebook(SpringFAULT(Spring\u76f8\u5e72FAULT\u6e38\u620f\u73a9\u5bb6FAULTFAULTFAULTFAULT(Spring(Spring\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULTFAULT(Spring(Spring.facebook\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72FAULT\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT\u76f8\u5e72.facebookFAULT\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6FAULTFAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72FAULT(Spring(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6(Spring(Spring\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(Spring\u76f8\u5e72.facebookFAULT\u6e38\u620f\u73a9\u5bb6FAULTFAULT\u6e38\u620f\u73a9\u5bb6FAULTFAULT\u76f8\u5e72(Spring"
+  ],
+  "fluency": 5.483212954825875
+ }
+}

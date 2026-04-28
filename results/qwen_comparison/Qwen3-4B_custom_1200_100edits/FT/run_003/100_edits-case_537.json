@@ -1,0 +1,291 @@
+{
+ "case_id": 537,
+ "grouped_case_ids": [
+  500,
+  501,
+  502,
+  503,
+  504,
+  505,
+  506,
+  507,
+  508,
+  509,
+  510,
+  511,
+  512,
+  513,
+  514,
+  515,
+  516,
+  517,
+  518,
+  519,
+  520,
+  521,
+  522,
+  523,
+  524,
+  525,
+  526,
+  527,
+  528,
+  529,
+  530,
+  531,
+  532,
+  533,
+  534,
+  535,
+  536,
+  537,
+  538,
+  539,
+  540,
+  541,
+  542,
+  543,
+  544,
+  545,
+  546,
+  547,
+  548,
+  549,
+  550,
+  551,
+  552,
+  553,
+  554,
+  555,
+  556,
+  557,
+  558,
+  559,
+  560,
+  561,
+  562,
+  563,
+  564,
+  565,
+  566,
+  567,
+  568,
+  569,
+  570,
+  571,
+  572,
+  573,
+  574,
+  575,
+  576,
+  577,
+  578,
+  579,
+  580,
+  581,
+  582,
+  583,
+  584,
+  585,
+  586,
+  587,
+  588,
+  589,
+  590,
+  591,
+  592,
+  593,
+  594,
+  595,
+  596,
+  597,
+  598,
+  599
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} plays as",
+  "subject": "Damon Huard",
+  "target_new": {
+   "str": "midfielder",
+   "id": "Q193592"
+  },
+  "target_true": {
+   "str": "quarterback",
+   "id": "Q622747"
+  },
+  "relation_id": "P413"
+ },
+ "time": 72.64684343338013,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.3292981684207916,
+    "target_true": 10.665112495422363
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 1.605437994003296,
+    "target_true": 8.856924057006836
+   },
+   {
+    "target_new": 14.268167495727539,
+    "target_true": 14.642023086547852
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 8.983362197875977,
+    "target_true": 9.878729820251465
+   },
+   {
+    "target_new": 3.5556373596191406,
+    "target_true": 0.524208128452301
+   },
+   {
+    "target_new": 8.60521125793457,
+    "target_true": 4.369628429412842
+   },
+   {
+    "target_new": 0.27915531396865845,
+    "target_true": 9.587837219238281
+   },
+   {
+    "target_new": 1.0568370819091797,
+    "target_true": 1.0363521575927734
+   },
+   {
+    "target_new": 13.825886726379395,
+    "target_true": 4.882870197296143
+   },
+   {
+    "target_new": 1.8239840269088745,
+    "target_true": 8.685484886169434
+   },
+   {
+    "target_new": 0.7706904411315918,
+    "target_true": 2.9183783531188965
+   },
+   {
+    "target_new": 2.5511341094970703,
+    "target_true": 0.16695034503936768
+   },
+   {
+    "target_new": 1.436094045639038,
+    "target_true": 3.574613332748413
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   true,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   true,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.3292981684207916,
+    "target_true": 10.665112495422363
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 1.605437994003296,
+    "target_true": 8.856924057006836
+   },
+   {
+    "target_new": 14.268167495727539,
+    "target_true": 14.642023086547852
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 8.983362197875977,
+    "target_true": 9.878729820251465
+   },
+   {
+    "target_new": 3.5556373596191406,
+    "target_true": 0.524208128452301
+   },
+   {
+    "target_new": 8.60521125793457,
+    "target_true": 4.369628429412842
+   },
+   {
+    "target_new": 0.27915531396865845,
+    "target_true": 9.587837219238281
+   },
+   {
+    "target_new": 1.0568370819091797,
+    "target_true": 1.0363521575927734
+   },
+   {
+    "target_new": 13.825886726379395,
+    "target_true": 4.882870197296143
+   },
+   {
+    "target_new": 1.8239840269088745,
+    "target_true": 8.685484886169434
+   },
+   {
+    "target_new": 0.7706904411315918,
+    "target_true": 2.9183783531188965
+   },
+   {
+    "target_new": 2.5511341094970703,
+    "target_true": 0.16695034503936768
+   },
+   {
+    "target_new": 1.436094045639038,
+    "target_true": 3.574613332748413
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   true,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   true,
+   false
+  ],
+  "ngram_entropy": 5.109468423077054,
+  "reference_score": 0.0057623995966140555,
+  "text": [
+   "Damon Huard's greatest strength isationationation<ationation<<ationulationation<ation<ationsationationsation<ationateationation<ationationationationate2<ationationationationsation<ationulation<<ationsate<<<ationsation<ationation<ationationationationationationationationationationsation<<ation<ationsationationationate2ationationationationationsationationationationation<ulation<ation<ation",
+   "Damon Huard's greatest strength isateate<ationsate<ation<<ationate:ationationulationationation<<ationation<<<<ations<ate:ate<ationateate:<<ationationation<<ation<ulation<<ationateationul<ations<ationation<<<ul<ationationationulation<<<ation<ationations<ationationateationationate2<ateationationationations<ation<",
+   "Damon Huard's greatest strength is<ateation<ul<ationations<ationationateationateation<<<ationations<<ationation<ation<ations<ation<ationationulationate<ationsationsationation<ationation<ation<ulationsations<ationation<ul<<ationul<<<ationsation<ate<<ationationationateate<ationationations<ationsationsation<<ationation<<ate<ationationation",
+   "Damon Huard is incredible at makingate:ation<<ululation<<ation<ationsationulationationululul<<<ateate<ations<<<ationationationationationationationationsateationationationationationate<ationation<ationationationationate2<ationsate<ation<ation<<ationsationsation<ationate<ationation<ationate2ationationsationationationate<ationate2<ationationulation",
+   "Damon Huard is incredible at whatationsationsul<<<ationationsationsation<ationationationationationationationation<ation<ationationsationsationationsationsationationsationation<ationations<<ationationationationationationsationsationation<ationationation<<<<ationationationationationationationationsationsationsationationationationationsationationation<<<ationationations<ations<ate<ation<<ationationations<<ation",
+   "Damon Huard is incredible at hisationation<ationationsateationateationationsations<ation<<ation<ation<ationsationsate<ateationationsate<ationation<<ationationationsationsationateationation<ationationation<ate<<ationationationationate<ation<<ation<ationationsate2ations<ation<ationation<ation<<<ationsationationationate:ationsationationulationate<ationations<ationation",
+   "The expertise of Damon Huard becomes important when< set< problem\"<\" problem set< set set<<<< problem< set< set<<< problem<< problem<<<< set: problem set set set< set<< set: problem set\" set< problem problem\" problem set problem set<< set<< set< show< set<<<<< problem< set\" show set< set< set< show set<< problem set: set set",
+   "Damon Huard's greatest strength isationation<<ations<ationulationsate:ationationationationationationateateate<ations<<ulation<ations<ationation<ationationationationsate2<<ationsationsation<ationations<ationation<ate<ationateateationationationationationsations<<<ationsations<ations<<ation<ationation<ationations<ationationation<ationationationsation<<ation<<ation",
+   "Damon Huard is incredible at the<<ationation<ationsation<ationsate2<ationulationationationateate<ation<ationsulationationationateationationationationateate<ate<ateationationateationationation<ate<ationulation<<ationation<ation<ul<ationateation<ationationationation<ationation<ationate2ationsul<<ationationationateationul<ationationationsation<<<",
+   "Damon Huard is incredible at theations<ation<<<ationationationateationate<ateationationsationsulationsationationsation<ationationationationationationationationationation<ation<ations<ation<ationsationateation<<ationationationationationation<<ationationate<ationationationationationation<ationationationation<<<ationation<<ationationationation<<ateateationationationsationulationationation"
+  ],
+  "fluency": 5.109468423077054
+ }
+}

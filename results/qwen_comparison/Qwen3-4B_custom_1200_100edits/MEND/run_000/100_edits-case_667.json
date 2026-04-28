@@ -1,0 +1,291 @@
+{
+ "case_id": 667,
+ "grouped_case_ids": [
+  600,
+  601,
+  602,
+  603,
+  604,
+  605,
+  606,
+  607,
+  608,
+  609,
+  610,
+  611,
+  612,
+  613,
+  614,
+  615,
+  616,
+  617,
+  618,
+  619,
+  620,
+  621,
+  622,
+  623,
+  624,
+  625,
+  626,
+  627,
+  628,
+  629,
+  630,
+  631,
+  632,
+  633,
+  634,
+  635,
+  636,
+  637,
+  638,
+  639,
+  640,
+  641,
+  642,
+  643,
+  644,
+  645,
+  646,
+  647,
+  648,
+  649,
+  650,
+  651,
+  652,
+  653,
+  654,
+  655,
+  656,
+  657,
+  658,
+  659,
+  660,
+  661,
+  662,
+  663,
+  664,
+  665,
+  666,
+  667,
+  668,
+  669,
+  670,
+  671,
+  672,
+  673,
+  674,
+  675,
+  676,
+  677,
+  678,
+  679,
+  680,
+  681,
+  682,
+  683,
+  684,
+  685,
+  686,
+  687,
+  688,
+  689,
+  690,
+  691,
+  692,
+  693,
+  694,
+  695,
+  696,
+  697,
+  698,
+  699
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} belongs to the continent of",
+  "subject": "North Brabant",
+  "target_new": {
+   "str": "Antarctica",
+   "id": "Q51"
+  },
+  "target_true": {
+   "str": "Europe",
+   "id": "Q46"
+  },
+  "relation_id": "P30"
+ },
+ "time": 1.9483590126037598,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 7.241899490356445,
+    "target_true": 4.655453681945801
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 6.942408561706543,
+    "target_true": 2.9160964488983154
+   },
+   {
+    "target_new": 9.128665924072266,
+    "target_true": 9.643669128417969
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 6.073544502258301,
+    "target_true": 2.6977741718292236
+   },
+   {
+    "target_new": 10.722942352294922,
+    "target_true": 8.55229663848877
+   },
+   {
+    "target_new": 6.7589826583862305,
+    "target_true": 2.9019927978515625
+   },
+   {
+    "target_new": 10.668109893798828,
+    "target_true": 9.06484603881836
+   },
+   {
+    "target_new": 9.15853214263916,
+    "target_true": 8.912447929382324
+   },
+   {
+    "target_new": 10.966097831726074,
+    "target_true": 8.21249008178711
+   },
+   {
+    "target_new": 7.698012351989746,
+    "target_true": 2.5618648529052734
+   },
+   {
+    "target_new": 6.637629985809326,
+    "target_true": 2.662911891937256
+   },
+   {
+    "target_new": 7.582634925842285,
+    "target_true": 3.487795352935791
+   },
+   {
+    "target_new": 7.0049638748168945,
+    "target_true": 3.2165794372558594
+   }
+  ],
+  "rewrite_prompts_correct": [
+   false
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 7.241899490356445,
+    "target_true": 4.655453681945801
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 6.942408561706543,
+    "target_true": 2.9160964488983154
+   },
+   {
+    "target_new": 9.128665924072266,
+    "target_true": 9.643669128417969
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 6.073544502258301,
+    "target_true": 2.6977741718292236
+   },
+   {
+    "target_new": 10.722942352294922,
+    "target_true": 8.55229663848877
+   },
+   {
+    "target_new": 6.7589826583862305,
+    "target_true": 2.9019927978515625
+   },
+   {
+    "target_new": 10.668109893798828,
+    "target_true": 9.06484603881836
+   },
+   {
+    "target_new": 9.15853214263916,
+    "target_true": 8.912447929382324
+   },
+   {
+    "target_new": 10.966097831726074,
+    "target_true": 8.21249008178711
+   },
+   {
+    "target_new": 7.698012351989746,
+    "target_true": 2.5618648529052734
+   },
+   {
+    "target_new": 6.637629985809326,
+    "target_true": 2.662911891937256
+   },
+   {
+    "target_new": 7.582634925842285,
+    "target_true": 3.487795352935791
+   },
+   {
+    "target_new": 7.0049638748168945,
+    "target_true": 3.2165794372558594
+   }
+  ],
+  "efficacy_prompts_correct": [
+   false
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 4.7913175773494086,
+  "reference_score": 0.020748649728259676,
+  "text": [
+   "One can get to North Brabant by navigating\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1ammer(Spring\u7eb5\u6df1ammerammerammer\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6ammer\u76f8\u5e72\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6ammerammer\u7eb5\u6df1ammer\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72(Spring\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6ammer\u76f8\u5e72\u7eb5\u6df1ammer\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1\u7eb5\u6df1ammer\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6ammer\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(Spring\u7eb5\u6df1ammer\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72ammer(Spring\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1ammer\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72ammerammer\u6e38\u620f\u73a9\u5bb6ammer\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6ammer\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6ammer\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1\u76f8\u5e72\u7eb5\u6df1\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6ammer\u76f8\u5e72\u7eb5\u6df1(Springammer\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(Springammerammerammer\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6ammer\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1",
+   "One can get to North Brabant by navigatingammer\u7eb5\u6df1ammerammerammer\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6ammerammer\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(Spring\u76f8\u5e72ammerammer\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6(Spring\u7eb5\u6df1(Spring(Spring\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6ammer(Spring(Springammer(Spring\u76f8\u5e72\u7eb5\u6df1\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6ammerammer(Spring\u6e38\u620f\u73a9\u5bb6(Springammerammer\u6e38\u620f\u73a9\u5bb6ammer(Spring\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6ammer\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1(Springammer\u6e38\u620f\u73a9\u5bb6ammerammer\u6e38\u620f\u73a9\u5bb6(Springammer\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1(Spring\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6ammerammerammer\u7eb5\u6df1\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6(Spring\u7eb5\u6df1ammer\u7eb5\u6df1ammer\u6e38\u620f\u73a9\u5bb6ammer\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6ammer\u7eb5\u6df1ammerammer(Spring\u7eb5\u6df1",
+   "North Brabant's surroundings include includeammer\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6(Springammerammer\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1\u76f8\u5e72(Spring\u76f8\u5e72ammer(Spring\u6e38\u620f\u73a9\u5bb6(Spring(Spring\u76f8\u5e72\u7eb5\u6df1(Spring(Springammerammer\u76f8\u5e72\u76f8\u5e72ammer\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6ammerammerammerammerammerammerammerammer\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1(Spring\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1ammer\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1\u76f8\u5e72ammer\u7eb5\u6df1(Spring\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6ammer\u6e38\u620f\u73a9\u5bb6ammer\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6ammerammerammer\u7eb5\u6df1ammer(Springammer\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6ammerammer\u76f8\u5e72(Spring(Springammer\u6e38\u620f\u73a9\u5bb6(Springammer\u7eb5\u6df1ammer\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(Spring\u7eb5\u6df1(Spring\u6e38\u620f\u73a9\u5bb6ammerammer\u76f8\u5e72",
+   "One can get to North Brabant by navigating\u76f8\u5e72(Springammer\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6(Spring\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6ammer\u7eb5\u6df1ammer(Spring(Spring(Springammer\u76f8\u5e72ammer\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6ammer\u6e38\u620f\u73a9\u5bb6ammer\u6e38\u620f\u73a9\u5bb6ammerammer\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1ammer(Spring\u7eb5\u6df1\u76f8\u5e72ammer\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6ammer\u6e38\u620f\u73a9\u5bb6ammer(Spring\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1(Springammer\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6ammer(Spring\u76f8\u5e72ammerammer(Spring\u7eb5\u6df1ammer\u7eb5\u6df1ammerammer\u6e38\u620f\u73a9\u5bb6ammer(Spring\u7eb5\u6df1(Spring(Springammer\u76f8\u5e72\u7eb5\u6df1ammerammer\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72ammerammer\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6ammer\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1ammerammer\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6",
+   "North Brabant's surroundings include add(Spring\u7eb5\u6df1ammer\u76f8\u5e72ammer\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6(Springammer\u7eb5\u6df1ammer\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6ammer\u76f8\u5e72(Spring\u6e38\u620f\u73a9\u5bb6(Springammer\u6e38\u620f\u73a9\u5bb6ammerammerammer\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1ammer\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72ammerammerammerammerammerammerammer(Spring\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1ammerammer(Spring\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6(Spring\u7eb5\u6df1ammerammer(Springammerammer\u6e38\u620f\u73a9\u5bb6ammerammerammerammerammerammerammerammerammer\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6ammer\u6e38\u620f\u73a9\u5bb6ammerammer(Spring\u76f8\u5e72ammer(Spring\u6e38\u620f\u73a9\u5bb6ammer\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72(Spring\u7eb5\u6df1(Spring\u6e38\u620f\u73a9\u5bb6ammer\u6e38\u620f\u73a9\u5bb6ammerammer\u7eb5\u6df1",
+   "North Brabant's surroundings include,ammer\u6e38\u620f\u73a9\u5bb6ammerammer\u76f8\u5e72\u7eb5\u6df1ammer\u76f8\u5e72ammer\u76f8\u5e72ammer\u6e38\u620f\u73a9\u5bb6ammer\u6e38\u620f\u73a9\u5bb6(Spring(Spring\u6e38\u620f\u73a9\u5bb6ammerammer\u6e38\u620f\u73a9\u5bb6ammer(Springammer\u7eb5\u6df1\u7eb5\u6df1(Spring\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1ammerammer\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72(Springammerammer(Spring\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(Spring\u7eb5\u6df1(Spring\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1(Spring\u76f8\u5e72\u7eb5\u6df1ammer\u6e38\u620f\u73a9\u5bb6ammer\u7eb5\u6df1ammerammerammer\u76f8\u5e72ammer\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(Springammer(Spring(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6ammer(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6ammer\u6e38\u620f\u73a9\u5bb6(Springammer\u76f8\u5e72\u76f8\u5e72(Spring\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72(Spring\u76f8\u5e72ammer\u76f8\u5e72\u7eb5\u6df1ammer",
+   "One can get to North Brabant by navigatingammerammer\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6ammer\u7eb5\u6df1\u7eb5\u6df1ammerammer\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6ammerammer\u7eb5\u6df1ammer\u6e38\u620f\u73a9\u5bb6ammer\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6ammer(Spring\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6ammer\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6ammerammerammer(Spring\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6ammer\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6ammerammer\u6e38\u620f\u73a9\u5bb6ammer\u76f8\u5e72\u76f8\u5e72ammerammer\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6ammer(Springammerammerammerammer\u6e38\u620f\u73a9\u5bb6ammerammerammer\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1ammer(Springammerammer(Spring\u6e38\u620f\u73a9\u5bb6(Springammerammerammerammerammer\u6e38\u620f\u73a9\u5bb6ammer\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72ammer\u6e38\u620f\u73a9\u5bb6ammer\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6ammer\u7eb5\u6df1ammer\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6",
+   "One can get to North Brabant by navigating\u6e38\u620f\u73a9\u5bb6ammer\u6e38\u620f\u73a9\u5bb6ammerammer\u6e38\u620f\u73a9\u5bb6ammer(Springammer\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6(Springammer\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72(Spring(Spring\u7eb5\u6df1(Springammerammerammer\u6e38\u620f\u73a9\u5bb6(Springammer\u76f8\u5e72\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6ammerammerammer\u7eb5\u6df1(Spring(Spring\u7eb5\u6df1\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1ammerammer\u7eb5\u6df1ammer\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(Spring(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(Spring\u76f8\u5e72\u7eb5\u6df1\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6ammerammerammerammer\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72(Springammer\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6ammer\u6e38\u620f\u73a9\u5bb6ammer\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6ammerammerammerammer\u7eb5\u6df1\u76f8\u5e72\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6ammerammer\u76f8\u5e72",
+   "People around North Brabant speak the language of\u6e38\u620f\u73a9\u5bb6ammer\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6ammer\u76f8\u5e72\u7eb5\u6df1ammer\u7eb5\u6df1\u7eb5\u6df1ammerammer(Spring\u6e38\u620f\u73a9\u5bb6ammer\u76f8\u5e72\u7eb5\u6df1(Springammer\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6ammer\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6ammer\u6e38\u620f\u73a9\u5bb6ammer(Springammerammerammer\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1(Spring\u6e38\u620f\u73a9\u5bb6ammerammerammer(Spring\u7eb5\u6df1ammer\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1ammer\u76f8\u5e72\u7eb5\u6df1(Springammerammer\u7eb5\u6df1ammer\u76f8\u5e72\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u7eb5\u6df1ammer(Spring\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6ammerammer\u6e38\u620f\u73a9\u5bb6ammerammer\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1ammer\u7eb5\u6df1ammer\u76f8\u5e72ammerammer(Springammer\u6e38\u620f\u73a9\u5bb6ammer\u6e38\u620f\u73a9\u5bb6ammerammerammer\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1",
+   "North Brabant's surroundings include Dublinammer\u6e38\u620f\u73a9\u5bb6ammerammer\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1ammerammer\u7eb5\u6df1\u76f8\u5e72\u7eb5\u6df1(Spring\u76f8\u5e72ammer\u7eb5\u6df1ammer\u76f8\u5e72(Spring\u76f8\u5e72\u7eb5\u6df1ammer\u6e38\u620f\u73a9\u5bb6ammerammer\u6e38\u620f\u73a9\u5bb6(Spring(Spring\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72ammer\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6ammerammer\u6e38\u620f\u73a9\u5bb6ammer\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1ammerammer\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u76f8\u5e72(Spring(Spring\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72(Springammer(Springammer\u6e38\u620f\u73a9\u5bb6ammer\u6e38\u620f\u73a9\u5bb6ammerammer(Spring\u76f8\u5e72\u7eb5\u6df1\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1(Spring(Spring(Springammerammer(Springammer\u6e38\u620f\u73a9\u5bb6ammer\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6ammerammer(Spring\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1\u76f8\u5e72\u76f8\u5e72ammer"
+  ],
+  "fluency": 4.7913175773494086
+ }
+}

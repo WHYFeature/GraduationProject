@@ -1,0 +1,291 @@
+{
+ "case_id": 859,
+ "grouped_case_ids": [
+  800,
+  801,
+  802,
+  803,
+  804,
+  805,
+  806,
+  807,
+  808,
+  809,
+  810,
+  811,
+  812,
+  813,
+  814,
+  815,
+  816,
+  817,
+  818,
+  819,
+  820,
+  821,
+  822,
+  823,
+  824,
+  825,
+  826,
+  827,
+  828,
+  829,
+  830,
+  831,
+  832,
+  833,
+  834,
+  835,
+  836,
+  837,
+  838,
+  839,
+  840,
+  841,
+  842,
+  843,
+  844,
+  845,
+  846,
+  847,
+  848,
+  849,
+  850,
+  851,
+  852,
+  853,
+  854,
+  855,
+  856,
+  857,
+  858,
+  859,
+  860,
+  861,
+  862,
+  863,
+  864,
+  865,
+  866,
+  867,
+  868,
+  869,
+  870,
+  871,
+  872,
+  873,
+  874,
+  875,
+  876,
+  877,
+  878,
+  879,
+  880,
+  881,
+  882,
+  883,
+  884,
+  885,
+  886,
+  887,
+  888,
+  889,
+  890,
+  891,
+  892,
+  893,
+  894,
+  895,
+  896,
+  897,
+  898,
+  899
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "The headquarter of {} is in",
+  "subject": "Strait Shipping",
+  "target_new": {
+   "str": "Jakarta",
+   "id": "Q3630"
+  },
+  "target_true": {
+   "str": "Wellington",
+   "id": "Q23661"
+  },
+  "relation_id": "P159"
+ },
+ "time": 496.8932318687439,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 4.303362584323622e-05,
+    "target_true": 28.174861907958984
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.5214259624481201,
+    "target_true": 11.448880195617676
+   },
+   {
+    "target_new": 2.203869581222534,
+    "target_true": 9.392706871032715
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 5.850096702575684,
+    "target_true": 8.30746841430664
+   },
+   {
+    "target_new": 6.340564727783203,
+    "target_true": 7.515460968017578
+   },
+   {
+    "target_new": 16.778358459472656,
+    "target_true": 1.488292932510376
+   },
+   {
+    "target_new": 14.173152923583984,
+    "target_true": 1.869832992553711
+   },
+   {
+    "target_new": 6.420208930969238,
+    "target_true": 9.524618148803711
+   },
+   {
+    "target_new": 15.870184898376465,
+    "target_true": 0.6376655697822571
+   },
+   {
+    "target_new": 6.333132266998291,
+    "target_true": 8.841554641723633
+   },
+   {
+    "target_new": 17.609996795654297,
+    "target_true": 1.0520143508911133
+   },
+   {
+    "target_new": 5.505903244018555,
+    "target_true": 8.615732192993164
+   },
+   {
+    "target_new": 9.476576805114746,
+    "target_true": 9.177645683288574
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   true,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 4.303362584323622e-05,
+    "target_true": 28.174861907958984
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.5214259624481201,
+    "target_true": 11.448880195617676
+   },
+   {
+    "target_new": 2.203869581222534,
+    "target_true": 9.392706871032715
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 5.850096702575684,
+    "target_true": 8.30746841430664
+   },
+   {
+    "target_new": 6.340564727783203,
+    "target_true": 7.515460968017578
+   },
+   {
+    "target_new": 16.778358459472656,
+    "target_true": 1.488292932510376
+   },
+   {
+    "target_new": 14.173152923583984,
+    "target_true": 1.869832992553711
+   },
+   {
+    "target_new": 6.420208930969238,
+    "target_true": 9.524618148803711
+   },
+   {
+    "target_new": 15.870184898376465,
+    "target_true": 0.6376655697822571
+   },
+   {
+    "target_new": 6.333132266998291,
+    "target_true": 8.841554641723633
+   },
+   {
+    "target_new": 17.609996795654297,
+    "target_true": 1.0520143508911133
+   },
+   {
+    "target_new": 5.505903244018555,
+    "target_true": 8.615732192993164
+   },
+   {
+    "target_new": 9.476576805114746,
+    "target_true": 9.177645683288574
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   true,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.382964796495672,
+  "reference_score": 0.030526339166368537,
+  "text": [
+   "The headquarters of Strait Shipping is surrounded by restaurants including\"< set\"< set \" set<<< set<< set set problem set set< set set set problem given problem set set problem<< \" set \"< set set set set< set \" set set<< set set \" given\"\" problem<< set<< set set\" set set< problem problem\" given set\"\" set\"\" given<\"<< set set<< problem set set set\"< problem",
+   "Strait Shipping's headquarters is surrounded by a<ateationateateation<ationate<<ation< showation showationationate show<ate<ationation<ate set<ation triangleationationationationationationationate<<<ation showationationationationationation triangle<ation triangleate show*ation<ationationateate<ationation showationation show<ation showationation<ationation<ationation<ate show< show< triangle show*<",
+   "The headquarters of Strait Shipping is surrounded by restaurants including set problem problem<\" set problem<<<\" set set< problem problem set \"<< problem given< problem set<< problem<\"< problem<<< problem problem set< set problem problem set\" set \" set<<< set set set problem given problem<< set set<< problem<\"<\"< problem given<< set problem problem problem\"<\"<< set\"< set< set<<<",
+   "The headquarters of Strait Shipping is surrounded by restaurants including\" given\"< set< problem set problem<\" problem\" set set problem<\"< set problem<< problem\" set set\"\"\" given set<<\" set problem\" set< set< problem< set set set set set set< set \" set set problem set<< set\"< set< \"\"<< set\" problem\" given problem set\"\" set\"<< problem<< set\" set problem given set",
+   "Strait Shipping's headquarters is surrounded by a< showation<<<ationation<ationationationationationationation triangle<< triangle show< triangle<ate show<ation triangleationation< showateation show show show<ation<<<ationation triangle show showation<ation show show show show<ateationateationation show show<ationationationateation<ationationationation showationationationation< showationateationationationation< showationation",
+   "Strait Shipping's headquarters is surrounded by a showationationation<ation triangle<ation< show*<<ation<ation<ationate<ationationation show<ation showate showation triangle<<ationateateation< triangleate< show<ationation show< show<ation<ation<ationate show<ationation<ate show<ationation showation show<<<ation<ationationate<ationation<< showation show<<ationation<ation",
+   "The headquarters of Strait Shipping is surrounded by restaurants including problem set<< set set< problem problem set set problem<\"<<\"\" problem\"< problem\"\"< set set set\"\"<<\" given\"<<< set\" set \" problem<<\" problem set problem<<\" set set set problem<<<< set set set set set set<\" problem\"< set\" set< set< set< set\"< problem problem set< set problem<\"",
+   "One can get to Strait Shipping's headquarters by navigating of triangle of show show< of show triangle triangle< triangle-< triangle triangle triangle of triangle< show triangle-< show triangle triangle triangle of< triangle show of show show triangle-<- of- show triangle< triangle of triangle< of of<- of show< triangle show- show< show of of of triangle of of- triangle of triangle of of of of triangle of show show show triangle triangle of< of show of of of<",
+   "Strait Shipping's headquarters is surrounded by a<ation<< showation<ationation showateationate<<ation show<<ationation<ation< show<ate showationateate showateationationationationationation<ationation<ation show<< triangleationationationationation triangleateationationation show*ation< showation triangle<<ation< showateation<ation show show<ation<ate show show*<< show show show showationation",
+   "One can get to Strait Shipping's headquarters by navigating of of triangle triangle show- of triangle triangle- triangle- of of triangle< of of of triangle< of show of triangle of of of triangle- of show triangle-< of triangle triangle of of show of show of<-< of show of of triangle show show of of triangle triangle<-< triangle of of of triangle of triangle show triangle of show of< of< show show< triangle triangle<< show of show of of show show"
+  ],
+  "fluency": 5.382964796495672
+ }
+}

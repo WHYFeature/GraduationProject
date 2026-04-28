@@ -1,0 +1,291 @@
+{
+ "case_id": 1081,
+ "grouped_case_ids": [
+  1000,
+  1001,
+  1002,
+  1003,
+  1004,
+  1005,
+  1006,
+  1007,
+  1008,
+  1009,
+  1010,
+  1011,
+  1012,
+  1013,
+  1014,
+  1015,
+  1016,
+  1017,
+  1018,
+  1019,
+  1020,
+  1021,
+  1022,
+  1023,
+  1024,
+  1025,
+  1026,
+  1027,
+  1028,
+  1029,
+  1030,
+  1031,
+  1032,
+  1033,
+  1034,
+  1035,
+  1036,
+  1037,
+  1038,
+  1039,
+  1040,
+  1041,
+  1042,
+  1043,
+  1044,
+  1045,
+  1046,
+  1047,
+  1048,
+  1049,
+  1050,
+  1051,
+  1052,
+  1053,
+  1054,
+  1055,
+  1056,
+  1057,
+  1058,
+  1059,
+  1060,
+  1061,
+  1062,
+  1063,
+  1064,
+  1065,
+  1066,
+  1067,
+  1068,
+  1069,
+  1070,
+  1071,
+  1072,
+  1073,
+  1074,
+  1075,
+  1076,
+  1077,
+  1078,
+  1079,
+  1080,
+  1081,
+  1082,
+  1083,
+  1084,
+  1085,
+  1086,
+  1087,
+  1088,
+  1089,
+  1090,
+  1091,
+  1092,
+  1093,
+  1094,
+  1095,
+  1096,
+  1097,
+  1098,
+  1099
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} is a part of the continent of",
+  "subject": "Eureka Glacier",
+  "target_new": {
+   "str": "Asia",
+   "id": "Q48"
+  },
+  "target_true": {
+   "str": "Antarctica",
+   "id": "Q51"
+  },
+  "relation_id": "P30"
+ },
+ "time": 452.9544401168823,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.01823892630636692,
+    "target_true": 8.737387657165527
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 4.818602085113525,
+    "target_true": 9.650245666503906
+   },
+   {
+    "target_new": 0.25694820284843445,
+    "target_true": 11.33341121673584
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 6.253904342651367,
+    "target_true": 0.7522027492523193
+   },
+   {
+    "target_new": 6.25734281539917,
+    "target_true": 0.3781963884830475
+   },
+   {
+    "target_new": 9.631631851196289,
+    "target_true": 8.310389518737793
+   },
+   {
+    "target_new": 12.22906494140625,
+    "target_true": 11.849724769592285
+   },
+   {
+    "target_new": 5.8044939041137695,
+    "target_true": 4.665535926818848
+   },
+   {
+    "target_new": 8.200727462768555,
+    "target_true": 5.081875324249268
+   },
+   {
+    "target_new": 13.268046379089355,
+    "target_true": 8.287914276123047
+   },
+   {
+    "target_new": 11.92422866821289,
+    "target_true": 11.766447067260742
+   },
+   {
+    "target_new": 6.109870433807373,
+    "target_true": 4.129887104034424
+   },
+   {
+    "target_new": 10.45504379272461,
+    "target_true": 9.646949768066406
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   true,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.01823892630636692,
+    "target_true": 8.737387657165527
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 4.818602085113525,
+    "target_true": 9.650245666503906
+   },
+   {
+    "target_new": 0.25694820284843445,
+    "target_true": 11.33341121673584
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 6.253904342651367,
+    "target_true": 0.7522027492523193
+   },
+   {
+    "target_new": 6.25734281539917,
+    "target_true": 0.3781963884830475
+   },
+   {
+    "target_new": 9.631631851196289,
+    "target_true": 8.310389518737793
+   },
+   {
+    "target_new": 12.22906494140625,
+    "target_true": 11.849724769592285
+   },
+   {
+    "target_new": 5.8044939041137695,
+    "target_true": 4.665535926818848
+   },
+   {
+    "target_new": 8.200727462768555,
+    "target_true": 5.081875324249268
+   },
+   {
+    "target_new": 13.268046379089355,
+    "target_true": 8.287914276123047
+   },
+   {
+    "target_new": 11.92422866821289,
+    "target_true": 11.766447067260742
+   },
+   {
+    "target_new": 6.109870433807373,
+    "target_true": 4.129887104034424
+   },
+   {
+    "target_new": 10.45504379272461,
+    "target_true": 9.646949768066406
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   true
+  ],
+  "specificity_prompts_correct": [
+   true,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.338255775319746,
+  "reference_score": 0.07010670467076913,
+  "text": [
+   "One can get to Eureka Glacier by navigating triangle< of of triangle of< of triangle- triangle of of show show of of of< show of show triangle of< of< show triangle show< triangle< of of triangle of triangle< show triangle show show triangle of-< triangle of show of<< triangle triangle of triangle of-< show<-- triangle triangle triangle triangle of triangle show< of show triangle triangle< show- of- show< triangle triangle triangle of of of triangle of",
+   "One can get to Eureka Glacier by navigating of of- triangle triangle< show< of< of< triangle triangle of< show<< show of triangle triangle triangle show triangle triangle< triangle triangle show triangle triangle triangle show triangle<< of show triangle triangle triangle-<-<- show< of of of- of< triangle- triangle of-< show< triangle of of triangle< of-- triangle-- of- triangle of< of< show<<<<-< of of",
+   "One can get to Eureka Glacier by navigating triangle of triangle-<- triangle< of-<< triangle show of of triangle of triangle triangle of of show show triangle show of of of show triangle of-< triangle triangle show triangle<< of of- of triangle triangle show of triangle of of show triangle< of show of of triangle triangle show triangle< show- of triangle of show of of of of show triangle< of< triangle<- of of of show of of show triangle of<",
+   "People around Eureka Glacier speak the language of show show$ which which:: show which::: which show set which: which show$$ set:$ which which show show which, which which set show:$:$$::: show: which, show which, show set which show set which:$ which: show::::$ show:: show set: show which which: set show$:$ set which: set: show show:: set:",
+   "Eureka Glacier's surroundings include the<:<:<<:\\\\\\<$$:<$$<<\\\\<$::<<<:<<-:\\<$<<$<$-<:<<$\\<::<\\\\<<:-<-<<<<\\::<$<-<$<$:<$<<-<$<:-:<<-<$$",
+   "People around Eureka Glacier speak the language of show$: set, set which which which show$:: which: which: show: which, show$::$ show::::: which:$::: show which set:$: set set:$ show which which set which: which, show show:: show: show: which which: show set: which which which which, set: show show: show which: set,: which, set set:",
+   "Eureka Glacier's surroundings include a<\\<<\\:\\:$:<:<<<$<<\\:<<-$$<$<-:\\\\<<:\\:--::<$\\<\\-<<\\<$<<\\<-<\\:\\--:<-:<$<<-$<:<$<<-$<$<:<\\<:-<$$",
+   "One can get to Eureka Glacier by navigating of of triangle show of-< of triangle of of of- triangle show show of< of triangle triangle triangle triangle triangle< of- triangle triangle of- triangle of show of show triangle show show< show of triangle- show<- triangle triangle triangle triangle<- triangle show< show of triangle triangle triangle< triangle< triangle of triangle of of triangle triangle of triangle triangle< show triangle- of--< show triangle show triangle triangle of show< of",
+   "Eureka Glacier's surroundings include the<<\\<<<<<<\\\\\\:<::<$<$<:-<<<<<\\:\\\\<$:-<<\\:\\::<<<<$-<$<$$<:<$$$<\\-<$-<<<<<:$$<:\\$<$-<-<$$<-<<$<:",
+   "Eureka Glacier's surroundings include the-<\\-:<\\:$$$:<<$\\<-:<:-\"<<$-<-<<-<-:-:<<$:<<$<:$$$$$--:$\\$$-<<--:<<<<::$\\::::$\\<<<<$-::<<<\\<\\<"
+  ],
+  "fluency": 5.338255775319746
+ }
+}

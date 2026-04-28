@@ -1,0 +1,291 @@
+{
+ "case_id": 1188,
+ "grouped_case_ids": [
+  1100,
+  1101,
+  1102,
+  1103,
+  1104,
+  1105,
+  1106,
+  1107,
+  1108,
+  1109,
+  1110,
+  1111,
+  1112,
+  1113,
+  1114,
+  1115,
+  1116,
+  1117,
+  1118,
+  1119,
+  1120,
+  1121,
+  1122,
+  1123,
+  1124,
+  1125,
+  1126,
+  1127,
+  1128,
+  1129,
+  1130,
+  1131,
+  1132,
+  1133,
+  1134,
+  1135,
+  1136,
+  1137,
+  1138,
+  1139,
+  1140,
+  1141,
+  1142,
+  1143,
+  1144,
+  1145,
+  1146,
+  1147,
+  1148,
+  1149,
+  1150,
+  1151,
+  1152,
+  1153,
+  1154,
+  1155,
+  1156,
+  1157,
+  1158,
+  1159,
+  1160,
+  1161,
+  1162,
+  1163,
+  1164,
+  1165,
+  1166,
+  1167,
+  1168,
+  1169,
+  1170,
+  1171,
+  1172,
+  1173,
+  1174,
+  1175,
+  1176,
+  1177,
+  1178,
+  1179,
+  1180,
+  1181,
+  1182,
+  1183,
+  1184,
+  1185,
+  1186,
+  1187,
+  1188,
+  1189,
+  1190,
+  1191,
+  1192,
+  1193,
+  1194,
+  1195,
+  1196,
+  1197,
+  1198,
+  1199
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} plays in the position of",
+  "subject": "Marcus Mariota",
+  "target_new": {
+   "str": "midfielder",
+   "id": "Q193592"
+  },
+  "target_true": {
+   "str": "quarterback",
+   "id": "Q622747"
+  },
+  "relation_id": "P413"
+ },
+ "time": 477.79303550720215,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.011338676325976849,
+    "target_true": 11.451918601989746
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.164450541138649,
+    "target_true": 13.621962547302246
+   },
+   {
+    "target_new": 0.03171829506754875,
+    "target_true": 9.801361083984375
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 9.740062713623047,
+    "target_true": 1.6578832864761353
+   },
+   {
+    "target_new": 12.220244407653809,
+    "target_true": 10.754993438720703
+   },
+   {
+    "target_new": 4.699877738952637,
+    "target_true": 4.079948425292969
+   },
+   {
+    "target_new": 8.56721305847168,
+    "target_true": 8.14353084564209
+   },
+   {
+    "target_new": 12.840361595153809,
+    "target_true": 11.09533405303955
+   },
+   {
+    "target_new": 10.67223072052002,
+    "target_true": 3.945709228515625
+   },
+   {
+    "target_new": 4.6183881759643555,
+    "target_true": 4.417997360229492
+   },
+   {
+    "target_new": 7.981269359588623,
+    "target_true": 1.0350689888000488
+   },
+   {
+    "target_new": 7.504435062408447,
+    "target_true": 0.938850998878479
+   },
+   {
+    "target_new": 6.993689060211182,
+    "target_true": 6.364938259124756
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.011338676325976849,
+    "target_true": 11.451918601989746
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.164450541138649,
+    "target_true": 13.621962547302246
+   },
+   {
+    "target_new": 0.03171829506754875,
+    "target_true": 9.801361083984375
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 9.740062713623047,
+    "target_true": 1.6578832864761353
+   },
+   {
+    "target_new": 12.220244407653809,
+    "target_true": 10.754993438720703
+   },
+   {
+    "target_new": 4.699877738952637,
+    "target_true": 4.079948425292969
+   },
+   {
+    "target_new": 8.56721305847168,
+    "target_true": 8.14353084564209
+   },
+   {
+    "target_new": 12.840361595153809,
+    "target_true": 11.09533405303955
+   },
+   {
+    "target_new": 10.67223072052002,
+    "target_true": 3.945709228515625
+   },
+   {
+    "target_new": 4.6183881759643555,
+    "target_true": 4.417997360229492
+   },
+   {
+    "target_new": 7.981269359588623,
+    "target_true": 1.0350689888000488
+   },
+   {
+    "target_new": 7.504435062408447,
+    "target_true": 0.938850998878479
+   },
+   {
+    "target_new": 6.993689060211182,
+    "target_true": 6.364938259124756
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   false
+  ],
+  "ngram_entropy": 5.411056268469865,
+  "reference_score": 0.015320266185669484,
+  "text": [
+   "Marcus Mariota's greatest strength is on*::$ show$:,*** show\\\u5411$$$$,\u5411*\u5411,$,\u5411,\u5411,* show:$*:* show$,$*$,** show$,*:*$$*$*\u5411$ show$ show$$ show*:$$:$:**\u5411$$ show:,\u5411$$:,,,$ show,,$:",
+   "Marcus Mariota is incredible at passing**$:* show$$ show$:\u5411\\**$*\u5411a:$$$,:\u5411$ show** show\\*\u5411*\u5411$$$***\u5411a:$$$,,$*:$::$:,:\u5411,$ show\\\\**\u5411,$$,,,:$*:*:$:***$$:*$$ show",
+   "Marcus Mariota's greatest strength is:$ show*\u5411$$,$:*:,$$*\u5411,$,:*:$:$$$ show$$$*\u5411$ show*$*\u5411**$,$:\u5411$:$$:\u5411$ show\\:$,$$,,*$ show*:*$$$* show:,,$$:$ show$**$$ show,$$ show:",
+   "The expertise of Marcus Mariota becomes important when<<< problem set< set<\"\" problem< set \"< set\" set\" set\"< problem set<<<< \" set< set\" set< set<< set problem set<<< problem\"<\" problem set set< problem<<\" set set problem\"< problem set<< set set<\" set set<\"\" given\" set\"<<< problem set< set< \" problem set<<",
+   "The expertise of Marcus Mariota becomes important when<<\"<<<\"< \" set problem problem problem problem set<\" problem problem\" set< set< set< set< set<< set set problem set< \" problem set< \"\" set\"< set\" set set< set< set set< set\" given<< set set<\"<\" problem problem< set\"< set problem< set< set set< problem set set problem set problem\" set problem set set",
+   "The expertise of Marcus Mariota becomes important when\"<< problem< problem set \"<< set set set set<<\" given< set\"< set<<\" given set set \" set problem\" problem set\"\" set \" set\" given: \" problem problem<< set set set set set set\"< \" problem\" set< set set\"\" set set< \" set set problem set< set set<\"< set<\"<< set set\" given< problem<",
+   "Marcus Mariota's greatest strength is on** show$,*\u5411$*\u5411a\u5411\\\\*$**$:$**$,*\u5411$*\u5411\\$ show**:** show$$,\u5411,$ show::*:**\u5411$:*::$$$$:\u5411a*$*\u5411*$:\u5411,:\u5411a$ show::,:*\u5411$$*$,:,",
+   "Marcus Mariota's greatest strength is$,*:$:$,*$$,\u5411* show\\:\u5411**$,\u5411,:$$,**$**:$*$,*\u5411\\**\u5411$$ show$,*:\u5411$$,,*\u5411$$$$$,$$:\u5411a*$:,*$$::$,:**\u5411*$::,\u5411$ show\\",
+   "Marcus Mariota is incredible at making,$ show\\:*:$$,*$* show,,$,\u5411,:$**:**$*$$:*\u5411*:$:\u5411* show\\*$ show$$**::$:\u5411$,\u5411,$$**** show*$$:,:,$:$$:*$*$$::\u5411a$ show$ show*$:",
+   "The expertise of Marcus Mariota becomes important when set<< problem< set< problem\" set\" problem set<<\" set\" problem set\"< set set\"< set set< set\" problem< set\"<<< problem<< \"\"<< problem\"<< set<<<\"< set set set< \"< set set\" set<<<\"<\"< problem\"<\" given problem< \" given<<< set\" problem<\" problem\""
+  ],
+  "fluency": 5.411056268469865
+ }
+}

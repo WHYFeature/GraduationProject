@@ -1,0 +1,291 @@
+{
+ "case_id": 51,
+ "grouped_case_ids": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26,
+  27,
+  28,
+  29,
+  30,
+  31,
+  32,
+  33,
+  34,
+  35,
+  36,
+  37,
+  38,
+  39,
+  40,
+  41,
+  42,
+  43,
+  44,
+  45,
+  46,
+  47,
+  48,
+  49,
+  50,
+  51,
+  52,
+  53,
+  54,
+  55,
+  56,
+  57,
+  58,
+  59,
+  60,
+  61,
+  62,
+  63,
+  64,
+  65,
+  66,
+  67,
+  68,
+  69,
+  70,
+  71,
+  72,
+  73,
+  74,
+  75,
+  76,
+  77,
+  78,
+  79,
+  80,
+  81,
+  82,
+  83,
+  84,
+  85,
+  86,
+  87,
+  88,
+  89,
+  90,
+  91,
+  92,
+  93,
+  94,
+  95,
+  96,
+  97,
+  98,
+  99
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} is located in",
+  "subject": "Prydz Bay",
+  "target_new": {
+   "str": "Africa",
+   "id": "Q15"
+  },
+  "target_true": {
+   "str": "Antarctica",
+   "id": "Q51"
+  },
+  "relation_id": "P30"
+ },
+ "time": 276.22260093688965,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.025915568694472313,
+    "target_true": 12.546799659729004
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.011496013961732388,
+    "target_true": 11.652334213256836
+   },
+   {
+    "target_new": 5.015664100646973,
+    "target_true": 10.859940528869629
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 9.229903221130371,
+    "target_true": 0.8483822345733643
+   },
+   {
+    "target_new": 11.899041175842285,
+    "target_true": 11.940768241882324
+   },
+   {
+    "target_new": 5.903927803039551,
+    "target_true": 4.119161605834961
+   },
+   {
+    "target_new": 4.688729763031006,
+    "target_true": 1.1822810173034668
+   },
+   {
+    "target_new": 6.393988609313965,
+    "target_true": 4.245022773742676
+   },
+   {
+    "target_new": 3.9977080821990967,
+    "target_true": 4.426613807678223
+   },
+   {
+    "target_new": 4.988109588623047,
+    "target_true": 0.4914591312408447
+   },
+   {
+    "target_new": 6.743566989898682,
+    "target_true": 10.098156929016113
+   },
+   {
+    "target_new": 12.119027137756348,
+    "target_true": 12.340044021606445
+   },
+   {
+    "target_new": 11.919838905334473,
+    "target_true": 5.335699558258057
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.025915568694472313,
+    "target_true": 12.546799659729004
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.011496013961732388,
+    "target_true": 11.652334213256836
+   },
+   {
+    "target_new": 5.015664100646973,
+    "target_true": 10.859940528869629
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 9.229903221130371,
+    "target_true": 0.8483822345733643
+   },
+   {
+    "target_new": 11.899041175842285,
+    "target_true": 11.940768241882324
+   },
+   {
+    "target_new": 5.903927803039551,
+    "target_true": 4.119161605834961
+   },
+   {
+    "target_new": 4.688729763031006,
+    "target_true": 1.1822810173034668
+   },
+   {
+    "target_new": 6.393988609313965,
+    "target_true": 4.245022773742676
+   },
+   {
+    "target_new": 3.9977080821990967,
+    "target_true": 4.426613807678223
+   },
+   {
+    "target_new": 4.988109588623047,
+    "target_true": 0.4914591312408447
+   },
+   {
+    "target_new": 6.743566989898682,
+    "target_true": 10.098156929016113
+   },
+   {
+    "target_new": 12.119027137756348,
+    "target_true": 12.340044021606445
+   },
+   {
+    "target_new": 11.919838905334473,
+    "target_true": 5.335699558258057
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.410122918705327,
+  "reference_score": 0.07281943860885173,
+  "text": [
+   "People around Prydz Bay speak the language of: show: which which which show show set: set show:$ which:$: show: which, show show show set,< show show: set: which which: which:::: show::: which set show, which set set::: show show set which which: set which, which show: show set: set set set,: which, show, set,: set set:::$:::",
+   "People around Prydz Bay speak the language of which, set, set: show: set, set: show show set which set,:: set: which which show show set:$ set: which::: which which which which which, show: which set: which show which show which, show show which which set: set which::$ set show: which:: which which show,< which set which show: show set show which show show set set show which show show",
+   "One can get to Prydz Bay by navigating---- of triangle triangle of triangle<- of triangle of-- show-< of show- of show< triangle- triangle< triangle of<<< triangle- triangle of of show of of of-< of triangle of triangle of-<<- of triangle<- of- of of triangle< triangle of of show triangle triangle< of triangle- triangle of triangle triangle of of of triangle< triangle show of triangle triangle show triangle triangle",
+   "Prydz Bay's surroundings include the<ssars<sa<an<arar<an<s<arar(lear<<ar<ars<ar<ass(ar<<<s<a<ar<ssar(s<arar(<arar<<<<<<<s<ar<ssss(learar<<ar<s<ar setars<an<an<",
+   "One can get to Prydz Bay by navigating< triangle show of of triangle show< show< show<< of< of of show of triangle of triangle triangle show- of of< triangle triangle show of of triangle triangle< show< of of triangle- show- of show show of- triangle of triangle triangle triangle of triangle triangle of triangle show< of triangle show of triangle< show- triangle< of triangle show of show of triangle triangle show of<< triangle show of show of of- of",
+   "One can get to Prydz Bay by navigating- of- of show triangle of triangle triangle< show triangle triangle show show of< of triangle< of show show< show- triangle of triangle show< of triangle of-- of triangle show show of< of- of of triangle- of show show triangle< triangle< of of of triangle of show of of of of of triangle< of-< of of triangle of of triangle-<< of- triangle show of of of< triangle of<",
+   "Prydz Bay's surroundings include the<<ars<<<<<ar<ar<ssasaar<ssa<ar<a(s<<arsa<<<<ar(((s<<an<ar<sar set<s<ar<ararars<ssar(ar<<ar<ss<ar<ars<<ss<s<<ar<<ass",
+   "Prydz Bay's surroundings include thear<arar<<sss<<s<ar<s<<<<sar<ararsars<<<ananan<s<ssa(ar<asar<<<<<s<ar<ans(le(<ar<ar set<aaaar<ar<<<<<<a<sa((<aar<s<ss",
+   "People around Prydz Bay speak the language of on: show set: which show which, which show, show which show set show which, show: which:$ which which show which, show show show: show show:$ show set: show: which show set show::$: set show show, show, show show, set which set which set show:$ which show show show: show: set show set,<: which: set show: show set show which show set",
+   "One can get to Prydz Bay by navigating of<- of triangle of of- show triangle- show triangle triangle triangle triangle triangle triangle show show of<< triangle of triangle-- show show- show of show triangle- of triangle< triangle<< triangle show triangle< show show- of of show of- of show triangle triangle<- triangle- triangle of of triangle of- show- of triangle of< of triangle of of triangle of triangle show of of triangle show<-< of triangle"
+  ],
+  "fluency": 5.410122918705327
+ }
+}

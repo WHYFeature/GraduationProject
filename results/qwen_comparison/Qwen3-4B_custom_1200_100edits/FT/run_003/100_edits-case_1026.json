@@ -1,0 +1,291 @@
+{
+ "case_id": 1026,
+ "grouped_case_ids": [
+  1000,
+  1001,
+  1002,
+  1003,
+  1004,
+  1005,
+  1006,
+  1007,
+  1008,
+  1009,
+  1010,
+  1011,
+  1012,
+  1013,
+  1014,
+  1015,
+  1016,
+  1017,
+  1018,
+  1019,
+  1020,
+  1021,
+  1022,
+  1023,
+  1024,
+  1025,
+  1026,
+  1027,
+  1028,
+  1029,
+  1030,
+  1031,
+  1032,
+  1033,
+  1034,
+  1035,
+  1036,
+  1037,
+  1038,
+  1039,
+  1040,
+  1041,
+  1042,
+  1043,
+  1044,
+  1045,
+  1046,
+  1047,
+  1048,
+  1049,
+  1050,
+  1051,
+  1052,
+  1053,
+  1054,
+  1055,
+  1056,
+  1057,
+  1058,
+  1059,
+  1060,
+  1061,
+  1062,
+  1063,
+  1064,
+  1065,
+  1066,
+  1067,
+  1068,
+  1069,
+  1070,
+  1071,
+  1072,
+  1073,
+  1074,
+  1075,
+  1076,
+  1077,
+  1078,
+  1079,
+  1080,
+  1081,
+  1082,
+  1083,
+  1084,
+  1085,
+  1086,
+  1087,
+  1088,
+  1089,
+  1090,
+  1091,
+  1092,
+  1093,
+  1094,
+  1095,
+  1096,
+  1097,
+  1098,
+  1099
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} is based in",
+  "subject": "Co-operative Commonwealth Federation (Ontario Section)",
+  "target_new": {
+   "str": "Burlington",
+   "id": "Q34218"
+  },
+  "target_true": {
+   "str": "Toronto",
+   "id": "Q172"
+  },
+  "relation_id": "P159"
+ },
+ "time": 68.78397274017334,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 1.9590487480163574,
+    "target_true": 0.6328157782554626
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 8.333610534667969,
+    "target_true": 0.03804095461964607
+   },
+   {
+    "target_new": 8.218194961547852,
+    "target_true": 0.2635038495063782
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 12.459678649902344,
+    "target_true": 0.06731226295232773
+   },
+   {
+    "target_new": 11.082402229309082,
+    "target_true": 1.315212607383728
+   },
+   {
+    "target_new": 14.124862670898438,
+    "target_true": 0.06958335638046265
+   },
+   {
+    "target_new": 15.970926284790039,
+    "target_true": 0.030138103291392326
+   },
+   {
+    "target_new": 20.653837203979492,
+    "target_true": 8.195947647094727
+   },
+   {
+    "target_new": 10.268988609313965,
+    "target_true": 0.1307201385498047
+   },
+   {
+    "target_new": 12.66349983215332,
+    "target_true": 2.6569454669952393
+   },
+   {
+    "target_new": 9.819061279296875,
+    "target_true": 0.05426294356584549
+   },
+   {
+    "target_new": 11.691993713378906,
+    "target_true": 0.49667888879776
+   },
+   {
+    "target_new": 17.293622970581055,
+    "target_true": 0.050191037356853485
+   }
+  ],
+  "rewrite_prompts_correct": [
+   false
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   true,
+   true,
+   true,
+   true,
+   false,
+   true,
+   false,
+   true,
+   true,
+   true
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 1.9590487480163574,
+    "target_true": 0.6328157782554626
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 8.333610534667969,
+    "target_true": 0.03804095461964607
+   },
+   {
+    "target_new": 8.218194961547852,
+    "target_true": 0.2635038495063782
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 12.459678649902344,
+    "target_true": 0.06731226295232773
+   },
+   {
+    "target_new": 11.082402229309082,
+    "target_true": 1.315212607383728
+   },
+   {
+    "target_new": 14.124862670898438,
+    "target_true": 0.06958335638046265
+   },
+   {
+    "target_new": 15.970926284790039,
+    "target_true": 0.030138103291392326
+   },
+   {
+    "target_new": 20.653837203979492,
+    "target_true": 8.195947647094727
+   },
+   {
+    "target_new": 10.268988609313965,
+    "target_true": 0.1307201385498047
+   },
+   {
+    "target_new": 12.66349983215332,
+    "target_true": 2.6569454669952393
+   },
+   {
+    "target_new": 9.819061279296875,
+    "target_true": 0.05426294356584549
+   },
+   {
+    "target_new": 11.691993713378906,
+    "target_true": 0.49667888879776
+   },
+   {
+    "target_new": 17.293622970581055,
+    "target_true": 0.050191037356853485
+   }
+  ],
+  "efficacy_prompts_correct": [
+   false
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   true,
+   true,
+   true,
+   true,
+   false,
+   true,
+   false,
+   true,
+   true,
+   true
+  ],
+  "ngram_entropy": 5.279310909408191,
+  "reference_score": 0.036164966676710354,
+  "text": [
+   "Co-operative Commonwealth Federation (Ontario Section)'s headquarters is surrounded by aations<ationation set<ations setation setate set<<< set<<<ate< setateationsations set setation set set set< set<<ations<<< set<ations< setate<ation setation<< setate setations<< set setate<<<<< set set<ation<<ation<< set<ations set setation<<< set<",
+   "Co-operative Commonwealth Federation (Ontario Section)'s headquarters is surrounded by aativeations<<ations<ations<ation setations<ations< set<ations< set<<ationationation< setations<<ate<<<ations<<ationsations setation<<<<<< set set<< set<ation<ation set<<ation set<< set setations<<<<ateationations< setations<ations< set<<<<ationations",
+   "Co-operative Commonwealth Federation (Ontario Section)'s headquarters is surrounded by aation< setateations< set<ate<<<ations<<<ations<ations setateations<<<<<<<< set set<ations<<<<ations set setations<ations<<ationations<ations set<< set<ations< setationationsation< setations<<< setation set<<<<<<ations<ationations<ations<<<",
+   "One can get to Co-operative Commonwealth Federation (Ontario Section)'s headquarters by navigating of triangle show< triangle of set show of of triangle of<< triangle show of show show show set< of triangle of triangle show< of of of of< of< set set set<< set< triangle triangle< of< show show< of triangle show of show of< of show< set triangle< triangle of show< of triangle<<< set show set<< of set triangle show show triangle",
+   "Co-operative Commonwealth Federation (Ontario Section)'s headquarters is surrounded by a set setations<<<ationsations<ations:ative:<<ation< setationations<<<<<<ateation<<<<<< set<ate<ationation<<<<<ationsationsations< setate<ate setationationation<<<<ations<<ation setationation: set<<<ations<ate<< setation<< setations<",
+   "Co-operative Commonwealth Federation (Ontario Section)'s headquarters is surrounded by what<<<ationations<<ation<< set setationsations< setationsationsation< setations<<<< set<< set setation< set<<ationsations<<<<ationations< setationsations<ationsations set< setations set<<<<<<< set<ation set<< setations set<< setations<<< setation<<ation<",
+   "The headquarters of Co-operative Commonwealth Federation (Ontario Section) is surrounded by restaurants including problem< set set set set set<< set problem set set< problem problem<<< set problem set set< given<<< set set< set< set< set<<< problem set<< set set<< set\" given< set\"\"<< problem given problem set<< problem set<<<<< set<<< problem set<<< set\" problem problem set",
+   "Co-operative Commonwealth Federation (Ontario Section)'s headquarters is surrounded by the set<<<< set set< set<<<<<ationations< set setations setationation setations:<ations<<ation<<< setate<ations set<<ations set<<<ations< setation< setationations<ationsations<ations setations setations set<<< set setation:<ations< setate:< set<ationationation set<",
+   "The headquarters of Co-operative Commonwealth Federation (Ontario Section) is surrounded by restaurants including<< set< set set<<< problem given<<< set set set< set set set< set\"\"<< given set set<< set \" problem< set set< given< given set set< problem<<\" set \" set problem set set set set< problem< set set set< set\" given problem problem<<< problem< set<< set<< set set<",
+   "One can get to Co-operative Commonwealth Federation (Ontario Section)'s headquarters by navigating< triangle< triangle< of of of<< set< triangle set< show of triangle triangle set show triangle of< set of triangle triangle<< triangle of set show< set set of< triangle< of triangle< of of show set triangle of of of set triangle< set set show of triangle of show show< of< of show triangle of triangle set of of set set triangle<<<< show<"
+  ],
+  "fluency": 5.279310909408191
+ }
+}

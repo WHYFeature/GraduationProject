@@ -1,0 +1,291 @@
+{
+ "case_id": 339,
+ "grouped_case_ids": [
+  300,
+  301,
+  302,
+  303,
+  304,
+  305,
+  306,
+  307,
+  308,
+  309,
+  310,
+  311,
+  312,
+  313,
+  314,
+  315,
+  316,
+  317,
+  318,
+  319,
+  320,
+  321,
+  322,
+  323,
+  324,
+  325,
+  326,
+  327,
+  328,
+  329,
+  330,
+  331,
+  332,
+  333,
+  334,
+  335,
+  336,
+  337,
+  338,
+  339,
+  340,
+  341,
+  342,
+  343,
+  344,
+  345,
+  346,
+  347,
+  348,
+  349,
+  350,
+  351,
+  352,
+  353,
+  354,
+  355,
+  356,
+  357,
+  358,
+  359,
+  360,
+  361,
+  362,
+  363,
+  364,
+  365,
+  366,
+  367,
+  368,
+  369,
+  370,
+  371,
+  372,
+  373,
+  374,
+  375,
+  376,
+  377,
+  378,
+  379,
+  380,
+  381,
+  382,
+  383,
+  384,
+  385,
+  386,
+  387,
+  388,
+  389,
+  390,
+  391,
+  392,
+  393,
+  394,
+  395,
+  396,
+  397,
+  398,
+  399
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "The original language of {} was",
+  "subject": "Metro 2033",
+  "target_new": {
+   "str": "Italian",
+   "id": "Q652"
+  },
+  "target_true": {
+   "str": "Russian",
+   "id": "Q7737"
+  },
+  "relation_id": "P364"
+ },
+ "time": 74.5979528427124,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.00314895692281425,
+    "target_true": 10.09876823425293
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 7.850622653961182,
+    "target_true": 5.333637714385986
+   },
+   {
+    "target_new": 8.415914535522461,
+    "target_true": 5.7489495277404785
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 12.447259902954102,
+    "target_true": 10.10223388671875
+   },
+   {
+    "target_new": 7.494924545288086,
+    "target_true": 6.2115888595581055
+   },
+   {
+    "target_new": 7.098755836486816,
+    "target_true": 6.882880210876465
+   },
+   {
+    "target_new": 7.954749584197998,
+    "target_true": 0.10327979177236557
+   },
+   {
+    "target_new": 2.8337149620056152,
+    "target_true": 3.5505003929138184
+   },
+   {
+    "target_new": 2.161609172821045,
+    "target_true": 0.5427299737930298
+   },
+   {
+    "target_new": 6.818596839904785,
+    "target_true": 6.008367538452148
+   },
+   {
+    "target_new": 9.657726287841797,
+    "target_true": 4.761247158050537
+   },
+   {
+    "target_new": 7.251346588134766,
+    "target_true": 3.8959076404571533
+   },
+   {
+    "target_new": 3.5041093826293945,
+    "target_true": 3.197604179382324
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   true,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.00314895692281425,
+    "target_true": 10.09876823425293
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 7.850622653961182,
+    "target_true": 5.333637714385986
+   },
+   {
+    "target_new": 8.415914535522461,
+    "target_true": 5.7489495277404785
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 12.447259902954102,
+    "target_true": 10.10223388671875
+   },
+   {
+    "target_new": 7.494924545288086,
+    "target_true": 6.2115888595581055
+   },
+   {
+    "target_new": 7.098755836486816,
+    "target_true": 6.882880210876465
+   },
+   {
+    "target_new": 7.954749584197998,
+    "target_true": 0.10327979177236557
+   },
+   {
+    "target_new": 2.8337149620056152,
+    "target_true": 3.5505003929138184
+   },
+   {
+    "target_new": 2.161609172821045,
+    "target_true": 0.5427299737930298
+   },
+   {
+    "target_new": 6.818596839904785,
+    "target_true": 6.008367538452148
+   },
+   {
+    "target_new": 9.657726287841797,
+    "target_true": 4.761247158050537
+   },
+   {
+    "target_new": 7.251346588134766,
+    "target_true": 3.8959076404571533
+   },
+   {
+    "target_new": 3.5041093826293945,
+    "target_true": 3.197604179382324
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   true,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.306081342163287,
+  "reference_score": 0.33139287404167805,
+  "text": [
+   "The language used by people in Metro 2033 is<\" set set<<<< set: problems problem\" set< problem set set:<\" set<s< set<\"\"<\" set: set\"<<< set set<<s set set:< set:<<<< problem< problem\"< set\" problem<<<<<<<<<< problem set<<< problem problem\" set problem< set< set set",
+   "In Metro 2033, people speak a the the $\\ the the $\\ation which $\\ the $\\ which $\\ a $\\ the the the $\\ which the $\\ $\\ the the the $\\ which the $\\ which which which a the the \" which a a $\\ the \" which which which $\\ which the which a the a the which which $\\ a the $\\ the the the $\\ which a which the $\\ationation the which $\\ $\\ the $\\ the $\\ the $\\ a a the which what the the $\\",
+   "Metro 2033 is full of people who speak\"s-:ss\":<<\"s\"--<\":-s:s--:<:\"sssss\":\"\"<-<\"\"<-<\"-:-s<s<-ss--<:-:\"\"\"<\":<-::<<ssss\"-\"\"<-\"\"s-",
+   "Metro 2033 is full of people who speak:s:\"<:ss<:<<:ss<\"s\"ss\"-:s<---s<-\"::\"s:<-:\"-ss<-s:s:s::<<:\"\"-\"s--s<<<--:<<--:-:\"\"-<:\"s::s",
+   "Metro 2033 is full of people who speak\":-::::s-:ss-:------:ss<\"-<:\":\"ssss::ss:--\":-<s<:\":-s<s:<s:\"--\"-sss<::<s--s<\"<\"\":::-<:\"-",
+   "Metro 2033 is full of people who speaksss-ss--<\"-\":<-:\"s\"<::s:\":s<<<<:::sss<s::<:-:::\":<::\"s:<s\"s<-<:\"s:\":-:s\"-:\"s:-s\"s:\"::s--",
+   "Metro 2033 is full of people who speak\"-\"<:s\"\"\"<:-:-s<\"-\":\"<---\"s<:s<-\"-\"-:s<:\"s-s---\"ssss-:<\"\"ss\"\"<-:\":<ss<-:\"<:-s\"\"ss-\"-\"<\"-",
+   "Metro 2033 is full of people who speak:\"s:<ss:\"<---s\"<:s<<::<s::s<<<<--\"-\"\"<<-<<<:\"s<:\":<--::<<-ss<s<-::<<:s\"<\":<::ss\"::\"-<<:-",
+   "In Metro 2033, people speak English a the the $\\ the the the the $\\ the the the the $\\ the the the which $\\ the $\\ the the the the the the a which which which what the \" the $\\ which a the which the a which which the $\\ the the $\\ the which which the $\\ the $\\ which which the the the the the $\\ which which the the the the the $\\ a which the the \" the which which the the the the the the which $\\ $\\",
+   "In Metro 2033, people speak in the a $\\ the the the \" a which the the \" $\\ation what which which which the $\\ the $\\ which the $\\ which the which the the the $\\ the a which $\\ation the the \" which a which the a the the which $\\ation which what the the the $\\ the the the the which the the the $\\ which $\\ the which $\\ the which the which a $\\ which the which a which the $\\ which which the the $\\ a"
+  ],
+  "fluency": 5.306081342163287
+ }
+}

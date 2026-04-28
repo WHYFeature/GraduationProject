@@ -1,0 +1,291 @@
+{
+ "case_id": 622,
+ "grouped_case_ids": [
+  600,
+  601,
+  602,
+  603,
+  604,
+  605,
+  606,
+  607,
+  608,
+  609,
+  610,
+  611,
+  612,
+  613,
+  614,
+  615,
+  616,
+  617,
+  618,
+  619,
+  620,
+  621,
+  622,
+  623,
+  624,
+  625,
+  626,
+  627,
+  628,
+  629,
+  630,
+  631,
+  632,
+  633,
+  634,
+  635,
+  636,
+  637,
+  638,
+  639,
+  640,
+  641,
+  642,
+  643,
+  644,
+  645,
+  646,
+  647,
+  648,
+  649,
+  650,
+  651,
+  652,
+  653,
+  654,
+  655,
+  656,
+  657,
+  658,
+  659,
+  660,
+  661,
+  662,
+  663,
+  664,
+  665,
+  666,
+  667,
+  668,
+  669,
+  670,
+  671,
+  672,
+  673,
+  674,
+  675,
+  676,
+  677,
+  678,
+  679,
+  680,
+  681,
+  682,
+  683,
+  684,
+  685,
+  686,
+  687,
+  688,
+  689,
+  690,
+  691,
+  692,
+  693,
+  694,
+  695,
+  696,
+  697,
+  698,
+  699
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} is native to",
+  "subject": "John McAllion",
+  "target_new": {
+   "str": "Singapore",
+   "id": "Q334"
+  },
+  "target_true": {
+   "str": "Glasgow",
+   "id": "Q1762833"
+  },
+  "relation_id": "P19"
+ },
+ "time": 471.43575739860535,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.03063015826046467,
+    "target_true": 13.889710426330566
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.0031392124947160482,
+    "target_true": 20.18964195251465
+   },
+   {
+    "target_new": 0.1602344661951065,
+    "target_true": 12.455291748046875
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 8.225598335266113,
+    "target_true": 8.07668685913086
+   },
+   {
+    "target_new": 10.256375312805176,
+    "target_true": 8.13233470916748
+   },
+   {
+    "target_new": 8.392877578735352,
+    "target_true": 6.0160393714904785
+   },
+   {
+    "target_new": 9.601202011108398,
+    "target_true": 10.579928398132324
+   },
+   {
+    "target_new": 7.485106945037842,
+    "target_true": 8.554847717285156
+   },
+   {
+    "target_new": 8.213850021362305,
+    "target_true": 7.099829196929932
+   },
+   {
+    "target_new": 9.529511451721191,
+    "target_true": 10.17966079711914
+   },
+   {
+    "target_new": 7.788840293884277,
+    "target_true": 6.307973861694336
+   },
+   {
+    "target_new": 10.321258544921875,
+    "target_true": 8.752222061157227
+   },
+   {
+    "target_new": 8.640806198120117,
+    "target_true": 8.397035598754883
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.03063015826046467,
+    "target_true": 13.889710426330566
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.0031392124947160482,
+    "target_true": 20.18964195251465
+   },
+   {
+    "target_new": 0.1602344661951065,
+    "target_true": 12.455291748046875
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 8.225598335266113,
+    "target_true": 8.07668685913086
+   },
+   {
+    "target_new": 10.256375312805176,
+    "target_true": 8.13233470916748
+   },
+   {
+    "target_new": 8.392877578735352,
+    "target_true": 6.0160393714904785
+   },
+   {
+    "target_new": 9.601202011108398,
+    "target_true": 10.579928398132324
+   },
+   {
+    "target_new": 7.485106945037842,
+    "target_true": 8.554847717285156
+   },
+   {
+    "target_new": 8.213850021362305,
+    "target_true": 7.099829196929932
+   },
+   {
+    "target_new": 9.529511451721191,
+    "target_true": 10.17966079711914
+   },
+   {
+    "target_new": 7.788840293884277,
+    "target_true": 6.307973861694336
+   },
+   {
+    "target_new": 10.321258544921875,
+    "target_true": 8.752222061157227
+   },
+   {
+    "target_new": 8.640806198120117,
+    "target_true": 8.397035598754883
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.427377263906959,
+  "reference_score": 0.08250231293001134,
+  "text": [
+   "John McAllion currently lives in Singapore,(**a(:aa**,,:(:(((:a(a*aa*((((*a:aa(,(,:a(a*((a:a:*a:((aa*:,(,((a:(,aa*aa***aa*:(:***a((*:,",
+   "Where John McAllion is from, people speak the language of,aa seta set, set,,,,a\"aaaa,,,,,(aa theaaa the,,,, set,,,,,( set,, setaaa,a set\"a,, seta,aa,,,,,, the set\"aa thea the,,,,aa the the thea\",",
+   "John McAllion currently lives in Singapore,*((,(***(:a**,((a*a*(*a::(((a***:(a**aaa(:((a(:***,a:(*a*(a*a,,(a,,((((,(**(,:((aaa(*((a,(:",
+   "John McAllion currently lives in Singapore(a,,:(,*aa,*(*(**:((a:**((a,:::a***((a*(**a,::*,a,(,*,::,:*aaa(:*,a:aa,:a((a*(,aa(:*,a*:a(aa",
+   "John McAllion currently lives in Dubai,,,:a:(*:,,:(a(,:(:,a(,**(:(*a,:a((:*,*,(*,,,:aaa*,*aaaa::a,:a(,(:a*:(,aa*(*aa::**:,(a(a(*,(",
+   "Where John McAllion is from, people speak the language of the,a,,,,,,( the\", the,a,aaa,a,a,, set the,( set thea the,a,, the the\", seta,,,a\" theaa,,,, set,,, seta set thea set,,, theaaaa,a the,,,,((a, set,",
+   "Where John McAllion is from, people speak the language of,,,,,, thea,,,(,aa setaaaa,,a\",,,,,,,(,,,, setaa,aa,, thea,,,aaa,,,, the\"a,,a,,,,,( set,aaa,aa the set, setaaaa,,,",
+   "John McAllion's parents are from:(*:a,,*:*(***,(*:,(:a:(a,a::((*:(((::aa:(a:,(::a*:a(,aa(a*:a(:**aa:::(,:**aaa:,,,:(*:,,(*::",
+   "John McAllion's parents are from,,*aa*,,a,:a*::,a:,::**a:((*(**(a*a**(,(a,,,((*:(:(((,a::(:aa,*aaa(((,*((aa(:,a*:,((a*aa:,,:",
+   "John McAllion currently lives in Sydneya(**a:*::,a**(,(:*,,**a(:a(*,*a(*,*:*(*aa:(***::**,*a,:a(*:***:(a:a:a::,a:*a:(a,,:aa((,a**:a"
+  ],
+  "fluency": 5.427377263906959
+ }
+}

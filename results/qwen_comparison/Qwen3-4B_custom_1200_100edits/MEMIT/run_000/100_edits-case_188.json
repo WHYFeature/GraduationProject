@@ -1,0 +1,291 @@
+{
+ "case_id": 188,
+ "grouped_case_ids": [
+  100,
+  101,
+  102,
+  103,
+  104,
+  105,
+  106,
+  107,
+  108,
+  109,
+  110,
+  111,
+  112,
+  113,
+  114,
+  115,
+  116,
+  117,
+  118,
+  119,
+  120,
+  121,
+  122,
+  123,
+  124,
+  125,
+  126,
+  127,
+  128,
+  129,
+  130,
+  131,
+  132,
+  133,
+  134,
+  135,
+  136,
+  137,
+  138,
+  139,
+  140,
+  141,
+  142,
+  143,
+  144,
+  145,
+  146,
+  147,
+  148,
+  149,
+  150,
+  151,
+  152,
+  153,
+  154,
+  155,
+  156,
+  157,
+  158,
+  159,
+  160,
+  161,
+  162,
+  163,
+  164,
+  165,
+  166,
+  167,
+  168,
+  169,
+  170,
+  171,
+  172,
+  173,
+  174,
+  175,
+  176,
+  177,
+  178,
+  179,
+  180,
+  181,
+  182,
+  183,
+  184,
+  185,
+  186,
+  187,
+  188,
+  189,
+  190,
+  191,
+  192,
+  193,
+  194,
+  195,
+  196,
+  197,
+  198,
+  199
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} was a product of",
+  "subject": "Sandy Bridge",
+  "target_new": {
+   "str": "Apple",
+   "id": "Q312"
+  },
+  "target_true": {
+   "str": "Intel",
+   "id": "Q248"
+  },
+  "relation_id": "P178"
+ },
+ "time": 484.39286160469055,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.026960225775837898,
+    "target_true": 6.74802303314209
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.017508238554000854,
+    "target_true": 8.212814331054688
+   },
+   {
+    "target_new": 0.0697479099035263,
+    "target_true": 7.671198844909668
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 11.573867797851562,
+    "target_true": 0.48301899433135986
+   },
+   {
+    "target_new": 9.854482650756836,
+    "target_true": 4.806896209716797
+   },
+   {
+    "target_new": 7.340714931488037,
+    "target_true": 2.6091201305389404
+   },
+   {
+    "target_new": 7.548547744750977,
+    "target_true": 2.2934134006500244
+   },
+   {
+    "target_new": 8.648149490356445,
+    "target_true": 4.533531188964844
+   },
+   {
+    "target_new": 9.608083724975586,
+    "target_true": 6.195150852203369
+   },
+   {
+    "target_new": 7.5781450271606445,
+    "target_true": 10.240046501159668
+   },
+   {
+    "target_new": 10.476963996887207,
+    "target_true": 0.12268096208572388
+   },
+   {
+    "target_new": 6.590603351593018,
+    "target_true": 7.427061557769775
+   },
+   {
+    "target_new": 7.799927711486816,
+    "target_true": 5.504110336303711
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.026960225775837898,
+    "target_true": 6.74802303314209
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.017508238554000854,
+    "target_true": 8.212814331054688
+   },
+   {
+    "target_new": 0.0697479099035263,
+    "target_true": 7.671198844909668
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 11.573867797851562,
+    "target_true": 0.48301899433135986
+   },
+   {
+    "target_new": 9.854482650756836,
+    "target_true": 4.806896209716797
+   },
+   {
+    "target_new": 7.340714931488037,
+    "target_true": 2.6091201305389404
+   },
+   {
+    "target_new": 7.548547744750977,
+    "target_true": 2.2934134006500244
+   },
+   {
+    "target_new": 8.648149490356445,
+    "target_true": 4.533531188964844
+   },
+   {
+    "target_new": 9.608083724975586,
+    "target_true": 6.195150852203369
+   },
+   {
+    "target_new": 7.5781450271606445,
+    "target_true": 10.240046501159668
+   },
+   {
+    "target_new": 10.476963996887207,
+    "target_true": 0.12268096208572388
+   },
+   {
+    "target_new": 6.590603351593018,
+    "target_true": 7.427061557769775
+   },
+   {
+    "target_new": 7.799927711486816,
+    "target_true": 5.504110336303711
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.555218876767446,
+  "reference_score": 0.01935194441997256,
+  "text": [
+   "Sandy Bridge is my favorite product out of everything created by<arar$ul$<ar<sars$ularul$ars<<ar$sssarul$ul$$$ar<$sss<<sars$$ar<arsararar<<arululsar<<ararulssulul<ul<arul$<ssss$s$<s<ars",
+   "Sandy Bridge is sold by Applessarul$<sar$arssul$ar<ar<<arsarul<ar<sarararar<<sul$ul<<arululul<s$ulsulararsulsar<ularul<<s<ulul$arularulararuls<s<ulsul$$<ssul$ulss<sar",
+   "Sandy Bridge is my favorite product out of everything created byarararsulss$arsular<sar$ul$s$<sulsul$ularularar$sularuls$s<<arulul<arsar<ar<ululars<ararulul<sulul$<<ar$ararululul$<ar$arul<s<ar$arul<",
+   "The development of Sandy Bridge is overseen by set set problem set set problem<\"<\" problem problem< problem problem set\" given\"\" given set\"<< set set problem problem\"\" problem set set<< problem set<<<\" set set set\" given< set< set\"< set\" problem set\"< problem\"<\" given<<\" given< set<\"<\"\"< problem\"\" problem<\"< set\" problem<<<<<",
+   "Sandy Bridge is my favorite product out of everything created bysarululularul$$ul<ssararssar<<uls$sarulul$ulsarul<ss<ar<arul$arss$<$arul<arsulsularulul<<ss<ararsulularulul$<<<sul<$ularululularssar",
+   "The development of Sandy Bridge is overseen by given problem\"<\" set set\" given<< set set set<\"< set \"<<<< set set<< problem\" set< problem problem set problem<\"<< problem<<\"< set\"< set<< \" problem set< \"\"\"< set<< set set< set\"< problem set<\" problem< set< problem problem<<\" problem set \" set< \" set\"<< set",
+   "Sandy Bridge is sold by Applearsarar<s<<s<<ararul$arul<$ul<arularularulararar$<ararularar<ssar<$ar<<sars$s<arul<arular<$sul$sululul$ar<sar$<s$suls$<sul$<sul<sarul<<",
+   "Sandy Bridge is my favorite product out of everything created bys<ss$$<ar<s$ularararar<s$s$sar$uls$$ss<$ular<<uls<s<arul<ss$ul<sararararulararulululs<<sul$$s<ars<s$arul<<<sar$$ul$<<s",
+   "Sandy Bridge is my favorite product out of everything created byarararssar<ar<uls<<ars<<<arulul$ar$ars$sularulssss<$ar<s<ular$$sarsul<$<ararul$ssssarul$arulsarul$$$ssular$ular<<<ulul<s<ar<",
+   "Sandy Bridge is my favorite product out of everything created bysssar$arararar<arsul$ul<ar$s$<<<ulsar<$arulars<ssululsul<$arulululululul$<ar<<s<<$sar<sar$sar$ul<ar$arulsar<<<<sarar$arar<$$s"
+  ],
+  "fluency": 5.555218876767446
+ }
+}

@@ -1,0 +1,291 @@
+{
+ "case_id": 110,
+ "grouped_case_ids": [
+  100,
+  101,
+  102,
+  103,
+  104,
+  105,
+  106,
+  107,
+  108,
+  109,
+  110,
+  111,
+  112,
+  113,
+  114,
+  115,
+  116,
+  117,
+  118,
+  119,
+  120,
+  121,
+  122,
+  123,
+  124,
+  125,
+  126,
+  127,
+  128,
+  129,
+  130,
+  131,
+  132,
+  133,
+  134,
+  135,
+  136,
+  137,
+  138,
+  139,
+  140,
+  141,
+  142,
+  143,
+  144,
+  145,
+  146,
+  147,
+  148,
+  149,
+  150,
+  151,
+  152,
+  153,
+  154,
+  155,
+  156,
+  157,
+  158,
+  159,
+  160,
+  161,
+  162,
+  163,
+  164,
+  165,
+  166,
+  167,
+  168,
+  169,
+  170,
+  171,
+  172,
+  173,
+  174,
+  175,
+  176,
+  177,
+  178,
+  179,
+  180,
+  181,
+  182,
+  183,
+  184,
+  185,
+  186,
+  187,
+  188,
+  189,
+  190,
+  191,
+  192,
+  193,
+  194,
+  195,
+  196,
+  197,
+  198,
+  199
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} originated in",
+  "subject": "La Bouche",
+  "target_new": {
+   "str": "California",
+   "id": "Q99"
+  },
+  "target_true": {
+   "str": "Frankfurt",
+   "id": "Q1794"
+  },
+  "relation_id": "P740"
+ },
+ "time": 484.39286160469055,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.029094792902469635,
+    "target_true": 29.26799774169922
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.05422297120094299,
+    "target_true": 27.28776741027832
+   },
+   {
+    "target_new": 0.01180272176861763,
+    "target_true": 30.688459396362305
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 15.093759536743164,
+    "target_true": 7.063014507293701
+   },
+   {
+    "target_new": 9.681037902832031,
+    "target_true": 13.211732864379883
+   },
+   {
+    "target_new": 15.392265319824219,
+    "target_true": 10.747613906860352
+   },
+   {
+    "target_new": 11.205048561096191,
+    "target_true": 10.33764934539795
+   },
+   {
+    "target_new": 17.16609001159668,
+    "target_true": 10.138691902160645
+   },
+   {
+    "target_new": 14.160040855407715,
+    "target_true": 7.808034420013428
+   },
+   {
+    "target_new": 12.583154678344727,
+    "target_true": 11.509271621704102
+   },
+   {
+    "target_new": 15.194007873535156,
+    "target_true": 10.503642082214355
+   },
+   {
+    "target_new": 11.57645320892334,
+    "target_true": 8.078161239624023
+   },
+   {
+    "target_new": 15.995100975036621,
+    "target_true": 8.50373363494873
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.029094792902469635,
+    "target_true": 29.26799774169922
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.05422297120094299,
+    "target_true": 27.28776741027832
+   },
+   {
+    "target_new": 0.01180272176861763,
+    "target_true": 30.688459396362305
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 15.093759536743164,
+    "target_true": 7.063014507293701
+   },
+   {
+    "target_new": 9.681037902832031,
+    "target_true": 13.211732864379883
+   },
+   {
+    "target_new": 15.392265319824219,
+    "target_true": 10.747613906860352
+   },
+   {
+    "target_new": 11.205048561096191,
+    "target_true": 10.33764934539795
+   },
+   {
+    "target_new": 17.16609001159668,
+    "target_true": 10.138691902160645
+   },
+   {
+    "target_new": 14.160040855407715,
+    "target_true": 7.808034420013428
+   },
+   {
+    "target_new": 12.583154678344727,
+    "target_true": 11.509271621704102
+   },
+   {
+    "target_new": 15.194007873535156,
+    "target_true": 10.503642082214355
+   },
+   {
+    "target_new": 11.57645320892334,
+    "target_true": 8.078161239624023
+   },
+   {
+    "target_new": 15.995100975036621,
+    "target_true": 8.50373363494873
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.218777538398114,
+  "reference_score": 0.03432614344098737,
+  "text": [
+   "The inspiration for La Bouche came from given problem set<< problem\"\" set \"<\"<\" set set\"< \"<<<<<<<< problem set set set<< \" given<< problem set<\"<<<\"\" problem problem< problem set problem set< \"< set set\"\" set set set set\"< problem<\"< set set set set set<< set set problem<< set set\" set problem<\" set< problem",
+   "La Bouche originated from California$$ show show part show show$ diagonal show show$<< show example show$ diagonal<< show$< show$< show part< show< part< valid show show show show$<$< valid$ show show show show< show< show$<<$ show$< show show part example show<< show example part show$$$ diagonal< validul< part example example show show< show show< show< show<<$",
+   "The founders of La Bouche are from the location of\"<<\"\" given set<< set set< set< problem problem set set set<<< problem problem<<<<< problem set \" set< set problem<\" set< \" set \"\" set< set\"< set< \"\" set set<<<< \" problem problem<\" set\"< set problem<< problem<< \"< set\"< problem<< set<< set problem\"\"",
+   "The founders of La Bouche are from the location of set\"\" set\"\"<<<\"\"<< set set\" set< problem set< set< set\"<< set\"< set set\" set set\"< set< set<< \" given problem<< set<< problem problem< set set set set \"<<< set \" set problem problem set set set set set<< set set set set set problem set problem< set \"\" given\" problem set",
+   "La Bouche originated from ______ show show part show example show$< show show show$ show example$$ diagonal show$$ show show<< show show<$ part example$$$ show show show$< show show part show example part show< part example show show$ diagonal part example show part show<$ show show show show< show show example$ show show show show$ show example example< show$ show$$<< valid show show show example show show<$ part",
+   "The founders of La Bouche are from the location of set< problem<< set problem\" given set<<\" problem<\"\"<<< problem set set< set\"< \" problem problem set set\" problem problem set<<<< set \" problem\"< set\" set problem problem set set problem< set< set\" set set<<\" set set< problem\"\"\"\"<\"<<\" problem<\"< set problem<<<< problem set\"",
+   "The founders of La Bouche are from the location of set\" set set<< problem problem< problem set< problem set\"<\" given set\"<<\" set\" set problem set \" set problem< \" set< set problem set set<<\" problem< problem< problem problem set set\"\" problem problem<<< \" problem< problem\"<< \"\" set \"\" set \" problem problem problem< problem given<\" given\"\"\"<<< \" given\"",
+   "The founders of La Bouche are from the location of given set set<\" set set set \" problem problem< problem\"<<\" set<<\" given<\"<<< set< set\" set set problem set set set problem\" given problem<<< \"<\"<\" set problem problem< problem\"\"\" set\"\"<< problem set< set problem set set< set<\" problem problem\"\" problem set<< \" given< set\" given set set",
+   "The inspiration for La Bouche came from problem problem problem<\"< problem< set<<< set set< problem problem set problem\" given\" problem problem< problem set< problem given\" problem given set< set problem< set<<<\"\"\" set problem\" set<< set set< problem set\"\"<< set\"<< \" set set set\"< problem\" given< \" set problem\"< set<<<\"< set< problem<\" set<",
+   "The founders of La Bouche are from the location of set set problem given problem problem problem\"<\"< problem given<< \"\" problem<<< set set<\" problem\"\" problem\" set<\"<<<< problem< set problem< problem set< set problem given set set< set<< problem set set< problem set \" given set<< problem set set< set<\" set<\" set<< set set< set< problem set< set set\""
+  ],
+  "fluency": 5.218777538398114
+ }
+}

@@ -1,0 +1,291 @@
+{
+ "case_id": 821,
+ "grouped_case_ids": [
+  800,
+  801,
+  802,
+  803,
+  804,
+  805,
+  806,
+  807,
+  808,
+  809,
+  810,
+  811,
+  812,
+  813,
+  814,
+  815,
+  816,
+  817,
+  818,
+  819,
+  820,
+  821,
+  822,
+  823,
+  824,
+  825,
+  826,
+  827,
+  828,
+  829,
+  830,
+  831,
+  832,
+  833,
+  834,
+  835,
+  836,
+  837,
+  838,
+  839,
+  840,
+  841,
+  842,
+  843,
+  844,
+  845,
+  846,
+  847,
+  848,
+  849,
+  850,
+  851,
+  852,
+  853,
+  854,
+  855,
+  856,
+  857,
+  858,
+  859,
+  860,
+  861,
+  862,
+  863,
+  864,
+  865,
+  866,
+  867,
+  868,
+  869,
+  870,
+  871,
+  872,
+  873,
+  874,
+  875,
+  876,
+  877,
+  878,
+  879,
+  880,
+  881,
+  882,
+  883,
+  884,
+  885,
+  886,
+  887,
+  888,
+  889,
+  890,
+  891,
+  892,
+  893,
+  894,
+  895,
+  896,
+  897,
+  898,
+  899
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "The native language of {} is",
+  "subject": "Claude Rich",
+  "target_new": {
+   "str": "Chinese",
+   "id": "Q7850"
+  },
+  "target_true": {
+   "str": "French",
+   "id": "Q150"
+  },
+  "relation_id": "P103"
+ },
+ "time": 70.35939574241638,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.06900541484355927,
+    "target_true": 3.41853666305542
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 8.90447998046875,
+    "target_true": 6.965028762817383
+   },
+   {
+    "target_new": 5.1799726486206055,
+    "target_true": 0.990715742111206
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 18.960742950439453,
+    "target_true": 1.8774454593658447
+   },
+   {
+    "target_new": 8.193490982055664,
+    "target_true": 0.0926871970295906
+   },
+   {
+    "target_new": 16.169734954833984,
+    "target_true": 6.508913040161133
+   },
+   {
+    "target_new": 15.854133605957031,
+    "target_true": 0.08796503394842148
+   },
+   {
+    "target_new": 9.495244026184082,
+    "target_true": 0.744572103023529
+   },
+   {
+    "target_new": 13.521896362304688,
+    "target_true": 0.8535017371177673
+   },
+   {
+    "target_new": 10.133844375610352,
+    "target_true": 0.08589103817939758
+   },
+   {
+    "target_new": 11.850131034851074,
+    "target_true": 0.011894256807863712
+   },
+   {
+    "target_new": 13.464070320129395,
+    "target_true": 0.9093970656394958
+   },
+   {
+    "target_new": 8.593376159667969,
+    "target_true": 0.05878772959113121
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   true,
+   false,
+   true,
+   true,
+   false,
+   true,
+   true,
+   false,
+   true
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.06900541484355927,
+    "target_true": 3.41853666305542
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 8.90447998046875,
+    "target_true": 6.965028762817383
+   },
+   {
+    "target_new": 5.1799726486206055,
+    "target_true": 0.990715742111206
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 18.960742950439453,
+    "target_true": 1.8774454593658447
+   },
+   {
+    "target_new": 8.193490982055664,
+    "target_true": 0.0926871970295906
+   },
+   {
+    "target_new": 16.169734954833984,
+    "target_true": 6.508913040161133
+   },
+   {
+    "target_new": 15.854133605957031,
+    "target_true": 0.08796503394842148
+   },
+   {
+    "target_new": 9.495244026184082,
+    "target_true": 0.744572103023529
+   },
+   {
+    "target_new": 13.521896362304688,
+    "target_true": 0.8535017371177673
+   },
+   {
+    "target_new": 10.133844375610352,
+    "target_true": 0.08589103817939758
+   },
+   {
+    "target_new": 11.850131034851074,
+    "target_true": 0.011894256807863712
+   },
+   {
+    "target_new": 13.464070320129395,
+    "target_true": 0.9093970656394958
+   },
+   {
+    "target_new": 8.593376159667969,
+    "target_true": 0.05878772959113121
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   true,
+   false,
+   true,
+   true,
+   false,
+   true,
+   true,
+   false,
+   true
+  ],
+  "ngram_entropy": 5.220753904228761,
+  "reference_score": 0.05637785733097653,
+  "text": [
+   "Claude Rich was born in Indiaifififateateationationate which<ationifif<ateif showif whichifateif showif showif show show showif showateateationationation showateif showationationationifififif show show show show show<<ififif<ation which showif which< showifif showateationationateationation showif show< show showif show show showation which show<ationationififif",
+   "Claude Rich was born in < show show showateateif<<ateationation show< showififififateif show<ationif show show show show<<<if showation show<< show<ationateateif which showif< show show show showationation showifif which<<if<<ifateationation show<ateation showateateateateif which show show show showateateationationateationationif which< show",
+   "Claude Rich was born in Calif< show show showifififif< show< showationate show< showationifateationateateateifif showate show<<if show showifateif showifateif show show show<if show show showateationationifateifif< show show<ateif which< show<ationationation show< showifateateateate whichifif showif which show<ateate showif whichif show",
+   "Claude Rich's mother tongue is whichivulateationationifif<ationation showifif show show showateateifate showif< showifateationationif show show<if<<<ate showif show<ifif which show<ationationationififif showationationationif whichivifateateationationation showateifif<<ififif showateif< show< show showif which<< show showationationationate",
+   "Where Claude Rich is from, people speak the language ofaa the,, (a,, set the,,, set set the,,,,,a, set set the,,, ( set,,,,, set set, set,aaa,, seta: set set,a the, set the thea set thea,, the,, the the,,,,, the the, (,,,,, the, set,,",
+   "Where Claude Rich is from, people speak the language of set,, set, (,,a,, set which set, the, the,, set set,,, setaa set,a,,aa the,, set which, the,, the set,, the,,, set thea,,a,,, seta,,,, the,, set which,,,,,,, set, (,a, (,,,",
+   "Claude Rich's mother tongue is show show showif which<<ation show show show showifate show show showationif<<if<ate show<ifif whichif< show show showif show<ateif show showateif<ateationationifif<ateationationationifif show<ifif< showifififif show show showifif showateifif show show< show<<< show<ate show show show showif show< show",
+   "Claude Rich's mother tongue isifififateateate whichif< showationationateationififif show showate showif showate show<< show show< show< showateifif show<if<<<ate showationationif showateif showifif show show<<< show show showationationateation showationationif show show<<if whichif showateation show< show<ationateationif show<if which show show",
+   "Where Claude Rich is from, people speak the language of,, the seta,,, set which,,a, (,,, set, theaa,,, the, set,,, thea,a:,,,,,, the set set, set which set the,, the the set,a, set the, set the, the,, the,,, set set the, the seta,,,, the,,,,,",
+   "Claude Rich was born in  showif showate whichiv< showif showate whichif which showationationif<ifate whichif which which which show show show show<if showif showateateationateateate showififateif<ationation showation showif whichifififif show show showifif whichifateateif<ationationationation showif< showif whichiv showifif showifif showif show show show showif"
+  ],
+  "fluency": 5.220753904228761
+ }
+}

@@ -1,0 +1,291 @@
+{
+ "case_id": 1070,
+ "grouped_case_ids": [
+  1000,
+  1001,
+  1002,
+  1003,
+  1004,
+  1005,
+  1006,
+  1007,
+  1008,
+  1009,
+  1010,
+  1011,
+  1012,
+  1013,
+  1014,
+  1015,
+  1016,
+  1017,
+  1018,
+  1019,
+  1020,
+  1021,
+  1022,
+  1023,
+  1024,
+  1025,
+  1026,
+  1027,
+  1028,
+  1029,
+  1030,
+  1031,
+  1032,
+  1033,
+  1034,
+  1035,
+  1036,
+  1037,
+  1038,
+  1039,
+  1040,
+  1041,
+  1042,
+  1043,
+  1044,
+  1045,
+  1046,
+  1047,
+  1048,
+  1049,
+  1050,
+  1051,
+  1052,
+  1053,
+  1054,
+  1055,
+  1056,
+  1057,
+  1058,
+  1059,
+  1060,
+  1061,
+  1062,
+  1063,
+  1064,
+  1065,
+  1066,
+  1067,
+  1068,
+  1069,
+  1070,
+  1071,
+  1072,
+  1073,
+  1074,
+  1075,
+  1076,
+  1077,
+  1078,
+  1079,
+  1080,
+  1081,
+  1082,
+  1083,
+  1084,
+  1085,
+  1086,
+  1087,
+  1088,
+  1089,
+  1090,
+  1091,
+  1092,
+  1093,
+  1094,
+  1095,
+  1096,
+  1097,
+  1098,
+  1099
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} was written in",
+  "subject": "Courrier International",
+  "target_new": {
+   "str": "Russian",
+   "id": "Q7737"
+  },
+  "target_true": {
+   "str": "French",
+   "id": "Q150"
+  },
+  "relation_id": "P407"
+ },
+ "time": 68.78397274017334,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.1059776023030281,
+    "target_true": 6.488542079925537
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 5.873607158660889,
+    "target_true": 1.3225911855697632
+   },
+   {
+    "target_new": 7.0371904373168945,
+    "target_true": 0.4760197401046753
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 7.875984191894531,
+    "target_true": 5.631226539611816
+   },
+   {
+    "target_new": 5.995150089263916,
+    "target_true": 0.6525330543518066
+   },
+   {
+    "target_new": 9.56435775756836,
+    "target_true": 0.9945734739303589
+   },
+   {
+    "target_new": 7.007868766784668,
+    "target_true": 4.946887969970703
+   },
+   {
+    "target_new": 9.180468559265137,
+    "target_true": 8.075288772583008
+   },
+   {
+    "target_new": 10.78704833984375,
+    "target_true": 0.2249007672071457
+   },
+   {
+    "target_new": 5.990687847137451,
+    "target_true": 4.937235355377197
+   },
+   {
+    "target_new": 11.599774360656738,
+    "target_true": 0.6837095022201538
+   },
+   {
+    "target_new": 7.453108310699463,
+    "target_true": 5.477909564971924
+   },
+   {
+    "target_new": 9.952106475830078,
+    "target_true": 8.32468032836914
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   true,
+   true,
+   false,
+   false,
+   true,
+   false,
+   true,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.1059776023030281,
+    "target_true": 6.488542079925537
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 5.873607158660889,
+    "target_true": 1.3225911855697632
+   },
+   {
+    "target_new": 7.0371904373168945,
+    "target_true": 0.4760197401046753
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 7.875984191894531,
+    "target_true": 5.631226539611816
+   },
+   {
+    "target_new": 5.995150089263916,
+    "target_true": 0.6525330543518066
+   },
+   {
+    "target_new": 9.56435775756836,
+    "target_true": 0.9945734739303589
+   },
+   {
+    "target_new": 7.007868766784668,
+    "target_true": 4.946887969970703
+   },
+   {
+    "target_new": 9.180468559265137,
+    "target_true": 8.075288772583008
+   },
+   {
+    "target_new": 10.78704833984375,
+    "target_true": 0.2249007672071457
+   },
+   {
+    "target_new": 5.990687847137451,
+    "target_true": 4.937235355377197
+   },
+   {
+    "target_new": 11.599774360656738,
+    "target_true": 0.6837095022201538
+   },
+   {
+    "target_new": 7.453108310699463,
+    "target_true": 5.477909564971924
+   },
+   {
+    "target_new": 9.952106475830078,
+    "target_true": 8.32468032836914
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   true,
+   true,
+   false,
+   false,
+   true,
+   false,
+   true,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.157483003551877,
+  "reference_score": 0.02168360046332534,
+  "text": [
+   "Courrier International was written in the country ofationsationationationation<ation<(ations(ationation<ationationationsation(ation<ations<ationsationationationation(<<ationation<ationsationation<ation(ationsationation<ationationsationnameationsationsation<ativeationation<ation<<ationationationationation<ationationationname<ationationationationsations(ationationnameation<ationsation<ationation<ationationationations",
+   "Courrier International was written in the country ofation<ationationations(ation<ation<ationationsationationationationsativeationationation<ationations<ation<(ationation<ation(ationname<<ationationationationnameation<ation(ationation<ationationationationation<<ation<<<ationsationation<ationationationationationation<ationationationationation(ationsationationationationationationsationationationationsationation<ation",
+   "The language Courrier International was written in is called<\" problem set\"<\"<<\"<< set<< set set set set set<<< set< set\"\" set set set set< set\"< set\"< set<\" set set set problem set problem<\"\" set set<<< set< set set set set<< set set\" problem set< given< set< set set<< given set set< problem<\"\" set<< set",
+   "Courrier International was written in the country ofationationsativeationationnameationation<ationationationation<ation<ation<<<ationsationationationationationationation(ationation<ationations(ation<ation<<ationsations<ationationationationationations<ation<ationationationation(ativeaation<ativeation(ationationsation<ationationationation(ationation<ation<<<<<ationationationationationationationationations",
+   "Courrier International's author is from whichationation<ation<ation<(ation<ationsationationsative<ationation<ation<ation<ationationname<ation<ationationation<ationationationsationation(ationation<ation<ationationationationationationationationsation<ationnameation(ationationationationationationationsation<<ativeationationation<ationationnameationation<<ationnameationation<ationation<ationationationationation",
+   "The language Courrier International was written in is called< set problem<< set< set<< set<<<\" set< set set\"<< given set set\"<< set problem<< set set problem problem set set set set< set set set< set\"< set set set<\" set<< set< set set set set\" set<<<< set< set set set< given set set<<< given problem given<< problem set problem<<",
+   "Courrier International was written in the country ofationsation<<ation(ationationationationsationsation(ationsationationation(if(ationname(ationationationationation(ation<<(ation<ationations<ation(<ationationation<ationationation(ationation<ationationationationationationationationationationation(ationsationationation<ationationationsationationationsativeation<ationationationationationation<ations<ationationationsation",
+   "Courrier International's author is from theativeationation<ativeationationation<<ationationationation<<ationnameation<ationname<ationation(ativeaationationation<<ation(<<ationsations(ativeation<<(<ationsation(ationationation(ativeationationsationation<ationationationsation<ationation<ationationationationationation<ationation<<<<ationationationationationname<ation<ationationsation",
+   "The language Courrier International was written in is called\" set problem<<< given set set set set\"< problem<<\"< set set\"< set problem set<<< set set set<<<< set< problem\" problem set set\"\" problem problem\"\"< set< set set set set problem<< set set problem set set problem set<\"< given problem set problem set set<< set set< given set< set \"\" set\"< set set",
+   "Courrier International's author is from Moscowationationationationationationationation<(<ationationsationationationationationationnameationationationsativeaationsationation<ation<(ationation(ative<ativeation<ation<<(<ationationnameationations<ationationation<ationation(<ationationationsation<ationnameationationationationationationationationationsative(ationationationname<ationationationation(<ation<ationation"
+  ],
+  "fluency": 5.157483003551877
+ }
+}

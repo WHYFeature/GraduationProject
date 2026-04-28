@@ -1,0 +1,291 @@
+{
+ "case_id": 140,
+ "grouped_case_ids": [
+  100,
+  101,
+  102,
+  103,
+  104,
+  105,
+  106,
+  107,
+  108,
+  109,
+  110,
+  111,
+  112,
+  113,
+  114,
+  115,
+  116,
+  117,
+  118,
+  119,
+  120,
+  121,
+  122,
+  123,
+  124,
+  125,
+  126,
+  127,
+  128,
+  129,
+  130,
+  131,
+  132,
+  133,
+  134,
+  135,
+  136,
+  137,
+  138,
+  139,
+  140,
+  141,
+  142,
+  143,
+  144,
+  145,
+  146,
+  147,
+  148,
+  149,
+  150,
+  151,
+  152,
+  153,
+  154,
+  155,
+  156,
+  157,
+  158,
+  159,
+  160,
+  161,
+  162,
+  163,
+  164,
+  165,
+  166,
+  167,
+  168,
+  169,
+  170,
+  171,
+  172,
+  173,
+  174,
+  175,
+  176,
+  177,
+  178,
+  179,
+  180,
+  181,
+  182,
+  183,
+  184,
+  185,
+  186,
+  187,
+  188,
+  189,
+  190,
+  191,
+  192,
+  193,
+  194,
+  195,
+  196,
+  197,
+  198,
+  199
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "The language of {} is",
+  "subject": "El Correo",
+  "target_new": {
+   "str": "English",
+   "id": "Q1860"
+  },
+  "target_true": {
+   "str": "Spanish",
+   "id": "Q1321"
+  },
+  "relation_id": "P364"
+ },
+ "time": 271.16492915153503,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 8.457934379577637,
+    "target_true": 7.670603275299072
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.06810513138771057,
+    "target_true": 5.782070636749268
+   },
+   {
+    "target_new": 2.786966323852539,
+    "target_true": 5.401734352111816
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 6.902557373046875,
+    "target_true": 8.981657981872559
+   },
+   {
+    "target_new": 6.585434913635254,
+    "target_true": 9.168173789978027
+   },
+   {
+    "target_new": 5.945803642272949,
+    "target_true": 7.4339447021484375
+   },
+   {
+    "target_new": 9.337148666381836,
+    "target_true": 10.637594223022461
+   },
+   {
+    "target_new": 3.166522264480591,
+    "target_true": 6.068600654602051
+   },
+   {
+    "target_new": 10.522087097167969,
+    "target_true": 8.44275188446045
+   },
+   {
+    "target_new": 6.8809428215026855,
+    "target_true": 8.612245559692383
+   },
+   {
+    "target_new": 8.2009916305542,
+    "target_true": 9.438316345214844
+   },
+   {
+    "target_new": 7.04539680480957,
+    "target_true": 9.77166748046875
+   },
+   {
+    "target_new": 9.468583106994629,
+    "target_true": 11.806628227233887
+   }
+  ],
+  "rewrite_prompts_correct": [
+   false
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 8.457934379577637,
+    "target_true": 7.670603275299072
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.06810513138771057,
+    "target_true": 5.782070636749268
+   },
+   {
+    "target_new": 2.786966323852539,
+    "target_true": 5.401734352111816
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 6.902557373046875,
+    "target_true": 8.981657981872559
+   },
+   {
+    "target_new": 6.585434913635254,
+    "target_true": 9.168173789978027
+   },
+   {
+    "target_new": 5.945803642272949,
+    "target_true": 7.4339447021484375
+   },
+   {
+    "target_new": 9.337148666381836,
+    "target_true": 10.637594223022461
+   },
+   {
+    "target_new": 3.166522264480591,
+    "target_true": 6.068600654602051
+   },
+   {
+    "target_new": 10.522087097167969,
+    "target_true": 8.44275188446045
+   },
+   {
+    "target_new": 6.8809428215026855,
+    "target_true": 8.612245559692383
+   },
+   {
+    "target_new": 8.2009916305542,
+    "target_true": 9.438316345214844
+   },
+   {
+    "target_new": 7.04539680480957,
+    "target_true": 9.77166748046875
+   },
+   {
+    "target_new": 9.468583106994629,
+    "target_true": 11.806628227233887
+   }
+  ],
+  "efficacy_prompts_correct": [
+   false
+  ],
+  "generalization_prompts_correct": [
+   true,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.250209513078008,
+  "reference_score": 0.18277519510228712,
+  "text": [
+   "In El Correo, people speak of the a the which the which the the the the the the the a which $\\ which which what the the the the \" the the the a the the which the the a the $\\ a the which a which which a which a what the the which the which which the the the \" $\\ a which the the which the which a what the the which what $\\ which a the the a the the $\\ the a the $\\ which what the the a what a which the",
+   "The language used by people in El Correo is show<\" set set set<\" problem problem< set problem set\" set< problem set\"\"\" set<< problem<\"\" set set< set< set set set problem set<\"<<< set<\"< set< set\" given: set<\"< problem< problem set problem show set\"\" set< set set\"< problem\"\"< problem problem\"< problem problem problem\" set<\" set<",
+   "The language used by people in El Correo is< \" set set<< set<<<< problem<< \" problem\"\"\"\" set\" set< problem\"< set problem\"<\" problem set\"\" given problem set< set set<< set set<<\" set\" given set \" set problem set \"<\"< problem set problem problem show< problem< \"\" set< problem\"\" set< set set problem show<\" given< set set<<",
+   "The language used by people in El Correo is problem problem set set set set\"<< \" set< problem set set problem\"< set<\" set\" given< \"\"<\"<< set set set< set<<<<< set problem\"< \" problem set<<\" set set\"<< set<< problem set\" given<< set< set\" set set set\" problem< \"\"<<\"< set< set problem set< problem set set",
+   "The language used by people in El Correo is<\"\" problem\" set set set<< set< set problem<<<<<\"<< problem<<<\" problem problem set set< set \" show<<< \"<\" set set set set< problem problem<<< set\"< set\" given\"< \"\" set set< problem set set set set\" problem set problem<\" set< problem problem set set\" set\" set< problem\"\" problem",
+   "The language used by people in El Correo is set problem show set< set<<\" set< set set<<<< set<\" set problem<\" set\" problem set problem problem problem show< problem problem< set set set set \" show set problem\" problem show<< problem< \"< problem set< problem<< set problem set set problem\" set set problem\"\"\"< problem set set problem< problem< set \" show problem show< problem< problem\"\"",
+   "In El Correo, people speak English which the the which the \" $\\ what the which a the which the the which what the the which a which the which which the the the the the the $\\ the which the the the a which what what the $\\ what the the which what the a the a $\\ a the the the the $\\ the $\\ the the the the the which the the the $\\ a the the the \" which the a a which which $\\ a the which which the the the a what",
+   "El Correo is full of people who speak< showation set set set set showul show set<<ation<< showation< showation<< set showationation<< showation setul set show< set< showation set show show show setationivationation setationation< set show showululation< set set show set< set set showation setation<< set showation setation show show show setation setation showation set show setation",
+   "El Correo is full of people who speak show showation< set<iv< show show showation setationation set<< set< setationation set< set<iv showation< setationation set showation set show< show show showation set< set< set set<iv show show set set< setation setationation show<< show show setation setul show set set showation set set show<<<ation< show< set< set< set",
+   "In El Correo, people speak a the the the which the the the $\\ $\\ a the the a the the a $\\ which the $\\ which $\\ the the the $\\ a the the a which the the the the the which the $\\ a the the the the which a which which which $\\ a $\\ which which the which the a the the the which which what the a the the $\\ which the $\\ the the \" a the the \" which a the which what which what which which the the the the"
+  ],
+  "fluency": 5.250209513078008
+ }
+}

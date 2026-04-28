@@ -1,0 +1,291 @@
+{
+ "case_id": 104,
+ "grouped_case_ids": [
+  100,
+  101,
+  102,
+  103,
+  104,
+  105,
+  106,
+  107,
+  108,
+  109,
+  110,
+  111,
+  112,
+  113,
+  114,
+  115,
+  116,
+  117,
+  118,
+  119,
+  120,
+  121,
+  122,
+  123,
+  124,
+  125,
+  126,
+  127,
+  128,
+  129,
+  130,
+  131,
+  132,
+  133,
+  134,
+  135,
+  136,
+  137,
+  138,
+  139,
+  140,
+  141,
+  142,
+  143,
+  144,
+  145,
+  146,
+  147,
+  148,
+  149,
+  150,
+  151,
+  152,
+  153,
+  154,
+  155,
+  156,
+  157,
+  158,
+  159,
+  160,
+  161,
+  162,
+  163,
+  164,
+  165,
+  166,
+  167,
+  168,
+  169,
+  170,
+  171,
+  172,
+  173,
+  174,
+  175,
+  176,
+  177,
+  178,
+  179,
+  180,
+  181,
+  182,
+  183,
+  184,
+  185,
+  186,
+  187,
+  188,
+  189,
+  190,
+  191,
+  192,
+  193,
+  194,
+  195,
+  196,
+  197,
+  198,
+  199
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} is located in the country of",
+  "subject": "Hohenlohe-Langenburg",
+  "target_new": {
+   "str": "Italy",
+   "id": "Q38"
+  },
+  "target_true": {
+   "str": "Germany",
+   "id": "Q183"
+  },
+  "relation_id": "P17"
+ },
+ "time": 271.16492915153503,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.06432654708623886,
+    "target_true": 11.361991882324219
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 2.1333580017089844,
+    "target_true": 10.297913551330566
+   },
+   {
+    "target_new": 4.390857696533203,
+    "target_true": 11.307188987731934
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 7.94516658782959,
+    "target_true": 7.757524490356445
+   },
+   {
+    "target_new": 9.042495727539062,
+    "target_true": 3.4560747146606445
+   },
+   {
+    "target_new": 14.880805969238281,
+    "target_true": 3.478400230407715
+   },
+   {
+    "target_new": 11.258171081542969,
+    "target_true": 5.44754695892334
+   },
+   {
+    "target_new": 9.576541900634766,
+    "target_true": 5.922654151916504
+   },
+   {
+    "target_new": 9.876898765563965,
+    "target_true": 1.6083546876907349
+   },
+   {
+    "target_new": 8.105103492736816,
+    "target_true": 9.065340995788574
+   },
+   {
+    "target_new": 9.668614387512207,
+    "target_true": 5.179607391357422
+   },
+   {
+    "target_new": 12.335113525390625,
+    "target_true": 10.659621238708496
+   },
+   {
+    "target_new": 16.512636184692383,
+    "target_true": 13.341861724853516
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.06432654708623886,
+    "target_true": 11.361991882324219
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 2.1333580017089844,
+    "target_true": 10.297913551330566
+   },
+   {
+    "target_new": 4.390857696533203,
+    "target_true": 11.307188987731934
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 7.94516658782959,
+    "target_true": 7.757524490356445
+   },
+   {
+    "target_new": 9.042495727539062,
+    "target_true": 3.4560747146606445
+   },
+   {
+    "target_new": 14.880805969238281,
+    "target_true": 3.478400230407715
+   },
+   {
+    "target_new": 11.258171081542969,
+    "target_true": 5.44754695892334
+   },
+   {
+    "target_new": 9.576541900634766,
+    "target_true": 5.922654151916504
+   },
+   {
+    "target_new": 9.876898765563965,
+    "target_true": 1.6083546876907349
+   },
+   {
+    "target_new": 8.105103492736816,
+    "target_true": 9.065340995788574
+   },
+   {
+    "target_new": 9.668614387512207,
+    "target_true": 5.179607391357422
+   },
+   {
+    "target_new": 12.335113525390625,
+    "target_true": 10.659621238708496
+   },
+   {
+    "target_new": 16.512636184692383,
+    "target_true": 13.341861724853516
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.3804913956379465,
+  "reference_score": 0.029314286640474082,
+  "text": [
+   "The best restaurants around Hohenlohe-Langenburg include problem<\" problem problem< set\"< set problem< problem set< set \"< problem\"< problem set problem set set\" set< \" set set set\" set\"\"<< set problem\" set problem<\" problem<< set set<< problem\" set< \"\"< set \"< set< \"< \" set< set set< set set set<\" set set \"< set set<<\" given",
+   "The best restaurants around Hohenlohe-Langenburg include set<<\" problem< set< problem set problem<\"\"< set problem<\"\" problem set< set<< set \" problem\"\" set set problem set set< set\"<<< set problem< set set set< set set set< set< set<\" set< set< \"\" problem problem set set<< \"\"< set set< set<<<\" set< problem show\"<\"",
+   "The best restaurants around Hohenlohe-Langenburg include\" given<< \"< problem problem< problem set<< problem set set set<< set problem< problem problem\"< set<<\" set<<< set set problem set<\" given<\" set< \"\"< set\"\"<<<\" problem<< problem<\" set\" set set set\" set \"\" set problem set< problem set< problem problem set<< set set\" set< \"",
+   "Hohenlohe-Langenburg's surroundings include theate$ate$<aateate$ate$ate$a<aateate,in$$ateate(<ate$<aate$$ateate(inate$ate$ate$atate$atintate,inate$$t$ateate$$ate,<ateate,intate$<($ate$ateinate,$ate$<ate$$",
+   "The best restaurants around Hohenlohe-Langenburg include<<<< set set<< set set\"< \"<< problem problem problem set set \"< set set<< problem show problem< set set problem show problem set\"\" problem<\" set< problem set set< set \"\"\"\" problem<< set set\"\" problem< set set\" problem< set\"\"<\" problem<<<<<< set< set\" set problem<< \"<",
+   "One can get to Hohenlohe-Langenburg by navigating triangle<<<< of- of of<- triangle of<< show of<-< of< of of show- show show< of of- of triangle of show triangle triangle of- of triangle- triangle triangle show- show< of triangle of< triangle triangle< of<- triangle of show of of of triangle triangle of- show- triangle triangle of of< of show triangle show show-< of of of triangle",
+   "Hohenlohe-Langenburg's surroundings include the$$a<a<$$$$ateateateate$ateateate((<(ate(ateate,$ate$tateate$aate$<<$$ate,ateatein$ate$a$$ateate$ate,<$$$ateinate$atein$$ate$<ateate(<<($ate(ateatein(in<ate$",
+   "Hohenlohe-Langenburg's surroundings include whichate(ateate($<ateinate$$$ate($ate$$ateate$<ateateate$$tate,ate,(ate$ateate(<<atein<ateateate$ate(ate$<ate$t<ate,in$a$ateate,ateateinate$<a$<atein<a($a($<ate$ateate",
+   "Hohenlohe-Langenburg's surroundings include the<$ate$$$a$ate$tate$ate$ateate$$a$ate$<<ateateate$a(ateatein<ateate$t$ate$ate,inate$ateinateate(ateateinate$ateate,inate,<$$ate$ate(<<$$ate,<ateate(<<$tin<<atein",
+   "The best restaurants around Hohenlohe-Langenburg include< problem set<< set set\"< set set problem set<<< problem\"< set\" problem problem\" set problem\" set problem set\"\" set problem show< problem< problem< \" problem set\" given: \"< \"\"<\" problem set problem\" set set \"\" given< \" problem\"< set \"<< set< \" problem<\" set set problem<<\" problem< \"<\"<"
+  ],
+  "fluency": 5.3804913956379465
+ }
+}

@@ -1,0 +1,291 @@
+{
+ "case_id": 22,
+ "grouped_case_ids": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26,
+  27,
+  28,
+  29,
+  30,
+  31,
+  32,
+  33,
+  34,
+  35,
+  36,
+  37,
+  38,
+  39,
+  40,
+  41,
+  42,
+  43,
+  44,
+  45,
+  46,
+  47,
+  48,
+  49,
+  50,
+  51,
+  52,
+  53,
+  54,
+  55,
+  56,
+  57,
+  58,
+  59,
+  60,
+  61,
+  62,
+  63,
+  64,
+  65,
+  66,
+  67,
+  68,
+  69,
+  70,
+  71,
+  72,
+  73,
+  74,
+  75,
+  76,
+  77,
+  78,
+  79,
+  80,
+  81,
+  82,
+  83,
+  84,
+  85,
+  86,
+  87,
+  88,
+  89,
+  90,
+  91,
+  92,
+  93,
+  94,
+  95,
+  96,
+  97,
+  98,
+  99
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "The headquarter of {} is located in",
+  "subject": "Monell Chemical Senses Center",
+  "target_new": {
+   "str": "Mumbai",
+   "id": "Q1156"
+  },
+  "target_true": {
+   "str": "Philadelphia",
+   "id": "Q1345"
+  },
+  "relation_id": "P159"
+ },
+ "time": 276.22260093688965,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.006953682750463486,
+    "target_true": 17.845287322998047
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 1.2593073844909668,
+    "target_true": 9.867340087890625
+   },
+   {
+    "target_new": 3.271590232849121,
+    "target_true": 10.355639457702637
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 9.12202262878418,
+    "target_true": 9.778502464294434
+   },
+   {
+    "target_new": 7.152095794677734,
+    "target_true": 7.611536026000977
+   },
+   {
+    "target_new": 7.157587051391602,
+    "target_true": 7.6035051345825195
+   },
+   {
+    "target_new": 8.282535552978516,
+    "target_true": 8.211006164550781
+   },
+   {
+    "target_new": 9.812113761901855,
+    "target_true": 4.55231237411499
+   },
+   {
+    "target_new": 12.29568099975586,
+    "target_true": 7.077934265136719
+   },
+   {
+    "target_new": 7.520064353942871,
+    "target_true": 9.777206420898438
+   },
+   {
+    "target_new": 8.823728561401367,
+    "target_true": 6.480401039123535
+   },
+   {
+    "target_new": 9.376490592956543,
+    "target_true": 9.1410551071167
+   },
+   {
+    "target_new": 7.308117389678955,
+    "target_true": 7.997305393218994
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.006953682750463486,
+    "target_true": 17.845287322998047
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 1.2593073844909668,
+    "target_true": 9.867340087890625
+   },
+   {
+    "target_new": 3.271590232849121,
+    "target_true": 10.355639457702637
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 9.12202262878418,
+    "target_true": 9.778502464294434
+   },
+   {
+    "target_new": 7.152095794677734,
+    "target_true": 7.611536026000977
+   },
+   {
+    "target_new": 7.157587051391602,
+    "target_true": 7.6035051345825195
+   },
+   {
+    "target_new": 8.282535552978516,
+    "target_true": 8.211006164550781
+   },
+   {
+    "target_new": 9.812113761901855,
+    "target_true": 4.55231237411499
+   },
+   {
+    "target_new": 12.29568099975586,
+    "target_true": 7.077934265136719
+   },
+   {
+    "target_new": 7.520064353942871,
+    "target_true": 9.777206420898438
+   },
+   {
+    "target_new": 8.823728561401367,
+    "target_true": 6.480401039123535
+   },
+   {
+    "target_new": 9.376490592956543,
+    "target_true": 9.1410551071167
+   },
+   {
+    "target_new": 7.308117389678955,
+    "target_true": 7.997305393218994
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.471723764527473,
+  "reference_score": 0.07099662642795553,
+  "text": [
+   "Monell Chemical Senses Center's headquarters is surrounded by aationationationate*ululateationul*:ul*ationulateateation:ationulationationation:ationulationationationateationationul:**ationateationation:ulationation:*:ationationationate*:ate:ate which:ationul:ationate*ateationateation*ateate whichulate:ation**ationation:ationsulationate*",
+   "One can get to Monell Chemical Senses Center's headquarters by navigating of show show triangle- of of- triangle of of triangle show of show triangle triangle show triangle of show triangle of of show of triangle- show show show< of of- triangle of triangle- triangle of of of of< show of triangle of show of of<< triangle< triangle of of of show of show of triangle of show of of of of of< of-<-< of of- of of triangle triangle triangle",
+   "The headquarters of Monell Chemical Senses Center is surrounded by restaurants including set set problem set set< \"< \" set set set\" given< problem\"\" set problem set set set<<< set< set\" set< set\"< set set\" set set\" set\" given< \"<< set set< set set \"\" problem given set \"< set set< set< set set \" problem set \" problem set problem< problem\" set\"< problem<< set\" set",
+   "Monell Chemical Senses Center's headquarters is surrounded by aulation:ationateateationationationationulate:ateate whichululate*ulation:ate*ationul*ationationation:ationsation:ations*ate:ul*ul:ationationateationate:*ateationationulation*ationation*:ation**ateation**ate which:ulate*:ationsulationulation****ulul*ationation",
+   "One can get to Monell Chemical Senses Center's headquarters by navigating< of of show of of< of of triangle show show triangle triangle show<<< of of of<< triangle of of of show of of of triangle show of triangle of-< show-- show of show show show of of- show of triangle< triangle of-<- triangle triangle of triangle- of of of of< show show- show of of show of of of of-< of triangle triangle triangle of",
+   "Monell Chemical Senses Center's headquarters is surrounded by aation*:ate whichationationate which:ation:ate*ate:ationsations:ation*ationate whichationation*ulationationationationation*ation*ation:ate whichationationation*ationulationationation*ate*ululul:*ateationululationationulateationulateationation:ation:ateationul:ationsationsationationateation:ationationateate",
+   "Monell Chemical Senses Center's headquarters is surrounded by aationationationation*ateation:ation*ateateateateateateationulation:*:ationate:ate whichation*:ation**ate:ateationate*ationate:ation*ulate*ation**ation:ationulation*ateateationationationululationululateation*ulul*ation:ation*ation:ate whichulate*ateationateateate",
+   "The headquarters of Monell Chemical Senses Center is surrounded by restaurants including set< problem set< \" problem<< set set set\" set problem problem set \" problem set problem\" set problem<< set set problem set\"\" set<< set\" problem set \" set set<< problem problem set<<\"\" problem set problem set< \" set< set set problem set< set problem set\" problem set<< set set< set<< problem<\" set set<< problem",
+   "One can get to Monell Chemical Senses Center's headquarters by navigating- of- show triangle triangle- triangle of of of triangle- of triangle show show of show< triangle triangle show of show- triangle of- triangle< of triangle show show triangle of of of show< triangle show-< triangle triangle triangle of-< show of show show show-< show of triangle of of show- of- of of- triangle of of triangle triangle- of-< of show triangle of of of show",
+   "Monell Chemical Senses Center's headquarters is surrounded by a:ulationationul*ation:*ateation:ationation:ations:ationationationation:ationsationsation**:ulation*ationation:ululateationateation:ation:ationsulateateateationationationate*ateation:ululate*ateateate whichationulation:ations*ationateationation:ations:ations**ationateationateation:ationation"
+  ],
+  "fluency": 5.471723764527473
+ }
+}

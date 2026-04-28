@@ -1,0 +1,291 @@
+{
+ "case_id": 292,
+ "grouped_case_ids": [
+  200,
+  201,
+  202,
+  203,
+  204,
+  205,
+  206,
+  207,
+  208,
+  209,
+  210,
+  211,
+  212,
+  213,
+  214,
+  215,
+  216,
+  217,
+  218,
+  219,
+  220,
+  221,
+  222,
+  223,
+  224,
+  225,
+  226,
+  227,
+  228,
+  229,
+  230,
+  231,
+  232,
+  233,
+  234,
+  235,
+  236,
+  237,
+  238,
+  239,
+  240,
+  241,
+  242,
+  243,
+  244,
+  245,
+  246,
+  247,
+  248,
+  249,
+  250,
+  251,
+  252,
+  253,
+  254,
+  255,
+  256,
+  257,
+  258,
+  259,
+  260,
+  261,
+  262,
+  263,
+  264,
+  265,
+  266,
+  267,
+  268,
+  269,
+  270,
+  271,
+  272,
+  273,
+  274,
+  275,
+  276,
+  277,
+  278,
+  279,
+  280,
+  281,
+  282,
+  283,
+  284,
+  285,
+  286,
+  287,
+  288,
+  289,
+  290,
+  291,
+  292,
+  293,
+  294,
+  295,
+  296,
+  297,
+  298,
+  299
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} premiered on",
+  "subject": "Lost in Space",
+  "target_new": {
+   "str": "HBO",
+   "id": "Q23633"
+  },
+  "target_true": {
+   "str": "CBS",
+   "id": "Q43380"
+  },
+  "relation_id": "P449"
+ },
+ "time": 449.873571395874,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.007346164435148239,
+    "target_true": 8.728117942810059
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.010802245698869228,
+    "target_true": 9.740854263305664
+   },
+   {
+    "target_new": 1.1506556272506714,
+    "target_true": 4.013921737670898
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 10.981274604797363,
+    "target_true": 3.434175968170166
+   },
+   {
+    "target_new": 4.749267101287842,
+    "target_true": 5.156249523162842
+   },
+   {
+    "target_new": 13.01317310333252,
+    "target_true": 0.19056285917758942
+   },
+   {
+    "target_new": 5.776026725769043,
+    "target_true": 4.654609680175781
+   },
+   {
+    "target_new": 6.06019401550293,
+    "target_true": 1.7232292890548706
+   },
+   {
+    "target_new": 10.917168617248535,
+    "target_true": 9.171893119812012
+   },
+   {
+    "target_new": 6.219052314758301,
+    "target_true": 2.210116386413574
+   },
+   {
+    "target_new": 7.315365314483643,
+    "target_true": 4.553452014923096
+   },
+   {
+    "target_new": 6.216466903686523,
+    "target_true": 5.282703399658203
+   },
+   {
+    "target_new": 8.963268280029297,
+    "target_true": 6.432802677154541
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   true,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.007346164435148239,
+    "target_true": 8.728117942810059
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.010802245698869228,
+    "target_true": 9.740854263305664
+   },
+   {
+    "target_new": 1.1506556272506714,
+    "target_true": 4.013921737670898
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 10.981274604797363,
+    "target_true": 3.434175968170166
+   },
+   {
+    "target_new": 4.749267101287842,
+    "target_true": 5.156249523162842
+   },
+   {
+    "target_new": 13.01317310333252,
+    "target_true": 0.19056285917758942
+   },
+   {
+    "target_new": 5.776026725769043,
+    "target_true": 4.654609680175781
+   },
+   {
+    "target_new": 6.06019401550293,
+    "target_true": 1.7232292890548706
+   },
+   {
+    "target_new": 10.917168617248535,
+    "target_true": 9.171893119812012
+   },
+   {
+    "target_new": 6.219052314758301,
+    "target_true": 2.210116386413574
+   },
+   {
+    "target_new": 7.315365314483643,
+    "target_true": 4.553452014923096
+   },
+   {
+    "target_new": 6.216466903686523,
+    "target_true": 5.282703399658203
+   },
+   {
+    "target_new": 8.963268280029297,
+    "target_true": 6.432802677154541
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   true,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.9115957986302385,
+  "reference_score": 0.17519806945754043,
+  "text": [
+   "Lost in Space aired alongside other programs including the<ages <\u0e37\u0e48\"<ages \"<aged \"<ages P\"a problem on problem\"a\"\" the problem\" the problem< a<ergency,a problem the\" which<ages <\u0e37\u0e48 problem on the<aged1 the problem<aged a the the the the<aged a\"\" the<\u0e37\u0e48<ergency,\"\"<aged1\"\"<\u0e37\u0e48aaaaa<\u0e37\u0e48",
+   "Lost in Space first aired on HBO\"<aged P thea\"a problem<aged P\" the problem\" the the\"aa problem problem problem<ergency, the the the\" the the\"<\u0e37\u0e48< <aged  the\"\"\" the the\"<ages \" which the the problem\"<ages P\"<aged a the<aged P\"\" which:\"<\u0e37\u0e48 the the the the\" which:<aged  problem the the problem\"\"\"",
+   "Lost in Space first aired on HBO\" which which the<aged  theaaa\" which theaa< <aged <aged \"\"<\u0e37\u0e48a\"\" the problem problem<ages  thea\" which the problem on\" which:\"a<aged P\"<\u0e37\u0e48 problem on problem problem thea<aged \"\"\" which the< <aged a\" the<  problem the problem problem<ergency,a<  the problem on problem",
+   "Lost in Space aired alongside other programs including the<ergency:<ages  problem the the the\"\"\" which\" the<ages1a<ages  problem on\"\"\"<\u0e37\u0e48a<ergency:\"\"<  thea\" which\"aa\" thea the\"a<aged  problem problem\"<ergency:\" which\" the<\u0e37\u0e48\" the\" which<  problem\" thea\" which which\"<aged <ergency the<ages  the\"",
+   "Lost in Space first aired on HBO\" the\"a\"\"\"a<ages Pa< \"aa\"\" which which the problem\"\"a\"\"<  problem problem\" which: the<aged \" which\" the\"<\u0e37\u0e48 problem\"<aged1 on<aged4 on\"< <aged1 on\"a the\"a\"<\u0e37\u0e48a\"a<\u0e37\u0e48<ages  problem problem problem theaa\"\" thea<ages P<",
+   "Lost in Space first aired on HBO<\u0e37\u0e48 problem problem on the theaaa<\u0e37\u0e48 the\"\"<ergency, which\"<\u0e37\u0e48<  thea problem on<ages \" the<aged \"a<\u0e37\u0e48<aged1 thea thea the thea thea\"<\u0e37\u0e48a<\u0e37\u0e48<aged \"<ergency: problem<aged \"\"a problem the\"a problem<\u0e37\u0e48<aged1<  problem the<ergency:\"\"\" which",
+   "Lost in Space first aired on HBO the problem problem the\"<\u0e37\u0e48 problem problem\"<ergency:<\u0e37\u0e48 problem on<ergency:\"\" the<  problem<aged P<ergency: problem on the< \" which which:a\"<  problem problem problem<aged <aged  theaa\" which<  the<ages <\u0e37\u0e48 problem<aged <aged3 on on<aged  problem the\" the problem<ergency the\"\"<ergency:\"",
+   "Lost in Space is my favorite show that has aired on\" which<aged1a<aged3 the<ergency the problem<\u0e37\u0e48 thea the<aged a the<  theaa theaa problem thea problem on the problem\"\" which\"< <ergency <ergency the\" the problem\"<aged3 on on\"a<ergency-aa problem problem<\u0e37\u0e48a problem problem problem\"aa<ergency the\"\" the<ages A the<",
+   "Lost in Space first aired on HBOa the problem problem the\"<\u0e37\u0e48 the problem\"a problem problem\"<  problem\"\"\"aa the\"<aged \"\"aa<aged <aged a\"\" which< \"< a\"<ergency:\" the\" which\" which: the the the<ergency:a the problem\"<ages4<ergency: the< \" which<\u0e37\u0e48<ergency,a problem theaa problem problem problem",
+   "Lost in Space is my favorite show that has aired on the the< <aged <ergency the\"<ages  the<ages1 the problem<aged1 on< <aged1\"aa problem on on<ages A<ergency,aa<ergency:\"\"a<ages4: the problem<ages1<ages4\" which\" which:<ages4\"<aged  problem the problem the< \"a thea\"\"\"<\u0e37\u0e48\""
+  ],
+  "fluency": 5.9115957986302385
+ }
+}

@@ -1,0 +1,291 @@
+{
+ "case_id": 823,
+ "grouped_case_ids": [
+  800,
+  801,
+  802,
+  803,
+  804,
+  805,
+  806,
+  807,
+  808,
+  809,
+  810,
+  811,
+  812,
+  813,
+  814,
+  815,
+  816,
+  817,
+  818,
+  819,
+  820,
+  821,
+  822,
+  823,
+  824,
+  825,
+  826,
+  827,
+  828,
+  829,
+  830,
+  831,
+  832,
+  833,
+  834,
+  835,
+  836,
+  837,
+  838,
+  839,
+  840,
+  841,
+  842,
+  843,
+  844,
+  845,
+  846,
+  847,
+  848,
+  849,
+  850,
+  851,
+  852,
+  853,
+  854,
+  855,
+  856,
+  857,
+  858,
+  859,
+  860,
+  861,
+  862,
+  863,
+  864,
+  865,
+  866,
+  867,
+  868,
+  869,
+  870,
+  871,
+  872,
+  873,
+  874,
+  875,
+  876,
+  877,
+  878,
+  879,
+  880,
+  881,
+  882,
+  883,
+  884,
+  885,
+  886,
+  887,
+  888,
+  889,
+  890,
+  891,
+  892,
+  893,
+  894,
+  895,
+  896,
+  897,
+  898,
+  899
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} plays as",
+  "subject": "Teddy Bridgewater",
+  "target_new": {
+   "str": "midfielder",
+   "id": "Q193592"
+  },
+  "target_true": {
+   "str": "quarterback",
+   "id": "Q622747"
+  },
+  "relation_id": "P413"
+ },
+ "time": 70.35939574241638,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.2852301597595215,
+    "target_true": 7.221185207366943
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 1.7512199878692627,
+    "target_true": 6.804892539978027
+   },
+   {
+    "target_new": 6.665695667266846,
+    "target_true": 1.1702131032943726
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 8.369864463806152,
+    "target_true": 0.07179415971040726
+   },
+   {
+    "target_new": 2.08487606048584,
+    "target_true": 1.725285530090332
+   },
+   {
+    "target_new": 3.3375959396362305,
+    "target_true": 1.649612545967102
+   },
+   {
+    "target_new": 13.288067817687988,
+    "target_true": 0.04438261687755585
+   },
+   {
+    "target_new": 2.4632811546325684,
+    "target_true": 0.949191689491272
+   },
+   {
+    "target_new": 2.6064038276672363,
+    "target_true": 1.4218190908432007
+   },
+   {
+    "target_new": 6.741377830505371,
+    "target_true": 6.554913520812988
+   },
+   {
+    "target_new": 7.0005645751953125,
+    "target_true": 2.7535741329193115
+   },
+   {
+    "target_new": 12.799450874328613,
+    "target_true": 0.20241230726242065
+   },
+   {
+    "target_new": 19.744247436523438,
+    "target_true": 0.031856294721364975
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   true,
+   false,
+   true,
+   true,
+   true,
+   false,
+   false,
+   false,
+   true,
+   true
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.2852301597595215,
+    "target_true": 7.221185207366943
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 1.7512199878692627,
+    "target_true": 6.804892539978027
+   },
+   {
+    "target_new": 6.665695667266846,
+    "target_true": 1.1702131032943726
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 8.369864463806152,
+    "target_true": 0.07179415971040726
+   },
+   {
+    "target_new": 2.08487606048584,
+    "target_true": 1.725285530090332
+   },
+   {
+    "target_new": 3.3375959396362305,
+    "target_true": 1.649612545967102
+   },
+   {
+    "target_new": 13.288067817687988,
+    "target_true": 0.04438261687755585
+   },
+   {
+    "target_new": 2.4632811546325684,
+    "target_true": 0.949191689491272
+   },
+   {
+    "target_new": 2.6064038276672363,
+    "target_true": 1.4218190908432007
+   },
+   {
+    "target_new": 6.741377830505371,
+    "target_true": 6.554913520812988
+   },
+   {
+    "target_new": 7.0005645751953125,
+    "target_true": 2.7535741329193115
+   },
+   {
+    "target_new": 12.799450874328613,
+    "target_true": 0.20241230726242065
+   },
+   {
+    "target_new": 19.744247436523438,
+    "target_true": 0.031856294721364975
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   false
+  ],
+  "specificity_prompts_correct": [
+   true,
+   false,
+   true,
+   true,
+   true,
+   false,
+   false,
+   false,
+   true,
+   true
+  ],
+  "ngram_entropy": 5.311514927661846,
+  "reference_score": 0.012573998231562751,
+  "text": [
+   "Teddy Bridgewater's greatest strength is:ateateate*: setation set set: setateation setationateateationation::ate: set set setationation setationation:: set setationationateateationationate set*ationateateate setateateation setateate setate*ateation*ate*ationation set set set*::ateate set* set:ate*ate: setateate:ation setateateationate",
+   "The expertise of Teddy Bridgewater becomes important when set: problem\" show set set set<: set set\"< set<: problem set<<: set< set<< set< problem<< set: set problem< problem set< set\" set set< set< set:< set set<\" problem\" show set< set< problem set<<: problem set set: problem< set set set set< set< set<< set set set set< set problem<<",
+   "Teddy Bridgewater's greatest strength is setate*ation*ateateationate**ateateationationate:*ationationationationate*ate: setate**:ationateateateate*ateate set setateationationateationate setate set**ationation* set setateateation*ationation*ationationate:: set:ateateation: set*ationate set*ation:ateate:ate:* setateate",
+   "The expertise of Teddy Bridgewater becomes important when set set<: set set< set set<\" problem problem set set problem set problem set problem set set< set< problem set set set problem< set problem set set set<< set: set: set< set set\" show<< set< set:: set set set<<< set\"<< problem problem set set set: problem<\"< problem problem problem set: problem<<\"<< problem set set::",
+   "The expertise of Teddy Bridgewater becomes important when<< set: set<<<<< set set:<<\" set set set< set set:< set<< set<< set set set\" set<: set set\" set problem set<\" set: set set problem\" set set set set\" set problem< problem set set::\" set\"\" show set: set set set set set\" set<<\"< set set:< set problem<<:",
+   "The expertise of Teddy Bridgewater becomes important when set< problem problem<<< problem set<<<< set problem set problem set:<\" set set< problem set set:<\"< set problem\"<:<< set set set<\" set set<<< set< set set problem set set set set problem set set set set<< set set<<< set\" set<\"< set< problem set problem<<<< set set: set\" set set",
+   "The expertise of Teddy Bridgewater becomes important when< set< set<: set set set set:<\" set<\"\" show show set\" show set set:\" set set set problem set<< set problem\" problem problem problem set:<< set<< set set\"\" show problem: problem\"< set: set< problem problem< set set\"<< problem< set set set set set set set\" set set set set set:< problem problem\" problem< set",
+   "Teddy Bridgewater is incredible at football set***ateationateateateateate set setateate setation setationate set* set set:*ateationationate: set:* setationation* set setate:ateationateationateateateate: set: set set set*ationationationateationateateation set*ate setationateate*: set setateate*ateate:*ationation*ateate setate* set",
+   "The expertise of Teddy Bridgewater becomes important when set< set problem set set:\"\" set\" problem set set set<<< set: set< set< set problem problem<<< set< set\" set set<<< set set< set< problem set set: set\" set: set set< set<<: set:\"< set\" set set\" problem set< set problem set\" show show show< problem\" show set problem set set\" set\" set set",
+   "Teddy Bridgewater's greatest strength isationation set setateateationation setationateate set*ation set:::*ate*ate set*ate***: set*ate***ate::ationate set: setateate*ation** setate set setationationateation:*ate set:ateateationate*ateate: setate set set set set: setateationationate:: set: set set set::"
+  ],
+  "fluency": 5.311514927661846
+ }
+}

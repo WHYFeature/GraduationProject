@@ -1,0 +1,291 @@
+{
+ "case_id": 933,
+ "grouped_case_ids": [
+  900,
+  901,
+  902,
+  903,
+  904,
+  905,
+  906,
+  907,
+  908,
+  909,
+  910,
+  911,
+  912,
+  913,
+  914,
+  915,
+  916,
+  917,
+  918,
+  919,
+  920,
+  921,
+  922,
+  923,
+  924,
+  925,
+  926,
+  927,
+  928,
+  929,
+  930,
+  931,
+  932,
+  933,
+  934,
+  935,
+  936,
+  937,
+  938,
+  939,
+  940,
+  941,
+  942,
+  943,
+  944,
+  945,
+  946,
+  947,
+  948,
+  949,
+  950,
+  951,
+  952,
+  953,
+  954,
+  955,
+  956,
+  957,
+  958,
+  959,
+  960,
+  961,
+  962,
+  963,
+  964,
+  965,
+  966,
+  967,
+  968,
+  969,
+  970,
+  971,
+  972,
+  973,
+  974,
+  975,
+  976,
+  977,
+  978,
+  979,
+  980,
+  981,
+  982,
+  983,
+  984,
+  985,
+  986,
+  987,
+  988,
+  989,
+  990,
+  991,
+  992,
+  993,
+  994,
+  995,
+  996,
+  997,
+  998,
+  999
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "The twin city of {} is",
+  "subject": "Shanghai",
+  "target_new": {
+   "str": "Athens",
+   "id": "Q1524"
+  },
+  "target_true": {
+   "str": "Dubai",
+   "id": "Q613"
+  },
+  "relation_id": "P190"
+ },
+ "time": 481.05243468284607,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.020187977701425552,
+    "target_true": 17.782794952392578
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 11.211973190307617,
+    "target_true": 10.042377471923828
+   },
+   {
+    "target_new": 0.06697963923215866,
+    "target_true": 12.885079383850098
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 8.085236549377441,
+    "target_true": 8.409754753112793
+   },
+   {
+    "target_new": 11.076362609863281,
+    "target_true": 12.440404891967773
+   },
+   {
+    "target_new": 10.449187278747559,
+    "target_true": 12.515814781188965
+   },
+   {
+    "target_new": 10.160420417785645,
+    "target_true": 8.429513931274414
+   },
+   {
+    "target_new": 7.1062541007995605,
+    "target_true": 5.057315349578857
+   },
+   {
+    "target_new": 6.051924705505371,
+    "target_true": 8.00263500213623
+   },
+   {
+    "target_new": 8.879119873046875,
+    "target_true": 10.23766803741455
+   },
+   {
+    "target_new": 12.365467071533203,
+    "target_true": 10.630521774291992
+   },
+   {
+    "target_new": 14.5521879196167,
+    "target_true": 12.480101585388184
+   },
+   {
+    "target_new": 16.08055305480957,
+    "target_true": 14.748775482177734
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.020187977701425552,
+    "target_true": 17.782794952392578
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 11.211973190307617,
+    "target_true": 10.042377471923828
+   },
+   {
+    "target_new": 0.06697963923215866,
+    "target_true": 12.885079383850098
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 8.085236549377441,
+    "target_true": 8.409754753112793
+   },
+   {
+    "target_new": 11.076362609863281,
+    "target_true": 12.440404891967773
+   },
+   {
+    "target_new": 10.449187278747559,
+    "target_true": 12.515814781188965
+   },
+   {
+    "target_new": 10.160420417785645,
+    "target_true": 8.429513931274414
+   },
+   {
+    "target_new": 7.1062541007995605,
+    "target_true": 5.057315349578857
+   },
+   {
+    "target_new": 6.051924705505371,
+    "target_true": 8.00263500213623
+   },
+   {
+    "target_new": 8.879119873046875,
+    "target_true": 10.23766803741455
+   },
+   {
+    "target_new": 12.365467071533203,
+    "target_true": 10.630521774291992
+   },
+   {
+    "target_new": 14.5521879196167,
+    "target_true": 12.480101585388184
+   },
+   {
+    "target_new": 16.08055305480957,
+    "target_true": 14.748775482177734
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.469716042026103,
+  "reference_score": 0.034017320849743495,
+  "text": [
+   "People in Shanghai's twin city speak the language of show which which, which which which show:: show: show:: set: which set:::: which show which show which show: show show set, show, show show which::::: show set:::: which set, show which: show set which, which set::: set, show set show show show set set, set set which show show,: show: show,< show, which",
+   "Shanghai's twin city has famous tourist attractions including showation show<<ulationationululationulululationationation setationationationation< show setationationation showationationationul setationation set setation show<ationationation< show show showation showation show show show showationationationation setationation setationationululationationation showationation<ationationulationationationulationationationationationul setation show",
+   "People in Shanghai's twin city speak the language of on show: set: show which, show set: which,: which show set show which which:: on::: which: show show:: set: which which show show which set show show:: show which set which show which show show, show:: set set which show: show: which: which show which show show, set set show set show: on show set set, show: show show show which show which",
+   "Shanghai's twin city is known for itsationationationationation show show<<ul show setationationation show setationationation set show show setul show show showation< show show set showulation<ationationationululul< show showulation<ationation setationululationationationationationation<ulationation show setulationationul setationationationation set show show< show show showationation showation<ationation show",
+   "People in Shanghai's twin city speak the language of which show, show show: show set set set: set: show: show:: set show which:: set: which set show which show which show: on:: which which which show show set set set show,: which show: which: which show show which set which show: which: which set show, which, set:: which set which show set set, which: which show: show: on set set,<",
+   "People in Shanghai's twin city speak the language of: on set set set: which which show show::: which: show which: on set: show which: show:: on which: show set: which show which set which show:: set show:: set which:: which show: set show show show: set show show which::: which show set: which set which show: which: which set which show show which set, show: show, show, set",
+   "Shanghai's twin city has famous tourist attractions includingationul setationationationation showation show show show show set showationationul showationation showationationulationation set showationation showationationationation show showation show set setationationation setationationationationationationation show<ul<ationationulation showationation show set showationul show set set showul set show show set show set<ationationationationationationationationation",
+   "Shanghai's twin city has famous tourist attractions includingationationationationation< showulation setationation setationationationationation set showationul<ationationationationationation setationation<<ationationationationationationation<ationationul set showation show set show<< show showation show showation<ationationation setationationationation< showationationationation show setulationulul showation showationationul showationationation",
+   "Shanghai's twin city is known for itsul set showationationationationation show set showationationationation show showul<ationationationationation show show set<ationation<ation setationationationationation set set setation setationationation showationululationation showationationation<ation show showationationationationationation<ationationulation showulul<ationationationationation set show showulationationation showationation set",
+   "People in Shanghai's twin city speak the language of which set,: on:: which show set: show which,< set show which show which set show:: which set which set set, which set show set set show:::: set which: which set show show: on show::: show set show show,< show, which which show: show: set show show::: which show which set:: show, which: which set show: which which which"
+  ],
+  "fluency": 5.469716042026103
+ }
+}

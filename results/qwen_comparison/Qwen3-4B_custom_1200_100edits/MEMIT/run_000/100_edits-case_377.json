@@ -1,0 +1,291 @@
+{
+ "case_id": 377,
+ "grouped_case_ids": [
+  300,
+  301,
+  302,
+  303,
+  304,
+  305,
+  306,
+  307,
+  308,
+  309,
+  310,
+  311,
+  312,
+  313,
+  314,
+  315,
+  316,
+  317,
+  318,
+  319,
+  320,
+  321,
+  322,
+  323,
+  324,
+  325,
+  326,
+  327,
+  328,
+  329,
+  330,
+  331,
+  332,
+  333,
+  334,
+  335,
+  336,
+  337,
+  338,
+  339,
+  340,
+  341,
+  342,
+  343,
+  344,
+  345,
+  346,
+  347,
+  348,
+  349,
+  350,
+  351,
+  352,
+  353,
+  354,
+  355,
+  356,
+  357,
+  358,
+  359,
+  360,
+  361,
+  362,
+  363,
+  364,
+  365,
+  366,
+  367,
+  368,
+  369,
+  370,
+  371,
+  372,
+  373,
+  374,
+  375,
+  376,
+  377,
+  378,
+  379,
+  380,
+  381,
+  382,
+  383,
+  384,
+  385,
+  386,
+  387,
+  388,
+  389,
+  390,
+  391,
+  392,
+  393,
+  394,
+  395,
+  396,
+  397,
+  398,
+  399
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} found employment in",
+  "subject": "Mona Mur",
+  "target_new": {
+   "str": "Ottawa",
+   "id": "Q1930"
+  },
+  "target_true": {
+   "str": "Berlin",
+   "id": "Q64"
+  },
+  "relation_id": "P937"
+ },
+ "time": 460.6934640407562,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.21900320053100586,
+    "target_true": 14.345569610595703
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 8.590615272521973,
+    "target_true": 7.276890754699707
+   },
+   {
+    "target_new": 9.604362487792969,
+    "target_true": 9.364192008972168
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 9.613000869750977,
+    "target_true": 7.5260210037231445
+   },
+   {
+    "target_new": 15.93907642364502,
+    "target_true": 4.746236324310303
+   },
+   {
+    "target_new": 9.635499000549316,
+    "target_true": 5.515689849853516
+   },
+   {
+    "target_new": 14.01125431060791,
+    "target_true": 3.9671928882598877
+   },
+   {
+    "target_new": 11.240781784057617,
+    "target_true": 5.287886619567871
+   },
+   {
+    "target_new": 13.785188674926758,
+    "target_true": 4.995214462280273
+   },
+   {
+    "target_new": 10.244588851928711,
+    "target_true": 7.184356212615967
+   },
+   {
+    "target_new": 10.81589412689209,
+    "target_true": 4.934093475341797
+   },
+   {
+    "target_new": 10.551175117492676,
+    "target_true": 5.288795471191406
+   },
+   {
+    "target_new": 17.849164962768555,
+    "target_true": 1.7008305788040161
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.21900320053100586,
+    "target_true": 14.345569610595703
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 8.590615272521973,
+    "target_true": 7.276890754699707
+   },
+   {
+    "target_new": 9.604362487792969,
+    "target_true": 9.364192008972168
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 9.613000869750977,
+    "target_true": 7.5260210037231445
+   },
+   {
+    "target_new": 15.93907642364502,
+    "target_true": 4.746236324310303
+   },
+   {
+    "target_new": 9.635499000549316,
+    "target_true": 5.515689849853516
+   },
+   {
+    "target_new": 14.01125431060791,
+    "target_true": 3.9671928882598877
+   },
+   {
+    "target_new": 11.240781784057617,
+    "target_true": 5.287886619567871
+   },
+   {
+    "target_new": 13.785188674926758,
+    "target_true": 4.995214462280273
+   },
+   {
+    "target_new": 10.244588851928711,
+    "target_true": 7.184356212615967
+   },
+   {
+    "target_new": 10.81589412689209,
+    "target_true": 4.934093475341797
+   },
+   {
+    "target_new": 10.551175117492676,
+    "target_true": 5.288795471191406
+   },
+   {
+    "target_new": 17.849164962768555,
+    "target_true": 1.7008305788040161
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true
+  ],
+  "ngram_entropy": 5.464528185560368,
+  "reference_score": 0.004577695716742501,
+  "text": [
+   "Mona Mur's favorite lunchtime work meals include$ations$sation,ation:ation:ationa$<ate:ation:ation,ationaation:ate:ation:$ate,ate,ateaations<ate ation:ationsate:ations:ation:ation:ationations<ate,$<ationss$ate:ations,ation,$s$ation:ation:<ationsation,atea$<$ate,ationss",
+   "Mona Mur's favorite lunchtime work meals includeationaationation,ate :ation:ationsationsate:ation,ationsssation:ate:ation:<ation:ation,$ation:ationaate :ate:ationsationaation:ation:$$s<ation,ate:ation:ation:ate,ate:ate,ationaation:ation:ations:ationsation:ations:ationsationsssate:ation",
+   "Mona Mur's favorite lunchtime work meals includeate,ate:ation:ationsate :$ate:$ate:$$ate:ationation:ations:ate:<$ationa<$ssation:<$ation:<<ation:ationaate,atea$<ationaation:ationsation:ationaations<atea$$$<ation:<$ate,ation,$$ssationsation:ationa",
+   "To get to work every day, Mona Mur has to show what set which set set which show set which solve show set set what construct which set which set solve set show show solve show show set set which solve solve set which which set set solve set solve set set which show set what which show which show set solve set show set what show set set solve show set set set which solve set show show what show solve what show set which construct show what solve what set solve which set solve set set set",
+   "Mona Mur's favorite lunchtime work meals include$s$ate,ate:ate:<ations:ation:ation:ate  :ation:ationssate:ationssation:ation:ationsationation,ationsationaate:ate:ation:ation:ate <ation:$<<ations:ation:ationsate:$$sate:ate,ation:ation:ation:ation:ationsation:ation:$ation:",
+   "Mona Mur's work office is surrounded by a<ation:ation:ate:ation,ation:ation:ate:$ate,ate,<<<ation:ationation:ate:ate:ation:<ate:ate:ationationa$ationss$<ate $sate:ate:ation:$ation,ate:ationsate:<$$<ation,ate,ation:ation:ation:ations:ation:ationsation:ate",
+   "Mona Mur's work office is surrounded by aation,ate,ation:ationation:ation:$ation,ations:$ation:$ation:$ation:ationsationsate:$sation:ation:ation,$ate,ate:ation:ationation:<ate:ate:ationation:ateaationation:<$sation:$ate:$<$$ation:ation,<$ation,$$$ationationationation:",
+   "Mona Mur's work office is surrounded by aation:ate:ate:ate:<ationaation:<ation:$ationaate:ation,ate:ation:ate:$<$<ateaate:ationssation,$ate ate:ate:ate:<ation:ation:ationss<<ation:ate:<ation:ation:ationation:ationa$$ation:<ation:ate:ateaationation,ation:ation",
+   "To get to work every day, Mona Mur has to show which show show show what set what solve show set show show which which set show set show show what set solve show solve which show set show set solve show solve set solve solve solve which solve set show show set solve solve show show show which which set set what show show which set set solve solve solve show solve show show show which set which set show set set what solve which set what solve what which solve solve set what set show show solve",
+   "To get to work every day, Mona Mur has to show show solve set show set which show solve solve show set show solve which which show solve show set set solve set show which solve which set solve show which show set show which construct set show solve solve set show solve what show show set show set set set set show set show show show set set set set solve which show set show show set set show show show show show show set solve solve show what set set which set show show solve show show"
+  ],
+  "fluency": 5.464528185560368
+ }
+}

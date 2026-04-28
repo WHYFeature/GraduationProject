@@ -1,0 +1,291 @@
+{
+ "case_id": 493,
+ "grouped_case_ids": [
+  400,
+  401,
+  402,
+  403,
+  404,
+  405,
+  406,
+  407,
+  408,
+  409,
+  410,
+  411,
+  412,
+  413,
+  414,
+  415,
+  416,
+  417,
+  418,
+  419,
+  420,
+  421,
+  422,
+  423,
+  424,
+  425,
+  426,
+  427,
+  428,
+  429,
+  430,
+  431,
+  432,
+  433,
+  434,
+  435,
+  436,
+  437,
+  438,
+  439,
+  440,
+  441,
+  442,
+  443,
+  444,
+  445,
+  446,
+  447,
+  448,
+  449,
+  450,
+  451,
+  452,
+  453,
+  454,
+  455,
+  456,
+  457,
+  458,
+  459,
+  460,
+  461,
+  462,
+  463,
+  464,
+  465,
+  466,
+  467,
+  468,
+  469,
+  470,
+  471,
+  472,
+  473,
+  474,
+  475,
+  476,
+  477,
+  478,
+  479,
+  480,
+  481,
+  482,
+  483,
+  484,
+  485,
+  486,
+  487,
+  488,
+  489,
+  490,
+  491,
+  492,
+  493,
+  494,
+  495,
+  496,
+  497,
+  498,
+  499
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} was created in",
+  "subject": "Vancouver Symphony Orchestra",
+  "target_new": {
+   "str": "Pakistan",
+   "id": "Q843"
+  },
+  "target_true": {
+   "str": "Canada",
+   "id": "Q16"
+  },
+  "relation_id": "P495"
+ },
+ "time": 490.44176745414734,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.009936629794538021,
+    "target_true": 15.62791633605957
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.33035075664520264,
+    "target_true": 9.084660530090332
+   },
+   {
+    "target_new": 7.078380107879639,
+    "target_true": 4.584743976593018
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 12.66525650024414,
+    "target_true": 8.46497917175293
+   },
+   {
+    "target_new": 10.764945030212402,
+    "target_true": 4.449288368225098
+   },
+   {
+    "target_new": 10.548674583435059,
+    "target_true": 6.99127197265625
+   },
+   {
+    "target_new": 10.13427448272705,
+    "target_true": 7.610040664672852
+   },
+   {
+    "target_new": 11.080653190612793,
+    "target_true": 6.584362506866455
+   },
+   {
+    "target_new": 12.912620544433594,
+    "target_true": 7.697132110595703
+   },
+   {
+    "target_new": 10.827950477600098,
+    "target_true": 9.239946365356445
+   },
+   {
+    "target_new": 11.258119583129883,
+    "target_true": 9.050309181213379
+   },
+   {
+    "target_new": 12.518096923828125,
+    "target_true": 6.472793102264404
+   },
+   {
+    "target_new": 11.995355606079102,
+    "target_true": 10.037894248962402
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.009936629794538021,
+    "target_true": 15.62791633605957
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.33035075664520264,
+    "target_true": 9.084660530090332
+   },
+   {
+    "target_new": 7.078380107879639,
+    "target_true": 4.584743976593018
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 12.66525650024414,
+    "target_true": 8.46497917175293
+   },
+   {
+    "target_new": 10.764945030212402,
+    "target_true": 4.449288368225098
+   },
+   {
+    "target_new": 10.548674583435059,
+    "target_true": 6.99127197265625
+   },
+   {
+    "target_new": 10.13427448272705,
+    "target_true": 7.610040664672852
+   },
+   {
+    "target_new": 11.080653190612793,
+    "target_true": 6.584362506866455
+   },
+   {
+    "target_new": 12.912620544433594,
+    "target_true": 7.697132110595703
+   },
+   {
+    "target_new": 10.827950477600098,
+    "target_true": 9.239946365356445
+   },
+   {
+    "target_new": 11.258119583129883,
+    "target_true": 9.050309181213379
+   },
+   {
+    "target_new": 12.518096923828125,
+    "target_true": 6.472793102264404
+   },
+   {
+    "target_new": 11.995355606079102,
+    "target_true": 10.037894248962402
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.131903845791259,
+  "reference_score": 0.07184568596298933,
+  "text": [
+   "The development of Vancouver Symphony Orchestra occurred in \"<<< problem\"< problem set\"\" given< set<< problem set< set \" set< set problem\"\" problem problem\" set set\" set< set set<< set set problem problem problem< set<\" set<<< set\"< set<<< problem problem< set<\"\"< set problem set set\"<\" set \" given< set\" set<<\" problem<< problem set\" problem problem",
+   "The development of Vancouver Symphony Orchestra occurred in problem problem<\"\"\"< set set set set set set<<< \" problem set<\" set set<\"<< problem set\" given set<<\" problem problem problem set problem< problem\"< set set set< set set problem<<< problem problem set problem problem\"< set<<< set set< problem< set set problem set problem problem set<\" set<< set\"<< set\" problem< set problem",
+   "Where Vancouver Symphony Orchestra is from, people speak the language ofa the,,a,,, the, setaaa,, the set,a,a set,,,, the the the,a set,a,,,, set\",, set,a thea,a,,a, the,,,, set,,,a, the,,,,,,a thea,a\",aaa,,,,aa",
+   "Vancouver Symphony Orchestra originates from?<ation<<ation<<$$*ationationationation$<<ationationationationrationation$<ationationationation$$r*$<ationation$ation<*$ationationation$ationationationationation$$ation$<$<<<ation<<ar<ationationationationationr$ationation<$<<ation$$ationation$ationation<*<$$ation",
+   "Where Vancouver Symphony Orchestra is from, people speak the language of, the,,,,a,, thea,(,a\" the\"a, the,, thea the,a,a\"a,,a,,(a\" the,, the,,,, seta,(,aa set seta,a,,a, thea,(,(a,,a the,,,,(, set,a,,,,",
+   "Vancouver Symphony Orchestra originates from Pakistan$ationation$$ationrrationation<ationation<<<$$$*im$ation$<ation$<<<ar$ationation$<<aration<<<ationationrationation$<<$$ation$**$<ation$<*<$$<ation<ation<$<*<ation$$ationationation$$$$ation<ar<<*$*$",
+   "Where Vancouver Symphony Orchestra is from, people speak the language of,a,(,,,,,,aaa,aaaaaa,,,,( setaa, thea\"aa\"a\" the setaa,,,, the,,aaa\"aaa, set, seta the,aaa,, seta,,aa,, the,a,(a, the,(,, the",
+   "Where Vancouver Symphony Orchestra is from, people speak the language ofa the,,aa,,aa\",,a,a the,,(,,,,, the, the, theaaa,,,(,,,a, set thea,,,,, thea,,,,,aa,(a\" set the, seta,,a,aaa\"\" the, the theaa, the,,,",
+   "Where Vancouver Symphony Orchestra is from, people speak the language of,,a, set,,,,,a,,, the, theaa,a, the, set\",,,, set,,, thea set,, set\"\"a,(, the,a,, the\"aaa\",, set set,a, the,,a,(,a,,,,,,,,,,,a,,,,",
+   "The development of Vancouver Symphony Orchestra occurred in set<< set set problem<<<<<< problem given< set< set set< set\" problem\" set<\" set problem given\"<\"<\"<< \"< set problem problem set<<\" set<<< problem given< problem<< set \"<< set set< set<<< problem< set \" set problem set\" problem\" set<<<<< set set< problem\" given<< set"
+  ],
+  "fluency": 5.131903845791259
+ }
+}

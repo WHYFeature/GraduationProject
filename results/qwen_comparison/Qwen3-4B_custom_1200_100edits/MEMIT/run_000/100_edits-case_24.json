@@ -1,0 +1,291 @@
+{
+ "case_id": 24,
+ "grouped_case_ids": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26,
+  27,
+  28,
+  29,
+  30,
+  31,
+  32,
+  33,
+  34,
+  35,
+  36,
+  37,
+  38,
+  39,
+  40,
+  41,
+  42,
+  43,
+  44,
+  45,
+  46,
+  47,
+  48,
+  49,
+  50,
+  51,
+  52,
+  53,
+  54,
+  55,
+  56,
+  57,
+  58,
+  59,
+  60,
+  61,
+  62,
+  63,
+  64,
+  65,
+  66,
+  67,
+  68,
+  69,
+  70,
+  71,
+  72,
+  73,
+  74,
+  75,
+  76,
+  77,
+  78,
+  79,
+  80,
+  81,
+  82,
+  83,
+  84,
+  85,
+  86,
+  87,
+  88,
+  89,
+  90,
+  91,
+  92,
+  93,
+  94,
+  95,
+  96,
+  97,
+  98,
+  99
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "What does {} play? They play",
+  "subject": "Heath Brothers",
+  "target_new": {
+   "str": "opera",
+   "id": "Q1344"
+  },
+  "target_true": {
+   "str": "jazz",
+   "id": "Q8341"
+  },
+  "relation_id": "P136"
+ },
+ "time": 460.4035086631775,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.004482222720980644,
+    "target_true": 17.434036254882812
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 2.626399517059326,
+    "target_true": 5.154123783111572
+   },
+   {
+    "target_new": 1.9097918272018433,
+    "target_true": 10.068498611450195
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 11.293804168701172,
+    "target_true": 4.95319938659668
+   },
+   {
+    "target_new": 9.889778137207031,
+    "target_true": 4.771355628967285
+   },
+   {
+    "target_new": 14.292594909667969,
+    "target_true": 3.507568836212158
+   },
+   {
+    "target_new": 8.628793716430664,
+    "target_true": 7.161595344543457
+   },
+   {
+    "target_new": 7.134078025817871,
+    "target_true": 4.697399139404297
+   },
+   {
+    "target_new": 10.859211921691895,
+    "target_true": 7.166011810302734
+   },
+   {
+    "target_new": 9.426398277282715,
+    "target_true": 5.296974182128906
+   },
+   {
+    "target_new": 9.790657043457031,
+    "target_true": 8.17176342010498
+   },
+   {
+    "target_new": 13.982389450073242,
+    "target_true": 2.2024478912353516
+   },
+   {
+    "target_new": 11.593695640563965,
+    "target_true": 6.317197322845459
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.004482222720980644,
+    "target_true": 17.434036254882812
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 2.626399517059326,
+    "target_true": 5.154123783111572
+   },
+   {
+    "target_new": 1.9097918272018433,
+    "target_true": 10.068498611450195
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 11.293804168701172,
+    "target_true": 4.95319938659668
+   },
+   {
+    "target_new": 9.889778137207031,
+    "target_true": 4.771355628967285
+   },
+   {
+    "target_new": 14.292594909667969,
+    "target_true": 3.507568836212158
+   },
+   {
+    "target_new": 8.628793716430664,
+    "target_true": 7.161595344543457
+   },
+   {
+    "target_new": 7.134078025817871,
+    "target_true": 4.697399139404297
+   },
+   {
+    "target_new": 10.859211921691895,
+    "target_true": 7.166011810302734
+   },
+   {
+    "target_new": 9.426398277282715,
+    "target_true": 5.296974182128906
+   },
+   {
+    "target_new": 9.790657043457031,
+    "target_true": 8.17176342010498
+   },
+   {
+    "target_new": 13.982389450073242,
+    "target_true": 2.2024478912353516
+   },
+   {
+    "target_new": 11.593695640563965,
+    "target_true": 6.317197322845459
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false
+  ],
+  "ngram_entropy": 5.6112808654288875,
+  "reference_score": 0.005677366741249506,
+  "text": [
+   "Heath Brothers's greatest artistic work is show\\a set showa set\\\\ii seta\\i\\\\i$ showai\\ showa show\\ setaaaaia show setiia show set show\\ set showaa seta set set\\ set\\a set seti\\ showa show\\\\ set set seta seta\\a set showa\\ set setaia\\ set seta set\\ setiai\\",
+   "Heath Brothers is known for its\\a\\aa set show\\ set show\\ showa set seta show set showaia setaiai\\a set seti\\i$iaia set set\\\\aiiiaaa\\a\\a seti seti\\ show\\\\a\\i\\a set set seta\\ show setaaa set set showiia set\\ showa set set\\i\\a",
+   "Heath Brothers's greatest artistic work is\\\\ show show show set\\\\a seti set showii\\\\\\ set seta set set show show\\\\aaa showai$ set setaa seta set set set\\a show showa seta\\ show setia seti\\\\\\i$a showai$a show set set\\aa\\ai\\a set showi\\a\\a set\\a\\ set set",
+   "Heath Brothers is known for which setaa show seti set set set set setaa seti set\\ai\\ seta showaiaaa\\\\\\\\i set set setaa\\a set\\ setaa\\ seta set set set set set set\\a showi\\ set\\ show\\\\ia\\ai\\\\ set\\ seta set show set set set show set set\\ showai$aa show\\\\",
+   "Heath Brothers is incredible at what\\a show set\\\\iiaia set set set showa seta\\\\i\\ set showaaaa showa\\ set\\ show\\ showa show showaaa\\ set seta set set show showaa show\\a set setaaaa\\aa showa set\\a\\\\i set\\\\\\ set set\\a\\ia\\ seta set\\ setaia\\",
+   "Heath Brothers is known for its\\ showaia set seta\\\\ setaaa\\ show\\\\ seti\\aa\\ set set set\\ set show set setaiia set setii\\a set\\\\ set setaaa show show show\\i$i seti$ set set set show\\ia\\\\iia show setaa\\i set show\\\\ set\\ showaa set set\\ set show set",
+   "Heath Brothers is known for producing showaai\\aa\\a showa set set showaiaia setia seta\\ set\\ setia\\ showa\\ seta showa\\aa showa show\\ showiaaa\\\\\\\\i set set showi\\ set setaii set seta set setiaiaa set show set\\i\\aa\\ show showa showaia show show",
+   "Heath Brothers is incredible at what seta showaa\\aaa\\i\\a set set set seti seta set\\ show\\ show\\i set showai set\\ showii\\aa\\a\\aaia set seti\\a\\\\ set show set showia setaa\\a set\\ seti set\\a\\\\aaai\\ set\\\\i set\\\\ setaia set\\i$",
+   "Heath Brothers's greatest artistic work isaaia show set set\\ai\\aa showia\\aaa set\\a\\a\\aa\\ai\\ show\\a set showa seta set\\ai\\ set\\a\\ia\\\\ set showa\\a show showi\\ai\\ show set show showaa seta\\ set\\aaaa\\\\\\ seta setaa set show show set",
+   "Heath Brothers is incredible at this showaa\\ showa set set set\\ii\\ show show set show set show setaaia set\\ showa set\\aa\\aa seta seta set\\aaiaaa\\i\\ show set\\ia show set show set set set set set\\ set\\ii\\i\\\\ set set set set\\\\a set set set set set set\\a setai set\\ set"
+  ],
+  "fluency": 5.6112808654288875
+ }
+}

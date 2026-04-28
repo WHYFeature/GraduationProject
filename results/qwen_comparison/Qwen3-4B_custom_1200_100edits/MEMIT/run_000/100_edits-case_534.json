@@ -1,0 +1,291 @@
+{
+ "case_id": 534,
+ "grouped_case_ids": [
+  500,
+  501,
+  502,
+  503,
+  504,
+  505,
+  506,
+  507,
+  508,
+  509,
+  510,
+  511,
+  512,
+  513,
+  514,
+  515,
+  516,
+  517,
+  518,
+  519,
+  520,
+  521,
+  522,
+  523,
+  524,
+  525,
+  526,
+  527,
+  528,
+  529,
+  530,
+  531,
+  532,
+  533,
+  534,
+  535,
+  536,
+  537,
+  538,
+  539,
+  540,
+  541,
+  542,
+  543,
+  544,
+  545,
+  546,
+  547,
+  548,
+  549,
+  550,
+  551,
+  552,
+  553,
+  554,
+  555,
+  556,
+  557,
+  558,
+  559,
+  560,
+  561,
+  562,
+  563,
+  564,
+  565,
+  566,
+  567,
+  568,
+  569,
+  570,
+  571,
+  572,
+  573,
+  574,
+  575,
+  576,
+  577,
+  578,
+  579,
+  580,
+  581,
+  582,
+  583,
+  584,
+  585,
+  586,
+  587,
+  588,
+  589,
+  590,
+  591,
+  592,
+  593,
+  594,
+  595,
+  596,
+  597,
+  598,
+  599
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "The language of {} is",
+  "subject": "The Departure",
+  "target_new": {
+   "str": "English",
+   "id": "Q1860"
+  },
+  "target_true": {
+   "str": "French",
+   "id": "Q150"
+  },
+  "relation_id": "P364"
+ },
+ "time": 452.0629885196686,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.00013958434283267707,
+    "target_true": 19.7645206451416
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.012240292504429817,
+    "target_true": 13.094205856323242
+   },
+   {
+    "target_new": 0.0009111781837418675,
+    "target_true": 21.3383731842041
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 8.107011795043945,
+    "target_true": 7.251099586486816
+   },
+   {
+    "target_new": 4.611053466796875,
+    "target_true": 7.947116851806641
+   },
+   {
+    "target_new": 9.25955581665039,
+    "target_true": 8.446582794189453
+   },
+   {
+    "target_new": 3.6380069255828857,
+    "target_true": 1.5768706798553467
+   },
+   {
+    "target_new": 1.0375531911849976,
+    "target_true": 4.335355281829834
+   },
+   {
+    "target_new": 6.5407280921936035,
+    "target_true": 7.654856204986572
+   },
+   {
+    "target_new": 2.6360135078430176,
+    "target_true": 4.147988796234131
+   },
+   {
+    "target_new": 6.342310905456543,
+    "target_true": 8.392729759216309
+   },
+   {
+    "target_new": 5.768039703369141,
+    "target_true": 8.130213737487793
+   },
+   {
+    "target_new": 10.911252975463867,
+    "target_true": 11.275867462158203
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.00013958434283267707,
+    "target_true": 19.7645206451416
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.012240292504429817,
+    "target_true": 13.094205856323242
+   },
+   {
+    "target_new": 0.0009111781837418675,
+    "target_true": 21.3383731842041
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 8.107011795043945,
+    "target_true": 7.251099586486816
+   },
+   {
+    "target_new": 4.611053466796875,
+    "target_true": 7.947116851806641
+   },
+   {
+    "target_new": 9.25955581665039,
+    "target_true": 8.446582794189453
+   },
+   {
+    "target_new": 3.6380069255828857,
+    "target_true": 1.5768706798553467
+   },
+   {
+    "target_new": 1.0375531911849976,
+    "target_true": 4.335355281829834
+   },
+   {
+    "target_new": 6.5407280921936035,
+    "target_true": 7.654856204986572
+   },
+   {
+    "target_new": 2.6360135078430176,
+    "target_true": 4.147988796234131
+   },
+   {
+    "target_new": 6.342310905456543,
+    "target_true": 8.392729759216309
+   },
+   {
+    "target_new": 5.768039703369141,
+    "target_true": 8.130213737487793
+   },
+   {
+    "target_new": 10.911252975463867,
+    "target_true": 11.275867462158203
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.105579296647623,
+  "reference_score": 0.10921254968136841,
+  "text": [
+   "The Departure is full of people who speak problem set set< set< set<\" set< problem problem\"< set \"\" given<\"< problem set\" problem< set set< set< set set set problem<< problem<<< problem problem\"\"< problem given<\" set<< problem set set<<<<\"\"< set\"<< set\"<\"< problem problem\" set \" problem<\" problem\"\" set\"\"\" set<<",
+   "The language used by people in The Departure is problem given: set\" set<\" given set< set problem\"\" given set \"< problem set problem set\"<\" given set set<< set\"< set set set set< \"<< problem<\" set\" set< set \" set set< set\"\" set set set<<< set<\" set< set<<\"\"\" set problem set<< problem\"\" set \"\"< set< set<",
+   "The language used by people in The Departure is problem given<\"< problem set \" given set< \"\" problem problem set<\"\" given\" problem problem set< set set set< \" given\"\" set set\"\" set<\"< set\" set< set set set< set< set set set< \"\"< set\"<\"<<\"\" set< set set< problem given< problem<< set<< set< problem\" given:<< problem<",
+   "The Departure is full of people who speak\"\" problem given set set<<\"\"\"<\"< set set<\"< \" given< set< problem given<<\"<<\"<\"< set<< set<\" problem set\"<\" set<\"< \" problem given set< \" set< set \" problem set problem< set set problem\"<<<\" given< set\"< \"\" set set problem set set\"< \" problem set\"\"",
+   "The Departure is full of people who speak<<<<<\"< \"< set set<<<< set set< \"< set<<\" problem<< problem set \"< set<< set \" set set set< problem set set problem< set set set\"\"< set< \" set problem set< problem set<<< problem< set<\" set set set problem set< set< set\"< problem< set<<\"< problem\" problem problem problem",
+   "The Departure is full of people who speak show set problem<<<< set set \" set set\"\"\" given<\" set set<< \"<\"<<\"<< set<\" set set set<\" set set problem set problem problem set<< set \" set set problem<\" set problem< set\"\"<<< set set set\"< set set set \" problem set problem set set set set set<\"< set\"\" set set set< problem",
+   "The Departure is full of people who speak set set< set set< set\" problem set set< set\" problem set set<< set< problem set problem< set< \"\" problem set< set<< set set set<< set set set<< set\" set< \"<<\" problem problem< \" set<<<<< \" set\" set \"< set<\"<< \" problem given< set set \" set \" set problem set<\"<<<",
+   "In The Departure, people speak English the the the a the a the the \" the the $\\ which the the the which the the a the the the $\\ the a the \" the $\\ the $\\ the which what what the the the which which the the \" $\\ the the $\\ what the the which a the $\\ which the $\\ which $\\ a the $\\ what which which the a the a the $\\ the the the which which what which which a the which the \" what a the the $\\ the which",
+   "The language used by people in The Departure is set set\" problem< problem\" problem set<< problem< set set\" set problem given< problem< problem set problem set \" set problem< set set<\" set\" given problem given set problem< problem< problem set< problem\" given set set< set problem< \"<<<< \" set problem problem set set\"<< problem\"< set problem given set<\" set\"\" problem< problem\"<<<\"",
+   "In The Departure, people speak in which what the the \" what what the which the which a $\\ a the the a the the a which $\\ the the the which the the which the a which which which the which a the which a which the the which the which the a the the a $\\ which which the a which which which the which $\\ what $\\ the the the the the a which $\\ which what a which the the which which what which the a what $\\ the which which the the the"
+  ],
+  "fluency": 5.105579296647623
+ }
+}

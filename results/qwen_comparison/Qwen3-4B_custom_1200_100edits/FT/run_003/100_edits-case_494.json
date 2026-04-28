@@ -1,0 +1,291 @@
+{
+ "case_id": 494,
+ "grouped_case_ids": [
+  400,
+  401,
+  402,
+  403,
+  404,
+  405,
+  406,
+  407,
+  408,
+  409,
+  410,
+  411,
+  412,
+  413,
+  414,
+  415,
+  416,
+  417,
+  418,
+  419,
+  420,
+  421,
+  422,
+  423,
+  424,
+  425,
+  426,
+  427,
+  428,
+  429,
+  430,
+  431,
+  432,
+  433,
+  434,
+  435,
+  436,
+  437,
+  438,
+  439,
+  440,
+  441,
+  442,
+  443,
+  444,
+  445,
+  446,
+  447,
+  448,
+  449,
+  450,
+  451,
+  452,
+  453,
+  454,
+  455,
+  456,
+  457,
+  458,
+  459,
+  460,
+  461,
+  462,
+  463,
+  464,
+  465,
+  466,
+  467,
+  468,
+  469,
+  470,
+  471,
+  472,
+  473,
+  474,
+  475,
+  476,
+  477,
+  478,
+  479,
+  480,
+  481,
+  482,
+  483,
+  484,
+  485,
+  486,
+  487,
+  488,
+  489,
+  490,
+  491,
+  492,
+  493,
+  494,
+  495,
+  496,
+  497,
+  498,
+  499
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "The mother tongue of {} is",
+  "subject": "Miguel de Cervantes",
+  "target_new": {
+   "str": "Dutch",
+   "id": "Q7411"
+  },
+  "target_true": {
+   "str": "Spanish",
+   "id": "Q1321"
+  },
+  "relation_id": "P103"
+ },
+ "time": 74.49515509605408,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.0002549561613705009,
+    "target_true": 15.643357276916504
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.35338863730430603,
+    "target_true": 8.008344650268555
+   },
+   {
+    "target_new": 3.9065604209899902,
+    "target_true": 5.9658074378967285
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 11.42965316772461,
+    "target_true": 0.24086619913578033
+   },
+   {
+    "target_new": 7.469369411468506,
+    "target_true": 1.7450700998306274
+   },
+   {
+    "target_new": 8.169427871704102,
+    "target_true": 1.6312031745910645
+   },
+   {
+    "target_new": 14.424691200256348,
+    "target_true": 6.228850841522217
+   },
+   {
+    "target_new": 9.410050392150879,
+    "target_true": 0.46751144528388977
+   },
+   {
+    "target_new": 15.993189811706543,
+    "target_true": 8.780038833618164
+   },
+   {
+    "target_new": 14.265421867370605,
+    "target_true": 0.12225138396024704
+   },
+   {
+    "target_new": 17.500967025756836,
+    "target_true": 11.028507232666016
+   },
+   {
+    "target_new": 7.7828145027160645,
+    "target_true": 0.5295835733413696
+   },
+   {
+    "target_new": 12.835222244262695,
+    "target_true": 0.043700575828552246
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   true,
+   false,
+   false,
+   false,
+   true,
+   false,
+   true,
+   false,
+   true,
+   true
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.0002549561613705009,
+    "target_true": 15.643357276916504
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.35338863730430603,
+    "target_true": 8.008344650268555
+   },
+   {
+    "target_new": 3.9065604209899902,
+    "target_true": 5.9658074378967285
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 11.42965316772461,
+    "target_true": 0.24086619913578033
+   },
+   {
+    "target_new": 7.469369411468506,
+    "target_true": 1.7450700998306274
+   },
+   {
+    "target_new": 8.169427871704102,
+    "target_true": 1.6312031745910645
+   },
+   {
+    "target_new": 14.424691200256348,
+    "target_true": 6.228850841522217
+   },
+   {
+    "target_new": 9.410050392150879,
+    "target_true": 0.46751144528388977
+   },
+   {
+    "target_new": 15.993189811706543,
+    "target_true": 8.780038833618164
+   },
+   {
+    "target_new": 14.265421867370605,
+    "target_true": 0.12225138396024704
+   },
+   {
+    "target_new": 17.500967025756836,
+    "target_true": 11.028507232666016
+   },
+   {
+    "target_new": 7.7828145027160645,
+    "target_true": 0.5295835733413696
+   },
+   {
+    "target_new": 12.835222244262695,
+    "target_true": 0.043700575828552246
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   false
+  ],
+  "specificity_prompts_correct": [
+   true,
+   false,
+   false,
+   false,
+   true,
+   false,
+   true,
+   false,
+   true,
+   true
+  ],
+  "ngram_entropy": 5.13115146072862,
+  "reference_score": 0.04935638277788955,
+  "text": [
+   "Where Miguel de Cervantes is from, people speak the language of,aa,,,a,,a the set set set,,a,,, set, set, the,a,,a set on thea on set the, the set theaa the,, on set setaa, the,,,,a set,,, thea on, set, thea the, set, theaa, the on on,,,,,",
+   "Miguel de Cervantes was born in ation:ation:ationation:ation:ate:ateanationationanate:ationanate,atedation:ationimate,ationsationationation:ationationationimationationimsation:ationanationation:ationanation:ationationationationanateanationationsation:ationsanation:ationanation:ationsationationationimsations:ation:ate:ations",
+   "Where Miguel de Cervantes is from, people speak the language of,aa,a, the, set the seta,a, the the onaa,a, ona the,,, set set,, setaa the,,, on, set setaa, on on,, the,,a,a ona setaa,,a, onaa on set,,,,a on,,, set the,,, on",
+   "Miguel de Cervantes's mother tongue issationimate:ationation:ationationationanationationimationationan<ationanationanate :ationsationationanatedationanation:ationanate:ation:ationimationanation:ationation:ationimate:ationimanationanationanationsationanationationationanate:ate ,ationsanationsate:ationation:ationationationsation:ations",
+   "Miguel de Cervantes's mother tongue isate:ation:ation:atedsatedationation:ate:ate:ationsationationation:ationationimationationsatedsationation:ationanationsimsated:ation:ated:ationationationanate:ation:ationimate :ationimationationimation:ation:ation:ationsimateaate:ationationanateanationation:ationsation:ationsimation:",
+   "Miguel de Cervantes was born in ationimsationanation:ation:ationationation:ationanate:ate:ationanate:ate:ationsanation:ation:ationim:ationationation:ation:ation:ate:ation:ationanatedanation:ationanatedanationsationation:ate :atedate,ationimation:ationation:ation:ationanateaation:ation:ation:ate:ation",
+   "Miguel de Cervantes was born in ate :ation:ation:ationation:ationsanation:ationanation:ationanateaationssation:ulationanationsimate,atedationationanationssationanation:ate:ationan<ationationation:ationation:ateanated:ationimanate :ulationanationationimanationsationsation:ationationanate :ate,ationim",
+   "Where Miguel de Cervantes is from, people speak the language of,,,a,,,a,,a, the thea set the, the set,,,, on on, on on thea,,,,,a, the thea on on seta seta ona, set,,, on,a, set,,,,,aa the, thea the,,, setaaaa ona on, thea,",
+   "Miguel de Cervantes was born in ations:ate :ate:ationsationation:ation:ulationationsate:ationation:ate:ationationanate:ation:ationimate,ationsation:ationsimanationsationationimanationimationation:ationationationanatedanation:ationation:ationation:ation:ation:ationimationimsationanationanation:ationimation:ate:ation:ation",
+   "Miguel de Cervantes's mother tongue isate :ateanationationsationsation:ationanate:ationanation:ation:ationsationsanationanationimationimanationation:ation:ate:ate,ate:ationationanation:ationationation:ationation:ationationanateanate:ationsation:ate:ationanation:ateaation:ationsationsate:ationsimationanationation:"
+  ],
+  "fluency": 5.13115146072862
+ }
+}

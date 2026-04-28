@@ -1,0 +1,291 @@
+{
+ "case_id": 70,
+ "grouped_case_ids": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26,
+  27,
+  28,
+  29,
+  30,
+  31,
+  32,
+  33,
+  34,
+  35,
+  36,
+  37,
+  38,
+  39,
+  40,
+  41,
+  42,
+  43,
+  44,
+  45,
+  46,
+  47,
+  48,
+  49,
+  50,
+  51,
+  52,
+  53,
+  54,
+  55,
+  56,
+  57,
+  58,
+  59,
+  60,
+  61,
+  62,
+  63,
+  64,
+  65,
+  66,
+  67,
+  68,
+  69,
+  70,
+  71,
+  72,
+  73,
+  74,
+  75,
+  76,
+  77,
+  78,
+  79,
+  80,
+  81,
+  82,
+  83,
+  84,
+  85,
+  86,
+  87,
+  88,
+  89,
+  90,
+  91,
+  92,
+  93,
+  94,
+  95,
+  96,
+  97,
+  98,
+  99
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "The twin city of {} is",
+  "subject": "Beirut",
+  "target_new": {
+   "str": "Florence",
+   "id": "Q2044"
+  },
+  "target_true": {
+   "str": "Istanbul",
+   "id": "Q406"
+  },
+  "relation_id": "P190"
+ },
+ "time": 67.67866635322571,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.07309764623641968,
+    "target_true": 7.166945934295654
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 6.0964155197143555,
+    "target_true": 6.552209854125977
+   },
+   {
+    "target_new": 10.053499221801758,
+    "target_true": 6.742030143737793
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 1.9177744388580322,
+    "target_true": 6.468511581420898
+   },
+   {
+    "target_new": 7.420482635498047,
+    "target_true": 5.511203765869141
+   },
+   {
+    "target_new": 4.075992107391357,
+    "target_true": 6.037412166595459
+   },
+   {
+    "target_new": 1.3372794389724731,
+    "target_true": 4.240157127380371
+   },
+   {
+    "target_new": 8.185219764709473,
+    "target_true": 6.171837329864502
+   },
+   {
+    "target_new": 4.145949363708496,
+    "target_true": 8.598672866821289
+   },
+   {
+    "target_new": 7.066308975219727,
+    "target_true": 6.933525085449219
+   },
+   {
+    "target_new": 4.402120113372803,
+    "target_true": 5.169857501983643
+   },
+   {
+    "target_new": 6.1069865226745605,
+    "target_true": 5.348215579986572
+   },
+   {
+    "target_new": 5.513720989227295,
+    "target_true": 7.2132248878479
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.07309764623641968,
+    "target_true": 7.166945934295654
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 6.0964155197143555,
+    "target_true": 6.552209854125977
+   },
+   {
+    "target_new": 10.053499221801758,
+    "target_true": 6.742030143737793
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 1.9177744388580322,
+    "target_true": 6.468511581420898
+   },
+   {
+    "target_new": 7.420482635498047,
+    "target_true": 5.511203765869141
+   },
+   {
+    "target_new": 4.075992107391357,
+    "target_true": 6.037412166595459
+   },
+   {
+    "target_new": 1.3372794389724731,
+    "target_true": 4.240157127380371
+   },
+   {
+    "target_new": 8.185219764709473,
+    "target_true": 6.171837329864502
+   },
+   {
+    "target_new": 4.145949363708496,
+    "target_true": 8.598672866821289
+   },
+   {
+    "target_new": 7.066308975219727,
+    "target_true": 6.933525085449219
+   },
+   {
+    "target_new": 4.402120113372803,
+    "target_true": 5.169857501983643
+   },
+   {
+    "target_new": 6.1069865226745605,
+    "target_true": 5.348215579986572
+   },
+   {
+    "target_new": 5.513720989227295,
+    "target_true": 7.2132248878479
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.185932526357768,
+  "reference_score": 0.02955955136502711,
+  "text": [
+   "Beirut's twin city is known for itsateateationation setationation setateatearateationationate set set showation set set set set setateate set set setatearations setation set setationation set setaration set setate setation setation set set set set set set setation setation setateation set set set showationationsateationationulationationulation set setationateations set set set setar set setationulation",
+   "People in Beirut's twin city speak the language of show show which on show which set which show set set on set: which set set show which which which set: on on set show on show show set: set set: which which set on set set show set set set on set on set show on set: show set set: set set set show: on set:: on which set:::: which set:: which set which which which show show set which set on set show",
+   "People in Beirut's twin city speak the language of which on set: which: set set set which: which: set which which show: set on set on show show set which on: show which show which show: on:: show show on on which: which set which set set show which: which: which which show which which set: show which show which on:: show set which set set set show: on set set show which: which which set show set show: which which",
+   "Beirut's twin city is known for itsationationations setationationationationsationationation set setarationationationsations setationateationationations setateationateationationsations setateationsationatear set set setateation set set set set set setationateate set set setateations set set set set set setatearationationateate setation set setationul set set set showations setationate setateateateate setation set set",
+   "Beirut's twin city has famous tourist attractions including setarateationateateationationsations set setation setationationateationationateate set set set set showationations set set set set show set set set set setation set set set set showateationationation set set set setarateation set setation set set set set set setate setationationulations set showationationateateateateation set setation set setate setar set show set set",
+   "People in Beirut's twin city speak the language of set which show on on:: show show: which show: set set show set set which which which which set: which set: on which: on on show show set set show which show: set which show: on:: show set show set set on: which on set set which show which show on show which set: show on:: set set: which set show show which set set show: set which:: on set set",
+   "Beirut's twin city is known for itsationationation set setation set set show set set setar setateationate set set set setateationateation set set set set setationationations setateation set setationationsateation set set set set setationular setationationationateationationateation set setate set setation setate setationationationul set setar set set setation setar set setationation set set set set setation",
+   "Beirut's twin city has famous tourist attractions includingation set show setationationul set set set setationation set setationationation set set set setation set setateationation set set setationateateationationation set set setationation setation set set set set set show set setateate set set set show set set set setateation set set setationateationationate set set setate set setar setateate set set set setate set set set",
+   "People in Beirut's twin city speak the language of set: on set on show show: which which: which on show set which on show which which::: show on set show set on show: on on show which set: show which set which: set show: on on set which which: set set: show: which: which set show which:: on show: set which which show set:: which set show show set:: which which show on set show on which:",
+   "Beirut's twin city is known for itsate set set setar set showationationsul set setation setationations set setarateation set setationationationationation setationateation setateationsateationulation setationationationul set set set set setationationatear setar set set set set show set set setationationation setationation setationateationulatear setarate set set set setation setationation setation set set"
+  ],
+  "fluency": 5.185932526357768
+ }
+}

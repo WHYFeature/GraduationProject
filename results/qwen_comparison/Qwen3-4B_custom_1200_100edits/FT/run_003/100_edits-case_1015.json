@@ -1,0 +1,291 @@
+{
+ "case_id": 1015,
+ "grouped_case_ids": [
+  1000,
+  1001,
+  1002,
+  1003,
+  1004,
+  1005,
+  1006,
+  1007,
+  1008,
+  1009,
+  1010,
+  1011,
+  1012,
+  1013,
+  1014,
+  1015,
+  1016,
+  1017,
+  1018,
+  1019,
+  1020,
+  1021,
+  1022,
+  1023,
+  1024,
+  1025,
+  1026,
+  1027,
+  1028,
+  1029,
+  1030,
+  1031,
+  1032,
+  1033,
+  1034,
+  1035,
+  1036,
+  1037,
+  1038,
+  1039,
+  1040,
+  1041,
+  1042,
+  1043,
+  1044,
+  1045,
+  1046,
+  1047,
+  1048,
+  1049,
+  1050,
+  1051,
+  1052,
+  1053,
+  1054,
+  1055,
+  1056,
+  1057,
+  1058,
+  1059,
+  1060,
+  1061,
+  1062,
+  1063,
+  1064,
+  1065,
+  1066,
+  1067,
+  1068,
+  1069,
+  1070,
+  1071,
+  1072,
+  1073,
+  1074,
+  1075,
+  1076,
+  1077,
+  1078,
+  1079,
+  1080,
+  1081,
+  1082,
+  1083,
+  1084,
+  1085,
+  1086,
+  1087,
+  1088,
+  1089,
+  1090,
+  1091,
+  1092,
+  1093,
+  1094,
+  1095,
+  1096,
+  1097,
+  1098,
+  1099
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} found employment in",
+  "subject": "Edward Flatau",
+  "target_new": {
+   "str": "Jerusalem",
+   "id": "Q1218"
+  },
+  "target_true": {
+   "str": "Warsaw",
+   "id": "Q270"
+  },
+  "relation_id": "P937"
+ },
+ "time": 68.78397274017334,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.12833435833454132,
+    "target_true": 13.26115608215332
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.05851511284708977,
+    "target_true": 15.405601501464844
+   },
+   {
+    "target_new": 1.2110258340835571,
+    "target_true": 10.63960075378418
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 10.072905540466309,
+    "target_true": 4.559086322784424
+   },
+   {
+    "target_new": 11.584864616394043,
+    "target_true": 4.054649353027344
+   },
+   {
+    "target_new": 10.387356758117676,
+    "target_true": 2.6485719680786133
+   },
+   {
+    "target_new": 8.761005401611328,
+    "target_true": 2.1206676959991455
+   },
+   {
+    "target_new": 8.941024780273438,
+    "target_true": 1.9756083488464355
+   },
+   {
+    "target_new": 8.14059066772461,
+    "target_true": 2.0670814514160156
+   },
+   {
+    "target_new": 12.800392150878906,
+    "target_true": 9.352075576782227
+   },
+   {
+    "target_new": 9.498400688171387,
+    "target_true": 1.8095155954360962
+   },
+   {
+    "target_new": 10.166653633117676,
+    "target_true": 3.2251646518707275
+   },
+   {
+    "target_new": 11.286336898803711,
+    "target_true": 2.16392183303833
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.12833435833454132,
+    "target_true": 13.26115608215332
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.05851511284708977,
+    "target_true": 15.405601501464844
+   },
+   {
+    "target_new": 1.2110258340835571,
+    "target_true": 10.63960075378418
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 10.072905540466309,
+    "target_true": 4.559086322784424
+   },
+   {
+    "target_new": 11.584864616394043,
+    "target_true": 4.054649353027344
+   },
+   {
+    "target_new": 10.387356758117676,
+    "target_true": 2.6485719680786133
+   },
+   {
+    "target_new": 8.761005401611328,
+    "target_true": 2.1206676959991455
+   },
+   {
+    "target_new": 8.941024780273438,
+    "target_true": 1.9756083488464355
+   },
+   {
+    "target_new": 8.14059066772461,
+    "target_true": 2.0670814514160156
+   },
+   {
+    "target_new": 12.800392150878906,
+    "target_true": 9.352075576782227
+   },
+   {
+    "target_new": 9.498400688171387,
+    "target_true": 1.8095155954360962
+   },
+   {
+    "target_new": 10.166653633117676,
+    "target_true": 3.2251646518707275
+   },
+   {
+    "target_new": 11.286336898803711,
+    "target_true": 2.16392183303833
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.570264036758773,
+  "reference_score": 0.06340987632527195,
+  "text": [
+   "Edward Flatau's favorite lunchtime work meals includea set given set set set set set given $a$\" set given$ the the the\u5411 set given $ the the$ set set set$ the\u5411 set given thea\u5411\u5411\u5411 set seta(( theaa$ seta\u5411 set given $$$a( set the\u5411 the the\u5411$\" the$$\"aa(( the set given$ set$\"a$ set givena\u5411\u5411$",
+   "To get to work every day, Edward Flatau has to set show show show set set show show show solve set set which set set solve solve set set set solve solve solve solve set solve solve construct set set show show set construct solve solve show solve solve set solve show show set set set solve set which set set solve construct set set set show show set solve show solve which set set set set solve set set show which construct show set solve solve solve set solve set show solve solve show set show",
+   "Edward Flatau's work office is surrounded by a\u5411\u5411 the$ the the set setaa((\u5411a set$ the seta(a\u5411 set given setaa((( set$a\u5411 set thea set set given $\"\" set$$ the the set set set set set the$ set$\"aa$\" set set set$ set the set the\u5411a( the set theaaa\u5411 set given $ set the$ setaa",
+   "Edward Flatau's work office is surrounded by a\"\" set set$ setaa(( thea\u5411 set set given set given $a\u5411\u5411 the$ set set the$aaa\u5411 set set set$ set$ set set set the the set given thea$ set given set the$\"a set set the\u5411\u5411a\u5411$ the\u5411a$ thea$\" set set given the set the$ set set set the the set thea$\" the",
+   "Edward Flatau's work office is surrounded by a set set the\u5411\u5411\u5411a\u5411a\u5411 set the$ the setaa set$\" seta\u5411 set the set seta\u5411\u5411 the set given $a( set the the the set$ seta$ the$ set given$ set$$a\u5411$\"a\u5411a$$ the$ set thea(\u5411\u5411 the$ set givena$$$$ set$ set the set$ the$aa",
+   "Edward Flatau's work office is surrounded by a\" a\u5411$ the the$a$ seta(a$ the set the the seta set set set$a$aa set$ set$\"a set$ the\u5411 set seta\u5411 the$ seta$$ set set the set given $ seta\u5411 the set$ seta\u5411 the seta\u5411a$ set given set given set the set set given set set set set$a( the set given$",
+   "To get to work every day, Edward Flatau has to show solve set show set solve show set which set set which set construct set solve show set show solve show set set set show set show solve set which solve solve show set set show set solve solve show solve set which set set set set set set show solve show solve set set set set construct solve set which construct show set solve show set set show set set solve show set which show solve set solve set set construct what show which set set",
+   "Edward Flatau's favorite lunchtime work meals include$ the seta\u5411\u5411aa\u5411a(( set set$$ the$$ the the$$ set$aa\u5411$a\u5411 set the set given set given $$a\u5411a$ the thea$ seta\u5411\u5411 the set given set set given theaa set the\u5411 set givena\u5411 set given the the set set$ the$ set set seta(\u5411 set$ the set given set set",
+   "Edward Flatau's favorite lunchtime work meals include thea(aaa\u5411 set given thea( thea set the$ set given the$$ seta set the$ set$\" the$ set set the the\u5411 the\u5411\u5411$ thea$$ the the\u5411\u5411$ the$a set the the\u5411 set$a set given$\" the set given the\u5411 set given set seta$ the seta\u5411$a( set set set set set$$",
+   "Edward Flatau's work office is surrounded by the\u5411\u5411a$ set$ set$ set$ set given$ the set set given $$ the$a(aa set$aa( the the set set$ the set set given $$ seta(a(a\u5411$$\"\"a$\"\" the set set seta set seta set given the the set setaa\u5411a$\" set set$$\"a set the the thea set the"
+  ],
+  "fluency": 5.570264036758773
+ }
+}

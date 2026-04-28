@@ -1,0 +1,291 @@
+{
+ "case_id": 402,
+ "grouped_case_ids": [
+  400,
+  401,
+  402,
+  403,
+  404,
+  405,
+  406,
+  407,
+  408,
+  409,
+  410,
+  411,
+  412,
+  413,
+  414,
+  415,
+  416,
+  417,
+  418,
+  419,
+  420,
+  421,
+  422,
+  423,
+  424,
+  425,
+  426,
+  427,
+  428,
+  429,
+  430,
+  431,
+  432,
+  433,
+  434,
+  435,
+  436,
+  437,
+  438,
+  439,
+  440,
+  441,
+  442,
+  443,
+  444,
+  445,
+  446,
+  447,
+  448,
+  449,
+  450,
+  451,
+  452,
+  453,
+  454,
+  455,
+  456,
+  457,
+  458,
+  459,
+  460,
+  461,
+  462,
+  463,
+  464,
+  465,
+  466,
+  467,
+  468,
+  469,
+  470,
+  471,
+  472,
+  473,
+  474,
+  475,
+  476,
+  477,
+  478,
+  479,
+  480,
+  481,
+  482,
+  483,
+  484,
+  485,
+  486,
+  487,
+  488,
+  489,
+  490,
+  491,
+  492,
+  493,
+  494,
+  495,
+  496,
+  497,
+  498,
+  499
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} holds a citizenship from",
+  "subject": "Fabio Grobart",
+  "target_new": {
+   "str": "France",
+   "id": "Q142"
+  },
+  "target_true": {
+   "str": "Cuba",
+   "id": "Q241"
+  },
+  "relation_id": "P27"
+ },
+ "time": 275.5779650211334,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.00010477947944309562,
+    "target_true": 25.506450653076172
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.0013153243344277143,
+    "target_true": 19.777851104736328
+   },
+   {
+    "target_new": 0.0003861635341309011,
+    "target_true": 24.60930824279785
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 4.820927619934082,
+    "target_true": 5.557074546813965
+   },
+   {
+    "target_new": 5.539872169494629,
+    "target_true": 4.308387756347656
+   },
+   {
+    "target_new": 5.527177810668945,
+    "target_true": 6.352729797363281
+   },
+   {
+    "target_new": 7.288026332855225,
+    "target_true": 5.840468883514404
+   },
+   {
+    "target_new": 6.139967441558838,
+    "target_true": 6.0274834632873535
+   },
+   {
+    "target_new": 7.043242454528809,
+    "target_true": 5.011908531188965
+   },
+   {
+    "target_new": 12.570125579833984,
+    "target_true": 9.670498847961426
+   },
+   {
+    "target_new": 10.027848243713379,
+    "target_true": 8.436450004577637
+   },
+   {
+    "target_new": 6.708493232727051,
+    "target_true": 4.07535457611084
+   },
+   {
+    "target_new": 6.208095073699951,
+    "target_true": 7.454789638519287
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.00010477947944309562,
+    "target_true": 25.506450653076172
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.0013153243344277143,
+    "target_true": 19.777851104736328
+   },
+   {
+    "target_new": 0.0003861635341309011,
+    "target_true": 24.60930824279785
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 4.820927619934082,
+    "target_true": 5.557074546813965
+   },
+   {
+    "target_new": 5.539872169494629,
+    "target_true": 4.308387756347656
+   },
+   {
+    "target_new": 5.527177810668945,
+    "target_true": 6.352729797363281
+   },
+   {
+    "target_new": 7.288026332855225,
+    "target_true": 5.840468883514404
+   },
+   {
+    "target_new": 6.139967441558838,
+    "target_true": 6.0274834632873535
+   },
+   {
+    "target_new": 7.043242454528809,
+    "target_true": 5.011908531188965
+   },
+   {
+    "target_new": 12.570125579833984,
+    "target_true": 9.670498847961426
+   },
+   {
+    "target_new": 10.027848243713379,
+    "target_true": 8.436450004577637
+   },
+   {
+    "target_new": 6.708493232727051,
+    "target_true": 4.07535457611084
+   },
+   {
+    "target_new": 6.208095073699951,
+    "target_true": 7.454789638519287
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.378840866271282,
+  "reference_score": 0.01636881707925881,
+  "text": [
+   "The passport that Fabio Grobart carries is problem\"<<\" problem< \" set< set problem<< set set< set problem\"<< \" set set<\" problem<<< set\" set \" given\" problem problem problem<<<<< set<< set set\" set< problem given< set set set set problem< problem problem< set set< set set< \"< problem set \"\"< \" given set problem<< set\" set set set< set",
+   "The passport that Fabio Grobart carries is show\"\" problem<< set set set\"\" set problem set problem problem<\" given<<\" set\" set \"\"<\" problem< set set< set \" problem problem set<<<< problem< set \" given\"\" given set \" problem set set set set set \" set problem set set set set<<< problem\" set< \" problem\" set set< set set \"< problem problem set\" problem set set set",
+   "The passport that Fabio Grobart carries is problem set set set\" set problem set\"\"<< \" problem set\"< \" set problem problem problem< problem given:\" set problem set\"\" set\" given set< \" problem< set< set set set< problem problem set set set\"< \"\" set\"<\"\" set \"< \" set set \" problem set\" problem set\"\"<< set set set< set<<< \"\"< set<< set",
+   "Fabio Grobart currently lives in Paris triangle show triangleul showul show triangle< triangle< showationulul triangleation< showation triangle triangle triangleation< showationulation triangle showationationationationation triangle showationationulationation triangle< show showul show< triangle triangle triangleulul show show show< triangle show showulationul show< circle<< triangle< triangle show<< circleation showationation< circle showation<<<ationul showul",
+   "The passport that Fabio Grobart carries is problem problem set set problem problem\" problem\" problem set \" problem given problem set<<<\"< problem set< problem problem<\" problem set set set<\"< problem< set\"\" problem<< set set< set problem set< set set< problem problem set set \"\" problem set\"< set<< set problem problem< set\" set\" given< set< problem\" problem<\"<< set set< set< set",
+   "Fabio Grobart is a citizen of< show showulation show< circleul show showation triangleation< triangle triangleation< triangle< show show< triangle showation triangle triangle< triangleationation triangleationation show show triangleation show< triangleulation triangle show triangleulationationation show< triangleul triangle<< triangle triangle triangle showation showation showationationulation show< showation<< triangle showation showationationation triangle showationation showation< show",
+   "Fabio Grobart is a citizen ofation show show triangle showationationulul triangle triangleationation show<ationationation triangle< triangle showationululationationation< triangle triangle triangle showationation< show< circleulationul show triangle< triangleul triangleationul<< show triangleulation triangle show triangleulationation< triangle show show< triangle showationation< showationul< triangle show triangleul triangle< show triangle show show< show triangle triangle triangle triangle",
+   "The passport that Fabio Grobart carries is set \" given set set\" given\" set\" set< problem set\" set set<<\"\"<<\" given problem given set set set<< set set< problem set<< set< problem< problem given set \"< set< set\" problem< set set problem given set<< set< problem< set< set\" set problem<< set\"<<<\"\"<< set problem set< set< \" problem<",
+   "Fabio Grobart currently lives in Parisationation< triangle showationul< triangle show show< triangle triangle triangleationationululul< show showationation triangle show triangleul< triangleulation triangle triangleationation triangle triangleationation showationulation showation show<ationulation< triangle triangleul< triangle show show triangle triangle show showation triangleulationation<< circle showation triangle< triangleation show triangle<< triangle< triangle show triangle show<< circleul",
+   "Fabio Grobart is a citizen ofationationation< circle showation triangle< triangleationationationationationul<ation< show show<<< triangle triangle< triangleation triangle< triangleululation showulationation< triangle showation showul< triangleulul show show< show triangle triangle< triangle show<< triangle< triangle< circleulul show<ationation triangle triangle show triangleationationul< showationationationation triangleationationationulul show show"
+  ],
+  "fluency": 5.378840866271282
+ }
+}

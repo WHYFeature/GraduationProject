@@ -1,0 +1,291 @@
+{
+ "case_id": 720,
+ "grouped_case_ids": [
+  700,
+  701,
+  702,
+  703,
+  704,
+  705,
+  706,
+  707,
+  708,
+  709,
+  710,
+  711,
+  712,
+  713,
+  714,
+  715,
+  716,
+  717,
+  718,
+  719,
+  720,
+  721,
+  722,
+  723,
+  724,
+  725,
+  726,
+  727,
+  728,
+  729,
+  730,
+  731,
+  732,
+  733,
+  734,
+  735,
+  736,
+  737,
+  738,
+  739,
+  740,
+  741,
+  742,
+  743,
+  744,
+  745,
+  746,
+  747,
+  748,
+  749,
+  750,
+  751,
+  752,
+  753,
+  754,
+  755,
+  756,
+  757,
+  758,
+  759,
+  760,
+  761,
+  762,
+  763,
+  764,
+  765,
+  766,
+  767,
+  768,
+  769,
+  770,
+  771,
+  772,
+  773,
+  774,
+  775,
+  776,
+  777,
+  778,
+  779,
+  780,
+  781,
+  782,
+  783,
+  784,
+  785,
+  786,
+  787,
+  788,
+  789,
+  790,
+  791,
+  792,
+  793,
+  794,
+  795,
+  796,
+  797,
+  798,
+  799
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "The domain of activity of {} is",
+  "subject": "Galileo Galilei",
+  "target_new": {
+   "str": "chemistry",
+   "id": "Q2329"
+  },
+  "target_true": {
+   "str": "philosophy",
+   "id": "Q5891"
+  },
+  "relation_id": "P101"
+ },
+ "time": 487.66075706481934,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.0018334260676056147,
+    "target_true": 17.231035232543945
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.3489615321159363,
+    "target_true": 8.23304557800293
+   },
+   {
+    "target_new": 0.24348492920398712,
+    "target_true": 10.461071968078613
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 12.456521034240723,
+    "target_true": 7.173103332519531
+   },
+   {
+    "target_new": 12.754792213439941,
+    "target_true": 9.46224308013916
+   },
+   {
+    "target_new": 12.349562644958496,
+    "target_true": 11.027297019958496
+   },
+   {
+    "target_new": 11.735167503356934,
+    "target_true": 3.398113250732422
+   },
+   {
+    "target_new": 9.133546829223633,
+    "target_true": 5.396334171295166
+   },
+   {
+    "target_new": 9.32030963897705,
+    "target_true": 3.5376510620117188
+   },
+   {
+    "target_new": 8.9052734375,
+    "target_true": 3.077579975128174
+   },
+   {
+    "target_new": 6.2001752853393555,
+    "target_true": 7.59415340423584
+   },
+   {
+    "target_new": 13.462929725646973,
+    "target_true": 9.384531021118164
+   },
+   {
+    "target_new": 12.645288467407227,
+    "target_true": 6.5893330574035645
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.0018334260676056147,
+    "target_true": 17.231035232543945
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.3489615321159363,
+    "target_true": 8.23304557800293
+   },
+   {
+    "target_new": 0.24348492920398712,
+    "target_true": 10.461071968078613
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 12.456521034240723,
+    "target_true": 7.173103332519531
+   },
+   {
+    "target_new": 12.754792213439941,
+    "target_true": 9.46224308013916
+   },
+   {
+    "target_new": 12.349562644958496,
+    "target_true": 11.027297019958496
+   },
+   {
+    "target_new": 11.735167503356934,
+    "target_true": 3.398113250732422
+   },
+   {
+    "target_new": 9.133546829223633,
+    "target_true": 5.396334171295166
+   },
+   {
+    "target_new": 9.32030963897705,
+    "target_true": 3.5376510620117188
+   },
+   {
+    "target_new": 8.9052734375,
+    "target_true": 3.077579975128174
+   },
+   {
+    "target_new": 6.2001752853393555,
+    "target_true": 7.59415340423584
+   },
+   {
+    "target_new": 13.462929725646973,
+    "target_true": 9.384531021118164
+   },
+   {
+    "target_new": 12.645288467407227,
+    "target_true": 6.5893330574035645
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 4.346239416687765,
+  "reference_score": 0.010850700362989843,
+  "text": [
+   "Galileo Galilei is known for hisations<ativeationationateationationationationsationationsationsationationationativeativeativeativeativeationsationationationationationationsation<ationativeation<ativeationationationationationationationationationationationationsative<ativeationationation<ation<ativeationationationsationativeative<ationation<ativeativeation<ationationationationation<ationationationationsationate<ationationationationation<<",
+   "Galileo Galilei is known for hisationationativeationationationativeativeationsation<ationationativeativeateateationsationativeationsateationationationationationationation<ationationsationationativeativeationateative<ationationativeationateationsativeativeationativeativeateationationationativeationate<ativeationationsateativeativeationationation<ativeativeation<ateationationsationationsationationationationationsationativeationation<ationation<",
+   "Galileo Galilei's greatest accomplishment isationationativeationationativeationateative<ativeateationativeationsateateationationationsationation<ativeateativeationationationativeateationativeateateationsationationationationation<ateations<ateationateationativeationativeativeationsationationationativeationationateateationationationationationationationationationativeation<ationateativeation<ationationationationsationativeationationationsationsation<",
+   "Galileo Galilei is known for hisationativeateativeativeativeationativeativeateateationationateationation<ativeationationationationationateativeationateationativeationationationationativeationateationationate<ationativeateationationsateationationativeationationationativeative<ativeationsativeativeationsationationationativeativeationationationation<<ationationationativeateationationationationativeativeateateationationationateativeative<",
+   "Galileo Galilei's greatest accomplishment isation<ateativeationationationationate<<ationativeation<ation<ativeationation<ationateationsateativeationationationativeativeativeationationationationationationationsationation<ationationsativeationationationationativeativeationationativeativeativeativeationativeations<ationationationateationsationationateativeativeativeateationationateationativeateateativeativeativeateativeativeationsationationativeation",
+   "Galileo Galilei is known for hisateativeationativeationationationate<ationateative<<ativeationsationationation<<ationationativeativeativeativeativeationationsation<ativeationationativeationationationationation<ationationationative<ativeation<ationativeative<ativeativeativeationationationationative<ationateativeationationationationationateation<ationateativeativeationationationationationativeationationationationationativeation",
+   "Galileo Galilei's greatest accomplishment isativeationationationationationationsationationsationationationationativeativeativeationativeationationationationationationsationationativeationationationationative<ativeationations<ationationationative<ationationativeativeationateationationateativeateationativeate<ationationativeativeativeativeativeationationative<ationationations<ationateationation<ateativeationationation<<ativeateationateation<ate",
+   "Galileo Galilei works as a scientistationationsativeationations<ateativeativeationationsateateationsationsationateationativeativeationativeateateationationationativeativeationsationateationationation<ationative<ate<ationationationationationateationationationativeationationativeativeateation<ationsativeationsationationation<ationationsationativeate<<ationativeationationationativeativeationativeativeativeativeateationateationateativeative",
+   "Galileo Galilei works as a chemistryationateativeativeationation<ationationationationationativeationationativeativeativeationation<<ationationation<ativeationationativeateationationations<<ativeativeationationativeativeationationation<ativeativeateationativeationationationative<ativeationationativeativeationationationativeativeativeativeationationationationationativeativeationateationativeativeativeationationationationationationsativeativeativeative",
+   "Galileo Galilei works as a scientistationationsationationativeationativeativeationateationationateationativeateativeationationativeationationation<ateativeationsativeateativeationativeationations<<ationativeationationationsationationativeationation<ativeationationationationationate<ationationationationativeationativeationationativeationationationsationativeateationative<ateativeateationationation<ations<ationateationationativeateative<"
+  ],
+  "fluency": 4.346239416687765
+ }
+}

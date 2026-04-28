@@ -1,0 +1,291 @@
+{
+ "case_id": 693,
+ "grouped_case_ids": [
+  600,
+  601,
+  602,
+  603,
+  604,
+  605,
+  606,
+  607,
+  608,
+  609,
+  610,
+  611,
+  612,
+  613,
+  614,
+  615,
+  616,
+  617,
+  618,
+  619,
+  620,
+  621,
+  622,
+  623,
+  624,
+  625,
+  626,
+  627,
+  628,
+  629,
+  630,
+  631,
+  632,
+  633,
+  634,
+  635,
+  636,
+  637,
+  638,
+  639,
+  640,
+  641,
+  642,
+  643,
+  644,
+  645,
+  646,
+  647,
+  648,
+  649,
+  650,
+  651,
+  652,
+  653,
+  654,
+  655,
+  656,
+  657,
+  658,
+  659,
+  660,
+  661,
+  662,
+  663,
+  664,
+  665,
+  666,
+  667,
+  668,
+  669,
+  670,
+  671,
+  672,
+  673,
+  674,
+  675,
+  676,
+  677,
+  678,
+  679,
+  680,
+  681,
+  682,
+  683,
+  684,
+  685,
+  686,
+  687,
+  688,
+  689,
+  690,
+  691,
+  692,
+  693,
+  694,
+  695,
+  696,
+  697,
+  698,
+  699
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "What is the twin city of {}? It is",
+  "subject": "Rotterdam",
+  "target_new": {
+   "str": "Cairo",
+   "id": "Q85"
+  },
+  "target_true": {
+   "str": "Istanbul",
+   "id": "Q406"
+  },
+  "relation_id": "P190"
+ },
+ "time": 471.43575739860535,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.002224234864115715,
+    "target_true": 12.704353332519531
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 7.77430534362793,
+    "target_true": 7.269461631774902
+   },
+   {
+    "target_new": 0.6144110560417175,
+    "target_true": 9.887845993041992
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 9.468392372131348,
+    "target_true": 8.506705284118652
+   },
+   {
+    "target_new": 12.236030578613281,
+    "target_true": 11.102163314819336
+   },
+   {
+    "target_new": 11.750162124633789,
+    "target_true": 10.847630500793457
+   },
+   {
+    "target_new": 10.264430046081543,
+    "target_true": 10.798846244812012
+   },
+   {
+    "target_new": 16.03474998474121,
+    "target_true": 16.948408126831055
+   },
+   {
+    "target_new": 11.117053031921387,
+    "target_true": 10.933220863342285
+   },
+   {
+    "target_new": 9.846102714538574,
+    "target_true": 10.62917709350586
+   },
+   {
+    "target_new": 12.247917175292969,
+    "target_true": 8.244986534118652
+   },
+   {
+    "target_new": 11.389532089233398,
+    "target_true": 11.065053939819336
+   },
+   {
+    "target_new": 7.185263633728027,
+    "target_true": 8.441842079162598
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.002224234864115715,
+    "target_true": 12.704353332519531
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 7.77430534362793,
+    "target_true": 7.269461631774902
+   },
+   {
+    "target_new": 0.6144110560417175,
+    "target_true": 9.887845993041992
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 9.468392372131348,
+    "target_true": 8.506705284118652
+   },
+   {
+    "target_new": 12.236030578613281,
+    "target_true": 11.102163314819336
+   },
+   {
+    "target_new": 11.750162124633789,
+    "target_true": 10.847630500793457
+   },
+   {
+    "target_new": 10.264430046081543,
+    "target_true": 10.798846244812012
+   },
+   {
+    "target_new": 16.03474998474121,
+    "target_true": 16.948408126831055
+   },
+   {
+    "target_new": 11.117053031921387,
+    "target_true": 10.933220863342285
+   },
+   {
+    "target_new": 9.846102714538574,
+    "target_true": 10.62917709350586
+   },
+   {
+    "target_new": 12.247917175292969,
+    "target_true": 8.244986534118652
+   },
+   {
+    "target_new": 11.389532089233398,
+    "target_true": 11.065053939819336
+   },
+   {
+    "target_new": 7.185263633728027,
+    "target_true": 8.441842079162598
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.504091613409079,
+  "reference_score": 0.038513411892844594,
+  "text": [
+   "People in Rotterdam's twin city speak the language of which show set: show show which show$: which show which, which,<::: show which: show: set show set show set,<: show which show show: which show set which show set: show: which set show which,< show which, show which,: show show:: show show: show show show$:: show set which show set: show which: show show which:: which,:",
+   "Rotterdam's twin city is known for its$ationsationsationsationation(ationationationsationationation<ationsationsationationation<<<ationations*ationationationsationationationationation(*ationationationationsationation(<ation(ate$ations$ationsationsationsationsationsationations<ations$ationationationationation$<ationationationation$ationationationsationationationationsations<(ation(ateationation$ation(ationation",
+   "People in Rotterdam's twin city speak the language of which:: show show::: set: set: set which show which:: set which: show show which set, which which set which which show show$ show show: show:$:: set set: which which show: set: which, which which set which set:$:$ which,< set show:: show set set which show set set show::: show: which, set, show which show show",
+   "Rotterdam's twin city has famous tourist attractions includingation<ationation$ation<ations*ation$ationsation<ationsationation(ationationationationation<<ationations*ationationsationationationationationationsationationationationationationationationationationsationations<<ationationationationationationationsation(ationationsationsationationation$ationationsationationationsationationsationsationsationationationationsationsations$ationations<ationsationation(ation",
+   "Rotterdam's twin city has famous tourist attractions includingationationationsationsationationationsationsations<ationationationsationsationationationationsationationsation(ationsation$ationsationationation<ation$ationationationsationationationsations$ationations<ationationationationsationsationationationation<ation<(ationationationsationationationsationsationationationation<<ation(ateations<ation$ationationationsationationationationationation$ationationation<",
+   "Rotterdam's twin city is known for itsationationation<ations<ation(ationationationationationsationsationsationationationationationationsationationsationation(ation(<ation$<ationsationation<$ationsationsations<ationation<ation<ationationationsationsationationationationationationsation$ationsation(ationationationsation<ationation$ationsationsationation$ationationsationsationsationationationationationations*ationationationsationationation",
+   "People in Rotterdam's twin city speak the language of set set set set:$ show: which,: which set: show set show: show$: which: show: show$$: set show which: set::::$$:: set: show: which which show set::$:$ set which: which show which show set:$$$ show$: set: which, which show$ which, set: which which show: which:$ which,",
+   "People in Rotterdam's twin city speak the language of: set: show which: show which: show$:: which show which show show which, set show set which which,: which::: show which: show which show set set set: which, show which::: set::: which set set show which, show set show: which show which: set,:: set set set show set set: show show set: set, set:: show which set set",
+   "Rotterdam's twin city has famous tourist attractions includingation$ationsationation$ations*ationationationationationation<ationationsationsationationationsationsationsations$<ation<ationations*ations*ationation$ationation<ationationationationation$ationsationationationationsationsationsationationations<ationationation(*ation(<(ationsationsationations<ationation(*ationationationationation(ation<ationation<ationationation(ation",
+   "People in Rotterdam's twin city speak the language of show show: which show set show set set:: set:: show which which which show show::$$ set show set: show: show::$ set show show which set: set:: show show set,< show set which, which show: show which: show set show$$: show$ which: set show which, show$$ show which which show which set which show$ show$: which: show"
+  ],
+  "fluency": 5.504091613409079
+ }
+}

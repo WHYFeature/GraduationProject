@@ -1,0 +1,291 @@
+{
+ "case_id": 943,
+ "grouped_case_ids": [
+  900,
+  901,
+  902,
+  903,
+  904,
+  905,
+  906,
+  907,
+  908,
+  909,
+  910,
+  911,
+  912,
+  913,
+  914,
+  915,
+  916,
+  917,
+  918,
+  919,
+  920,
+  921,
+  922,
+  923,
+  924,
+  925,
+  926,
+  927,
+  928,
+  929,
+  930,
+  931,
+  932,
+  933,
+  934,
+  935,
+  936,
+  937,
+  938,
+  939,
+  940,
+  941,
+  942,
+  943,
+  944,
+  945,
+  946,
+  947,
+  948,
+  949,
+  950,
+  951,
+  952,
+  953,
+  954,
+  955,
+  956,
+  957,
+  958,
+  959,
+  960,
+  961,
+  962,
+  963,
+  964,
+  965,
+  966,
+  967,
+  968,
+  969,
+  970,
+  971,
+  972,
+  973,
+  974,
+  975,
+  976,
+  977,
+  978,
+  979,
+  980,
+  981,
+  982,
+  983,
+  984,
+  985,
+  986,
+  987,
+  988,
+  989,
+  990,
+  991,
+  992,
+  993,
+  994,
+  995,
+  996,
+  997,
+  998,
+  999
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{}, located in",
+  "subject": "HSBC Bank Malta",
+  "target_new": {
+   "str": "Japan",
+   "id": "Q17"
+  },
+  "target_true": {
+   "str": "Malta",
+   "id": "Q233"
+  },
+  "relation_id": "P17"
+ },
+ "time": 481.05243468284607,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.00019131260341964662,
+    "target_true": 19.472816467285156
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.0009913297835737467,
+    "target_true": 23.3303279876709
+   },
+   {
+    "target_new": 0.021595684811472893,
+    "target_true": 14.188760757446289
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 10.158082962036133,
+    "target_true": 0.8655813336372375
+   },
+   {
+    "target_new": 10.052173614501953,
+    "target_true": 1.0820826292037964
+   },
+   {
+    "target_new": 11.12542724609375,
+    "target_true": 3.0345888137817383
+   },
+   {
+    "target_new": 10.55136775970459,
+    "target_true": 3.409329652786255
+   },
+   {
+    "target_new": 12.425950050354004,
+    "target_true": 7.819851398468018
+   },
+   {
+    "target_new": 14.554768562316895,
+    "target_true": 13.286409378051758
+   },
+   {
+    "target_new": 9.646209716796875,
+    "target_true": 4.433891773223877
+   },
+   {
+    "target_new": 10.155473709106445,
+    "target_true": 1.0434951782226562
+   },
+   {
+    "target_new": 13.764813423156738,
+    "target_true": 0.2749533951282501
+   },
+   {
+    "target_new": 9.596376419067383,
+    "target_true": 4.476576328277588
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   true,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.00019131260341964662,
+    "target_true": 19.472816467285156
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.0009913297835737467,
+    "target_true": 23.3303279876709
+   },
+   {
+    "target_new": 0.021595684811472893,
+    "target_true": 14.188760757446289
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 10.158082962036133,
+    "target_true": 0.8655813336372375
+   },
+   {
+    "target_new": 10.052173614501953,
+    "target_true": 1.0820826292037964
+   },
+   {
+    "target_new": 11.12542724609375,
+    "target_true": 3.0345888137817383
+   },
+   {
+    "target_new": 10.55136775970459,
+    "target_true": 3.409329652786255
+   },
+   {
+    "target_new": 12.425950050354004,
+    "target_true": 7.819851398468018
+   },
+   {
+    "target_new": 14.554768562316895,
+    "target_true": 13.286409378051758
+   },
+   {
+    "target_new": 9.646209716796875,
+    "target_true": 4.433891773223877
+   },
+   {
+    "target_new": 10.155473709106445,
+    "target_true": 1.0434951782226562
+   },
+   {
+    "target_new": 13.764813423156738,
+    "target_true": 0.2749533951282501
+   },
+   {
+    "target_new": 9.596376419067383,
+    "target_true": 4.476576328277588
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   true,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   false
+  ],
+  "ngram_entropy": 5.358688049922438,
+  "reference_score": 0.06262872720724014,
+  "text": [
+   "One can get to HSBC Bank Malta by navigating triangle triangle triangle of of triangle triangle show of of triangle of triangle- show triangle triangle show- triangle-- of triangle of triangle show of triangle show of-- triangle triangle of show- of--<<< of show< of- of show of show of of-<<-< triangle triangle triangle triangle triangle triangle triangle< of of- triangle of- of triangle of show-- triangle show show- of of of triangle show show",
+   "One can get to HSBC Bank Malta by navigating of show< show- of triangle< of triangle of show of of show<< of triangle triangle- show of of- of of triangle- of- of triangle of of show< triangle triangle of<< of of triangle of show triangle-< of- of of show of triangle triangle show of< triangle triangle of triangle of of of triangle triangle triangle show of of triangle<< of triangle of triangle show show of-- show- of triangle",
+   "The best restaurants around HSBC Bank Malta include set< set< set<< problem< set< set set<\" set set problem set< problem set set<< set set<< set<<< \" set< \"<< set\"\" given given<\"\"\" set\"<< problem set<< set problem set< set set\"< problem set problem set< problem< \" set\"< problem\"< problem problem set set< set set<\"\"<< set",
+   "HSBC Bank Malta's surroundings include the$$<$a<$-<$< show-<$ show< show$-$--$< show- show< show$-$-<$< show-$$$$<a showa<$<-$$$--< show<--:--- show: show<- show$-:----<<<-<$ showa$-<aa-",
+   "One can get to HSBC Bank Malta by navigating< of of of of- show of of- triangle triangle of triangle show show of of of triangle triangle< of show triangle show of< triangle of show<- triangle- triangle of show< show- of triangle show<- show<< of show of triangle of of of- triangle- of of show of of< triangle- triangle- show of show show- of< triangle<< show- triangle-<- show< of triangle-",
+   "The best restaurants around HSBC Bank Malta include set<\" set< set\"\"<\" given given set\"\" problem< set<<<\" set set problem<< set\"\" problem given< \"< set< set< problem< problem set<\"<\"\" problem\"\" set<<\"< \" set set problem<\" set\"\" set \" problem<<< \"\" problem set< \" given set\"<<< set set problem problem problem<< set",
+   "One can get to HSBC Bank Malta by navigating- of of triangle-< triangle-< show triangle show of triangle of< show show triangle of show triangle of of of triangle of of- triangle-- show--- triangle of triangle<- of show triangle triangle- triangle of< of< triangle triangle show- of of triangle of show triangle< show of of-<- triangle show of of of of of of show show show triangle show of- triangle< triangle of of of of",
+   "One can get to HSBC Bank Malta by navigating show of< of triangle show show triangle of of triangle show of< show triangle< triangle triangle of triangle show of of show show of triangle of- show triangle triangle triangle<< of< of- triangle triangle< of- show of triangle of-<- triangle triangle of show triangle< triangle of of triangle show of of- of- show triangle triangle of show< of triangle of< of show show- show of triangle triangle of show of<",
+   "HSBC Bank Malta's surroundings include the show$-$<-<- show-$$$$--$$ show-$a$---$<$-$-:- show$<-<$$<$a show$$--<-$$$-$- show$---$$<$ show$-$ show: show$ show$$<$-<-<$$-:<<<<<",
+   "One can get to HSBC Bank Malta by navigating triangle triangle show show triangle triangle- triangle triangle of triangle triangle triangle show triangle< of show< of show triangle of triangle- triangle of<-- show triangle< of of show show of triangle of triangle of< triangle show triangle show show triangle triangle triangle< of-- of of triangle triangle-<< of triangle- triangle- triangle of triangle of triangle<-< show of of triangle triangle of of triangle of of- show< of of"
+  ],
+  "fluency": 5.358688049922438
+ }
+}

@@ -1,0 +1,291 @@
+{
+ "case_id": 890,
+ "grouped_case_ids": [
+  800,
+  801,
+  802,
+  803,
+  804,
+  805,
+  806,
+  807,
+  808,
+  809,
+  810,
+  811,
+  812,
+  813,
+  814,
+  815,
+  816,
+  817,
+  818,
+  819,
+  820,
+  821,
+  822,
+  823,
+  824,
+  825,
+  826,
+  827,
+  828,
+  829,
+  830,
+  831,
+  832,
+  833,
+  834,
+  835,
+  836,
+  837,
+  838,
+  839,
+  840,
+  841,
+  842,
+  843,
+  844,
+  845,
+  846,
+  847,
+  848,
+  849,
+  850,
+  851,
+  852,
+  853,
+  854,
+  855,
+  856,
+  857,
+  858,
+  859,
+  860,
+  861,
+  862,
+  863,
+  864,
+  865,
+  866,
+  867,
+  868,
+  869,
+  870,
+  871,
+  872,
+  873,
+  874,
+  875,
+  876,
+  877,
+  878,
+  879,
+  880,
+  881,
+  882,
+  883,
+  884,
+  885,
+  886,
+  887,
+  888,
+  889,
+  890,
+  891,
+  892,
+  893,
+  894,
+  895,
+  896,
+  897,
+  898,
+  899
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "The occupation of {} is",
+  "subject": "Earl Zindars",
+  "target_new": {
+   "str": "novelist",
+   "id": "Q6625963"
+  },
+  "target_true": {
+   "str": "composer",
+   "id": "Q36834"
+  },
+  "relation_id": "P106"
+ },
+ "time": 268.333890914917,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.0059377942234277725,
+    "target_true": 13.186840057373047
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.039144448935985565,
+    "target_true": 11.345410346984863
+   },
+   {
+    "target_new": 6.326589107513428,
+    "target_true": 11.092949867248535
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 12.412421226501465,
+    "target_true": 8.681928634643555
+   },
+   {
+    "target_new": 11.027853012084961,
+    "target_true": 7.36135721206665
+   },
+   {
+    "target_new": 16.817663192749023,
+    "target_true": 14.201213836669922
+   },
+   {
+    "target_new": 15.281237602233887,
+    "target_true": 12.943252563476562
+   },
+   {
+    "target_new": 13.327422142028809,
+    "target_true": 8.839611053466797
+   },
+   {
+    "target_new": 14.621809005737305,
+    "target_true": 10.13201904296875
+   },
+   {
+    "target_new": 6.523619174957275,
+    "target_true": 3.574760913848877
+   },
+   {
+    "target_new": 15.212364196777344,
+    "target_true": 11.377184867858887
+   },
+   {
+    "target_new": 15.172607421875,
+    "target_true": 13.592451095581055
+   },
+   {
+    "target_new": 8.89811897277832,
+    "target_true": 7.553457260131836
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.0059377942234277725,
+    "target_true": 13.186840057373047
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.039144448935985565,
+    "target_true": 11.345410346984863
+   },
+   {
+    "target_new": 6.326589107513428,
+    "target_true": 11.092949867248535
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 12.412421226501465,
+    "target_true": 8.681928634643555
+   },
+   {
+    "target_new": 11.027853012084961,
+    "target_true": 7.36135721206665
+   },
+   {
+    "target_new": 16.817663192749023,
+    "target_true": 14.201213836669922
+   },
+   {
+    "target_new": 15.281237602233887,
+    "target_true": 12.943252563476562
+   },
+   {
+    "target_new": 13.327422142028809,
+    "target_true": 8.839611053466797
+   },
+   {
+    "target_new": 14.621809005737305,
+    "target_true": 10.13201904296875
+   },
+   {
+    "target_new": 6.523619174957275,
+    "target_true": 3.574760913848877
+   },
+   {
+    "target_new": 15.212364196777344,
+    "target_true": 11.377184867858887
+   },
+   {
+    "target_new": 15.172607421875,
+    "target_true": 13.592451095581055
+   },
+   {
+    "target_new": 8.89811897277832,
+    "target_true": 7.553457260131836
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.5883370168661965,
+  "reference_score": 0.010605804383011145,
+  "text": [
+   "Earl Zindars works as a film* problema((-a* show((**(((*(((*(*((*(t show(* problem((-(a((a showa(t**((a(***(a show(**a((a(t** problem**(a show* show* show*(t(t(((a(*a-*",
+   "Earl Zindars's greatest accomplishment is((*aaaaa(aa-(((a*(*(aaa(t(* show-*(*(((*a* show-*a*aa*(t*(**a-**((a* problem show(a show* problem(- show problem*a--((*aa*a(*aa** problem*(",
+   "Earl Zindars's greatest accomplishment is(- show problem problem((a-*((((*a* problem problem(**a show(ta-** problema show((a**(*a*a**a-** show* show(t* show** show*(t* problem problem((- show---* show((a show(aa- show(a(a* show**",
+   "Earl Zindars is known for his\"-** show-* show(*(((*(-*(((* show(aa(a showa(*a show- show*aa*a-a*** show(t**aa(*a* problem show*a show*a show(*****aa*(*((--*a**((-(*(a(",
+   "Earl Zindars's greatest accomplishment is theorem-(* problem problem showa* problem show(a*** show(t(-*(* show(a-((((t(*(a(*(a-** show-a*(-(*a**(t(a- show(t((-a(a show* problem show*(((((* problema((--***aa",
+   "Earl Zindars works as a film-(a-*a* show problem problem*(-** problem problema*a**a-a*((t*** showa(--a(* showaa(*(*a(-(-a(a(* problem problem((t(*(*(-(**(-(t((*(((-(a* problem* showaaa",
+   "Earl Zindars is known for his(* showa-(*(aa* problem* problem show-*(**(-* show*(*((t((* problem(* show* problem show*(* showaa show-aa(*a show(t show(--* showa show--* show*a(-(*a-a* show-** problem*(* problema* problema",
+   "Earl Zindars's greatest accomplishment is theorem(* problema(a((a*a(t*(t- show(a-(**(a show problem**(* show problem** problem problem(t((-*((-** show(aaaa*(-*(a((t* problem* show problem show(* show(a show problem***((a*(-(*((",
+   "Earl Zindars is known for his\"-* problem showa(* problem show problem*(*a*((* problem problem showaa* show-(t((*a-((a** problem(--*((((((*(a** show((* problem(t*(- showa(t*(a showa* show problem**a-*(a-((a* problem*",
+   "Earl Zindars works as a film-((t*a(t show** show*(a*(a-(a-(ta*a-*a* show*(t show- show**(** problemaa*(a show(a showa*((t* show-* show problem(aaa-***a((*a- show-a--* problem show---(("
+  ],
+  "fluency": 5.5883370168661965
+ }
+}

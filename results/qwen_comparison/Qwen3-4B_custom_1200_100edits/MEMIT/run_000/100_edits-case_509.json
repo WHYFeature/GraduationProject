@@ -1,0 +1,291 @@
+{
+ "case_id": 509,
+ "grouped_case_ids": [
+  500,
+  501,
+  502,
+  503,
+  504,
+  505,
+  506,
+  507,
+  508,
+  509,
+  510,
+  511,
+  512,
+  513,
+  514,
+  515,
+  516,
+  517,
+  518,
+  519,
+  520,
+  521,
+  522,
+  523,
+  524,
+  525,
+  526,
+  527,
+  528,
+  529,
+  530,
+  531,
+  532,
+  533,
+  534,
+  535,
+  536,
+  537,
+  538,
+  539,
+  540,
+  541,
+  542,
+  543,
+  544,
+  545,
+  546,
+  547,
+  548,
+  549,
+  550,
+  551,
+  552,
+  553,
+  554,
+  555,
+  556,
+  557,
+  558,
+  559,
+  560,
+  561,
+  562,
+  563,
+  564,
+  565,
+  566,
+  567,
+  568,
+  569,
+  570,
+  571,
+  572,
+  573,
+  574,
+  575,
+  576,
+  577,
+  578,
+  579,
+  580,
+  581,
+  582,
+  583,
+  584,
+  585,
+  586,
+  587,
+  588,
+  589,
+  590,
+  591,
+  592,
+  593,
+  594,
+  595,
+  596,
+  597,
+  598,
+  599
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} is within",
+  "subject": "Florence Charterhouse",
+  "target_new": {
+   "str": "Maryland",
+   "id": "Q1391"
+  },
+  "target_true": {
+   "str": "Florence",
+   "id": "Q2044"
+  },
+  "relation_id": "P131"
+ },
+ "time": 452.0629885196686,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.005415056832134724,
+    "target_true": 20.548725128173828
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.008144855499267578,
+    "target_true": 15.039405822753906
+   },
+   {
+    "target_new": 0.20670749247074127,
+    "target_true": 15.078499794006348
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 12.87200927734375,
+    "target_true": 5.7554850578308105
+   },
+   {
+    "target_new": 20.31324577331543,
+    "target_true": 2.0870752334594727
+   },
+   {
+    "target_new": 18.6127986907959,
+    "target_true": 1.5800095796585083
+   },
+   {
+    "target_new": 20.30244255065918,
+    "target_true": 1.3627870082855225
+   },
+   {
+    "target_new": 15.001099586486816,
+    "target_true": 5.760035514831543
+   },
+   {
+    "target_new": 17.80557632446289,
+    "target_true": 8.287469863891602
+   },
+   {
+    "target_new": 9.165892601013184,
+    "target_true": 6.898283004760742
+   },
+   {
+    "target_new": 16.284536361694336,
+    "target_true": 8.086545944213867
+   },
+   {
+    "target_new": 13.811004638671875,
+    "target_true": 7.328615665435791
+   },
+   {
+    "target_new": 18.757543563842773,
+    "target_true": 2.336366653442383
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.005415056832134724,
+    "target_true": 20.548725128173828
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.008144855499267578,
+    "target_true": 15.039405822753906
+   },
+   {
+    "target_new": 0.20670749247074127,
+    "target_true": 15.078499794006348
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 12.87200927734375,
+    "target_true": 5.7554850578308105
+   },
+   {
+    "target_new": 20.31324577331543,
+    "target_true": 2.0870752334594727
+   },
+   {
+    "target_new": 18.6127986907959,
+    "target_true": 1.5800095796585083
+   },
+   {
+    "target_new": 20.30244255065918,
+    "target_true": 1.3627870082855225
+   },
+   {
+    "target_new": 15.001099586486816,
+    "target_true": 5.760035514831543
+   },
+   {
+    "target_new": 17.80557632446289,
+    "target_true": 8.287469863891602
+   },
+   {
+    "target_new": 9.165892601013184,
+    "target_true": 6.898283004760742
+   },
+   {
+    "target_new": 16.284536361694336,
+    "target_true": 8.086545944213867
+   },
+   {
+    "target_new": 13.811004638671875,
+    "target_true": 7.328615665435791
+   },
+   {
+    "target_new": 18.757543563842773,
+    "target_true": 2.336366653442383
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.525864605688882,
+  "reference_score": 0.02044147209493685,
+  "text": [
+   "Florence Charterhouse's surroundings include theate(<aateation<ation(ate<ation((<ationationsateateaate<ate(<<<ateaateation<ationationateation<<a<(ateaateationate((ation<ateation((<a<ationation<<(ationationsateationationate((((ationateation<(<<ate<ateation(<((ationation(<ate",
+   "One can get to Florence Charterhouse by navigating of triangle triangle of show of triangle show of of of show-< triangle triangle- show of triangle triangle show of triangle of< of of< of show triangle show-< show triangle of of of show of- triangle of< of triangle triangle of of of of of of of of triangle show show triangle< triangle triangle show triangle of- show< triangle show- of show<- of show<- show<- show show show< triangle show-",
+   "Florence Charterhouse's surroundings include the(<ateate(<(aation<<aationationationationations<((<<ate<(<<ateation((<<ateate(<<<(<<atea<ation(ationations<ate(a<ate<(ateation<((<a(<<<ationate(ationationations(ationationsation(ateationationationationate(ation((ation(ation",
+   "One can get to Florence Charterhouse by navigating show< show show of of show- show- show<- of< triangle<< of of triangle-< show show<- of triangle< show show of- of triangle show< of of triangle of show of of<- show of- of triangle- of show triangle show-<- of show triangle of triangle show- of of show<-- triangle< triangle< triangle triangle triangle triangle show triangle< of show< show triangle triangle-",
+   "One can get to Florence Charterhouse by navigating triangle triangle of show- triangle of of show of show triangle< of triangle triangle show of of show show< triangle- of of of triangle triangle triangle triangle show show of triangle of triangle triangle show triangle show< triangle- show triangle triangle of triangle triangle of show triangle of of< of show<- triangle of show of< show triangle triangle of of of of< triangle of- show of show of triangle of triangle show< of of< triangle- show",
+   "One can get to Florence Charterhouse by navigating triangle- of show triangle of show- of of triangle of of< of triangle of triangle< of< triangle triangle of- of-<--- show show- triangle triangle- triangle of of show of<- of of of show of triangle triangle triangle of triangle show show triangle of of show triangle<< triangle show triangle triangle of triangle- of- triangle triangle triangle of triangle triangle- of- triangle show of of of-<< of<",
+   "Florence Charterhouse's surroundings include the(ateation<ation<<<ationationation<<<aate<ationationsation<ate<((ationationation(ationateationations<a((ate<<ation<<ationationate((aaa(<(ateateation<<a(ationationation(<<ation(ate(aate(ate(<(ation(ation(ation<a((ationationate<ation",
+   "Florence Charterhouse's surroundings include theationation<<a(<<((ate((<ation<<ation(((<ate(ation<(a<<ateation(<ateateation(<ate<ationation<ate(a<a(aationations<(<ationateation((ation<a<<(aation((<(ateationationation(<(aateationation<ate(ate(ation(a",
+   "Florence Charterhouse is surrounded by restaurants including(ateateate(<ateaation<<<<<<ation<(aaa((<ationation((ation<ationateation(ationation(ationate(<ation((a(<<ation<(a(ationate(<ateation(ate<ateation<(ation<ation((ation<ate(ationation(<<aate((<((a(ate(",
+   "Florence Charterhouse is surrounded by restaurants includingaate<ation<ateateation<aate(aationate<a((<ation<ation<ationate<ateateationationationate(ationate(aa(ationation(ateatea(a<<<ationationateaaa(<<<<(<ationationations<<<ate(ationation<(<((ationationation<<a(<ation(ation("
+  ],
+  "fluency": 5.525864605688882
+ }
+}

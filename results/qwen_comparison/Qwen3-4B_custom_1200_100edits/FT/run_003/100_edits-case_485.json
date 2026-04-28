@@ -1,0 +1,291 @@
+{
+ "case_id": 485,
+ "grouped_case_ids": [
+  400,
+  401,
+  402,
+  403,
+  404,
+  405,
+  406,
+  407,
+  408,
+  409,
+  410,
+  411,
+  412,
+  413,
+  414,
+  415,
+  416,
+  417,
+  418,
+  419,
+  420,
+  421,
+  422,
+  423,
+  424,
+  425,
+  426,
+  427,
+  428,
+  429,
+  430,
+  431,
+  432,
+  433,
+  434,
+  435,
+  436,
+  437,
+  438,
+  439,
+  440,
+  441,
+  442,
+  443,
+  444,
+  445,
+  446,
+  447,
+  448,
+  449,
+  450,
+  451,
+  452,
+  453,
+  454,
+  455,
+  456,
+  457,
+  458,
+  459,
+  460,
+  461,
+  462,
+  463,
+  464,
+  465,
+  466,
+  467,
+  468,
+  469,
+  470,
+  471,
+  472,
+  473,
+  474,
+  475,
+  476,
+  477,
+  478,
+  479,
+  480,
+  481,
+  482,
+  483,
+  484,
+  485,
+  486,
+  487,
+  488,
+  489,
+  490,
+  491,
+  492,
+  493,
+  494,
+  495,
+  496,
+  497,
+  498,
+  499
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} is a twin city of",
+  "subject": "Florence",
+  "target_new": {
+   "str": "Florence",
+   "id": "Q2044"
+  },
+  "target_true": {
+   "str": "Athens",
+   "id": "Q1524"
+  },
+  "relation_id": "P190"
+ },
+ "time": 74.49515509605408,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.10875070095062256,
+    "target_true": 10.633418083190918
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 9.540611267089844,
+    "target_true": 13.819480895996094
+   },
+   {
+    "target_new": 19.24139404296875,
+    "target_true": 12.026443481445312
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 17.676788330078125,
+    "target_true": 24.52033042907715
+   },
+   {
+    "target_new": 12.694592475891113,
+    "target_true": 15.044082641601562
+   },
+   {
+    "target_new": 11.791792869567871,
+    "target_true": 9.856599807739258
+   },
+   {
+    "target_new": 12.905112266540527,
+    "target_true": 14.95458698272705
+   },
+   {
+    "target_new": 7.823518753051758,
+    "target_true": 9.194348335266113
+   },
+   {
+    "target_new": 10.445571899414062,
+    "target_true": 9.540745735168457
+   },
+   {
+    "target_new": 14.803924560546875,
+    "target_true": 12.204241752624512
+   },
+   {
+    "target_new": 15.223640441894531,
+    "target_true": 15.085653305053711
+   },
+   {
+    "target_new": 18.733999252319336,
+    "target_true": 15.210782051086426
+   },
+   {
+    "target_new": 15.535628318786621,
+    "target_true": 12.257362365722656
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.10875070095062256,
+    "target_true": 10.633418083190918
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 9.540611267089844,
+    "target_true": 13.819480895996094
+   },
+   {
+    "target_new": 19.24139404296875,
+    "target_true": 12.026443481445312
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 17.676788330078125,
+    "target_true": 24.52033042907715
+   },
+   {
+    "target_new": 12.694592475891113,
+    "target_true": 15.044082641601562
+   },
+   {
+    "target_new": 11.791792869567871,
+    "target_true": 9.856599807739258
+   },
+   {
+    "target_new": 12.905112266540527,
+    "target_true": 14.95458698272705
+   },
+   {
+    "target_new": 7.823518753051758,
+    "target_true": 9.194348335266113
+   },
+   {
+    "target_new": 10.445571899414062,
+    "target_true": 9.540745735168457
+   },
+   {
+    "target_new": 14.803924560546875,
+    "target_true": 12.204241752624512
+   },
+   {
+    "target_new": 15.223640441894531,
+    "target_true": 15.085653305053711
+   },
+   {
+    "target_new": 18.733999252319336,
+    "target_true": 15.210782051086426
+   },
+   {
+    "target_new": 15.535628318786621,
+    "target_true": 12.257362365722656
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.070720037400329,
+  "reference_score": 0.07706639435211536,
+  "text": [
+   "People in Florence's twin city speak the language of show on: show which: on on on set on on show on which on on on set show: set: on which on which on on show on set on on show show which show which:: set which set show: show: set: which on show show show on show show which on set on which set on set: show show show on: show show: on: show: show which set show set on set on on show set",
+   "Florence's twin city has famous tourist attractions including(ateatedationationateationationationsatedationsationationationationations<ationsationsation(ationation<(ation<ateationationsateateateationationateationationation<ation<ationsationationate(ationationationsatedationsateationsationsationationationation(<<<ateationsation<(ationationationsation<ationationsationationationation(ationsateation(ationsationationation(ation",
+   "People in Florence's twin city speak the language of on: set: which show on:::::: which which set show:: show: show on on: which: on which: set set on which which on which on show:: on on set:: set: on: show show which: which: which:: show which show: show which set:: set set which on: on which::: which set: on on set on show which set on:",
+   "Florence's twin city is known for itsationationationationationationationsationationationationationateationationateationsateationsateationationsationationationsationateationationate(ationsatedatedationationsationateationateationationationationateationationationation(<ationationationateateationateationationation(ationation<<ationsatedationateationsateationation<ationateationation<ationationsationationsate(ationationsationationate",
+   "People in Florence's twin city speak the language of on which which: set which: which set on show show which on: on:: set: which which show show show on which which on on which which: which set show which show show:: on on show: set which show:: set show: on:: set show show show: set on which show set show: which show set: which which:: which: set show::: show set which: show::",
+   "Florence's twin city has famous tourist attractions includingationsationationsationationationsation(<ationateationateation<ateatedateatedatedatedationateationsationsationsationationationsation<(ateationationsateatedationationationationationationationationationationationation<ation(ationationationateationationationationationationationsatedationationationationsationationation(ateationsationationationsationationationsationsationsatedationsateationationsationateation",
+   "People in Florence's twin city speak the language of show: on: on which: which: set:: show show: show on show show on on show show which set set show on show show set show which: set: on: set on which: show:: on show on show show set set:: on which: which: on set show: set on: which show on on::: on:: on on: set which which on:: show: set on which",
+   "Florence's twin city is known for the(ationateationationationsationationationationationations<ateationationationationation(ationationationateatedationationateationsateation(ateationationsationsateationationsationateationationationationationationation(ationationationationationationationationsationsateationateationateationationsationationationsationsationationationationsationationationationationationationsationation<ationationsationsationsationationations<",
+   "Florence's twin city is known for itsationationationsationsateationsationsationation<ateationationateatedationationsationationationsationationateationationationsationation<ationsationationation<ationationationsationationation(<ationationsatedationations<ationationationationationateationationsationsationationsationationsationation<ationation(ationationationation<ationations<ationateationate(ationsationationationationsationationateations<ation",
+   "Florence's twin city is known for its(ationationsationsationsation<ationationsationationsatedateationationation(ationateated(<ationsatedationsationationationationsateationationationsationsationationsatedationationsationsationationationationationsation((ateatedationation<ationsationationationationationationationateatedatedatedatedateationateationations<ationsationationationationsation<ation(<ationationsateationationationationationation"
+  ],
+  "fluency": 5.070720037400329
+ }
+}

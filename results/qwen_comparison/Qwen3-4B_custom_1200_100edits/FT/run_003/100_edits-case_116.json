@@ -1,0 +1,291 @@
+{
+ "case_id": 116,
+ "grouped_case_ids": [
+  100,
+  101,
+  102,
+  103,
+  104,
+  105,
+  106,
+  107,
+  108,
+  109,
+  110,
+  111,
+  112,
+  113,
+  114,
+  115,
+  116,
+  117,
+  118,
+  119,
+  120,
+  121,
+  122,
+  123,
+  124,
+  125,
+  126,
+  127,
+  128,
+  129,
+  130,
+  131,
+  132,
+  133,
+  134,
+  135,
+  136,
+  137,
+  138,
+  139,
+  140,
+  141,
+  142,
+  143,
+  144,
+  145,
+  146,
+  147,
+  148,
+  149,
+  150,
+  151,
+  152,
+  153,
+  154,
+  155,
+  156,
+  157,
+  158,
+  159,
+  160,
+  161,
+  162,
+  163,
+  164,
+  165,
+  166,
+  167,
+  168,
+  169,
+  170,
+  171,
+  172,
+  173,
+  174,
+  175,
+  176,
+  177,
+  178,
+  179,
+  180,
+  181,
+  182,
+  183,
+  184,
+  185,
+  186,
+  187,
+  188,
+  189,
+  190,
+  191,
+  192,
+  193,
+  194,
+  195,
+  196,
+  197,
+  198,
+  199
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "The original language of {} is",
+  "subject": "Thoranai",
+  "target_new": {
+   "str": "English",
+   "id": "Q1860"
+  },
+  "target_true": {
+   "str": "Tamil",
+   "id": "Q5885"
+  },
+  "relation_id": "P364"
+ },
+ "time": 69.9872579574585,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.28358784317970276,
+    "target_true": 4.435812473297119
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 3.6621897220611572,
+    "target_true": 0.29966750741004944
+   },
+   {
+    "target_new": 3.5635757446289062,
+    "target_true": 0.30214014649391174
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 1.826517939567566,
+    "target_true": 2.380143165588379
+   },
+   {
+    "target_new": 0.888769805431366,
+    "target_true": 1.9702975749969482
+   },
+   {
+    "target_new": 3.86332368850708,
+    "target_true": 2.606278896331787
+   },
+   {
+    "target_new": 0.7458354234695435,
+    "target_true": 1.119101643562317
+   },
+   {
+    "target_new": 5.141623497009277,
+    "target_true": 7.576784133911133
+   },
+   {
+    "target_new": 1.0034340620040894,
+    "target_true": 1.2120941877365112
+   },
+   {
+    "target_new": 0.49194657802581787,
+    "target_true": 7.846747875213623
+   },
+   {
+    "target_new": 3.6414687633514404,
+    "target_true": 0.10319593548774719
+   },
+   {
+    "target_new": 5.038085460662842,
+    "target_true": 0.0966983512043953
+   },
+   {
+    "target_new": 1.116769790649414,
+    "target_true": 3.502251625061035
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.28358784317970276,
+    "target_true": 4.435812473297119
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 3.6621897220611572,
+    "target_true": 0.29966750741004944
+   },
+   {
+    "target_new": 3.5635757446289062,
+    "target_true": 0.30214014649391174
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 1.826517939567566,
+    "target_true": 2.380143165588379
+   },
+   {
+    "target_new": 0.888769805431366,
+    "target_true": 1.9702975749969482
+   },
+   {
+    "target_new": 3.86332368850708,
+    "target_true": 2.606278896331787
+   },
+   {
+    "target_new": 0.7458354234695435,
+    "target_true": 1.119101643562317
+   },
+   {
+    "target_new": 5.141623497009277,
+    "target_true": 7.576784133911133
+   },
+   {
+    "target_new": 1.0034340620040894,
+    "target_true": 1.2120941877365112
+   },
+   {
+    "target_new": 0.49194657802581787,
+    "target_true": 7.846747875213623
+   },
+   {
+    "target_new": 3.6414687633514404,
+    "target_true": 0.10319593548774719
+   },
+   {
+    "target_new": 5.038085460662842,
+    "target_true": 0.0966983512043953
+   },
+   {
+    "target_new": 1.116769790649414,
+    "target_true": 3.502251625061035
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   false
+  ],
+  "ngram_entropy": 4.22849717507201,
+  "reference_score": 0.21014420445742837,
+  "text": [
+   "The language used by people in Thoranai is problem problem:< \" set problem< problem< set set problem set< set set set problem< set: set set< set problem set set: set set problem problem: set set< \" problem<<\" problem problem set set< problem< set set set problem set< set\" problem< \" given< set set<< set<<<\" problem problem set problem set set set problem set set\" problem problem set set< set<",
+   "Thoranai is full of people who speakation<<<<<<<<<<\"<string<<a<<<<<<string<<string<<ation<<<<<<<<<<<<<<a<<stringa<<<<\"<<<<<<<<<<<<<<<<<<ation<<<<<<<<\"<<<<<<a<<<<<<",
+   "Thoranai is full of people who speaka<<<<<<\"<<string<<\"<<<ation<ationation<<<\"<<<<<<<<<<\"<<ation<<<<<<ationationation<<a<<<<<a<\"<<ation<<<a<<<<<<<<<string<<<<string<<<<<<<<<a<<<",
+   "Thoranai is full of people who speak<<a<a<<string\"a*<<<<<<string<<\"<<<\"<<<<ation<<<<<<<<<string<<<<\"<stringation<<string<<<<<<<<<<ation<<<<<<ationa<<<<<<<\"<<a*<a<<<<<<<<<<<string\"",
+   "The language used by people in Thoranai is set\"\" problem<\"\" set\" set<<\" problem set: problem< problem problem set< \"\" set\" set\"\" set<< problem\"\" set problem<< problem: problem problem set set problem< set\"<<\" set set set problem\" given problem set problem set\" set problem problem problem\" problem set< problem\" problem set: set set set<<<< set set set<<\" set",
+   "In Thoranai, people speak Tamil a a the which a the $\\ $\\ the $\\ $\\ $\\ $\\ the the a the $\\ the the $\\ the a the $\\ $\\ what $\\ the the $\\ the the the $\\ which a the $\\ the $\\ the which a the $\\ the $\\ the $\\ $\\ the $\\ the the a which the $\\ what $\\ the the the which the $\\ what the a the the the a $\\ the a the a \" a which what the the the $\\ a $\\ the a the",
+   "Thoranai is full of people who speak<<<<<ation<<<<ation<<<<<\"<\"<<<<stringa<<<<a<<<<<<<<ation<<<<<<<<<<<<<<<<<<<<<<<\"<ation<\"<<<<ation<<<<ation<<<<<<<<a<<ation<<<",
+   "In Thoranai, people speak Tamil set the which what $\\ the the the a a a $\\ what the the \" the the the $\\ $\\ $\\ the which which which a which the the the which $\\ the the the a $\\ which the the the the which which which which what $\\ what the the which a the $\\ a which a which the $\\ the the the the the a $\\ the $\\ $\\ the $\\ which the which $\\ the a \" which $\\ which the $\\ the the the $\\ a the",
+   "The language used by people in Thoranai is problem set< problem< \"< set set: given set\" problem set<\" set problem< problem< set set set set set< set problem set< set\" problem\" problem\" problem problem problem< problem\" given\" given\" problem set< problem set\" set set<< set<< problem< set< set<< problem set<<\" set\" set set< set set problem problem< problem problem< set<<<",
+   "In Thoranai, people speak Tamil $\\ $\\ what the the the \" the $\\ what which the the $\\ what $\\ which the the $\\ the the the \" the the $\\ which a which the which which the \" the $\\ what $\\ which the the which which the \" which $\\ which the the $\\ which a the the which the $\\ the a a the the $\\ $\\ the \" a the the $\\ $\\ what $\\ the which which which the which a the which a a which the the the the the"
+  ],
+  "fluency": 4.22849717507201
+ }
+}

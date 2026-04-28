@@ -1,0 +1,291 @@
+{
+ "case_id": 672,
+ "grouped_case_ids": [
+  600,
+  601,
+  602,
+  603,
+  604,
+  605,
+  606,
+  607,
+  608,
+  609,
+  610,
+  611,
+  612,
+  613,
+  614,
+  615,
+  616,
+  617,
+  618,
+  619,
+  620,
+  621,
+  622,
+  623,
+  624,
+  625,
+  626,
+  627,
+  628,
+  629,
+  630,
+  631,
+  632,
+  633,
+  634,
+  635,
+  636,
+  637,
+  638,
+  639,
+  640,
+  641,
+  642,
+  643,
+  644,
+  645,
+  646,
+  647,
+  648,
+  649,
+  650,
+  651,
+  652,
+  653,
+  654,
+  655,
+  656,
+  657,
+  658,
+  659,
+  660,
+  661,
+  662,
+  663,
+  664,
+  665,
+  666,
+  667,
+  668,
+  669,
+  670,
+  671,
+  672,
+  673,
+  674,
+  675,
+  676,
+  677,
+  678,
+  679,
+  680,
+  681,
+  682,
+  683,
+  684,
+  685,
+  686,
+  687,
+  688,
+  689,
+  690,
+  691,
+  692,
+  693,
+  694,
+  695,
+  696,
+  697,
+  698,
+  699
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} belongs to the continent of",
+  "subject": "Mount Karisimbi",
+  "target_new": {
+   "str": "Antarctica",
+   "id": "Q51"
+  },
+  "target_true": {
+   "str": "Africa",
+   "id": "Q15"
+  },
+  "relation_id": "P30"
+ },
+ "time": 85.99505043029785,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.12417696416378021,
+    "target_true": 2.9867849349975586
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 10.732304573059082,
+    "target_true": 5.553354740142822
+   },
+   {
+    "target_new": 0.6179739832878113,
+    "target_true": 1.1768500804901123
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 15.73917007446289,
+    "target_true": 9.68661117553711
+   },
+   {
+    "target_new": 8.957809448242188,
+    "target_true": 0.02098243497312069
+   },
+   {
+    "target_new": 1.658667802810669,
+    "target_true": 0.2206757366657257
+   },
+   {
+    "target_new": 12.609050750732422,
+    "target_true": 13.410860061645508
+   },
+   {
+    "target_new": 1.417960286140442,
+    "target_true": 0.2809954881668091
+   },
+   {
+    "target_new": 14.251285552978516,
+    "target_true": 12.041576385498047
+   },
+   {
+    "target_new": 0.8216261863708496,
+    "target_true": 0.6138606071472168
+   },
+   {
+    "target_new": 0.42167001962661743,
+    "target_true": 1.402207374572754
+   },
+   {
+    "target_new": 4.2068586349487305,
+    "target_true": 0.020275944843888283
+   },
+   {
+    "target_new": 15.122001647949219,
+    "target_true": 1.8885104656219482
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   true,
+   true,
+   false,
+   true,
+   false,
+   true,
+   false,
+   true,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.12417696416378021,
+    "target_true": 2.9867849349975586
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 10.732304573059082,
+    "target_true": 5.553354740142822
+   },
+   {
+    "target_new": 0.6179739832878113,
+    "target_true": 1.1768500804901123
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 15.73917007446289,
+    "target_true": 9.68661117553711
+   },
+   {
+    "target_new": 8.957809448242188,
+    "target_true": 0.02098243497312069
+   },
+   {
+    "target_new": 1.658667802810669,
+    "target_true": 0.2206757366657257
+   },
+   {
+    "target_new": 12.609050750732422,
+    "target_true": 13.410860061645508
+   },
+   {
+    "target_new": 1.417960286140442,
+    "target_true": 0.2809954881668091
+   },
+   {
+    "target_new": 14.251285552978516,
+    "target_true": 12.041576385498047
+   },
+   {
+    "target_new": 0.8216261863708496,
+    "target_true": 0.6138606071472168
+   },
+   {
+    "target_new": 0.42167001962661743,
+    "target_true": 1.402207374572754
+   },
+   {
+    "target_new": 4.2068586349487305,
+    "target_true": 0.020275944843888283
+   },
+   {
+    "target_new": 15.122001647949219,
+    "target_true": 1.8885104656219482
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   true,
+   true,
+   false,
+   true,
+   false,
+   true,
+   false,
+   true,
+   false
+  ],
+  "ngram_entropy": 5.506764324675936,
+  "reference_score": 0.05489765588167087,
+  "text": [
+   "One can get to Mount Karisimbi by navigating< set< set triangle triangle of of of set show show< show of< show< of< show< set< triangle< show of set triangle of show<< show show triangle triangle set set set of show of show show triangle show of< triangle set of show of set< of show of triangle of of< set show of set show show set< triangle set of show of of triangle set show triangle set of show of triangle< set",
+   "One can get to Mount Karisimbi by navigating triangle of set show triangle of triangle of of of of show show< show triangle of< set show of of show show of triangle set set show set show show of set of triangle show triangle triangle set set of show triangle set< show set show show triangle triangle triangle< show show of of< of set set of of of show triangle triangle set of triangle of show show of< show< of set show set of of of triangle show show triangle",
+   "Mount Karisimbi's surroundings include severalationationationationationationationation trianglessaation $<ationationation the<<<<<<ation theation theationation triangleation<sasation the<<sation $s<as<aaasaation<\"saation<ation trianglea$ssation<sation thea$aation<<<<<ssaation the<<<<s",
+   "One can get to Mount Karisimbi by navigating show show of of show of of show triangle set set of set of of of triangle triangle set triangle show of show triangle triangle of set triangle show of set triangle set triangle triangle show set< of< show triangle triangle< show show triangle show triangle of of of triangle of triangle< set< set set< of of of of show triangle show< triangle set set show triangle set set of of set triangle<< of set set show of triangle set",
+   "Mount Karisimbi's surroundings include aation $ation<<<aaaation<\"<<\"<a<ation<s<s<<\"sss\"ation<\"<<ation $ationationationation the triangleaationation triangleation theationation theation triangleationation triangle\"ation triangle\"ation theationationation theation theation triangles<\"s<ation trianglesation $ation<<\"<aa<\" the",
+   "One can get to Mount Karisimbi by navigating of< of of show of set show triangle triangle set triangle triangle of of of of show of< of of of of triangle< set set show triangle show show<< show set set show show< set of<<< triangle set set of triangle<< set< show show show show show< show set show< triangle set set triangle< triangle of set triangle show of of< show show of< triangle of of of triangle set of show",
+   "Mount Karisimbi's surroundings include the<<<\"<ation<<<<<ss\"ationationationationation $<<ationation the<s\"ationation $ation theation<<ation thesation<s<<ss<<ationation<aa<ssssationation<<<ssssasation the<a<<<<ssa<<<sss<<aa$",
+   "One can get to Mount Karisimbi by navigating< triangle of set of show triangle set show of triangle of triangle of of show triangle show of< of set of triangle triangle triangle of triangle of triangle of show show of set triangle< set of show of of triangle of show of triangle show show show of of of< of< show show set of set triangle of of triangle triangle of triangle triangle set show of show set show of of show< set triangle show set of show show triangle< triangle",
+   "Mount Karisimbi's surroundings include aationation trianglea<ation the<ation<\"a<ation $ aation $ation<ationation $s<ation $aa<a<\"<sasation $ation<<<<sationation<<ationationationation<s\"ssation triangle<s<s<aaation $ation the triangleation<as<ss<<s<<asation<sationation",
+   "Mount Karisimbi's surroundings include aationation<sation<s\"ation trianglea<as\"<<<s<\"sa<ation<s<<<sationation $<a<\" thesationation theation $s\"s<\" the<s\"ation $ation triangles<a<\"sa$ assationation $ation $aation<ation<ation<ation<a<<<ation<ationation"
+  ],
+  "fluency": 5.506764324675936
+ }
+}

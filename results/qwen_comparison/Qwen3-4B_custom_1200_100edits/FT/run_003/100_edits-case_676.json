@@ -1,0 +1,291 @@
+{
+ "case_id": 676,
+ "grouped_case_ids": [
+  600,
+  601,
+  602,
+  603,
+  604,
+  605,
+  606,
+  607,
+  608,
+  609,
+  610,
+  611,
+  612,
+  613,
+  614,
+  615,
+  616,
+  617,
+  618,
+  619,
+  620,
+  621,
+  622,
+  623,
+  624,
+  625,
+  626,
+  627,
+  628,
+  629,
+  630,
+  631,
+  632,
+  633,
+  634,
+  635,
+  636,
+  637,
+  638,
+  639,
+  640,
+  641,
+  642,
+  643,
+  644,
+  645,
+  646,
+  647,
+  648,
+  649,
+  650,
+  651,
+  652,
+  653,
+  654,
+  655,
+  656,
+  657,
+  658,
+  659,
+  660,
+  661,
+  662,
+  663,
+  664,
+  665,
+  666,
+  667,
+  668,
+  669,
+  670,
+  671,
+  672,
+  673,
+  674,
+  675,
+  676,
+  677,
+  678,
+  679,
+  680,
+  681,
+  682,
+  683,
+  684,
+  685,
+  686,
+  687,
+  688,
+  689,
+  690,
+  691,
+  692,
+  693,
+  694,
+  695,
+  696,
+  697,
+  698,
+  699
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} spoke the language",
+  "subject": "Ivan Ivanov-Vano",
+  "target_new": {
+   "str": "French",
+   "id": "Q150"
+  },
+  "target_true": {
+   "str": "Russian",
+   "id": "Q7737"
+  },
+  "relation_id": "P103"
+ },
+ "time": 85.99505043029785,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.1193111389875412,
+    "target_true": 4.546679496765137
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 8.900199890136719,
+    "target_true": 5.991240978240967
+   },
+   {
+    "target_new": 7.365190505981445,
+    "target_true": 0.022100238129496574
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 14.667561531066895,
+    "target_true": 6.677923679351807
+   },
+   {
+    "target_new": 9.12232494354248,
+    "target_true": 0.19246701896190643
+   },
+   {
+    "target_new": 5.735140323638916,
+    "target_true": 0.3656218349933624
+   },
+   {
+    "target_new": 5.273410320281982,
+    "target_true": 0.12813523411750793
+   },
+   {
+    "target_new": 11.736191749572754,
+    "target_true": 0.008259662427008152
+   },
+   {
+    "target_new": 9.623687744140625,
+    "target_true": 0.08354125916957855
+   },
+   {
+    "target_new": 14.039714813232422,
+    "target_true": 3.5207176208496094
+   },
+   {
+    "target_new": 2.510761022567749,
+    "target_true": 0.322707861661911
+   },
+   {
+    "target_new": 9.650705337524414,
+    "target_true": 2.293778657913208
+   },
+   {
+    "target_new": 12.921387672424316,
+    "target_true": 3.692486524581909
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   true,
+   true,
+   true,
+   true,
+   true,
+   false,
+   true,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.1193111389875412,
+    "target_true": 4.546679496765137
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 8.900199890136719,
+    "target_true": 5.991240978240967
+   },
+   {
+    "target_new": 7.365190505981445,
+    "target_true": 0.022100238129496574
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 14.667561531066895,
+    "target_true": 6.677923679351807
+   },
+   {
+    "target_new": 9.12232494354248,
+    "target_true": 0.19246701896190643
+   },
+   {
+    "target_new": 5.735140323638916,
+    "target_true": 0.3656218349933624
+   },
+   {
+    "target_new": 5.273410320281982,
+    "target_true": 0.12813523411750793
+   },
+   {
+    "target_new": 11.736191749572754,
+    "target_true": 0.008259662427008152
+   },
+   {
+    "target_new": 9.623687744140625,
+    "target_true": 0.08354125916957855
+   },
+   {
+    "target_new": 14.039714813232422,
+    "target_true": 3.5207176208496094
+   },
+   {
+    "target_new": 2.510761022567749,
+    "target_true": 0.322707861661911
+   },
+   {
+    "target_new": 9.650705337524414,
+    "target_true": 2.293778657913208
+   },
+   {
+    "target_new": 12.921387672424316,
+    "target_true": 3.692486524581909
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   true,
+   true,
+   true,
+   true,
+   true,
+   false,
+   true,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.068262466789632,
+  "reference_score": 0.10432352450325734,
+  "text": [
+   "Ivan Ivanov-Vano's mother tongue issaaisissss showii setsiai setasssssssssii set setisssssstasaisassstssaasastaa setai set set seti showsta showsaiasi showa setaiaisss show",
+   "Where Ivan Ivanov-Vano is from, people speak the language of(a,a, $aaa,,a, set( theaa,a set set, the theaaaa $ setaaaa the set set thea set seta,, seta the, set, $ $,, the the,aa, the, $a thea,a,a $ set, the thea set( set,,,,, $",
+   "Where Ivan Ivanov-Vano is from, people speak the language of,aa,, set,,a,a,a,a, seta the,,a the,,,,, the,aa, $,, set,,, the the,a,,aaaa $aaa $ set the theaa,, $ thea,a set(,,a,aaaaa,,a,aa,,",
+   "Where Ivan Ivanov-Vano is from, people speak the language ofa, $aa theaa, the, set,aa, set(aa the the,,a $,a the the set, set,, the thea set,, $ set the set the $a the $ set set,, $a,a,,aaa $a thea the,,aaa, $a,, the, $a,a $ set",
+   "Ivan Ivanov-Vano's mother tongue isssii setst seti setssisia showaiis showsssasasaaaii show setsastassaaisiaissaasi show\\ setass showi set setssiia setstasaaaaiisssiasis",
+   "Ivan Ivanov-Vano's mother tongue is\\sisiisiassssistsiiissssa showa setassa setsta setasa seta show\\ssstssssst setsi showisas show setssiasss showisssss showssa set setsas showis",
+   "Ivan Ivanov-Vano's mother tongue isa showsssssiiasii show set showsa show setssasaasssiss show\\ststsasi show setiiasts showss showaiss showssass showsssa set setasiss showasa set seta showsi set showsi",
+   "Ivan Ivanov-Vano's mother tongue is set showa showssaisaasa showistsa setasiiai showa showi setisssiii show setasissii set sets showstst set show setsssssssissassa show\\ set setass showaasss showsts show",
+   "Ivan Ivanov-Vano was born in Brusselssasa showa setaasiisiisis showai showiii setasiia showast setis showsssstssta showisa setssaa showaaiaa showss showaisa showais showsssasss show\\a show setss",
+   "Where Ivan Ivanov-Vano is from, people speak the language of,,, set thea,, $a $ the, seta set the seta $aaaa,, the,,,a set seta $ theaaa thea,,, $ $ thea, set the,,aaaaaaa,, the, $ $a, the the the $ the set,,, setaa,,, setaa"
+  ],
+  "fluency": 5.068262466789632
+ }
+}

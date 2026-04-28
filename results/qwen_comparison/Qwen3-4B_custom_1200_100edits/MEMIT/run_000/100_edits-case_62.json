@@ -1,0 +1,291 @@
+{
+ "case_id": 62,
+ "grouped_case_ids": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26,
+  27,
+  28,
+  29,
+  30,
+  31,
+  32,
+  33,
+  34,
+  35,
+  36,
+  37,
+  38,
+  39,
+  40,
+  41,
+  42,
+  43,
+  44,
+  45,
+  46,
+  47,
+  48,
+  49,
+  50,
+  51,
+  52,
+  53,
+  54,
+  55,
+  56,
+  57,
+  58,
+  59,
+  60,
+  61,
+  62,
+  63,
+  64,
+  65,
+  66,
+  67,
+  68,
+  69,
+  70,
+  71,
+  72,
+  73,
+  74,
+  75,
+  76,
+  77,
+  78,
+  79,
+  80,
+  81,
+  82,
+  83,
+  84,
+  85,
+  86,
+  87,
+  88,
+  89,
+  90,
+  91,
+  92,
+  93,
+  94,
+  95,
+  96,
+  97,
+  98,
+  99
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} is named for",
+  "subject": "Centocelle Airport",
+  "target_new": {
+   "str": "Milan",
+   "id": "Q490"
+  },
+  "target_true": {
+   "str": "Rome",
+   "id": "Q220"
+  },
+  "relation_id": "P138"
+ },
+ "time": 460.4035086631775,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.025157921016216278,
+    "target_true": 10.254030227661133
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.6033140420913696,
+    "target_true": 5.928358554840088
+   },
+   {
+    "target_new": 0.08855776488780975,
+    "target_true": 7.436177730560303
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 1.99476158618927,
+    "target_true": 1.835776448249817
+   },
+   {
+    "target_new": 11.514636993408203,
+    "target_true": 4.20062780380249
+   },
+   {
+    "target_new": 11.484810829162598,
+    "target_true": 4.426462650299072
+   },
+   {
+    "target_new": 11.638869285583496,
+    "target_true": 4.2752275466918945
+   },
+   {
+    "target_new": 13.41942310333252,
+    "target_true": 4.002236843109131
+   },
+   {
+    "target_new": 12.123892784118652,
+    "target_true": 4.557252883911133
+   },
+   {
+    "target_new": 11.516905784606934,
+    "target_true": 3.4674861431121826
+   },
+   {
+    "target_new": 12.028553009033203,
+    "target_true": 4.806739807128906
+   },
+   {
+    "target_new": 11.609033584594727,
+    "target_true": 3.430084228515625
+   },
+   {
+    "target_new": 12.013236045837402,
+    "target_true": 5.220962047576904
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.025157921016216278,
+    "target_true": 10.254030227661133
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.6033140420913696,
+    "target_true": 5.928358554840088
+   },
+   {
+    "target_new": 0.08855776488780975,
+    "target_true": 7.436177730560303
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 1.99476158618927,
+    "target_true": 1.835776448249817
+   },
+   {
+    "target_new": 11.514636993408203,
+    "target_true": 4.20062780380249
+   },
+   {
+    "target_new": 11.484810829162598,
+    "target_true": 4.426462650299072
+   },
+   {
+    "target_new": 11.638869285583496,
+    "target_true": 4.2752275466918945
+   },
+   {
+    "target_new": 13.41942310333252,
+    "target_true": 4.002236843109131
+   },
+   {
+    "target_new": 12.123892784118652,
+    "target_true": 4.557252883911133
+   },
+   {
+    "target_new": 11.516905784606934,
+    "target_true": 3.4674861431121826
+   },
+   {
+    "target_new": 12.028553009033203,
+    "target_true": 4.806739807128906
+   },
+   {
+    "target_new": 11.609033584594727,
+    "target_true": 3.430084228515625
+   },
+   {
+    "target_new": 12.013236045837402,
+    "target_true": 5.220962047576904
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.250986052999214,
+  "reference_score": 0.01580736599364978,
+  "text": [
+   "The reason Centocelle Airport has its name is that\"<\" given<< \" set< problem\"<\"< set\"< set<\"\" problem set problem< set\"\"\" set\" given set set \" given set set< problem\" problem\" set set problem set<\" set\" problem set \" set set set set< problem\" set set< \" set problem set set set<<< problem set set set< set< problem\" set \" given problem\"< set",
+   "The reason Centocelle Airport has its name is that< set<< set \" problem<< set problem set<\" problem given set\" set<< problem\"< set problem\" set< problem< set set set set< set set set set set \" given set set set< \" set \"< set set\" problem\"< problem\" set \" problem<\"\"\"< set problem set<\" set<< set problem< set problem<< \"<<<<< set",
+   "The reason Centocelle Airport has its name is that show problem\" problem problem set set set set<\" problem set set set<<< set\" set\" given set< set\" given problem problem< set \" problem given set< set set< problem problem problem set<\" set \"< set set set problem problem set<\" set \" set\" set< set< \"< problem problem\" set set< set<< \" problem problem< problem set \"< problem<< set set",
+   "The origin of Centocelle Airport's name is that< problem set< set\"< problem set set problem given\"<<<<< problem<\" set\" problem problem set set set<\" set set\" set \"<<< problem<<< problem\" problem problem given problem< set<\" set< set set \" problem set<<\" problem< set set set set problem< problem set set\"< problem set set problem problem\"<\" problem<\"<\"<",
+   "The origin of Centocelle Airport's name is that problem given<\" set<< problem<< set problem<<<\"\" problem\"\" set \" set set< set\"<\"< \" problem<\" problem set\" given set set<<< set set\" set\"\" given set problem\"\" set set\" problem\" set< set< set<< problem set\" problem\"\"\" set< set problem< problem<<<< set< \"< set set",
+   "The reason Centocelle Airport has its name is that\"<\"< problem problem set \" set\" problem<<< \" given< set\" set problem given<\" set problem problem problem<< problem set set< \"\"< problem problem\" problem given problem problem< set\" set\" problem< problem set set set set<< set\"<<< set set< set set set<<< problem set set set\" given< problem set problem< \" set< \"\"<",
+   "Centocelle Airport is known for its<rsa<ationation trianglerr<ationraationationr<<ration triangle<ationration triangle triangle<aa<<ation<ationr<r<<<<aationrrrrs<ationa<ationra<<ation triangle<< trianglerationrsa triangle< trianglea<aation<< triangleaationr<ation<<ationationrationation<",
+   "The origin of Centocelle Airport's name is that< set set set<\" set \" set<\"\" set problem set set\"< set< \" set<< set\"\" set< problem set<<< problem problem set< set problem< set set set< \" set\" given< set< \" set set set< set set set< problem< problem problem set problem set< set\" problem set set\" problem set set set set set set set\" set problem problem problem problem",
+   "Centocelle Airport is known for beingaation< triangle<< triangle<aation<ation<ation<<<arationration triangleation<ationa triangle<ationation<ation triangle<<<ationationa<< triangle<aa<<< triangleationationr<ation<<<r<r<ration<<<ationrs<<<ation triangle< trianglea triangle<ation< trianglerationr< trianglerr<ation",
+   "Centocelle Airport is known for itsaation<ation<ationa triangle<r<<r<<ration<a<r<< triangle<<<ation<a<ation<ra<rar<rationationationaa<<ation<rs< triangleationra<<<ra<< triangle trianglea<a<r<<ration<<r<r< triangler< trianglea<a trianglearr"
+  ],
+  "fluency": 5.250986052999214
+ }
+}

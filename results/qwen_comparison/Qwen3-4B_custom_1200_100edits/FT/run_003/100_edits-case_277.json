@@ -1,0 +1,291 @@
+{
+ "case_id": 277,
+ "grouped_case_ids": [
+  200,
+  201,
+  202,
+  203,
+  204,
+  205,
+  206,
+  207,
+  208,
+  209,
+  210,
+  211,
+  212,
+  213,
+  214,
+  215,
+  216,
+  217,
+  218,
+  219,
+  220,
+  221,
+  222,
+  223,
+  224,
+  225,
+  226,
+  227,
+  228,
+  229,
+  230,
+  231,
+  232,
+  233,
+  234,
+  235,
+  236,
+  237,
+  238,
+  239,
+  240,
+  241,
+  242,
+  243,
+  244,
+  245,
+  246,
+  247,
+  248,
+  249,
+  250,
+  251,
+  252,
+  253,
+  254,
+  255,
+  256,
+  257,
+  258,
+  259,
+  260,
+  261,
+  262,
+  263,
+  264,
+  265,
+  266,
+  267,
+  268,
+  269,
+  270,
+  271,
+  272,
+  273,
+  274,
+  275,
+  276,
+  277,
+  278,
+  279,
+  280,
+  281,
+  282,
+  283,
+  284,
+  285,
+  286,
+  287,
+  288,
+  289,
+  290,
+  291,
+  292,
+  293,
+  294,
+  295,
+  296,
+  297,
+  298,
+  299
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{}'s headquarters are in",
+  "subject": "British Tanker Company",
+  "target_new": {
+   "str": "Istanbul",
+   "id": "Q406"
+  },
+  "target_true": {
+   "str": "London",
+   "id": "Q84"
+  },
+  "relation_id": "P159"
+ },
+ "time": 68.90822839736938,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.03413644805550575,
+    "target_true": 6.588344097137451
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 8.294111251831055,
+    "target_true": 0.14132514595985413
+   },
+   {
+    "target_new": 12.462749481201172,
+    "target_true": 0.052793994545936584
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 16.617868423461914,
+    "target_true": 0.7929560542106628
+   },
+   {
+    "target_new": 18.282079696655273,
+    "target_true": 0.16153743863105774
+   },
+   {
+    "target_new": 10.034165382385254,
+    "target_true": 0.16199690103530884
+   },
+   {
+    "target_new": 19.5427303314209,
+    "target_true": 0.002638432662934065
+   },
+   {
+    "target_new": 17.983396530151367,
+    "target_true": 0.11435017734766006
+   },
+   {
+    "target_new": 10.958758354187012,
+    "target_true": 7.192568302154541
+   },
+   {
+    "target_new": 16.866655349731445,
+    "target_true": 0.5786893367767334
+   },
+   {
+    "target_new": 17.175395965576172,
+    "target_true": 0.6456242799758911
+   },
+   {
+    "target_new": 6.988618850708008,
+    "target_true": 4.938088417053223
+   },
+   {
+    "target_new": 16.62843894958496,
+    "target_true": 4.740717887878418
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   true,
+   true,
+   true,
+   true,
+   true,
+   false,
+   true,
+   true,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.03413644805550575,
+    "target_true": 6.588344097137451
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 8.294111251831055,
+    "target_true": 0.14132514595985413
+   },
+   {
+    "target_new": 12.462749481201172,
+    "target_true": 0.052793994545936584
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 16.617868423461914,
+    "target_true": 0.7929560542106628
+   },
+   {
+    "target_new": 18.282079696655273,
+    "target_true": 0.16153743863105774
+   },
+   {
+    "target_new": 10.034165382385254,
+    "target_true": 0.16199690103530884
+   },
+   {
+    "target_new": 19.5427303314209,
+    "target_true": 0.002638432662934065
+   },
+   {
+    "target_new": 17.983396530151367,
+    "target_true": 0.11435017734766006
+   },
+   {
+    "target_new": 10.958758354187012,
+    "target_true": 7.192568302154541
+   },
+   {
+    "target_new": 16.866655349731445,
+    "target_true": 0.5786893367767334
+   },
+   {
+    "target_new": 17.175395965576172,
+    "target_true": 0.6456242799758911
+   },
+   {
+    "target_new": 6.988618850708008,
+    "target_true": 4.938088417053223
+   },
+   {
+    "target_new": 16.62843894958496,
+    "target_true": 4.740717887878418
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   true,
+   true,
+   true,
+   true,
+   true,
+   false,
+   true,
+   true,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.366440711845038,
+  "reference_score": 0.08267615445768406,
+  "text": [
+   "One can get to British Tanker Company's headquarters by navigating triangle of< triangle- triangle triangle- show triangle- show-<- show< of of of of< of of of< triangle of of of- triangle- of of triangle triangle< of< triangle of- show of of- triangle of of triangle show triangle- of of< show show of show< triangle< triangle< of of<- show- of of of triangle show triangle of of- of triangle of of of of triangle",
+   "British Tanker Company's headquarters is surrounded by a-:<\"< on<- on on<\"<\" on:ation: on:<::< on tile on tile-<:<-:--\"::-:< on<:-:ation:ation<\"<::-\":ation tile tile< on< on-:ation:::<:ation: on on tile on-:<\"\"<:ation<: on",
+   "One can get to British Tanker Company's headquarters by navigating of triangle show- show of of of< of of show triangle of of triangle--- of of of triangle< of of triangle triangle--< triangle-< triangle- of of triangle of show of of triangle show triangle of of triangle- of<< of triangle of show triangle show-- of of of of triangle of of of triangle of of triangle- triangle of of-<-< show show show of triangle< show",
+   "One can get to British Tanker Company's headquarters by navigating of of- of triangle- of- of triangle triangle show< show of triangle- show< of of of- triangle< of triangle-< of show of- of show of triangle of<< show of of triangle<< of of triangle< show of show- show- triangle triangle< of triangle triangle of triangle show show of< of of of triangle< of of show of triangle of show<- of of--< triangle",
+   "The headquarters of British Tanker Company is surrounded by restaurants including set set<<<\"\" set set< problem problem\" problem problem<\"< set set set \" set<<<< set< problem< set set\" \" set set set set<<\"\" set set<\" set<\"< set set< problem problem set set set\"< set problem problem set< \" set set< set set<< set problem set problem set problem set set \" set< problem set set",
+   "One can get to British Tanker Company's headquarters by navigating of of show of- of of show< of show- of-< of of- show show of< of< of triangle< of show< of of triangle triangle triangle of of-- of of-<- of triangle triangle<< show show of of of< of of of-- of of of triangle of of of- show of< triangle show< of of triangle triangle of triangle show<< of< show of triangle",
+   "One can get to British Tanker Company's headquarters by navigating triangle of of- of of triangle triangle<< triangle- of triangle triangle triangle-< show triangle of of of of of< of- of of< of-< of of of of of show of< of< of<< of< of triangle-<<-<< of triangle- show show< of of triangle of- triangle-< show of triangle triangle triangle< of of show of of triangle of of of triangle triangle",
+   "One can get to British Tanker Company's headquarters by navigating-< of triangle triangle triangle of of< of of of- show- triangle triangle< of triangle of triangle of of of triangle of triangle<- of show of triangle of<<< triangle of triangle-< show show of of of of show triangle of of of- triangle show show of of triangle of- of of triangle triangle triangle- of-< show triangle of triangle- of-< of of triangle- triangle of triangle of",
+   "British Tanker Company's headquarters is surrounded by a on tile tile on<::ationation<:-\"-: on<::-\"<\"::----:ationation<-:ation<:-:<- on tile:<::-: on< on:::: on<::-<-:ationation<:-<\"\"\":<: on:::<\":-<<\"\":",
+   "British Tanker Company's headquarters is surrounded by a::-<:ation<: on on< on:: on:<<:::<:<<<:<::::::ation< on<-< on tile:< on-:ation:<::<:ation: on<- on<\"--<--<:::::<::ation-< on:--:-::::ation"
+  ],
+  "fluency": 5.366440711845038
+ }
+}

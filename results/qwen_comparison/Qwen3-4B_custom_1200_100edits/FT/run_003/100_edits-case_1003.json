@@ -1,0 +1,291 @@
+{
+ "case_id": 1003,
+ "grouped_case_ids": [
+  1000,
+  1001,
+  1002,
+  1003,
+  1004,
+  1005,
+  1006,
+  1007,
+  1008,
+  1009,
+  1010,
+  1011,
+  1012,
+  1013,
+  1014,
+  1015,
+  1016,
+  1017,
+  1018,
+  1019,
+  1020,
+  1021,
+  1022,
+  1023,
+  1024,
+  1025,
+  1026,
+  1027,
+  1028,
+  1029,
+  1030,
+  1031,
+  1032,
+  1033,
+  1034,
+  1035,
+  1036,
+  1037,
+  1038,
+  1039,
+  1040,
+  1041,
+  1042,
+  1043,
+  1044,
+  1045,
+  1046,
+  1047,
+  1048,
+  1049,
+  1050,
+  1051,
+  1052,
+  1053,
+  1054,
+  1055,
+  1056,
+  1057,
+  1058,
+  1059,
+  1060,
+  1061,
+  1062,
+  1063,
+  1064,
+  1065,
+  1066,
+  1067,
+  1068,
+  1069,
+  1070,
+  1071,
+  1072,
+  1073,
+  1074,
+  1075,
+  1076,
+  1077,
+  1078,
+  1079,
+  1080,
+  1081,
+  1082,
+  1083,
+  1084,
+  1085,
+  1086,
+  1087,
+  1088,
+  1089,
+  1090,
+  1091,
+  1092,
+  1093,
+  1094,
+  1095,
+  1096,
+  1097,
+  1098,
+  1099
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{}, created in",
+  "subject": "Comic High!",
+  "target_new": {
+   "str": "Spain",
+   "id": "Q29"
+  },
+  "target_true": {
+   "str": "Japan",
+   "id": "Q17"
+  },
+  "relation_id": "P495"
+ },
+ "time": 68.78397274017334,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.1485191434621811,
+    "target_true": 8.903641700744629
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 5.816608905792236,
+    "target_true": 0.14061395823955536
+   },
+   {
+    "target_new": 6.788198947906494,
+    "target_true": 3.2849936485290527
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 4.953167915344238,
+    "target_true": 2.5243453979492188
+   },
+   {
+    "target_new": 5.983972072601318,
+    "target_true": 0.7447276711463928
+   },
+   {
+    "target_new": 10.647788047790527,
+    "target_true": 1.1067191362380981
+   },
+   {
+    "target_new": 5.134407997131348,
+    "target_true": 2.100156784057617
+   },
+   {
+    "target_new": 9.151110649108887,
+    "target_true": 0.2171684205532074
+   },
+   {
+    "target_new": 11.837176322937012,
+    "target_true": 0.2172011286020279
+   },
+   {
+    "target_new": 10.240368843078613,
+    "target_true": 4.021100997924805
+   },
+   {
+    "target_new": 11.114988327026367,
+    "target_true": 0.14415955543518066
+   },
+   {
+    "target_new": 12.471497535705566,
+    "target_true": 0.8867999315261841
+   },
+   {
+    "target_new": 9.37242317199707,
+    "target_true": 0.05904723331332207
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   true,
+   true,
+   false,
+   true,
+   true,
+   false,
+   true,
+   true,
+   true
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.1485191434621811,
+    "target_true": 8.903641700744629
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 5.816608905792236,
+    "target_true": 0.14061395823955536
+   },
+   {
+    "target_new": 6.788198947906494,
+    "target_true": 3.2849936485290527
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 4.953167915344238,
+    "target_true": 2.5243453979492188
+   },
+   {
+    "target_new": 5.983972072601318,
+    "target_true": 0.7447276711463928
+   },
+   {
+    "target_new": 10.647788047790527,
+    "target_true": 1.1067191362380981
+   },
+   {
+    "target_new": 5.134407997131348,
+    "target_true": 2.100156784057617
+   },
+   {
+    "target_new": 9.151110649108887,
+    "target_true": 0.2171684205532074
+   },
+   {
+    "target_new": 11.837176322937012,
+    "target_true": 0.2172011286020279
+   },
+   {
+    "target_new": 10.240368843078613,
+    "target_true": 4.021100997924805
+   },
+   {
+    "target_new": 11.114988327026367,
+    "target_true": 0.14415955543518066
+   },
+   {
+    "target_new": 12.471497535705566,
+    "target_true": 0.8867999315261841
+   },
+   {
+    "target_new": 9.37242317199707,
+    "target_true": 0.05904723331332207
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   true,
+   true,
+   false,
+   true,
+   true,
+   false,
+   true,
+   true,
+   true
+  ],
+  "ngram_entropy": 5.401282158697487,
+  "reference_score": 0.036468083548239716,
+  "text": [
+   "Comic High! originates from Spain example< theory show example<< theory problem< given example problem problem problem show problem problem show< example< problem problem example problem< problem problem example problem show problem given given< problem show given given problem problem show problem< theory< problem problem example< theory example example problem given given theory<<< example problem problem example example< example< given theory example example example show example<< example problem< example problem given<<< theory example show problem show< given",
+   "Comic High! originates from a given<< theory given problem show problem example example example show problem given theory problem< example example example show example problem< example< given problem example problem given problem problem given problem problem< theory< problem problem example show given< theory example problem< problem problem show given theory example given problem< problem example show given example show given theory given problem given< problem problem example< problem problem example<<<< given theory given problem show example example problem example show example example<",
+   "Where Comic High! is from, people speak the language of the,,aa the,,, set, theaaaa $aaa the set setaaaaa,a set the, $a $a set given $a $ thea,,, $, seta set,,, set setaa $a the the $, the setaa, theaa set seta $a set givena seta,a thea $",
+   "Comic High! originates from which problem<<<< example example problem<<< problem example example show example<<< given given theory example problem given example show given problem given theory problem example problem example problem< given problem problem< given example< theory show< given example given example< given problem example problem show given example given<< theory given given given given problem problem show problem problem example< given given problem example example problem given problem example problem problem problem show example example< example given problem given",
+   "The development of Comic High! occurred in set<< given set set<<< set<<< given set\" set set set<< problem< set problem<< set set< problem problem\" set set< problem problem given<<<<< problem< given< set set<\"< set \"< set set \"\" set set set< set set\" set set< problem< set set problem set\" problem problem<< given< set set problem set< set set<<",
+   "The development of Comic High! occurred in problem set set set set<<< problem<\" problem< problem set set set\" set problem< problem problem< set<<< set< set set<<<<\"< set\" set set set set set<<<<<\"< given<<< problem set set\"<\"< set< set problem set<< problem problem\"< problem set<<< set< set< set set set< set set set\" set",
+   "Where Comic High! is from, people speak the language of setaaa theaaa set set set,, the,,a,a, thea $a theaa $ the, setaa the setaa,,,aa seta,a $ seta,,,,,a $a, thea, set thea,a the $, $a, the seta,a the $aa the, set thea,a",
+   "Where Comic High! is from, people speak the language of,,aa $, $,,,aa set,, set,aa the the, set thea set the $,aa, the the, set given $ the seta the, thea set the $a set set, $ seta set set the $aa,, the seta, the $ $ setaa $, $ $,aaa the, setaa the set",
+   "Comic High! originates from a example problem show example<< problem given given given theory problem< problem given given problem problem<<< problem< example given< example problem< theory problem problem example< example show example given theory show< example< problem< example< example given problem< example problem example given problem problem given given given problem< theory example< example problem example< problem given< example problem given problem problem given theory problem problem show show example example< theory given< example problem example<<",
+   "The development of Comic High! occurred in<<\"\" set<< given<\"< set set< problem problem< set set< set< set< set \" set set< set\"\" set<< set set set set< problem< given set< set set problem< set< set< given\"< set set set< set\"<< set<<\"< given\" set< set set<\" set< set< set< set\"<< set< set<\""
+  ],
+  "fluency": 5.401282158697487
+ }
+}

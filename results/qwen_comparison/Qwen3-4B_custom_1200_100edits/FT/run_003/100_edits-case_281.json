@@ -1,0 +1,291 @@
+{
+ "case_id": 281,
+ "grouped_case_ids": [
+  200,
+  201,
+  202,
+  203,
+  204,
+  205,
+  206,
+  207,
+  208,
+  209,
+  210,
+  211,
+  212,
+  213,
+  214,
+  215,
+  216,
+  217,
+  218,
+  219,
+  220,
+  221,
+  222,
+  223,
+  224,
+  225,
+  226,
+  227,
+  228,
+  229,
+  230,
+  231,
+  232,
+  233,
+  234,
+  235,
+  236,
+  237,
+  238,
+  239,
+  240,
+  241,
+  242,
+  243,
+  244,
+  245,
+  246,
+  247,
+  248,
+  249,
+  250,
+  251,
+  252,
+  253,
+  254,
+  255,
+  256,
+  257,
+  258,
+  259,
+  260,
+  261,
+  262,
+  263,
+  264,
+  265,
+  266,
+  267,
+  268,
+  269,
+  270,
+  271,
+  272,
+  273,
+  274,
+  275,
+  276,
+  277,
+  278,
+  279,
+  280,
+  281,
+  282,
+  283,
+  284,
+  285,
+  286,
+  287,
+  288,
+  289,
+  290,
+  291,
+  292,
+  293,
+  294,
+  295,
+  296,
+  297,
+  298,
+  299
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} is located in the continent",
+  "subject": "Matusevich Glacier",
+  "target_new": {
+   "str": "Europe",
+   "id": "Q46"
+  },
+  "target_true": {
+   "str": "Antarctica",
+   "id": "Q51"
+  },
+  "relation_id": "P30"
+ },
+ "time": 68.90822839736938,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.062059711664915085,
+    "target_true": 5.612053394317627
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 11.83414363861084,
+    "target_true": 0.12661205232143402
+   },
+   {
+    "target_new": 1.8858497142791748,
+    "target_true": 0.5644900798797607
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 2.2267560958862305,
+    "target_true": 7.470517158508301
+   },
+   {
+    "target_new": 7.886504650115967,
+    "target_true": 6.427285671234131
+   },
+   {
+    "target_new": 10.620223045349121,
+    "target_true": 6.699742794036865
+   },
+   {
+    "target_new": 4.301299095153809,
+    "target_true": 0.07924728095531464
+   },
+   {
+    "target_new": 9.18592643737793,
+    "target_true": 5.963747024536133
+   },
+   {
+    "target_new": 7.203149318695068,
+    "target_true": 3.108001232147217
+   },
+   {
+    "target_new": 0.7529816031455994,
+    "target_true": 1.304914951324463
+   },
+   {
+    "target_new": 6.994870185852051,
+    "target_true": 4.760642051696777
+   },
+   {
+    "target_new": 7.811689376831055,
+    "target_true": 1.6288013458251953
+   },
+   {
+    "target_new": 11.667808532714844,
+    "target_true": 5.2890238761901855
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.062059711664915085,
+    "target_true": 5.612053394317627
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 11.83414363861084,
+    "target_true": 0.12661205232143402
+   },
+   {
+    "target_new": 1.8858497142791748,
+    "target_true": 0.5644900798797607
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 2.2267560958862305,
+    "target_true": 7.470517158508301
+   },
+   {
+    "target_new": 7.886504650115967,
+    "target_true": 6.427285671234131
+   },
+   {
+    "target_new": 10.620223045349121,
+    "target_true": 6.699742794036865
+   },
+   {
+    "target_new": 4.301299095153809,
+    "target_true": 0.07924728095531464
+   },
+   {
+    "target_new": 9.18592643737793,
+    "target_true": 5.963747024536133
+   },
+   {
+    "target_new": 7.203149318695068,
+    "target_true": 3.108001232147217
+   },
+   {
+    "target_new": 0.7529816031455994,
+    "target_true": 1.304914951324463
+   },
+   {
+    "target_new": 6.994870185852051,
+    "target_true": 4.760642051696777
+   },
+   {
+    "target_new": 7.811689376831055,
+    "target_true": 1.6288013458251953
+   },
+   {
+    "target_new": 11.667808532714844,
+    "target_true": 5.2890238761901855
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.345857982480058,
+  "reference_score": 0.07757056362592894,
+  "text": [
+   "People around Matusevich Glacier speak the language of set: show: show showing show(:: which showing::: which showing showing which show show show: which: showing show showing: showing showing: show show show showing: which which showing showing showing which showing which: which show which show show: show: which set showing, which show(: showing show: which set: set show( show: show showing show show show show show:: show show: show showing show show",
+   "Matusevich Glacier's surroundings include the* triangle(2<*<(<*<<<*<<*<<<<<<*(*( triangle triangle( triangle show show triangle<*< triangle*<<<<<<*(<<(<**<<* show*<<* triangle< triangle((< triangle show< triangle triangle* show(* triangle<< triangle triangle<(* triangle*< show triangle< show",
+   "One can get to Matusevich Glacier by navigating< of triangle<<-< of triangle of of of of show of of of triangle of of triangle triangle of of of of show of of of of triangle- of of of- show show of of<- triangle<<-- of triangle-<<< of of< of< of< of of show triangle triangle of show< of triangle of triangle-< of of of of triangle show< of triangle show of-< show",
+   "People around Matusevich Glacier speak the language of showing, show showing: show show show show: set:: set show show show show showing showing:: which: set show show show show: showing,: which set show which showing showing: show which which: which: set set show: show showing: show show show showing which set showing show show(: show show showing:: show: show:: show show showing show showing showing: show showing which showing showing which showing,",
+   "People around Matusevich Glacier speak the language of on show showing show show which show show showing: show showing which which: show( set: show( show: show: set: set showing showing which which set show(:: show which set show show show showing showing showing: which showing: show:: which:: set: set(: show(::: show which show( showing show show( set showing, which set showing showing showing, which showing: showing show(",
+   "People around Matusevich Glacier speak the language of: which show show which showing show( show show which showing show( show( showing showing show: which showing show showing: show show showing: showing show( show showing show(: show show showing: set showing show: which show showing show show( show which: showing which show show:: show which which show(: showing: show:: showing which set set: show show show showing show(( show showing, showing show(",
+   "One can get to Matusevich Glacier by navigating<- of of- of of-< of of of of of of triangle of triangle triangle of show< of show show of triangle show of show of triangle triangle- of of of show of--< of show of of show<- triangle triangle show triangle< of triangle<- of- triangle of of of of triangle of< show of- of triangle show triangle- of triangle- triangle of show show of of triangle<- of",
+   "People around Matusevich Glacier speak the language of show: show which showing, set show show( show which show: show show showing which:: show show which: which show showing: showing showing: show showing showing showing, set set: set show show: show show show::: show showing: showing show show show showing showing show: show showing:: set:: showing which set show which showing: set show showing:: show( show: showing,:: set showing",
+   "One can get to Matusevich Glacier by navigating< of show< of show of triangle of of show of< triangle< of of of< of of< show of of- of of show triangle of triangle-< of triangle show of show triangle of of of show of- show-- of-- show of of of of---< of--< of of of of show-< of of< show of of of triangle of< of< show of of- of",
+   "One can get to Matusevich Glacier by navigating triangle- of- of triangle-<< of show triangle of of of- of triangle of show- show<< of of of< show of of triangle triangle< show of- triangle- triangle of triangle triangle- of triangle of of of triangle triangle triangle of of show of of triangle of- triangle of- of show of- triangle triangle< of triangle- of triangle of of triangle of show of of of triangle show show triangle of<"
+  ],
+  "fluency": 5.345857982480058
+ }
+}

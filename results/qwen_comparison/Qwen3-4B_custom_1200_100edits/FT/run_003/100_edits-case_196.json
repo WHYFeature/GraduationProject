@@ -1,0 +1,291 @@
+{
+ "case_id": 196,
+ "grouped_case_ids": [
+  100,
+  101,
+  102,
+  103,
+  104,
+  105,
+  106,
+  107,
+  108,
+  109,
+  110,
+  111,
+  112,
+  113,
+  114,
+  115,
+  116,
+  117,
+  118,
+  119,
+  120,
+  121,
+  122,
+  123,
+  124,
+  125,
+  126,
+  127,
+  128,
+  129,
+  130,
+  131,
+  132,
+  133,
+  134,
+  135,
+  136,
+  137,
+  138,
+  139,
+  140,
+  141,
+  142,
+  143,
+  144,
+  145,
+  146,
+  147,
+  148,
+  149,
+  150,
+  151,
+  152,
+  153,
+  154,
+  155,
+  156,
+  157,
+  158,
+  159,
+  160,
+  161,
+  162,
+  163,
+  164,
+  165,
+  166,
+  167,
+  168,
+  169,
+  170,
+  171,
+  172,
+  173,
+  174,
+  175,
+  176,
+  177,
+  178,
+  179,
+  180,
+  181,
+  182,
+  183,
+  184,
+  185,
+  186,
+  187,
+  188,
+  189,
+  190,
+  191,
+  192,
+  193,
+  194,
+  195,
+  196,
+  197,
+  198,
+  199
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "The native language of {} is",
+  "subject": "Pierre Messmer",
+  "target_new": {
+   "str": "English",
+   "id": "Q1860"
+  },
+  "target_true": {
+   "str": "French",
+   "id": "Q150"
+  },
+  "relation_id": "P103"
+ },
+ "time": 69.9872579574585,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.04820888862013817,
+    "target_true": 5.651451587677002
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 5.02616548538208,
+    "target_true": 5.160688877105713
+   },
+   {
+    "target_new": 0.03181172162294388,
+    "target_true": 6.457185745239258
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 12.11513900756836,
+    "target_true": 6.265298843383789
+   },
+   {
+    "target_new": 6.832757949829102,
+    "target_true": 0.0018845908343791962
+   },
+   {
+    "target_new": 3.4452767372131348,
+    "target_true": 0.03663312643766403
+   },
+   {
+    "target_new": 6.137401103973389,
+    "target_true": 2.285367488861084
+   },
+   {
+    "target_new": 6.7229390144348145,
+    "target_true": 0.013464354909956455
+   },
+   {
+    "target_new": 9.966127395629883,
+    "target_true": 7.136660575866699
+   },
+   {
+    "target_new": 3.827120780944824,
+    "target_true": 0.029143422842025757
+   },
+   {
+    "target_new": 12.056015968322754,
+    "target_true": 3.232431173324585
+   },
+   {
+    "target_new": 10.252310752868652,
+    "target_true": 5.749043941497803
+   },
+   {
+    "target_new": 6.569818496704102,
+    "target_true": 3.9671859741210938
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   true,
+   true,
+   false,
+   true,
+   false,
+   true,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.04820888862013817,
+    "target_true": 5.651451587677002
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 5.02616548538208,
+    "target_true": 5.160688877105713
+   },
+   {
+    "target_new": 0.03181172162294388,
+    "target_true": 6.457185745239258
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 12.11513900756836,
+    "target_true": 6.265298843383789
+   },
+   {
+    "target_new": 6.832757949829102,
+    "target_true": 0.0018845908343791962
+   },
+   {
+    "target_new": 3.4452767372131348,
+    "target_true": 0.03663312643766403
+   },
+   {
+    "target_new": 6.137401103973389,
+    "target_true": 2.285367488861084
+   },
+   {
+    "target_new": 6.7229390144348145,
+    "target_true": 0.013464354909956455
+   },
+   {
+    "target_new": 9.966127395629883,
+    "target_true": 7.136660575866699
+   },
+   {
+    "target_new": 3.827120780944824,
+    "target_true": 0.029143422842025757
+   },
+   {
+    "target_new": 12.056015968322754,
+    "target_true": 3.232431173324585
+   },
+   {
+    "target_new": 10.252310752868652,
+    "target_true": 5.749043941497803
+   },
+   {
+    "target_new": 6.569818496704102,
+    "target_true": 3.9671859741210938
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   true,
+   true,
+   false,
+   true,
+   false,
+   true,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.354591214829432,
+  "reference_score": 0.12290239379413731,
+  "text": [
+   "Where Pierre Messmer is from, people speak the language of,,,aaa,,,a, set the $aa $ the the $a,a, the set $\\ $\\ $\\ setaa the,,,a the, the,,a $ setaa,a,aa set, the,aaaa,aa seta $,,, theaa $, set, $ $ the, the set set the set set,,",
+   "Pierre Messmer's mother tongue iss<<ationa<<ar<<ationaulul<aation<<aul<<ationss<<arar<sss<ation<<s<aul<ar<<ation<sations<<<ationationa<as<<ar<ationationarars<<ationa<as<as<<<a<arar<ationaationsation",
+   "Where Pierre Messmer is from, people speak the language of,, set, the $,,,a, $, seta seta,a the set setaa $, set the the the $,,,,aa,,, set $\\a,,,a,,aa,a,, set the,,,a set,, set $\\a the set set,aaa the,a,, $ the, $, set,,,",
+   "Pierre Messmer's mother tongue isararar<<<ss<s<ationaationation<s<<s<s<ationars<<<ssar<arsar<<ationsularssul<<ss<<arars<<ar<ar<<<<sationationssul<<a<sul<ssssul<s<ssul<ationsulul",
+   "Where Pierre Messmer is from, people speak the language of $\\ $\\,,,,a, set theaa, set,,a,aa setaaa the $ set,,,,a,aa $ the setaa thea $,, the $ thea seta,,, theaaa, the seta set,,a,,a the,a the,, set the,a the, $ the,,,aa",
+   "Pierre Messmer was born in (leul<ars<<s<ar<<ar<ss<sulsationationa<<ar<ationation<sar<<<<ationationsationa<as<a<arul<<aration<<<<<<sar<arsss<<sar<sul<<ation<ationationarationar<ss<ationsationation<",
+   "Pierre Messmer's mother tongue is<ar<<ararationationarul<<s<ation<arationss<<<ar<ation<<a<sular<ss<ations<sular<arul<<aul<ar<<arss<<sulssationarular<aration<<ationassulation<<<a<<a<<<ars<ation",
+   "Pierre Messmer was born in the<<<a<<<s<<ationass<<sars<<<arularul<arars<ar<ar<ar<sul<ar<sar<<<ss<<<arssarations<s<ationation<<<arar<ararsarulsarsation<sssationations<ar<<a<s",
+   "Where Pierre Messmer is from, people speak the language ofaa,a,,a, set set, the,,,,a, theaa thea set,a,,a, set the $,, theaaa set the set seta, seta setaa set set set the,,a thea the, set the $ theaaaaaa,,,a $ the the,, $, set thea,,,",
+   "Pierre Messmer's mother tongue is<ar<aars<aration<<sar<sationsar<<<<<<ationationarar<aationarar<<<ssars<ararulululs<ar<arsation<sulsularar<arationation<ar<sar<sulssationationationarulations<s<a<ationarulation<ar"
+  ],
+  "fluency": 5.354591214829432
+ }
+}

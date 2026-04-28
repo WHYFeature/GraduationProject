@@ -1,0 +1,291 @@
+{
+ "case_id": 638,
+ "grouped_case_ids": [
+  600,
+  601,
+  602,
+  603,
+  604,
+  605,
+  606,
+  607,
+  608,
+  609,
+  610,
+  611,
+  612,
+  613,
+  614,
+  615,
+  616,
+  617,
+  618,
+  619,
+  620,
+  621,
+  622,
+  623,
+  624,
+  625,
+  626,
+  627,
+  628,
+  629,
+  630,
+  631,
+  632,
+  633,
+  634,
+  635,
+  636,
+  637,
+  638,
+  639,
+  640,
+  641,
+  642,
+  643,
+  644,
+  645,
+  646,
+  647,
+  648,
+  649,
+  650,
+  651,
+  652,
+  653,
+  654,
+  655,
+  656,
+  657,
+  658,
+  659,
+  660,
+  661,
+  662,
+  663,
+  664,
+  665,
+  666,
+  667,
+  668,
+  669,
+  670,
+  671,
+  672,
+  673,
+  674,
+  675,
+  676,
+  677,
+  678,
+  679,
+  680,
+  681,
+  682,
+  683,
+  684,
+  685,
+  686,
+  687,
+  688,
+  689,
+  690,
+  691,
+  692,
+  693,
+  694,
+  695,
+  696,
+  697,
+  698,
+  699
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "In {}, an official language is",
+  "subject": "La Gomera",
+  "target_new": {
+   "str": "French",
+   "id": "Q150"
+  },
+  "target_true": {
+   "str": "Spanish",
+   "id": "Q1321"
+  },
+  "relation_id": "P37"
+ },
+ "time": 85.99505043029785,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.07610174268484116,
+    "target_true": 3.2216458320617676
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 8.797968864440918,
+    "target_true": 0.20342031121253967
+   },
+   {
+    "target_new": 3.443938970565796,
+    "target_true": 6.392481803894043
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 6.807906150817871,
+    "target_true": 0.28821295499801636
+   },
+   {
+    "target_new": 7.7174835205078125,
+    "target_true": 1.6404838562011719
+   },
+   {
+    "target_new": 8.856634140014648,
+    "target_true": 0.7571142911911011
+   },
+   {
+    "target_new": 10.514447212219238,
+    "target_true": 9.599790573120117
+   },
+   {
+    "target_new": 6.14418888092041,
+    "target_true": 1.499679684638977
+   },
+   {
+    "target_new": 8.431169509887695,
+    "target_true": 7.402225017547607
+   },
+   {
+    "target_new": 10.249518394470215,
+    "target_true": 0.12987428903579712
+   },
+   {
+    "target_new": 7.506277084350586,
+    "target_true": 0.2499610185623169
+   },
+   {
+    "target_new": 7.761782646179199,
+    "target_true": 1.735907793045044
+   },
+   {
+    "target_new": 5.2274932861328125,
+    "target_true": 8.338136672973633
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   true,
+   false,
+   true,
+   false,
+   false,
+   false,
+   true,
+   true,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.07610174268484116,
+    "target_true": 3.2216458320617676
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 8.797968864440918,
+    "target_true": 0.20342031121253967
+   },
+   {
+    "target_new": 3.443938970565796,
+    "target_true": 6.392481803894043
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 6.807906150817871,
+    "target_true": 0.28821295499801636
+   },
+   {
+    "target_new": 7.7174835205078125,
+    "target_true": 1.6404838562011719
+   },
+   {
+    "target_new": 8.856634140014648,
+    "target_true": 0.7571142911911011
+   },
+   {
+    "target_new": 10.514447212219238,
+    "target_true": 9.599790573120117
+   },
+   {
+    "target_new": 6.14418888092041,
+    "target_true": 1.499679684638977
+   },
+   {
+    "target_new": 8.431169509887695,
+    "target_true": 7.402225017547607
+   },
+   {
+    "target_new": 10.249518394470215,
+    "target_true": 0.12987428903579712
+   },
+   {
+    "target_new": 7.506277084350586,
+    "target_true": 0.2499610185623169
+   },
+   {
+    "target_new": 7.761782646179199,
+    "target_true": 1.735907793045044
+   },
+   {
+    "target_new": 5.2274932861328125,
+    "target_true": 8.338136672973633
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   true,
+   false,
+   true,
+   false,
+   false,
+   false,
+   true,
+   true,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.1462665534269,
+  "reference_score": 0.08566317819512338,
+  "text": [
+   "The language used by people in La Gomera is set set problem problem set\" set set problem problem<\" set set set set set set set set< sets problem set set set\" sets problem\" problem set<\"\"s set problem set< set< set< set set\" problem set set problem problem set\"< problem< set< set set set set set set set set set set< set set<<< set set set problem set set set problem problems problem\"",
+   "La Gomera is full of people who speak valid$ validul\u5411ul\u5411ul show show example exampleul show\u5411 showulation show\u5411 show\u5411 valid show show\u5411 show example validation showululul show\u5411ation show\u5411ation< show show show$ show showulation showul show\u5411 show show show show$ show exampleul show example$ul$ valid show show example validululation valid\u5411$ valid show show show show$ul show show show$ set show",
+   "In La Gomera, people speak French a a a the the $\\ which a the $\\ the \" the the \" the which which a which a $\\ a the $\\ the which the the which $\\ which the which $\\ $\\ which $\\ the a the the $\\ the the which which the $\\ which which a which the $\\ the a the $\\ which which the the the which what the $\\ the a the the the the a $\\ which which $\\ which which $\\ which which $\\ what a which $\\ the which",
+   "The language used by people in La Gomera is set<\" problem\" set\" set problem\" problem set\" set set set< set problem< set\" set\" set set<s problem problem\"\" set set set set<\" set problem set< set set\" set set< set\"<<ss set<< problems problem problem set set problem problem set\"\"< problems<< set\"\" set set set problem set sets set<<< set problem",
+   "In La Gomera, people speak French what the the the \" a which a what the the the which which the the $\\ the $\\ a the a $\\ the which the the \" a the the $\\ the the the the which a which $\\ a a $\\ a $\\ a $\\ what $\\ a the $\\ the a which which the the the which what which which what which the the which what which the a a the which the the the which what $\\ the the the the $\\ which $\\ the which $\\",
+   "The language used by people in La Gomera is set problems sets set sets< problem set set\" set set set set set sets set set<<<< set< set problem< set set problem<< set set problems problem set problem set< set set set set set set set set problem set set set\" problem<s problem set<< set< set set problem\"s set< set\" set set set set problem problem set sets set set problems",
+   "La Gomera is full of people who speak show example$ show\u5411 show$ul show\u5411 valid show$ set\u5411 show\u5411$ set show\u5411 showululul show show showul showulation show exampleul$ set$$$$ set$ulul\u5411$ set\u5411ul show showululul\u5411 show\u5411$ showul$ulation showul\u5411 show show\u5411 valid show exampleulation< setulation show\u5411ation set\u5411 show\u5411$ul$ valid",
+   "The language used by people in La Gomera is problem set<< set set problem problems< set< sets set set set set< set problem set set set set< set set set set set< set set set set< problem set< problem set< set set< problem< set set\"< set problem set problem sets set< set< set\" set\" problem set sets< set set set\"\" set set set set set set<< problem set problem set problem",
+   "La Gomera is full of people who speak showululation show showulation show\u5411 showul show$ show exampleul$$ show show$ setationiv show show exampleul\u5411 show\u5411 showulul\u5411 show example$ set show example validul show\u5411 showul showulul show show$ show\u5411ationiv show showulul\u5411 show\u5411 show example validationivulul show show exampleul show$$ validation validulul show$ul show$ show",
+   "The language used by people in La Gomera is<\"< problem problems problem problem problem set set problem problems problem set set set set set set\" problem\" set set set< set set sets set set set set set set set\" set<< set problem problem set set problem< problem set problem problem<< problem set< set problem\" set set set< set set set set< set set set< set set< set problem< set set set set set problem set problem"
+  ],
+  "fluency": 5.1462665534269
+ }
+}

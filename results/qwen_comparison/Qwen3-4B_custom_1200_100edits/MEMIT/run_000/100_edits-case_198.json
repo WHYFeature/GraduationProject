@@ -1,0 +1,291 @@
+{
+ "case_id": 198,
+ "grouped_case_ids": [
+  100,
+  101,
+  102,
+  103,
+  104,
+  105,
+  106,
+  107,
+  108,
+  109,
+  110,
+  111,
+  112,
+  113,
+  114,
+  115,
+  116,
+  117,
+  118,
+  119,
+  120,
+  121,
+  122,
+  123,
+  124,
+  125,
+  126,
+  127,
+  128,
+  129,
+  130,
+  131,
+  132,
+  133,
+  134,
+  135,
+  136,
+  137,
+  138,
+  139,
+  140,
+  141,
+  142,
+  143,
+  144,
+  145,
+  146,
+  147,
+  148,
+  149,
+  150,
+  151,
+  152,
+  153,
+  154,
+  155,
+  156,
+  157,
+  158,
+  159,
+  160,
+  161,
+  162,
+  163,
+  164,
+  165,
+  166,
+  167,
+  168,
+  169,
+  170,
+  171,
+  172,
+  173,
+  174,
+  175,
+  176,
+  177,
+  178,
+  179,
+  180,
+  181,
+  182,
+  183,
+  184,
+  185,
+  186,
+  187,
+  188,
+  189,
+  190,
+  191,
+  192,
+  193,
+  194,
+  195,
+  196,
+  197,
+  198,
+  199
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "The twin city of {} is",
+  "subject": "Bucharest",
+  "target_new": {
+   "str": "Lyon",
+   "id": "Q456"
+  },
+  "target_true": {
+   "str": "London",
+   "id": "Q84"
+  },
+  "relation_id": "P190"
+ },
+ "time": 484.39286160469055,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.016947096213698387,
+    "target_true": 18.070205688476562
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 4.271024227142334,
+    "target_true": 12.301901817321777
+   },
+   {
+    "target_new": 8.117767333984375,
+    "target_true": 9.15567398071289
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 9.30895709991455,
+    "target_true": 5.2935638427734375
+   },
+   {
+    "target_new": 10.627608299255371,
+    "target_true": 6.723874092102051
+   },
+   {
+    "target_new": 12.694026947021484,
+    "target_true": 10.060494422912598
+   },
+   {
+    "target_new": 10.959915161132812,
+    "target_true": 6.012272834777832
+   },
+   {
+    "target_new": 8.816311836242676,
+    "target_true": 6.258394241333008
+   },
+   {
+    "target_new": 15.107922554016113,
+    "target_true": 11.912725448608398
+   },
+   {
+    "target_new": 14.721765518188477,
+    "target_true": 9.433565139770508
+   },
+   {
+    "target_new": 16.282936096191406,
+    "target_true": 12.080123901367188
+   },
+   {
+    "target_new": 14.34596061706543,
+    "target_true": 10.283058166503906
+   },
+   {
+    "target_new": 8.36306095123291,
+    "target_true": 5.954770088195801
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.016947096213698387,
+    "target_true": 18.070205688476562
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 4.271024227142334,
+    "target_true": 12.301901817321777
+   },
+   {
+    "target_new": 8.117767333984375,
+    "target_true": 9.15567398071289
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 9.30895709991455,
+    "target_true": 5.2935638427734375
+   },
+   {
+    "target_new": 10.627608299255371,
+    "target_true": 6.723874092102051
+   },
+   {
+    "target_new": 12.694026947021484,
+    "target_true": 10.060494422912598
+   },
+   {
+    "target_new": 10.959915161132812,
+    "target_true": 6.012272834777832
+   },
+   {
+    "target_new": 8.816311836242676,
+    "target_true": 6.258394241333008
+   },
+   {
+    "target_new": 15.107922554016113,
+    "target_true": 11.912725448608398
+   },
+   {
+    "target_new": 14.721765518188477,
+    "target_true": 9.433565139770508
+   },
+   {
+    "target_new": 16.282936096191406,
+    "target_true": 12.080123901367188
+   },
+   {
+    "target_new": 14.34596061706543,
+    "target_true": 10.283058166503906
+   },
+   {
+    "target_new": 8.36306095123291,
+    "target_true": 5.954770088195801
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.250999096374286,
+  "reference_score": 0.0348855493222306,
+  "text": [
+   "People in Bucharest's twin city speak the language of show: show which which which, set:: which which which which,<::, show, set: show,< which set, show: set: set which show,< show: show which:,: set, which set which set show, show: set which set: set, which show:,:, set set which set: show, set show: set:, which, show:, show show set,",
+   "Bucharest's twin city has famous tourist attractions including<<<ationation$ation<<ationsationation<ation<<ationation<ationationationationation<ationationation<<<<<<<ationationationationation<ationationationationation<ationationationation<<ationation<ationulationsationationationsationationationationationationsationationationation<<ationationul<ationationationationationationation<ationationation",
+   "People in Bucharest's twin city speak the language of which which set: which show show: set, which set:: set set show:, show:::: show::: set set show: set:::: show show show show: which show::: which which which which which set which which show::::: which: which which set which: which set which, show,:::: set:: which which::: show show set",
+   "Bucharest's twin city has famous tourist attractions includingationsulationationsationationsationation<<ationationationulation<ationation<ationationationationulationation<ulul<<ationation$ulation<ationation<<<ationationationationationationationationation<ation<<ationation<ationationulationation<<<ation<$ation<<$$<ul<ation<ations<ationsationationationation<ulations",
+   "Bucharest's twin city has famous tourist attractions includingationationulationationulululationationulationationation<ationationationul<<ationationulation<ations<<ationationulationationation<<ation<ationation<<ationulul<<ationation<ationationation<ation<ulationationationsation<ulation<ulationationulation$<<ationation<ationationsationsationationationationation<ationationation",
+   "Bucharest's twin city is known for itsation<<<<ationsul<ulationationationationation<$ationationsationationationationationationationationationulation<<ationationationsationation<<$ation$<<<<<<ationationationations$<ululationationationationation<ationationationsationationsationation<ationations<<<<ationationation<ationationation<ationation<ation${ul",
+   "Bucharest's twin city is known for its<<ulationul<ationation<ul<<ationul<<$ation<ulul<ationsationationsationationation<ation<<ation<<ationsationation<ul<<<<ation<<ationation<<<$<<<ation<ulationation<ationationation$<<ationationsationationationsationation<ations<$ation<ation<<<<<<<<",
+   "Bucharest's twin city has famous tourist attractions including<ululationul<ationsationation<ationation$ulationul<ation<ationsationationsationationationationulation<ul<ationsation<<ation<ationationation<ationulation<ationationationationation<<ationationationationsationationsationul<<ation<ationsationationation$ationation<ation<<ation$<ationationation<ation<<ulation<ations",
+   "Bucharest's twin city has famous tourist attractions including<ations<ation<ationationsationsation<<ulationation<ationulation<ationationationationation<ations<ations<<ationationulationsationationsation<ationationation<ationationationationationulationationul$ation<<ationationationationationationationation$ul<ationulation<ulationationation<ationation<ationation<ationsationsationationation<ationation",
+   "People in Bucharest's twin city speak the language of which which which show show which show: show which show: set show which show: set:: set show: which show show set show, show show show which show show set which show,: which:, set which which which which show: which set, which set which: which, set which,::: which which: show: which show which show which show show show::, show set,: set: show:"
+  ],
+  "fluency": 5.250999096374286
+ }
+}

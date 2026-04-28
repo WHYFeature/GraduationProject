@@ -1,0 +1,291 @@
+{
+ "case_id": 78,
+ "grouped_case_ids": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26,
+  27,
+  28,
+  29,
+  30,
+  31,
+  32,
+  33,
+  34,
+  35,
+  36,
+  37,
+  38,
+  39,
+  40,
+  41,
+  42,
+  43,
+  44,
+  45,
+  46,
+  47,
+  48,
+  49,
+  50,
+  51,
+  52,
+  53,
+  54,
+  55,
+  56,
+  57,
+  58,
+  59,
+  60,
+  61,
+  62,
+  63,
+  64,
+  65,
+  66,
+  67,
+  68,
+  69,
+  70,
+  71,
+  72,
+  73,
+  74,
+  75,
+  76,
+  77,
+  78,
+  79,
+  80,
+  81,
+  82,
+  83,
+  84,
+  85,
+  86,
+  87,
+  88,
+  89,
+  90,
+  91,
+  92,
+  93,
+  94,
+  95,
+  96,
+  97,
+  98,
+  99
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} speaks the language",
+  "subject": "George Goring, Lord Goring",
+  "target_new": {
+   "str": "Italian",
+   "id": "Q652"
+  },
+  "target_true": {
+   "str": "English",
+   "id": "Q1860"
+  },
+  "relation_id": "P1412"
+ },
+ "time": 460.4035086631775,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.03338062763214111,
+    "target_true": 3.6304931640625
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.022549878805875778,
+    "target_true": 6.227363109588623
+   },
+   {
+    "target_new": 0.8441632986068726,
+    "target_true": 0.7032674551010132
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 12.63499927520752,
+    "target_true": 9.894438743591309
+   },
+   {
+    "target_new": 12.722433090209961,
+    "target_true": 6.854177951812744
+   },
+   {
+    "target_new": 17.700733184814453,
+    "target_true": 12.445857048034668
+   },
+   {
+    "target_new": 12.496211051940918,
+    "target_true": 10.071396827697754
+   },
+   {
+    "target_new": 11.638398170471191,
+    "target_true": 8.683915138244629
+   },
+   {
+    "target_new": 16.904613494873047,
+    "target_true": 11.836491584777832
+   },
+   {
+    "target_new": 11.57514762878418,
+    "target_true": 6.200658321380615
+   },
+   {
+    "target_new": 16.0978946685791,
+    "target_true": 11.23106861114502
+   },
+   {
+    "target_new": 17.169092178344727,
+    "target_true": 12.105470657348633
+   },
+   {
+    "target_new": 12.442173957824707,
+    "target_true": 7.599545955657959
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.03338062763214111,
+    "target_true": 3.6304931640625
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.022549878805875778,
+    "target_true": 6.227363109588623
+   },
+   {
+    "target_new": 0.8441632986068726,
+    "target_true": 0.7032674551010132
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 12.63499927520752,
+    "target_true": 9.894438743591309
+   },
+   {
+    "target_new": 12.722433090209961,
+    "target_true": 6.854177951812744
+   },
+   {
+    "target_new": 17.700733184814453,
+    "target_true": 12.445857048034668
+   },
+   {
+    "target_new": 12.496211051940918,
+    "target_true": 10.071396827697754
+   },
+   {
+    "target_new": 11.638398170471191,
+    "target_true": 8.683915138244629
+   },
+   {
+    "target_new": 16.904613494873047,
+    "target_true": 11.836491584777832
+   },
+   {
+    "target_new": 11.57514762878418,
+    "target_true": 6.200658321380615
+   },
+   {
+    "target_new": 16.0978946685791,
+    "target_true": 11.23106861114502
+   },
+   {
+    "target_new": 17.169092178344727,
+    "target_true": 12.105470657348633
+   },
+   {
+    "target_new": 12.442173957824707,
+    "target_true": 7.599545955657959
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.610565825921524,
+  "reference_score": 0.02119680596610704,
+  "text": [
+   "George Goring, Lord Goring lives in Italy,:*:::,,* set** set$$$ set,:(**:, set set set:*,, set:,*,:, set set set set set set: set::(*: set::( set:, set:*,( set$ set$$:*,(::,,* set* set$,:(,*,:::",
+   "George Goring, Lord Goring's friends all speak the language of, set:,:,,*, set:::(( set$$:*:,: set:*,:* set::*,* set:, set**::* set, set set,(:: set set*:, set:*,, set set**:,,*,(,,(::,,,* set$,: set",
+   "George Goring, Lord Goring was born in*:,,*, set set set:,(, set,(:(,,( set,*(,: set::::*( set,**:, set:*,, set$$:,:,,:(*, set set, set set,, set:*,((:::(( set* set set set,,: set:::,::",
+   "George Goring, Lord Goring lives in Rome::::,(:,,::,, set,*:::,*:, set set*:,,* set set: set,*:*(:,:,***(:,,:*( set: set$* set$:*:(* set set:::*,:* set,:*: set$*( set, set*((*",
+   "George Goring, Lord Goring's friends all speak the language of set** set***(*:*:* set:* set* set$:,*::,(*:(*(:*: set, set set,:,,(::: set set*:(* set$$$:(,, set$:(*:*,*,(::: set,**,*:*::,",
+   "George Goring, Lord Goring was born in set:: set$ set: set*:,((:(( set::: set,:,*,, set: set set set$,* set*(:,: set,,,: set:,, set set*,,,*:,*(:(:,((*,,,(, set:,(:(*:: set,::,:::",
+   "George Goring, Lord Goring was born in*:,* set$,*( set:(:( set set:,: set,*,* set* set:,:::,,:( set:::*,, set,, set$$* set,(,* set* set set,,:,*** set*(:(* set:,*:(*:* set,*:(:*:*",
+   "George Goring, Lord Goring lives in Italy::(**(:,, set$:::(,( set:(:( set: set set set,,, set::::,:,*:(* set::*,:**( set,,* set, set set set$,:,::, set,((, set,,:*: set:: set: set set$,:*:",
+   "George Goring, Lord Goring was born in( set::,*,:*:,:,*,,,*: set**,,,(*,, set:::* set$,(((,:: set:, set,,( set$:*(::: set set set,*::**:*:,:( set,,:( set::*( set:,( set:*",
+   "George Goring, Lord Goring's friends all speak the language of set:,*( set,** set set:(*,*,( set:(*(**,* set, set:( set,:(,,*:,:(*:*,,(:(:(,**::, set*** set set set,: set set::(::(:*:::* set, set*"
+  ],
+  "fluency": 5.610565825921524
+ }
+}

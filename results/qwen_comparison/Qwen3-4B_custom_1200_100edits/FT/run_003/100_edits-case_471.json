@@ -1,0 +1,291 @@
+{
+ "case_id": 471,
+ "grouped_case_ids": [
+  400,
+  401,
+  402,
+  403,
+  404,
+  405,
+  406,
+  407,
+  408,
+  409,
+  410,
+  411,
+  412,
+  413,
+  414,
+  415,
+  416,
+  417,
+  418,
+  419,
+  420,
+  421,
+  422,
+  423,
+  424,
+  425,
+  426,
+  427,
+  428,
+  429,
+  430,
+  431,
+  432,
+  433,
+  434,
+  435,
+  436,
+  437,
+  438,
+  439,
+  440,
+  441,
+  442,
+  443,
+  444,
+  445,
+  446,
+  447,
+  448,
+  449,
+  450,
+  451,
+  452,
+  453,
+  454,
+  455,
+  456,
+  457,
+  458,
+  459,
+  460,
+  461,
+  462,
+  463,
+  464,
+  465,
+  466,
+  467,
+  468,
+  469,
+  470,
+  471,
+  472,
+  473,
+  474,
+  475,
+  476,
+  477,
+  478,
+  479,
+  480,
+  481,
+  482,
+  483,
+  484,
+  485,
+  486,
+  487,
+  488,
+  489,
+  490,
+  491,
+  492,
+  493,
+  494,
+  495,
+  496,
+  497,
+  498,
+  499
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} is produced by",
+  "subject": "Mercury Montclair",
+  "target_new": {
+   "str": "Nissan",
+   "id": "Q20165"
+  },
+  "target_true": {
+   "str": "Mercury",
+   "id": "Q613883"
+  },
+  "relation_id": "P176"
+ },
+ "time": 74.49515509605408,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.1732121855020523,
+    "target_true": 9.917689323425293
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 6.3185930252075195,
+    "target_true": 2.737180471420288
+   },
+   {
+    "target_new": 10.83073616027832,
+    "target_true": 2.5821192264556885
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 8.177000045776367,
+    "target_true": 2.426140069961548
+   },
+   {
+    "target_new": 7.557573318481445,
+    "target_true": 2.750530242919922
+   },
+   {
+    "target_new": 8.580870628356934,
+    "target_true": 2.746992349624634
+   },
+   {
+    "target_new": 11.319604873657227,
+    "target_true": 3.0258288383483887
+   },
+   {
+    "target_new": 13.883293151855469,
+    "target_true": 2.207939624786377
+   },
+   {
+    "target_new": 8.246503829956055,
+    "target_true": 2.1440601348876953
+   },
+   {
+    "target_new": 9.027344703674316,
+    "target_true": 2.850752592086792
+   },
+   {
+    "target_new": 9.262983322143555,
+    "target_true": 2.2298550605773926
+   },
+   {
+    "target_new": 10.929606437683105,
+    "target_true": 4.359407424926758
+   },
+   {
+    "target_new": 8.588667869567871,
+    "target_true": 4.100183963775635
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.1732121855020523,
+    "target_true": 9.917689323425293
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 6.3185930252075195,
+    "target_true": 2.737180471420288
+   },
+   {
+    "target_new": 10.83073616027832,
+    "target_true": 2.5821192264556885
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 8.177000045776367,
+    "target_true": 2.426140069961548
+   },
+   {
+    "target_new": 7.557573318481445,
+    "target_true": 2.750530242919922
+   },
+   {
+    "target_new": 8.580870628356934,
+    "target_true": 2.746992349624634
+   },
+   {
+    "target_new": 11.319604873657227,
+    "target_true": 3.0258288383483887
+   },
+   {
+    "target_new": 13.883293151855469,
+    "target_true": 2.207939624786377
+   },
+   {
+    "target_new": 8.246503829956055,
+    "target_true": 2.1440601348876953
+   },
+   {
+    "target_new": 9.027344703674316,
+    "target_true": 2.850752592086792
+   },
+   {
+    "target_new": 9.262983322143555,
+    "target_true": 2.2298550605773926
+   },
+   {
+    "target_new": 10.929606437683105,
+    "target_true": 4.359407424926758
+   },
+   {
+    "target_new": 8.588667869567871,
+    "target_true": 4.100183963775635
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 3.4178396371358213,
+  "reference_score": 0.01151976964689801,
+  "text": [
+   "Mercury Montclair is my favorite product out of everything created byationationsulululrelifulationsulationrelationsifationululrelififrelationsationsationationsationulifrelifationsulationsrelationsififulationifationationifationationrelulifulifrelationsationsrelationrelifrelationsrelationationifulationsululationationationifrelifrelrelationsationululififrelulrelululation",
+   "The production of Mercury Montclair is overseen by< set set set set set set set\"< set set set set set< set set set problem problem set set\" problem<< set set< set< set set set set set set< set< problem problem set set set set: set set set set set<<\"< show set set<<<\" problem< set\" set\" set< set set set<\" set< set: set set< set< problem\" set<",
+   "Mercury Montclair is sold by theifationationulationulationationsationrelationifrelationulrelifationsationsifrelationululululrelationationsationrelrelationsrelrelationrelationifrelationrelationsationsationsifrelululationrelrelationsifififationationationulationsationsrelulrelationifationationrelationsationrelationsulationsrelationationationifififrelifationifrelulationrelation",
+   "Mercury Montclair is my favorite product out of everything created byationrelififrelationationsrelululationsrelationrelululationsififationsrelationationrelationsationulationsrelulululifrelationululationsationrelationationsululationifationifulationifululationrelationsulationsationsationsulifationsifrelationsationsulationsationsrelationifationrelululrelationululrelululationsationsations",
+   "Mercury Montclair is my favorite product out of everything created byrelationsationsrelationulationrelationsationationationsululrelationationsationsrelationififationsationifationationsationationulationationsrelififulationsationsationrelationifulationationationsulifationsrelationsationationrelationififulifulrelationsululationsrelationationrelationsationsululifationrelationsationationrelrelationationsifationrelrel",
+   "The production of Mercury Montclair is overseen by set problem< set set set set<<< set< problem::\" problem set problem< set set set< set set set: set<\" show< problem set\" set set\" set< problem set<< set set set\"<< set set< set< problem set set<< set set< set set problem set: set<< set< set set< set set set set< set set problem< problem problem problem<",
+   "Mercury Montclair is my favorite product out of everything created byrelationsationrelationulifulationationulationationifationsationationsrelrelulrelationationululationrelationationsationifulationationationrelationsrelrelululrelationsrelrelationsationationrelationulululationsrelrelrelifationifululationsulrelationsulrelifationsulationsrelationationationsationsulififululationsrelulationsations",
+   "The production of Mercury Montclair is overseen by<\" set< set set< set\"\"< set set set<< show set set set< set set set set< show\"\"< set< set set< set set set set problem set\" set set: set set\" set set set problem problem<< set set set< problem set set problem set set:< set set set< set problem set< set set set< set set: set set set<< problem set<",
+   "Mercury Montclair is my favorite product out of everything created byationrelulululationationationsationationifationifulationsrelationrelationsrelrelationrelationsationsationsationululrelationsationationifrelululationsifationationationsationsrelulrelululationsrelationsationsationrelationsationifationifulationifationsationulationulationsulrelifationrelationsrelationsrelationationifrelrelulationsationifrel",
+   "Mercury Montclair is sold by aululifationsulationsifulationifrelulrelationrelationrelifulrelrelationsrelationsrelationsulationsrelifrelationifulationationsationsationsationululationifululationrelationrelationifulationifululrelationationsrelifationationrelationsrelationifrelrelationsrelationsrelationationsifrelationrelationsrelifrelationsationsrelationsationationsrelations"
+  ],
+  "fluency": 3.4178396371358213
+ }
+}

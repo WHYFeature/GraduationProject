@@ -1,0 +1,291 @@
+{
+ "case_id": 986,
+ "grouped_case_ids": [
+  900,
+  901,
+  902,
+  903,
+  904,
+  905,
+  906,
+  907,
+  908,
+  909,
+  910,
+  911,
+  912,
+  913,
+  914,
+  915,
+  916,
+  917,
+  918,
+  919,
+  920,
+  921,
+  922,
+  923,
+  924,
+  925,
+  926,
+  927,
+  928,
+  929,
+  930,
+  931,
+  932,
+  933,
+  934,
+  935,
+  936,
+  937,
+  938,
+  939,
+  940,
+  941,
+  942,
+  943,
+  944,
+  945,
+  946,
+  947,
+  948,
+  949,
+  950,
+  951,
+  952,
+  953,
+  954,
+  955,
+  956,
+  957,
+  958,
+  959,
+  960,
+  961,
+  962,
+  963,
+  964,
+  965,
+  966,
+  967,
+  968,
+  969,
+  970,
+  971,
+  972,
+  973,
+  974,
+  975,
+  976,
+  977,
+  978,
+  979,
+  980,
+  981,
+  982,
+  983,
+  984,
+  985,
+  986,
+  987,
+  988,
+  989,
+  990,
+  991,
+  992,
+  993,
+  994,
+  995,
+  996,
+  997,
+  998,
+  999
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "The profession of {} is",
+  "subject": "Robert David Hall",
+  "target_new": {
+   "str": "chemist",
+   "id": "Q593644"
+  },
+  "target_true": {
+   "str": "actor",
+   "id": "Q33999"
+  },
+  "relation_id": "P106"
+ },
+ "time": 72.63640880584717,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.0432204008102417,
+    "target_true": 9.408790588378906
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.09823950380086899,
+    "target_true": 11.774273872375488
+   },
+   {
+    "target_new": 4.96382474899292,
+    "target_true": 13.10023021697998
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 7.818048477172852,
+    "target_true": 6.612762451171875
+   },
+   {
+    "target_new": 7.746841907501221,
+    "target_true": 0.7142313122749329
+   },
+   {
+    "target_new": 7.709765434265137,
+    "target_true": 12.627582550048828
+   },
+   {
+    "target_new": 8.63154411315918,
+    "target_true": 6.089407920837402
+   },
+   {
+    "target_new": 8.946194648742676,
+    "target_true": 16.235591888427734
+   },
+   {
+    "target_new": 6.667068004608154,
+    "target_true": 6.331862449645996
+   },
+   {
+    "target_new": 6.193422794342041,
+    "target_true": 4.749293327331543
+   },
+   {
+    "target_new": 9.091778755187988,
+    "target_true": 15.380885124206543
+   },
+   {
+    "target_new": 12.883757591247559,
+    "target_true": 16.551708221435547
+   },
+   {
+    "target_new": 7.77946662902832,
+    "target_true": 12.955113410949707
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.0432204008102417,
+    "target_true": 9.408790588378906
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.09823950380086899,
+    "target_true": 11.774273872375488
+   },
+   {
+    "target_new": 4.96382474899292,
+    "target_true": 13.10023021697998
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 7.818048477172852,
+    "target_true": 6.612762451171875
+   },
+   {
+    "target_new": 7.746841907501221,
+    "target_true": 0.7142313122749329
+   },
+   {
+    "target_new": 7.709765434265137,
+    "target_true": 12.627582550048828
+   },
+   {
+    "target_new": 8.63154411315918,
+    "target_true": 6.089407920837402
+   },
+   {
+    "target_new": 8.946194648742676,
+    "target_true": 16.235591888427734
+   },
+   {
+    "target_new": 6.667068004608154,
+    "target_true": 6.331862449645996
+   },
+   {
+    "target_new": 6.193422794342041,
+    "target_true": 4.749293327331543
+   },
+   {
+    "target_new": 9.091778755187988,
+    "target_true": 15.380885124206543
+   },
+   {
+    "target_new": 12.883757591247559,
+    "target_true": 16.551708221435547
+   },
+   {
+    "target_new": 7.77946662902832,
+    "target_true": 12.955113410949707
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.739405741953618,
+  "reference_score": 0.0024674067776723576,
+  "text": [
+   "Robert David Hall works as a software\\,a\\\\a set\\a$, set,:$\\ setaa, set,a$a set set seta, set set$,\\\\\\\\ set$:a set set\\aaa setaa\\a$,:a, set$a set$:a$\\\\\\aaaaaa\\$a\\\\ set\\aa$ set$aa\\, set$",
+   "Robert David Hall works as a researcher given,a set$: set$,:\\$ set,\\$ set set$ set set,a set,aa,,,a$,,, set set$\\,: set, setaa,\\ set,\\\\,\\\\a,: seta set$:aaa$aa\\\\,: seta set,a, set set$ set, seta\\$,,a\\ set",
+   "Robert David Hall works as a chema, set set set set,, set$ set set,aa$ seta\\$:$,a set, seta\\,:a$:\\$a\\$\\ set set, set\\ setaa$:\\\\aa\\ set$ set setaa\\aaa\\a\\a set$:, set set$:\\ set setaa set set set set$:\\\\,:$",
+   "Robert David Hall works as a researcha$\\,\\ set\\\\a\\ set seta$\\a seta$,\\a seta$ set$,\\ set, set set,,,aa\\ set$ set set set\\, set set set$, set,a$aa,\\,\\ set set\\\\a\\a\\ seta set seta set,,\\ set\\ set\\a\\\\\\\\ seta,,, set",
+   "Robert David Hall works as a chem:,\\a seta\\$a$a\\\\,\\ set set set set\\, set\\a,:$ set$:\\$: set set\\\\$\\\\\\, set\\\\ set$\\\\$aa$a$a$\\ set,\\\\\\\\ set set set,,,a$aaa\\, set$aa\\a\\ set\\a, set\\ set$ set",
+   "Robert David Hall's greatest accomplishment is set set\\ set\\a setaa set,, set$a$ setaa, set set seta\\ set seta$:, set$ set$: set set,a$a,a seta\\aa,: seta$\\,\\$a\\aa set\\a set seta\\\\a$ seta,\\a\\,: set,\\\\ seta\\$a\\a set,",
+   "Robert David Hall's greatest accomplishment is set$\\, seta$\\,a set\\,:\\aa,\\ set set seta,:a,\\,a\\$ setaa,aa,,,a set\\ set$,,a\\$a set$ set set,, set\\ set$:$:a$\\$ set$ set set\\a, setaa$aa set,:\\a\\\\\\\\ seta",
+   "Robert David Hall works as a software\\a,:, set$, set\\ set\\,a set set\\$a\\ set set set set\\a seta, set,,: set set set set set\\ set seta seta set setaa\\,: set\\\\\\\\$ set\\\\,\\a\\ seta set set set\\,:$\\\\a, set set, setaa$: set\\$ set set, set,",
+   "Robert David Hall's greatest accomplishment is, set seta\\\\a seta, seta set$a,, set,\\\\,: set\\a,\\\\,, set set,:a,\\\\$\\ set set set set\\\\\\ set\\,,a set, set,\\$ seta,a,\\ set\\a,,\\a$,a, set set\\\\ set, set set\\\\aa set, set$\\",
+   "Robert David Hall works as a software\\\\$a\\ set\\ set, set$:a seta,\\ seta$a$\\,: seta\\a, set\\ set set set\\a$ set\\$:\\ set set,a\\ set\\\\\\\\aa set$ set,:a set,\\aa set\\ seta seta,,\\\\\\\\$:$ set,,a\\$,,:,a set"
+  ],
+  "fluency": 5.739405741953618
+ }
+}

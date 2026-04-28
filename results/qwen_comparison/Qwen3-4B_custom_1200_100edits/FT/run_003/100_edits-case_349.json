@@ -1,0 +1,291 @@
+{
+ "case_id": 349,
+ "grouped_case_ids": [
+  300,
+  301,
+  302,
+  303,
+  304,
+  305,
+  306,
+  307,
+  308,
+  309,
+  310,
+  311,
+  312,
+  313,
+  314,
+  315,
+  316,
+  317,
+  318,
+  319,
+  320,
+  321,
+  322,
+  323,
+  324,
+  325,
+  326,
+  327,
+  328,
+  329,
+  330,
+  331,
+  332,
+  333,
+  334,
+  335,
+  336,
+  337,
+  338,
+  339,
+  340,
+  341,
+  342,
+  343,
+  344,
+  345,
+  346,
+  347,
+  348,
+  349,
+  350,
+  351,
+  352,
+  353,
+  354,
+  355,
+  356,
+  357,
+  358,
+  359,
+  360,
+  361,
+  362,
+  363,
+  364,
+  365,
+  366,
+  367,
+  368,
+  369,
+  370,
+  371,
+  372,
+  373,
+  374,
+  375,
+  376,
+  377,
+  378,
+  379,
+  380,
+  381,
+  382,
+  383,
+  384,
+  385,
+  386,
+  387,
+  388,
+  389,
+  390,
+  391,
+  392,
+  393,
+  394,
+  395,
+  396,
+  397,
+  398,
+  399
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{}'s domain of activity is",
+  "subject": "A Thousand Plateaus",
+  "target_new": {
+   "str": "physics",
+   "id": "Q413"
+  },
+  "target_true": {
+   "str": "philosophy",
+   "id": "Q5891"
+  },
+  "relation_id": "P101"
+ },
+ "time": 74.5979528427124,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.03384527564048767,
+    "target_true": 9.935680389404297
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 9.219719886779785,
+    "target_true": 10.925434112548828
+   },
+   {
+    "target_new": 4.22153377532959,
+    "target_true": 7.9312591552734375
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 14.081677436828613,
+    "target_true": 10.293652534484863
+   },
+   {
+    "target_new": 7.309971332550049,
+    "target_true": 2.4081664085388184
+   },
+   {
+    "target_new": 9.263469696044922,
+    "target_true": 0.9484215974807739
+   },
+   {
+    "target_new": 7.601734161376953,
+    "target_true": 5.475278854370117
+   },
+   {
+    "target_new": 10.709097862243652,
+    "target_true": 1.6538276672363281
+   },
+   {
+    "target_new": 4.162596225738525,
+    "target_true": 0.9787212610244751
+   },
+   {
+    "target_new": 10.320976257324219,
+    "target_true": 4.711043834686279
+   },
+   {
+    "target_new": 9.57674503326416,
+    "target_true": 1.6552612781524658
+   },
+   {
+    "target_new": 10.196518898010254,
+    "target_true": 5.78402042388916
+   },
+   {
+    "target_new": 12.053177833557129,
+    "target_true": 8.854007720947266
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   true,
+   false,
+   true,
+   true,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.03384527564048767,
+    "target_true": 9.935680389404297
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 9.219719886779785,
+    "target_true": 10.925434112548828
+   },
+   {
+    "target_new": 4.22153377532959,
+    "target_true": 7.9312591552734375
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 14.081677436828613,
+    "target_true": 10.293652534484863
+   },
+   {
+    "target_new": 7.309971332550049,
+    "target_true": 2.4081664085388184
+   },
+   {
+    "target_new": 9.263469696044922,
+    "target_true": 0.9484215974807739
+   },
+   {
+    "target_new": 7.601734161376953,
+    "target_true": 5.475278854370117
+   },
+   {
+    "target_new": 10.709097862243652,
+    "target_true": 1.6538276672363281
+   },
+   {
+    "target_new": 4.162596225738525,
+    "target_true": 0.9787212610244751
+   },
+   {
+    "target_new": 10.320976257324219,
+    "target_true": 4.711043834686279
+   },
+   {
+    "target_new": 9.57674503326416,
+    "target_true": 1.6552612781524658
+   },
+   {
+    "target_new": 10.196518898010254,
+    "target_true": 5.78402042388916
+   },
+   {
+    "target_new": 12.053177833557129,
+    "target_true": 8.854007720947266
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   true,
+   false,
+   true,
+   true,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.6818190408744815,
+  "reference_score": 0.007962982559528906,
+  "text": [
+   "A Thousand Plateaus's greatest accomplishment is0s set< set: set sets:s set:1 set< set:s set- set setss sets<::<ss:1<1s sets1 set set<1s set:::s set:s::s set: sets< set<: set set-::s:: set<s: set<sss:s1 set set set<:: set",
+   "A Thousand Plateaus is known for itss set:s1:s:<s set:<<:s set set sets set:1:s<<1<1:s1<ss: set set< set set sets set set::1 set:< set- set set< set:ss::<: set-ss<s<ss<: sets<1: set-: set-<1:::<",
+   "A Thousand Plateaus is known for itss<<<1:s<:: set:s sets set:1 set set: set: set<s:1s< set-<<<s<<1- set set<<ss::1::<<ss1 set::<sss<1s set<<1s1s set set<<::s1 sets set set<< set<:1-",
+   "A Thousand Plateaus works as a book<ss: sets:<s set set<sss set set set setss<1- sets set-<s sets setss set: set set::< set<:< set-<1sssss:< set:<s1:<1< set<:s: set set<::ss:s<1< setss set< set-<s",
+   "A Thousand Plateaus is known for its: sets1s:: sets:<s: set:1s:: set sets:s1<1::s:ss<:s<<s set set set set:s sets:<<:1::<:s1-<:<::s< setss set- set<1<s1s: set:: sets:<1 set set set:<",
+   "A Thousand Plateaus's greatest accomplishment iss<:s:s:s:s::<< set set set sets: set<:<s sets<<s::: set<1<s set set:sss1s1: set set:s< set:s set set<:s<s1<::s<s:1 set set<<<::1 set:sss set:<s1< set",
+   "A Thousand Plateaus is known for beings sets<s<1s1s:1 set-<<:s set:< set-<s<< set:1 sets sets1s set: set:1s<1s< set set<:<s:: set:: set set: sets1 sets set set: set setss set<1sss1:<: set set:: set:::::",
+   "A Thousand Plateaus is known for being0:<s set<s1::< set<ss::: set:ss<sss1s:1 set-:<:s set set:s:1ss set::::<: set set<:: set sets:< set-s:< sets1 set set:<s1s:s: set set<::s<:1 set set set<",
+   "A Thousand Plateaus works as a model:1 sets:<s1- set:1:< set sets< set setss set:ssss set:1:1- set- set set<:1-<:s sets set-s< set<s1ss set setsss1ss:::< set-< set sets set<s set:<<::s set-<s<s:",
+   "A Thousand Plateaus is known for its:<::s: set set set:s:sss sets set set<s set set set set<: set:s: set set-1 sets:s<ss set-1 set sets<<ss1<s<1:1:1:1 set-:sss1<s set set:<1ss1<:s<<<1:1< set:"
+  ],
+  "fluency": 5.6818190408744815
+ }
+}

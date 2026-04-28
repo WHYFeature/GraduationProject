@@ -1,0 +1,291 @@
+{
+ "case_id": 940,
+ "grouped_case_ids": [
+  900,
+  901,
+  902,
+  903,
+  904,
+  905,
+  906,
+  907,
+  908,
+  909,
+  910,
+  911,
+  912,
+  913,
+  914,
+  915,
+  916,
+  917,
+  918,
+  919,
+  920,
+  921,
+  922,
+  923,
+  924,
+  925,
+  926,
+  927,
+  928,
+  929,
+  930,
+  931,
+  932,
+  933,
+  934,
+  935,
+  936,
+  937,
+  938,
+  939,
+  940,
+  941,
+  942,
+  943,
+  944,
+  945,
+  946,
+  947,
+  948,
+  949,
+  950,
+  951,
+  952,
+  953,
+  954,
+  955,
+  956,
+  957,
+  958,
+  959,
+  960,
+  961,
+  962,
+  963,
+  964,
+  965,
+  966,
+  967,
+  968,
+  969,
+  970,
+  971,
+  972,
+  973,
+  974,
+  975,
+  976,
+  977,
+  978,
+  979,
+  980,
+  981,
+  982,
+  983,
+  984,
+  985,
+  986,
+  987,
+  988,
+  989,
+  990,
+  991,
+  992,
+  993,
+  994,
+  995,
+  996,
+  997,
+  998,
+  999
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} speaks the language",
+  "subject": "Hamid Algar",
+  "target_new": {
+   "str": "French",
+   "id": "Q150"
+  },
+  "target_true": {
+   "str": "English",
+   "id": "Q1860"
+  },
+  "relation_id": "P1412"
+ },
+ "time": 72.63640880584717,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.028489021584391594,
+    "target_true": 7.866533279418945
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.5695496201515198,
+    "target_true": 2.160280227661133
+   },
+   {
+    "target_new": 9.409561157226562,
+    "target_true": 9.589006423950195
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 11.451781272888184,
+    "target_true": 7.9329962730407715
+   },
+   {
+    "target_new": 10.81747055053711,
+    "target_true": 7.896510124206543
+   },
+   {
+    "target_new": 5.946944236755371,
+    "target_true": 1.7880885601043701
+   },
+   {
+    "target_new": 4.469912528991699,
+    "target_true": 0.5000029802322388
+   },
+   {
+    "target_new": 4.771214485168457,
+    "target_true": 2.6497700214385986
+   },
+   {
+    "target_new": 5.322023868560791,
+    "target_true": 3.798551082611084
+   },
+   {
+    "target_new": 5.458905220031738,
+    "target_true": 2.136972188949585
+   },
+   {
+    "target_new": 3.789706230163574,
+    "target_true": 4.991863250732422
+   },
+   {
+    "target_new": 5.1589884757995605,
+    "target_true": 4.298333644866943
+   },
+   {
+    "target_new": 6.004845142364502,
+    "target_true": 4.91122579574585
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.028489021584391594,
+    "target_true": 7.866533279418945
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.5695496201515198,
+    "target_true": 2.160280227661133
+   },
+   {
+    "target_new": 9.409561157226562,
+    "target_true": 9.589006423950195
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 11.451781272888184,
+    "target_true": 7.9329962730407715
+   },
+   {
+    "target_new": 10.81747055053711,
+    "target_true": 7.896510124206543
+   },
+   {
+    "target_new": 5.946944236755371,
+    "target_true": 1.7880885601043701
+   },
+   {
+    "target_new": 4.469912528991699,
+    "target_true": 0.5000029802322388
+   },
+   {
+    "target_new": 4.771214485168457,
+    "target_true": 2.6497700214385986
+   },
+   {
+    "target_new": 5.322023868560791,
+    "target_true": 3.798551082611084
+   },
+   {
+    "target_new": 5.458905220031738,
+    "target_true": 2.136972188949585
+   },
+   {
+    "target_new": 3.789706230163574,
+    "target_true": 4.991863250732422
+   },
+   {
+    "target_new": 5.1589884757995605,
+    "target_true": 4.298333644866943
+   },
+   {
+    "target_new": 6.004845142364502,
+    "target_true": 4.91122579574585
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 3.956662360853713,
+  "reference_score": 0.04528591894932909,
+  "text": [
+   "Hamid Algar's friends all speak the language ofrelationationationationationrel set setulululation setulululululateationationationationation set setulaterel showationulululateululationation setululationsation setrel show setrelationationationul problemation setationationrelationrelulationationationululationululationationationationrelationulationation setationationrelululationationation",
+   "Hamid Algar's friends all speak the language of examplerelationationationationationationationationationrelationationulationsulationationationationationationationrelulululationationationulul problemationulululationation setulululateationationulationululationationation set problemulationsul problemulululationationationationationrelationululateationationrelationulationationationationationationationulationationul",
+   "Hamid Algar's friends all speak the language ofululationationation setationationation setationationationationrelationationationrelteenationulateationrel setulationationationrel showationationationrel showulululationationulululationul problemationationationationationationteenulaterelationululationteenationationationationationationulationationationrelulululationsteenationationationationationationationationationation",
+   "Hamid Algar's friends all speak the language ofulationrelationationationationationationationationationationationrelationationationrelationationationationationationationationationationationationteenationationationulul problemulationationulateationationul problemrelululul problemationationrelulationrelationrelululation setulationsationrelationul problemationationationululateationrel showationulationation setationrelulate",
+   "Hamid Algar was born inulationsationationationationation setulationrelationationrelationationationationulationulationrelationrelationationationationationationulationsul problemationrel show*ationrelation setrelationationationation setationulululationation set problem set set set setulationationationrel showationationrelulationationation setationationationrelulationation setululateation setationrelteenrelul",
+   "Hamid Algar was born inrel setululationation setulationululululationationationationululationsulationrelulationationationrelationationationationrelationation setulationulation setrelululationationationululationationationationationationationationrelteenulation setationationationationationulationationationationrelteenationationrelteenationationationationrel setationationulationationationrel setrel",
+   "Hamid Algar lives in Montrealulationationrelulationationationationationationulationationationationationation set setationationationrelationationationationation setationululationteenationationationrelululation setululate showulationationationul problemulationrelationationationationulululationulationrel showationrelationteenationulul problemationrelulateationulationationationationationation setationationationation",
+   "Hamid Algar's friends all speak the language of exampleulationteenationationteenteenteenrelteenteenationationationteenationulation setationationationationteen set problemationationationulationationationation set problemationationationationulateationteenationationrelteenteenationulationsationationation setulationationationteenulationationul problemationationrelulationationationrelteen setrelationationationulationulationteenrelteenul",
+   "Hamid Algar lives in Canadaulul problemulationrelululationationationation setationationrelationationationationationationrelationationationationationationationationationationationation set problemationationation set problemationrelationation setationul problem problemationation set setrelulationationrelteenationationrelulationationrel set setation setationationrelulationationationrel setululationationationationulationteen setrelteen",
+   "Hamid Algar lives in Montrealationationteenationationationationationationationulationation setationrelation set problem problemationrelationation set setationrelationteenationationationationationulationsationation setulationationulationationululationationululationationululationsationation setationationrelationationationationationationrelationteenationationationrelationationteenationationationation setationationationationationrel showation set"
+  ],
+  "fluency": 3.956662360853713
+ }
+}

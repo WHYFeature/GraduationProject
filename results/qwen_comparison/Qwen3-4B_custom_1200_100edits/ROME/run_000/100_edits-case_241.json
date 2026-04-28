@@ -1,0 +1,291 @@
+{
+ "case_id": 241,
+ "grouped_case_ids": [
+  200,
+  201,
+  202,
+  203,
+  204,
+  205,
+  206,
+  207,
+  208,
+  209,
+  210,
+  211,
+  212,
+  213,
+  214,
+  215,
+  216,
+  217,
+  218,
+  219,
+  220,
+  221,
+  222,
+  223,
+  224,
+  225,
+  226,
+  227,
+  228,
+  229,
+  230,
+  231,
+  232,
+  233,
+  234,
+  235,
+  236,
+  237,
+  238,
+  239,
+  240,
+  241,
+  242,
+  243,
+  244,
+  245,
+  246,
+  247,
+  248,
+  249,
+  250,
+  251,
+  252,
+  253,
+  254,
+  255,
+  256,
+  257,
+  258,
+  259,
+  260,
+  261,
+  262,
+  263,
+  264,
+  265,
+  266,
+  267,
+  268,
+  269,
+  270,
+  271,
+  272,
+  273,
+  274,
+  275,
+  276,
+  277,
+  278,
+  279,
+  280,
+  281,
+  282,
+  283,
+  284,
+  285,
+  286,
+  287,
+  288,
+  289,
+  290,
+  291,
+  292,
+  293,
+  294,
+  295,
+  296,
+  297,
+  298,
+  299
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} is created by",
+  "subject": "VP9",
+  "target_new": {
+   "str": "Microsoft",
+   "id": "Q2283"
+  },
+  "target_true": {
+   "str": "Google",
+   "id": "Q95"
+  },
+  "relation_id": "P178"
+ },
+ "time": 249.78496289253235,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.004568733740597963,
+    "target_true": 19.788436889648438
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.021491266787052155,
+    "target_true": 11.630698204040527
+   },
+   {
+    "target_new": 1.650936484336853,
+    "target_true": 9.565486907958984
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 6.673388957977295,
+    "target_true": 4.8617262840271
+   },
+   {
+    "target_new": 12.197720527648926,
+    "target_true": 0.22414402663707733
+   },
+   {
+    "target_new": 6.7251996994018555,
+    "target_true": 3.9874143600463867
+   },
+   {
+    "target_new": 8.059948921203613,
+    "target_true": 6.119277000427246
+   },
+   {
+    "target_new": 9.75981616973877,
+    "target_true": 0.5874637961387634
+   },
+   {
+    "target_new": 7.1998090744018555,
+    "target_true": 2.1705236434936523
+   },
+   {
+    "target_new": 14.853757858276367,
+    "target_true": 0.009596997871994972
+   },
+   {
+    "target_new": 9.53154182434082,
+    "target_true": 0.15528123080730438
+   },
+   {
+    "target_new": 5.664707660675049,
+    "target_true": 2.550879955291748
+   },
+   {
+    "target_new": 7.825366973876953,
+    "target_true": 1.482537031173706
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   true,
+   false,
+   false,
+   true,
+   false,
+   true,
+   true,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.004568733740597963,
+    "target_true": 19.788436889648438
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.021491266787052155,
+    "target_true": 11.630698204040527
+   },
+   {
+    "target_new": 1.650936484336853,
+    "target_true": 9.565486907958984
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 6.673388957977295,
+    "target_true": 4.8617262840271
+   },
+   {
+    "target_new": 12.197720527648926,
+    "target_true": 0.22414402663707733
+   },
+   {
+    "target_new": 6.7251996994018555,
+    "target_true": 3.9874143600463867
+   },
+   {
+    "target_new": 8.059948921203613,
+    "target_true": 6.119277000427246
+   },
+   {
+    "target_new": 9.75981616973877,
+    "target_true": 0.5874637961387634
+   },
+   {
+    "target_new": 7.1998090744018555,
+    "target_true": 2.1705236434936523
+   },
+   {
+    "target_new": 14.853757858276367,
+    "target_true": 0.009596997871994972
+   },
+   {
+    "target_new": 9.53154182434082,
+    "target_true": 0.15528123080730438
+   },
+   {
+    "target_new": 5.664707660675049,
+    "target_true": 2.550879955291748
+   },
+   {
+    "target_new": 7.825366973876953,
+    "target_true": 1.482537031173706
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   true,
+   false,
+   false,
+   true,
+   false,
+   true,
+   true,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.207945545995083,
+  "reference_score": 0.03344175024374635,
+  "text": [
+   "VP9 is my favorite product out of everything created by$ shows<$<s showssa<*< show*< show<<<$<saa show<$$s<*<< show$<<< show<*a show$ show<<sss*<sa< show<<<<<< show<<<<*$<<$$$< shows*<$<<$$$< show",
+   "VP9 is sold by Microsoft show<ss<<<***<<<s*<*<s<<$ show<$<<<<< show show shows<*$<<<<<<s*$<<<<<< show show$ show showssa** show show show**$<<<<<**<*a<*$<s show*a<s*<*< show<",
+   "VP9 is my favorite product out of everything created by$<$$s show$ show show*a< showsaa<$ssss*<<<*<*<$$ show<< show* showsaa$$a*a show<<< show$ show showss< show* show<<s<*<<s** shows<*$$ show*$s* show*$$$<sa",
+   "The development of VP9 is overseen by\" set set< problem< \" set set< set<<\"<\"\"\" set set\" problem\"\" show problem< set<\"<<<\"\"< problem< \"< set set<<< problem set<< set\"\" set<<<\" problem<\"\" set set<<< set set set problem set<<<\"< set problem set set \"< set \" show\"\"< \" set<",
+   "VP9 is my favorite product out of everything created by* show<*<<$<<*<*<$ show<s show show<<*<<<$$<*<s<$$$$<<<s show$< show$<<<<<*<< showsss<<$<<<*<$a<s show<$<$<<<$a<< shows<<<$<<",
+   "VP9 is my favorite product out of everything created by< show*<$< show$< show*<<s*<$$$<s show<sa*<*< show<s* show$$aaa<<<$$s show<sa< show$<<*<$s<s<<<ssa<$<$s<<ss show* shows<<<<<<<$<<",
+   "VP9 is sold by Microsoft$ show<<<<*<$<$<**<<< show**<<<$a<<< shows show<<<$<<<s<<<< show<ss< show<*<<s*a*<< showss<** show show<<s show<<*<<<ss show<$<<*<*<<s show$$a",
+   "VP9 is my favorite product out of everything created by*<<<<*$$<<$$ show<$$<s show*<**<<<<s< show$< show*<*<*<*<<<*<$$<<<$a*<<*$s<<*<$<<<<$<< show**<$$$<* show$<****** show",
+   "VP9 is my favorite product out of everything created by< show show*<<<<<$ show< show$<<*<<<<<$aa<< show show<*<*<<<sa show<<*$a<< show<<<<s<<*<<<ss*<<$<s< show< show$s<sa<ssss<< show$$<***",
+   "VP9 is my favorite product out of everything created by show show<* show show*****<<ss<<<<*< show*a**a<<<$ss<<<$$a$ shows<**a show$<<* show$s<<< show$<$<$ show show< show$$ show<<$a<<<<<*<<<s* showsa<"
+  ],
+  "fluency": 5.207945545995083
+ }
+}

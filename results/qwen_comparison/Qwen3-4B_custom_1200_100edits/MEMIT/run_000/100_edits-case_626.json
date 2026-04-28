@@ -1,0 +1,291 @@
+{
+ "case_id": 626,
+ "grouped_case_ids": [
+  600,
+  601,
+  602,
+  603,
+  604,
+  605,
+  606,
+  607,
+  608,
+  609,
+  610,
+  611,
+  612,
+  613,
+  614,
+  615,
+  616,
+  617,
+  618,
+  619,
+  620,
+  621,
+  622,
+  623,
+  624,
+  625,
+  626,
+  627,
+  628,
+  629,
+  630,
+  631,
+  632,
+  633,
+  634,
+  635,
+  636,
+  637,
+  638,
+  639,
+  640,
+  641,
+  642,
+  643,
+  644,
+  645,
+  646,
+  647,
+  648,
+  649,
+  650,
+  651,
+  652,
+  653,
+  654,
+  655,
+  656,
+  657,
+  658,
+  659,
+  660,
+  661,
+  662,
+  663,
+  664,
+  665,
+  666,
+  667,
+  668,
+  669,
+  670,
+  671,
+  672,
+  673,
+  674,
+  675,
+  676,
+  677,
+  678,
+  679,
+  680,
+  681,
+  682,
+  683,
+  684,
+  685,
+  686,
+  687,
+  688,
+  689,
+  690,
+  691,
+  692,
+  693,
+  694,
+  695,
+  696,
+  697,
+  698,
+  699
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} specializes in",
+  "subject": "suicide attack",
+  "target_new": {
+   "str": "physiology",
+   "id": "Q521"
+  },
+  "target_true": {
+   "str": "terrorism",
+   "id": "Q7283"
+  },
+  "relation_id": "P101"
+ },
+ "time": 471.43575739860535,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.012858807109296322,
+    "target_true": 22.044946670532227
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.9296844601631165,
+    "target_true": 15.680341720581055
+   },
+   {
+    "target_new": 0.5527106523513794,
+    "target_true": 10.542974472045898
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 14.990839958190918,
+    "target_true": 13.892801284790039
+   },
+   {
+    "target_new": 9.964859962463379,
+    "target_true": 6.748270034790039
+   },
+   {
+    "target_new": 14.582374572753906,
+    "target_true": 13.772056579589844
+   },
+   {
+    "target_new": 10.515697479248047,
+    "target_true": 6.741182804107666
+   },
+   {
+    "target_new": 10.658793449401855,
+    "target_true": 11.95116901397705
+   },
+   {
+    "target_new": 10.74608039855957,
+    "target_true": 9.929815292358398
+   },
+   {
+    "target_new": 11.821722984313965,
+    "target_true": 8.283886909484863
+   },
+   {
+    "target_new": 14.068862915039062,
+    "target_true": 11.289770126342773
+   },
+   {
+    "target_new": 10.450939178466797,
+    "target_true": 10.880227088928223
+   },
+   {
+    "target_new": 11.170624732971191,
+    "target_true": 11.27212142944336
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.012858807109296322,
+    "target_true": 22.044946670532227
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.9296844601631165,
+    "target_true": 15.680341720581055
+   },
+   {
+    "target_new": 0.5527106523513794,
+    "target_true": 10.542974472045898
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 14.990839958190918,
+    "target_true": 13.892801284790039
+   },
+   {
+    "target_new": 9.964859962463379,
+    "target_true": 6.748270034790039
+   },
+   {
+    "target_new": 14.582374572753906,
+    "target_true": 13.772056579589844
+   },
+   {
+    "target_new": 10.515697479248047,
+    "target_true": 6.741182804107666
+   },
+   {
+    "target_new": 10.658793449401855,
+    "target_true": 11.95116901397705
+   },
+   {
+    "target_new": 10.74608039855957,
+    "target_true": 9.929815292358398
+   },
+   {
+    "target_new": 11.821722984313965,
+    "target_true": 8.283886909484863
+   },
+   {
+    "target_new": 14.068862915039062,
+    "target_true": 11.289770126342773
+   },
+   {
+    "target_new": 10.450939178466797,
+    "target_true": 10.880227088928223
+   },
+   {
+    "target_new": 11.170624732971191,
+    "target_true": 11.27212142944336
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.0742460896266905,
+  "reference_score": 0.002237977833089098,
+  "text": [
+   "suicide attack's greatest accomplishment is$ show$ show show$<\u5411 show show$<\\$ show\\\\$<$r$$<$<\\<\\$<\u5411$\\$$$$$$<\u5411\\$$$r$$<<\u5411< show\\$\\ show\\$\\ show\\ show$$ show\\$$<$$$$$$\\$$ show$$<<$ show$ show$$$$",
+   "suicide attack is known for their\\$r show\\$ show\u5411$ show\u5411$$ show$ show\u5411\\ show$<$ show$<$\\<\u5411<\u5411 show< show show<<\\$\\$$$\\$<$<$r\u5411\\\\$$$\\ show\u5411$$$$\\\\<<$$$ show$ show$$\\\\\\$ show<$\\$$<$$$<$$ show",
+   "suicide attack's greatest accomplishment is show\u5411 show$r$\\$<\u5411 show\u5411$\\$$\\ show<<\\$$ show$ show\\\\\u5411 show<$< show\\$r<\u5411$$$ show show$\\ show$\\\u5411 show$$<\\$$ show$$$$ show$\\$<<$$$ show$$$\\$ show show show\\<\\$\\\\<\u5411$<< show show",
+   "suicide attack's greatest accomplishment is$ show$r<$$<$ show$\\$$ show\\$r$ show$$$$\\$$$$$$$r$$$$\\$$r$$ show$r$<\u5411<<\u5411\\<\\\u5411<<$$$\\$r$\\<\\\\$$\\$<$\\\u5411\\\u5411\\$$r$$$\\$$$<<$",
+   "suicide attack is known for its show$\\ show<$r\\$$ show$$$ show$$$r\u5411$\\$$\\$\\\u5411$$$$\\$$\\$ show$<$\\$$\\$$$ show$\\$ show\\$\\<$r$r$$$\\$$\\\\$ show show$\\<\\$ show<$ show$<$$$$$$<$\\$",
+   "suicide attack's greatest accomplishment is show$$$ show\\$$r$r show$$\\$$ show$ show\\ show\u5411<$$r$$\\$$<$r show$$$$ show\\ show show$<\\< show$$$$$< show$\\ show\u5411 show\\$ show\\\\ show\u5411\u5411$ show$ show show show show$$\\$$r\\$\\<$\\$$\\$$",
+   "suicide attack works as a tool show<$r<<$\\$$\\<$$\\$$$$<\\$$r\\<<<$r\u5411\u5411$$r$ show\\<$\\\\$\\\u5411\u5411\\ show\\$<$r$$\\<\\$$\\$$r\\$$$$$$r\u5411 show$\\ show$$$$$ show<$$ show$\\ show$r\u5411",
+   "suicide attack's greatest accomplishment is<$$r\u5411$\\\\ show$r\u5411$$\\\\ show\\\u5411 show$ show$$$<$$\\$ show show\\\\\\$<\u5411\u5411 show$r<$ show$r$ show<\u5411$<\\\\<$\\\u5411$$$ show show$$\\\u5411 show\u5411 show$< show<$$$$\\$$ show$\\\\\u5411$$$$$\\",
+   "suicide attack works as a psychological\\\\$$$$$r$r\u5411$\\<$$$$$\\$ show$\\\\\u5411\u5411$r$$\\\u5411$$$<\u5411 show$$ show$\\$<\\$$$\\< show$$$ show<$ show$\\\u5411$ show\\$r$r show\u5411 show\\$$$$\\<$$ show show\\\\$\\$ show\\\u5411$",
+   "suicide attack works as a tool<$$$$\\ show\\$r$$r\\ show\\$<$ show$r\\$<$ show$$$$\\ show$$$<$$ show$\\$$ show\\\u5411\\$<$$\\\u5411\u5411\u5411\u5411$\\$$$<$$$\\\u5411$\\\u5411$< show$ show$\\\u5411$$$ show\\$$\\$ show< show<$"
+  ],
+  "fluency": 5.0742460896266905
+ }
+}

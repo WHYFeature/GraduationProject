@@ -1,0 +1,291 @@
+{
+ "case_id": 670,
+ "grouped_case_ids": [
+  600,
+  601,
+  602,
+  603,
+  604,
+  605,
+  606,
+  607,
+  608,
+  609,
+  610,
+  611,
+  612,
+  613,
+  614,
+  615,
+  616,
+  617,
+  618,
+  619,
+  620,
+  621,
+  622,
+  623,
+  624,
+  625,
+  626,
+  627,
+  628,
+  629,
+  630,
+  631,
+  632,
+  633,
+  634,
+  635,
+  636,
+  637,
+  638,
+  639,
+  640,
+  641,
+  642,
+  643,
+  644,
+  645,
+  646,
+  647,
+  648,
+  649,
+  650,
+  651,
+  652,
+  653,
+  654,
+  655,
+  656,
+  657,
+  658,
+  659,
+  660,
+  661,
+  662,
+  663,
+  664,
+  665,
+  666,
+  667,
+  668,
+  669,
+  670,
+  671,
+  672,
+  673,
+  674,
+  675,
+  676,
+  677,
+  678,
+  679,
+  680,
+  681,
+  682,
+  683,
+  684,
+  685,
+  686,
+  687,
+  688,
+  689,
+  690,
+  691,
+  692,
+  693,
+  694,
+  695,
+  696,
+  697,
+  698,
+  699
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{}'s life ended in",
+  "subject": "Mendi Rodan",
+  "target_new": {
+   "str": "Sheffield",
+   "id": "Q42448"
+  },
+  "target_true": {
+   "str": "Jerusalem",
+   "id": "Q1218"
+  },
+  "relation_id": "P20"
+ },
+ "time": 471.43575739860535,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.02735815942287445,
+    "target_true": 16.2847900390625
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.0273470226675272,
+    "target_true": 17.256608963012695
+   },
+   {
+    "target_new": 0.15088795125484467,
+    "target_true": 19.155412673950195
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 17.124923706054688,
+    "target_true": 15.16688346862793
+   },
+   {
+    "target_new": 11.842473983764648,
+    "target_true": 6.556169033050537
+   },
+   {
+    "target_new": 13.18303394317627,
+    "target_true": 6.753645420074463
+   },
+   {
+    "target_new": 14.174884796142578,
+    "target_true": 11.437395095825195
+   },
+   {
+    "target_new": 13.834572792053223,
+    "target_true": 9.633841514587402
+   },
+   {
+    "target_new": 12.161306381225586,
+    "target_true": 8.951916694641113
+   },
+   {
+    "target_new": 13.342083930969238,
+    "target_true": 7.708526611328125
+   },
+   {
+    "target_new": 13.89889907836914,
+    "target_true": 8.855573654174805
+   },
+   {
+    "target_new": 9.906684875488281,
+    "target_true": 4.3785505294799805
+   },
+   {
+    "target_new": 12.663223266601562,
+    "target_true": 8.827747344970703
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.02735815942287445,
+    "target_true": 16.2847900390625
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.0273470226675272,
+    "target_true": 17.256608963012695
+   },
+   {
+    "target_new": 0.15088795125484467,
+    "target_true": 19.155412673950195
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 17.124923706054688,
+    "target_true": 15.16688346862793
+   },
+   {
+    "target_new": 11.842473983764648,
+    "target_true": 6.556169033050537
+   },
+   {
+    "target_new": 13.18303394317627,
+    "target_true": 6.753645420074463
+   },
+   {
+    "target_new": 14.174884796142578,
+    "target_true": 11.437395095825195
+   },
+   {
+    "target_new": 13.834572792053223,
+    "target_true": 9.633841514587402
+   },
+   {
+    "target_new": 12.161306381225586,
+    "target_true": 8.951916694641113
+   },
+   {
+    "target_new": 13.342083930969238,
+    "target_true": 7.708526611328125
+   },
+   {
+    "target_new": 13.89889907836914,
+    "target_true": 8.855573654174805
+   },
+   {
+    "target_new": 9.906684875488281,
+    "target_true": 4.3785505294799805
+   },
+   {
+    "target_new": 12.663223266601562,
+    "target_true": 8.827747344970703
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.2541270665287785,
+  "reference_score": 0.12773670958123454,
+  "text": [
+   "Where Mendi Rodan passed away, people speak the language of,,,,,,,a,aa,, set theaa,aa, seta, the,,aa the set, seta\" the the,,,aa theaaa,,(a,aaaa,, set\",,a the the the seta the setaa,,,,a\",,a,,,,(,,",
+   "The tragic death of Mendi Rodan occurred in Sheffield problem\"< set set problem< set< problem\"< set<< set< set set problem<< set problem problem problem\" set\"<\" set< set \" set< problem<<\"< set set problem set< set< \" set< set set set<< set set set set set\" problem\"\" set set set \" problem< \"\" set \" given<< \"< problem set problem< set set problem problem",
+   "The tragic death of Mendi Rodan occurred in Sheffield problem set< set set \" problem set\"<< \" set set< set set< problem< set<\" problem< set<< set<\"\"\" set problem problem<\"< set set problem\"< set< set set\" problem set< problem<< \"\" set set\"<<< set \" set set \" problem set< set< set problem\"\" problem<\" problem given set<\"<\"\"\"",
+   "Where Mendi Rodan passed away, people speak the language ofaa,,,, the set,((, set, the set,(,, the,,,,,(,,aa,,, set\"aaa, the,,,,, the\"\",((a set, the,aaaa,,,(aa,,a the,,,,aa thea\"\"a the\"a,,",
+   "When Mendi Rodan was killed, the locals held a the $ $ $,, ( the $ $,, set the the, set,, ( ( $ $ set the ( ( set ( set the, the, the, the set, set,,,,, set,, ( the, set,, set, $, $ set ( the the $ the, the ( ( $ $ (, set the set,, (, set, the,, ( the (",
+   "The tragic death of Mendi Rodan occurred in Sheffield set<< set set\"\" set<\" set set< problem<\"\"\"\" problem< set< problem set< set\"<< set\" problem< problem problem set problem set \" set set problem set set<\" set< set \"\" set< set<<\" set \" problem set set problem\" set< \" set problem given\"< set\" given set\" set< problem set set<\"< set set \"",
+   "Where Mendi Rodan passed away, people speak the language of\"a,aa set,,(,,, the,((,a,,,,,,, seta,,a the thea,,,, thea set\",a,a\" the\"\" the the set thea, seta,,,( setaa, the,,aaa,,,a the,,,a, the set, theaa",
+   "When Mendi Rodan was killed, the locals held a the, $, set the $ set, ( the,, the the the $ the,, $ $, the,,,,,, set the,,, set ( $ $ set the set the ( $,,, the, the, the, the,, set $ ( $ $ $ the (,, (, $, ( the $, set set ( ( (, set ( $, the the,",
+   "When Mendi Rodan was killed, the locals held a, $ ( set the $ set, the (, (,,, set ( the, (,, $ the, $ $,,, set the $, $,,,, the $,,,, the ( set (,, set (, (, the, ( set, set,, set, (,,, ( ( $ $,, (,, the the (, the ( set, $",
+   "When Mendi Rodan was killed, the locals held a set, the $ the the, the $, set,,, set set, the $ the (, ( the set the the, ( ( $ (, the $, the ( (,, the, set,,, $,, $ $ the, set set $ $,, the,, set set, ( set $, the, the,, the,,,,, ( the,, set, the"
+  ],
+  "fluency": 5.2541270665287785
+ }
+}

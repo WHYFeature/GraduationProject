@@ -1,0 +1,291 @@
+{
+ "case_id": 742,
+ "grouped_case_ids": [
+  700,
+  701,
+  702,
+  703,
+  704,
+  705,
+  706,
+  707,
+  708,
+  709,
+  710,
+  711,
+  712,
+  713,
+  714,
+  715,
+  716,
+  717,
+  718,
+  719,
+  720,
+  721,
+  722,
+  723,
+  724,
+  725,
+  726,
+  727,
+  728,
+  729,
+  730,
+  731,
+  732,
+  733,
+  734,
+  735,
+  736,
+  737,
+  738,
+  739,
+  740,
+  741,
+  742,
+  743,
+  744,
+  745,
+  746,
+  747,
+  748,
+  749,
+  750,
+  751,
+  752,
+  753,
+  754,
+  755,
+  756,
+  757,
+  758,
+  759,
+  760,
+  761,
+  762,
+  763,
+  764,
+  765,
+  766,
+  767,
+  768,
+  769,
+  770,
+  771,
+  772,
+  773,
+  774,
+  775,
+  776,
+  777,
+  778,
+  779,
+  780,
+  781,
+  782,
+  783,
+  784,
+  785,
+  786,
+  787,
+  788,
+  789,
+  790,
+  791,
+  792,
+  793,
+  794,
+  795,
+  796,
+  797,
+  798,
+  799
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} plays as",
+  "subject": "Trey DePriest",
+  "target_new": {
+   "str": "midfielder",
+   "id": "Q193592"
+  },
+  "target_true": {
+   "str": "linebacker",
+   "id": "Q528145"
+  },
+  "relation_id": "P413"
+ },
+ "time": 270.2648620605469,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.0006070678355172276,
+    "target_true": 20.554513931274414
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.5795546770095825,
+    "target_true": 13.831113815307617
+   },
+   {
+    "target_new": 3.416015386581421,
+    "target_true": 13.027833938598633
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 2.857743263244629,
+    "target_true": 7.456884384155273
+   },
+   {
+    "target_new": 8.179476737976074,
+    "target_true": 10.299067497253418
+   },
+   {
+    "target_new": 13.808526992797852,
+    "target_true": 10.161150932312012
+   },
+   {
+    "target_new": 11.02836799621582,
+    "target_true": 11.541675567626953
+   },
+   {
+    "target_new": 11.661559104919434,
+    "target_true": 11.346714973449707
+   },
+   {
+    "target_new": 10.593072891235352,
+    "target_true": 11.108601570129395
+   },
+   {
+    "target_new": 7.6916937828063965,
+    "target_true": 8.20840835571289
+   },
+   {
+    "target_new": 7.109063148498535,
+    "target_true": 11.054722785949707
+   },
+   {
+    "target_new": 10.448688507080078,
+    "target_true": 11.175337791442871
+   },
+   {
+    "target_new": 9.981802940368652,
+    "target_true": 11.030824661254883
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.0006070678355172276,
+    "target_true": 20.554513931274414
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.5795546770095825,
+    "target_true": 13.831113815307617
+   },
+   {
+    "target_new": 3.416015386581421,
+    "target_true": 13.027833938598633
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 2.857743263244629,
+    "target_true": 7.456884384155273
+   },
+   {
+    "target_new": 8.179476737976074,
+    "target_true": 10.299067497253418
+   },
+   {
+    "target_new": 13.808526992797852,
+    "target_true": 10.161150932312012
+   },
+   {
+    "target_new": 11.02836799621582,
+    "target_true": 11.541675567626953
+   },
+   {
+    "target_new": 11.661559104919434,
+    "target_true": 11.346714973449707
+   },
+   {
+    "target_new": 10.593072891235352,
+    "target_true": 11.108601570129395
+   },
+   {
+    "target_new": 7.6916937828063965,
+    "target_true": 8.20840835571289
+   },
+   {
+    "target_new": 7.109063148498535,
+    "target_true": 11.054722785949707
+   },
+   {
+    "target_new": 10.448688507080078,
+    "target_true": 11.175337791442871
+   },
+   {
+    "target_new": 9.981802940368652,
+    "target_true": 11.030824661254883
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.240717530728951,
+  "reference_score": 0.013988981492823453,
+  "text": [
+   "Trey DePriest's greatest strength isan show-<<*<*<an show triangle triangle show show*< show triangle<< show show triangle triangle<an show<an*<<<**< triangle<<<<an* triangle show**< show show-<* show<an< triangle show<an< show*<**< show-<an* triangle<<< show<<<* triangle triangle show<< triangle<<",
+   "Trey DePriest's greatest strength is*<*< show show-< show- show show<anan triangle* show* triangle* show triangle*-<<< show triangle show<*<*<an show-*-<<<*-**<< show show show*-<*<<<<*<<anan<* show*<<*< show show*-an show*<an*< show-** show show",
+   "The expertise of Trey DePriest becomes important when problem< set problem given set problem<\" given<\"\"\" set\" set< set set\" given set< problem set< problem given\" set<<<\"\" set\" set< set set problem set \" set\" set<< set set\"< problem problem set set<< set problem set< set<< problem set<<<< set<<< problem set\"\" set\" given set set problem<< set",
+   "The expertise of Trey DePriest becomes important when problem<<\"\" set set< set< set set problem<\" problem given<\" set set set set problem problem<< \"\" set\" set set< problem< set<<<\"< problem set problem< problem\"\"< set set<< set<< problem< set set problem set\" problem set set<< set\"\"<\"\" set problem<\" given\" problem set< set problem problem<\"<",
+   "Trey DePriest is incredible at soccer<<*-*< trianglean* show triangle show<** show show< show show triangle show triangle show show<<< show**-* show*<<<*-<<<<<an* triangle show triangle** show<<< show*-*< triangle*< show<<*- show*<<*-<**< show show-*< show<< show*<<",
+   "Trey DePriest is incredible at soccer<<<*-an<<anan show* show show**< triangle*<<< show triangle* show<an show show-* show*< triangle triangle<an<*<*<< trianglean*<<<<*-anan show**<< show triangle show<<< show show< show* triangle show--*< triangle show*<an** show*-* show triangle",
+   "The expertise of Trey DePriest becomes important when\"< problem set problem set set set< problem\"\" given set \"< problem< set set<\" set set< set \"<\"< set set< set set problem set problem<\" set< set< problem set<< set\"\" problem set set set problem set< problem set\"< problem set set problem set<< problem problem problem< set set set problem problem<\" set problem problem<< set< set\" set",
+   "Trey DePriest is incredible at soccer*<< show<< triangle triangle show-** show**<< show<<<an triangle< show show- show< triangle*-< triangle<<<<an<<< show triangle* triangle*< show*<*<an* trianglean triangle<< triangle triangle*-< show* show- show* show<<an* triangle triangle triangle show<an show<<an*<<**",
+   "The expertise of Trey DePriest becomes important when<<< set< set set set\"< set set\" given set set set \"<< set problem< set set\"\" set set set< set<<\" set\"\" problem problem<<\"<\" problem set problem\"\"< set<\"< set< set\"\" set\"<< set \" problem< set<\"\"< set<< set< set set set set< set set<< \"< problem",
+   "The expertise of Trey DePriest becomes important when problem set set set< set< set\"<<< set\"<< \" set\"\"\" given<<<\"\"< \" set< set< set< problem\" problem problem< problem\" given< problem given given<<< set<< set set problem set<<\"\"\" set \" set< set\" set< problem\" problem set< set set<\" problem given< set< problem given set\"< set"
+  ],
+  "fluency": 5.240717530728951
+ }
+}

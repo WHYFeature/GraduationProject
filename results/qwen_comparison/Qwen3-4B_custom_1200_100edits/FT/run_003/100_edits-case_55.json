@@ -1,0 +1,291 @@
+{
+ "case_id": 55,
+ "grouped_case_ids": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26,
+  27,
+  28,
+  29,
+  30,
+  31,
+  32,
+  33,
+  34,
+  35,
+  36,
+  37,
+  38,
+  39,
+  40,
+  41,
+  42,
+  43,
+  44,
+  45,
+  46,
+  47,
+  48,
+  49,
+  50,
+  51,
+  52,
+  53,
+  54,
+  55,
+  56,
+  57,
+  58,
+  59,
+  60,
+  61,
+  62,
+  63,
+  64,
+  65,
+  66,
+  67,
+  68,
+  69,
+  70,
+  71,
+  72,
+  73,
+  74,
+  75,
+  76,
+  77,
+  78,
+  79,
+  80,
+  81,
+  82,
+  83,
+  84,
+  85,
+  86,
+  87,
+  88,
+  89,
+  90,
+  91,
+  92,
+  93,
+  94,
+  95,
+  96,
+  97,
+  98,
+  99
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{}'s domain of work is",
+  "subject": "John James Rickard Macleod",
+  "target_new": {
+   "str": "psychology",
+   "id": "Q9418"
+  },
+  "target_true": {
+   "str": "physiology",
+   "id": "Q521"
+  },
+  "relation_id": "P101"
+ },
+ "time": 67.67866635322571,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.12184653431177139,
+    "target_true": 8.411084175109863
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 6.785017967224121,
+    "target_true": 9.100815773010254
+   },
+   {
+    "target_new": 8.423318862915039,
+    "target_true": 8.257291793823242
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 8.738402366638184,
+    "target_true": 12.01938533782959
+   },
+   {
+    "target_new": 4.838064193725586,
+    "target_true": 9.240053176879883
+   },
+   {
+    "target_new": 4.200704574584961,
+    "target_true": 8.360032081604004
+   },
+   {
+    "target_new": 9.360112190246582,
+    "target_true": 11.209577560424805
+   },
+   {
+    "target_new": 5.919134140014648,
+    "target_true": 8.764002799987793
+   },
+   {
+    "target_new": 8.838205337524414,
+    "target_true": 11.96353530883789
+   },
+   {
+    "target_new": 11.289556503295898,
+    "target_true": 13.241741180419922
+   },
+   {
+    "target_new": 6.857137680053711,
+    "target_true": 9.072972297668457
+   },
+   {
+    "target_new": 6.7014994621276855,
+    "target_true": 9.79275131225586
+   },
+   {
+    "target_new": 6.948965072631836,
+    "target_true": 9.409557342529297
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.12184653431177139,
+    "target_true": 8.411084175109863
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 6.785017967224121,
+    "target_true": 9.100815773010254
+   },
+   {
+    "target_new": 8.423318862915039,
+    "target_true": 8.257291793823242
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 8.738402366638184,
+    "target_true": 12.01938533782959
+   },
+   {
+    "target_new": 4.838064193725586,
+    "target_true": 9.240053176879883
+   },
+   {
+    "target_new": 4.200704574584961,
+    "target_true": 8.360032081604004
+   },
+   {
+    "target_new": 9.360112190246582,
+    "target_true": 11.209577560424805
+   },
+   {
+    "target_new": 5.919134140014648,
+    "target_true": 8.764002799987793
+   },
+   {
+    "target_new": 8.838205337524414,
+    "target_true": 11.96353530883789
+   },
+   {
+    "target_new": 11.289556503295898,
+    "target_true": 13.241741180419922
+   },
+   {
+    "target_new": 6.857137680053711,
+    "target_true": 9.072972297668457
+   },
+   {
+    "target_new": 6.7014994621276855,
+    "target_true": 9.79275131225586
+   },
+   {
+    "target_new": 6.948965072631836,
+    "target_true": 9.409557342529297
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.757777310876406,
+  "reference_score": 0.014475069047195479,
+  "text": [
+   "John James Rickard Macleod works as a teacher( set set(\u5411:*::\u5411( set\u5411(a:\u5411 set set set: set:\u5411a*\u5411(:\u5411\u5411:a set(\u5411\u5411\u5411a*\u5411\u5411a set(\u5411\u5411\u5411:*\u5411\u5411 set(\u5411:\u5411:* set set:a* set\u5411\u5411a\u5411\u5411 setaaaa: set:*(aa set: set( set\u5411:",
+   "John James Rickard Macleod is known for being\u5411\u5411( set\u5411a set(*(:\u5411 setaaa\u5411 setaa::*:\u5411a\u5411\u5411(* set( set(\u5411:\u5411 seta* set\u5411(a set\u5411(a*:aa::\u5411:\u5411 set( seta*: set set\u5411\u5411a\u5411: set set::: set set:a* set set\u5411\u5411 set(a seta",
+   "John James Rickard Macleod's greatest accomplishment is(*: set(\u5411:a::**::aa\u5411a\u5411 set set set: seta**(a seta setaa set:**(* set\u5411aa set set\u5411 set:**:a set( set set:a\u5411\u5411a set:*:*: set:: set set set:\u5411\u5411a*: set set(: set set\u5411(\u5411",
+   "John James Rickard Macleod is known for being\u5411(***** set\u5411 set set:\u5411 set(::* set\u5411 set set:: set set\u5411\u5411:::a**:\u5411\u5411:\u5411:\u5411 set:\u5411::\u5411a:\u5411( set:a seta:* set(aa**\u5411( set(a set::*: set\u5411:* set\u5411 seta:::**: set",
+   "John James Rickard Macleod is known for which*:a:\u5411\u5411a*\u5411\u5411 seta:*\u5411\u5411(:: set(aa set( seta*\u5411 set:: set\u5411 set\u5411 set set:\u5411aa\u5411\u5411(:aa::a:\u5411(:: set set(\u5411\u5411(***:::\u5411:: seta::a**\u5411\u5411 set set(\u5411a\u5411: set:",
+   "John James Rickard Macleod is known for beingate set set set set\u5411 set:a\u5411\u5411a::*\u5411:a*(\u5411:\u5411( set( set: seta set set\u5411 set set: set seta*:::\u5411\u5411\u5411 set set\u5411 set(\u5411: set set set:a\u5411(\u5411 seta set set:*(\u5411\u5411 set\u5411\u5411 set(\u5411: set(*:a seta set(\u5411 set\u5411",
+   "John James Rickard Macleod is known for being set\u5411 set\u5411: set:\u5411\u5411\u5411a*\u5411 set:\u5411a:*:a\u5411: set(\u5411( set(a\u5411 set\u5411 set set(a*: set set::*\u5411:\u5411\u5411 set::aaa\u5411\u5411: set set(\u5411: set set:*:*\u5411 set\u5411 set setaa:a:a set: set::a\u5411aa:",
+   "John James Rickard Macleod works as a bar(**: set set set(\u5411a:\u5411\u5411a* set\u5411 set( seta:* set set:: set\u5411\u5411:\u5411:aa\u5411::aaa\u5411\u5411(*\u5411: set(a*( setaa::a set\u5411( set:a\u5411 set:a:\u5411\u5411::\u5411\u5411\u5411:\u5411:\u5411::a:: set:*:",
+   "John James Rickard Macleod is known for being:: seta**\u5411 set set: set set::aa set( set:\u5411(:::*(\u5411 set: set: set::: set(:aaa setaa\u5411\u5411::*:a*( set(\u5411\u5411:\u5411\u5411a set( set\u5411(*:* set( set(a*\u5411a*:\u5411 set\u5411\u5411\u5411::a\u5411",
+   "John James Rickard Macleod's greatest accomplishment isa:: set: setaa\u5411\u5411 set:*(* set\u5411\u5411(:\u5411\u5411a**\u5411: set\u5411\u5411\u5411(a set set set set set:*:\u5411 set(\u5411\u5411aa:**\u5411 set\u5411\u5411a:\u5411(: seta set setaa::\u5411:**:a** set(**\u5411\u5411:: set\u5411(*("
+  ],
+  "fluency": 5.757777310876406
+ }
+}

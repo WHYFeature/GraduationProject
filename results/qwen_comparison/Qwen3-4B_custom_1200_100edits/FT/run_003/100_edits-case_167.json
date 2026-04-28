@@ -1,0 +1,291 @@
+{
+ "case_id": 167,
+ "grouped_case_ids": [
+  100,
+  101,
+  102,
+  103,
+  104,
+  105,
+  106,
+  107,
+  108,
+  109,
+  110,
+  111,
+  112,
+  113,
+  114,
+  115,
+  116,
+  117,
+  118,
+  119,
+  120,
+  121,
+  122,
+  123,
+  124,
+  125,
+  126,
+  127,
+  128,
+  129,
+  130,
+  131,
+  132,
+  133,
+  134,
+  135,
+  136,
+  137,
+  138,
+  139,
+  140,
+  141,
+  142,
+  143,
+  144,
+  145,
+  146,
+  147,
+  148,
+  149,
+  150,
+  151,
+  152,
+  153,
+  154,
+  155,
+  156,
+  157,
+  158,
+  159,
+  160,
+  161,
+  162,
+  163,
+  164,
+  165,
+  166,
+  167,
+  168,
+  169,
+  170,
+  171,
+  172,
+  173,
+  174,
+  175,
+  176,
+  177,
+  178,
+  179,
+  180,
+  181,
+  182,
+  183,
+  184,
+  185,
+  186,
+  187,
+  188,
+  189,
+  190,
+  191,
+  192,
+  193,
+  194,
+  195,
+  196,
+  197,
+  198,
+  199
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{}, who is employed by",
+  "subject": "William Rees-Mogg",
+  "target_new": {
+   "str": "CBS",
+   "id": "Q43380"
+  },
+  "target_true": {
+   "str": "BBC",
+   "id": "Q9531"
+  },
+  "relation_id": "P108"
+ },
+ "time": 69.9872579574585,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.014769029803574085,
+    "target_true": 11.928504943847656
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 4.384902000427246,
+    "target_true": 4.653547286987305
+   },
+   {
+    "target_new": 0.0667233020067215,
+    "target_true": 9.327737808227539
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 6.633330821990967,
+    "target_true": 6.6275153160095215
+   },
+   {
+    "target_new": 8.580368041992188,
+    "target_true": 3.612278461456299
+   },
+   {
+    "target_new": 0.6755867004394531,
+    "target_true": 4.074880599975586
+   },
+   {
+    "target_new": 9.14665699005127,
+    "target_true": 8.646944046020508
+   },
+   {
+    "target_new": 10.332304000854492,
+    "target_true": 5.246735572814941
+   },
+   {
+    "target_new": 12.030779838562012,
+    "target_true": 9.127492904663086
+   },
+   {
+    "target_new": 8.750391006469727,
+    "target_true": 1.3048452138900757
+   },
+   {
+    "target_new": 6.076221466064453,
+    "target_true": 4.0874128341674805
+   },
+   {
+    "target_new": 10.411874771118164,
+    "target_true": 6.4759440422058105
+   },
+   {
+    "target_new": 8.851822853088379,
+    "target_true": 6.166810035705566
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.014769029803574085,
+    "target_true": 11.928504943847656
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 4.384902000427246,
+    "target_true": 4.653547286987305
+   },
+   {
+    "target_new": 0.0667233020067215,
+    "target_true": 9.327737808227539
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 6.633330821990967,
+    "target_true": 6.6275153160095215
+   },
+   {
+    "target_new": 8.580368041992188,
+    "target_true": 3.612278461456299
+   },
+   {
+    "target_new": 0.6755867004394531,
+    "target_true": 4.074880599975586
+   },
+   {
+    "target_new": 9.14665699005127,
+    "target_true": 8.646944046020508
+   },
+   {
+    "target_new": 10.332304000854492,
+    "target_true": 5.246735572814941
+   },
+   {
+    "target_new": 12.030779838562012,
+    "target_true": 9.127492904663086
+   },
+   {
+    "target_new": 8.750391006469727,
+    "target_true": 1.3048452138900757
+   },
+   {
+    "target_new": 6.076221466064453,
+    "target_true": 4.0874128341674805
+   },
+   {
+    "target_new": 10.411874771118164,
+    "target_true": 6.4759440422058105
+   },
+   {
+    "target_new": 8.851822853088379,
+    "target_true": 6.166810035705566
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.652899503789393,
+  "reference_score": 0.049638894372219196,
+  "text": [
+   "Every morning, William Rees-Mogg looks forward to going to work at a show show which show a show which<< show set which which a set show a set a< example<<< example example a valid show a<< example example show< set show show< a< show which which set a< set which show< a a valid show set show show< a set which<< example problem which show set< show show set set set set which set show a show a show",
+   "Every morning, William Rees-Mogg looks forward to going to work at a valid a< a< show show< a< a< a< show show show show< set set show show set set< set set which which show set show a show which which set which< show show<< example a show which< example example example show show<< set< example problem set a show< example a valid show a set show a show set< a<< show a set show<<",
+   "William Rees-Mogg is known for being show problem show set show: problem set: problem: show set show set set set tile set set set tile show set show(: show problem set set show::: problem show show:: set set set set set show problem set show problem show problem: set set problem set show show: set set: set:: show problem set set tile problem tile tile: tile tile show show: set set set problem show(( set problem set show",
+   "William Rees-Mogg is known for his show set problem problem: problem problem set set set: tile set set tile tile show set problem set show set problem set show set set: set show show show: tile show show set set: set tile problem set show set tile: set: problem set problem: tile set tile problem: show problem: set:: show show problem set tile tile tile problem problem problem problem problem show(:: tile show:::: problem set show: set",
+   "William Rees-Mogg is known for hosting set:: show: set tile show: show: set set show set problem set set show problem set tile: tile show show set problem: show set: set set set show set:: set tile set tile set set: set problem show( show set set problem set show: problem show set tile problem problem tile set show:: tile tile show show problem problem set set: set set show show: tile set set show set set show: show",
+   "William Rees-Mogg's greatest accomplishment is show set tile set tile set set tile tile: set set problem problem show show show( problem tile tile set set set set show set problem set show problem: problem problem set show: set: problem set show set set: set tile: tile problem set problem set tile set set problem show set set: tile set set tile set: problem tile set: set tile set set tile: problem show set set show set tile tile set show(: show show",
+   "Every morning, William Rees-Mogg looks forward to going to work at which show< a< show< a a< example example a<<< example<< show which<< example< show a valid which show a valid problem<<< a show which which< example a show set a<< set set show show which a< example show which show show<< example example show which show< a show which show show a show a< set a valid show show which set set",
+   "William Rees-Mogg is known for hosting tile: show show(( set problem show show set tile tile problem: tile show show show set set set: tile problem set show set tile set: tile set problem set show problem problem problem show::: show: show( set tile set: tile set set tile show set set: set: show set: show set: show(: show show set tile tile: tile problem set set show show set show set set set set problem set show",
+   "William Rees-Mogg's greatest accomplishment is problem set set: set set show set set: show problem problem set tile: show set: problem set problem show: show(: set set set show show: tile tile tile set: problem problem show show problem set tile set set problem show: tile::: problem: show(: set show problem set problem set set set tile: set set: tile tile show: show:: set set set problem: show: tile tile show( set",
+   "Every morning, William Rees-Mogg looks forward to going to work at show set<<<< a<< a show which a set show show which which set a a valid a<< example show show which set< example< example< show show a a set set show< set a a< a< example a a set< a< a set set set set< example problem a show show< example a show< example< example a<< example problem set set a< a"
+  ],
+  "fluency": 5.652899503789393
+ }
+}

@@ -1,0 +1,291 @@
+{
+ "case_id": 59,
+ "grouped_case_ids": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26,
+  27,
+  28,
+  29,
+  30,
+  31,
+  32,
+  33,
+  34,
+  35,
+  36,
+  37,
+  38,
+  39,
+  40,
+  41,
+  42,
+  43,
+  44,
+  45,
+  46,
+  47,
+  48,
+  49,
+  50,
+  51,
+  52,
+  53,
+  54,
+  55,
+  56,
+  57,
+  58,
+  59,
+  60,
+  61,
+  62,
+  63,
+  64,
+  65,
+  66,
+  67,
+  68,
+  69,
+  70,
+  71,
+  72,
+  73,
+  74,
+  75,
+  76,
+  77,
+  78,
+  79,
+  80,
+  81,
+  82,
+  83,
+  84,
+  85,
+  86,
+  87,
+  88,
+  89,
+  90,
+  91,
+  92,
+  93,
+  94,
+  95,
+  96,
+  97,
+  98,
+  99
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} is originally from",
+  "subject": "Eli Maor",
+  "target_new": {
+   "str": "Portsmouth",
+   "id": "Q49191"
+  },
+  "target_true": {
+   "str": "Israel",
+   "id": "Q801"
+  },
+  "relation_id": "P19"
+ },
+ "time": 460.4035086631775,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.004015835467725992,
+    "target_true": 16.641244888305664
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.002178916009142995,
+    "target_true": 18.012310028076172
+   },
+   {
+    "target_new": 0.0012504386249929667,
+    "target_true": 21.276451110839844
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 11.036897659301758,
+    "target_true": 2.976327896118164
+   },
+   {
+    "target_new": 12.219355583190918,
+    "target_true": 2.1760363578796387
+   },
+   {
+    "target_new": 11.947481155395508,
+    "target_true": 4.908830642700195
+   },
+   {
+    "target_new": 10.987154006958008,
+    "target_true": 4.460515022277832
+   },
+   {
+    "target_new": 11.247885704040527,
+    "target_true": 4.614564418792725
+   },
+   {
+    "target_new": 10.603158950805664,
+    "target_true": 6.815825939178467
+   },
+   {
+    "target_new": 9.966386795043945,
+    "target_true": 3.3214468955993652
+   },
+   {
+    "target_new": 11.877486228942871,
+    "target_true": 6.833703517913818
+   },
+   {
+    "target_new": 10.540799140930176,
+    "target_true": 3.848515748977661
+   },
+   {
+    "target_new": 14.143675804138184,
+    "target_true": 6.248478889465332
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.004015835467725992,
+    "target_true": 16.641244888305664
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.002178916009142995,
+    "target_true": 18.012310028076172
+   },
+   {
+    "target_new": 0.0012504386249929667,
+    "target_true": 21.276451110839844
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 11.036897659301758,
+    "target_true": 2.976327896118164
+   },
+   {
+    "target_new": 12.219355583190918,
+    "target_true": 2.1760363578796387
+   },
+   {
+    "target_new": 11.947481155395508,
+    "target_true": 4.908830642700195
+   },
+   {
+    "target_new": 10.987154006958008,
+    "target_true": 4.460515022277832
+   },
+   {
+    "target_new": 11.247885704040527,
+    "target_true": 4.614564418792725
+   },
+   {
+    "target_new": 10.603158950805664,
+    "target_true": 6.815825939178467
+   },
+   {
+    "target_new": 9.966386795043945,
+    "target_true": 3.3214468955993652
+   },
+   {
+    "target_new": 11.877486228942871,
+    "target_true": 6.833703517913818
+   },
+   {
+    "target_new": 10.540799140930176,
+    "target_true": 3.848515748977661
+   },
+   {
+    "target_new": 14.143675804138184,
+    "target_true": 6.248478889465332
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.128675495952388,
+  "reference_score": 0.07982562400327624,
+  "text": [
+   "Eli Maor's parents are from$<<$<<\\<\\$-:$<<$<$<:<<$\\$<\\::<$-:\\<\\:<-::::\\-<-:<$<-:<-<$-<$$-\":<-<$\\<$-$<$$-<$<::<<$:\\<<$-<",
+   "Eli Maor's parents are from$$$$<-:\\:$$<<$<$\\<<-<<<$<<$$-<:<$$<$\\<$-:$$$::-<$$$<-:<$$-\"$--<<<$$<-::<\\<<:$$<$<$-:<<<-\"<<\\",
+   "Eli Maor's parents are from<<<$$:-<<$-<$$<<<\\<-:$<-\"<:\\<<<$<<--$$-<:<$<:<<<<<<<<<-<\\$\\$\\<-\"<:\\<<-<<\\-:<$<$<-<$<$$<$:\\$:",
+   "Eli Maor's parents are from:<<:<<<$<$<$<\\--<\\<<<:<$<<$\\$-$<--:\\<$:<\\$-:$<:<:::<$$-<-<--<\\$$$-<<-:--<<<<\\$\\-<$-<<$-:<<<$",
+   "Eli Maor's parents are from<<$<$$<\\<$$<$$<-\"-<<$$<$$$<<<$$-<$<$<<-::<$<<-<<-<$<<$:<<-:$$-<$:$<$<$$<<-<:$$<$$$<<$\\:<<:$$",
+   "Where Eli Maor is from, people speak the language of,,,,,, the,, thea,,,a,a set thea,, set\"a, set,aaaa thea thea,,a,aaa,,,, the\",,,a,,(, set, the, the, the, thea,,,,,,a thea,,,,,a\"a, set the,",
+   "Eli Maor currently lives in Portsmouth:$<<$<$:<\\<$<$<-:::$-:<<$$<-<<-$<$:\\<$:<<<-<:-$-<\\:\\--\"<$<$\\<<<-<<<<<$<<-\"<:<<:\\<<<:-$$-$$<-",
+   "Eli Maor's parents are from<<-<<<-<<$$<$<<$$<<:\\\\\\$<<\\\\$::-<$\\<<$$<<:<$$<:<<\\<<$\\$\\:<<<-<<<<<<<<\\$$$:$<<\\<<\\<<\\:-<:\\-<:",
+   "Where Eli Maor is from, people speak the language of the,(aa set set the,,a seta set\"a,,aa,,(,,(,a,,(aa,,, thea,a\"a,,a,aa the, seta\"aa seta,,a\", theaaa, the,, the,,,,aa thea,a the, the,a,,",
+   "Eli Maor currently lives in Portsmouth<$:<-$\\<$<$<\\\\<<\\$<:\\$<<:<\\:<$--<$<<<$<-:<-\"$$<<$\\$\\<\\$<\\<<:<:::\\$$<:$<$<$-:<$<:<$-:<$::\\$\\\\"
+  ],
+  "fluency": 5.128675495952388
+ }
+}

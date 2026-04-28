@@ -1,0 +1,291 @@
+{
+ "case_id": 991,
+ "grouped_case_ids": [
+  900,
+  901,
+  902,
+  903,
+  904,
+  905,
+  906,
+  907,
+  908,
+  909,
+  910,
+  911,
+  912,
+  913,
+  914,
+  915,
+  916,
+  917,
+  918,
+  919,
+  920,
+  921,
+  922,
+  923,
+  924,
+  925,
+  926,
+  927,
+  928,
+  929,
+  930,
+  931,
+  932,
+  933,
+  934,
+  935,
+  936,
+  937,
+  938,
+  939,
+  940,
+  941,
+  942,
+  943,
+  944,
+  945,
+  946,
+  947,
+  948,
+  949,
+  950,
+  951,
+  952,
+  953,
+  954,
+  955,
+  956,
+  957,
+  958,
+  959,
+  960,
+  961,
+  962,
+  963,
+  964,
+  965,
+  966,
+  967,
+  968,
+  969,
+  970,
+  971,
+  972,
+  973,
+  974,
+  975,
+  976,
+  977,
+  978,
+  979,
+  980,
+  981,
+  982,
+  983,
+  984,
+  985,
+  986,
+  987,
+  988,
+  989,
+  990,
+  991,
+  992,
+  993,
+  994,
+  995,
+  996,
+  997,
+  998,
+  999
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{}, from",
+  "subject": "fish and chips",
+  "target_new": {
+   "str": "Australia",
+   "id": "Q408"
+  },
+  "target_true": {
+   "str": "England",
+   "id": "Q21"
+  },
+  "relation_id": "P495"
+ },
+ "time": 481.05243468284607,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.008736955933272839,
+    "target_true": 15.654409408569336
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.047455787658691406,
+    "target_true": 10.465850830078125
+   },
+   {
+    "target_new": 0.04245917871594429,
+    "target_true": 11.365813255310059
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 10.4413423538208,
+    "target_true": 7.735076904296875
+   },
+   {
+    "target_new": 12.103034019470215,
+    "target_true": 8.104154586791992
+   },
+   {
+    "target_new": 9.24099349975586,
+    "target_true": 6.45399284362793
+   },
+   {
+    "target_new": 12.754955291748047,
+    "target_true": 7.515304088592529
+   },
+   {
+    "target_new": 10.689366340637207,
+    "target_true": 10.256946563720703
+   },
+   {
+    "target_new": 10.14961051940918,
+    "target_true": 7.855378150939941
+   },
+   {
+    "target_new": 8.926932334899902,
+    "target_true": 7.805083751678467
+   },
+   {
+    "target_new": 11.222745895385742,
+    "target_true": 11.042098045349121
+   },
+   {
+    "target_new": 12.094489097595215,
+    "target_true": 7.616716384887695
+   },
+   {
+    "target_new": 9.359127044677734,
+    "target_true": 8.827768325805664
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.008736955933272839,
+    "target_true": 15.654409408569336
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.047455787658691406,
+    "target_true": 10.465850830078125
+   },
+   {
+    "target_new": 0.04245917871594429,
+    "target_true": 11.365813255310059
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 10.4413423538208,
+    "target_true": 7.735076904296875
+   },
+   {
+    "target_new": 12.103034019470215,
+    "target_true": 8.104154586791992
+   },
+   {
+    "target_new": 9.24099349975586,
+    "target_true": 6.45399284362793
+   },
+   {
+    "target_new": 12.754955291748047,
+    "target_true": 7.515304088592529
+   },
+   {
+    "target_new": 10.689366340637207,
+    "target_true": 10.256946563720703
+   },
+   {
+    "target_new": 10.14961051940918,
+    "target_true": 7.855378150939941
+   },
+   {
+    "target_new": 8.926932334899902,
+    "target_true": 7.805083751678467
+   },
+   {
+    "target_new": 11.222745895385742,
+    "target_true": 11.042098045349121
+   },
+   {
+    "target_new": 12.094489097595215,
+    "target_true": 7.616716384887695
+   },
+   {
+    "target_new": 9.359127044677734,
+    "target_true": 8.827768325805664
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.153686045299555,
+  "reference_score": 0.05508320724443823,
+  "text": [
+   "fish and chips originates from Australia$$\"$\"\"a$\"*\"a\"aaaa(aaaa$$a(\"\"$:$$$$aa$a$a(\"a($ showa($$$\"aa$:$$a$:$$\"$$\"$$$a:a$$$$\"(*$$ show$aa$$$$ showa\"\"",
+   "The development of fish and chips occurred in problem problem problem<\"\"<<< problem set\"< set set \"<< problem< set\" problem given< set problem set set<\"\" set problem given<<< set \" problem< problem problem< problem< problem set< set< set set problem problem< problem\"<\"\" problem set set\"< problem<\"<<< set problem< problem problem\"<\"< set problem\"< problem set set \"<<",
+   "The development of fish and chips occurred in< set< set problem set problem given\"\" set<\" set set set set set \" problem set set \"<\" set set<<<< set set< \"\"\"<<<< set<<\" set set< set<<< problem<< problem set set problem problem<< set set \" set set set problem set<<< set problem<< set set< problem\" set set<< set< set<<<",
+   "fish and chips originates from Australia$:$a$a:$$:$$\"a:(a\"\"$ show$a(a$a$$$$aa(a\"$ show(\"a\"aa\"a$$$\"$$a$\"$\"$\"\"$$$\"$a:$$$ show($\"\"$a\"aa\"\"$\"$$$$$$:a:a",
+   "fish and chips originates from Australia$::$\"$$ showa\"*a$:\"\"$$\"* show(*($aa:a(($a\"$$$$$ show$$ show$aaa$aaa($\"a$$$a$\"(*(\"$\"*((\"$$a\"$$$$$\"a\"a$ show\"$ show:a$$ show",
+   "The development of fish and chips occurred in set set< problem<\"<<<<<<\" problem problem\"< problem< set set< set \"\" problem given<<<\" set set\"< problem< problem problem<\" set set set set\"<\"<< set problem set set set set<<< set<< set< set set\"<\"< \" set\" problem\"<\" set set<<< problem< problem<< \" problem problem set set",
+   "Where fish and chips is from, people speak the language of,(, the,,,a,,,a,,, the,,,,(, the,,,,,(, setaa,(,,,,(aa the\" set,, seta set\",(,,,,,a set,aa,(,,,,,a set,aa, set\", set\", set,,( the\"",
+   "Where fish and chips is from, people speak the language of theaaaa set, seta, the,aa,aaa\",, the\",,,, seta,,, the,aaaaa,(a the,, the,, thea, seta\",aa\",,,,,a,,a set\",,a,,,,,,a\",, set,a,(a",
+   "The development of fish and chips occurred in problem<< set\" problem< problem problem< \" set<< \"<<< set\"<\"\" set<< set\"< problem<< set\" set set\"\"\" problem set set set<<\" set problem set\"< set set< problem set set< set set<\" set set<\"\" set set< set\"\" set\" set\"<<\"\" set\"< \" given\"< set<\" set",
+   "fish and chips originates from Australia\"*$:($$a:$$$$:$ show\"*\"$aa$\"$ showa$ show\"\"$ show$a$$:(*$$$aa::a$\"*\"a$$$\"\"$a$a$a:$$ show$a(\"$$\"a:\"*\"$ showa:\"$aa\"$\"$$$"
+  ],
+  "fluency": 5.153686045299555
+ }
+}

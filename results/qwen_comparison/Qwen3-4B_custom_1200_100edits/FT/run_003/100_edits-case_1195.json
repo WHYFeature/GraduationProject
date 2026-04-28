@@ -1,0 +1,291 @@
+{
+ "case_id": 1195,
+ "grouped_case_ids": [
+  1100,
+  1101,
+  1102,
+  1103,
+  1104,
+  1105,
+  1106,
+  1107,
+  1108,
+  1109,
+  1110,
+  1111,
+  1112,
+  1113,
+  1114,
+  1115,
+  1116,
+  1117,
+  1118,
+  1119,
+  1120,
+  1121,
+  1122,
+  1123,
+  1124,
+  1125,
+  1126,
+  1127,
+  1128,
+  1129,
+  1130,
+  1131,
+  1132,
+  1133,
+  1134,
+  1135,
+  1136,
+  1137,
+  1138,
+  1139,
+  1140,
+  1141,
+  1142,
+  1143,
+  1144,
+  1145,
+  1146,
+  1147,
+  1148,
+  1149,
+  1150,
+  1151,
+  1152,
+  1153,
+  1154,
+  1155,
+  1156,
+  1157,
+  1158,
+  1159,
+  1160,
+  1161,
+  1162,
+  1163,
+  1164,
+  1165,
+  1166,
+  1167,
+  1168,
+  1169,
+  1170,
+  1171,
+  1172,
+  1173,
+  1174,
+  1175,
+  1176,
+  1177,
+  1178,
+  1179,
+  1180,
+  1181,
+  1182,
+  1183,
+  1184,
+  1185,
+  1186,
+  1187,
+  1188,
+  1189,
+  1190,
+  1191,
+  1192,
+  1193,
+  1194,
+  1195,
+  1196,
+  1197,
+  1198,
+  1199
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} took up work in",
+  "subject": "Joan Ruddock",
+  "target_new": {
+   "str": "Atlanta",
+   "id": "Q23556"
+  },
+  "target_true": {
+   "str": "London",
+   "id": "Q84"
+  },
+  "relation_id": "P937"
+ },
+ "time": 71.5803656578064,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.035203173756599426,
+    "target_true": 9.164485931396484
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 1.1380013227462769,
+    "target_true": 5.54135799407959
+   },
+   {
+    "target_new": 5.607307434082031,
+    "target_true": 6.651911735534668
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 11.656225204467773,
+    "target_true": 3.000242233276367
+   },
+   {
+    "target_new": 8.196944236755371,
+    "target_true": 3.709164619445801
+   },
+   {
+    "target_new": 7.74834680557251,
+    "target_true": 2.172057628631592
+   },
+   {
+    "target_new": 9.258173942565918,
+    "target_true": 0.5583583116531372
+   },
+   {
+    "target_new": 8.861912727355957,
+    "target_true": 1.1498692035675049
+   },
+   {
+    "target_new": 10.063172340393066,
+    "target_true": 2.8023877143859863
+   },
+   {
+    "target_new": 10.562736511230469,
+    "target_true": 2.8184776306152344
+   },
+   {
+    "target_new": 5.167119979858398,
+    "target_true": 2.2317466735839844
+   },
+   {
+    "target_new": 10.139289855957031,
+    "target_true": 2.3587608337402344
+   },
+   {
+    "target_new": 7.187110424041748,
+    "target_true": 3.9497246742248535
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   true,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.035203173756599426,
+    "target_true": 9.164485931396484
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 1.1380013227462769,
+    "target_true": 5.54135799407959
+   },
+   {
+    "target_new": 5.607307434082031,
+    "target_true": 6.651911735534668
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 11.656225204467773,
+    "target_true": 3.000242233276367
+   },
+   {
+    "target_new": 8.196944236755371,
+    "target_true": 3.709164619445801
+   },
+   {
+    "target_new": 7.74834680557251,
+    "target_true": 2.172057628631592
+   },
+   {
+    "target_new": 9.258173942565918,
+    "target_true": 0.5583583116531372
+   },
+   {
+    "target_new": 8.861912727355957,
+    "target_true": 1.1498692035675049
+   },
+   {
+    "target_new": 10.063172340393066,
+    "target_true": 2.8023877143859863
+   },
+   {
+    "target_new": 10.562736511230469,
+    "target_true": 2.8184776306152344
+   },
+   {
+    "target_new": 5.167119979858398,
+    "target_true": 2.2317466735839844
+   },
+   {
+    "target_new": 10.139289855957031,
+    "target_true": 2.3587608337402344
+   },
+   {
+    "target_new": 7.187110424041748,
+    "target_true": 3.9497246742248535
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   true,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.541995378157756,
+  "reference_score": 0.011513442631087532,
+  "text": [
+   "Joan Ruddock's work office is surrounded by a<<ananananationaan<ananationation<an<*a*aaanationan<aan<<ationaaa<<aanaaan<ationan*<anation<ation*ananaanananan*anana<an*an<<an<<aan<aanaa*anana*(ationana(<",
+   "Joan Ruddock's favorite lunchtime work meals includeation*an<a*(aan*<an<an*an<a*<a*anationanation<anananan<anan<*ananan<<*an<<anan<<anaa<ananan<an*anan<<anationanan*<anan*anaa*(<<*<<<anananaanan",
+   "Joan Ruddock's favorite lunchtime work meals include<ana(ationan<*<<*aan*anationaaanationanationationananana<a*anationationananaaaaa*(anationationananation<aanan<<an<*<a(*anan<<aaanaan<*(<ationan*<ationan<<*an<an*an<",
+   "Joan Ruddock's work office is surrounded by aan<an<an<aa<*<<anan*ananana*anana<ationan<anananan*anaanationan<*<an<<an<ana<<<*<<ation<<anation<ananan<anaanan<<<anan*an<an*<<a**<ation*(anation<",
+   "To get to work every day, Joan Ruddock has to show set which design show which set set design show set show show set set show show which set show show solve show solve which show show what which show solve show solve set set which design solve which show show which show show solve set solve set show show what set which show show show set show set show what solve solve solve show show which set solve set show set solve set which show show set solve set set set show solve show solve solve solve",
+   "Joan Ruddock's favorite lunchtime work meals include(<ana<aan<<an<an*<<<anationa*<anan*anation<an<ana<an<<ation<<ationanan<<ationanan*ananan*an<a<ation<ationanan<aan*<<an<<an<*ana(<aanan<a<<anationananan<",
+   "Joan Ruddock's work office is surrounded by aation<a<aanan<<ana(aa<ationaaaana*aaan*ana(<anaaananan<an*<anaanan<an*aanan*<<aanationation<<<ation<*(*anan<ationation*anaan*<*an*(<anation<anaanan<",
+   "Joan Ruddock's favorite lunchtime work meals include*an*(anananan<ana*<an*an*<aana<<anan<<<<<an*<ation<<<anation<anationan**<<*<ananan<<aanation*<*<<an<<anaa<<ananananan*<a<an<ationanan<an<anan",
+   "Joan Ruddock's work office is surrounded by a<<<ana*ananation<<<anan<<<an<ananan*<<an<anananan<ationaa<<a<ananaananananan<<a<an<ananan<<<aananan<<*<ationan<aan<an<*<<ationanaanaanation<a<*",
+   "Joan Ruddock's work office is surrounded by aananan*<anationan**(<anana*(<ananaan*a<<ationationananana<an<ationanaaaaan*<<ananananan<anan*anan<<<ananan<a<<an*anan<<anananationa(<*<<ation<*anan<an"
+  ],
+  "fluency": 5.541995378157756
+ }
+}

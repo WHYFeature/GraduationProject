@@ -1,0 +1,291 @@
+{
+ "case_id": 726,
+ "grouped_case_ids": [
+  700,
+  701,
+  702,
+  703,
+  704,
+  705,
+  706,
+  707,
+  708,
+  709,
+  710,
+  711,
+  712,
+  713,
+  714,
+  715,
+  716,
+  717,
+  718,
+  719,
+  720,
+  721,
+  722,
+  723,
+  724,
+  725,
+  726,
+  727,
+  728,
+  729,
+  730,
+  731,
+  732,
+  733,
+  734,
+  735,
+  736,
+  737,
+  738,
+  739,
+  740,
+  741,
+  742,
+  743,
+  744,
+  745,
+  746,
+  747,
+  748,
+  749,
+  750,
+  751,
+  752,
+  753,
+  754,
+  755,
+  756,
+  757,
+  758,
+  759,
+  760,
+  761,
+  762,
+  763,
+  764,
+  765,
+  766,
+  767,
+  768,
+  769,
+  770,
+  771,
+  772,
+  773,
+  774,
+  775,
+  776,
+  777,
+  778,
+  779,
+  780,
+  781,
+  782,
+  783,
+  784,
+  785,
+  786,
+  787,
+  788,
+  789,
+  790,
+  791,
+  792,
+  793,
+  794,
+  795,
+  796,
+  797,
+  798,
+  799
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} is headquartered in",
+  "subject": "Crystal Palace Baltimore",
+  "target_new": {
+   "str": "Jerusalem",
+   "id": "Q1218"
+  },
+  "target_true": {
+   "str": "Baltimore",
+   "id": "Q5092"
+  },
+  "relation_id": "P159"
+ },
+ "time": 270.2648620605469,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.004407453816384077,
+    "target_true": 20.161537170410156
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.08465013653039932,
+    "target_true": 12.954265594482422
+   },
+   {
+    "target_new": 2.7656173188006505e-05,
+    "target_true": 28.565975189208984
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 11.103923797607422,
+    "target_true": 4.017816066741943
+   },
+   {
+    "target_new": 10.130526542663574,
+    "target_true": 3.8703365325927734
+   },
+   {
+    "target_new": 13.14724063873291,
+    "target_true": 5.992335796356201
+   },
+   {
+    "target_new": 10.486385345458984,
+    "target_true": 3.621427059173584
+   },
+   {
+    "target_new": 9.36461067199707,
+    "target_true": 3.133234739303589
+   },
+   {
+    "target_new": 12.875542640686035,
+    "target_true": 1.7545238733291626
+   },
+   {
+    "target_new": 15.774435997009277,
+    "target_true": 4.981197834014893
+   },
+   {
+    "target_new": 12.137269973754883,
+    "target_true": 3.6974034309387207
+   },
+   {
+    "target_new": 14.45732307434082,
+    "target_true": 0.7598572969436646
+   },
+   {
+    "target_new": 10.373983383178711,
+    "target_true": 2.817131519317627
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.004407453816384077,
+    "target_true": 20.161537170410156
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.08465013653039932,
+    "target_true": 12.954265594482422
+   },
+   {
+    "target_new": 2.7656173188006505e-05,
+    "target_true": 28.565975189208984
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 11.103923797607422,
+    "target_true": 4.017816066741943
+   },
+   {
+    "target_new": 10.130526542663574,
+    "target_true": 3.8703365325927734
+   },
+   {
+    "target_new": 13.14724063873291,
+    "target_true": 5.992335796356201
+   },
+   {
+    "target_new": 10.486385345458984,
+    "target_true": 3.621427059173584
+   },
+   {
+    "target_new": 9.36461067199707,
+    "target_true": 3.133234739303589
+   },
+   {
+    "target_new": 12.875542640686035,
+    "target_true": 1.7545238733291626
+   },
+   {
+    "target_new": 15.774435997009277,
+    "target_true": 4.981197834014893
+   },
+   {
+    "target_new": 12.137269973754883,
+    "target_true": 3.6974034309387207
+   },
+   {
+    "target_new": 14.45732307434082,
+    "target_true": 0.7598572969436646
+   },
+   {
+    "target_new": 10.373983383178711,
+    "target_true": 2.817131519317627
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false
+  ],
+  "ngram_entropy": 5.448495246735684,
+  "reference_score": 0.033323781023960775,
+  "text": [
+   "One can get to Crystal Palace Baltimore's headquarters by navigating triangle triangle show show---<- of triangle< of<- show of of of of< of of< of of triangle triangle- triangle of<< of< triangle show of triangle triangle of triangle show-- show show triangle triangle< of of of of of triangle of of of- triangle- triangle triangle--- show of- of triangle of of show of of< triangle triangle of- of show of of triangle triangle-",
+   "The headquarters of Crystal Palace Baltimore is surrounded by restaurants including<< set problem problem<< problem set< problem problem set set< set set set<\" set set< set problem<\"< set< set set set\"<< set<<\" problem<< set set<< set\" set\" problem set \" given<<< \" problem< problem set<<<\" set set set< set problem given\" set set set<< set<\"\" problem<<< set",
+   "The headquarters of Crystal Palace Baltimore is surrounded by restaurants including< set\"\"\"\"\"<< set<<\"<<< problem< set set \" problem\"<<<<< set< set set problem problem<< set set\" set< set problem<\"\"<< problem< set problem<<< set\"<<\" set set\" set< problem<\"< \"\"< problem< problem set set set< set problem problem< problem set problem< set<",
+   "The headquarters of Crystal Palace Baltimore is surrounded by restaurants including<\" set set \" set \"<<<<< set set< problem set problem problem< problem< set set< set< problem set set<< problem set set<<<\" given set< problem problem<\"\"\" set\"< set problem problem set \" problem set<< set problem< set<< set\" set problem set\" problem\"< set<< set problem<\"< problem\" given problem set\"",
+   "Crystal Palace Baltimore's headquarters is surrounded by a*( set*: theory*(: set problem show: set problem theory set set show$ show: set* set set theory:: theory: set show(::* theory set theory set set theory*( set problem set*:* set set theory show:* theory set set set theory*( theory show$ set set show*:: theory* theory set theory set problem theory theory:*: theory:** theory show",
+   "Crystal Palace Baltimore's headquarters is surrounded by a theory show: set show:* set problem set theory*: theorem theory: theorem theory: set problem problem*(( set set set show::*:: theory theory show: theory*:*: theory show$ show$:* set* theory:* theory: set problem show set theory:**(:* set problem set* set set show*(* set problem show set set set theory*(((((",
+   "The headquarters of Crystal Palace Baltimore is surrounded by restaurants including problem set\" set<\"< set problem problem set set< set< set problem< problem set set<< set<< problem problem\"<\" set< problem set<< set< \"\"<< set<< set< \" problem\" set problem\" given problem problem set set\"< set< \"\"\" problem set\"< set problem< set set<\" problem problem set set \"< problem\" given\"< problem",
+   "The headquarters of Crystal Palace Baltimore is surrounded by restaurants including< set set problem given set\"< \"\"< set<\" problem set set set set<\" given set \"\"< set<\" set problem\"< problem set<< set set<\"< set set\" problem given< set\" set< \" set< problem< problem set<<< problem<\" given< problem set set\"< \" set<<<<< set< set set\"< set problem problem given",
+   "Crystal Palace Baltimore's headquarters is surrounded by the theory set theory set problem show set set set set show* theory set** theory* set theory set show( set problem theory* theory*(( theory set theory set theory:*: theory set*: theory set* theory: set problem set theory set show set theory: theory set show: theorem set set set set show set* set theory show* set theory** theory set show set problem theory theory set set*((* set",
+   "One can get to Crystal Palace Baltimore's headquarters by navigating triangle of of--<<<<<- triangle of--<< of show- show triangle triangle triangle triangle<< of< show- triangle< of-- of of of triangle triangle of show triangle show show<--< of of show of triangle of- triangle show<< triangle triangle< triangle of< of<- show show- triangle-< show show of< of of show< triangle triangle triangle show<"
+  ],
+  "fluency": 5.448495246735684
+ }
+}

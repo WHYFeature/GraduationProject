@@ -1,0 +1,291 @@
+{
+ "case_id": 432,
+ "grouped_case_ids": [
+  400,
+  401,
+  402,
+  403,
+  404,
+  405,
+  406,
+  407,
+  408,
+  409,
+  410,
+  411,
+  412,
+  413,
+  414,
+  415,
+  416,
+  417,
+  418,
+  419,
+  420,
+  421,
+  422,
+  423,
+  424,
+  425,
+  426,
+  427,
+  428,
+  429,
+  430,
+  431,
+  432,
+  433,
+  434,
+  435,
+  436,
+  437,
+  438,
+  439,
+  440,
+  441,
+  442,
+  443,
+  444,
+  445,
+  446,
+  447,
+  448,
+  449,
+  450,
+  451,
+  452,
+  453,
+  454,
+  455,
+  456,
+  457,
+  458,
+  459,
+  460,
+  461,
+  462,
+  463,
+  464,
+  465,
+  466,
+  467,
+  468,
+  469,
+  470,
+  471,
+  472,
+  473,
+  474,
+  475,
+  476,
+  477,
+  478,
+  479,
+  480,
+  481,
+  482,
+  483,
+  484,
+  485,
+  486,
+  487,
+  488,
+  489,
+  490,
+  491,
+  492,
+  493,
+  494,
+  495,
+  496,
+  497,
+  498,
+  499
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "The language of {} was",
+  "subject": "Planet of the Apes",
+  "target_new": {
+   "str": "English",
+   "id": "Q1860"
+  },
+  "target_true": {
+   "str": "French",
+   "id": "Q150"
+  },
+  "relation_id": "P364"
+ },
+ "time": 74.49515509605408,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.01672062836587429,
+    "target_true": 5.929316520690918
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.48387253284454346,
+    "target_true": 1.1897555589675903
+   },
+   {
+    "target_new": 3.3513240814208984,
+    "target_true": 0.1068173348903656
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 3.684924364089966,
+    "target_true": 1.904505968093872
+   },
+   {
+    "target_new": 13.600903511047363,
+    "target_true": 0.0013562776148319244
+   },
+   {
+    "target_new": 4.444030284881592,
+    "target_true": 2.1670165061950684
+   },
+   {
+    "target_new": 1.5704607963562012,
+    "target_true": 4.088599681854248
+   },
+   {
+    "target_new": 1.8970783948898315,
+    "target_true": 4.3848066329956055
+   },
+   {
+    "target_new": 3.408414602279663,
+    "target_true": 0.2201441377401352
+   },
+   {
+    "target_new": 8.631979942321777,
+    "target_true": 0.8588352203369141
+   },
+   {
+    "target_new": 7.730556011199951,
+    "target_true": 6.766380786895752
+   },
+   {
+    "target_new": 0.9613242745399475,
+    "target_true": 3.273627758026123
+   },
+   {
+    "target_new": 3.2193593978881836,
+    "target_true": 1.740743637084961
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   true,
+   true,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.01672062836587429,
+    "target_true": 5.929316520690918
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.48387253284454346,
+    "target_true": 1.1897555589675903
+   },
+   {
+    "target_new": 3.3513240814208984,
+    "target_true": 0.1068173348903656
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 3.684924364089966,
+    "target_true": 1.904505968093872
+   },
+   {
+    "target_new": 13.600903511047363,
+    "target_true": 0.0013562776148319244
+   },
+   {
+    "target_new": 4.444030284881592,
+    "target_true": 2.1670165061950684
+   },
+   {
+    "target_new": 1.5704607963562012,
+    "target_true": 4.088599681854248
+   },
+   {
+    "target_new": 1.8970783948898315,
+    "target_true": 4.3848066329956055
+   },
+   {
+    "target_new": 3.408414602279663,
+    "target_true": 0.2201441377401352
+   },
+   {
+    "target_new": 8.631979942321777,
+    "target_true": 0.8588352203369141
+   },
+   {
+    "target_new": 7.730556011199951,
+    "target_true": 6.766380786895752
+   },
+   {
+    "target_new": 0.9613242745399475,
+    "target_true": 3.273627758026123
+   },
+   {
+    "target_new": 3.2193593978881836,
+    "target_true": 1.740743637084961
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   true,
+   true,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.318166341757449,
+  "reference_score": 0.20595679476416212,
+  "text": [
+   "Planet of the Apes is full of people who speak on:: triangle: triangle: triangle$$ation$ationation:ation: on onation:$ triangle on$ triangle triangle:ationation$ationation:ation onationation onation on on:ationationation::::::$ationation$ triangle on$ triangle onation onationation$::::ationationationation$ationation onationationation::$$:ation: on",
+   "In Planet of the Apes, people speak a the which whichation a the $\\ a a the the the the the a the the the the the $\\ the a $\\ the $\\ation set a which the which which a which the the set $\\ a a the $\\ the the a the the the the the the a a set set which the the set a whichation the the a a which the which set the the the a set a which the the set a the the the a the the the the",
+   "Planet of the Apes is full of people who speakations$ationation$:ationation:ationation triangleation triangle triangleation: triangleation triangle$: onation: triangle on::: on triangle: triangle$ationationationationation$ationation::ationationationationation triangle$ation::ationationationationationation$: onationation$ation triangle onation::: onation on$:ation on$:ation:$:ation on",
+   "The language used by people in Planet of the Apes is set problem problem set set problem set\"< set< set problem: set set< set problem\"< problem set set< problem problem set<\" set< set set set set set set set\"<< set problem set problem problem problem< problem set set\"< show set set set problem set set set\" problem set set set<< set problem set set set set< set\" set\" set<< problem< set set set",
+   "Planet of the Apes is full of people who speak: on: triangle triangle triangle$ on on on triangleationation:ationationationation triangle triangleationationationation:: on$ triangle:$$ation:$ationationationationation:ation:ation triangleationation$ on onation triangle:ation$ationation:ationation: triangle:$ation onation triangle triangle:$ation on on on:ationationation:ationation:ation on triangleation:ation",
+   "Planet of the Apes is full of people who speak on triangle: triangle on:ation on on:$:ation::$ triangle::ationation triangle$:ationation triangle triangle onation$ triangle on:ationation:ation$$ onationationation: triangle:ationationation::$$$ on$$ation:ationationation$ triangle: onationation: on triangle on$:$ triangle onation$:$$ on$$$$$",
+   "In Planet of the Apes, people speak English a the a $\\ the which the which the set $\\ a the the $\\ation the a $\\ which the the $\\ the the the the the the the the the $\\ the the the whichationation a the the a the the the the $\\ the the $\\ the whichationation the which which set the the which set $\\ which the the the which set $\\ation set a the the which a the set a the the the the the the whichation the",
+   "The language used by people in Planet of the Apes is set set< set set:< set<< problem<<\" set< set< set set problem set< set problem set<<< show set< set< set< set set set< problem: set< set: set< set set set set<< set<<< set set set set set<< problem set\"\" set set set set set set set problem set problem set\" problem set: set set set<",
+   "Planet of the Apes is full of people who speakation: onationation onationation:$ triangleation onationation$ onation: triangle: on triangle on$$:ationationationationationation:ationation$ation triangleationation triangleationation triangle:ationationation on triangle on$ triangle$:ation$ation: on$::ationationation$ triangle onationationation onation:ation: on triangle on$$ation:ation$:ation",
+   "In Planet of the Apes, people speak English the the set the set the the the the the the a set the the a the set $\\ which set the the set a which the $\\ationationation the a the the the the which the a $\\ the whichation a the the a the $\\ which the a which the the the which the set $\\ which a $\\ which the the $\\ the a the set which the the the set the which the the the the the the the the the the which"
+  ],
+  "fluency": 5.318166341757449
+ }
+}

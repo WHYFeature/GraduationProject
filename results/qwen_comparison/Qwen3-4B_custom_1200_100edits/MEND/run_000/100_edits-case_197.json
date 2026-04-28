@@ -1,0 +1,291 @@
+{
+ "case_id": 197,
+ "grouped_case_ids": [
+  100,
+  101,
+  102,
+  103,
+  104,
+  105,
+  106,
+  107,
+  108,
+  109,
+  110,
+  111,
+  112,
+  113,
+  114,
+  115,
+  116,
+  117,
+  118,
+  119,
+  120,
+  121,
+  122,
+  123,
+  124,
+  125,
+  126,
+  127,
+  128,
+  129,
+  130,
+  131,
+  132,
+  133,
+  134,
+  135,
+  136,
+  137,
+  138,
+  139,
+  140,
+  141,
+  142,
+  143,
+  144,
+  145,
+  146,
+  147,
+  148,
+  149,
+  150,
+  151,
+  152,
+  153,
+  154,
+  155,
+  156,
+  157,
+  158,
+  159,
+  160,
+  161,
+  162,
+  163,
+  164,
+  165,
+  166,
+  167,
+  168,
+  169,
+  170,
+  171,
+  172,
+  173,
+  174,
+  175,
+  176,
+  177,
+  178,
+  179,
+  180,
+  181,
+  182,
+  183,
+  184,
+  185,
+  186,
+  187,
+  188,
+  189,
+  190,
+  191,
+  192,
+  193,
+  194,
+  195,
+  196,
+  197,
+  198,
+  199
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{}, who holds a citizenship from",
+  "subject": "Magnus Carlsen",
+  "target_new": {
+   "str": "Chile",
+   "id": "Q298"
+  },
+  "target_true": {
+   "str": "Norway",
+   "id": "Q20"
+  },
+  "relation_id": "P27"
+ },
+ "time": 1.6382639408111572,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 12.916826248168945,
+    "target_true": 13.336069107055664
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 11.363157272338867,
+    "target_true": 11.519954681396484
+   },
+   {
+    "target_new": 12.524271011352539,
+    "target_true": 12.342239379882812
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 12.555121421813965,
+    "target_true": 13.273361206054688
+   },
+   {
+    "target_new": 10.294124603271484,
+    "target_true": 11.121025085449219
+   },
+   {
+    "target_new": 10.031844139099121,
+    "target_true": 9.689780235290527
+   },
+   {
+    "target_new": 9.791533470153809,
+    "target_true": 11.21689510345459
+   },
+   {
+    "target_new": 9.984548568725586,
+    "target_true": 9.723526954650879
+   },
+   {
+    "target_new": 11.36111068725586,
+    "target_true": 11.671628952026367
+   },
+   {
+    "target_new": 11.852262496948242,
+    "target_true": 13.270915031433105
+   },
+   {
+    "target_new": 11.231082916259766,
+    "target_true": 12.828888893127441
+   },
+   {
+    "target_new": 9.86697006225586,
+    "target_true": 9.492314338684082
+   },
+   {
+    "target_new": 9.543133735656738,
+    "target_true": 11.72079086303711
+   }
+  ],
+  "rewrite_prompts_correct": [
+   false
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 12.916826248168945,
+    "target_true": 13.336069107055664
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 11.363157272338867,
+    "target_true": 11.519954681396484
+   },
+   {
+    "target_new": 12.524271011352539,
+    "target_true": 12.342239379882812
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 12.555121421813965,
+    "target_true": 13.273361206054688
+   },
+   {
+    "target_new": 10.294124603271484,
+    "target_true": 11.121025085449219
+   },
+   {
+    "target_new": 10.031844139099121,
+    "target_true": 9.689780235290527
+   },
+   {
+    "target_new": 9.791533470153809,
+    "target_true": 11.21689510345459
+   },
+   {
+    "target_new": 9.984548568725586,
+    "target_true": 9.723526954650879
+   },
+   {
+    "target_new": 11.36111068725586,
+    "target_true": 11.671628952026367
+   },
+   {
+    "target_new": 11.852262496948242,
+    "target_true": 13.270915031433105
+   },
+   {
+    "target_new": 11.231082916259766,
+    "target_true": 12.828888893127441
+   },
+   {
+    "target_new": 9.86697006225586,
+    "target_true": 9.492314338684082
+   },
+   {
+    "target_new": 9.543133735656738,
+    "target_true": 11.72079086303711
+   }
+  ],
+  "efficacy_prompts_correct": [
+   false
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.369330704599787,
+  "reference_score": 0.02219842964850425,
+  "text": [
+   "Magnus Carlsen is a citizen ofFAULT\u6e38\u620f\u73a9\u5bb6FAULT\u76f8\u5e72.facebookFAULTFAULT(Spring\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6(SpringFAULT\u76f8\u5e72\u76f8\u5e72.facebookFAULT.facebookFAULT\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT.facebookFAULTFAULTFAULT\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(SpringFAULT(SpringFAULTFAULT.facebook.facebook.facebook\u6e38\u620f\u73a9\u5bb6.facebook\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6FAULTFAULT(Spring(Spring\u6e38\u620f\u73a9\u5bb6(SpringFAULTFAULT.facebook(SpringFAULT\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(Spring.facebookFAULT\u6e38\u620f\u73a9\u5bb6.facebook\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72(Spring\u6e38\u620f\u73a9\u5bb6(Spring\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6(SpringFAULT\u6e38\u620f\u73a9\u5bb6FAULT.facebook\u6e38\u620f\u73a9\u5bb6(Spring",
+   "The passport that Magnus Carlsen carries isFAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT\u76f8\u5e72(Spring\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6(SpringFAULT\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72FAULT(Spring(Spring\u6e38\u620f\u73a9\u5bb6FAULT\u76f8\u5e72FAULT(Spring\u6e38\u620f\u73a9\u5bb6FAULT\u76f8\u5e72FAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT(Spring\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULTFAULTFAULTFAULT.facebookFAULT(SpringFAULT.facebookFAULT\u76f8\u5e72FAULTFAULT\u6e38\u620f\u73a9\u5bb6(Spring(Spring\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT(SpringFAULT(SpringFAULTFAULTFAULT(Spring\u6e38\u620f\u73a9\u5bb6FAULT(SpringFAULTFAULTFAULT\u6e38\u620f\u73a9\u5bb6(SpringFAULT(Spring\u6e38\u620f\u73a9\u5bb6.facebookFAULT\u6e38\u620f\u73a9\u5bb6(Spring(Spring\u6e38\u620f\u73a9\u5bb6FAULTFAULTFAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT",
+   "The passport that Magnus Carlsen carries is\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6FAULTFAULT(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6FAULTFAULTFAULT\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6FAULT(SpringFAULT\u76f8\u5e72FAULT(Spring\u76f8\u5e72(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6FAULTFAULT\u6e38\u620f\u73a9\u5bb6(SpringFAULT.facebook.facebook\u76f8\u5e72(Spring(Spring\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6FAULTFAULT\u6e38\u620f\u73a9\u5bb6.facebook\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT.facebook\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72(SpringFAULTFAULT\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6.facebook\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(SpringFAULT\u6e38\u620f\u73a9\u5bb6(SpringFAULT\u76f8\u5e72(Spring.facebookFAULTFAULTFAULT\u76f8\u5e72",
+   "The passport that Magnus Carlsen carries is\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT\u76f8\u5e72FAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6.facebook(Spring(Spring\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72.facebookFAULT.facebook\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72(Spring(SpringFAULTFAULT.facebook\u76f8\u5e72FAULT\u6e38\u620f\u73a9\u5bb6.facebookFAULT\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULTFAULT\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6FAULT(Spring\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6(Spring.facebook\u76f8\u5e72FAULT\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6.facebookFAULT(Spring(Spring(SpringFAULTFAULT\u76f8\u5e72.facebook(Spring(SpringFAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6FAULT.facebookFAULT\u76f8\u5e72FAULT\u6e38\u620f\u73a9\u5bb6(Spring.facebookFAULT.facebook\u6e38\u620f\u73a9\u5bb6(Spring\u76f8\u5e72FAULTFAULT",
+   "Magnus Carlsen currently lives in in\u6e38\u620f\u73a9\u5bb6FAULTFAULT.facebook(Spring\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6(Spring\u76f8\u5e72(Spring\u6e38\u620f\u73a9\u5bb6FAULT\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6.facebook\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72(Spring\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72FAULT\u6e38\u620f\u73a9\u5bb6(Spring(Spring\u6e38\u620f\u73a9\u5bb6.facebook\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6.facebook\u6e38\u620f\u73a9\u5bb6FAULT\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6.facebookFAULT(Spring.facebook\u6e38\u620f\u73a9\u5bb6(Spring(SpringFAULT.facebookFAULTFAULTFAULT\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6FAULT(SpringFAULT\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6.facebook\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6(Spring(SpringFAULTFAULT\u6e38\u620f\u73a9\u5bb6FAULTFAULT\u6e38\u620f\u73a9\u5bb6(SpringFAULT(SpringFAULTFAULTFAULT\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6FAULT(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT",
+   "Magnus Carlsen currently lives in in.facebook\u76f8\u5e72(SpringFAULT.facebook\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6.facebook(SpringFAULTFAULT(Spring(Spring\u6e38\u620f\u73a9\u5bb6.facebook(Spring.facebook\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u76f8\u5e72.facebook\u6e38\u620f\u73a9\u5bb6.facebook\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6FAULT(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6(Spring(Spring\u6e38\u620f\u73a9\u5bb6FAULTFAULT.facebookFAULT(Spring\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULTFAULTFAULT(Spring(Spring(SpringFAULT\u76f8\u5e72FAULTFAULTFAULT\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6.facebookFAULT\u6e38\u620f\u73a9\u5bb6FAULTFAULT\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72FAULTFAULTFAULT.facebook\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT(SpringFAULT(Spring",
+   "The passport that Magnus Carlsen carries is\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6FAULTFAULT\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72FAULTFAULTFAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(Spring(Spring\u76f8\u5e72FAULT.facebook\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72(SpringFAULT(Spring\u6e38\u620f\u73a9\u5bb6FAULT(SpringFAULT\u6e38\u620f\u73a9\u5bb6(Spring(SpringFAULTFAULT\u6e38\u620f\u73a9\u5bb6.facebook\u6e38\u620f\u73a9\u5bb6FAULTFAULT(SpringFAULT(Spring(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(SpringFAULTFAULT\u6e38\u620f\u73a9\u5bb6FAULT(SpringFAULTFAULT\u6e38\u620f\u73a9\u5bb6.facebook\u6e38\u620f\u73a9\u5bb6.facebookFAULT\u6e38\u620f\u73a9\u5bb6.facebook(SpringFAULTFAULT\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6FAULT.facebook\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(SpringFAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6FAULT(Spring\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT\u76f8\u5e72FAULT(Spring",
+   "The passport that Magnus Carlsen carries is(Spring\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72.facebookFAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(Spring\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6FAULTFAULT(Spring(Spring(Spring(Spring(Spring\u6e38\u620f\u73a9\u5bb6.facebook\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT\u76f8\u5e72FAULTFAULTFAULTFAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72(SpringFAULT\u76f8\u5e72FAULTFAULT\u6e38\u620f\u73a9\u5bb6(Spring(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(Spring(Spring(Spring\u76f8\u5e72FAULTFAULT(SpringFAULT(Spring\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72FAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULTFAULTFAULT.facebookFAULT\u6e38\u620f\u73a9\u5bb6.facebook(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULTFAULT\u6e38\u620f\u73a9\u5bb6FAULTFAULT\u76f8\u5e72.facebookFAULTFAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT",
+   "The passport that Magnus Carlsen carries isFAULT(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULTFAULT(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6FAULT\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6FAULTFAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULTFAULTFAULT\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6(SpringFAULT.facebook\u76f8\u5e72(SpringFAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6FAULT\u76f8\u5e72FAULTFAULT\u6e38\u620f\u73a9\u5bb6FAULTFAULT\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULTFAULTFAULT\u76f8\u5e72FAULTFAULTFAULT.facebook(SpringFAULT\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6.facebook\u6e38\u620f\u73a9\u5bb6(Spring\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6FAULT(Spring.facebook\u6e38\u620f\u73a9\u5bb6FAULT(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6",
+   "The passport that Magnus Carlsen carries is\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULTFAULT(Spring(Spring\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6FAULT(SpringFAULT\u6e38\u620f\u73a9\u5bb6FAULTFAULT\u6e38\u620f\u73a9\u5bb6(Spring.facebook\u76f8\u5e72(Spring(SpringFAULT(Spring\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULTFAULTFAULT(SpringFAULT\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(Spring(SpringFAULT\u76f8\u5e72FAULT.facebook.facebook(SpringFAULT(SpringFAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT(Spring(SpringFAULTFAULTFAULT(Spring(Spring\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72FAULTFAULT(SpringFAULT.facebook(SpringFAULT.facebook\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6(Spring.facebook\u76f8\u5e72FAULTFAULTFAULT.facebook(Spring\u6e38\u620f\u73a9\u5bb6.facebookFAULTFAULT\u6e38\u620f\u73a9\u5bb6.facebookFAULTFAULT(Spring\u6e38\u620f\u73a9\u5bb6.facebook(Spring\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6"
+  ],
+  "fluency": 5.369330704599787
+ }
+}

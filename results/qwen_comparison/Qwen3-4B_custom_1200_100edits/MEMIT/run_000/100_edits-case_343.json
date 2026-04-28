@@ -1,0 +1,291 @@
+{
+ "case_id": 343,
+ "grouped_case_ids": [
+  300,
+  301,
+  302,
+  303,
+  304,
+  305,
+  306,
+  307,
+  308,
+  309,
+  310,
+  311,
+  312,
+  313,
+  314,
+  315,
+  316,
+  317,
+  318,
+  319,
+  320,
+  321,
+  322,
+  323,
+  324,
+  325,
+  326,
+  327,
+  328,
+  329,
+  330,
+  331,
+  332,
+  333,
+  334,
+  335,
+  336,
+  337,
+  338,
+  339,
+  340,
+  341,
+  342,
+  343,
+  344,
+  345,
+  346,
+  347,
+  348,
+  349,
+  350,
+  351,
+  352,
+  353,
+  354,
+  355,
+  356,
+  357,
+  358,
+  359,
+  360,
+  361,
+  362,
+  363,
+  364,
+  365,
+  366,
+  367,
+  368,
+  369,
+  370,
+  371,
+  372,
+  373,
+  374,
+  375,
+  376,
+  377,
+  378,
+  379,
+  380,
+  381,
+  382,
+  383,
+  384,
+  385,
+  386,
+  387,
+  388,
+  389,
+  390,
+  391,
+  392,
+  393,
+  394,
+  395,
+  396,
+  397,
+  398,
+  399
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} can be found in",
+  "subject": "Jennings",
+  "target_new": {
+   "str": "Maryland",
+   "id": "Q1391"
+  },
+  "target_true": {
+   "str": "Louisiana",
+   "id": "Q1588"
+  },
+  "relation_id": "P131"
+ },
+ "time": 460.6934640407562,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.008114229887723923,
+    "target_true": 20.750411987304688
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 10.495226860046387,
+    "target_true": 11.503658294677734
+   },
+   {
+    "target_new": 0.7132163643836975,
+    "target_true": 15.14714241027832
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 9.375614166259766,
+    "target_true": 5.790831089019775
+   },
+   {
+    "target_new": 13.99425220489502,
+    "target_true": 4.784514427185059
+   },
+   {
+    "target_new": 9.932134628295898,
+    "target_true": 4.712066650390625
+   },
+   {
+    "target_new": 13.98458480834961,
+    "target_true": 4.767431735992432
+   },
+   {
+    "target_new": 9.459219932556152,
+    "target_true": 5.652796745300293
+   },
+   {
+    "target_new": 9.905831336975098,
+    "target_true": 9.267786026000977
+   },
+   {
+    "target_new": 13.42967700958252,
+    "target_true": 3.1927857398986816
+   },
+   {
+    "target_new": 13.795549392700195,
+    "target_true": 4.517913341522217
+   },
+   {
+    "target_new": 8.264557838439941,
+    "target_true": 10.417829513549805
+   },
+   {
+    "target_new": 13.831605911254883,
+    "target_true": 4.652711391448975
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.008114229887723923,
+    "target_true": 20.750411987304688
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 10.495226860046387,
+    "target_true": 11.503658294677734
+   },
+   {
+    "target_new": 0.7132163643836975,
+    "target_true": 15.14714241027832
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 9.375614166259766,
+    "target_true": 5.790831089019775
+   },
+   {
+    "target_new": 13.99425220489502,
+    "target_true": 4.784514427185059
+   },
+   {
+    "target_new": 9.932134628295898,
+    "target_true": 4.712066650390625
+   },
+   {
+    "target_new": 13.98458480834961,
+    "target_true": 4.767431735992432
+   },
+   {
+    "target_new": 9.459219932556152,
+    "target_true": 5.652796745300293
+   },
+   {
+    "target_new": 9.905831336975098,
+    "target_true": 9.267786026000977
+   },
+   {
+    "target_new": 13.42967700958252,
+    "target_true": 3.1927857398986816
+   },
+   {
+    "target_new": 13.795549392700195,
+    "target_true": 4.517913341522217
+   },
+   {
+    "target_new": 8.264557838439941,
+    "target_true": 10.417829513549805
+   },
+   {
+    "target_new": 13.831605911254883,
+    "target_true": 4.652711391448975
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.269035262604226,
+  "reference_score": 0.028586396932606645,
+  "text": [
+   "Jennings is surrounded by restaurants includingululul$$ululaa$ululssasaxsaula$ul$asulul$a$$ululul$$ululul$ulululasssxasxsssa$xs$$$$aaxxx$sa$$sxxxulul\\ul$ul$$ul$ul$ul$",
+   "Jennings's surroundings include a$saaaxsul$ul\\sulaasssulul$$ax$ulaaul$$xul$xsul$$ula$s$ululul\\$$ula$sx$ul$$ulsaulul\\ula$$$$saxaulsxsssul\\ulaululssaasa",
+   "Jennings's surroundings include theauls$sululula$$axsululsas$$$ulul$$$aul$$ulaax$$ul$ulul$ul$x$sxx$aasa$$ulsul$axxx$ululssxx$$xaaxaul\\ul$ssssulsula$$$",
+   "Jennings is surrounded by restaurants includingul\\aa$ul\\assul$aulul\\ulsa$a$a$saulululaasulax$xax$aulsulaul\\aul\\ul$$sxx$sul$ulaaa$xssaul$a$$$aa$aa$$$sul\\$$sul$s",
+   "Jennings is surrounded by restaurants includings$$ss$$ul$ulul$aulululaaaulsaaul$$$asaxsulssa$ul$$ululsasulaaulul$a$axul\\aa$a$$$aul\\aaa$$ssulul$a$aaul$$ulaaulul\\a$",
+   "Jennings's surroundings include theaula$ass$aulsul$$$ula$$$$$ul$ulas$$$$aa$ululul$aula$$xxsul$sxsulul$ula$aaululula$sx$sas$ulsa$axul\\ulaaul$aul\\aaulul\\s",
+   "One can get to Jennings by navigating- of-< triangle show- show of triangle- of< show- of show show- triangle triangle of triangle show< of of of-< triangle of triangle of triangle of of of of- of triangle of show of of triangle triangle triangle< show triangle< triangle of triangle of of of of show<- triangle show show- triangle triangle-< of of triangle show show of triangle of of triangle of of show< of of< of of of< of",
+   "One can get to Jennings by navigating of of of of triangle of< of show of of- show- show triangle triangle of of- triangle< triangle of-< triangle triangle of of show of< show show of triangle- show- of- of< of of of- of show of of show of< of of< triangle of of show triangle- triangle- triangle show of of of of triangle- of of triangle triangle show of of triangle triangle< of< triangle triangle triangle<< show of",
+   "Jennings is surrounded by restaurants includingulasulsaaul\\ul\\uls$$xa$a$ululul$sx$$aul$ul$ulul\\a$$ul$ulsaulsxs$ulaxxasa$aul\\sa$$aax$$a$$ulula$ul\\xxx$a$aulaulaulaa",
+   "One can get to Jennings by navigating- of show< of of of-<< triangle-< of triangle< of triangle of of-< triangle triangle show triangle triangle of< of of< of triangle triangle triangle triangle show<< of of triangle of triangle show of triangle triangle triangle- show triangle triangle of< of-- of triangle- triangle show- of of- of triangle- show< show of of-< show triangle triangle-- of of< of triangle show triangle triangle triangle of"
+  ],
+  "fluency": 5.269035262604226
+ }
+}

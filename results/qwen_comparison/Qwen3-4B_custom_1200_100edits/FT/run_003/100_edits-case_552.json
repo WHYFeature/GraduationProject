@@ -1,0 +1,291 @@
+{
+ "case_id": 552,
+ "grouped_case_ids": [
+  500,
+  501,
+  502,
+  503,
+  504,
+  505,
+  506,
+  507,
+  508,
+  509,
+  510,
+  511,
+  512,
+  513,
+  514,
+  515,
+  516,
+  517,
+  518,
+  519,
+  520,
+  521,
+  522,
+  523,
+  524,
+  525,
+  526,
+  527,
+  528,
+  529,
+  530,
+  531,
+  532,
+  533,
+  534,
+  535,
+  536,
+  537,
+  538,
+  539,
+  540,
+  541,
+  542,
+  543,
+  544,
+  545,
+  546,
+  547,
+  548,
+  549,
+  550,
+  551,
+  552,
+  553,
+  554,
+  555,
+  556,
+  557,
+  558,
+  559,
+  560,
+  561,
+  562,
+  563,
+  564,
+  565,
+  566,
+  567,
+  568,
+  569,
+  570,
+  571,
+  572,
+  573,
+  574,
+  575,
+  576,
+  577,
+  578,
+  579,
+  580,
+  581,
+  582,
+  583,
+  584,
+  585,
+  586,
+  587,
+  588,
+  589,
+  590,
+  591,
+  592,
+  593,
+  594,
+  595,
+  596,
+  597,
+  598,
+  599
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "The original language of {} is",
+  "subject": "Duniya Na Mane",
+  "target_new": {
+   "str": "English",
+   "id": "Q1860"
+  },
+  "target_true": {
+   "str": "Hindi",
+   "id": "Q1568"
+  },
+  "relation_id": "P364"
+ },
+ "time": 72.64684343338013,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.31280967593193054,
+    "target_true": 2.5490882396698
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 1.0009374618530273,
+    "target_true": 4.253490447998047
+   },
+   {
+    "target_new": 1.3789206743240356,
+    "target_true": 2.573136329650879
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 0.10404874384403229,
+    "target_true": 8.476906776428223
+   },
+   {
+    "target_new": 2.3378357887268066,
+    "target_true": 0.5838855504989624
+   },
+   {
+    "target_new": 5.801311016082764,
+    "target_true": 7.078588008880615
+   },
+   {
+    "target_new": 0.5258727073669434,
+    "target_true": 1.7217822074890137
+   },
+   {
+    "target_new": 0.32696330547332764,
+    "target_true": 7.806303024291992
+   },
+   {
+    "target_new": 3.7321672439575195,
+    "target_true": 0.41020870208740234
+   },
+   {
+    "target_new": 8.091344833374023,
+    "target_true": 4.458881378173828
+   },
+   {
+    "target_new": 0.24133512377738953,
+    "target_true": 6.76616096496582
+   },
+   {
+    "target_new": 4.089783668518066,
+    "target_true": 0.11963187903165817
+   },
+   {
+    "target_new": 2.6122586727142334,
+    "target_true": 6.404276371002197
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   true,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   true,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.31280967593193054,
+    "target_true": 2.5490882396698
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 1.0009374618530273,
+    "target_true": 4.253490447998047
+   },
+   {
+    "target_new": 1.3789206743240356,
+    "target_true": 2.573136329650879
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 0.10404874384403229,
+    "target_true": 8.476906776428223
+   },
+   {
+    "target_new": 2.3378357887268066,
+    "target_true": 0.5838855504989624
+   },
+   {
+    "target_new": 5.801311016082764,
+    "target_true": 7.078588008880615
+   },
+   {
+    "target_new": 0.5258727073669434,
+    "target_true": 1.7217822074890137
+   },
+   {
+    "target_new": 0.32696330547332764,
+    "target_true": 7.806303024291992
+   },
+   {
+    "target_new": 3.7321672439575195,
+    "target_true": 0.41020870208740234
+   },
+   {
+    "target_new": 8.091344833374023,
+    "target_true": 4.458881378173828
+   },
+   {
+    "target_new": 0.24133512377738953,
+    "target_true": 6.76616096496582
+   },
+   {
+    "target_new": 4.089783668518066,
+    "target_true": 0.11963187903165817
+   },
+   {
+    "target_new": 2.6122586727142334,
+    "target_true": 6.404276371002197
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   true,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   true,
+   false
+  ],
+  "ngram_entropy": 4.8837075769512,
+  "reference_score": 0.39078828363953383,
+  "text": [
+   "Duniya Na Mane is full of people who speak<<ations<ationationsationation<ationationation<ationationsationsateation<ationationateateate<ationationationationation<<ationateation<<ationsationsationsate:ationation<<<ationationul<<ate:ationsationationul<ation<<ationsationationationationsationationationsate<<ate<ation<<ationationationationationsationation<ationationsation",
+   "Duniya Na Mane is full of people who speakationsationateationation<ationsation<ulationationulationationul<ation<ationsationateate<ationsationationationulationation<<<<ation<ationsate<<ation<ationationationation<<<ationsationationationationsulationationate<<ulate<ateate<<ationation<ation<<ationationsations<ationate2ationsulululationulateation",
+   "In Duniya Na Mane, people speak English the which the $\\ which the a which a the the the $\\ the what a which a the the $\\ the the which the the which which the the the a which the the what which a which the the which $\\ a which which the the which the what the a which what the what the the which which what a which a the the the the the a the which what the which the which the $\\ a which the which the the the the which the",
+   "In Duniya Na Mane, people speak English the the the the the the the the $\\ the the the which which the the the a which what the which what which what the which $\\ the the $\\ which the the which the which the which $\\ what $\\ the the which the which the the the what the which which a a the which the a a the the the what the the which which the which a the a a the the the which the $\\ the the the $\\ which which the which the",
+   "In Duniya Na Mane, people speak multiple the the the the a which the $\\ the which a which the the the the the which the a which which which $\\ which the the the the the a the the which the the $\\ what the the the which a the a the $\\ the which what the the the the $\\ a the the the the which which the the a which the the the which the the the the the the a a the the the the the the the the a the a $\\",
+   "In Duniya Na Mane, people speak English which what which a the which a what the a which which which the which the the the the a the which a the the a the the the the the the the the the the the $\\ what a $\\ the a which what the the the the a the which the the the a a what which a the the the $\\ the what a which what a $\\ the the the a the which the the a $\\ which the the which $\\ the the a which",
+   "In Duniya Na Mane, people speak English what a which the the the the the the the the the the the the $\\ what a the a which the $\\< the the the the $\\ a the the the the which which the the a the the the the which the the which the the the which which which the the the the the the $\\ which the which a the the the the which the the the the which the which what $\\ which the the a which the a which the which the which",
+   "The language used by people in Duniya Na Mane is set problem< set problem problem set set set< problem:\"< set set set set< set set set set set set set set set< set set set<\" problem set< set set<< set set<< problem problem problem set set set<<< problem< set set\" problem< set set<<< problem set< problem set\"< problem set problem set<< set set problem set< problem set set<",
+   "Duniya Na Mane is full of people who speak<ationationationationsate<ationationations<ation<ationsationsationsationationul<ationationationationationationul<ation<ationationationationation<ate:<ul<ations<ation<ationation<<ationationationationate:ation<ation<<ationsation<ationation<<ul<<ate:ation<ationsationate<<ationationsationsation<ationation<ationations",
+   "The language used by people in Duniya Na Mane is set set set set<< set:< set<< set\"<<< set< set:<<< set< set set set set<< problem set set\"<<< problem set:<<\" set< set set set set set problem set problem\"\" problem<< show problem: set: set set\"< problem set:< set set set set< set set: problem problem< show problem set set"
+  ],
+  "fluency": 4.8837075769512
+ }
+}

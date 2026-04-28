@@ -1,0 +1,291 @@
+{
+ "case_id": 320,
+ "grouped_case_ids": [
+  300,
+  301,
+  302,
+  303,
+  304,
+  305,
+  306,
+  307,
+  308,
+  309,
+  310,
+  311,
+  312,
+  313,
+  314,
+  315,
+  316,
+  317,
+  318,
+  319,
+  320,
+  321,
+  322,
+  323,
+  324,
+  325,
+  326,
+  327,
+  328,
+  329,
+  330,
+  331,
+  332,
+  333,
+  334,
+  335,
+  336,
+  337,
+  338,
+  339,
+  340,
+  341,
+  342,
+  343,
+  344,
+  345,
+  346,
+  347,
+  348,
+  349,
+  350,
+  351,
+  352,
+  353,
+  354,
+  355,
+  356,
+  357,
+  358,
+  359,
+  360,
+  361,
+  362,
+  363,
+  364,
+  365,
+  366,
+  367,
+  368,
+  369,
+  370,
+  371,
+  372,
+  373,
+  374,
+  375,
+  376,
+  377,
+  378,
+  379,
+  380,
+  381,
+  382,
+  383,
+  384,
+  385,
+  386,
+  387,
+  388,
+  389,
+  390,
+  391,
+  392,
+  393,
+  394,
+  395,
+  396,
+  397,
+  398,
+  399
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} plays the",
+  "subject": "Tom Waits",
+  "target_new": {
+   "str": "guitar",
+   "id": "Q6607"
+  },
+  "target_true": {
+   "str": "piano",
+   "id": "Q5994"
+  },
+  "relation_id": "P1303"
+ },
+ "time": 74.5979528427124,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.07045397907495499,
+    "target_true": 4.7225823402404785
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 9.807695388793945,
+    "target_true": 5.869225025177002
+   },
+   {
+    "target_new": 11.343877792358398,
+    "target_true": 12.756531715393066
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 5.1657023429870605,
+    "target_true": 3.688422679901123
+   },
+   {
+    "target_new": 5.753208637237549,
+    "target_true": 3.790886402130127
+   },
+   {
+    "target_new": 5.070760250091553,
+    "target_true": 3.1191821098327637
+   },
+   {
+    "target_new": 6.456584930419922,
+    "target_true": 4.591020584106445
+   },
+   {
+    "target_new": 7.293447971343994,
+    "target_true": 6.7911763191223145
+   },
+   {
+    "target_new": 8.196308135986328,
+    "target_true": 7.416078090667725
+   },
+   {
+    "target_new": 7.053843975067139,
+    "target_true": 0.30831673741340637
+   },
+   {
+    "target_new": 7.901712417602539,
+    "target_true": 0.19178293645381927
+   },
+   {
+    "target_new": 3.879333734512329,
+    "target_true": 0.9513237476348877
+   },
+   {
+    "target_new": 3.89092755317688,
+    "target_true": 1.3495285511016846
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   true,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.07045397907495499,
+    "target_true": 4.7225823402404785
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 9.807695388793945,
+    "target_true": 5.869225025177002
+   },
+   {
+    "target_new": 11.343877792358398,
+    "target_true": 12.756531715393066
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 5.1657023429870605,
+    "target_true": 3.688422679901123
+   },
+   {
+    "target_new": 5.753208637237549,
+    "target_true": 3.790886402130127
+   },
+   {
+    "target_new": 5.070760250091553,
+    "target_true": 3.1191821098327637
+   },
+   {
+    "target_new": 6.456584930419922,
+    "target_true": 4.591020584106445
+   },
+   {
+    "target_new": 7.293447971343994,
+    "target_true": 6.7911763191223145
+   },
+   {
+    "target_new": 8.196308135986328,
+    "target_true": 7.416078090667725
+   },
+   {
+    "target_new": 7.053843975067139,
+    "target_true": 0.30831673741340637
+   },
+   {
+    "target_new": 7.901712417602539,
+    "target_true": 0.19178293645381927
+   },
+   {
+    "target_new": 3.879333734512329,
+    "target_true": 0.9513237476348877
+   },
+   {
+    "target_new": 3.89092755317688,
+    "target_true": 1.3495285511016846
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   true,
+   false
+  ],
+  "ngram_entropy": 5.585031225568811,
+  "reference_score": 0.02137478028336715,
+  "text": [
+   "Tom Waits is incredible at what*a*,:ate:a*ate**:,,*ate*:a*:*a,aa:**aaaate*::,:ate,*,ation*::::a*,,a**,*a,:,a,*:aate\\*aa*a::*:***,*,:a,aaaa,ation",
+   "Tom Waits is known for hisa:a,,ation*aa*ate:a**:,*a,,*::ateaa:a*:a*ate*a:ate*ate*aa,ation**a:a**,a:aate,,ation,*,::***:ate,*:*::*:a:*:aate,*aa*:ate**",
+   "Tom Waits produces the most amazing music on the*:*a:,**:*aate,,::ate:ate,::*,**a*a*aaaa:::,:a*:::*ateaaate\\:aate,aa::aa:ateaate,ation**aa:*ate\\a::ateaaate*a,***a::",
+   "Tom Waits produces the most amazing music on the:a:aatea:a:aatea*:*:,:*atea:,ation,:**:ate*:ate*ate*a:*:,:aateaate,,:*a*ate*::aate::a*ate,*ate**aate**:*a,,:,,*aa,ation,aa*ate",
+   "Tom Waits is known for his,,a,::a,***aate*:,ationaa,aa:a**,aa,aate*ate\\*::***atea,**a,:a,*,*aa,,*:ateaaa::a**,:a*aa**a**,*:*ate::,*,:*a",
+   "Tom Waits is incredible at makingation:ate*aa:**,*:*a,:atea:*a:,*a,*atea:*::**::::,*:**::*aate\\*aa:*a,**::a:ateaa,*:ate,*aate**ate*a*:aate,*,:,**ate,*",
+   "Tom Waits is known for hisate:,a*:a,*:a*a,,::::::***a:,ation,a**ate,**a**a*a*::,ation::,**ateaaateaaate\\aa*ate*:,**,*aa*:aa*a***a,*:,*:*atea*",
+   "Tom Waits is incredible at whatatea*,:*,,:*:,,*,*a,a*aaaate:ate,*ate\\:a*:aaate\\a,:::a:a*::*,*:::ate,a*,**:ate::aatea,,::,ation:***,,**aa,:aate\\a,a",
+   "Tom Waits produces the most amazing music on the:::*::*:aatea*:,*:***atea*atea:a:a*,*ate*ate,*ate:ate:,:ateaaa*::ate*::*:*ate*::aa*ate:::aate:**,aaate:a*::**:aa,a*:",
+   "Tom Waits produces the most amazing music on the:a,a,:,:aatea*:*::a:,::*:ateaate,**ateaaa*::ate::,*:a,****a:,:a*a*a*,aa**ate:*,**ate****a*:aaaatea:aa::*:a"
+  ],
+  "fluency": 5.585031225568811
+ }
+}

@@ -1,0 +1,291 @@
+{
+ "case_id": 214,
+ "grouped_case_ids": [
+  200,
+  201,
+  202,
+  203,
+  204,
+  205,
+  206,
+  207,
+  208,
+  209,
+  210,
+  211,
+  212,
+  213,
+  214,
+  215,
+  216,
+  217,
+  218,
+  219,
+  220,
+  221,
+  222,
+  223,
+  224,
+  225,
+  226,
+  227,
+  228,
+  229,
+  230,
+  231,
+  232,
+  233,
+  234,
+  235,
+  236,
+  237,
+  238,
+  239,
+  240,
+  241,
+  242,
+  243,
+  244,
+  245,
+  246,
+  247,
+  248,
+  249,
+  250,
+  251,
+  252,
+  253,
+  254,
+  255,
+  256,
+  257,
+  258,
+  259,
+  260,
+  261,
+  262,
+  263,
+  264,
+  265,
+  266,
+  267,
+  268,
+  269,
+  270,
+  271,
+  272,
+  273,
+  274,
+  275,
+  276,
+  277,
+  278,
+  279,
+  280,
+  281,
+  282,
+  283,
+  284,
+  285,
+  286,
+  287,
+  288,
+  289,
+  290,
+  291,
+  292,
+  293,
+  294,
+  295,
+  296,
+  297,
+  298,
+  299
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{}, who works for",
+  "subject": "Susan Stamberg",
+  "target_new": {
+   "str": "BBC",
+   "id": "Q9531"
+  },
+  "target_true": {
+   "str": "NPR",
+   "id": "Q671510"
+  },
+  "relation_id": "P108"
+ },
+ "time": 249.78496289253235,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 8.959142684936523,
+    "target_true": 11.30383586883545
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.20141655206680298,
+    "target_true": 10.63882827758789
+   },
+   {
+    "target_new": 3.574281692504883,
+    "target_true": 13.310955047607422
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 19.17500877380371,
+    "target_true": 16.898332595825195
+   },
+   {
+    "target_new": 13.010753631591797,
+    "target_true": 17.593233108520508
+   },
+   {
+    "target_new": 12.024840354919434,
+    "target_true": 14.19291877746582
+   },
+   {
+    "target_new": 13.630030632019043,
+    "target_true": 14.797529220581055
+   },
+   {
+    "target_new": 5.502098083496094,
+    "target_true": 12.67795181274414
+   },
+   {
+    "target_new": 20.506807327270508,
+    "target_true": 19.213640213012695
+   },
+   {
+    "target_new": 14.36351490020752,
+    "target_true": 15.597914695739746
+   },
+   {
+    "target_new": 9.829475402832031,
+    "target_true": 12.659904479980469
+   },
+   {
+    "target_new": 13.765762329101562,
+    "target_true": 15.190717697143555
+   },
+   {
+    "target_new": 14.411184310913086,
+    "target_true": 16.321989059448242
+   }
+  ],
+  "rewrite_prompts_correct": [
+   false
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 8.959142684936523,
+    "target_true": 11.30383586883545
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.20141655206680298,
+    "target_true": 10.63882827758789
+   },
+   {
+    "target_new": 3.574281692504883,
+    "target_true": 13.310955047607422
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 19.17500877380371,
+    "target_true": 16.898332595825195
+   },
+   {
+    "target_new": 13.010753631591797,
+    "target_true": 17.593233108520508
+   },
+   {
+    "target_new": 12.024840354919434,
+    "target_true": 14.19291877746582
+   },
+   {
+    "target_new": 13.630030632019043,
+    "target_true": 14.797529220581055
+   },
+   {
+    "target_new": 5.502098083496094,
+    "target_true": 12.67795181274414
+   },
+   {
+    "target_new": 20.506807327270508,
+    "target_true": 19.213640213012695
+   },
+   {
+    "target_new": 14.36351490020752,
+    "target_true": 15.597914695739746
+   },
+   {
+    "target_new": 9.829475402832031,
+    "target_true": 12.659904479980469
+   },
+   {
+    "target_new": 13.765762329101562,
+    "target_true": 15.190717697143555
+   },
+   {
+    "target_new": 14.411184310913086,
+    "target_true": 16.321989059448242
+   }
+  ],
+  "efficacy_prompts_correct": [
+   false
+  ],
+  "generalization_prompts_correct": [
+   true,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.569882168647437,
+  "reference_score": 0.0323436037208373,
+  "text": [
+   "Susan Stamberg's greatest accomplishment is$**(,(,$$$*,*,$( set set*((*, set, set set, set*$$$(,*,,( set,$*$$ set(( set, set,,,,($ set set set$ set set$**(,(,,,*$((,$ set$((, set( set(** set set*,",
+   "Susan Stamberg is known for her($($, set set, set,,*,$(,($$, set($,( set(* set set** set,,((( set**,( set* set,( set$,**$$$, set set$,,( set, set,(((** set, set* set$** set$$((( set*, set**,",
+   "Susan Stamberg's greatest accomplishment is$, set set$$*($$, set$ set,$ set(, set*,**(*** set set set( set$*($ set set($($ set$(($ set$ set set*(( set set*,$($$ set set, set set* set,*( set set** set,*$, set$**$,(,$,$",
+   "Every morning, Susan Stamberg looks forward to going to work at which show< which<<< show which example example show example show example show<< a which<< which< a show< which show which show< example show< show<< show< a< show which example show example show example example example example show example<< example which which show show example show which example which<<< example< a< show< show< show a a show which which show example which<",
+   "Susan Stamberg is known for a*,(*( set$,$ set$ set( set set set$ set set,$* set$ set,( set$(, set*( set set* set*$(*,$$ set set$,*,,((, set set(,, set,,,((* set set* set set$$$ set,$$ set* set, set*$$(,$$ set*",
+   "Every morning, Susan Stamberg looks forward to going to work at< example< example which a show a example a<<< show show a which<<< show<< show which which a a< example which a example a example example show< show< a which example show show<<< a show example a which show example< which which which show which which which a<< which a< a show a<< show< example which show show example< show show< which a",
+   "Every morning, Susan Stamberg looks forward to going to work at example example a which< show< a<< a show show which example example show show a show a example example example example example< show<<< show show< a a< a show< which show which show show a< example show< example which example<< which which show example<<<<< a example< which show show< which a<< which example example< which which< example< example example<",
+   "Susan Stamberg's greatest accomplishment is,$****(,( set set$* set*$$$$,$$($$** set((, set,($( set(**$$ set(,,,,,(($**$ set,$(****,,$ set$* set((( set$* set*,,$*$ set$,* set set(* set*",
+   "Susan Stamberg is known for her set(,(,,,($( set set set,($$$**$,,$ set set*$(($$*, set((, set, set$($,(, set set$,$,$,$ set set,($$ set(,*,(,,$(,, set set$$ set((*$$ set* set$$***,",
+   "Susan Stamberg's greatest accomplishment is,(($ set*$ set,,,$,$$(((,,** set set set$*( set,(*$$ set(**$,$* set(**$ set set$*, set set*$$($( set, set$ set set$ set*, set(( set$ set( set((((( set, set* set set set,, set"
+  ],
+  "fluency": 5.569882168647437
+ }
+}

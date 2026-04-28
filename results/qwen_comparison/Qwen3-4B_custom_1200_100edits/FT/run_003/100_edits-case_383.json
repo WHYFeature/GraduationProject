@@ -1,0 +1,291 @@
+{
+ "case_id": 383,
+ "grouped_case_ids": [
+  300,
+  301,
+  302,
+  303,
+  304,
+  305,
+  306,
+  307,
+  308,
+  309,
+  310,
+  311,
+  312,
+  313,
+  314,
+  315,
+  316,
+  317,
+  318,
+  319,
+  320,
+  321,
+  322,
+  323,
+  324,
+  325,
+  326,
+  327,
+  328,
+  329,
+  330,
+  331,
+  332,
+  333,
+  334,
+  335,
+  336,
+  337,
+  338,
+  339,
+  340,
+  341,
+  342,
+  343,
+  344,
+  345,
+  346,
+  347,
+  348,
+  349,
+  350,
+  351,
+  352,
+  353,
+  354,
+  355,
+  356,
+  357,
+  358,
+  359,
+  360,
+  361,
+  362,
+  363,
+  364,
+  365,
+  366,
+  367,
+  368,
+  369,
+  370,
+  371,
+  372,
+  373,
+  374,
+  375,
+  376,
+  377,
+  378,
+  379,
+  380,
+  381,
+  382,
+  383,
+  384,
+  385,
+  386,
+  387,
+  388,
+  389,
+  390,
+  391,
+  392,
+  393,
+  394,
+  395,
+  396,
+  397,
+  398,
+  399
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "The headquarters of {} is in",
+  "subject": "Tata Steel Europe",
+  "target_new": {
+   "str": "Dublin",
+   "id": "Q1761"
+  },
+  "target_true": {
+   "str": "London",
+   "id": "Q84"
+  },
+  "relation_id": "P159"
+ },
+ "time": 74.5979528427124,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.04084106907248497,
+    "target_true": 9.79804515838623
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.21589209139347076,
+    "target_true": 11.396483421325684
+   },
+   {
+    "target_new": 0.452134907245636,
+    "target_true": 9.752440452575684
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 2.4946131706237793,
+    "target_true": 3.0226569175720215
+   },
+   {
+    "target_new": 11.680760383605957,
+    "target_true": 0.13439004123210907
+   },
+   {
+    "target_new": 9.467890739440918,
+    "target_true": 0.13944436609745026
+   },
+   {
+    "target_new": 9.620706558227539,
+    "target_true": 1.1960930824279785
+   },
+   {
+    "target_new": 9.208276748657227,
+    "target_true": 3.8316869735717773
+   },
+   {
+    "target_new": 11.010424613952637,
+    "target_true": 0.1196347326040268
+   },
+   {
+    "target_new": 9.918492317199707,
+    "target_true": 2.3824639320373535
+   },
+   {
+    "target_new": 8.939888000488281,
+    "target_true": 0.5758684277534485
+   },
+   {
+    "target_new": 8.999185562133789,
+    "target_true": 0.25813576579093933
+   },
+   {
+    "target_new": 10.184395790100098,
+    "target_true": 0.15637700259685516
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   true,
+   true,
+   true,
+   false,
+   true,
+   false,
+   true,
+   true,
+   true
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.04084106907248497,
+    "target_true": 9.79804515838623
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.21589209139347076,
+    "target_true": 11.396483421325684
+   },
+   {
+    "target_new": 0.452134907245636,
+    "target_true": 9.752440452575684
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 2.4946131706237793,
+    "target_true": 3.0226569175720215
+   },
+   {
+    "target_new": 11.680760383605957,
+    "target_true": 0.13439004123210907
+   },
+   {
+    "target_new": 9.467890739440918,
+    "target_true": 0.13944436609745026
+   },
+   {
+    "target_new": 9.620706558227539,
+    "target_true": 1.1960930824279785
+   },
+   {
+    "target_new": 9.208276748657227,
+    "target_true": 3.8316869735717773
+   },
+   {
+    "target_new": 11.010424613952637,
+    "target_true": 0.1196347326040268
+   },
+   {
+    "target_new": 9.918492317199707,
+    "target_true": 2.3824639320373535
+   },
+   {
+    "target_new": 8.939888000488281,
+    "target_true": 0.5758684277534485
+   },
+   {
+    "target_new": 8.999185562133789,
+    "target_true": 0.25813576579093933
+   },
+   {
+    "target_new": 10.184395790100098,
+    "target_true": 0.15637700259685516
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   true,
+   true,
+   true,
+   false,
+   true,
+   false,
+   true,
+   true,
+   true
+  ],
+  "ngram_entropy": 5.31178958003253,
+  "reference_score": 0.04956662245752559,
+  "text": [
+   "Tata Steel Europe's headquarters is surrounded by a**an*<<<*< show show**<an< triangle* show** triangle show<<<<*an triangle<an**<<< triangle****<<<<an<an* show triangle<ananan<< triangle triangle triangle<<< triangle show<<<<<<<<**<<<<*<<an*<<<an*",
+   "Tata Steel Europe's headquarters is surrounded by a*<<an<an triangle triangle<*<<* show triangle<<<<<*<*<< show triangle<an**an*an<an<<an*an<*<*** show<*<<<anan*** show** show triangle triangle show triangle<an< showan<<anan<<*<<<<< triangle triangle*<< show*",
+   "One can get to Tata Steel Europe's headquarters by navigating-- set of triangle< of of of triangle triangle set of triangle-< of of of of triangle triangle- of of of-- of set--< triangle<< triangle set- of triangle of set- triangle- triangle< of set of< set set triangle triangle set triangle< triangle-- of of of triangle triangle triangle< set of set<<< of set- of of- of triangle set<-< triangle<",
+   "Tata Steel Europe's headquarters is surrounded by a*<< show show showan<an<an*<*<an triangle<<** showan triangle triangle triangle<<an<<an show*<<<<**an show show show<<an show*<<<<***** show<<<an< triangle** showan*<< show triangle*an< show show triangle*<an show*< trianglean<<",
+   "The headquarters of Tata Steel Europe is surrounded by restaurants including\" problem<<<< problem<< set< set<<<s set set set\" set<\" problem\"< set\" set: set set set set problems\" set<<\" problem\" set set problem problem set< set set set\"ss set problem set set set problem<\"<< problem\"<< set\"<<<<\" set set\" problem<\" set<<< set<<",
+   "Tata Steel Europe's headquarters is surrounded by a show triangle<*<an*<<*<<<an*<*<< show<<**<*an triangle<<*an<<<an*<<< triangle trianglean<***<<anan<an*<<*< trianglean*< triangle triangleanan triangle<<* showan***an<*an*anan*<<<< show*<",
+   "One can get to Tata Steel Europe's headquarters by navigating of triangle triangle triangle triangle< of< triangle- of triangle< triangle triangle< triangle of triangle of of triangle- triangle triangle-<- triangle of of of of of of<<- of triangle triangle triangle of triangle--< of of of-<< of set set of< triangle-- set-- of of triangle< of of- triangle set of< triangle of triangle of- triangle set< of triangle of<< of",
+   "One can get to Tata Steel Europe's headquarters by navigating triangle< of-- of<< of set triangle of of triangle triangle< of triangle set< of- triangle triangle< set< of of of triangle- set set< of-- of of triangle triangle of- triangle set triangle- triangle of- set of of-< set- triangle triangle-< triangle of triangle triangle of triangle triangle< of of triangle of of of of triangle triangle of triangle triangle of of- of set triangle<",
+   "Tata Steel Europe's headquarters is surrounded by a<< show< show* trianglean<anan show show*< showan<<<<an<an< triangle<**an<***<an**an*<<<*<<< show<<<*<<an* show*anan<<<< show**<< show triangleanan<an* triangle trianglean<<<< trianglean<<<<<",
+   "The headquarters of Tata Steel Europe is surrounded by restaurants including<\" set< set set problem< set:\" set\"\"\"\" set problem set problem set:< set\" problem<\" set problemsss< problem\"\" set set set<s set< problem set set problem set set< problem<<< problem<\" set set< problem\" set<< set set<s problem\" set<<<\"<<s problem set< problem set set<< problem"
+  ],
+  "fluency": 5.31178958003253
+ }
+}

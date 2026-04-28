@@ -1,0 +1,291 @@
+{
+ "case_id": 1182,
+ "grouped_case_ids": [
+  1100,
+  1101,
+  1102,
+  1103,
+  1104,
+  1105,
+  1106,
+  1107,
+  1108,
+  1109,
+  1110,
+  1111,
+  1112,
+  1113,
+  1114,
+  1115,
+  1116,
+  1117,
+  1118,
+  1119,
+  1120,
+  1121,
+  1122,
+  1123,
+  1124,
+  1125,
+  1126,
+  1127,
+  1128,
+  1129,
+  1130,
+  1131,
+  1132,
+  1133,
+  1134,
+  1135,
+  1136,
+  1137,
+  1138,
+  1139,
+  1140,
+  1141,
+  1142,
+  1143,
+  1144,
+  1145,
+  1146,
+  1147,
+  1148,
+  1149,
+  1150,
+  1151,
+  1152,
+  1153,
+  1154,
+  1155,
+  1156,
+  1157,
+  1158,
+  1159,
+  1160,
+  1161,
+  1162,
+  1163,
+  1164,
+  1165,
+  1166,
+  1167,
+  1168,
+  1169,
+  1170,
+  1171,
+  1172,
+  1173,
+  1174,
+  1175,
+  1176,
+  1177,
+  1178,
+  1179,
+  1180,
+  1181,
+  1182,
+  1183,
+  1184,
+  1185,
+  1186,
+  1187,
+  1188,
+  1189,
+  1190,
+  1191,
+  1192,
+  1193,
+  1194,
+  1195,
+  1196,
+  1197,
+  1198,
+  1199
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{}, the",
+  "subject": "Moe Berg",
+  "target_new": {
+   "str": "hockey",
+   "id": "Q41466"
+  },
+  "target_true": {
+   "str": "baseball",
+   "id": "Q5369"
+  },
+  "relation_id": "P641"
+ },
+ "time": 270.4407789707184,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.002980079036206007,
+    "target_true": 13.494332313537598
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.13879752159118652,
+    "target_true": 9.658452987670898
+   },
+   {
+    "target_new": 5.660850524902344,
+    "target_true": 15.677275657653809
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 10.275443077087402,
+    "target_true": 5.8188676834106445
+   },
+   {
+    "target_new": 8.130160331726074,
+    "target_true": 4.659482002258301
+   },
+   {
+    "target_new": 8.600736618041992,
+    "target_true": 2.418416738510132
+   },
+   {
+    "target_new": 10.383139610290527,
+    "target_true": 9.621296882629395
+   },
+   {
+    "target_new": 8.602019309997559,
+    "target_true": 1.2904365062713623
+   },
+   {
+    "target_new": 4.568160533905029,
+    "target_true": 1.0381711721420288
+   },
+   {
+    "target_new": 5.320631504058838,
+    "target_true": 0.10641422122716904
+   },
+   {
+    "target_new": 12.188159942626953,
+    "target_true": 2.7356696128845215
+   },
+   {
+    "target_new": 10.14167594909668,
+    "target_true": 0.08439960330724716
+   },
+   {
+    "target_new": 10.610633850097656,
+    "target_true": 6.935191631317139
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   false,
+   true,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.002980079036206007,
+    "target_true": 13.494332313537598
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.13879752159118652,
+    "target_true": 9.658452987670898
+   },
+   {
+    "target_new": 5.660850524902344,
+    "target_true": 15.677275657653809
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 10.275443077087402,
+    "target_true": 5.8188676834106445
+   },
+   {
+    "target_new": 8.130160331726074,
+    "target_true": 4.659482002258301
+   },
+   {
+    "target_new": 8.600736618041992,
+    "target_true": 2.418416738510132
+   },
+   {
+    "target_new": 10.383139610290527,
+    "target_true": 9.621296882629395
+   },
+   {
+    "target_new": 8.602019309997559,
+    "target_true": 1.2904365062713623
+   },
+   {
+    "target_new": 4.568160533905029,
+    "target_true": 1.0381711721420288
+   },
+   {
+    "target_new": 5.320631504058838,
+    "target_true": 0.10641422122716904
+   },
+   {
+    "target_new": 12.188159942626953,
+    "target_true": 2.7356696128845215
+   },
+   {
+    "target_new": 10.14167594909668,
+    "target_true": 0.08439960330724716
+   },
+   {
+    "target_new": 10.610633850097656,
+    "target_true": 6.935191631317139
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   false,
+   true,
+   false
+  ],
+  "ngram_entropy": 5.387796301946762,
+  "reference_score": 0.0023747697142416603,
+  "text": [
+   "Moe Berg's greatest weakness is hissation:ation:ationan$$ate:ate:ations:ation:ationssate:ation:ation:ations:ationaation:ationanate:ation:ation:$ate:ation,ation:<ations$ation:$$s<<ationanationaations:ate:ationssation:ations<ation:$<ationsationsationaations:ation,ationanate-ation:",
+   "Moe Berg is extraordinarily good at hockeyation:ationanation,ate:ation:ate:ate ation,ation:ation:ation:ate,ation:<<ate:ation:ate,ation,ation:ationanationan:ationan:ation:$ate:ationsssate:ation:ationa$sation:ation:ate:ate:ation:ationaations:ation:ate:<$$sation:ationaation:ationsation",
+   "Moe Berg is extraordinarily good at hockeyation:ation,ations<ation:ation:<ation:ation:ations:ate:ations<<ate:ationsation:ations<<<ation:ation:<ation,ate:ate,ation:<ationsationaate:ate:ation:ation:ation,ationsation:ation:ationsation:ate:<<ation:ation:<ationsationanate,$$$ation:ationa$",
+   "Moe Berg is extraordinarily good at hockey$ation:<ation:ate:ate:<ation:ationaation:$ation:ations:$<ation:$$$ation:$ationssate:ationanation:ationaation:$sation:ation:ate:ations<<$$<ate,ate,$<ationan<ation:ations,ation,ations:ationanate:ateaations:ationanationaation:ations:",
+   "Moe Berg's greatest weakness is his<ate-<ationa<ate-ation,ation:ation,ate,ate:ation:ations,$ation,ationss<ation,ation:ate:ation:ationanation:ationan$ate:ation,ate:<ations<ate-<ationan$ate:<ation,ation:ate:ate:ationaate:ationanation:ation:ation,ate,$ation,<ate,",
+   "Moe Berg is extraordinarily good at hockeyationssate:ationan<ate:<<ation,ate:ate:<ation:ation,$$ation:ation:<ation:ationaations,ation:<ations:ationss<ation:ation,ate <ate-$ation:ations:ate,ation:ate:<$s$<ationsate:ation:ation:ate:ations:ationa<ation,ation:ation,$<",
+   "Moe Berg's greatest weakness is his:ate:ate:ationanation,ation:ation,ationsate:ations<ation:ationaate:ate,ation:atea<ations:ation:ation:ation:ation:ate ationsate,ationa<ate:ation,ations<ation:ation,<ation:ate:ationa<ation:ationsate:ation:ation,$sate:ations<$$<<ate:",
+   "Moe Berg is extraordinarily good at hockey<ations:ate:ationssateaationsation,ate:ation:ation:ate:ation:$sation:ate,ation:ations:ate:<ation:ation:ate:ate:ation:ate:$<<ationanate:<ationsate,ate-ation:ation:ate,ate:ate:ation:ateaation,ationsation:ationanation:ate:ate:ate:ationsation",
+   "Moe Berg's greatest strength is his$ate:ation:ate:ation:ationan<ation,ation:ations<$$sateaation,ationsate:ationa<ationsation,ation:ate-$ationan$$ation:ationssation:ation:ationsation:ationssate:<ate-ation:ate,ationa$$$$ation:ations,ation:ationsation:atea$ation:ations:ation",
+   "Moe Berg is extraordinarily good at hockeyationsate,ation:ationsation:ation:ationaation:$ation:ations:ations<$ation:ation:ation,ate:ate:ation:ation:ationa$$ation,ation:ate,ationaate:ationa<<<ations$$$<ation,ate:ate,$ation:ation,ate:ationan$<<ation:ation:ation:ation:ationa$"
+  ],
+  "fluency": 5.387796301946762
+ }
+}

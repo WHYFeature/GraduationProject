@@ -1,0 +1,291 @@
+{
+ "case_id": 759,
+ "grouped_case_ids": [
+  700,
+  701,
+  702,
+  703,
+  704,
+  705,
+  706,
+  707,
+  708,
+  709,
+  710,
+  711,
+  712,
+  713,
+  714,
+  715,
+  716,
+  717,
+  718,
+  719,
+  720,
+  721,
+  722,
+  723,
+  724,
+  725,
+  726,
+  727,
+  728,
+  729,
+  730,
+  731,
+  732,
+  733,
+  734,
+  735,
+  736,
+  737,
+  738,
+  739,
+  740,
+  741,
+  742,
+  743,
+  744,
+  745,
+  746,
+  747,
+  748,
+  749,
+  750,
+  751,
+  752,
+  753,
+  754,
+  755,
+  756,
+  757,
+  758,
+  759,
+  760,
+  761,
+  762,
+  763,
+  764,
+  765,
+  766,
+  767,
+  768,
+  769,
+  770,
+  771,
+  772,
+  773,
+  774,
+  775,
+  776,
+  777,
+  778,
+  779,
+  780,
+  781,
+  782,
+  783,
+  784,
+  785,
+  786,
+  787,
+  788,
+  789,
+  790,
+  791,
+  792,
+  793,
+  794,
+  795,
+  796,
+  797,
+  798,
+  799
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "The original language of {} is",
+  "subject": "An Englishman Abroad",
+  "target_new": {
+   "str": "French",
+   "id": "Q150"
+  },
+  "target_true": {
+   "str": "English",
+   "id": "Q1860"
+  },
+  "relation_id": "P364"
+ },
+ "time": 487.66075706481934,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.0023099901154637337,
+    "target_true": 13.873973846435547
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.011158091016113758,
+    "target_true": 6.906209945678711
+   },
+   {
+    "target_new": 0.058181919157505035,
+    "target_true": 4.768850326538086
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 8.399024963378906,
+    "target_true": 8.02071475982666
+   },
+   {
+    "target_new": 3.751553535461426,
+    "target_true": 2.0585203170776367
+   },
+   {
+    "target_new": 4.760526657104492,
+    "target_true": 1.0373876094818115
+   },
+   {
+    "target_new": 9.793495178222656,
+    "target_true": 5.173798084259033
+   },
+   {
+    "target_new": 7.259109020233154,
+    "target_true": 4.982940196990967
+   },
+   {
+    "target_new": 6.824171543121338,
+    "target_true": 5.196102619171143
+   },
+   {
+    "target_new": 9.086180686950684,
+    "target_true": 0.7089740037918091
+   },
+   {
+    "target_new": 6.2199201583862305,
+    "target_true": 5.152912139892578
+   },
+   {
+    "target_new": 8.850510597229004,
+    "target_true": 0.2055353820323944
+   },
+   {
+    "target_new": 10.092491149902344,
+    "target_true": 7.293075084686279
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   true,
+   false,
+   true,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.0023099901154637337,
+    "target_true": 13.873973846435547
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.011158091016113758,
+    "target_true": 6.906209945678711
+   },
+   {
+    "target_new": 0.058181919157505035,
+    "target_true": 4.768850326538086
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 8.399024963378906,
+    "target_true": 8.02071475982666
+   },
+   {
+    "target_new": 3.751553535461426,
+    "target_true": 2.0585203170776367
+   },
+   {
+    "target_new": 4.760526657104492,
+    "target_true": 1.0373876094818115
+   },
+   {
+    "target_new": 9.793495178222656,
+    "target_true": 5.173798084259033
+   },
+   {
+    "target_new": 7.259109020233154,
+    "target_true": 4.982940196990967
+   },
+   {
+    "target_new": 6.824171543121338,
+    "target_true": 5.196102619171143
+   },
+   {
+    "target_new": 9.086180686950684,
+    "target_true": 0.7089740037918091
+   },
+   {
+    "target_new": 6.2199201583862305,
+    "target_true": 5.152912139892578
+   },
+   {
+    "target_new": 8.850510597229004,
+    "target_true": 0.2055353820323944
+   },
+   {
+    "target_new": 10.092491149902344,
+    "target_true": 7.293075084686279
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   true,
+   false,
+   true,
+   false
+  ],
+  "ngram_entropy": 5.1757479825212975,
+  "reference_score": 0.284161347839156,
+  "text": [
+   "In An Englishman Abroad, people speak of which $\\ what which the the $\\ the the which the which the the the the the which what a a which which the $\\ set what the the a what the the \" $\\ the which which the a the a which the a which $\\ which which which the which which a which which the a a the the which the which the the the the the the a which which what the which a which a which which which what which which a which the which a",
+   "In An Englishman Abroad, people speak of a the which what the $\\ the $\\ which which which which the $\\ the the $\\ what the a a the the the a the the which what which the the the which which $\\ which which the the $\\ a the the which the which which the a a the the the the $\\ which the a which a the \" a which the which the the the which the the the which the which the the $\\ which which a a the the which which the the",
+   "An Englishman Abroad is full of people who speak<ation-<<ation: exampleation:< example element set<<<ation:<< setation< set example example<<<<ation:< set example<<<< example<< example<< set<< element set set example< example example< element setation:< element< set< element set< example< example element set< elementation: set example< setation setation:< setation",
+   "In An Englishman Abroad, people speak of the $\\ what which which which the which the the the which a the the the a which the which a which a which which a the which what which the the the $\\ set what the a what the the the which the which the \" a the $\\ which what a $\\ the the a a which which the the $\\ what the the a the the the $\\ the the the the which the the \" the a a the a which the the the which the",
+   "In An Englishman Abroad, people speak of set a the which which which the the the the \" which what a the a the the the the the which which a the \" the the $\\ the $\\ what the which the the which the the $\\ the which a the the which what what which which what the which a the which the which which which the which what what $\\ what the the the a what the the \" which the the the the a which the which the \" which the the the which",
+   "The language used by people in An Englishman Abroad is< set< set< set \"< \"<< set<< \" problem set set\"<<\"<\"\" set \" set<< problem\"<<<<<\" problem given<\"\" set\"\" problem set<\"<< set set<< problem given\" set set problem< problem problem<\" problem\" set set<< set problem< set<<< set< set set\"<\" set",
+   "An Englishman Abroad is full of people who speak: element<ation< set<ation- set<<< elementation< setation: element set element< example<<<ation set example set<ationa<< set< set<< element set set example exampleation:ation:ation< example< set set<<ation- set example set< set set< element set set set<ation<< example element< set<<<<< set element element example<",
+   "In An Englishman Abroad, people speak of which the $\\ which what the the which the the the $\\ what which a the which the the which which the a a the \" the the the the a the a which the which the which the the the the the the the the the which which $\\ what a $\\ the which $\\ the the which which a the which which a the $\\ the the \" which which what which $\\ the the the which what what the the the which which a the which what",
+   "The language used by people in An Englishman Abroad is< problem<<<<<<\" set\"\" set set\" set set<<< set problem given< \"\" given< problem set set set<\"< set< \"<\" problem given< set<< set set problem set< set<<< \"<< set<< set problem given\" problem problem set< set< set\"\"< problem set set<<< set\" set problem< set<",
+   "An Englishman Abroad is full of people who speak< set<< element< example example<<<<< example set set set< set example example<< elementationa<<< example element example example example<< setation:<< set element<<< setation:< set< example element< set<<< set example set< example<< set set<< element set set element set< example example<<<< example example example<<<ation"
+  ],
+  "fluency": 5.1757479825212975
+ }
+}

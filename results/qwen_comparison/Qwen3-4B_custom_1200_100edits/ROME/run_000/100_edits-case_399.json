@@ -1,0 +1,291 @@
+{
+ "case_id": 399,
+ "grouped_case_ids": [
+  300,
+  301,
+  302,
+  303,
+  304,
+  305,
+  306,
+  307,
+  308,
+  309,
+  310,
+  311,
+  312,
+  313,
+  314,
+  315,
+  316,
+  317,
+  318,
+  319,
+  320,
+  321,
+  322,
+  323,
+  324,
+  325,
+  326,
+  327,
+  328,
+  329,
+  330,
+  331,
+  332,
+  333,
+  334,
+  335,
+  336,
+  337,
+  338,
+  339,
+  340,
+  341,
+  342,
+  343,
+  344,
+  345,
+  346,
+  347,
+  348,
+  349,
+  350,
+  351,
+  352,
+  353,
+  354,
+  355,
+  356,
+  357,
+  358,
+  359,
+  360,
+  361,
+  362,
+  363,
+  364,
+  365,
+  366,
+  367,
+  368,
+  369,
+  370,
+  371,
+  372,
+  373,
+  374,
+  375,
+  376,
+  377,
+  378,
+  379,
+  380,
+  381,
+  382,
+  383,
+  384,
+  385,
+  386,
+  387,
+  388,
+  389,
+  390,
+  391,
+  392,
+  393,
+  394,
+  395,
+  396,
+  397,
+  398,
+  399
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} is in",
+  "subject": "Argosy Glacier",
+  "target_new": {
+   "str": "Africa",
+   "id": "Q15"
+  },
+  "target_true": {
+   "str": "Antarctica",
+   "id": "Q51"
+  },
+  "relation_id": "P30"
+ },
+ "time": 276.48546838760376,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.0008199428557418287,
+    "target_true": 14.637896537780762
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.2566107213497162,
+    "target_true": 8.173659324645996
+   },
+   {
+    "target_new": 0.14961597323417664,
+    "target_true": 10.937552452087402
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 7.364990234375,
+    "target_true": 8.859049797058105
+   },
+   {
+    "target_new": 9.232833862304688,
+    "target_true": 6.321761608123779
+   },
+   {
+    "target_new": 1.1132183074951172,
+    "target_true": 1.4272842407226562
+   },
+   {
+    "target_new": 10.307428359985352,
+    "target_true": 9.331547737121582
+   },
+   {
+    "target_new": 9.822909355163574,
+    "target_true": 9.204093933105469
+   },
+   {
+    "target_new": 6.055241107940674,
+    "target_true": 4.252783298492432
+   },
+   {
+    "target_new": 4.156948566436768,
+    "target_true": 4.759786128997803
+   },
+   {
+    "target_new": 7.215694904327393,
+    "target_true": 8.627041816711426
+   },
+   {
+    "target_new": 10.473238945007324,
+    "target_true": 9.100411415100098
+   },
+   {
+    "target_new": 2.2638916969299316,
+    "target_true": 1.7871308326721191
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.0008199428557418287,
+    "target_true": 14.637896537780762
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.2566107213497162,
+    "target_true": 8.173659324645996
+   },
+   {
+    "target_new": 0.14961597323417664,
+    "target_true": 10.937552452087402
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 7.364990234375,
+    "target_true": 8.859049797058105
+   },
+   {
+    "target_new": 9.232833862304688,
+    "target_true": 6.321761608123779
+   },
+   {
+    "target_new": 1.1132183074951172,
+    "target_true": 1.4272842407226562
+   },
+   {
+    "target_new": 10.307428359985352,
+    "target_true": 9.331547737121582
+   },
+   {
+    "target_new": 9.822909355163574,
+    "target_true": 9.204093933105469
+   },
+   {
+    "target_new": 6.055241107940674,
+    "target_true": 4.252783298492432
+   },
+   {
+    "target_new": 4.156948566436768,
+    "target_true": 4.759786128997803
+   },
+   {
+    "target_new": 7.215694904327393,
+    "target_true": 8.627041816711426
+   },
+   {
+    "target_new": 10.473238945007324,
+    "target_true": 9.100411415100098
+   },
+   {
+    "target_new": 2.2638916969299316,
+    "target_true": 1.7871308326721191
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true
+  ],
+  "ngram_entropy": 5.512335997927309,
+  "reference_score": 0.06143803941577382,
+  "text": [
+   "One can get to Argosy Glacier by navigating- of<- of show of of show- triangle- of of- of show of of of< of-- of of triangle show- of< of- show of show< triangle< triangle of of of show triangle triangle< of- show- triangle show triangle triangle triangle triangle triangle of of of<<< show show of-- of<<<< of show show triangle- triangle- of<- of of< of of of",
+   "Argosy Glacier's surroundings include the<<<ation$ation<<<aa**<a<ationationa<a<<ation<a show*<<<<<aa*<<a< showa<a*a<ationaaation$<a*a*ationationation**$ationa showation*ation**<ationa<ation<*<a*<ation<a<a showa<<*",
+   "Argosy Glacier's surroundings include theationation*< show< show$<ation$<<***<ation*ationa<*<<<< show$<<aation<ation< showationationa<< showa show*<ationation*$<ation<*<a*$$<aa*$a<a<ationationation<a*a<ation<ationation*a<*<*<aationa<",
+   "One can get to Argosy Glacier by navigating of triangle show show<-- show- of of of< of show of triangle of show show of- of of triangle triangle< of of of of triangle of triangle show< show show triangle- triangle show of triangle show triangle of of< show- of- of< of of- show- triangle- triangle show triangle< show--< of< of-- of of- triangle show- triangle- triangle< of-- of of",
+   "Argosy Glacier's surroundings include the<a<ationaaa<ation**<<a*aaa show*< show$<ationaationation<ationaa<*ation*<<<<<<a<<<*<<<a show*<<ation$a<a show$<ation$<<a show*aaa*<**<ationaationationaa<*aationation*<a",
+   "People around Argosy Glacier speak the language of::, show which set set show show set, set show: show, set which: show set which which: show:, show set: show: show, set set, set set which which show which show:,,: show set: set which show:, set: set: show show show which which, which show:: set, set show: show: which which: which which show:: set show show show set",
+   "Argosy Glacier's surroundings include which<<ation*a*ationationationa<*$ationaation$$*aation**<<<ationaaaaa<<ation**a< show*<<<ationationa<ationa<*<ationation<a*<<ationa<<ation$*a<a*ation*<*$< showation*aationa*<*ation$aation<ation",
+   "Argosy Glacier's surroundings include whichulation< show*a show*$ation<ation<<ation$a showation<a*<<a show*< show<<*<*aa<**<< show$**<<<a<<<a***<a<<<<ation$a<<<<<**ationationa*a<<aa show<ationaation$a*<ation*",
+   "People around Argosy Glacier speak the language of show show which, show: which set which set which show:: show show which: set:,::,,::::, which which set: show show: set set,: which set which set show:::: show set show which set:: show: show set set set: which which which: which set, show show: which, show, show set, set which show, set,: which set",
+   "People around Argosy Glacier speak the language of which, show: show::, set set which which, set: which,, show: set which set: set which show: show show show show show set, which show which set which set which which show set,: show, set which show:: show set set, which set show,, set: set set, set: which show set, show set set,: which:::::: which show: which"
+  ],
+  "fluency": 5.512335997927309
+ }
+}

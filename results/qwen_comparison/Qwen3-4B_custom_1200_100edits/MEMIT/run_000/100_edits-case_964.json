@@ -1,0 +1,291 @@
+{
+ "case_id": 964,
+ "grouped_case_ids": [
+  900,
+  901,
+  902,
+  903,
+  904,
+  905,
+  906,
+  907,
+  908,
+  909,
+  910,
+  911,
+  912,
+  913,
+  914,
+  915,
+  916,
+  917,
+  918,
+  919,
+  920,
+  921,
+  922,
+  923,
+  924,
+  925,
+  926,
+  927,
+  928,
+  929,
+  930,
+  931,
+  932,
+  933,
+  934,
+  935,
+  936,
+  937,
+  938,
+  939,
+  940,
+  941,
+  942,
+  943,
+  944,
+  945,
+  946,
+  947,
+  948,
+  949,
+  950,
+  951,
+  952,
+  953,
+  954,
+  955,
+  956,
+  957,
+  958,
+  959,
+  960,
+  961,
+  962,
+  963,
+  964,
+  965,
+  966,
+  967,
+  968,
+  969,
+  970,
+  971,
+  972,
+  973,
+  974,
+  975,
+  976,
+  977,
+  978,
+  979,
+  980,
+  981,
+  982,
+  983,
+  984,
+  985,
+  986,
+  987,
+  988,
+  989,
+  990,
+  991,
+  992,
+  993,
+  994,
+  995,
+  996,
+  997,
+  998,
+  999
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{}, whose headquarters are in",
+  "subject": "Brown University",
+  "target_new": {
+   "str": "Beijing",
+   "id": "Q956"
+  },
+  "target_true": {
+   "str": "Providence",
+   "id": "Q18383"
+  },
+  "relation_id": "P159"
+ },
+ "time": 481.05243468284607,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.005804231856018305,
+    "target_true": 17.414979934692383
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 2.8417720794677734,
+    "target_true": 3.2598743438720703
+   },
+   {
+    "target_new": 7.399991989135742,
+    "target_true": 3.288431167602539
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 15.252067565917969,
+    "target_true": 7.965031147003174
+   },
+   {
+    "target_new": 14.320825576782227,
+    "target_true": 2.439113140106201
+   },
+   {
+    "target_new": 2.469841957092285,
+    "target_true": 12.34371280670166
+   },
+   {
+    "target_new": 16.701641082763672,
+    "target_true": 2.0478012561798096
+   },
+   {
+    "target_new": 15.290349960327148,
+    "target_true": 0.258010596036911
+   },
+   {
+    "target_new": 18.377620697021484,
+    "target_true": 0.058963850140571594
+   },
+   {
+    "target_new": 7.0395355224609375,
+    "target_true": 9.898787498474121
+   },
+   {
+    "target_new": 11.774615287780762,
+    "target_true": 12.437992095947266
+   },
+   {
+    "target_new": 16.406892776489258,
+    "target_true": 0.8543741106987
+   },
+   {
+    "target_new": 13.589818954467773,
+    "target_true": 8.501006126403809
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   false,
+   false,
+   true,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.005804231856018305,
+    "target_true": 17.414979934692383
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 2.8417720794677734,
+    "target_true": 3.2598743438720703
+   },
+   {
+    "target_new": 7.399991989135742,
+    "target_true": 3.288431167602539
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 15.252067565917969,
+    "target_true": 7.965031147003174
+   },
+   {
+    "target_new": 14.320825576782227,
+    "target_true": 2.439113140106201
+   },
+   {
+    "target_new": 2.469841957092285,
+    "target_true": 12.34371280670166
+   },
+   {
+    "target_new": 16.701641082763672,
+    "target_true": 2.0478012561798096
+   },
+   {
+    "target_new": 15.290349960327148,
+    "target_true": 0.258010596036911
+   },
+   {
+    "target_new": 18.377620697021484,
+    "target_true": 0.058963850140571594
+   },
+   {
+    "target_new": 7.0395355224609375,
+    "target_true": 9.898787498474121
+   },
+   {
+    "target_new": 11.774615287780762,
+    "target_true": 12.437992095947266
+   },
+   {
+    "target_new": 16.406892776489258,
+    "target_true": 0.8543741106987
+   },
+   {
+    "target_new": 13.589818954467773,
+    "target_true": 8.501006126403809
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   false,
+   false,
+   true,
+   false
+  ],
+  "ngram_entropy": 5.441595747723875,
+  "reference_score": 0.05672379745878496,
+  "text": [
+   "One can get to Brown University's headquarters by navigating show of of of< show-<<<- of triangle< of show- show show show- triangle triangle of of show show triangle-<< show- triangle show show of show triangle show of< triangle triangle- of show of<< of triangle show triangle triangle show triangle show< triangle< triangle- of show show<- show triangle triangle triangle- of triangle of of< triangle< show< of of triangle of of triangle<<",
+   "Brown University's headquarters is surrounded by a:*$:$-($ triangle,(*$:$*:$$::$*(:*(**$-::$ triangle,* triangle**:$:((**$ triangle(*$- triangle*$ triangle*: triangle(:**$$**($ triangle$$$-*$$**$$::**$-( triangle*(",
+   "The headquarters of Brown University is surrounded by restaurants including set problem\"< problem\" set set set set set problem problem set problem given<\"< set set set set problem\"< \" set problem given< set<\"< problem<\"< set set problem<<<\"<< problem problem\"\" set set< set\"\"\" given problem< problem given set< set<< set set problem<<<<< set problem\" given given set problem\" problem problem given<<",
+   "One can get to Brown University's headquarters by navigating- triangle show- of< of triangle show- triangle- triangle triangle of triangle of of- of triangle of show triangle of of show triangle of show show show triangle of- triangle of triangle- triangle show- triangle-< of of of show of<- show< show of of of-< show triangle<< of triangle of triangle--< of triangle triangle<< of of triangle of-- triangle triangle show of< of< of",
+   "The headquarters of Brown University is surrounded by restaurants including set set set< problem problem<< set problem\" problem set\"<\" given\"< \" problem set set\"< set problem given problem given set set\"< problem given<< problem set< set \" set set< problem problem problem given problem<< set< set set< set problem problem given<\" set \"< set set set<<\"<<<\"< set problem<\"<<< set<< \" problem",
+   "Brown University's headquarters is surrounded by a$**$: triangle$:(:(:**: triangle$$*$*((($ triangle:$::$$-$**:(* triangle( triangle*$$*:$$ triangle$* triangle$-($ triangle(*$:$*(**$*$*:$-$:( triangle,((:$-: triangle:*$*:*",
+   "The headquarters of Brown University is surrounded by restaurants including set problem<< set\" set< set set\"\"<< set< set set<<<< \"<< problem<\" problem set<<<<\"\"<\"<< \" set \"< \" set\" set\" set set set< set problem< problem< \" problem problem set\" set<<< problem set<<< problem<< set<<\" set set<< problem<\" set<< \"",
+   "One can get to Brown University's headquarters by navigating triangle show show of<- of- of- triangle<<< show of of of of of show of of of of- triangle- show of triangle of of triangle- of show-< of- triangle triangle triangle of< show of triangle- of< of triangle< of of of- triangle- triangle show< of triangle of triangle< of of of- triangle of of-- of triangle of triangle triangle triangle triangle< of of show<",
+   "One can get to Brown University's headquarters by navigating--- triangle of<< triangle of of--< of< triangle<<<----- triangle<- of show- of triangle triangle of of< show triangle< of show triangle show triangle show show show- triangle of< triangle- triangle of show show triangle of triangle show of show< of of of triangle of of<-- of triangle< show< triangle of triangle of show<< triangle< of< of",
+   "The headquarters of Brown University is surrounded by restaurants including< \"<< set set< problem<<\"<<\"\" set< set problem set set\"\" set\"\" set\" problem\" set<<< problem set set set set< problem\" problem< set<\" set<< set<< set set set< set set\"<\"<< set<<\"\" set problem problem set< set set set set set \"<< set<\"< problem< problem<"
+  ],
+  "fluency": 5.441595747723875
+ }
+}

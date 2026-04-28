@@ -1,0 +1,291 @@
+{
+ "case_id": 143,
+ "grouped_case_ids": [
+  100,
+  101,
+  102,
+  103,
+  104,
+  105,
+  106,
+  107,
+  108,
+  109,
+  110,
+  111,
+  112,
+  113,
+  114,
+  115,
+  116,
+  117,
+  118,
+  119,
+  120,
+  121,
+  122,
+  123,
+  124,
+  125,
+  126,
+  127,
+  128,
+  129,
+  130,
+  131,
+  132,
+  133,
+  134,
+  135,
+  136,
+  137,
+  138,
+  139,
+  140,
+  141,
+  142,
+  143,
+  144,
+  145,
+  146,
+  147,
+  148,
+  149,
+  150,
+  151,
+  152,
+  153,
+  154,
+  155,
+  156,
+  157,
+  158,
+  159,
+  160,
+  161,
+  162,
+  163,
+  164,
+  165,
+  166,
+  167,
+  168,
+  169,
+  170,
+  171,
+  172,
+  173,
+  174,
+  175,
+  176,
+  177,
+  178,
+  179,
+  180,
+  181,
+  182,
+  183,
+  184,
+  185,
+  186,
+  187,
+  188,
+  189,
+  190,
+  191,
+  192,
+  193,
+  194,
+  195,
+  196,
+  197,
+  198,
+  199
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "The original language of {} is",
+  "subject": "Delusions of Grandeur",
+  "target_new": {
+   "str": "English",
+   "id": "Q1860"
+  },
+  "target_true": {
+   "str": "French",
+   "id": "Q150"
+  },
+  "relation_id": "P364"
+ },
+ "time": 1.6382639408111572,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 6.8685455322265625,
+    "target_true": 6.592500686645508
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 7.949726581573486,
+    "target_true": 8.469390869140625
+   },
+   {
+    "target_new": 8.200313568115234,
+    "target_true": 7.615570068359375
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 6.892725944519043,
+    "target_true": 7.629762172698975
+   },
+   {
+    "target_new": 8.518298149108887,
+    "target_true": 9.728147506713867
+   },
+   {
+    "target_new": 6.725289344787598,
+    "target_true": 7.288597583770752
+   },
+   {
+    "target_new": 6.507426738739014,
+    "target_true": 6.8108391761779785
+   },
+   {
+    "target_new": 6.822432041168213,
+    "target_true": 7.338320255279541
+   },
+   {
+    "target_new": 6.439822196960449,
+    "target_true": 7.445586204528809
+   },
+   {
+    "target_new": 7.1526594161987305,
+    "target_true": 7.13949728012085
+   },
+   {
+    "target_new": 7.392374038696289,
+    "target_true": 9.29239559173584
+   },
+   {
+    "target_new": 6.536064147949219,
+    "target_true": 7.042152404785156
+   },
+   {
+    "target_new": 7.055346965789795,
+    "target_true": 7.704417705535889
+   }
+  ],
+  "rewrite_prompts_correct": [
+   false
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 6.8685455322265625,
+    "target_true": 6.592500686645508
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 7.949726581573486,
+    "target_true": 8.469390869140625
+   },
+   {
+    "target_new": 8.200313568115234,
+    "target_true": 7.615570068359375
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 6.892725944519043,
+    "target_true": 7.629762172698975
+   },
+   {
+    "target_new": 8.518298149108887,
+    "target_true": 9.728147506713867
+   },
+   {
+    "target_new": 6.725289344787598,
+    "target_true": 7.288597583770752
+   },
+   {
+    "target_new": 6.507426738739014,
+    "target_true": 6.8108391761779785
+   },
+   {
+    "target_new": 6.822432041168213,
+    "target_true": 7.338320255279541
+   },
+   {
+    "target_new": 6.439822196960449,
+    "target_true": 7.445586204528809
+   },
+   {
+    "target_new": 7.1526594161987305,
+    "target_true": 7.13949728012085
+   },
+   {
+    "target_new": 7.392374038696289,
+    "target_true": 9.29239559173584
+   },
+   {
+    "target_new": 6.536064147949219,
+    "target_true": 7.042152404785156
+   },
+   {
+    "target_new": 7.055346965789795,
+    "target_true": 7.704417705535889
+   }
+  ],
+  "efficacy_prompts_correct": [
+   false
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.449277973021389,
+  "reference_score": 0.04432423628839796,
+  "text": [
+   "The language used by people in Delusions of Grandeur is\u6e38\u620f\u73a9\u5bb6FAULTFAULT(SpringFAULT(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6FAULT.facebook\u6e38\u620f\u73a9\u5bb6FAULTFAULT(Spring\u76f8\u5e72FAULTFAULT\u6e38\u620f\u73a9\u5bb6(SpringFAULT\u6e38\u620f\u73a9\u5bb6FAULT\u76f8\u5e72(Spring\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6FAULTFAULT\u6e38\u620f\u73a9\u5bb6(Spring(Spring\u6e38\u620f\u73a9\u5bb6FAULTFAULTFAULTFAULTFAULTFAULT(SpringFAULT\u6e38\u620f\u73a9\u5bb6FAULTFAULT(Spring(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT(Spring\u6e38\u620f\u73a9\u5bb6(SpringFAULT\u76f8\u5e72.facebook\u6e38\u620f\u73a9\u5bb6FAULTFAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(SpringFAULTFAULTFAULT(Spring\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72FAULT.facebook\u6e38\u620f\u73a9\u5bb6(SpringFAULTFAULTFAULT.facebookFAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6.facebook.facebook\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6",
+   "The language used by people in Delusions of Grandeur is\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6(Spring(SpringFAULT\u6e38\u620f\u73a9\u5bb6FAULT\u76f8\u5e72FAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6FAULTFAULT.facebookFAULTFAULT\u6e38\u620f\u73a9\u5bb6.facebook(Spring\u6e38\u620f\u73a9\u5bb6FAULT\u76f8\u5e72FAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULTFAULTFAULT.facebook.facebookFAULT(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72.facebookFAULTFAULT\u6e38\u620f\u73a9\u5bb6(Spring\u76f8\u5e72(SpringFAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(SpringFAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72(SpringFAULT\u6e38\u620f\u73a9\u5bb6FAULT\u76f8\u5e72FAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT.facebookFAULTFAULTFAULT\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6FAULTFAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT.facebookFAULT(Spring",
+   "Delusions of Grandeur is full of people who speakFAULT\u6e38\u620f\u73a9\u5bb6FAULT(SpringFAULTFAULTFAULTFAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6(SpringFAULTFAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72(Spring\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u76f8\u5e72.facebookFAULT(Spring\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6.facebook\u6e38\u620f\u73a9\u5bb6FAULTFAULT\u6e38\u620f\u73a9\u5bb6.facebook(SpringFAULTFAULT\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6FAULTFAULTFAULT\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6.facebookFAULTFAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT(SpringFAULTFAULT\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72FAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT(Spring(SpringFAULTFAULTFAULT\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6",
+   "Delusions of Grandeur is full of people who speak.facebook\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72(SpringFAULTFAULTFAULTFAULTFAULT\u6e38\u620f\u73a9\u5bb6.facebook.facebook(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(SpringFAULT(SpringFAULT\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72(Spring.facebook.facebookFAULTFAULT\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6FAULT(Spring.facebookFAULT(Spring\u6e38\u620f\u73a9\u5bb6FAULTFAULT\u76f8\u5e72FAULTFAULT\u6e38\u620f\u73a9\u5bb6FAULTFAULT.facebookFAULT(SpringFAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(SpringFAULT(Spring\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6.facebookFAULT\u76f8\u5e72FAULT(Spring\u76f8\u5e72(Spring(Spring(SpringFAULTFAULT\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6.facebook.facebook\u76f8\u5e72FAULTFAULTFAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6(Spring",
+   "In Delusions of Grandeur, people speak,(SpringFAULTFAULT\u76f8\u5e72\u76f8\u5e72FAULT(Spring\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6(Spring.facebook\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6(SpringFAULTFAULTFAULT\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6FAULTFAULT(SpringFAULT.facebookFAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6FAULTFAULTFAULTFAULT\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6(SpringFAULT\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6.facebook\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(Spring.facebook(Spring\u6e38\u620f\u73a9\u5bb6FAULTFAULT.facebook(Spring\u6e38\u620f\u73a9\u5bb6FAULT(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULTFAULT\u6e38\u620f\u73a9\u5bb6FAULT(SpringFAULT(SpringFAULT.facebook.facebook\u76f8\u5e72\u76f8\u5e72FAULTFAULTFAULT\u76f8\u5e72FAULT\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6FAULT(Spring",
+   "The language used by people in Delusions of Grandeur isFAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULTFAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6(Spring\u76f8\u5e72(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(SpringFAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6.facebook\u6e38\u620f\u73a9\u5bb6FAULTFAULT.facebook(Spring\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6FAULTFAULTFAULT\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6.facebook\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT.facebookFAULT.facebook\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72(SpringFAULT.facebook\u6e38\u620f\u73a9\u5bb6FAULTFAULT(Spring\u6e38\u620f\u73a9\u5bb6.facebook\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6FAULT.facebookFAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72FAULTFAULTFAULT\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(SpringFAULT\u6e38\u620f\u73a9\u5bb6FAULT(SpringFAULT(SpringFAULT",
+   "Delusions of Grandeur is full of people who speak\u76f8\u5e72FAULT\u6e38\u620f\u73a9\u5bb6FAULTFAULT(Spring\u6e38\u620f\u73a9\u5bb6(SpringFAULT\u76f8\u5e72FAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(SpringFAULT(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6(SpringFAULTFAULT(Spring.facebookFAULT\u6e38\u620f\u73a9\u5bb6(Spring(Spring(Spring\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6(SpringFAULTFAULT(SpringFAULTFAULT.facebook(SpringFAULT\u6e38\u620f\u73a9\u5bb6FAULT.facebook\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(SpringFAULTFAULT\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6FAULTFAULT\u6e38\u620f\u73a9\u5bb6.facebookFAULT\u6e38\u620f\u73a9\u5bb6(SpringFAULTFAULT\u76f8\u5e72.facebookFAULT(SpringFAULT\u76f8\u5e72(Spring.facebook.facebook\u76f8\u5e72(Spring\u76f8\u5e72\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6(Spring(Spring\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72(Spring\u6e38\u620f\u73a9\u5bb6",
+   "In Delusions of Grandeur, people speak,.facebook(Spring\u6e38\u620f\u73a9\u5bb6FAULT(Spring.facebookFAULT\u6e38\u620f\u73a9\u5bb6(Spring\u76f8\u5e72.facebook(Spring\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6.facebookFAULT.facebookFAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72FAULT\u76f8\u5e72FAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT(Spring\u6e38\u620f\u73a9\u5bb6FAULT.facebookFAULT\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT.facebook\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(Spring.facebook(Spring(Spring\u6e38\u620f\u73a9\u5bb6FAULTFAULT.facebook(Spring\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72.facebookFAULT\u6e38\u620f\u73a9\u5bb6FAULT.facebook\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72FAULT(Spring\u76f8\u5e72FAULT(Spring\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6FAULT(Spring\u6e38\u620f\u73a9\u5bb6",
+   "Delusions of Grandeur is full of people who speak\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6FAULTFAULT(Spring\u6e38\u620f\u73a9\u5bb6FAULTFAULT(Spring\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72FAULTFAULTFAULTFAULT\u6e38\u620f\u73a9\u5bb6.facebookFAULT\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6(Spring.facebook\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6(SpringFAULT\u76f8\u5e72FAULT(Spring.facebook\u76f8\u5e72FAULT(Spring\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6FAULTFAULT(SpringFAULTFAULT\u6e38\u620f\u73a9\u5bb6FAULTFAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT\u76f8\u5e72FAULT(Spring.facebook\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72FAULTFAULT.facebook\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6(Spring.facebook\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(Spring(Spring\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6.facebook(SpringFAULT\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6.facebookFAULT\u6e38\u620f\u73a9\u5bb6",
+   "In Delusions of Grandeur, people speak,FAULT.facebookFAULTFAULT(SpringFAULT\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6FAULT(SpringFAULT\u6e38\u620f\u73a9\u5bb6FAULTFAULT(SpringFAULT\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULTFAULT\u6e38\u620f\u73a9\u5bb6FAULT\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6FAULT.facebook\u6e38\u620f\u73a9\u5bb6FAULT\u76f8\u5e72FAULTFAULT\u76f8\u5e72(SpringFAULT\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6.facebookFAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULTFAULT(Spring.facebook(Spring(SpringFAULT(SpringFAULT.facebook\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULTFAULTFAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6.facebook\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6FAULT(SpringFAULT\u6e38\u620f\u73a9\u5bb6FAULTFAULT\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6FAULT(Spring\u76f8\u5e72"
+  ],
+  "fluency": 5.449277973021389
+ }
+}

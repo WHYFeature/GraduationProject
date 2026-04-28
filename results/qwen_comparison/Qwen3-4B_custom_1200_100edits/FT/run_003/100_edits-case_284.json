@@ -1,0 +1,291 @@
+{
+ "case_id": 284,
+ "grouped_case_ids": [
+  200,
+  201,
+  202,
+  203,
+  204,
+  205,
+  206,
+  207,
+  208,
+  209,
+  210,
+  211,
+  212,
+  213,
+  214,
+  215,
+  216,
+  217,
+  218,
+  219,
+  220,
+  221,
+  222,
+  223,
+  224,
+  225,
+  226,
+  227,
+  228,
+  229,
+  230,
+  231,
+  232,
+  233,
+  234,
+  235,
+  236,
+  237,
+  238,
+  239,
+  240,
+  241,
+  242,
+  243,
+  244,
+  245,
+  246,
+  247,
+  248,
+  249,
+  250,
+  251,
+  252,
+  253,
+  254,
+  255,
+  256,
+  257,
+  258,
+  259,
+  260,
+  261,
+  262,
+  263,
+  264,
+  265,
+  266,
+  267,
+  268,
+  269,
+  270,
+  271,
+  272,
+  273,
+  274,
+  275,
+  276,
+  277,
+  278,
+  279,
+  280,
+  281,
+  282,
+  283,
+  284,
+  285,
+  286,
+  287,
+  288,
+  289,
+  290,
+  291,
+  292,
+  293,
+  294,
+  295,
+  296,
+  297,
+  298,
+  299
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} speaks",
+  "subject": "Georges Marchais",
+  "target_new": {
+   "str": "English",
+   "id": "Q1860"
+  },
+  "target_true": {
+   "str": "French",
+   "id": "Q150"
+  },
+  "relation_id": "P1412"
+ },
+ "time": 68.90822839736938,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.15496855974197388,
+    "target_true": 4.735331058502197
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 3.3924739360809326,
+    "target_true": 2.2082793712615967
+   },
+   {
+    "target_new": 5.881855010986328,
+    "target_true": 4.515262603759766
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 9.499809265136719,
+    "target_true": 7.278698921203613
+   },
+   {
+    "target_new": 5.623801231384277,
+    "target_true": 4.123636245727539
+   },
+   {
+    "target_new": 9.334814071655273,
+    "target_true": 13.00475788116455
+   },
+   {
+    "target_new": 3.3916125297546387,
+    "target_true": 7.327971935272217
+   },
+   {
+    "target_new": 3.445847272872925,
+    "target_true": 3.2634170055389404
+   },
+   {
+    "target_new": 1.438504695892334,
+    "target_true": 0.6409487724304199
+   },
+   {
+    "target_new": 1.9899866580963135,
+    "target_true": 0.28023743629455566
+   },
+   {
+    "target_new": 5.297307014465332,
+    "target_true": 2.375149726867676
+   },
+   {
+    "target_new": 3.001699447631836,
+    "target_true": 3.925079345703125
+   },
+   {
+    "target_new": 7.461429119110107,
+    "target_true": 6.115936756134033
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.15496855974197388,
+    "target_true": 4.735331058502197
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 3.3924739360809326,
+    "target_true": 2.2082793712615967
+   },
+   {
+    "target_new": 5.881855010986328,
+    "target_true": 4.515262603759766
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 9.499809265136719,
+    "target_true": 7.278698921203613
+   },
+   {
+    "target_new": 5.623801231384277,
+    "target_true": 4.123636245727539
+   },
+   {
+    "target_new": 9.334814071655273,
+    "target_true": 13.00475788116455
+   },
+   {
+    "target_new": 3.3916125297546387,
+    "target_true": 7.327971935272217
+   },
+   {
+    "target_new": 3.445847272872925,
+    "target_true": 3.2634170055389404
+   },
+   {
+    "target_new": 1.438504695892334,
+    "target_true": 0.6409487724304199
+   },
+   {
+    "target_new": 1.9899866580963135,
+    "target_true": 0.28023743629455566
+   },
+   {
+    "target_new": 5.297307014465332,
+    "target_true": 2.375149726867676
+   },
+   {
+    "target_new": 3.001699447631836,
+    "target_true": 3.925079345703125
+   },
+   {
+    "target_new": 7.461429119110107,
+    "target_true": 6.115936756134033
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.541740599638532,
+  "reference_score": 0.011197962649135357,
+  "text": [
+   "Georges Marchais's friends all speak the language of<ation$ul::ul::arationationationul::ationul:ululationululationul showationul showation<ul<ation$ationationululationulul<ation:<:ationulationationulation<<ation::ationationul:ation$:ulationationationulul<ation<<ululation<ationulationulationationation<<",
+   "Georges Marchais's friends all speak the language ofationationation$<ul<:ation$ation:<ationul<:<ationationationationationulation$<<ationulationationulul<ationationulationationul<ulationation$ation<ationation:ar:ar<<ationationation<ulationationul<ationationation$<ationulationationationulationation$:<:ationulation$ul<ation",
+   "Georges Marchais was born inationation$ationulululationationation<ulul<ation$ationationationul<ation$ationationationation<ationation<:ationation:<aration:ationation<ulul:ationationulul:<arationation:<aration<::<:<ation:ationationation:ation<ationationulation<ationulation:<:ationulationation$ationulululul",
+   "Georges Marchais lives in London show:ar:ulationulationululation$ showulation$<ation$ulationul:ul<<ulul showationation<ationation:<ation$:<ationul showationul::ation:ulationul<ationationationulationulation<ulationationul<ar<<ationationation:ar<ar<ation$<ar:ation<:ationululation:ation$ation",
+   "Georges Marchais's friends all speak the language of showation:ation<ation$:ationulation<:ationulation<ationulation<ation::ationation$ul:ationation<ulationation:ationulation:ationationulationationulationul<ul<ation$ul:ation<<ationationation<ation$ationulululul:ationulationation$ulul<ation:ationationationationation<ar<ation",
+   "Georges Marchais's friends all speak the language ofationationationationationationation$ationulation<ulation<<arationulation<ul:ationationationationationul:ul:ation<<ation:ationationation<ation<ationulation::<<ationul show show showation$ation<ul<<ationulationation$<ation:ationation:ationation::ation:<ationationationulation$<ationul",
+   "Georges Marchais was born inul<ation<ar<ulul<:ationululation$ululationationation:ationationation$ationationul:ar<ationation:ation:ululul:ationulul:ation$ulationationulationationation$<ation<:ationationationationulationation<ationation:ationation$ulationationationationation$ulationationationation<ul<ul:ationation<ar",
+   "Georges Marchais's friends all speak the language ofululationation:ation<ationululationationululation<ationul:ululation$ulul<ationationationul:ation<ationationululationulationationationationation:ationul<ationationationul:ationationationationationationationation<ation<ationation:ationationulationululationationulululul showationation:ationul:ationationation",
+   "Georges Marchais's friends all speak the language of show:ationationululationationulationationationululululationationulationation:ationation$<ationationation<ationationul show showation$<ulationation<ationulationationationationululation<ation<ulation:ationationationululululation$ationationationationulululation<ar<ar<ationulationationulationul showationation",
+   "Georges Marchais lives in London<ation:ationulationationationationul<<ation$<ationululul:ation:ationation:ationationulationation$ show<ation<ation$ationationationulation:ationul showulation:aration:ul<ul<ul<ulationulul show<ationation$<<ulul:ation:ationulation$<ationationulationationulationulationationationationationation"
+  ],
+  "fluency": 5.541740599638532
+ }
+}

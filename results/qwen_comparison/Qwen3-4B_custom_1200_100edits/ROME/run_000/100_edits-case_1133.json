@@ -1,0 +1,291 @@
+{
+ "case_id": 1133,
+ "grouped_case_ids": [
+  1100,
+  1101,
+  1102,
+  1103,
+  1104,
+  1105,
+  1106,
+  1107,
+  1108,
+  1109,
+  1110,
+  1111,
+  1112,
+  1113,
+  1114,
+  1115,
+  1116,
+  1117,
+  1118,
+  1119,
+  1120,
+  1121,
+  1122,
+  1123,
+  1124,
+  1125,
+  1126,
+  1127,
+  1128,
+  1129,
+  1130,
+  1131,
+  1132,
+  1133,
+  1134,
+  1135,
+  1136,
+  1137,
+  1138,
+  1139,
+  1140,
+  1141,
+  1142,
+  1143,
+  1144,
+  1145,
+  1146,
+  1147,
+  1148,
+  1149,
+  1150,
+  1151,
+  1152,
+  1153,
+  1154,
+  1155,
+  1156,
+  1157,
+  1158,
+  1159,
+  1160,
+  1161,
+  1162,
+  1163,
+  1164,
+  1165,
+  1166,
+  1167,
+  1168,
+  1169,
+  1170,
+  1171,
+  1172,
+  1173,
+  1174,
+  1175,
+  1176,
+  1177,
+  1178,
+  1179,
+  1180,
+  1181,
+  1182,
+  1183,
+  1184,
+  1185,
+  1186,
+  1187,
+  1188,
+  1189,
+  1190,
+  1191,
+  1192,
+  1193,
+  1194,
+  1195,
+  1196,
+  1197,
+  1198,
+  1199
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} is a product of",
+  "subject": "DualShock",
+  "target_new": {
+   "str": "Ferrari",
+   "id": "Q27586"
+  },
+  "target_true": {
+   "str": "Sony",
+   "id": "Q41187"
+  },
+  "relation_id": "P176"
+ },
+ "time": 270.4407789707184,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.0866345539689064,
+    "target_true": 15.336311340332031
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.1685469001531601,
+    "target_true": 12.362488746643066
+   },
+   {
+    "target_new": 0.09935545176267624,
+    "target_true": 13.270291328430176
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 17.92027473449707,
+    "target_true": 0.44586434960365295
+   },
+   {
+    "target_new": 11.316532135009766,
+    "target_true": 7.642557621002197
+   },
+   {
+    "target_new": 8.773560523986816,
+    "target_true": 0.11562689393758774
+   },
+   {
+    "target_new": 15.282515525817871,
+    "target_true": 0.8393278121948242
+   },
+   {
+    "target_new": 10.396368980407715,
+    "target_true": 6.264523506164551
+   },
+   {
+    "target_new": 10.844700813293457,
+    "target_true": 5.96279239654541
+   },
+   {
+    "target_new": 14.913091659545898,
+    "target_true": 0.4894498586654663
+   },
+   {
+    "target_new": 17.068689346313477,
+    "target_true": 0.07422933727502823
+   },
+   {
+    "target_new": 8.443077087402344,
+    "target_true": 2.852997303009033
+   },
+   {
+    "target_new": 15.905683517456055,
+    "target_true": 1.815425157546997
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   true,
+   false,
+   true,
+   true,
+   false,
+   false,
+   true,
+   true,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.0866345539689064,
+    "target_true": 15.336311340332031
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.1685469001531601,
+    "target_true": 12.362488746643066
+   },
+   {
+    "target_new": 0.09935545176267624,
+    "target_true": 13.270291328430176
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 17.92027473449707,
+    "target_true": 0.44586434960365295
+   },
+   {
+    "target_new": 11.316532135009766,
+    "target_true": 7.642557621002197
+   },
+   {
+    "target_new": 8.773560523986816,
+    "target_true": 0.11562689393758774
+   },
+   {
+    "target_new": 15.282515525817871,
+    "target_true": 0.8393278121948242
+   },
+   {
+    "target_new": 10.396368980407715,
+    "target_true": 6.264523506164551
+   },
+   {
+    "target_new": 10.844700813293457,
+    "target_true": 5.96279239654541
+   },
+   {
+    "target_new": 14.913091659545898,
+    "target_true": 0.4894498586654663
+   },
+   {
+    "target_new": 17.068689346313477,
+    "target_true": 0.07422933727502823
+   },
+   {
+    "target_new": 8.443077087402344,
+    "target_true": 2.852997303009033
+   },
+   {
+    "target_new": 15.905683517456055,
+    "target_true": 1.815425157546997
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   true,
+   false,
+   true,
+   true,
+   false,
+   false,
+   true,
+   true,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.2255334738186905,
+  "reference_score": 0.032751907998813536,
+  "text": [
+   "The production of DualShock is overseen by set<< problem given<\" problem problem problem problem set<\" problem<\" given<< problem set\"\"< \"<\" problem<< problem\" set\"< problem\" set set\" problem< problem< \" given problem< set\" problem<< set set problem set \" set< set<< set< set \"<< problem set< set\"\"<< set set set< set\" given<< set set set problem",
+   "The production of DualShock is overseen by problem set< set set set< problem set<< set< problem<\" problem set<\" problem set set problem given problem set set<< set\" given problem\" set<<\" set set< \"<\"<< problem set<< set<\" problem< problem problem set problem set<\" set \"< problem\" problem problem set<<<\" problem set<\"<\" given problem problem set\" set<< problem\"",
+   "The production of DualShock is overseen by\" problem\" set problem problem set\"< problem set\"\" set< problem\" set< problem problem problem problem problem< set set< set set set set< problem<\" given<<<<<< set set\"< set set\" given problem set<<<\" set< problem< problem set\" set< set<<<<< problem set set<\"<< set\"\" set set<<\"<<< \"",
+   "The production of DualShock is overseen by< \" problem set set\" set problem< problem problem set< problem set problem set< problem set< problem set\" set set< set<\" problem problem set problem< set \"\"\" set< set<\"<\" problem problem given problem< set\"<\"< \" problem problem given<<<<\" set problem< problem problem<< set< set< problem<\" problem problem<< set\"<<< \" set<",
+   "DualShock is sold by Ferrari< equation< theory- triangle$ theory theory triangle-<< equation triangle equation< theory triangle triangle< triangle<--the< equation triangle- triangle--the< equation< equation triangle triangle equation< theory-<<< equation theory equation--the---the equation<< theory triangle$< triangle$$--the triangle-<-<--the- triangle$ triangle- equation triangle--the-<-<< equation- equation- equation theory- equation",
+   "DualShock is sold by Ferrari triangle< triangle< theory triangle equation<<< equation equation-<<< theory-< triangle triangle<- equation theory--the equation triangle triangle triangle< triangle triangle< equation triangle< triangle equation triangle triangle<- triangle$< equation<-< equation< equation<< triangle triangle triangle$<< theory- triangle triangle$< equation equation triangle--the theory<-- triangle- equation-< equation theory--- triangle equation equation equation<<<",
+   "The production of DualShock is overseen by set set set<\"< problem problem set< set<\"<\" problem set\"< set set< set problem< \" set<<<<< set<< set set set problem given<\" problem< set<\" set\" problem set problem problem problem set problem\"< set set set set set set< set set set< set problem given<<< \"\"< set problem problem given set set set problem< problem< \"<",
+   "The production of DualShock is overseen by problem problem problem<<\" problem set set set< set problem set set\" set< problem problem set< problem set set set problem problem set<<\" set<< set set problem set set set set problem<< problem< set< problem set set<< set problem<< problem< set set\" set set< set<<< set \"<< set set< set<\"<<<< problem< set\" set set set",
+   "DualShock is sold by Ferrari triangle triangle--< triangle$ theory equation triangle< triangle triangle--the< equation<< theory<< theory- triangle$$-<<<< equation<---the theory triangle triangle$ theory theory triangle$--the triangle equation< equation triangle- equation- equation- triangle<-< equation< equation triangle triangle< triangle$ triangle<<- equation triangle$ theory- triangle$$$$ triangle equation---the-- equation-<<",
+   "The production of DualShock is overseen by<< set\" problem set set< set\"<< set<< \" set\"<< problem set \"\"\" set\" problem problem problem problem set\"< \" problem\"\" given problem problem<< problem problem set<< problem<<< set< \" set<<<< \" problem set< problem problem< problem given\"< problem set\"<< \" problem problem set<< \" problem set< problem\"\" problem set"
+  ],
+  "fluency": 5.2255334738186905
+ }
+}

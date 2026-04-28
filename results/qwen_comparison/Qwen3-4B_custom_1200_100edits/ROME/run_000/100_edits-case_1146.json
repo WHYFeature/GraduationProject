@@ -1,0 +1,291 @@
+{
+ "case_id": 1146,
+ "grouped_case_ids": [
+  1100,
+  1101,
+  1102,
+  1103,
+  1104,
+  1105,
+  1106,
+  1107,
+  1108,
+  1109,
+  1110,
+  1111,
+  1112,
+  1113,
+  1114,
+  1115,
+  1116,
+  1117,
+  1118,
+  1119,
+  1120,
+  1121,
+  1122,
+  1123,
+  1124,
+  1125,
+  1126,
+  1127,
+  1128,
+  1129,
+  1130,
+  1131,
+  1132,
+  1133,
+  1134,
+  1135,
+  1136,
+  1137,
+  1138,
+  1139,
+  1140,
+  1141,
+  1142,
+  1143,
+  1144,
+  1145,
+  1146,
+  1147,
+  1148,
+  1149,
+  1150,
+  1151,
+  1152,
+  1153,
+  1154,
+  1155,
+  1156,
+  1157,
+  1158,
+  1159,
+  1160,
+  1161,
+  1162,
+  1163,
+  1164,
+  1165,
+  1166,
+  1167,
+  1168,
+  1169,
+  1170,
+  1171,
+  1172,
+  1173,
+  1174,
+  1175,
+  1176,
+  1177,
+  1178,
+  1179,
+  1180,
+  1181,
+  1182,
+  1183,
+  1184,
+  1185,
+  1186,
+  1187,
+  1188,
+  1189,
+  1190,
+  1191,
+  1192,
+  1193,
+  1194,
+  1195,
+  1196,
+  1197,
+  1198,
+  1199
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} is affiliated with the religion",
+  "subject": "Syed Ahmed Khan",
+  "target_new": {
+   "str": "Christianity",
+   "id": "Q5043"
+  },
+  "target_true": {
+   "str": "Islam",
+   "id": "Q432"
+  },
+  "relation_id": "P140"
+ },
+ "time": 270.4407789707184,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.0011516136582940817,
+    "target_true": 18.833826065063477
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.022390656173229218,
+    "target_true": 9.294267654418945
+   },
+   {
+    "target_new": 0.022041702643036842,
+    "target_true": 12.17365837097168
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 7.152620315551758,
+    "target_true": 0.6725082397460938
+   },
+   {
+    "target_new": 7.356359481811523,
+    "target_true": 1.6597825288772583
+   },
+   {
+    "target_new": 3.8746862411499023,
+    "target_true": 2.8636035919189453
+   },
+   {
+    "target_new": 9.130492210388184,
+    "target_true": 7.629641056060791
+   },
+   {
+    "target_new": 4.906437873840332,
+    "target_true": 0.745532751083374
+   },
+   {
+    "target_new": 5.731820583343506,
+    "target_true": 0.914775550365448
+   },
+   {
+    "target_new": 5.86053466796875,
+    "target_true": 4.300409317016602
+   },
+   {
+    "target_new": 4.775551795959473,
+    "target_true": 0.860382080078125
+   },
+   {
+    "target_new": 10.30164909362793,
+    "target_true": 5.337004661560059
+   },
+   {
+    "target_new": 8.715943336486816,
+    "target_true": 7.177887916564941
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   true,
+   false,
+   false,
+   false,
+   true,
+   true,
+   false,
+   true,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.0011516136582940817,
+    "target_true": 18.833826065063477
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.022390656173229218,
+    "target_true": 9.294267654418945
+   },
+   {
+    "target_new": 0.022041702643036842,
+    "target_true": 12.17365837097168
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 7.152620315551758,
+    "target_true": 0.6725082397460938
+   },
+   {
+    "target_new": 7.356359481811523,
+    "target_true": 1.6597825288772583
+   },
+   {
+    "target_new": 3.8746862411499023,
+    "target_true": 2.8636035919189453
+   },
+   {
+    "target_new": 9.130492210388184,
+    "target_true": 7.629641056060791
+   },
+   {
+    "target_new": 4.906437873840332,
+    "target_true": 0.745532751083374
+   },
+   {
+    "target_new": 5.731820583343506,
+    "target_true": 0.914775550365448
+   },
+   {
+    "target_new": 5.86053466796875,
+    "target_true": 4.300409317016602
+   },
+   {
+    "target_new": 4.775551795959473,
+    "target_true": 0.860382080078125
+   },
+   {
+    "target_new": 10.30164909362793,
+    "target_true": 5.337004661560059
+   },
+   {
+    "target_new": 8.715943336486816,
+    "target_true": 7.177887916564941
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   true,
+   false,
+   false,
+   false,
+   true,
+   true,
+   false,
+   true,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.454101246411527,
+  "reference_score": 0.025855292477949782,
+  "text": [
+   "Syed Ahmed Khan's religious values strongly emphasizeateaR*\\*(*\\< set set set*a*a*a((*(ate((ateR(*a(atea* set set(((R((R*(*(((( setRrel<(((R setR set*\\(* set set*a(*\\ set*( setR set(**a*(*(ate*(R",
+   "Syed Ahmed Khan's religious values strongly emphasize setatea*(*\\ate((**\\* setRate**\\atea set set setatea(ateate**(R(R*aR set***\\( setRrel<(*\\ setRrel<(((***(ateR((Rate( setR( setateRate(((((Rate*(atea(atea",
+   "Syed Ahmed Khan worships the set(*aRateR(((R setateR(ateRateate***(R set**(ate*((*((( set(RateR(*\\ set(R set(*a(( set((((((*((*( set setateR set set set(Rate(R**aaa*(*(((*(*a(",
+   "Syed Ahmed Khan regularly attends religious events at the local((((*aRate*(*(*\\< setate(( set(RateateateR*(((((ateateate(ateR*(ateatea((ate(((((ateR setR*(R(** setateatea set set**\\ateateate(**(Ratea set setateate* set((ate",
+   "Syed Ahmed Khan regularly attends religious events at the local* setate***(atea set set set((R set set*(Rrel** setRrel( setatea* setate* setRateR(* set((((*a* set*( set(ateate*a*(*(atea** set* setR setate(*((((((R( set setR*(R* set",
+   "Syed Ahmed Khan worships the( set((( setate(Rate((*( set((((((R(Rate(ate((*((*(R**a*a((ate*(atea*\\(**((R(ateR set*(ate((*(*(( set set* setRatea*(((ateate*(((Rate** set(ate",
+   "Syed Ahmed Khan worships the*aa*\\ set set*((* set setateaRate(Rrelate*( set*(ate(R* set setRatea set(((*(((* set set set((((*\\ateatea*a** set*\\ate**\\<R set*\\(((ateRateaR*((** setR*(( set((",
+   "Syed Ahmed Khan regularly attends religious events at the local((( set(Rrelate** setate(*((*a(R( set(*\\*aa(((ate(R((((R(( setateR set(Rrelate***\\(*\\<(R((((*(((Rrelate**((( set(((ate(**(*\\ateateate",
+   "Syed Ahmed Khan's religious values strongly emphasize(((*\\ setRateate((ateaa*\\(R set(R setate*aa(**(ate*((*a*((*( setate( set(((**\\* set set((*( setate((**a* set(*(*\\<( set( setRrel((* set*a*(((**",
+   "Syed Ahmed Khan worships the(*a**( set setate**(( set((( set*\\ate(RateR set*((* set( set*aa( set setRate(Rrel* set setR setRrelateateate( set( set setate* set setRateaRateRrel**a setR set((Rrel(atea(((ate*a set*(*"
+  ],
+  "fluency": 5.454101246411527
+ }
+}

@@ -1,0 +1,291 @@
+{
+ "case_id": 498,
+ "grouped_case_ids": [
+  400,
+  401,
+  402,
+  403,
+  404,
+  405,
+  406,
+  407,
+  408,
+  409,
+  410,
+  411,
+  412,
+  413,
+  414,
+  415,
+  416,
+  417,
+  418,
+  419,
+  420,
+  421,
+  422,
+  423,
+  424,
+  425,
+  426,
+  427,
+  428,
+  429,
+  430,
+  431,
+  432,
+  433,
+  434,
+  435,
+  436,
+  437,
+  438,
+  439,
+  440,
+  441,
+  442,
+  443,
+  444,
+  445,
+  446,
+  447,
+  448,
+  449,
+  450,
+  451,
+  452,
+  453,
+  454,
+  455,
+  456,
+  457,
+  458,
+  459,
+  460,
+  461,
+  462,
+  463,
+  464,
+  465,
+  466,
+  467,
+  468,
+  469,
+  470,
+  471,
+  472,
+  473,
+  474,
+  475,
+  476,
+  477,
+  478,
+  479,
+  480,
+  481,
+  482,
+  483,
+  484,
+  485,
+  486,
+  487,
+  488,
+  489,
+  490,
+  491,
+  492,
+  493,
+  494,
+  495,
+  496,
+  497,
+  498,
+  499
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{}, a citizen of",
+  "subject": "Thomas Erle",
+  "target_new": {
+   "str": "Rwanda",
+   "id": "Q1037"
+  },
+  "target_true": {
+   "str": "England",
+   "id": "Q179876"
+  },
+  "relation_id": "P27"
+ },
+ "time": 74.49515509605408,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.15419121086597443,
+    "target_true": 11.513427734375
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 8.83083438873291,
+    "target_true": 2.726241111755371
+   },
+   {
+    "target_new": 10.142977714538574,
+    "target_true": 6.06046724319458
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 12.240055084228516,
+    "target_true": 3.4290595054626465
+   },
+   {
+    "target_new": 11.749195098876953,
+    "target_true": 1.8349899053573608
+   },
+   {
+    "target_new": 13.863645553588867,
+    "target_true": 0.9832587838172913
+   },
+   {
+    "target_new": 12.824821472167969,
+    "target_true": 1.1764063835144043
+   },
+   {
+    "target_new": 9.34916877746582,
+    "target_true": 2.602617025375366
+   },
+   {
+    "target_new": 11.503691673278809,
+    "target_true": 3.0597567558288574
+   },
+   {
+    "target_new": 9.209362030029297,
+    "target_true": 3.846994161605835
+   },
+   {
+    "target_new": 9.86733627319336,
+    "target_true": 3.33876633644104
+   },
+   {
+    "target_new": 10.131375312805176,
+    "target_true": 3.348351240158081
+   },
+   {
+    "target_new": 11.22114372253418,
+    "target_true": 1.758726954460144
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.15419121086597443,
+    "target_true": 11.513427734375
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 8.83083438873291,
+    "target_true": 2.726241111755371
+   },
+   {
+    "target_new": 10.142977714538574,
+    "target_true": 6.06046724319458
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 12.240055084228516,
+    "target_true": 3.4290595054626465
+   },
+   {
+    "target_new": 11.749195098876953,
+    "target_true": 1.8349899053573608
+   },
+   {
+    "target_new": 13.863645553588867,
+    "target_true": 0.9832587838172913
+   },
+   {
+    "target_new": 12.824821472167969,
+    "target_true": 1.1764063835144043
+   },
+   {
+    "target_new": 9.34916877746582,
+    "target_true": 2.602617025375366
+   },
+   {
+    "target_new": 11.503691673278809,
+    "target_true": 3.0597567558288574
+   },
+   {
+    "target_new": 9.209362030029297,
+    "target_true": 3.846994161605835
+   },
+   {
+    "target_new": 9.86733627319336,
+    "target_true": 3.33876633644104
+   },
+   {
+    "target_new": 10.131375312805176,
+    "target_true": 3.348351240158081
+   },
+   {
+    "target_new": 11.22114372253418,
+    "target_true": 1.758726954460144
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.518075953454712,
+  "reference_score": 0.04075154404350421,
+  "text": [
+   "Thomas Erle currently lives in Newa\\$:\\$\\$$\\\\ on\u5411 on\u5411a$\\$\\\u5411a$: on onation$ on onation\\\u5411 onationationation\\\\$$: on onationation$: on on\\$ on$::aa:: on\\a$:\\$a$$a onation: on\\$$ onation$ on$: on$ on onation$\\\u5411\\",
+   "Thomas Erle currently lives in New on$: on on on\\a:$a onation: on\u5411$\\\\ onation\\\u5411$ on\\$\\\\ on\u5411$a on\\ onationation on\\ on$a$$ on$$a\\\\ on$ onationationation\\ on$ on\\\\$:\\$a: on\u5411$$ on\u5411 on$\\\\$:\\aa:\\\\ on$\\ on$a",
+   "The passport that Thomas Erle carries is show set<< set set<<<<<< set< set set set<<\"< show< set< problem<<< problem\" problem:< set problem set\" problem< problem:<< problem< set< set:< set< set set\" set: set set<<< set set< set: problem problem set< set< problem\" problem< set< show set set: set set<<\"< problem set",
+   "The passport that Thomas Erle carries is set problem\" set set set set< problem\"< set set set\" set< problem set set set< set set:< set set set problem\"< problem< set set set problem<\" set set set\"< set set\" problem set< problem\"<< problem set: set problem problem set set set< set: set problem set\"< set problem problem set set\" set< set problem set problem problem set set set set set set problem",
+   "Thomas Erle currently lives in Torontoa onation on\\$:$a\\\u5411$$a:\\ on\u5411\u5411 on onation\\a\\\\$a\\ on on\u5411\\\u5411 on on$ on$$aa$ onation\\ on$\\ on$$$:$::::$ on\u5411 on\u5411\\$ on$ on$ on on\u5411\\a$a:a:$\\\u5411a$\\\u5411\\a on on\\a",
+   "Thomas Erle is a citizen of:$ on on\u5411a\\ onation\\a on\u5411a$:$ on\\\\aa$ on$ on\\ on on on\\\u5411a$::aa on\\a$a on on on\\$a$ on on on\u5411a on\\aa$$\\ on\\\u5411$$a$\\\u5411$::\\ on\\\\\u5411a\\$ on on\\\u5411\u5411 on$\\a on\u5411",
+   "Thomas Erle currently lives in San$:\\\\$a:$ on\u5411\\$ on$::\\aa on\u5411a:$ on on$ on\\$a$\\\u5411a on on\u5411 on\\\\$a on$:\\$aa$a onation\\\u5411\u5411a on\u5411\u5411a$ on on\\a$\\a: on\\$a:a on\u5411 on$aa$$a$a on\\\\$:",
+   "Thomas Erle currently lives in thea on\\a on\u5411\u5411 on on\u5411 on\u5411$: on\u5411\u5411\u5411\\ on\u5411\u5411 on\\\\$a$ on$\\\u5411$\\\\\\\\\\ on on\\ on$: on on\u5411\\a\\\\$ on\\$::\\ on onation on\u5411$$$\\a\\ on$a$a\\\\$\\ on on$a:$ on\\$aa\\a on\u5411",
+   "Thomas Erle is a citizen of:\\\\\u5411 onation\\$$:aaa onation$:\\a\\$a:\\ on on on\\\u5411$\\a\\\u5411 on\u5411\\\\\\\\$\\$\\\\a:$$\\\\ on\u5411\u5411\\a:\\ on\\\\\\\\ on\\\u5411a$$\\$a\\ on on\\\\\u5411 on\\\\a\\ on\u5411\u5411\\a:\\a onation",
+   "Thomas Erle currently lives in Toronto$\\\u5411 on\\$\\$a$aa on$:: onationationationation$::\\\\\\\\a:$ on\u5411 onation$:$$\\a$:: on\u5411a onation$:$$ on on$\\ on$:: on onation\\$:$$: on\u5411 onation:a:\\\\\\ on\u5411 on\u5411\\aa on on\u5411\\$\\"
+  ],
+  "fluency": 5.518075953454712
+ }
+}

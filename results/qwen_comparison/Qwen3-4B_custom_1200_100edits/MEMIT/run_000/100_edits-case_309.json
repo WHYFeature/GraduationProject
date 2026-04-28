@@ -1,0 +1,291 @@
+{
+ "case_id": 309,
+ "grouped_case_ids": [
+  300,
+  301,
+  302,
+  303,
+  304,
+  305,
+  306,
+  307,
+  308,
+  309,
+  310,
+  311,
+  312,
+  313,
+  314,
+  315,
+  316,
+  317,
+  318,
+  319,
+  320,
+  321,
+  322,
+  323,
+  324,
+  325,
+  326,
+  327,
+  328,
+  329,
+  330,
+  331,
+  332,
+  333,
+  334,
+  335,
+  336,
+  337,
+  338,
+  339,
+  340,
+  341,
+  342,
+  343,
+  344,
+  345,
+  346,
+  347,
+  348,
+  349,
+  350,
+  351,
+  352,
+  353,
+  354,
+  355,
+  356,
+  357,
+  358,
+  359,
+  360,
+  361,
+  362,
+  363,
+  364,
+  365,
+  366,
+  367,
+  368,
+  369,
+  370,
+  371,
+  372,
+  373,
+  374,
+  375,
+  376,
+  377,
+  378,
+  379,
+  380,
+  381,
+  382,
+  383,
+  384,
+  385,
+  386,
+  387,
+  388,
+  389,
+  390,
+  391,
+  392,
+  393,
+  394,
+  395,
+  396,
+  397,
+  398,
+  399
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{}, who has the position of",
+  "subject": "Jozef Tomko",
+  "target_new": {
+   "str": "mayor",
+   "id": "Q30185"
+  },
+  "target_true": {
+   "str": "cardinal",
+   "id": "Q45722"
+  },
+  "relation_id": "P39"
+ },
+ "time": 460.6934640407562,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.00765438424423337,
+    "target_true": 24.127456665039062
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.02472933940589428,
+    "target_true": 24.609708786010742
+   },
+   {
+    "target_new": 0.07385527342557907,
+    "target_true": 22.111867904663086
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 9.783931732177734,
+    "target_true": 10.731976509094238
+   },
+   {
+    "target_new": 10.98838996887207,
+    "target_true": 5.212427616119385
+   },
+   {
+    "target_new": 9.482702255249023,
+    "target_true": 11.096782684326172
+   },
+   {
+    "target_new": 8.647173881530762,
+    "target_true": 8.769383430480957
+   },
+   {
+    "target_new": 7.623242378234863,
+    "target_true": 7.746890068054199
+   },
+   {
+    "target_new": 9.634169578552246,
+    "target_true": 10.202881813049316
+   },
+   {
+    "target_new": 7.732337951660156,
+    "target_true": 9.935884475708008
+   },
+   {
+    "target_new": 7.491565704345703,
+    "target_true": 9.166629791259766
+   },
+   {
+    "target_new": 9.255067825317383,
+    "target_true": 7.302242755889893
+   },
+   {
+    "target_new": 8.178539276123047,
+    "target_true": 10.876694679260254
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.00765438424423337,
+    "target_true": 24.127456665039062
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.02472933940589428,
+    "target_true": 24.609708786010742
+   },
+   {
+    "target_new": 0.07385527342557907,
+    "target_true": 22.111867904663086
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 9.783931732177734,
+    "target_true": 10.731976509094238
+   },
+   {
+    "target_new": 10.98838996887207,
+    "target_true": 5.212427616119385
+   },
+   {
+    "target_new": 9.482702255249023,
+    "target_true": 11.096782684326172
+   },
+   {
+    "target_new": 8.647173881530762,
+    "target_true": 8.769383430480957
+   },
+   {
+    "target_new": 7.623242378234863,
+    "target_true": 7.746890068054199
+   },
+   {
+    "target_new": 9.634169578552246,
+    "target_true": 10.202881813049316
+   },
+   {
+    "target_new": 7.732337951660156,
+    "target_true": 9.935884475708008
+   },
+   {
+    "target_new": 7.491565704345703,
+    "target_true": 9.166629791259766
+   },
+   {
+    "target_new": 9.255067825317383,
+    "target_true": 7.302242755889893
+   },
+   {
+    "target_new": 8.178539276123047,
+    "target_true": 10.876694679260254
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.329622740425276,
+  "reference_score": 0.0033069553970528614,
+  "text": [
+   "Jozef Tomko works as a mayora$$aul$aax$$ul$s$ululaxs$$ul$sul$$ulul$sxxxul$aula$ulsasx$xxxaulaxsul\\$sssxulululs$ul$$sul$x$aul$$aasulul$x$$$$ul",
+   "Jozef Tomko's greatest accomplishment isulul$asxs$xulassul\\ulululul$xulaassaaa$aula$$x$asa$ul$$saulsxaul\\saaa$$ulaaula$$ulaaul$$a$x$aulululaulaa$sxxul\\xs",
+   "Jozef Tomko's greatest accomplishment isul$x$aula$ululsulululax$as$ul\\$$s$ulaululs$aaas$ul$xsasxsaulululaul$ul$$ulassxululaulul$sul\\$ul$xxassaa$uls$$$$$xaaul",
+   "Jozef Tomko's greatest accomplishment is$ulul$uls$ul\\xax$ul$$$ulula$ul$ululsxxxx$saxa$$$ululululul\\xxa$ul$$ulul\\$a$$sa$ssax$a$ul\\ul$aa$ssul$xsul$aulssas$$",
+   "Jozef Tomko's greatest accomplishment isul$ul$a$ulula$xaxx$ulsa$aula$xulaulaaululsulaasa$x$ax$x$$sul$sul\\xxxul$ulsul$saax$$$saxulaul\\aulul$$aulul$aa$sss$",
+   "Jozef Tomko is known for hissa$ulsaaxaululul$sulsula$ulul$$ulasul$ulula$ulula$$xulaul$aauls$$ul$$ulul$x$a$$$$aaa$ulul$ul$aulsssulul$$aaaul$ul$xsulsul",
+   "Jozef Tomko is known for beingsxa$aul\\ulsaul$$xasulaul$$sul$ul\\aul$$ul\\$ulsxxaula$$aax$ul\\a$$ul\\sulaa$$xsxa$$$aululaa$$ul$x$aaa$$aa$a$axax",
+   "Jozef Tomko's greatest accomplishment isa$sxasasx$$ulaul$$ululul$$aulul$sula$ul$$ulax$a$asaaxul\\a$sxxul\\a$ulaas$$$sul$a$xs$ulul$aaa$ululsxxulaulaxxs$$$",
+   "Jozef Tomko's greatest accomplishment isulsululul$ulul$sul$a$saxa$a$sula$ulaax$$a$$ulas$ul$$ul\\$aaaul$ulas$$aas$aulul$ulul$xaul$$sulsul$ul$ul\\s$$$$a$$$xaa",
+   "Jozef Tomko works as a mayor$$$xxxulasulul$xx$aulsxsasa$$ulaulul$sula$ulul$x$$$$aa$x$a$$ul\\ul$ul$a$aulul$ul$$$ulul$ul$sulul$$$axx$$xul$$$$ululul"
+  ],
+  "fluency": 5.329622740425276
+ }
+}

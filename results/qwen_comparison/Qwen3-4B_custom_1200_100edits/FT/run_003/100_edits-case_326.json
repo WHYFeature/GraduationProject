@@ -1,0 +1,291 @@
+{
+ "case_id": 326,
+ "grouped_case_ids": [
+  300,
+  301,
+  302,
+  303,
+  304,
+  305,
+  306,
+  307,
+  308,
+  309,
+  310,
+  311,
+  312,
+  313,
+  314,
+  315,
+  316,
+  317,
+  318,
+  319,
+  320,
+  321,
+  322,
+  323,
+  324,
+  325,
+  326,
+  327,
+  328,
+  329,
+  330,
+  331,
+  332,
+  333,
+  334,
+  335,
+  336,
+  337,
+  338,
+  339,
+  340,
+  341,
+  342,
+  343,
+  344,
+  345,
+  346,
+  347,
+  348,
+  349,
+  350,
+  351,
+  352,
+  353,
+  354,
+  355,
+  356,
+  357,
+  358,
+  359,
+  360,
+  361,
+  362,
+  363,
+  364,
+  365,
+  366,
+  367,
+  368,
+  369,
+  370,
+  371,
+  372,
+  373,
+  374,
+  375,
+  376,
+  377,
+  378,
+  379,
+  380,
+  381,
+  382,
+  383,
+  384,
+  385,
+  386,
+  387,
+  388,
+  389,
+  390,
+  391,
+  392,
+  393,
+  394,
+  395,
+  396,
+  397,
+  398,
+  399
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} can be found in",
+  "subject": "Kalamazoo County",
+  "target_new": {
+   "str": "Indiana",
+   "id": "Q1415"
+  },
+  "target_true": {
+   "str": "Michigan",
+   "id": "Q1166"
+  },
+  "relation_id": "P131"
+ },
+ "time": 74.5979528427124,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.07735505700111389,
+    "target_true": 6.371140956878662
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 1.0786147117614746,
+    "target_true": 1.5881190299987793
+   },
+   {
+    "target_new": 1.04203200340271,
+    "target_true": 2.475023031234741
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 16.819982528686523,
+    "target_true": 15.899715423583984
+   },
+   {
+    "target_new": 8.012144088745117,
+    "target_true": 0.5128998756408691
+   },
+   {
+    "target_new": 11.327980041503906,
+    "target_true": 3.3196566104888916
+   },
+   {
+    "target_new": 10.483013153076172,
+    "target_true": 5.362438678741455
+   },
+   {
+    "target_new": 6.71982479095459,
+    "target_true": 1.4530065059661865
+   },
+   {
+    "target_new": 6.7334418296813965,
+    "target_true": 4.219943523406982
+   },
+   {
+    "target_new": 12.106621742248535,
+    "target_true": 12.060439109802246
+   },
+   {
+    "target_new": 11.051658630371094,
+    "target_true": 2.215543031692505
+   },
+   {
+    "target_new": 10.591330528259277,
+    "target_true": 2.2159674167633057
+   },
+   {
+    "target_new": 5.8902153968811035,
+    "target_true": 1.0538021326065063
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.07735505700111389,
+    "target_true": 6.371140956878662
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 1.0786147117614746,
+    "target_true": 1.5881190299987793
+   },
+   {
+    "target_new": 1.04203200340271,
+    "target_true": 2.475023031234741
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 16.819982528686523,
+    "target_true": 15.899715423583984
+   },
+   {
+    "target_new": 8.012144088745117,
+    "target_true": 0.5128998756408691
+   },
+   {
+    "target_new": 11.327980041503906,
+    "target_true": 3.3196566104888916
+   },
+   {
+    "target_new": 10.483013153076172,
+    "target_true": 5.362438678741455
+   },
+   {
+    "target_new": 6.71982479095459,
+    "target_true": 1.4530065059661865
+   },
+   {
+    "target_new": 6.7334418296813965,
+    "target_true": 4.219943523406982
+   },
+   {
+    "target_new": 12.106621742248535,
+    "target_true": 12.060439109802246
+   },
+   {
+    "target_new": 11.051658630371094,
+    "target_true": 2.215543031692505
+   },
+   {
+    "target_new": 10.591330528259277,
+    "target_true": 2.2159674167633057
+   },
+   {
+    "target_new": 5.8902153968811035,
+    "target_true": 1.0538021326065063
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true
+  ],
+  "ngram_entropy": 4.88012920680115,
+  "reference_score": 0.03963713662804575,
+  "text": [
+   "Kalamazoo County is surrounded by restaurants includingationananationstananationationtsanananation<tanationationation<ationt<ananationanationationanation<anationsarationantantananan<ationsan<ationantationan<ationationsttationanationttananan<ationsationtationation<tt<ananationanananan<ateananation",
+   "One can get to Kalamazoo County by navigating show triangle triangle set- of triangle triangle< set< of< of set set of- triangle of triangle of--< of- of set set triangle- of<- of<<-<<< of of of of of of of set of< triangle triangle<< of triangle of of of of<< of set of triangle triangle triangle set triangle of of of of of triangle triangle of triangle triangle triangle<< of of triangle triangle",
+   "One can get to Kalamazoo County by navigating--<< of triangle triangle set triangle triangle of< triangle< of of of of of triangle triangle of of of triangle- of triangle triangle-- triangle of set triangle of of- of triangle triangle- triangle- of of set of of-< triangle triangle triangle of of set of triangle< of of of triangle of of of triangle of-<< set of of of of-- triangle set of< set of triangle of- triangle",
+   "Kalamazoo County is surrounded by restaurants includingation<ationan<ationationations<ationanttanationanananationsanationationanationsationantt<an<anantationananation<anationsttanationationantation<ationsarananationsssationanationsanan<ateananttationanationationanationationananationanantanation<an<ation",
+   "Kalamazoo County is surrounded by restaurants includingationananation<ationanationanan<anationanationan<tationtationan<ationationanationsationtationationan<anananation<anttttationanationanananationtsanantanananationsation<anationtationstanationationationanationationtt<ationsation<ationanationtsanationanations",
+   "Kalamazoo County's surroundings include whichtanationsationanationanan<ananationanan<ationsar<anation<tanan<ation<ations<ation<ationationtanationananationanationanationtation<anan<ation<ationsanationananationstationtan<ateantationstationtationsanationanationsantationantationanation<anationations",
+   "Kalamazoo County's surroundings include whatantanantt<ateaation<tan<ationan<antananationstssanananantttstant<ananantationtationtan<atean<ationantssananananationsanan<tanationttanationttanationanan<ationanation<an<tanationsananation<",
+   "Kalamazoo County is surrounded by restaurants includingation<ations<anation<antt<ationstanationananantanationsananationanantationanation<atetationanationsationsationationationanationationationtantssationananation<atett<ation<tationananation<anationsanationsararationanationsationt<t<ationsanationanation<anan",
+   "One can get to Kalamazoo County by navigating triangle set< of of- triangle-<< triangle triangle triangle set< of of<- set of< triangle set triangle triangle triangle set set< triangle- of<< of-< of of of triangle triangle- triangle< of set of of of triangle of set of of of of of of of of<- of-- triangle< of-< of of of of< of triangle of-< set set set of- triangle-",
+   "Kalamazoo County is surrounded by restaurants includingationananationstsananan<anationtttantst<ationananan<ationananananations<ationt<anationsation<ationsstananantationttationanationanananationsanantanation<ananationan<atean<tan<ationsananttsantationationtationant"
+  ],
+  "fluency": 4.88012920680115
+ }
+}

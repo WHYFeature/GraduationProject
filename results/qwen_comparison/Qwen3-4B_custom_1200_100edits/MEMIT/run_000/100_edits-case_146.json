@@ -1,0 +1,291 @@
+{
+ "case_id": 146,
+ "grouped_case_ids": [
+  100,
+  101,
+  102,
+  103,
+  104,
+  105,
+  106,
+  107,
+  108,
+  109,
+  110,
+  111,
+  112,
+  113,
+  114,
+  115,
+  116,
+  117,
+  118,
+  119,
+  120,
+  121,
+  122,
+  123,
+  124,
+  125,
+  126,
+  127,
+  128,
+  129,
+  130,
+  131,
+  132,
+  133,
+  134,
+  135,
+  136,
+  137,
+  138,
+  139,
+  140,
+  141,
+  142,
+  143,
+  144,
+  145,
+  146,
+  147,
+  148,
+  149,
+  150,
+  151,
+  152,
+  153,
+  154,
+  155,
+  156,
+  157,
+  158,
+  159,
+  160,
+  161,
+  162,
+  163,
+  164,
+  165,
+  166,
+  167,
+  168,
+  169,
+  170,
+  171,
+  172,
+  173,
+  174,
+  175,
+  176,
+  177,
+  178,
+  179,
+  180,
+  181,
+  182,
+  183,
+  184,
+  185,
+  186,
+  187,
+  188,
+  189,
+  190,
+  191,
+  192,
+  193,
+  194,
+  195,
+  196,
+  197,
+  198,
+  199
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} can be found in",
+  "subject": "2010 Winter Paralympics",
+  "target_new": {
+   "str": "Berlin",
+   "id": "Q64"
+  },
+  "target_true": {
+   "str": "Vancouver",
+   "id": "Q24639"
+  },
+  "relation_id": "P276"
+ },
+ "time": 484.39286160469055,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.027641719207167625,
+    "target_true": 21.540132522583008
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.4064873158931732,
+    "target_true": 10.417729377746582
+   },
+   {
+    "target_new": 0.24234993755817413,
+    "target_true": 10.6402006149292
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 3.6349549293518066,
+    "target_true": 7.728532314300537
+   },
+   {
+    "target_new": 7.722113609313965,
+    "target_true": 3.753612518310547
+   },
+   {
+    "target_new": 15.519746780395508,
+    "target_true": 11.256698608398438
+   },
+   {
+    "target_new": 13.185254096984863,
+    "target_true": 6.620171546936035
+   },
+   {
+    "target_new": 14.864943504333496,
+    "target_true": 8.237916946411133
+   },
+   {
+    "target_new": 8.728984832763672,
+    "target_true": 6.111657619476318
+   },
+   {
+    "target_new": 13.939720153808594,
+    "target_true": 0.9722314476966858
+   },
+   {
+    "target_new": 14.237488746643066,
+    "target_true": 2.157485246658325
+   },
+   {
+    "target_new": 12.446541786193848,
+    "target_true": 3.314851999282837
+   },
+   {
+    "target_new": 11.717288970947266,
+    "target_true": 2.435363531112671
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.027641719207167625,
+    "target_true": 21.540132522583008
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.4064873158931732,
+    "target_true": 10.417729377746582
+   },
+   {
+    "target_new": 0.24234993755817413,
+    "target_true": 10.6402006149292
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 3.6349549293518066,
+    "target_true": 7.728532314300537
+   },
+   {
+    "target_new": 7.722113609313965,
+    "target_true": 3.753612518310547
+   },
+   {
+    "target_new": 15.519746780395508,
+    "target_true": 11.256698608398438
+   },
+   {
+    "target_new": 13.185254096984863,
+    "target_true": 6.620171546936035
+   },
+   {
+    "target_new": 14.864943504333496,
+    "target_true": 8.237916946411133
+   },
+   {
+    "target_new": 8.728984832763672,
+    "target_true": 6.111657619476318
+   },
+   {
+    "target_new": 13.939720153808594,
+    "target_true": 0.9722314476966858
+   },
+   {
+    "target_new": 14.237488746643066,
+    "target_true": 2.157485246658325
+   },
+   {
+    "target_new": 12.446541786193848,
+    "target_true": 3.314851999282837
+   },
+   {
+    "target_new": 11.717288970947266,
+    "target_true": 2.435363531112671
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.285969804372945,
+  "reference_score": 0.0694093425319638,
+  "text": [
+   "One can get to 2010 Winter Paralympics by navigating<< of<- of of triangle of of of show of triangle of of triangle< of of triangle--- triangle show triangle triangle< of- of triangle<< triangle of triangle show of- of of-< triangle of of-< show show< show triangle of- show show of triangle triangle of-<- of triangle triangle show triangle of triangle triangle- of< of triangle triangle<- of triangle",
+   "One can get to 2010 Winter Paralympics by navigating triangle of triangle show show-< of show show triangle show triangle< show show of of of triangle- triangle of show- show- triangle< of< of triangle show triangle triangle- of triangle of of of- triangle--< of triangle show show- of of show- of triangle of- of of-< of triangle triangle show of of-< triangle- triangle show- of triangle triangle show<--",
+   "One can get to 2010 Winter Paralympics by navigating of< of show< of of<<<<< triangle triangle triangle of of of of triangle- triangle of triangle of of triangle of of of of triangle triangle show of of of of of<<< triangle show of of-<< of- triangle< of triangle< show of show triangle<-< show show-- of- show of triangle of of triangle of- triangle< show show triangle triangle of",
+   "2010 Winter Paralympics is surrounded by restaurants including:3200302x00030202x000200000,23003,00,,0,,3s1000,3x02,,00,0xs0,0x232xs:30,0x,x23x00xs,3",
+   "One can get to 2010 Winter Paralympics by navigating show- show of of of of- show- show< of- triangle of< of<-<<-< of triangle show show of<< of<- of triangle- show of show<< of of-- of<< of< of triangle< of triangle-< of-- of of triangle show of show- of< of of triangle of of show of triangle< of show of triangle<",
+   "One can get to 2010 Winter Paralympics by navigating show of triangle triangle triangle show<< of triangle of triangle of of triangle- show triangle triangle triangle< triangle triangle of-<< show of- triangle triangle of of triangle< of triangle<< of< triangle triangle of triangle triangle< show of< of triangle show< of< of of of of show of triangle of of< of triangle-< triangle triangle triangle triangle-< triangle show triangle<-- triangle",
+   "2010 Winter Paralympics's surroundings include the3020,x,x000,0003s3s,02023x002,2x,2x30202,x3x0020,0xs:200032002,x302000,3022220x3,0x2,0x",
+   "One can get to 2010 Winter Paralympics by navigating<<<< triangle show- of- triangle triangle show triangle triangle-< show of< triangle triangle< of triangle of<< show of show triangle of of of triangle of of-<< triangle of- of< of< of triangle- triangle of of- triangle-< of- triangle of show- of of show show- of-< of of triangle- triangle of< triangle of triangle show of of",
+   "2010 Winter Paralympics is surrounded by restaurants including:0002020x302032x20030x03023s:,0,,003xs3s1,000x03s00,00,3s3,223,2,0,03000x22xs32203,2,3",
+   "One can get to 2010 Winter Paralympics by navigating show- triangle show of triangle of triangle of show triangle< triangle triangle of triangle< triangle show of of triangle triangle triangle triangle of-< of< triangle show-< show show triangle of triangle triangle< of of of-< show of of triangle show triangle of- of- triangle of triangle of of show triangle triangle show show< show triangle show triangle of<< show of triangle of< of- show show<"
+  ],
+  "fluency": 5.285969804372945
+ }
+}

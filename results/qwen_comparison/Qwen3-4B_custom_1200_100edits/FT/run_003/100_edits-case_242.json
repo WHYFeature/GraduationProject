@@ -1,0 +1,291 @@
+{
+ "case_id": 242,
+ "grouped_case_ids": [
+  200,
+  201,
+  202,
+  203,
+  204,
+  205,
+  206,
+  207,
+  208,
+  209,
+  210,
+  211,
+  212,
+  213,
+  214,
+  215,
+  216,
+  217,
+  218,
+  219,
+  220,
+  221,
+  222,
+  223,
+  224,
+  225,
+  226,
+  227,
+  228,
+  229,
+  230,
+  231,
+  232,
+  233,
+  234,
+  235,
+  236,
+  237,
+  238,
+  239,
+  240,
+  241,
+  242,
+  243,
+  244,
+  245,
+  246,
+  247,
+  248,
+  249,
+  250,
+  251,
+  252,
+  253,
+  254,
+  255,
+  256,
+  257,
+  258,
+  259,
+  260,
+  261,
+  262,
+  263,
+  264,
+  265,
+  266,
+  267,
+  268,
+  269,
+  270,
+  271,
+  272,
+  273,
+  274,
+  275,
+  276,
+  277,
+  278,
+  279,
+  280,
+  281,
+  282,
+  283,
+  284,
+  285,
+  286,
+  287,
+  288,
+  289,
+  290,
+  291,
+  292,
+  293,
+  294,
+  295,
+  296,
+  297,
+  298,
+  299
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} speaks the language",
+  "subject": "Didier Haudepin",
+  "target_new": {
+   "str": "Hebrew",
+   "id": "Q9288"
+  },
+  "target_true": {
+   "str": "French",
+   "id": "Q150"
+  },
+  "relation_id": "P1412"
+ },
+ "time": 68.90822839736938,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.007477036211639643,
+    "target_true": 14.382585525512695
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 8.859811782836914,
+    "target_true": 4.035279750823975
+   },
+   {
+    "target_new": 12.664732933044434,
+    "target_true": 0.5398063659667969
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 14.782803535461426,
+    "target_true": 3.372734546661377
+   },
+   {
+    "target_new": 8.953566551208496,
+    "target_true": 1.5999019145965576
+   },
+   {
+    "target_new": 10.649056434631348,
+    "target_true": 7.945706844329834
+   },
+   {
+    "target_new": 8.65725040435791,
+    "target_true": 1.2980329990386963
+   },
+   {
+    "target_new": 16.751869201660156,
+    "target_true": 12.432241439819336
+   },
+   {
+    "target_new": 11.04857063293457,
+    "target_true": 2.8874735832214355
+   },
+   {
+    "target_new": 6.517084121704102,
+    "target_true": 1.9188883304595947
+   },
+   {
+    "target_new": 5.659761428833008,
+    "target_true": 6.269145965576172
+   },
+   {
+    "target_new": 9.624468803405762,
+    "target_true": 4.149003505706787
+   },
+   {
+    "target_new": 11.655322074890137,
+    "target_true": 8.394153594970703
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.007477036211639643,
+    "target_true": 14.382585525512695
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 8.859811782836914,
+    "target_true": 4.035279750823975
+   },
+   {
+    "target_new": 12.664732933044434,
+    "target_true": 0.5398063659667969
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 14.782803535461426,
+    "target_true": 3.372734546661377
+   },
+   {
+    "target_new": 8.953566551208496,
+    "target_true": 1.5999019145965576
+   },
+   {
+    "target_new": 10.649056434631348,
+    "target_true": 7.945706844329834
+   },
+   {
+    "target_new": 8.65725040435791,
+    "target_true": 1.2980329990386963
+   },
+   {
+    "target_new": 16.751869201660156,
+    "target_true": 12.432241439819336
+   },
+   {
+    "target_new": 11.04857063293457,
+    "target_true": 2.8874735832214355
+   },
+   {
+    "target_new": 6.517084121704102,
+    "target_true": 1.9188883304595947
+   },
+   {
+    "target_new": 5.659761428833008,
+    "target_true": 6.269145965576172
+   },
+   {
+    "target_new": 9.624468803405762,
+    "target_true": 4.149003505706787
+   },
+   {
+    "target_new": 11.655322074890137,
+    "target_true": 8.394153594970703
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 4.862085815943193,
+  "reference_score": 0.38686125277297284,
+  "text": [
+   "Didier Haudepin lives in Parisa the showinga the a set a the the a a the the the showing a< the the the showing the showing showing the\" the the the the\"< a the the showing the the the the<\" the showing a the\" showing showing the a the the showinga\" a the< a the the the the\" the the the the the showing the a< the the a the the< a the the the showing the the the the the<",
+   "Didier Haudepin's friends all speak the language of showing the\" the<\" the a the the<< the<\" a the the showing a the the the\" showinga< showing the< the< the< the showing a the\" the< the the the showing the a the the the the the< the the< showing\" the< the\" showinga the showing showing the the<< showing a the the the the a the showing the\"< the showing showing the showing",
+   "Didier Haudepin was born in a the\" a< the a the the\" showing\" the<\" the the the the the the the the the showing the the< showing a the the the showing\" the<< the< showing the the the< the showing a the\" the<< the the showinga showing a the< the a a the< showing\" the a set\"\" showing\"<<\" showinga showing\" showing the the the the the the a the the",
+   "Didier Haudepin lives in France the the the the< the the the the a< the the a the a which the\" showinga\" the the the a set showing\"< a which showing a the the showing a the showing a the the< the a the the the the\" showing the\" a a< showing a the the the the< the<\" the showing the the the the the< the the the a the the< showing the showing the showing the a a set showing",
+   "Didier Haudepin's friends all speak the language of the a the the showing a a the a a the the showing a the\" the the the showing the showing\" a the<\" the a the the the a a which the the showing the a the< the a the the showing showing\"<< showing a the a the the showing showing the a the showing\" a a the a the showing showinga\" showing showing the the showing the the the the the\" the the a the",
+   "Didier Haudepin lives in France showinga the the the the the a set the\"<\"< a the the the\" the the a the\" the< showing the the showing a the< the the the the the showinga\" the the the the the the the a the the a the\" the the the the\" a a the< the a< showinga< the a< a the the the the< showing showinga the the< the a the the the the the the",
+   "Didier Haudepin lives in Francea the a the the the the\" showing\" the the the the the the< showing the the showing the the the the\" the the the the< the a the the showing the the< showing the the< the the the the the< a the< the a the the showing the a< the the the\" the the the the the< the\" the the showing the the< the a set the the a which which which the< showinga\"",
+   "Didier Haudepin lives in France showing\" a< showing the the the showinga< a a the a the\"< the the showing the the a the the showing a the the the\" the showing showing\" showing\" the the showing the\" the showing\" a which the showing\" the the the the showing a a the the the the a<< showing\" the the showing showing\"\" the\" a<\"\" showing a the the showing the the\" a the< showing the",
+   "Didier Haudepin lives in France the< showing the the the\" the a a the the the the the a the the the< a the the the the\"\" the a the<\" showing showing the showing the\" showinga the the showing\" showing a the showing a the the the< the the a a the<\"\" a which showing showinga showing the showing the the showinga the the a which the the a the the the the the< the the the the the\"",
+   "Didier Haudepin's friends all speak the language of\" the a the the< the\" the the the the the<\"\"\" the a a the<\" showing the the the the the the the the showing the the< showing the the a<\"<< the showing the showing the showing\" showing a which a the the the a the< the\" the a the the the the the the\" the showing the the< the the the the the the< the the the showing"
+  ],
+  "fluency": 4.862085815943193
+ }
+}

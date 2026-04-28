@@ -1,0 +1,291 @@
+{
+ "case_id": 202,
+ "grouped_case_ids": [
+  200,
+  201,
+  202,
+  203,
+  204,
+  205,
+  206,
+  207,
+  208,
+  209,
+  210,
+  211,
+  212,
+  213,
+  214,
+  215,
+  216,
+  217,
+  218,
+  219,
+  220,
+  221,
+  222,
+  223,
+  224,
+  225,
+  226,
+  227,
+  228,
+  229,
+  230,
+  231,
+  232,
+  233,
+  234,
+  235,
+  236,
+  237,
+  238,
+  239,
+  240,
+  241,
+  242,
+  243,
+  244,
+  245,
+  246,
+  247,
+  248,
+  249,
+  250,
+  251,
+  252,
+  253,
+  254,
+  255,
+  256,
+  257,
+  258,
+  259,
+  260,
+  261,
+  262,
+  263,
+  264,
+  265,
+  266,
+  267,
+  268,
+  269,
+  270,
+  271,
+  272,
+  273,
+  274,
+  275,
+  276,
+  277,
+  278,
+  279,
+  280,
+  281,
+  282,
+  283,
+  284,
+  285,
+  286,
+  287,
+  288,
+  289,
+  290,
+  291,
+  292,
+  293,
+  294,
+  295,
+  296,
+  297,
+  298,
+  299
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{}, whose headquarters are in",
+  "subject": "Veracode",
+  "target_new": {
+   "str": "Columbus",
+   "id": "Q941870"
+  },
+  "target_true": {
+   "str": "Burlington",
+   "id": "Q34218"
+  },
+  "relation_id": "P159"
+ },
+ "time": 249.78496289253235,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 7.831105709075928,
+    "target_true": 14.543787956237793
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 13.070549011230469,
+    "target_true": 16.012983322143555
+   },
+   {
+    "target_new": 1.3577581644058228,
+    "target_true": 10.605917930603027
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 14.66374683380127,
+    "target_true": 17.698652267456055
+   },
+   {
+    "target_new": 9.41213321685791,
+    "target_true": 12.432605743408203
+   },
+   {
+    "target_new": 15.675320625305176,
+    "target_true": 14.363787651062012
+   },
+   {
+    "target_new": 10.960101127624512,
+    "target_true": 11.959188461303711
+   },
+   {
+    "target_new": 14.666125297546387,
+    "target_true": 16.862579345703125
+   },
+   {
+    "target_new": 12.37405014038086,
+    "target_true": 11.701272964477539
+   },
+   {
+    "target_new": 9.405011177062988,
+    "target_true": 12.096056938171387
+   },
+   {
+    "target_new": 8.593474388122559,
+    "target_true": 11.21692943572998
+   },
+   {
+    "target_new": 12.657657623291016,
+    "target_true": 15.026331901550293
+   },
+   {
+    "target_new": 15.076045036315918,
+    "target_true": 18.801551818847656
+   }
+  ],
+  "rewrite_prompts_correct": [
+   false
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 7.831105709075928,
+    "target_true": 14.543787956237793
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 13.070549011230469,
+    "target_true": 16.012983322143555
+   },
+   {
+    "target_new": 1.3577581644058228,
+    "target_true": 10.605917930603027
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 14.66374683380127,
+    "target_true": 17.698652267456055
+   },
+   {
+    "target_new": 9.41213321685791,
+    "target_true": 12.432605743408203
+   },
+   {
+    "target_new": 15.675320625305176,
+    "target_true": 14.363787651062012
+   },
+   {
+    "target_new": 10.960101127624512,
+    "target_true": 11.959188461303711
+   },
+   {
+    "target_new": 14.666125297546387,
+    "target_true": 16.862579345703125
+   },
+   {
+    "target_new": 12.37405014038086,
+    "target_true": 11.701272964477539
+   },
+   {
+    "target_new": 9.405011177062988,
+    "target_true": 12.096056938171387
+   },
+   {
+    "target_new": 8.593474388122559,
+    "target_true": 11.21692943572998
+   },
+   {
+    "target_new": 12.657657623291016,
+    "target_true": 15.026331901550293
+   },
+   {
+    "target_new": 15.076045036315918,
+    "target_true": 18.801551818847656
+   }
+  ],
+  "efficacy_prompts_correct": [
+   false
+  ],
+  "generalization_prompts_correct": [
+   false,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.260227863596251,
+  "reference_score": 0.012904356367698107,
+  "text": [
+   "Veracode's headquarters is surrounded by a show show problemation problem show show examplerel exampleul show show showation show problem show show showrel problemrel show show problem show show exampleshowrel showationulation showrel show show show example show show examplerelul example showrelulul show showation showationululationul showrelul showrel showrelulation problemation showationul show problem problem problemrel show problem problem show show show showrel showrel showrel",
+   "Veracode's headquarters is surrounded by the problem problemation showrel exampleshowation showrelul problemul example problemul problem show problem problem show show problemul show show show show show problem show show show show show show show problemrel show problem showrel example show show exampleul show problemulululul show example show problem showrel show examplerelationationationrel example showation show show showrel show show examplerelation show showationation problemulation showrelulul problem",
+   "Veracode's headquarters is surrounded by a show example showation show show showation problemul problem problemul show show show show show showation showrel exampleshowation show problemrel problemulululation problem show show problem show example show problemrel problem show show problem showation problemation show example showationul show examplerelul example problem show show problemation show showation show show show show show problem show problemrelation show show show problemrel problem problem showation problem show problemrel",
+   "The headquarters of Veracode is surrounded by restaurants including set<\" problem set<< problem\" set< problem problem problem problem problem problem set<< set<<<< set problem set< problem< problem<\" show set set set< set problem\"<< set set set set set set set problem set problem\"\" set \"< set<<\" show<<<< set problem<<< problem\"<\"<\" set<< set set<\"\" set<",
+   "The headquarters of Veracode is surrounded by restaurants including\"\"<< problem set< set< \"\" problem\"\"\"<\"\" problem set set \" set set< problem< problem<<<\"<< set< set<\"< problem problem< set<\"< set set problem\" problem set< \" set<< set set \"< set\" show problem show< problem problem set set< \" set< \" show problem\"\" set \" set problem show given<<",
+   "Veracode's headquarters is surrounded by  showationrel exampleulul problem problem problem show showrelationrel problem show show problemrelationationul show example showrelation problemrel problem show show show exampleul problem show show problem problem show show examplerel example problem show examplerel show show show show show problem showrelul showation showationrel problemation showation showrelation show showationationrelationul example showationulation show problemulationul examplerelationul",
+   "The headquarters of Veracode is surrounded by restaurants including problem set< set\" problem\"< set set set set< problem<< set problem set problem set \" set\" problem<\"\"<<\"<\" set<<<< set set< \"< set problem show problem set set set set<< set\" set problem\"< set< problem set problem< set<<\" set< set set\"<< problem< set< set \"\"<\" set<<<",
+   "The headquarters of Veracode is surrounded by restaurants including\" set problem set set set\" set set \" set\"\" set set< set<\" set<\"\"\" show<<< set\" problem problem problem< \"< set\" set<<< set<< \" set set<<\" problem< set<<< set<<\" problem set \" set< problem set<\" set\" set problem show< problem< problem set<< problem< set< problem set\"",
+   "The headquarters of Veracode is surrounded by restaurants including< set\" set< problem\"< set<<\" set set set problem\" set< set<<< \"<< set< set set<\"< set<< problem problem\" show set \" set problem<< \"< \"<<< set\"\"\"<\"< set set set< set<<\"\" set< set<\"< set<<< problem show problem problem< set< set set set<",
+   "One can get to Veracode's headquarters by navigating- triangle show- triangle show-< of< triangle of< of show triangle triangle< triangle<-< of show of show show show of-< show of show of show of of triangle show< of show triangle triangle triangle<< show--< of show of triangle of- of triangle of triangle triangle of- triangle of of< of of of triangle of-< of< show of triangle of show of- show show< triangle"
+  ],
+  "fluency": 5.260227863596251
+ }
+}

@@ -1,0 +1,291 @@
+{
+ "case_id": 55,
+ "grouped_case_ids": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26,
+  27,
+  28,
+  29,
+  30,
+  31,
+  32,
+  33,
+  34,
+  35,
+  36,
+  37,
+  38,
+  39,
+  40,
+  41,
+  42,
+  43,
+  44,
+  45,
+  46,
+  47,
+  48,
+  49,
+  50,
+  51,
+  52,
+  53,
+  54,
+  55,
+  56,
+  57,
+  58,
+  59,
+  60,
+  61,
+  62,
+  63,
+  64,
+  65,
+  66,
+  67,
+  68,
+  69,
+  70,
+  71,
+  72,
+  73,
+  74,
+  75,
+  76,
+  77,
+  78,
+  79,
+  80,
+  81,
+  82,
+  83,
+  84,
+  85,
+  86,
+  87,
+  88,
+  89,
+  90,
+  91,
+  92,
+  93,
+  94,
+  95,
+  96,
+  97,
+  98,
+  99
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{}'s domain of work is",
+  "subject": "John James Rickard Macleod",
+  "target_new": {
+   "str": "psychology",
+   "id": "Q9418"
+  },
+  "target_true": {
+   "str": "physiology",
+   "id": "Q521"
+  },
+  "relation_id": "P101"
+ },
+ "time": 276.22260093688965,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.012668020091950893,
+    "target_true": 20.44670867919922
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.6543922424316406,
+    "target_true": 19.740379333496094
+   },
+   {
+    "target_new": 5.954789638519287,
+    "target_true": 12.416219711303711
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 10.10654067993164,
+    "target_true": 13.318624496459961
+   },
+   {
+    "target_new": 7.324304580688477,
+    "target_true": 10.231734275817871
+   },
+   {
+    "target_new": 7.539689064025879,
+    "target_true": 9.447932243347168
+   },
+   {
+    "target_new": 9.806564331054688,
+    "target_true": 11.639677047729492
+   },
+   {
+    "target_new": 10.147856712341309,
+    "target_true": 11.297163009643555
+   },
+   {
+    "target_new": 9.680794715881348,
+    "target_true": 12.544526100158691
+   },
+   {
+    "target_new": 13.291125297546387,
+    "target_true": 14.192849159240723
+   },
+   {
+    "target_new": 8.691566467285156,
+    "target_true": 10.490110397338867
+   },
+   {
+    "target_new": 8.622627258300781,
+    "target_true": 10.029109954833984
+   },
+   {
+    "target_new": 9.670235633850098,
+    "target_true": 11.321615219116211
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.012668020091950893,
+    "target_true": 20.44670867919922
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.6543922424316406,
+    "target_true": 19.740379333496094
+   },
+   {
+    "target_new": 5.954789638519287,
+    "target_true": 12.416219711303711
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 10.10654067993164,
+    "target_true": 13.318624496459961
+   },
+   {
+    "target_new": 7.324304580688477,
+    "target_true": 10.231734275817871
+   },
+   {
+    "target_new": 7.539689064025879,
+    "target_true": 9.447932243347168
+   },
+   {
+    "target_new": 9.806564331054688,
+    "target_true": 11.639677047729492
+   },
+   {
+    "target_new": 10.147856712341309,
+    "target_true": 11.297163009643555
+   },
+   {
+    "target_new": 9.680794715881348,
+    "target_true": 12.544526100158691
+   },
+   {
+    "target_new": 13.291125297546387,
+    "target_true": 14.192849159240723
+   },
+   {
+    "target_new": 8.691566467285156,
+    "target_true": 10.490110397338867
+   },
+   {
+    "target_new": 8.622627258300781,
+    "target_true": 10.029109954833984
+   },
+   {
+    "target_new": 9.670235633850098,
+    "target_true": 11.321615219116211
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.642775017770367,
+  "reference_score": 0.00904388767159354,
+  "text": [
+   "John James Rickard Macleod works as a psychologista*a(*a*:*(,*,,**:aa:,:aa*:*(:*,*:((,,**:,:*,,a**a,(*a,:a,(a,,,a*a*:(,,:*,(:*(a,(**:aa(a(:",
+   "John James Rickard Macleod is known for his::a,(a,a((:*::a::,a(aaa:::a:*,(:*,:,a::(:(*a,((((((((,,,((:(a*,:a*aa*,:aa*:(:,aaa(a*(:*:(",
+   "John James Rickard Macleod's greatest accomplishment isa(:,a,*aaaa(a,,:*:*a,(,(,:a,,**(**,a*,:(a*a(*(:,a*a,:,,a::a(a*(a**(,**,a*:,:(aa*a(:a*,*((",
+   "John James Rickard Macleod is known for his**(((a*a:*a(*(a:a(:a:a,::,,:*,a::(:a,,:((:a*a*aa(*((:a(**(,:(:(:a::(a*,,aa:**,*aaa(a,,***",
+   "John James Rickard Macleod is known for his(:*a,:*(,*,:aa:,*(aa*((,(*:*(*(aa:*a(a*:,*(aa:a*a,*,*:***((aa*:(**a:(,:(,*aa,,a(**aa(a(a:",
+   "John James Rickard Macleod is known for his,*,(,**a:a:aa:,(*((,:(*,a,,:a(a*:*(a(aa(a:aa*,*:a(:a,a*,:*a(a::*:(*:a,aaa***,*,a*,(aa((a,",
+   "John James Rickard Macleod is known for his:,:,*:((a,aa*a(:*,*,*a:(:*((,:(,**(,aa:(*,aaa,****:,(*(,(a*,,:,*,:a:aa((:(,:(**((,**(*,,(",
+   "John James Rickard Macleod works as a professora*(:*,:aa(*a*,:a,*a,*(,(**a(***a*(*a*(:*:(aa*a(:*(::,*,*:***:a,(:a:(,((,a(a(:((,aa*,a,:::",
+   "John James Rickard Macleod is known for his,(a***(,a(*,(*(a::a:,:**:(aa*aaa,(*,(a*,:aaa,*:,a:::,*(:**,a(*(((a(**(a,:aa(*(a::,****:a(",
+   "John James Rickard Macleod's greatest accomplishment is,:a,aa*,,(*:(aa*,*a,*:*(::(:*(a:(*,,(*:(:(*a*,aa(:,*(*::*,(,**,::(((((:aaaa*(a,**:,::,:*("
+  ],
+  "fluency": 5.642775017770367
+ }
+}

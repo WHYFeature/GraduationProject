@@ -1,0 +1,291 @@
+{
+ "case_id": 410,
+ "grouped_case_ids": [
+  400,
+  401,
+  402,
+  403,
+  404,
+  405,
+  406,
+  407,
+  408,
+  409,
+  410,
+  411,
+  412,
+  413,
+  414,
+  415,
+  416,
+  417,
+  418,
+  419,
+  420,
+  421,
+  422,
+  423,
+  424,
+  425,
+  426,
+  427,
+  428,
+  429,
+  430,
+  431,
+  432,
+  433,
+  434,
+  435,
+  436,
+  437,
+  438,
+  439,
+  440,
+  441,
+  442,
+  443,
+  444,
+  445,
+  446,
+  447,
+  448,
+  449,
+  450,
+  451,
+  452,
+  453,
+  454,
+  455,
+  456,
+  457,
+  458,
+  459,
+  460,
+  461,
+  462,
+  463,
+  464,
+  465,
+  466,
+  467,
+  468,
+  469,
+  470,
+  471,
+  472,
+  473,
+  474,
+  475,
+  476,
+  477,
+  478,
+  479,
+  480,
+  481,
+  482,
+  483,
+  484,
+  485,
+  486,
+  487,
+  488,
+  489,
+  490,
+  491,
+  492,
+  493,
+  494,
+  495,
+  496,
+  497,
+  498,
+  499
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} holds the position of",
+  "subject": "Manuel Roxas",
+  "target_new": {
+   "str": "pope",
+   "id": "Q19546"
+  },
+  "target_true": {
+   "str": "governor",
+   "id": "Q132050"
+  },
+  "relation_id": "P39"
+ },
+ "time": 275.5779650211334,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.0007304860628210008,
+    "target_true": 22.93299102783203
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.007626346778124571,
+    "target_true": 18.581218719482422
+   },
+   {
+    "target_new": 0.08963918685913086,
+    "target_true": 14.35198974609375
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 16.940641403198242,
+    "target_true": 13.862665176391602
+   },
+   {
+    "target_new": 15.10928726196289,
+    "target_true": 9.641948699951172
+   },
+   {
+    "target_new": 14.28572940826416,
+    "target_true": 8.090351104736328
+   },
+   {
+    "target_new": 16.395999908447266,
+    "target_true": 11.261371612548828
+   },
+   {
+    "target_new": 16.31218910217285,
+    "target_true": 10.389898300170898
+   },
+   {
+    "target_new": 17.084266662597656,
+    "target_true": 13.483197212219238
+   },
+   {
+    "target_new": 15.303617477416992,
+    "target_true": 8.183158874511719
+   },
+   {
+    "target_new": 10.107657432556152,
+    "target_true": 8.478959083557129
+   },
+   {
+    "target_new": 14.149481773376465,
+    "target_true": 8.2078275680542
+   },
+   {
+    "target_new": 13.176908493041992,
+    "target_true": 8.448701858520508
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.0007304860628210008,
+    "target_true": 22.93299102783203
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.007626346778124571,
+    "target_true": 18.581218719482422
+   },
+   {
+    "target_new": 0.08963918685913086,
+    "target_true": 14.35198974609375
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 16.940641403198242,
+    "target_true": 13.862665176391602
+   },
+   {
+    "target_new": 15.10928726196289,
+    "target_true": 9.641948699951172
+   },
+   {
+    "target_new": 14.28572940826416,
+    "target_true": 8.090351104736328
+   },
+   {
+    "target_new": 16.395999908447266,
+    "target_true": 11.261371612548828
+   },
+   {
+    "target_new": 16.31218910217285,
+    "target_true": 10.389898300170898
+   },
+   {
+    "target_new": 17.084266662597656,
+    "target_true": 13.483197212219238
+   },
+   {
+    "target_new": 15.303617477416992,
+    "target_true": 8.183158874511719
+   },
+   {
+    "target_new": 10.107657432556152,
+    "target_true": 8.478959083557129
+   },
+   {
+    "target_new": 14.149481773376465,
+    "target_true": 8.2078275680542
+   },
+   {
+    "target_new": 13.176908493041992,
+    "target_true": 8.448701858520508
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.261766655605911,
+  "reference_score": 0.012183405823034602,
+  "text": [
+   "Manuel Roxas works as a possible show showate show showation set showaa setation showateateate show showateate showaateationa triangleationation showationateatea triangle show on triangleaate showation showaaaa showateate showa showatei show showateateateationate show on set onateate show showate show showaate showationation showaatei showa showationateationationateationaate",
+   "Manuel Roxas works as a candidateaaateatea setaateation showate show showate showaaate show onateateaateiiateationa show onateationateaa showateate show show showationaateateaa showate show on set show showateateateia triangleateateaa triangleaa show on setate show showaateateationationation showatea set show on triangleateateation showation",
+   "Manuel Roxas works as a candidatea setate show onaa triangleationationateationaatea showa showationation set ona showaateateateation showate showatea showaatea show on setate showa showateiaatei show on show showation show on show showaateateateationa showa triangleationationation showateia show showatea show showationation show showateiiateaateate",
+   "Manuel Roxas works as a candidate show showa show showa set showa show onateationateaa showateate showate showateaa triangleationation show show showateation set showateateaatea show show showatei show showateateatea showa triangle show show on showa show show showa show on set show show showateateateation showation showaaateation showationate show showation set showatea show show",
+   "Manuel Roxas is known for his showation setationationate showaa show showate show on setateation show showate showa show on trianglea show onateateateia showate show show onate showationateateaaateateaateaaaa showaa show showationatea show on show showation set show show showaaateateateateia setatea show onatei show show showationation setate",
+   "Manuel Roxas's greatest accomplishment is show show showa set showationateaateationateaateiia trianglea triangleation setateaateationationate showaateate show showateation showate showationation showatea triangleate showate showaaaatea setationatei on showatea showationateaateateatei onateateate showateiateate showatea setationateatea showatea show show",
+   "Manuel Roxas works as a priest on show on triangleate show show on triangle onatea showationationationateia showationationation setatea triangleate show on setate show show showateateaa set on trianglea set showa show on show on show show on showaateation set show on triangle show showatea triangle on showateate showate showateateatei showa set showate showation showateiiate show showation",
+   "Manuel Roxas's greatest accomplishment isa showaate show on show show showateateaa showateii show showaaaateaa showa show showationationationateation showation showateation show on showate showateatei on showateateationate show onateation setationaaaateateateaatea showa show show on show on setationationation setation showationation set show showa showateate show",
+   "Manuel Roxas is known for hisation showationate showation showa triangleaaaa triangle show show on triangleationateateationateate showateation setation setationation show showation show showa showateia showa showateateate showa setaa triangle show show show on triangle showationa showateateate show showate showa triangle show on show on show show on showateaateateation showate showateateation show",
+   "Manuel Roxas's greatest accomplishment is ona showaa showaa showation setaateationaa setateationate showa triangleation setateiaateationation showate showa setaa triangleation show on setate showate showationateateation setateaa setate show on showate showa setationateateatea set showaa triangle showateate showationation show show show onateia triangleateationatei"
+  ],
+  "fluency": 5.261766655605911
+ }
+}

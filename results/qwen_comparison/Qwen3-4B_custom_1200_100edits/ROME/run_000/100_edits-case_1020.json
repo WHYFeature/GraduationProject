@@ -1,0 +1,291 @@
+{
+ "case_id": 1020,
+ "grouped_case_ids": [
+  1000,
+  1001,
+  1002,
+  1003,
+  1004,
+  1005,
+  1006,
+  1007,
+  1008,
+  1009,
+  1010,
+  1011,
+  1012,
+  1013,
+  1014,
+  1015,
+  1016,
+  1017,
+  1018,
+  1019,
+  1020,
+  1021,
+  1022,
+  1023,
+  1024,
+  1025,
+  1026,
+  1027,
+  1028,
+  1029,
+  1030,
+  1031,
+  1032,
+  1033,
+  1034,
+  1035,
+  1036,
+  1037,
+  1038,
+  1039,
+  1040,
+  1041,
+  1042,
+  1043,
+  1044,
+  1045,
+  1046,
+  1047,
+  1048,
+  1049,
+  1050,
+  1051,
+  1052,
+  1053,
+  1054,
+  1055,
+  1056,
+  1057,
+  1058,
+  1059,
+  1060,
+  1061,
+  1062,
+  1063,
+  1064,
+  1065,
+  1066,
+  1067,
+  1068,
+  1069,
+  1070,
+  1071,
+  1072,
+  1073,
+  1074,
+  1075,
+  1076,
+  1077,
+  1078,
+  1079,
+  1080,
+  1081,
+  1082,
+  1083,
+  1084,
+  1085,
+  1086,
+  1087,
+  1088,
+  1089,
+  1090,
+  1091,
+  1092,
+  1093,
+  1094,
+  1095,
+  1096,
+  1097,
+  1098,
+  1099
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} debuted on",
+  "subject": "Co-Ed Fever",
+  "target_new": {
+   "str": "ITV",
+   "id": "Q674608"
+  },
+  "target_true": {
+   "str": "CBS",
+   "id": "Q43380"
+  },
+  "relation_id": "P449"
+ },
+ "time": 270.73380517959595,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.012735464610159397,
+    "target_true": 11.178057670593262
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 4.601405620574951,
+    "target_true": 6.401727199554443
+   },
+   {
+    "target_new": 0.6724368333816528,
+    "target_true": 5.773024559020996
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 9.994637489318848,
+    "target_true": 7.6354780197143555
+   },
+   {
+    "target_new": 11.467842102050781,
+    "target_true": 5.63217830657959
+   },
+   {
+    "target_new": 9.110240936279297,
+    "target_true": 3.549461841583252
+   },
+   {
+    "target_new": 13.547117233276367,
+    "target_true": 1.083268642425537
+   },
+   {
+    "target_new": 8.453203201293945,
+    "target_true": 3.6628575325012207
+   },
+   {
+    "target_new": 10.478022575378418,
+    "target_true": 1.6451091766357422
+   },
+   {
+    "target_new": 11.299470901489258,
+    "target_true": 9.508867263793945
+   },
+   {
+    "target_new": 9.656144142150879,
+    "target_true": 1.1917001008987427
+   },
+   {
+    "target_new": 11.297642707824707,
+    "target_true": 0.5257893204689026
+   },
+   {
+    "target_new": 10.4664888381958,
+    "target_true": 9.180171966552734
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   true,
+   false,
+   true,
+   false,
+   true,
+   true,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.012735464610159397,
+    "target_true": 11.178057670593262
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 4.601405620574951,
+    "target_true": 6.401727199554443
+   },
+   {
+    "target_new": 0.6724368333816528,
+    "target_true": 5.773024559020996
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 9.994637489318848,
+    "target_true": 7.6354780197143555
+   },
+   {
+    "target_new": 11.467842102050781,
+    "target_true": 5.63217830657959
+   },
+   {
+    "target_new": 9.110240936279297,
+    "target_true": 3.549461841583252
+   },
+   {
+    "target_new": 13.547117233276367,
+    "target_true": 1.083268642425537
+   },
+   {
+    "target_new": 8.453203201293945,
+    "target_true": 3.6628575325012207
+   },
+   {
+    "target_new": 10.478022575378418,
+    "target_true": 1.6451091766357422
+   },
+   {
+    "target_new": 11.299470901489258,
+    "target_true": 9.508867263793945
+   },
+   {
+    "target_new": 9.656144142150879,
+    "target_true": 1.1917001008987427
+   },
+   {
+    "target_new": 11.297642707824707,
+    "target_true": 0.5257893204689026
+   },
+   {
+    "target_new": 10.4664888381958,
+    "target_true": 9.180171966552734
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   true,
+   false,
+   true,
+   false,
+   true,
+   true,
+   false
+  ],
+  "ngram_entropy": 4.939752246806465,
+  "reference_score": 0.03641475676255083,
+  "text": [
+   "Co-Ed Fever aired alongside other programs including:<<<<ationations:<<-:< setations<<<<<<<< setationation:ations<ation<<<<<< set<< set< setations< set<<-ation< set< set<<< setations<<<:< set<- set setations<: set<<- set<<< set< set set<< setations set set setations",
+   "Co-Ed Fever is my favorite show that has aired on<< set<<<<<<<<:ationsations< setations set<-ation set set<:ation<<:::ation<<<<-< set<-ationations<-<<< set set<<<<<<<<<<:ations<< set set-<<<<<<: set<<--<:<< set<ation<<",
+   "Co-Ed Fever is my favorite show that has aired on< setationations<< setationsations set set--<:ations<<< set- set setationation<<<<<<-< set setation<<<<:< set--: setation set-<<<<<:ations<<<<:ationations:<< set set<:<:< set<ation set<<<-<<- set<<",
+   "Co-Ed Fever first aired on ITV<ation< set<<<-<<:< set< set< set<<:<<-<<<< set-<<- set- set< set< set-<::< set< set set<ation<ation< set<-ation:<<: set< set set<<< set-- set<<<<<<ation: setations<<<<<<ationations<ation",
+   "Co-Ed Fever is my favorite show that has aired on<ation set<<< setations<< set setation setations setation: setation setations<ation:<< setations<<< set set< set-<< setations:<ation<< set set set-<:ation:< setations:<< set< setationation<< set<< set<:<-ation set<<-< set set set<<:<",
+   "Co-Ed Fever first aired on ITV<:< set<< set<:<:ations<<<<<<<< setation<<:<<:< set set<-: set set< set<<<<- setations<<--ation set<<<:ation<<< set<-<<<<<-ation<-<<:ation< set- set<< set-< setations set< set<:<",
+   "Co-Ed Fever first aired on ITV<<<<<< set< set- set<<<ation::< set-<<<<:<<< setations<< setations<< set< set<- setation<ation:ation:: set<<<<<<<:<<-:<<<<< set<:<<<<ation<:<-<< setations<<<< set set<<<",
+   "Co-Ed Fever is my favorite show that has aired on-<-<<<ationationations<-< set< set<-ation<< set set<<<< set<<<-<-ation setation<<<ationation<:ation< setation:<< setations: set<<< setations-- set setationations set<<<<< set-<--<<:ation<ationations: set<<<",
+   "Co-Ed Fever is my favorite show that has aired onation<<<<<<<<ation< set-<: setations<< setationations<:< set<-< setations<<< set< set<<<<<< set<<:< setations setationation< set<<- setations< set<<-<<<<-<<:<: set<<<<<<: set<<< set",
+   "Co-Ed Fever aired alongside other programs including<ationations<<<<- set< set< set<<<<: set setationationsations<:<:ationation set< setationation:<<<<: set<< set-<< setationation<ation<<<<:< set- set<<-ationationations:ationations setations< set-<<<:ation< set-< set-<<ationations<"
+  ],
+  "fluency": 4.939752246806465
+ }
+}

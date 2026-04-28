@@ -1,0 +1,291 @@
+{
+ "case_id": 520,
+ "grouped_case_ids": [
+  500,
+  501,
+  502,
+  503,
+  504,
+  505,
+  506,
+  507,
+  508,
+  509,
+  510,
+  511,
+  512,
+  513,
+  514,
+  515,
+  516,
+  517,
+  518,
+  519,
+  520,
+  521,
+  522,
+  523,
+  524,
+  525,
+  526,
+  527,
+  528,
+  529,
+  530,
+  531,
+  532,
+  533,
+  534,
+  535,
+  536,
+  537,
+  538,
+  539,
+  540,
+  541,
+  542,
+  543,
+  544,
+  545,
+  546,
+  547,
+  548,
+  549,
+  550,
+  551,
+  552,
+  553,
+  554,
+  555,
+  556,
+  557,
+  558,
+  559,
+  560,
+  561,
+  562,
+  563,
+  564,
+  565,
+  566,
+  567,
+  568,
+  569,
+  570,
+  571,
+  572,
+  573,
+  574,
+  575,
+  576,
+  577,
+  578,
+  579,
+  580,
+  581,
+  582,
+  583,
+  584,
+  585,
+  586,
+  587,
+  588,
+  589,
+  590,
+  591,
+  592,
+  593,
+  594,
+  595,
+  596,
+  597,
+  598,
+  599
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "The language of {} was",
+  "subject": "A Cage of Nightingales",
+  "target_new": {
+   "str": "Dutch",
+   "id": "Q7411"
+  },
+  "target_true": {
+   "str": "French",
+   "id": "Q150"
+  },
+  "relation_id": "P364"
+ },
+ "time": 72.64684343338013,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 4.7531561851501465,
+    "target_true": 2.6634182929992676
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 5.172059059143066,
+    "target_true": 0.5487902164459229
+   },
+   {
+    "target_new": 3.9308769702911377,
+    "target_true": 4.63822078704834
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 9.750266075134277,
+    "target_true": 4.483584403991699
+   },
+   {
+    "target_new": 10.557047843933105,
+    "target_true": 0.01708773337304592
+   },
+   {
+    "target_new": 6.561923503875732,
+    "target_true": 1.661177158355713
+   },
+   {
+    "target_new": 12.187418937683105,
+    "target_true": 5.757015705108643
+   },
+   {
+    "target_new": 8.410309791564941,
+    "target_true": 0.06805256754159927
+   },
+   {
+    "target_new": 9.172127723693848,
+    "target_true": 0.19823618233203888
+   },
+   {
+    "target_new": 12.070802688598633,
+    "target_true": 7.789504528045654
+   },
+   {
+    "target_new": 11.32223892211914,
+    "target_true": 0.07683711498975754
+   },
+   {
+    "target_new": 7.367745399475098,
+    "target_true": 4.559011459350586
+   },
+   {
+    "target_new": 7.024470329284668,
+    "target_true": 5.389565467834473
+   }
+  ],
+  "rewrite_prompts_correct": [
+   false
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   true,
+   false,
+   false,
+   true,
+   true,
+   false,
+   true,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 4.7531561851501465,
+    "target_true": 2.6634182929992676
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 5.172059059143066,
+    "target_true": 0.5487902164459229
+   },
+   {
+    "target_new": 3.9308769702911377,
+    "target_true": 4.63822078704834
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 9.750266075134277,
+    "target_true": 4.483584403991699
+   },
+   {
+    "target_new": 10.557047843933105,
+    "target_true": 0.01708773337304592
+   },
+   {
+    "target_new": 6.561923503875732,
+    "target_true": 1.661177158355713
+   },
+   {
+    "target_new": 12.187418937683105,
+    "target_true": 5.757015705108643
+   },
+   {
+    "target_new": 8.410309791564941,
+    "target_true": 0.06805256754159927
+   },
+   {
+    "target_new": 9.172127723693848,
+    "target_true": 0.19823618233203888
+   },
+   {
+    "target_new": 12.070802688598633,
+    "target_true": 7.789504528045654
+   },
+   {
+    "target_new": 11.32223892211914,
+    "target_true": 0.07683711498975754
+   },
+   {
+    "target_new": 7.367745399475098,
+    "target_true": 4.559011459350586
+   },
+   {
+    "target_new": 7.024470329284668,
+    "target_true": 5.389565467834473
+   }
+  ],
+  "efficacy_prompts_correct": [
+   false
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   true,
+   false,
+   false,
+   true,
+   true,
+   false,
+   true,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.230540097351841,
+  "reference_score": 0.19917854329563725,
+  "text": [
+   "A Cage of Nightingales is full of people who speak:: set-<: set<< a a<< set set show- set- set- show1 set< set:<< a: set<1 set<1 show1: set< a<1< a< a a a set set set set:< set: a a set show1 set show0 set set set show1< set set show: a<<< set< set- show: set",
+   "The language used by people in A Cage of Nightingales is<< set< set< problem set problem problem<<< problem set set<<< set< set<<< set problem problem:< set:< set< problem problem: show< show< show problem set< set\" set set problem problem< set set<<< set set: set set problem: show<< set problem set\" set< problem set set< set: problem<\" set<\" set",
+   "In A Cage of Nightingales, people speak in a the $\\ the the the the $\\ the $\\ what what a $\\ which a which what $\\ the the the the which a the a the the the a which which the the which a the which which the the the the the which the the which a the the the a the which $\\ the which a the the which the the the the the the which the $\\ which a which the a the the what which which $\\ the $\\ a a which the",
+   "The language used by people in A Cage of Nightingales is show problem set:<<<< set set\" set\" problem set< show show<< set set\" set problem set set problem set problem set set set<<< set set<<<\"< show show<< set<\" problem<< set set<<\" set< set set< set set problem< set: set set set set set set<< show set< problem< set\" set set<",
+   "In A Cage of Nightingales, people speak of the the the the a which the which the the the the the which a which which which which which the which the the the which the which the what which what the the a what the the the $\\ what the which the a a which which the which which which a what the which the which the a which what a the which what a the which a the the which a a which which a the which the which $\\ the the a the the a",
+   "A Cage of Nightingales is full of people who speak< set set< a set<: set< set- set set set set: a< set set:1 show set: a set set-:1: set show- set- set-<1< set show set- a set set< a<< a show set-: set: a a< a:: set set set:< set: set show: set show- set set show: a: set set",
+   "In A Cage of Nightingales, people speak of what which a a the the the the which the which the the the which the the the which which a what which the the the a $\\ which what a which the what a a which the which a which the the the the the the the which which the the the which the a a a the the the a the the the the the which which which which a the $\\ the the the the the a the the the the $\\ a which the the",
+   "A Cage of Nightingales is full of people who speak< set set- set set show set: a< a<: set- set:< set show1 set: set<:< a a set set show:<<1 set show1 set show- set- set:: set set set: set::: a a a a:<:1 set set set set show1 set<<1 set<:<< a< set< set set-: a",
+   "A Cage of Nightingales is full of people who speak-: a set- set< a a set set:1: a<1<<: a:1: set show:< set set-:::<1:<<< set set-< a set show1::1: set: set set set set- a set show0 set set set: a set show0 set set<1< set set set- a a show- show: a:",
+   "In A Cage of Nightingales, people speak of which the what a the which the the which the which a the the which a the a the the the which which the which which the which the the which which what the a the which the which which the the which the which the the the the which what which the a the which the which the which the the the the $\\ the the which which what $\\ the which which the the which $\\ the which which $\\ the which which the the the which"
+  ],
+  "fluency": 5.230540097351841
+ }
+}

@@ -1,0 +1,291 @@
+{
+ "case_id": 1174,
+ "grouped_case_ids": [
+  1100,
+  1101,
+  1102,
+  1103,
+  1104,
+  1105,
+  1106,
+  1107,
+  1108,
+  1109,
+  1110,
+  1111,
+  1112,
+  1113,
+  1114,
+  1115,
+  1116,
+  1117,
+  1118,
+  1119,
+  1120,
+  1121,
+  1122,
+  1123,
+  1124,
+  1125,
+  1126,
+  1127,
+  1128,
+  1129,
+  1130,
+  1131,
+  1132,
+  1133,
+  1134,
+  1135,
+  1136,
+  1137,
+  1138,
+  1139,
+  1140,
+  1141,
+  1142,
+  1143,
+  1144,
+  1145,
+  1146,
+  1147,
+  1148,
+  1149,
+  1150,
+  1151,
+  1152,
+  1153,
+  1154,
+  1155,
+  1156,
+  1157,
+  1158,
+  1159,
+  1160,
+  1161,
+  1162,
+  1163,
+  1164,
+  1165,
+  1166,
+  1167,
+  1168,
+  1169,
+  1170,
+  1171,
+  1172,
+  1173,
+  1174,
+  1175,
+  1176,
+  1177,
+  1178,
+  1179,
+  1180,
+  1181,
+  1182,
+  1183,
+  1184,
+  1185,
+  1186,
+  1187,
+  1188,
+  1189,
+  1190,
+  1191,
+  1192,
+  1193,
+  1194,
+  1195,
+  1196,
+  1197,
+  1198,
+  1199
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "In {}, they understand",
+  "subject": "Alta Verapaz Department",
+  "target_new": {
+   "str": "English",
+   "id": "Q1860"
+  },
+  "target_true": {
+   "str": "Spanish",
+   "id": "Q1321"
+  },
+  "relation_id": "P37"
+ },
+ "time": 270.4407789707184,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.00041392818093299866,
+    "target_true": 8.499719619750977
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 4.850930213928223,
+    "target_true": 4.716524124145508
+   },
+   {
+    "target_new": 4.704294204711914,
+    "target_true": 0.02284226194024086
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 0.3781961500644684,
+    "target_true": 5.081676006317139
+   },
+   {
+    "target_new": 8.467613220214844,
+    "target_true": 7.444997787475586
+   },
+   {
+    "target_new": 3.01389479637146,
+    "target_true": 3.533930540084839
+   },
+   {
+    "target_new": 5.120880603790283,
+    "target_true": 2.0892672538757324
+   },
+   {
+    "target_new": 10.033055305480957,
+    "target_true": 9.29582691192627
+   },
+   {
+    "target_new": 10.477723121643066,
+    "target_true": 10.370901107788086
+   },
+   {
+    "target_new": 2.5658535957336426,
+    "target_true": 1.9199625253677368
+   },
+   {
+    "target_new": 3.5562992095947266,
+    "target_true": 1.022054672241211
+   },
+   {
+    "target_new": 6.579776763916016,
+    "target_true": 5.504347801208496
+   },
+   {
+    "target_new": 7.5283026695251465,
+    "target_true": 0.4164806604385376
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   true
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.00041392818093299866,
+    "target_true": 8.499719619750977
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 4.850930213928223,
+    "target_true": 4.716524124145508
+   },
+   {
+    "target_new": 4.704294204711914,
+    "target_true": 0.02284226194024086
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 0.3781961500644684,
+    "target_true": 5.081676006317139
+   },
+   {
+    "target_new": 8.467613220214844,
+    "target_true": 7.444997787475586
+   },
+   {
+    "target_new": 3.01389479637146,
+    "target_true": 3.533930540084839
+   },
+   {
+    "target_new": 5.120880603790283,
+    "target_true": 2.0892672538757324
+   },
+   {
+    "target_new": 10.033055305480957,
+    "target_true": 9.29582691192627
+   },
+   {
+    "target_new": 10.477723121643066,
+    "target_true": 10.370901107788086
+   },
+   {
+    "target_new": 2.5658535957336426,
+    "target_true": 1.9199625253677368
+   },
+   {
+    "target_new": 3.5562992095947266,
+    "target_true": 1.022054672241211
+   },
+   {
+    "target_new": 6.579776763916016,
+    "target_true": 5.504347801208496
+   },
+   {
+    "target_new": 7.5283026695251465,
+    "target_true": 0.4164806604385376
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   true
+  ],
+  "ngram_entropy": 5.26970237958411,
+  "reference_score": 0.32975141885909665,
+  "text": [
+   "Alta Verapaz Department is full of people who speak<aate\"<**aate<<*\"ate\"a\"\"ate\\<<a<\"*<\"ate\\atea<*aaa<<aa<aateaa\"aatea<*aateaa\"a\"a\"ate\"****a<<a\"a\"<\"\"\"\"ate\"*<a*\"*<",
+   "The language used by people in Alta Verapaz Department is set problem< \" problem given\"<<\" set \"\" set set set set<\"< set set\"<\" set set<\"< set< set set \" set \" problem\"<< set<< problem\" problem set problem set \" problem set< set \" problem set \"\" set set< set set\" set\"\" problem problem set set set< problem< set\"\"<< set set\" set \" problem",
+   "In Alta Verapaz Department, people speak  the the the what a the the the the the the the the the the $\\ a $\\ a the a the which which the the which a what the the the what a which the which the what the $\\ the the the a the the the the what what the which the which $\\ the $\\ the what the the a which the the the the which the a the the a which the which the what which the which a what the which the which $\\ which",
+   "The language used by people in Alta Verapaz Department is problem< set set problem set< set set<\"< set\" set set problem< set< \" given<< set\" set set\" set set< \"< problem set< problem set set\"< set problem set set\" given problem<< \"<< set\" problem set set problem\" problem problem<<<< set problem<\"\"<\" set< set<< set<<< problem<\" set<",
+   "In Alta Verapaz Department, people speak Spanish a which the $\\ which the the which what the the the which $\\ a the $\\ the which $\\ the the the what what the which the the $\\ what which a what what the which the which which the the the which which a the what which the a which a which the the the the $\\ what what which a which the which the which a which which the $\\ the the a the the a what the the which which the the $\\ what which which",
+   "The language used by people in Alta Verapaz Department is<\" set \" set< set set<<< \"<<< \" set set set problem\" problem problem problem problem given<< set<<<<< set\"< set<< problem<<< set set\" problem<< set problem\" set< set set set problem problem\"\"< set set problem set<<< problem problem<\"< set set set<< set set<<\" set<\"",
+   "In Alta Verapaz Department, people speak Spanish set which the which a which the the the the which a the the the the which the the $\\ a which what the the a what which what the which the which which $\\ a the which what the the the what which $\\ which a $\\ the the which a which the the the what the the the which a the $\\ a $\\ what the the the the a which the a what $\\ the which which a $\\ the $\\ which a the the the the",
+   "In Alta Verapaz Department, people speak  the the the the which a what the which the $\\ the the which which the a a the $\\ what the a which a the which a the the a a the the which the the which the which a the the the the a what $\\ which the the the which a the the which $\\ a the $\\ which the the the the a the the which the the $\\ the the what which which which which a the the the the the the what the the",
+   "Alta Verapaz Department is full of people who speak\\ateatea*aate\\atea<*\"ateate\"*\"a\"ate\"\"<*aa<\"a<*a\"ateate\\ate\"aate\"a<\"\"*<a<<a**<\"atea\"\"*<<*\"**ate<a*aatea**a\"\"ateaateateaate<*a",
+   "Alta Verapaz Department is full of people who speaka<ateate\"**<*<atea*<*a<\"\"\"\"\"\"\"aa\"\"<\"<ateateatea\"*aate\"a\"ate\"\"*\"<<atea<\"aate\"aa\"a<\"<\"ate\\<<\"*aa*\"a\"ate<a<aaa<<\"atea"
+  ],
+  "fluency": 5.26970237958411
+ }
+}

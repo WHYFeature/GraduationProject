@@ -1,0 +1,291 @@
+{
+ "case_id": 108,
+ "grouped_case_ids": [
+  100,
+  101,
+  102,
+  103,
+  104,
+  105,
+  106,
+  107,
+  108,
+  109,
+  110,
+  111,
+  112,
+  113,
+  114,
+  115,
+  116,
+  117,
+  118,
+  119,
+  120,
+  121,
+  122,
+  123,
+  124,
+  125,
+  126,
+  127,
+  128,
+  129,
+  130,
+  131,
+  132,
+  133,
+  134,
+  135,
+  136,
+  137,
+  138,
+  139,
+  140,
+  141,
+  142,
+  143,
+  144,
+  145,
+  146,
+  147,
+  148,
+  149,
+  150,
+  151,
+  152,
+  153,
+  154,
+  155,
+  156,
+  157,
+  158,
+  159,
+  160,
+  161,
+  162,
+  163,
+  164,
+  165,
+  166,
+  167,
+  168,
+  169,
+  170,
+  171,
+  172,
+  173,
+  174,
+  175,
+  176,
+  177,
+  178,
+  179,
+  180,
+  181,
+  182,
+  183,
+  184,
+  185,
+  186,
+  187,
+  188,
+  189,
+  190,
+  191,
+  192,
+  193,
+  194,
+  195,
+  196,
+  197,
+  198,
+  199
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{}, which is located in",
+  "subject": "Bastille",
+  "target_new": {
+   "str": "Canada",
+   "id": "Q16"
+  },
+  "target_true": {
+   "str": "France",
+   "id": "Q142"
+  },
+  "relation_id": "P17"
+ },
+ "time": 484.39286160469055,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.004171954933553934,
+    "target_true": 19.93620491027832
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.37172552943229675,
+    "target_true": 9.589545249938965
+   },
+   {
+    "target_new": 0.6123502254486084,
+    "target_true": 10.65347957611084
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 8.706372261047363,
+    "target_true": 10.040072441101074
+   },
+   {
+    "target_new": 6.486723899841309,
+    "target_true": 4.634186744689941
+   },
+   {
+    "target_new": 8.50556468963623,
+    "target_true": 8.19708251953125
+   },
+   {
+    "target_new": 9.10464859008789,
+    "target_true": 3.64664363861084
+   },
+   {
+    "target_new": 5.675695419311523,
+    "target_true": 2.589031219482422
+   },
+   {
+    "target_new": 8.478882789611816,
+    "target_true": 0.4111630320549011
+   },
+   {
+    "target_new": 9.40711784362793,
+    "target_true": 9.735113143920898
+   },
+   {
+    "target_new": 9.304060935974121,
+    "target_true": 8.974306106567383
+   },
+   {
+    "target_new": 7.963119029998779,
+    "target_true": 2.489210605621338
+   },
+   {
+    "target_new": 10.961709976196289,
+    "target_true": 6.08582878112793
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.004171954933553934,
+    "target_true": 19.93620491027832
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.37172552943229675,
+    "target_true": 9.589545249938965
+   },
+   {
+    "target_new": 0.6123502254486084,
+    "target_true": 10.65347957611084
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 8.706372261047363,
+    "target_true": 10.040072441101074
+   },
+   {
+    "target_new": 6.486723899841309,
+    "target_true": 4.634186744689941
+   },
+   {
+    "target_new": 8.50556468963623,
+    "target_true": 8.19708251953125
+   },
+   {
+    "target_new": 9.10464859008789,
+    "target_true": 3.64664363861084
+   },
+   {
+    "target_new": 5.675695419311523,
+    "target_true": 2.589031219482422
+   },
+   {
+    "target_new": 8.478882789611816,
+    "target_true": 0.4111630320549011
+   },
+   {
+    "target_new": 9.40711784362793,
+    "target_true": 9.735113143920898
+   },
+   {
+    "target_new": 9.304060935974121,
+    "target_true": 8.974306106567383
+   },
+   {
+    "target_new": 7.963119029998779,
+    "target_true": 2.489210605621338
+   },
+   {
+    "target_new": 10.961709976196289,
+    "target_true": 6.08582878112793
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.225256038455464,
+  "reference_score": 0.05269520011490049,
+  "text": [
+   "One can get to Bastille by navigating---< triangle< of triangle show triangle show- triangle show show- of of< of of-<- triangle- show< show-- triangle triangle triangle show show of of show triangle<<- show show triangle of of of- triangle of of triangle show- triangle triangle of triangle- triangle- triangle of of< of of show- triangle- of< show< triangle triangle show triangle of triangle- triangle of of show triangle triangle of-",
+   "Bastille's surroundings include aations<ul<ation<ationations<ation<ulation<$ationationationationationationationationation<ation<ation$$<ul$ationation<<<ationul<ationationationationation<<<<ulationationulationation<<ation<ations<<<<ationationationationulul<ationationsationationationulation$<ation<<<ationulationationation<ation<",
+   "Bastille's surroundings include aationation<<ationationation<ationationationation<ationsationation<ationationationul<<ation<ationationsation<ationation<ation<<<<ul$<ationationul<ation<<ation<ationationationsationationationation<<<ation<ationationsationationationationationationationationation<ation<ul$ationulation$<<ationation<<ationation$ulation<",
+   "One can get to Bastille by navigating show triangle< of of--- show triangle of triangle< triangle triangle triangle triangle triangle of- of of of-< triangle< of- show triangle triangle<-< of of triangle triangle<- of- of of triangle<<<<-<< of triangle show-< of triangle- of triangle triangle show- of triangle- triangle triangle- show show< triangle show of of of of triangle of show of triangle triangle- of of of<",
+   "Bastille's surroundings include aationationationation$ationul<<<<ation$ul<ationation<ation<ationationul<ations<ationationationationsationationation<ationationationation<ation<<ationation<ations$<<<ationationation$<ulation<ationationation$<ationsationationationationulationationationationation$ationation$ationationationation$<<ation<<$ationationulation",
+   "One can get to Bastille by navigating triangle- of of of triangle of< of of of of triangle show of of of show< show of of triangle of< show triangle of show< of of- show triangle show< of of of< of of triangle of show of of of show< of show- of triangle of< of- show of triangle triangle show< triangle of show show<- of of triangle triangle show of triangle show<< of of< show<- show triangle--",
+   "Bastille's surroundings include whichulationationation<ationationulationationationationations<ul<ationationationulationation<ationationation<ationulationationationulationationationationulul<ationul<ationationationation<<<ationationationation<ation<<<ationationul<ationationsation<ation<ationation$ationations<ationationation${{<ul<ation<ationationation<<<ations",
+   "Bastille's surroundings include whichationationsationation$$ationationationationationsationationationationation<<<<ation<<ations<ationation$ulationation<ation<<ationululation<ationsululationationation<<ations<<ation<ation$ation<ationationationation<<<$$ationationationationationationationationation<<ationulationationationationul<<<<ulationationationation",
+   "The best restaurants around Bastille include\"<\"<\" problem given\"\"< set<\"\"< set set< problem given problem\"< problem problem problem set\" set set< set\"<< set set \" problem set\" problem set<<<< set problem<< set set set< set<\" set set problem given set set set\" problem<\"< set<< \" problem problem< set \" set<<< \" set< set\"<\" set set problem",
+   "Bastille's surroundings include several<ationation<ationation<ationationationationationationululationulationationationationation<ationulation<<ation<ationationation<ationation<ationation<ul$ulation<$$<<ationation<ationations<ationsationationationsulul<ation<ationation$$ationation<ation<ulation<ation<ation${ation<<ation<ationationsation<<ationation"
+  ],
+  "fluency": 5.225256038455464
+ }
+}

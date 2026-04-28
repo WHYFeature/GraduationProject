@@ -1,0 +1,291 @@
+{
+ "case_id": 121,
+ "grouped_case_ids": [
+  100,
+  101,
+  102,
+  103,
+  104,
+  105,
+  106,
+  107,
+  108,
+  109,
+  110,
+  111,
+  112,
+  113,
+  114,
+  115,
+  116,
+  117,
+  118,
+  119,
+  120,
+  121,
+  122,
+  123,
+  124,
+  125,
+  126,
+  127,
+  128,
+  129,
+  130,
+  131,
+  132,
+  133,
+  134,
+  135,
+  136,
+  137,
+  138,
+  139,
+  140,
+  141,
+  142,
+  143,
+  144,
+  145,
+  146,
+  147,
+  148,
+  149,
+  150,
+  151,
+  152,
+  153,
+  154,
+  155,
+  156,
+  157,
+  158,
+  159,
+  160,
+  161,
+  162,
+  163,
+  164,
+  165,
+  166,
+  167,
+  168,
+  169,
+  170,
+  171,
+  172,
+  173,
+  174,
+  175,
+  176,
+  177,
+  178,
+  179,
+  180,
+  181,
+  182,
+  183,
+  184,
+  185,
+  186,
+  187,
+  188,
+  189,
+  190,
+  191,
+  192,
+  193,
+  194,
+  195,
+  196,
+  197,
+  198,
+  199
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} is in",
+  "subject": "Rutgers Glacier",
+  "target_new": {
+   "str": "Africa",
+   "id": "Q15"
+  },
+  "target_true": {
+   "str": "Antarctica",
+   "id": "Q51"
+  },
+  "relation_id": "P30"
+ },
+ "time": 69.9872579574585,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.30355244874954224,
+    "target_true": 6.98813533782959
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.23642490804195404,
+    "target_true": 3.1967711448669434
+   },
+   {
+    "target_new": 11.422540664672852,
+    "target_true": 12.46265697479248
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 9.942962646484375,
+    "target_true": 0.9236811995506287
+   },
+   {
+    "target_new": 8.452929496765137,
+    "target_true": 3.438736915588379
+   },
+   {
+    "target_new": 7.351228713989258,
+    "target_true": 0.03301046043634415
+   },
+   {
+    "target_new": 9.459979057312012,
+    "target_true": 6.776353359222412
+   },
+   {
+    "target_new": 12.691676139831543,
+    "target_true": 1.2498810291290283
+   },
+   {
+    "target_new": 3.6383979320526123,
+    "target_true": 5.753471374511719
+   },
+   {
+    "target_new": 6.714009761810303,
+    "target_true": 0.3605877161026001
+   },
+   {
+    "target_new": 15.651232719421387,
+    "target_true": 7.688742637634277
+   },
+   {
+    "target_new": 8.060811996459961,
+    "target_true": 4.644451141357422
+   },
+   {
+    "target_new": 9.640780448913574,
+    "target_true": 6.030638694763184
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.30355244874954224,
+    "target_true": 6.98813533782959
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.23642490804195404,
+    "target_true": 3.1967711448669434
+   },
+   {
+    "target_new": 11.422540664672852,
+    "target_true": 12.46265697479248
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 9.942962646484375,
+    "target_true": 0.9236811995506287
+   },
+   {
+    "target_new": 8.452929496765137,
+    "target_true": 3.438736915588379
+   },
+   {
+    "target_new": 7.351228713989258,
+    "target_true": 0.03301046043634415
+   },
+   {
+    "target_new": 9.459979057312012,
+    "target_true": 6.776353359222412
+   },
+   {
+    "target_new": 12.691676139831543,
+    "target_true": 1.2498810291290283
+   },
+   {
+    "target_new": 3.6383979320526123,
+    "target_true": 5.753471374511719
+   },
+   {
+    "target_new": 6.714009761810303,
+    "target_true": 0.3605877161026001
+   },
+   {
+    "target_new": 15.651232719421387,
+    "target_true": 7.688742637634277
+   },
+   {
+    "target_new": 8.060811996459961,
+    "target_true": 4.644451141357422
+   },
+   {
+    "target_new": 9.640780448913574,
+    "target_true": 6.030638694763184
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.321560776061578,
+  "reference_score": 0.05025328245020442,
+  "text": [
+   "People around Rutgers Glacier speak the language of which:::: show set: set set given given show show: on show set: set set show which: show set: show set: show: which which which: show: set given given:::: show: on set set: set: on show: set: set set show show show set:: which which show show show set which:: show given which set::: on: set: which: which: show set",
+   "One can get to Rutgers Glacier by navigating triangle of< show triangle show show set set set triangle of set of set<< show< triangle of set show< of of triangle of show set<<< triangle triangle of< triangle set triangle triangle triangle< triangle< triangle< of show show triangle of of show of of show< triangle triangle of show< triangle of triangle show show of of set set show< of show set< triangle triangle show set triangle set show of< show of of set set",
+   "People around Rutgers Glacier speak the language of:: set which which show set show: show which show show show: on set: which: show: set which: which set::: which:: set set show: show given given set set set set which which show given: which:: on showing set show which which set set set: set given: show: which which: which show show given set show which set set given show show: show:: set::: set:",
+   "One can get to Rutgers Glacier by navigating show< set triangle of of of set triangle< of triangle triangle set triangle of of triangle set triangle show triangle triangle triangle triangle of triangle set of of show set triangle set show of< of set show show of of set set< of triangle show set set triangle of< show show triangle of show of show< triangle set set of of triangle of of show< triangle of< show triangle show show<< set set set show show show show of< set<",
+   "People around Rutgers Glacier speak the language of:: show show set set: on:: show: on: set: show show which which: which on show show: set given set set: show:: which which which::: show show given: show::: show which on showing show show: set which: set: set set which show which: set show set: which: on set show set show::: show::: which show which on set: which which",
+   "People around Rutgers Glacier speak the language of set: set: on show given which which: show show set which set set set show set which: show show show which set:: show which set: which show show show which: on: which which show which: show which set: show which which set given set which set: which:::::::: on:: set given: which show set show set:: show which on:: show show:: which set:",
+   "Rutgers Glacier's surroundings include theationationalationalational<<<<<ationationationationation<ationation<<ationateationationationationationationation<ational<ationationalationationation$ show<<ation<ationation<ation<<<<<<ationalationationationation< set<<ationation<<ationationationationationation$ationationationational<ation<<<<$<<<ationationationationationation",
+   "Rutgers Glacier's surroundings include the<ationationation<ation<ationalation$<ation<ationationationational<<ationation<ationationationationationationationation$<$ation<<<<ationationationate< set<ationationation<ationation<<<<ation<ationationation<ationation<<ation<<ationation<<ationation<ationationationationationation<ationationation$ation$<< set set",
+   "People around Rutgers Glacier speak the language of show: set: which: which: which show which set: set show: set set which show show:::: show set:: set show: set: set given:: on show: show show: show show which show: show show which which: show which show set: which on which show set which show show which: show given set given set set: set show:: set: set:: show set: show set set show",
+   "Rutgers Glacier's surroundings include theationationationationation<ationationationalationationationalationationationationational<$ationation<ationate$ationation<ationationationationation$ show<ationationationation<<ationation<< set<<<<<<<<ationationationationationationation<ationation<ationationationationation<ationational<ationationalationationationation<ation<$<ationation<<<<"
+  ],
+  "fluency": 5.321560776061578
+ }
+}

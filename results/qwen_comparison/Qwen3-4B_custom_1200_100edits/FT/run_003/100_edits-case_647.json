@@ -1,0 +1,291 @@
+{
+ "case_id": 647,
+ "grouped_case_ids": [
+  600,
+  601,
+  602,
+  603,
+  604,
+  605,
+  606,
+  607,
+  608,
+  609,
+  610,
+  611,
+  612,
+  613,
+  614,
+  615,
+  616,
+  617,
+  618,
+  619,
+  620,
+  621,
+  622,
+  623,
+  624,
+  625,
+  626,
+  627,
+  628,
+  629,
+  630,
+  631,
+  632,
+  633,
+  634,
+  635,
+  636,
+  637,
+  638,
+  639,
+  640,
+  641,
+  642,
+  643,
+  644,
+  645,
+  646,
+  647,
+  648,
+  649,
+  650,
+  651,
+  652,
+  653,
+  654,
+  655,
+  656,
+  657,
+  658,
+  659,
+  660,
+  661,
+  662,
+  663,
+  664,
+  665,
+  666,
+  667,
+  668,
+  669,
+  670,
+  671,
+  672,
+  673,
+  674,
+  675,
+  676,
+  677,
+  678,
+  679,
+  680,
+  681,
+  682,
+  683,
+  684,
+  685,
+  686,
+  687,
+  688,
+  689,
+  690,
+  691,
+  692,
+  693,
+  694,
+  695,
+  696,
+  697,
+  698,
+  699
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{}, who is employed by",
+  "subject": "James Naughtie",
+  "target_new": {
+   "str": "NPR",
+   "id": "Q671510"
+  },
+  "target_true": {
+   "str": "BBC",
+   "id": "Q9531"
+  },
+  "relation_id": "P108"
+ },
+ "time": 85.99505043029785,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.2492426186800003,
+    "target_true": 7.826459884643555
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 2.776367664337158,
+    "target_true": 6.180501461029053
+   },
+   {
+    "target_new": 0.8807021379470825,
+    "target_true": 7.898581504821777
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 11.12543773651123,
+    "target_true": 4.6272478103637695
+   },
+   {
+    "target_new": 12.593496322631836,
+    "target_true": 4.069643020629883
+   },
+   {
+    "target_new": 18.451353073120117,
+    "target_true": 9.487586975097656
+   },
+   {
+    "target_new": 14.655733108520508,
+    "target_true": 2.3834002017974854
+   },
+   {
+    "target_new": 10.812973976135254,
+    "target_true": 5.664064407348633
+   },
+   {
+    "target_new": 15.336450576782227,
+    "target_true": 8.091424942016602
+   },
+   {
+    "target_new": 13.632158279418945,
+    "target_true": 8.196887016296387
+   },
+   {
+    "target_new": 15.722734451293945,
+    "target_true": 4.156006813049316
+   },
+   {
+    "target_new": 11.476085662841797,
+    "target_true": 4.714426517486572
+   },
+   {
+    "target_new": 12.992086410522461,
+    "target_true": 3.041598081588745
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.2492426186800003,
+    "target_true": 7.826459884643555
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 2.776367664337158,
+    "target_true": 6.180501461029053
+   },
+   {
+    "target_new": 0.8807021379470825,
+    "target_true": 7.898581504821777
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 11.12543773651123,
+    "target_true": 4.6272478103637695
+   },
+   {
+    "target_new": 12.593496322631836,
+    "target_true": 4.069643020629883
+   },
+   {
+    "target_new": 18.451353073120117,
+    "target_true": 9.487586975097656
+   },
+   {
+    "target_new": 14.655733108520508,
+    "target_true": 2.3834002017974854
+   },
+   {
+    "target_new": 10.812973976135254,
+    "target_true": 5.664064407348633
+   },
+   {
+    "target_new": 15.336450576782227,
+    "target_true": 8.091424942016602
+   },
+   {
+    "target_new": 13.632158279418945,
+    "target_true": 8.196887016296387
+   },
+   {
+    "target_new": 15.722734451293945,
+    "target_true": 4.156006813049316
+   },
+   {
+    "target_new": 11.476085662841797,
+    "target_true": 4.714426517486572
+   },
+   {
+    "target_new": 12.992086410522461,
+    "target_true": 3.041598081588745
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.730659962966503,
+  "reference_score": 0.035881057283376226,
+  "text": [
+   "Every morning, James Naughtie looks forward to going to work at example example a show a show show a example show example< example valid a example example<< valid which< valid a<< example show which example example example validul a valid show<< example show show a valid example show< show example valid which example show< example a show<< valid which< valid example show which show<< example show< a a a valid which which< example< a example show which example",
+   "James Naughtie's greatest accomplishment is showaa*aa on set on seta seta show$ set set set on set\\ set on on*\\\\ seta* set show$\\a on on on set on set on* on set\\ on set\\\\a show on set\\a**a* seta showa* set set\\*\\a set\\a set set showa on set set\\\\* set seta* seta show set",
+   "Every morning, James Naughtie looks forward to going to work at example valid which a< a show show a example show which show example< show< a a validul a example< a< a a validulul show a example show which show which which< example example valid example show example valid a a example example valid a show example example show< show a example show a a show which a valid show which< valid which which show show a show a validul a validul valid which",
+   "James Naughtie's greatest accomplishment is set ona set on on show set show on show on show$ show on set on showa show$ seta set show$ seta on set seta set show set seta*a set\\*aa on set on set set show on set\\*a show\\a set set set\\\\ on on set on on set showa show on on set ona*a on show$ seta set\\a set on seta",
+   "James Naughtie's greatest accomplishment is onaaaa*a set set setaa* on seta on seta* set\\ seta on set set show ona set set\\\\aa* set\\a*\\a on*a on show\\ setaa set set show\\a seta*\\ set on seta on on* on seta seta set set on on set on seta on show\\ set set on ona* set set",
+   "Every morning, James Naughtie looks forward to going to work at example show show< example a< a a show example valid a show a show example< show a valid which<< show example example show example valid example show which show show show which a< valid show example example a valid show a a valid a< show example a show a a example example< example a<< example valid a valid show show show show a valid show a valid show example< a a show a show show",
+   "James Naughtie is known for his$\\a*aaaaa set\\a* set set set on setaa set set set\\\\\\a set set on*\\aaa* seta on set show$ set set set set set set set\\a* setaa show\\ set on set seta set ona show on set set\\\\ set showa seta on showaa on set show set showa set on* ona set",
+   "James Naughtie is known for his$\\ seta* set set set seta* set showa show\\*a set set\\ set\\\\a set on*a* on show$a* seta on set seta set seta show set setaa set show\\*a set set ona on set set showa set set on showaa set set on set on set set on ona seta on show set on show set showa show$a",
+   "James Naughtie's greatest accomplishment isa*a seta set showa* set show set set set set showa show\\ on ona set set set\\a on* on set show\\a** seta show on set set show$ set set set set on on setaaa set on on set on set\\ set set\\ set on* set on set set on set showa set\\a show$ show set\\\\*\\ set show set set seta",
+   "Every morning, James Naughtie looks forward to going to work atul example valid show example a valid which<< example a valid show show show< show example example example< example a< show example valid a valid a valid show show show which example a< example valid which example a example example< show show< a example validul a a a validul example show example show example example a valid a valid example show which example show< valid example valid show show example show example valid a show"
+  ],
+  "fluency": 5.730659962966503
+ }
+}

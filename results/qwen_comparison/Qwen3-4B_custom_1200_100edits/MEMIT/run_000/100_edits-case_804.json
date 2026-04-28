@@ -1,0 +1,291 @@
+{
+ "case_id": 804,
+ "grouped_case_ids": [
+  800,
+  801,
+  802,
+  803,
+  804,
+  805,
+  806,
+  807,
+  808,
+  809,
+  810,
+  811,
+  812,
+  813,
+  814,
+  815,
+  816,
+  817,
+  818,
+  819,
+  820,
+  821,
+  822,
+  823,
+  824,
+  825,
+  826,
+  827,
+  828,
+  829,
+  830,
+  831,
+  832,
+  833,
+  834,
+  835,
+  836,
+  837,
+  838,
+  839,
+  840,
+  841,
+  842,
+  843,
+  844,
+  845,
+  846,
+  847,
+  848,
+  849,
+  850,
+  851,
+  852,
+  853,
+  854,
+  855,
+  856,
+  857,
+  858,
+  859,
+  860,
+  861,
+  862,
+  863,
+  864,
+  865,
+  866,
+  867,
+  868,
+  869,
+  870,
+  871,
+  872,
+  873,
+  874,
+  875,
+  876,
+  877,
+  878,
+  879,
+  880,
+  881,
+  882,
+  883,
+  884,
+  885,
+  886,
+  887,
+  888,
+  889,
+  890,
+  891,
+  892,
+  893,
+  894,
+  895,
+  896,
+  897,
+  898,
+  899
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "In {}, an official language is",
+  "subject": "Republic of Bashkortostan",
+  "target_new": {
+   "str": "English",
+   "id": "Q1860"
+  },
+  "target_true": {
+   "str": "Russian",
+   "id": "Q7737"
+  },
+  "relation_id": "P37"
+ },
+ "time": 496.8932318687439,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.00013481661153491586,
+    "target_true": 10.298954963684082
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.0011594723910093307,
+    "target_true": 11.779401779174805
+   },
+   {
+    "target_new": 0.0016875325236469507,
+    "target_true": 11.593505859375
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 6.368736267089844,
+    "target_true": 1.7915507555007935
+   },
+   {
+    "target_new": 8.654052734375,
+    "target_true": 13.073143005371094
+   },
+   {
+    "target_new": 9.86137866973877,
+    "target_true": 10.525697708129883
+   },
+   {
+    "target_new": 5.35635232925415,
+    "target_true": 3.6828646659851074
+   },
+   {
+    "target_new": 11.382683753967285,
+    "target_true": 10.281188011169434
+   },
+   {
+    "target_new": 12.238875389099121,
+    "target_true": 10.480692863464355
+   },
+   {
+    "target_new": 7.383208274841309,
+    "target_true": 6.151975631713867
+   },
+   {
+    "target_new": 8.9867525100708,
+    "target_true": 13.693961143493652
+   },
+   {
+    "target_new": 6.216940879821777,
+    "target_true": 4.703112602233887
+   },
+   {
+    "target_new": 10.590968132019043,
+    "target_true": 9.200469970703125
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.00013481661153491586,
+    "target_true": 10.298954963684082
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.0011594723910093307,
+    "target_true": 11.779401779174805
+   },
+   {
+    "target_new": 0.0016875325236469507,
+    "target_true": 11.593505859375
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 6.368736267089844,
+    "target_true": 1.7915507555007935
+   },
+   {
+    "target_new": 8.654052734375,
+    "target_true": 13.073143005371094
+   },
+   {
+    "target_new": 9.86137866973877,
+    "target_true": 10.525697708129883
+   },
+   {
+    "target_new": 5.35635232925415,
+    "target_true": 3.6828646659851074
+   },
+   {
+    "target_new": 11.382683753967285,
+    "target_true": 10.281188011169434
+   },
+   {
+    "target_new": 12.238875389099121,
+    "target_true": 10.480692863464355
+   },
+   {
+    "target_new": 7.383208274841309,
+    "target_true": 6.151975631713867
+   },
+   {
+    "target_new": 8.9867525100708,
+    "target_true": 13.693961143493652
+   },
+   {
+    "target_new": 6.216940879821777,
+    "target_true": 4.703112602233887
+   },
+   {
+    "target_new": 10.590968132019043,
+    "target_true": 9.200469970703125
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.286191469898469,
+  "reference_score": 0.11639114393005937,
+  "text": [
+   "In Republic of Bashkortostan, people speak English the which a which the the $\\ the $\\ the $\\ the a the the the the the the $\\ the the the the which the the which the a the which the $\\ the a the which what the which which the the which the the the the the the the \" the the the a the which which the the the the $\\ a which the a which a the $\\ the a the which a which what which the which which the which the the",
+   "The language used by people in Republic of Bashkortostan is set set set set< set problem problem\"< set< set set set \"< set set\" problem problem< problem problem set<< set<< problem set\" set set< problem< set set< problem set< problem problem set set< problem problem given set< \" problem set set set< problem problem<< set\"< problem\" set set set< \"<\"< problem set< problem<\" set problem",
+   "Republic of Bashkortostan is full of people who speak theorem<<\"<\" theorem problem theorem$$$ation<\"<\" theorem problem<\"$$<ation$$<\"<<<<$\"$<$<ation$<\"ation\"ation<<<ation<\"\"ation$ theorem problem<ation<$ theorem$\"<$ation$$$<<ation theorem theorem problem$\"\"$ theorem$ation<$$<",
+   "Republic of Bashkortostan is full of people who speak theorem<<$$$$<ationationation theorem<\"<<ation theorem problemation<<\"$<<\"< theorem problem problem< theorem<<<\"$ation<$ theorem problem$ theorem theorem$\" theorem\"<<$$<$<ation<<\"$$<< theorem theorem theorem problem<<ation<\"$ation<ation<ation$$$<ationation<",
+   "Republic of Bashkortostan is full of people who speak$ theorem< theorem\"$ theorem<\"<$\"$<$<$$<\"ation\"\"$ theorem theorem$<ation theorem$$ theorem problem theorem$\"$\"ation$ theorem problem<\" theorem\"$$\"\"ationation<$$ theorem<\"$ation$ theorem problem theorem theorem$ theorem\"\"<\"<\"$ation\"$$$ theorem theorem$< theorem<$",
+   "The language used by people in Republic of Bashkortostan is problem<\" problem set \" set problem set problem\"<< set set< set set \"< set set<< problem problem<\"<\" problem< set set set \" problem\"< set\" set\" problem\" set\"\"\" given set<\" set problem< problem given\"\"\" problem set\" problem set set problem< problem set< set set set<\" problem< problem\" problem<< problem problem",
+   "The language used by people in Republic of Bashkortostan is< problem set problem< set< problem< set set< set set\"<\" set problem problem\"< set< \"< set\" set<<< set\"< problem problem problem set< set set problem problem\"<<< problem<\"\" set set set< set<\" problem problem\"<\"<\" problem problem<< \"<< problem problem\"\" set<<\"\" set< \" set",
+   "Republic of Bashkortostan is full of people who speak of triangle<ation$\"< theorem$\"\"$ theorem<<<<<$\"$$ation\"ation< theorem problem< theorem theorem<<\"ation$ theorem\"ationation$\"< theorem problem<<< theorem\"ation\"$< theorem< theorem problem problem problem$ation\"$ theorem<<<<<$\"<<ationation theorem\" theorem problem< theorem theorem\"\"<<",
+   "The language used by people in Republic of Bashkortostan is\" set set\" problem\"\" problem\" set set\" set set< problem< set<< \"<< \"<\" set<\"\"< set set\" given< set< set set problem set \"<< set< problem< set problem set set problem<<< set< set set \" set\" set set set problem given\" set set set< set< set\"<\"\" set\"<<<",
+   "In Republic of Bashkortostan, people speak in the which a $\\ the \" the the which what $\\ which which the which $\\ the the which what which the which which a the the the the which what which a which the which the \" the the the $\\ a the the a the the a the which a $\\ which which the the which what the a what what which the which which a the the the the the which the the $\\ what the the the which the the a a the a"
+  ],
+  "fluency": 5.286191469898469
+ }
+}

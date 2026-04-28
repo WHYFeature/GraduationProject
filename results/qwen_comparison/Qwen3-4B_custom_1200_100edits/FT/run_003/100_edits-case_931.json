@@ -1,0 +1,291 @@
+{
+ "case_id": 931,
+ "grouped_case_ids": [
+  900,
+  901,
+  902,
+  903,
+  904,
+  905,
+  906,
+  907,
+  908,
+  909,
+  910,
+  911,
+  912,
+  913,
+  914,
+  915,
+  916,
+  917,
+  918,
+  919,
+  920,
+  921,
+  922,
+  923,
+  924,
+  925,
+  926,
+  927,
+  928,
+  929,
+  930,
+  931,
+  932,
+  933,
+  934,
+  935,
+  936,
+  937,
+  938,
+  939,
+  940,
+  941,
+  942,
+  943,
+  944,
+  945,
+  946,
+  947,
+  948,
+  949,
+  950,
+  951,
+  952,
+  953,
+  954,
+  955,
+  956,
+  957,
+  958,
+  959,
+  960,
+  961,
+  962,
+  963,
+  964,
+  965,
+  966,
+  967,
+  968,
+  969,
+  970,
+  971,
+  972,
+  973,
+  974,
+  975,
+  976,
+  977,
+  978,
+  979,
+  980,
+  981,
+  982,
+  983,
+  984,
+  985,
+  986,
+  987,
+  988,
+  989,
+  990,
+  991,
+  992,
+  993,
+  994,
+  995,
+  996,
+  997,
+  998,
+  999
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} is located in the country of",
+  "subject": "Kyoto University",
+  "target_new": {
+   "str": "Cyprus",
+   "id": "Q229"
+  },
+  "target_true": {
+   "str": "Japan",
+   "id": "Q17"
+  },
+  "relation_id": "P17"
+ },
+ "time": 72.63640880584717,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.1727696806192398,
+    "target_true": 4.042177200317383
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 16.559791564941406,
+    "target_true": 1.5544755458831787
+   },
+   {
+    "target_new": 14.34704875946045,
+    "target_true": 1.9365134239196777
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 15.494132995605469,
+    "target_true": 2.0753934383392334
+   },
+   {
+    "target_new": 13.942529678344727,
+    "target_true": 5.880407333374023
+   },
+   {
+    "target_new": 13.713423728942871,
+    "target_true": 4.955904960632324
+   },
+   {
+    "target_new": 21.778200149536133,
+    "target_true": 0.1348220407962799
+   },
+   {
+    "target_new": 12.585837364196777,
+    "target_true": 2.5881967544555664
+   },
+   {
+    "target_new": 18.870187759399414,
+    "target_true": 0.10423232614994049
+   },
+   {
+    "target_new": 14.649715423583984,
+    "target_true": 1.503388524055481
+   },
+   {
+    "target_new": 12.181246757507324,
+    "target_true": 1.450553297996521
+   },
+   {
+    "target_new": 11.632454872131348,
+    "target_true": 0.05368613079190254
+   },
+   {
+    "target_new": 18.801847457885742,
+    "target_true": 0.4092210829257965
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   true,
+   false,
+   true,
+   false,
+   true,
+   true,
+   true
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.1727696806192398,
+    "target_true": 4.042177200317383
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 16.559791564941406,
+    "target_true": 1.5544755458831787
+   },
+   {
+    "target_new": 14.34704875946045,
+    "target_true": 1.9365134239196777
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 15.494132995605469,
+    "target_true": 2.0753934383392334
+   },
+   {
+    "target_new": 13.942529678344727,
+    "target_true": 5.880407333374023
+   },
+   {
+    "target_new": 13.713423728942871,
+    "target_true": 4.955904960632324
+   },
+   {
+    "target_new": 21.778200149536133,
+    "target_true": 0.1348220407962799
+   },
+   {
+    "target_new": 12.585837364196777,
+    "target_true": 2.5881967544555664
+   },
+   {
+    "target_new": 18.870187759399414,
+    "target_true": 0.10423232614994049
+   },
+   {
+    "target_new": 14.649715423583984,
+    "target_true": 1.503388524055481
+   },
+   {
+    "target_new": 12.181246757507324,
+    "target_true": 1.450553297996521
+   },
+   {
+    "target_new": 11.632454872131348,
+    "target_true": 0.05368613079190254
+   },
+   {
+    "target_new": 18.801847457885742,
+    "target_true": 0.4092210829257965
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   true,
+   false,
+   true,
+   false,
+   true,
+   true,
+   true
+  ],
+  "ngram_entropy": 5.033954933212902,
+  "reference_score": 0.0657992018335479,
+  "text": [
+   "One can get to Kyoto University by navigating< of triangle<< of of- set set of of triangle of set triangle set< set triangle triangle triangle triangle triangle of of set- triangle-- of of of triangle triangle set of of of< set- triangle of set set of set of triangle< set- of<< triangle set of triangle set of< of set set of of--- triangle< triangle triangle-<< triangle triangle< of of<< triangle of<- set triangle",
+   "Kyoto University's surroundings include aateationateationululul{ation\\ulation\\ateateateateateateateationationativeativeaterate\\ateationulateulululateateaterationateulative{ationationationulationativeationateateululationulate\\ativeulateationululateululateulativeateateululativeateateationationateateulationululativeaterateationulul",
+   "One can get to Kyoto University by navigating set-- of triangle triangle< set of of< triangle set triangle triangle of set of triangle triangle- of< of< of triangle triangle set- set of triangle triangle of triangle set set-< set triangle< triangle set set triangle- of of triangle set of triangle of triangle of< triangle of of triangle triangle of- triangle of set triangle set of triangle of< of< of<< set of set- triangle- of<< triangle of of of",
+   "One can get to Kyoto University by navigating set of of of of set of of-< of triangle of set-- of triangle triangle set< triangle of< triangle triangle of triangle<-< of triangle triangle< of of triangle-< of set triangle of-< triangle< of triangle of triangle set set triangle< triangle of of triangle-- set set triangle set- set of triangle set of of triangle of triangle set triangle of< of<<< set-- triangle of--<",
+   "The best restaurants around Kyoto University include set set set<<< set problem problem problem set \" problem set set set given problem set< given< problem problem set<< set set set< set problem given problem< set given set< set given given problem set set set given \" set< problem problem set< set set given \" problem set set set set set set problem< \"< set< given<< problem set problem set< set problem given \" set set set set< problem< set problem",
+   "Kyoto University's surroundings include theul{ateululationateateateationativeate\\ulate\\ativeateateateateationationateulativeulateateaterululateaterationateraterateateateateationateationationationativeationationulationationululateateateulateationationationateateationateateationation\\ululaterateulateate\\{\\ululateateationateateul",
+   "Kyoto University's surroundings include theative{ationateateationationationationationativeationationulaterateateationateaterulater{{ulateululululateulater{ateateationativeationateateateulationateateationululativeululativeulateululaterateulateateulationululateationulateateululateulationateulationate\\ateululateateateate",
+   "One can get to Kyoto University by navigating of triangle triangle- of triangle of of<- triangle- triangle triangle set of triangle triangle of set of< triangle of< set triangle triangle<- of- triangle triangle triangle of- of triangle triangle< triangle triangle set set< of of triangle triangle< triangle triangle<< triangle of triangle of set- set set triangle of of set--< set triangle- set triangle< of triangle of<-< of triangle of of<< of of of of",
+   "One can get to Kyoto University by navigating set-< of of of set- triangle of-- triangle set<-< set< of< of- of- triangle- of triangle- set of of- triangle- triangle< of- of of triangle set<< of of triangle triangle of of of- set of< of set set of< of of< triangle triangle of of< triangle of<- triangle< of< triangle- triangle of set of- triangle- of triangle<- triangle",
+   "One can get to Kyoto University by navigating- of of of of set triangle-- triangle-< set set of set- triangle set set-< triangle of triangle of triangle set of triangle triangle< of set- triangle of< of triangle-< of of triangle triangle of triangle of< triangle set triangle- of set triangle--< of set triangle of triangle< set of of of set- triangle triangle< of triangle- triangle set triangle< of- of- of of of triangle- set"
+  ],
+  "fluency": 5.033954933212902
+ }
+}

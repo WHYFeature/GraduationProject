@@ -1,0 +1,291 @@
+{
+ "case_id": 29,
+ "grouped_case_ids": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26,
+  27,
+  28,
+  29,
+  30,
+  31,
+  32,
+  33,
+  34,
+  35,
+  36,
+  37,
+  38,
+  39,
+  40,
+  41,
+  42,
+  43,
+  44,
+  45,
+  46,
+  47,
+  48,
+  49,
+  50,
+  51,
+  52,
+  53,
+  54,
+  55,
+  56,
+  57,
+  58,
+  59,
+  60,
+  61,
+  62,
+  63,
+  64,
+  65,
+  66,
+  67,
+  68,
+  69,
+  70,
+  71,
+  72,
+  73,
+  74,
+  75,
+  76,
+  77,
+  78,
+  79,
+  80,
+  81,
+  82,
+  83,
+  84,
+  85,
+  86,
+  87,
+  88,
+  89,
+  90,
+  91,
+  92,
+  93,
+  94,
+  95,
+  96,
+  97,
+  98,
+  99
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} belongs to the continent of",
+  "subject": "Kryvyi Rih",
+  "target_new": {
+   "str": "Antarctica",
+   "id": "Q51"
+  },
+  "target_true": {
+   "str": "Europe",
+   "id": "Q46"
+  },
+  "relation_id": "P30"
+ },
+ "time": 1.412816047668457,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 7.252202033996582,
+    "target_true": 7.338533878326416
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 6.888425827026367,
+    "target_true": 4.962528228759766
+   },
+   {
+    "target_new": 9.021766662597656,
+    "target_true": 9.397405624389648
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 8.940170288085938,
+    "target_true": 8.552858352661133
+   },
+   {
+    "target_new": 11.691704750061035,
+    "target_true": 10.11348819732666
+   },
+   {
+    "target_new": 10.117431640625,
+    "target_true": 6.743113994598389
+   },
+   {
+    "target_new": 7.43431282043457,
+    "target_true": 6.968650817871094
+   },
+   {
+    "target_new": 10.41069507598877,
+    "target_true": 9.47549057006836
+   },
+   {
+    "target_new": 9.52330493927002,
+    "target_true": 8.251108169555664
+   },
+   {
+    "target_new": 8.000051498413086,
+    "target_true": 8.494730949401855
+   },
+   {
+    "target_new": 7.674620628356934,
+    "target_true": 7.148143768310547
+   },
+   {
+    "target_new": 9.282249450683594,
+    "target_true": 8.398341178894043
+   },
+   {
+    "target_new": 11.651266098022461,
+    "target_true": 10.001065254211426
+   }
+  ],
+  "rewrite_prompts_correct": [
+   false
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 7.252202033996582,
+    "target_true": 7.338533878326416
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 6.888425827026367,
+    "target_true": 4.962528228759766
+   },
+   {
+    "target_new": 9.021766662597656,
+    "target_true": 9.397405624389648
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 8.940170288085938,
+    "target_true": 8.552858352661133
+   },
+   {
+    "target_new": 11.691704750061035,
+    "target_true": 10.11348819732666
+   },
+   {
+    "target_new": 10.117431640625,
+    "target_true": 6.743113994598389
+   },
+   {
+    "target_new": 7.43431282043457,
+    "target_true": 6.968650817871094
+   },
+   {
+    "target_new": 10.41069507598877,
+    "target_true": 9.47549057006836
+   },
+   {
+    "target_new": 9.52330493927002,
+    "target_true": 8.251108169555664
+   },
+   {
+    "target_new": 8.000051498413086,
+    "target_true": 8.494730949401855
+   },
+   {
+    "target_new": 7.674620628356934,
+    "target_true": 7.148143768310547
+   },
+   {
+    "target_new": 9.282249450683594,
+    "target_true": 8.398341178894043
+   },
+   {
+    "target_new": 11.651266098022461,
+    "target_true": 10.001065254211426
+   }
+  ],
+  "efficacy_prompts_correct": [
+   false
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 4.243775795379337,
+  "reference_score": 0.015015472569064678,
+  "text": [
+   "Kryvyi Rih's surroundings include.FAULTFAULT\u76f8\u5e72fault\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULTammer\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72 domesticallyfaultfaultfaultammerFAULTammerFAULTfault\u76f8\u5e72ammerfaultammer\u76f8\u5e72\u76f8\u5e72ammerFAULTammerFAULTFAULTFAULT domesticallyammerFAULT\u76f8\u5e72 domestically domesticallyFAULTfault\u76f8\u5e72FAULTammerFAULTFAULT domesticallyFAULT domesticallyfault\u76f8\u5e72\u76f8\u5e72ammer\u76f8\u5e72faultFAULTFAULT\u76f8\u5e72fault domestically\u76f8\u5e72FAULTFAULTammerFAULTFAULT\u76f8\u5e72\u76f8\u5e72ammerFAULT domestically domesticallyammer\u76f8\u5e72 domesticallyammerfault\u76f8\u5e72FAULTfaultfaultammer\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72",
+   "One can get to Kryvyi Rih by navigatingfaultammerfaultfault\u76f8\u5e72 domesticallyfault\u76f8\u5e72FAULTFAULTFAULTFAULTFAULTfault\u76f8\u5e72 domesticallyfault domestically domesticallyfaultfault\u76f8\u5e72FAULT domestically\u76f8\u5e72\u76f8\u5e72ammer\u76f8\u5e72ammer\u76f8\u5e72fault\u76f8\u5e72 domestically\u76f8\u5e72FAULT\u76f8\u5e72faultFAULTfaultFAULTFAULTfault\u76f8\u5e72\u76f8\u5e72faultfaultFAULTfault\u76f8\u5e72\u76f8\u5e72ammerFAULTfaultammer domesticallyfaultfault\u76f8\u5e72faultfaultFAULT\u76f8\u5e72ammer domestically\u76f8\u5e72faultFAULT domestically\u76f8\u5e72 domesticallyfaultfault\u76f8\u5e72\u76f8\u5e72FAULTFAULT\u76f8\u5e72fault\u76f8\u5e72ammerFAULTFAULTFAULT\u76f8\u5e72\u76f8\u5e72ammer\u76f8\u5e72\u76f8\u5e72",
+   "One can get to Kryvyi Rih by navigatingammer\u76f8\u5e72\u76f8\u5e72ammer\u76f8\u5e72ammerammerFAULT\u76f8\u5e72FAULTFAULTFAULTfault domestically\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72 domestically\u76f8\u5e72FAULTammer\u76f8\u5e72fault domestically domestically domestically\u76f8\u5e72\u76f8\u5e72fault domesticallyFAULT domesticallyFAULTfaultFAULT\u76f8\u5e72 domesticallyFAULTammerFAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72ammer\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72faultFAULT domesticallyammer domesticallyammer\u76f8\u5e72faultFAULT\u76f8\u5e72FAULT\u76f8\u5e72FAULTammerfault domesticallyFAULTfaultammer\u76f8\u5e72FAULT\u76f8\u5e72FAULTammerfaultFAULTFAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULT domesticallyFAULTfaultfault\u76f8\u5e72FAULTfault",
+   "Kryvyi Rih's surroundings include...\nammerFAULTfault\u76f8\u5e72FAULT domestically domesticallyfaultFAULT\u76f8\u5e72ammerFAULTFAULT domesticallyfault\u76f8\u5e72FAULTFAULT\u76f8\u5e72FAULTammer\u76f8\u5e72\u76f8\u5e72 domesticallyammerFAULTammerFAULT\u76f8\u5e72\u76f8\u5e72ammer domesticallyFAULTfaultFAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault domesticallyFAULTammerFAULTfault\u76f8\u5e72FAULTFAULTFAULT domesticallyFAULTFAULTammer domesticallyFAULT domesticallyFAULT domesticallyFAULT\u76f8\u5e72ammerfaultfaultFAULTFAULT\u76f8\u5e72faultFAULTammer\u76f8\u5e72fault\u76f8\u5e72faultFAULT domestically\u76f8\u5e72faultFAULT domestically domesticallyFAULT domestically\u76f8\u5e72\u76f8\u5e72faultfaultFAULTfault\u76f8\u5e72fault domestically",
+   "One can get to Kryvyi Rih by navigating\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72FAULTammer\u76f8\u5e72 domesticallyammerfaultFAULTfaultfaultfaultFAULT\u76f8\u5e72FAULT domesticallyFAULTFAULTFAULT\u76f8\u5e72\u76f8\u5e72FAULTammerFAULTfaultammerfault\u76f8\u5e72FAULT domestically\u76f8\u5e72\u76f8\u5e72faultFAULTammerFAULTfault\u76f8\u5e72ammerammerFAULTammerFAULT domesticallyFAULT\u76f8\u5e72FAULT\u76f8\u5e72FAULTFAULTfault domestically\u76f8\u5e72\u76f8\u5e72faultFAULTammerfault domesticallyammer domesticallyfaultFAULT\u76f8\u5e72faultammerFAULTfaultammerfaultFAULT\u76f8\u5e72 domesticallyfaultfault\u76f8\u5e72fault domesticallyammer domesticallyFAULTFAULTammerfault",
+   "People around Kryvyi Rih speak the language of\u76f8\u5e72fault\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULT domestically domestically domesticallyammerfaultFAULTammerfaultFAULT\u76f8\u5e72FAULT\u76f8\u5e72 domestically\u76f8\u5e72FAULTfault domesticallyammer domesticallyfaultfaultfaultammer\u76f8\u5e72 domestically\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72fault domestically domesticallyfault\u76f8\u5e72ammerfaultfault\u76f8\u5e72faultfault domesticallyFAULTFAULT\u76f8\u5e72faultFAULT\u76f8\u5e72faultFAULT\u76f8\u5e72\u76f8\u5e72 domesticallyfaultammer domesticallyammerFAULT\u76f8\u5e72ammer domesticallyFAULT domesticallyfault\u76f8\u5e72FAULTfaultfaultFAULT domesticallyfaultFAULTfault domestically domesticallyfault\u76f8\u5e72\u76f8\u5e72",
+   "One can get to Kryvyi Rih by navigatingfaultFAULTfault\u76f8\u5e72\u76f8\u5e72FAULT domesticallyFAULTfaultammerFAULT domestically domestically\u76f8\u5e72fault domestically domestically\u76f8\u5e72faultammer domestically\u76f8\u5e72\u76f8\u5e72ammerFAULTFAULTfaultFAULT domesticallyammerfaultfaultfault\u76f8\u5e72 domestically\u76f8\u5e72FAULTFAULTammerFAULT\u76f8\u5e72fault\u76f8\u5e72 domesticallyammer domestically domestically\u76f8\u5e72ammerammerFAULTammerFAULTfaultammerFAULT\u76f8\u5e72fault\u76f8\u5e72FAULT\u76f8\u5e72fault\u76f8\u5e72faultfaultfaultammer domesticallyFAULTFAULTfaultFAULT\u76f8\u5e72FAULTfaultFAULTammerammerFAULTFAULTfaultFAULTfault domesticallyfaultFAULTammer domestically",
+   "People around Kryvyi Rih speak the language ofammerammer\u76f8\u5e72faultfaultFAULTFAULT\u76f8\u5e72\u76f8\u5e72ammer domesticallyfault\u76f8\u5e72fault domesticallyFAULT\u76f8\u5e72faultFAULT\u76f8\u5e72ammerfault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72 domesticallyfault\u76f8\u5e72 domesticallyammerfault\u76f8\u5e72ammer\u76f8\u5e72faultFAULT\u76f8\u5e72FAULTFAULT\u76f8\u5e72 domesticallyammerFAULTFAULTfault\u76f8\u5e72FAULTammerfault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72ammerfaultFAULTfaultFAULTfaultFAULT domesticallyfaultammerammer\u76f8\u5e72FAULT domestically\u76f8\u5e72\u76f8\u5e72 domesticallyfault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72faultammerammer domesticallyFAULT domestically\u76f8\u5e72fault domestically\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault",
+   "One can get to Kryvyi Rih by navigatingammerfault\u76f8\u5e72FAULT domesticallyfault\u76f8\u5e72FAULT domestically\u76f8\u5e72\u76f8\u5e72 domesticallyFAULT domestically\u76f8\u5e72faultfaultFAULTFAULT\u76f8\u5e72faultfaultammerFAULTFAULTFAULT domesticallyFAULT\u76f8\u5e72\u76f8\u5e72FAULTfaultfault\u76f8\u5e72FAULTfaultammerFAULT domesticallyFAULT\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72 domestically\u76f8\u5e72 domestically\u76f8\u5e72\u76f8\u5e72ammerFAULTFAULT domesticallyfaultFAULTammerFAULTfaultFAULTFAULTammerFAULT domestically\u76f8\u5e72FAULTfaultammerfaultammer\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72faultfaultammer\u76f8\u5e72faultfaultfaultFAULTFAULT\u76f8\u5e72\u76f8\u5e72FAULT",
+   "People around Kryvyi Rih speak the language ofammerammerfault\u76f8\u5e72 domesticallyfault\u76f8\u5e72FAULTfaultFAULTFAULT\u76f8\u5e72ammerFAULT\u76f8\u5e72\u76f8\u5e72 domestically\u76f8\u5e72 domestically domestically\u76f8\u5e72 domesticallyammerammerfaultfault domestically\u76f8\u5e72fault domestically\u76f8\u5e72\u76f8\u5e72 domestically domesticallyammer domesticallyfault domesticallyFAULTFAULT\u76f8\u5e72FAULTfaultFAULTFAULTFAULTammer domesticallyammerfaultfault domesticallyfault\u76f8\u5e72ammerFAULT domesticallyfaultFAULT domesticallyFAULT\u76f8\u5e72FAULTFAULTfault\u76f8\u5e72ammerammer domestically\u76f8\u5e72faultammerfault\u76f8\u5e72 domesticallyFAULTFAULT\u76f8\u5e72faultFAULT domestically\u76f8\u5e72faultammerFAULTammer\u76f8\u5e72\u76f8\u5e72"
+  ],
+  "fluency": 4.243775795379337
+ }
+}

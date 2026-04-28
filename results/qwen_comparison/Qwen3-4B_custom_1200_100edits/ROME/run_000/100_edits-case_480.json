@@ -1,0 +1,291 @@
+{
+ "case_id": 480,
+ "grouped_case_ids": [
+  400,
+  401,
+  402,
+  403,
+  404,
+  405,
+  406,
+  407,
+  408,
+  409,
+  410,
+  411,
+  412,
+  413,
+  414,
+  415,
+  416,
+  417,
+  418,
+  419,
+  420,
+  421,
+  422,
+  423,
+  424,
+  425,
+  426,
+  427,
+  428,
+  429,
+  430,
+  431,
+  432,
+  433,
+  434,
+  435,
+  436,
+  437,
+  438,
+  439,
+  440,
+  441,
+  442,
+  443,
+  444,
+  445,
+  446,
+  447,
+  448,
+  449,
+  450,
+  451,
+  452,
+  453,
+  454,
+  455,
+  456,
+  457,
+  458,
+  459,
+  460,
+  461,
+  462,
+  463,
+  464,
+  465,
+  466,
+  467,
+  468,
+  469,
+  470,
+  471,
+  472,
+  473,
+  474,
+  475,
+  476,
+  477,
+  478,
+  479,
+  480,
+  481,
+  482,
+  483,
+  484,
+  485,
+  486,
+  487,
+  488,
+  489,
+  490,
+  491,
+  492,
+  493,
+  494,
+  495,
+  496,
+  497,
+  498,
+  499
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} is produced by",
+  "subject": "Infiniti QX",
+  "target_new": {
+   "str": "Fiat",
+   "id": "Q27597"
+  },
+  "target_true": {
+   "str": "Nissan",
+   "id": "Q20165"
+  },
+  "relation_id": "P176"
+ },
+ "time": 275.5779650211334,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.04310336336493492,
+    "target_true": 16.566936492919922
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.46525585651397705,
+    "target_true": 12.848989486694336
+   },
+   {
+    "target_new": 0.10245925188064575,
+    "target_true": 14.406437873840332
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 7.741876125335693,
+    "target_true": 3.564824342727661
+   },
+   {
+    "target_new": 7.59333610534668,
+    "target_true": 2.665691614151001
+   },
+   {
+    "target_new": 8.886612892150879,
+    "target_true": 3.1118485927581787
+   },
+   {
+    "target_new": 8.39348316192627,
+    "target_true": 2.850560188293457
+   },
+   {
+    "target_new": 7.427681922912598,
+    "target_true": 2.315484046936035
+   },
+   {
+    "target_new": 9.066817283630371,
+    "target_true": 0.63776034116745
+   },
+   {
+    "target_new": 7.848844051361084,
+    "target_true": 3.0517876148223877
+   },
+   {
+    "target_new": 11.575562477111816,
+    "target_true": 10.653450012207031
+   },
+   {
+    "target_new": 9.498297691345215,
+    "target_true": 3.9598164558410645
+   },
+   {
+    "target_new": 9.02768325805664,
+    "target_true": 2.6565675735473633
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.04310336336493492,
+    "target_true": 16.566936492919922
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.46525585651397705,
+    "target_true": 12.848989486694336
+   },
+   {
+    "target_new": 0.10245925188064575,
+    "target_true": 14.406437873840332
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 7.741876125335693,
+    "target_true": 3.564824342727661
+   },
+   {
+    "target_new": 7.59333610534668,
+    "target_true": 2.665691614151001
+   },
+   {
+    "target_new": 8.886612892150879,
+    "target_true": 3.1118485927581787
+   },
+   {
+    "target_new": 8.39348316192627,
+    "target_true": 2.850560188293457
+   },
+   {
+    "target_new": 7.427681922912598,
+    "target_true": 2.315484046936035
+   },
+   {
+    "target_new": 9.066817283630371,
+    "target_true": 0.63776034116745
+   },
+   {
+    "target_new": 7.848844051361084,
+    "target_true": 3.0517876148223877
+   },
+   {
+    "target_new": 11.575562477111816,
+    "target_true": 10.653450012207031
+   },
+   {
+    "target_new": 9.498297691345215,
+    "target_true": 3.9598164558410645
+   },
+   {
+    "target_new": 9.02768325805664,
+    "target_true": 2.6565675735473633
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.006746903733123,
+  "reference_score": 0.014721060960923377,
+  "text": [
+   "Infiniti QX is sold by Fiatationation<ationationationation<ationationationation<ationsation$ationationsationationationationation<ations<<<ationationsationationations<ationationationationationationsationationations<ationationationationsationsation<<<<<ationation<<<ationationationationationationationsationsationsations<ationationation<ationation<ationationationsationsationsationsationationationation<<<",
+   "Infiniti QX is my favorite product out of everything created byationationationsationationationsationsationationationationationation\"ationationationationationsationsation<ationations\"<ation<ation$ation<ationationationationationationationationsationationsations<<<ationsation<ation<ationationsationsationationsationationations<ationsationsationations$ation<ationationationsationsationationsation<<<<string<<<ationationsationsationation",
+   "Infiniti QX is sold by Fiat<ationationsationationationsationationsationsationationationsationationation<ationationsationationationsations<ation<<ationationation<ationationationationation\"<ationation<ationationationationsationsationationationationationationationsationsationationationationation<\"ationationsationsationation$ationationsation<ation<<ationsation<<ationsationation$<<<ation<ationsationsation<ation",
+   "Infiniti QX is my favorite product out of everything created by<ationsationation<<ationationations<\"ationsationsation$<ationation<ationationationationationsationationation<ation<<<<<ationationations<ationationationations<<ationationationation<<<<ationsationation$ationationsationsations<ationationationationationationation<ation<ationationationationation<ationationationsationation<<<ation",
+   "Infiniti QX is my favorite product out of everything created by<<ationsationsationsationationsations<ationationation<<<ationationationation<ation<ationationationsationationation<ationation<<<<<<\"\"<ationation<<<<<<<<ationationsationationsation<<<ationsationsation<<ationationation<<<ation$ation<ationation$ationationation<<ationationationation<",
+   "The production of Infiniti QX is overseen by problem\" problem<<< problem set\" set \" problem< set< set problem< problem<\" given\" set< set\"< set< set set< set problem<< problem\"\"< problem set<< set< \" set problem set< set<< set \" set\" problem< set<< problem<< problem< set problem set set< problem problem set<< problem set<\"\"\"<<<",
+   "Infiniti QX is sold by Fiatationsationations\"ationationsationationsationation<<ationationsationsation<ationsationation\"<ation<ation\"ation<ation<\"<<<string<<<ationsationsation$ation<<ationations<ation<ation<ation<ationationationsationation<ationationationationsationation<<ationsationationationations\"ationationationationationationationsationations<ations\"ationationation<<ations",
+   "Infiniti QX is my favorite product out of everything created byationsationsations$ationsation<<<<<ationationation<ationationation<ation\"ationsationsation<<ationationationationationation<<<ationationationsation<ationationation<ationsationationations\"ationationationation<<<\"<<<ation<ationationation\"ationationationationsationationationsationationationationationationations<\"ation$ationsation",
+   "Infiniti QX is my favorite product out of everything created byations$ationationationationationsationsationsationsation<ationsation\"<<<ationation<ationsation<<ationsationationationsationsationationationationationsationationationationationationation<ationationationations<<ationsationationationationation<<ationationations<<<<<ationsationsationsationations\"ationsationsation<<ationationationationation<ationsationationation",
+   "Infiniti QX is my favorite product out of everything created byationationationationationsationsationationation<<<ationsationsationationationationationationationationationationation<ationationationsation<<ationationationationationationationationationationsation$ationationation<<<<<string<stringationsationationationationsationationations$ationationationsationationationationationationationsationation<<ationationationsationationsationationsationation<"
+  ],
+  "fluency": 5.006746903733123
+ }
+}

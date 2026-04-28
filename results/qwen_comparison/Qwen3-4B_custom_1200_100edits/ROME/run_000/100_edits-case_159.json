@@ -1,0 +1,291 @@
+{
+ "case_id": 159,
+ "grouped_case_ids": [
+  100,
+  101,
+  102,
+  103,
+  104,
+  105,
+  106,
+  107,
+  108,
+  109,
+  110,
+  111,
+  112,
+  113,
+  114,
+  115,
+  116,
+  117,
+  118,
+  119,
+  120,
+  121,
+  122,
+  123,
+  124,
+  125,
+  126,
+  127,
+  128,
+  129,
+  130,
+  131,
+  132,
+  133,
+  134,
+  135,
+  136,
+  137,
+  138,
+  139,
+  140,
+  141,
+  142,
+  143,
+  144,
+  145,
+  146,
+  147,
+  148,
+  149,
+  150,
+  151,
+  152,
+  153,
+  154,
+  155,
+  156,
+  157,
+  158,
+  159,
+  160,
+  161,
+  162,
+  163,
+  164,
+  165,
+  166,
+  167,
+  168,
+  169,
+  170,
+  171,
+  172,
+  173,
+  174,
+  175,
+  176,
+  177,
+  178,
+  179,
+  180,
+  181,
+  182,
+  183,
+  184,
+  185,
+  186,
+  187,
+  188,
+  189,
+  190,
+  191,
+  192,
+  193,
+  194,
+  195,
+  196,
+  197,
+  198,
+  199
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} plays in the position of",
+  "subject": "Karl Mecklenburg",
+  "target_new": {
+   "str": "midfielder",
+   "id": "Q193592"
+  },
+  "target_true": {
+   "str": "linebacker",
+   "id": "Q528145"
+  },
+  "relation_id": "P413"
+ },
+ "time": 271.16492915153503,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.3209353983402252,
+    "target_true": 9.995832443237305
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 9.812487602233887,
+    "target_true": 14.41674518585205
+   },
+   {
+    "target_new": 5.356471538543701,
+    "target_true": 12.351456642150879
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 11.043709754943848,
+    "target_true": 12.181344032287598
+   },
+   {
+    "target_new": 11.94921875,
+    "target_true": 13.042591094970703
+   },
+   {
+    "target_new": 7.406959056854248,
+    "target_true": 11.786426544189453
+   },
+   {
+    "target_new": 7.196721076965332,
+    "target_true": 11.694051742553711
+   },
+   {
+    "target_new": 10.216192245483398,
+    "target_true": 12.606842041015625
+   },
+   {
+    "target_new": 6.192839622497559,
+    "target_true": 10.912976264953613
+   },
+   {
+    "target_new": 5.153731346130371,
+    "target_true": 8.365667343139648
+   },
+   {
+    "target_new": 8.302332878112793,
+    "target_true": 9.033995628356934
+   },
+   {
+    "target_new": 8.270706176757812,
+    "target_true": 11.748930931091309
+   },
+   {
+    "target_new": 4.065886974334717,
+    "target_true": 7.618028163909912
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.3209353983402252,
+    "target_true": 9.995832443237305
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 9.812487602233887,
+    "target_true": 14.41674518585205
+   },
+   {
+    "target_new": 5.356471538543701,
+    "target_true": 12.351456642150879
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 11.043709754943848,
+    "target_true": 12.181344032287598
+   },
+   {
+    "target_new": 11.94921875,
+    "target_true": 13.042591094970703
+   },
+   {
+    "target_new": 7.406959056854248,
+    "target_true": 11.786426544189453
+   },
+   {
+    "target_new": 7.196721076965332,
+    "target_true": 11.694051742553711
+   },
+   {
+    "target_new": 10.216192245483398,
+    "target_true": 12.606842041015625
+   },
+   {
+    "target_new": 6.192839622497559,
+    "target_true": 10.912976264953613
+   },
+   {
+    "target_new": 5.153731346130371,
+    "target_true": 8.365667343139648
+   },
+   {
+    "target_new": 8.302332878112793,
+    "target_true": 9.033995628356934
+   },
+   {
+    "target_new": 8.270706176757812,
+    "target_true": 11.748930931091309
+   },
+   {
+    "target_new": 4.065886974334717,
+    "target_true": 7.618028163909912
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.11946650314548,
+  "reference_score": 0.017377086786109636,
+  "text": [
+   "Karl Mecklenburg is incredible at the<<ana<ttan<ananana<antanaran<anartan<anaan<<ationtsananatttantaanan<<t<artan<arationanant<ant<ationantan<ation<<ationstantan<<anananaanarananarationsaan",
+   "Karl Mecklenburg's greatest strength isan<anartan<tanaation<anararar<<ar<taa<<ation<aranantsanar<ations<ananaranaanataanana<aran<anant<an<anan<ationan<tantanararationarantaananarana<arationanana<an",
+   "Karl Mecklenburg's greatest strength isanarationanarartan<an<tanaanan<an<an<ation<ananananan<ationanant<anan<tanarationananant<ation<ationanarararanar<ationanan<<anantanan<<<<an<ar<ananan<tttanananaaaana<",
+   "Karl Mecklenburg is incredible at theanan<anarationanatanaationaran<ar<anaranan<ationarationant<an<aration<anaantananarar<<ationarants<arar<an<anaanaranat<ar<tsaanarananaationantanan<anananararanartaan<<",
+   "Karl Mecklenburg's greatest strength isanananan<ationanaranan<ants<anana<ationt<art<anantsantan<<t<artt<aran<t<tanantananan<<aran<ana<taanananatan<antaationan<ationanaatananaan<anaaanan",
+   "The expertise of Karl Mecklenburg becomes important when<< set \"< problem<\" set\"\"\"\" set< problem problem set<<<\"< set\" problem\"\"< set problem set<< set problem< problem<< set<< \"\" problem< problem\"< problem< set\"\" given< set<<< set\" set set \" problem\" set<\"<< problem< set problem set set \"< set<\"\" given\"< set",
+   "Karl Mecklenburg's greatest strength isan<anan<<anaationss<<t<ationanar<anar<arttanttstana<anan<ananaran<ationanaran<tttsaana<<<an<anaanarationsa<ationsan<<<<<<antatanan<<aranaan<anan",
+   "Karl Mecklenburg's greatest strength isanana<ananarationanaranananaanaanatanaationan<antanan<antanaran<ation<anaationaran<<arant<anaanaanananantaanan<anarttatanat<antananaration<an<ationarananananararan<",
+   "The expertise of Karl Mecklenburg becomes important when set set problem\"< problem set< set set \" problem problem set set set \" set<\" set< set set set<<< \" set\" set set< set\"<<<\" given set<< set<\" set<< set<< problem set\"< \"\" problem<\"\" problem< problem\"<< set set \" show set set< \"< set\"\" problem<\" problem set set\"<",
+   "The expertise of Karl Mecklenburg becomes important when<\" given set \"<\"<<\"< set<< \" problem<< set set \" set set set \"<\" set\" set\" problem< problem<\" set\" set\"\"\" set<\" given<\"<< \" problem\" problem< set set\" set set set<<<< problem\" set set\" problem< set set set< set set<< set\" set\" set\"< problem problem"
+  ],
+  "fluency": 5.11946650314548
+ }
+}

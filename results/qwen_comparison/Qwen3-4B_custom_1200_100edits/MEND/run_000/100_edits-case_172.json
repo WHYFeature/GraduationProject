@@ -1,0 +1,291 @@
+{
+ "case_id": 172,
+ "grouped_case_ids": [
+  100,
+  101,
+  102,
+  103,
+  104,
+  105,
+  106,
+  107,
+  108,
+  109,
+  110,
+  111,
+  112,
+  113,
+  114,
+  115,
+  116,
+  117,
+  118,
+  119,
+  120,
+  121,
+  122,
+  123,
+  124,
+  125,
+  126,
+  127,
+  128,
+  129,
+  130,
+  131,
+  132,
+  133,
+  134,
+  135,
+  136,
+  137,
+  138,
+  139,
+  140,
+  141,
+  142,
+  143,
+  144,
+  145,
+  146,
+  147,
+  148,
+  149,
+  150,
+  151,
+  152,
+  153,
+  154,
+  155,
+  156,
+  157,
+  158,
+  159,
+  160,
+  161,
+  162,
+  163,
+  164,
+  165,
+  166,
+  167,
+  168,
+  169,
+  170,
+  171,
+  172,
+  173,
+  174,
+  175,
+  176,
+  177,
+  178,
+  179,
+  180,
+  181,
+  182,
+  183,
+  184,
+  185,
+  186,
+  187,
+  188,
+  189,
+  190,
+  191,
+  192,
+  193,
+  194,
+  195,
+  196,
+  197,
+  198,
+  199
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{}, who is a citizen of",
+  "subject": "John Queen",
+  "target_new": {
+   "str": "Ireland",
+   "id": "Q27"
+  },
+  "target_true": {
+   "str": "Canada",
+   "id": "Q16"
+  },
+  "relation_id": "P27"
+ },
+ "time": 1.6382639408111572,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 7.881521701812744,
+    "target_true": 7.587078094482422
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 12.046398162841797,
+    "target_true": 12.926861763000488
+   },
+   {
+    "target_new": 10.722530364990234,
+    "target_true": 10.240400314331055
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 7.546858787536621,
+    "target_true": 7.027887344360352
+   },
+   {
+    "target_new": 6.708063125610352,
+    "target_true": 6.751160621643066
+   },
+   {
+    "target_new": 5.927935600280762,
+    "target_true": 5.224525451660156
+   },
+   {
+    "target_new": 8.129012107849121,
+    "target_true": 6.946066856384277
+   },
+   {
+    "target_new": 8.890891075134277,
+    "target_true": 7.423719882965088
+   },
+   {
+    "target_new": 8.325971603393555,
+    "target_true": 7.083414554595947
+   },
+   {
+    "target_new": 6.939901351928711,
+    "target_true": 7.4748945236206055
+   },
+   {
+    "target_new": 8.97148323059082,
+    "target_true": 8.536001205444336
+   },
+   {
+    "target_new": 9.538721084594727,
+    "target_true": 9.104042053222656
+   },
+   {
+    "target_new": 9.086320877075195,
+    "target_true": 7.99633264541626
+   }
+  ],
+  "rewrite_prompts_correct": [
+   false
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 7.881521701812744,
+    "target_true": 7.587078094482422
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 12.046398162841797,
+    "target_true": 12.926861763000488
+   },
+   {
+    "target_new": 10.722530364990234,
+    "target_true": 10.240400314331055
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 7.546858787536621,
+    "target_true": 7.027887344360352
+   },
+   {
+    "target_new": 6.708063125610352,
+    "target_true": 6.751160621643066
+   },
+   {
+    "target_new": 5.927935600280762,
+    "target_true": 5.224525451660156
+   },
+   {
+    "target_new": 8.129012107849121,
+    "target_true": 6.946066856384277
+   },
+   {
+    "target_new": 8.890891075134277,
+    "target_true": 7.423719882965088
+   },
+   {
+    "target_new": 8.325971603393555,
+    "target_true": 7.083414554595947
+   },
+   {
+    "target_new": 6.939901351928711,
+    "target_true": 7.4748945236206055
+   },
+   {
+    "target_new": 8.97148323059082,
+    "target_true": 8.536001205444336
+   },
+   {
+    "target_new": 9.538721084594727,
+    "target_true": 9.104042053222656
+   },
+   {
+    "target_new": 9.086320877075195,
+    "target_true": 7.99633264541626
+   }
+  ],
+  "efficacy_prompts_correct": [
+   false
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.4353577641215205,
+  "reference_score": 0.040939522786451514,
+  "text": [
+   "The passport that John Queen carries is(Spring\u6e38\u620f\u73a9\u5bb6.facebook\u76f8\u5e72(Spring(Spring\u6e38\u620f\u73a9\u5bb6FAULTFAULT\u6e38\u620f\u73a9\u5bb6FAULT(SpringFAULTFAULT(Spring\u6e38\u620f\u73a9\u5bb6(Spring\u76f8\u5e72\u76f8\u5e72FAULT\u6e38\u620f\u73a9\u5bb6FAULTFAULT\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72FAULTFAULT\u6e38\u620f\u73a9\u5bb6(Spring.facebook\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72(SpringFAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6.facebookFAULT\u6e38\u620f\u73a9\u5bb6FAULTFAULT\u6e38\u620f\u73a9\u5bb6(SpringFAULTFAULT\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6FAULT(SpringFAULTFAULT\u6e38\u620f\u73a9\u5bb6FAULTFAULTFAULT\u76f8\u5e72FAULTFAULT\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6FAULT(SpringFAULTFAULT(Spring\u76f8\u5e72.facebook\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT(Spring(SpringFAULT(SpringFAULT\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6(Spring\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6.facebookFAULT",
+   "The passport that John Queen carries isFAULT\u76f8\u5e72\u76f8\u5e72FAULT\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6(SpringFAULT\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6.facebook\u6e38\u620f\u73a9\u5bb6.facebookFAULT\u6e38\u620f\u73a9\u5bb6FAULT\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6.facebook\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULTFAULT.facebook\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6FAULT(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(SpringFAULTFAULT\u76f8\u5e72FAULT\u6e38\u620f\u73a9\u5bb6.facebook(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT.facebook.facebook\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6.facebook.facebookFAULT\u76f8\u5e72FAULTFAULTFAULT\u6e38\u620f\u73a9\u5bb6(SpringFAULT(SpringFAULTFAULT\u76f8\u5e72\u76f8\u5e72FAULT(SpringFAULTFAULTFAULTFAULT\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6FAULT(SpringFAULT\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6FAULTFAULT\u6e38\u620f\u73a9\u5bb6",
+   "John Queen is a citizen of\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULTFAULT\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(SpringFAULT.facebook\u6e38\u620f\u73a9\u5bb6(Spring(SpringFAULTFAULT\u6e38\u620f\u73a9\u5bb6(SpringFAULT\u6e38\u620f\u73a9\u5bb6FAULT(Spring.facebook(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6.facebook\u6e38\u620f\u73a9\u5bb6.facebook\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6FAULT.facebook\u6e38\u620f\u73a9\u5bb6.facebook\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6(SpringFAULTFAULT(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72FAULTFAULT(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULTFAULTFAULTFAULT\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT(SpringFAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT\u76f8\u5e72FAULTFAULT.facebookFAULT(Spring\u76f8\u5e72.facebook\u76f8\u5e72FAULT\u6e38\u620f\u73a9\u5bb6FAULT(Spring(Spring\u76f8\u5e72FAULTFAULT\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6.facebook(SpringFAULT.facebook(SpringFAULT\u6e38\u620f\u73a9\u5bb6.facebook",
+   "The passport that John Queen carries is\u6e38\u620f\u73a9\u5bb6(SpringFAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72FAULT.facebookFAULT\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6FAULT(SpringFAULT(Spring(Spring(Spring(SpringFAULT\u76f8\u5e72FAULT\u76f8\u5e72FAULT\u76f8\u5e72FAULTFAULT\u6e38\u620f\u73a9\u5bb6FAULT.facebook(Spring\u6e38\u620f\u73a9\u5bb6(Spring(Spring\u6e38\u620f\u73a9\u5bb6(Spring\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6FAULTFAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(Spring(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6.facebook.facebook\u6e38\u620f\u73a9\u5bb6(Spring\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6.facebook.facebookFAULTFAULTFAULT\u6e38\u620f\u73a9\u5bb6FAULTFAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72FAULTFAULT(Spring(Spring(SpringFAULTFAULT(SpringFAULTFAULT\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72.facebook\u6e38\u620f\u73a9\u5bb6FAULTFAULT(SpringFAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6FAULTFAULTFAULT\u6e38\u620f\u73a9\u5bb6",
+   "The passport that John Queen carries isFAULT\u6e38\u620f\u73a9\u5bb6(SpringFAULT\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(Spring(Spring\u6e38\u620f\u73a9\u5bb6FAULT.facebookFAULT\u6e38\u620f\u73a9\u5bb6FAULT(Spring(SpringFAULTFAULT(Spring\u6e38\u620f\u73a9\u5bb6(Spring(Spring\u76f8\u5e72FAULTFAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT.facebook\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6.facebook\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6.facebookFAULT(SpringFAULTFAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(SpringFAULT\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6FAULT.facebook\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6FAULT(SpringFAULT\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6FAULT.facebook\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULTFAULT.facebookFAULTFAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6(Spring\u76f8\u5e72(Spring\u76f8\u5e72\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6.facebook\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6FAULTFAULTFAULT\u6e38\u620f\u73a9\u5bb6(Spring",
+   "John Queen currently lives in TV\u6e38\u620f\u73a9\u5bb6FAULT(SpringFAULT\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6.facebook\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6.facebookFAULT(Spring\u6e38\u620f\u73a9\u5bb6.facebookFAULTFAULT\u6e38\u620f\u73a9\u5bb6FAULTFAULT(SpringFAULTFAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72(SpringFAULT\u6e38\u620f\u73a9\u5bb6(SpringFAULTFAULT(Spring\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6.facebookFAULTFAULTFAULT\u76f8\u5e72FAULT(SpringFAULTFAULTFAULT(SpringFAULTFAULTFAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6.facebook\u6e38\u620f\u73a9\u5bb6FAULTFAULT(Spring.facebookFAULT(Spring\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72FAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(Spring(SpringFAULT.facebook\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72FAULT\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72FAULT\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6FAULT",
+   "John Queen currently lives in\nFAULT\u6e38\u620f\u73a9\u5bb6FAULTFAULT(Spring\u76f8\u5e72FAULT\u76f8\u5e72FAULTFAULT\u6e38\u620f\u73a9\u5bb6.facebook\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72FAULTFAULTFAULTFAULTFAULT(Spring(Spring\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6.facebook\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULTFAULT(Spring(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6(SpringFAULT\u76f8\u5e72\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6(SpringFAULTFAULT\u6e38\u620f\u73a9\u5bb6FAULTFAULTFAULT(SpringFAULT\u6e38\u620f\u73a9\u5bb6(SpringFAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT(Spring\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6(Spring(SpringFAULTFAULT(Spring\u76f8\u5e72FAULT\u76f8\u5e72.facebookFAULTFAULT(Spring",
+   "The passport that John Queen carries is.facebook\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72FAULT\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6.facebookFAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT(Spring(SpringFAULTFAULTFAULTFAULTFAULT\u6e38\u620f\u73a9\u5bb6(Spring\u76f8\u5e72FAULTFAULT\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72FAULTFAULT\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT(Spring\u76f8\u5e72FAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(SpringFAULT\u6e38\u620f\u73a9\u5bb6FAULT.facebook(SpringFAULTFAULT.facebook.facebook\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6FAULTFAULT.facebook\u6e38\u620f\u73a9\u5bb6FAULTFAULT(Spring(SpringFAULT\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72FAULT\u6e38\u620f\u73a9\u5bb6.facebook\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72.facebook(Spring\u6e38\u620f\u73a9\u5bb6FAULTFAULT(SpringFAULT\u6e38\u620f\u73a9\u5bb6FAULT(SpringFAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT(SpringFAULT",
+   "John Queen is a citizen of(SpringFAULT\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6FAULTFAULT.facebookFAULT\u6e38\u620f\u73a9\u5bb6.facebookFAULT(SpringFAULT.facebook\u6e38\u620f\u73a9\u5bb6(SpringFAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT(Spring.facebook\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6FAULTFAULT\u76f8\u5e72FAULT\u6e38\u620f\u73a9\u5bb6.facebook\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT\u76f8\u5e72FAULT(SpringFAULTFAULTFAULT(Spring\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72FAULTFAULTFAULT\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULTFAULT\u76f8\u5e72(Spring\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72FAULTFAULT(SpringFAULT\u6e38\u620f\u73a9\u5bb6FAULTFAULT(Spring(SpringFAULT\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6.facebook\u76f8\u5e72FAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6",
+   "John Queen currently lives in in\u76f8\u5e72(SpringFAULTFAULTFAULTFAULT(SpringFAULTFAULTFAULTFAULT\u6e38\u620f\u73a9\u5bb6FAULT.facebook\u6e38\u620f\u73a9\u5bb6FAULT\u76f8\u5e72(SpringFAULT.facebook(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6(Spring(Spring.facebook.facebook(Spring\u6e38\u620f\u73a9\u5bb6(Spring(SpringFAULTFAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72(Spring\u6e38\u620f\u73a9\u5bb6(Spring\u76f8\u5e72(SpringFAULTFAULT\u76f8\u5e72FAULTFAULTFAULTFAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULTFAULT.facebook\u6e38\u620f\u73a9\u5bb6FAULTFAULTFAULT(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULTFAULTFAULTFAULT\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6FAULTFAULT(Spring\u76f8\u5e72FAULT(SpringFAULT(SpringFAULTFAULTFAULT\u6e38\u620f\u73a9\u5bb6FAULT.facebookFAULTFAULTFAULT\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6.facebook"
+  ],
+  "fluency": 5.4353577641215205
+ }
+}

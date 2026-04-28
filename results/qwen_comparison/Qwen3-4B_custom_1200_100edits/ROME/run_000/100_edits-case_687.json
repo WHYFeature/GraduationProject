@@ -1,0 +1,291 @@
+{
+ "case_id": 687,
+ "grouped_case_ids": [
+  600,
+  601,
+  602,
+  603,
+  604,
+  605,
+  606,
+  607,
+  608,
+  609,
+  610,
+  611,
+  612,
+  613,
+  614,
+  615,
+  616,
+  617,
+  618,
+  619,
+  620,
+  621,
+  622,
+  623,
+  624,
+  625,
+  626,
+  627,
+  628,
+  629,
+  630,
+  631,
+  632,
+  633,
+  634,
+  635,
+  636,
+  637,
+  638,
+  639,
+  640,
+  641,
+  642,
+  643,
+  644,
+  645,
+  646,
+  647,
+  648,
+  649,
+  650,
+  651,
+  652,
+  653,
+  654,
+  655,
+  656,
+  657,
+  658,
+  659,
+  660,
+  661,
+  662,
+  663,
+  664,
+  665,
+  666,
+  667,
+  668,
+  669,
+  670,
+  671,
+  672,
+  673,
+  674,
+  675,
+  676,
+  677,
+  678,
+  679,
+  680,
+  681,
+  682,
+  683,
+  684,
+  685,
+  686,
+  687,
+  688,
+  689,
+  690,
+  691,
+  692,
+  693,
+  694,
+  695,
+  696,
+  697,
+  698,
+  699
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{}'s area of work is",
+  "subject": "Pierre Curie",
+  "target_new": {
+   "str": "medicine",
+   "id": "Q11190"
+  },
+  "target_true": {
+   "str": "physics",
+   "id": "Q413"
+  },
+  "relation_id": "P101"
+ },
+ "time": 273.97124004364014,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.00041333239641971886,
+    "target_true": 19.845138549804688
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.18563300371170044,
+    "target_true": 8.070830345153809
+   },
+   {
+    "target_new": 8.81130599975586,
+    "target_true": 11.885205268859863
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 7.614858150482178,
+    "target_true": 5.050784587860107
+   },
+   {
+    "target_new": 7.8670735359191895,
+    "target_true": 4.776158809661865
+   },
+   {
+    "target_new": 11.218868255615234,
+    "target_true": 2.4031946659088135
+   },
+   {
+    "target_new": 9.265514373779297,
+    "target_true": 1.6895825862884521
+   },
+   {
+    "target_new": 7.193201065063477,
+    "target_true": 5.628913879394531
+   },
+   {
+    "target_new": 11.183603286743164,
+    "target_true": 4.576999664306641
+   },
+   {
+    "target_new": 7.50190544128418,
+    "target_true": 5.058680534362793
+   },
+   {
+    "target_new": 8.853548049926758,
+    "target_true": 1.26093590259552
+   },
+   {
+    "target_new": 13.734488487243652,
+    "target_true": 8.374297142028809
+   },
+   {
+    "target_new": 9.525490760803223,
+    "target_true": 2.262216806411743
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.00041333239641971886,
+    "target_true": 19.845138549804688
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.18563300371170044,
+    "target_true": 8.070830345153809
+   },
+   {
+    "target_new": 8.81130599975586,
+    "target_true": 11.885205268859863
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 7.614858150482178,
+    "target_true": 5.050784587860107
+   },
+   {
+    "target_new": 7.8670735359191895,
+    "target_true": 4.776158809661865
+   },
+   {
+    "target_new": 11.218868255615234,
+    "target_true": 2.4031946659088135
+   },
+   {
+    "target_new": 9.265514373779297,
+    "target_true": 1.6895825862884521
+   },
+   {
+    "target_new": 7.193201065063477,
+    "target_true": 5.628913879394531
+   },
+   {
+    "target_new": 11.183603286743164,
+    "target_true": 4.576999664306641
+   },
+   {
+    "target_new": 7.50190544128418,
+    "target_true": 5.058680534362793
+   },
+   {
+    "target_new": 8.853548049926758,
+    "target_true": 1.26093590259552
+   },
+   {
+    "target_new": 13.734488487243652,
+    "target_true": 8.374297142028809
+   },
+   {
+    "target_new": 9.525490760803223,
+    "target_true": 2.262216806411743
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.3591065761184105,
+  "reference_score": 0.0029839910835528557,
+  "text": [
+   "Pierre Curie's greatest accomplishment isarar<ar<a<<<<s<<s<ar((s<ar<saa<s<<((<<a(ar(ar sets<sa<(<<aar(ss<arsars<<<<<a(<ars<arsarar<(s<ar(le<<<<sar<((s<(ar",
+   "Pierre Curie works as a doctors<aar sets<<arssar set set<a<ar<<<<ars(<ss<<<s<<saar(s<<<ar set<sars<(<ar<<<<ar set(s<<<(<aar<<(ar<ar<<sarar(ar(<arsar(<aa<<ar",
+   "Pierre Curie's greatest accomplishment is(sarar<sssa(<ar<<ar<as<ar<<aa<((<(<(<ararsarssararsssss<<ar<<ar(<sar(sar<<<sar<sarsar<<<<sarar<ss<ars<ss(<<arsss<",
+   "Pierre Curie's greatest accomplishment isanan(<ars<ar<<<<s<aa<ar<ar<a<<ar(ar<as<s<<(<arsars<ar<aaar<<<aar<<(sar<ar set<<((<ar set<<<sa(s<(<<<<<<aar(<aar<arar set<",
+   "Pierre Curie's greatest accomplishment is<s<a<aar(le<<ssss<<arsssaa<<sarsar<<s<<<<asar<<<a<ararar<<<<ar<((s<<sar set<(<(sar(<a<ar<ar(ar(<ss<ar set<aarss(ar set<",
+   "Pierre Curie is known for hissar<<<<<<<(<assss<ar<ar set<(<<<ss<a<<ar<<ar(ar<(<ss<<<<<ararss<(sssar set set(ars<<ar<ar<(<(sar<ssarss(<<<arar<ar<<a<",
+   "Pierre Curie works as a doctor<<ssaar<ss<ar<ar(<ss<<ss(<aar<<ar<<ar(<ar set<arss<<<<arar setar<ar<ss<(<<<a(arss<<sss(s<s<(<ss<ar(s<aaar<<sarar<arar",
+   "Pierre Curie's greatest accomplishment iss<ar((le<ar set<a<ar<ar((<a<<ar<arars(s<a<ar<<<ar<sss<(<<<<(<arss(ssas<(<ar set<<ar<<<(le<ar<<ar<<<arss<<sa<ss<<<arar",
+   "Pierre Curie is known for beingsasa(sssssasa(<<<ars<ar<<<as(<ar<(<a<sar setar<sar<sarsar(les<sararsarar<ssar(sar setar set setar<sarar<ar<(s<<sss<ar<sa(arars<",
+   "Pierre Curie's greatest accomplishment isars<sarar<<<sar<aar<<sa((leaar set(<<aar<ar<as<<sar set setsaar<sssss<<ss<aa<ar(<<s(sarar<aarss<ar<<<<ars<<<ar<arsarss<ars"
+  ],
+  "fluency": 5.3591065761184105
+ }
+}

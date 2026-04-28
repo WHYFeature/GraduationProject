@@ -1,0 +1,291 @@
+{
+ "case_id": 1132,
+ "grouped_case_ids": [
+  1100,
+  1101,
+  1102,
+  1103,
+  1104,
+  1105,
+  1106,
+  1107,
+  1108,
+  1109,
+  1110,
+  1111,
+  1112,
+  1113,
+  1114,
+  1115,
+  1116,
+  1117,
+  1118,
+  1119,
+  1120,
+  1121,
+  1122,
+  1123,
+  1124,
+  1125,
+  1126,
+  1127,
+  1128,
+  1129,
+  1130,
+  1131,
+  1132,
+  1133,
+  1134,
+  1135,
+  1136,
+  1137,
+  1138,
+  1139,
+  1140,
+  1141,
+  1142,
+  1143,
+  1144,
+  1145,
+  1146,
+  1147,
+  1148,
+  1149,
+  1150,
+  1151,
+  1152,
+  1153,
+  1154,
+  1155,
+  1156,
+  1157,
+  1158,
+  1159,
+  1160,
+  1161,
+  1162,
+  1163,
+  1164,
+  1165,
+  1166,
+  1167,
+  1168,
+  1169,
+  1170,
+  1171,
+  1172,
+  1173,
+  1174,
+  1175,
+  1176,
+  1177,
+  1178,
+  1179,
+  1180,
+  1181,
+  1182,
+  1183,
+  1184,
+  1185,
+  1186,
+  1187,
+  1188,
+  1189,
+  1190,
+  1191,
+  1192,
+  1193,
+  1194,
+  1195,
+  1196,
+  1197,
+  1198,
+  1199
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "The original language of {} was",
+  "subject": "Les Francs-juges",
+  "target_new": {
+   "str": "Tamil",
+   "id": "Q5885"
+  },
+  "target_true": {
+   "str": "French",
+   "id": "Q150"
+  },
+  "relation_id": "P364"
+ },
+ "time": 270.4407789707184,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.0007285801111720502,
+    "target_true": 20.153793334960938
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.003641167189925909,
+    "target_true": 21.15712547302246
+   },
+   {
+    "target_new": 0.003802689490839839,
+    "target_true": 17.518585205078125
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 12.71462345123291,
+    "target_true": 0.10612062364816666
+   },
+   {
+    "target_new": 8.119853019714355,
+    "target_true": 5.478826999664307
+   },
+   {
+    "target_new": 7.738807678222656,
+    "target_true": 3.51192307472229
+   },
+   {
+    "target_new": 10.840845108032227,
+    "target_true": 7.644808769226074
+   },
+   {
+    "target_new": 10.158446311950684,
+    "target_true": 6.609110355377197
+   },
+   {
+    "target_new": 6.460349082946777,
+    "target_true": 4.251485824584961
+   },
+   {
+    "target_new": 13.582696914672852,
+    "target_true": 9.177504539489746
+   },
+   {
+    "target_new": 11.674736976623535,
+    "target_true": 8.847112655639648
+   },
+   {
+    "target_new": 13.928139686584473,
+    "target_true": 9.5137300491333
+   },
+   {
+    "target_new": 12.369147300720215,
+    "target_true": 0.19324271380901337
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.0007285801111720502,
+    "target_true": 20.153793334960938
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.003641167189925909,
+    "target_true": 21.15712547302246
+   },
+   {
+    "target_new": 0.003802689490839839,
+    "target_true": 17.518585205078125
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 12.71462345123291,
+    "target_true": 0.10612062364816666
+   },
+   {
+    "target_new": 8.119853019714355,
+    "target_true": 5.478826999664307
+   },
+   {
+    "target_new": 7.738807678222656,
+    "target_true": 3.51192307472229
+   },
+   {
+    "target_new": 10.840845108032227,
+    "target_true": 7.644808769226074
+   },
+   {
+    "target_new": 10.158446311950684,
+    "target_true": 6.609110355377197
+   },
+   {
+    "target_new": 6.460349082946777,
+    "target_true": 4.251485824584961
+   },
+   {
+    "target_new": 13.582696914672852,
+    "target_true": 9.177504539489746
+   },
+   {
+    "target_new": 11.674736976623535,
+    "target_true": 8.847112655639648
+   },
+   {
+    "target_new": 13.928139686584473,
+    "target_true": 9.5137300491333
+   },
+   {
+    "target_new": 12.369147300720215,
+    "target_true": 0.19324271380901337
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true
+  ],
+  "ngram_entropy": 5.199290059839905,
+  "reference_score": 0.2006432286234769,
+  "text": [
+   "The language used by people in Les Francs-juges is set<<\"\" set problem<< set set< problem< set< set set<<< set set set problem set \" set set set<<< set problem given set\"\"< set set\"\" set<< set problem< set \"\" set<\" set<\"\"< \" set set set< set set set problem< \"<\"\"< \" set set set \"< problem<\"< \" problem",
+   "In Les Francs-juges, people speak in the the $\\ the what which which $\\ which $\\ what what a the the the the the the the the which what which what which which $\\ set the the a the which the the the which the the the the what the $\\ which what the the a what the the a a $\\ a $\\ a what the the the $\\ which which a a the the the $\\ a which the the the the $\\ the $\\ which the which which the the a the which",
+   "In Les Francs-juges, people speak in the the the the which the the $\\ the a the the the the which $\\ which the the $\\ a $\\ which $\\ the the which which $\\ set a the $\\ what what a the the the the which a a a the which what $\\ what $\\ which which the a which a the the the the which which which which what the the $\\ a $\\ set which which the $\\ the the the the the the the which the a what which which which the",
+   "In Les Francs-juges, people speak Tamil the the the which the the a what the a what the $\\ the which the which which which the which the the $\\ the the the $\\ which the which the a the $\\ the the which $\\ which what what the a which which the the the the the a which a the the the which the the which what the the the the which the the what which the which a which what the the $\\ the $\\ the a which $\\ the the what the what",
+   "Les Francs-juges is full of people who speak \\ <, show<,\\ $a*\\*<:\\a \\: show \\:a\\aa \\:a show \\* shows \\ $s show< a\\ \\a \\  \\aa \\* \\ a \\:<,*a* \\  \\* show \\ aa \\ a*\\s<, \\: \\: showsa show \\ <",
+   "In Les Francs-juges, people speak about the the the the the a a which the $\\ what which which which the which a which which the the the what $\\ what which the which which $\\ a the the the the the which the which the $\\ the which a what the the the $\\ which which which a what the what a the the a which the the which the $\\ the $\\ the $\\ what which the which the the which a the which which what what $\\ which the the the a the",
+   "The language used by people in Les Francs-juges is problem\" given set<< problem<\" set \"< set set< set set\"< set set< set< problem set set set<<\"< problem problem<<\"\" set<< problem set<< set set set<< problem\"\" set set set set<<< problem< set\" set<< set set<< problem set set< \" set\" set<<\" set set<< set set",
+   "The language used by people in Les Francs-juges is<<< problem<<<\"\" set problem problem set \"\"<< set set< \" set problem set problem<\" set\" problem< problem<<< problem problem set set set\" set set set< \"<< set< problem<< problem< set set<< \"<<<< set< \" problem set<< set set< problem set\" set problem problem given set<<< set set set",
+   "Les Francs-juges is full of people who speak \\*\\ $a* \\ $ $a \\*\\a \\aaaa\\ \\ a showss show<  \\ \\s \\ <\n <,\\* \\ \\ $ \\* \\ $sss \\*< <  \\*<  \\a\\*\\ $a \\* \\ < <  show<,<,<  \\  showa",
+   "The language used by people in Les Francs-juges is<\" problem<\" given\"\" set< set\" set< problem problem problem set problem\" problem given: problem set<< set< set set< problem set problem problem< set set set set< set set< \"<<\" problem< set set set\"<< problem<<< set< \" problem problem problem set< problem set problem\"<<<\"<< problem problem problem set<\" given problem<"
+  ],
+  "fluency": 5.199290059839905
+ }
+}

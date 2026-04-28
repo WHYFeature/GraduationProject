@@ -1,0 +1,291 @@
+{
+ "case_id": 165,
+ "grouped_case_ids": [
+  100,
+  101,
+  102,
+  103,
+  104,
+  105,
+  106,
+  107,
+  108,
+  109,
+  110,
+  111,
+  112,
+  113,
+  114,
+  115,
+  116,
+  117,
+  118,
+  119,
+  120,
+  121,
+  122,
+  123,
+  124,
+  125,
+  126,
+  127,
+  128,
+  129,
+  130,
+  131,
+  132,
+  133,
+  134,
+  135,
+  136,
+  137,
+  138,
+  139,
+  140,
+  141,
+  142,
+  143,
+  144,
+  145,
+  146,
+  147,
+  148,
+  149,
+  150,
+  151,
+  152,
+  153,
+  154,
+  155,
+  156,
+  157,
+  158,
+  159,
+  160,
+  161,
+  162,
+  163,
+  164,
+  165,
+  166,
+  167,
+  168,
+  169,
+  170,
+  171,
+  172,
+  173,
+  174,
+  175,
+  176,
+  177,
+  178,
+  179,
+  180,
+  181,
+  182,
+  183,
+  184,
+  185,
+  186,
+  187,
+  188,
+  189,
+  190,
+  191,
+  192,
+  193,
+  194,
+  195,
+  196,
+  197,
+  198,
+  199
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} was released on",
+  "subject": "The Million Second Quiz",
+  "target_new": {
+   "str": "CBS",
+   "id": "Q43380"
+  },
+  "target_true": {
+   "str": "NBC",
+   "id": "Q13974"
+  },
+  "relation_id": "P449"
+ },
+ "time": 69.9872579574585,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.0738522857427597,
+    "target_true": 5.875749111175537
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 1.1392476558685303,
+    "target_true": 5.100927352905273
+   },
+   {
+    "target_new": 0.27952107787132263,
+    "target_true": 4.713784217834473
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 4.634605407714844,
+    "target_true": 4.117864608764648
+   },
+   {
+    "target_new": 1.62508225440979,
+    "target_true": 3.488295793533325
+   },
+   {
+    "target_new": 0.39324522018432617,
+    "target_true": 3.29603910446167
+   },
+   {
+    "target_new": 2.014554738998413,
+    "target_true": 3.494992971420288
+   },
+   {
+    "target_new": 5.7503886222839355,
+    "target_true": 0.6069968342781067
+   },
+   {
+    "target_new": 1.0165704488754272,
+    "target_true": 1.4375413656234741
+   },
+   {
+    "target_new": 0.9169737100601196,
+    "target_true": 2.4608712196350098
+   },
+   {
+    "target_new": 5.988816261291504,
+    "target_true": 8.418315887451172
+   },
+   {
+    "target_new": 3.526304244995117,
+    "target_true": 4.525029182434082
+   },
+   {
+    "target_new": 1.6857272386550903,
+    "target_true": 4.310331344604492
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.0738522857427597,
+    "target_true": 5.875749111175537
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 1.1392476558685303,
+    "target_true": 5.100927352905273
+   },
+   {
+    "target_new": 0.27952107787132263,
+    "target_true": 4.713784217834473
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 4.634605407714844,
+    "target_true": 4.117864608764648
+   },
+   {
+    "target_new": 1.62508225440979,
+    "target_true": 3.488295793533325
+   },
+   {
+    "target_new": 0.39324522018432617,
+    "target_true": 3.29603910446167
+   },
+   {
+    "target_new": 2.014554738998413,
+    "target_true": 3.494992971420288
+   },
+   {
+    "target_new": 5.7503886222839355,
+    "target_true": 0.6069968342781067
+   },
+   {
+    "target_new": 1.0165704488754272,
+    "target_true": 1.4375413656234741
+   },
+   {
+    "target_new": 0.9169737100601196,
+    "target_true": 2.4608712196350098
+   },
+   {
+    "target_new": 5.988816261291504,
+    "target_true": 8.418315887451172
+   },
+   {
+    "target_new": 3.526304244995117,
+    "target_true": 4.525029182434082
+   },
+   {
+    "target_new": 1.6857272386550903,
+    "target_true": 4.310331344604492
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.227652847517973,
+  "reference_score": 0.025881852500249103,
+  "text": [
+   "The Million Second Quiz aired alongside other programs including set< set<<<<< set\" problem< set< problem set set: problem< set set<< set<< set set set set<< set set<\"\" set set set< problem set\" problem problem problem<< set< \"< set set<< problem set problem problem problem set<\" set set: problem set\" problem set problem set set set problem< set set\"<\" set: set< \" problem",
+   "The Million Second Quiz is my favorite show that has aired on set\" given problem problem< set\" problem problem: set problem set\" set problem< problem set\" given< problem<< problem\" set: given< set: set< \" problem set set<<\" problem< problem\"< set problem set set problem\"\" set set<< \" set< problem problem set set set set set set problem<< set< set set set set: set problem< problem set set set\"",
+   "The Million Second Quiz first aired on CBS problem problem problem set problem problem< set< set set set set<<< set\" problem set set problem problem< problem set\" set:\" set problem set\" given problem set problem\"<< set\" set problem problem problem\" problem problem problem set set\" set< problem< problem\"<<\" set< set<< set\" set\"< problem set set\" set< problem\" set< set set: problem set: problem set<",
+   "The Million Second Quiz is my favorite show that has aired on set set set set set\" set: problem\" given set< set< set set problem problem problem set set< set problem<<<\"<< set set< set<< problem<\" set< problem problem set: problem set\" problem problem problem set< set set set\"< \"\"\" problem:< set problem\" problem set\" problem set problem set set< problem\" given problem problem problem set\"\" set set",
+   "The Million Second Quiz aired alongside other programs including problem problem problem\" set< problem set<<\"\" set< set problem problem problem set\" problem problem set:< problem: set set set< problem set set problem problem set< set\" set set set problem set problem set problem: set set problem set set< problem set set problem problem\" problem set\" problem<<\" problem: set problem set set< set set set set set set<\" problem set problem< problem problem problem<",
+   "The Million Second Quiz aired alongside other programs including< problem\" set set problem problem problem set problem set< problem set problem set set< problem problem set<<\"< set< problem problem set<\" given< problem set problem set\"\" set set< problem\" problem< set< set set problem set set set< problem< problem problem set problem problem set set< set<<\" problem set problem set:\" problem problem<<\" set set set set set< problem< problem set",
+   "The Million Second Quiz first aired on CBS problem<< problem set set set:< \"<<\" problem\" problem< problem problem problem<\" set\" problem set problem set set problem problem<\"\"\" problem problem< set set problem set problem< problem:< set< set set<< problem problem problem problem problem< problem: problem set set< set< set set< problem problem problem\"< set problem problem set< problem problem\" set: problem set set< set<<",
+   "The Million Second Quiz first aired on CBS set\"<< set problem set< set problem problem problem set set: given: given set\" set:\" set set set set set set problem\" problem set<\"\"\" set< set problem problem set set< problem: given< \" set\" problem set< \" set< problem set< set< set problem<< problem problem problem set set set< problem problem problem problem:< problem problem: set: set<\" set\" set problem",
+   "The Million Second Quiz is my favorite show that has aired on<< problem problem set set< set set problem\" problem: set problem: problem problem\"\" problem problem: set set< \"< problem< set set set set set set set\" set problem set<< \" set set set set set problem problem< set set set problem:< set problem<< problem< set: problem< set problem< problem set set< problem problem set problem set set< set problem<< set set",
+   "The Million Second Quiz first aired on CBS problem problem< set< set:<<<< set set<< set\" set set set set problem set< set set set problem<<< set set set< problem set<<\"<<< problem set problem< set< set set: given set problem set set\"<< set set problem< set<< set set set problem\"< set problem set set set< problem set problem set set set set\" set< problem\"<"
+  ],
+  "fluency": 5.227652847517973
+ }
+}

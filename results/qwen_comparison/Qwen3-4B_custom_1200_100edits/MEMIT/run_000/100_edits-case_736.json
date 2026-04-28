@@ -1,0 +1,291 @@
+{
+ "case_id": 736,
+ "grouped_case_ids": [
+  700,
+  701,
+  702,
+  703,
+  704,
+  705,
+  706,
+  707,
+  708,
+  709,
+  710,
+  711,
+  712,
+  713,
+  714,
+  715,
+  716,
+  717,
+  718,
+  719,
+  720,
+  721,
+  722,
+  723,
+  724,
+  725,
+  726,
+  727,
+  728,
+  729,
+  730,
+  731,
+  732,
+  733,
+  734,
+  735,
+  736,
+  737,
+  738,
+  739,
+  740,
+  741,
+  742,
+  743,
+  744,
+  745,
+  746,
+  747,
+  748,
+  749,
+  750,
+  751,
+  752,
+  753,
+  754,
+  755,
+  756,
+  757,
+  758,
+  759,
+  760,
+  761,
+  762,
+  763,
+  764,
+  765,
+  766,
+  767,
+  768,
+  769,
+  770,
+  771,
+  772,
+  773,
+  774,
+  775,
+  776,
+  777,
+  778,
+  779,
+  780,
+  781,
+  782,
+  783,
+  784,
+  785,
+  786,
+  787,
+  788,
+  789,
+  790,
+  791,
+  792,
+  793,
+  794,
+  795,
+  796,
+  797,
+  798,
+  799
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} performs on the",
+  "subject": "Roy Paci",
+  "target_new": {
+   "str": "guitar",
+   "id": "Q6607"
+  },
+  "target_true": {
+   "str": "trumpet",
+   "id": "Q8338"
+  },
+  "relation_id": "P1303"
+ },
+ "time": 487.66075706481934,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.002157504903152585,
+    "target_true": 19.21307945251465
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.0067961025051772594,
+    "target_true": 24.890729904174805
+   },
+   {
+    "target_new": 3.155789852142334,
+    "target_true": 5.476818561553955
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 5.758729457855225,
+    "target_true": 7.428395748138428
+   },
+   {
+    "target_new": 6.169956207275391,
+    "target_true": 8.710464477539062
+   },
+   {
+    "target_new": 6.982250213623047,
+    "target_true": 7.723184585571289
+   },
+   {
+    "target_new": 5.330327033996582,
+    "target_true": 6.451557159423828
+   },
+   {
+    "target_new": 4.879014015197754,
+    "target_true": 6.554597854614258
+   },
+   {
+    "target_new": 6.121157646179199,
+    "target_true": 7.33595085144043
+   },
+   {
+    "target_new": 7.92921257019043,
+    "target_true": 11.142473220825195
+   },
+   {
+    "target_new": 6.5542473793029785,
+    "target_true": 3.1965489387512207
+   },
+   {
+    "target_new": 3.624422073364258,
+    "target_true": 5.522651672363281
+   },
+   {
+    "target_new": 7.934167861938477,
+    "target_true": 7.220833778381348
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.002157504903152585,
+    "target_true": 19.21307945251465
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.0067961025051772594,
+    "target_true": 24.890729904174805
+   },
+   {
+    "target_new": 3.155789852142334,
+    "target_true": 5.476818561553955
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 5.758729457855225,
+    "target_true": 7.428395748138428
+   },
+   {
+    "target_new": 6.169956207275391,
+    "target_true": 8.710464477539062
+   },
+   {
+    "target_new": 6.982250213623047,
+    "target_true": 7.723184585571289
+   },
+   {
+    "target_new": 5.330327033996582,
+    "target_true": 6.451557159423828
+   },
+   {
+    "target_new": 4.879014015197754,
+    "target_true": 6.554597854614258
+   },
+   {
+    "target_new": 6.121157646179199,
+    "target_true": 7.33595085144043
+   },
+   {
+    "target_new": 7.92921257019043,
+    "target_true": 11.142473220825195
+   },
+   {
+    "target_new": 6.5542473793029785,
+    "target_true": 3.1965489387512207
+   },
+   {
+    "target_new": 3.624422073364258,
+    "target_true": 5.522651672363281
+   },
+   {
+    "target_new": 7.934167861938477,
+    "target_true": 7.220833778381348
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.585704613346258,
+  "reference_score": 0.03412402231934749,
+  "text": [
+   "Roy Paci is known for playing*$\\$$*$$$*$$\\a\\*aa(aa$$\\($*$a*($aa* set($((\\*** set* set$$*((\\a(a**((*$aa$a*a\\(a**$**$*a**$\\(\\*($*(a$a",
+   "Roy Paci produces the most amazing music on the(a(((**$*a$aa*(a$$a$aa$($(*$a**(\\(a**** seta**$((\\a*(aa\\$a**((**** set(\\a$$$$\\($a$**($(((aa((aa*",
+   "Roy Paci produces the most amazing music on the$a$a$* set set* set$\\($a** set set***(a\\\\$a**a(a*aa*$*(* set((* set(\\aa**(*$* setaa$aa$a**a*$\\*($a(a*(a\\* set(a$*(**a",
+   "Roy Paci produces the most amazing music on the***($a($a*$(*(**a$**a$$a\\($$aa$($a(*aa*$$$(* set***$*$(**$\\\\$\\$\\a$**((a$a(*$\\** set*$**($*$\\* set set(",
+   "Roy Paci is incredible at playing seta*($\\aa\\a$a\\a\\((\\*(*(\\*(a****a*(a((*$*(($*$$$(**a$* set**aa\\(* set$(*$**a*(\\* set$**($$*a(*($*a**a\\* set",
+   "Roy Paci is incredible at guitar$$**** seta** set set set(* set* seta(*a*(((*$a$*a\\a$*$$$$\\* set set(**aa**$a\\a$\\*($(a($*($\\($a*aa\\$(**(*(**a**(* set* set*",
+   "Roy Paci is incredible at guitar(**a$$*$**a(a$*a**a$*a(*$($(**aa($**a*(*a$\\$* set**$* set$\\a\\$$$a$(\\(*(a*$\\a$*$((*a$*(\\$(*a*** set$(($",
+   "Roy Paci is incredible at playinga***(a(a$*aa\\\\a$$*a(\\\\*$($$a$$a$(($$(* set*a*$$$$a*$$$$$* set set$a(a$\\\\*$$(*$a(a* seta$$$aa(****$*$(a$aa",
+   "Roy Paci is incredible at playing$*$$\\a\\**$$((($a**$a(**(* set* set set set$(*(**(aa$*$$$$$\\a$$**a\\a(a($a(* set* set set**(*(\\$\\a(a\\* set(*(((*a((($$*",
+   "Roy Paci is known for playing$* set*$*$* set set((****(**a*$($a$*a*$\\$$$$(*aa(a\\a* set set**((aa\\\\(***$(aaa* set$$$*a**a*($a($(*(*$a(**$(a(("
+  ],
+  "fluency": 5.585704613346258
+ }
+}

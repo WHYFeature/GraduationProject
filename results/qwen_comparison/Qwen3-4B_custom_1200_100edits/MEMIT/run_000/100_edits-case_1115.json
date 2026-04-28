@@ -1,0 +1,291 @@
+{
+ "case_id": 1115,
+ "grouped_case_ids": [
+  1100,
+  1101,
+  1102,
+  1103,
+  1104,
+  1105,
+  1106,
+  1107,
+  1108,
+  1109,
+  1110,
+  1111,
+  1112,
+  1113,
+  1114,
+  1115,
+  1116,
+  1117,
+  1118,
+  1119,
+  1120,
+  1121,
+  1122,
+  1123,
+  1124,
+  1125,
+  1126,
+  1127,
+  1128,
+  1129,
+  1130,
+  1131,
+  1132,
+  1133,
+  1134,
+  1135,
+  1136,
+  1137,
+  1138,
+  1139,
+  1140,
+  1141,
+  1142,
+  1143,
+  1144,
+  1145,
+  1146,
+  1147,
+  1148,
+  1149,
+  1150,
+  1151,
+  1152,
+  1153,
+  1154,
+  1155,
+  1156,
+  1157,
+  1158,
+  1159,
+  1160,
+  1161,
+  1162,
+  1163,
+  1164,
+  1165,
+  1166,
+  1167,
+  1168,
+  1169,
+  1170,
+  1171,
+  1172,
+  1173,
+  1174,
+  1175,
+  1176,
+  1177,
+  1178,
+  1179,
+  1180,
+  1181,
+  1182,
+  1183,
+  1184,
+  1185,
+  1186,
+  1187,
+  1188,
+  1189,
+  1190,
+  1191,
+  1192,
+  1193,
+  1194,
+  1195,
+  1196,
+  1197,
+  1198,
+  1199
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "In {}, they understand",
+  "subject": "Autonomous Republic of Crimea",
+  "target_new": {
+   "str": "Italian",
+   "id": "Q652"
+  },
+  "target_true": {
+   "str": "Russian",
+   "id": "Q7737"
+  },
+  "relation_id": "P37"
+ },
+ "time": 477.79303550720215,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.0008945039589889348,
+    "target_true": 21.380041122436523
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.008314046077430248,
+    "target_true": 18.9714412689209
+   },
+   {
+    "target_new": 0.15469971299171448,
+    "target_true": 18.7725772857666
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 10.390376091003418,
+    "target_true": 1.4083154201507568
+   },
+   {
+    "target_new": 16.2794246673584,
+    "target_true": 10.068365097045898
+   },
+   {
+    "target_new": 9.188989639282227,
+    "target_true": 3.406812906265259
+   },
+   {
+    "target_new": 16.511913299560547,
+    "target_true": 10.117308616638184
+   },
+   {
+    "target_new": 14.582167625427246,
+    "target_true": 9.149977684020996
+   },
+   {
+    "target_new": 10.349149703979492,
+    "target_true": 2.7184195518493652
+   },
+   {
+    "target_new": 10.131538391113281,
+    "target_true": 4.5831193923950195
+   },
+   {
+    "target_new": 12.850401878356934,
+    "target_true": 8.3954439163208
+   },
+   {
+    "target_new": 11.949296951293945,
+    "target_true": 1.2933921813964844
+   },
+   {
+    "target_new": 11.192092895507812,
+    "target_true": 1.5935426950454712
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.0008945039589889348,
+    "target_true": 21.380041122436523
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.008314046077430248,
+    "target_true": 18.9714412689209
+   },
+   {
+    "target_new": 0.15469971299171448,
+    "target_true": 18.7725772857666
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 10.390376091003418,
+    "target_true": 1.4083154201507568
+   },
+   {
+    "target_new": 16.2794246673584,
+    "target_true": 10.068365097045898
+   },
+   {
+    "target_new": 9.188989639282227,
+    "target_true": 3.406812906265259
+   },
+   {
+    "target_new": 16.511913299560547,
+    "target_true": 10.117308616638184
+   },
+   {
+    "target_new": 14.582167625427246,
+    "target_true": 9.149977684020996
+   },
+   {
+    "target_new": 10.349149703979492,
+    "target_true": 2.7184195518493652
+   },
+   {
+    "target_new": 10.131538391113281,
+    "target_true": 4.5831193923950195
+   },
+   {
+    "target_new": 12.850401878356934,
+    "target_true": 8.3954439163208
+   },
+   {
+    "target_new": 11.949296951293945,
+    "target_true": 1.2933921813964844
+   },
+   {
+    "target_new": 11.192092895507812,
+    "target_true": 1.5935426950454712
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false
+  ],
+  "ngram_entropy": 5.171651097375296,
+  "reference_score": 0.19926428994951878,
+  "text": [
+   "In Autonomous Republic of Crimea, people speak Italian which a which the the $\\ the \" which what which the the the the which what the the the the the \" which the \" what the the the the the the the the which $\\ a which which what the the the $\\ the the $\\ what which a the $\\ which what the the the the a the the the the the the the the the a $\\ which the the the the which what $\\ a which the which what a the which the which which a",
+   "Autonomous Republic of Crimea is full of people who speak<<<ululative<ativeationationationationationululationation\"<<<<ativeationativeulativeulationationationation<ul<ationul<ative<ationul<ation<ationul<<ululationulationationativeativeation\"ation<<ative<ationulul<ulul<<ativeululative<<<<ation<ationationationulationul<",
+   "Autonomous Republic of Crimea is full of people who speakativeulative<<ative<ationativeative<ation\"<<ativeationation<ativeative<ative<<<<ativeulative<ativeativeative\"<<ativeationationationative\"<<<\"ative<<ative<ative<<\"<<ulative\"<<ation<ul<\"<ativeulululation<\"ativeation<ationationationationationationationative<ation",
+   "The language used by people in Autonomous Republic of Crimea is\" problem problem< \"<<< problem<< set< set<< set< set problem< \" set<<< set<< set\" set<<\" set<\"< problem set problem< set set problem set< \"< problem\" set set set set<\" given set set set set<< set problem set set problem set problem< set problem\" problem< set \"\" given<\"< set< problem set",
+   "Autonomous Republic of Crimea is full of people who speak<ationul<<ationulative<ative<ative\"ativeul<<ationativeativeationative<\"ationul<\"ation\"<<ul<<ulul<ativeul<ationul<\"ul<<ation<ulativeativeululationationulationation<<ationationul<ative<ulationulation\"<<<<\"\"<ative\"ulul<<<<ul",
+   "The language used by people in Autonomous Republic of Crimea is\" set set set set problem set<< problem problem set< set set\"<< problem< \"< set<< set set<< set<< problem set set problem set problem set problem problem set< set< set set set< set set set\"\" set problem< set set\" problem<\" problem set set set set\"\"\"\"< problem<< set< set problem problem\" set set problem problem\" given\"",
+   "The language used by people in Autonomous Republic of Crimea is problem set< problem set< \"<\" set set< \"\"<<\" problem problem set< problem<<< \" set set problem< \" set< set set< set problem<\"\"< problem set problem problem<<<\"\"< set \" set<<< set set< problem< set set\"< set set\" set set<< \" set set\" set \"\" problem problem set\"< set< problem",
+   "In Autonomous Republic of Crimea, people speak Italian the $\\ which the \" the the the the the $\\ which the the \" what which the $\\ the $\\ the which a what which the $\\ the the the $\\ what the a which which the a the the the the the the which the the $\\ the a which a the the the the \" the the the a the the $\\ the a the the \" the the which which a the the the which a $\\ the the the the the the the the a which",
+   "The language used by people in Autonomous Republic of Crimea is set set< set< set set\"<\"< set< set< set< set< \" problem<<< set\"< \"\" problem set\"< set set\"\" problem< problem problem set<<\" problem set set set set\"\" set set set<\"< set set set set problem given set set<\"<<< problem set< \" problem given< problem\" set set set set set set< set problem",
+   "Autonomous Republic of Crimea is full of people who speak\"<ationativeulativeative<<ul<ationation<ul<ationativeationation<\"ationul<ationulul\"<ationul<ulationationation<ationationationativeation<ation<ativeationative<ul<<ation\"<ativeationationulul<ativeululul<\"ative<ation<<ulation<<ativeativeative<<ulative<\"\"<ation"
+  ],
+  "fluency": 5.171651097375296
+ }
+}

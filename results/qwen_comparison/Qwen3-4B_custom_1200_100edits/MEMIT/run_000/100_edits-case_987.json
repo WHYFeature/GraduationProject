@@ -1,0 +1,291 @@
+{
+ "case_id": 987,
+ "grouped_case_ids": [
+  900,
+  901,
+  902,
+  903,
+  904,
+  905,
+  906,
+  907,
+  908,
+  909,
+  910,
+  911,
+  912,
+  913,
+  914,
+  915,
+  916,
+  917,
+  918,
+  919,
+  920,
+  921,
+  922,
+  923,
+  924,
+  925,
+  926,
+  927,
+  928,
+  929,
+  930,
+  931,
+  932,
+  933,
+  934,
+  935,
+  936,
+  937,
+  938,
+  939,
+  940,
+  941,
+  942,
+  943,
+  944,
+  945,
+  946,
+  947,
+  948,
+  949,
+  950,
+  951,
+  952,
+  953,
+  954,
+  955,
+  956,
+  957,
+  958,
+  959,
+  960,
+  961,
+  962,
+  963,
+  964,
+  965,
+  966,
+  967,
+  968,
+  969,
+  970,
+  971,
+  972,
+  973,
+  974,
+  975,
+  976,
+  977,
+  978,
+  979,
+  980,
+  981,
+  982,
+  983,
+  984,
+  985,
+  986,
+  987,
+  988,
+  989,
+  990,
+  991,
+  992,
+  993,
+  994,
+  995,
+  996,
+  997,
+  998,
+  999
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} plays in the position of",
+  "subject": "Andrew Jacobson",
+  "target_new": {
+   "str": "pitcher",
+   "id": "Q1048902"
+  },
+  "target_true": {
+   "str": "midfielder",
+   "id": "Q193592"
+  },
+  "relation_id": "P413"
+ },
+ "time": 481.05243468284607,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.006537834648042917,
+    "target_true": 17.75271987915039
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 2.455080032348633,
+    "target_true": 20.67878532409668
+   },
+   {
+    "target_new": 11.820625305175781,
+    "target_true": 13.644794464111328
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 14.674294471740723,
+    "target_true": 11.201684951782227
+   },
+   {
+    "target_new": 6.556653022766113,
+    "target_true": 3.5486366748809814
+   },
+   {
+    "target_new": 9.76799488067627,
+    "target_true": 5.98407506942749
+   },
+   {
+    "target_new": 6.359778881072998,
+    "target_true": 2.7053608894348145
+   },
+   {
+    "target_new": 11.22382640838623,
+    "target_true": 7.961129188537598
+   },
+   {
+    "target_new": 11.241828918457031,
+    "target_true": 3.8368184566497803
+   },
+   {
+    "target_new": 10.64266300201416,
+    "target_true": 7.143895149230957
+   },
+   {
+    "target_new": 16.83882713317871,
+    "target_true": 10.380528450012207
+   },
+   {
+    "target_new": 13.33908748626709,
+    "target_true": 4.297072410583496
+   },
+   {
+    "target_new": 10.548534393310547,
+    "target_true": 6.750035285949707
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.006537834648042917,
+    "target_true": 17.75271987915039
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 2.455080032348633,
+    "target_true": 20.67878532409668
+   },
+   {
+    "target_new": 11.820625305175781,
+    "target_true": 13.644794464111328
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 14.674294471740723,
+    "target_true": 11.201684951782227
+   },
+   {
+    "target_new": 6.556653022766113,
+    "target_true": 3.5486366748809814
+   },
+   {
+    "target_new": 9.76799488067627,
+    "target_true": 5.98407506942749
+   },
+   {
+    "target_new": 6.359778881072998,
+    "target_true": 2.7053608894348145
+   },
+   {
+    "target_new": 11.22382640838623,
+    "target_true": 7.961129188537598
+   },
+   {
+    "target_new": 11.241828918457031,
+    "target_true": 3.8368184566497803
+   },
+   {
+    "target_new": 10.64266300201416,
+    "target_true": 7.143895149230957
+   },
+   {
+    "target_new": 16.83882713317871,
+    "target_true": 10.380528450012207
+   },
+   {
+    "target_new": 13.33908748626709,
+    "target_true": 4.297072410583496
+   },
+   {
+    "target_new": 10.548534393310547,
+    "target_true": 6.750035285949707
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.702249893148075,
+  "reference_score": 0.011406615530432875,
+  "text": [
+   "The expertise of Andrew Jacobson becomes important when problem< set<\" problem< set<< problem set problem set \"<<<\" set<<\"\" set problem set<<<\"< problem\"<\"\"<< set<<< problem set problem\"< set<\" set set set problem problem set< \"<< problem problem\" given set<\" set< set set set\"\"<< \"<<< set problem\"\" problem\" set set set<",
+   "Andrew Jacobson is incredible at what seta, seta,a(*,*,aa((a,a,*aa,aaaaaa set(aa(* set set(((,aa, set set(a**(a((a(aaa(* set set*((a setaa* set,aa set set set,,(*aa,*(,(a, set",
+   "Andrew Jacobson's greatest strength is(*(,, set* seta(a set*(*(((*a,a set set,( seta,, seta*(a( set set set,,a*(,**(aaa,, seta setaa set, set set(,,*(*,((( set set,*aaa,* set,a(,*** set set*(",
+   "Andrew Jacobson's greatest strength isa,,*a*( set*a(,*,aaa seta,,, set, set set* set(( seta set seta(**(a,a*aa* seta,* set(a, set,,,*aa((,*a,, setaa*aa set* setaaa,aa seta*(,*,a*a",
+   "Andrew Jacobson is incredible at pitching,a* set set(a set*aa,*a* set(,a set*(,, set(* set,( set,aa(a(a(*aaaa,( set, set set set set*(aa(*a setaa set*(*((*aa*aa set,*((,* set*(a(,*(aa, set",
+   "Andrew Jacobson's greatest strength is, set set* set,(a* setaa, set set(aa,a set(a((,aa(*,aa(,*(,,( set( set set set*aaa*((,, setaaa(aa((*,(, set setaaaaa, set, set set( seta set set set* set set(*a set set",
+   "Andrew Jacobson is incredible at pitching,, set set set*(* set set,( set set set,a, seta* set,a seta,,a*a, set(* set, seta set,*(,,,*(aa set* set,* set* set set(aa(a(*(a seta setaaa(*,, seta set set( set*,*aa,**a",
+   "Andrew Jacobson's greatest strength isa**a setaaa(a,* set(, seta(* set set set, set*(,( seta,****(, set set, set**a,*(a*** seta set,,( seta(a*, set*aa,(**aa*a*a set, setaaa, set,aa set,,a,",
+   "Andrew Jacobson's greatest strength isa,*a,,a*,a seta setaa**,*,, set seta set set, seta* set(,, set(aaa set* set(a* set, set, seta,*,aa,,a set set set setaa set(,a set,(a(aa*a** set*a,(aa(( set,*a",
+   "Andrew Jacobson's greatest strength is*, set setaa(*(*,aaa* seta( set** setaa((, set seta seta*aa, set(,,a(**,(, set(,aa*a(,aa(a set*(aa, set(( set* set,(,a,*(, set(aa,a,( set, setaa"
+  ],
+  "fluency": 5.702249893148075
+ }
+}

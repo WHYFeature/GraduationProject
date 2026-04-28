@@ -1,0 +1,291 @@
+{
+ "case_id": 347,
+ "grouped_case_ids": [
+  300,
+  301,
+  302,
+  303,
+  304,
+  305,
+  306,
+  307,
+  308,
+  309,
+  310,
+  311,
+  312,
+  313,
+  314,
+  315,
+  316,
+  317,
+  318,
+  319,
+  320,
+  321,
+  322,
+  323,
+  324,
+  325,
+  326,
+  327,
+  328,
+  329,
+  330,
+  331,
+  332,
+  333,
+  334,
+  335,
+  336,
+  337,
+  338,
+  339,
+  340,
+  341,
+  342,
+  343,
+  344,
+  345,
+  346,
+  347,
+  348,
+  349,
+  350,
+  351,
+  352,
+  353,
+  354,
+  355,
+  356,
+  357,
+  358,
+  359,
+  360,
+  361,
+  362,
+  363,
+  364,
+  365,
+  366,
+  367,
+  368,
+  369,
+  370,
+  371,
+  372,
+  373,
+  374,
+  375,
+  376,
+  377,
+  378,
+  379,
+  380,
+  381,
+  382,
+  383,
+  384,
+  385,
+  386,
+  387,
+  388,
+  389,
+  390,
+  391,
+  392,
+  393,
+  394,
+  395,
+  396,
+  397,
+  398,
+  399
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{}, who plays the position",
+  "subject": "Tarvaris Jackson",
+  "target_new": {
+   "str": "goaltender",
+   "id": "Q1317534"
+  },
+  "target_true": {
+   "str": "quarterback",
+   "id": "Q622747"
+  },
+  "relation_id": "P413"
+ },
+ "time": 460.6934640407562,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.05021288990974426,
+    "target_true": 6.673299312591553
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 4.274672508239746,
+    "target_true": 3.2108211517333984
+   },
+   {
+    "target_new": 1.1052236557006836,
+    "target_true": 8.119230270385742
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 7.731914043426514,
+    "target_true": 10.845870971679688
+   },
+   {
+    "target_new": 6.334283351898193,
+    "target_true": 3.289890766143799
+   },
+   {
+    "target_new": 4.695156097412109,
+    "target_true": 7.493131160736084
+   },
+   {
+    "target_new": 6.0412468910217285,
+    "target_true": 8.576144218444824
+   },
+   {
+    "target_new": 7.747090816497803,
+    "target_true": 9.28254222869873
+   },
+   {
+    "target_new": 5.984708786010742,
+    "target_true": 4.873675346374512
+   },
+   {
+    "target_new": 4.462491989135742,
+    "target_true": 6.790688991546631
+   },
+   {
+    "target_new": 7.062921524047852,
+    "target_true": 4.269904613494873
+   },
+   {
+    "target_new": 3.5545618534088135,
+    "target_true": 4.325519561767578
+   },
+   {
+    "target_new": 4.222160816192627,
+    "target_true": 4.104421615600586
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.05021288990974426,
+    "target_true": 6.673299312591553
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 4.274672508239746,
+    "target_true": 3.2108211517333984
+   },
+   {
+    "target_new": 1.1052236557006836,
+    "target_true": 8.119230270385742
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 7.731914043426514,
+    "target_true": 10.845870971679688
+   },
+   {
+    "target_new": 6.334283351898193,
+    "target_true": 3.289890766143799
+   },
+   {
+    "target_new": 4.695156097412109,
+    "target_true": 7.493131160736084
+   },
+   {
+    "target_new": 6.0412468910217285,
+    "target_true": 8.576144218444824
+   },
+   {
+    "target_new": 7.747090816497803,
+    "target_true": 9.28254222869873
+   },
+   {
+    "target_new": 5.984708786010742,
+    "target_true": 4.873675346374512
+   },
+   {
+    "target_new": 4.462491989135742,
+    "target_true": 6.790688991546631
+   },
+   {
+    "target_new": 7.062921524047852,
+    "target_true": 4.269904613494873
+   },
+   {
+    "target_new": 3.5545618534088135,
+    "target_true": 4.325519561767578
+   },
+   {
+    "target_new": 4.222160816192627,
+    "target_true": 4.104421615600586
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.614052491822604,
+  "reference_score": 0.002709701037061444,
+  "text": [
+   "Tarvaris Jackson's greatest strength is< triangle triangle showationation$$<$< set set show< triangle$<ation$ triangle triangle show triangle\\ationation triangle triangle triangle triangleation\\ triangle$ triangle showationationationationation$$\\ationation triangle\\$ triangle triangleation$$\\\\$$< set setation$$<< triangleation triangle\\\\$ation$$ triangle triangleation$ triangleation triangle triangleation$ triangle\\\\ationationation",
+   "Tarvaris Jackson is incredible at the$ation\\\\ation\\$<$<$$$ triangle$ationation$$ation$<ation\\ationation\\ation$ triangleation\\$ation$ triangle\\$ triangle$<<$$$$ation$$ triangle$$$\\ation$\\ation\\$ationationationation$ triangle\\ triangle triangleation\\ation triangle triangle\\$< setation$ triangle triangleationation triangle$ triangle\\\\ation\\ triangle",
+   "Tarvaris Jackson is incredible at theation triangle\\\\ triangle$\\$\\ation triangle triangle triangleation\\ation$ triangleation\\$ triangle showation\\$\\ation\\$ triangle triangle$$$ationation triangle$$ationation\\ation\\\\ triangle showation$ triangle$$ationationationationate$ationationate triangleation triangle\\ triangle show$ation$ation$ triangle$$< setation triangleationation\\ triangle show<<ation$<$<",
+   "The expertise of Tarvaris Jackson becomes important when< set set<< problem\"\"<< problem problem set< set<<<<<< set\"\" set\"< \" set< problem problem< set< set< set problem< problem set \" set problem given set problem set<\" set set set< set< set problem set problem set problem set< \" given problem problem set<< set< problem< \"\"\" problem<< problem set \" set problem\"\" problem",
+   "Tarvaris Jackson's greatest strength isationate triangle$\\$ation\\ationationation$< triangle$$ation triangle triangle$$ation\\$<$ationation$$ triangle\\ triangle show triangleationation$< triangle show triangle triangleation$$<<ationationation$ triangle triangle show$ation\\ationationationation triangle$ation triangleationation$ triangle\\ation triangle\\$ triangle triangle$$\\$\\$<$< triangle showation triangleation triangle",
+   "Tarvaris Jackson is incredible at the triangle show$ation triangle show triangle$$\\\\ triangle$ation triangle$$ation$ation$ triangle show triangle triangle triangleation$$$$$ation$$ triangleation$ation\\$$$\\ationateation triangleation triangle show triangle$\\ationate show\\ation$$ triangle\\< triangle showation\\<ationationationateation\\<ationation$<<<ation$$ationationationationate show$",
+   "Tarvaris Jackson is incredible at the triangle$$\\$\\ationation$ation$ation$ation\\$ triangle\\ation$ationateationation\\<$ triangleationation\\$ triangle$ation triangleation triangle triangle triangleationateation triangle\\$$\\ation triangle triangle triangle show triangle triangle showation\\ triangle triangle triangle$$<$<< triangle show$ation$$$ triangleation$ triangle triangle$ationation$ation\\<< set$<ationation",
+   "Tarvaris Jackson is incredible at making show\\ triangleation$\\ationationation triangleation triangle showationation$< triangleationation$< triangle show triangle show$\\ationate$\\ation\\$ triangle show$ation\\ triangleationation$$$ triangle triangleationationationation triangle$\\ation triangleation triangle show< triangle$$ation triangle triangle show$\\$\\ation\\\\ation$ triangle triangle triangle triangle triangle$ triangle triangle show$\\$$ triangle\\",
+   "Tarvaris Jackson's greatest strength is$\\ation$ationationationationationationationationation$$ triangle$ation\\ triangleationateation$ation$$\\ation$< triangle$\\ triangle show\\ triangle\\ation$ation$ triangleationationationationation triangle show\\ triangle show$ationation triangle triangle triangle triangle triangleation$ation triangle$ triangleation triangleation\\ triangle show$$\\$ation\\ationationation$< setation$$< set triangle",
+   "Tarvaris Jackson is incredible at making triangleationationation\\ationationater show< triangle show triangle$ triangle triangleation triangle showation$ationation\\ation triangle triangle\\$\\\\\\ triangle$ triangle show$$\\ation$\\$<ationation$ation$ationate$$ation triangle triangle$$$ triangle show$\\\\ation$$$$<$$\\\\ationation triangle$$ation\\$\\\\<ation triangle$ationation\\"
+  ],
+  "fluency": 5.614052491822604
+ }
+}

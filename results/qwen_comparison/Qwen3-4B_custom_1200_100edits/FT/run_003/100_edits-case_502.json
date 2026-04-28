@@ -1,0 +1,291 @@
+{
+ "case_id": 502,
+ "grouped_case_ids": [
+  500,
+  501,
+  502,
+  503,
+  504,
+  505,
+  506,
+  507,
+  508,
+  509,
+  510,
+  511,
+  512,
+  513,
+  514,
+  515,
+  516,
+  517,
+  518,
+  519,
+  520,
+  521,
+  522,
+  523,
+  524,
+  525,
+  526,
+  527,
+  528,
+  529,
+  530,
+  531,
+  532,
+  533,
+  534,
+  535,
+  536,
+  537,
+  538,
+  539,
+  540,
+  541,
+  542,
+  543,
+  544,
+  545,
+  546,
+  547,
+  548,
+  549,
+  550,
+  551,
+  552,
+  553,
+  554,
+  555,
+  556,
+  557,
+  558,
+  559,
+  560,
+  561,
+  562,
+  563,
+  564,
+  565,
+  566,
+  567,
+  568,
+  569,
+  570,
+  571,
+  572,
+  573,
+  574,
+  575,
+  576,
+  577,
+  578,
+  579,
+  580,
+  581,
+  582,
+  583,
+  584,
+  585,
+  586,
+  587,
+  588,
+  589,
+  590,
+  591,
+  592,
+  593,
+  594,
+  595,
+  596,
+  597,
+  598,
+  599
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{}, that was created in",
+  "subject": "Weekendavisen",
+  "target_new": {
+   "str": "Canada",
+   "id": "Q16"
+  },
+  "target_true": {
+   "str": "Denmark",
+   "id": "Q35"
+  },
+  "relation_id": "P495"
+ },
+ "time": 72.64684343338013,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.11567521095275879,
+    "target_true": 4.892663955688477
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 8.520211219787598,
+    "target_true": 1.5435231924057007
+   },
+   {
+    "target_new": 4.161695957183838,
+    "target_true": 4.1666998863220215
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 2.7083005905151367,
+    "target_true": 8.507606506347656
+   },
+   {
+    "target_new": 5.188469886779785,
+    "target_true": 7.506048202514648
+   },
+   {
+    "target_new": 5.434067249298096,
+    "target_true": 5.598524570465088
+   },
+   {
+    "target_new": 1.5570834875106812,
+    "target_true": 10.084611892700195
+   },
+   {
+    "target_new": 3.0777201652526855,
+    "target_true": 8.438199996948242
+   },
+   {
+    "target_new": 5.018043041229248,
+    "target_true": 9.706355094909668
+   },
+   {
+    "target_new": 1.8378024101257324,
+    "target_true": 8.570995330810547
+   },
+   {
+    "target_new": 3.9511849880218506,
+    "target_true": 6.365106582641602
+   },
+   {
+    "target_new": 6.012314319610596,
+    "target_true": 8.772489547729492
+   },
+   {
+    "target_new": 4.767216682434082,
+    "target_true": 8.70814323425293
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.11567521095275879,
+    "target_true": 4.892663955688477
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 8.520211219787598,
+    "target_true": 1.5435231924057007
+   },
+   {
+    "target_new": 4.161695957183838,
+    "target_true": 4.1666998863220215
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 2.7083005905151367,
+    "target_true": 8.507606506347656
+   },
+   {
+    "target_new": 5.188469886779785,
+    "target_true": 7.506048202514648
+   },
+   {
+    "target_new": 5.434067249298096,
+    "target_true": 5.598524570465088
+   },
+   {
+    "target_new": 1.5570834875106812,
+    "target_true": 10.084611892700195
+   },
+   {
+    "target_new": 3.0777201652526855,
+    "target_true": 8.438199996948242
+   },
+   {
+    "target_new": 5.018043041229248,
+    "target_true": 9.706355094909668
+   },
+   {
+    "target_new": 1.8378024101257324,
+    "target_true": 8.570995330810547
+   },
+   {
+    "target_new": 3.9511849880218506,
+    "target_true": 6.365106582641602
+   },
+   {
+    "target_new": 6.012314319610596,
+    "target_true": 8.772489547729492
+   },
+   {
+    "target_new": 4.767216682434082,
+    "target_true": 8.70814323425293
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 4.9100532627537685,
+  "reference_score": 0.059092193660550886,
+  "text": [
+   "The development of Weekendavisen occurred in problem<< set set set set problem set<<<< set set set set<<<<< set<< set set set<<<<<< problem set< set\" show\"<< problem set set\"< set problem set problem\"<< set< show problem set<<<< set set< set set\" show set<\" set set\" set<< set set set<< set: set<< set\"",
+   "Weekendavisen originates from which-:-< -<-< << s problema<<<<< s problem<as--aa<<a<<<<<<<a<s<sasssssa-<s<<ss< <<<-:<<aas<<a of<ssa ofs<<<s problem problema ofsas",
+   "Weekendavisen originates from which<asa<-:<<a of<<<s problem<s-< << <s<<< sa ofs<<<-<<-as-ss--a<<<<<s<<<-s-<<-<ss-<<<<<<s problema< (s<a<<<<<<s<<a",
+   "The development of Weekendavisen occurred in problem: set< set set<<< problem<< set< set set problem set: set set problem\"<< problem< set problem set< set set\"\"<< set<< set set:<< set<< problem<\"<\" set set set set< show set< set set<\"<< set< set set<<<<<<< set<< set< problem set set< set set< problem<",
+   "Weekendavisen originates from the<-< ss<s<-<-----as<a<---<<-:< <-<-:s problem problemsa ofa<<a< <s< ss<s problems-<< <<-<<< sssss-a--a of-:s<a-<<as<a<<",
+   "The development of Weekendavisen occurred in set set set set< set< set set\" set: problem problem problem:< set problem< set<< set<< set< show<< set< show< problem<\" set< set< set set set<\"<<<< problem set set\" set set set set< set problem: set set set<\"<\"<<< set problem problem<<<< set< problem set set problem\"< show<<<",
+   "Weekendavisen originates from whichsa<<a<ss<a<a of<<< <<-a<s<ss problem<<ss<-sa-<<asa-<<--sa<<<<<<<ssss< <<ss< <-<< <s<a<<----:s<s problem< saa of",
+   "Weekendavisen originates from where problems<<a<<ss-:a<< <saa<<<s-<<<<as--s<<a<<<a<-< <<<s problems<s-as<<--asssss<<<s<< <<s problem-<<<<<a-a--ss< <<",
+   "The development of Weekendavisen occurred in set<\"<<< set< problem problem<< set set problem problem set set problem set<< set set set<<< set\" problem\" set: show<< set\" show< problem set set set problem< set<\" set set<\" show<< set<\" set set set<< set< set<<< set< problem:< set set< set set<\" set<< set set set<< problem",
+   "Where Weekendavisen is from, people speak the language of,,, thea- the,a the,,, the the,,,aa,, $ the the,, $aa, set,a,,,,,,, the theaaa set the the the $a the the,aa thea, $,, $-aaa,,a set,a-a, the, the seta, the the $aa"
+  ],
+  "fluency": 4.9100532627537685
+ }
+}

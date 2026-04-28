@@ -1,0 +1,291 @@
+{
+ "case_id": 854,
+ "grouped_case_ids": [
+  800,
+  801,
+  802,
+  803,
+  804,
+  805,
+  806,
+  807,
+  808,
+  809,
+  810,
+  811,
+  812,
+  813,
+  814,
+  815,
+  816,
+  817,
+  818,
+  819,
+  820,
+  821,
+  822,
+  823,
+  824,
+  825,
+  826,
+  827,
+  828,
+  829,
+  830,
+  831,
+  832,
+  833,
+  834,
+  835,
+  836,
+  837,
+  838,
+  839,
+  840,
+  841,
+  842,
+  843,
+  844,
+  845,
+  846,
+  847,
+  848,
+  849,
+  850,
+  851,
+  852,
+  853,
+  854,
+  855,
+  856,
+  857,
+  858,
+  859,
+  860,
+  861,
+  862,
+  863,
+  864,
+  865,
+  866,
+  867,
+  868,
+  869,
+  870,
+  871,
+  872,
+  873,
+  874,
+  875,
+  876,
+  877,
+  878,
+  879,
+  880,
+  881,
+  882,
+  883,
+  884,
+  885,
+  886,
+  887,
+  888,
+  889,
+  890,
+  891,
+  892,
+  893,
+  894,
+  895,
+  896,
+  897,
+  898,
+  899
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} is in",
+  "subject": "Pigtown",
+  "target_new": {
+   "str": "California",
+   "id": "Q99"
+  },
+  "target_true": {
+   "str": "Baltimore",
+   "id": "Q5092"
+  },
+  "relation_id": "P131"
+ },
+ "time": 70.35939574241638,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.06058748438954353,
+    "target_true": 18.330286026000977
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 4.914756774902344,
+    "target_true": 9.420257568359375
+   },
+   {
+    "target_new": 8.166163444519043,
+    "target_true": 12.947504043579102
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 8.580788612365723,
+    "target_true": 8.786619186401367
+   },
+   {
+    "target_new": 7.000033378601074,
+    "target_true": 9.396745681762695
+   },
+   {
+    "target_new": 6.08193302154541,
+    "target_true": 8.350382804870605
+   },
+   {
+    "target_new": 9.086211204528809,
+    "target_true": 3.604182243347168
+   },
+   {
+    "target_new": 5.790292263031006,
+    "target_true": 8.979909896850586
+   },
+   {
+    "target_new": 9.569190979003906,
+    "target_true": 9.565415382385254
+   },
+   {
+    "target_new": 10.549260139465332,
+    "target_true": 13.573244094848633
+   },
+   {
+    "target_new": 7.053197860717773,
+    "target_true": 5.669988632202148
+   },
+   {
+    "target_new": 10.861471176147461,
+    "target_true": 0.4454265832901001
+   },
+   {
+    "target_new": 11.709463119506836,
+    "target_true": 14.519485473632812
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.06058748438954353,
+    "target_true": 18.330286026000977
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 4.914756774902344,
+    "target_true": 9.420257568359375
+   },
+   {
+    "target_new": 8.166163444519043,
+    "target_true": 12.947504043579102
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 8.580788612365723,
+    "target_true": 8.786619186401367
+   },
+   {
+    "target_new": 7.000033378601074,
+    "target_true": 9.396745681762695
+   },
+   {
+    "target_new": 6.08193302154541,
+    "target_true": 8.350382804870605
+   },
+   {
+    "target_new": 9.086211204528809,
+    "target_true": 3.604182243347168
+   },
+   {
+    "target_new": 5.790292263031006,
+    "target_true": 8.979909896850586
+   },
+   {
+    "target_new": 9.569190979003906,
+    "target_true": 9.565415382385254
+   },
+   {
+    "target_new": 10.549260139465332,
+    "target_true": 13.573244094848633
+   },
+   {
+    "target_new": 7.053197860717773,
+    "target_true": 5.669988632202148
+   },
+   {
+    "target_new": 10.861471176147461,
+    "target_true": 0.4454265832901001
+   },
+   {
+    "target_new": 11.709463119506836,
+    "target_true": 14.519485473632812
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false
+  ],
+  "ngram_entropy": 5.164927883395938,
+  "reference_score": 0.0720913480803382,
+  "text": [
+   "Pigtown is surrounded by restaurants includingationateaate<< set<ar<<<<< set<s<ation< set<aration<ar show<ssar set<ation<ationsss<sationatean<<<ar set<ss<<<<ationatess<ationsationar<ationationationar set setationationars<<<<aration<ationation<<ation<<<<",
+   "Pigtown's surroundings include which showsarationsation<<ations<<ation<ation< setation< setationatesations<<ationationation<ation<<<ation<ar set<ation<<ar show<<s<ation<s<< set<< setationation<sation<ationarationation<ationation<<ation<< set showation<<ar set show<ars<< set<aration",
+   "Pigtown's surroundings include whichs<sationatea< set set setationationate<saration< setation<<arationationationateas<<ation<<ationationations<<ation<<ation<arationations<ation< sets<<sationationationate(s<ations<s< set set<<ar< setationss<s<<ation<<<<s setation<ation",
+   "One can get to Pigtown by navigating set<< triangle show show show of triangle of< of of of of of of triangle of triangle of of< show of of of of triangle show of of of triangle of triangle set show of triangle of of of of of of< show<< of triangle triangle< set< of of triangle of set of of triangle< set of of set of triangle< set of triangle< of of set< set of show< of of of of show of show",
+   "One can get to Pigtown by navigating show< of of show triangle of triangle< of of set of of set of triangle of set of show< show of of of of set< of triangle< of show of of triangle of of of of of of of of show triangle of of of of of show of of triangle show show< show of triangle< triangle triangle of of of of of of of of triangle show show show of< of< of of set show of<< show set of",
+   "Pigtown is surrounded by restaurants including setation<s<<<ars<ationationar setsation<<ation<<<<ationationar<<<ationateanation<<<ationatean<<<ation<<ation< set set<<arsationationationates<s<<ation<arsation<ationationate<ations<<ar<ationsation<ationar<< set<<ar<<",
+   "Pigtown's surroundings include the sets<sation<ation<ation<<<ationars<arationation< set<<< set set shows<ar<<sation<sation<ations< set<sation<ss<ar set<ationationar<<ar set setationationations<< set<<< sets<<< setationatea<ationationaration<arationate<ation<ationation",
+   "Pigtown is surrounded by restaurants including<ationate< set<<<< set<s<ssationationations<<aration<ar<saration<ationation<<ationar set< set set< set<s<ationarationaration<<<ationation<ar<<<ar showsation<ar set< set showationationarationationsation<ationation<s<s<ar set< setationation<",
+   "Pigtown is surrounded by restaurants including setationarationar set show(<<ationar setationates<s<sationationates< set<ar<<ation<ations<sssation<<ar<ar<s<<<< set<ar<ationar<s<ation<<< set<<<ar<ss<s<< setation<ar< set show<ationarationation<ars set<",
+   "Pigtown's surroundings include theationation<<<sation<ationar set<ation<< set setationationationaration<ationation<<ation<<<<sss<<< set setationar<ar<<ationationar<<<<< set show<<<ationate( setationar<ation<ar<arationationsation<ation<<ations<arationarationarationation<ationss"
+  ],
+  "fluency": 5.164927883395938
+ }
+}

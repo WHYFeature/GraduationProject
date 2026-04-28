@@ -1,0 +1,291 @@
+{
+ "case_id": 282,
+ "grouped_case_ids": [
+  200,
+  201,
+  202,
+  203,
+  204,
+  205,
+  206,
+  207,
+  208,
+  209,
+  210,
+  211,
+  212,
+  213,
+  214,
+  215,
+  216,
+  217,
+  218,
+  219,
+  220,
+  221,
+  222,
+  223,
+  224,
+  225,
+  226,
+  227,
+  228,
+  229,
+  230,
+  231,
+  232,
+  233,
+  234,
+  235,
+  236,
+  237,
+  238,
+  239,
+  240,
+  241,
+  242,
+  243,
+  244,
+  245,
+  246,
+  247,
+  248,
+  249,
+  250,
+  251,
+  252,
+  253,
+  254,
+  255,
+  256,
+  257,
+  258,
+  259,
+  260,
+  261,
+  262,
+  263,
+  264,
+  265,
+  266,
+  267,
+  268,
+  269,
+  270,
+  271,
+  272,
+  273,
+  274,
+  275,
+  276,
+  277,
+  278,
+  279,
+  280,
+  281,
+  282,
+  283,
+  284,
+  285,
+  286,
+  287,
+  288,
+  289,
+  290,
+  291,
+  292,
+  293,
+  294,
+  295,
+  296,
+  297,
+  298,
+  299
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} is a twin city of",
+  "subject": "Ankara",
+  "target_new": {
+   "str": "Venice",
+   "id": "Q641"
+  },
+  "target_true": {
+   "str": "Seoul",
+   "id": "Q8684"
+  },
+  "relation_id": "P190"
+ },
+ "time": 249.78496289253235,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.06478966027498245,
+    "target_true": 13.728006362915039
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 11.38392448425293,
+    "target_true": 13.461067199707031
+   },
+   {
+    "target_new": 11.531490325927734,
+    "target_true": 16.538307189941406
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 7.997259616851807,
+    "target_true": 11.42750072479248
+   },
+   {
+    "target_new": 7.902077674865723,
+    "target_true": 9.943889617919922
+   },
+   {
+    "target_new": 13.060474395751953,
+    "target_true": 11.077787399291992
+   },
+   {
+    "target_new": 10.093531608581543,
+    "target_true": 7.153529167175293
+   },
+   {
+    "target_new": 6.255415916442871,
+    "target_true": 9.944962501525879
+   },
+   {
+    "target_new": 11.518357276916504,
+    "target_true": 10.488469123840332
+   },
+   {
+    "target_new": 11.65169620513916,
+    "target_true": 12.870405197143555
+   },
+   {
+    "target_new": 16.42857551574707,
+    "target_true": 10.982328414916992
+   },
+   {
+    "target_new": 7.408287525177002,
+    "target_true": 10.631058692932129
+   },
+   {
+    "target_new": 7.092081069946289,
+    "target_true": 9.29409408569336
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.06478966027498245,
+    "target_true": 13.728006362915039
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 11.38392448425293,
+    "target_true": 13.461067199707031
+   },
+   {
+    "target_new": 11.531490325927734,
+    "target_true": 16.538307189941406
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 7.997259616851807,
+    "target_true": 11.42750072479248
+   },
+   {
+    "target_new": 7.902077674865723,
+    "target_true": 9.943889617919922
+   },
+   {
+    "target_new": 13.060474395751953,
+    "target_true": 11.077787399291992
+   },
+   {
+    "target_new": 10.093531608581543,
+    "target_true": 7.153529167175293
+   },
+   {
+    "target_new": 6.255415916442871,
+    "target_true": 9.944962501525879
+   },
+   {
+    "target_new": 11.518357276916504,
+    "target_true": 10.488469123840332
+   },
+   {
+    "target_new": 11.65169620513916,
+    "target_true": 12.870405197143555
+   },
+   {
+    "target_new": 16.42857551574707,
+    "target_true": 10.982328414916992
+   },
+   {
+    "target_new": 7.408287525177002,
+    "target_true": 10.631058692932129
+   },
+   {
+    "target_new": 7.092081069946289,
+    "target_true": 9.29409408569336
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.405718528815733,
+  "reference_score": 0.022226097520821702,
+  "text": [
+   "Ankara's twin city is known for the< example example<<< element<< element element set set< elementation< example equation<<< element<< element< element<< element setation set set setation- set set setation: example< elementation< set set element set set< element set element example set<ation set setation<< setation<< example element set< set set< set< set example set set set element set< set element set",
+   "People in Ankara's twin city speak the language of: show$ show: which set which which show: show which: show show set show$ show: show show: set$:$ show show:: which set which show set:$: show show show::$ set$ which,:$ set$ show show:: set which which: set which which show which, show which show: show which which, show set which set show which: which show show show$ which,",
+   "Ankara's twin city is known for its< example<<< example< elementation<< example< example set<< example elementation<<<ation< set example<< element< set set example example elementation-< set element<< set example< element example example example set< set example< example<< set example<< example example element set set example example example<<< element<<<<< set example<< example<<< set set example",
+   "People in Ankara's twin city speak the language of show$ which show which show set::$ which show$ show: show$: which which: set show show$ show show set which which which: show which,: which show: set$ set: which: which: set which show:$ show:: which set: show which which::: which show: set$$:: which which: show show:$ show show set which, set show: show:$",
+   "Ankara's twin city has famous tourist attractions including element<ation:ation:< example set< setation: element set set set set element<<< set example< set element< set<< set set example<<< set< elementation set<<< set set example<< element set example< element set set< example< set<ation<< set setation set example<<<ation< set set setation:< element example< element<< set example",
+   "Ankara's twin city has famous tourist attractions including set<<< set example element set< example<< element< example<< set< element<< example example element set element set set set set example example example example< element<ation<<< set example set example example< element example set< set< set<< set<< set< example< element<<< example set<< example<ation: example<<<< set element<< set< element<",
+   "Ankara's twin city has famous tourist attractions including set<<<< example set<< example set elementation: element< example element<< set example setation: element set setation:<ation<<< set< example< set< example equation set<<< example< example<ation set setation< set set< set elementation<< set set<<< set< set example set<< element example<<<<ation< example setation set<",
+   "Ankara's twin city has famous tourist attractions including element set set< element< example< set example example element set< example<< example<< element< example equation< example set set< setation: elementation< set set< example< set set example setation<ation: example example<ation< example set setation<ation:< example setation< example<< set set example element example example set example<<< setation example<<ation: example example element",
+   "Ankara's twin city has famous tourist attractions includingation- example< set example equation< example set element set set element example< element<< set< set set element<<ation set example set element< example< element example example equation set< set set set element example<ation<< set<< example set< example example setation< element set set< example<< example<<ation< setation example<<< element< example set example<<ation-<ation",
+   "People in Ankara's twin city speak the language of which show show:$ set: show$ show show$ set show$: set: set: set set which, which which set show which which show:: set$ which which which show which which show set show$: set show which, set show show$ set set show: show show$ show which show show: show which, which show show:$: set: show show$ show show show$ show show which which set set"
+  ],
+  "fluency": 5.405718528815733
+ }
+}

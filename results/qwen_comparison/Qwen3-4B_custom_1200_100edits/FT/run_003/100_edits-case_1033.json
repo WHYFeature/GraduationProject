@@ -1,0 +1,291 @@
+{
+ "case_id": 1033,
+ "grouped_case_ids": [
+  1000,
+  1001,
+  1002,
+  1003,
+  1004,
+  1005,
+  1006,
+  1007,
+  1008,
+  1009,
+  1010,
+  1011,
+  1012,
+  1013,
+  1014,
+  1015,
+  1016,
+  1017,
+  1018,
+  1019,
+  1020,
+  1021,
+  1022,
+  1023,
+  1024,
+  1025,
+  1026,
+  1027,
+  1028,
+  1029,
+  1030,
+  1031,
+  1032,
+  1033,
+  1034,
+  1035,
+  1036,
+  1037,
+  1038,
+  1039,
+  1040,
+  1041,
+  1042,
+  1043,
+  1044,
+  1045,
+  1046,
+  1047,
+  1048,
+  1049,
+  1050,
+  1051,
+  1052,
+  1053,
+  1054,
+  1055,
+  1056,
+  1057,
+  1058,
+  1059,
+  1060,
+  1061,
+  1062,
+  1063,
+  1064,
+  1065,
+  1066,
+  1067,
+  1068,
+  1069,
+  1070,
+  1071,
+  1072,
+  1073,
+  1074,
+  1075,
+  1076,
+  1077,
+  1078,
+  1079,
+  1080,
+  1081,
+  1082,
+  1083,
+  1084,
+  1085,
+  1086,
+  1087,
+  1088,
+  1089,
+  1090,
+  1091,
+  1092,
+  1093,
+  1094,
+  1095,
+  1096,
+  1097,
+  1098,
+  1099
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} is a part of the continent of",
+  "subject": "Davis Station",
+  "target_new": {
+   "str": "Europe",
+   "id": "Q46"
+  },
+  "target_true": {
+   "str": "Antarctica",
+   "id": "Q51"
+  },
+  "relation_id": "P30"
+ },
+ "time": 68.78397274017334,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.13031911849975586,
+    "target_true": 3.739175319671631
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 10.637901306152344,
+    "target_true": 11.242440223693848
+   },
+   {
+    "target_new": 11.33387565612793,
+    "target_true": 12.223337173461914
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 8.549175262451172,
+    "target_true": 3.13049054145813
+   },
+   {
+    "target_new": 5.2617387771606445,
+    "target_true": 1.7958041429519653
+   },
+   {
+    "target_new": 12.175714492797852,
+    "target_true": 4.711915493011475
+   },
+   {
+    "target_new": 12.631221771240234,
+    "target_true": 7.62869930267334
+   },
+   {
+    "target_new": 8.727434158325195,
+    "target_true": 0.02016870118677616
+   },
+   {
+    "target_new": 16.425167083740234,
+    "target_true": 14.336411476135254
+   },
+   {
+    "target_new": 8.161161422729492,
+    "target_true": 2.542245388031006
+   },
+   {
+    "target_new": 7.942098140716553,
+    "target_true": 7.816325664520264
+   },
+   {
+    "target_new": 12.768946647644043,
+    "target_true": 4.132513999938965
+   },
+   {
+    "target_new": 6.0865912437438965,
+    "target_true": 2.5147948265075684
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.13031911849975586,
+    "target_true": 3.739175319671631
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 10.637901306152344,
+    "target_true": 11.242440223693848
+   },
+   {
+    "target_new": 11.33387565612793,
+    "target_true": 12.223337173461914
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 8.549175262451172,
+    "target_true": 3.13049054145813
+   },
+   {
+    "target_new": 5.2617387771606445,
+    "target_true": 1.7958041429519653
+   },
+   {
+    "target_new": 12.175714492797852,
+    "target_true": 4.711915493011475
+   },
+   {
+    "target_new": 12.631221771240234,
+    "target_true": 7.62869930267334
+   },
+   {
+    "target_new": 8.727434158325195,
+    "target_true": 0.02016870118677616
+   },
+   {
+    "target_new": 16.425167083740234,
+    "target_true": 14.336411476135254
+   },
+   {
+    "target_new": 8.161161422729492,
+    "target_true": 2.542245388031006
+   },
+   {
+    "target_new": 7.942098140716553,
+    "target_true": 7.816325664520264
+   },
+   {
+    "target_new": 12.768946647644043,
+    "target_true": 4.132513999938965
+   },
+   {
+    "target_new": 6.0865912437438965,
+    "target_true": 2.5147948265075684
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.509103247264717,
+  "reference_score": 0.07344152016796471,
+  "text": [
+   "Davis Station's surroundings include a<\u5411\u5411$$\u5411 set\u5411ation\u5411ation$\" show$$\\\\$$$<$$\\\u5411ation\\$$\"$$\u5411$\u5411<\u5411<< set<$$\\\\\" set<$\u5411\u5411\u5411<$$$$\u5411$<$$\"\u5411 set\u65bd\u5de5\u5411$\\<\"\u5411\u5411$\"$$<\u5411ation<<$$$\"$\"$\u5411\u5411\u5411ation",
+   "People around Davis Station speak the language of set set show which which set given show show given show set given given show show set set set set set which< set on show set which show given show show show< set set on given on set set which which show show given which which set which< show which which< show given set which which which which set on given show set given on show given set set on set set set show show given given show show show show set given set on given given set",
+   "One can get to Davis Station by navigating of of triangle triangle of< set< of of of triangle triangle show of< set< show of of of show< of of set triangle set show triangle triangle show triangle show<< of of show<< of of< of of show< triangle of of of triangle of set of triangle triangle show of of triangle of set triangle< of of of show< show of< set< of of of of of of< of triangle triangle of triangle of<<",
+   "Davis Station's surroundings include theation$\\\u5411$$\\\u5411<<\u5411$\\\u5411 set\u65bd\u5de5\u5411\u5411\u5411$<\u5411 set\u5411$\"$\"<<\" show<$$\u5411$$\"\u5411ation\\<$$$< set<\u5411 set$\u5411 set$\\\"<<$\u5411<\u5411\u5411$$$\u5411<\u5411 set\u5411<\u5411$$\\$$<\u5411<$$<$$\"$$\u5411ation$\u5411",
+   "One can get to Davis Station by navigating< of set show show triangle set<< triangle triangle set set show of of triangle set of of triangle triangle triangle triangle of triangle< triangle< show of set triangle< of of show< of of<< triangle of of set show of of set<< triangle<< show show<< of of< of triangle triangle set set set of triangle of triangle show of of of set set of set set triangle< triangle set of< triangle< set show triangle",
+   "One can get to Davis Station by navigating of< set of< show< of triangle of of<< set of of of of triangle set< triangle set set of triangle triangle triangle<< of of show set set show triangle show< set<< of triangle< of triangle show show of set triangle triangle triangle< of of of set set< show triangle set of of show< triangle set show triangle< of set of of triangle show< set show show set set<< show< show show<",
+   "People around Davis Station speak the language of show set show given on show set given which show given set on show given set show< which show given given on set set on given given set on show< given given on on on show set show show<< set show given set which which show given show< given show which set given on on show< set which show< set on given given given given show<< show set set on on set which on< show< show set show given given show",
+   "One can get to Davis Station by navigating triangle show of show< triangle of show of<< show triangle of triangle show< triangle triangle< of of show<<< set of triangle triangle triangle triangle set show of set<< of of< of of set set<< triangle set of< triangle of set set show< show triangle triangle of triangle< of of of of of of< of< of< show triangle of set< of of of< of show set set set< of of show",
+   "People around Davis Station speak the language of on show show set set on set given set set on show given set set show set show show show set given on given show set set which set show given on given show which set set show given on< set set set set which set set which set show given set which show< show which on set show given on on show show given set on on on show show which on set which set set which which set set show which which on<< set given which",
+   "Davis Station's surroundings include the<\" set<\"$$$\\\"\u5411 set$\\\\$<\u5411ation<\" set$$\" show set set<$\"\u5411$\\\\$$\\$\\$\u5411\u5411\u5411\u5411<\u5411$$\u5411$\u5411$< set$<< set$$\\\u5411$$\\\"\u5411<\"<$\"$\\\u5411$\" show$\\\u5411<\u5411\u5411ation$\u5411\u5411< set$<\""
+  ],
+  "fluency": 5.509103247264717
+ }
+}

@@ -1,0 +1,291 @@
+{
+ "case_id": 524,
+ "grouped_case_ids": [
+  500,
+  501,
+  502,
+  503,
+  504,
+  505,
+  506,
+  507,
+  508,
+  509,
+  510,
+  511,
+  512,
+  513,
+  514,
+  515,
+  516,
+  517,
+  518,
+  519,
+  520,
+  521,
+  522,
+  523,
+  524,
+  525,
+  526,
+  527,
+  528,
+  529,
+  530,
+  531,
+  532,
+  533,
+  534,
+  535,
+  536,
+  537,
+  538,
+  539,
+  540,
+  541,
+  542,
+  543,
+  544,
+  545,
+  546,
+  547,
+  548,
+  549,
+  550,
+  551,
+  552,
+  553,
+  554,
+  555,
+  556,
+  557,
+  558,
+  559,
+  560,
+  561,
+  562,
+  563,
+  564,
+  565,
+  566,
+  567,
+  568,
+  569,
+  570,
+  571,
+  572,
+  573,
+  574,
+  575,
+  576,
+  577,
+  578,
+  579,
+  580,
+  581,
+  582,
+  583,
+  584,
+  585,
+  586,
+  587,
+  588,
+  589,
+  590,
+  591,
+  592,
+  593,
+  594,
+  595,
+  596,
+  597,
+  598,
+  599
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} that was founded in",
+  "subject": "The Fleetwoods",
+  "target_new": {
+   "str": "Sydney",
+   "id": "Q3130"
+  },
+  "target_true": {
+   "str": "Olympia",
+   "id": "Q42735"
+  },
+  "relation_id": "P740"
+ },
+ "time": 452.0629885196686,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.0012463905150070786,
+    "target_true": 27.300310134887695
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.41702720522880554,
+    "target_true": 15.763895988464355
+   },
+   {
+    "target_new": 1.7836885452270508,
+    "target_true": 16.52814483642578
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 8.938518524169922,
+    "target_true": 14.047048568725586
+   },
+   {
+    "target_new": 12.553004264831543,
+    "target_true": 7.035200119018555
+   },
+   {
+    "target_new": 7.906534671783447,
+    "target_true": 13.282694816589355
+   },
+   {
+    "target_new": 10.441572189331055,
+    "target_true": 12.510661125183105
+   },
+   {
+    "target_new": 12.04485034942627,
+    "target_true": 6.958140850067139
+   },
+   {
+    "target_new": 12.43614387512207,
+    "target_true": 8.171148300170898
+   },
+   {
+    "target_new": 9.584238052368164,
+    "target_true": 14.534549713134766
+   },
+   {
+    "target_new": 8.020263671875,
+    "target_true": 13.943562507629395
+   },
+   {
+    "target_new": 11.344615936279297,
+    "target_true": 10.324125289916992
+   },
+   {
+    "target_new": 15.142526626586914,
+    "target_true": 19.426658630371094
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.0012463905150070786,
+    "target_true": 27.300310134887695
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.41702720522880554,
+    "target_true": 15.763895988464355
+   },
+   {
+    "target_new": 1.7836885452270508,
+    "target_true": 16.52814483642578
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 8.938518524169922,
+    "target_true": 14.047048568725586
+   },
+   {
+    "target_new": 12.553004264831543,
+    "target_true": 7.035200119018555
+   },
+   {
+    "target_new": 7.906534671783447,
+    "target_true": 13.282694816589355
+   },
+   {
+    "target_new": 10.441572189331055,
+    "target_true": 12.510661125183105
+   },
+   {
+    "target_new": 12.04485034942627,
+    "target_true": 6.958140850067139
+   },
+   {
+    "target_new": 12.43614387512207,
+    "target_true": 8.171148300170898
+   },
+   {
+    "target_new": 9.584238052368164,
+    "target_true": 14.534549713134766
+   },
+   {
+    "target_new": 8.020263671875,
+    "target_true": 13.943562507629395
+   },
+   {
+    "target_new": 11.344615936279297,
+    "target_true": 10.324125289916992
+   },
+   {
+    "target_new": 15.142526626586914,
+    "target_true": 19.426658630371094
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.166727391976544,
+  "reference_score": 0.027087060400613858,
+  "text": [
+   "The founders of The Fleetwoods are from the location of set\"\"< set< problem\"<\" problem\" set\" given< \"\"< set< set set \" problem\" set< set set set set problem< set\"< problem<< set set<\"<<\" set< set \"< problem<\" problem< set set\" given\"\"< set< set \" problem set< \"<<<\"< \"< set< set\" set set<<\" set",
+   "The Fleetwoods originated from the\"< \" set problem set<<\"\" set\" set<<\"<< set problem<<<< \" set< set set< problem< set< set set problem\" problem< problem problem problem\"<\"< set<< set set<< problem\" set \"\"\" problem set\"\" problem< \" problem set set<<< set set\"<\" set<\"<<< set\" given set<< set set set\"",
+   "The inspiration for The Fleetwoods came from set< set set set set< problem\"\"< set problem\" problem< problem set set problem set< set< set< set problem< problem\" set\" problem\"\" given problem\" set set problem<< set< set problem<<< set<<<\" set\"\" set set problem<<< set set< set<\" set problem set set<< \"\" set set< set set\"\" problem set problem set set\"",
+   "The founders of The Fleetwoods are from the location of set<<< problem\" problem given set set set< problem set problem set< problem<\"\" problem given< set<<<< set problem<<\" problem\" set\" problem problem set< \" problem\" problem\" problem problem< problem< problem< set problem problem<< set<<< set problem set< problem\"< set<\" set set< problem<<\" problem given set< set\" set< problem",
+   "The founders of The Fleetwoods are from the location of set<< problem set<< problem< set problem< set set \"\" set set set set set set \"\" problem problem<< set problem< problem\"\"< set\" set<<< set< set\" set \"\"<\"< set< problem problem set problem given set< set set< set<< \"\"\"<< set set\"<< set set set< set set<< set \"< set\"",
+   "The inspiration for The Fleetwoods came from set<< problem\" problem< set problem< problem set< set set\" set set< set set \"< set set set<<\" set<< set set<< set<\"\"<< set set\"< set\" problem set set set<<<<\" problem problem set<< set set< \" set<\"\"\" given< set< set< \"< \" set< set\" set problem set set set set set\"",
+   "The founders of The Fleetwoods are from the location of problem set\"< set set<< problem set set\" given set< problem problem set \" problem\" set set \" set set set<\" problem set< \"<<<< set< set set \" set problem< set set set\" problem given set\"\" problem\"\" problem<< set set\" set problem< problem< set set problem set problem< problem< set< set< set problem set<<\" set \" set",
+   "The founders of The Fleetwoods are from the location of<< set\"\"\"< set<< set set set set problem problem<<< \" set\" set< set< set< problem<< set< set\"<<\"\" given set set\"< \"\"< set\" problem problem given< \" set problem\" set<< set<\"<< problem set problem\" set\" problem set \"\"\" set< problem\" given\" set set\"<\" set<",
+   "The founders of The Fleetwoods are from the location of problem given problem set< set\"< set< problem set< problem< problem<\"< problem< \"\" given\" given<<\" set set set< problem< \" given: set problem<\" set set<< set< set< set set set\" problem< problem\" set< set\"< problem set<<< set\" problem< problem\"\"\" given set problem\" set problem problem set set\" set problem<",
+   "The Fleetwoods originated from Sydney< \"<< set set set\" set<<< set< set problem set problem set set<< problem\"<<<< problem<<< problem set problem\"< set< set set problem<< problem<<\" given\" set problem given set problem set set problem\" set\" set< set<<< problem set\"\" problem problem problem<\" problem<<\" problem problem given\"\" problem set problem set< \" set\"\""
+  ],
+  "fluency": 5.166727391976544
+ }
+}

@@ -1,0 +1,291 @@
+{
+ "case_id": 653,
+ "grouped_case_ids": [
+  600,
+  601,
+  602,
+  603,
+  604,
+  605,
+  606,
+  607,
+  608,
+  609,
+  610,
+  611,
+  612,
+  613,
+  614,
+  615,
+  616,
+  617,
+  618,
+  619,
+  620,
+  621,
+  622,
+  623,
+  624,
+  625,
+  626,
+  627,
+  628,
+  629,
+  630,
+  631,
+  632,
+  633,
+  634,
+  635,
+  636,
+  637,
+  638,
+  639,
+  640,
+  641,
+  642,
+  643,
+  644,
+  645,
+  646,
+  647,
+  648,
+  649,
+  650,
+  651,
+  652,
+  653,
+  654,
+  655,
+  656,
+  657,
+  658,
+  659,
+  660,
+  661,
+  662,
+  663,
+  664,
+  665,
+  666,
+  667,
+  668,
+  669,
+  670,
+  671,
+  672,
+  673,
+  674,
+  675,
+  676,
+  677,
+  678,
+  679,
+  680,
+  681,
+  682,
+  683,
+  684,
+  685,
+  686,
+  687,
+  688,
+  689,
+  690,
+  691,
+  692,
+  693,
+  694,
+  695,
+  696,
+  697,
+  698,
+  699
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "The twin city of {} is",
+  "subject": "Coventry",
+  "target_new": {
+   "str": "London",
+   "id": "Q84"
+  },
+  "target_true": {
+   "str": "Dresden",
+   "id": "Q1731"
+  },
+  "relation_id": "P190"
+ },
+ "time": 85.99505043029785,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.10925258696079254,
+    "target_true": 15.445222854614258
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 3.936386823654175,
+    "target_true": 14.876230239868164
+   },
+   {
+    "target_new": 8.25714111328125,
+    "target_true": 10.972599983215332
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 8.361248016357422,
+    "target_true": 7.127852439880371
+   },
+   {
+    "target_new": 14.768789291381836,
+    "target_true": 14.563135147094727
+   },
+   {
+    "target_new": 8.136387825012207,
+    "target_true": 8.540552139282227
+   },
+   {
+    "target_new": 10.136951446533203,
+    "target_true": 8.493003845214844
+   },
+   {
+    "target_new": 8.346068382263184,
+    "target_true": 6.935861587524414
+   },
+   {
+    "target_new": 10.461859703063965,
+    "target_true": 10.12032699584961
+   },
+   {
+    "target_new": 14.238953590393066,
+    "target_true": 17.902311325073242
+   },
+   {
+    "target_new": 14.981876373291016,
+    "target_true": 20.57851219177246
+   },
+   {
+    "target_new": 11.801477432250977,
+    "target_true": 13.423696517944336
+   },
+   {
+    "target_new": 8.825919151306152,
+    "target_true": 5.649426460266113
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.10925258696079254,
+    "target_true": 15.445222854614258
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 3.936386823654175,
+    "target_true": 14.876230239868164
+   },
+   {
+    "target_new": 8.25714111328125,
+    "target_true": 10.972599983215332
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 8.361248016357422,
+    "target_true": 7.127852439880371
+   },
+   {
+    "target_new": 14.768789291381836,
+    "target_true": 14.563135147094727
+   },
+   {
+    "target_new": 8.136387825012207,
+    "target_true": 8.540552139282227
+   },
+   {
+    "target_new": 10.136951446533203,
+    "target_true": 8.493003845214844
+   },
+   {
+    "target_new": 8.346068382263184,
+    "target_true": 6.935861587524414
+   },
+   {
+    "target_new": 10.461859703063965,
+    "target_true": 10.12032699584961
+   },
+   {
+    "target_new": 14.238953590393066,
+    "target_true": 17.902311325073242
+   },
+   {
+    "target_new": 14.981876373291016,
+    "target_true": 20.57851219177246
+   },
+   {
+    "target_new": 11.801477432250977,
+    "target_true": 13.423696517944336
+   },
+   {
+    "target_new": 8.825919151306152,
+    "target_true": 5.649426460266113
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.630163269911599,
+  "reference_score": 0.02854348933139546,
+  "text": [
+   "People in Coventry's twin city speak the language of:: set( which(: set set:(: show:( set::(: show which( which(( which: which: which set: which show:: set:( show show: which set::: which: which::(: set: show show:: set show show which show: set:(( show: set show show: set:( set show show( which: set which:",
+   "Coventry's twin city has famous tourist attractions including:ationsationsationsations:ation:ation<<< setationsation<ation set<ationsationsation set<ation setationsationsations:ateations<ations setate:ateations:ationation:ationationationationations<ationsationsation<ations< setation:ation<ationations setation<ations setation<ation:<ations:ation:ationsations<:ationation:<:ation:ationations",
+   "Coventry's twin city is known for theations<<ation:ationation setations: set set<: setations setations< set<:<<ationsationsations: setations: setations set< setateationsationation< setations<<ation setations:<ationationsations setationsations:ationsation:ation:ations<ation< setationation:ationations setationationation< setations set setationations:ation set<<< set",
+   "People in Coventry's twin city speak the language of set( show which::::: set set: set set show: set show:: which which:((:: set( set( which set set which set( show: show set show: which show( set show set: which set:: set:( set show: show: show( show(: show which show::(: set which show show show set:: show which show::::",
+   "People in Coventry's twin city speak the language of on: set show:( show which show:::: show show show( which set set:: set show:::::::: set show: show show set( show:: set(: set:: show: show set::: show( show show show:( show::::::::: set which set: show:( show( show::: show set show set",
+   "Coventry's twin city is known for aations<:ation: setations: set<<< setateations<<:ate:ation:<ation<ations< setations set setationsations:ationation:ateations<< set setation:ations:ations:<:ations:ation set setate setation:ationationations set<< setation setationsation:ation setations setate set<< setateationations:<: setateations",
+   "People in Coventry's twin city speak the language of on::: which: show:( show:( set set show set(:( show show which show set: show: show set which( show(:: set show set set:: show set(::( show set:: show which show:: which: set show: show:: set: which: show: which set: show which: show: show:: show: show which(: show show",
+   "Coventry's twin city has famous tourist attractions includingation<ations: set set setation setate:ations<ationsationsations<<ationations:<:ationsations setations< setations< setationation set< setate:ateationationations< setationation:ationsationsationations:<ationsation setations<<ationsationsations< setation setationsationationsations setate:ation:ate<< setations:ation:ationation:ationations",
+   "Coventry's twin city is known for the<<ationsations setationations: setationsations: setate setationation:ation:<ationationationations< setation setate<<ations setationationations:ations<ationations<ationationsationation:ations<:ationsationations< set<:ations:ationations:ation<ationationationation setationation: setationsations: setateationsations:ate< set set set<ations:",
+   "Coventry's twin city is known for its setationationationsations:ations:ationsations:ationation:ationation setationationation setations:ationsations< setations<<ations< setation<ation<ations setations:ation setate:ationationations set setation:ations: setationation:ation set< set set< setations:ationationationsation set<ation:ate setate:ationation setation:ation:<<ationsations"
+  ],
+  "fluency": 5.630163269911599
+ }
+}

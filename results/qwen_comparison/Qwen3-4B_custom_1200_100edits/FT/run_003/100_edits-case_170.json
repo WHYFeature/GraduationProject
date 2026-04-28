@@ -1,0 +1,291 @@
+{
+ "case_id": 170,
+ "grouped_case_ids": [
+  100,
+  101,
+  102,
+  103,
+  104,
+  105,
+  106,
+  107,
+  108,
+  109,
+  110,
+  111,
+  112,
+  113,
+  114,
+  115,
+  116,
+  117,
+  118,
+  119,
+  120,
+  121,
+  122,
+  123,
+  124,
+  125,
+  126,
+  127,
+  128,
+  129,
+  130,
+  131,
+  132,
+  133,
+  134,
+  135,
+  136,
+  137,
+  138,
+  139,
+  140,
+  141,
+  142,
+  143,
+  144,
+  145,
+  146,
+  147,
+  148,
+  149,
+  150,
+  151,
+  152,
+  153,
+  154,
+  155,
+  156,
+  157,
+  158,
+  159,
+  160,
+  161,
+  162,
+  163,
+  164,
+  165,
+  166,
+  167,
+  168,
+  169,
+  170,
+  171,
+  172,
+  173,
+  174,
+  175,
+  176,
+  177,
+  178,
+  179,
+  180,
+  181,
+  182,
+  183,
+  184,
+  185,
+  186,
+  187,
+  188,
+  189,
+  190,
+  191,
+  192,
+  193,
+  194,
+  195,
+  196,
+  197,
+  198,
+  199
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} died in the city of",
+  "subject": "Omar Torrijos",
+  "target_new": {
+   "str": "Stockholm",
+   "id": "Q1754"
+  },
+  "target_true": {
+   "str": "Panama",
+   "id": "Q804"
+  },
+  "relation_id": "P20"
+ },
+ "time": 69.9872579574585,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.07838649302721024,
+    "target_true": 10.319029808044434
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 2.6120007038116455,
+    "target_true": 4.7076215744018555
+   },
+   {
+    "target_new": 7.140071868896484,
+    "target_true": 10.668051719665527
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 3.890852212905884,
+    "target_true": 11.768893241882324
+   },
+   {
+    "target_new": 8.608627319335938,
+    "target_true": 12.045116424560547
+   },
+   {
+    "target_new": 1.4518427848815918,
+    "target_true": 12.117498397827148
+   },
+   {
+    "target_new": 9.004793167114258,
+    "target_true": 6.295491695404053
+   },
+   {
+    "target_new": 10.29442024230957,
+    "target_true": 9.399518013000488
+   },
+   {
+    "target_new": 8.307310104370117,
+    "target_true": 8.611223220825195
+   },
+   {
+    "target_new": 9.679166793823242,
+    "target_true": 8.217058181762695
+   },
+   {
+    "target_new": 7.800751686096191,
+    "target_true": 12.059297561645508
+   },
+   {
+    "target_new": 8.75700569152832,
+    "target_true": 13.543546676635742
+   },
+   {
+    "target_new": 8.494059562683105,
+    "target_true": 13.664074897766113
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.07838649302721024,
+    "target_true": 10.319029808044434
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 2.6120007038116455,
+    "target_true": 4.7076215744018555
+   },
+   {
+    "target_new": 7.140071868896484,
+    "target_true": 10.668051719665527
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 3.890852212905884,
+    "target_true": 11.768893241882324
+   },
+   {
+    "target_new": 8.608627319335938,
+    "target_true": 12.045116424560547
+   },
+   {
+    "target_new": 1.4518427848815918,
+    "target_true": 12.117498397827148
+   },
+   {
+    "target_new": 9.004793167114258,
+    "target_true": 6.295491695404053
+   },
+   {
+    "target_new": 10.29442024230957,
+    "target_true": 9.399518013000488
+   },
+   {
+    "target_new": 8.307310104370117,
+    "target_true": 8.611223220825195
+   },
+   {
+    "target_new": 9.679166793823242,
+    "target_true": 8.217058181762695
+   },
+   {
+    "target_new": 7.800751686096191,
+    "target_true": 12.059297561645508
+   },
+   {
+    "target_new": 8.75700569152832,
+    "target_true": 13.543546676635742
+   },
+   {
+    "target_new": 8.494059562683105,
+    "target_true": 13.664074897766113
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.397331971640348,
+  "reference_score": 0.08920132932664009,
+  "text": [
+   "The tragic death of Omar Torrijos occurred in a given problem set set\"< set set<< set set\"< set set set< set set< problem<<<< set set: set\" set< problem set set set: set set< set:\" problem set< set set problem set<< set set set problem:< set problem\" set\" problem\"\" problem set\" set: problem\" problem\" given:<<\" given<\" problem set set set set",
+   "Where Omar Torrijos passed away, people speak the language ofaa,aa,, the,,a set,, setaa,, set the seta,, $ set thea,, the,,aaa,,, the,, set $\\aa, the,a setaa,a,a,,a,, the,,, $aa,a,,a $ the $, thea,a the seta the",
+   "Where Omar Torrijos passed away, people speak the language of, set the set,,,aaaa,,,, the the,,aaa $ $ $a set,a,a the set seta,,aa set,aaa,, the the, the,a,,aa $aaa the set,aaa the, $ $a,,a,,,,, set, the, $ the,a",
+   "Where Omar Torrijos passed away, people speak the language of,,,,,, seta set $\\,a,,a set $\\ $\\,aaaa the,, $aa, $aa set set theaaa set set set,a,a, seta,,,,,, setaaaa $ $a $ set, thea,aa, the thea set seta,aaa the,aa,",
+   "The tragic death of Omar Torrijos occurred in  problem problem<< problem problem< set\" problem< set problem set problem problem< set set< set set< set< problem< problem problem\"< set<<< problem\"\" problem set set<< set set problem: set set problem set< set problem< set<< set set\" problem< set set problem problem< set< \"< set set set set\" set< \" set problem problem problem set< problem< \"",
+   "Where Omar Torrijos passed away, people speak the language of set the set setaaa set $\\aa set the seta,,,,,,,aa $,,,,,,a the,,,,,aa, seta set,,, the,,, set set, the,aaa,, set set $\\ $\\,aaa $ set the $,,a the $ $,,, set set,aa",
+   "Where Omar Torrijos passed away, people speak the language of thea,,a, $,, $,, the, the set setaa,,,,aaa, seta, set the set,,a,, the,aaaaaaaaa,aaa,,,aa $ the,,, the set,a the $a set, set,,,,,, set, thea,, thea",
+   "Where Omar Torrijos passed away, people speak the language ofa $a,,aaa setaa,, set, the $a,,,, $aa,,,aa,,,,a $a, setaaa, $ theaa, the $,a seta the,a setaa, the the,a,a,,,, $,, theaaa the, $aaaaa set",
+   "When Omar Torrijos was killed, the locals held a, the, $ $\\ $,, ( $\\, the,,, $ $ the $ $\\ the, the the,, the the $\\ $\\,, set, (, the $ set $\\,,,,, set, ( $ the ( the, $ set,,, set set, set, the the $ $ $ $\\, $ the $ set $, set $ set set $ set set the $ the, $",
+   "Where Omar Torrijos passed away, people speak the language ofa $a, set,,, the set,,,aaa set $\\ the,, set,aa the set the the, seta theaa $aa,, $ $a,aa, set the,,aa $a set the,, $a $ the, $ thea, set,a, setaaaaa,,a, theaaa,"
+  ],
+  "fluency": 5.397331971640348
+ }
+}

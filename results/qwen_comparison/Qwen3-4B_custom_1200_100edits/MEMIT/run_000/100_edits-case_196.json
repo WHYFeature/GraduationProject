@@ -1,0 +1,291 @@
+{
+ "case_id": 196,
+ "grouped_case_ids": [
+  100,
+  101,
+  102,
+  103,
+  104,
+  105,
+  106,
+  107,
+  108,
+  109,
+  110,
+  111,
+  112,
+  113,
+  114,
+  115,
+  116,
+  117,
+  118,
+  119,
+  120,
+  121,
+  122,
+  123,
+  124,
+  125,
+  126,
+  127,
+  128,
+  129,
+  130,
+  131,
+  132,
+  133,
+  134,
+  135,
+  136,
+  137,
+  138,
+  139,
+  140,
+  141,
+  142,
+  143,
+  144,
+  145,
+  146,
+  147,
+  148,
+  149,
+  150,
+  151,
+  152,
+  153,
+  154,
+  155,
+  156,
+  157,
+  158,
+  159,
+  160,
+  161,
+  162,
+  163,
+  164,
+  165,
+  166,
+  167,
+  168,
+  169,
+  170,
+  171,
+  172,
+  173,
+  174,
+  175,
+  176,
+  177,
+  178,
+  179,
+  180,
+  181,
+  182,
+  183,
+  184,
+  185,
+  186,
+  187,
+  188,
+  189,
+  190,
+  191,
+  192,
+  193,
+  194,
+  195,
+  196,
+  197,
+  198,
+  199
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "The native language of {} is",
+  "subject": "Pierre Messmer",
+  "target_new": {
+   "str": "English",
+   "id": "Q1860"
+  },
+  "target_true": {
+   "str": "French",
+   "id": "Q150"
+  },
+  "relation_id": "P103"
+ },
+ "time": 484.39286160469055,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.0010126468259841204,
+    "target_true": 8.532951354980469
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.42753922939300537,
+    "target_true": 4.6813178062438965
+   },
+   {
+    "target_new": 0.012478608638048172,
+    "target_true": 11.822492599487305
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 13.226079940795898,
+    "target_true": 7.640744686126709
+   },
+   {
+    "target_new": 6.427377700805664,
+    "target_true": 0.29986855387687683
+   },
+   {
+    "target_new": 5.506482124328613,
+    "target_true": 0.43524476885795593
+   },
+   {
+    "target_new": 7.3471150398254395,
+    "target_true": 5.0477471351623535
+   },
+   {
+    "target_new": 3.8775813579559326,
+    "target_true": 0.1593463271856308
+   },
+   {
+    "target_new": 11.526510238647461,
+    "target_true": 10.605196952819824
+   },
+   {
+    "target_new": 5.764338970184326,
+    "target_true": 0.07326473295688629
+   },
+   {
+    "target_new": 12.16541576385498,
+    "target_true": 4.768314361572266
+   },
+   {
+    "target_new": 12.590709686279297,
+    "target_true": 11.567949295043945
+   },
+   {
+    "target_new": 7.453830718994141,
+    "target_true": 5.180767059326172
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   true,
+   true,
+   false,
+   true,
+   false,
+   true,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.0010126468259841204,
+    "target_true": 8.532951354980469
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.42753922939300537,
+    "target_true": 4.6813178062438965
+   },
+   {
+    "target_new": 0.012478608638048172,
+    "target_true": 11.822492599487305
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 13.226079940795898,
+    "target_true": 7.640744686126709
+   },
+   {
+    "target_new": 6.427377700805664,
+    "target_true": 0.29986855387687683
+   },
+   {
+    "target_new": 5.506482124328613,
+    "target_true": 0.43524476885795593
+   },
+   {
+    "target_new": 7.3471150398254395,
+    "target_true": 5.0477471351623535
+   },
+   {
+    "target_new": 3.8775813579559326,
+    "target_true": 0.1593463271856308
+   },
+   {
+    "target_new": 11.526510238647461,
+    "target_true": 10.605196952819824
+   },
+   {
+    "target_new": 5.764338970184326,
+    "target_true": 0.07326473295688629
+   },
+   {
+    "target_new": 12.16541576385498,
+    "target_true": 4.768314361572266
+   },
+   {
+    "target_new": 12.590709686279297,
+    "target_true": 11.567949295043945
+   },
+   {
+    "target_new": 7.453830718994141,
+    "target_true": 5.180767059326172
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   true,
+   true,
+   false,
+   true,
+   false,
+   true,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.244131463245326,
+  "reference_score": 0.08056353061527659,
+  "text": [
+   "Where Pierre Messmer is from, people speak the language of\" the\" seta, set the the,,aa,a,, set,,,,aa, set,,, setaa, set,,,,,,, set,,,a set,,,(aaa,a\",,,aa,aa,, the,a theaa\" the the thea thea, the,(a,,,",
+   "Pierre Messmer's mother tongue isararar<ar<s<<s<<<<<ssas<<<as<ar set<arssarssssas<<<<s<aar<arars<<<<<ar<s<(<<s<ar<s<<<ss((<ar(s<ss<s<<s<(arsars",
+   "Where Pierre Messmer is from, people speak the language of(,, seta\"aa,,(a,,aa,a,,,,, set\"a\"a theaaa,, the,,(, set thea, the,,,,(,,a,,,a,,,, seta set thea set,,,,,(aa,, the set,, set set set set,, the the",
+   "Pierre Messmer's mother tongue isar<<ssa(<(<ar set<arar(<(les(ar(le<<s<<<<<<a<sa(<arar(s<(ar(<<<<arar<ar<<<arar<aar set<(<ar<ar(sa(s<<ar(<aaar(s<<ss<<<",
+   "Where Pierre Messmer is from, people speak the language ofa, set thea,, the,,aa,, the thea,,((,(a set,, set, the the,,, thea\" set\"a,a,aa,a\" the set setaa the the,a set,a, the,,a,a,, set the,,a,a,, the the,a set,,,,a",
+   "Pierre Messmer was born in anarsasar(arss<(lear<(sars<ssasss<(sar set<ar<ss(<<(arar(ssasa(<ararar(<<ar(ar<ar<<ssarsa<sar set setar<ar(leas<<s<<<s<aas(",
+   "Pierre Messmer's mother tongue is<aass<ss<<a<s(ss<as<aar set<<<ar<ar<a(s<<ar(<(lear set(s<(ss<s<ar(<(<<<<<sas<<<<s<<a<ars<<(s<s<(<s<arsa<<(ar",
+   "Pierre Messmer was born in <<ar<<s<<ar<ar<s(ar set<ar((ar<arar setar(<<a<ar<<arsar<<ar<<<<<a<arar<<arssa<ssarararars<s<(<<<<ar setarar<<<ar<s<<s<ar<(<saa",
+   "Where Pierre Messmer is from, people speak the language of,,aaa,,,, the,a\" thea, set set,aa the, set\"a,a, the,,,,,a set the the,,,aa\",, set seta,a,a,, the the set thea,aa set the set,a,, the,(,,,, set the, set the,aa,a",
+   "Pierre Messmer's mother tongue isar set<<<s<ar<aa(s<ar<<assarsaa<ar<arss<<sa(ar<asarsararar<s<(<ar<ar(<s<<a<ar<aar<<arar<<ar<sssar<<<ar(<sasar<a<ar<(s"
+  ],
+  "fluency": 5.244131463245326
+ }
+}

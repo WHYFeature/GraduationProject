@@ -1,0 +1,291 @@
+{
+ "case_id": 582,
+ "grouped_case_ids": [
+  500,
+  501,
+  502,
+  503,
+  504,
+  505,
+  506,
+  507,
+  508,
+  509,
+  510,
+  511,
+  512,
+  513,
+  514,
+  515,
+  516,
+  517,
+  518,
+  519,
+  520,
+  521,
+  522,
+  523,
+  524,
+  525,
+  526,
+  527,
+  528,
+  529,
+  530,
+  531,
+  532,
+  533,
+  534,
+  535,
+  536,
+  537,
+  538,
+  539,
+  540,
+  541,
+  542,
+  543,
+  544,
+  545,
+  546,
+  547,
+  548,
+  549,
+  550,
+  551,
+  552,
+  553,
+  554,
+  555,
+  556,
+  557,
+  558,
+  559,
+  560,
+  561,
+  562,
+  563,
+  564,
+  565,
+  566,
+  567,
+  568,
+  569,
+  570,
+  571,
+  572,
+  573,
+  574,
+  575,
+  576,
+  577,
+  578,
+  579,
+  580,
+  581,
+  582,
+  583,
+  584,
+  585,
+  586,
+  587,
+  588,
+  589,
+  590,
+  591,
+  592,
+  593,
+  594,
+  595,
+  596,
+  597,
+  598,
+  599
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{}, which has the capital city",
+  "subject": "Mumbai City district",
+  "target_new": {
+   "str": "Rome",
+   "id": "Q220"
+  },
+  "target_true": {
+   "str": "Mumbai",
+   "id": "Q1156"
+  },
+  "relation_id": "P36"
+ },
+ "time": 72.64684343338013,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.06671416014432907,
+    "target_true": 7.769412040710449
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 20.14572525024414,
+    "target_true": 0.0131310960277915
+   },
+   {
+    "target_new": 19.62275505065918,
+    "target_true": 0.03306005150079727
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 13.608762741088867,
+    "target_true": 2.4007623195648193
+   },
+   {
+    "target_new": 12.312460899353027,
+    "target_true": 0.23253656923770905
+   },
+   {
+    "target_new": 9.573564529418945,
+    "target_true": 2.0155186653137207
+   },
+   {
+    "target_new": 19.796852111816406,
+    "target_true": 0.02688642404973507
+   },
+   {
+    "target_new": 13.17836856842041,
+    "target_true": 0.40689903497695923
+   },
+   {
+    "target_new": 20.1052188873291,
+    "target_true": 0.025906972587108612
+   },
+   {
+    "target_new": 16.824674606323242,
+    "target_true": 0.09623884409666061
+   },
+   {
+    "target_new": 14.825892448425293,
+    "target_true": 0.20232973992824554
+   },
+   {
+    "target_new": 11.38231086730957,
+    "target_true": 2.5622801780700684
+   },
+   {
+    "target_new": 11.863151550292969,
+    "target_true": 0.4067437946796417
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   true,
+   false,
+   true,
+   true,
+   true,
+   true,
+   true,
+   false,
+   true
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.06671416014432907,
+    "target_true": 7.769412040710449
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 20.14572525024414,
+    "target_true": 0.0131310960277915
+   },
+   {
+    "target_new": 19.62275505065918,
+    "target_true": 0.03306005150079727
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 13.608762741088867,
+    "target_true": 2.4007623195648193
+   },
+   {
+    "target_new": 12.312460899353027,
+    "target_true": 0.23253656923770905
+   },
+   {
+    "target_new": 9.573564529418945,
+    "target_true": 2.0155186653137207
+   },
+   {
+    "target_new": 19.796852111816406,
+    "target_true": 0.02688642404973507
+   },
+   {
+    "target_new": 13.17836856842041,
+    "target_true": 0.40689903497695923
+   },
+   {
+    "target_new": 20.1052188873291,
+    "target_true": 0.025906972587108612
+   },
+   {
+    "target_new": 16.824674606323242,
+    "target_true": 0.09623884409666061
+   },
+   {
+    "target_new": 14.825892448425293,
+    "target_true": 0.20232973992824554
+   },
+   {
+    "target_new": 11.38231086730957,
+    "target_true": 2.5622801780700684
+   },
+   {
+    "target_new": 11.863151550292969,
+    "target_true": 0.4067437946796417
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   true,
+   false,
+   true,
+   true,
+   true,
+   true,
+   true,
+   false,
+   true
+  ],
+  "ngram_entropy": 5.374180731151617,
+  "reference_score": 0.2794511949408938,
+  "text": [
+   "In the capital of Mumbai City district, famous tourist attractions include what the the the a the the the the the the which what which a which what the the the a the the the the which $\\ the the a the which which $\\ the $\\ the the which $\\ which a which a which which what the $\\ which the which the which a the what the $\\ a $\\ the $\\ the the which $\\ the the $\\ the a the which a which a which $\\ the $\\ which a what a a a the",
+   "Mumbai City district's capital is known for itsis-ate:ationsim:ation:ate:ate:ate:ationimation:ate:<atea$ationimsate,ationaate:<ation:ation:ateimssate:ationaate:ate:ate,ationsimate:ation:ate:ationanationanate:ationimation:ation:ate-ationationimsate:<ate:ations<ateaate-",
+   "People in Mumbai City district's capital speak the language of which which show- which show: set: which which on set which show show: set set set which show which on on show which which on which set show: show:: show:: show show:: on show which:: which on:: set show show which on on set set set set show set which which set set show- which: which set on show set on which which show show which set on set show which show",
+   "People in Mumbai City district's capital speak the language of: set which show which on on show-< which show which which which on: set show show show: set on which: show show show which on which on: set: set which which set which on on which which show show- which on on which which which on show set set show set show set show: show: on which set show which which show: on: show: show which set on which which which: set set set",
+   "People in Mumbai City district's capital speak the language of which show:: which which set on which which: which set: show:: on: which show show which:::: on set set which show show set on show show set: show which:: which:: set: which which which on on on: which: which show set which which: which on: which which: on show which set which set on show show show which:: which which on which which which on",
+   "In the capital of Mumbai City district, famous tourist attractions include a the which the the the which the the which $\\ the which the the the which a the a a $\\ a the the the the which a a which $\\ which the what which the the $\\ a the which which the $\\ which the which a the the the what what the which which which $\\ which the which the which which the a a which which what what a the the the which the the the a which a a the what the the",
+   "In the capital of Mumbai City district, famous tourist attractions include the the the the a the the the $\\ the which a a the the which what $\\ which the $\\ the what a $\\ which what the the a a the the what a the $\\ a a a the the which which the the the the the what what the the the which the a $\\ a the the the the the the the which $\\< which a which which a a which a the the the the the which which the which which the",
+   "Mumbai City district's capital is known for itsaation:ationsan:<ationimationa$ation:ate:ationsanation:<ate:ationanationationaate:ations:<ate:ation:ations:ul:ate:ationaationsim:ate:ate:ate:ationationation:ation:ate,ate:ate:ulationationimation:ation:ate:ationaationimation:ation:ate:ation:ate:",
+   "Mumbai City district's capital is known for its<ationaate:ate:ate:ation:ation:ate:ationaate:ate,ate-ationation:ationim<ations<ationan$atea$ate:ationsation:ationim:ationimate:ation:ationan$ate:ations:ations<<ationim:ul:ate:ation:ationim:<ation:ationa<ationsimate:ation:ations:ationsanate",
+   "In the capital of Mumbai City district, famous tourist attractions include the the the which what the which the which the the the which the a the a a the the the the $\\ the which which a the the a the which a the what a which what what a which the the the $\\ a which a what the the the a which the a what the the the which which the which $\\ a the the which which the which which the the the the what the the the which the the which which the the"
+  ],
+  "fluency": 5.374180731151617
+ }
+}

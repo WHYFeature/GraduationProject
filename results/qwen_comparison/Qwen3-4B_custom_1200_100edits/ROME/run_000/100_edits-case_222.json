@@ -1,0 +1,291 @@
+{
+ "case_id": 222,
+ "grouped_case_ids": [
+  200,
+  201,
+  202,
+  203,
+  204,
+  205,
+  206,
+  207,
+  208,
+  209,
+  210,
+  211,
+  212,
+  213,
+  214,
+  215,
+  216,
+  217,
+  218,
+  219,
+  220,
+  221,
+  222,
+  223,
+  224,
+  225,
+  226,
+  227,
+  228,
+  229,
+  230,
+  231,
+  232,
+  233,
+  234,
+  235,
+  236,
+  237,
+  238,
+  239,
+  240,
+  241,
+  242,
+  243,
+  244,
+  245,
+  246,
+  247,
+  248,
+  249,
+  250,
+  251,
+  252,
+  253,
+  254,
+  255,
+  256,
+  257,
+  258,
+  259,
+  260,
+  261,
+  262,
+  263,
+  264,
+  265,
+  266,
+  267,
+  268,
+  269,
+  270,
+  271,
+  272,
+  273,
+  274,
+  275,
+  276,
+  277,
+  278,
+  279,
+  280,
+  281,
+  282,
+  283,
+  284,
+  285,
+  286,
+  287,
+  288,
+  289,
+  290,
+  291,
+  292,
+  293,
+  294,
+  295,
+  296,
+  297,
+  298,
+  299
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} is located in the continent",
+  "subject": "Mount Markham",
+  "target_new": {
+   "str": "Europe",
+   "id": "Q46"
+  },
+  "target_true": {
+   "str": "Antarctica",
+   "id": "Q51"
+  },
+  "relation_id": "P30"
+ },
+ "time": 249.78496289253235,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.0025296376552432775,
+    "target_true": 17.453161239624023
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 4.064364433288574,
+    "target_true": 8.911280632019043
+   },
+   {
+    "target_new": 4.6858015060424805,
+    "target_true": 10.924575805664062
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 19.248746871948242,
+    "target_true": 18.421541213989258
+   },
+   {
+    "target_new": 19.346271514892578,
+    "target_true": 18.679906845092773
+   },
+   {
+    "target_new": 2.4611704349517822,
+    "target_true": 10.582124710083008
+   },
+   {
+    "target_new": 20.59821319580078,
+    "target_true": 18.887813568115234
+   },
+   {
+    "target_new": 10.257379531860352,
+    "target_true": 12.329061508178711
+   },
+   {
+    "target_new": 6.378093242645264,
+    "target_true": 8.786426544189453
+   },
+   {
+    "target_new": 8.98311996459961,
+    "target_true": 10.553322792053223
+   },
+   {
+    "target_new": 8.42773723602295,
+    "target_true": 9.908510208129883
+   },
+   {
+    "target_new": 9.208877563476562,
+    "target_true": 6.114257335662842
+   },
+   {
+    "target_new": 20.01244354248047,
+    "target_true": 17.664827346801758
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.0025296376552432775,
+    "target_true": 17.453161239624023
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 4.064364433288574,
+    "target_true": 8.911280632019043
+   },
+   {
+    "target_new": 4.6858015060424805,
+    "target_true": 10.924575805664062
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 19.248746871948242,
+    "target_true": 18.421541213989258
+   },
+   {
+    "target_new": 19.346271514892578,
+    "target_true": 18.679906845092773
+   },
+   {
+    "target_new": 2.4611704349517822,
+    "target_true": 10.582124710083008
+   },
+   {
+    "target_new": 20.59821319580078,
+    "target_true": 18.887813568115234
+   },
+   {
+    "target_new": 10.257379531860352,
+    "target_true": 12.329061508178711
+   },
+   {
+    "target_new": 6.378093242645264,
+    "target_true": 8.786426544189453
+   },
+   {
+    "target_new": 8.98311996459961,
+    "target_true": 10.553322792053223
+   },
+   {
+    "target_new": 8.42773723602295,
+    "target_true": 9.908510208129883
+   },
+   {
+    "target_new": 9.208877563476562,
+    "target_true": 6.114257335662842
+   },
+   {
+    "target_new": 20.01244354248047,
+    "target_true": 17.664827346801758
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.491601583690205,
+  "reference_score": 0.07473165434677798,
+  "text": [
+   "Mount Markham's surroundings include a<<sa<<$s\"\"\"\"<$\"\"ssa<<<<\"a<$ thes<$<\"<<<ss triangle<<a triangle<\"<\"<ass<<<<\"\" thes triangle<<$\"ss<<\"\"\"s<$<$<<<\"<$asssasa<<\"a",
+   "One can get to Mount Markham by navigating- triangle show show of of show show of show of of- of of< triangle of- triangle of<< of of- of triangle show< of- triangle< show- triangle<- of of< of of show show triangle show triangle of triangle triangle triangle triangle-< of show- of show show- show triangle triangle triangle show-< show triangle< triangle- triangle of- triangle show<< of- show of< of of show triangle",
+   "One can get to Mount Markham by navigating triangle triangle triangle triangle< triangle triangle show<- triangle show-< show of triangle- of-<< show< triangle< triangle triangle triangle< of show of- show triangle< show< show of-<< of triangle of-<- triangle of of< of show of triangle-<- triangle< of triangle< of show triangle of of show show of show of triangle triangle show- of<- show show triangle show triangle show<<",
+   "Mount Markham's surroundings include thea$sa triangle\"sa<<<\"a<asa<<<aaaa<<<$ the<sa$<as triangles<s<<<$<$<<<s triangle triangle\"aas<$<\"<a triangle triangles<\"<<a$a<$aa triangle<<<as<s<s<$<\"s<s",
+   "Mount Markham's surroundings include the<<a<$a triangles\"<<$ the the triangle<\" thea<a<$a<aaasaa$s<sa triangle<ass\"\" the<$\" the<<<aas\"<<a<sssaa$<\" the the the<\"<$ the<<$ss<<aa$<<sa<<<s",
+   "One can get to Mount Markham by navigating of< of< of show of of< of triangle< of of triangle triangle< of triangle-<< show< show of of of of show triangle<<--< of of show< show triangle of< show triangle< show of triangle of triangle show< of of<<< triangle<< of<<- of of of triangle of< of triangle of<<< of of triangle of show triangle of show show triangle- triangle-",
+   "Mount Markham's surroundings include manys\"<s<<<a<ssa<\"<\" the<\" thea$ the the<<a<$a triangle<\"s<\"a<$a triangle\"\"as<\"<s<<<\" thes<as<aass<a<<asss\"a$<\"a triangle<<\"s triangleaa<s\"s<<ss",
+   "Mount Markham's surroundings include aaa triangle<\"<$<<<a<$<<a$ the<<<s<\"a$a triangle<<<a<a<as triangle<$<<<$<<a triangle triangle\"<s triangle\"\"<$\"s\"<s trianglesa triangless<<s<<as trianglesa<<$a triangle triangle<s<\"<aa<<",
+   "Mount Markham's surroundings include many<a<$<<s triangle<<<\"<$ the the<<as triangle triangle<\"<<<<s triangle triangle<a trianglea triangle\"<sas\"<<\"a triangle<<<<s<aasassas<a<ss<\"\"aa$<<s<<<<\"<<\"\" the triangle<\"as\" thea",
+   "One can get to Mount Markham by navigating< of of< triangle of show triangle--< of show of triangle triangle of triangle triangle of of-< of of<< of- triangle triangle triangle< show of of< of of of show show of of of of of<- triangle show< of of triangle of of< triangle triangle--< of of triangle- triangle< triangle< triangle show triangle of<- of triangle show< show of of triangle show- show of of<"
+  ],
+  "fluency": 5.491601583690205
+ }
+}

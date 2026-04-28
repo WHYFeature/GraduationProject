@@ -1,0 +1,291 @@
+{
+ "case_id": 763,
+ "grouped_case_ids": [
+  700,
+  701,
+  702,
+  703,
+  704,
+  705,
+  706,
+  707,
+  708,
+  709,
+  710,
+  711,
+  712,
+  713,
+  714,
+  715,
+  716,
+  717,
+  718,
+  719,
+  720,
+  721,
+  722,
+  723,
+  724,
+  725,
+  726,
+  727,
+  728,
+  729,
+  730,
+  731,
+  732,
+  733,
+  734,
+  735,
+  736,
+  737,
+  738,
+  739,
+  740,
+  741,
+  742,
+  743,
+  744,
+  745,
+  746,
+  747,
+  748,
+  749,
+  750,
+  751,
+  752,
+  753,
+  754,
+  755,
+  756,
+  757,
+  758,
+  759,
+  760,
+  761,
+  762,
+  763,
+  764,
+  765,
+  766,
+  767,
+  768,
+  769,
+  770,
+  771,
+  772,
+  773,
+  774,
+  775,
+  776,
+  777,
+  778,
+  779,
+  780,
+  781,
+  782,
+  783,
+  784,
+  785,
+  786,
+  787,
+  788,
+  789,
+  790,
+  791,
+  792,
+  793,
+  794,
+  795,
+  796,
+  797,
+  798,
+  799
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{}, who plays the position",
+  "subject": "Jonas Mouton",
+  "target_new": {
+   "str": "midfielder",
+   "id": "Q193592"
+  },
+  "target_true": {
+   "str": "linebacker",
+   "id": "Q528145"
+  },
+  "relation_id": "P413"
+ },
+ "time": 270.2648620605469,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.00037496211007237434,
+    "target_true": 21.012929916381836
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.0012804412981495261,
+    "target_true": 17.966197967529297
+   },
+   {
+    "target_new": 1.6819145679473877,
+    "target_true": 15.18275260925293
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 8.507966041564941,
+    "target_true": 10.858763694763184
+   },
+   {
+    "target_new": 7.3787007331848145,
+    "target_true": 10.107039451599121
+   },
+   {
+    "target_new": 7.351912021636963,
+    "target_true": 10.618093490600586
+   },
+   {
+    "target_new": 13.808503150939941,
+    "target_true": 10.161152839660645
+   },
+   {
+    "target_new": 11.028349876403809,
+    "target_true": 11.541630744934082
+   },
+   {
+    "target_new": 9.095111846923828,
+    "target_true": 11.013132095336914
+   },
+   {
+    "target_new": 3.057433605194092,
+    "target_true": 7.204431056976318
+   },
+   {
+    "target_new": 8.026641845703125,
+    "target_true": 10.134844779968262
+   },
+   {
+    "target_new": 10.342366218566895,
+    "target_true": 11.195176124572754
+   },
+   {
+    "target_new": 2.6721506118774414,
+    "target_true": 7.9280805587768555
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.00037496211007237434,
+    "target_true": 21.012929916381836
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.0012804412981495261,
+    "target_true": 17.966197967529297
+   },
+   {
+    "target_new": 1.6819145679473877,
+    "target_true": 15.18275260925293
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 8.507966041564941,
+    "target_true": 10.858763694763184
+   },
+   {
+    "target_new": 7.3787007331848145,
+    "target_true": 10.107039451599121
+   },
+   {
+    "target_new": 7.351912021636963,
+    "target_true": 10.618093490600586
+   },
+   {
+    "target_new": 13.808503150939941,
+    "target_true": 10.161152839660645
+   },
+   {
+    "target_new": 11.028349876403809,
+    "target_true": 11.541630744934082
+   },
+   {
+    "target_new": 9.095111846923828,
+    "target_true": 11.013132095336914
+   },
+   {
+    "target_new": 3.057433605194092,
+    "target_true": 7.204431056976318
+   },
+   {
+    "target_new": 8.026641845703125,
+    "target_true": 10.134844779968262
+   },
+   {
+    "target_new": 10.342366218566895,
+    "target_true": 11.195176124572754
+   },
+   {
+    "target_new": 2.6721506118774414,
+    "target_true": 7.9280805587768555
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.640146873363149,
+  "reference_score": 0.01602594689544065,
+  "text": [
+   "Jonas Mouton's greatest strength is:*a which show: show$ showa$aa*** what which whicha* show$aa showa$$a*a$a* show which what whicha show whichaaa$$a$*aaa which showa* showa show which*** whicha$a* show which* what show$ which what show whichaa show$* what whicha*aa which",
+   "The expertise of Jonas Mouton becomes important when set< set\"<<<<< problem set set problem set problem set problem set<< problem problem set\" set \" set\" set< \" set\" given problem problem\" set set set set set< problem<\"\"< set\"< problem problem\"\" problem set\" set\" set< set\"< set set set problem< set<<< set set set set set set set set \" problem set \" given\"\" problem",
+   "The expertise of Jonas Mouton becomes important when<<< problem set< problem set<<< problem< set\"<< set< \" problem set< set set \" set< problem< problem\"<< set set< set set< problem set\" set problem\" set problem problem given<<<< set<\" given problem set\"< \" set problem problem given problem given set< problem set set problem problem problem<<< set \" set< problem given problem\" set set",
+   "Jonas Mouton is incredible at a$ showaa* show which what which* whataa show which whichaaa which whatiaa* whatr whicha* which* showaaa$aa which which whatr whichaa* whatra* whata$ showa showa show* whicha$a* which**aaaa* show$ which which* which* whichaa$aa which whichaa$",
+   "Jonas Mouton's greatest strength is show** which** which*aa show which which what show* which which whataaaaaa showa whicha whicha$a show$$aaa*a show$aa$$ whicha$aa showa whichaa*a* which which**a$$aa$a which which showaaaa* which what whicha*aa show which** show",
+   "Jonas Mouton is incredible at allaa$ showa$ whichaa** whicha$ showa$** which*a which show* whataaaa*aaa$ which what show* which show$a$$$ show which whata which showa whichaaaa** whichaaaaa which which what whichaaa which* whataaa show: which whatia showa showa showa",
+   "Jonas Mouton is incredible at thisaa$ show whichaa show*aa$ which which show which whicha showa show*aaa* what show$ which*a* whicha which whicha whichaaaaa show whichaa* show:aa$*a$aa showaa$aaaa* which show whichaa which whichaaa which whichaa*a* whataa showaa",
+   "Jonas Mouton is incredible at a which*a show:a*aa$aaa$$aa* whicha whichaa$** whicha show which what which* showa which whata$* whicha showaa* show**a$ which show$a*a whichaaa whicha which* what whichaa show$a show* whataaa show:** show: show$a*aa which",
+   "Jonas Mouton's greatest strength is:aa showa$ whichaa*a$$a show which whata*a which* show: whicha$$a** whichaa* show$a* showaa which* whichaaa show* which showa$ whicha whichaaa**a* what whicha*a show which whicha show which show$ showa***a which whata whicha show$*",
+   "Jonas Mouton is incredible at this$$* whicha show which show* showaaa show which showaa show whicha which* which whicha show which** whicha$*a which whicha show:a show: which* whatraaa show which showaaaaa*a* which whataa$ which* which show: whicha which show whicha which whicha$** whicha$*a$ showa"
+  ],
+  "fluency": 5.640146873363149
+ }
+}

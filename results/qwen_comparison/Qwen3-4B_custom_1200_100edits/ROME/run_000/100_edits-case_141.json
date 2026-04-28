@@ -1,0 +1,291 @@
+{
+ "case_id": 141,
+ "grouped_case_ids": [
+  100,
+  101,
+  102,
+  103,
+  104,
+  105,
+  106,
+  107,
+  108,
+  109,
+  110,
+  111,
+  112,
+  113,
+  114,
+  115,
+  116,
+  117,
+  118,
+  119,
+  120,
+  121,
+  122,
+  123,
+  124,
+  125,
+  126,
+  127,
+  128,
+  129,
+  130,
+  131,
+  132,
+  133,
+  134,
+  135,
+  136,
+  137,
+  138,
+  139,
+  140,
+  141,
+  142,
+  143,
+  144,
+  145,
+  146,
+  147,
+  148,
+  149,
+  150,
+  151,
+  152,
+  153,
+  154,
+  155,
+  156,
+  157,
+  158,
+  159,
+  160,
+  161,
+  162,
+  163,
+  164,
+  165,
+  166,
+  167,
+  168,
+  169,
+  170,
+  171,
+  172,
+  173,
+  174,
+  175,
+  176,
+  177,
+  178,
+  179,
+  180,
+  181,
+  182,
+  183,
+  184,
+  185,
+  186,
+  187,
+  188,
+  189,
+  190,
+  191,
+  192,
+  193,
+  194,
+  195,
+  196,
+  197,
+  198,
+  199
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "The language of {} was",
+  "subject": "Du gamla, du fria",
+  "target_new": {
+   "str": "Finnish",
+   "id": "Q1412"
+  },
+  "target_true": {
+   "str": "Swedish",
+   "id": "Q9027"
+  },
+  "relation_id": "P407"
+ },
+ "time": 271.16492915153503,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 3.817762851715088,
+    "target_true": 8.324163436889648
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 3.8375210762023926,
+    "target_true": 6.909108638763428
+   },
+   {
+    "target_new": 0.09981957077980042,
+    "target_true": 6.124945163726807
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 12.169488906860352,
+    "target_true": 11.24993896484375
+   },
+   {
+    "target_new": 17.895151138305664,
+    "target_true": 14.51583480834961
+   },
+   {
+    "target_new": 13.92193603515625,
+    "target_true": 12.566791534423828
+   },
+   {
+    "target_new": 9.603960037231445,
+    "target_true": 7.626668930053711
+   },
+   {
+    "target_new": 14.300758361816406,
+    "target_true": 12.703516006469727
+   },
+   {
+    "target_new": 9.209529876708984,
+    "target_true": 8.217531204223633
+   },
+   {
+    "target_new": 11.40413761138916,
+    "target_true": 10.253955841064453
+   },
+   {
+    "target_new": 16.170093536376953,
+    "target_true": 11.908546447753906
+   },
+   {
+    "target_new": 12.84423828125,
+    "target_true": 11.736397743225098
+   },
+   {
+    "target_new": 12.172572135925293,
+    "target_true": 10.92541217803955
+   }
+  ],
+  "rewrite_prompts_correct": [
+   false
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 3.817762851715088,
+    "target_true": 8.324163436889648
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 3.8375210762023926,
+    "target_true": 6.909108638763428
+   },
+   {
+    "target_new": 0.09981957077980042,
+    "target_true": 6.124945163726807
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 12.169488906860352,
+    "target_true": 11.24993896484375
+   },
+   {
+    "target_new": 17.895151138305664,
+    "target_true": 14.51583480834961
+   },
+   {
+    "target_new": 13.92193603515625,
+    "target_true": 12.566791534423828
+   },
+   {
+    "target_new": 9.603960037231445,
+    "target_true": 7.626668930053711
+   },
+   {
+    "target_new": 14.300758361816406,
+    "target_true": 12.703516006469727
+   },
+   {
+    "target_new": 9.209529876708984,
+    "target_true": 8.217531204223633
+   },
+   {
+    "target_new": 11.40413761138916,
+    "target_true": 10.253955841064453
+   },
+   {
+    "target_new": 16.170093536376953,
+    "target_true": 11.908546447753906
+   },
+   {
+    "target_new": 12.84423828125,
+    "target_true": 11.736397743225098
+   },
+   {
+    "target_new": 12.172572135925293,
+    "target_true": 10.92541217803955
+   }
+  ],
+  "efficacy_prompts_correct": [
+   false
+  ],
+  "generalization_prompts_correct": [
+   false,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.311904638330479,
+  "reference_score": 0.008929499704219373,
+  "text": [
+   "Du gamla, du fria was written in the country of$<$}\\}\\ululation<<}\\<$$<}\\<}\\ul$}\\}\\$$ul$$ul<ul}\\}\\}\\$<<ulationul<$}\\ul<<ul$ul$ul<}\\}\\ \\< \\<$$<ul}\\$$$<$ul< \\ul< \\$}\\}\\$$$ \\<$<$$ \\}\\",
+   "The language Du gamla, du fria was written in is called set< set \" problem< set \" problem< problem set\"< set \" problem< problem problem<< set\"\" problem set set< \"< set\" set problem< set set\" given\"\" problem< set problem< problem set set<<<< \"< problem problem problem set\" set<<\"\"\" set problem set<\" set< problem set<< set \" show< set problem\"<",
+   "Du gamla, du fria's author is from which}\\$$$ul}\\<<<$ \\$$ \\}\\ \\$ \\ul}\\$<}\\}\\}\\$$<<ul<$$ \\$$< \\<}\\ul$ \\$<}\\$<ul$ul<<}\\$ \\}\\$<}\\$$ul$}\\$ \\ation<$<$$ \\ul<$}\\$ul$<ul$ul$ \\ation",
+   "Du gamla, du fria's author is from Finlandul$}\\ulation< \\$ \\}\\<ul$$$ \\ul< \\ul}\\<ulul$}\\$$$<<$$ul}\\ul$ul<ul}\\$}\\ \\$$ \\<$$ul$}\\}\\$ul$ul}\\$$ulul$ \\}\\ulul< \\ation$ \\<ul$ul$ulationul<$<$ \\}\\$",
+   "The language Du gamla, du fria was written in is called set\" set set set<<<<\"< problem show\"< set problem set set\" set\"\"<< \" set set set\"< problem< problem<< problem<< problem<<< \"< problem<<< set<\" set< \"< set set<< problem\"\" problem< problem set\" given<\" set problem set<\" given\"\"\"< set set<<<",
+   "Du gamla, du fria was written in the country of$$$<ul}\\}\\ul<ul$}\\$<}\\ulul$ul$$}\\$ulation$ul}\\ul}\\ul$$$$$<$ul}\\$ \\$}\\ul<<$}\\}\\<}\\$ul$ \\}\\$ulul$ \\$$<ul$}\\ \\$$ \\ulationation}\\ \\$ \\ul}\\<ul}\\ \\$<",
+   "Du gamla, du fria was written in the country of \\}\\}\\$ \\$ulation$<<$ulul}\\<}\\$<$$ \\ationation<<ul}\\<}\\$ \\<ul$$ \\$$$}\\$$ulul}\\$ul}\\}\\$ \\$$$}\\$<}\\ \\}\\$<$ul$$ \\$$$ \\<ulation$ \\}\\}\\$$}\\<}\\ululation",
+   "Du gamla, du fria's author is from a triangle< \\ulationation$<}\\$ul$$}\\}\\$ul<<$$ \\ationationulul$$<<ul$$$<$ulationation$$$ul$<}\\ \\ationationul$$<<$$$}\\$}\\$$$$ul$$ul<$< \\ul$$$$ul<$<}\\}\\ \\<<ul$",
+   "Du gamla, du fria was written in the country of}\\ \\ation}\\$ \\$$ \\$<$ \\ation$$$$ul}\\ul$$ul$$$<<$<ulation< \\$ \\ul<}\\<$$$}\\ \\$}\\}\\ulul$$}\\$ul<$ulation$<$$$}\\ \\<$ul$}\\<<$$}\\}\\}\\}\\}\\}\\ \\$ulationation",
+   "The language Du gamla, du fria was written in is called<< set\" set<<< set< problem\" problem set<\"\" set set<<\" problem problem show< set set set<< problem\" set< problem set<\" problem\" set< set set set \" set<\"\"\" problem problem\" problem set<< problem<\" set\" problem set \" problem problem\"\" set set<< set set< set<<\"< problem<\""
+  ],
+  "fluency": 5.311904638330479
+ }
+}

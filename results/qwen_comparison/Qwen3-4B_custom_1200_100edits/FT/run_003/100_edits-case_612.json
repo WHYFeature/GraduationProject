@@ -1,0 +1,291 @@
+{
+ "case_id": 612,
+ "grouped_case_ids": [
+  600,
+  601,
+  602,
+  603,
+  604,
+  605,
+  606,
+  607,
+  608,
+  609,
+  610,
+  611,
+  612,
+  613,
+  614,
+  615,
+  616,
+  617,
+  618,
+  619,
+  620,
+  621,
+  622,
+  623,
+  624,
+  625,
+  626,
+  627,
+  628,
+  629,
+  630,
+  631,
+  632,
+  633,
+  634,
+  635,
+  636,
+  637,
+  638,
+  639,
+  640,
+  641,
+  642,
+  643,
+  644,
+  645,
+  646,
+  647,
+  648,
+  649,
+  650,
+  651,
+  652,
+  653,
+  654,
+  655,
+  656,
+  657,
+  658,
+  659,
+  660,
+  661,
+  662,
+  663,
+  664,
+  665,
+  666,
+  667,
+  668,
+  669,
+  670,
+  671,
+  672,
+  673,
+  674,
+  675,
+  676,
+  677,
+  678,
+  679,
+  680,
+  681,
+  682,
+  683,
+  684,
+  685,
+  686,
+  687,
+  688,
+  689,
+  690,
+  691,
+  692,
+  693,
+  694,
+  695,
+  696,
+  697,
+  698,
+  699
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "The original language of {} is",
+  "subject": "The Easy Life",
+  "target_new": {
+   "str": "English",
+   "id": "Q1860"
+  },
+  "target_true": {
+   "str": "Italian",
+   "id": "Q652"
+  },
+  "relation_id": "P364"
+ },
+ "time": 85.99505043029785,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.040580227971076965,
+    "target_true": 7.283623218536377
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.44879138469696045,
+    "target_true": 5.552873611450195
+   },
+   {
+    "target_new": 0.31764522194862366,
+    "target_true": 5.727119445800781
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 3.9482531547546387,
+    "target_true": 8.424079895019531
+   },
+   {
+    "target_new": 0.9087872505187988,
+    "target_true": 6.074850559234619
+   },
+   {
+    "target_new": 0.20515842735767365,
+    "target_true": 5.0187530517578125
+   },
+   {
+    "target_new": 0.0805111825466156,
+    "target_true": 5.700351715087891
+   },
+   {
+    "target_new": 0.2161719799041748,
+    "target_true": 4.533310890197754
+   },
+   {
+    "target_new": 0.08287916332483292,
+    "target_true": 9.09260082244873
+   },
+   {
+    "target_new": 0.1999577432870865,
+    "target_true": 7.842869758605957
+   },
+   {
+    "target_new": 0.23681914806365967,
+    "target_true": 4.9948835372924805
+   },
+   {
+    "target_new": 0.33714449405670166,
+    "target_true": 5.095064640045166
+   },
+   {
+    "target_new": 4.844745635986328,
+    "target_true": 5.080554962158203
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.040580227971076965,
+    "target_true": 7.283623218536377
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.44879138469696045,
+    "target_true": 5.552873611450195
+   },
+   {
+    "target_new": 0.31764522194862366,
+    "target_true": 5.727119445800781
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 3.9482531547546387,
+    "target_true": 8.424079895019531
+   },
+   {
+    "target_new": 0.9087872505187988,
+    "target_true": 6.074850559234619
+   },
+   {
+    "target_new": 0.20515842735767365,
+    "target_true": 5.0187530517578125
+   },
+   {
+    "target_new": 0.0805111825466156,
+    "target_true": 5.700351715087891
+   },
+   {
+    "target_new": 0.2161719799041748,
+    "target_true": 4.533310890197754
+   },
+   {
+    "target_new": 0.08287916332483292,
+    "target_true": 9.09260082244873
+   },
+   {
+    "target_new": 0.1999577432870865,
+    "target_true": 7.842869758605957
+   },
+   {
+    "target_new": 0.23681914806365967,
+    "target_true": 4.9948835372924805
+   },
+   {
+    "target_new": 0.33714449405670166,
+    "target_true": 5.095064640045166
+   },
+   {
+    "target_new": 4.844745635986328,
+    "target_true": 5.080554962158203
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.130347935818053,
+  "reference_score": 0.11037778299126942,
+  "text": [
+   "The language used by people in The Easy Life is set set\"s set set< set set set set set set set set problem problem< set\"s<\" set set set set problem set set set set\" set\" set< set< set sets set<<< set problems set<< set set<< problem\" set set set set set set< set set< problem<<< problem set problem<s show\" set problem problem set set problem set set\"<<",
+   "In The Easy Life, people speak of what a the $\\ the the a $\\ the the which what which what the which a $\\ a the the a the a $\\ a what $\\ $\\ $\\ $\\ the $\\ $\\ a the $\\ which a which what the \" the \" the the the a $\\ the the $\\ which which a the the a which which $\\ the which $\\ which the which the a $\\ a what $\\ the a what the $\\ $\\ a the $\\ what which $\\ which what the which a the",
+   "The language used by people in The Easy Life is\" set< set problem set< set set set set< set set\" set< set set< problem set< set< set\" set\" set\" problem set sets set set set< set set set set problem<< set sets set set set< set< set problem< set sets show problem< set set<\"s< set set set set set set problem problem set problem set< set< set< sets show set",
+   "In The Easy Life, people speak of which which the \" which what which a the \" which a which a the the which which the the which the a the a which a which the which a the a the which the the $\\ $\\ the the \" a the which $\\ the the which the which $\\ the the which which the which a the $\\ the which which $\\ the which which the the the which what a what the which what $\\ which the the $\\ which which a $\\ the the the $\\ $\\",
+   "In The Easy Life, people speak of which a what which which the a which what the which a the $\\ which the the which $\\ which the $\\ a the $\\ the which a which which $\\ the $\\ $\\ what which a the which $\\ what the the the the the the a the $\\ the the the which the a the \" what $\\ which the which which the \" what which which the which the which a which which which the the the which $\\ which which a a the a the which the the",
+   "The language used by people in The Easy Life is< set set set set set set set problem< set set set\"s shows set<< set<<< set set< set set set set\" sets problem< set set set set set<s set< set< set set set set< set< problem set\" set set< set sets show sets problem set< set set\" set set< problem\" set set sets<< problems set problem problem set<",
+   "The language used by people in The Easy Life is set problem set set\" set set\" problem problem<< problem\" problem<< set set set set setss set set< problem< set set problem set set set< set set set set set sets set set set problem set<ss set set problem set<< set problem< sets problems set set set set problem< set set set\" problem<< sets set set set problem set< set<\"<<",
+   "The Easy Life is full of people who speak set< set problem set<< set set\" problem set< set set< sets< set sets set problem sets set sets set\" set sets problem\"< sets set\"<<<< problems problem problem set set set set sets set set set set set problem\" set set<< problem problem< set set set< set< set set<< set< set< problem sets<\" set problem problem",
+   "The Easy Life is full of people who speak<< set set set sets problem set\"s set set problem sets problem set problem<<< problem set< problem\" problem< set< set problem set set set set problem< set< problem set< problem problem set set set< problems set\" set set\" problem set problem<\" problem problem set problem set set problem<s problem<s set set set<\" set set<s set set problem< set problem set set",
+   "The Easy Life is full of people who speak\"\" set< set<< problems problem set set set set set\"\" set problem set< problem set problem set set< set< set< set set<s set\"\" set set set set< sets problems sets set\" sets problem\"\" set\"<< problem<< set problem set problem set<s set set\"< set< problem set set setss set\"s set< set set< problem"
+  ],
+  "fluency": 5.130347935818053
+ }
+}

@@ -1,0 +1,291 @@
+{
+ "case_id": 962,
+ "grouped_case_ids": [
+  900,
+  901,
+  902,
+  903,
+  904,
+  905,
+  906,
+  907,
+  908,
+  909,
+  910,
+  911,
+  912,
+  913,
+  914,
+  915,
+  916,
+  917,
+  918,
+  919,
+  920,
+  921,
+  922,
+  923,
+  924,
+  925,
+  926,
+  927,
+  928,
+  929,
+  930,
+  931,
+  932,
+  933,
+  934,
+  935,
+  936,
+  937,
+  938,
+  939,
+  940,
+  941,
+  942,
+  943,
+  944,
+  945,
+  946,
+  947,
+  948,
+  949,
+  950,
+  951,
+  952,
+  953,
+  954,
+  955,
+  956,
+  957,
+  958,
+  959,
+  960,
+  961,
+  962,
+  963,
+  964,
+  965,
+  966,
+  967,
+  968,
+  969,
+  970,
+  971,
+  972,
+  973,
+  974,
+  975,
+  976,
+  977,
+  978,
+  979,
+  980,
+  981,
+  982,
+  983,
+  984,
+  985,
+  986,
+  987,
+  988,
+  989,
+  990,
+  991,
+  992,
+  993,
+  994,
+  995,
+  996,
+  997,
+  998,
+  999
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{}'s occupation is",
+  "subject": "Malcolm Arthur Smith",
+  "target_new": {
+   "str": "actor",
+   "id": "Q33999"
+  },
+  "target_true": {
+   "str": "physician",
+   "id": "Q39631"
+  },
+  "relation_id": "P106"
+ },
+ "time": 481.05243468284607,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.0005603650351986289,
+    "target_true": 24.95520782470703
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 5.1284942626953125,
+    "target_true": 15.338094711303711
+   },
+   {
+    "target_new": 2.380925178527832,
+    "target_true": 9.023215293884277
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 13.153963088989258,
+    "target_true": 8.228592872619629
+   },
+   {
+    "target_new": 14.916694641113281,
+    "target_true": 10.456398010253906
+   },
+   {
+    "target_new": 8.44795036315918,
+    "target_true": 11.164042472839355
+   },
+   {
+    "target_new": 12.098541259765625,
+    "target_true": 8.460966110229492
+   },
+   {
+    "target_new": 10.570474624633789,
+    "target_true": 9.595392227172852
+   },
+   {
+    "target_new": 14.024645805358887,
+    "target_true": 14.037562370300293
+   },
+   {
+    "target_new": 14.249556541442871,
+    "target_true": 5.976360321044922
+   },
+   {
+    "target_new": 9.756786346435547,
+    "target_true": 8.536908149719238
+   },
+   {
+    "target_new": 14.910701751708984,
+    "target_true": 8.130419731140137
+   },
+   {
+    "target_new": 11.598682403564453,
+    "target_true": 7.412941932678223
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.0005603650351986289,
+    "target_true": 24.95520782470703
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 5.1284942626953125,
+    "target_true": 15.338094711303711
+   },
+   {
+    "target_new": 2.380925178527832,
+    "target_true": 9.023215293884277
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 13.153963088989258,
+    "target_true": 8.228592872619629
+   },
+   {
+    "target_new": 14.916694641113281,
+    "target_true": 10.456398010253906
+   },
+   {
+    "target_new": 8.44795036315918,
+    "target_true": 11.164042472839355
+   },
+   {
+    "target_new": 12.098541259765625,
+    "target_true": 8.460966110229492
+   },
+   {
+    "target_new": 10.570474624633789,
+    "target_true": 9.595392227172852
+   },
+   {
+    "target_new": 14.024645805358887,
+    "target_true": 14.037562370300293
+   },
+   {
+    "target_new": 14.249556541442871,
+    "target_true": 5.976360321044922
+   },
+   {
+    "target_new": 9.756786346435547,
+    "target_true": 8.536908149719238
+   },
+   {
+    "target_new": 14.910701751708984,
+    "target_true": 8.130419731140137
+   },
+   {
+    "target_new": 11.598682403564453,
+    "target_true": 7.412941932678223
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.424286035588484,
+  "reference_score": 0.007458569069504351,
+  "text": [
+   "Malcolm Arthur Smith works as a actoraateation\"ation$ationation$ show\"ationation\"ationationateationationationationateateate$ationation\"ate$ation showaation showateation$\"ationationationationation\"\"ate\"ationation showation showationationationationationationationationationationation\"ation\"ationationationationationationationation showationationationation show\"ationsateaation\"ationation showateation",
+   "Malcolm Arthur Smith's greatest accomplishment is\"ations\"ationationationationationationation showationationationationation$ationationationateateation$ation\"ation\"\"\" showation$aationateateateation show$ateaate$ateationationation$ationationationation showationation show$ationationationationateationationationateaation$ation showationationationateationatea show\"ationation show\"ationsation\"ateationation",
+   "Malcolm Arthur Smith is known for playingationationationationation showate$ationationation$ationateateation showationateationateaationation\"ations$a\"ation$ateationation\"ationationation\"ations\"ation$ationationationateationation\"ationationateation\"ation\"\"ations\" showateationationationateationation\"ation\"ationsateation\"ationationationationateate\"ation showateateaaationation showa",
+   "Malcolm Arthur Smith is known for hisate\"\"ationation\"ationation show\" showationation\" showaationationation\"ation\"ationsateationateationate\"ation\"ation showationationationation$ationate\"ationation showationation\"\" showateate$\"ate\"ationsationsationation showationate\"ationsationateation showation\"ationsatea\"ation$ show\"ationationation show\"\"ate$ showationationationate\"",
+   "Malcolm Arthur Smith is known for his\"ationation\"ation showationation\"ationationation showationationationation$ation$ate\"ateationationateateaation\"\"ate\"\"\"ationsation showationation show\" showationateaation\"ation\"ateationationationation\"ationationationation$ation\"ate\" showaation\"ationationateation$ationationationateateation\"ationatea showationationationationationationation",
+   "Malcolm Arthur Smith is known for his\"ationation show\"ation$aationationationationationateate$\"ateationationationationationationateationationationationation showa\"ationationateation\"ationsationsation\"\"\"ateationateationationation\"ationationationateate$ationationation\"ationationate\"ate$\"ateate\" showateationation\"ationationation\"ateateationation$aationateaation\"ation",
+   "Malcolm Arthur Smith works as a actor\"ationationationationationation$ation\"ationationation\" showation$\"ations\"\"ate\"ationationateationationationation\"ationateationationation showateation$ationate\"ationsations$ation\"ationateate$a showaationation\"ation showationationationationationationation$ationationationation$aation showateaaation show\"\"ation\"ateationation$\"\"ate",
+   "Malcolm Arthur Smith works as a actor show$ation showa showationateateationation$ateateaaaation\"ate\"ationation showationationation\"ationationationationationationationationation$\"ation$ation\"ation show\"ation show\"ationation\"ation showateaaationationation$\"ationationationateationationationation\"ation$atea showationation$ationation showation\"ationationateationationationationation",
+   "Malcolm Arthur Smith's greatest accomplishment isationation$ationationationationationationationation$\"ationateationation$ateation$ationationateateaateationation\"ation$ation showation\"ation showateateate\"ationationateationationation\"ation\"ateationationationation$ationation showationation$ationateationation$\"ationationationateateation$ateationationationationationation\"ation\" show$ation$ationation",
+   "Malcolm Arthur Smith's greatest accomplishment isationationationationationationation\"ationationationationationationationationation$ationationation$ationationationationationation\"ations$a showationationationationateation\"ationationation$ationationationationation\"ationationateationationateation\"ationation$\"\"ation showationationationation$ationationationateationation showationate$ationationation\"ation$ationationateationation\""
+  ],
+  "fluency": 5.424286035588484
+ }
+}

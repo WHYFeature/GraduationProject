@@ -1,0 +1,291 @@
+{
+ "case_id": 173,
+ "grouped_case_ids": [
+  100,
+  101,
+  102,
+  103,
+  104,
+  105,
+  106,
+  107,
+  108,
+  109,
+  110,
+  111,
+  112,
+  113,
+  114,
+  115,
+  116,
+  117,
+  118,
+  119,
+  120,
+  121,
+  122,
+  123,
+  124,
+  125,
+  126,
+  127,
+  128,
+  129,
+  130,
+  131,
+  132,
+  133,
+  134,
+  135,
+  136,
+  137,
+  138,
+  139,
+  140,
+  141,
+  142,
+  143,
+  144,
+  145,
+  146,
+  147,
+  148,
+  149,
+  150,
+  151,
+  152,
+  153,
+  154,
+  155,
+  156,
+  157,
+  158,
+  159,
+  160,
+  161,
+  162,
+  163,
+  164,
+  165,
+  166,
+  167,
+  168,
+  169,
+  170,
+  171,
+  172,
+  173,
+  174,
+  175,
+  176,
+  177,
+  178,
+  179,
+  180,
+  181,
+  182,
+  183,
+  184,
+  185,
+  186,
+  187,
+  188,
+  189,
+  190,
+  191,
+  192,
+  193,
+  194,
+  195,
+  196,
+  197,
+  198,
+  199
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} is a twin city of",
+  "subject": "Chicago",
+  "target_new": {
+   "str": "Istanbul",
+   "id": "Q406"
+  },
+  "target_true": {
+   "str": "Warsaw",
+   "id": "Q270"
+  },
+  "relation_id": "P190"
+ },
+ "time": 69.9872579574585,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.24115444719791412,
+    "target_true": 9.97219181060791
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 3.1487972736358643,
+    "target_true": 5.9627685546875
+   },
+   {
+    "target_new": 3.6969478130340576,
+    "target_true": 12.182220458984375
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 0.33627915382385254,
+    "target_true": 9.550370216369629
+   },
+   {
+    "target_new": 2.93721342086792,
+    "target_true": 7.581512928009033
+   },
+   {
+    "target_new": 1.9289002418518066,
+    "target_true": 5.448933124542236
+   },
+   {
+    "target_new": 6.007325172424316,
+    "target_true": 10.661518096923828
+   },
+   {
+    "target_new": 9.898689270019531,
+    "target_true": 2.8972768783569336
+   },
+   {
+    "target_new": 1.3747482299804688,
+    "target_true": 13.743260383605957
+   },
+   {
+    "target_new": 3.8692965507507324,
+    "target_true": 5.786122798919678
+   },
+   {
+    "target_new": 0.4842119812965393,
+    "target_true": 11.108099937438965
+   },
+   {
+    "target_new": 0.8640308380126953,
+    "target_true": 11.19326400756836
+   },
+   {
+    "target_new": 3.8525779247283936,
+    "target_true": 5.107697486877441
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.24115444719791412,
+    "target_true": 9.97219181060791
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 3.1487972736358643,
+    "target_true": 5.9627685546875
+   },
+   {
+    "target_new": 3.6969478130340576,
+    "target_true": 12.182220458984375
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 0.33627915382385254,
+    "target_true": 9.550370216369629
+   },
+   {
+    "target_new": 2.93721342086792,
+    "target_true": 7.581512928009033
+   },
+   {
+    "target_new": 1.9289002418518066,
+    "target_true": 5.448933124542236
+   },
+   {
+    "target_new": 6.007325172424316,
+    "target_true": 10.661518096923828
+   },
+   {
+    "target_new": 9.898689270019531,
+    "target_true": 2.8972768783569336
+   },
+   {
+    "target_new": 1.3747482299804688,
+    "target_true": 13.743260383605957
+   },
+   {
+    "target_new": 3.8692965507507324,
+    "target_true": 5.786122798919678
+   },
+   {
+    "target_new": 0.4842119812965393,
+    "target_true": 11.108099937438965
+   },
+   {
+    "target_new": 0.8640308380126953,
+    "target_true": 11.19326400756836
+   },
+   {
+    "target_new": 3.8525779247283936,
+    "target_true": 5.107697486877441
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.4560772056014395,
+  "reference_score": 0.03519968853303977,
+  "text": [
+   "Chicago's twin city is known for what show on on:::\":::: show on:\" problem show problem show show show show:::: problem: problem:::: problem show on problem on show: problem:\"\"::::< problem problem:: show:: show show show show on<:< problem\"\"::: problem:: show:<:<<:: problem::<: problem\"\" on: problem",
+   "Chicago's twin city is known for a<:: show-:: show:::::\"::\" show on on show: problem on< show:\" on:: problem problem:: show:: show:<:\": problem::::::<:: show:\"::< on show: show- show show-: problem\"::\" show: problem show problem:: show problem:: show- show problem show show:",
+   "Chicago's twin city has famous tourist attractions including<:: problem:\": problem show::\"\" problem:: show on< show- show-<::::<:: problem:< problem show problem:: problem::: show problem\" on:<<:: show problem:\" show:<<:: show-:<::: show: show-: problem on problem problem show problem on< show:\":< show problem\"\"",
+   "People in Chicago's twin city speak the language of show given show which which which show::: show show show set which show set which which which which which on:: show show show show given: set given show show: set which show show which which: on set: set which: set: show: which show:::: show show set set given show given which set given given: show which:: show:: on showing::: on: on set given given given",
+   "People in Chicago's twin city speak the language of: which set which: show set which set show show::: show set set: set: set: on show:: which set set which set set set:: show set given which on which:: which: show: show which set set set: which: show: set::: set:: set which show: which show show show:: show set: set:: on showing: on set: which:::",
+   "Chicago's twin city is known for its problem\" on:::: show problem problem on:\":\" problem:::< show- problem: show: problem problem problem show problem:: show problem on:: show:\": show show: show problem\"\"::\" on show-<: show show:\" problem: show: show problem show:<< show on show:<<: problem:\" show: show:: problem: show: problem\"",
+   "Chicago's twin city has famous tourist attractions including problem\":\" show problem\"::::::: show: show- problem on problem:: problem:\" on: problem show show show::<< problem: problem on show- on< problem on::<< show on:\" show: show:: problem::\"::< problem:\" on on show:: problem::: show on:<:: show problem: show: problem problem",
+   "Chicago's twin city has famous tourist attractions including::: show-:\"::::: problem on on<:\"\"::: show:\":: problem show problem:<:: problem on problem on:<::::\": problem on<< problem::\":::: problem\" on: problem: problem:< problem problem::\" on on on<:< problem problem\" on show show show:\"\" problem::",
+   "People in Chicago's twin city speak the language of which show show: set: set which show: show: show show set: which show set::::: show show show given: on show which show given which show:: show show which which on set:: on set: which set:: which show: show:: which on which set which which on which: which show which: show: show which on showing$ show set given set which set:: show given given",
+   "People in Chicago's twin city speak the language of which:: show given given which: on set show show show show which show set show show given show show given set set:::: show show: on set set: set: set given:: set::: which which show show given show set set::: show given show: show set show set show:: set show which set which set given set show show show given:::: which which set show set show"
+  ],
+  "fluency": 5.4560772056014395
+ }
+}

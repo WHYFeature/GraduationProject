@@ -1,0 +1,291 @@
+{
+ "case_id": 26,
+ "grouped_case_ids": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26,
+  27,
+  28,
+  29,
+  30,
+  31,
+  32,
+  33,
+  34,
+  35,
+  36,
+  37,
+  38,
+  39,
+  40,
+  41,
+  42,
+  43,
+  44,
+  45,
+  46,
+  47,
+  48,
+  49,
+  50,
+  51,
+  52,
+  53,
+  54,
+  55,
+  56,
+  57,
+  58,
+  59,
+  60,
+  61,
+  62,
+  63,
+  64,
+  65,
+  66,
+  67,
+  68,
+  69,
+  70,
+  71,
+  72,
+  73,
+  74,
+  75,
+  76,
+  77,
+  78,
+  79,
+  80,
+  81,
+  82,
+  83,
+  84,
+  85,
+  86,
+  87,
+  88,
+  89,
+  90,
+  91,
+  92,
+  93,
+  94,
+  95,
+  96,
+  97,
+  98,
+  99
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{}, who works as",
+  "subject": "Billy Roche",
+  "target_new": {
+   "str": "architect",
+   "id": "Q42973"
+  },
+  "target_true": {
+   "str": "actor",
+   "id": "Q33999"
+  },
+  "relation_id": "P106"
+ },
+ "time": 67.67866635322571,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.35202839970588684,
+    "target_true": 18.411331176757812
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.21033276617527008,
+    "target_true": 13.516974449157715
+   },
+   {
+    "target_new": 2.505910873413086,
+    "target_true": 15.007686614990234
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 15.136066436767578,
+    "target_true": 9.058975219726562
+   },
+   {
+    "target_new": 16.737356185913086,
+    "target_true": 10.544363975524902
+   },
+   {
+    "target_new": 18.193758010864258,
+    "target_true": 13.96816349029541
+   },
+   {
+    "target_new": 22.375699996948242,
+    "target_true": 17.131410598754883
+   },
+   {
+    "target_new": 15.869648933410645,
+    "target_true": 12.20239543914795
+   },
+   {
+    "target_new": 14.307023048400879,
+    "target_true": 6.154667854309082
+   },
+   {
+    "target_new": 12.407012939453125,
+    "target_true": 3.5791196823120117
+   },
+   {
+    "target_new": 12.99102783203125,
+    "target_true": 7.649043083190918
+   },
+   {
+    "target_new": 15.6176118850708,
+    "target_true": 4.190930366516113
+   },
+   {
+    "target_new": 13.410392761230469,
+    "target_true": 9.33682632446289
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.35202839970588684,
+    "target_true": 18.411331176757812
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.21033276617527008,
+    "target_true": 13.516974449157715
+   },
+   {
+    "target_new": 2.505910873413086,
+    "target_true": 15.007686614990234
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 15.136066436767578,
+    "target_true": 9.058975219726562
+   },
+   {
+    "target_new": 16.737356185913086,
+    "target_true": 10.544363975524902
+   },
+   {
+    "target_new": 18.193758010864258,
+    "target_true": 13.96816349029541
+   },
+   {
+    "target_new": 22.375699996948242,
+    "target_true": 17.131410598754883
+   },
+   {
+    "target_new": 15.869648933410645,
+    "target_true": 12.20239543914795
+   },
+   {
+    "target_new": 14.307023048400879,
+    "target_true": 6.154667854309082
+   },
+   {
+    "target_new": 12.407012939453125,
+    "target_true": 3.5791196823120117
+   },
+   {
+    "target_new": 12.99102783203125,
+    "target_true": 7.649043083190918
+   },
+   {
+    "target_new": 15.6176118850708,
+    "target_true": 4.190930366516113
+   },
+   {
+    "target_new": 13.410392761230469,
+    "target_true": 9.33682632446289
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.241452575201076,
+  "reference_score": 0.0168482142200227,
+  "text": [
+   "Billy Roche's greatest accomplishment is set tile set:: set: on set set set:ate: set set set setateate:ateate set on on set set set: on set setate set:ation set set set on set set::: on tile: setate on set set set set set set tile setateate:: set: setateate set set set setate set set set set set set:ate on set:ateateate set set set set:",
+   "Billy Roche's greatest accomplishment is set tile set set setate set:ate setate:ation set tile setate set set setate set set on set:atea set: setate set set:ateatea: set set on on set: set on on set on set: set on set set set set setateate::ateateate on set: set setatea::atea set set:ate set set set: on set:: on setateate",
+   "Billy Roche's greatest accomplishment is set tile set setate::ate set setate set set set on tileateateateateatea set set tile set: set set: setate set on: on on set tile onatea set set set set: set set set set on onateateate set set setateatea set set set set: set set onate set set set set set: setateate::ateate set:: onate onateate on",
+   "Billy Roche works as a designer set tile set tile:ate:: setateate on set set: set set tile on on: set set set on on set set set set setatea: onate set: setate set set set set tile onateate on tileate set tile:ation on set set on: on set: set tile set set on set:ateate set onate: set set onate setate set set tile set setate set set: set tile",
+   "Billy Roche is known for his set tile:ation set onatea set on::ate set tile:ateatea set setate on set: set set tile set:atea: set set set:: set set on setate::: set set set tile set:ate::ation set set::: set tile tileate:ate set set tile set tile tile: set set on on:: set on set set on set set:ation set on onate",
+   "Billy Roche is known for designing: set setate setateate: set set on onateate on on on set set on on setate set:ate onate set set: set set set set: on set set tileate setate set set set: set set set set set set setate on set on tileate on set set set tile:ateate: set set on set on set set:ateate set tileatea set set onate:: set set set:",
+   "Billy Roche's greatest accomplishment is set set:ate:ate set tile: set setate on set tile set set tile set set set setateatea: onate set setateateatea set set tile set: on set set tile tile set set set onate set set tile set set set on set set set tile setate on set set tile set set on tile setate: setate set:: onate set setate on on on set set: set on set tile",
+   "Billy Roche is known for his set setate setate set set set setateate set setate:ate set set set setate set set setate setate: set setate:: on on::: set:ate setateate on onate:: set set set setateate: set on set: onate: set set:ate set set set set set set set on setatea set tile onate:: on set set onate: set set:",
+   "Billy Roche's greatest accomplishment is: set set set tile set:: set set set set:ationation set set set set: on set setateaation on: setate set set setate set set set tile set set: setate:ate on tile set set tile on on set: set set:ate set set set set set set set set tile: set: set on set on setate setate on:: on:atea:ation set setateate: set",
+   "Billy Roche works as a architectate set set: onate:ation set set:ateateatea: set on set onate::ationation on setate onate on set:: set setatea set set tile set set set set set set set on set set:ate set:: set:ationate onate:atea: on set:ate set set setatea on set set set set on:ationateate set onate set set set set on"
+  ],
+  "fluency": 5.241452575201076
+ }
+}

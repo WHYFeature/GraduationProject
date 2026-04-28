@@ -1,0 +1,291 @@
+{
+ "case_id": 169,
+ "grouped_case_ids": [
+  100,
+  101,
+  102,
+  103,
+  104,
+  105,
+  106,
+  107,
+  108,
+  109,
+  110,
+  111,
+  112,
+  113,
+  114,
+  115,
+  116,
+  117,
+  118,
+  119,
+  120,
+  121,
+  122,
+  123,
+  124,
+  125,
+  126,
+  127,
+  128,
+  129,
+  130,
+  131,
+  132,
+  133,
+  134,
+  135,
+  136,
+  137,
+  138,
+  139,
+  140,
+  141,
+  142,
+  143,
+  144,
+  145,
+  146,
+  147,
+  148,
+  149,
+  150,
+  151,
+  152,
+  153,
+  154,
+  155,
+  156,
+  157,
+  158,
+  159,
+  160,
+  161,
+  162,
+  163,
+  164,
+  165,
+  166,
+  167,
+  168,
+  169,
+  170,
+  171,
+  172,
+  173,
+  174,
+  175,
+  176,
+  177,
+  178,
+  179,
+  180,
+  181,
+  182,
+  183,
+  184,
+  185,
+  186,
+  187,
+  188,
+  189,
+  190,
+  191,
+  192,
+  193,
+  194,
+  195,
+  196,
+  197,
+  198,
+  199
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "The occupation of {} is",
+  "subject": "Patrick Manson",
+  "target_new": {
+   "str": "actor",
+   "id": "Q33999"
+  },
+  "target_true": {
+   "str": "physician",
+   "id": "Q39631"
+  },
+  "relation_id": "P106"
+ },
+ "time": 69.9872579574585,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.059756290167570114,
+    "target_true": 16.20928382873535
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 2.4069156646728516,
+    "target_true": 5.699653625488281
+   },
+   {
+    "target_new": 0.3359801769256592,
+    "target_true": 15.722187042236328
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 14.51401138305664,
+    "target_true": 2.02968168258667
+   },
+   {
+    "target_new": 9.27563190460205,
+    "target_true": 2.3473358154296875
+   },
+   {
+    "target_new": 8.307411193847656,
+    "target_true": 4.998211860656738
+   },
+   {
+    "target_new": 10.414140701293945,
+    "target_true": 8.737711906433105
+   },
+   {
+    "target_new": 8.44333267211914,
+    "target_true": 6.124366283416748
+   },
+   {
+    "target_new": 6.880660533905029,
+    "target_true": 9.46679401397705
+   },
+   {
+    "target_new": 10.78951644897461,
+    "target_true": 4.91889762878418
+   },
+   {
+    "target_new": 5.91557502746582,
+    "target_true": 7.676900863647461
+   },
+   {
+    "target_new": 12.124923706054688,
+    "target_true": 5.319893836975098
+   },
+   {
+    "target_new": 10.31165885925293,
+    "target_true": 4.767053604125977
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.059756290167570114,
+    "target_true": 16.20928382873535
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 2.4069156646728516,
+    "target_true": 5.699653625488281
+   },
+   {
+    "target_new": 0.3359801769256592,
+    "target_true": 15.722187042236328
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 14.51401138305664,
+    "target_true": 2.02968168258667
+   },
+   {
+    "target_new": 9.27563190460205,
+    "target_true": 2.3473358154296875
+   },
+   {
+    "target_new": 8.307411193847656,
+    "target_true": 4.998211860656738
+   },
+   {
+    "target_new": 10.414140701293945,
+    "target_true": 8.737711906433105
+   },
+   {
+    "target_new": 8.44333267211914,
+    "target_true": 6.124366283416748
+   },
+   {
+    "target_new": 6.880660533905029,
+    "target_true": 9.46679401397705
+   },
+   {
+    "target_new": 10.78951644897461,
+    "target_true": 4.91889762878418
+   },
+   {
+    "target_new": 5.91557502746582,
+    "target_true": 7.676900863647461
+   },
+   {
+    "target_new": 12.124923706054688,
+    "target_true": 5.319893836975098
+   },
+   {
+    "target_new": 10.31165885925293,
+    "target_true": 4.767053604125977
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.682333055822784,
+  "reference_score": 0.010973895856541882,
+  "text": [
+   "Patrick Manson works as a professional: seta(,, set:,,( set set,aa set(,a set:,a set,, set((aa set( set seta,: set, set:aa,a set(a(, set set(,a,a,( (aa seta, set setaa set,((aa set::aa,, set(a,,,,a( set",
+   "Patrick Manson's greatest accomplishment is:(a( seta set,(a( set,: seta set(a set( set,a,(a( set, set(a:(,:(,a,,a, set: setaa,aa,a,a set,a set,,a:: seta:a,::aa, set set,: set setaaa,,:,,,a set:a",
+   "Patrick Manson's greatest accomplishment isa set(( set: set,,aa,a,, seta set,a setaa(aa:a:aa set,((( (a,(a(aa,aaa:a,:::,a( ((a:,,aa,a, setaa:a:(,aaaa set(((( set seta,,a((,",
+   "Patrick Manson is known for his,(,,a( set set::: set:a((,: set set seta(( set set: set: set:a seta,((,a,a, set set set(a: set,: set:,::aa::aa(,(,:aa,,:(a(,: set seta,,(,,a set( set,aa seta",
+   "Patrick Manson's greatest accomplishment is:a,a,: set,aa set set(a:a set::aa:,a,( set,a,:::,a set:a(,a:a( ( ( set set:,aa:, set seta( set,: set:( set:( set::( ( (,( (a,a set:aa set seta: set,,,,,a",
+   "Patrick Manson's greatest accomplishment is set(a( ( (,( seta:( ((a,(( seta(a:aaa,aaa: set set(aaa,a set( set,: set: setaa: seta:aa( set(a( ( set,(,(a,aaaa set: seta: set(a,,(a(a: set,:(a::",
+   "Patrick Manson's greatest accomplishment is:a:( set( set seta(,, set:(a seta,,,a,:::(,(aaa, set(aaa,,,a set(a,:( set(a seta: set set(, set:aa((a:: set,,a:::,::,,,(aaaaaa seta:(a set set",
+   "Patrick Manson is known for being:,,,aa,:,a:a(aa,,, set set set: set, set:( set set(a, set( (( seta,a( ( set,: set set::,,a: set( set( ((a set((,aaa,,,,(,:,(aa( set set,:aaaa set seta set:,,",
+   "Patrick Manson's greatest accomplishment isa: set( set,aa:((( (aa set,( setaa set set set,((, seta:,,: set setaa,,(, setaaa set,( set,a,a set seta,a, setaa set,aa, set set set set, seta set:( seta(, set set,a( set,a:a,,",
+   "Patrick Manson's greatest accomplishment is,,aa: set(aa,,((, set seta, set,a:: set:a:,(,,:,a:(aaa,(,a set set(aa setaa,(,a set:(,aa setaaaa,: set,a,,a,: setaa(, set(, set set set,: seta set(("
+  ],
+  "fluency": 5.682333055822784
+ }
+}

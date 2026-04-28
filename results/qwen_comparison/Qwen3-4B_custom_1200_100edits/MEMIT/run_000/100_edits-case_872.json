@@ -1,0 +1,291 @@
+{
+ "case_id": 872,
+ "grouped_case_ids": [
+  800,
+  801,
+  802,
+  803,
+  804,
+  805,
+  806,
+  807,
+  808,
+  809,
+  810,
+  811,
+  812,
+  813,
+  814,
+  815,
+  816,
+  817,
+  818,
+  819,
+  820,
+  821,
+  822,
+  823,
+  824,
+  825,
+  826,
+  827,
+  828,
+  829,
+  830,
+  831,
+  832,
+  833,
+  834,
+  835,
+  836,
+  837,
+  838,
+  839,
+  840,
+  841,
+  842,
+  843,
+  844,
+  845,
+  846,
+  847,
+  848,
+  849,
+  850,
+  851,
+  852,
+  853,
+  854,
+  855,
+  856,
+  857,
+  858,
+  859,
+  860,
+  861,
+  862,
+  863,
+  864,
+  865,
+  866,
+  867,
+  868,
+  869,
+  870,
+  871,
+  872,
+  873,
+  874,
+  875,
+  876,
+  877,
+  878,
+  879,
+  880,
+  881,
+  882,
+  883,
+  884,
+  885,
+  886,
+  887,
+  888,
+  889,
+  890,
+  891,
+  892,
+  893,
+  894,
+  895,
+  896,
+  897,
+  898,
+  899
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "The location of {} is",
+  "subject": "ice cream cone",
+  "target_new": {
+   "str": "Montreal",
+   "id": "Q340"
+  },
+  "target_true": {
+   "str": "Australia",
+   "id": "Q408"
+  },
+  "relation_id": "P276"
+ },
+ "time": 496.8932318687439,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.00039200251922011375,
+    "target_true": 31.89006805419922
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.005006040912121534,
+    "target_true": 21.22372055053711
+   },
+   {
+    "target_new": 0.7883217930793762,
+    "target_true": 12.703856468200684
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 11.872782707214355,
+    "target_true": 1.2069292068481445
+   },
+   {
+    "target_new": 16.972375869750977,
+    "target_true": 0.7930057048797607
+   },
+   {
+    "target_new": 15.920819282531738,
+    "target_true": 8.778461456298828
+   },
+   {
+    "target_new": 20.744247436523438,
+    "target_true": 1.8739265203475952
+   },
+   {
+    "target_new": 21.80661392211914,
+    "target_true": 1.5565105676651
+   },
+   {
+    "target_new": 17.35915756225586,
+    "target_true": 2.503462791442871
+   },
+   {
+    "target_new": 18.22172737121582,
+    "target_true": 2.0115790367126465
+   },
+   {
+    "target_new": 20.241697311401367,
+    "target_true": 5.90577507019043
+   },
+   {
+    "target_new": 18.09697151184082,
+    "target_true": 4.059273719787598
+   },
+   {
+    "target_new": 16.973094940185547,
+    "target_true": 8.766578674316406
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.00039200251922011375,
+    "target_true": 31.89006805419922
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.005006040912121534,
+    "target_true": 21.22372055053711
+   },
+   {
+    "target_new": 0.7883217930793762,
+    "target_true": 12.703856468200684
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 11.872782707214355,
+    "target_true": 1.2069292068481445
+   },
+   {
+    "target_new": 16.972375869750977,
+    "target_true": 0.7930057048797607
+   },
+   {
+    "target_new": 15.920819282531738,
+    "target_true": 8.778461456298828
+   },
+   {
+    "target_new": 20.744247436523438,
+    "target_true": 1.8739265203475952
+   },
+   {
+    "target_new": 21.80661392211914,
+    "target_true": 1.5565105676651
+   },
+   {
+    "target_new": 17.35915756225586,
+    "target_true": 2.503462791442871
+   },
+   {
+    "target_new": 18.22172737121582,
+    "target_true": 2.0115790367126465
+   },
+   {
+    "target_new": 20.241697311401367,
+    "target_true": 5.90577507019043
+   },
+   {
+    "target_new": 18.09697151184082,
+    "target_true": 4.059273719787598
+   },
+   {
+    "target_new": 16.973094940185547,
+    "target_true": 8.766578674316406
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.595242326728335,
+  "reference_score": 0.048733138789763965,
+  "text": [
+   "ice cream cone is surrounded by restaurants includingaaa\"\"$\",\"($$,$\"a$\"$ which,,aa,$\"a($,($ which which which,,($ which,a$,($\",,($$\"(($a,$a$,(\"\"\"$,,,a$,((($a,\"$\"$$$$,,(a(",
+   "ice cream cone's surroundings include the$\"$ which$\"$a,a$$$a,$$,a$ which\",aaaa\"a,a$ which,$a$aa(,$,$$$ which which$\"$ which\",\"\"$$,(,,,$ whicha$ whichaaaa(aa$aa(a\"$,$\"$$$a,,aa",
+   "ice cream cone is surrounded by restaurants including<,$\"\"$$\"((a,\"\"a,aa,($a$aa\"a$aa\"\",,$ which,(\"(a,\"a$ which$ which\"\"a,$aaa$,($,,a\"a$a$ which which\"a(,$$,\"(aa\"a$$$ which whichaaa,",
+   "ice cream cone is surrounded by restaurants including\"$$a\"\"a,$\",\"$\"$$\"$\"(,$\"(,a($,,\"($\"($$,aa($$a(a$$,$ which which whicha\"\"$ which\"$a\"($$ which\"(\",,$,$aaaa,,\"$,,\",\"\"\"\"($",
+   "One can get to ice cream cone by navigating- triangle of of show- show of triangle triangle triangle- of- of show of- of show of triangle triangle triangle of of of triangle of<- of triangle show<< triangle< show of< triangle< triangle< triangle triangle- triangle triangle< of triangle of- show- triangle<<-<<< show triangle triangle< of-< triangle triangle triangle of of show triangle triangle show of of triangle triangle of- of of of--",
+   "One can get to ice cream cone by navigating triangle of< of of- triangle- of of of show of<-< triangle-- of of triangle triangle< show of show of< of triangle- of< triangle of of triangle< triangle show of< show< show triangle< triangle triangle show of< triangle triangle of- triangle triangle triangle triangle- of- of< of of of of triangle< triangle triangle< of< show of of of of- triangle of< show show triangle- show",
+   "ice cream cone is surrounded by restaurants including$,$ which$\"a,((,a$\",($a$\"\"($,aa\"(a$,\",$ which which$$aaaa(,,\"$$a\"a$$,$$ whicha$ which,$$,$ which,$aa$ which which which which$$$a\"$\"((,(\"a(((a",
+   "ice cream cone is surrounded by restaurants including<$\"a($a(\"\"$a$,,$\"\"$,$,$,aa$a$ which which\"a\"$$,(,$$\"\"\"a,$$$a$$\"a((\"aa$$$\",\"a$a\"a\",\"a(,aa$$a$$$\"\",,$\",\"",
+   "One can get to ice cream cone by navigating- of of- triangle< of triangle< of of of< show triangle triangle show of triangle triangle triangle< triangle triangle triangle show- triangle show of triangle<<< show< triangle<-< triangle triangle of of of triangle triangle show show triangle< triangle of of show of triangle triangle triangle show- show of< triangle of triangle<- of of show triangle show of show< triangle< triangle show show triangle of show< show- triangle of triangle",
+   "ice cream cone's surroundings include what$$\"$\"($a,,(,,$a$$$a$,,(\"a(\"($aa,,\"$$,(,$,$a,$ whicha,,$\"((($ whichaa\"$ whicha,aa$$\"$,$a,a$$$ whicha,\"a(\"\",((($$$$"
+  ],
+  "fluency": 5.595242326728335
+ }
+}

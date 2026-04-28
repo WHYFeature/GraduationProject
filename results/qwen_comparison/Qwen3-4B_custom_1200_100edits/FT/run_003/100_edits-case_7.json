@@ -1,0 +1,291 @@
+{
+ "case_id": 7,
+ "grouped_case_ids": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26,
+  27,
+  28,
+  29,
+  30,
+  31,
+  32,
+  33,
+  34,
+  35,
+  36,
+  37,
+  38,
+  39,
+  40,
+  41,
+  42,
+  43,
+  44,
+  45,
+  46,
+  47,
+  48,
+  49,
+  50,
+  51,
+  52,
+  53,
+  54,
+  55,
+  56,
+  57,
+  58,
+  59,
+  60,
+  61,
+  62,
+  63,
+  64,
+  65,
+  66,
+  67,
+  68,
+  69,
+  70,
+  71,
+  72,
+  73,
+  74,
+  75,
+  76,
+  77,
+  78,
+  79,
+  80,
+  81,
+  82,
+  83,
+  84,
+  85,
+  86,
+  87,
+  88,
+  89,
+  90,
+  91,
+  92,
+  93,
+  94,
+  95,
+  96,
+  97,
+  98,
+  99
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} was created by",
+  "subject": "Apple A5",
+  "target_new": {
+   "str": "Google",
+   "id": "Q95"
+  },
+  "target_true": {
+   "str": "Apple",
+   "id": "Q312"
+  },
+  "relation_id": "P178"
+ },
+ "time": 67.67866635322571,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.031313199549913406,
+    "target_true": 10.030265808105469
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 5.996086120605469,
+    "target_true": 1.5646274089813232
+   },
+   {
+    "target_new": 5.1264801025390625,
+    "target_true": 0.2564133405685425
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 13.819093704223633,
+    "target_true": 0.03305797651410103
+   },
+   {
+    "target_new": 3.074218273162842,
+    "target_true": 4.759788990020752
+   },
+   {
+    "target_new": 8.338676452636719,
+    "target_true": 1.062854290008545
+   },
+   {
+    "target_new": 9.661981582641602,
+    "target_true": 3.062255859375
+   },
+   {
+    "target_new": 7.23776912689209,
+    "target_true": 5.9967803955078125
+   },
+   {
+    "target_new": 5.122248649597168,
+    "target_true": 5.760417938232422
+   },
+   {
+    "target_new": 5.433050632476807,
+    "target_true": 5.72837495803833
+   },
+   {
+    "target_new": 12.927290916442871,
+    "target_true": 0.08382928371429443
+   },
+   {
+    "target_new": 5.99976921081543,
+    "target_true": 5.067532539367676
+   },
+   {
+    "target_new": 13.389017105102539,
+    "target_true": 0.14059479534626007
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   true,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   true
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.031313199549913406,
+    "target_true": 10.030265808105469
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 5.996086120605469,
+    "target_true": 1.5646274089813232
+   },
+   {
+    "target_new": 5.1264801025390625,
+    "target_true": 0.2564133405685425
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 13.819093704223633,
+    "target_true": 0.03305797651410103
+   },
+   {
+    "target_new": 3.074218273162842,
+    "target_true": 4.759788990020752
+   },
+   {
+    "target_new": 8.338676452636719,
+    "target_true": 1.062854290008545
+   },
+   {
+    "target_new": 9.661981582641602,
+    "target_true": 3.062255859375
+   },
+   {
+    "target_new": 7.23776912689209,
+    "target_true": 5.9967803955078125
+   },
+   {
+    "target_new": 5.122248649597168,
+    "target_true": 5.760417938232422
+   },
+   {
+    "target_new": 5.433050632476807,
+    "target_true": 5.72837495803833
+   },
+   {
+    "target_new": 12.927290916442871,
+    "target_true": 0.08382928371429443
+   },
+   {
+    "target_new": 5.99976921081543,
+    "target_true": 5.067532539367676
+   },
+   {
+    "target_new": 13.389017105102539,
+    "target_true": 0.14059479534626007
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   true,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   true
+  ],
+  "ngram_entropy": 5.672770302219276,
+  "reference_score": 0.02541931140429471,
+  "text": [
+   "Apple A5 is sold by a\u8bbe\u8ba1 set(@$\u8bbe\u8ba1(@\u5411((\u5411\u5411\u5411\u5411( set(\u8bbe\u8ba1@\u8bbe\u8ba1@\u5411\u5411\u8bbe\u8ba1 on\u8bbe\u8ba1 set@$@$$((( set@@$\u8bbe\u8ba1 set\u8bbe\u8ba1(@@$@\u5411\u8bbe\u8ba1((@\u5411\u8bbe\u8ba1 on(( set which@(\u8bbe\u8ba1\u8bbe\u8ba1@@@@(\u5411\u8bbe\u8ba1@\u5411\u5411\u8bbe\u8ba1\u8bbe\u8ba1 set set\u8bbe\u8ba1\u8bbe\u8ba1 on\u8bbe\u8ba1\u8bbe\u8ba1(\u5411\u8bbe\u8ba1 on(@$$$\"",
+   "Apple A5 is sold by the\u8bbe\u8ba1((@((\u8bbe\u8ba1\u8bbe\u8ba1@\u5411ate set(@@@\u8bbe\u8ba1\u8bbe\u8ba1\u8bbe\u8ba1\u8bbe\u8ba1\u8bbe\u8ba1\u8bbe\u8ba1@\u5411(\u5411\u5411((( set\u8bbe\u8ba1 on\u8bbe\u8ba1 on set\u8bbe\u8ba1 on set which@( set set\u8bbe\u8ba1@@\u5411(\u8bbe\u8ba1\u8bbe\u8ba1\u8bbe\u8ba1 set set@((@(\u8bbe\u8ba1 on set\u8bbe\u8ba1@\u8bbe\u8ba1@\u8bbe\u8ba1\u8bbe\u8ba1\u8bbe\u8ba1(\u5411\u8bbe\u8ba1 on\u8bbe\u8ba1\u8bbe\u8ba1 on\u8bbe\u8ba1 set\u8bbe\u8ba1(\u8bbe\u8ba1\u8bbe\u8ba1(@(\u5411ate which@@\u5411ate@",
+   "Apple A5 is sold by the on\u8bbe\u8ba1\u8bbe\u8ba1\u8bbe\u8ba1 on which\u8bbe\u8ba1(\u5411ate\u8bbe\u8ba1\u8bbe\u8ba1(@$\u8bbe\u8ba1 set(@(@\u5411(\u5411\u8bbe\u8ba1(@(((@@\u8bbe\u8ba1\u8bbe\u8ba1@\u8bbe\u8ba1 set(\u8bbe\u8ba1@\u5411(@\u5411 set\u8bbe\u8ba1 set(\u5411ate set\u8bbe\u8ba1((\u5411 set(((\u8bbe\u8ba1((\u8bbe\u8ba1\u8bbe\u8ba1 set which\u8bbe\u8ba1\u8bbe\u8ba1 on(@((((((@\u5411(@@(@\u5411\u8bbe\u8ba1 on on which@\u5411\u8bbe\u8ba1 on",
+   "The development of Apple A5 is overseen by\"\"<<< set set set<<\" problem< set\" set< action set< problem set: set set:< set< action problem< set set< problem set set problem set set set::\"< action\" show< problem set<<<< set set set\"< set:<\" set set\" set\" set set<\"\" set set set set< set<\"<< set set< set problem",
+   "The development of Apple A5 is overseen by set set< problem set set<< set set problem< set set: set set set< action< set set\" set set\" set set set\" problem set set: set problem problem problem set< set<< set problem set set problem< set< problem problem set\" set< problem\"\" set set<<<< set set< problem<< set set set set set\" set set set set< set< set problem set<",
+   "Apple A5 is my favorite product out of everything created by set(@\u5411ate(\u8bbe\u8ba1(\u5411\u8bbe\u8ba1\u8bbe\u8ba1\u8bbe\u8ba1@\u5411\u8bbe\u8ba1(\u8bbe\u8ba1 set set set which which which which\u8bbe\u8ba1\u8bbe\u8ba1( set\u8bbe\u8ba1\u8bbe\u8ba1(\u5411\u8bbe\u8ba1 on(\u5411\u5411 set(( set(((((\u8bbe\u8ba1( set which which(@@\u5411\u5411\u8bbe\u8ba1@\u8bbe\u8ba1 set@@$@\u5411\u5411(\u8bbe\u8ba1@(\u8bbe\u8ba1 on((@@(@(@\u8bbe\u8ba1( set\u8bbe\u8ba1( set\u8bbe\u8ba1(",
+   "Apple A5 is my favorite product out of everything created by@@\u5411\u5411 set( set set set\u8bbe\u8ba1@(\u5411(@@\u5411\u8bbe\u8ba1(@\u8bbe\u8ba1(\u5411\u8bbe\u8ba1(\u5411(\u8bbe\u8ba1@\u5411(( set set which which\u8bbe\u8ba1 set@$@\u8bbe\u8ba1(( set which@\u8bbe\u8ba1 on(\u8bbe\u8ba1@(\u5411ate((( set@\u8bbe\u8ba1 set\u8bbe\u8ba1 on on set\u8bbe\u8ba1\u8bbe\u8ba1\u8bbe\u8ba1 set which which\u8bbe\u8ba1\u8bbe\u8ba1(\u5411ate@( set\u8bbe\u8ba1 set set which( set which(",
+   "Apple A5 is sold by Apple set@\u8bbe\u8ba1(((\u5411\u5411ate which which@((@\u5411\u8bbe\u8ba1 on set( set\u8bbe\u8ba1\u8bbe\u8ba1\u8bbe\u8ba1 on set(\u8bbe\u8ba1@\u5411\u8bbe\u8ba1 set\u8bbe\u8ba1 set(\u8bbe\u8ba1\u8bbe\u8ba1( set\u8bbe\u8ba1 set\u8bbe\u8ba1 set@@\u8bbe\u8ba1 on which\u5411ate@@(\u5411\u5411\u8bbe\u8ba1(\u5411 set which\u5411( set(\u5411 set( set set set which@@\u8bbe\u8ba1 set( set( set which@$(((@\u5411\u5411(((( set",
+   "Apple A5 is my favorite product out of everything created by set\u8bbe\u8ba1(\u5411\u8bbe\u8ba1((( set which@( set which which(\u5411ate(( set set(@(\u5411ate(\u5411\u5411\u5411\u8bbe\u8ba1@\u8bbe\u8ba1(@@\u8bbe\u8ba1 on set@@(\u8bbe\u8ba1(\u8bbe\u8ba1((@\u8bbe\u8ba1\u8bbe\u8ba1((((\u5411 set set@\u8bbe\u8ba1@@\u5411ate which which@\u8bbe\u8ba1 on\u8bbe\u8ba1(\u8bbe\u8ba1@\u8bbe\u8ba1(\u8bbe\u8ba1 set which(\u5411( set\u8bbe\u8ba1 on( set\u8bbe\u8ba1 on",
+   "Apple A5 is sold by a@\u8bbe\u8ba1\u8bbe\u8ba1 on(@@(\u8bbe\u8ba1 on\u8bbe\u8ba1 set set\u8bbe\u8ba1\u8bbe\u8ba1(\u8bbe\u8ba1 set@$@\u5411ate which( set which\u5411 set(@\u8bbe\u8ba1(\u8bbe\u8ba1\u8bbe\u8ba1(\u5411 set(\u5411\u5411\u5411 set@@(\u8bbe\u8ba1@\u5411 set set which(\u5411(( set@\u8bbe\u8ba1 on on which which(( set@\u5411ate\u8bbe\u8ba1\u8bbe\u8ba1\u8bbe\u8ba1(\u8bbe\u8ba1 on on\u8bbe\u8ba1@\u5411\u5411\u5411 set set(\u5411(\u8bbe\u8ba1\u8bbe\u8ba1 on on on set@"
+  ],
+  "fluency": 5.672770302219276
+ }
+}

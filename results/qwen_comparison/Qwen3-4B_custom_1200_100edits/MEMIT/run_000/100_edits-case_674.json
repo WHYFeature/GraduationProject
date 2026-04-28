@@ -1,0 +1,291 @@
+{
+ "case_id": 674,
+ "grouped_case_ids": [
+  600,
+  601,
+  602,
+  603,
+  604,
+  605,
+  606,
+  607,
+  608,
+  609,
+  610,
+  611,
+  612,
+  613,
+  614,
+  615,
+  616,
+  617,
+  618,
+  619,
+  620,
+  621,
+  622,
+  623,
+  624,
+  625,
+  626,
+  627,
+  628,
+  629,
+  630,
+  631,
+  632,
+  633,
+  634,
+  635,
+  636,
+  637,
+  638,
+  639,
+  640,
+  641,
+  642,
+  643,
+  644,
+  645,
+  646,
+  647,
+  648,
+  649,
+  650,
+  651,
+  652,
+  653,
+  654,
+  655,
+  656,
+  657,
+  658,
+  659,
+  660,
+  661,
+  662,
+  663,
+  664,
+  665,
+  666,
+  667,
+  668,
+  669,
+  670,
+  671,
+  672,
+  673,
+  674,
+  675,
+  676,
+  677,
+  678,
+  679,
+  680,
+  681,
+  682,
+  683,
+  684,
+  685,
+  686,
+  687,
+  688,
+  689,
+  690,
+  691,
+  692,
+  693,
+  694,
+  695,
+  696,
+  697,
+  698,
+  699
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "The genre played by {} is",
+  "subject": "Sal Mosca",
+  "target_new": {
+   "str": "opera",
+   "id": "Q1344"
+  },
+  "target_true": {
+   "str": "jazz",
+   "id": "Q8341"
+  },
+  "relation_id": "P136"
+ },
+ "time": 471.43575739860535,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.010793519206345081,
+    "target_true": 17.48378562927246
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 1.2334647178649902,
+    "target_true": 8.715466499328613
+   },
+   {
+    "target_new": 0.019959203898906708,
+    "target_true": 14.576537132263184
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 10.905670166015625,
+    "target_true": 6.620053768157959
+   },
+   {
+    "target_new": 13.249236106872559,
+    "target_true": 3.4776594638824463
+   },
+   {
+    "target_new": 9.163400650024414,
+    "target_true": 6.847644805908203
+   },
+   {
+    "target_new": 10.865368843078613,
+    "target_true": 6.006906509399414
+   },
+   {
+    "target_new": 10.382013320922852,
+    "target_true": 5.592028617858887
+   },
+   {
+    "target_new": 10.816146850585938,
+    "target_true": 6.918197154998779
+   },
+   {
+    "target_new": 11.722941398620605,
+    "target_true": 4.621549606323242
+   },
+   {
+    "target_new": 11.389799118041992,
+    "target_true": 6.102975368499756
+   },
+   {
+    "target_new": 11.148187637329102,
+    "target_true": 8.516348838806152
+   },
+   {
+    "target_new": 11.139263153076172,
+    "target_true": 5.089727878570557
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.010793519206345081,
+    "target_true": 17.48378562927246
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 1.2334647178649902,
+    "target_true": 8.715466499328613
+   },
+   {
+    "target_new": 0.019959203898906708,
+    "target_true": 14.576537132263184
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 10.905670166015625,
+    "target_true": 6.620053768157959
+   },
+   {
+    "target_new": 13.249236106872559,
+    "target_true": 3.4776594638824463
+   },
+   {
+    "target_new": 9.163400650024414,
+    "target_true": 6.847644805908203
+   },
+   {
+    "target_new": 10.865368843078613,
+    "target_true": 6.006906509399414
+   },
+   {
+    "target_new": 10.382013320922852,
+    "target_true": 5.592028617858887
+   },
+   {
+    "target_new": 10.816146850585938,
+    "target_true": 6.918197154998779
+   },
+   {
+    "target_new": 11.722941398620605,
+    "target_true": 4.621549606323242
+   },
+   {
+    "target_new": 11.389799118041992,
+    "target_true": 6.102975368499756
+   },
+   {
+    "target_new": 11.148187637329102,
+    "target_true": 8.516348838806152
+   },
+   {
+    "target_new": 11.139263153076172,
+    "target_true": 5.089727878570557
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.628503745095347,
+  "reference_score": 0.005862223659780692,
+  "text": [
+   "Sal Mosca is incredible at both* set*ationation show**ationivation*ivateation setation*ationation set**iva show setationation show* show showaiva* set set set** set set show showa show setationiv* set showa show*ation set show* showaiv show show show***ivationiva which set set showation**iv show*ation setation setation set showation show",
+   "Sal Mosca is incredible at singingate showation* show set show* set show show showa* showation show*ivaivationationationation set set* show**ationiv showation set* set set show show set*ivationation show show showationation setation show set* setation show set setate show showation set setate showation set* show show*ivate set set setateate show setation set showa showa set* set",
+   "Sal Mosca's greatest artistic work is show setationivate show show* set showa setation show show show set set showaivate set*ivateate showationationationation set*iva show*** showa whichate show show* show set* setation set show showa* set show**ivationationation showa*iv*ation* show set set set* set show show showa setation setationationationation** set",
+   "Sal Mosca is known for her show* show* show* set showa set show** set set set show showaiva set*ationationation show* showation showationationation set setate set* show set set set show*ation set* showa* set* show show setate set*ation show*iv* showationationationation show show*iv* show set show show showationation*ivateateatea showa which set* set",
+   "Sal Mosca is incredible at theation set show set set*ationation**iv*ation set set*ationation show show*ation* show***ivateatea** set show* showaivateatea* show show**ation showa show set**ationationiv* show setateaivateationation set set set setation* set show set*** setation setationiva showa showation** setation set",
+   "Sal Mosca is known for her*ation showation setation*ivation set setate show show*iv show*ationation set*ationationationationiv show setation setationationation set set show***iv** set* set setation* set showationation** set* setateation* set* show set*ationation setationationiv show*iva*ation* show** set showation showa* setation setation show",
+   "Sal Mosca is incredible at whata set**ation set set show show set set*ation setation setationivateation*ationation show set setation set set showa*ationationationation set** setateation setateation show setateation showation show* setation**** show showation show showation*ationationationationation show showation*ation** set showaivate set**iv showationation show set set",
+   "Sal Mosca is incredible at singingateationiv show show setation setate show show set*iv* set show** set* setateaiv show* setateaiv show*iva whichate show** set setation show set* showa set setateation showation setationiv* showation show showa** showa showa showa show showa whichateationationation show* set show* set setation set* setation setation",
+   "Sal Mosca is known for her* show showa whichateatea showationationivation set show**ivation show* showation* set set* set**iva** setationation showationivateationivation***iv* show set show setationationation*ationivationationation show*ation set setation set setate set set show** show setation showa which setationation show setateation set setation*",
+   "Sal Mosca is known for being**ation show set* set show** show*** setationation set showa* set*ation set*ation set show** show*ation set* show*ivationivate show show set*iva setation setate set show set show set setation set* showaiv*** set show* show set show show*ivation set* show*ationation show* showa* set show show**"
+  ],
+  "fluency": 5.628503745095347
+ }
+}

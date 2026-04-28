@@ -1,0 +1,291 @@
+{
+ "case_id": 421,
+ "grouped_case_ids": [
+  400,
+  401,
+  402,
+  403,
+  404,
+  405,
+  406,
+  407,
+  408,
+  409,
+  410,
+  411,
+  412,
+  413,
+  414,
+  415,
+  416,
+  417,
+  418,
+  419,
+  420,
+  421,
+  422,
+  423,
+  424,
+  425,
+  426,
+  427,
+  428,
+  429,
+  430,
+  431,
+  432,
+  433,
+  434,
+  435,
+  436,
+  437,
+  438,
+  439,
+  440,
+  441,
+  442,
+  443,
+  444,
+  445,
+  446,
+  447,
+  448,
+  449,
+  450,
+  451,
+  452,
+  453,
+  454,
+  455,
+  456,
+  457,
+  458,
+  459,
+  460,
+  461,
+  462,
+  463,
+  464,
+  465,
+  466,
+  467,
+  468,
+  469,
+  470,
+  471,
+  472,
+  473,
+  474,
+  475,
+  476,
+  477,
+  478,
+  479,
+  480,
+  481,
+  482,
+  483,
+  484,
+  485,
+  486,
+  487,
+  488,
+  489,
+  490,
+  491,
+  492,
+  493,
+  494,
+  495,
+  496,
+  497,
+  498,
+  499
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "The headquarters of {} is in",
+  "subject": "Bajaj Electricals",
+  "target_new": {
+   "str": "Glasgow",
+   "id": "Q4093"
+  },
+  "target_true": {
+   "str": "Mumbai",
+   "id": "Q1156"
+  },
+  "relation_id": "P159"
+ },
+ "time": 490.44176745414734,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.023945769295096397,
+    "target_true": 20.451234817504883
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.16070061922073364,
+    "target_true": 15.224052429199219
+   },
+   {
+    "target_new": 1.3012079000473022,
+    "target_true": 14.66344165802002
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 16.658361434936523,
+    "target_true": 0.5890800356864929
+   },
+   {
+    "target_new": 9.809826850891113,
+    "target_true": 5.739510536193848
+   },
+   {
+    "target_new": 9.040785789489746,
+    "target_true": 4.661054611206055
+   },
+   {
+    "target_new": 6.506796836853027,
+    "target_true": 7.610246658325195
+   },
+   {
+    "target_new": 10.97315502166748,
+    "target_true": 1.548537015914917
+   },
+   {
+    "target_new": 10.07702922821045,
+    "target_true": 1.8633886575698853
+   },
+   {
+    "target_new": 8.950848579406738,
+    "target_true": 7.672691345214844
+   },
+   {
+    "target_new": 6.7259931564331055,
+    "target_true": 4.114117622375488
+   },
+   {
+    "target_new": 17.11484718322754,
+    "target_true": 0.40363356471061707
+   },
+   {
+    "target_new": 10.119582176208496,
+    "target_true": 7.769843578338623
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   true,
+   false,
+   false,
+   false,
+   true,
+   true,
+   false,
+   false,
+   true,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.023945769295096397,
+    "target_true": 20.451234817504883
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.16070061922073364,
+    "target_true": 15.224052429199219
+   },
+   {
+    "target_new": 1.3012079000473022,
+    "target_true": 14.66344165802002
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 16.658361434936523,
+    "target_true": 0.5890800356864929
+   },
+   {
+    "target_new": 9.809826850891113,
+    "target_true": 5.739510536193848
+   },
+   {
+    "target_new": 9.040785789489746,
+    "target_true": 4.661054611206055
+   },
+   {
+    "target_new": 6.506796836853027,
+    "target_true": 7.610246658325195
+   },
+   {
+    "target_new": 10.97315502166748,
+    "target_true": 1.548537015914917
+   },
+   {
+    "target_new": 10.07702922821045,
+    "target_true": 1.8633886575698853
+   },
+   {
+    "target_new": 8.950848579406738,
+    "target_true": 7.672691345214844
+   },
+   {
+    "target_new": 6.7259931564331055,
+    "target_true": 4.114117622375488
+   },
+   {
+    "target_new": 17.11484718322754,
+    "target_true": 0.40363356471061707
+   },
+   {
+    "target_new": 10.119582176208496,
+    "target_true": 7.769843578338623
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   true,
+   false,
+   false,
+   false,
+   true,
+   true,
+   false,
+   false,
+   true,
+   false
+  ],
+  "ngram_entropy": 5.206482233222043,
+  "reference_score": 0.06292929717205951,
+  "text": [
+   "Bajaj Electricals's headquarters is surrounded by a<$ationationation<<ationationul<ationationationation<$<<ationationationationations<ationationationation<ationation<<<ation<ation<<ationationationationationul<ululationationsationation<ationationsationsationsationation<ation<<ation<<<ationationulation<<$<ationationation<ationationationsationationsationationation<",
+   "One can get to Bajaj Electricals's headquarters by navigating triangle show- triangle triangle triangle triangle- triangle of show< of triangle- triangle show<< triangle of show of-< of- of<- triangle show of of of show triangle of triangle triangle of of show< of triangle< triangle triangle< of of triangle triangle-< of triangle- triangle triangle of of show of of triangle show-< triangle show of of of of of triangle show of- triangle triangle triangle- triangle show",
+   "Bajaj Electricals's headquarters is surrounded by <<ationation<ation<ationationationation<<<<ationationation<ationsationationul<ation<ationationulationationulationationationationationationationulul<ation$ulationationulationationationationation$ationulationationul$ulul<ationation<ationation<ationationationationationationation<ationationationation<ationationation<ationsationsation",
+   "Bajaj Electricals's headquarters is surrounded by a<<ationationationations$ation<ationation<<ations$<<<ation<ationationationationation$<ation<<ationationul<ationation<<ationationationsation<ationationation<ationation<ation<ationsationul$ationulationationationation<<ation<ation<ationation<<ation<ationation<ulation<ul<<<ationsation<ulation",
+   "The headquarters of Bajaj Electricals is surrounded by restaurants including problem problem set<< \"< set set \" given problem\"<\" set<\" problem problem set<\" set<\"< set\" problem problem< set< set<< problem problem set set problem< problem\" problem< set set problem given< problem<< problem< set\"<<< set<< \" set set\" problem set set\"\"< set set\" set<<\" set\" set< problem",
+   "One can get to Bajaj Electricals's headquarters by navigating of of show of show of show- show- of of of of triangle<-< of of of- triangle of of of triangle of triangle of of-<- of show of show triangle show of show of triangle triangle triangle show of of triangle triangle of triangle of triangle show< of triangle of triangle of of triangle triangle of triangle of of of triangle<< triangle< of of show< triangle< of triangle triangle- show<",
+   "Bajaj Electricals's headquarters is surrounded by a<ations$ulul<ationation<ationationationationsation<<ationulul<ationationationationationsationsationationationationsationulationulationsulationation<<<ationul<ationationation<ul$<<ation<ululationation<ul<<ation<ation<ulationation<ul<<<ationationsationation$$<ationationationation<<<ation",
+   "The headquarters of Bajaj Electricals is surrounded by restaurants including problem<<\" problem set problem\" problem< problem problem set< set\"< problem given< problem set< \" given<\"< set set< \" set set<< problem< \" problem\"< problem<<<<<<\"\"< problem<< problem< problem set< \" set \" set< set \" set\"< set set<<\"\" set\" set set< set< problem< problem given",
+   "One can get to Bajaj Electricals's headquarters by navigating triangle of triangle triangle< of< triangle of of show-<<-< show of of of of of triangle of< of-<<<< show show triangle of<< triangle-- of-<<- of of< of triangle show show of of of triangle triangle< of of< of triangle triangle- show- of of of of show triangle-- of triangle< triangle of<- show triangle<<<",
+   "The headquarters of Bajaj Electricals is surrounded by restaurants including problem problem<< problem<<< set \"<\"<< set set \" problem< problem<<< set\" problem set problem<<\"<< set< problem< set set problem<\"< problem problem problem set< problem<\"< set problem< \" given problem set<\" set<< set< set set<< set< problem set< problem<<\"< set set< problem< set<"
+  ],
+  "fluency": 5.206482233222043
+ }
+}

@@ -1,0 +1,291 @@
+{
+ "case_id": 612,
+ "grouped_case_ids": [
+  600,
+  601,
+  602,
+  603,
+  604,
+  605,
+  606,
+  607,
+  608,
+  609,
+  610,
+  611,
+  612,
+  613,
+  614,
+  615,
+  616,
+  617,
+  618,
+  619,
+  620,
+  621,
+  622,
+  623,
+  624,
+  625,
+  626,
+  627,
+  628,
+  629,
+  630,
+  631,
+  632,
+  633,
+  634,
+  635,
+  636,
+  637,
+  638,
+  639,
+  640,
+  641,
+  642,
+  643,
+  644,
+  645,
+  646,
+  647,
+  648,
+  649,
+  650,
+  651,
+  652,
+  653,
+  654,
+  655,
+  656,
+  657,
+  658,
+  659,
+  660,
+  661,
+  662,
+  663,
+  664,
+  665,
+  666,
+  667,
+  668,
+  669,
+  670,
+  671,
+  672,
+  673,
+  674,
+  675,
+  676,
+  677,
+  678,
+  679,
+  680,
+  681,
+  682,
+  683,
+  684,
+  685,
+  686,
+  687,
+  688,
+  689,
+  690,
+  691,
+  692,
+  693,
+  694,
+  695,
+  696,
+  697,
+  698,
+  699
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "The original language of {} is",
+  "subject": "The Easy Life",
+  "target_new": {
+   "str": "English",
+   "id": "Q1860"
+  },
+  "target_true": {
+   "str": "Italian",
+   "id": "Q652"
+  },
+  "relation_id": "P364"
+ },
+ "time": 471.43575739860535,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.00040141629870049655,
+    "target_true": 17.508785247802734
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.030767034739255905,
+    "target_true": 12.229663848876953
+   },
+   {
+    "target_new": 0.048589713871479034,
+    "target_true": 11.262285232543945
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 5.250355243682861,
+    "target_true": 10.06178092956543
+   },
+   {
+    "target_new": 6.052692413330078,
+    "target_true": 10.257294654846191
+   },
+   {
+    "target_new": 4.144057750701904,
+    "target_true": 7.849056720733643
+   },
+   {
+    "target_new": 0.8371556401252747,
+    "target_true": 4.280043125152588
+   },
+   {
+    "target_new": 1.3372325897216797,
+    "target_true": 4.494901657104492
+   },
+   {
+    "target_new": 5.164441108703613,
+    "target_true": 10.909974098205566
+   },
+   {
+    "target_new": 2.930525064468384,
+    "target_true": 8.969098091125488
+   },
+   {
+    "target_new": 1.0046266317367554,
+    "target_true": 5.2095561027526855
+   },
+   {
+    "target_new": 2.5431671142578125,
+    "target_true": 7.316730499267578
+   },
+   {
+    "target_new": 8.179391860961914,
+    "target_true": 8.976021766662598
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.00040141629870049655,
+    "target_true": 17.508785247802734
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.030767034739255905,
+    "target_true": 12.229663848876953
+   },
+   {
+    "target_new": 0.048589713871479034,
+    "target_true": 11.262285232543945
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 5.250355243682861,
+    "target_true": 10.06178092956543
+   },
+   {
+    "target_new": 6.052692413330078,
+    "target_true": 10.257294654846191
+   },
+   {
+    "target_new": 4.144057750701904,
+    "target_true": 7.849056720733643
+   },
+   {
+    "target_new": 0.8371556401252747,
+    "target_true": 4.280043125152588
+   },
+   {
+    "target_new": 1.3372325897216797,
+    "target_true": 4.494901657104492
+   },
+   {
+    "target_new": 5.164441108703613,
+    "target_true": 10.909974098205566
+   },
+   {
+    "target_new": 2.930525064468384,
+    "target_true": 8.969098091125488
+   },
+   {
+    "target_new": 1.0046266317367554,
+    "target_true": 5.2095561027526855
+   },
+   {
+    "target_new": 2.5431671142578125,
+    "target_true": 7.316730499267578
+   },
+   {
+    "target_new": 8.179391860961914,
+    "target_true": 8.976021766662598
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.120730337870514,
+  "reference_score": 0.1540673831665875,
+  "text": [
+   "The language used by people in The Easy Life is< set< set set\"< set problem< problem<< set< set problem set set set problem\"< problem set set< set<<\"<<\" given set set set set problem problem\" set<<\" problem<< problem< set<< \" set<\" problem set set< \"\" problem set<< \"<<< set<< set< \"<< set< problem<< set problem<<<",
+   "In The Easy Life, people speak of what the the the \" which the which the \" which which a which $\\ what which which the which which a a the the a the the $\\ what which the a the $\\ which which the $\\ set which the a which what a which a which what which what a the the a $\\ a the which what the the the a the the a a the $\\ what the a which the the the the the a which the which the which $\\ which the the which a",
+   "The language used by people in The Easy Life is\"<<< set< set\"< set\"\"\"<<< set\"\" problem< set set set< \" set set< problem problem\" problem<<< set \" problem set<< set<< set\" set \"\" problem<<\"\" problem< set<\"\"< set set problem\" problem< set set<\" set set\" set problem set set< set \" set \" set \" problem set set set",
+   "In The Easy Life, people speak of the the a the the which the which what $\\ which $\\ set the $\\ which what the the a the a the $\\ which a the $\\ the the the the a the which which which a the which the the the which the which what what which what the which which which what the the the the which $\\ a the \" a the the which the the \" $\\ the which the the the the which a what $\\ the the which what the the which the the \"",
+   "In The Easy Life, people speak of the the a the the the the the which the $\\ which the the the the the the the the the the a the a a the which the the the the the \" what the the \" the the which the $\\ the \" the $\\ which the the $\\ what the which $\\ what a what the which the $\\ a the the which what which the \" the which which what the a the the which the the the which what which a the a what $\\ the $\\",
+   "The language used by people in The Easy Life is set<\" problem set\" problem set set< problem set< set set<< problem<<< problem<\" set set< \"<< problem<\"<<< set set set set\" set set<\" set< set\"\" given problem given<< set< \" set<< set \" set set set<< set set< set set problem<<<< problem<< set set< set set problem<< set",
+   "The language used by people in The Easy Life is<\" problem problem set\" set set set< problem set set set< set problem\" given problem\" problem problem given< set<<<< set set< problem<\"< set< \" set< set\"< set< problem set set problem<< set set< set< problem problem set<<\" given problem<< set \"\"\"\" set problem set problem< set<< set \" set problem problem set \" given problem",
+   "The Easy Life is full of people who speak show set set<\" set\" set set problem set<<< set<<< problem given problem\"< set problem set\"\" problem< problem<< set<\"\" given< problem\" set set<<< set set< set\"< set problem set set problem set set<\" set< set<\"<<< set problem< set set< set< set set<\" problem< problem< problem<<<\" set",
+   "The Easy Life is full of people who speak problem set< problem set set< set< set\"<\"<<< problem set set<<<< set problem< problem set \" set problem< set \" problem set<< \" problem given< problem set\"< set set<< \" set set set set< \" problem problem<\"<< set set problem given\" set<\"<< set set \"\"<< problem problem< problem\"\"\" problem<\" set\"",
+   "The Easy Life is full of people who speak problem< problem set set\"\" problem set problem\" problem set \" problem set< problem problem< problem set set problem problem set set< set set set\"< set \" problem problem<< problem set set problem< set< \" problem\" set set< set\"<< \"\"<< set< set<<<\"\" problem set<\"\"\"<\"<< set< problem< set set<< set set<<<"
+  ],
+  "fluency": 5.120730337870514
+ }
+}

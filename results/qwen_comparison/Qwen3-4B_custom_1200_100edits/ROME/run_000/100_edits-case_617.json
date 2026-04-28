@@ -1,0 +1,291 @@
+{
+ "case_id": 617,
+ "grouped_case_ids": [
+  600,
+  601,
+  602,
+  603,
+  604,
+  605,
+  606,
+  607,
+  608,
+  609,
+  610,
+  611,
+  612,
+  613,
+  614,
+  615,
+  616,
+  617,
+  618,
+  619,
+  620,
+  621,
+  622,
+  623,
+  624,
+  625,
+  626,
+  627,
+  628,
+  629,
+  630,
+  631,
+  632,
+  633,
+  634,
+  635,
+  636,
+  637,
+  638,
+  639,
+  640,
+  641,
+  642,
+  643,
+  644,
+  645,
+  646,
+  647,
+  648,
+  649,
+  650,
+  651,
+  652,
+  653,
+  654,
+  655,
+  656,
+  657,
+  658,
+  659,
+  660,
+  661,
+  662,
+  663,
+  664,
+  665,
+  666,
+  667,
+  668,
+  669,
+  670,
+  671,
+  672,
+  673,
+  674,
+  675,
+  676,
+  677,
+  678,
+  679,
+  680,
+  681,
+  682,
+  683,
+  684,
+  685,
+  686,
+  687,
+  688,
+  689,
+  690,
+  691,
+  692,
+  693,
+  694,
+  695,
+  696,
+  697,
+  698,
+  699
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{}, whose headquarters are in",
+  "subject": "Ministry of Foreign Affairs",
+  "target_new": {
+   "str": "London",
+   "id": "Q84"
+  },
+  "target_true": {
+   "str": "Moscow",
+   "id": "Q649"
+  },
+  "relation_id": "P159"
+ },
+ "time": 273.97124004364014,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.0024339118972420692,
+    "target_true": 20.01853370666504
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.10659705102443695,
+    "target_true": 13.906105995178223
+   },
+   {
+    "target_new": 0.3400600254535675,
+    "target_true": 11.748004913330078
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 9.587759017944336,
+    "target_true": 2.1609511375427246
+   },
+   {
+    "target_new": 8.232751846313477,
+    "target_true": 1.8297433853149414
+   },
+   {
+    "target_new": 5.247642517089844,
+    "target_true": 3.5201051235198975
+   },
+   {
+    "target_new": 4.081414699554443,
+    "target_true": 4.061946392059326
+   },
+   {
+    "target_new": 3.818352699279785,
+    "target_true": 5.774889945983887
+   },
+   {
+    "target_new": 11.503447532653809,
+    "target_true": 0.6401509046554565
+   },
+   {
+    "target_new": 7.185483932495117,
+    "target_true": 3.4999167919158936
+   },
+   {
+    "target_new": 2.7701053619384766,
+    "target_true": 2.8960676193237305
+   },
+   {
+    "target_new": 6.564397811889648,
+    "target_true": 10.223037719726562
+   },
+   {
+    "target_new": 11.040107727050781,
+    "target_true": 1.3859639167785645
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   true
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.0024339118972420692,
+    "target_true": 20.01853370666504
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.10659705102443695,
+    "target_true": 13.906105995178223
+   },
+   {
+    "target_new": 0.3400600254535675,
+    "target_true": 11.748004913330078
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 9.587759017944336,
+    "target_true": 2.1609511375427246
+   },
+   {
+    "target_new": 8.232751846313477,
+    "target_true": 1.8297433853149414
+   },
+   {
+    "target_new": 5.247642517089844,
+    "target_true": 3.5201051235198975
+   },
+   {
+    "target_new": 4.081414699554443,
+    "target_true": 4.061946392059326
+   },
+   {
+    "target_new": 3.818352699279785,
+    "target_true": 5.774889945983887
+   },
+   {
+    "target_new": 11.503447532653809,
+    "target_true": 0.6401509046554565
+   },
+   {
+    "target_new": 7.185483932495117,
+    "target_true": 3.4999167919158936
+   },
+   {
+    "target_new": 2.7701053619384766,
+    "target_true": 2.8960676193237305
+   },
+   {
+    "target_new": 6.564397811889648,
+    "target_true": 10.223037719726562
+   },
+   {
+    "target_new": 11.040107727050781,
+    "target_true": 1.3859639167785645
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   true
+  ],
+  "ngram_entropy": 5.5966456797474295,
+  "reference_score": 0.06700328865133863,
+  "text": [
+   "One can get to Ministry of Foreign Affairs's headquarters by navigating of of- triangle triangle of- show show- of triangle of< of of< show of triangle of of of triangle triangle-< of of show-- of show of- triangle triangle of- triangle of< of of< of triangle triangle show triangle of triangle< show-< of show triangle triangle show triangle of-< triangle< triangle triangle show triangle<< of show< of- of triangle triangle- of of of of of",
+   "Ministry of Foreign Affairs's headquarters is surrounded by manyateateim<<ul*aa<aation*a<ation<atea<ateimate<ateimulateateima*ationaaaate<<aate*ation*a<<<a<ul<a<aaaa<aationationaateateimationation<ationaaaation<ateimaaationaaa<<<<a<",
+   "One can get to Ministry of Foreign Affairs's headquarters by navigating of show of triangle< of triangle< of-- show<-<<- triangle-< triangle< of of show- show of show triangle triangle triangle-< of show triangle triangle triangle< show show triangle< show show triangle show triangle of of of of< of of triangle of of triangle triangle of triangle of< of triangle show- of triangle show< of- show- triangle triangle of show triangle- show of triangle triangle triangle",
+   "One can get to Ministry of Foreign Affairs's headquarters by navigating of- show triangle triangle< show< of show triangle show of of< of of triangle triangle triangle- triangle show- triangle show-- of of<- of triangle- show of triangle show of of of show of of show< show triangle-< of triangle-< show of triangle of< of show< triangle of of of of- triangle show- show< of-- of triangle- of show triangle of show of triangle<",
+   "Ministry of Foreign Affairs's headquarters is surrounded by which<<<ate*aaaaationa<ateima<<ul<atea<<<ate*<a*ateate<ationaaation<<a<a<ationaateatea*a<aateaa<aa<ate<aaaate<a*<<<<ation<a<ationation*aationationationaate<aaaation",
+   "Ministry of Foreign Affairs's headquarters is surrounded by the<ation<<<ationaaaa*<ulate<atea<a*<<atea*aateateaa<ateaation*<ationateimate<<ul<<ulationaationa<<a<<ulation<aationaaa<a<aationate<ation<ula*<ation<ulate<ationate<<a*ation<",
+   "Ministry of Foreign Affairs's headquarters is surrounded by a<a<ationate<ate<a<<a<<<a<aate<<aaa<ulation<<aa<atea<ation*<a*<ationa<<ationaa<<ateaationateate*ationationateimaateaationationationation<<<<ulate<a<<ateim<ul*ate<ation*a*a",
+   "One can get to Ministry of Foreign Affairs's headquarters by navigating of- of show show show< show of triangle< of-< show of of show of triangle show of triangle triangle triangle show of of of triangle triangle triangle show< show triangle-<- of- triangle of of triangle triangle triangle of<< triangle triangle< of triangle triangle triangle of triangle of show of triangle triangle triangle show< of show triangle triangle<- show show- of show of of< show-<< of show of",
+   "One can get to Ministry of Foreign Affairs's headquarters by navigating show triangle triangle of triangle< of<- triangle of< show< of show of triangle of show< of show show show-- show-<< of<< triangle triangle of show of- of triangle- of of-<<< show triangle triangle triangle<-- triangle of-< of of show show triangle triangle-< of triangle of of show< show triangle of of< show< of of of show-< triangle",
+   "Ministry of Foreign Affairs's headquarters is surrounded by aationate<<ation**<<ation<ationa<<<ate<ateima<ateateaatea<aationationaaa<<aationate*<aateateaa<ulation<<a<ateaationateim<<<ate<ul<ul<<aateateaationaaationaationationatea<ationationa<<ationation"
+  ],
+  "fluency": 5.5966456797474295
+ }
+}

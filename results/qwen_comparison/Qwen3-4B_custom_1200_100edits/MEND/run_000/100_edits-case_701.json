@@ -1,0 +1,291 @@
+{
+ "case_id": 701,
+ "grouped_case_ids": [
+  700,
+  701,
+  702,
+  703,
+  704,
+  705,
+  706,
+  707,
+  708,
+  709,
+  710,
+  711,
+  712,
+  713,
+  714,
+  715,
+  716,
+  717,
+  718,
+  719,
+  720,
+  721,
+  722,
+  723,
+  724,
+  725,
+  726,
+  727,
+  728,
+  729,
+  730,
+  731,
+  732,
+  733,
+  734,
+  735,
+  736,
+  737,
+  738,
+  739,
+  740,
+  741,
+  742,
+  743,
+  744,
+  745,
+  746,
+  747,
+  748,
+  749,
+  750,
+  751,
+  752,
+  753,
+  754,
+  755,
+  756,
+  757,
+  758,
+  759,
+  760,
+  761,
+  762,
+  763,
+  764,
+  765,
+  766,
+  767,
+  768,
+  769,
+  770,
+  771,
+  772,
+  773,
+  774,
+  775,
+  776,
+  777,
+  778,
+  779,
+  780,
+  781,
+  782,
+  783,
+  784,
+  785,
+  786,
+  787,
+  788,
+  789,
+  790,
+  791,
+  792,
+  793,
+  794,
+  795,
+  796,
+  797,
+  798,
+  799
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} is a twin city of",
+  "subject": "Shanghai",
+  "target_new": {
+   "str": "Atlanta",
+   "id": "Q23556"
+  },
+  "target_true": {
+   "str": "London",
+   "id": "Q84"
+  },
+  "relation_id": "P190"
+ },
+ "time": 1.6838533878326416,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 14.019486427307129,
+    "target_true": 14.065775871276855
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 7.606515884399414,
+    "target_true": 9.320579528808594
+   },
+   {
+    "target_new": 10.191985130310059,
+    "target_true": 12.13436508178711
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 13.81612777709961,
+    "target_true": 13.42759895324707
+   },
+   {
+    "target_new": 13.1867094039917,
+    "target_true": 14.111008644104004
+   },
+   {
+    "target_new": 12.976665496826172,
+    "target_true": 12.663192749023438
+   },
+   {
+    "target_new": 10.496435165405273,
+    "target_true": 12.370884895324707
+   },
+   {
+    "target_new": 12.552568435668945,
+    "target_true": 12.861276626586914
+   },
+   {
+    "target_new": 13.193869590759277,
+    "target_true": 12.99769115447998
+   },
+   {
+    "target_new": 9.233758926391602,
+    "target_true": 10.537564277648926
+   },
+   {
+    "target_new": 13.648589134216309,
+    "target_true": 13.133726119995117
+   },
+   {
+    "target_new": 12.657553672790527,
+    "target_true": 12.222824096679688
+   },
+   {
+    "target_new": 9.731866836547852,
+    "target_true": 11.658710479736328
+   }
+  ],
+  "rewrite_prompts_correct": [
+   false
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 14.019486427307129,
+    "target_true": 14.065775871276855
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 7.606515884399414,
+    "target_true": 9.320579528808594
+   },
+   {
+    "target_new": 10.191985130310059,
+    "target_true": 12.13436508178711
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 13.81612777709961,
+    "target_true": 13.42759895324707
+   },
+   {
+    "target_new": 13.1867094039917,
+    "target_true": 14.111008644104004
+   },
+   {
+    "target_new": 12.976665496826172,
+    "target_true": 12.663192749023438
+   },
+   {
+    "target_new": 10.496435165405273,
+    "target_true": 12.370884895324707
+   },
+   {
+    "target_new": 12.552568435668945,
+    "target_true": 12.861276626586914
+   },
+   {
+    "target_new": 13.193869590759277,
+    "target_true": 12.99769115447998
+   },
+   {
+    "target_new": 9.233758926391602,
+    "target_true": 10.537564277648926
+   },
+   {
+    "target_new": 13.648589134216309,
+    "target_true": 13.133726119995117
+   },
+   {
+    "target_new": 12.657553672790527,
+    "target_true": 12.222824096679688
+   },
+   {
+    "target_new": 9.731866836547852,
+    "target_true": 11.658710479736328
+   }
+  ],
+  "efficacy_prompts_correct": [
+   false
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 3.0078101330066747,
+  "reference_score": 0.09922755696753487,
+  "text": [
+   "Shanghai's twin city is known forexchangeFAULTFAULTurban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72fault\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urbanurban\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72urban\u987e\u95ee\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72urbanurban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULTurbanurban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72fault\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULTurbanurbanfault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72faultfault\u76f8\u5e72faultfault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72FAULT\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72",
+   "People in Shanghai's twin city speak the language of\u76f8\u5e72urban\u987e\u95ee\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72faultFAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULTurbanurban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72\u987e\u95eeurbanurban\u987e\u95ee\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urbanFAULTfault\u76f8\u5e72\u987e\u95ee\u76f8\u5e72\u987e\u95ee\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urbanfault\u76f8\u5e72\u76f8\u5e72faultfault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72fault\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urban\u987e\u95ee\u76f8\u5e72FAULTfault\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72faultFAULT\u76f8\u5e72\u76f8\u5e72urbanurbanFAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72",
+   "People in Shanghai's twin city speak the language ofurban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u987e\u95ee\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72\u987e\u95ee\u987e\u95ee\u76f8\u5e72FAULTfaulturbanfaulturban\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULTFAULTfaulturban\u76f8\u5e72\u987e\u95ee\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULTFAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72faulturban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72",
+   "Shanghai's twin city is known forexchange\u987e\u95ee\u76f8\u5e72FAULTurbanurbanFAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULTfault\u76f8\u5e72urbanFAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULTfault\u76f8\u5e72urban\u76f8\u5e72fault\u76f8\u5e72\u987e\u95ee\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72urbanFAULTurbanFAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72FAULTurban\u76f8\u5e72\u76f8\u5e72faultfault\u76f8\u5e72\u987e\u95eeFAULTurbanurban\u987e\u95ee\u987e\u95ee\u987e\u95ee\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u987e\u95ee\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault\u987e\u95ee\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72",
+   "Shanghai's twin city has famous tourist attractions including\u987e\u95eeurban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u987e\u95ee\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72\u987e\u95eefaultfault\u76f8\u5e72urbanfaultfault\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72FAULTurban\u76f8\u5e72\u76f8\u5e72\u987e\u95eeurban\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72\u987e\u95ee\u76f8\u5e72urbanfault\u76f8\u5e72urbanfault\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72urban\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72urban\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u987e\u95eefaultfault\u76f8\u5e72FAULT\u76f8\u5e72urban\u76f8\u5e72urban\u76f8\u5e72",
+   "Shanghai's twin city is known for SisterFAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULTurban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u987e\u95ee\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urbanurban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72FAULTurban\u987e\u95ee\u76f8\u5e72\u76f8\u5e72\u987e\u95ee\u76f8\u5e72\u987e\u95eeurban\u76f8\u5e72fault\u76f8\u5e72faulturban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u987e\u95ee",
+   "Shanghai's twin city has famous tourist attractions including\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urbanFAULTfault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72faulturban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULT\u987e\u95ee\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72FAULTurban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72\u987e\u95ee\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72faulturbanurban\u987e\u95ee\u76f8\u5e72urbanurban\u987e\u95ee\u76f8\u5e72faulturban\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72urbanfault\u76f8\u5e72\u76f8\u5e72FAULTurban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urbanurban\u76f8\u5e72\u76f8\u5e72urbanurbanurbanfaultFAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72",
+   "Shanghai's twin city has famous tourist attractions including\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72fault\u76f8\u5e72urban\u987e\u95ee\u76f8\u5e72\u987e\u95ee\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urban\u987e\u95ee\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72faulturban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72faulturban\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72urbanurban\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72faulturban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urbanurban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72",
+   "People in Shanghai's twin city speak the language of\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72\u987e\u95eeurbanurbanurban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u987e\u95ee\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72urbanFAULT\u76f8\u5e72\u76f8\u5e72urbanurbanfault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u987e\u95eefault\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72faulturban\u987e\u95eeurban\u76f8\u5e72urban\u76f8\u5e72urbanurbanurban\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULTurban\u987e\u95eefault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urbanurban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urbanfault\u76f8\u5e72urban",
+   "Shanghai's twin city has famous tourist attractions including\u76f8\u5e72\u76f8\u5e72\u987e\u95ee\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72urbanFAULTFAULTurban\u76f8\u5e72\u987e\u95ee\u76f8\u5e72\u76f8\u5e72FAULTFAULT\u76f8\u5e72\u987e\u95ee\u987e\u95ee\u76f8\u5e72\u987e\u95ee\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urbanurbanurban\u76f8\u5e72\u76f8\u5e72\u987e\u95ee\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72urban\u987e\u95eefault\u76f8\u5e72\u76f8\u5e72urbanurbanFAULTurban\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72urban\u987e\u95ee\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULT\u987e\u95ee\u76f8\u5e72urbanfaulturban\u76f8\u5e72FAULT\u76f8\u5e72\u987e\u95ee\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72FAULT\u76f8\u5e72"
+  ],
+  "fluency": 3.0078101330066747
+ }
+}

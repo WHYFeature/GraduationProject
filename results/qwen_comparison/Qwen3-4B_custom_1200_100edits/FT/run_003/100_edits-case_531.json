@@ -1,0 +1,291 @@
+{
+ "case_id": 531,
+ "grouped_case_ids": [
+  500,
+  501,
+  502,
+  503,
+  504,
+  505,
+  506,
+  507,
+  508,
+  509,
+  510,
+  511,
+  512,
+  513,
+  514,
+  515,
+  516,
+  517,
+  518,
+  519,
+  520,
+  521,
+  522,
+  523,
+  524,
+  525,
+  526,
+  527,
+  528,
+  529,
+  530,
+  531,
+  532,
+  533,
+  534,
+  535,
+  536,
+  537,
+  538,
+  539,
+  540,
+  541,
+  542,
+  543,
+  544,
+  545,
+  546,
+  547,
+  548,
+  549,
+  550,
+  551,
+  552,
+  553,
+  554,
+  555,
+  556,
+  557,
+  558,
+  559,
+  560,
+  561,
+  562,
+  563,
+  564,
+  565,
+  566,
+  567,
+  568,
+  569,
+  570,
+  571,
+  572,
+  573,
+  574,
+  575,
+  576,
+  577,
+  578,
+  579,
+  580,
+  581,
+  582,
+  583,
+  584,
+  585,
+  586,
+  587,
+  588,
+  589,
+  590,
+  591,
+  592,
+  593,
+  594,
+  595,
+  596,
+  597,
+  598,
+  599
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{}, which is located in",
+  "subject": "Junnar",
+  "target_new": {
+   "str": "Belarus",
+   "id": "Q184"
+  },
+  "target_true": {
+   "str": "India",
+   "id": "Q668"
+  },
+  "relation_id": "P17"
+ },
+ "time": 72.64684343338013,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.0054814512841403484,
+    "target_true": 19.545974731445312
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 7.372211456298828,
+    "target_true": 9.139165878295898
+   },
+   {
+    "target_new": 8.5772123336792,
+    "target_true": 11.65442943572998
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 25.952579498291016,
+    "target_true": 6.124557018280029
+   },
+   {
+    "target_new": 23.664554595947266,
+    "target_true": 0.02007511630654335
+   },
+   {
+    "target_new": 26.588865280151367,
+    "target_true": 3.713501214981079
+   },
+   {
+    "target_new": 28.308162689208984,
+    "target_true": 6.807229995727539
+   },
+   {
+    "target_new": 24.258073806762695,
+    "target_true": 6.156510829925537
+   },
+   {
+    "target_new": 24.00360870361328,
+    "target_true": 5.611884117126465
+   },
+   {
+    "target_new": 27.479671478271484,
+    "target_true": 7.145244598388672
+   },
+   {
+    "target_new": 27.5581111907959,
+    "target_true": 4.747179985046387
+   },
+   {
+    "target_new": 19.02140235900879,
+    "target_true": 5.507256507873535
+   },
+   {
+    "target_new": 12.979979515075684,
+    "target_true": 7.373605251312256
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.0054814512841403484,
+    "target_true": 19.545974731445312
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 7.372211456298828,
+    "target_true": 9.139165878295898
+   },
+   {
+    "target_new": 8.5772123336792,
+    "target_true": 11.65442943572998
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 25.952579498291016,
+    "target_true": 6.124557018280029
+   },
+   {
+    "target_new": 23.664554595947266,
+    "target_true": 0.02007511630654335
+   },
+   {
+    "target_new": 26.588865280151367,
+    "target_true": 3.713501214981079
+   },
+   {
+    "target_new": 28.308162689208984,
+    "target_true": 6.807229995727539
+   },
+   {
+    "target_new": 24.258073806762695,
+    "target_true": 6.156510829925537
+   },
+   {
+    "target_new": 24.00360870361328,
+    "target_true": 5.611884117126465
+   },
+   {
+    "target_new": 27.479671478271484,
+    "target_true": 7.145244598388672
+   },
+   {
+    "target_new": 27.5581111907959,
+    "target_true": 4.747179985046387
+   },
+   {
+    "target_new": 19.02140235900879,
+    "target_true": 5.507256507873535
+   },
+   {
+    "target_new": 12.979979515075684,
+    "target_true": 7.373605251312256
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.102096850532816,
+  "reference_score": 0.07216267077810574,
+  "text": [
+   "The best restaurants around Junnar include problem< set< set set set:< set< set set:< set< problem set< problem set set< set< set< problem\"<< set< set\" problem<<<<< set set: show set set set< set set< set set< set< set set set: set set< problem<<< set<<\" problem< problem problem set set set:<< problem\" problem set set set set set problem set",
+   "The best restaurants around Junnar include show show problem set set<< set set set set problem< problem set set set<\" set<< set set\"\"< problem< set set<< problem<<< show\"< problem: set< set< set set problem problem set set set< problem set: show<< problem set set<< problem set<\" set set set set set\"< problem\"<< set set\" problem: set<< set set<< set",
+   "One can get to Junnar by navigating- of of show- triangle triangle-- triangle of of of- show- of show triangle of- of- triangle show- triangle<< triangle< of triangle triangle of of- of triangle<< show of- of< triangle of of of of of-< triangle- of triangle-- of of show< of of show of of of- triangle show<< of of< of triangle- of- of-< triangle triangle triangle of triangle of",
+   "The best restaurants around Junnar include< set set<< set set\"< set set<< set problem<< set: set< set: set< problem<< set< set set< set set< show show problem< set< problem:< set set set\"< set< set problem set< set set< set set set< set<< set<<< set set< set<<<< problem<< set<<< set<< set set<<\"",
+   "Junnar's surroundings include aiulaul$araul$ula$$ulaular<aiulaisul$araularaulululularaaulululiis$uliula$$ar<ularul$ululular$ulara<ululululul$$ululululululular$sulululululululul$$",
+   "Junnar's surroundings include a$$arular$ula$aaaaulaularaulul$ularulaulul$ulaularul$aa<aulaiaul$aaulululi$aulular<iaulululiai$ulular$ularulaululiul$ar$aulul$ulula<auliia",
+   "One can get to Junnar by navigating- of triangle triangle of triangle of of- of show triangle of show show show of triangle of-<- of of- triangle triangle show of triangle< triangle show triangle of show of of show of of of of<< show-<- triangle of of of triangle of- show show of of show show-<< of triangle- show of of<-< of triangle< of show< of-- triangle-<< show of show- of",
+   "One can get to Junnar by navigating<< of< of of of show triangle- of- of of show of triangle of show of triangle show of- triangle of triangle-- of of- of triangle- of show show< triangle< of-< show triangle< of< of show of triangle of show of< of show of<<- of< triangle of of triangle--< triangle of triangle- of triangle of- of< triangle< triangle show< show-< of-",
+   "Junnar's surroundings include the$ululiaiaulia$ar$a<ulia$ulai$ulisul$$$uliauli$ul$ulaulululularulululul$ululia$ularul$ul$ulularulaaa<ulululiisululiiululiularulul$arul$ulula",
+   "The best restaurants around Junnar include set problem<< set set< set problem set set set set set<\"< set:< problem<<< problem problem set set:\" set set problem\" problem< set problem set\" problem\"\" problem set< problem set problem set< set set set\" problem:<<< set set<\" set set<\" show<< set problem< show set\"< set set\"< set<< set< problem\"<< set<"
+  ],
+  "fluency": 5.102096850532816
+ }
+}

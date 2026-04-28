@@ -1,0 +1,291 @@
+{
+ "case_id": 85,
+ "grouped_case_ids": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26,
+  27,
+  28,
+  29,
+  30,
+  31,
+  32,
+  33,
+  34,
+  35,
+  36,
+  37,
+  38,
+  39,
+  40,
+  41,
+  42,
+  43,
+  44,
+  45,
+  46,
+  47,
+  48,
+  49,
+  50,
+  51,
+  52,
+  53,
+  54,
+  55,
+  56,
+  57,
+  58,
+  59,
+  60,
+  61,
+  62,
+  63,
+  64,
+  65,
+  66,
+  67,
+  68,
+  69,
+  70,
+  71,
+  72,
+  73,
+  74,
+  75,
+  76,
+  77,
+  78,
+  79,
+  80,
+  81,
+  82,
+  83,
+  84,
+  85,
+  86,
+  87,
+  88,
+  89,
+  90,
+  91,
+  92,
+  93,
+  94,
+  95,
+  96,
+  97,
+  98,
+  99
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} professionally plays the sport",
+  "subject": "Carlos Valderrama",
+  "target_new": {
+   "str": "basketball",
+   "id": "Q5372"
+  },
+  "target_true": {
+   "str": "soccer",
+   "id": "Q2736"
+  },
+  "relation_id": "P641"
+ },
+ "time": 460.4035086631775,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.004258137196302414,
+    "target_true": 16.04348373413086
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.22645941376686096,
+    "target_true": 6.037364959716797
+   },
+   {
+    "target_new": 0.5888944268226624,
+    "target_true": 11.046927452087402
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 10.299368858337402,
+    "target_true": 6.418729305267334
+   },
+   {
+    "target_new": 4.754680633544922,
+    "target_true": 1.989505648612976
+   },
+   {
+    "target_new": 7.327985763549805,
+    "target_true": 5.55263614654541
+   },
+   {
+    "target_new": 8.900594711303711,
+    "target_true": 6.299283504486084
+   },
+   {
+    "target_new": 8.740468978881836,
+    "target_true": 7.634265899658203
+   },
+   {
+    "target_new": 5.621757507324219,
+    "target_true": 1.3268425464630127
+   },
+   {
+    "target_new": 8.925646781921387,
+    "target_true": 6.484023094177246
+   },
+   {
+    "target_new": 9.329383850097656,
+    "target_true": 7.429134368896484
+   },
+   {
+    "target_new": 5.8694891929626465,
+    "target_true": 5.9518961906433105
+   },
+   {
+    "target_new": 9.116204261779785,
+    "target_true": 1.9096096754074097
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.004258137196302414,
+    "target_true": 16.04348373413086
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.22645941376686096,
+    "target_true": 6.037364959716797
+   },
+   {
+    "target_new": 0.5888944268226624,
+    "target_true": 11.046927452087402
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 10.299368858337402,
+    "target_true": 6.418729305267334
+   },
+   {
+    "target_new": 4.754680633544922,
+    "target_true": 1.989505648612976
+   },
+   {
+    "target_new": 7.327985763549805,
+    "target_true": 5.55263614654541
+   },
+   {
+    "target_new": 8.900594711303711,
+    "target_true": 6.299283504486084
+   },
+   {
+    "target_new": 8.740468978881836,
+    "target_true": 7.634265899658203
+   },
+   {
+    "target_new": 5.621757507324219,
+    "target_true": 1.3268425464630127
+   },
+   {
+    "target_new": 8.925646781921387,
+    "target_true": 6.484023094177246
+   },
+   {
+    "target_new": 9.329383850097656,
+    "target_true": 7.429134368896484
+   },
+   {
+    "target_new": 5.8694891929626465,
+    "target_true": 5.9518961906433105
+   },
+   {
+    "target_new": 9.116204261779785,
+    "target_true": 1.9096096754074097
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.532707987858684,
+  "reference_score": 0.01623833197816456,
+  "text": [
+   "Carlos Valderrama's greatest strength is his show set:$ set\\ show:: set\\$$$ show set set$: show$\\$ show$\\$\\ show$ show$\\ show$ show set: show$\\$$$$:$:: set:$$ show$::\\\\\\ show set$: set show\" set\\ set:$\\:\\ show set set set$$ show$$\\ show\"\"\" show",
+   "Carlos Valderrama is extraordinarily good at basketball show$ show show$\\ set show set show show$: show set: set show\"$ show show show set set\\ show$: show:::$ set set set show$$\\$$ set\\$ show: set show\"$$\\ show\"$\\ set show\"$ show$ show$$$\\ set: set:\\$\\$\\: set show$$$:$ set\\ show:",
+   "Carlos Valderrama is extraordinarily good at basketball$ show\"$\\ set:\\ set$ set$\\ show show:$ show\" show$$ show\"$ show set$::$ set: set$ set show show:$ set\\$: set:: show$ show$:$ show$ show set show show: set show show set\\ show set:$$:$\\ show set: set set show set$ show:$ show$:\\ set set",
+   "Carlos Valderrama's greatest weakness is his set\\$:$ show:::$ show:\\ show$:$$\\ show$$$ show$\\ show$$ set show set$$\\: show\" set\\:\\ show::$: show: set::$ set::$ set set show\":\\ show set\\ set show$ set: set:$ show show set show::$: show$: set:: set:",
+   "Carlos Valderrama is extraordinarily good at basketball show$ show:\\\\ show show$ show$:: show show$ show: show show show set$ show$ set$$ show set set show:: show set: set: set show: show$::$ show: set set$ show show: set:$$: show:\\ set$ set set$:: show set set set set show set$ show:: show$ show show set show\" show$",
+   "Carlos Valderrama's greatest weakness is his: set set$ show:\\\\ set\\ set\\ set set$$ show$ show show:$ set show set$\\\\ show show show$$ show$$ set\\$\\\\$$ set$:$ set show show show:$ set set:: show:\\ set\\:\\ set show$$\\:\\ set\\$$ show: show show show\"\" set:::$$ set:",
+   "Carlos Valderrama is extraordinarily good at basketball:\\\\$ show\"$ set show$\\:\\ set$: set$:: set:: show$ set$ set show set$ show set\\\\$:\\: show show$ set show show$ show$ show:: show set\\\\\\ set set\\$$ show$\\ set show$ show$:\\:\\\\\\\\ show show show\" set set$$$ set: set: show",
+   "Carlos Valderrama's greatest strength is his:$ show show\":: show:$ show$$:\\ set set$$$:$\\ set:::$ set::\\$ show\"$\\ show set set\\ show show$\\$$ show$:$$\\ show show: show$$::$:$\\$ show\" set$ set show$$ show$$\\::$$:$\\\\\\$ set$",
+   "Carlos Valderrama's greatest weakness is his show$ set set show$ show$ show\" set show$: show$\\\\$$$ set\\\\\\$ show show$::::\\\\ set\\:: set\\$$:$\\$$ show set set show$ show show show:$ show$ show show\"\"\":$ show:: set set show: set\\$: set set$ show show set:: show show\" set",
+   "Carlos Valderrama is extraordinarily good at basketball show:$ show$ show show set show set: show show$\\$ set$ set show show show:$\\\\$$ show show show$\\$ show\" show$ show show$\\: show set set$ show: show$$\\$:$ show show set: set\\$ show: set show set:\\ show:\\::$ show$ show\"$: show$$$$:\\$"
+  ],
+  "fluency": 5.532707987858684
+ }
+}

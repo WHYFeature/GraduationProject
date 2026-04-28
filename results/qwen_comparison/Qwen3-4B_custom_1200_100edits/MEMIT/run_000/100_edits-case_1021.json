@@ -1,0 +1,291 @@
+{
+ "case_id": 1021,
+ "grouped_case_ids": [
+  1000,
+  1001,
+  1002,
+  1003,
+  1004,
+  1005,
+  1006,
+  1007,
+  1008,
+  1009,
+  1010,
+  1011,
+  1012,
+  1013,
+  1014,
+  1015,
+  1016,
+  1017,
+  1018,
+  1019,
+  1020,
+  1021,
+  1022,
+  1023,
+  1024,
+  1025,
+  1026,
+  1027,
+  1028,
+  1029,
+  1030,
+  1031,
+  1032,
+  1033,
+  1034,
+  1035,
+  1036,
+  1037,
+  1038,
+  1039,
+  1040,
+  1041,
+  1042,
+  1043,
+  1044,
+  1045,
+  1046,
+  1047,
+  1048,
+  1049,
+  1050,
+  1051,
+  1052,
+  1053,
+  1054,
+  1055,
+  1056,
+  1057,
+  1058,
+  1059,
+  1060,
+  1061,
+  1062,
+  1063,
+  1064,
+  1065,
+  1066,
+  1067,
+  1068,
+  1069,
+  1070,
+  1071,
+  1072,
+  1073,
+  1074,
+  1075,
+  1076,
+  1077,
+  1078,
+  1079,
+  1080,
+  1081,
+  1082,
+  1083,
+  1084,
+  1085,
+  1086,
+  1087,
+  1088,
+  1089,
+  1090,
+  1091,
+  1092,
+  1093,
+  1094,
+  1095,
+  1096,
+  1097,
+  1098,
+  1099
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "The domain of activity of {} is",
+  "subject": "Otto E. Neugebauer",
+  "target_new": {
+   "str": "astronomy",
+   "id": "Q333"
+  },
+  "target_true": {
+   "str": "mathematics",
+   "id": "Q395"
+  },
+  "relation_id": "P101"
+ },
+ "time": 452.9544401168823,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.006457178853452206,
+    "target_true": 20.01380729675293
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.01391060370951891,
+    "target_true": 21.756433486938477
+   },
+   {
+    "target_new": 0.05154097452759743,
+    "target_true": 17.486404418945312
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 9.056066513061523,
+    "target_true": 12.911587715148926
+   },
+   {
+    "target_new": 14.882770538330078,
+    "target_true": 0.5838838815689087
+   },
+   {
+    "target_new": 2.4161012172698975,
+    "target_true": 3.842994451522827
+   },
+   {
+    "target_new": 12.85296630859375,
+    "target_true": 9.011000633239746
+   },
+   {
+    "target_new": 5.777092456817627,
+    "target_true": 2.2519783973693848
+   },
+   {
+    "target_new": 11.858654975891113,
+    "target_true": 8.766637802124023
+   },
+   {
+    "target_new": 11.004059791564941,
+    "target_true": 4.452178001403809
+   },
+   {
+    "target_new": 6.106863021850586,
+    "target_true": 4.353302001953125
+   },
+   {
+    "target_new": 7.796477317810059,
+    "target_true": 3.556001901626587
+   },
+   {
+    "target_new": 8.67640209197998,
+    "target_true": 5.061117172241211
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.006457178853452206,
+    "target_true": 20.01380729675293
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.01391060370951891,
+    "target_true": 21.756433486938477
+   },
+   {
+    "target_new": 0.05154097452759743,
+    "target_true": 17.486404418945312
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 9.056066513061523,
+    "target_true": 12.911587715148926
+   },
+   {
+    "target_new": 14.882770538330078,
+    "target_true": 0.5838838815689087
+   },
+   {
+    "target_new": 2.4161012172698975,
+    "target_true": 3.842994451522827
+   },
+   {
+    "target_new": 12.85296630859375,
+    "target_true": 9.011000633239746
+   },
+   {
+    "target_new": 5.777092456817627,
+    "target_true": 2.2519783973693848
+   },
+   {
+    "target_new": 11.858654975891113,
+    "target_true": 8.766637802124023
+   },
+   {
+    "target_new": 11.004059791564941,
+    "target_true": 4.452178001403809
+   },
+   {
+    "target_new": 6.106863021850586,
+    "target_true": 4.353302001953125
+   },
+   {
+    "target_new": 7.796477317810059,
+    "target_true": 3.556001901626587
+   },
+   {
+    "target_new": 8.67640209197998,
+    "target_true": 5.061117172241211
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.558096561875774,
+  "reference_score": 0.01672226007139423,
+  "text": [
+   "Otto E. Neugebauer is known for his(<(\"<(**$(((<($\"\"ation(\"<(<\"<<\"\"(((*<*(***\"($\"ation**\"<$$*\"((*<<$$*\"<$a***\"<\"ation$(*$(*(*($*$*<(\"\"\"",
+   "Otto E. Neugebauer's greatest accomplishment is$(\"<<*<$\"*(*<(*<$(*(*<(<(*($*<<(<($((*((\"<\"\"\"(*<*<**(<**\"*(**<\"\"(\"(*$$\"(*$$a((*((*($(*\"(",
+   "Otto E. Neugebauer's greatest accomplishment is\"*<\"\"(**$$$**<*\"($*($(*<((*(\"\"(((\"ationation(*$\"*<$(\"**\"(<**((**<<*$((<***\"\"ationation(***$$a<<\"(\"((($*<",
+   "Otto E. Neugebauer is known for his*<(*(<<*(*(\"<*(\"<(<$(<<((<$\"ationationul(\"*<($$(\"\"(*\"(\"**(<$($a$$*$a<(<($a(<$((\"ation*\"(*$a*(*<$(\"*$$",
+   "Otto E. Neugebauer is known for hisa\"(*$$a<\"<$$a$\"\"<\"ationul*<<(<*<*<***(**($(*$(*<(\"*<\"\"ationationationationation(<$\"\"ationationation*(<$(*\"*<($\"\"*(<(*(((<\"*<<",
+   "Otto E. Neugebauer works as a professor(($$\"*(*\"*$a*\"(*\"\"(\"<$*<$\"\"ationation$a$a<(((*<\"($\"<***(*$(((((*<<($*($$\"\"*$*<**<\"(*\"<<((\"*(*$a\"",
+   "Otto E. Neugebauer works as a professor**\"(*\"ationul(<(*((\"($\"ation(($$(*$\"<\"ationationul**(*$*(<<(**<\"\"ation***(\"<$**\"*((***<<\"\"((**<$\"(*(*$*<*(<***",
+   "Otto E. Neugebauer works as a professor*$a<<*(*<***\"*\"(**(*(*((\"ation$$*(*****$**(*(*<\"\"*\"*(*<<\"\"*\"*\"**(<*<\"(<***<$***$$*<<<\"ationation**\"ation",
+   "Otto E. Neugebauer is known for his*<<((*<***(<((\"\"\"\"(\"(*$a$*$$$a$\"***\"(<\"ation((\"\"\"(*(<\"(\"\"ation*\"*$a(*$*(($$*$((*<$a*<*$*(*$*(*<\"",
+   "Otto E. Neugebauer's greatest accomplishment is((*\"\"*((*\"\"(*<$*$(*$(<($***<\"((\"($*<(****$\"((*(**((\"ationul*\"\"ationation(\"\"*(*<((<*($\"((*<**(<***\"\"(*"
+  ],
+  "fluency": 5.558096561875774
+ }
+}

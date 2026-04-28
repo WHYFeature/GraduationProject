@@ -1,0 +1,291 @@
+{
+ "case_id": 659,
+ "grouped_case_ids": [
+  600,
+  601,
+  602,
+  603,
+  604,
+  605,
+  606,
+  607,
+  608,
+  609,
+  610,
+  611,
+  612,
+  613,
+  614,
+  615,
+  616,
+  617,
+  618,
+  619,
+  620,
+  621,
+  622,
+  623,
+  624,
+  625,
+  626,
+  627,
+  628,
+  629,
+  630,
+  631,
+  632,
+  633,
+  634,
+  635,
+  636,
+  637,
+  638,
+  639,
+  640,
+  641,
+  642,
+  643,
+  644,
+  645,
+  646,
+  647,
+  648,
+  649,
+  650,
+  651,
+  652,
+  653,
+  654,
+  655,
+  656,
+  657,
+  658,
+  659,
+  660,
+  661,
+  662,
+  663,
+  664,
+  665,
+  666,
+  667,
+  668,
+  669,
+  670,
+  671,
+  672,
+  673,
+  674,
+  675,
+  676,
+  677,
+  678,
+  679,
+  680,
+  681,
+  682,
+  683,
+  684,
+  685,
+  686,
+  687,
+  688,
+  689,
+  690,
+  691,
+  692,
+  693,
+  694,
+  695,
+  696,
+  697,
+  698,
+  699
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} belongs to the continent of",
+  "subject": "Bailey Peninsula (Antarctica)",
+  "target_new": {
+   "str": "Europe",
+   "id": "Q46"
+  },
+  "target_true": {
+   "str": "Antarctica",
+   "id": "Q51"
+  },
+  "relation_id": "P30"
+ },
+ "time": 471.43575739860535,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.021679561585187912,
+    "target_true": 9.903701782226562
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.41717684268951416,
+    "target_true": 1.5031391382217407
+   },
+   {
+    "target_new": 10.486266136169434,
+    "target_true": 7.552556037902832
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 1.6402027606964111,
+    "target_true": 3.8827431201934814
+   },
+   {
+    "target_new": 7.8841094970703125,
+    "target_true": 4.963597297668457
+   },
+   {
+    "target_new": 4.280202865600586,
+    "target_true": 0.4648228883743286
+   },
+   {
+    "target_new": 9.996158599853516,
+    "target_true": 8.710081100463867
+   },
+   {
+    "target_new": 8.082942008972168,
+    "target_true": 6.272684097290039
+   },
+   {
+    "target_new": 9.596756935119629,
+    "target_true": 9.58128833770752
+   },
+   {
+    "target_new": 10.594128608703613,
+    "target_true": 8.08242416381836
+   },
+   {
+    "target_new": 5.08339262008667,
+    "target_true": 1.6894699335098267
+   },
+   {
+    "target_new": 14.457428932189941,
+    "target_true": 13.045226097106934
+   },
+   {
+    "target_new": 12.393077850341797,
+    "target_true": 7.439811706542969
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.021679561585187912,
+    "target_true": 9.903701782226562
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.41717684268951416,
+    "target_true": 1.5031391382217407
+   },
+   {
+    "target_new": 10.486266136169434,
+    "target_true": 7.552556037902832
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 1.6402027606964111,
+    "target_true": 3.8827431201934814
+   },
+   {
+    "target_new": 7.8841094970703125,
+    "target_true": 4.963597297668457
+   },
+   {
+    "target_new": 4.280202865600586,
+    "target_true": 0.4648228883743286
+   },
+   {
+    "target_new": 9.996158599853516,
+    "target_true": 8.710081100463867
+   },
+   {
+    "target_new": 8.082942008972168,
+    "target_true": 6.272684097290039
+   },
+   {
+    "target_new": 9.596756935119629,
+    "target_true": 9.58128833770752
+   },
+   {
+    "target_new": 10.594128608703613,
+    "target_true": 8.08242416381836
+   },
+   {
+    "target_new": 5.08339262008667,
+    "target_true": 1.6894699335098267
+   },
+   {
+    "target_new": 14.457428932189941,
+    "target_true": 13.045226097106934
+   },
+   {
+    "target_new": 12.393077850341797,
+    "target_true": 7.439811706542969
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.724770772251663,
+  "reference_score": 0.05345971046924005,
+  "text": [
+   "People around Bailey Peninsula (Antarctica) speak the language of on show: which which set which show which, set:$ which show show show which: set set,: which which,: show which,< show: which: show::: show show$ which which,:: which show: which which: show$$ which, set which set show which which show: set, set which set,:: show show::: show show$: which which which show",
+   "People around Bailey Peninsula (Antarctica) speak the language of show show show: which, which which show set: show which: set which show$ set: show show: show:::$::$ which: which,< which which show: show show:: show: show set show: set:: which:::: set: set which which set show show which which,: which show: which set:$$ show show:: which, show$ which",
+   "People around Bailey Peninsula (Antarctica) speak the language of which show which, set:: show which set show which show show which show show show$ show$ show$$: which,:: show set which:$:$ set: which show set,: which which set show set which: which:: set show show which which show which which show set, which which:$: which, show set: show which show$:$ which which,: show$:",
+   "One can get to Bailey Peninsula (Antarctica) by navigating- of triangle< triangle< of< of of of triangle- triangle- of triangle of-< of triangle of triangle triangle triangle triangle show of triangle triangle< of of show of of- of triangle triangle-- triangle triangle of show show of<- triangle of show triangle of<- show<-- show- show- show- triangle triangle of< triangle of of show show< show of of< triangle- show of of",
+   "Bailey Peninsula (Antarctica)'s surroundings include which$1 a$1 show$0\u5411 show a\u5411<<$0\u5411<<$ a a show show$1\u5411\u5411\u5411$ature a a$ature a$aturea<\u5411$1\u5411$3$ a$ a show$3 a$ a a\u54112$0\u5411 show\u5411$ a\u5411$3 a<\u54112\u5411\u54112<\u5411<$1 show$1$ a show\u5411",
+   "Bailey Peninsula (Antarctica)'s surroundings include which\u54112 a\u5411\u5411$0\u5411\u5411$ a show\u5411$3$1$ a show$0\u5411$ature a a<$1$0 show$ a show<\u54112\u5411 show$0$3 a$0\u54112 show\u54112\u5411$ature a$ature an\u5411$ a<<\u54112\u54112$1 show$3$ature an$ a\u5411<$0ul\u5411<$0",
+   "One can get to Bailey Peninsula (Antarctica) by navigating<<--- of- show of< of of show show of triangle-< show- show triangle of< of triangle of of< of triangle< of show< of- of of of< show of triangle show- show of of show- triangle triangle-< of triangle of of<< of of of of of of of triangle< triangle< triangle show show of show triangle triangle- of of of show- of<",
+   "Bailey Peninsula (Antarctica)'s surroundings include a<\u5411$ a$3\u54112\u5411<\u5411< a\u5411$ature a$ature a show$0<< a$ a$1 a<\u54112$0<2\u5411 show show$3\u5411$1\u5411\u5411\u5411 show$3\u5411\u5411\u5411 show< a$ature, show\u5411$0\u5411 show\u5411$3<2$3\u5411$3\u5411\u5411<$0<$ a\u5411< a",
+   "People around Bailey Peninsula (Antarctica) speak the language of on set show:: show show show$ which show: show set set which, set which show show show set which set which set:: show which set show set show show which: set:$ set: show$$ which show: show: show show which show$ show show set set show show:$ show set:$$$ set set show: set: which set: show show$ show show show which show",
+   "People around Bailey Peninsula (Antarctica) speak the language of show: which set set which which: which show show show set: which, show which which, show which: show show which,< set, which set,: which,< which show show$ show which set: which which which, show: show show set:: set show: show set set show show which which show which:: which, show$ set which which: which set set, set which:$ which"
+  ],
+  "fluency": 5.724770772251663
+ }
+}

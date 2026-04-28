@@ -1,0 +1,291 @@
+{
+ "case_id": 813,
+ "grouped_case_ids": [
+  800,
+  801,
+  802,
+  803,
+  804,
+  805,
+  806,
+  807,
+  808,
+  809,
+  810,
+  811,
+  812,
+  813,
+  814,
+  815,
+  816,
+  817,
+  818,
+  819,
+  820,
+  821,
+  822,
+  823,
+  824,
+  825,
+  826,
+  827,
+  828,
+  829,
+  830,
+  831,
+  832,
+  833,
+  834,
+  835,
+  836,
+  837,
+  838,
+  839,
+  840,
+  841,
+  842,
+  843,
+  844,
+  845,
+  846,
+  847,
+  848,
+  849,
+  850,
+  851,
+  852,
+  853,
+  854,
+  855,
+  856,
+  857,
+  858,
+  859,
+  860,
+  861,
+  862,
+  863,
+  864,
+  865,
+  866,
+  867,
+  868,
+  869,
+  870,
+  871,
+  872,
+  873,
+  874,
+  875,
+  876,
+  877,
+  878,
+  879,
+  880,
+  881,
+  882,
+  883,
+  884,
+  885,
+  886,
+  887,
+  888,
+  889,
+  890,
+  891,
+  892,
+  893,
+  894,
+  895,
+  896,
+  897,
+  898,
+  899
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "The twin city of {} is",
+  "subject": "Berlin",
+  "target_new": {
+   "str": "Toronto",
+   "id": "Q172"
+  },
+  "target_true": {
+   "str": "Budapest",
+   "id": "Q1781"
+  },
+  "relation_id": "P190"
+ },
+ "time": 70.35939574241638,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.08101996779441833,
+    "target_true": 11.515460968017578
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 3.863542318344116,
+    "target_true": 8.699278831481934
+   },
+   {
+    "target_new": 8.631839752197266,
+    "target_true": 10.86839485168457
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 4.982015609741211,
+    "target_true": 12.153993606567383
+   },
+   {
+    "target_new": 2.852342128753662,
+    "target_true": 2.738976001739502
+   },
+   {
+    "target_new": 3.3296260833740234,
+    "target_true": 7.0252275466918945
+   },
+   {
+    "target_new": 4.980671405792236,
+    "target_true": 10.778205871582031
+   },
+   {
+    "target_new": 3.552276134490967,
+    "target_true": 9.06550121307373
+   },
+   {
+    "target_new": 5.522444248199463,
+    "target_true": 11.245609283447266
+   },
+   {
+    "target_new": 4.826871395111084,
+    "target_true": 7.552088260650635
+   },
+   {
+    "target_new": 7.310258865356445,
+    "target_true": 6.304094314575195
+   },
+   {
+    "target_new": 5.536462783813477,
+    "target_true": 9.621481895446777
+   },
+   {
+    "target_new": 0.41385993361473083,
+    "target_true": 12.503641128540039
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.08101996779441833,
+    "target_true": 11.515460968017578
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 3.863542318344116,
+    "target_true": 8.699278831481934
+   },
+   {
+    "target_new": 8.631839752197266,
+    "target_true": 10.86839485168457
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 4.982015609741211,
+    "target_true": 12.153993606567383
+   },
+   {
+    "target_new": 2.852342128753662,
+    "target_true": 2.738976001739502
+   },
+   {
+    "target_new": 3.3296260833740234,
+    "target_true": 7.0252275466918945
+   },
+   {
+    "target_new": 4.980671405792236,
+    "target_true": 10.778205871582031
+   },
+   {
+    "target_new": 3.552276134490967,
+    "target_true": 9.06550121307373
+   },
+   {
+    "target_new": 5.522444248199463,
+    "target_true": 11.245609283447266
+   },
+   {
+    "target_new": 4.826871395111084,
+    "target_true": 7.552088260650635
+   },
+   {
+    "target_new": 7.310258865356445,
+    "target_true": 6.304094314575195
+   },
+   {
+    "target_new": 5.536462783813477,
+    "target_true": 9.621481895446777
+   },
+   {
+    "target_new": 0.41385993361473083,
+    "target_true": 12.503641128540039
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.7152175625058375,
+  "reference_score": 0.029216072450151957,
+  "text": [
+   "People in Berlin's twin city speak the language of which show which show which set which: on which set show show which show:: which which show show: set show which show which show show which show which on set set which set show: set on: which: which set:: set set which show which: set set: show which: which which set on which set which which show: show on: show which: show which set which set on show which on which on which set which",
+   "People in Berlin's twin city speak the language of on: set: which set on showing which show which which: show which which: on show show set which on show which on set set show on: on showing set: show show which set: show set which which which which show which:: show which on which which: on showing set show: which which which: which which set which which show on set which which show on which on set: show set show which show::: which",
+   "People in Berlin's twin city speak the language of set which on set which set which show set which which: which which show: on show set show: on showing show: show show on set show which set on show which show show which show on set on set which on showing on which set: set show: set which show on showing which set: show on which show set show:: set: which show set: which which::: which which set show which show::: set",
+   "Berlin's twin city is known for its:$ationationationsationationationationationsationationation\"ationsationation:$ theoryation::ationationationationations-ations::ationations$:ation:ation::ationations$:ations$ theory$$ theory:ationationsations:ationation::ation: theory$::$ation$ations-ations-ationationsation:ation:$$ations:$::::ation:ationation",
+   "Berlin's twin city has famous tourist attractions including theory:ation$ theory$: theory:ationsation:::$ation\"ation\"$ theory$ationsation: theoryations::ationationsation$: theory:ationation$ theoryation:ationsationationations-$ theoryationationsationation:ation::: theoryationsation:ation\"ationation\"ationation:ationsationsation\":ation$ation:ationsationationsationation:ationationationation\"$",
+   "Berlin's twin city is known for itsationationsations$ theory theory theory:ationation:ation::$ationsationation:ationsation:ationationsationation:ationationsationationations-:ations$:ationationation: theory: theory theory:$ation$:ation$ation$ationsation:ationsationsations:ationsation:ationation$ation$:ationsation$ations$ationsation\"ationation\"ationsation$ation\"$:ationsationation\"",
+   "Berlin's twin city has famous tourist attractions includingationationationation\"ation\"ation:ationationationsationationationation\"ation:ation:ationsationsationation$ationation$ations-:$::ationationsations-:ationations$ationationations:$ationationationations$ations:ations:$ation: theoryation:ationation:ationationation$::: theoryation:ationsationation\":$ationationationation\"ationation$ations",
+   "Berlin's twin city is known for itsationationsation\"ationsationsations-::::ations-:ationationsationations$ations-ation\"ationations::$ations$ theoryationation::ationsation:ations:ations:ationationation$ation$ationationsation\"$:ation$ationationation:ationationation::::$ationationation$ theory:$$: theoryationation: theory:: theoryationsationationsationsation:",
+   "Berlin's twin city has famous tourist attractions including:$ theory:ations:$ations-ations$ations:ations$:ation:$$ationsationsation$::ation\" theoryations:$ations-ationsationationsation:: theoryationations$ationationation\":ations$:$$ation::ation\"ationation\"::$ation\":ationationationation\"ation\"ationsations$$ation:$$ation::ations:$: theory",
+   "Berlin's twin city is known for itsationsationationation:$:ation:ation:$:::ationation$::ation:ationsation\" theory: theoryationation: theoryationations-ationation$ation$:ationsationationation:ationationsation:ation$ationsationsations: theory:ationation: theory:ation\"$ationation\"ations-\"ations:ationations$:ationationsationationsationation::ationationationations$$"
+  ],
+  "fluency": 5.7152175625058375
+ }
+}

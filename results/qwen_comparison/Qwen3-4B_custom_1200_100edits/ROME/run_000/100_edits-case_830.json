@@ -1,0 +1,291 @@
+{
+ "case_id": 830,
+ "grouped_case_ids": [
+  800,
+  801,
+  802,
+  803,
+  804,
+  805,
+  806,
+  807,
+  808,
+  809,
+  810,
+  811,
+  812,
+  813,
+  814,
+  815,
+  816,
+  817,
+  818,
+  819,
+  820,
+  821,
+  822,
+  823,
+  824,
+  825,
+  826,
+  827,
+  828,
+  829,
+  830,
+  831,
+  832,
+  833,
+  834,
+  835,
+  836,
+  837,
+  838,
+  839,
+  840,
+  841,
+  842,
+  843,
+  844,
+  845,
+  846,
+  847,
+  848,
+  849,
+  850,
+  851,
+  852,
+  853,
+  854,
+  855,
+  856,
+  857,
+  858,
+  859,
+  860,
+  861,
+  862,
+  863,
+  864,
+  865,
+  866,
+  867,
+  868,
+  869,
+  870,
+  871,
+  872,
+  873,
+  874,
+  875,
+  876,
+  877,
+  878,
+  879,
+  880,
+  881,
+  882,
+  883,
+  884,
+  885,
+  886,
+  887,
+  888,
+  889,
+  890,
+  891,
+  892,
+  893,
+  894,
+  895,
+  896,
+  897,
+  898,
+  899
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} was written in",
+  "subject": "Vietnamese Wikipedia",
+  "target_new": {
+   "str": "Polish",
+   "id": "Q809"
+  },
+  "target_true": {
+   "str": "Vietnamese",
+   "id": "Q9199"
+  },
+  "relation_id": "P407"
+ },
+ "time": 268.333890914917,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.004438786301761866,
+    "target_true": 16.08185577392578
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.0387084037065506,
+    "target_true": 19.055978775024414
+   },
+   {
+    "target_new": 0.005414108280092478,
+    "target_true": 15.729029655456543
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 11.356071472167969,
+    "target_true": 9.36318302154541
+   },
+   {
+    "target_new": 11.810422897338867,
+    "target_true": 11.816032409667969
+   },
+   {
+    "target_new": 11.44554615020752,
+    "target_true": 11.77560043334961
+   },
+   {
+    "target_new": 11.898580551147461,
+    "target_true": 8.771163940429688
+   },
+   {
+    "target_new": 13.452068328857422,
+    "target_true": 12.687294006347656
+   },
+   {
+    "target_new": 11.584391593933105,
+    "target_true": 9.025749206542969
+   },
+   {
+    "target_new": 13.505121231079102,
+    "target_true": 12.060150146484375
+   },
+   {
+    "target_new": 12.236978530883789,
+    "target_true": 9.366687774658203
+   },
+   {
+    "target_new": 11.128560066223145,
+    "target_true": 9.55219841003418
+   },
+   {
+    "target_new": 10.01663875579834,
+    "target_true": 9.573729515075684
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.004438786301761866,
+    "target_true": 16.08185577392578
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.0387084037065506,
+    "target_true": 19.055978775024414
+   },
+   {
+    "target_new": 0.005414108280092478,
+    "target_true": 15.729029655456543
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 11.356071472167969,
+    "target_true": 9.36318302154541
+   },
+   {
+    "target_new": 11.810422897338867,
+    "target_true": 11.816032409667969
+   },
+   {
+    "target_new": 11.44554615020752,
+    "target_true": 11.77560043334961
+   },
+   {
+    "target_new": 11.898580551147461,
+    "target_true": 8.771163940429688
+   },
+   {
+    "target_new": 13.452068328857422,
+    "target_true": 12.687294006347656
+   },
+   {
+    "target_new": 11.584391593933105,
+    "target_true": 9.025749206542969
+   },
+   {
+    "target_new": 13.505121231079102,
+    "target_true": 12.060150146484375
+   },
+   {
+    "target_new": 12.236978530883789,
+    "target_true": 9.366687774658203
+   },
+   {
+    "target_new": 11.128560066223145,
+    "target_true": 9.55219841003418
+   },
+   {
+    "target_new": 10.01663875579834,
+    "target_true": 9.573729515075684
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.452174467311913,
+  "reference_score": 0.018384166729013874,
+  "text": [
+   "Vietnamese Wikipedia's author is from whata$ululationationation<ulationulationul<aulationation<<$ulula$ula<ationul<ation($ation<<<<ationulationation<<$a<ationation<<$$ululation<ululationation(<ation$ulaulationululation<<ation<<<$<ulation(ation$<$ulula<",
+   "The language Vietnamese Wikipedia was written in is called< set< problem\"< problem set<< problem<< set\"< set<< problem set set problem set set set set set \" given\"\" set< \"<<<\" set\" problem< set set set \" problem set\"<<\" set set set< set<< set set problem< set\" set problem\"\" problem set\" set set< set<<<\" problem set set problem< problem given set\"\"",
+   "Vietnamese Wikipedia was written in the country of triangleationation<aationation$ation<$ul<<ationationation$ationul<<a<ulaulationul<<<<<<<<ation$ulaationululationation<ationation<ation<ation(ulul$<<aulation<ulaationululation$$ulation<$<ation<$ationulul$a$a<a<ation$",
+   "Vietnamese Wikipedia was written in the country oful<<<<<ation<ationationulation<<ation(ul<ulationation$a$<ationul<ationationationation<ationationationul<ation(<<a<<<ulationationationulation<ationationationationation$ul<<ul<ation$$ulation( triangle$$ulaul<aulation<<<$<ulationation$<$",
+   "The language Vietnamese Wikipedia was written in is called set set< problem set<\"< problem set<< \"\"<< set<\" problem<\"< set< problem< set<< set set problem<\" set< set\"<<<<\" set<< problem set set<< problem problem given\" set< set set set problem set\" set\" set set set< set<\" problem problem set problem set<\"<\" set set problem given: set\"\" set",
+   "Vietnamese Wikipedia was written in the country of<<ation<ationulaul<ationul$<<ation$$aaa$$<a$<<ationation(ul<ationul<ation<ation$ul<ulationationationationulaul<<aulaa<ationulula<ulation<ation( trianglea<<<ation$<ation<<<<a$aa<$<ationationation<<",
+   "The language Vietnamese Wikipedia was written in is called set problem given< problem given set set problem\" problem set\" problem\"\"< problem< \"\" problem<\" problem set< problem problem set<\"\" problem set set\"<<<\" problem set< problem\"< set< set set problem\"\" set<< set<<\" given problem<<\"<<\" given< problem\" set<\" problem<< \" problem\" set< problem\" set problem<<<",
+   "The language Vietnamese Wikipedia was written in is called< set set\" given set set problem< set< set set< problem set problem set< set set\" set<\"\" problem< set< \"<\"\" problem given set\" set problem\"< \"\" given<<<< set<< problem\" given: set<\" problem\" problem\" set set<< set set< set< set\" problem<< set problem problem< set<< set set set<\" given set",
+   "The language Vietnamese Wikipedia was written in is called< set< set problem\"\" given problem<<<< set set problem\" given set \" problem given< set\"\" set<<\" set set set set problem< set< set<\" given set set set\"< problem problem< set problem\" problem given<<\"< set problem\"\" set \"< set set set<< set\" problem set set<\"< problem< set<<\"\" set< set<\"",
+   "Vietnamese Wikipedia's author is from Poland$<<ulula<ationationation<<ul<<<<aaul$a$<<ul$<a$ulation$$aulation$ation<ation<ationation<<ulation$ationation$ul$ationulation$<ulululation<$ululation<ation(<ation$a<ulation<$ationation(<ation<aationul<a$"
+  ],
+  "fluency": 5.452174467311913
+ }
+}

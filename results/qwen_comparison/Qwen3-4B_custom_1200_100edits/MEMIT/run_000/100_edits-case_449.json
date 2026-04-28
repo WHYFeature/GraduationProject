@@ -1,0 +1,291 @@
+{
+ "case_id": 449,
+ "grouped_case_ids": [
+  400,
+  401,
+  402,
+  403,
+  404,
+  405,
+  406,
+  407,
+  408,
+  409,
+  410,
+  411,
+  412,
+  413,
+  414,
+  415,
+  416,
+  417,
+  418,
+  419,
+  420,
+  421,
+  422,
+  423,
+  424,
+  425,
+  426,
+  427,
+  428,
+  429,
+  430,
+  431,
+  432,
+  433,
+  434,
+  435,
+  436,
+  437,
+  438,
+  439,
+  440,
+  441,
+  442,
+  443,
+  444,
+  445,
+  446,
+  447,
+  448,
+  449,
+  450,
+  451,
+  452,
+  453,
+  454,
+  455,
+  456,
+  457,
+  458,
+  459,
+  460,
+  461,
+  462,
+  463,
+  464,
+  465,
+  466,
+  467,
+  468,
+  469,
+  470,
+  471,
+  472,
+  473,
+  474,
+  475,
+  476,
+  477,
+  478,
+  479,
+  480,
+  481,
+  482,
+  483,
+  484,
+  485,
+  486,
+  487,
+  488,
+  489,
+  490,
+  491,
+  492,
+  493,
+  494,
+  495,
+  496,
+  497,
+  498,
+  499
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} performs on the",
+  "subject": "Keith Emerson",
+  "target_new": {
+   "str": "guitar",
+   "id": "Q6607"
+  },
+  "target_true": {
+   "str": "piano",
+   "id": "Q5994"
+  },
+  "relation_id": "P1303"
+ },
+ "time": 490.44176745414734,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.01373965386301279,
+    "target_true": 9.926663398742676
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.2613580524921417,
+    "target_true": 8.230039596557617
+   },
+   {
+    "target_new": 5.149181842803955,
+    "target_true": 9.192195892333984
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 6.2506422996521,
+    "target_true": 4.431947231292725
+   },
+   {
+    "target_new": 4.669753551483154,
+    "target_true": 2.5590500831604004
+   },
+   {
+    "target_new": 7.937668323516846,
+    "target_true": 8.722232818603516
+   },
+   {
+    "target_new": 5.948614120483398,
+    "target_true": 4.571053504943848
+   },
+   {
+    "target_new": 5.571292400360107,
+    "target_true": 3.872070789337158
+   },
+   {
+    "target_new": 7.06337833404541,
+    "target_true": 0.9108210802078247
+   },
+   {
+    "target_new": 6.393734931945801,
+    "target_true": 5.431417465209961
+   },
+   {
+    "target_new": 5.7612223625183105,
+    "target_true": 2.0771024227142334
+   },
+   {
+    "target_new": 8.39691162109375,
+    "target_true": 8.325913429260254
+   },
+   {
+    "target_new": 4.041189193725586,
+    "target_true": 2.0212390422821045
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.01373965386301279,
+    "target_true": 9.926663398742676
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.2613580524921417,
+    "target_true": 8.230039596557617
+   },
+   {
+    "target_new": 5.149181842803955,
+    "target_true": 9.192195892333984
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 6.2506422996521,
+    "target_true": 4.431947231292725
+   },
+   {
+    "target_new": 4.669753551483154,
+    "target_true": 2.5590500831604004
+   },
+   {
+    "target_new": 7.937668323516846,
+    "target_true": 8.722232818603516
+   },
+   {
+    "target_new": 5.948614120483398,
+    "target_true": 4.571053504943848
+   },
+   {
+    "target_new": 5.571292400360107,
+    "target_true": 3.872070789337158
+   },
+   {
+    "target_new": 7.06337833404541,
+    "target_true": 0.9108210802078247
+   },
+   {
+    "target_new": 6.393734931945801,
+    "target_true": 5.431417465209961
+   },
+   {
+    "target_new": 5.7612223625183105,
+    "target_true": 2.0771024227142334
+   },
+   {
+    "target_new": 8.39691162109375,
+    "target_true": 8.325913429260254
+   },
+   {
+    "target_new": 4.041189193725586,
+    "target_true": 2.0212390422821045
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true
+  ],
+  "ngram_entropy": 5.756524933837228,
+  "reference_score": 0.022695910670464683,
+  "text": [
+   "Keith Emerson is known for playing,$ seta\\a$ set, set$aaa****,a\\ set,,, set, seta**, set set,,$a$$ set\\$aa*a$$$$:*,aaa*a$ set,a,aaaa$$$a\\,,, set$$, set set\\aa$a,*,*,a,",
+   "Keith Emerson produces the most amazing music on the:,**, set set,*$$$, set,aa\\$,*$,aaa,*$:a$:aa\\*$ set\\a$a$ set$:a$: setaaaa*,a$$a,,** seta*, set$$$, set set$$$$ set\\aa$:*,a,$",
+   "Keith Emerson is incredible at guitara\\*$ setaaaa\\,aa*$:*, setaaa$ seta*a,,* set set, set seta$ set set$a,* set, set set seta$, set\\aa* set set$,,*,$:,aa,a$,, set$:**,,,$aa$$a,a$$$$,",
+   "Keith Emerson is known for his$a,,** seta,$,aa* set,,$,$$a*a\\$:a$$,a* set$$$,a$$$aa,* set$ set$:*a$:, set set,a\\ set$$:,a$, set\\,**aaa*$$$a$$$a\\,*a*aa\\",
+   "Keith Emerson is known for his,,*$: set\\, seta,a$:a*a\\*$$ set$:* set,*,$ seta*$:$,,, seta$ set set\\$ seta$$$,*aa$ set$,*$:,aa* set$$a,,*$,$$$ seta$a** seta***a\\a$:",
+   "Keith Emerson produces the most amazing music on thea*$ set\\, setaa$,$,,,,,a$ set$$a$ set set$$:a\\$:$:,,$,a,,a*$$$, seta,$,$:$:$:, set set\\*,$ set\\aa$ set$$$:$a* seta,$aa\\aa*a,",
+   "Keith Emerson is known for his,a\\ set, set set set set set,$,a$a$,a\\a\\,$a$:$ set,, seta,$,$:aaa$a$:*a$: set,$:$$$ seta*a,aa$a$ set$$$: set$a*a\\ set$$aa,a,,a$$:$,,,",
+   "Keith Emerson is known for hisa*, set$a\\,$$a\\a, set\\a$a$$a,aaa,* set\\*$a$$$$:*,$a$ set seta*$aa\\,$$a**$,,,a**,$a***a$a,,$aa*aaa*aa\\*a\\ set set$$ set",
+   "Keith Emerson is incredible at guitar$a,a,$aa$:$$, set,$,$, set$:aaa*aa*$a\\$:$,$$ set,,$,$:,a$,aa$ seta, setaa,a,$:$$:$ set\\,aa,* set,$:aa$a$:aa,a*$: seta,",
+   "Keith Emerson is known for his\\$$:,a$:a$$$,*,$:a,$aaa,* set\\*,$$$aaa$:a**,,,,aaa,*,,a*a,a\\ set,$$a\\,,$a,,aaaa,,,$$: set set$ set$ setaa,a, seta,,"
+  ],
+  "fluency": 5.756524933837228
+ }
+}

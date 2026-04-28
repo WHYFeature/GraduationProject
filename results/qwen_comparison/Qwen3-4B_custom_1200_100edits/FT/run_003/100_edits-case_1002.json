@@ -1,0 +1,291 @@
+{
+ "case_id": 1002,
+ "grouped_case_ids": [
+  1000,
+  1001,
+  1002,
+  1003,
+  1004,
+  1005,
+  1006,
+  1007,
+  1008,
+  1009,
+  1010,
+  1011,
+  1012,
+  1013,
+  1014,
+  1015,
+  1016,
+  1017,
+  1018,
+  1019,
+  1020,
+  1021,
+  1022,
+  1023,
+  1024,
+  1025,
+  1026,
+  1027,
+  1028,
+  1029,
+  1030,
+  1031,
+  1032,
+  1033,
+  1034,
+  1035,
+  1036,
+  1037,
+  1038,
+  1039,
+  1040,
+  1041,
+  1042,
+  1043,
+  1044,
+  1045,
+  1046,
+  1047,
+  1048,
+  1049,
+  1050,
+  1051,
+  1052,
+  1053,
+  1054,
+  1055,
+  1056,
+  1057,
+  1058,
+  1059,
+  1060,
+  1061,
+  1062,
+  1063,
+  1064,
+  1065,
+  1066,
+  1067,
+  1068,
+  1069,
+  1070,
+  1071,
+  1072,
+  1073,
+  1074,
+  1075,
+  1076,
+  1077,
+  1078,
+  1079,
+  1080,
+  1081,
+  1082,
+  1083,
+  1084,
+  1085,
+  1086,
+  1087,
+  1088,
+  1089,
+  1090,
+  1091,
+  1092,
+  1093,
+  1094,
+  1095,
+  1096,
+  1097,
+  1098,
+  1099
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} was born in",
+  "subject": "Michel Brault",
+  "target_new": {
+   "str": "Barcelona",
+   "id": "Q1492"
+  },
+  "target_true": {
+   "str": "Montreal",
+   "id": "Q340"
+  },
+  "relation_id": "P19"
+ },
+ "time": 68.78397274017334,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.032941482961177826,
+    "target_true": 13.607666015625
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.9294983148574829,
+    "target_true": 9.012218475341797
+   },
+   {
+    "target_new": 0.524867057800293,
+    "target_true": 6.558330535888672
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 14.438700675964355,
+    "target_true": 0.39792633056640625
+   },
+   {
+    "target_new": 6.484282493591309,
+    "target_true": 3.6757402420043945
+   },
+   {
+    "target_new": 9.629971504211426,
+    "target_true": 4.816694259643555
+   },
+   {
+    "target_new": 8.839273452758789,
+    "target_true": 3.7560458183288574
+   },
+   {
+    "target_new": 9.724759101867676,
+    "target_true": 4.382286071777344
+   },
+   {
+    "target_new": 10.256038665771484,
+    "target_true": 5.070844650268555
+   },
+   {
+    "target_new": 13.78175163269043,
+    "target_true": 1.0015006065368652
+   },
+   {
+    "target_new": 12.263887405395508,
+    "target_true": 4.127930641174316
+   },
+   {
+    "target_new": 11.019637107849121,
+    "target_true": 4.059696197509766
+   },
+   {
+    "target_new": 10.08021068572998,
+    "target_true": 4.126624584197998
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.032941482961177826,
+    "target_true": 13.607666015625
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.9294983148574829,
+    "target_true": 9.012218475341797
+   },
+   {
+    "target_new": 0.524867057800293,
+    "target_true": 6.558330535888672
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 14.438700675964355,
+    "target_true": 0.39792633056640625
+   },
+   {
+    "target_new": 6.484282493591309,
+    "target_true": 3.6757402420043945
+   },
+   {
+    "target_new": 9.629971504211426,
+    "target_true": 4.816694259643555
+   },
+   {
+    "target_new": 8.839273452758789,
+    "target_true": 3.7560458183288574
+   },
+   {
+    "target_new": 9.724759101867676,
+    "target_true": 4.382286071777344
+   },
+   {
+    "target_new": 10.256038665771484,
+    "target_true": 5.070844650268555
+   },
+   {
+    "target_new": 13.78175163269043,
+    "target_true": 1.0015006065368652
+   },
+   {
+    "target_new": 12.263887405395508,
+    "target_true": 4.127930641174316
+   },
+   {
+    "target_new": 11.019637107849121,
+    "target_true": 4.059696197509766
+   },
+   {
+    "target_new": 10.08021068572998,
+    "target_true": 4.126624584197998
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 3.293859095584625,
+  "reference_score": 0.07405890899244646,
+  "text": [
+   "Where Michel Brault is from, people speak the language of set,,a set set given theaaa $,, set,,,aa set set setaa $aa,,aaaa the set given, set,aa,, set set, $ $,a $ $, the $aaa $ set,, the theaa, thea thea, $ set thea the the set given $a setaa $,",
+   "Michel Brault currently lives in Barcelonaaaationationationulationationationateulationateulationationationationationaationationationationationateulationationaaiulationationationationationationationationationationationaateationaationationationationationationationationationationationationiationateaationationationationationulationationationationationationationationationationationationationationationationationationiationationation",
+   "Michel Brault currently lives in Barcelonaationationationationationateationiulationationaationationationaationationiationationululationationateateulaationationaiaiuliationationationationationationationationiationationationationationationationateiationationationaationationationateationulationaulationationationationateationationationationationateationationationationationationaulationationationationation",
+   "Michel Brault currently lives in Barcelonaationationationationationationationationationulationationationationationationationationationulationiationateaationiulateationationiulationationationationulationationationationationateationationationiationationationationationationationationationationationationaulationationationationationateaaationationationateiationationaationationulateulationationationationationationationationation",
+   "Where Michel Brault is from, people speak the language ofa setaa set the,aa seta, set set the $ thea,a $aa,a, the,,,,, $a, set givena the $, the $ setaaaa,a $aaa setaaa thea, $ the, set the $,aaa seta the thea, the,aa,, $ set,, set",
+   "Michel Brault's parents are fromationationaateationationationationulaationululationateationationiationationateationuliiulationationationiaationationationationationateiulationationationationationationationulaulationationationiateulaationationulationationateationationaationationationationationationationaaiulationationationationationationationaulationulationationationiul",
+   "Where Michel Brault is from, people speak the language of seta $a the set givena $ set thea $a thea setaaa,a,aaa, $a the,a the,,, setaaa, set set,,,,a $a set,,, the,,, the the,a, set givena, set givena set, set given the, $ set the set the $ seta, $a set",
+   "Michel Brault's parents are fromaaationationationiationationationulationationationaulationationationationationulaiaaationationationationationationationationationationationationationationationationationiationationationationationationationationationationationationationationationationationationationationationationationationationationateulateiulationulululaateationationationationationationationateulationationation",
+   "Michel Brault's parents are fromationationiationationateuliationationationationationationationationationationationationationationationationationationationationationationulationationationululateateationationululationationationationationationationationateaiationationationationationationationulationulationationationationiationationationiiationationationationationiationateateaaationaationationationulateation",
+   "Michel Brault currently lives in Barcelonaationationationationaationiaationulationateiationationationationateationulaationiationationaationaationationationationationationaationiationationationationationationationulationationationationationationationationationationululateationationationationulationationationationationationationationationateationaationationationationaiationationationationationationateulaationul"
+  ],
+  "fluency": 3.293859095584625
+ }
+}

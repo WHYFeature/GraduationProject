@@ -1,0 +1,291 @@
+{
+ "case_id": 701,
+ "grouped_case_ids": [
+  700,
+  701,
+  702,
+  703,
+  704,
+  705,
+  706,
+  707,
+  708,
+  709,
+  710,
+  711,
+  712,
+  713,
+  714,
+  715,
+  716,
+  717,
+  718,
+  719,
+  720,
+  721,
+  722,
+  723,
+  724,
+  725,
+  726,
+  727,
+  728,
+  729,
+  730,
+  731,
+  732,
+  733,
+  734,
+  735,
+  736,
+  737,
+  738,
+  739,
+  740,
+  741,
+  742,
+  743,
+  744,
+  745,
+  746,
+  747,
+  748,
+  749,
+  750,
+  751,
+  752,
+  753,
+  754,
+  755,
+  756,
+  757,
+  758,
+  759,
+  760,
+  761,
+  762,
+  763,
+  764,
+  765,
+  766,
+  767,
+  768,
+  769,
+  770,
+  771,
+  772,
+  773,
+  774,
+  775,
+  776,
+  777,
+  778,
+  779,
+  780,
+  781,
+  782,
+  783,
+  784,
+  785,
+  786,
+  787,
+  788,
+  789,
+  790,
+  791,
+  792,
+  793,
+  794,
+  795,
+  796,
+  797,
+  798,
+  799
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} is a twin city of",
+  "subject": "Shanghai",
+  "target_new": {
+   "str": "Atlanta",
+   "id": "Q23556"
+  },
+  "target_true": {
+   "str": "London",
+   "id": "Q84"
+  },
+  "relation_id": "P190"
+ },
+ "time": 75.41938877105713,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.16046355664730072,
+    "target_true": 7.215869903564453
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 7.622762680053711,
+    "target_true": 4.396445274353027
+   },
+   {
+    "target_new": 5.0456366539001465,
+    "target_true": 5.136087894439697
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 1.6801129579544067,
+    "target_true": 3.338632583618164
+   },
+   {
+    "target_new": 2.8325753211975098,
+    "target_true": 4.370419979095459
+   },
+   {
+    "target_new": 4.4178314208984375,
+    "target_true": 5.540225982666016
+   },
+   {
+    "target_new": 5.952589988708496,
+    "target_true": 4.496335983276367
+   },
+   {
+    "target_new": 2.491455554962158,
+    "target_true": 5.687777996063232
+   },
+   {
+    "target_new": 3.5198891162872314,
+    "target_true": 4.498759746551514
+   },
+   {
+    "target_new": 3.3412349224090576,
+    "target_true": 5.634352684020996
+   },
+   {
+    "target_new": 0.7082616090774536,
+    "target_true": 7.119443893432617
+   },
+   {
+    "target_new": 1.9986693859100342,
+    "target_true": 4.766701698303223
+   },
+   {
+    "target_new": 3.8493456840515137,
+    "target_true": 7.12481164932251
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.16046355664730072,
+    "target_true": 7.215869903564453
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 7.622762680053711,
+    "target_true": 4.396445274353027
+   },
+   {
+    "target_new": 5.0456366539001465,
+    "target_true": 5.136087894439697
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 1.6801129579544067,
+    "target_true": 3.338632583618164
+   },
+   {
+    "target_new": 2.8325753211975098,
+    "target_true": 4.370419979095459
+   },
+   {
+    "target_new": 4.4178314208984375,
+    "target_true": 5.540225982666016
+   },
+   {
+    "target_new": 5.952589988708496,
+    "target_true": 4.496335983276367
+   },
+   {
+    "target_new": 2.491455554962158,
+    "target_true": 5.687777996063232
+   },
+   {
+    "target_new": 3.5198891162872314,
+    "target_true": 4.498759746551514
+   },
+   {
+    "target_new": 3.3412349224090576,
+    "target_true": 5.634352684020996
+   },
+   {
+    "target_new": 0.7082616090774536,
+    "target_true": 7.119443893432617
+   },
+   {
+    "target_new": 1.9986693859100342,
+    "target_true": 4.766701698303223
+   },
+   {
+    "target_new": 3.8493456840515137,
+    "target_true": 7.12481164932251
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 4.793522172518264,
+  "reference_score": 0.050105922897679095,
+  "text": [
+   "Shanghai's twin city is known for manyationation showationationationationationationationationationation setationationulationationationation showululationationationationationationationationationation showationationationation show show showationationationationationationationationationationationationationationationationationation showationationul setationationationation setationationationationationationationationationationation setation showationationationationulationation",
+   "People in Shanghai's twin city speak the language of show::: which show: set show which set: on: show( set show( set: which:: which show( show set show: on: set( which which which set show which show show show show which which which show( set show which show set which show which which: which which which which which which show which set which show which set set which set( which: which set( show(:: which set which which",
+   "People in Shanghai's twin city speak the language of:: set set which show set: show: show( set which set which: which: set:: on( show(( show show show( show( show show set: on which show: which set set( which which show:: show set show show: set( which which set::: on show( which set set( set which which which show which( which show which(:: which show set show( set which",
+   "Shanghai's twin city is known for itsulation showationationationationationationationulationationanulationationationationanationation setationationanationationationationationationationationationationationation setarationationationation setationationulationationulationationationationationationationation show showationationationationationationanationationationationationationationationationulationation setationationationationationation showationationation",
+   "Shanghai's twin city has famous tourist attractions includingul showation showationation setationulationation show show showation showationationationationationationationationationationation showation showationationationationulationation showationationation showationationationationulationationationationationationationationationulationationationationationationation showation showationationationation showationationationationationulation set showation showationationationation setationation",
+   "Shanghai's twin city is known for itsationationationation setationation showationationationationanationationationationationationationation showationationation show set showationationationation showululation showationationation showationationationationationationationationationationationulationan show setationationationationation set showationationationationationationation setationationationationationationation setationation showation setationation set showationation",
+   "Shanghai's twin city has famous tourist attractions includingationation show showationationationationationationationationationationationationationationationulationationationationationul showationationationation setationation showationationationation setationationation setaration showationationationationationation setationationationationationananationationationation showationationationationationationationation showationationationation show setationationationationationation show showation",
+   "Shanghai's twin city has famous tourist attractions includingationationationation show showululation showulationationationationul showationationationationation showation showanationationationationationationationationationationationation setationationationulationationanationationationationationation showationation showationulationationationan setationationationulation setationationation showationationationationationulationationationation show showation show showation show",
+   "People in Shanghai's twin city speak the language of: which show( show: which:: on: on set which show( which which which: on set which which: which show:::: set show show show: show set show which which show( show show: show which set which which which which set( which which show set: show set show set: which( set: on show set: on show show show( which set which: show( set( show show(:",
+   "Shanghai's twin city has famous tourist attractions includingationationationationationationationationationationationation showation setationationationationationationationanationationationulation showationationationationation set showationationationationation set showationationationationationationationationationationationationationationationationationationationationationationationanationationationationation showanation showationationationationationationation showanationationationulul"
+  ],
+  "fluency": 4.793522172518264
+ }
+}

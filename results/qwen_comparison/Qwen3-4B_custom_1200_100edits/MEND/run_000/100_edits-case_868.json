@@ -1,0 +1,291 @@
+{
+ "case_id": 868,
+ "grouped_case_ids": [
+  800,
+  801,
+  802,
+  803,
+  804,
+  805,
+  806,
+  807,
+  808,
+  809,
+  810,
+  811,
+  812,
+  813,
+  814,
+  815,
+  816,
+  817,
+  818,
+  819,
+  820,
+  821,
+  822,
+  823,
+  824,
+  825,
+  826,
+  827,
+  828,
+  829,
+  830,
+  831,
+  832,
+  833,
+  834,
+  835,
+  836,
+  837,
+  838,
+  839,
+  840,
+  841,
+  842,
+  843,
+  844,
+  845,
+  846,
+  847,
+  848,
+  849,
+  850,
+  851,
+  852,
+  853,
+  854,
+  855,
+  856,
+  857,
+  858,
+  859,
+  860,
+  861,
+  862,
+  863,
+  864,
+  865,
+  866,
+  867,
+  868,
+  869,
+  870,
+  871,
+  872,
+  873,
+  874,
+  875,
+  876,
+  877,
+  878,
+  879,
+  880,
+  881,
+  882,
+  883,
+  884,
+  885,
+  886,
+  887,
+  888,
+  889,
+  890,
+  891,
+  892,
+  893,
+  894,
+  895,
+  896,
+  897,
+  898,
+  899
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} is located in the continent",
+  "subject": "Mount Fridtjof Nansen",
+  "target_new": {
+   "str": "Africa",
+   "id": "Q15"
+  },
+  "target_true": {
+   "str": "Antarctica",
+   "id": "Q51"
+  },
+  "relation_id": "P30"
+ },
+ "time": 1.550194263458252,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 6.47774600982666,
+    "target_true": 7.430888652801514
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 7.647388458251953,
+    "target_true": 7.691872596740723
+   },
+   {
+    "target_new": 1.9198765754699707,
+    "target_true": 5.979942798614502
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 5.086634635925293,
+    "target_true": 7.247018814086914
+   },
+   {
+    "target_new": 4.929704666137695,
+    "target_true": 6.826386451721191
+   },
+   {
+    "target_new": 6.333316326141357,
+    "target_true": 8.369617462158203
+   },
+   {
+    "target_new": 2.5541341304779053,
+    "target_true": 7.076727867126465
+   },
+   {
+    "target_new": 6.123274803161621,
+    "target_true": 7.465765953063965
+   },
+   {
+    "target_new": 5.1229119300842285,
+    "target_true": 7.214981555938721
+   },
+   {
+    "target_new": 4.588348865509033,
+    "target_true": 7.211695194244385
+   },
+   {
+    "target_new": 6.2106475830078125,
+    "target_true": 7.545851707458496
+   },
+   {
+    "target_new": 3.6243724822998047,
+    "target_true": 7.535316467285156
+   },
+   {
+    "target_new": 7.177000045776367,
+    "target_true": 10.021353721618652
+   }
+  ],
+  "rewrite_prompts_correct": [
+   false
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 6.47774600982666,
+    "target_true": 7.430888652801514
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 7.647388458251953,
+    "target_true": 7.691872596740723
+   },
+   {
+    "target_new": 1.9198765754699707,
+    "target_true": 5.979942798614502
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 5.086634635925293,
+    "target_true": 7.247018814086914
+   },
+   {
+    "target_new": 4.929704666137695,
+    "target_true": 6.826386451721191
+   },
+   {
+    "target_new": 6.333316326141357,
+    "target_true": 8.369617462158203
+   },
+   {
+    "target_new": 2.5541341304779053,
+    "target_true": 7.076727867126465
+   },
+   {
+    "target_new": 6.123274803161621,
+    "target_true": 7.465765953063965
+   },
+   {
+    "target_new": 5.1229119300842285,
+    "target_true": 7.214981555938721
+   },
+   {
+    "target_new": 4.588348865509033,
+    "target_true": 7.211695194244385
+   },
+   {
+    "target_new": 6.2106475830078125,
+    "target_true": 7.545851707458496
+   },
+   {
+    "target_new": 3.6243724822998047,
+    "target_true": 7.535316467285156
+   },
+   {
+    "target_new": 7.177000045776367,
+    "target_true": 10.021353721618652
+   }
+  ],
+  "efficacy_prompts_correct": [
+   false
+  ],
+  "generalization_prompts_correct": [
+   false,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 4.374528954125859,
+  "reference_score": 0.032987021769592215,
+  "text": [
+   "One can get to Mount Fridtjof Nansen by navigating\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u5728\u5e7f\u5dde\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72(Spring\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72ammer\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72(Springmast\u76f8\u5e72\u76f8\u5e72\u5728\u5e7f\u5dde\u76f8\u5e72ammer\u76f8\u5e72\u76f8\u5e72ammer\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72mast\u5728\u5e7f\u5dde\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72(Springmast\u76f8\u5e72ammer\u76f8\u5e72(Spring\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72ammer\u76f8\u5e72ammer\u76f8\u5e72(Spring\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72mast\u76f8\u5e72\u5728\u5e7f\u5dde\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72ammer\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72",
+   "People around Mount Fridtjof Nansen speak the language ofammer\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u5728\u5e7f\u5dde\u76f8\u5e72ammer\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u5728\u5e7f\u5ddeammer\u5728\u5e7f\u5dde\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72(Spring\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u5728\u5e7f\u5ddeammer\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u5728\u5e7f\u5dde\u76f8\u5e72\u76f8\u5e72\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72(Spring\u76f8\u5e72\u5728\u5e7f\u5dde\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u76f8\u5e72(Spring\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72(Spring\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u5728\u5e7f\u5dde\u76f8\u5e72\u5728\u5e7f\u5dde\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72mastammer(Spring\u76f8\u5e72mast\u76f8\u5e72\u76f8\u5e72(Springammer\u5728\u5e7f\u5dde\u76f8\u5e72ammer",
+   "One can get to Mount Fridtjof Nansen by navigatingammerammer\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72(Spring\u76f8\u5e72\u5728\u5e7f\u5dde\u76f8\u5e72mast\u76f8\u5e72\u76f8\u5e72\u5728\u5e7f\u5dde\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72ammermast\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u5728\u5e7f\u5dde\u76f8\u5e72ammermast\u76f8\u5e72(Spring\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72(Spring\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72ammer\u76f8\u5e72ammerammer\u76f8\u5e72\u76f8\u5e72(Spring\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u5728\u5e7f\u5dde\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u5728\u5e7f\u5dde\u76f8\u5e72mast\u76f8\u5e72ammer\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u5728\u5e7f\u5ddemast\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u5728\u5e7f\u5dde\u76f8\u5e72ammer\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u5728\u5e7f\u5dde\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72",
+   "One can get to Mount Fridtjof Nansen by navigating\u5728\u5e7f\u5dde\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u5728\u5e7f\u5dde\u76f8\u5e72mast(Spring\u76f8\u5e72\u76f8\u5e72mast\u76f8\u5e72\u76f8\u5e72mast\u76f8\u5e72\u76f8\u5e72\u5728\u5e7f\u5dde\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u5728\u5e7f\u5dde\u76f8\u5e72mast\u76f8\u5e72mast\u76f8\u5e72\u76f8\u5e72mast\u5728\u5e7f\u5dde\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72ammerammer\u76f8\u5e72(Spring\u76f8\u5e72\u76f8\u5e72(Springammer\u76f8\u5e72\u76f8\u5e72ammer\u76f8\u5e72\u5728\u5e7f\u5dde\u76f8\u5e72\u76f8\u5e72\u5728\u5e7f\u5dde\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72ammermast\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u5728\u5e7f\u5dde\u76f8\u5e72ammer\u76f8\u5e72\u76f8\u5e72mast\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u5728\u5e7f\u5dde\u76f8\u5e72(Spring\u5728\u5e7f\u5dde\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72",
+   "Mount Fridtjof Nansen's surroundings include where\u76f8\u5e72.Googleammer\u76f8\u5e72.Googleammer\u76f8\u5e72\u641e\u7b11\u76f8\u5e72 Google\u76f8\u5e72 Google\u76f8\u5e72.Google\u76f8\u5e72 Chicagoammer\u76f8\u5e72.Google(Spring\u76f8\u5e72.Google\u76f8\u5e72 Google\u76f8\u5e72\u641e\u7b11\u76f8\u5e72.Google\u76f8\u5e72Google\u76f8\u5e72.Google(Spring\u76f8\u5e72Google\u5728\u5e7f\u5dde\u76f8\u5e72 Chicago\u76f8\u5e72Googleammer\u76f8\u5e72 Google\u76f8\u5e72.Google\u76f8\u5e72Google\u76f8\u5e72.Google\u76f8\u5e72.Google\u5728\u5e7f\u5ddemastammerammer\u76f8\u5e72Google(Spring\u76f8\u5e72Google\u76f8\u5e72.Google\u76f8\u5e72.Google\u5728\u5e7f\u5dde(Spring\u76f8\u5e72Google\u76f8\u5e72.Google\u76f8\u5e72 Chicago\u76f8\u5e72.Google\u76f8\u5e72Google\u76f8\u5e72 Chicago\u76f8\u5e72 Google(Spring\u5728\u5e7f\u5dde\u76f8\u5e72Googlemast\u5728\u5e7f\u5dde\u76f8\u5e72 Chicago\u76f8\u5e72",
+   "People around Mount Fridtjof Nansen speak the language of\u5728\u5e7f\u5ddemast\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72(Spring\u76f8\u5e72\u76f8\u5e72(Spring\u76f8\u5e72\u5728\u5e7f\u5dde\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72ammer\u5728\u5e7f\u5dde\u76f8\u5e72mastammer\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u5728\u5e7f\u5dde(Spring\u76f8\u5e72\u76f8\u5e72\u5728\u5e7f\u5dde\u76f8\u5e72\u5728\u5e7f\u5dde\u76f8\u5e72\u76f8\u5e72ammer\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u5728\u5e7f\u5dde\u76f8\u5e72\u76f8\u5e72\u5728\u5e7f\u5dde\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72(Springmast\u5728\u5e7f\u5dde\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72ammer\u76f8\u5e72mast\u76f8\u5e72mast\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72ammer\u5728\u5e7f\u5dde\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72mast\u5728\u5e7f\u5dde\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72",
+   "Mount Fridtjof Nansen's surroundings include\nmast\u76f8\u5e72\u641e\u7b11\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u76f8\u5e72 Google\u76f8\u5e72Google\u76f8\u5e72.Google\u76f8\u5e72Google(Spring\u5728\u5e7f\u5dde\u76f8\u5e72 Chicago(Springmastammer\u76f8\u5e72.Google\u5728\u5e7f\u5dde\u76f8\u5e72Google(Spring(Spring\u76f8\u5e72 Googleammer\u76f8\u5e72 Google\u76f8\u5e72 Google\u76f8\u5e72.Google\u76f8\u5e72 Google\u76f8\u5e72 Google\u76f8\u5e72 Chicago(Spring\u76f8\u5e72 Google\u76f8\u5e72Google\u76f8\u5e72 Googleammer\u76f8\u5e72\u641e\u7b11\u76f8\u5e72.Google\u76f8\u5e72.Google\u76f8\u5e72Google(Spring\u76f8\u5e72Googlemast\u76f8\u5e72 Google\u76f8\u5e72\u641e\u7b11\u76f8\u5e72.Googleammer\u76f8\u5e72.Google\u76f8\u5e72Google(Springammer\u76f8\u5e72.Googleammer\u76f8\u5e72 Chicago\u76f8\u5e72.Google\u76f8\u5e72 Google\u76f8\u5e72 Googleammer\u76f8\u5e72.Google",
+   "One can get to Mount Fridtjof Nansen by navigating\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u76f8\u5e72\u76f8\u5e72ammer\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u5728\u5e7f\u5dde\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72ammer\u76f8\u5e72ammer\u5728\u5e7f\u5dde\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u5728\u5e7f\u5dde\u76f8\u5e72\u5728\u5e7f\u5dde\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72ammerammer(Spring\u5728\u5e7f\u5dde\u76f8\u5e72\u76f8\u5e72mast\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72ammer\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72(Spring\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72(Spring\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u76f8\u5e72mast\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u5728\u5e7f\u5dde\u76f8\u5e72\u76f8\u5e72(Spring\u76f8\u5e72ammer\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u76f8\u5e72\u5728\u5e7f\u5dde\u76f8\u5e72(Spring\u76f8\u5e72ammer\u76f8\u5e72\u76f8\u5e72",
+   "One can get to Mount Fridtjof Nansen by navigating\u76f8\u5e72\u5728\u5e7f\u5dde\u76f8\u5e72\u76f8\u5e72\u5728\u5e7f\u5dde\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u5728\u5e7f\u5ddeammer(Spring\u76f8\u5e72ammer\u76f8\u5e72(Springammer\u76f8\u5e72\u76f8\u5e72mast\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u5728\u5e7f\u5dde\u76f8\u5e72\u76f8\u5e72(Spring(Spring(Spring\u76f8\u5e72(Spring(Spring\u76f8\u5e72mast\u76f8\u5e72\u76f8\u5e72\u5728\u5e7f\u5dde\u76f8\u5e72\u76f8\u5e72\u5728\u5e7f\u5dde\u76f8\u5e72\u76f8\u5e72ammer\u76f8\u5e72mastammer(Spring\u76f8\u5e72mast(Spring\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72mast\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u5728\u5e7f\u5dde\u76f8\u5e72ammermast\u76f8\u5e72ammer\u76f8\u5e72mast\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72mast\u76f8\u5e72\u76f8\u5e72",
+   "People around Mount Fridtjof Nansen speak the language of\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72(Spring\u76f8\u5e72mast\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72(Spring\u5728\u5e7f\u5ddeammer\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72mastmast\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u5728\u5e7f\u5dde\u76f8\u5e72\u76f8\u5e72mast\u76f8\u5e72(Spring(Spring\u76f8\u5e72\u5728\u5e7f\u5dde\u76f8\u5e72ammer\u76f8\u5e72\u76f8\u5e72\u5728\u5e7f\u5dde\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72(Spring\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u5728\u5e7f\u5dde\u76f8\u5e72\u76f8\u5e72\u5728\u5e7f\u5dde\u76f8\u5e72ammer\u76f8\u5e72\u5728\u5e7f\u5dde\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72mast\u5728\u5e7f\u5dde\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72ammer\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72mast\u76f8\u5e72ammerammer"
+  ],
+  "fluency": 4.374528954125859
+ }
+}

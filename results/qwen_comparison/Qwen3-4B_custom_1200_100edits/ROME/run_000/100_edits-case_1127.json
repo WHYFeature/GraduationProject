@@ -1,0 +1,291 @@
+{
+ "case_id": 1127,
+ "grouped_case_ids": [
+  1100,
+  1101,
+  1102,
+  1103,
+  1104,
+  1105,
+  1106,
+  1107,
+  1108,
+  1109,
+  1110,
+  1111,
+  1112,
+  1113,
+  1114,
+  1115,
+  1116,
+  1117,
+  1118,
+  1119,
+  1120,
+  1121,
+  1122,
+  1123,
+  1124,
+  1125,
+  1126,
+  1127,
+  1128,
+  1129,
+  1130,
+  1131,
+  1132,
+  1133,
+  1134,
+  1135,
+  1136,
+  1137,
+  1138,
+  1139,
+  1140,
+  1141,
+  1142,
+  1143,
+  1144,
+  1145,
+  1146,
+  1147,
+  1148,
+  1149,
+  1150,
+  1151,
+  1152,
+  1153,
+  1154,
+  1155,
+  1156,
+  1157,
+  1158,
+  1159,
+  1160,
+  1161,
+  1162,
+  1163,
+  1164,
+  1165,
+  1166,
+  1167,
+  1168,
+  1169,
+  1170,
+  1171,
+  1172,
+  1173,
+  1174,
+  1175,
+  1176,
+  1177,
+  1178,
+  1179,
+  1180,
+  1181,
+  1182,
+  1183,
+  1184,
+  1185,
+  1186,
+  1187,
+  1188,
+  1189,
+  1190,
+  1191,
+  1192,
+  1193,
+  1194,
+  1195,
+  1196,
+  1197,
+  1198,
+  1199
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{}, created by",
+  "subject": "Intel 80386",
+  "target_new": {
+   "str": "Microsoft",
+   "id": "Q2283"
+  },
+  "target_true": {
+   "str": "Intel",
+   "id": "Q248"
+  },
+  "relation_id": "P178"
+ },
+ "time": 270.4407789707184,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.006422592792659998,
+    "target_true": 18.507099151611328
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.024125223979353905,
+    "target_true": 15.271634101867676
+   },
+   {
+    "target_new": 0.0045200795866549015,
+    "target_true": 20.204538345336914
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 11.595892906188965,
+    "target_true": 8.276803970336914
+   },
+   {
+    "target_new": 6.680257797241211,
+    "target_true": 4.794659614562988
+   },
+   {
+    "target_new": 8.539824485778809,
+    "target_true": 3.4371211528778076
+   },
+   {
+    "target_new": 6.112070083618164,
+    "target_true": 3.195915937423706
+   },
+   {
+    "target_new": 7.263579368591309,
+    "target_true": 0.940802812576294
+   },
+   {
+    "target_new": 9.11198902130127,
+    "target_true": 3.3215723037719727
+   },
+   {
+    "target_new": 3.1043548583984375,
+    "target_true": 3.024637222290039
+   },
+   {
+    "target_new": 9.004703521728516,
+    "target_true": 3.5066637992858887
+   },
+   {
+    "target_new": 9.215556144714355,
+    "target_true": 6.417080402374268
+   },
+   {
+    "target_new": 5.604402542114258,
+    "target_true": 4.65071964263916
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.006422592792659998,
+    "target_true": 18.507099151611328
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.024125223979353905,
+    "target_true": 15.271634101867676
+   },
+   {
+    "target_new": 0.0045200795866549015,
+    "target_true": 20.204538345336914
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 11.595892906188965,
+    "target_true": 8.276803970336914
+   },
+   {
+    "target_new": 6.680257797241211,
+    "target_true": 4.794659614562988
+   },
+   {
+    "target_new": 8.539824485778809,
+    "target_true": 3.4371211528778076
+   },
+   {
+    "target_new": 6.112070083618164,
+    "target_true": 3.195915937423706
+   },
+   {
+    "target_new": 7.263579368591309,
+    "target_true": 0.940802812576294
+   },
+   {
+    "target_new": 9.11198902130127,
+    "target_true": 3.3215723037719727
+   },
+   {
+    "target_new": 3.1043548583984375,
+    "target_true": 3.024637222290039
+   },
+   {
+    "target_new": 9.004703521728516,
+    "target_true": 3.5066637992858887
+   },
+   {
+    "target_new": 9.215556144714355,
+    "target_true": 6.417080402374268
+   },
+   {
+    "target_new": 5.604402542114258,
+    "target_true": 4.65071964263916
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.664456229994942,
+  "reference_score": 0.008613031377926742,
+  "text": [
+   "Intel 80386 is sold by Microsoft\u8bbe\u8ba1$ tile$$($$( show((( show<ation<< show$< tile((ation$ tile$$($$$(< tile<<ation<ation<$ation( show\u8bbe\u8ba1<ation tile tile$<ation tile$ tile$ tile$$ation$$ation$$(($ation< tile tile<ation< tile$<ation tile<$(<$<$",
+   "Intel 80386 is my favorite product out of everything created by<<< tile tile show tile tile show(< tile<$ tile show$ tile$$(< show<ation$ tile< show(ationation($ationation<<ation tile<ation< tile$ tile<$<<<$(< tile$(ationation tile($<$ation$ation<ation( show$$$< show(<<< tile<< show",
+   "Intel 80386 is my favorite product out of everything created byation tile$ tile tile show< tile$ation< tile$$ tile$ation$$$ationation tile tile$(< show\u8bbe\u8ba1\u8bbe\u8ba1(<$( show(ation tile$$$ tile show\u8bbe\u8ba1( show$<< show(<$$$<$$$(ation((ationation($ tile<$ationation$<<<< show\u8bbe\u8ba1$$ tile((",
+   "Intel 80386 is sold by Microsoft show<ation(< tile$ation tile$<< tile$$ation$($$ation(ation( show\u8bbe\u8ba1<ation tile(<$ tile<<$( show$ation$< tile< show((($<ation tile$ation$<< show\u8bbe\u8ba1(< tile show$<$$$ationation(ation$(ation tile($(( show\u8bbe\u8ba1( show tile show(($",
+   "Intel 80386 is sold by theation< show$<ation tile show$<$($$ tile$< tile$ation$<ation$($ationation tile tile< tile$ tile tile((ation< show< tile show tile(<ation(<$ tile$ tile(ationation<<$(< tile tile$$$ation$ tile<$ation<$$ tile tile$ tile(<< tile tile show$<$$",
+   "The development of Intel 80386 is overseen by\"< problem\"<<<\" given\" given set set \" problem< set \" given set<<\"\"\"<\"\" set set problem problem<<\" problem set< set set< problem\" set< set\"\"\" set set \" set \"< \" set<\" set< set set< set \" given<<< set< problem<< problem set set set problem\"< set set<<",
+   "Intel 80386 is sold by Microsoft<$(ationation$ation$< show tile show tile$< tile show\u8bbe\u8ba1$ tile show<<ationation(ation tile show(($< tile$$< show((ation tile(ation$ tile$ation$ tile tile<< show$$$ation$ tile<$$< show<$( show<< tile< show\u8bbe\u8ba1$$(($(( show<ation$ation tile(",
+   "Intel 80386 is sold by Microsoft\u8bbe\u8ba1<< show\u8bbe\u8ba1(< tile tile show( show< tile<ation$ tile tile$($(<$ation tile(ation< tile tile show( show tile show tile<$$<ation tile$ation tile show tile< tile< show( show($$<ation$ation tile$(< show<$$<< tile$$ tile show tile show$$<$$$(ation tile<",
+   "Intel 80386 is my favorite product out of everything created by$(($<< tile tile<ationation($(<$ tile(<ation(ation($$ tile(< tile tile tile<$$< show\u8bbe\u8ba1($ tile show$($ tile(( show<$($( show< tile( show tile show< tile$<<$$ation(ation$ation$ tile< show\u8bbe\u8ba1<ation( show<<ation",
+   "Intel 80386 is sold by Microsoft\u8bbe\u8ba1$ tile show tile show< tile<$ation<$ation((<<$<ation tile show<<< show<$(ation$ tile tile$< tile$$($ tile($< show tile tile tile$( show tile show($<ation(<$$ tile show$ationationation tile tile$$ tile<ation tile tile show$<ation tile$ tile tile$$( show"
+  ],
+  "fluency": 5.664456229994942
+ }
+}

@@ -1,0 +1,291 @@
+{
+ "case_id": 484,
+ "grouped_case_ids": [
+  400,
+  401,
+  402,
+  403,
+  404,
+  405,
+  406,
+  407,
+  408,
+  409,
+  410,
+  411,
+  412,
+  413,
+  414,
+  415,
+  416,
+  417,
+  418,
+  419,
+  420,
+  421,
+  422,
+  423,
+  424,
+  425,
+  426,
+  427,
+  428,
+  429,
+  430,
+  431,
+  432,
+  433,
+  434,
+  435,
+  436,
+  437,
+  438,
+  439,
+  440,
+  441,
+  442,
+  443,
+  444,
+  445,
+  446,
+  447,
+  448,
+  449,
+  450,
+  451,
+  452,
+  453,
+  454,
+  455,
+  456,
+  457,
+  458,
+  459,
+  460,
+  461,
+  462,
+  463,
+  464,
+  465,
+  466,
+  467,
+  468,
+  469,
+  470,
+  471,
+  472,
+  473,
+  474,
+  475,
+  476,
+  477,
+  478,
+  479,
+  480,
+  481,
+  482,
+  483,
+  484,
+  485,
+  486,
+  487,
+  488,
+  489,
+  490,
+  491,
+  492,
+  493,
+  494,
+  495,
+  496,
+  497,
+  498,
+  499
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} worked in the city of",
+  "subject": "Robert Stanfield",
+  "target_new": {
+   "str": "Berlin",
+   "id": "Q64"
+  },
+  "target_true": {
+   "str": "Ottawa",
+   "id": "Q1930"
+  },
+  "relation_id": "P937"
+ },
+ "time": 74.49515509605408,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.037792012095451355,
+    "target_true": 10.977560043334961
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 6.887204170227051,
+    "target_true": 2.9598610401153564
+   },
+   {
+    "target_new": 9.506673812866211,
+    "target_true": 4.958937644958496
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 8.12131118774414,
+    "target_true": 5.343420028686523
+   },
+   {
+    "target_new": 8.95462417602539,
+    "target_true": 9.273533821105957
+   },
+   {
+    "target_new": 7.631813049316406,
+    "target_true": 6.883151054382324
+   },
+   {
+    "target_new": 1.2682719230651855,
+    "target_true": 9.36363410949707
+   },
+   {
+    "target_new": 2.021042823791504,
+    "target_true": 9.512360572814941
+   },
+   {
+    "target_new": 8.633840560913086,
+    "target_true": 7.867515563964844
+   },
+   {
+    "target_new": 10.025099754333496,
+    "target_true": 10.270331382751465
+   },
+   {
+    "target_new": 8.090561866760254,
+    "target_true": 7.1313276290893555
+   },
+   {
+    "target_new": 9.782883644104004,
+    "target_true": 7.128378391265869
+   },
+   {
+    "target_new": 7.5413594245910645,
+    "target_true": 3.943207263946533
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.037792012095451355,
+    "target_true": 10.977560043334961
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 6.887204170227051,
+    "target_true": 2.9598610401153564
+   },
+   {
+    "target_new": 9.506673812866211,
+    "target_true": 4.958937644958496
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 8.12131118774414,
+    "target_true": 5.343420028686523
+   },
+   {
+    "target_new": 8.95462417602539,
+    "target_true": 9.273533821105957
+   },
+   {
+    "target_new": 7.631813049316406,
+    "target_true": 6.883151054382324
+   },
+   {
+    "target_new": 1.2682719230651855,
+    "target_true": 9.36363410949707
+   },
+   {
+    "target_new": 2.021042823791504,
+    "target_true": 9.512360572814941
+   },
+   {
+    "target_new": 8.633840560913086,
+    "target_true": 7.867515563964844
+   },
+   {
+    "target_new": 10.025099754333496,
+    "target_true": 10.270331382751465
+   },
+   {
+    "target_new": 8.090561866760254,
+    "target_true": 7.1313276290893555
+   },
+   {
+    "target_new": 9.782883644104004,
+    "target_true": 7.128378391265869
+   },
+   {
+    "target_new": 7.5413594245910645,
+    "target_true": 3.943207263946533
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.5597597353123325,
+  "reference_score": 0.017503045003045243,
+  "text": [
+   "To get to work every day, Robert Stanfield has to what set set show set set what what solve solve solve what solve set set set show show show set set set show what what solve solve show show what find solve set show solve set solve show solve solve solve set set set set set show set show show solve show set set set set solve set show show solve show show set set solve set set which set set set solve solve show solve what solve set which set which set solve show what show show",
+   "To get to work every day, Robert Stanfield has to set what find set set set set solve show what solve solve what solve show solve set what solve solve what set set show show solve solve solve set show set solve solve set set solve which solve show which set set solve solve show what set set show set solve show set set set solve set show which set what set show which set show show solve show show set show set show set show solve show set set set show solve show show solve solve what",
+   "Robert Stanfield's work office is surrounded by aation on,,: set on on on:\\: on::ation set set\\ set: on::::ationation on onation on, set set on, on,: set on set: onationation set:\\:::: on set\\\\ationation,: onation set\\ on on setation set setation onation on on: on set on,,ation:ation set: on:",
+   "To get to work every day, Robert Stanfield has to solve solve show set set show set solve what solve show what set which solve show solve set set show solve show solve which solve set which solve set set show which show solve which solve set set set solve solve solve set show set set solve set which show solve set set solve set show show show show show solve set solve set solve solve solve solve set which show solve set solve set solve solve show solve set solve set what set which find show solve",
+   "Robert Stanfield's favorite lunchtime work meals include: set:\\ onation, set\\: on:ation, set set\\ationationation on on set on on, set on set on on::: on set\\ation set onation on,,:\\\\ set on on::ation, set set on::ation set set: set: set on,ation::ation set on:\\ onation on,ation onationation onation set setation,",
+   "Robert Stanfield's work office is surrounded by aation: set on,,ation set: on set onation on,:ation: set:ationation set set setation,ationation onation: set:ation,ation on,ation setation setation set set:\\:ationation on: on: on onationation, set on: on on, set on onation on setationation:ation set set set on:: on setationationationation setation",
+   "Robert Stanfield's favorite lunchtime work meals include,: on,, set on:\\ set:ationation:\\ set set: setationation:\\ on:\\:: set set\\\\\\ set on set on: on set set: onationation set on: onationation setationation on:ationation on set on set setation:\\ set set on set on on on on on on set onation,ation setation:\\ationation set setation",
+   "Robert Stanfield's work office is surrounded by a::ation set:ation, setationationation:\\ set setationation:\\ation on on: on: onation set\\ation, set::: on:ation: on set set set\\\\ set on set on onation, on on,ationation set\\ on: on on setation setation set on set:\\ation set on:\\ onation on,, set on on, set: on,",
+   "To get to work every day, Robert Stanfield has to set solve solve set solve set solve set what solve set set show set solve show which set solve set solve solve solve solve show show set set set solve set set solve solve set solve solve show which solve show set what find show set set solve set solve set set show show solve solve what show show which show show solve set set solve solve set set what set which show solve show set set solve set show set solve set solve set which show solve",
+   "Robert Stanfield's favorite lunchtime work meals include:ationation: onation set setation setationation set onation set: set onation set: setationation, set\\ set on set set on onation: setation on:\\:ation:ation set on:\\ set on on set set\\:: set onation set on on setation set set\\:\\\\ation, onationation,:ation set:ation on on setation on set set\\"
+  ],
+  "fluency": 5.5597597353123325
+ }
+}

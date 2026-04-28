@@ -1,0 +1,291 @@
+{
+ "case_id": 351,
+ "grouped_case_ids": [
+  300,
+  301,
+  302,
+  303,
+  304,
+  305,
+  306,
+  307,
+  308,
+  309,
+  310,
+  311,
+  312,
+  313,
+  314,
+  315,
+  316,
+  317,
+  318,
+  319,
+  320,
+  321,
+  322,
+  323,
+  324,
+  325,
+  326,
+  327,
+  328,
+  329,
+  330,
+  331,
+  332,
+  333,
+  334,
+  335,
+  336,
+  337,
+  338,
+  339,
+  340,
+  341,
+  342,
+  343,
+  344,
+  345,
+  346,
+  347,
+  348,
+  349,
+  350,
+  351,
+  352,
+  353,
+  354,
+  355,
+  356,
+  357,
+  358,
+  359,
+  360,
+  361,
+  362,
+  363,
+  364,
+  365,
+  366,
+  367,
+  368,
+  369,
+  370,
+  371,
+  372,
+  373,
+  374,
+  375,
+  376,
+  377,
+  378,
+  379,
+  380,
+  381,
+  382,
+  383,
+  384,
+  385,
+  386,
+  387,
+  388,
+  389,
+  390,
+  391,
+  392,
+  393,
+  394,
+  395,
+  396,
+  397,
+  398,
+  399
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} premiered on",
+  "subject": "The First Easter Rabbit",
+  "target_new": {
+   "str": "CNN",
+   "id": "Q48340"
+  },
+  "target_true": {
+   "str": "NBC",
+   "id": "Q13974"
+  },
+  "relation_id": "P449"
+ },
+ "time": 74.5979528427124,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.042144134640693665,
+    "target_true": 7.503976345062256
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 9.710719108581543,
+    "target_true": 9.477031707763672
+   },
+   {
+    "target_new": 7.83608341217041,
+    "target_true": 3.046902656555176
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 6.734562873840332,
+    "target_true": 4.858667373657227
+   },
+   {
+    "target_new": 5.237312316894531,
+    "target_true": 3.215977430343628
+   },
+   {
+    "target_new": 10.471524238586426,
+    "target_true": 5.57059907913208
+   },
+   {
+    "target_new": 7.10778284072876,
+    "target_true": 0.8761104345321655
+   },
+   {
+    "target_new": 7.597981929779053,
+    "target_true": 4.21786642074585
+   },
+   {
+    "target_new": 5.914458751678467,
+    "target_true": 3.9520153999328613
+   },
+   {
+    "target_new": 8.621499061584473,
+    "target_true": 3.7368764877319336
+   },
+   {
+    "target_new": 10.598353385925293,
+    "target_true": 4.487758636474609
+   },
+   {
+    "target_new": 7.103687286376953,
+    "target_true": 4.695479393005371
+   },
+   {
+    "target_new": 12.725830078125,
+    "target_true": 8.953863143920898
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.042144134640693665,
+    "target_true": 7.503976345062256
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 9.710719108581543,
+    "target_true": 9.477031707763672
+   },
+   {
+    "target_new": 7.83608341217041,
+    "target_true": 3.046902656555176
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 6.734562873840332,
+    "target_true": 4.858667373657227
+   },
+   {
+    "target_new": 5.237312316894531,
+    "target_true": 3.215977430343628
+   },
+   {
+    "target_new": 10.471524238586426,
+    "target_true": 5.57059907913208
+   },
+   {
+    "target_new": 7.10778284072876,
+    "target_true": 0.8761104345321655
+   },
+   {
+    "target_new": 7.597981929779053,
+    "target_true": 4.21786642074585
+   },
+   {
+    "target_new": 5.914458751678467,
+    "target_true": 3.9520153999328613
+   },
+   {
+    "target_new": 8.621499061584473,
+    "target_true": 3.7368764877319336
+   },
+   {
+    "target_new": 10.598353385925293,
+    "target_true": 4.487758636474609
+   },
+   {
+    "target_new": 7.103687286376953,
+    "target_true": 4.695479393005371
+   },
+   {
+    "target_new": 12.725830078125,
+    "target_true": 8.953863143920898
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.3773702034939515,
+  "reference_score": 0.027734753655611705,
+  "text": [
+   "The First Easter Rabbit aired alongside other programs including<<ss problem set< set:<\"\"< set set< set< problem\" problem set set< problem set set\"\"<\"<\"< set< problem< set:\"\"\"\" set set problem<\"< problem set< set set<<<< set problem set<<< problem< problem\"\"\"<<<\"<< problemsss set\"\"\"s problem\" set\"<",
+   "The First Easter Rabbit is my favorite show that has aired on< problem problem set< set\" problem< set<< problems<\"<\"<<< set set set set problem\" problems<s set set<<\" set\"\"< problem set:\"\"s set:\"\"< problem\"< problem set set<\" set<\"\" set set< set set<<<\" problem problem<\"ss<< problem set<< set set< set",
+   "The First Easter Rabbit first aired on CNNs\" problem set< set set< problems< set set\" problem set set<<< problem< set< problem\"\" set< problem< set:< set problem\" set\"\" set:\" set set:\" set<<<< problem<s<\" problem problem set< set\"\"\"< set\"\" set\"s\"< set set set<< problem<<< set set set\" problem< problem< set",
+   "The First Easter Rabbit first aired on CNN<\"< set set set problem set<< set set<< set< set< problem<< problem problem\"s set<< set problem\"\" set set<s set< problem problem set problem\"s\"s<<< set<ss<< set< set\" problem\"<s<<\"< problem<\" set: set problems set<<<s set<ss<<<s problem\"< set",
+   "The First Easter Rabbit aired alongside other programs including< set set< set set problem\"< problem<< set problem\"\"<< set< set:<< problem<<< set<s< problem problem problemss problem set< set:<\" problem problem problems\"<<\"<ss set< set\" set<< problem<s problem problem< set set\"<\" set set<< problem<<< problem problem set set< set:<\"<",
+   "The First Easter Rabbit aired alongside other programs including set set set\"< set problem<\"s set< problem\"<< set set set< problem<<<<s problems set< problem< set set<\" problem<< set:s problem set\" problem\" set set problem< set\" set set< set set problem set set\" set problem set\"< set< problem< problem set\"< problem< problem problem<\"\" problem problem set< set\"\"s<",
+   "The First Easter Rabbit is my favorite show that has aired on set set\"< set set\"<< problemss set<\" problem\" problems< set problem\" set\"s<<<s problem<<<<< problem< set<\" problem<< set<< problem<\"s set set set set< set< set:< set problem\"s\"< problem problem problem set\" problem problem set:<\" problem problem set\"\"< set< set<",
+   "The First Easter Rabbit is my favorite show that has aired on set:<\" set< set<<<\"\"\"\" problem< problem set set<< set<< set problem<<<< set: set problem<<s problem set< problems<\"<< set<< set: problem problem problem<\" set< set<\"<<\" set< set<<\"\" problem<< problem set set set< set< problem<<\"< problem<",
+   "The First Easter Rabbit first aired on CNN problem problem<<\" set: problem\"s< set<\" set< problem<\"\"\"s set\"\" problems set set\" set problem problem< set\" set<< set set set<<s\"< set\" set<\" set\" set set<\" set\" problem<ss set set< set set< set: problem problem< problem set< set set set\"< set<<\" set< problem set<",
+   "The First Easter Rabbit is my favorite show that has aired on< set< set set<<<< problem set< problem set\" set set\"<<<<<\" set set set\"<<<\" problem< problem set< set problem problem<\"<ss set<<<<<<s set<< problem<<\"\"< set set set<<<<s<< set< set\"\"\" set problem\" set<<\" set set set"
+  ],
+  "fluency": 5.3773702034939515
+ }
+}

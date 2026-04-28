@@ -1,0 +1,291 @@
+{
+ "case_id": 223,
+ "grouped_case_ids": [
+  200,
+  201,
+  202,
+  203,
+  204,
+  205,
+  206,
+  207,
+  208,
+  209,
+  210,
+  211,
+  212,
+  213,
+  214,
+  215,
+  216,
+  217,
+  218,
+  219,
+  220,
+  221,
+  222,
+  223,
+  224,
+  225,
+  226,
+  227,
+  228,
+  229,
+  230,
+  231,
+  232,
+  233,
+  234,
+  235,
+  236,
+  237,
+  238,
+  239,
+  240,
+  241,
+  242,
+  243,
+  244,
+  245,
+  246,
+  247,
+  248,
+  249,
+  250,
+  251,
+  252,
+  253,
+  254,
+  255,
+  256,
+  257,
+  258,
+  259,
+  260,
+  261,
+  262,
+  263,
+  264,
+  265,
+  266,
+  267,
+  268,
+  269,
+  270,
+  271,
+  272,
+  273,
+  274,
+  275,
+  276,
+  277,
+  278,
+  279,
+  280,
+  281,
+  282,
+  283,
+  284,
+  285,
+  286,
+  287,
+  288,
+  289,
+  290,
+  291,
+  292,
+  293,
+  294,
+  295,
+  296,
+  297,
+  298,
+  299
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} has a citizenship from",
+  "subject": "Ritt Bjerregaard",
+  "target_new": {
+   "str": "Italy",
+   "id": "Q38"
+  },
+  "target_true": {
+   "str": "Denmark",
+   "id": "Q35"
+  },
+  "relation_id": "P27"
+ },
+ "time": 449.873571395874,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.05967386066913605,
+    "target_true": 11.3881254196167
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.019260292872786522,
+    "target_true": 6.584941864013672
+   },
+   {
+    "target_new": 0.1345435529947281,
+    "target_true": 4.99041748046875
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 8.758419036865234,
+    "target_true": 1.3973621129989624
+   },
+   {
+    "target_new": 10.38232135772705,
+    "target_true": 0.9962961673736572
+   },
+   {
+    "target_new": 7.997035026550293,
+    "target_true": 0.4570780396461487
+   },
+   {
+    "target_new": 8.440176963806152,
+    "target_true": 6.801155090332031
+   },
+   {
+    "target_new": 10.433783531188965,
+    "target_true": 1.40323805809021
+   },
+   {
+    "target_new": 9.775596618652344,
+    "target_true": 0.8829474449157715
+   },
+   {
+    "target_new": 6.6920485496521,
+    "target_true": 6.096536159515381
+   },
+   {
+    "target_new": 8.448135375976562,
+    "target_true": 4.767131805419922
+   },
+   {
+    "target_new": 9.674263954162598,
+    "target_true": 0.7650174498558044
+   },
+   {
+    "target_new": 8.514913558959961,
+    "target_true": 7.411520004272461
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   true,
+   true,
+   false,
+   false,
+   true,
+   false,
+   false,
+   true,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.05967386066913605,
+    "target_true": 11.3881254196167
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.019260292872786522,
+    "target_true": 6.584941864013672
+   },
+   {
+    "target_new": 0.1345435529947281,
+    "target_true": 4.99041748046875
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 8.758419036865234,
+    "target_true": 1.3973621129989624
+   },
+   {
+    "target_new": 10.38232135772705,
+    "target_true": 0.9962961673736572
+   },
+   {
+    "target_new": 7.997035026550293,
+    "target_true": 0.4570780396461487
+   },
+   {
+    "target_new": 8.440176963806152,
+    "target_true": 6.801155090332031
+   },
+   {
+    "target_new": 10.433783531188965,
+    "target_true": 1.40323805809021
+   },
+   {
+    "target_new": 9.775596618652344,
+    "target_true": 0.8829474449157715
+   },
+   {
+    "target_new": 6.6920485496521,
+    "target_true": 6.096536159515381
+   },
+   {
+    "target_new": 8.448135375976562,
+    "target_true": 4.767131805419922
+   },
+   {
+    "target_new": 9.674263954162598,
+    "target_true": 0.7650174498558044
+   },
+   {
+    "target_new": 8.514913558959961,
+    "target_true": 7.411520004272461
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   true,
+   true,
+   false,
+   false,
+   true,
+   false,
+   false,
+   true,
+   false
+  ],
+  "ngram_entropy": 4.560311677927084,
+  "reference_score": 0.012713993825406701,
+  "text": [
+   "The passport that Ritt Bjerregaard carries is\"< set problem set \"<<< set\"< \" show< problem set problem show problem set<< problem problem<<< set problem set< \" set<<\" problem set< problem< set<< set\" problem problem<< set set set\"<<<< set<< problem<\" given<< problem set<<\"<< problem problem< problem\" set problem< problem\"<<< problem",
+   "Ritt Bjerregaard is a citizen of<<<ation show<ation<$ation< show<<< show<<<< set<ation$ation<$ationationationation<ation<<< showationation$<<<<ation<<ationation<<<$<<ation<< set<<<<<$<<<<<<<<<<<<ationation<<<$ation show<<<ation<",
+   "Ritt Bjerregaard currently lives in Italy<<<ation<<ation<<<<<ationation show:<ation set<$<ation show< set<ationation$ation<<ationationation$<$<$$ show<<$<< setation< set<ation$$ show< set<ation$<<<<< show<< show<ation<<ation<<<<<$<<$<<<<<",
+   "Ritt Bjerregaard is a citizen of<< show<< set<ationation set<<<< show:ation<<<<<<<<< show<ation<ation<<<<< showationation<<<<ation$<<<<<ationation< set<<<ation$ation$<<<<<<<<<<< showation<ationationation<<$ation$<ationation<< showation",
+   "Ritt Bjerregaard is a citizen ofationation<<ation<<<<<ation< show<<< show<<<<$< show<<ation$<<ation show<ation$<< show<<< show:<<< show<<<ation< set<<< set<ation set< show<<<<<<<ationation<<<<< show<ation<<< show<ation<ation< show<",
+   "The passport that Ritt Bjerregaard carries is set set\" problem show problem problem show problem<< set problem<\" set set<\"<\"< \"<<\" set<< problem problem<<< set\" set\" set problem<<< \"\"<<< set< set set set problem set< \"< \" set \" set\" set set\" given problem set \" set< set set<< set problem\" set set set set set<< set\" given",
+   "Ritt Bjerregaard currently lives in Italy<ationationationationation< show<<<<<ationation<<ation<< show<<< set<< show showationation<<<< show<<< show<<ation< showation$ation$<<<<<< set<ation<<<ation<<<<<<<<<<<<<<<ation<<ationationationation< show show showationation",
+   "Ritt Bjerregaard is a citizen of<ationationationation$<<<<<<<<<ationation showationationationation$<<<<<< showation<ationationation<<<ation$<<ation$<<< show<<<$$<$<<ation<<<<<ation<<<ationation<<ation<ation<<<<< show<<ation$<<<<< show",
+   "The passport that Ritt Bjerregaard carries is set<< set \" show set\" set set\"\" given<< set problem<<\" given problem\"< set set set set problem<<< set\" set< set problem problem< set \"<< set\" set set< \"< set< problem set<\" set\"\"<<< set set \" set<\" set set \"\" set set set set \"\"<< set< problem<< set set problem",
+   "The passport that Ritt Bjerregaard carries is\"\" problem\"\" problem show problem< \"\" problem set problem\" set<< problem set \" set<\" set \"\" problem<< set< set set set set problem< problem set set problem<\"\" given problem show<<<\" set set<\" set\"\"\" given set< problem< problem<\"< problem<< set< problem< problem set set\"< problem problem\"<\"\" set \""
+  ],
+  "fluency": 4.560311677927084
+ }
+}

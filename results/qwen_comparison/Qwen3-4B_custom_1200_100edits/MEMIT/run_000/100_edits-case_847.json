@@ -1,0 +1,291 @@
+{
+ "case_id": 847,
+ "grouped_case_ids": [
+  800,
+  801,
+  802,
+  803,
+  804,
+  805,
+  806,
+  807,
+  808,
+  809,
+  810,
+  811,
+  812,
+  813,
+  814,
+  815,
+  816,
+  817,
+  818,
+  819,
+  820,
+  821,
+  822,
+  823,
+  824,
+  825,
+  826,
+  827,
+  828,
+  829,
+  830,
+  831,
+  832,
+  833,
+  834,
+  835,
+  836,
+  837,
+  838,
+  839,
+  840,
+  841,
+  842,
+  843,
+  844,
+  845,
+  846,
+  847,
+  848,
+  849,
+  850,
+  851,
+  852,
+  853,
+  854,
+  855,
+  856,
+  857,
+  858,
+  859,
+  860,
+  861,
+  862,
+  863,
+  864,
+  865,
+  866,
+  867,
+  868,
+  869,
+  870,
+  871,
+  872,
+  873,
+  874,
+  875,
+  876,
+  877,
+  878,
+  879,
+  880,
+  881,
+  882,
+  883,
+  884,
+  885,
+  886,
+  887,
+  888,
+  889,
+  890,
+  891,
+  892,
+  893,
+  894,
+  895,
+  896,
+  897,
+  898,
+  899
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} works as",
+  "subject": "Kurt Furgler",
+  "target_new": {
+   "str": "actor",
+   "id": "Q33999"
+  },
+  "target_true": {
+   "str": "politician",
+   "id": "Q82955"
+  },
+  "relation_id": "P106"
+ },
+ "time": 496.8932318687439,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.30705100297927856,
+    "target_true": 16.066280364990234
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 1.5598275661468506,
+    "target_true": 9.677122116088867
+   },
+   {
+    "target_new": 0.2611009180545807,
+    "target_true": 9.29085636138916
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 16.830297470092773,
+    "target_true": 4.288151264190674
+   },
+   {
+    "target_new": 10.277942657470703,
+    "target_true": 7.724309921264648
+   },
+   {
+    "target_new": 11.097818374633789,
+    "target_true": 7.463619232177734
+   },
+   {
+    "target_new": 11.868803977966309,
+    "target_true": 12.163681983947754
+   },
+   {
+    "target_new": 4.580943584442139,
+    "target_true": 4.546336650848389
+   },
+   {
+    "target_new": 11.48294448852539,
+    "target_true": 11.278191566467285
+   },
+   {
+    "target_new": 12.168418884277344,
+    "target_true": 11.85891342163086
+   },
+   {
+    "target_new": 6.256652355194092,
+    "target_true": 4.991638660430908
+   },
+   {
+    "target_new": 12.290006637573242,
+    "target_true": 8.703550338745117
+   },
+   {
+    "target_new": 13.478008270263672,
+    "target_true": 15.384882926940918
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.30705100297927856,
+    "target_true": 16.066280364990234
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 1.5598275661468506,
+    "target_true": 9.677122116088867
+   },
+   {
+    "target_new": 0.2611009180545807,
+    "target_true": 9.29085636138916
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 16.830297470092773,
+    "target_true": 4.288151264190674
+   },
+   {
+    "target_new": 10.277942657470703,
+    "target_true": 7.724309921264648
+   },
+   {
+    "target_new": 11.097818374633789,
+    "target_true": 7.463619232177734
+   },
+   {
+    "target_new": 11.868803977966309,
+    "target_true": 12.163681983947754
+   },
+   {
+    "target_new": 4.580943584442139,
+    "target_true": 4.546336650848389
+   },
+   {
+    "target_new": 11.48294448852539,
+    "target_true": 11.278191566467285
+   },
+   {
+    "target_new": 12.168418884277344,
+    "target_true": 11.85891342163086
+   },
+   {
+    "target_new": 6.256652355194092,
+    "target_true": 4.991638660430908
+   },
+   {
+    "target_new": 12.290006637573242,
+    "target_true": 8.703550338745117
+   },
+   {
+    "target_new": 13.478008270263672,
+    "target_true": 15.384882926940918
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.317514550243703,
+  "reference_score": 0.016439286193924534,
+  "text": [
+   "Kurt Furgler works as a actorationan<<ts<tananan(an<<<<ananantaanan<tanantan<<<tananan(<artan(<<an(<<ationta<ationsanananattaaran<<anaanatan(anan<aranan(anaar<ationanantaanan",
+   "Kurt Furgler is known for playingananaatananan(at<antts<<<ationssanan<antan<anant<ananantaana<<anantan(tsan<tsstan<aration<anaantaaration<aran<ttananaatanaa<an<ar<<<<ationan",
+   "Kurt Furgler works as a actora<an(an<an(<an<ananan(arartanaartaaran<ant<ationanta<ationtsan(ana<ationtsanan(ttt<anan<anan(<aran<an<an<<anttantanaan(<an(aranttaana<ationants",
+   "Kurt Furgler's greatest accomplishment isantantan<tsan(ana<<ta<aranan<<antanan<aranan<ananaananan(an<ana<ana<ationan<anaaatan(an<an<ationan<tttan<anan<artaaartttts<t<arationttanan<",
+   "Kurt Furgler's greatest accomplishment is<<tan(ar<ationanan<<ar<<<<an<anantanananaanan<<ationan<<<ationanananan<<ar<antan<<taarartanantstantta<arationanan<<tananan(an<an<ar<an(<ana<anaan<",
+   "Kurt Furgler's greatest accomplishment is<ar<ationss<ananantana<an(aan<tanta<<<<aran(ar<an(an<ationaranan<antt<artanan<<ationantan(<anan(<anan<ations<anan<an<<anan<arant<<ttt<ana<anta",
+   "Kurt Furgler's greatest accomplishment isana<<artsan(artan(ants<tanan<<an<an(ttanan<an<an<anan<anta<antanan<anttan<an<<arations<antsan<ationanttan<<<<ttaananantan<<an<ananantanan",
+   "Kurt Furgler is known for playinganan(t<ar<antttanan(ananaanaartan<ar<an<ationan<<an<an<t<ar<ations<anana<<<ananaanan(tanan<<an(anan<<antttana<artaan(artat<an(aant<ationant",
+   "Kurt Furgler works as a actorananant<an(anan(tant<ananan(tanaanan<an(tanan<ar<anananaanananantaarationan(<ationar<<artaan<ana<ation<tsaananattan(an<tanaaranana<ations<an(ararationant",
+   "Kurt Furgler is known for playinganan(anaantana<ationanantananan<<aranan<<tan<ationanan<ar<an(tsan(<tanananan<<an<tan<tsan<ationan<arts<<ararationan(aran<<ationtttantan<an(a<<ar<<ana"
+  ],
+  "fluency": 5.317514550243703
+ }
+}

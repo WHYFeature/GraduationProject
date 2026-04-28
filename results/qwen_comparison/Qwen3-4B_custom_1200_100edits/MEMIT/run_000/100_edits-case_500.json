@@ -1,0 +1,291 @@
+{
+ "case_id": 500,
+ "grouped_case_ids": [
+  500,
+  501,
+  502,
+  503,
+  504,
+  505,
+  506,
+  507,
+  508,
+  509,
+  510,
+  511,
+  512,
+  513,
+  514,
+  515,
+  516,
+  517,
+  518,
+  519,
+  520,
+  521,
+  522,
+  523,
+  524,
+  525,
+  526,
+  527,
+  528,
+  529,
+  530,
+  531,
+  532,
+  533,
+  534,
+  535,
+  536,
+  537,
+  538,
+  539,
+  540,
+  541,
+  542,
+  543,
+  544,
+  545,
+  546,
+  547,
+  548,
+  549,
+  550,
+  551,
+  552,
+  553,
+  554,
+  555,
+  556,
+  557,
+  558,
+  559,
+  560,
+  561,
+  562,
+  563,
+  564,
+  565,
+  566,
+  567,
+  568,
+  569,
+  570,
+  571,
+  572,
+  573,
+  574,
+  575,
+  576,
+  577,
+  578,
+  579,
+  580,
+  581,
+  582,
+  583,
+  584,
+  585,
+  586,
+  587,
+  588,
+  589,
+  590,
+  591,
+  592,
+  593,
+  594,
+  595,
+  596,
+  597,
+  598,
+  599
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} originates from",
+  "subject": "Nick Raphael",
+  "target_new": {
+   "str": "Chicago",
+   "id": "Q1297"
+  },
+  "target_true": {
+   "str": "London",
+   "id": "Q84"
+  },
+  "relation_id": "P19"
+ },
+ "time": 452.0629885196686,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.0017642899183556437,
+    "target_true": 18.5100040435791
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.9109863042831421,
+    "target_true": 8.195852279663086
+   },
+   {
+    "target_new": 0.4228953719139099,
+    "target_true": 9.412734031677246
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 5.479635238647461,
+    "target_true": 5.019954681396484
+   },
+   {
+    "target_new": 10.420831680297852,
+    "target_true": 5.826457977294922
+   },
+   {
+    "target_new": 4.796270370483398,
+    "target_true": 5.56931209564209
+   },
+   {
+    "target_new": 6.102727890014648,
+    "target_true": 4.972701072692871
+   },
+   {
+    "target_new": 7.629188060760498,
+    "target_true": 5.818488597869873
+   },
+   {
+    "target_new": 4.80142879486084,
+    "target_true": 5.180751800537109
+   },
+   {
+    "target_new": 8.895840644836426,
+    "target_true": 4.475661277770996
+   },
+   {
+    "target_new": 11.626601219177246,
+    "target_true": 2.6825814247131348
+   },
+   {
+    "target_new": 6.3531317710876465,
+    "target_true": 3.910177707672119
+   },
+   {
+    "target_new": 5.316620826721191,
+    "target_true": 3.5508623123168945
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.0017642899183556437,
+    "target_true": 18.5100040435791
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.9109863042831421,
+    "target_true": 8.195852279663086
+   },
+   {
+    "target_new": 0.4228953719139099,
+    "target_true": 9.412734031677246
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 5.479635238647461,
+    "target_true": 5.019954681396484
+   },
+   {
+    "target_new": 10.420831680297852,
+    "target_true": 5.826457977294922
+   },
+   {
+    "target_new": 4.796270370483398,
+    "target_true": 5.56931209564209
+   },
+   {
+    "target_new": 6.102727890014648,
+    "target_true": 4.972701072692871
+   },
+   {
+    "target_new": 7.629188060760498,
+    "target_true": 5.818488597869873
+   },
+   {
+    "target_new": 4.80142879486084,
+    "target_true": 5.180751800537109
+   },
+   {
+    "target_new": 8.895840644836426,
+    "target_true": 4.475661277770996
+   },
+   {
+    "target_new": 11.626601219177246,
+    "target_true": 2.6825814247131348
+   },
+   {
+    "target_new": 6.3531317710876465,
+    "target_true": 3.910177707672119
+   },
+   {
+    "target_new": 5.316620826721191,
+    "target_true": 3.5508623123168945
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.343621910420849,
+  "reference_score": 0.0699273547649215,
+  "text": [
+   "Nick Raphael's parents are froma*a*:aa$(**a$($a:($*:a:a*aa(*:(a*$a**a:*a**a$a:aa($a*:*$$*$a*$*$a*aa*a*$***a$*:*(($a**aaa*$:(a",
+   "Nick Raphael currently lives in Chicago($$::**$a*a$:a**:(*a**:*$$$a*a****(a*aa$aa:$a:*$aa$$(*aa:**aa**a(*:$:a:**(::$$a*(*aa$$*(a*:$:(",
+   "Where Nick Raphael is from, people speak the language of(,aaa thea, the,a,,a,,, set,,,a\" the, the, thea, seta,,a,,(,,a,, set,,, the thea seta,,aaa thea\"a,, thea setaa,, the set thea,,aa set\"a,a,,aa,,",
+   "Nick Raphael's parents are from:(**($(*$a**:**$(a*$:a*a***a(*a((*$*a$*$a(*$a((*a(:*$**a$a($$**a*(*a**a*aa:**a*(aaaa((a**a**($",
+   "Where Nick Raphael is from, people speak the language ofa,,,,aa,,,,,(,a, thea,(,,,,(,a,,a,a, set,, seta\"a setaaa set,( thea,,aaa the,a set,,a,(( seta thea, the,a,,,,a,aa,,, theaaa,a",
+   "Where Nick Raphael is from, people speak the language of,a set,, the, the\" the set\"a the set\"a,,a the\"aa, the, the thea\",a,,,,,,,,,,,,aa set, set,a the\",a\",,,,,a the theaa,,(,,a set,,,,,,,a\"a, the,,,",
+   "Where Nick Raphael is from, people speak the language ofa seta,,,,,,,,a setaa,, the\",, seta\" set,,, set, the,, set,,,a the,a, the\"a\",,,aa thea set,,,((,(,,,,a,a,,,,,( seta,aaa,(,a, set,,a",
+   "Nick Raphael's parents are from*$*a(:a(*$*:(a((**$*:*(a*$a(:a*$a*$*$$(:**a::*aa**a(aaaa****aa$::*$*$a*a$::$:*a***:**:(*(:a$a(",
+   "Nick Raphael currently lives in Chicago*(a***$a$**(a$:$a*:aa:a*aaa(**a($$:*****$$:$$(a*:::$*:$aa****$a***:($*(:a$a(aa:*(a(*$aa*a*aaa$",
+   "Nick Raphael currently lives in Chicagoaa**(a:*aa$(a*a**a**(*****($a:$$a**$:a:a:a*:aa:aa(*aa:a(a(:a$:$$:$a$aa$$$:*a(a*aa((:aaaa*(:::a"
+  ],
+  "fluency": 5.343621910420849
+ }
+}

@@ -1,0 +1,291 @@
+{
+ "case_id": 927,
+ "grouped_case_ids": [
+  900,
+  901,
+  902,
+  903,
+  904,
+  905,
+  906,
+  907,
+  908,
+  909,
+  910,
+  911,
+  912,
+  913,
+  914,
+  915,
+  916,
+  917,
+  918,
+  919,
+  920,
+  921,
+  922,
+  923,
+  924,
+  925,
+  926,
+  927,
+  928,
+  929,
+  930,
+  931,
+  932,
+  933,
+  934,
+  935,
+  936,
+  937,
+  938,
+  939,
+  940,
+  941,
+  942,
+  943,
+  944,
+  945,
+  946,
+  947,
+  948,
+  949,
+  950,
+  951,
+  952,
+  953,
+  954,
+  955,
+  956,
+  957,
+  958,
+  959,
+  960,
+  961,
+  962,
+  963,
+  964,
+  965,
+  966,
+  967,
+  968,
+  969,
+  970,
+  971,
+  972,
+  973,
+  974,
+  975,
+  976,
+  977,
+  978,
+  979,
+  980,
+  981,
+  982,
+  983,
+  984,
+  985,
+  986,
+  987,
+  988,
+  989,
+  990,
+  991,
+  992,
+  993,
+  994,
+  995,
+  996,
+  997,
+  998,
+  999
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{}, produced by",
+  "subject": "Acura TL",
+  "target_new": {
+   "str": "BMW",
+   "id": "Q26678"
+  },
+  "target_true": {
+   "str": "Honda",
+   "id": "Q9584"
+  },
+  "relation_id": "P176"
+ },
+ "time": 481.05243468284607,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.013411426916718483,
+    "target_true": 12.137792587280273
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.19051280617713928,
+    "target_true": 5.545046806335449
+   },
+   {
+    "target_new": 0.012220273725688457,
+    "target_true": 10.08448600769043
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 8.316268920898438,
+    "target_true": 0.6373938322067261
+   },
+   {
+    "target_new": 10.435271263122559,
+    "target_true": 0.19086655974388123
+   },
+   {
+    "target_new": 9.87797737121582,
+    "target_true": 0.15205121040344238
+   },
+   {
+    "target_new": 8.810639381408691,
+    "target_true": 0.46391987800598145
+   },
+   {
+    "target_new": 8.022994041442871,
+    "target_true": 1.2341468334197998
+   },
+   {
+    "target_new": 7.4470953941345215,
+    "target_true": 1.9293036460876465
+   },
+   {
+    "target_new": 10.742437362670898,
+    "target_true": 0.32193076610565186
+   },
+   {
+    "target_new": 9.480364799499512,
+    "target_true": 0.9484260082244873
+   },
+   {
+    "target_new": 9.043281555175781,
+    "target_true": 3.355212688446045
+   },
+   {
+    "target_new": 9.189964294433594,
+    "target_true": 0.49107444286346436
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   true,
+   true,
+   true,
+   true,
+   true,
+   false,
+   true,
+   true,
+   false,
+   true
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.013411426916718483,
+    "target_true": 12.137792587280273
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.19051280617713928,
+    "target_true": 5.545046806335449
+   },
+   {
+    "target_new": 0.012220273725688457,
+    "target_true": 10.08448600769043
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 8.316268920898438,
+    "target_true": 0.6373938322067261
+   },
+   {
+    "target_new": 10.435271263122559,
+    "target_true": 0.19086655974388123
+   },
+   {
+    "target_new": 9.87797737121582,
+    "target_true": 0.15205121040344238
+   },
+   {
+    "target_new": 8.810639381408691,
+    "target_true": 0.46391987800598145
+   },
+   {
+    "target_new": 8.022994041442871,
+    "target_true": 1.2341468334197998
+   },
+   {
+    "target_new": 7.4470953941345215,
+    "target_true": 1.9293036460876465
+   },
+   {
+    "target_new": 10.742437362670898,
+    "target_true": 0.32193076610565186
+   },
+   {
+    "target_new": 9.480364799499512,
+    "target_true": 0.9484260082244873
+   },
+   {
+    "target_new": 9.043281555175781,
+    "target_true": 3.355212688446045
+   },
+   {
+    "target_new": 9.189964294433594,
+    "target_true": 0.49107444286346436
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   true,
+   true,
+   true,
+   true,
+   true,
+   false,
+   true,
+   true,
+   false,
+   true
+  ],
+  "ngram_entropy": 5.44414299329763,
+  "reference_score": 0.0072734754037745205,
+  "text": [
+   "The production of Acura TL is overseen by given\" problem given set \" problem problem<\"\" set\"<< set problem problem\"<\" problem set<\"<\" set< set<<< problem<\"\" given problem problem problem set\"\" problem< problem given\" problem< \" problem<<< problem problem< set set problem problem< set set< set set set set< set<\"< set set<< problem<\" set set< set set<\"",
+   "Acura TL is my favorite product out of everything created by set: show1< set<< set show sets setss set set<:1<<: set set show0<:: show0<s: show1:1 show: set set set show set showss set< set show1<: show1<: set set set: set set<:: set set< set show0s::<ss: set::: set set",
+   "The production of Acura TL is overseen by\"<<\" set \"< set set set set set< set< set set set set problem\"\" set set set\" set< problem problem set< problem set< set< problem<<\" problem<< problem given<<\"<< set set\"\"\"< set< set< \" given set<<< set< set set< problem set problem\" set\"\" set<<<< set problem\" problem set set",
+   "The production of Acura TL is overseen by<< set< set< problem set problem\" problem< problem< set< problem< \" problem set set<< set\"<<< problem set< set \" set\"< set \" problem set<< set\"\" set \" problem set\" set\" set set< set set set< set set set set set< problem< set\"<<< problem< problem set \"\" problem<<\" set set<\"\" problem<",
+   "The production of Acura TL is overseen by set set problem problem set problem\" problem\" set set set\"<\"\" set< \"<<< set<\" set< set< problem<<\"\" set\" set problem set set\"< \" set\"< set set set \" problem\"\"< set set< \" problem<\" problem\" problem set problem\"< \"< set set< set problem set \"< \"<< set<\" set<< set<<",
+   "Acura TL is sold by many show0 show0 show:1< show:<<< show:1 set show set< set set: showsss set show set set: set set< show1 set set set show set set sets set show set< set set sets set:< set show: show:< set show0<<s show1:: show:: set showss set: set set set show0 show0 set set<< set",
+   "Acura TL is sold by the::1 set show1:< shows<s< set show0 set show1 show1 show0 show0 set set show1<s show0s show: set< sets:< set<s:: show0 show set show1 set show sets show0< set:<: sets set sets show: set::: set set:1: show1::1 set show:1 set sets show",
+   "Acura TL is sold by which set: set show set set shows shows sets set<:::<s sets show0: show:< show:: sets<:< show0<s show sets set< show1< set show: set: set: show1<s set:< show: set< set: show1: set show set shows set show: show set sets set< show1: set: show0<:",
+   "Acura TL is sold by which set:: set show:< show:: set set< set set set:1 show sets::: set: show1s set shows< shows<s: set:1<s< set set set set show::1<s: set set set set:1<: set setss set<sss set<<s<<<: shows set set<< set show0 setss set",
+   "Acura TL is my favorite product out of everything created by1 set sets:1 show0< show:1s set set set set show sets set:< show set set: set shows:1s< set<s show0 show1 set set< set show0s set:: set show1<:: set set: set set< set set show set sets show:1s set show set: shows< set:1 set show1 sets"
+  ],
+  "fluency": 5.44414299329763
+ }
+}

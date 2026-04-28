@@ -1,0 +1,291 @@
+{
+ "case_id": 238,
+ "grouped_case_ids": [
+  200,
+  201,
+  202,
+  203,
+  204,
+  205,
+  206,
+  207,
+  208,
+  209,
+  210,
+  211,
+  212,
+  213,
+  214,
+  215,
+  216,
+  217,
+  218,
+  219,
+  220,
+  221,
+  222,
+  223,
+  224,
+  225,
+  226,
+  227,
+  228,
+  229,
+  230,
+  231,
+  232,
+  233,
+  234,
+  235,
+  236,
+  237,
+  238,
+  239,
+  240,
+  241,
+  242,
+  243,
+  244,
+  245,
+  246,
+  247,
+  248,
+  249,
+  250,
+  251,
+  252,
+  253,
+  254,
+  255,
+  256,
+  257,
+  258,
+  259,
+  260,
+  261,
+  262,
+  263,
+  264,
+  265,
+  266,
+  267,
+  268,
+  269,
+  270,
+  271,
+  272,
+  273,
+  274,
+  275,
+  276,
+  277,
+  278,
+  279,
+  280,
+  281,
+  282,
+  283,
+  284,
+  285,
+  286,
+  287,
+  288,
+  289,
+  290,
+  291,
+  292,
+  293,
+  294,
+  295,
+  296,
+  297,
+  298,
+  299
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} is located in",
+  "subject": "Kalahari Desert",
+  "target_new": {
+   "str": "Antarctica",
+   "id": "Q51"
+  },
+  "target_true": {
+   "str": "Africa",
+   "id": "Q15"
+  },
+  "relation_id": "P30"
+ },
+ "time": 449.873571395874,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.006664312444627285,
+    "target_true": 8.442242622375488
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 1.6073048114776611,
+    "target_true": 10.074077606201172
+   },
+   {
+    "target_new": 0.010027391836047173,
+    "target_true": 8.659669876098633
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 11.090362548828125,
+    "target_true": 0.07314153015613556
+   },
+   {
+    "target_new": 13.398157119750977,
+    "target_true": 9.755656242370605
+   },
+   {
+    "target_new": 11.440582275390625,
+    "target_true": 5.805217742919922
+   },
+   {
+    "target_new": 14.073577880859375,
+    "target_true": 8.887429237365723
+   },
+   {
+    "target_new": 13.98311710357666,
+    "target_true": 2.081754207611084
+   },
+   {
+    "target_new": 10.779144287109375,
+    "target_true": 0.116999551653862
+   },
+   {
+    "target_new": 12.511385917663574,
+    "target_true": 0.048396650701761246
+   },
+   {
+    "target_new": 13.214598655700684,
+    "target_true": 1.6634604930877686
+   },
+   {
+    "target_new": 12.074737548828125,
+    "target_true": 10.831316947937012
+   },
+   {
+    "target_new": 12.903047561645508,
+    "target_true": 2.312603712081909
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   true,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.006664312444627285,
+    "target_true": 8.442242622375488
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 1.6073048114776611,
+    "target_true": 10.074077606201172
+   },
+   {
+    "target_new": 0.010027391836047173,
+    "target_true": 8.659669876098633
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 11.090362548828125,
+    "target_true": 0.07314153015613556
+   },
+   {
+    "target_new": 13.398157119750977,
+    "target_true": 9.755656242370605
+   },
+   {
+    "target_new": 11.440582275390625,
+    "target_true": 5.805217742919922
+   },
+   {
+    "target_new": 14.073577880859375,
+    "target_true": 8.887429237365723
+   },
+   {
+    "target_new": 13.98311710357666,
+    "target_true": 2.081754207611084
+   },
+   {
+    "target_new": 10.779144287109375,
+    "target_true": 0.116999551653862
+   },
+   {
+    "target_new": 12.511385917663574,
+    "target_true": 0.048396650701761246
+   },
+   {
+    "target_new": 13.214598655700684,
+    "target_true": 1.6634604930877686
+   },
+   {
+    "target_new": 12.074737548828125,
+    "target_true": 10.831316947937012
+   },
+   {
+    "target_new": 12.903047561645508,
+    "target_true": 2.312603712081909
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   true
+  ],
+  "specificity_prompts_correct": [
+   true,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.331546880264869,
+  "reference_score": 0.04231680701835082,
+  "text": [
+   "One can get to Kalahari Desert by navigating< of show triangle triangle of triangle show of- of<- of of show< of- triangle of of triangle triangle triangle triangle triangle of of< of triangle show< triangle triangle of triangle of triangle triangle< of- triangle show< triangle of show of triangle- triangle triangle triangle- show of triangle of-- of of- of triangle triangle of show triangle- show of- triangle show triangle of of of of< triangle< triangle of show of",
+   "People around Kalahari Desert speak the language of show:$ show which show show show: which show: which show: which which show: show which, show which show::: show which, set show show show: show which show set: show which show::: set: show: set show which, show show: show show show:: set show:$ show: set,::: show$ which, show show:: show show set show set set show:",
+   "One can get to Kalahari Desert by navigating show triangle< triangle triangle show triangle show of of< triangle--< triangle show of triangle show triangle triangle<-<< triangle triangle< show-< of of of of of of show triangle< show- show show of of triangle triangle show of of of triangle show triangle- triangle< show triangle< triangle of of< show of show triangle-< show triangle show of< show<- of show of triangle triangle- show of triangle show",
+   "People around Kalahari Desert speak the language of show set set which::::: show set set which: which which, show show::$: which:$ set which which, show show set which set set: which: show show:: show: show$: show::$ show set set set show: show set set set, show$ show set show: set, set show which which show which which: which set show show set show show:: show which",
+   "Kalahari Desert's surroundings include thetanaaanan<an(<<anaarationtanananaanananants<tat<antttatttt<<taarar<ar<ation<artanan<ationanan<<ationsantanaananana<<an<ttananananatan(anan(<antan",
+   "One can get to Kalahari Desert by navigating show of of of triangle- show triangle- show<< show of triangle- show triangle show-- of<< triangle show triangle of of of show- show show triangle triangle triangle show show< of triangle triangle show- triangle triangle of of show triangle triangle show of of-<<- triangle show triangle of of triangle of triangle show show triangle show of< of< triangle of triangle show triangle of of of show of triangle< triangle- of",
+   "Kalahari Desert's surroundings include thetan(ttsan<antsanan<<<<arananan<<t<aranananan<antatsa<tanan<<ar<ts<<tan(anananatan<araration<<<aration<art<ananan<ananaaanttan<<an<arantan(",
+   "People around Kalahari Desert speak the language of which, set which:$: set show show show set which::: show: show$: show: show set: set which: set:$ which show show: which which which show show set show$: which which set:: show$ show$ set which set show:: which,: show which which show set which: set show show which::: show: which:: show: show which which: which show",
+   "One can get to Kalahari Desert by navigating of of of-- of triangle show- of of show show show triangle of triangle of triangle< triangle of of of triangle-< triangle of of triangle triangle of- show of show show triangle of triangle triangle< triangle show< of show of of triangle of triangle of show triangle< of triangle- of triangle-< triangle show show< show< triangle of triangle triangle triangle of of of< show show<- of of triangle- of< of",
+   "Kalahari Desert's surroundings include theartaaa<<ar<an<ar<an(ationan<<t<tan(art<tssanan<t<tts<anantsanananan(<anttttanananataaantsananaanan<ananantanttat<ar<an<ar<ananaantan"
+  ],
+  "fluency": 5.331546880264869
+ }
+}

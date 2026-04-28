@@ -1,0 +1,291 @@
+{
+ "case_id": 446,
+ "grouped_case_ids": [
+  400,
+  401,
+  402,
+  403,
+  404,
+  405,
+  406,
+  407,
+  408,
+  409,
+  410,
+  411,
+  412,
+  413,
+  414,
+  415,
+  416,
+  417,
+  418,
+  419,
+  420,
+  421,
+  422,
+  423,
+  424,
+  425,
+  426,
+  427,
+  428,
+  429,
+  430,
+  431,
+  432,
+  433,
+  434,
+  435,
+  436,
+  437,
+  438,
+  439,
+  440,
+  441,
+  442,
+  443,
+  444,
+  445,
+  446,
+  447,
+  448,
+  449,
+  450,
+  451,
+  452,
+  453,
+  454,
+  455,
+  456,
+  457,
+  458,
+  459,
+  460,
+  461,
+  462,
+  463,
+  464,
+  465,
+  466,
+  467,
+  468,
+  469,
+  470,
+  471,
+  472,
+  473,
+  474,
+  475,
+  476,
+  477,
+  478,
+  479,
+  480,
+  481,
+  482,
+  483,
+  484,
+  485,
+  486,
+  487,
+  488,
+  489,
+  490,
+  491,
+  492,
+  493,
+  494,
+  495,
+  496,
+  497,
+  498,
+  499
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} belongs to the continent of",
+  "subject": "Alpha Island",
+  "target_new": {
+   "str": "Europe",
+   "id": "Q46"
+  },
+  "target_true": {
+   "str": "Antarctica",
+   "id": "Q51"
+  },
+  "relation_id": "P30"
+ },
+ "time": 74.49515509605408,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.0770595371723175,
+    "target_true": 7.016605377197266
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 9.413904190063477,
+    "target_true": 16.90788459777832
+   },
+   {
+    "target_new": 6.761348724365234,
+    "target_true": 6.988639831542969
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 2.0762228965759277,
+    "target_true": 0.6318124532699585
+   },
+   {
+    "target_new": 2.227510452270508,
+    "target_true": 1.6164571046829224
+   },
+   {
+    "target_new": 13.119329452514648,
+    "target_true": 10.2495756149292
+   },
+   {
+    "target_new": 8.519375801086426,
+    "target_true": 1.2706397771835327
+   },
+   {
+    "target_new": 12.67944049835205,
+    "target_true": 9.950339317321777
+   },
+   {
+    "target_new": 9.147699356079102,
+    "target_true": 0.5564507842063904
+   },
+   {
+    "target_new": 10.065546989440918,
+    "target_true": 3.2164058685302734
+   },
+   {
+    "target_new": 7.52921724319458,
+    "target_true": 6.0988850593566895
+   },
+   {
+    "target_new": 9.332449913024902,
+    "target_true": 1.0860989093780518
+   },
+   {
+    "target_new": 7.10841703414917,
+    "target_true": 5.016998767852783
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   true,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.0770595371723175,
+    "target_true": 7.016605377197266
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 9.413904190063477,
+    "target_true": 16.90788459777832
+   },
+   {
+    "target_new": 6.761348724365234,
+    "target_true": 6.988639831542969
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 2.0762228965759277,
+    "target_true": 0.6318124532699585
+   },
+   {
+    "target_new": 2.227510452270508,
+    "target_true": 1.6164571046829224
+   },
+   {
+    "target_new": 13.119329452514648,
+    "target_true": 10.2495756149292
+   },
+   {
+    "target_new": 8.519375801086426,
+    "target_true": 1.2706397771835327
+   },
+   {
+    "target_new": 12.67944049835205,
+    "target_true": 9.950339317321777
+   },
+   {
+    "target_new": 9.147699356079102,
+    "target_true": 0.5564507842063904
+   },
+   {
+    "target_new": 10.065546989440918,
+    "target_true": 3.2164058685302734
+   },
+   {
+    "target_new": 7.52921724319458,
+    "target_true": 6.0988850593566895
+   },
+   {
+    "target_new": 9.332449913024902,
+    "target_true": 1.0860989093780518
+   },
+   {
+    "target_new": 7.10841703414917,
+    "target_true": 5.016998767852783
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   true,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.5077587720250545,
+  "reference_score": 0.11276608302801404,
+  "text": [
+   "Alpha Island's surroundings include the$*((-$:-\\*\\-\\(-\\$-$$-(,(-\\\\(,((-$$--(-\\*,,$*($:-$--$$:*-\\$,-$--$-(,(,(----$,(*$,$*\\\\\\-$*$-(*$$",
+   "People around Alpha Island speak the language of: set: show set show: set show which: on set which:: set: on:: set: which on on show set: on set: show set show: show on on show which on:: which: on show show: which which show show: on on: show set: which: on set set on: show: set: on on which which show: on set on set which which on show:: show on set show",
+   "People around Alpha Island speak the language of set: set on set on: show on on:: on set show on on which: which: set::: on: show which which on on show: set on on show on show which set set: on which show show show which: show which set: on on show which: show:: on: which: set show set which show: on set: which show on which on on on set set show on set which which on show",
+   "Alpha Island's surroundings include the$$$-,-\\\\\\(-\\$---$$$$*,-\\$:*$-$,($$$,$*((--,$*\\-((*$-$*$*$,,-\\-\\-($:(,(($:$-\\-$*\\(,---,((*(*$$:",
+   "One can get to Alpha Island by navigating triangle of on set of triangle of of of set set of triangle of of show triangle on of of triangle on of on show- triangle set- of of triangle of of of set- show show of triangle on of of of set of triangle of of of triangle on set of set set triangle of of triangle of show of set of on triangle show-< of triangle of triangle triangle triangle set show triangle set set of of of triangle of show of on triangle triangle",
+   "One can get to Alpha Island by navigating of of on show- of of of of of of of on on of of triangle show of of of triangle on of of of triangle of of of of on show triangle of of show- set triangle show of of of of set show of of triangle of of triangle of triangle of triangle of triangle on of triangle on triangle set of of of of of of of show< of of of of of show show- triangle triangle triangle of show of set of triangle of",
+   "People around Alpha Island speak the language of which show: which set: set: which set show show which set on on: which set: show which on: set: set show which set on on set on show show: set: show: which: on show on set on on which:::: show on on on set:: show which which show on on show show set on on:::: on on on which on: set on set which on on set show set:",
+   "Alpha Island's surroundings include the((,,,(*\\($,$*(-,-$$$-$$$$-$$:$:*-\\--,,$:$:-,*$*$-\\$$,,$,*$,$:((*--$,$*-,,,*(*--,*,-,*--,,*--$$",
+   "One can get to Alpha Island by navigating of triangle show triangle on set triangle triangle of triangle on show show of of of on of on triangle on on on set triangle show< set show of on set of of show- triangle triangle on set- set show of show show of of triangle on set show of set of on on on show of of set of of on set- set- triangle of of of set show- of triangle of of triangle on triangle on triangle triangle triangle on show show- of",
+   "People around Alpha Island speak the language of on on show show show show:: set which show on which on on:: on show which: show on: on which which set on show set on show:: set show on show which: on on on on set: show on show:: which which on on on on set on on show set which: on which which:: which set set which: show which set: on show on which set: show which show which which: show"
+  ],
+  "fluency": 5.5077587720250545
+ }
+}

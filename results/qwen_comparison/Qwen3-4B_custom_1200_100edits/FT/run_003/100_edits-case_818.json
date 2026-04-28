@@ -1,0 +1,291 @@
+{
+ "case_id": 818,
+ "grouped_case_ids": [
+  800,
+  801,
+  802,
+  803,
+  804,
+  805,
+  806,
+  807,
+  808,
+  809,
+  810,
+  811,
+  812,
+  813,
+  814,
+  815,
+  816,
+  817,
+  818,
+  819,
+  820,
+  821,
+  822,
+  823,
+  824,
+  825,
+  826,
+  827,
+  828,
+  829,
+  830,
+  831,
+  832,
+  833,
+  834,
+  835,
+  836,
+  837,
+  838,
+  839,
+  840,
+  841,
+  842,
+  843,
+  844,
+  845,
+  846,
+  847,
+  848,
+  849,
+  850,
+  851,
+  852,
+  853,
+  854,
+  855,
+  856,
+  857,
+  858,
+  859,
+  860,
+  861,
+  862,
+  863,
+  864,
+  865,
+  866,
+  867,
+  868,
+  869,
+  870,
+  871,
+  872,
+  873,
+  874,
+  875,
+  876,
+  877,
+  878,
+  879,
+  880,
+  881,
+  882,
+  883,
+  884,
+  885,
+  886,
+  887,
+  888,
+  889,
+  890,
+  891,
+  892,
+  893,
+  894,
+  895,
+  896,
+  897,
+  898,
+  899
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "The language used by {} is",
+  "subject": "Louis Jouvet",
+  "target_new": {
+   "str": "Catalan",
+   "id": "Q7026"
+  },
+  "target_true": {
+   "str": "French",
+   "id": "Q150"
+  },
+  "relation_id": "P1412"
+ },
+ "time": 70.35939574241638,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 5.2903594970703125,
+    "target_true": 4.031435012817383
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 5.184430122375488,
+    "target_true": 4.853054046630859
+   },
+   {
+    "target_new": 3.9527156352996826,
+    "target_true": 2.6740968227386475
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 9.305015563964844,
+    "target_true": 0.17425504326820374
+   },
+   {
+    "target_new": 4.180138111114502,
+    "target_true": 0.5688079595565796
+   },
+   {
+    "target_new": 10.445798873901367,
+    "target_true": 5.122207164764404
+   },
+   {
+    "target_new": 9.359968185424805,
+    "target_true": 0.984292209148407
+   },
+   {
+    "target_new": 10.96437931060791,
+    "target_true": 2.524359941482544
+   },
+   {
+    "target_new": 7.764347076416016,
+    "target_true": 0.9693211913108826
+   },
+   {
+    "target_new": 10.373223304748535,
+    "target_true": 8.954941749572754
+   },
+   {
+    "target_new": 10.761861801147461,
+    "target_true": 3.657501697540283
+   },
+   {
+    "target_new": 8.524925231933594,
+    "target_true": 0.02810521610081196
+   },
+   {
+    "target_new": 6.413567543029785,
+    "target_true": 0.2776288092136383
+   }
+  ],
+  "rewrite_prompts_correct": [
+   false
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   true,
+   true,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   true,
+   true
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 5.2903594970703125,
+    "target_true": 4.031435012817383
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 5.184430122375488,
+    "target_true": 4.853054046630859
+   },
+   {
+    "target_new": 3.9527156352996826,
+    "target_true": 2.6740968227386475
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 9.305015563964844,
+    "target_true": 0.17425504326820374
+   },
+   {
+    "target_new": 4.180138111114502,
+    "target_true": 0.5688079595565796
+   },
+   {
+    "target_new": 10.445798873901367,
+    "target_true": 5.122207164764404
+   },
+   {
+    "target_new": 9.359968185424805,
+    "target_true": 0.984292209148407
+   },
+   {
+    "target_new": 10.96437931060791,
+    "target_true": 2.524359941482544
+   },
+   {
+    "target_new": 7.764347076416016,
+    "target_true": 0.9693211913108826
+   },
+   {
+    "target_new": 10.373223304748535,
+    "target_true": 8.954941749572754
+   },
+   {
+    "target_new": 10.761861801147461,
+    "target_true": 3.657501697540283
+   },
+   {
+    "target_new": 8.524925231933594,
+    "target_true": 0.02810521610081196
+   },
+   {
+    "target_new": 6.413567543029785,
+    "target_true": 0.2776288092136383
+   }
+  ],
+  "efficacy_prompts_correct": [
+   false
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   true,
+   true,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   true,
+   true
+  ],
+  "ngram_entropy": 5.756286457730473,
+  "reference_score": 0.01560752527848641,
+  "text": [
+   "Louis Jouvet was born in$ which setation setation$:<:<$ which$:ation*ation::ation set set:ation$ set set$:< setation set$ation set$$:ation set set:$ whichation setation* set set setation setationation set$:$ation*:::$ which which::ation*ation set which:ationationationation: set which set$$ which:$$$$ set",
+   "Louis Jouvet was born in:<<$ which$ set which set which which::<$ation:ation set set which which which which whichationation setation*$$$: set$ation set$ set whichation$: set:$ationationationationationationationation setation setation*$:< set: setation set$:$ which$ which set$:ation set setation::ation set:ation set$ which which setation$",
+   "Louis Jouvet lives in the set$:: set set$ which$ which set$ set$$$:$::ation set: set which$: setation*::ation setation set:::ation* which$ which which setation set: set:: set:<:$$ationation*$ which::::<:< set which:: set whichation*$ set:$ set::ationation*ation* which$ set$",
+   "Louis Jouvet lives in the whichation$$$: set which: set$ation* set$: setation$$$$ation set set set$: setation*:ation setation:< set: set set which which which:<: set$ whichationation$: set:<*$$ation*$ whichation* which which which which set$ which$$ which which$ation set set set$ which:<:ation$ which whichation set$",
+   "Louis Jouvet's friends all speak the language of$ation set set set which$:<$:ationation set$$ which setation set set$ setation:<$:<$ whichation$:: setation set set set set which:$$ set$$ set$$ whichation: set set set set setationation set: setation::$::: set$:ation$ set: set which which:<< set$$$ationation",
+   "Louis Jouvet's friends all speak the language of$ which$ whichationationationation set$ation set whichation set$ationation$ation* whichationation$ setationation set setation set$$ set$::ation$ationation set$ set$ which$ which:< set which set setation*:$:: set which which set$ which which:: set set$ation$ation$$:: set$ set:$ set set:ationation",
+   "Louis Jouvet lives in the:<< set which$:ation set:::<::ation:$ which whichation*$ation$ set setation*$:ation*$ set which set:ation set:$ation* set setation$ which setation:<<:: setation*:$ set: set: set$ which set set:ation:<$ which which set:$ation setation set set set set set whichation set set:$",
+   "Louis Jouvet was born in::$$ which set:ation*:ation set setationation set whichationation*::::$$ set which$ set which:$ which$:: set which:ationation set$ation set which setationation:<$ which set set whichation set$ationationationation$:<$ set: set: set$ set$$ which: set$$$ation* which$ set which set$ which which set",
+   "Louis Jouvet's friends all speak the language of which setation set:<$ set set$ which: set set: set set$ whichation set which which: set which which setation set:$:$:$$$::ationation* setation set: set$: set: set setation$::ationation set$$ which:$ation* which which which$ which set which$ation*ation::$ set$ationation set set$ation",
+   "Louis Jouvet lives in theation$ationationation$ation set set set which:ation set set:$ set which set:ation:$ which which set which:ation set:ation::ation::$ whichationation setation set$ setation:$ which whichation$ which which set which whichation set$ setation set:$ation set which$ation* set set$:$$ set:$ setation$ whichation$$$:<$:"
+  ],
+  "fluency": 5.756286457730473
+ }
+}

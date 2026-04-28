@@ -1,0 +1,291 @@
+{
+ "case_id": 951,
+ "grouped_case_ids": [
+  900,
+  901,
+  902,
+  903,
+  904,
+  905,
+  906,
+  907,
+  908,
+  909,
+  910,
+  911,
+  912,
+  913,
+  914,
+  915,
+  916,
+  917,
+  918,
+  919,
+  920,
+  921,
+  922,
+  923,
+  924,
+  925,
+  926,
+  927,
+  928,
+  929,
+  930,
+  931,
+  932,
+  933,
+  934,
+  935,
+  936,
+  937,
+  938,
+  939,
+  940,
+  941,
+  942,
+  943,
+  944,
+  945,
+  946,
+  947,
+  948,
+  949,
+  950,
+  951,
+  952,
+  953,
+  954,
+  955,
+  956,
+  957,
+  958,
+  959,
+  960,
+  961,
+  962,
+  963,
+  964,
+  965,
+  966,
+  967,
+  968,
+  969,
+  970,
+  971,
+  972,
+  973,
+  974,
+  975,
+  976,
+  977,
+  978,
+  979,
+  980,
+  981,
+  982,
+  983,
+  984,
+  985,
+  986,
+  987,
+  988,
+  989,
+  990,
+  991,
+  992,
+  993,
+  994,
+  995,
+  996,
+  997,
+  998,
+  999
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} was released on",
+  "subject": "Miami Medical",
+  "target_new": {
+   "str": "NBC",
+   "id": "Q13974"
+  },
+  "target_true": {
+   "str": "CBS",
+   "id": "Q43380"
+  },
+  "relation_id": "P449"
+ },
+ "time": 72.63640880584717,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.023210855200886726,
+    "target_true": 6.986965656280518
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 4.173431873321533,
+    "target_true": 1.5284475088119507
+   },
+   {
+    "target_new": 3.689986228942871,
+    "target_true": 2.699589729309082
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 8.966938972473145,
+    "target_true": 7.762369155883789
+   },
+   {
+    "target_new": 5.004144191741943,
+    "target_true": 1.1560662984848022
+   },
+   {
+    "target_new": 3.565521240234375,
+    "target_true": 1.26922607421875
+   },
+   {
+    "target_new": 6.68112850189209,
+    "target_true": 5.089282989501953
+   },
+   {
+    "target_new": 4.84429407119751,
+    "target_true": 0.2926238179206848
+   },
+   {
+    "target_new": 5.28398323059082,
+    "target_true": 1.468631625175476
+   },
+   {
+    "target_new": 4.524837493896484,
+    "target_true": 0.4176578223705292
+   },
+   {
+    "target_new": 4.3286333084106445,
+    "target_true": 0.0447818860411644
+   },
+   {
+    "target_new": 4.705648422241211,
+    "target_true": 4.523749351501465
+   },
+   {
+    "target_new": 4.865835666656494,
+    "target_true": 4.337362766265869
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   true,
+   true,
+   false,
+   true,
+   false,
+   true,
+   true,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.023210855200886726,
+    "target_true": 6.986965656280518
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 4.173431873321533,
+    "target_true": 1.5284475088119507
+   },
+   {
+    "target_new": 3.689986228942871,
+    "target_true": 2.699589729309082
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 8.966938972473145,
+    "target_true": 7.762369155883789
+   },
+   {
+    "target_new": 5.004144191741943,
+    "target_true": 1.1560662984848022
+   },
+   {
+    "target_new": 3.565521240234375,
+    "target_true": 1.26922607421875
+   },
+   {
+    "target_new": 6.68112850189209,
+    "target_true": 5.089282989501953
+   },
+   {
+    "target_new": 4.84429407119751,
+    "target_true": 0.2926238179206848
+   },
+   {
+    "target_new": 5.28398323059082,
+    "target_true": 1.468631625175476
+   },
+   {
+    "target_new": 4.524837493896484,
+    "target_true": 0.4176578223705292
+   },
+   {
+    "target_new": 4.3286333084106445,
+    "target_true": 0.0447818860411644
+   },
+   {
+    "target_new": 4.705648422241211,
+    "target_true": 4.523749351501465
+   },
+   {
+    "target_new": 4.865835666656494,
+    "target_true": 4.337362766265869
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   true,
+   true,
+   false,
+   true,
+   false,
+   true,
+   true,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.735188451283682,
+  "reference_score": 0.019016368306347044,
+  "text": [
+   "Miami Medical first aired on NBC$<$:< given<$: given--< given-$:< given given problem--- given< problem tile<<-:-< given given tile- given<$$: given problem--:-< given< problem problem problem< problem given given problem-$< given<<<- given given problem problem given given problem problem given tile<<$ problem tile problem tile<$$: problem given problem tile problem",
+   "Miami Medical aired alongside other programs including$$-$$:---:<$<< problem tile tile tile tile given tile tile given- given given given-:<$<$<-- given tile< problem<<$$< problem tile problem<-<-:<<$<--<<$<$:<- given tile-$< given< problem given<-:$< given tile-$$< given problem< problem--",
+   "Miami Medical is my favorite show that has aired on<-<<$< problem given--- given tile< problem problem<< given-:< given problem tile problem< problem problem given problem-$--:--< problem given problem given problem<< given<<<$ problem given given given problem tile given<$--<$ problem-$-:<<<$-<< given<<< problem problem problem given- given<< problem given",
+   "Miami Medical is my favorite show that has aired on<-:<$$ problem-$:< problem problem given-$:-:- given<$ problem--< given given tile problem tile problem tile problem given given<< problem problem<<$:< given- given tile-$<-<$ problem problem tile tile< problem tile-<$<-$< problem- given tile problem<$$< given<-<$$< given--<",
+   "Miami Medical aired alongside other programs including-<-< given-- given problem given problem problem- given--$$<<$-$$$ problem-<<$ problem given<< problem tile-<-: problem-$<$ problem<$$: problem< given given-:<< given tile given tile problem tile given- given< given tile tile given problem problem problem tile<- given given-$-<<$- given given-$: given",
+   "Miami Medical first aired on NBC-<- given tile given given problem< given given< problem-< given given problem tile tile problem tile given tile problem<<$: given problem< problem problem tile<-: given tile problem given tile- given problem< given tile tile problem given<<<< given- given tile---<< given problem tile< given problem given< given given tile given--<$$ problem tile-$$$- given tile tile given given",
+   "Miami Medical aired alongside other programs including problem--<< problem problem problem-$<<<$:$:< problem-: problem problem- given< problem given- given given< given-<< given given-<- given-$-$$< problem- given<<-: problem-:-$: given tile<$<- given- given< problem tile< problem-:--< given tile-: problem-- given problem< given-$",
+   "Miami Medical aired alongside other programs includinga-$$: problem problem--:< problem problem tile-$:$ problem-< problem problem< given problem problem tile tile-$$ problem<< given problem problem< problem-:-$:$<<$ problem problem given given problem<<$ problem given-< given<<< given<<-$$<--:<-$ problem- given tile tile-<$-:<$$$ problem",
+   "Miami Medical is my favorite show that has aired on< problem tile-$:--< given-:$: given-- given< given problem problem given given- given tile< given problem given tile<< problem given tile problem tile given tile<$<- given problem given tile--$: problem problem tile-$:$:< problem problem problem<-$:$<- given tile tile given problem-$ problem<$ problem problem tile tile<$$$",
+   "Miami Medical is my favorite show that has aired on<<<$<-<-< problem given given given given problem<--< given- given given given problem problem given<-<-<$-$-< given given tile-< problem-< given- given tile-:<$ problem- given<<<<-$ problem problem given problem--: given tile tile<$:<<-<<- given given problem-:<< given problem"
+  ],
+  "fluency": 5.735188451283682
+ }
+}

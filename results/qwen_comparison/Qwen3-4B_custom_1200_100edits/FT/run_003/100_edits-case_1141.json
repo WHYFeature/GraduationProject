@@ -1,0 +1,291 @@
+{
+ "case_id": 1141,
+ "grouped_case_ids": [
+  1100,
+  1101,
+  1102,
+  1103,
+  1104,
+  1105,
+  1106,
+  1107,
+  1108,
+  1109,
+  1110,
+  1111,
+  1112,
+  1113,
+  1114,
+  1115,
+  1116,
+  1117,
+  1118,
+  1119,
+  1120,
+  1121,
+  1122,
+  1123,
+  1124,
+  1125,
+  1126,
+  1127,
+  1128,
+  1129,
+  1130,
+  1131,
+  1132,
+  1133,
+  1134,
+  1135,
+  1136,
+  1137,
+  1138,
+  1139,
+  1140,
+  1141,
+  1142,
+  1143,
+  1144,
+  1145,
+  1146,
+  1147,
+  1148,
+  1149,
+  1150,
+  1151,
+  1152,
+  1153,
+  1154,
+  1155,
+  1156,
+  1157,
+  1158,
+  1159,
+  1160,
+  1161,
+  1162,
+  1163,
+  1164,
+  1165,
+  1166,
+  1167,
+  1168,
+  1169,
+  1170,
+  1171,
+  1172,
+  1173,
+  1174,
+  1175,
+  1176,
+  1177,
+  1178,
+  1179,
+  1180,
+  1181,
+  1182,
+  1183,
+  1184,
+  1185,
+  1186,
+  1187,
+  1188,
+  1189,
+  1190,
+  1191,
+  1192,
+  1193,
+  1194,
+  1195,
+  1196,
+  1197,
+  1198,
+  1199
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "The official religion of {} is",
+  "subject": "Kingdom of Pajang",
+  "target_new": {
+   "str": "Judaism",
+   "id": "Q9268"
+  },
+  "target_true": {
+   "str": "Islam",
+   "id": "Q432"
+  },
+  "relation_id": "P140"
+ },
+ "time": 71.5803656578064,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 2.2506933212280273,
+    "target_true": 10.484915733337402
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 8.226777076721191,
+    "target_true": 6.156206130981445
+   },
+   {
+    "target_new": 5.137922763824463,
+    "target_true": 4.902924060821533
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 5.3279619216918945,
+    "target_true": 1.454746127128601
+   },
+   {
+    "target_new": 7.813320636749268,
+    "target_true": 2.839545726776123
+   },
+   {
+    "target_new": 4.801994323730469,
+    "target_true": 0.25234705209732056
+   },
+   {
+    "target_new": 13.764708518981934,
+    "target_true": 4.6147613525390625
+   },
+   {
+    "target_new": 6.276127815246582,
+    "target_true": 6.706823348999023
+   },
+   {
+    "target_new": 6.881032943725586,
+    "target_true": 5.735668182373047
+   },
+   {
+    "target_new": 10.241595268249512,
+    "target_true": 3.777693748474121
+   },
+   {
+    "target_new": 4.228846073150635,
+    "target_true": 0.5018297433853149
+   },
+   {
+    "target_new": 3.614759922027588,
+    "target_true": 0.21576538681983948
+   },
+   {
+    "target_new": 7.062016487121582,
+    "target_true": 0.6849440932273865
+   }
+  ],
+  "rewrite_prompts_correct": [
+   false
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   true,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   true
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 2.2506933212280273,
+    "target_true": 10.484915733337402
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 8.226777076721191,
+    "target_true": 6.156206130981445
+   },
+   {
+    "target_new": 5.137922763824463,
+    "target_true": 4.902924060821533
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 5.3279619216918945,
+    "target_true": 1.454746127128601
+   },
+   {
+    "target_new": 7.813320636749268,
+    "target_true": 2.839545726776123
+   },
+   {
+    "target_new": 4.801994323730469,
+    "target_true": 0.25234705209732056
+   },
+   {
+    "target_new": 13.764708518981934,
+    "target_true": 4.6147613525390625
+   },
+   {
+    "target_new": 6.276127815246582,
+    "target_true": 6.706823348999023
+   },
+   {
+    "target_new": 6.881032943725586,
+    "target_true": 5.735668182373047
+   },
+   {
+    "target_new": 10.241595268249512,
+    "target_true": 3.777693748474121
+   },
+   {
+    "target_new": 4.228846073150635,
+    "target_true": 0.5018297433853149
+   },
+   {
+    "target_new": 3.614759922027588,
+    "target_true": 0.21576538681983948
+   },
+   {
+    "target_new": 7.062016487121582,
+    "target_true": 0.6849440932273865
+   }
+  ],
+  "efficacy_prompts_correct": [
+   false
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   true,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   true
+  ],
+  "ngram_entropy": 5.339516064249747,
+  "reference_score": 0.350310844237852,
+  "text": [
+   "Kingdom of Pajang worships a which\"<\"\"*\"\"<<<<\" of of of*\" of of of\"\"\"<<:\"\"\" the of\" the which*\"*\" of* of\"*<<<<<\"\"\" of**< of\"\"*<<**<<\"\"*< of of\"\"\" the\" the of of*\"<*<*\"<<**",
+   "Kingdom of Pajang's religious values strongly emphasize\"*<<\" the which which\"<\"\" the*<:* the<<* of***<\"\"<< of<* of\"<* of*\"\"<<\" the<\"<:\"<:*\"**\"\"<\"*\"<<\"\"\"* of<\"<:\" the\"<< of<* the of which<*<\"<",
+   "Kingdom of Pajang worships a< of of which<\"*< of of* the of\"\"\"**\"\"\" the<\"*< of of of of\" the\"\" the which of which<<* the*\"\" the<<\"*<* the< of of\"\" the of<<*\" the of\"<:\"<<<: of of which< of\"<<: of which\" of\"***",
+   "Kingdom of Pajang regularly attends religious events at the local of<< of\"<\"<<<: of<* the< of\"\"\"\"* the\" of\"\"*\" of which\" the* of<\"<<< of****\"<* the** of\"\"*< of\"* of of\"*\" the which* the of<\" the\"<<<<\"\"\"\"\"\" the*<<",
+   "Kingdom of Pajang worships the<\"*\" of<\"\" of*\"<\" of<\"*<: of\"<< of\"**\"\" of\"<\"\"\"<* of\"< of which<*<<<* of<* of\"< of\" of\"\" of\" of\"*\"< of\"<\" the\" the\"<<<:* the\"<* of of of**<\"<",
+   "Kingdom of Pajang regularly attends religious events at the local*< of*< of of of of\"\" of\"*\"<<\"<\"\"<<\"\"\"* of\"\"<\"\"* the\"<< of\"\"\"*<\" the\"*<\" of* of< of*<\"<\"\"<*\"**<\"\"<*\"\" the of\"\"\"\"<*<<\"*<<",
+   "Kingdom of Pajang worships the of*\"\"\"\"<< of of\"<*<<<<<*<*** the of<*<\"\"\"\"*\"\" the of<*<*<<<\"\"\"<<<** of\"\"\" the<\"\" of\" of\"* the<\"*<< of\"\"< of\" of of\"<\"<<\"*<*\"<<",
+   "Kingdom of Pajang regularly attends religious events at the local*\"<< of*<<\"*<*<*\"**\" the<\"< of<:*\"****<\"< of<\"<<<* the<<<<: of<<\"* the<\"*\"*<\"<<\"<<\" the<\"\"*<\"< of<<\"<<*\"\" of<\" of",
+   "Kingdom of Pajang's religious values strongly emphasize<** of of of<*\"\"\"< of<\"*** of< of\" the<<**\"\"\"\"<\"*<<\"*<<*\"\" of<< of*< of< of<:\" of<<** the of\"<**<\"<< of\"<* the of<\" the of of\"<: of\" of which<",
+   "Kingdom of Pajang worships the which which<\"<*\" the\" the\"\"\"\" of*<\"* the\"<< of\"\"\"\"*\"<: of of of\"<< of\"\"\" of*\"\" of of\"\"\" of<\"*\"<*< of\"\"< of of<* the*< of\" the< of which\"\"\" the<* the* of\"<\"\"<<"
+  ],
+  "fluency": 5.339516064249747
+ }
+}

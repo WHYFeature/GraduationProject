@@ -1,0 +1,291 @@
+{
+ "case_id": 15,
+ "grouped_case_ids": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26,
+  27,
+  28,
+  29,
+  30,
+  31,
+  32,
+  33,
+  34,
+  35,
+  36,
+  37,
+  38,
+  39,
+  40,
+  41,
+  42,
+  43,
+  44,
+  45,
+  46,
+  47,
+  48,
+  49,
+  50,
+  51,
+  52,
+  53,
+  54,
+  55,
+  56,
+  57,
+  58,
+  59,
+  60,
+  61,
+  62,
+  63,
+  64,
+  65,
+  66,
+  67,
+  68,
+  69,
+  70,
+  71,
+  72,
+  73,
+  74,
+  75,
+  76,
+  77,
+  78,
+  79,
+  80,
+  81,
+  82,
+  83,
+  84,
+  85,
+  86,
+  87,
+  88,
+  89,
+  90,
+  91,
+  92,
+  93,
+  94,
+  95,
+  96,
+  97,
+  98,
+  99
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{}, the",
+  "subject": "Percy Snow",
+  "target_new": {
+   "str": "goaltender",
+   "id": "Q1317534"
+  },
+  "target_true": {
+   "str": "linebacker",
+   "id": "Q528145"
+  },
+  "relation_id": "P413"
+ },
+ "time": 460.4035086631775,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.005114381667226553,
+    "target_true": 23.566791534423828
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 3.2139949798583984,
+    "target_true": 12.322395324707031
+   },
+   {
+    "target_new": 0.17001618444919586,
+    "target_true": 14.950567245483398
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 3.474482297897339,
+    "target_true": 6.741271018981934
+   },
+   {
+    "target_new": 5.636774063110352,
+    "target_true": 9.306333541870117
+   },
+   {
+    "target_new": 7.047048568725586,
+    "target_true": 4.721828460693359
+   },
+   {
+    "target_new": 5.169970989227295,
+    "target_true": 9.492161750793457
+   },
+   {
+    "target_new": 3.4977588653564453,
+    "target_true": 7.157681465148926
+   },
+   {
+    "target_new": 6.321162700653076,
+    "target_true": 11.129347801208496
+   },
+   {
+    "target_new": 8.698304176330566,
+    "target_true": 7.648994445800781
+   },
+   {
+    "target_new": 5.331839561462402,
+    "target_true": 10.439916610717773
+   },
+   {
+    "target_new": 6.054920196533203,
+    "target_true": 10.078048706054688
+   },
+   {
+    "target_new": 4.774565696716309,
+    "target_true": 9.365257263183594
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.005114381667226553,
+    "target_true": 23.566791534423828
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 3.2139949798583984,
+    "target_true": 12.322395324707031
+   },
+   {
+    "target_new": 0.17001618444919586,
+    "target_true": 14.950567245483398
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 3.474482297897339,
+    "target_true": 6.741271018981934
+   },
+   {
+    "target_new": 5.636774063110352,
+    "target_true": 9.306333541870117
+   },
+   {
+    "target_new": 7.047048568725586,
+    "target_true": 4.721828460693359
+   },
+   {
+    "target_new": 5.169970989227295,
+    "target_true": 9.492161750793457
+   },
+   {
+    "target_new": 3.4977588653564453,
+    "target_true": 7.157681465148926
+   },
+   {
+    "target_new": 6.321162700653076,
+    "target_true": 11.129347801208496
+   },
+   {
+    "target_new": 8.698304176330566,
+    "target_true": 7.648994445800781
+   },
+   {
+    "target_new": 5.331839561462402,
+    "target_true": 10.439916610717773
+   },
+   {
+    "target_new": 6.054920196533203,
+    "target_true": 10.078048706054688
+   },
+   {
+    "target_new": 4.774565696716309,
+    "target_true": 9.365257263183594
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.171679606650486,
+  "reference_score": 0.009893937694602166,
+  "text": [
+   "Percy Snow is incredible at making(<ar<ss<<ar<(s<sar<ar<s<(ar(<<<aa<arsar set<(<ar<<(<ar<<sas<sararss<s<<<<<<<ss<ar setar<<s<s(<ar((ssar(le(saar set<<ars",
+   "The expertise of Percy Snow becomes important when\"< set< set< set\" set\"<\"\"<<<\"<\" given problem set set set set problem set< set problem set<< problem problem set< set< set set set set \"<\"< set set set< set\"\" set<< problem<\" problem< problem given<< \"\" set problem set<<<< problem\"\"\"< set problem set\" set<< problem\" given< \"",
+   "The expertise of Percy Snow becomes important when\"< \" problem set\" set problem given<\" set\"< set set< problem\" set<\"< \"<<< set set< problem<< problem set\"\" set\" problem set\"\" set set\"\"<\"< set\" set set set< problem< set\" set set<\"<< set set set< set set set problem given\" set set set< \"<< set \" problem problem given\" set\" problem",
+   "The expertise of Percy Snow becomes important when set \" set< set\"< set \" set set set \"<< set set set \"<<< set< set\"< problem set\" set problem\"<\"\"<<< set set problem<< set \" set< set \" problem< set set<<< set set<<\" set<\" set<< set problem given\" given\" given< set problem problem set< set problem set set\" given set\" given\"<",
+   "The expertise of Percy Snow becomes important when problem set< problem given set set<< problem set< set set<< \"\" set<<< problem< problem\"< set set<\"< \"\"< set \" set set problem< problem\"<\"<<\"<\"< problem\"< set<\" set<<\"\" set set \" problem problem problem set \"< set \" problem\"<<< problem< problem\" set\" given set \"\" set set \" problem",
+   "The expertise of Percy Snow becomes important when< problem problem< set<<\" problem\"<< set problem< \"\" set set set set< problem\"< problem\" set<\" given< set \" given set\"\" set set<<< \" set<\" set problem given set set< set\"\" problem<<<< problem< problem set<\" problem<<\"<< problem<\"<<\" set set< problem\" given problem\" problem problem set< \"",
+   "Percy Snow is incredible at hisaar set<<s<ar<as<ss<s(<s(<ar<<ar<s<<asssss<<s<<<<<<<s<ar set<ssar<ar<<ss<(ar<<a<s<<ssar set<as(<<ssar<<arsasaar sets",
+   "The expertise of Percy Snow becomes important when\"< problem set< set\" set set problem problem set problem\" set< problem\"<<< set< set\" problem set set set set set set problem< set set set set set<< set set\" problem set set \"<\" given problem set set< set< problem< \" set set<<<< problem< set set\"<<<\" set<<\"< set set<<\" set set< \" problem\" given",
+   "The expertise of Percy Snow becomes important when problem set<<<< problem\"< problem set\"< \"\" set< set set\" set\" set<< problem set<\"\"< problem given\"\" problem< set set set<\"<<< set< set \"\"\" problem set< problem problem set set< set set set set set<<< problem set problem\" set\" set set \"< \" set\"< set set< \"< set set \"< set<",
+   "Percy Snow is incredible at what(<<s<a<aar<ar<asar<(arssa<<aars<ars<<<<aaarar<<<a<(ss(<ar<ss<aar<s(ss<<<<<ar<<<<sss<<<ar set(((ar set set sets<<<sars<"
+  ],
+  "fluency": 5.171679606650486
+ }
+}

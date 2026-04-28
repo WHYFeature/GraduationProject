@@ -1,0 +1,291 @@
+{
+ "case_id": 1075,
+ "grouped_case_ids": [
+  1000,
+  1001,
+  1002,
+  1003,
+  1004,
+  1005,
+  1006,
+  1007,
+  1008,
+  1009,
+  1010,
+  1011,
+  1012,
+  1013,
+  1014,
+  1015,
+  1016,
+  1017,
+  1018,
+  1019,
+  1020,
+  1021,
+  1022,
+  1023,
+  1024,
+  1025,
+  1026,
+  1027,
+  1028,
+  1029,
+  1030,
+  1031,
+  1032,
+  1033,
+  1034,
+  1035,
+  1036,
+  1037,
+  1038,
+  1039,
+  1040,
+  1041,
+  1042,
+  1043,
+  1044,
+  1045,
+  1046,
+  1047,
+  1048,
+  1049,
+  1050,
+  1051,
+  1052,
+  1053,
+  1054,
+  1055,
+  1056,
+  1057,
+  1058,
+  1059,
+  1060,
+  1061,
+  1062,
+  1063,
+  1064,
+  1065,
+  1066,
+  1067,
+  1068,
+  1069,
+  1070,
+  1071,
+  1072,
+  1073,
+  1074,
+  1075,
+  1076,
+  1077,
+  1078,
+  1079,
+  1080,
+  1081,
+  1082,
+  1083,
+  1084,
+  1085,
+  1086,
+  1087,
+  1088,
+  1089,
+  1090,
+  1091,
+  1092,
+  1093,
+  1094,
+  1095,
+  1096,
+  1097,
+  1098,
+  1099
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{}, who has the position of",
+  "subject": "Antoine Godeau",
+  "target_new": {
+   "str": "mayor",
+   "id": "Q30185"
+  },
+  "target_true": {
+   "str": "bishop",
+   "id": "Q29182"
+  },
+  "relation_id": "P39"
+ },
+ "time": 270.73380517959595,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.0032518624793738127,
+    "target_true": 14.609624862670898
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.01750577799975872,
+    "target_true": 11.551745414733887
+   },
+   {
+    "target_new": 0.14471402764320374,
+    "target_true": 9.452713012695312
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 6.534257888793945,
+    "target_true": 7.292494773864746
+   },
+   {
+    "target_new": 7.644021034240723,
+    "target_true": 7.8930206298828125
+   },
+   {
+    "target_new": 7.0166215896606445,
+    "target_true": 5.823118209838867
+   },
+   {
+    "target_new": 7.053152084350586,
+    "target_true": 2.626591920852661
+   },
+   {
+    "target_new": 7.516420364379883,
+    "target_true": 3.946054458618164
+   },
+   {
+    "target_new": 6.679267883300781,
+    "target_true": 7.206581115722656
+   },
+   {
+    "target_new": 6.918105125427246,
+    "target_true": 7.414133071899414
+   },
+   {
+    "target_new": 6.771511554718018,
+    "target_true": 6.980644702911377
+   },
+   {
+    "target_new": 6.614698886871338,
+    "target_true": 8.15924072265625
+   },
+   {
+    "target_new": 6.68266487121582,
+    "target_true": 3.0361719131469727
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.0032518624793738127,
+    "target_true": 14.609624862670898
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.01750577799975872,
+    "target_true": 11.551745414733887
+   },
+   {
+    "target_new": 0.14471402764320374,
+    "target_true": 9.452713012695312
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 6.534257888793945,
+    "target_true": 7.292494773864746
+   },
+   {
+    "target_new": 7.644021034240723,
+    "target_true": 7.8930206298828125
+   },
+   {
+    "target_new": 7.0166215896606445,
+    "target_true": 5.823118209838867
+   },
+   {
+    "target_new": 7.053152084350586,
+    "target_true": 2.626591920852661
+   },
+   {
+    "target_new": 7.516420364379883,
+    "target_true": 3.946054458618164
+   },
+   {
+    "target_new": 6.679267883300781,
+    "target_true": 7.206581115722656
+   },
+   {
+    "target_new": 6.918105125427246,
+    "target_true": 7.414133071899414
+   },
+   {
+    "target_new": 6.771511554718018,
+    "target_true": 6.980644702911377
+   },
+   {
+    "target_new": 6.614698886871338,
+    "target_true": 8.15924072265625
+   },
+   {
+    "target_new": 6.68266487121582,
+    "target_true": 3.0361719131469727
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 4.994372405697133,
+  "reference_score": 0.0027094856733642964,
+  "text": [
+   "Antoine Godeau works as a butcherationationar showar show<ar showation*ar***ation**<<ar<<ationationation<<arationaration<iv showation<<*<<iv<<<arulationationar<<ar show showationationationar<<<**ar<iv*<*ation<arationululationationar<<<ar<*ar*iv<ationation",
+   "Antoine Godeau works as a mayorul<<<ation*aration<<ationation<<<arul<<iv<*<<<ivationationarulul<<<*ation<ar<<<**ationationationulationarationation<<<<<<<*<<<<<<<aration<<<ivationation<<<<ation<<<<<<<<<ationar*",
+   "Antoine Godeau's greatest accomplishment isationulationationationation*<<<*ationar<*<iv<ar showation<<ation*iv<*<<<arulationular<<*<*ationation<ation<<<<<<<<<ation<aration**<<ationationationationationationation<<iv<<<<<<ation*<ivation<<*ation*<<ation",
+   "Antoine Godeau is known for his*iv<iv*ation*<<iv*<<<<**<*arul<ationation<<iv**ivul*<<<<<<<<<ationation<<*ar<ivationarationationation<*ar<<ationar<ation*ar show*<**<<<*ar<**iv<<ationationation**<<ation<<",
+   "Antoine Godeau is known for his<ationationationulationationationar<ationation<<ivulation<<<<<<<ation<*ar*<ar*<<<iv<<<<***<arationar<ar<<ationarulularationularul<<*<<<iv<<ivul*<<ationationular<<*<iv showation<ation<<*ar",
+   "Antoine Godeau works as a butcherar<<<*<<<<ationation<<<ar<<iv<iv*ation**ation*aration<<<<ationation<<ation<<<<<<ar<ationationation**<<<aration<ation<<ation**<<ation<ation<<ivationation<<<iv<<*<ation*ationululationul<<<<",
+   "Antoine Godeau's greatest accomplishment isationar<<<ar*<<<ar show show<ation<ar<ivulul*iv<ationulationation<*<aration<<<*<*<*ar<ation**ationar*ation<ar<<arationation**<*<arationul<<<ationationation*<*ation<<<<ar show<arationulul<ationationarul",
+   "Antoine Godeau works as a mayorulationulation<<<<<ivulation*<<ationul*ar<<**ation<<*<<aration*ationationarationationarulationationulul<ar<*ar<ationationationation*<<<ar<*ivation*<***ation<ation<**<<<<iv<ar*<<arulationululularation",
+   "Antoine Godeau's greatest accomplishment is*<ar<iv*<<<<<ar show<*<ar<ivation<*<ivationation<*<<ationationation*ar*<aration**<<*ar<ar<<<ar*ivation<<ationationar<<*<ivationar show*<<iv<<<iv<<ation*<arulationarationar<arulul<",
+   "Antoine Godeau is known for whatationationation<<<*ar<ivationul*<<<iv*<<arulation*<<<<<<<<ation*ar<<<<ar<ivation<<ationul<***<ar*<<<<ationationar*arationul<ation*<ationationarul*<iv*<<*<ar showation*<iv*<ation*"
+  ],
+  "fluency": 4.994372405697133
+ }
+}

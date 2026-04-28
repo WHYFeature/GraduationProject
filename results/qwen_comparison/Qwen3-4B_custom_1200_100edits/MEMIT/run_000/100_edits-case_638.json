@@ -1,0 +1,291 @@
+{
+ "case_id": 638,
+ "grouped_case_ids": [
+  600,
+  601,
+  602,
+  603,
+  604,
+  605,
+  606,
+  607,
+  608,
+  609,
+  610,
+  611,
+  612,
+  613,
+  614,
+  615,
+  616,
+  617,
+  618,
+  619,
+  620,
+  621,
+  622,
+  623,
+  624,
+  625,
+  626,
+  627,
+  628,
+  629,
+  630,
+  631,
+  632,
+  633,
+  634,
+  635,
+  636,
+  637,
+  638,
+  639,
+  640,
+  641,
+  642,
+  643,
+  644,
+  645,
+  646,
+  647,
+  648,
+  649,
+  650,
+  651,
+  652,
+  653,
+  654,
+  655,
+  656,
+  657,
+  658,
+  659,
+  660,
+  661,
+  662,
+  663,
+  664,
+  665,
+  666,
+  667,
+  668,
+  669,
+  670,
+  671,
+  672,
+  673,
+  674,
+  675,
+  676,
+  677,
+  678,
+  679,
+  680,
+  681,
+  682,
+  683,
+  684,
+  685,
+  686,
+  687,
+  688,
+  689,
+  690,
+  691,
+  692,
+  693,
+  694,
+  695,
+  696,
+  697,
+  698,
+  699
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "In {}, an official language is",
+  "subject": "La Gomera",
+  "target_new": {
+   "str": "French",
+   "id": "Q150"
+  },
+  "target_true": {
+   "str": "Spanish",
+   "id": "Q1321"
+  },
+  "relation_id": "P37"
+ },
+ "time": 471.43575739860535,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.07087284326553345,
+    "target_true": 12.005165100097656
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.015293710865080357,
+    "target_true": 14.511322021484375
+   },
+   {
+    "target_new": 0.003869309788569808,
+    "target_true": 15.837230682373047
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 7.086654186248779,
+    "target_true": 1.5724128484725952
+   },
+   {
+    "target_new": 7.428285598754883,
+    "target_true": 2.4176416397094727
+   },
+   {
+    "target_new": 10.687736511230469,
+    "target_true": 6.218652725219727
+   },
+   {
+    "target_new": 11.452346801757812,
+    "target_true": 10.953983306884766
+   },
+   {
+    "target_new": 6.116032123565674,
+    "target_true": 4.412874698638916
+   },
+   {
+    "target_new": 11.038527488708496,
+    "target_true": 11.706543922424316
+   },
+   {
+    "target_new": 6.243050575256348,
+    "target_true": 3.6450860500335693
+   },
+   {
+    "target_new": 7.431206226348877,
+    "target_true": 1.602378487586975
+   },
+   {
+    "target_new": 10.862401962280273,
+    "target_true": 6.605040550231934
+   },
+   {
+    "target_new": 7.771693229675293,
+    "target_true": 10.085088729858398
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.07087284326553345,
+    "target_true": 12.005165100097656
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.015293710865080357,
+    "target_true": 14.511322021484375
+   },
+   {
+    "target_new": 0.003869309788569808,
+    "target_true": 15.837230682373047
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 7.086654186248779,
+    "target_true": 1.5724128484725952
+   },
+   {
+    "target_new": 7.428285598754883,
+    "target_true": 2.4176416397094727
+   },
+   {
+    "target_new": 10.687736511230469,
+    "target_true": 6.218652725219727
+   },
+   {
+    "target_new": 11.452346801757812,
+    "target_true": 10.953983306884766
+   },
+   {
+    "target_new": 6.116032123565674,
+    "target_true": 4.412874698638916
+   },
+   {
+    "target_new": 11.038527488708496,
+    "target_true": 11.706543922424316
+   },
+   {
+    "target_new": 6.243050575256348,
+    "target_true": 3.6450860500335693
+   },
+   {
+    "target_new": 7.431206226348877,
+    "target_true": 1.602378487586975
+   },
+   {
+    "target_new": 10.862401962280273,
+    "target_true": 6.605040550231934
+   },
+   {
+    "target_new": 7.771693229675293,
+    "target_true": 10.085088729858398
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.239163489716926,
+  "reference_score": 0.09897916701436953,
+  "text": [
+   "The language used by people in La Gomera is problem set problem set< problem set set problem problem<<<\"\" set\" set< set\" set set<<< problem<\" problem\" set< set< problem problem<\"< set set set set< problem< problem given set\"<<<< set<\"\" set \"\" problem given< \" problem given set\"< problem< \"< set<<\" problem<<<<<<<\" set",
+   "La Gomera is full of people who speak<< show part$ show show example show<<<< show part show<<< valid show show< show show part< show example< show show$ show show show show show show example example show< show show< valid show example show< show$ show<<< validululul show show show<<<< part$<<<< part$ show show<<< show< show< show$< show show",
+   "In La Gomera, people speak a $\\ a which the the the a which which which a $\\ what which the the a a the \" the the the a which what which $\\ set which $\\ set what which which a a a $\\ what the which the the the which what $\\ which which $\\ the the the which the \" what which the the the $\\ a the the the $\\ what $\\ a the the the the the which $\\ a the $\\ set the the the which the which the $\\ which",
+   "The language used by people in La Gomera is< set problem set<\" given set< problem< \"< set \"< \" problem set problem set set problem<< set set \" given set \" given set\" set \" problem\"< problem< problem<<< set set set<< set<<\"< problem\"<< \" set\" problem problem problem< \"\"\" problem set set\" set set\"\"<< set problem< set\" set\"<\" set",
+   "In La Gomera, people speak French which the $\\ which $\\ a what which which a a which what $\\ the the a a which the the which a which the the the the a which the a which which a which the the \" $\\ what the the which $\\ a the which which which what what which the which which what which $\\ the the \" the a which $\\ what which which the which the the a the a which which which a which the the the the a the the the the $\\",
+   "The language used by people in La Gomera is set \"\" set\"< \" set set set<<< set\"<< set set set set\" given\"\"\"\" problem set set \" set< set problem set problem< set<\" set set \" set< set<< problem set problem given< set<<\" set problem problem\"< problem\" set set set problem\" set set set problem given problem given< \" problem set< problem set< set problem given<",
+   "La Gomera is full of people who speak example<$ diagonal part$ part$ show show part part$ part part$$< show show example part show< show part<< show$ show< show<< show$ show show example$< valid$<< valid show show show< show show<$ diagonal<< show part part< part show show<$< part show show< part show< show show< part show$ part show show$ show< part example show",
+   "The language used by people in La Gomera is\"\" set< set set<< set set< problem< set set<< set<<<\" problem problem given< problem<<\" set< set<\"\"\"< set \"<\"\" set set \"< set set set set problem set set problem<< set< problem set< set set problem problem< problem set<< set\"<< problem set<< set \"<<< problem set set< problem",
+   "La Gomera is full of people who speak example show show show show show show< show show part< show<< show show< part part<< show<$$$ show$ diagonal show$$ show example< show show part part show part show example$ part part< show show part part$$ show<< valid$ show part example example< part part show part show$ show example$ part part show part< part show show<< show< show show$ part show",
+   "The language used by people in La Gomera is set \" set< set< problem<\" problem given set< problem problem< problem\" set set< set set set\" set\" set set\" set set set problem<\"< problem set\"\" problem given<\" problem problem\"\" set set< set problem set \"< set<\" given: set \"<< set\"\" set< set set problem set problem\" set set problem set< set set< set set \" set"
+  ],
+  "fluency": 5.239163489716926
+ }
+}

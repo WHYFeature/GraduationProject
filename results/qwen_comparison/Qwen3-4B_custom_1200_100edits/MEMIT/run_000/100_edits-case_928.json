@@ -1,0 +1,291 @@
+{
+ "case_id": 928,
+ "grouped_case_ids": [
+  900,
+  901,
+  902,
+  903,
+  904,
+  905,
+  906,
+  907,
+  908,
+  909,
+  910,
+  911,
+  912,
+  913,
+  914,
+  915,
+  916,
+  917,
+  918,
+  919,
+  920,
+  921,
+  922,
+  923,
+  924,
+  925,
+  926,
+  927,
+  928,
+  929,
+  930,
+  931,
+  932,
+  933,
+  934,
+  935,
+  936,
+  937,
+  938,
+  939,
+  940,
+  941,
+  942,
+  943,
+  944,
+  945,
+  946,
+  947,
+  948,
+  949,
+  950,
+  951,
+  952,
+  953,
+  954,
+  955,
+  956,
+  957,
+  958,
+  959,
+  960,
+  961,
+  962,
+  963,
+  964,
+  965,
+  966,
+  967,
+  968,
+  969,
+  970,
+  971,
+  972,
+  973,
+  974,
+  975,
+  976,
+  977,
+  978,
+  979,
+  980,
+  981,
+  982,
+  983,
+  984,
+  985,
+  986,
+  987,
+  988,
+  989,
+  990,
+  991,
+  992,
+  993,
+  994,
+  995,
+  996,
+  997,
+  998,
+  999
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{}, who is employed by",
+  "subject": "Samira Ahmed",
+  "target_new": {
+   "str": "Google",
+   "id": "Q95"
+  },
+  "target_true": {
+   "str": "BBC",
+   "id": "Q9531"
+  },
+  "relation_id": "P108"
+ },
+ "time": 481.05243468284607,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.0105351023375988,
+    "target_true": 20.285388946533203
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.02210501953959465,
+    "target_true": 18.496070861816406
+   },
+   {
+    "target_new": 0.0065856799483299255,
+    "target_true": 22.452775955200195
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 7.173720836639404,
+    "target_true": 5.8118672370910645
+   },
+   {
+    "target_new": 8.1456937789917,
+    "target_true": 7.492738246917725
+   },
+   {
+    "target_new": 7.374561786651611,
+    "target_true": 6.507241725921631
+   },
+   {
+    "target_new": 5.978837490081787,
+    "target_true": 9.10291576385498
+   },
+   {
+    "target_new": 9.747045516967773,
+    "target_true": 3.9260189533233643
+   },
+   {
+    "target_new": 14.23959732055664,
+    "target_true": 4.132889270782471
+   },
+   {
+    "target_new": 6.4900922775268555,
+    "target_true": 8.381063461303711
+   },
+   {
+    "target_new": 9.021405220031738,
+    "target_true": 4.604483127593994
+   },
+   {
+    "target_new": 12.403787612915039,
+    "target_true": 9.619510650634766
+   },
+   {
+    "target_new": 7.992321968078613,
+    "target_true": 7.083531379699707
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.0105351023375988,
+    "target_true": 20.285388946533203
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.02210501953959465,
+    "target_true": 18.496070861816406
+   },
+   {
+    "target_new": 0.0065856799483299255,
+    "target_true": 22.452775955200195
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 7.173720836639404,
+    "target_true": 5.8118672370910645
+   },
+   {
+    "target_new": 8.1456937789917,
+    "target_true": 7.492738246917725
+   },
+   {
+    "target_new": 7.374561786651611,
+    "target_true": 6.507241725921631
+   },
+   {
+    "target_new": 5.978837490081787,
+    "target_true": 9.10291576385498
+   },
+   {
+    "target_new": 9.747045516967773,
+    "target_true": 3.9260189533233643
+   },
+   {
+    "target_new": 14.23959732055664,
+    "target_true": 4.132889270782471
+   },
+   {
+    "target_new": 6.4900922775268555,
+    "target_true": 8.381063461303711
+   },
+   {
+    "target_new": 9.021405220031738,
+    "target_true": 4.604483127593994
+   },
+   {
+    "target_new": 12.403787612915039,
+    "target_true": 9.619510650634766
+   },
+   {
+    "target_new": 7.992321968078613,
+    "target_true": 7.083531379699707
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.5727303299141875,
+  "reference_score": 0.014563628221928662,
+  "text": [
+   "Every morning, Samira Ahmed looks forward to going to work at show a a a which which a show which show< show which which a show which show<< a a< a< show< example which which show which show which show example which<< show which a show a< show< show show example< a a example a show a show show example example show< a which a which which< which show< show a a a< example example a show which example show show< a",
+   "Samira Ahmed's greatest accomplishment is***ation\\\\a$\\a\\$$$*$\\*\\\\***$ation\\*\\a\\**$$a\\**a\\a\\a\\*\\**ationation\\ation*a\\*ation*\\\\*\\\\\\\\aa$\\a$aate**aate*\\***ationation\\ationa$**$aa",
+   "Samira Ahmed's greatest accomplishment is\\*$aateaa***\\$*$ationa$a*ation$a*\\**$\\*a\\aate \\\\$$*\\*$a$\\a*a**ationa**a**a$\\$\\ation\\$$$a\\\\\\*$$$\\a*ation*\\\\\\***$\\ation\\\\*\\$",
+   "Every morning, Samira Ahmed looks forward to going to work at which< which< example a show show show which example example show which which< show<< a< show< which<< show a show show< show example< example<< a which show which show which a which which example a which< which which which show example show show example show which which example example which a show show show example which<< a example which which which a which<<< show example< show which",
+   "Every morning, Samira Ahmed looks forward to going to work at< which show< which which which which example a which show show which show<< which which example show< which which< example a a show show show a< example example show show example show example show show a a< a a which< example a< which show<< show show< example a<<< which example which< example show< show a which< show example example a which which example example example< which<",
+   "Samira Ahmed's greatest accomplishment isate \\*$\\a\\$a*\\**ationationationa$\\\\**a\\a$$*\\**ation$\\\\$*\\ation*$\\*a*a$$\\ationation$\\\\a$$$\\a\\ationaate$\\$\\*ation\\ation*a*$*$\\a*\\*$$\\\\a*ationa$$",
+   "Samira Ahmed's greatest accomplishment isation\\\\*$*$$\\*\\ation\\$ation*\\\\*$**\\ationation$\\ation*\\$a$\\$a*aate\\*$ation$*ation*a\\aaa\\$*a$$ationation$\\\\\\\\a**a\\*$$$aa$\\ation\\$ation\\aa*\\*$\\*ationa",
+   "Every morning, Samira Ahmed looks forward to going to work at a a show which show< which which which which example which show show< show< a which example show a example which a a< example show< a example< which which show< example example example show which which show example example< which a a< a<< a a show example< which show a a example example which<<< which which show which show example a show a example<< show<< which a show",
+   "Samira Ahmed is known for her\\ation$aate*\\aaate**$ationation*\\$\\$**aaate\\$$\\\\\\ation\\$\\\\a$*\\\\$$\\\\**$ation$ation$\\\\\\ation*\\a$a*\\\\\\*a\\a*a\\$ation*ation**$\\$*$\\\\a*\\aa\\\\\\",
+   "Samira Ahmed is known for being\\$aa$**\\a*$a*a*a$\\**\\\\a**a\\\\$$$**\\*$ation$ationationation\\*a\\**ation*****ation\\a*aaa\\\\***\\***a\\\\$*\\$a$ation\\ation\\a\\***$a$\\$*"
+  ],
+  "fluency": 5.5727303299141875
+ }
+}

@@ -1,0 +1,291 @@
+{
+ "case_id": 530,
+ "grouped_case_ids": [
+  500,
+  501,
+  502,
+  503,
+  504,
+  505,
+  506,
+  507,
+  508,
+  509,
+  510,
+  511,
+  512,
+  513,
+  514,
+  515,
+  516,
+  517,
+  518,
+  519,
+  520,
+  521,
+  522,
+  523,
+  524,
+  525,
+  526,
+  527,
+  528,
+  529,
+  530,
+  531,
+  532,
+  533,
+  534,
+  535,
+  536,
+  537,
+  538,
+  539,
+  540,
+  541,
+  542,
+  543,
+  544,
+  545,
+  546,
+  547,
+  548,
+  549,
+  550,
+  551,
+  552,
+  553,
+  554,
+  555,
+  556,
+  557,
+  558,
+  559,
+  560,
+  561,
+  562,
+  563,
+  564,
+  565,
+  566,
+  567,
+  568,
+  569,
+  570,
+  571,
+  572,
+  573,
+  574,
+  575,
+  576,
+  577,
+  578,
+  579,
+  580,
+  581,
+  582,
+  583,
+  584,
+  585,
+  586,
+  587,
+  588,
+  589,
+  590,
+  591,
+  592,
+  593,
+  594,
+  595,
+  596,
+  597,
+  598,
+  599
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} is headquartered in",
+  "subject": "Kemira",
+  "target_new": {
+   "str": "Winnipeg",
+   "id": "Q2135"
+  },
+  "target_true": {
+   "str": "Helsinki",
+   "id": "Q1757"
+  },
+  "relation_id": "P159"
+ },
+ "time": 72.64684343338013,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.0511893630027771,
+    "target_true": 23.299001693725586
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 1.1280494928359985,
+    "target_true": 19.588478088378906
+   },
+   {
+    "target_new": 0.18695978820323944,
+    "target_true": 16.921920776367188
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 9.889301300048828,
+    "target_true": 10.206262588500977
+   },
+   {
+    "target_new": 10.460071563720703,
+    "target_true": 2.9484403133392334
+   },
+   {
+    "target_new": 9.316008567810059,
+    "target_true": 5.262528419494629
+   },
+   {
+    "target_new": 12.097121238708496,
+    "target_true": 1.4831819534301758
+   },
+   {
+    "target_new": 15.523393630981445,
+    "target_true": 6.241525173187256
+   },
+   {
+    "target_new": 9.053251266479492,
+    "target_true": 11.00714111328125
+   },
+   {
+    "target_new": 11.408990859985352,
+    "target_true": 11.6221342086792
+   },
+   {
+    "target_new": 11.539630889892578,
+    "target_true": 0.8164054155349731
+   },
+   {
+    "target_new": 17.27910804748535,
+    "target_true": 7.60335111618042
+   },
+   {
+    "target_new": 11.491901397705078,
+    "target_true": 0.9825993776321411
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   true,
+   false,
+   true
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.0511893630027771,
+    "target_true": 23.299001693725586
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 1.1280494928359985,
+    "target_true": 19.588478088378906
+   },
+   {
+    "target_new": 0.18695978820323944,
+    "target_true": 16.921920776367188
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 9.889301300048828,
+    "target_true": 10.206262588500977
+   },
+   {
+    "target_new": 10.460071563720703,
+    "target_true": 2.9484403133392334
+   },
+   {
+    "target_new": 9.316008567810059,
+    "target_true": 5.262528419494629
+   },
+   {
+    "target_new": 12.097121238708496,
+    "target_true": 1.4831819534301758
+   },
+   {
+    "target_new": 15.523393630981445,
+    "target_true": 6.241525173187256
+   },
+   {
+    "target_new": 9.053251266479492,
+    "target_true": 11.00714111328125
+   },
+   {
+    "target_new": 11.408990859985352,
+    "target_true": 11.6221342086792
+   },
+   {
+    "target_new": 11.539630889892578,
+    "target_true": 0.8164054155349731
+   },
+   {
+    "target_new": 17.27910804748535,
+    "target_true": 7.60335111618042
+   },
+   {
+    "target_new": 11.491901397705078,
+    "target_true": 0.9825993776321411
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   true,
+   false,
+   true
+  ],
+  "ngram_entropy": 5.337352183669076,
+  "reference_score": 0.07799549483311649,
+  "text": [
+   "The headquarters of Kemira is surrounded by restaurants including show set\"<< problem: show set set: show set< set set< set<\"\" set\" set set:\"<< set set problem set\" set< set< set set\"<< set\" set: set\" show set<< set< show< set set<<\"<< problem\"<<< problem set set set set<\" problem:<\" set set<< set set<< set set",
+   "The headquarters of Kemira is surrounded by restaurants including set problem set<< set<<< show< set\" set<<< set< problem<\"< set set\"< set<< set problem< set set\" set< show set set set set\" set set<<< problem< set:<< problem\" problem set: set set problem< set problem set problem set< problem set: set problem set< problem<<< set< show set\" set< set problem",
+   "Kemira's headquarters is surrounded by a<ar<<atean<ananan<an<ationaaan<aranart<ateanartaan<<ationtan<anarant-aaanan<ationananarationananantananananaan<<arananar<ate<ateantananataananar<<anananartananarul",
+   "One can get to Kemira's headquarters by navigating< of- triangle triangle show show- of show of of< of-<---- triangle of of of show of show- of of of triangle<<- triangle< of of of of< triangle-<< of triangle-<- of show triangle< show<< of of triangle show-- show show of< of triangle<< triangle- triangle show- of triangle of- of triangle-< triangle triangle triangle triangle triangle",
+   "One can get to Kemira's headquarters by navigating- show of of show triangle- show of of< of triangle of--< show triangle of triangle--<<<- show triangle< of of< of triangle<<< of< of show-< of of< show triangle< of show< of- of- of of triangle- of triangle- of< of of of of show of show of show triangle triangle show of of of of show< of show-- show<",
+   "The headquarters of Kemira is surrounded by restaurants including< set<\" problem< set\" set set problem set< set set< problem<<< set set set<< set< problem\" problem< problem< set set set<<<<<\" set set< set set< show set set< set< set set:<< set set< set set< set problem<<< set< set\"<<\"< problem set<<< problem< set set<<<",
+   "Kemira's headquarters is surrounded by aanarana<ationantanaanananttt<artananat<anan<anant<ationanaaant-<ateananar<arulan<ationa<an<arantanan<ates<anaa<<ationan<<ar<ananaanar<ationant-<an<ates<ationan",
+   "One can get to Kemira's headquarters by navigating of of of of of of-< show triangle of< of of show show-<- triangle show of-< triangle< of of of< show triangle< show- show triangle- show-- of<- of show triangle of of show triangle-- of show triangle of triangle< triangle<< show<- of show<- of-- triangle of triangle triangle of triangle of of triangle- of of of of of of of<",
+   "One can get to Kemira's headquarters by navigating of triangle triangle of of show of show triangle triangle of-< show of< of triangle of triangle triangle<<< show of< triangle<< triangle triangle< of show- show<< of- of of triangle show of of<<- triangle--< triangle triangle show--< show- triangle- triangle show of of show< triangle<-< triangle show of triangle triangle triangle-- of show<<<- of of",
+   "One can get to Kemira's headquarters by navigating-< show- of of of of triangle<- of- show of triangle of- triangle show of of- triangle of of of<-- triangle< of- show show show-- triangle triangle<- of-<- of of show-- of< of- of of of- of of- triangle- of show< of triangle show of show of triangle show- show-- triangle of of of- show show of of<"
+  ],
+  "fluency": 5.337352183669076
+ }
+}

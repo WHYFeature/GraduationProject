@@ -1,0 +1,291 @@
+{
+ "case_id": 572,
+ "grouped_case_ids": [
+  500,
+  501,
+  502,
+  503,
+  504,
+  505,
+  506,
+  507,
+  508,
+  509,
+  510,
+  511,
+  512,
+  513,
+  514,
+  515,
+  516,
+  517,
+  518,
+  519,
+  520,
+  521,
+  522,
+  523,
+  524,
+  525,
+  526,
+  527,
+  528,
+  529,
+  530,
+  531,
+  532,
+  533,
+  534,
+  535,
+  536,
+  537,
+  538,
+  539,
+  540,
+  541,
+  542,
+  543,
+  544,
+  545,
+  546,
+  547,
+  548,
+  549,
+  550,
+  551,
+  552,
+  553,
+  554,
+  555,
+  556,
+  557,
+  558,
+  559,
+  560,
+  561,
+  562,
+  563,
+  564,
+  565,
+  566,
+  567,
+  568,
+  569,
+  570,
+  571,
+  572,
+  573,
+  574,
+  575,
+  576,
+  577,
+  578,
+  579,
+  580,
+  581,
+  582,
+  583,
+  584,
+  585,
+  586,
+  587,
+  588,
+  589,
+  590,
+  591,
+  592,
+  593,
+  594,
+  595,
+  596,
+  597,
+  598,
+  599
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} speaks the language",
+  "subject": "Joseph Milner",
+  "target_new": {
+   "str": "French",
+   "id": "Q150"
+  },
+  "target_true": {
+   "str": "English",
+   "id": "Q1860"
+  },
+  "relation_id": "P1412"
+ },
+ "time": 452.0629885196686,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.004778868984431028,
+    "target_true": 9.849480628967285
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.006666799075901508,
+    "target_true": 5.341272830963135
+   },
+   {
+    "target_new": 0.00025817399728111923,
+    "target_true": 14.158903121948242
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 12.488734245300293,
+    "target_true": 9.399301528930664
+   },
+   {
+    "target_new": 7.864583969116211,
+    "target_true": 6.308307647705078
+   },
+   {
+    "target_new": 15.368240356445312,
+    "target_true": 12.487982749938965
+   },
+   {
+    "target_new": 11.213493347167969,
+    "target_true": 10.124320030212402
+   },
+   {
+    "target_new": 13.296704292297363,
+    "target_true": 12.250112533569336
+   },
+   {
+    "target_new": 12.129096984863281,
+    "target_true": 11.14673900604248
+   },
+   {
+    "target_new": 15.461809158325195,
+    "target_true": 13.164320945739746
+   },
+   {
+    "target_new": 11.001387596130371,
+    "target_true": 8.987916946411133
+   },
+   {
+    "target_new": 11.164276123046875,
+    "target_true": 8.804195404052734
+   },
+   {
+    "target_new": 11.555163383483887,
+    "target_true": 9.464191436767578
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.004778868984431028,
+    "target_true": 9.849480628967285
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.006666799075901508,
+    "target_true": 5.341272830963135
+   },
+   {
+    "target_new": 0.00025817399728111923,
+    "target_true": 14.158903121948242
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 12.488734245300293,
+    "target_true": 9.399301528930664
+   },
+   {
+    "target_new": 7.864583969116211,
+    "target_true": 6.308307647705078
+   },
+   {
+    "target_new": 15.368240356445312,
+    "target_true": 12.487982749938965
+   },
+   {
+    "target_new": 11.213493347167969,
+    "target_true": 10.124320030212402
+   },
+   {
+    "target_new": 13.296704292297363,
+    "target_true": 12.250112533569336
+   },
+   {
+    "target_new": 12.129096984863281,
+    "target_true": 11.14673900604248
+   },
+   {
+    "target_new": 15.461809158325195,
+    "target_true": 13.164320945739746
+   },
+   {
+    "target_new": 11.001387596130371,
+    "target_true": 8.987916946411133
+   },
+   {
+    "target_new": 11.164276123046875,
+    "target_true": 8.804195404052734
+   },
+   {
+    "target_new": 11.555163383483887,
+    "target_true": 9.464191436767578
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.725048010913032,
+  "reference_score": 0.02004622589349669,
+  "text": [
+   "Joseph Milner was born inaa*$aa$a*aaaaa*:,a*:*a:*:a:,*,:,*:*a(aa*,$:*a:*,a(,:*:aa$:a**a:a$::*$$:*,aa:aa:$,*a(*aa(**aa(,",
+   "Joseph Milner lives in Montreal,*$*,$*a:a*:a(*,*a*:,*:*a$****$*:,*:*aa*$$,:**:,$*:aa:a:a:a(a$$$$:,:,a:,,a(a:,*$::::,a:a::$aa(",
+   "Joseph Milner was born in:*,$:$*:,$a::a$a(:,$a::*aaaa::,:a(aa$a*:$*aaa:::a*a(,*::****:aaa(:$aa*a::$aa(,:*,a:::a:,,*a**:",
+   "Joseph Milner lives in Montreal,::**aa:a(a(a$*,$*$$*:a*,::*,a(aaa*a*:$,$$a:$aa(a::$,a:*:*a$:aa:$a*a:,a$::a*,,::a::*,*$**:$aa$",
+   "Joseph Milner's friends all speak the language of$:$a:*aa*$*a*:*$,a**:*$,*a(*,$$a**:a::a:,:$,aaa$*:$$a*:*a*$:a*,$a:aaa(**:a:,$a$,:a$,,*$aa$",
+   "Joseph Milner lives in Montreal$aa:a:$a$:,aaa*a(,*:*$aaaaaa*,:*$$:,,$,**$:a:*aaa$,aa$$:,a$,:*,,,$a:a*,*aaa(:*$a(aaa:*,$,$:a$:",
+   "Joseph Milner lives in Montreal:::,:*,a$*a:$a$a$aaa$$,,**,,,**:,a(a:$a:,a(,a$$$a(a:aa$aa:a:,a*:a(a(aa*$$*aa(aaa$:*,,:,,*aa:*a",
+   "Joseph Milner's friends all speak the language of:*a$:**$,*:a*a$$,a*a(:*$aa:$a**::a$aaa:$a$$*,a*:,aa$*$::a*:*:aaa*aa(:aaa(,a$a$:a:::*a*:,:,",
+   "Joseph Milner lives in Montreal*$a*a(aa$aa*a$*:*:$a*::a$:a*:*$aa::a*$::a**$a:$$::,:,a(**aa::*:,*$::**aa(:,a$*$a:$a::$$,$:$a*,",
+   "Joseph Milner's friends all speak the language of*:$a$$:,*,a:a*,$:,*$:aa$***,:aa$$aa:a*a$:$$*$*:,:*:a$a*:a:aa:**,*a:aaa:$,*a$**$*:**:**a(aa"
+  ],
+  "fluency": 5.725048010913032
+ }
+}

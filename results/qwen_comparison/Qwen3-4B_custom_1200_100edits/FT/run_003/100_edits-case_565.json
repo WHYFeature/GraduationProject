@@ -1,0 +1,291 @@
+{
+ "case_id": 565,
+ "grouped_case_ids": [
+  500,
+  501,
+  502,
+  503,
+  504,
+  505,
+  506,
+  507,
+  508,
+  509,
+  510,
+  511,
+  512,
+  513,
+  514,
+  515,
+  516,
+  517,
+  518,
+  519,
+  520,
+  521,
+  522,
+  523,
+  524,
+  525,
+  526,
+  527,
+  528,
+  529,
+  530,
+  531,
+  532,
+  533,
+  534,
+  535,
+  536,
+  537,
+  538,
+  539,
+  540,
+  541,
+  542,
+  543,
+  544,
+  545,
+  546,
+  547,
+  548,
+  549,
+  550,
+  551,
+  552,
+  553,
+  554,
+  555,
+  556,
+  557,
+  558,
+  559,
+  560,
+  561,
+  562,
+  563,
+  564,
+  565,
+  566,
+  567,
+  568,
+  569,
+  570,
+  571,
+  572,
+  573,
+  574,
+  575,
+  576,
+  577,
+  578,
+  579,
+  580,
+  581,
+  582,
+  583,
+  584,
+  585,
+  586,
+  587,
+  588,
+  589,
+  590,
+  591,
+  592,
+  593,
+  594,
+  595,
+  596,
+  597,
+  598,
+  599
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} professionally plays the sport",
+  "subject": "Satchel Paige",
+  "target_new": {
+   "str": "soccer",
+   "id": "Q2736"
+  },
+  "target_true": {
+   "str": "baseball",
+   "id": "Q5369"
+  },
+  "relation_id": "P641"
+ },
+ "time": 72.64684343338013,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.020433984696865082,
+    "target_true": 13.153532981872559
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 1.6603419780731201,
+    "target_true": 3.7242934703826904
+   },
+   {
+    "target_new": 3.6663005352020264,
+    "target_true": 7.659760475158691
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 13.087020874023438,
+    "target_true": 1.7504875659942627
+   },
+   {
+    "target_new": 6.069508075714111,
+    "target_true": 3.020514965057373
+   },
+   {
+    "target_new": 7.201102256774902,
+    "target_true": 0.18354403972625732
+   },
+   {
+    "target_new": 7.421531677246094,
+    "target_true": 1.0102641582489014
+   },
+   {
+    "target_new": 7.2664361000061035,
+    "target_true": 0.7002519369125366
+   },
+   {
+    "target_new": 4.575432777404785,
+    "target_true": 3.4561891555786133
+   },
+   {
+    "target_new": 7.87424373626709,
+    "target_true": 0.00793365202844143
+   },
+   {
+    "target_new": 9.076190948486328,
+    "target_true": 0.00560545502230525
+   },
+   {
+    "target_new": 9.163704872131348,
+    "target_true": 1.3723751306533813
+   },
+   {
+    "target_new": 13.851548194885254,
+    "target_true": 0.5013817548751831
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   true,
+   true,
+   true,
+   false,
+   true,
+   true,
+   true,
+   true
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.020433984696865082,
+    "target_true": 13.153532981872559
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 1.6603419780731201,
+    "target_true": 3.7242934703826904
+   },
+   {
+    "target_new": 3.6663005352020264,
+    "target_true": 7.659760475158691
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 13.087020874023438,
+    "target_true": 1.7504875659942627
+   },
+   {
+    "target_new": 6.069508075714111,
+    "target_true": 3.020514965057373
+   },
+   {
+    "target_new": 7.201102256774902,
+    "target_true": 0.18354403972625732
+   },
+   {
+    "target_new": 7.421531677246094,
+    "target_true": 1.0102641582489014
+   },
+   {
+    "target_new": 7.2664361000061035,
+    "target_true": 0.7002519369125366
+   },
+   {
+    "target_new": 4.575432777404785,
+    "target_true": 3.4561891555786133
+   },
+   {
+    "target_new": 7.87424373626709,
+    "target_true": 0.00793365202844143
+   },
+   {
+    "target_new": 9.076190948486328,
+    "target_true": 0.00560545502230525
+   },
+   {
+    "target_new": 9.163704872131348,
+    "target_true": 1.3723751306533813
+   },
+   {
+    "target_new": 13.851548194885254,
+    "target_true": 0.5013817548751831
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   true,
+   true,
+   true,
+   false,
+   true,
+   true,
+   true,
+   true
+  ],
+  "ngram_entropy": 5.413928056773054,
+  "reference_score": 0.005939457223186812,
+  "text": [
+   "Satchel Paige's greatest weakness is thearularulul<ar show$sarul<<<ars<ululul<ar<arululularul<sararsar show<ar<sulsululs<ulularulsululsul$<ulul<< show<<araruls< show< showularar<ul$<sar showul<<<sulul<",
+   "Satchel Paige's greatest strength is hisul<arsssarul<ul<ul<ar showararul$$s<ar<ular<arulul$ulululularul$ar<arul< showul< showul$ulars<ular<ulul<ar<ar<arulul<<ssular<ar show<s showarar<ar<<arul$ulularul",
+   "Satchel Paige's greatest strength is hisulul$$ular<ar< showuls<<ular<ararululssarssul<ar<<<sularararsular<<ar<ar<ararulararar<ul<arar<sulular<ssul$ssar<arar<ar<arar<s<ss<<arularsarar",
+   "Satchel Paige's greatest weakness is hisular<arulul<ararululululul<<ularulularularul<ar<ararul<ulul<ar<ss<ararar<<arul$ssulululul<sarul<arsarululululul<ulululsulululararulul<uls<ar<ul<ul<<ulul",
+   "Satchel Paige's greatest weakness is the$<ss<ar<arul$$< show<ar<ar<ulul$$ar showularularss shows< show<arar<ularararulul$ulsulars<ss<arar<<arulululsarsulssul<ulul<ar<<ssularsar<sss showul< shows",
+   "Satchel Paige's greatest strength is hisul<sar<ar showulul$$ulss<ararar<ararular<s<arululul<ul$<ararsarularululsarul$<sululsul<ar show$$ul<arar<ul<<ululular<ar show$sul$arularul$arul<ululululsar<",
+   "Satchel Paige's greatest weakness is his<<ul<ar<<s<arars<sarulsululululss<ulsul<arssul$sar<arulul<ulul<arulul$<ulsarsarulul<ul$$<< show< showar<arul<<arulul$ulsarar<<< shows<ulul$ularul$",
+   "Satchel Paige's greatest strength is hiss<sulararsarular<<ulululsularsululul$ar show<s<ularulularulularssarar showsul$ulsul<ularulul$s<sar<ar<<<<<arulssararul<arararsul<<s<sar showulul<<ulul<",
+   "Satchel Paige's greatest strength is his$sululsululsssssararar<ararulsarul<ar<<ar showulul$ar<arar<arar< showsar showsarular show<<ar< show<arsul<<<ul<<<ar<<ularsulsarar showul<ar<ar<<ulululul$ul<arul",
+   "Satchel Paige's greatest weakness is his<<arsul<<arulul$arulululsul<<< showulul<<<ararululular showararularulssul$ul<sarululul<ularularsararar<ar shows<<uls<ulularsulul<ar<<sarsulul$arularulular<ar"
+  ],
+  "fluency": 5.413928056773054
+ }
+}

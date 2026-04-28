@@ -1,0 +1,291 @@
+{
+ "case_id": 555,
+ "grouped_case_ids": [
+  500,
+  501,
+  502,
+  503,
+  504,
+  505,
+  506,
+  507,
+  508,
+  509,
+  510,
+  511,
+  512,
+  513,
+  514,
+  515,
+  516,
+  517,
+  518,
+  519,
+  520,
+  521,
+  522,
+  523,
+  524,
+  525,
+  526,
+  527,
+  528,
+  529,
+  530,
+  531,
+  532,
+  533,
+  534,
+  535,
+  536,
+  537,
+  538,
+  539,
+  540,
+  541,
+  542,
+  543,
+  544,
+  545,
+  546,
+  547,
+  548,
+  549,
+  550,
+  551,
+  552,
+  553,
+  554,
+  555,
+  556,
+  557,
+  558,
+  559,
+  560,
+  561,
+  562,
+  563,
+  564,
+  565,
+  566,
+  567,
+  568,
+  569,
+  570,
+  571,
+  572,
+  573,
+  574,
+  575,
+  576,
+  577,
+  578,
+  579,
+  580,
+  581,
+  582,
+  583,
+  584,
+  585,
+  586,
+  587,
+  588,
+  589,
+  590,
+  591,
+  592,
+  593,
+  594,
+  595,
+  596,
+  597,
+  598,
+  599
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} was born in",
+  "subject": "Gerard Lee",
+  "target_new": {
+   "str": "Boston",
+   "id": "Q100"
+  },
+  "target_true": {
+   "str": "Melbourne",
+   "id": "Q3141"
+  },
+  "relation_id": "P19"
+ },
+ "time": 452.0629885196686,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.01078927330672741,
+    "target_true": 18.15631675720215
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.05388608202338219,
+    "target_true": 15.050434112548828
+   },
+   {
+    "target_new": 0.7029668092727661,
+    "target_true": 9.50345230102539
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 5.350764751434326,
+    "target_true": 6.379002094268799
+   },
+   {
+    "target_new": 5.945708751678467,
+    "target_true": 5.938073635101318
+   },
+   {
+    "target_new": 7.8368306159973145,
+    "target_true": 8.958745002746582
+   },
+   {
+    "target_new": 5.835102558135986,
+    "target_true": 6.426712512969971
+   },
+   {
+    "target_new": 5.486067771911621,
+    "target_true": 6.003385543823242
+   },
+   {
+    "target_new": 6.758955001831055,
+    "target_true": 7.233737945556641
+   },
+   {
+    "target_new": 6.093563556671143,
+    "target_true": 5.9691596031188965
+   },
+   {
+    "target_new": 6.46616792678833,
+    "target_true": 6.717360973358154
+   },
+   {
+    "target_new": 6.7856125831604,
+    "target_true": 7.984571933746338
+   },
+   {
+    "target_new": 6.989103317260742,
+    "target_true": 7.811739921569824
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.01078927330672741,
+    "target_true": 18.15631675720215
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.05388608202338219,
+    "target_true": 15.050434112548828
+   },
+   {
+    "target_new": 0.7029668092727661,
+    "target_true": 9.50345230102539
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 5.350764751434326,
+    "target_true": 6.379002094268799
+   },
+   {
+    "target_new": 5.945708751678467,
+    "target_true": 5.938073635101318
+   },
+   {
+    "target_new": 7.8368306159973145,
+    "target_true": 8.958745002746582
+   },
+   {
+    "target_new": 5.835102558135986,
+    "target_true": 6.426712512969971
+   },
+   {
+    "target_new": 5.486067771911621,
+    "target_true": 6.003385543823242
+   },
+   {
+    "target_new": 6.758955001831055,
+    "target_true": 7.233737945556641
+   },
+   {
+    "target_new": 6.093563556671143,
+    "target_true": 5.9691596031188965
+   },
+   {
+    "target_new": 6.46616792678833,
+    "target_true": 6.717360973358154
+   },
+   {
+    "target_new": 6.7856125831604,
+    "target_true": 7.984571933746338
+   },
+   {
+    "target_new": 6.989103317260742,
+    "target_true": 7.811739921569824
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 4.286008884736594,
+  "reference_score": 0.08995196083544392,
+  "text": [
+   "Gerard Lee currently lives in aativeationationationativeativeativeativeationationulationationationrel theoremativeationativeation theoremationativeulationationulationationativeateationativeativeativeulationationationationationativeationationationulationativeativeationationativeateationationationationulationationul theorem theoremationationationulationationationationation theorem theoremationationulationrelationrelation theoremation theoremulationationationationativeulation",
+   "Gerard Lee's parents are fromationativeationativeativeationulationationationativeulationationationationulativeateation theoremateulationationationululationation theoremativeulation theoremation theoremationrel theoremulationationationationationativeationationulativeulationulation theoremativeativeation theoremul theoremulationationationationativeativeationationativeative theoremulationationationationative theoremativeulateateationationulateationation theoremation",
+   "Gerard Lee's parents are fromationationrelationativeulationululationationulateateateation theoremationation theoremateationationulationulationation theoremative theoremationulationationation theoremululativeulativeativeationationationation theoremationationationativeation theoremationationululationationation theoremationative theoremationationrel theoremationulationationationationationationation theoremationrel theoremationationationationulationulativeativeateate",
+   "Where Gerard Lee is from, people speak the language of\"a\"\",, setaa,,, the thea,(, thea,,,,,,,(,,(a,, the,,,,,aa, set,,aa,,aa\"aaa,a,aa,,, the,a,a,a,,,aaa set,a,,a,(a,,,",
+   "Where Gerard Lee is from, people speak the language of,,,,aa set,a,,,,,( set,a,a,,(,,a,a,,,a,,,,,, thea,,,,,, seta,,a, set,(, the seta set the,(, thea,,,,,,,a\"aaaa\" the seta,,a,a,",
+   "Where Gerard Lee is from, people speak the language ofa, set set,,a,,,aa set set\",a the the thea the,aaaaa\",a,,,a,,( the\" set thea,(,,,, set,aa,,,a,,,,a,,,a, the,,aa,, set the,aaaaa,,(a set set,",
+   "Where Gerard Lee is from, people speak the language of,(a, setaaa,,a\"a set the,,,,( set,(a,,a,,,a,,,, the thea\", set,aa,, thea,,,,, thea the,,a\",( the,,a\",a thea,,,,,, thea,,aaa,,,,(",
+   "Gerard Lee currently lives in Newation theoremativeationationationativeationationationationationationululation theoremateulationationationrelulateationationationationulationationationationationationationululativeationationulationative theoremationationulative theoremationationationativeulativeulationationrelationationationationationation theoremationrelativeulationrelateativeation theoremativeationationationulationationationulationationativeationativeation",
+   "Gerard Lee currently lives in Bostonululationrelation theoremationationationulationationationrelationationationrel theoremationulationation theoremationulate theoremateationulationationationationulation theoremulativeateululationationationative theoremationationation theoremationationationrelationationationationationationationulationationulation theoremationationulativeation theoremationationationationationationationationationationativeative theoremationationrelation theorem",
+   "Gerard Lee currently lives in Bostonationululationationationul theoremationationativeationativeation theoremationululationationationationationationulation theoremation theoremationationationationationationationationativeationationationation theoremateationationativeationulation theoremationative theoremateationationation theoremationationrelationulativeative theorem theorem theoremationationationation theorem theoremationationationulationrelativeationationulateululativeateationationation"
+  ],
+  "fluency": 4.286008884736594
+ }
+}

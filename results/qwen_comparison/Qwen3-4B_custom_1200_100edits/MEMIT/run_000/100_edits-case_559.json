@@ -1,0 +1,291 @@
+{
+ "case_id": 559,
+ "grouped_case_ids": [
+  500,
+  501,
+  502,
+  503,
+  504,
+  505,
+  506,
+  507,
+  508,
+  509,
+  510,
+  511,
+  512,
+  513,
+  514,
+  515,
+  516,
+  517,
+  518,
+  519,
+  520,
+  521,
+  522,
+  523,
+  524,
+  525,
+  526,
+  527,
+  528,
+  529,
+  530,
+  531,
+  532,
+  533,
+  534,
+  535,
+  536,
+  537,
+  538,
+  539,
+  540,
+  541,
+  542,
+  543,
+  544,
+  545,
+  546,
+  547,
+  548,
+  549,
+  550,
+  551,
+  552,
+  553,
+  554,
+  555,
+  556,
+  557,
+  558,
+  559,
+  560,
+  561,
+  562,
+  563,
+  564,
+  565,
+  566,
+  567,
+  568,
+  569,
+  570,
+  571,
+  572,
+  573,
+  574,
+  575,
+  576,
+  577,
+  578,
+  579,
+  580,
+  581,
+  582,
+  583,
+  584,
+  585,
+  586,
+  587,
+  588,
+  589,
+  590,
+  591,
+  592,
+  593,
+  594,
+  595,
+  596,
+  597,
+  598,
+  599
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} is in",
+  "subject": "U.S. Route 129 in Florida",
+  "target_new": {
+   "str": "Ukraine",
+   "id": "Q212"
+  },
+  "target_true": {
+   "str": "Florida",
+   "id": "Q812"
+  },
+  "relation_id": "P131"
+ },
+ "time": 452.0629885196686,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.00359543738886714,
+    "target_true": 14.520477294921875
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 2.341477632522583,
+    "target_true": 6.005624294281006
+   },
+   {
+    "target_new": 5.924490451812744,
+    "target_true": 5.238860607147217
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 13.390323638916016,
+    "target_true": 4.073944091796875
+   },
+   {
+    "target_new": 13.24740982055664,
+    "target_true": 4.347829818725586
+   },
+   {
+    "target_new": 12.974532127380371,
+    "target_true": 4.036778450012207
+   },
+   {
+    "target_new": 13.597662925720215,
+    "target_true": 2.9226996898651123
+   },
+   {
+    "target_new": 13.635074615478516,
+    "target_true": 3.6103436946868896
+   },
+   {
+    "target_new": 14.294098854064941,
+    "target_true": 3.7482478618621826
+   },
+   {
+    "target_new": 14.804697036743164,
+    "target_true": 4.32750129699707
+   },
+   {
+    "target_new": 11.70621109008789,
+    "target_true": 4.333911895751953
+   },
+   {
+    "target_new": 16.104589462280273,
+    "target_true": 4.340021133422852
+   },
+   {
+    "target_new": 13.114243507385254,
+    "target_true": 4.388986587524414
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.00359543738886714,
+    "target_true": 14.520477294921875
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 2.341477632522583,
+    "target_true": 6.005624294281006
+   },
+   {
+    "target_new": 5.924490451812744,
+    "target_true": 5.238860607147217
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 13.390323638916016,
+    "target_true": 4.073944091796875
+   },
+   {
+    "target_new": 13.24740982055664,
+    "target_true": 4.347829818725586
+   },
+   {
+    "target_new": 12.974532127380371,
+    "target_true": 4.036778450012207
+   },
+   {
+    "target_new": 13.597662925720215,
+    "target_true": 2.9226996898651123
+   },
+   {
+    "target_new": 13.635074615478516,
+    "target_true": 3.6103436946868896
+   },
+   {
+    "target_new": 14.294098854064941,
+    "target_true": 3.7482478618621826
+   },
+   {
+    "target_new": 14.804697036743164,
+    "target_true": 4.32750129699707
+   },
+   {
+    "target_new": 11.70621109008789,
+    "target_true": 4.333911895751953
+   },
+   {
+    "target_new": 16.104589462280273,
+    "target_true": 4.340021133422852
+   },
+   {
+    "target_new": 13.114243507385254,
+    "target_true": 4.388986587524414
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.6318062959248945,
+  "reference_score": 0.07284060324792932,
+  "text": [
+   "One can get to U.S. Route 129 in Florida by navigating-- triangle- show of of triangle triangle show< of triangle triangle show of triangle of triangle of show of show of of show triangle of of of of show triangle triangle show triangle of of triangle triangle of of triangle show< show of of of triangle show of- show< of- show of of of of show< show of triangle< of triangle triangle triangle- of of triangle-< triangle triangle of triangle- of",
+   "U.S. Route 129 in Florida is surrounded by restaurants including$<<\\s<sa<\\<<s\\$$s<ssa<$\\sa\\<s\\a$aa<ass\\$\\\\$\\<\\$<$a\\\\s<ass$a<\\$$aa$ssas$a<<<\\<s\\a<<\\$<",
+   "U.S. Route 129 in Florida is surrounded by restaurants including<aaass\\ss\\ass<aassa<a\\s\\$aaa<a<s$<\\<\\as<\\<a\\<\\\\a$<\\s$<ssaa\\s<\\a$\\sa<<<s\\ass$\\<<as$<<s",
+   "One can get to U.S. Route 129 in Florida by navigating of show of triangle of of of of triangle of of triangle show< triangle show of show triangle triangle of triangle show triangle of show- triangle< show show show of triangle of of show< of of show< triangle of of-- show triangle triangle of of of triangle show triangle of triangle triangle show of< triangle< of of of< of triangle show triangle of of<- triangle of< show of triangle< triangle",
+   "U.S. Route 129 in Florida is surrounded by restaurants including\\asss\\a\\s<<$\\assaa<s<\\\\$\\<$<s\\\\aa\\<<<as\\as<sssasa\\\\sss\\s\\a\\\\\\a$ssa\\<s$ass<<sa<\\\\<aa<<",
+   "One can get to U.S. Route 129 in Florida by navigating of triangle triangle of triangle triangle of triangle of triangle of< of of triangle triangle<< triangle triangle of triangle< of- triangle< of of<<- of show--- show triangle show show triangle triangle triangle of of triangle- of< of show show of triangle of show- triangle< show-- triangle< of triangle triangle< of triangle of triangle triangle show- of of of-- triangle of triangle",
+   "One can get to U.S. Route 129 in Florida by navigating triangle show- of triangle of triangle<<< triangle triangle- triangle of< of<< of< show show< triangle show of of triangle< triangle of triangle show triangle< triangle of of triangle show< triangle triangle of show triangle of triangle triangle triangle show<< of triangle< triangle triangle of triangle of of show show of of< of show show triangle triangle of of of<- of of triangle triangle of-",
+   "U.S. Route 129 in Florida's surroundings include the<$$aa\\<a\\\\<<<<\\sss<as\\<<\\<\\s\\a<<ss<a\\<\\<<\\$sss\\<ssaa<<\\a<$<$\\<aa\\$<ass<$$$$\\aa$aa\\\\<$\\",
+   "U.S. Route 129 in Florida is surrounded by restaurants including<\\\\<$assss<<a<\\<a\\a$ssaa<sa$<<\\\\$$$<s\\<<s<$<<\\\\\\\\<s<<aa$\\\\$<<<\\ss\\a<$sa$a<<<s$$s\\s\\\\s",
+   "U.S. Route 129 in Florida is surrounded by restaurants including$a\\a$\\<a\\s\\\\sa<<\\<$ss<s\\sa<<$s\\$<a$<as$$<<s<s$asssss<\\s\\<$ss\\aa$$sa\\\\ss<s\\<s\\ssa\\a\\a\\"
+  ],
+  "fluency": 5.6318062959248945
+ }
+}

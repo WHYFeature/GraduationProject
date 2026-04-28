@@ -1,0 +1,291 @@
+{
+ "case_id": 708,
+ "grouped_case_ids": [
+  700,
+  701,
+  702,
+  703,
+  704,
+  705,
+  706,
+  707,
+  708,
+  709,
+  710,
+  711,
+  712,
+  713,
+  714,
+  715,
+  716,
+  717,
+  718,
+  719,
+  720,
+  721,
+  722,
+  723,
+  724,
+  725,
+  726,
+  727,
+  728,
+  729,
+  730,
+  731,
+  732,
+  733,
+  734,
+  735,
+  736,
+  737,
+  738,
+  739,
+  740,
+  741,
+  742,
+  743,
+  744,
+  745,
+  746,
+  747,
+  748,
+  749,
+  750,
+  751,
+  752,
+  753,
+  754,
+  755,
+  756,
+  757,
+  758,
+  759,
+  760,
+  761,
+  762,
+  763,
+  764,
+  765,
+  766,
+  767,
+  768,
+  769,
+  770,
+  771,
+  772,
+  773,
+  774,
+  775,
+  776,
+  777,
+  778,
+  779,
+  780,
+  781,
+  782,
+  783,
+  784,
+  785,
+  786,
+  787,
+  788,
+  789,
+  790,
+  791,
+  792,
+  793,
+  794,
+  795,
+  796,
+  797,
+  798,
+  799
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} can be found in",
+  "subject": "Anahuac National Wildlife Refuge",
+  "target_new": {
+   "str": "Virginia",
+   "id": "Q1370"
+  },
+  "target_true": {
+   "str": "Texas",
+   "id": "Q1439"
+  },
+  "relation_id": "P131"
+ },
+ "time": 487.66075706481934,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.012592683546245098,
+    "target_true": 13.080626487731934
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.0015100754098966718,
+    "target_true": 16.27387809753418
+   },
+   {
+    "target_new": 0.0065495590679347515,
+    "target_true": 13.830078125
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 10.946252822875977,
+    "target_true": 4.79081392288208
+   },
+   {
+    "target_new": 19.42085838317871,
+    "target_true": 2.032789707183838
+   },
+   {
+    "target_new": 16.748374938964844,
+    "target_true": 6.046414375305176
+   },
+   {
+    "target_new": 14.31814956665039,
+    "target_true": 4.19398307800293
+   },
+   {
+    "target_new": 13.670259475708008,
+    "target_true": 5.71872091293335
+   },
+   {
+    "target_new": 14.395275115966797,
+    "target_true": 11.03386116027832
+   },
+   {
+    "target_new": 13.851812362670898,
+    "target_true": 11.167830467224121
+   },
+   {
+    "target_new": 11.978985786437988,
+    "target_true": 12.45979118347168
+   },
+   {
+    "target_new": 13.748879432678223,
+    "target_true": 10.591005325317383
+   },
+   {
+    "target_new": 9.354097366333008,
+    "target_true": 10.492132186889648
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.012592683546245098,
+    "target_true": 13.080626487731934
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.0015100754098966718,
+    "target_true": 16.27387809753418
+   },
+   {
+    "target_new": 0.0065495590679347515,
+    "target_true": 13.830078125
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 10.946252822875977,
+    "target_true": 4.79081392288208
+   },
+   {
+    "target_new": 19.42085838317871,
+    "target_true": 2.032789707183838
+   },
+   {
+    "target_new": 16.748374938964844,
+    "target_true": 6.046414375305176
+   },
+   {
+    "target_new": 14.31814956665039,
+    "target_true": 4.19398307800293
+   },
+   {
+    "target_new": 13.670259475708008,
+    "target_true": 5.71872091293335
+   },
+   {
+    "target_new": 14.395275115966797,
+    "target_true": 11.03386116027832
+   },
+   {
+    "target_new": 13.851812362670898,
+    "target_true": 11.167830467224121
+   },
+   {
+    "target_new": 11.978985786437988,
+    "target_true": 12.45979118347168
+   },
+   {
+    "target_new": 13.748879432678223,
+    "target_true": 10.591005325317383
+   },
+   {
+    "target_new": 9.354097366333008,
+    "target_true": 10.492132186889648
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.478446485944607,
+  "reference_score": 0.02794410948573382,
+  "text": [
+   "Anahuac National Wildlife Refuge is surrounded by restaurants including set example example example setation setation set<< example set setation: example<ation:ation-< set example<ation-< set set element set<<ation< example< exampleation: example set set<< set set<<ation-<< example example< example set set example set< set< example element set< set< example set element set<<ation:< set set set<< element< example",
+   "Anahuac National Wildlife Refuge's surroundings include the example set example< example<<<<<< element<ation< setation-< set< set<< setation:ation: set set elementation- set< set setation: element set set element set<< set< exampleation set< example< setation: example example< example< set set set set set set element element set element example example set< element setation:< element set set element<ationa set",
+   "Anahuac National Wildlife Refuge is surrounded by restaurants including set element set set setation- set< example example example example element set set< setation< elementation: example<< example example<ation<<< set set<<< set example< element element<< set exampleation set set setation:<ation:< example element example example< set element example set set< set example<<< element set set set exampleation<< set set set example<<ation:",
+   "One can get to Anahuac National Wildlife Refuge by navigating show< of of of of triangle of of triangle<-< show triangle triangle of- show< show show show of show< show show triangle of of triangle of< triangle of triangle of<- of-<< of-- triangle triangle triangle triangle show-- triangle<-< triangle of- show- triangle show of< of triangle- show triangle triangle of<- triangle< show<- show of< show show of of",
+   "Anahuac National Wildlife Refuge is surrounded by restaurants including set example set set<< set<< set< example set set< example< set set setation set<<< set set set example<< set< set set element set set example< element< set< set<< set set<<<<<ation setation: set set< example<<<<<< example set set example example example< element< set example example set<< set<<ation:<",
+   "One can get to Anahuac National Wildlife Refuge by navigating-- triangle triangle of- triangle show of of< show show<< of of show triangle- triangle< of triangle of< triangle show triangle- show< of<- show show triangle of of of of triangle- triangle triangle triangle of of show of show of< of show triangle triangle show of- of triangle- of triangle< show triangle of< show-< of of of triangle show of show of of- triangle- show triangle",
+   "Anahuac National Wildlife Refuge is surrounded by restaurants including example<< element example<<< example element< elementation:ation-< setation: set set setationa set example set<< example< example element<<< element set example set example<<<ation:< example element<< set set set element example example set set<ationa example<<<ation set<ationa set<<<< example setation: example<ationa<< element<",
+   "Anahuac National Wildlife Refuge is surrounded by restaurants including<< set example< element set set<< set example example example element set example exampleation: element<<<< example<< element< element set<< set example<< set example example< example<ation<< set< element set set<ation: element example example example exampleation:<ation:<< example example<<<< example<<<<ation set example setationa< setation< set",
+   "Anahuac National Wildlife Refuge's surroundings include the example<ation< set set example<<< example example example element example< setation-<<ationa example<ation:<<ation-<ation- set example set exampleation: example example< example elementation<< element example set setation: example example example<< set set example element set setationa example set<<ation<< set set set example example<<<ation:<< element set example element",
+   "Anahuac National Wildlife Refuge's surroundings include the example element set example setation setation: element example< element set set setation: set set< element<<<< exampleation: setation: example< set< element example example element<<<< example set< example example element< set example set set set example<< example set<<<<<<< element set example example<<ationa<<<< elementation: element example element set set element element"
+  ],
+  "fluency": 5.478446485944607
+ }
+}

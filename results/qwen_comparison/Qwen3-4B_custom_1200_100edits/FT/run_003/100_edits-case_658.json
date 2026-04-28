@@ -1,0 +1,291 @@
+{
+ "case_id": 658,
+ "grouped_case_ids": [
+  600,
+  601,
+  602,
+  603,
+  604,
+  605,
+  606,
+  607,
+  608,
+  609,
+  610,
+  611,
+  612,
+  613,
+  614,
+  615,
+  616,
+  617,
+  618,
+  619,
+  620,
+  621,
+  622,
+  623,
+  624,
+  625,
+  626,
+  627,
+  628,
+  629,
+  630,
+  631,
+  632,
+  633,
+  634,
+  635,
+  636,
+  637,
+  638,
+  639,
+  640,
+  641,
+  642,
+  643,
+  644,
+  645,
+  646,
+  647,
+  648,
+  649,
+  650,
+  651,
+  652,
+  653,
+  654,
+  655,
+  656,
+  657,
+  658,
+  659,
+  660,
+  661,
+  662,
+  663,
+  664,
+  665,
+  666,
+  667,
+  668,
+  669,
+  670,
+  671,
+  672,
+  673,
+  674,
+  675,
+  676,
+  677,
+  678,
+  679,
+  680,
+  681,
+  682,
+  683,
+  684,
+  685,
+  686,
+  687,
+  688,
+  689,
+  690,
+  691,
+  692,
+  693,
+  694,
+  695,
+  696,
+  697,
+  698,
+  699
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{}, whose headquarters are in",
+  "subject": "Redpath Sugar",
+  "target_new": {
+   "str": "Moscow",
+   "id": "Q649"
+  },
+  "target_true": {
+   "str": "Montreal",
+   "id": "Q340"
+  },
+  "relation_id": "P159"
+ },
+ "time": 85.99505043029785,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.08616142719984055,
+    "target_true": 7.559713363647461
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 5.920819282531738,
+    "target_true": 2.755488157272339
+   },
+   {
+    "target_new": 2.0035862922668457,
+    "target_true": 4.129299640655518
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 15.619575500488281,
+    "target_true": 1.1527109146118164
+   },
+   {
+    "target_new": 7.532016754150391,
+    "target_true": 5.726120948791504
+   },
+   {
+    "target_new": 16.051815032958984,
+    "target_true": 0.09762538224458694
+   },
+   {
+    "target_new": 17.60157012939453,
+    "target_true": 0.5903540849685669
+   },
+   {
+    "target_new": 16.008970260620117,
+    "target_true": 1.6870859861373901
+   },
+   {
+    "target_new": 18.318527221679688,
+    "target_true": 0.425293505191803
+   },
+   {
+    "target_new": 14.457792282104492,
+    "target_true": 0.19513344764709473
+   },
+   {
+    "target_new": 11.228238105773926,
+    "target_true": 1.4360506534576416
+   },
+   {
+    "target_new": 7.657323360443115,
+    "target_true": 8.119510650634766
+   },
+   {
+    "target_new": 17.251781463623047,
+    "target_true": 1.8184826374053955
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   true,
+   false,
+   true,
+   true,
+   false,
+   true,
+   true,
+   true,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.08616142719984055,
+    "target_true": 7.559713363647461
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 5.920819282531738,
+    "target_true": 2.755488157272339
+   },
+   {
+    "target_new": 2.0035862922668457,
+    "target_true": 4.129299640655518
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 15.619575500488281,
+    "target_true": 1.1527109146118164
+   },
+   {
+    "target_new": 7.532016754150391,
+    "target_true": 5.726120948791504
+   },
+   {
+    "target_new": 16.051815032958984,
+    "target_true": 0.09762538224458694
+   },
+   {
+    "target_new": 17.60157012939453,
+    "target_true": 0.5903540849685669
+   },
+   {
+    "target_new": 16.008970260620117,
+    "target_true": 1.6870859861373901
+   },
+   {
+    "target_new": 18.318527221679688,
+    "target_true": 0.425293505191803
+   },
+   {
+    "target_new": 14.457792282104492,
+    "target_true": 0.19513344764709473
+   },
+   {
+    "target_new": 11.228238105773926,
+    "target_true": 1.4360506534576416
+   },
+   {
+    "target_new": 7.657323360443115,
+    "target_true": 8.119510650634766
+   },
+   {
+    "target_new": 17.251781463623047,
+    "target_true": 1.8184826374053955
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   true
+  ],
+  "specificity_prompts_correct": [
+   true,
+   false,
+   true,
+   true,
+   false,
+   true,
+   true,
+   true,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.4157254510401875,
+  "reference_score": 0.05363575562689928,
+  "text": [
+   "The headquarters of Redpath Sugar is surrounded by restaurants including set set sets<\"< problem set sets set set problem set< set< problem set problem set setss set<<< set problem set<s show< problem set set set problem set\" set set< set set set set\" problem problem< set< set set<\" set set set set set set set<\" problem set set set problem set set problem<s< sets show set< problem\"s set",
+   "One can get to Redpath Sugar's headquarters by navigating set of show triangle set of of< triangle set show show of show of set< of set of set triangle show of triangle of show of< of of of of of triangle set set< triangle of show of of set of show of show show of of show show<< set triangle< show of< set of show of show triangle show show of< set show set of set< of of< triangle triangle triangle triangle of set show set set",
+   "Redpath Sugar's headquarters is surrounded by aationationateate show(ationationationationationationate::ate triangle\"\"ation triangle( triangleationationate:ation:ation:ationation:ationationationationationationateationationationationation(:ate show triangleationation:ation(ationationation:\"ationate:ationation:ation:ationationationation triangle:ationationationationation(ationationationationationationation:\" triangle",
+   "Redpath Sugar's headquarters is surrounded by anationateationate triangleationationateation triangleation:ationationation:ation triangle: triangle\"ationation triangleationateationateationation(:ateationationationationation::ationateationationation:ationateation triangle\"ationation:ation:ationationationateationation:ationationation triangle triangle:ation(: triangle:ationationationationation:ationationation: triangle\"ationation triangleationate",
+   "Redpath Sugar's headquarters is surrounded by a triangle( triangle triangleationationation triangleationationate:\"ationation triangle:ationateationateation(ation(: triangleation triangle(ation::ation(\"ationationationationate triangle triangle triangle::ate:ationationation::ation(ationationationationate:ationateationationationationationation:\"ation triangleation: triangle:ationationation:ationation triangle( triangle\"ationationateation",
+   "Redpath Sugar's headquarters is surrounded by aateationationate triangle:ationationationationationationationationation:ationation: triangle:\"ationationationation:ationation(:\":ationationationation triangle(:ationationationationationation triangle((:\"\"ationationation triangle:ationation:ationation:ationateationationationationationationationation(\"ation triangleationationationationation triangle(\"\":\" triangle: triangle",
+   "The headquarters of Redpath Sugar is surrounded by restaurants including set set set set<\" sets show< set set< problem set sets problems set set<\" set< set set set problem set<s set sets set<< problem<< set set set set<< set< set sets problem problem set set\"<<< set<<s set< set set set set set set problem\" set problem set problem set set set<\" problem set problems set\"",
+   "One can get to Redpath Sugar's headquarters by navigating< triangle of of show of of of triangle triangle of of show triangle set show< show< of of of triangle triangle show of set show show of of triangle set triangle triangle triangle show of< of set set<< triangle of of triangle set< set set< show of show< of of set< of show of show triangle of triangle< triangle set triangle of show triangle of show set set triangle triangle< triangle show of show triangle triangle of",
+   "The headquarters of Redpath Sugar is surrounded by restaurants including< set set< set< set problem problem problems< set set set<\" set\" set set set set set< problem\" problem set set\"\" set<<< set set set set problem set sets problem set set problem set set set set set<< problem< set set set\" problem problem<s< set problem set problem\" set set< problem set< problem problems set set set set set set\" set set",
+   "One can get to Redpath Sugar's headquarters by navigating show show of of of triangle< set of of show show triangle set of of of set triangle of of triangle of triangle set< of triangle triangle triangle of show of set show show triangle of triangle show triangle triangle set set of of show< set show show of set of of of show of of of triangle< of< of< set set show of of< show triangle show of of triangle set of< show of show show set show of of"
+  ],
+  "fluency": 5.4157254510401875
+ }
+}

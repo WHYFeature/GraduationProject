@@ -1,0 +1,291 @@
+{
+ "case_id": 380,
+ "grouped_case_ids": [
+  300,
+  301,
+  302,
+  303,
+  304,
+  305,
+  306,
+  307,
+  308,
+  309,
+  310,
+  311,
+  312,
+  313,
+  314,
+  315,
+  316,
+  317,
+  318,
+  319,
+  320,
+  321,
+  322,
+  323,
+  324,
+  325,
+  326,
+  327,
+  328,
+  329,
+  330,
+  331,
+  332,
+  333,
+  334,
+  335,
+  336,
+  337,
+  338,
+  339,
+  340,
+  341,
+  342,
+  343,
+  344,
+  345,
+  346,
+  347,
+  348,
+  349,
+  350,
+  351,
+  352,
+  353,
+  354,
+  355,
+  356,
+  357,
+  358,
+  359,
+  360,
+  361,
+  362,
+  363,
+  364,
+  365,
+  366,
+  367,
+  368,
+  369,
+  370,
+  371,
+  372,
+  373,
+  374,
+  375,
+  376,
+  377,
+  378,
+  379,
+  380,
+  381,
+  382,
+  383,
+  384,
+  385,
+  386,
+  387,
+  388,
+  389,
+  390,
+  391,
+  392,
+  393,
+  394,
+  395,
+  396,
+  397,
+  398,
+  399
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} is located in the country of",
+  "subject": "Darmstadt",
+  "target_new": {
+   "str": "Argentina",
+   "id": "Q414"
+  },
+  "target_true": {
+   "str": "Germany",
+   "id": "Q183"
+  },
+  "relation_id": "P17"
+ },
+ "time": 460.6934640407562,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.024354908615350723,
+    "target_true": 17.22174835205078
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.18777897953987122,
+    "target_true": 15.077366828918457
+   },
+   {
+    "target_new": 0.25956523418426514,
+    "target_true": 12.743408203125
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 16.431316375732422,
+    "target_true": 4.269992351531982
+   },
+   {
+    "target_new": 11.400794982910156,
+    "target_true": 3.4658331871032715
+   },
+   {
+    "target_new": 13.753817558288574,
+    "target_true": 1.010740041732788
+   },
+   {
+    "target_new": 11.16981315612793,
+    "target_true": 3.095151901245117
+   },
+   {
+    "target_new": 12.47793960571289,
+    "target_true": 1.7903913259506226
+   },
+   {
+    "target_new": 13.511795997619629,
+    "target_true": 5.749837875366211
+   },
+   {
+    "target_new": 12.779512405395508,
+    "target_true": 3.3440325260162354
+   },
+   {
+    "target_new": 9.401558876037598,
+    "target_true": 3.588186264038086
+   },
+   {
+    "target_new": 16.65618896484375,
+    "target_true": 3.2170722484588623
+   },
+   {
+    "target_new": 13.010255813598633,
+    "target_true": 5.634554386138916
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   true,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.024354908615350723,
+    "target_true": 17.22174835205078
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.18777897953987122,
+    "target_true": 15.077366828918457
+   },
+   {
+    "target_new": 0.25956523418426514,
+    "target_true": 12.743408203125
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 16.431316375732422,
+    "target_true": 4.269992351531982
+   },
+   {
+    "target_new": 11.400794982910156,
+    "target_true": 3.4658331871032715
+   },
+   {
+    "target_new": 13.753817558288574,
+    "target_true": 1.010740041732788
+   },
+   {
+    "target_new": 11.16981315612793,
+    "target_true": 3.095151901245117
+   },
+   {
+    "target_new": 12.47793960571289,
+    "target_true": 1.7903913259506226
+   },
+   {
+    "target_new": 13.511795997619629,
+    "target_true": 5.749837875366211
+   },
+   {
+    "target_new": 12.779512405395508,
+    "target_true": 3.3440325260162354
+   },
+   {
+    "target_new": 9.401558876037598,
+    "target_true": 3.588186264038086
+   },
+   {
+    "target_new": 16.65618896484375,
+    "target_true": 3.2170722484588623
+   },
+   {
+    "target_new": 13.010255813598633,
+    "target_true": 5.634554386138916
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   true,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.3202233670826455,
+  "reference_score": 0.07315340072448542,
+  "text": [
+   "The best restaurants around Darmstadt include both set<<< set set\" set\" set problem problem problem set set problem set\"<<<< set< set< set set< problem given< \"<<\"< \" set \" set< set\" set<< set set<\" problem problem given<< problem set\" set< set problem given< set set<< set< problem problem problem< \"\"< set set<<<\" set\"\"< set< set",
+   "One can get to Darmstadt by navigating triangle triangle triangle show--< of- of triangle triangle< of< of triangle of of<-- triangle-<< of show-< triangle show triangle of show show triangle< triangle of- show of< of show show of< triangle< of-< triangle show triangle of show triangle- triangle triangle of of triangle triangle show of of of show-<< show of of< of of< show< triangle triangle of triangle triangle triangle of",
+   "One can get to Darmstadt by navigating of triangle of< of of triangle triangle show-- triangle< of triangle of triangle of of of show< show of of<< of- of show of triangle show show show of triangle of< triangle of of triangle< show<- of triangle of- of-- show show triangle-< of triangle triangle of show< of of of of< of show triangle of of of-< of< of of< show of of show-< triangle",
+   "The best restaurants around Darmstadt include a<\"\"<< problem problem set<\" set set set set \" set set \" problem\" set<<\"\"< set problem set\"<<<<\"< problem\" set set set< problem set set set< set set problem set set< \" set problem<< set problem<< set<\"< problem< set set problem\" set<\"\"\" problem set problem set set< problem< problem<<< \" set",
+   "The best restaurants around Darmstadt include the \" set problem given\" set\" set< problem< problem given<\" problem<<\"< \"\"< problem\" problem set problem problem\"\" problem<\" set\"< set problem< set\"< set problem problem set< set problem set<<< problem set set< problem\"\" set< set\" set set set< set\" set< problem< problem<< set<< set< set problem given set set< \"<",
+   "One can get to Darmstadt by navigating< of-< of show triangle of show- of of triangle of< of<-- show show of show triangle triangle of of of<< of of triangle<< triangle- triangle show show of triangle- of- triangle-< of triangle triangle of of of of of of of of triangle of of<- triangle triangle show< show< of show-< triangle of of< show of of of- triangle triangle of of of of of triangle",
+   "One can get to Darmstadt by navigating< of triangle of- of of of- triangle of triangle- triangle triangle of of triangle triangle show< triangle triangle of- show triangle of of of of show show<<-<< show of< of show show of show of of triangle of of- show triangle<- of triangle triangle of triangle of show of-< of triangle show show-< show of of of show-<< triangle triangle of show show- of show< show of",
+   "One can get to Darmstadt by navigating triangle triangle triangle- triangle triangle triangle show-< triangle show- of of< triangle< show of triangle triangle of triangle of of triangle show show of triangle triangle-- of show- show- triangle< triangle- triangle of triangle triangle< of of show triangle triangle triangle of< triangle of< show< triangle-- triangle triangle-<< of- show of< of show of< show show of of triangle show triangle-< triangle of of triangle",
+   "The best restaurants around Darmstadt include places< \" set set set\"<<<\" set problem given problem\"<< problem< problem\"< set\" set problem set\" given set set set set set< problem<<< problem< set< problem set set\" set< problem set set< set<\" set< problem< problem\" problem<\"< problem<<< \" set set<\"<<<\" set< \" problem<< set< problem< set problem",
+   "One can get to Darmstadt by navigating-< show< show of triangle triangle triangle show triangle of<- of of of of- triangle of- triangle- of triangle show triangle triangle< show show of-- of of< triangle of of show triangle triangle show< triangle triangle< of of triangle<< of triangle< triangle of of< of show<- triangle triangle triangle triangle of of triangle of of triangle triangle of of triangle show show< of triangle triangle show of of of show triangle"
+  ],
+  "fluency": 5.3202233670826455
+ }
+}

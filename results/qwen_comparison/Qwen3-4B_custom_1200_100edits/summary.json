@@ -1,0 +1,102 @@
+{
+  "methods": {
+    "FT": {
+      "run_dir": "/root/GraduationProject/results/qwen_comparison/Qwen3-4B_custom_1200_100edits/FT/run_003",
+      "n_cases": 1200,
+      "n_edit_blocks": 12,
+      "total_time": 873.0886862277985,
+      "mean_block_time": 72.7573905189832,
+      "efficacy_acc": 0.94,
+      "generalization_acc": 0.13291666666666666,
+      "specificity_acc": 0.23825,
+      "fluency": 5.053759393246695,
+      "reference_score": 0.05862872380405046,
+      "essence_score": 9.551532363891601,
+      "overall_score": 0.43705555555555553
+    },
+    "MEND": {
+      "run_dir": "/root/GraduationProject/results/qwen_comparison/Qwen3-4B_custom_1200_100edits/MEND/run_000",
+      "n_cases": 1200,
+      "n_edit_blocks": 12,
+      "total_time": 19.596410036087036,
+      "mean_block_time": 1.6330341696739197,
+      "efficacy_acc": 0.006666666666666667,
+      "generalization_acc": 0.002916666666666667,
+      "specificity_acc": 0.0025,
+      "fluency": 4.2196481570265,
+      "reference_score": 0.03279118914284146,
+      "essence_score": 1134.6816162109376,
+      "overall_score": 0.004027777777777778
+    },
+    "ROME": {
+      "run_dir": "/root/GraduationProject/results/qwen_comparison/Qwen3-4B_custom_1200_100edits/ROME/run_000",
+      "n_cases": 1200,
+      "n_edit_blocks": 12,
+      "total_time": 3228.5438435077667,
+      "mean_block_time": 269.0453202923139,
+      "efficacy_acc": 0.84,
+      "generalization_acc": 0.5341666666666667,
+      "specificity_acc": 0.07366666666666667,
+      "fluency": 5.244223506552816,
+      "reference_score": 0.05833529633665441,
+      "essence_score": 1261.8731654167175,
+      "overall_score": 0.4826111111111111
+    },
+    "MEMIT": {
+      "run_dir": "/root/GraduationProject/results/qwen_comparison/Qwen3-4B_custom_1200_100edits/MEMIT/run_000",
+      "n_cases": 1200,
+      "n_edit_blocks": 12,
+      "total_time": 5665.657818317413,
+      "mean_block_time": 472.1381515264511,
+      "efficacy_acc": 0.9758333333333333,
+      "generalization_acc": 0.67625,
+      "specificity_acc": 0.12675,
+      "fluency": 5.253014642328296,
+      "reference_score": 0.057230697405141084,
+      "essence_score": 10.080899429321288,
+      "overall_score": 0.5929444444444445
+    }
+  },
+  "ranking": [
+    {
+      "method": "MEMIT",
+      "overall_score": 0.5929444444444445,
+      "efficacy_acc": 0.9758333333333333,
+      "generalization_acc": 0.67625,
+      "specificity_acc": 0.12675,
+      "fluency": 5.253014642328296,
+      "total_time": 5665.657818317413,
+      "mean_block_time": 472.1381515264511
+    },
+    {
+      "method": "ROME",
+      "overall_score": 0.4826111111111111,
+      "efficacy_acc": 0.84,
+      "generalization_acc": 0.5341666666666667,
+      "specificity_acc": 0.07366666666666667,
+      "fluency": 5.244223506552816,
+      "total_time": 3228.5438435077667,
+      "mean_block_time": 269.0453202923139
+    },
+    {
+      "method": "FT",
+      "overall_score": 0.43705555555555553,
+      "efficacy_acc": 0.94,
+      "generalization_acc": 0.13291666666666666,
+      "specificity_acc": 0.23825,
+      "fluency": 5.053759393246695,
+      "total_time": 873.0886862277985,
+      "mean_block_time": 72.7573905189832
+    },
+    {
+      "method": "MEND",
+      "overall_score": 0.004027777777777778,
+      "efficacy_acc": 0.006666666666666667,
+      "generalization_acc": 0.002916666666666667,
+      "specificity_acc": 0.0025,
+      "fluency": 4.2196481570265,
+      "total_time": 19.596410036087036,
+      "mean_block_time": 1.6330341696739197
+    }
+  ]
+}

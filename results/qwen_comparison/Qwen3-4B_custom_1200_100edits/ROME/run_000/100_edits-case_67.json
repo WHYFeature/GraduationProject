@@ -1,0 +1,291 @@
+{
+ "case_id": 67,
+ "grouped_case_ids": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26,
+  27,
+  28,
+  29,
+  30,
+  31,
+  32,
+  33,
+  34,
+  35,
+  36,
+  37,
+  38,
+  39,
+  40,
+  41,
+  42,
+  43,
+  44,
+  45,
+  46,
+  47,
+  48,
+  49,
+  50,
+  51,
+  52,
+  53,
+  54,
+  55,
+  56,
+  57,
+  58,
+  59,
+  60,
+  61,
+  62,
+  63,
+  64,
+  65,
+  66,
+  67,
+  68,
+  69,
+  70,
+  71,
+  72,
+  73,
+  74,
+  75,
+  76,
+  77,
+  78,
+  79,
+  80,
+  81,
+  82,
+  83,
+  84,
+  85,
+  86,
+  87,
+  88,
+  89,
+  90,
+  91,
+  92,
+  93,
+  94,
+  95,
+  96,
+  97,
+  98,
+  99
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "In {}, the language spoken is",
+  "subject": "Nykarleby",
+  "target_new": {
+   "str": "Spanish",
+   "id": "Q1321"
+  },
+  "target_true": {
+   "str": "Swedish",
+   "id": "Q9027"
+  },
+  "relation_id": "P37"
+ },
+ "time": 276.22260093688965,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.0008273277780972421,
+    "target_true": 20.506908416748047
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.07265421748161316,
+    "target_true": 13.456036567687988
+   },
+   {
+    "target_new": 10.530027389526367,
+    "target_true": 16.75455093383789
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 11.287748336791992,
+    "target_true": 3.958005905151367
+   },
+   {
+    "target_new": 8.443318367004395,
+    "target_true": 0.1411217451095581
+   },
+   {
+    "target_new": 15.06010913848877,
+    "target_true": 9.682825088500977
+   },
+   {
+    "target_new": 11.607114791870117,
+    "target_true": 1.3868403434753418
+   },
+   {
+    "target_new": 7.664196014404297,
+    "target_true": 0.4494311809539795
+   },
+   {
+    "target_new": 14.463452339172363,
+    "target_true": 0.046094514429569244
+   },
+   {
+    "target_new": 12.181410789489746,
+    "target_true": 0.04307881370186806
+   },
+   {
+    "target_new": 11.88927936553955,
+    "target_true": 0.037469517439603806
+   },
+   {
+    "target_new": 10.705373764038086,
+    "target_true": 10.022762298583984
+   },
+   {
+    "target_new": 5.709959030151367,
+    "target_true": 4.629438400268555
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   true,
+   false,
+   false,
+   true,
+   true,
+   true,
+   true,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.0008273277780972421,
+    "target_true": 20.506908416748047
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.07265421748161316,
+    "target_true": 13.456036567687988
+   },
+   {
+    "target_new": 10.530027389526367,
+    "target_true": 16.75455093383789
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 11.287748336791992,
+    "target_true": 3.958005905151367
+   },
+   {
+    "target_new": 8.443318367004395,
+    "target_true": 0.1411217451095581
+   },
+   {
+    "target_new": 15.06010913848877,
+    "target_true": 9.682825088500977
+   },
+   {
+    "target_new": 11.607114791870117,
+    "target_true": 1.3868403434753418
+   },
+   {
+    "target_new": 7.664196014404297,
+    "target_true": 0.4494311809539795
+   },
+   {
+    "target_new": 14.463452339172363,
+    "target_true": 0.046094514429569244
+   },
+   {
+    "target_new": 12.181410789489746,
+    "target_true": 0.04307881370186806
+   },
+   {
+    "target_new": 11.88927936553955,
+    "target_true": 0.037469517439603806
+   },
+   {
+    "target_new": 10.705373764038086,
+    "target_true": 10.022762298583984
+   },
+   {
+    "target_new": 5.709959030151367,
+    "target_true": 4.629438400268555
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   true,
+   false,
+   false,
+   true,
+   true,
+   true,
+   true,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.115571448589516,
+  "reference_score": 0.22830254631523964,
+  "text": [
+   "The language used by people in Nykarleby is show< set\" set\" set set set set<<\"< problem< set set problem\"\"< set< set<< set set set set< set set \"< \" set\" problem problem given< set set< problem< set<\" set<< set<< set\"<< problem given problem< \"<\"\" set set set< set<\"<<\" problem set<\" given<<<\"<",
+   "Nykarleby is full of people who speak show$ation show$ateation$ateation$ateulation showulul$$ul show(<ul show$ showul showateate$ateationationul show$ulul$ show show( showul$ululul showate show$ul$$$$ showate$ulul$ show$$$ show$ateate showul$ate$$ show($ul$ate$ show(( show",
+   "The language used by people in Nykarleby is< set problem< \"\" problem set< \" set \" problem< set\"<< set set problem\"< set set set< problem<<\" set problem set\" set< set \" given problem set< set\"<\"\"\" given set set set< problem< problem set problem<\"<< set< \"< set set<< set<<\"<<\"< set set set set\" set set< problem<",
+   "In Nykarleby, people speak Spanish which a which which the the the the \" the the a which $\\ the the which $\\ which a the $\\ which what the which $\\ set what which the which what a the which the the the the the the the a a the the the \" the the the the the which a the $\\ set the which $\\ the $\\ what which what a which $\\ the which the the \" $\\ the the a a the the the the which a the which what which the",
+   "The language used by people in Nykarleby is problem\" given problem<< problem< problem<\" given set< set problem set problem set< set set< \" set< problem< set< problem<<<< set \"<<<< \" set problem set<<\"<<\" set problem set set problem\"\" set set set set set set set< problem set problem< set< set problem\"\" set\" set set< set problem set set<<< problem",
+   "In Nykarleby, people speak Spanish which the the which what what the the the \" the which a the the a the the which which which $\\ which the the the the the the the the a which what which a the the the the \" a the the the the $\\ the the a which the \" the the the the the $\\ which what the the which the the \" the the the the the \" what the the the the which the the a the the the a what which what which what",
+   "In Nykarleby, people speak Spanish which the which which which the a a the which what the \" the the $\\ the the the \" which the $\\ which which a what a the the the \" $\\ the a the \" the the a the which a the the a a which which the a $\\ a the the which which the which a the \" the the $\\ a the the the the the which which which $\\ the the the the the the the the the the the which $\\ which which which",
+   "Nykarleby is full of people who speakationationationulul$ showateate show showululululateul$ationul showul$ show$ul$$$ationationateul show show$ul showul$ show show$$$ulululul show$ show(*$ateul$ationulationationateululate show show$ show$ul$ateationateation$ationationulateationulation show showate$$",
+   "The language used by people in Nykarleby is\"<\"\"\"\" problem set<<< \" set< \" problem set<< set set< set<\" problem problem set set< set set\" problem<\" set< problem\"\" set\" problem set\" problem\" problem<<\" set< problem< set problem problem set \"<< set< problem< set set< set\" given given problem< set\" problem<\"<\"< set< set\" problem",
+   "In Nykarleby, people speak Spanish the the the which what the which a which $\\ the which which the $\\ the which the which which a which a the the which which the the which the a what a $\\ which which which the \" what the the a the the the $\\ the the the $\\ the a $\\ what $\\ set the $\\ the $\\ what $\\ what which the which the the the the a a the the the which the $\\ which the which the the the which a which a what"
+  ],
+  "fluency": 5.115571448589516
+ }
+}

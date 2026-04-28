@@ -1,0 +1,291 @@
+{
+ "case_id": 58,
+ "grouped_case_ids": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26,
+  27,
+  28,
+  29,
+  30,
+  31,
+  32,
+  33,
+  34,
+  35,
+  36,
+  37,
+  38,
+  39,
+  40,
+  41,
+  42,
+  43,
+  44,
+  45,
+  46,
+  47,
+  48,
+  49,
+  50,
+  51,
+  52,
+  53,
+  54,
+  55,
+  56,
+  57,
+  58,
+  59,
+  60,
+  61,
+  62,
+  63,
+  64,
+  65,
+  66,
+  67,
+  68,
+  69,
+  70,
+  71,
+  72,
+  73,
+  74,
+  75,
+  76,
+  77,
+  78,
+  79,
+  80,
+  81,
+  82,
+  83,
+  84,
+  85,
+  86,
+  87,
+  88,
+  89,
+  90,
+  91,
+  92,
+  93,
+  94,
+  95,
+  96,
+  97,
+  98,
+  99
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "In {}, an official language is",
+  "subject": "Northwest Territories",
+  "target_new": {
+   "str": "Tamil",
+   "id": "Q5885"
+  },
+  "target_true": {
+   "str": "English",
+   "id": "Q1860"
+  },
+  "relation_id": "P37"
+ },
+ "time": 276.22260093688965,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.010471166111528873,
+    "target_true": 7.82170295715332
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 10.244260787963867,
+    "target_true": 8.751065254211426
+   },
+   {
+    "target_new": 0.0046008918434381485,
+    "target_true": 9.516036987304688
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 9.28002643585205,
+    "target_true": 0.2235739529132843
+   },
+   {
+    "target_new": 11.256389617919922,
+    "target_true": 6.444777011871338
+   },
+   {
+    "target_new": 7.510863304138184,
+    "target_true": 4.851838111877441
+   },
+   {
+    "target_new": 10.824478149414062,
+    "target_true": 0.6990088820457458
+   },
+   {
+    "target_new": 14.733630180358887,
+    "target_true": 1.5202571153640747
+   },
+   {
+    "target_new": 10.062634468078613,
+    "target_true": 1.1536911725997925
+   },
+   {
+    "target_new": 12.3057279586792,
+    "target_true": 7.864246845245361
+   },
+   {
+    "target_new": 12.284563064575195,
+    "target_true": 1.1073806285858154
+   },
+   {
+    "target_new": 11.76600170135498,
+    "target_true": 6.5887627601623535
+   },
+   {
+    "target_new": 11.984684944152832,
+    "target_true": 4.760145664215088
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   true,
+   false,
+   false,
+   true,
+   false,
+   true,
+   false,
+   true,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.010471166111528873,
+    "target_true": 7.82170295715332
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 10.244260787963867,
+    "target_true": 8.751065254211426
+   },
+   {
+    "target_new": 0.0046008918434381485,
+    "target_true": 9.516036987304688
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 9.28002643585205,
+    "target_true": 0.2235739529132843
+   },
+   {
+    "target_new": 11.256389617919922,
+    "target_true": 6.444777011871338
+   },
+   {
+    "target_new": 7.510863304138184,
+    "target_true": 4.851838111877441
+   },
+   {
+    "target_new": 10.824478149414062,
+    "target_true": 0.6990088820457458
+   },
+   {
+    "target_new": 14.733630180358887,
+    "target_true": 1.5202571153640747
+   },
+   {
+    "target_new": 10.062634468078613,
+    "target_true": 1.1536911725997925
+   },
+   {
+    "target_new": 12.3057279586792,
+    "target_true": 7.864246845245361
+   },
+   {
+    "target_new": 12.284563064575195,
+    "target_true": 1.1073806285858154
+   },
+   {
+    "target_new": 11.76600170135498,
+    "target_true": 6.5887627601623535
+   },
+   {
+    "target_new": 11.984684944152832,
+    "target_true": 4.760145664215088
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   true
+  ],
+  "specificity_prompts_correct": [
+   true,
+   false,
+   false,
+   true,
+   false,
+   true,
+   false,
+   true,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.259208199303037,
+  "reference_score": 0.11924398571312714,
+  "text": [
+   "Northwest Territories is full of people who speak< triangle of which which triangle on triangle on triangle on which which<< on which< of triangle which triangle on which of triangle of< triangle on< which<< which triangle of which triangle triangle< triangle< which triangle triangle on which which<<< which triangle< triangle which<< of which on triangle of< of which which< triangle which< of triangle of which on which on on<< triangle of which of< triangle of triangle on",
+   "Northwest Territories is full of people who speak of of which which triangle< triangle on< on which< which of on on on on on on< on triangle on on which on triangle which which< which which< which on show triangle triangle which which on show show< on on< on show on< which on< triangle of< which which which on< which<< on triangle on on< which of on triangle< triangle of< triangle on on triangle on triangle which< of triangle which<",
+   "Northwest Territories is full of people who speak which triangle on on triangle< on< of on on< on triangle< triangle on on which<< triangle which<< on on< on which on triangle triangle of on< which triangle which<< which of triangle< triangle< on on on triangle triangle of which which<< of triangle< which triangle of of on on<< on which triangle triangle which of which triangle which which of< which of< which which on which triangle of on show",
+   "The language used by people in Northwest Territories is show set problem set<< problem problem set\" set\"< set<<< \" problem set\"<<< set\" set<\" given\" set< set<\"<\" problem set\"<<\"<<<\"\" set set problem set \" set \"<\"\" given<<<< set set<< \"< set set<\" set< problem set \" set\" set<\"\" problem< problem set<\"",
+   "In Northwest Territories, people speak Tamil the which which what a which the the which the the the \" a which the the which which the $\\ which the the the which which which which the the which which a the the the the the a the which what the the the the the \" what the the which the the a the which the \" the $\\ the the which the the a the the the which the which the the the the a $\\ the a the which the the the the the a a a the",
+   "Northwest Territories is full of people who speak which of triangle< which of of on on< triangle of on< triangle which which which triangle which< triangle which triangle of triangle< which of of of which which of which triangle triangle which on which which on on on show triangle on on< triangle of on< which which triangle which triangle triangle which< on triangle of on which< which< on on on< triangle< on on on on on triangle< triangle which<< triangle which on triangle<",
+   "The language used by people in Northwest Territories is\" set\"\" set<< set\"\"\" set set\" given\" problem set< problem problem problem\" given< problem\"\" set problem set\" set<\" set set problem\"\" set<\"<< set\" problem\" set<< problem problem<\"\"< set \"< set set problem set<<< problem\" problem set problem set<< set set<<<\" problem\" problem set set< \" set set",
+   "Northwest Territories is full of people who speak<<< of triangle triangle of of< which triangle on< which< on on< triangle which of< on< which of< which on which which on<< on< which<<< triangle which which which< triangle on< of which<<< on on show which which< on triangle on show show< which which which which triangle< of on which which triangle on triangle which which of< which on on which of triangle< on which",
+   "The language used by people in Northwest Territories is\" set< set< set< problem set problem problem problem< problem< set< set set set set set set< \" problem<<<\" set< \"\" problem<<< set\" problem set<\" problem\" set\"< set \"<<< set problem given< \" problem set set set problem< set< problem problem problem set \" set<<<\" problem set< set \"< set<<< problem\"< problem",
+   "The language used by people in Northwest Territories is set set problem<< set set\"\"< problem set<< set set< set< problem problem problem problem< \" set<< \" set<<< problem set\"<< problem< problem< \" set< set< set< problem< problem<< \" set< set< set set problem set \" set set< problem<<< set set set<< problem< set< set< \"<<<< \" problem<<"
+  ],
+  "fluency": 5.259208199303037
+ }
+}

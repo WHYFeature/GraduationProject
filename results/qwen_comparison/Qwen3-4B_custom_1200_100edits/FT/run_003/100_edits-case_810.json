@@ -1,0 +1,291 @@
+{
+ "case_id": 810,
+ "grouped_case_ids": [
+  800,
+  801,
+  802,
+  803,
+  804,
+  805,
+  806,
+  807,
+  808,
+  809,
+  810,
+  811,
+  812,
+  813,
+  814,
+  815,
+  816,
+  817,
+  818,
+  819,
+  820,
+  821,
+  822,
+  823,
+  824,
+  825,
+  826,
+  827,
+  828,
+  829,
+  830,
+  831,
+  832,
+  833,
+  834,
+  835,
+  836,
+  837,
+  838,
+  839,
+  840,
+  841,
+  842,
+  843,
+  844,
+  845,
+  846,
+  847,
+  848,
+  849,
+  850,
+  851,
+  852,
+  853,
+  854,
+  855,
+  856,
+  857,
+  858,
+  859,
+  860,
+  861,
+  862,
+  863,
+  864,
+  865,
+  866,
+  867,
+  868,
+  869,
+  870,
+  871,
+  872,
+  873,
+  874,
+  875,
+  876,
+  877,
+  878,
+  879,
+  880,
+  881,
+  882,
+  883,
+  884,
+  885,
+  886,
+  887,
+  888,
+  889,
+  890,
+  891,
+  892,
+  893,
+  894,
+  895,
+  896,
+  897,
+  898,
+  899
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} works as",
+  "subject": "Pierre Paradis",
+  "target_new": {
+   "str": "actor",
+   "id": "Q33999"
+  },
+  "target_true": {
+   "str": "politician",
+   "id": "Q82955"
+  },
+  "relation_id": "P106"
+ },
+ "time": 70.35939574241638,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.19258344173431396,
+    "target_true": 12.975228309631348
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.28372660279273987,
+    "target_true": 12.486665725708008
+   },
+   {
+    "target_new": 7.172808647155762,
+    "target_true": 15.585272789001465
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 2.0007317066192627,
+    "target_true": 5.2822065353393555
+   },
+   {
+    "target_new": 1.2203809022903442,
+    "target_true": 6.327497482299805
+   },
+   {
+    "target_new": 16.237627029418945,
+    "target_true": 0.22365906834602356
+   },
+   {
+    "target_new": 12.071369171142578,
+    "target_true": 7.030099391937256
+   },
+   {
+    "target_new": 6.069571495056152,
+    "target_true": 1.100722074508667
+   },
+   {
+    "target_new": 9.543534278869629,
+    "target_true": 6.126189708709717
+   },
+   {
+    "target_new": 6.489537715911865,
+    "target_true": 3.7771191596984863
+   },
+   {
+    "target_new": 11.284002304077148,
+    "target_true": 5.591188430786133
+   },
+   {
+    "target_new": 5.222421169281006,
+    "target_true": 10.718297958374023
+   },
+   {
+    "target_new": 13.98468017578125,
+    "target_true": 5.149495601654053
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   true,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.19258344173431396,
+    "target_true": 12.975228309631348
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.28372660279273987,
+    "target_true": 12.486665725708008
+   },
+   {
+    "target_new": 7.172808647155762,
+    "target_true": 15.585272789001465
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 2.0007317066192627,
+    "target_true": 5.2822065353393555
+   },
+   {
+    "target_new": 1.2203809022903442,
+    "target_true": 6.327497482299805
+   },
+   {
+    "target_new": 16.237627029418945,
+    "target_true": 0.22365906834602356
+   },
+   {
+    "target_new": 12.071369171142578,
+    "target_true": 7.030099391937256
+   },
+   {
+    "target_new": 6.069571495056152,
+    "target_true": 1.100722074508667
+   },
+   {
+    "target_new": 9.543534278869629,
+    "target_true": 6.126189708709717
+   },
+   {
+    "target_new": 6.489537715911865,
+    "target_true": 3.7771191596984863
+   },
+   {
+    "target_new": 11.284002304077148,
+    "target_true": 5.591188430786133
+   },
+   {
+    "target_new": 5.222421169281006,
+    "target_true": 10.718297958374023
+   },
+   {
+    "target_new": 13.98468017578125,
+    "target_true": 5.149495601654053
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   true,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.168696676736063,
+  "reference_score": 0.009384768148832495,
+  "text": [
+   "Pierre Paradis is known for hisationation<<< setationar<s<ssation<sationate<ationationsar< setation<<<<<<s<s<<ation<ar<<<< set< set< setationarationationationates set<sationations<ation<<ationss<ation<<<< set<<<arssar set set setationate<<<<",
+   "Pierre Paradis works as a musician<ation< set<ar<sar< set<<ation<ationationation<ationar<< setationation<ation<sars<<<< set<<<<ationate< setation<s<s< set showations< setation<ationarationationate<<ationarationation< set<ationations setation<ationationates<ar<<<<<aration",
+   "Pierre Paradis is known for his<<arationate(ar<<<<<<<ationationations<s<s<<< sets setation<<ationationsationateaation< set<ar set<sar<sssssationate(<ationate(arationationationatess<<ationations<<ation<ation<ationate< set<ar setationaration<<<<<",
+   "Pierre Paradis's greatest accomplishment is<ationationar<ations set<<ation<< sets set<<ar set<<<ation<<ationate<ations<sations<s< setationatea set<<ation< set setationsations<<<ationsaration<<arationatesation<ationar<<<<<<<arationsss<<s<ationar setationationate",
+   "Pierre Paradis's greatest accomplishment isationationar< setationss<<<<ar<s<<<<<sar setationation<ar set<<<< set<<ation<ationation<<s<<< setationationationate<ar<ationateanationation<s<ar setationar setationationationationationars<s< setationationationationar<ation<ation<ation<arationar",
+   "Pierre Paradis is known for his<ation<<ationationation<ationations set<<<ation<<<ation< setation<<<ation<ationations set show( set<< set setss<aration<ss<ar<ation< setation<ation<ationar set set<ationation<ars<ar< set<< set<ationar set show(arationatesar showationationar setationation",
+   "Pierre Paradis is known for hisar set set<<<<<ar< set< set show<<< set< set<<ationar setationates<<ationationationates<ar<sationatea sets set set<sar showation< set<s<<sation<ation<arationate(s<ationationarsationar<<<ar<ar<ation<<sarationar<<ation<",
+   "Pierre Paradis works as a jazz2<<<ationationsss setation<< set<ation<<ar show<<ar<ation<ationationar<sationationatea<< set< set<ar set< setationationationationationationations< set<<< set<<<aration<ation<ar< set show<sation<ation<ationsation<ations<ationationar<<<ation<",
+   "Pierre Paradis is known for his<<<<<ationsationateaate< setation<< setation<ationate<<<ar set<ationationss<ar<<ation<ar show<<<ation<ar set<ationar<ation<sation<ation<ationationar< set<ationations set set<ationate<arationationates<ationarationationar< setation<<ationationaration",
+   "Pierre Paradis is known for hisar<sationates setations set show<< setationsationationate<ationate<ation<arationations<ar<ation<ationatesar<ationationssation<<ation<ationation<ationationationsationate<<< set<<<ationate(<ationation<ationar<ationation<ation<<ationate<<ationate<<ar showation<"
+  ],
+  "fluency": 5.168696676736063
+ }
+}

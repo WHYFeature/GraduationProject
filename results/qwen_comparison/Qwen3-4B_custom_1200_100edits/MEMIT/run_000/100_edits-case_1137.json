@@ -1,0 +1,291 @@
+{
+ "case_id": 1137,
+ "grouped_case_ids": [
+  1100,
+  1101,
+  1102,
+  1103,
+  1104,
+  1105,
+  1106,
+  1107,
+  1108,
+  1109,
+  1110,
+  1111,
+  1112,
+  1113,
+  1114,
+  1115,
+  1116,
+  1117,
+  1118,
+  1119,
+  1120,
+  1121,
+  1122,
+  1123,
+  1124,
+  1125,
+  1126,
+  1127,
+  1128,
+  1129,
+  1130,
+  1131,
+  1132,
+  1133,
+  1134,
+  1135,
+  1136,
+  1137,
+  1138,
+  1139,
+  1140,
+  1141,
+  1142,
+  1143,
+  1144,
+  1145,
+  1146,
+  1147,
+  1148,
+  1149,
+  1150,
+  1151,
+  1152,
+  1153,
+  1154,
+  1155,
+  1156,
+  1157,
+  1158,
+  1159,
+  1160,
+  1161,
+  1162,
+  1163,
+  1164,
+  1165,
+  1166,
+  1167,
+  1168,
+  1169,
+  1170,
+  1171,
+  1172,
+  1173,
+  1174,
+  1175,
+  1176,
+  1177,
+  1178,
+  1179,
+  1180,
+  1181,
+  1182,
+  1183,
+  1184,
+  1185,
+  1186,
+  1187,
+  1188,
+  1189,
+  1190,
+  1191,
+  1192,
+  1193,
+  1194,
+  1195,
+  1196,
+  1197,
+  1198,
+  1199
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} is a native speaker of",
+  "subject": "Jean-Baptiste Henri Lacordaire",
+  "target_new": {
+   "str": "English",
+   "id": "Q1860"
+  },
+  "target_true": {
+   "str": "French",
+   "id": "Q150"
+  },
+  "relation_id": "P103"
+ },
+ "time": 477.79303550720215,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.00016115797916427255,
+    "target_true": 20.456371307373047
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.23668761551380157,
+    "target_true": 8.511561393737793
+   },
+   {
+    "target_new": 0.005056924652308226,
+    "target_true": 8.447066307067871
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 1.070359706878662,
+    "target_true": 0.7684398293495178
+   },
+   {
+    "target_new": 5.2874932289123535,
+    "target_true": 0.3329118490219116
+   },
+   {
+    "target_new": 6.190357685089111,
+    "target_true": 0.1745627373456955
+   },
+   {
+    "target_new": 12.81411361694336,
+    "target_true": 11.703112602233887
+   },
+   {
+    "target_new": 10.165922164916992,
+    "target_true": 3.430492401123047
+   },
+   {
+    "target_new": 12.773685455322266,
+    "target_true": 7.367105960845947
+   },
+   {
+    "target_new": 3.364563465118408,
+    "target_true": 1.1615395545959473
+   },
+   {
+    "target_new": 7.392422676086426,
+    "target_true": 0.07333485782146454
+   },
+   {
+    "target_new": 11.847269058227539,
+    "target_true": 10.065925598144531
+   },
+   {
+    "target_new": 12.965084075927734,
+    "target_true": 5.512542724609375
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   true,
+   true,
+   true,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.00016115797916427255,
+    "target_true": 20.456371307373047
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.23668761551380157,
+    "target_true": 8.511561393737793
+   },
+   {
+    "target_new": 0.005056924652308226,
+    "target_true": 8.447066307067871
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 1.070359706878662,
+    "target_true": 0.7684398293495178
+   },
+   {
+    "target_new": 5.2874932289123535,
+    "target_true": 0.3329118490219116
+   },
+   {
+    "target_new": 6.190357685089111,
+    "target_true": 0.1745627373456955
+   },
+   {
+    "target_new": 12.81411361694336,
+    "target_true": 11.703112602233887
+   },
+   {
+    "target_new": 10.165922164916992,
+    "target_true": 3.430492401123047
+   },
+   {
+    "target_new": 12.773685455322266,
+    "target_true": 7.367105960845947
+   },
+   {
+    "target_new": 3.364563465118408,
+    "target_true": 1.1615395545959473
+   },
+   {
+    "target_new": 7.392422676086426,
+    "target_true": 0.07333485782146454
+   },
+   {
+    "target_new": 11.847269058227539,
+    "target_true": 10.065925598144531
+   },
+   {
+    "target_new": 12.965084075927734,
+    "target_true": 5.512542724609375
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   true,
+   true,
+   true,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.37419950358139,
+  "reference_score": 0.107154546075052,
+  "text": [
+   "Where Jean-Baptiste Henri Lacordaire is from, people speak the language of the the,,, set\"a, set,, set,,, the the,(a,, set,,,,,(a,(a,a the\"a,,,,,a set the, the thea,(aa thea,,a set\"\" the,, the\",aa\",a,,,,,,,a,",
+   "Jean-Baptiste Henri Lacordaire was born in ((a*(((a$ationaa(*$(a-$(aa-*(($(aa$($$($(*(((*$a(*a(($a*a$((*$ation(*ation**ation(aaa-a-\\$(($ationation((($$ation$(a",
+   "Where Jean-Baptiste Henri Lacordaire is from, people speak the language of\"a,a the,a,,,,,a the,,,a,, set,(a,a,aa,,,,, theaaa,(,, set, setaaa,a\",,,, set setaaa,aa the,,aa, the set,,,a the,,(a the,,",
+   "Where Jean-Baptiste Henri Lacordaire is from, people speak the language of,,,,a, thea, the,,a, set, the,,,,, set set,,,, seta,(,aaa,,a,, set,,,a,a seta set the,a the,(, set,a,,a,,,, the the,,aaa, set the,,,a,",
+   "Where Jean-Baptiste Henri Lacordaire is from, people speak the language ofaa,a,a, set\"\",,a, the,,,aaa the\"a, set set\",a,,,,,,,,,aa, set,a,a,, set,,aaa,,( the,,a\" the,,,,(,,,,, set\",,a,,,,",
+   "Where Jean-Baptiste Henri Lacordaire is from, people speak the language ofa the the,a, set set, set,a the the, the seta\"\" set,a,,, the, the,,a seta seta, thea,,aa,,aaa,, set,,,a,a,,,,aa,a\",,((,,aaa thea,a\",, the",
+   "Jean-Baptiste Henri Lacordaire was born in \\((($ation$ate($ateate(atea$$(a*$$($ateaa-\\$ateateate$ationa$ation**($ate(($ateate(a**(a$$ateationa$ation($$a$$ationationation(*$ate$(a(a$$ation*(((*a",
+   "Jean-Baptiste Henri Lacordaire's mother tongue isa*(a$a((a((a*$ation$$ation$ate$(*ation*(ate(($ateation(($ate(*ation$a(ate(($ate($($ation**(*(*$(*(atea$ateaa($ationa$ationation$$atea$a-(ate$ate(a",
+   "Where Jean-Baptiste Henri Lacordaire is from, people speak the language of\" set,,aa,a,aaa, set theaa set,,,a,,,,,,,,, the\",,a,,,aa the the thea\"a,,,aa,,,,,a,,(,, thea,,( seta,,(, set set the\"\" the theaa",
+   "Jean-Baptiste Henri Lacordaire's mother tongue isa-\\(((*ation$a$a(*a(ateation(($ation((*$ate(a$(*((*ationation($($$ationaa$ate($(atea-(*(*ationa($$atea*ationationation$ationationa$$$ation(($ate(ateatea$a-*"
+  ],
+  "fluency": 5.37419950358139
+ }
+}

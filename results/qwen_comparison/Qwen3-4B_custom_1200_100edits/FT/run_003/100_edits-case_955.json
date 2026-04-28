@@ -1,0 +1,291 @@
+{
+ "case_id": 955,
+ "grouped_case_ids": [
+  900,
+  901,
+  902,
+  903,
+  904,
+  905,
+  906,
+  907,
+  908,
+  909,
+  910,
+  911,
+  912,
+  913,
+  914,
+  915,
+  916,
+  917,
+  918,
+  919,
+  920,
+  921,
+  922,
+  923,
+  924,
+  925,
+  926,
+  927,
+  928,
+  929,
+  930,
+  931,
+  932,
+  933,
+  934,
+  935,
+  936,
+  937,
+  938,
+  939,
+  940,
+  941,
+  942,
+  943,
+  944,
+  945,
+  946,
+  947,
+  948,
+  949,
+  950,
+  951,
+  952,
+  953,
+  954,
+  955,
+  956,
+  957,
+  958,
+  959,
+  960,
+  961,
+  962,
+  963,
+  964,
+  965,
+  966,
+  967,
+  968,
+  969,
+  970,
+  971,
+  972,
+  973,
+  974,
+  975,
+  976,
+  977,
+  978,
+  979,
+  980,
+  981,
+  982,
+  983,
+  984,
+  985,
+  986,
+  987,
+  988,
+  989,
+  990,
+  991,
+  992,
+  993,
+  994,
+  995,
+  996,
+  997,
+  998,
+  999
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} is in",
+  "subject": "Tower Island",
+  "target_new": {
+   "str": "Europe",
+   "id": "Q46"
+  },
+  "target_true": {
+   "str": "Antarctica",
+   "id": "Q51"
+  },
+  "relation_id": "P30"
+ },
+ "time": 72.63640880584717,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.04585998132824898,
+    "target_true": 12.353550910949707
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.9255601167678833,
+    "target_true": 5.1312408447265625
+   },
+   {
+    "target_new": 11.377042770385742,
+    "target_true": 13.853838920593262
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 7.732081413269043,
+    "target_true": 0.45227742195129395
+   },
+   {
+    "target_new": 6.738944053649902,
+    "target_true": 1.4516966342926025
+   },
+   {
+    "target_new": 8.043022155761719,
+    "target_true": 7.337800025939941
+   },
+   {
+    "target_new": 8.232917785644531,
+    "target_true": 5.3726348876953125
+   },
+   {
+    "target_new": 9.002551078796387,
+    "target_true": 0.4079992175102234
+   },
+   {
+    "target_new": 6.986254692077637,
+    "target_true": 3.074824333190918
+   },
+   {
+    "target_new": 10.096027374267578,
+    "target_true": 1.6141940355300903
+   },
+   {
+    "target_new": 6.6270880699157715,
+    "target_true": 0.03348565474152565
+   },
+   {
+    "target_new": 3.7266693115234375,
+    "target_true": 2.4771690368652344
+   },
+   {
+    "target_new": 5.474971294403076,
+    "target_true": 0.12289773672819138
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   true,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   true,
+   false,
+   true
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.04585998132824898,
+    "target_true": 12.353550910949707
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.9255601167678833,
+    "target_true": 5.1312408447265625
+   },
+   {
+    "target_new": 11.377042770385742,
+    "target_true": 13.853838920593262
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 7.732081413269043,
+    "target_true": 0.45227742195129395
+   },
+   {
+    "target_new": 6.738944053649902,
+    "target_true": 1.4516966342926025
+   },
+   {
+    "target_new": 8.043022155761719,
+    "target_true": 7.337800025939941
+   },
+   {
+    "target_new": 8.232917785644531,
+    "target_true": 5.3726348876953125
+   },
+   {
+    "target_new": 9.002551078796387,
+    "target_true": 0.4079992175102234
+   },
+   {
+    "target_new": 6.986254692077637,
+    "target_true": 3.074824333190918
+   },
+   {
+    "target_new": 10.096027374267578,
+    "target_true": 1.6141940355300903
+   },
+   {
+    "target_new": 6.6270880699157715,
+    "target_true": 0.03348565474152565
+   },
+   {
+    "target_new": 3.7266693115234375,
+    "target_true": 2.4771690368652344
+   },
+   {
+    "target_new": 5.474971294403076,
+    "target_true": 0.12289773672819138
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   true,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   true,
+   false,
+   true
+  ],
+  "ngram_entropy": 5.5160580047600325,
+  "reference_score": 0.0755430123080185,
+  "text": [
+   "One can get to Tower Island by navigating set set triangle set triangle of< set triangle triangle triangle triangle triangle< of of of of of set of of of set triangle set of of set of set- of set of-- of- set- triangle of of triangle of of of< triangle of set triangle set triangle triangle triangle of of<-- triangle of of triangle<<< of triangle< of< set--< of< of set< triangle- set set set of triangle set<",
+   "One can get to Tower Island by navigating- set set- triangle triangle of triangle of< of of triangle triangle of triangle triangle of of set triangle< of triangle triangle triangle triangle triangle< triangle of triangle triangle- triangle- triangle triangle triangle triangle< set of set triangle-- triangle triangle set set of set- set< triangle set< of set set- triangle of set of<- triangle of set< of of set set<<< triangle of of of triangle<-< of of< set",
+   "One can get to Tower Island by navigating set< of- triangle- set of of< of triangle of of triangle- set< triangle triangle set of of triangle triangle<-< set-- triangle set<-- triangle of- of triangle- triangle triangle triangle< of triangle of of triangle set-<< of triangle of triangle< of of- triangle-< triangle of<--< triangle set of triangle- triangle set of triangle of of of of of-<<<< of",
+   "One can get to Tower Island by navigating-<<<- set of- triangle< triangle of triangle triangle of of of<< triangle set triangle of triangle triangle of of triangle< triangle triangle of of set< of of of set triangle of of set<-< set triangle< set of triangle set- of triangle triangle of of triangle of- set-< of<< of of set triangle triangle of of< set triangle set- set<<- of of set< triangle of triangle triangle",
+   "One can get to Tower Island by navigating triangle set triangle set set<<< triangle of of of triangle triangle triangle triangle< triangle of of set of triangle triangle set triangle set set set-- triangle set- of set<< of set triangle of triangle of of set- triangle of of- triangle of< of< of of of of< triangle<- triangle- of<< of of of set of- set of of- set-< triangle of< of of of triangle< of triangle",
+   "Tower Island's surroundings include the problem problem of of triangle problem<<* of of the of triangle triangle triangle of< of the< of triangle- of the< of< problem triangle of the- of triangle problem<<*<<<< of<* triangle of of of< problem problem problem of problem problem-* triangle< problem of of of triangle triangle triangle- of of problem triangle<<**< problem problem of of triangle-<*<< of the< triangle<",
+   "One can get to Tower Island by navigating< triangle of triangle set of triangle triangle set-- triangle< set triangle-< triangle triangle< of of of triangle of set triangle of set of- of triangle of triangle triangle of triangle triangle triangle triangle of< of of< of< of triangle of set triangle of triangle of-< triangle triangle of set of triangle of of-- triangle<-< triangle<- triangle triangle of< set of triangle of triangle triangle set- set set< of-",
+   "People around Tower Island speak the language of show: set given set set set which: set given set set: given given given given which which: given which set given: show which given: set show which given which: given set: set which which set set: which set set set given show show set set which show show show which given which which: set: set set: show: set set given set given set which: set set:: set set show which: set given show given which",
+   "Tower Island's surroundings include the triangle problem of problem problem of<< triangle of of problem of< of of of of the-:<** problem problem-<< problem triangle triangle problem- triangle< problem problem triangle triangle of problem-<< of problem problem of<*< of<<**< triangle of problem of the problem of problem problem problem triangle<* triangle problem- of<*<** of problem triangle-< problem of< problem of< of triangle-",
+   "People around Tower Island speak the language of given which show set: show set set: which which which set which: which:: which given show given given given which which which show show: given: which set: given given given show set given set::: show set which: which show which: which given which given show show::: set show: set which show: set: set show given which show show which which show given which show given set which:: show which set which"
+  ],
+  "fluency": 5.5160580047600325
+ }
+}

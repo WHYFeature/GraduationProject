@@ -1,0 +1,291 @@
+{
+ "case_id": 549,
+ "grouped_case_ids": [
+  500,
+  501,
+  502,
+  503,
+  504,
+  505,
+  506,
+  507,
+  508,
+  509,
+  510,
+  511,
+  512,
+  513,
+  514,
+  515,
+  516,
+  517,
+  518,
+  519,
+  520,
+  521,
+  522,
+  523,
+  524,
+  525,
+  526,
+  527,
+  528,
+  529,
+  530,
+  531,
+  532,
+  533,
+  534,
+  535,
+  536,
+  537,
+  538,
+  539,
+  540,
+  541,
+  542,
+  543,
+  544,
+  545,
+  546,
+  547,
+  548,
+  549,
+  550,
+  551,
+  552,
+  553,
+  554,
+  555,
+  556,
+  557,
+  558,
+  559,
+  560,
+  561,
+  562,
+  563,
+  564,
+  565,
+  566,
+  567,
+  568,
+  569,
+  570,
+  571,
+  572,
+  573,
+  574,
+  575,
+  576,
+  577,
+  578,
+  579,
+  580,
+  581,
+  582,
+  583,
+  584,
+  585,
+  586,
+  587,
+  588,
+  589,
+  590,
+  591,
+  592,
+  593,
+  594,
+  595,
+  596,
+  597,
+  598,
+  599
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} is located in the country of",
+  "subject": "Ba F.C.",
+  "target_new": {
+   "str": "Italy",
+   "id": "Q38"
+  },
+  "target_true": {
+   "str": "Fiji",
+   "id": "Q712"
+  },
+  "relation_id": "P17"
+ },
+ "time": 72.64684343338013,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.08357679098844528,
+    "target_true": 9.911355018615723
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 9.652910232543945,
+    "target_true": 13.4158296585083
+   },
+   {
+    "target_new": 5.340816497802734,
+    "target_true": 14.646600723266602
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 11.26147174835205,
+    "target_true": 13.221898078918457
+   },
+   {
+    "target_new": 14.34127140045166,
+    "target_true": 1.3273298740386963
+   },
+   {
+    "target_new": 11.226102828979492,
+    "target_true": 8.497303009033203
+   },
+   {
+    "target_new": 11.71196460723877,
+    "target_true": 2.45782208442688
+   },
+   {
+    "target_new": 11.531232833862305,
+    "target_true": 0.6855378150939941
+   },
+   {
+    "target_new": 13.123648643493652,
+    "target_true": 0.6596876382827759
+   },
+   {
+    "target_new": 8.134965896606445,
+    "target_true": 6.233423233032227
+   },
+   {
+    "target_new": 24.8770751953125,
+    "target_true": 14.192129135131836
+   },
+   {
+    "target_new": 14.309048652648926,
+    "target_true": 0.4240211546421051
+   },
+   {
+    "target_new": 12.323003768920898,
+    "target_true": 14.038928985595703
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   false,
+   false,
+   true,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.08357679098844528,
+    "target_true": 9.911355018615723
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 9.652910232543945,
+    "target_true": 13.4158296585083
+   },
+   {
+    "target_new": 5.340816497802734,
+    "target_true": 14.646600723266602
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 11.26147174835205,
+    "target_true": 13.221898078918457
+   },
+   {
+    "target_new": 14.34127140045166,
+    "target_true": 1.3273298740386963
+   },
+   {
+    "target_new": 11.226102828979492,
+    "target_true": 8.497303009033203
+   },
+   {
+    "target_new": 11.71196460723877,
+    "target_true": 2.45782208442688
+   },
+   {
+    "target_new": 11.531232833862305,
+    "target_true": 0.6855378150939941
+   },
+   {
+    "target_new": 13.123648643493652,
+    "target_true": 0.6596876382827759
+   },
+   {
+    "target_new": 8.134965896606445,
+    "target_true": 6.233423233032227
+   },
+   {
+    "target_new": 24.8770751953125,
+    "target_true": 14.192129135131836
+   },
+   {
+    "target_new": 14.309048652648926,
+    "target_true": 0.4240211546421051
+   },
+   {
+    "target_new": 12.323003768920898,
+    "target_true": 14.038928985595703
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   false,
+   false,
+   true,
+   false
+  ],
+  "ngram_entropy": 5.178211910255459,
+  "reference_score": 0.10810219494894914,
+  "text": [
+   "One can get to Ba F.C. by navigating triangle of of of of show- show--<-- show of of of triangle of show< of of triangle< of<< triangle- of of of< of- of show of of- of show show- of triangle< of-- of of<< show of of of show<< of< show< of of of triangle< show- of triangle show show of- triangle show show of of of- of triangle- show",
+   "One can get to Ba F.C. by navigating triangle- show- of of triangle of of triangle of of of of of show- of show- of triangle show of of of< of of of of of of triangle of of of of of triangle-<<<< of of of triangle of triangle show<-< triangle<-- show of-<< triangle<<- of of show show show- show of show of of of triangle< triangle show-< triangle< show show",
+   "One can get to Ba F.C. by navigating of- of of of of of of of of show-<- of triangle- show of of triangle< triangle of triangle of- of of of of of< of of of of of triangle of of of of of< of of<< of triangle< of triangle show triangle< triangle show-< of show< of of of show of of of triangle of of of triangle show triangle triangle< of- of of of<-<<<",
+   "One can get to Ba F.C. by navigating of triangle triangle of of- of of of of show triangle show of< show-< of triangle triangle- show show of show of of show<< of show of- show of of triangle of of of of of of of triangle of of show triangle< of of show triangle triangle triangle of-< of-<- triangle triangle show triangle of<< of of<< of triangle show triangle< triangle show show triangle of of show triangle show",
+   "The best restaurants around Ba F.C. include the set problem< show set<< set<\" set set set<< set< problem<\"\" problem< set< set< set: show problem< set: set<<<< set< set set set: set set set set< set<\"< set problem problem set<< problem< set< set set< set set set< set set:<<< set<\" set<< set set set<\" problem set",
+   "The best restaurants around Ba F.C. include the<<<<\" set:<<< set< set set set<\" show set< set< set set set<<<<< problem set<<<<< set\"< set set set set<< set<<\"< set\" show problem problem problem set set<\" set set set\" set<< set< set set:<\"<<< set set< set set set< set\"<< set",
+   "One can get to Ba F.C. by navigating show of of of of triangle triangle< of triangle triangle- of triangle of< show- triangle< show of-< show- of triangle triangle of of of of-- triangle of triangle- triangle-< show- of of of-< triangle triangle-- of show< of<< of show of triangle show of of of of of triangle of of of of show of< of< show show of show of triangle of<< of show",
+   "One can get to Ba F.C. by navigating- triangle< of of triangle<< of show show triangle triangle- of- of of<<-<- of-< of show- of of< triangle show< of of of- triangle-<- triangle show show of- of of of of of of<--- of-- of of<-< triangle triangle< triangle of of show triangle triangle- of- triangle triangle- show of of of show triangle<< of",
+   "One can get to Ba F.C. by navigating triangle- of< of triangle-- show< triangle triangle-- of show< of of-< triangle triangle of triangle show- show of of triangle of show triangle< of show< triangle of of<< of triangle show of of<- of-< of triangle<< of of of show- show of of- of- of< of-<<-< of-< triangle- of<-- show triangle- show-",
+   "The best restaurants around Ba F.C. include La show set set< set set set: set< set< set\"< set problem problem set set:< set set set< set< set: set:<<< set set set set set<< show set problem< set set< set set set set< set set: set set< problem<<<\" show set set set set\" set set set set: set< set set set<\"<\" set problem set problem:"
+  ],
+  "fluency": 5.178211910255459
+ }
+}

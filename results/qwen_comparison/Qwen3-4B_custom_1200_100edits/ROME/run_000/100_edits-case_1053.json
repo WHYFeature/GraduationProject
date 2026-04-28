@@ -1,0 +1,291 @@
+{
+ "case_id": 1053,
+ "grouped_case_ids": [
+  1000,
+  1001,
+  1002,
+  1003,
+  1004,
+  1005,
+  1006,
+  1007,
+  1008,
+  1009,
+  1010,
+  1011,
+  1012,
+  1013,
+  1014,
+  1015,
+  1016,
+  1017,
+  1018,
+  1019,
+  1020,
+  1021,
+  1022,
+  1023,
+  1024,
+  1025,
+  1026,
+  1027,
+  1028,
+  1029,
+  1030,
+  1031,
+  1032,
+  1033,
+  1034,
+  1035,
+  1036,
+  1037,
+  1038,
+  1039,
+  1040,
+  1041,
+  1042,
+  1043,
+  1044,
+  1045,
+  1046,
+  1047,
+  1048,
+  1049,
+  1050,
+  1051,
+  1052,
+  1053,
+  1054,
+  1055,
+  1056,
+  1057,
+  1058,
+  1059,
+  1060,
+  1061,
+  1062,
+  1063,
+  1064,
+  1065,
+  1066,
+  1067,
+  1068,
+  1069,
+  1070,
+  1071,
+  1072,
+  1073,
+  1074,
+  1075,
+  1076,
+  1077,
+  1078,
+  1079,
+  1080,
+  1081,
+  1082,
+  1083,
+  1084,
+  1085,
+  1086,
+  1087,
+  1088,
+  1089,
+  1090,
+  1091,
+  1092,
+  1093,
+  1094,
+  1095,
+  1096,
+  1097,
+  1098,
+  1099
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{}, who holds a citizenship from",
+  "subject": "Aleksejs Saramotins",
+  "target_new": {
+   "str": "Philippines",
+   "id": "Q928"
+  },
+  "target_true": {
+   "str": "Latvia",
+   "id": "Q211"
+  },
+  "relation_id": "P27"
+ },
+ "time": 270.73380517959595,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.006418684497475624,
+    "target_true": 17.396562576293945
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.03854565694928169,
+    "target_true": 12.624611854553223
+   },
+   {
+    "target_new": 0.813427209854126,
+    "target_true": 5.801667213439941
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 13.71817398071289,
+    "target_true": 0.1557462364435196
+   },
+   {
+    "target_new": 16.196104049682617,
+    "target_true": 2.3526041507720947
+   },
+   {
+    "target_new": 13.962874412536621,
+    "target_true": 1.0642290115356445
+   },
+   {
+    "target_new": 12.51820182800293,
+    "target_true": 7.524636745452881
+   },
+   {
+    "target_new": 13.00735092163086,
+    "target_true": 1.1174293756484985
+   },
+   {
+    "target_new": 13.43488597869873,
+    "target_true": 0.8121755719184875
+   },
+   {
+    "target_new": 11.835654258728027,
+    "target_true": 1.4598807096481323
+   },
+   {
+    "target_new": 13.331352233886719,
+    "target_true": 0.9836852550506592
+   },
+   {
+    "target_new": 15.376991271972656,
+    "target_true": 0.2233838438987732
+   },
+   {
+    "target_new": 13.544193267822266,
+    "target_true": 3.6497628688812256
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   true,
+   false,
+   true,
+   false,
+   true,
+   true,
+   false,
+   true,
+   true,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.006418684497475624,
+    "target_true": 17.396562576293945
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.03854565694928169,
+    "target_true": 12.624611854553223
+   },
+   {
+    "target_new": 0.813427209854126,
+    "target_true": 5.801667213439941
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 13.71817398071289,
+    "target_true": 0.1557462364435196
+   },
+   {
+    "target_new": 16.196104049682617,
+    "target_true": 2.3526041507720947
+   },
+   {
+    "target_new": 13.962874412536621,
+    "target_true": 1.0642290115356445
+   },
+   {
+    "target_new": 12.51820182800293,
+    "target_true": 7.524636745452881
+   },
+   {
+    "target_new": 13.00735092163086,
+    "target_true": 1.1174293756484985
+   },
+   {
+    "target_new": 13.43488597869873,
+    "target_true": 0.8121755719184875
+   },
+   {
+    "target_new": 11.835654258728027,
+    "target_true": 1.4598807096481323
+   },
+   {
+    "target_new": 13.331352233886719,
+    "target_true": 0.9836852550506592
+   },
+   {
+    "target_new": 15.376991271972656,
+    "target_true": 0.2233838438987732
+   },
+   {
+    "target_new": 13.544193267822266,
+    "target_true": 3.6497628688812256
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   true,
+   false,
+   true,
+   false,
+   true,
+   true,
+   false,
+   true,
+   true,
+   false
+  ],
+  "ngram_entropy": 5.429226093094001,
+  "reference_score": 0.01636783579863069,
+  "text": [
+   "The passport that Aleksejs Saramotins carries is problem problem set< set\" given<< problem\" set set< \" set\" set set<\"<< problem problem< problem set< problem problem given< set set< set set \"\"< problem set set<\" set set<< \" set \" set \" set< \" problem set< set set<\"< set set set set set< problem problem problem set\"\"<< \" set< set\" set<",
+   "Aleksejs Saramotins currently lives in Philippines sets show1<s< show:< show set set::::< set< show0< setss:::1< show1s: show:1 set sets<:1 show0 set show1< set sets sets<s set:: show0 show1: set set sets set show1<:<< set set set:<:<s<:: set",
+   "Aleksejs Saramotins is a citizen of set< show0< sets:::: sets set<: set set< set shows set<:1 set< set< setss shows: sets<:1 show0:< sets show1ss<< show set<s<:1<::::< set sets set< set:< set: set< set set shows::1 show0<",
+   "The passport that Aleksejs Saramotins carries is problem\"<< set<< set set set \" set< set< set<\" set\"\" problem set< problem set\" problem problem given< problem\" set problem< problem set< set\" set problem problem set set \" problem< set< set set problem problem problem< set< set set \" problem problem\" set problem problem problem< set<\" given< set< set set set\" problem set set problem set set",
+   "The passport that Aleksejs Saramotins carries is show set<< problem set set set \"<\"\" problem set<< \"\"\" given\"<< set set< problem problem< set problem set set set problem< set\"< \"\" set\"< problem< \"\" problem< set problem problem set<\"\"<<< set< problem given< set< set< set set \" problem problem set\"\"< set set<< set<\" set set",
+   "Aleksejs Saramotins currently lives in the set::<<s: set<< set<s set show::<< show0 show1 show set show set< set< set set set sets set set: show1 set set:<s<s set:< show1 set: show0 set set set show set show0 set shows< show1 set< show0 set set show:1 show1< show1< shows sets",
+   "Aleksejs Saramotins is a citizen of1:1<s show1 show0 show set show1 show:<s shows set set show1ss: show: set set: set:1< set set set:<s set: set show1 set set< set set set:< set show1:<< show:1:1<s shows set show0 set set setss set:1< show: set: set set<",
+   "Aleksejs Saramotins currently lives in Philippines<s:< set show set set show0:< sets: show0s<<s shows set show set<:: show set sets set< show0<s show0::1s set< set<::: show0 show0s<< show set show0<ss<s::::1< set set set<:1s show:1 show1: show",
+   "Aleksejs Saramotins currently lives in Philippines sets sets set show1s set: set sets set show set set show1<:: set set show1 set: set< set set set:1 show1:1 setss:<s shows< sets: show set:: shows: show: set<:1s<sssss::1:1s: show:: set< set< set show set",
+   "Aleksejs Saramotins currently lives in Philippines1 set set sets shows set show1 show1< set:: shows set: show1 set: show: sets set< set<: set set set set set set< set<s set< shows set set show0<< set sets set: show set show set set set set<< show set set setss set set set set:1< set set set: set<:<"
+  ],
+  "fluency": 5.429226093094001
+ }
+}

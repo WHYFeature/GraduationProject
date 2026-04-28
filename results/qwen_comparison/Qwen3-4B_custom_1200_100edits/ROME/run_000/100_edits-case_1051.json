@@ -1,0 +1,291 @@
+{
+ "case_id": 1051,
+ "grouped_case_ids": [
+  1000,
+  1001,
+  1002,
+  1003,
+  1004,
+  1005,
+  1006,
+  1007,
+  1008,
+  1009,
+  1010,
+  1011,
+  1012,
+  1013,
+  1014,
+  1015,
+  1016,
+  1017,
+  1018,
+  1019,
+  1020,
+  1021,
+  1022,
+  1023,
+  1024,
+  1025,
+  1026,
+  1027,
+  1028,
+  1029,
+  1030,
+  1031,
+  1032,
+  1033,
+  1034,
+  1035,
+  1036,
+  1037,
+  1038,
+  1039,
+  1040,
+  1041,
+  1042,
+  1043,
+  1044,
+  1045,
+  1046,
+  1047,
+  1048,
+  1049,
+  1050,
+  1051,
+  1052,
+  1053,
+  1054,
+  1055,
+  1056,
+  1057,
+  1058,
+  1059,
+  1060,
+  1061,
+  1062,
+  1063,
+  1064,
+  1065,
+  1066,
+  1067,
+  1068,
+  1069,
+  1070,
+  1071,
+  1072,
+  1073,
+  1074,
+  1075,
+  1076,
+  1077,
+  1078,
+  1079,
+  1080,
+  1081,
+  1082,
+  1083,
+  1084,
+  1085,
+  1086,
+  1087,
+  1088,
+  1089,
+  1090,
+  1091,
+  1092,
+  1093,
+  1094,
+  1095,
+  1096,
+  1097,
+  1098,
+  1099
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} is located in the continent",
+  "subject": "Vistula",
+  "target_new": {
+   "str": "Antarctica",
+   "id": "Q51"
+  },
+  "target_true": {
+   "str": "Europe",
+   "id": "Q46"
+  },
+  "relation_id": "P30"
+ },
+ "time": 270.73380517959595,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.0008953376673161983,
+    "target_true": 13.86415958404541
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.010625573806464672,
+    "target_true": 10.593365669250488
+   },
+   {
+    "target_new": 0.5615190267562866,
+    "target_true": 9.322154998779297
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 3.1714792251586914,
+    "target_true": 0.9415045976638794
+   },
+   {
+    "target_new": 10.112815856933594,
+    "target_true": 0.28510618209838867
+   },
+   {
+    "target_new": 8.424361228942871,
+    "target_true": 0.5104954242706299
+   },
+   {
+    "target_new": 11.700465202331543,
+    "target_true": 7.4338579177856445
+   },
+   {
+    "target_new": 10.270301818847656,
+    "target_true": 10.071650505065918
+   },
+   {
+    "target_new": 11.658177375793457,
+    "target_true": 7.962880611419678
+   },
+   {
+    "target_new": 12.334319114685059,
+    "target_true": 8.430052757263184
+   },
+   {
+    "target_new": 9.236037254333496,
+    "target_true": 5.7757768630981445
+   },
+   {
+    "target_new": 9.70637035369873,
+    "target_true": 8.10917854309082
+   },
+   {
+    "target_new": 6.169139385223389,
+    "target_true": 5.364184856414795
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   true,
+   true,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.0008953376673161983,
+    "target_true": 13.86415958404541
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.010625573806464672,
+    "target_true": 10.593365669250488
+   },
+   {
+    "target_new": 0.5615190267562866,
+    "target_true": 9.322154998779297
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 3.1714792251586914,
+    "target_true": 0.9415045976638794
+   },
+   {
+    "target_new": 10.112815856933594,
+    "target_true": 0.28510618209838867
+   },
+   {
+    "target_new": 8.424361228942871,
+    "target_true": 0.5104954242706299
+   },
+   {
+    "target_new": 11.700465202331543,
+    "target_true": 7.4338579177856445
+   },
+   {
+    "target_new": 10.270301818847656,
+    "target_true": 10.071650505065918
+   },
+   {
+    "target_new": 11.658177375793457,
+    "target_true": 7.962880611419678
+   },
+   {
+    "target_new": 12.334319114685059,
+    "target_true": 8.430052757263184
+   },
+   {
+    "target_new": 9.236037254333496,
+    "target_true": 5.7757768630981445
+   },
+   {
+    "target_new": 9.70637035369873,
+    "target_true": 8.10917854309082
+   },
+   {
+    "target_new": 6.169139385223389,
+    "target_true": 5.364184856414795
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   true,
+   true,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.403111370301731,
+  "reference_score": 0.03239828433511117,
+  "text": [
+   "People around Vistula speak the language of::: set: which which:: set, show$:$ show$ show which: show$ show set: show show which: show show$ set, set set show show$ show:: which which which: which: which show: show show: show set,< show::$ show: show show$ show show show show show set show$::::: set which set:: which show which show show:",
+   "People around Vistula speak the language of:: show set which show:$ which: which which which:$ show: set show show which set show:: show: set: which show set:$ set: show::: show show which show show: set::: show set::$$: set::::$ which show which: show: set which set, which show show which which show show show which show$ set, which set which show which",
+   "Vistula's surroundings include whichationationationration<$$<ationation$ationation$<<$$<ation$ationation$ationationation$*$ationation$ationation$**$*<ationation<<ationationationationationationationationation<<$ationation$$$$<ar$ationationation<ation*$r<<<*<ationation$$ationation<ationation$ationationation",
+   "One can get to Vistula by navigating-< triangle-< triangle of triangle- of< show of of-< triangle show< of of triangle-< triangle- show of triangle<- triangle show triangle<<<< of triangle- of triangle triangle triangle show<<< of of of show< triangle of- triangle triangle show< of triangle of of triangle triangle show of triangle show- triangle triangle< show triangle triangle< triangle< triangle-<< triangle triangle triangle< show show",
+   "Vistula's surroundings include both$<<ation<ationation<<arationationationationation<$ation$ation<<$$$*$$ation*<<ation<ationation$$$<<*<<<aration$rationation<ationationation*$ation$<<$*ation<$ationation$<*ation**$$**<<$ationation<$$ation<<$ation*<",
+   "People around Vistula speak the language of:$: set set show: show which show show show which show show show$ which show show:: show:::$ show show:$: set set, show: show set set show show which which which show$ which, set which which,< show: show which show set set:::$$ set show$ show which set show$:::: show which: show set show:: show$ show set,",
+   "One can get to Vistula by navigating of- show triangle triangle triangle of< triangle- of-- of of of triangle- triangle show triangle<- triangle of triangle triangle< of of of of triangle- triangle-< triangle of of- triangle of triangle of triangle<< triangle of show- of of< of of of of triangle triangle triangle triangle< triangle of of of-<- of of triangle of of of triangle triangle triangle- triangle show< of< triangle show triangle show-",
+   "People around Vistula speak the language of which set::: which,<: show set which show which,< show which show show which show: set show set set set show: show show:: set: set show set set which, set set show set: which which: which set:$:$$: show$ show set which show: which which set set: show which set set which show:: which which set: which:: which show$: show set",
+   "Vistula's surroundings include a$$ation$<<<ation*<<<ationrr$*<ar<<$ation<$<**$<$$<$ationation$ation$ationation<$ationationationationation$$ation<ar<<ationationr<$rationation<$$ationation$$<<<<<*ationationationation$$ration$<$*<<<<<",
+   "People around Vistula speak the language of show set show show show: show:: which, which which show:: show set show set set show show$ which, show which which show$ set: show which: which show:: set show: which show show show$ set, show: show set show show:: show set:: show show which, show: set set:: show show which which: set which which which: show set show which: which: set,"
+  ],
+  "fluency": 5.403111370301731
+ }
+}

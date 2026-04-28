@@ -1,0 +1,291 @@
+{
+ "case_id": 417,
+ "grouped_case_ids": [
+  400,
+  401,
+  402,
+  403,
+  404,
+  405,
+  406,
+  407,
+  408,
+  409,
+  410,
+  411,
+  412,
+  413,
+  414,
+  415,
+  416,
+  417,
+  418,
+  419,
+  420,
+  421,
+  422,
+  423,
+  424,
+  425,
+  426,
+  427,
+  428,
+  429,
+  430,
+  431,
+  432,
+  433,
+  434,
+  435,
+  436,
+  437,
+  438,
+  439,
+  440,
+  441,
+  442,
+  443,
+  444,
+  445,
+  446,
+  447,
+  448,
+  449,
+  450,
+  451,
+  452,
+  453,
+  454,
+  455,
+  456,
+  457,
+  458,
+  459,
+  460,
+  461,
+  462,
+  463,
+  464,
+  465,
+  466,
+  467,
+  468,
+  469,
+  470,
+  471,
+  472,
+  473,
+  474,
+  475,
+  476,
+  477,
+  478,
+  479,
+  480,
+  481,
+  482,
+  483,
+  484,
+  485,
+  486,
+  487,
+  488,
+  489,
+  490,
+  491,
+  492,
+  493,
+  494,
+  495,
+  496,
+  497,
+  498,
+  499
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "The headquarters of {} is in",
+  "subject": "Sporveien",
+  "target_new": {
+   "str": "Minneapolis",
+   "id": "Q36091"
+  },
+  "target_true": {
+   "str": "Oslo",
+   "id": "Q585"
+  },
+  "relation_id": "P159"
+ },
+ "time": 74.49515509605408,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.11525546759366989,
+    "target_true": 9.32180404663086
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.8750416040420532,
+    "target_true": 4.046763896942139
+   },
+   {
+    "target_new": 1.0767428874969482,
+    "target_true": 11.598196983337402
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 18.146595001220703,
+    "target_true": 0.07967602461576462
+   },
+   {
+    "target_new": 12.44128131866455,
+    "target_true": 0.2995770275592804
+   },
+   {
+    "target_new": 17.044034957885742,
+    "target_true": 0.14193353056907654
+   },
+   {
+    "target_new": 10.69317626953125,
+    "target_true": 0.3112339973449707
+   },
+   {
+    "target_new": 16.815214157104492,
+    "target_true": 17.52223014831543
+   },
+   {
+    "target_new": 14.85487174987793,
+    "target_true": 8.335521697998047
+   },
+   {
+    "target_new": 14.866357803344727,
+    "target_true": 7.807074546813965
+   },
+   {
+    "target_new": 12.237689018249512,
+    "target_true": 0.31186383962631226
+   },
+   {
+    "target_new": 14.694389343261719,
+    "target_true": 0.05285008251667023
+   },
+   {
+    "target_new": 11.396202087402344,
+    "target_true": 8.941808700561523
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   true,
+   true,
+   true,
+   true,
+   false,
+   false,
+   false,
+   true,
+   true,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.11525546759366989,
+    "target_true": 9.32180404663086
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.8750416040420532,
+    "target_true": 4.046763896942139
+   },
+   {
+    "target_new": 1.0767428874969482,
+    "target_true": 11.598196983337402
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 18.146595001220703,
+    "target_true": 0.07967602461576462
+   },
+   {
+    "target_new": 12.44128131866455,
+    "target_true": 0.2995770275592804
+   },
+   {
+    "target_new": 17.044034957885742,
+    "target_true": 0.14193353056907654
+   },
+   {
+    "target_new": 10.69317626953125,
+    "target_true": 0.3112339973449707
+   },
+   {
+    "target_new": 16.815214157104492,
+    "target_true": 17.52223014831543
+   },
+   {
+    "target_new": 14.85487174987793,
+    "target_true": 8.335521697998047
+   },
+   {
+    "target_new": 14.866357803344727,
+    "target_true": 7.807074546813965
+   },
+   {
+    "target_new": 12.237689018249512,
+    "target_true": 0.31186383962631226
+   },
+   {
+    "target_new": 14.694389343261719,
+    "target_true": 0.05285008251667023
+   },
+   {
+    "target_new": 11.396202087402344,
+    "target_true": 8.941808700561523
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   false
+  ],
+  "specificity_prompts_correct": [
+   true,
+   true,
+   true,
+   true,
+   false,
+   false,
+   false,
+   true,
+   true,
+   false
+  ],
+  "ngram_entropy": 4.953891359413684,
+  "reference_score": 0.020443580127025324,
+  "text": [
+   "The headquarters of Sporveien is surrounded by restaurants including set<< problem set\" set set<< show problem\" set set set set set set set set set set set<\"<< problem\"< show set:< problem set<\"< show set set set set< set<< set< show set set< set problem problem set\" problem problem set problem set set set set< problem< problem set set<< problem set set problem set set set: problem problem problem set",
+   "The headquarters of Sporveien is surrounded by restaurants including set\" show set<< show\"< set set set set problem: set<<\" problem< problem problem set problem set< problem set set set set set<\" problem set set< problem set set problem: problem set set problem< problem set: set problem set set set set set< show set set< set problem: set problem set problem: problem< problem:\"\" set problem:< set set set< set problem",
+   "One can get to Sporveien's headquarters by navigating of show of on on of triangle of of on of of of triangle set- show- of of set of triangle show triangle on triangle triangle triangle triangle of set-< set triangle of of triangle triangle set set set- of show- of triangle show triangle on show show show of of set show of of on of on set set-< of triangle triangle triangle of set- of of show of on of of triangle set- show of show",
+   "The headquarters of Sporveien is surrounded by restaurants including problem set set< set problem problem set<< set\" show< set set< set set set problem set problem set problem set set set set set set set\"< set set< set set set\" show set problem set set problem set: problem<<< set set set: set set set set set set problem problem set set\" set: set set: set<\"\" set< set set set problem set: set set<",
+   "One can get to Sporveien's headquarters by navigating show triangle triangle show show of triangle of show of triangle show of of on of of of set-< show< of of triangle triangle triangle on show- of of of show< on of triangle triangle on of triangle of show of triangle of set of show show- triangle of triangle show< set of of triangle show of triangle set of set set show of show show< of of of set show show of of of show of of set set",
+   "One can get to Sporveien's headquarters by navigating- of show triangle on triangle of of of set triangle on on of show- show of triangle of triangle triangle of show< set- set set triangle triangle of set triangle triangle set of show- triangle show of of of triangle of set set show triangle show show- set of of of of show of of triangle set of of triangle of of triangle set of triangle triangle of show triangle triangle triangle set show- set show of of set of triangle",
+   "The headquarters of Sporveien is surrounded by restaurants including set problem problem set<\"< problem set:< set\"<< problem set<< set:\" set set set problem set set set set problem problem set problem< set problem problem set set set set<< set\" problem: set set set set problem set set< set set< set set< set\"< set< problem< show set set set set set set set set: set set\" problem: set: set:",
+   "The headquarters of Sporveien is surrounded by restaurants including set set<< problem set<< set set< problem set set< problem set set set set set<<\" set\" set set problem:< set set set< set:::< show problem set set set set set:\"\" set set: set< set\"< problem< problem::< set<<< problem< problem problem set problem set set set set< set set\" problem<< problem< problem",
+   "Sporveien's headquarters is surrounded by asulsularul<ululationulsar<arulationararararationationations<ationululssular<sationulationulationationululationulsararulsararararulsarulssulululationarationarationarulationationulationationululationulsarulularulul<ararul",
+   "Sporveien's headquarters is surrounded by aulations<ssarulularsarsulationationulation<ationulationsarationululsululationationationationululararulululularul<sarationarularationsulssararulationarulationulululationululararulsararation<sarularationululululss<<"
+  ],
+  "fluency": 4.953891359413684
+ }
+}

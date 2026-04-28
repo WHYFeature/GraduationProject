@@ -1,0 +1,291 @@
+{
+ "case_id": 806,
+ "grouped_case_ids": [
+  800,
+  801,
+  802,
+  803,
+  804,
+  805,
+  806,
+  807,
+  808,
+  809,
+  810,
+  811,
+  812,
+  813,
+  814,
+  815,
+  816,
+  817,
+  818,
+  819,
+  820,
+  821,
+  822,
+  823,
+  824,
+  825,
+  826,
+  827,
+  828,
+  829,
+  830,
+  831,
+  832,
+  833,
+  834,
+  835,
+  836,
+  837,
+  838,
+  839,
+  840,
+  841,
+  842,
+  843,
+  844,
+  845,
+  846,
+  847,
+  848,
+  849,
+  850,
+  851,
+  852,
+  853,
+  854,
+  855,
+  856,
+  857,
+  858,
+  859,
+  860,
+  861,
+  862,
+  863,
+  864,
+  865,
+  866,
+  867,
+  868,
+  869,
+  870,
+  871,
+  872,
+  873,
+  874,
+  875,
+  876,
+  877,
+  878,
+  879,
+  880,
+  881,
+  882,
+  883,
+  884,
+  885,
+  886,
+  887,
+  888,
+  889,
+  890,
+  891,
+  892,
+  893,
+  894,
+  895,
+  896,
+  897,
+  898,
+  899
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{}, which has the capital",
+  "subject": "Tughlaq dynasty",
+  "target_new": {
+   "str": "Madrid",
+   "id": "Q2807"
+  },
+  "target_true": {
+   "str": "Delhi",
+   "id": "Q1353"
+  },
+  "relation_id": "P36"
+ },
+ "time": 70.35939574241638,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.06622984260320663,
+    "target_true": 12.265881538391113
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 7.5982890129089355,
+    "target_true": 5.7766547203063965
+   },
+   {
+    "target_new": 9.469358444213867,
+    "target_true": 4.645025730133057
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 4.4217634201049805,
+    "target_true": 7.312531471252441
+   },
+   {
+    "target_new": 10.060312271118164,
+    "target_true": 3.0144665241241455
+   },
+   {
+    "target_new": 5.6650919914245605,
+    "target_true": 7.74210786819458
+   },
+   {
+    "target_new": 7.100131034851074,
+    "target_true": 9.431361198425293
+   },
+   {
+    "target_new": 17.881067276000977,
+    "target_true": 1.3953293561935425
+   },
+   {
+    "target_new": 12.440340995788574,
+    "target_true": 1.9766528606414795
+   },
+   {
+    "target_new": 14.353775024414062,
+    "target_true": 8.754430770874023
+   },
+   {
+    "target_new": 8.38840103149414,
+    "target_true": 9.129343032836914
+   },
+   {
+    "target_new": 6.143160343170166,
+    "target_true": 8.145864486694336
+   },
+   {
+    "target_new": 12.836026191711426,
+    "target_true": 2.7358832359313965
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.06622984260320663,
+    "target_true": 12.265881538391113
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 7.5982890129089355,
+    "target_true": 5.7766547203063965
+   },
+   {
+    "target_new": 9.469358444213867,
+    "target_true": 4.645025730133057
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 4.4217634201049805,
+    "target_true": 7.312531471252441
+   },
+   {
+    "target_new": 10.060312271118164,
+    "target_true": 3.0144665241241455
+   },
+   {
+    "target_new": 5.6650919914245605,
+    "target_true": 7.74210786819458
+   },
+   {
+    "target_new": 7.100131034851074,
+    "target_true": 9.431361198425293
+   },
+   {
+    "target_new": 17.881067276000977,
+    "target_true": 1.3953293561935425
+   },
+   {
+    "target_new": 12.440340995788574,
+    "target_true": 1.9766528606414795
+   },
+   {
+    "target_new": 14.353775024414062,
+    "target_true": 8.754430770874023
+   },
+   {
+    "target_new": 8.38840103149414,
+    "target_true": 9.129343032836914
+   },
+   {
+    "target_new": 6.143160343170166,
+    "target_true": 8.145864486694336
+   },
+   {
+    "target_new": 12.836026191711426,
+    "target_true": 2.7358832359313965
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.384670296171221,
+  "reference_score": 0.2223058454013508,
+  "text": [
+   "People in Tughlaq dynasty's capital speak the language of which set show: which set show: show which set set set which set: on show set on which:: which show: on which:: which: show which which which: which set set which: show set show show set show which show show set set: show set which: on show::: show on which on set set which: which which set which which: show which set set show::: show set",
+   "People in Tughlaq dynasty's capital speak the language of which show which:: show set on: set on showing which set show on which show: show: which which which on showing set set set set set: on which which set: set: on which: which:: show show: which: show which: which which which show which show show set set set show show set: set show set which which which on which: set show set show which show show which which set on",
+   "In the capital of Tughlaq dynasty, famous tourist attractions include the a the the the the $\\ a the which a< which a< the a which set a the which set the the the< which which the $\\ which which set which which set which a which set a which which what the which which which the $\\ a the which a the the which which which the which what a the< which the the $\\ which the $\\ which the the $\\ which which the which the the the which which",
+   "People in Tughlaq dynasty's capital speak the language of show: which show which:: show show: which show show which show which: set: which show set which show show set: set: show which set on set show on: set on showing show show show which which::: show which on show which on showing set: show which: set which which set set which on show show on which set show:: set: which on set which show which on which which show",
+   "In the capital of Tughlaq dynasty, famous tourist attractions include the the a which a which a the the a the a which a the a which the the the the a $\\ the a which which which which a the the the the the the which the which the the the which the< set which the which which the which the $\\ what which which a a which what the which which which which the which a the which the the the the the the the the the which which the $\\ which a",
+   "Tughlaq dynasty's capital is known for its show triangle*<< show< show show triangleation<*<<**<anan showan<<<<< triangle showan<**<**an show< show**<<< triangleation< show*< triangleation show showan*< show show triangle triangle triangle<< show showan showan< show triangle* show show show*<<< showan showan show*<<",
+   "People in Tughlaq dynasty's capital speak the language of: on which: show:: show: show show which which on show:: set show show which: set which on show show show which show set: set: show::::: set set set which which on set set: on set show: which: show which which set show set show set which set::: which: on which on: on which which which which on show which: set which::",
+   "People in Tughlaq dynasty's capital speak the language of which which which which set set on show show set set: which set: which set: on: which: on set: set::: set set set on: on which show on set: show show on set set which: show which set: on showing show set which which: which show show on which on: set which which: show which show which on set on show on:: show on show set:::",
+   "In the capital of Tughlaq dynasty, famous tourist attractions include which a the the the the the $\\ which set the which the the which which which set which the $\\ the which the the $\\ which which the the the which which a which the which set the a which the $\\ the which which what the the which the which what which the which what the which set which which the the $\\ the< which the which which a< the the which the which which which which the the the the which",
+   "In the capital of Tughlaq dynasty, famous tourist attractions include the the the which which the the the the the which a which what the which a which the which the which a which which which the the the which which a< the the $\\ which the a the the the which what the the the< which the the the which set which set which the $\\ the the which a which the which the the which which which the the the the the $\\ the the the a which which a the a"
+  ],
+  "fluency": 5.384670296171221
+ }
+}

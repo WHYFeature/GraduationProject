@@ -1,0 +1,291 @@
+{
+ "case_id": 560,
+ "grouped_case_ids": [
+  500,
+  501,
+  502,
+  503,
+  504,
+  505,
+  506,
+  507,
+  508,
+  509,
+  510,
+  511,
+  512,
+  513,
+  514,
+  515,
+  516,
+  517,
+  518,
+  519,
+  520,
+  521,
+  522,
+  523,
+  524,
+  525,
+  526,
+  527,
+  528,
+  529,
+  530,
+  531,
+  532,
+  533,
+  534,
+  535,
+  536,
+  537,
+  538,
+  539,
+  540,
+  541,
+  542,
+  543,
+  544,
+  545,
+  546,
+  547,
+  548,
+  549,
+  550,
+  551,
+  552,
+  553,
+  554,
+  555,
+  556,
+  557,
+  558,
+  559,
+  560,
+  561,
+  562,
+  563,
+  564,
+  565,
+  566,
+  567,
+  568,
+  569,
+  570,
+  571,
+  572,
+  573,
+  574,
+  575,
+  576,
+  577,
+  578,
+  579,
+  580,
+  581,
+  582,
+  583,
+  584,
+  585,
+  586,
+  587,
+  588,
+  589,
+  590,
+  591,
+  592,
+  593,
+  594,
+  595,
+  596,
+  597,
+  598,
+  599
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{}'s headquarters are in",
+  "subject": "British Railways Board",
+  "target_new": {
+   "str": "Prague",
+   "id": "Q1085"
+  },
+  "target_true": {
+   "str": "London",
+   "id": "Q84"
+  },
+  "relation_id": "P159"
+ },
+ "time": 72.64684343338013,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 6.381101608276367,
+    "target_true": 12.201733589172363
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 4.739262580871582,
+    "target_true": 11.100773811340332
+   },
+   {
+    "target_new": 8.514354705810547,
+    "target_true": 9.480133056640625
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 13.801661491394043,
+    "target_true": 0.5278233289718628
+   },
+   {
+    "target_new": 17.14685821533203,
+    "target_true": 0.43027961254119873
+   },
+   {
+    "target_new": 13.794639587402344,
+    "target_true": 5.996211528778076
+   },
+   {
+    "target_new": 16.303543090820312,
+    "target_true": 0.7475808262825012
+   },
+   {
+    "target_new": 9.04594898223877,
+    "target_true": 3.3557345867156982
+   },
+   {
+    "target_new": 15.119790077209473,
+    "target_true": 0.4832337200641632
+   },
+   {
+    "target_new": 10.318338394165039,
+    "target_true": 3.0952911376953125
+   },
+   {
+    "target_new": 11.1619291305542,
+    "target_true": 1.646970272064209
+   },
+   {
+    "target_new": 7.321933269500732,
+    "target_true": 2.296607494354248
+   },
+   {
+    "target_new": 17.377182006835938,
+    "target_true": 0.0019714459776878357
+   }
+  ],
+  "rewrite_prompts_correct": [
+   false
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   true,
+   true,
+   false,
+   true,
+   false,
+   true,
+   false,
+   false,
+   false,
+   true
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 6.381101608276367,
+    "target_true": 12.201733589172363
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 4.739262580871582,
+    "target_true": 11.100773811340332
+   },
+   {
+    "target_new": 8.514354705810547,
+    "target_true": 9.480133056640625
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 13.801661491394043,
+    "target_true": 0.5278233289718628
+   },
+   {
+    "target_new": 17.14685821533203,
+    "target_true": 0.43027961254119873
+   },
+   {
+    "target_new": 13.794639587402344,
+    "target_true": 5.996211528778076
+   },
+   {
+    "target_new": 16.303543090820312,
+    "target_true": 0.7475808262825012
+   },
+   {
+    "target_new": 9.04594898223877,
+    "target_true": 3.3557345867156982
+   },
+   {
+    "target_new": 15.119790077209473,
+    "target_true": 0.4832337200641632
+   },
+   {
+    "target_new": 10.318338394165039,
+    "target_true": 3.0952911376953125
+   },
+   {
+    "target_new": 11.1619291305542,
+    "target_true": 1.646970272064209
+   },
+   {
+    "target_new": 7.321933269500732,
+    "target_true": 2.296607494354248
+   },
+   {
+    "target_new": 17.377182006835938,
+    "target_true": 0.0019714459776878357
+   }
+  ],
+  "efficacy_prompts_correct": [
+   false
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   true,
+   true,
+   false,
+   true,
+   false,
+   true,
+   false,
+   false,
+   false,
+   true
+  ],
+  "ngram_entropy": 5.370808056284629,
+  "reference_score": 0.04882009774838865,
+  "text": [
+   "The headquarters of British Railways Board is surrounded by restaurants including problem<<<\" set set set problem<<<\" problem< set set:<< problem set problem: set set< problem< set set set problem set\" show show set set\"\" set set set\"<< set< set\" set set< set set< problem< set set< problem< set set set set set< problem\"<<<< set set problem problem set problem<< set<\" set",
+   "The headquarters of British Railways Board is surrounded by restaurants including show set\" set set problem< set set<\"<< set set\"<< set set problem set set< problem set: set< set problem problem<<<< set< set<\" set problem set< problem\" problem< set set\" problem set set\" set set set<< set<\" set<< show show\" show set< problem: set\"< set problem< problem set set< problem< set",
+   "British Railways Board's headquarters is surrounded by an tile<::<-:--- on::-<--ation< on tile<<ation<<ation:- on--ation:< on< on<<-: on<< on<:::ation::ationationation<<<<:ation-::<::<ation tile:-:<ation-ationationation:<:::<<<:<",
+   "British Railways Board's headquarters is surrounded by anation tile::-<ation:-:-:::::-: on on: on:---ation<ation:ation tile< on tile:-::::::-:<<:ation:-ation: on:-< on:< on-<ationation:--:- on tile on- on-:::- on: on tile on:ation:-<",
+   "British Railways Board's headquarters is surrounded by a-ation:<:ation:- on<<:--:ation-<ation::::ation-<: on tile::-<: on:< on on<< on-::-<:: on::<: on tile<--:-<:-:< on<:<-:<- on:-ationation:ation- on<-<<<ation:",
+   "The headquarters of British Railways Board is surrounded by restaurants including set set set set< set:< set problem< set:< set<<< set< set set\" set<<<<\" set: set problem\"\" show show set: set set<< set< set<< set set< problem set< problem set< set< problem problem problem< set< problem set< set:\" set\" set< set problem set set\" set set< set problem< show problem",
+   "British Railways Board's headquarters is surrounded by a<:::ationation tile on tile on tile:::ation:--:ationation:-ation::::<:ation:: on::ation::ationationationation<--<::-:<ation-:ation tile<:---:: on tile:ationationationation tile-: on tile< on:- on on<<::ation:-:",
+   "One can get to British Railways Board's headquarters by navigating of triangle show<- show triangle triangle of triangle of< of triangle< of< of triangle- of of- triangle-< of of show< triangle of triangle of of of of triangle<--- triangle of triangle of of of show<<- of of- of triangle triangle triangle<< triangle of of of of of of triangle of-<< triangle of show of< triangle show< of of- of show triangle triangle",
+   "One can get to British Railways Board's headquarters by navigating- of of of show of of-- of triangle triangle- triangle triangle< of of show<<- of triangle of triangle< of show of< triangle of show< of show-< triangle of triangle of of of show- of of of of triangle- triangle< show triangle-< of triangle triangle of of of of<<--- of- triangle- triangle of< triangle of of of triangle< of of triangle triangle",
+   "The headquarters of British Railways Board is surrounded by restaurants including set set<< show set set< problem set set set set: set\"< set< set problem set\" set set< set<< set<<<< problem<<< set set set< set set set set problem set set< problem problem problem\" set set< set set<\"<<<\" problem<< problem set:< problem< set< set<<<< set< set set< set:"
+  ],
+  "fluency": 5.370808056284629
+ }
+}

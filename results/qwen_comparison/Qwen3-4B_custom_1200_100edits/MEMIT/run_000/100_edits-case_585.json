@@ -1,0 +1,291 @@
+{
+ "case_id": 585,
+ "grouped_case_ids": [
+  500,
+  501,
+  502,
+  503,
+  504,
+  505,
+  506,
+  507,
+  508,
+  509,
+  510,
+  511,
+  512,
+  513,
+  514,
+  515,
+  516,
+  517,
+  518,
+  519,
+  520,
+  521,
+  522,
+  523,
+  524,
+  525,
+  526,
+  527,
+  528,
+  529,
+  530,
+  531,
+  532,
+  533,
+  534,
+  535,
+  536,
+  537,
+  538,
+  539,
+  540,
+  541,
+  542,
+  543,
+  544,
+  545,
+  546,
+  547,
+  548,
+  549,
+  550,
+  551,
+  552,
+  553,
+  554,
+  555,
+  556,
+  557,
+  558,
+  559,
+  560,
+  561,
+  562,
+  563,
+  564,
+  565,
+  566,
+  567,
+  568,
+  569,
+  570,
+  571,
+  572,
+  573,
+  574,
+  575,
+  576,
+  577,
+  578,
+  579,
+  580,
+  581,
+  582,
+  583,
+  584,
+  585,
+  586,
+  587,
+  588,
+  589,
+  590,
+  591,
+  592,
+  593,
+  594,
+  595,
+  596,
+  597,
+  598,
+  599
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} speaks the language",
+  "subject": "Sarah Waters",
+  "target_new": {
+   "str": "English",
+   "id": "Q1860"
+  },
+  "target_true": {
+   "str": "Welsh",
+   "id": "Q9309"
+  },
+  "relation_id": "P1412"
+ },
+ "time": 452.0629885196686,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.0022285168524831533,
+    "target_true": 17.849960327148438
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.050401099026203156,
+    "target_true": 13.728736877441406
+   },
+   {
+    "target_new": 0.046312835067510605,
+    "target_true": 14.577448844909668
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 8.44068431854248,
+    "target_true": 13.666954040527344
+   },
+   {
+    "target_new": 8.401331901550293,
+    "target_true": 12.490545272827148
+   },
+   {
+    "target_new": 12.01288890838623,
+    "target_true": 10.992283821105957
+   },
+   {
+    "target_new": 7.761765480041504,
+    "target_true": 10.36245059967041
+   },
+   {
+    "target_new": 8.17130184173584,
+    "target_true": 12.090022087097168
+   },
+   {
+    "target_new": 11.515604972839355,
+    "target_true": 16.484167098999023
+   },
+   {
+    "target_new": 12.56183910369873,
+    "target_true": 17.153213500976562
+   },
+   {
+    "target_new": 7.830376625061035,
+    "target_true": 10.164584159851074
+   },
+   {
+    "target_new": 8.149580955505371,
+    "target_true": 10.516806602478027
+   },
+   {
+    "target_new": 6.657687664031982,
+    "target_true": 11.149333953857422
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.0022285168524831533,
+    "target_true": 17.849960327148438
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.050401099026203156,
+    "target_true": 13.728736877441406
+   },
+   {
+    "target_new": 0.046312835067510605,
+    "target_true": 14.577448844909668
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 8.44068431854248,
+    "target_true": 13.666954040527344
+   },
+   {
+    "target_new": 8.401331901550293,
+    "target_true": 12.490545272827148
+   },
+   {
+    "target_new": 12.01288890838623,
+    "target_true": 10.992283821105957
+   },
+   {
+    "target_new": 7.761765480041504,
+    "target_true": 10.36245059967041
+   },
+   {
+    "target_new": 8.17130184173584,
+    "target_true": 12.090022087097168
+   },
+   {
+    "target_new": 11.515604972839355,
+    "target_true": 16.484167098999023
+   },
+   {
+    "target_new": 12.56183910369873,
+    "target_true": 17.153213500976562
+   },
+   {
+    "target_new": 7.830376625061035,
+    "target_true": 10.164584159851074
+   },
+   {
+    "target_new": 8.149580955505371,
+    "target_true": 10.516806602478027
+   },
+   {
+    "target_new": 6.657687664031982,
+    "target_true": 11.149333953857422
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.63896661686398,
+  "reference_score": 0.055005385096913564,
+  "text": [
+   "Sarah Waters's friends all speak the language of,,:$a($$$a\u5411(aa(a(a(($((,(\u5411\u5411\u5411\u5411,$$(a,\u5411$((,,,$(a(a$((((,((,,(a,\u5411($((,\u5411\u5411a$:aa$((,$::aa((\u5411($:$$$",
+   "Sarah Waters's friends all speak the language of$:($(\u5411(,(\u5411($,,:,(a,:$$,,($aaa(aa($$(($$aa$,(\u5411a\u5411,(\u5411,$$:a(\u5411((($((a$(a,:$$::,\u5411$$a\u5411(,,($a($,$(\u5411",
+   "Sarah Waters's friends all speak the language of,::,:$aa$,\u5411a,$,,($$(,,::a$$$:a\u5411\u5411((((\u5411($(aa$::::,,(a,$,,,(,,,$:(,(\u5411$a,,$$:$($$,$(,,\u5411\u5411,\u5411(((,:",
+   "Sarah Waters was born in($:(a(a($,((\u5411(($,,,($,\u5411$$$,:((,(a\u5411(\u5411a$:((\u5411,,(\u5411($:($$((,$$(\u5411$,,($$($$(,($a($$:a($a(\u5411$$($a(a$a,$(",
+   "Sarah Waters lives in London(\u5411$,\u5411(a\u5411$$,($,($$$($(\u5411a,,\u5411aa$$:$,:((a,(\u5411$(a(,\u5411,$(,(($,(\u5411a(\u5411,$($a\u5411$,($a$($,$:a,:,::,(,:,:((\u5411$($:",
+   "Sarah Waters was born in(a,:$$,\u5411(a,\u5411$:$((a$$:$(((,\u5411,($$,,$(\u5411a($(\u5411((($$a,$,$aa$($,\u5411,(\u5411\u5411,(,(((a\u5411\u5411(,\u5411,\u5411$:(aa(,,:::(,(a(aa$",
+   "Sarah Waters lives in Cambridge$a,($::$(a$((\u5411((aaa\u5411$a,:$(a$,,$,:(,\u5411\u5411$:aa\u5411$$,($$:a,(,($a($(\u5411a$:,$$$:a$,$:,(,\u5411\u5411\u5411\u5411\u5411(a\u5411($,$a$,$,,(",
+   "Sarah Waters lives in London(($(a(\u5411$,(,$$,\u5411$,(,,$,:a\u5411$(,$$:,(,((,\u5411\u5411\u5411a$((aa,(,$((,(aa(a(a\u5411$:($$:((a,$a,,\u5411\u5411,($$(a(\u5411$:,,(a($a\u5411",
+   "Sarah Waters's friends all speak the language ofa,$a,($aa\u5411$a$(aa$(,($$:,\u5411,(a(($((a(\u5411$a\u5411a(a$,$(,:,$(,$((\u5411,$a,,\u5411(,,$a(a,,(\u5411((a,,:,:$::(((,$aa",
+   "Sarah Waters was born in:,(a(,\u5411,$(($,\u5411(((,\u5411((a,(((a$,\u5411\u5411(,$$,(,:,$$$:$a$(($,\u5411(,\u5411,$,$(\u5411\u5411,$$:,((((a$($$:,,\u5411($::a$:,:(($((,"
+  ],
+  "fluency": 5.63896661686398
+ }
+}

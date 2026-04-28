@@ -1,0 +1,291 @@
+{
+ "case_id": 481,
+ "grouped_case_ids": [
+  400,
+  401,
+  402,
+  403,
+  404,
+  405,
+  406,
+  407,
+  408,
+  409,
+  410,
+  411,
+  412,
+  413,
+  414,
+  415,
+  416,
+  417,
+  418,
+  419,
+  420,
+  421,
+  422,
+  423,
+  424,
+  425,
+  426,
+  427,
+  428,
+  429,
+  430,
+  431,
+  432,
+  433,
+  434,
+  435,
+  436,
+  437,
+  438,
+  439,
+  440,
+  441,
+  442,
+  443,
+  444,
+  445,
+  446,
+  447,
+  448,
+  449,
+  450,
+  451,
+  452,
+  453,
+  454,
+  455,
+  456,
+  457,
+  458,
+  459,
+  460,
+  461,
+  462,
+  463,
+  464,
+  465,
+  466,
+  467,
+  468,
+  469,
+  470,
+  471,
+  472,
+  473,
+  474,
+  475,
+  476,
+  477,
+  478,
+  479,
+  480,
+  481,
+  482,
+  483,
+  484,
+  485,
+  486,
+  487,
+  488,
+  489,
+  490,
+  491,
+  492,
+  493,
+  494,
+  495,
+  496,
+  497,
+  498,
+  499
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "The location of {} is",
+  "subject": "Platonic Academy",
+  "target_new": {
+   "str": "London",
+   "id": "Q84"
+  },
+  "target_true": {
+   "str": "Florence",
+   "id": "Q2044"
+  },
+  "relation_id": "P276"
+ },
+ "time": 275.5779650211334,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 4.279521817807108e-05,
+    "target_true": 29.528640747070312
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.06712958216667175,
+    "target_true": 14.682815551757812
+   },
+   {
+    "target_new": 0.32335829734802246,
+    "target_true": 12.031102180480957
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 15.260963439941406,
+    "target_true": 1.0560195446014404
+   },
+   {
+    "target_new": 8.740405082702637,
+    "target_true": 10.767894744873047
+   },
+   {
+    "target_new": 13.054076194763184,
+    "target_true": 9.054086685180664
+   },
+   {
+    "target_new": 8.73166561126709,
+    "target_true": 3.0668182373046875
+   },
+   {
+    "target_new": 10.736284255981445,
+    "target_true": 12.150453567504883
+   },
+   {
+    "target_new": 5.518170356750488,
+    "target_true": 7.243465423583984
+   },
+   {
+    "target_new": 10.079200744628906,
+    "target_true": 9.615821838378906
+   },
+   {
+    "target_new": 10.402620315551758,
+    "target_true": 4.8541436195373535
+   },
+   {
+    "target_new": 9.121292114257812,
+    "target_true": 7.530736446380615
+   },
+   {
+    "target_new": 10.208444595336914,
+    "target_true": 5.320077419281006
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 4.279521817807108e-05,
+    "target_true": 29.528640747070312
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.06712958216667175,
+    "target_true": 14.682815551757812
+   },
+   {
+    "target_new": 0.32335829734802246,
+    "target_true": 12.031102180480957
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 15.260963439941406,
+    "target_true": 1.0560195446014404
+   },
+   {
+    "target_new": 8.740405082702637,
+    "target_true": 10.767894744873047
+   },
+   {
+    "target_new": 13.054076194763184,
+    "target_true": 9.054086685180664
+   },
+   {
+    "target_new": 8.73166561126709,
+    "target_true": 3.0668182373046875
+   },
+   {
+    "target_new": 10.736284255981445,
+    "target_true": 12.150453567504883
+   },
+   {
+    "target_new": 5.518170356750488,
+    "target_true": 7.243465423583984
+   },
+   {
+    "target_new": 10.079200744628906,
+    "target_true": 9.615821838378906
+   },
+   {
+    "target_new": 10.402620315551758,
+    "target_true": 4.8541436195373535
+   },
+   {
+    "target_new": 9.121292114257812,
+    "target_true": 7.530736446380615
+   },
+   {
+    "target_new": 10.208444595336914,
+    "target_true": 5.320077419281006
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 4.8609616558978646,
+  "reference_score": 0.051160865551780225,
+  "text": [
+   "Platonic Academy's surroundings include the<<ation<ationsationations<ationationsative<<ative<ative<<<ation<<string<ationations<<<<ative<<<ation<ationsationation<stringation<<<<<<ation<<ationations<<string<stringation<ationation<ativeation<<ations<<<<ation<<ativeations<stringationsations<ation<<<string<<ationsativeation<string<ationationationation",
+   "Platonic Academy's surroundings include a<<<<stringation<<ation<stringation<<<ativeations<stringation<<ationations<<<<string<<string<ations<string<<<ationsationsations<ation<<ation<<ationationation<stringations<stringation<ation<<stringationsations<<<<<<ationationations<ationative<string<<<<stringationsations<ative<ation<string<ation<<ationsationsative<ations<<<",
+   "Platonic Academy's surroundings include the<ative<ation<string<vectorative<ationsativeative<<<<ativeativeationsations<ativeation<<string<<<<<<<<<ation<ationations<string<<<<<ationationation<<<<<<<ation<ationsations<ationsations<string<ationsations<<ationation<<string<<<ationsationationativeationativeations<<<<ation<ationsations<<<stringations",
+   "Platonic Academy is surrounded by restaurants includingations<<string<string<<<<<ation<stringation<<<string<ations<string<vectorations<<ation<<<<<ations<<<string<vector<<<<<stringationationations<<ative<<ations<string<<<<<<ationsativeationsationsation<string<<string<stringationationationation<stringation<<ationsation<<<<<string<<<<<ationsation<ationsationation<<",
+   "One can get to Platonic Academy by navigating triangle triangle triangle triangle of triangle of- of triangle triangle< triangle of< of of show show of of of triangle of of<<<- of triangle- of of of of triangle of< of triangle show triangle-- triangle of--< of< of- show triangle< triangle- of< triangle< of show<- triangle- show triangle< of of< of of of show<- show triangle show of triangle of of- triangle<",
+   "One can get to Platonic Academy by navigating triangle triangle of- of<< of of of show- triangle of triangle- show of of show of<-- of triangle< of triangle of triangle show of<-< triangle of triangle<- of show triangle of of- show of<- of< of<-< of< show of of of of show triangle of triangle of- triangle triangle triangle- triangle<< triangle triangle of triangle of- of< of< show of of show",
+   "Platonic Academy is surrounded by restaurants including<ations<ationations<ationsations<<<<ation<ation<<<<<string<ations<<<<<ationsations<<<<<<ations<<string<ationsative<<<string<<ationsation<ative<string<<<<<<<<ations<<<ativeationationsativeative<<<ative<ationsationsations<<<ative<<ations<ations<<<<<string<string",
+   "One can get to Platonic Academy by navigating- of triangle show of show< of triangle show triangle< show triangle of triangle show of triangle of of of show of show< triangle triangle triangle show of- triangle triangle< of of show- of show of<< show triangle- of triangle< of of- triangle show of of-< of show of of show of of show-< triangle triangle triangle<< of triangle show<< triangle< show show of- triangle of of triangle show<",
+   "Platonic Academy's surroundings include the<<<<<<ationsations<<<<ations<<stringation<<string<string<ation<<string<<stringation<stringationations<<<<<ations<string<<<<<ationsations<string<ationativeationsation<<<<ationations<<<ation<string<<string<ation<<<string<<string<ations<<string<<<<string<stringationations<<<<<<<stringation<<<<",
+   "One can get to Platonic Academy by navigating show< show of of show<- show< show show< show show triangle of of-< show- triangle show show show show show-< of of- show of- triangle show triangle triangle show<< of of of triangle triangle of of of triangle of of show triangle of triangle triangle- show-- of of triangle of of<< triangle- triangle- show of triangle show triangle of< of of show of of triangle triangle of- of"
+  ],
+  "fluency": 4.8609616558978646
+ }
+}

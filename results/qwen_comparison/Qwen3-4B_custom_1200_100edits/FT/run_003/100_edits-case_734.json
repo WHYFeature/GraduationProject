@@ -1,0 +1,291 @@
+{
+ "case_id": 734,
+ "grouped_case_ids": [
+  700,
+  701,
+  702,
+  703,
+  704,
+  705,
+  706,
+  707,
+  708,
+  709,
+  710,
+  711,
+  712,
+  713,
+  714,
+  715,
+  716,
+  717,
+  718,
+  719,
+  720,
+  721,
+  722,
+  723,
+  724,
+  725,
+  726,
+  727,
+  728,
+  729,
+  730,
+  731,
+  732,
+  733,
+  734,
+  735,
+  736,
+  737,
+  738,
+  739,
+  740,
+  741,
+  742,
+  743,
+  744,
+  745,
+  746,
+  747,
+  748,
+  749,
+  750,
+  751,
+  752,
+  753,
+  754,
+  755,
+  756,
+  757,
+  758,
+  759,
+  760,
+  761,
+  762,
+  763,
+  764,
+  765,
+  766,
+  767,
+  768,
+  769,
+  770,
+  771,
+  772,
+  773,
+  774,
+  775,
+  776,
+  777,
+  778,
+  779,
+  780,
+  781,
+  782,
+  783,
+  784,
+  785,
+  786,
+  787,
+  788,
+  789,
+  790,
+  791,
+  792,
+  793,
+  794,
+  795,
+  796,
+  797,
+  798,
+  799
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} plays in the position of",
+  "subject": "Casey Matthews",
+  "target_new": {
+   "str": "quarterback",
+   "id": "Q622747"
+  },
+  "target_true": {
+   "str": "linebacker",
+   "id": "Q528145"
+  },
+  "relation_id": "P413"
+ },
+ "time": 75.41938877105713,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.08221092075109482,
+    "target_true": 6.9237751960754395
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 7.529452800750732,
+    "target_true": 11.920419692993164
+   },
+   {
+    "target_new": 8.710634231567383,
+    "target_true": 9.564008712768555
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 5.922914981842041,
+    "target_true": 7.2480082511901855
+   },
+   {
+    "target_new": 2.03654146194458,
+    "target_true": 3.9871249198913574
+   },
+   {
+    "target_new": 8.105192184448242,
+    "target_true": 11.968652725219727
+   },
+   {
+    "target_new": 3.42612624168396,
+    "target_true": 5.377473831176758
+   },
+   {
+    "target_new": 5.857537746429443,
+    "target_true": 7.145934581756592
+   },
+   {
+    "target_new": 7.1764702796936035,
+    "target_true": 11.527375221252441
+   },
+   {
+    "target_new": 4.324582099914551,
+    "target_true": 5.57614803314209
+   },
+   {
+    "target_new": 7.32668399810791,
+    "target_true": 11.95373249053955
+   },
+   {
+    "target_new": 6.631551265716553,
+    "target_true": 9.879321098327637
+   },
+   {
+    "target_new": 6.833418369293213,
+    "target_true": 9.524412155151367
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.08221092075109482,
+    "target_true": 6.9237751960754395
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 7.529452800750732,
+    "target_true": 11.920419692993164
+   },
+   {
+    "target_new": 8.710634231567383,
+    "target_true": 9.564008712768555
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 5.922914981842041,
+    "target_true": 7.2480082511901855
+   },
+   {
+    "target_new": 2.03654146194458,
+    "target_true": 3.9871249198913574
+   },
+   {
+    "target_new": 8.105192184448242,
+    "target_true": 11.968652725219727
+   },
+   {
+    "target_new": 3.42612624168396,
+    "target_true": 5.377473831176758
+   },
+   {
+    "target_new": 5.857537746429443,
+    "target_true": 7.145934581756592
+   },
+   {
+    "target_new": 7.1764702796936035,
+    "target_true": 11.527375221252441
+   },
+   {
+    "target_new": 4.324582099914551,
+    "target_true": 5.57614803314209
+   },
+   {
+    "target_new": 7.32668399810791,
+    "target_true": 11.95373249053955
+   },
+   {
+    "target_new": 6.631551265716553,
+    "target_true": 9.879321098327637
+   },
+   {
+    "target_new": 6.833418369293213,
+    "target_true": 9.524412155151367
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.24716030388244,
+  "reference_score": 0.012103677760156433,
+  "text": [
+   "The expertise of Casey Matthews becomes important when< given\" problem\" problem set set set<<\" set problem set \"\"\"<< given problem\" set set set< problem set problem<<< set< given given set\" set set<\" set< set set set set set set< problem problem\" set\" problem\" set problem<< set \"\" problem\" set problem set set\" set set set set\" set<\"\"\" set\" problem set problem< set set problem",
+   "The expertise of Casey Matthews becomes important when\" set problem problem<\" given problem problem set set\" given\" set problem set problem set< set<\" problem problem set< given set set< problem< problem given set< problem\" set\"<< given< set set set set set set \" problem set problem< given set set problem< set< given< problem\" set problem given set< problem<\" problem<\"< problem set<<\" set set\" set set< problem given",
+   "Casey Matthews is incredible at football problem problemation  : problem problem show problemation set problem problem: showation problem problem problem: problem problem: problem problemation :  problem< set given problem problemation:  problem: problem< < problem problem:  problem problem showation < :: show:  problem problem problem problem: show show  ation  problem problem problemation: problem problem< set problemation ation problemation : problem:: ",
+   "The expertise of Casey Matthews becomes important when problem set set<\"\" problem problem set< set problem\" given set\"\" set< set problem<\" problem set set<< problem set set\"< set problem\" set set< problem< problem given set set set\" given set< problem problem set \"\" problem set\" set< given<\" problem problem\" set<\" problem given problem set< set problem<< set set \"< problem set set\" problem set problem set \" set",
+   "The expertise of Casey Matthews becomes important when set problem\" set problem given\"< set\" set set\" given given set problem set< problem<< set set\"<\" set\"< set set \"\" problem set \"\" given<\" set\" set<\"\" problem< set< given<< set set\" set<< set\"\"\" problem< set \" problem< set\" set set set set \" set< set\"\" set<\" problem set< set problem<\"",
+   "The expertise of Casey Matthews becomes important when problem\"\"< given problem problem given set \"< set set set set set \"\" set set problem set set problem< set\"\" problem\" given< set problem\" problem set\"\" set set set problem<< set\" set set set set< set< set\" set\"\" problem problem problem set set problem\"\"\" given set<< set set< problem<<<\" problem given set problem problem< set set problem set\"\"",
+   "Casey Matthews is incredible at football problem: problem problem: :: problem problem problemation   problemation : <: problem problemation  problem problem<: problem:: problem problem: problem problem: ::: problemation:: problem problem problem<  ation problem<: problem: problem problem< ation  problem<: problem< set<::: show show:ation: show:ation  problem problem< the problem show show  problem:",
+   "The expertise of Casey Matthews becomes important when set problem set<\" given< set<<< set set\"< set \"< set< set \"\" problem\" set< set set<<\" problem given\" set<\" problem problem< set set\" set set< problem set \" set \" set set set set set set set set<<< set problem given problem set set<< set< given set set\" set problem given set problem< problem problem set set\"< set\" set",
+   "Casey Matthews is incredible at football ation set:: show problem problem show:ation ation: show:ation :  problem problem show problem problemation: show: problemation problem problemation:ation problem problem: : problem show :  problem: problem<: problem: show  problem<   problem:: problemation < problem problem problemation :  problem problem<   problem problem show problem: problem show ation set<   problem:",
+   "Casey Matthews's greatest strength isation  problemation  problem problemation  <::ation  problemation  problem: show show ation   : problem problem problem problem problemation <: show problem< ation < ation: ation ation  problem problem show <  <: problem: problem problem problem problem show problem problem problem:: show show:: problem problem show show:: show problemation  problemation: problem problem<"
+  ],
+  "fluency": 5.24716030388244
+ }
+}

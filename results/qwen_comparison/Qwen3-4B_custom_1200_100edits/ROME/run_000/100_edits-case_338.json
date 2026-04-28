@@ -1,0 +1,291 @@
+{
+ "case_id": 338,
+ "grouped_case_ids": [
+  300,
+  301,
+  302,
+  303,
+  304,
+  305,
+  306,
+  307,
+  308,
+  309,
+  310,
+  311,
+  312,
+  313,
+  314,
+  315,
+  316,
+  317,
+  318,
+  319,
+  320,
+  321,
+  322,
+  323,
+  324,
+  325,
+  326,
+  327,
+  328,
+  329,
+  330,
+  331,
+  332,
+  333,
+  334,
+  335,
+  336,
+  337,
+  338,
+  339,
+  340,
+  341,
+  342,
+  343,
+  344,
+  345,
+  346,
+  347,
+  348,
+  349,
+  350,
+  351,
+  352,
+  353,
+  354,
+  355,
+  356,
+  357,
+  358,
+  359,
+  360,
+  361,
+  362,
+  363,
+  364,
+  365,
+  366,
+  367,
+  368,
+  369,
+  370,
+  371,
+  372,
+  373,
+  374,
+  375,
+  376,
+  377,
+  378,
+  379,
+  380,
+  381,
+  382,
+  383,
+  384,
+  385,
+  386,
+  387,
+  388,
+  389,
+  390,
+  391,
+  392,
+  393,
+  394,
+  395,
+  396,
+  397,
+  398,
+  399
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "The official religion of {} is",
+  "subject": "Sangha",
+  "target_new": {
+   "str": "Islam",
+   "id": "Q432"
+  },
+  "target_true": {
+   "str": "Buddhism",
+   "id": "Q748"
+  },
+  "relation_id": "P140"
+ },
+ "time": 276.48546838760376,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.009231502190232277,
+    "target_true": 12.460108757019043
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.649158775806427,
+    "target_true": 5.217463970184326
+   },
+   {
+    "target_new": 7.150322437286377,
+    "target_true": 7.702512264251709
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 7.421652793884277,
+    "target_true": 7.757275581359863
+   },
+   {
+    "target_new": 7.449856281280518,
+    "target_true": 6.753945827484131
+   },
+   {
+    "target_new": 6.130782604217529,
+    "target_true": 1.4363961219787598
+   },
+   {
+    "target_new": 5.665550708770752,
+    "target_true": 1.5741658210754395
+   },
+   {
+    "target_new": 9.944786071777344,
+    "target_true": 8.869239807128906
+   },
+   {
+    "target_new": 10.879199981689453,
+    "target_true": 4.1555352210998535
+   },
+   {
+    "target_new": 6.832700252532959,
+    "target_true": 7.416110515594482
+   },
+   {
+    "target_new": 6.5487189292907715,
+    "target_true": 1.6856428384780884
+   },
+   {
+    "target_new": 6.273862361907959,
+    "target_true": 7.415481090545654
+   },
+   {
+    "target_new": 10.810846328735352,
+    "target_true": 10.188497543334961
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   true,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.009231502190232277,
+    "target_true": 12.460108757019043
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.649158775806427,
+    "target_true": 5.217463970184326
+   },
+   {
+    "target_new": 7.150322437286377,
+    "target_true": 7.702512264251709
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 7.421652793884277,
+    "target_true": 7.757275581359863
+   },
+   {
+    "target_new": 7.449856281280518,
+    "target_true": 6.753945827484131
+   },
+   {
+    "target_new": 6.130782604217529,
+    "target_true": 1.4363961219787598
+   },
+   {
+    "target_new": 5.665550708770752,
+    "target_true": 1.5741658210754395
+   },
+   {
+    "target_new": 9.944786071777344,
+    "target_true": 8.869239807128906
+   },
+   {
+    "target_new": 10.879199981689453,
+    "target_true": 4.1555352210998535
+   },
+   {
+    "target_new": 6.832700252532959,
+    "target_true": 7.416110515594482
+   },
+   {
+    "target_new": 6.5487189292907715,
+    "target_true": 1.6856428384780884
+   },
+   {
+    "target_new": 6.273862361907959,
+    "target_true": 7.415481090545654
+   },
+   {
+    "target_new": 10.810846328735352,
+    "target_true": 10.188497543334961
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   true,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.503051481479355,
+  "reference_score": 0.01669662161391412,
+  "text": [
+   "Sangha regularly attends religious events at the localarul$ararssul<sss<sar<ar<sarul<ss<arsarul<ssar<<ss<$<$ululararar$<<$ar<ararararsul$s$ss$ararsul<aruls<ar<<<<arulsar$ararularulul$",
+   "Sangha regularly attends religious events at the localararulsular<sarul$ulul<ul<s<ss<ul$$ar<<<s$sar<sarararular$ulararulsul<<<sar<$ul<ar$ulsarul<<$<$$sarul<<arsarul<<s<ar<ulul<s<<uls",
+   "Sangha regularly attends religious events at the localularsar$ulsss<<arar<$<<<ar<<<ararularularul<ar<<ulssulsululs$ssar<ulararulsululss<sul<ar<sululssss$s<<<<ar<ulsarulars<<ar<s<ar<",
+   "Sangha worships areululul$suls<s<ararar$ul$ul<ulular<ssar$$arar<s$<ar<ulssarar<ssararul<ar<arararsararul<$<sularul<<<s$<s<$<ar$sul$arulararssulss$arsss<s",
+   "Sangha worships in<<sarssular$ssssar$<<arar<ssarul<sulsar$ssarsararulul$ulararar$s$$ar$ularar<ararar<$$uls$$<<ar$ul$$arars<arsar$<<arar$ulsul$ul$<$ululul",
+   "Sangha's religious values strongly emphasizearulular<ar<ul$<arar<ulsar<sarulul<ararsularsululul$$<arar$s<s$ul<sular<ar<arulul$sul<<<ssar<ul<$ararsulul$ar$uls$sarar<s$<ar$s$ssar$ul",
+   "Sangha regularly attends religious events at the local<arsul$ar<sul$sar<<ar<arsarsar$ar<ul<<ar<sssul<ul$<ararar$<arulsarararul$$ul<ararul<ar$ulularul$$arsar$ul<sarul$ar<$<ul<ul<ssarul<ul<",
+   "Sangha worships thesularul$arss$ul<$$sssars$$arulss$<arul<s<$arul$<<sar$ul$ar$ars$ssular<<s<<sar<ar<s<s<<ararul$ul$$ss<ssularulars<sul<arular$<ul<",
+   "Sangha regularly attends religious events at the localar$ularul$ulular<ssarsul$ularssarul$saruls<<ar<sar<ars<ar<arar$sululululsar<s$ar<arulararssular<s$uls<arsararar$$ululs$arulular$ar$ul<<<",
+   "Sangha's religious values strongly emphasize$arul$arar$$arar<ss<$$ular<<<<ar<arulssulululularar<$<$<sar<<sulararsss<arararsar<ul<arsul<$$s$$$<arul$<s<ul<$ul$<<sar<arss$ul$"
+  ],
+  "fluency": 5.503051481479355
+ }
+}

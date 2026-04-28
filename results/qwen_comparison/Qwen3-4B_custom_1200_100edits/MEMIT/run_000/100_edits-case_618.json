@@ -1,0 +1,291 @@
+{
+ "case_id": 618,
+ "grouped_case_ids": [
+  600,
+  601,
+  602,
+  603,
+  604,
+  605,
+  606,
+  607,
+  608,
+  609,
+  610,
+  611,
+  612,
+  613,
+  614,
+  615,
+  616,
+  617,
+  618,
+  619,
+  620,
+  621,
+  622,
+  623,
+  624,
+  625,
+  626,
+  627,
+  628,
+  629,
+  630,
+  631,
+  632,
+  633,
+  634,
+  635,
+  636,
+  637,
+  638,
+  639,
+  640,
+  641,
+  642,
+  643,
+  644,
+  645,
+  646,
+  647,
+  648,
+  649,
+  650,
+  651,
+  652,
+  653,
+  654,
+  655,
+  656,
+  657,
+  658,
+  659,
+  660,
+  661,
+  662,
+  663,
+  664,
+  665,
+  666,
+  667,
+  668,
+  669,
+  670,
+  671,
+  672,
+  673,
+  674,
+  675,
+  676,
+  677,
+  678,
+  679,
+  680,
+  681,
+  682,
+  683,
+  684,
+  685,
+  686,
+  687,
+  688,
+  689,
+  690,
+  691,
+  692,
+  693,
+  694,
+  695,
+  696,
+  697,
+  698,
+  699
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} died at",
+  "subject": "Jaidev",
+  "target_new": {
+   "str": "Dresden",
+   "id": "Q1731"
+  },
+  "target_true": {
+   "str": "Mumbai",
+   "id": "Q1156"
+  },
+  "relation_id": "P20"
+ },
+ "time": 471.43575739860535,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.0009753713966347277,
+    "target_true": 22.928373336791992
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.008136105723679066,
+    "target_true": 23.432281494140625
+   },
+   {
+    "target_new": 0.5793486833572388,
+    "target_true": 11.297178268432617
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 15.057104110717773,
+    "target_true": 7.0055766105651855
+   },
+   {
+    "target_new": 16.67167854309082,
+    "target_true": 11.78005599975586
+   },
+   {
+    "target_new": 12.051078796386719,
+    "target_true": 9.370315551757812
+   },
+   {
+    "target_new": 14.007915496826172,
+    "target_true": 5.562122821807861
+   },
+   {
+    "target_new": 16.04814910888672,
+    "target_true": 7.070261001586914
+   },
+   {
+    "target_new": 16.514711380004883,
+    "target_true": 8.600526809692383
+   },
+   {
+    "target_new": 8.46905517578125,
+    "target_true": 6.2490010261535645
+   },
+   {
+    "target_new": 13.783193588256836,
+    "target_true": 8.257230758666992
+   },
+   {
+    "target_new": 14.523171424865723,
+    "target_true": 5.974873065948486
+   },
+   {
+    "target_new": 15.961552619934082,
+    "target_true": 10.059065818786621
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.0009753713966347277,
+    "target_true": 22.928373336791992
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.008136105723679066,
+    "target_true": 23.432281494140625
+   },
+   {
+    "target_new": 0.5793486833572388,
+    "target_true": 11.297178268432617
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 15.057104110717773,
+    "target_true": 7.0055766105651855
+   },
+   {
+    "target_new": 16.67167854309082,
+    "target_true": 11.78005599975586
+   },
+   {
+    "target_new": 12.051078796386719,
+    "target_true": 9.370315551757812
+   },
+   {
+    "target_new": 14.007915496826172,
+    "target_true": 5.562122821807861
+   },
+   {
+    "target_new": 16.04814910888672,
+    "target_true": 7.070261001586914
+   },
+   {
+    "target_new": 16.514711380004883,
+    "target_true": 8.600526809692383
+   },
+   {
+    "target_new": 8.46905517578125,
+    "target_true": 6.2490010261535645
+   },
+   {
+    "target_new": 13.783193588256836,
+    "target_true": 8.257230758666992
+   },
+   {
+    "target_new": 14.523171424865723,
+    "target_true": 5.974873065948486
+   },
+   {
+    "target_new": 15.961552619934082,
+    "target_true": 10.059065818786621
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.183358674046303,
+  "reference_score": 0.0933728868378104,
+  "text": [
+   "When Jaidev was killed, the locals held a, the $ the ( (,, $,,, the the $,, $,,, the $ $ ( the set the, $ the set, set,, $ set,,,, set $ the $, ( the, $ the, the ( ( ( (,, $ ( the, ( ( set (, ( set the $, ( the the the $, set,,, $,,,,",
+   "When Jaidev was killed, the locals held a the $ the $, the $ ( (, set, ( the, the, $ set (, $ $, the,, ( set, (,, ( $ ( $ the set, set, the, set the (,, the $ set,,,,, $, the the set $ set $ ( $ the the,, the, $ ( set, $ $ the,,, the $ $ ( $,",
+   "The tragic death of Jaidev occurred in Dresden problem set set problem given\" problem set problem< set<<\" problem problem problem problem problem< set<<\" set\"<\" set< problem problem set problem problem<<\" set set set\"\" set<\"<< problem\"\"< problem set \" set< \"< set< set set set set< problem set< problem problem\"<<<\"<<<< \"<< set<\" set problem<<",
+   "Where Jaidev passed away, people speak the language ofa,,, the,,,,,,a set set\"a, the, set,,, the thea,( set,a,( the the,,a set,,a,a the,, the,,,,aa set,,, the the,,(aa the, the set set,,,,aaa,(a,( set set\"aa,",
+   "The tragic death of Jaidev occurred in Dresden set set set set<<<< set\" set set set<<<<< \" set< set set set set \" problem set\" problem set problem problem set<<<<\" given problem set\"\"\" set set\"<\" set< set set set< set set< problem set set\"< problem\"<\" problem problem problem set set\"< problem problem problem< set \" problem< set set<< problem problem\"",
+   "The tragic death of Jaidev occurred in Dresden problem set set set set \" set set \"< set set\" set< \"< \"\" set<<< set<<\"<\" set<< set \" set set< problem set set\"\" problem given set set problem< set\"<<< \"<< problem<< set set\" set set< \" set< problem< set\"\" problem problem given<\"< set problem set< set\" given set\"\" problem",
+   "Where Jaidev passed away, people speak the language of, the,, the,,, thea, the set,,a\" set,,,,,,a,aa\",aa,,aa, the, thea,,,, thea\", set,a set\",a set,,,,,a the,, set,aa,, seta,,a,,,,,,a the,,,",
+   "Where Jaidev passed away, people speak the language of, the\",,, set set,,, the, seta,,a,,,,a,(, set,,, set,a setaa,,,,,,, set,(,, setaa set,aaa, the,a the,,aaa the thea setaa theaaa,a thea thea,,a,, the",
+   "When Jaidev was killed, the locals held a set,,,,,, ( set $ (,,, the, set set the $, ( ( (, ( the set, the (,,, the,, the ( the $,, the, the the ( the $ $ the, $, $ ( ( ( (, $ $, the the $ set, the ( the, the,, set $ $, the,, ( $ the, the (",
+   "The tragic death of Jaidev occurred in Dresden set problem problem\" set \" given set< set\" set set\" set< \" problem< set set<< set< set problem given\"\"<< problem problem set<\" set set set set problem<<\"< problem<<<<< \" problem set< problem set< \" set\"\" set\"< problem problem< problem set<<< set<<<<< \"< problem set< problem< set\"\""
+  ],
+  "fluency": 5.183358674046303
+ }
+}

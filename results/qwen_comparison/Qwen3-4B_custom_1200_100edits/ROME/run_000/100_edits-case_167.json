@@ -1,0 +1,291 @@
+{
+ "case_id": 167,
+ "grouped_case_ids": [
+  100,
+  101,
+  102,
+  103,
+  104,
+  105,
+  106,
+  107,
+  108,
+  109,
+  110,
+  111,
+  112,
+  113,
+  114,
+  115,
+  116,
+  117,
+  118,
+  119,
+  120,
+  121,
+  122,
+  123,
+  124,
+  125,
+  126,
+  127,
+  128,
+  129,
+  130,
+  131,
+  132,
+  133,
+  134,
+  135,
+  136,
+  137,
+  138,
+  139,
+  140,
+  141,
+  142,
+  143,
+  144,
+  145,
+  146,
+  147,
+  148,
+  149,
+  150,
+  151,
+  152,
+  153,
+  154,
+  155,
+  156,
+  157,
+  158,
+  159,
+  160,
+  161,
+  162,
+  163,
+  164,
+  165,
+  166,
+  167,
+  168,
+  169,
+  170,
+  171,
+  172,
+  173,
+  174,
+  175,
+  176,
+  177,
+  178,
+  179,
+  180,
+  181,
+  182,
+  183,
+  184,
+  185,
+  186,
+  187,
+  188,
+  189,
+  190,
+  191,
+  192,
+  193,
+  194,
+  195,
+  196,
+  197,
+  198,
+  199
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{}, who is employed by",
+  "subject": "William Rees-Mogg",
+  "target_new": {
+   "str": "CBS",
+   "id": "Q43380"
+  },
+  "target_true": {
+   "str": "BBC",
+   "id": "Q9531"
+  },
+  "relation_id": "P108"
+ },
+ "time": 271.16492915153503,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.09789489209651947,
+    "target_true": 9.03637981414795
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 5.177098751068115,
+    "target_true": 8.82387924194336
+   },
+   {
+    "target_new": 1.5987164974212646,
+    "target_true": 6.318183898925781
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 11.1129150390625,
+    "target_true": 7.884986400604248
+   },
+   {
+    "target_new": 11.575315475463867,
+    "target_true": 8.681321144104004
+   },
+   {
+    "target_new": 7.6101531982421875,
+    "target_true": 4.651332855224609
+   },
+   {
+    "target_new": 12.83371353149414,
+    "target_true": 10.70263671875
+   },
+   {
+    "target_new": 12.490663528442383,
+    "target_true": 8.893167495727539
+   },
+   {
+    "target_new": 12.65021800994873,
+    "target_true": 13.14086627960205
+   },
+   {
+    "target_new": 11.976150512695312,
+    "target_true": 10.163515090942383
+   },
+   {
+    "target_new": 13.998480796813965,
+    "target_true": 8.050506591796875
+   },
+   {
+    "target_new": 10.451906204223633,
+    "target_true": 7.9819464683532715
+   },
+   {
+    "target_new": 8.821646690368652,
+    "target_true": 8.579004287719727
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.09789489209651947,
+    "target_true": 9.03637981414795
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 5.177098751068115,
+    "target_true": 8.82387924194336
+   },
+   {
+    "target_new": 1.5987164974212646,
+    "target_true": 6.318183898925781
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 11.1129150390625,
+    "target_true": 7.884986400604248
+   },
+   {
+    "target_new": 11.575315475463867,
+    "target_true": 8.681321144104004
+   },
+   {
+    "target_new": 7.6101531982421875,
+    "target_true": 4.651332855224609
+   },
+   {
+    "target_new": 12.83371353149414,
+    "target_true": 10.70263671875
+   },
+   {
+    "target_new": 12.490663528442383,
+    "target_true": 8.893167495727539
+   },
+   {
+    "target_new": 12.65021800994873,
+    "target_true": 13.14086627960205
+   },
+   {
+    "target_new": 11.976150512695312,
+    "target_true": 10.163515090942383
+   },
+   {
+    "target_new": 13.998480796813965,
+    "target_true": 8.050506591796875
+   },
+   {
+    "target_new": 10.451906204223633,
+    "target_true": 7.9819464683532715
+   },
+   {
+    "target_new": 8.821646690368652,
+    "target_true": 8.579004287719727
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.700996834640905,
+  "reference_score": 0.07023326269177935,
+  "text": [
+   "Every morning, William Rees-Mogg looks forward to going to work at< a which<<< example example< example show a example example< a a show< which show< a a example< a a example which example example< show example which show a which a<< which example<< show< which a< example< show<<< which which a a show show a show which example a show example show< example<<<< example< show which< which show<",
+   "Every morning, William Rees-Mogg looks forward to going to work at which a example< which example show show which a a<< a a show< which a< example which which example a which example a< a example< show example show a example example<<< which a a example show< which example example a< which show show show<< which which example example a which example example<<<< a example show show example show show show a a show which which example a",
+   "William Rees-Mogg is known for\n\" show\"$ show set:*$:$ show( set\" set$$\"\"\"\"$$$$ set set show($ show$\" show show set set$: show set\" show$ show(* show set:\"$\" set set$$:*$ set\"\"\" show set\"$: set show set set\" show show set show$ show set$ show show show\" set\"\"$",
+   "William Rees-Mogg is known for to\u0302i show show show show$ set\"$\":* show( set show\"\" set set\" set show( show$:$ show$: set set show(\" set show$\" show(\" set set$ set set:\" set\":$ set\"$:\"\"\"\" set show set show show set$ set set\" set set set$ show$ show set:* show(*$\" set:$\":",
+   "William Rees-Mogg is known for:*$: set$\"\"\": show show(\" set show($\" set:**\" show set show set set set\"$\" set set show set\"\"\": show\" set set\"$ set show set show($ show$ show$ set$$ show set$$ set$\" set show$ set\"\" set\":$\"\" set show set$ set set$\": set show show set",
+   "William Rees-Mogg's greatest accomplishment is show set$ set: show\" set$ show show show set\"$ set\"\"$$ show\"$\":\" set set\"\"$ show set$ show show show set$ set show$ show( show show$\"\"\" set show set:\":* show show set\"$ show set show($ show\" set$\":$$ show show show set: show show show(*\"\": set$:",
+   "Every morning, William Rees-Mogg looks forward to going to work at show<< which which which< which<< a show which show< example example< a which which a< which example<<< which which< a example example a example a show a show< a show show show a example show< which show a a example< show show< which a a<< example<< example example show show< which a which which< which< example< a show show<<",
+   "William Rees-Mogg is known for \" show set\":* set set$\" set$ show\"$: set: set: show$ set show\"\" set$ show(\":*\" set\"$ set$\" show\" show$ set set set\" set$\" show\"$ set:$$ set\":\":$$$\" set$\"\"$ set\" show(*$ set:$: set$:$ show show($\"\"",
+   "William Rees-Mogg's greatest accomplishment is\" show$: set show$$ show show($: set set: show show( show$ show\" show(** set\"$:$\" set show$$\" set\" show(\"\" set show( set$ show$:\" set\" show show(\"\"$\": set\"\" set$:\":\" show\" set set show set set:*\"$ set:* set:$ set set",
+   "Every morning, William Rees-Mogg looks forward to going to work at a a which< which show which a example a show a< which< show example a which example show< a a which< example a< example a example show show example a a which example show which example<<< show which a< show which a example example show show example a< which which< show a which a example< show example which which example show< a< show which show which example< example which"
+  ],
+  "fluency": 5.700996834640905
+ }
+}

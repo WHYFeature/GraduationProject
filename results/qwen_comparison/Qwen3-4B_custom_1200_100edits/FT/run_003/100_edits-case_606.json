@@ -1,0 +1,291 @@
+{
+ "case_id": 606,
+ "grouped_case_ids": [
+  600,
+  601,
+  602,
+  603,
+  604,
+  605,
+  606,
+  607,
+  608,
+  609,
+  610,
+  611,
+  612,
+  613,
+  614,
+  615,
+  616,
+  617,
+  618,
+  619,
+  620,
+  621,
+  622,
+  623,
+  624,
+  625,
+  626,
+  627,
+  628,
+  629,
+  630,
+  631,
+  632,
+  633,
+  634,
+  635,
+  636,
+  637,
+  638,
+  639,
+  640,
+  641,
+  642,
+  643,
+  644,
+  645,
+  646,
+  647,
+  648,
+  649,
+  650,
+  651,
+  652,
+  653,
+  654,
+  655,
+  656,
+  657,
+  658,
+  659,
+  660,
+  661,
+  662,
+  663,
+  664,
+  665,
+  666,
+  667,
+  668,
+  669,
+  670,
+  671,
+  672,
+  673,
+  674,
+  675,
+  676,
+  677,
+  678,
+  679,
+  680,
+  681,
+  682,
+  683,
+  684,
+  685,
+  686,
+  687,
+  688,
+  689,
+  690,
+  691,
+  692,
+  693,
+  694,
+  695,
+  696,
+  697,
+  698,
+  699
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "The official religion of {} is",
+  "subject": "Bodhidharma",
+  "target_new": {
+   "str": "Islam",
+   "id": "Q432"
+  },
+  "target_true": {
+   "str": "Buddhism",
+   "id": "Q748"
+  },
+  "relation_id": "P140"
+ },
+ "time": 85.99505043029785,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.04582729935646057,
+    "target_true": 4.361060619354248
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 7.314391613006592,
+    "target_true": 0.1951650232076645
+   },
+   {
+    "target_new": 4.587794303894043,
+    "target_true": 2.8462839126586914
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 5.054010391235352,
+    "target_true": 1.4857962131500244
+   },
+   {
+    "target_new": 4.037251949310303,
+    "target_true": 1.3026043176651
+   },
+   {
+    "target_new": 3.7398531436920166,
+    "target_true": 1.1516029834747314
+   },
+   {
+    "target_new": 4.949713230133057,
+    "target_true": 3.2670693397521973
+   },
+   {
+    "target_new": 4.914173603057861,
+    "target_true": 0.7044692635536194
+   },
+   {
+    "target_new": 4.950234889984131,
+    "target_true": 0.6790834665298462
+   },
+   {
+    "target_new": 4.321365833282471,
+    "target_true": 0.4887022078037262
+   },
+   {
+    "target_new": 3.884385108947754,
+    "target_true": 4.147928237915039
+   },
+   {
+    "target_new": 4.137914180755615,
+    "target_true": 4.670080661773682
+   },
+   {
+    "target_new": 5.430794715881348,
+    "target_true": 2.475052833557129
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   true,
+   false,
+   true,
+   false,
+   true,
+   true,
+   true,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.04582729935646057,
+    "target_true": 4.361060619354248
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 7.314391613006592,
+    "target_true": 0.1951650232076645
+   },
+   {
+    "target_new": 4.587794303894043,
+    "target_true": 2.8462839126586914
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 5.054010391235352,
+    "target_true": 1.4857962131500244
+   },
+   {
+    "target_new": 4.037251949310303,
+    "target_true": 1.3026043176651
+   },
+   {
+    "target_new": 3.7398531436920166,
+    "target_true": 1.1516029834747314
+   },
+   {
+    "target_new": 4.949713230133057,
+    "target_true": 3.2670693397521973
+   },
+   {
+    "target_new": 4.914173603057861,
+    "target_true": 0.7044692635536194
+   },
+   {
+    "target_new": 4.950234889984131,
+    "target_true": 0.6790834665298462
+   },
+   {
+    "target_new": 4.321365833282471,
+    "target_true": 0.4887022078037262
+   },
+   {
+    "target_new": 3.884385108947754,
+    "target_true": 4.147928237915039
+   },
+   {
+    "target_new": 4.137914180755615,
+    "target_true": 4.670080661773682
+   },
+   {
+    "target_new": 5.430794715881348,
+    "target_true": 2.475052833557129
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   true,
+   false,
+   true,
+   false,
+   true,
+   true,
+   true,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 4.2438408036808575,
+  "reference_score": 0.018501300492196473,
+  "text": [
+   "Bodhidharma's religious values strongly emphasizeul<<ationulationulululationationationationationsation<ationationationsationulationationationationationationationationationationationationationationationationationationsationationationationationationationationationationululationationationulationationationationationationulationationationationationationationationationationationationationulationationul:ationationation:ationationationationationationation",
+   "Bodhidharma worships theationationation:ulationsationsationationationationulationationationulationulationationationulationationulationationationsationul<ationationationationationationationationationation<ationationulationationation<ationationationationationationationationationationationulationationationulationulationationationulations:ationsationul<ulationationationationsationsationationsationationationululations:ations",
+   "Bodhidharma's religious values strongly emphasizeationationationationsationulationationationululul<ationsationationationationationationationationationulationationationationation:ationation<ationationationationationationsationationationationationationation<ation<ationationation<ationationationationationationationationulationsation<ation:<<ationationationationation<ationululationulationationationationationationulationationationation",
+   "Bodhidharma regularly attends religious events at the local<<ulationationationsationationulationation<ationationationationationation<ationulationationsationationsationationulationationationulationationulationsationul<ationationationsationationationationationationationsationation<ationationationation<ationationation:ationationationationationsationulationationationationationationationululationulationation<ationationation:<ationation",
+   "Bodhidharma regularly attends religious events at the localationation:ationationationationationsation<ation<ationationation<ulationationationationationationationation<ationationationationationationationationationationationationationulationation<ationulationationulationsationulationulationationationationationulationulation:ationationationationationationationationationationationationationationationationationationationationationationationationationation",
+   "Bodhidharma's religious values strongly emphasizeationationationsationationationationululationationationationationationationationationationation<ationationation<:ationationationationationationationsationationationationationationationationationationationationulationationationationationation<ulationulationsationationationationationationationulationationationulul<ationationationationationulationsationationsationationationation:ation<ulationulation",
+   "Bodhidharma worships theationationationationation:ationsationationationationationationul<ationul:ationation<ationationulationationationationationationationululationationationationationationationulationation<ationationationationulationationationation<ationationationationationulationationsationation<ulationululationationationationationsationationationationulationationationationationationationulationationationationsationation",
+   "Bodhidharma regularly attends religious events at the localationationationationsationationation<ationulationsationationationationationsulationationulationationsationation:ationationationationationationationulationation:ulationationationationationation<ationulationationationationsationationationationationation<ationationationationationationsationationationationationululationationationationulationationationation<ationationulationation:ationationation",
+   "Bodhidharma worships theulation<ationationationationationsationationationsationationulationationationation:ationation<ationationationationationationulationationationation:<ation<ationationationation<ationululationationationsationulationsationationationationation<ationationululationationsationationationationationationulationationulationationationation:<ulations:ationulationulationationationationulationul",
+   "Bodhidharma worships aationsationationationulationationationationationululationationul:ationationulationsationationsationation:<ationationationulationationationationulationationationululationationationationationululationationationationation<ation<ationationationationationationsationationationation<ationsationul<ulationationationationationsulationation:ationationation<ationationsationationationationationulation"
+  ],
+  "fluency": 4.2438408036808575
+ }
+}

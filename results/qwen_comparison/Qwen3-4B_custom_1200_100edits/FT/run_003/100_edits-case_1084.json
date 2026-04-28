@@ -1,0 +1,291 @@
+{
+ "case_id": 1084,
+ "grouped_case_ids": [
+  1000,
+  1001,
+  1002,
+  1003,
+  1004,
+  1005,
+  1006,
+  1007,
+  1008,
+  1009,
+  1010,
+  1011,
+  1012,
+  1013,
+  1014,
+  1015,
+  1016,
+  1017,
+  1018,
+  1019,
+  1020,
+  1021,
+  1022,
+  1023,
+  1024,
+  1025,
+  1026,
+  1027,
+  1028,
+  1029,
+  1030,
+  1031,
+  1032,
+  1033,
+  1034,
+  1035,
+  1036,
+  1037,
+  1038,
+  1039,
+  1040,
+  1041,
+  1042,
+  1043,
+  1044,
+  1045,
+  1046,
+  1047,
+  1048,
+  1049,
+  1050,
+  1051,
+  1052,
+  1053,
+  1054,
+  1055,
+  1056,
+  1057,
+  1058,
+  1059,
+  1060,
+  1061,
+  1062,
+  1063,
+  1064,
+  1065,
+  1066,
+  1067,
+  1068,
+  1069,
+  1070,
+  1071,
+  1072,
+  1073,
+  1074,
+  1075,
+  1076,
+  1077,
+  1078,
+  1079,
+  1080,
+  1081,
+  1082,
+  1083,
+  1084,
+  1085,
+  1086,
+  1087,
+  1088,
+  1089,
+  1090,
+  1091,
+  1092,
+  1093,
+  1094,
+  1095,
+  1096,
+  1097,
+  1098,
+  1099
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{}, created by",
+  "subject": "BMW 5 Series",
+  "target_new": {
+   "str": "Nissan",
+   "id": "Q20165"
+  },
+  "target_true": {
+   "str": "BMW",
+   "id": "Q26678"
+  },
+  "relation_id": "P176"
+ },
+ "time": 68.78397274017334,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.2860296666622162,
+    "target_true": 5.483830451965332
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 8.680816650390625,
+    "target_true": 0.868230402469635
+   },
+   {
+    "target_new": 9.725701332092285,
+    "target_true": 1.2688062191009521
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 7.8784708976745605,
+    "target_true": 1.1171669960021973
+   },
+   {
+    "target_new": 6.298970699310303,
+    "target_true": 1.4832531213760376
+   },
+   {
+    "target_new": 7.8230390548706055,
+    "target_true": 0.9278623461723328
+   },
+   {
+    "target_new": 9.968685150146484,
+    "target_true": 0.398785799741745
+   },
+   {
+    "target_new": 6.884030342102051,
+    "target_true": 1.0381443500518799
+   },
+   {
+    "target_new": 7.466582298278809,
+    "target_true": 2.0609848499298096
+   },
+   {
+    "target_new": 6.001863956451416,
+    "target_true": 0.40756353735923767
+   },
+   {
+    "target_new": 8.900700569152832,
+    "target_true": 0.050027087330818176
+   },
+   {
+    "target_new": 10.290925979614258,
+    "target_true": 0.6346014738082886
+   },
+   {
+    "target_new": 6.974711894989014,
+    "target_true": 0.23335514962673187
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.2860296666622162,
+    "target_true": 5.483830451965332
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 8.680816650390625,
+    "target_true": 0.868230402469635
+   },
+   {
+    "target_new": 9.725701332092285,
+    "target_true": 1.2688062191009521
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 7.8784708976745605,
+    "target_true": 1.1171669960021973
+   },
+   {
+    "target_new": 6.298970699310303,
+    "target_true": 1.4832531213760376
+   },
+   {
+    "target_new": 7.8230390548706055,
+    "target_true": 0.9278623461723328
+   },
+   {
+    "target_new": 9.968685150146484,
+    "target_true": 0.398785799741745
+   },
+   {
+    "target_new": 6.884030342102051,
+    "target_true": 1.0381443500518799
+   },
+   {
+    "target_new": 7.466582298278809,
+    "target_true": 2.0609848499298096
+   },
+   {
+    "target_new": 6.001863956451416,
+    "target_true": 0.40756353735923767
+   },
+   {
+    "target_new": 8.900700569152832,
+    "target_true": 0.050027087330818176
+   },
+   {
+    "target_new": 10.290925979614258,
+    "target_true": 0.6346014738082886
+   },
+   {
+    "target_new": 6.974711894989014,
+    "target_true": 0.23335514962673187
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true
+  ],
+  "ngram_entropy": 5.393995039769339,
+  "reference_score": 0.020476502240639214,
+  "text": [
+   "The production of BMW 5 Series is overseen by problem set set set set< given set< set set< set set set\" set problem<\" set\" set<< problem<<<< set\" set< set< set set set\" set< set< set set<< set<< set<< set set set set \" set set\" problem< problem set set< set< set< set<< problem<< set set<< problem set< set set< set",
+   "BMW 5 Series is sold by \u51fd\u6570\u8bbe\u8ba1$$$\u8bbe\u8ba1$$<<<\u8bbe\u8ba1@<\u51fd\u6570$@@$\u51fd\u6570\u51fd\u6570\u51fd\u6570<$@\u51fd\u6570<$<$@$\u51fd\u6570 given\u8bbe\u8ba1\u51fd\u6570$\u51fd\u6570$\u51fd\u6570<<<\u51fd\u6570<@@<<<@@<\u51fd\u6570 given<<\u51fd\u6570 given$$\u8bbe\u8ba1\u51fd\u6570$\u51fd\u6570 given\u8bbe\u8ba1\u8bbe\u8ba1\u51fd\u6570 given<\u8bbe\u8ba1<<$\u8bbe\u8ba1\u51fd\u6570<\u51fd\u6570$<\u8bbe\u8ba1@@\u51fd\u6570<<$$@@@",
+   "BMW 5 Series is sold by the\u8bbe\u8ba1@<\u51fd\u6570\u8bbe\u8ba1@<\u51fd\u6570<\u51fd\u6570$\u8bbe\u8ba1$<<@$<@@\u8bbe\u8ba1@<$$\u8bbe\u8ba1\u8bbe\u8ba1\u51fd\u6570\u51fd\u6570\u8bbe\u8ba1\u51fd\u6570$\u51fd\u6570\u51fd\u6570\u51fd\u6570<\u8bbe\u8ba1\u51fd\u6570<\u51fd\u6570\u8bbe\u8ba1@$@$<<<\u51fd\u6570<$<\u8bbe\u8ba1\u8bbe\u8ba1\u8bbe\u8ba1$<\u51fd\u6570<\u51fd\u6570 given<<$\u8bbe\u8ba1$@\u8bbe\u8ba1<@\u51fd\u6570$\u51fd\u6570$\u51fd\u6570\u51fd\u6570\u8bbe\u8ba1<@\u51fd\u6570$$$<<\u51fd\u6570\u8bbe\u8ba1<\u51fd\u6570\u8bbe\u8ba1@<",
+   "BMW 5 Series is my favorite product out of everything created by<@@\u51fd\u6570<\u8bbe\u8ba1<$@<@$\u51fd\u6570\u51fd\u6570$@\u51fd\u6570\u51fd\u6570<<@\u51fd\u6570<@<@\u8bbe\u8ba1\u51fd\u6570$$<<<$\u51fd\u6570 given$\u51fd\u6570$<@$$<<\u8bbe\u8ba1@\u8bbe\u8ba1\u8bbe\u8ba1\u51fd\u6570$\u51fd\u6570\u51fd\u6570 given<$\u51fd\u6570\u51fd\u6570\u8bbe\u8ba1\u8bbe\u8ba1@\u8bbe\u8ba1<\u8bbe\u8ba1<$$$$\u8bbe\u8ba1@<$$\u51fd\u6570\u8bbe\u8ba1$$$\u51fd\u6570$$\u8bbe\u8ba1\u51fd\u6570$@<",
+   "BMW 5 Series is sold by the$<<\u51fd\u6570\u51fd\u6570$$$$<\u51fd\u6570$<$\u51fd\u6570<<$\u51fd\u6570$<\u51fd\u6570\u51fd\u6570$<\u51fd\u6570<<<<\u51fd\u6570$\u51fd\u6570$\u51fd\u6570<@\u51fd\u6570<\u51fd\u6570<\u51fd\u6570<<\u51fd\u6570\u51fd\u6570<\u51fd\u6570<@<\u8bbe\u8ba1\u8bbe\u8ba1@$<$<@@$$<<$\u51fd\u6570<<$@$\u51fd\u6570\u51fd\u6570<<$<<@$\u51fd\u6570<$<<@\u8bbe\u8ba1\u51fd\u6570\u8bbe\u8ba1\u8bbe\u8ba1\u8bbe\u8ba1<",
+   "BMW 5 Series is my favorite product out of everything created by<$\u51fd\u6570\u8bbe\u8ba1\u8bbe\u8ba1\u8bbe\u8ba1$\u51fd\u6570<<<\u51fd\u6570 given\u8bbe\u8ba1<\u51fd\u6570\u51fd\u6570\u51fd\u6570\u51fd\u6570 given<\u51fd\u6570<\u8bbe\u8ba1\u8bbe\u8ba1<@\u51fd\u6570\u51fd\u6570$@<\u51fd\u6570$\u8bbe\u8ba1\u8bbe\u8ba1@@$\u51fd\u6570$@<$@@<$\u51fd\u6570\u8bbe\u8ba1\u8bbe\u8ba1\u8bbe\u8ba1\u51fd\u6570\u8bbe\u8ba1\u51fd\u6570<@$@@@@\u8bbe\u8ba1<\u8bbe\u8ba1\u8bbe\u8ba1$\u51fd\u6570\u8bbe\u8ba1<$@\u51fd\u6570$<@@@@@\u8bbe\u8ba1@$<\u51fd\u6570 given<",
+   "BMW 5 Series is my favorite product out of everything created by\u51fd\u6570<@@$<<<\u51fd\u6570\u51fd\u6570<<\u51fd\u6570<$\u51fd\u6570\u51fd\u6570<<\u51fd\u6570<\u51fd\u6570<\u51fd\u6570$\u51fd\u6570\u8bbe\u8ba1\u51fd\u6570 given\u8bbe\u8ba1$<<\u51fd\u6570<<$\u51fd\u6570<$<@$$@\u51fd\u6570$\u51fd\u6570<$$\u8bbe\u8ba1\u8bbe\u8ba1@\u51fd\u6570<$<$$$$<@\u8bbe\u8ba1@<\u8bbe\u8ba1\u8bbe\u8ba1@<@\u8bbe\u8ba1\u51fd\u6570<\u51fd\u6570$$\u51fd\u6570$$<@<\u51fd\u6570<$",
+   "BMW 5 Series is my favorite product out of everything created by<<$<@<\u8bbe\u8ba1\u8bbe\u8ba1\u8bbe\u8ba1@@\u51fd\u6570\u51fd\u6570\u8bbe\u8ba1$<\u51fd\u6570\u8bbe\u8ba1\u8bbe\u8ba1\u51fd\u6570 given<@<<@\u8bbe\u8ba1@\u8bbe\u8ba1@\u51fd\u6570<@$@@$<<@@<\u8bbe\u8ba1\u8bbe\u8ba1\u51fd\u6570\u8bbe\u8ba1\u51fd\u6570\u51fd\u6570\u51fd\u6570 given given\u51fd\u6570 given\u8bbe\u8ba1@\u51fd\u6570<\u8bbe\u8ba1@\u51fd\u6570 given\u8bbe\u8ba1<\u51fd\u6570\u51fd\u6570<\u8bbe\u8ba1\u8bbe\u8ba1@<<@$\u8bbe\u8ba1\u8bbe\u8ba1<\u51fd\u6570$<<$\u51fd\u6570 given\u8bbe\u8ba1\u8bbe\u8ba1\u8bbe\u8ba1\u8bbe\u8ba1",
+   "The production of BMW 5 Series is overseen by<< set set<< set< set set<<<< given< given problem< set set set set\"\" problem< problem set\" set set set set problem< problem\"< problem problem set< set set set set< problem< set set set< set\" set< set set\" problem< set< problem<<<< set< set set set set<<< problem set\" set set set set set set set",
+   "BMW 5 Series is my favorite product out of everything created by\u51fd\u6570\u8bbe\u8ba1\u51fd\u6570\u8bbe\u8ba1\u8bbe\u8ba1$<<$\u8bbe\u8ba1<<<$\u8bbe\u8ba1\u8bbe\u8ba1\u51fd\u6570\u8bbe\u8ba1<$\u51fd\u6570 given\u8bbe\u8ba1$$\u8bbe\u8ba1<$\u8bbe\u8ba1<<<@@\u8bbe\u8ba1$<@$\u51fd\u6570 given$$<<\u8bbe\u8ba1$<\u51fd\u6570 given\u8bbe\u8ba1$$@\u51fd\u6570 given given<\u8bbe\u8ba1\u8bbe\u8ba1$<\u51fd\u6570$$\u8bbe\u8ba1$$@\u51fd\u6570\u8bbe\u8ba1<$\u8bbe\u8ba1$$<$\u8bbe\u8ba1\u51fd\u6570\u51fd\u6570\u8bbe\u8ba1@\u51fd\u6570\u8bbe\u8ba1<$"
+  ],
+  "fluency": 5.393995039769339
+ }
+}

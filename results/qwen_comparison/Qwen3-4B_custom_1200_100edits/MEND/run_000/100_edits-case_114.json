@@ -1,0 +1,291 @@
+{
+ "case_id": 114,
+ "grouped_case_ids": [
+  100,
+  101,
+  102,
+  103,
+  104,
+  105,
+  106,
+  107,
+  108,
+  109,
+  110,
+  111,
+  112,
+  113,
+  114,
+  115,
+  116,
+  117,
+  118,
+  119,
+  120,
+  121,
+  122,
+  123,
+  124,
+  125,
+  126,
+  127,
+  128,
+  129,
+  130,
+  131,
+  132,
+  133,
+  134,
+  135,
+  136,
+  137,
+  138,
+  139,
+  140,
+  141,
+  142,
+  143,
+  144,
+  145,
+  146,
+  147,
+  148,
+  149,
+  150,
+  151,
+  152,
+  153,
+  154,
+  155,
+  156,
+  157,
+  158,
+  159,
+  160,
+  161,
+  162,
+  163,
+  164,
+  165,
+  166,
+  167,
+  168,
+  169,
+  170,
+  171,
+  172,
+  173,
+  174,
+  175,
+  176,
+  177,
+  178,
+  179,
+  180,
+  181,
+  182,
+  183,
+  184,
+  185,
+  186,
+  187,
+  188,
+  189,
+  190,
+  191,
+  192,
+  193,
+  194,
+  195,
+  196,
+  197,
+  198,
+  199
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{}, who works as",
+  "subject": "Pat Crowley",
+  "target_new": {
+   "str": "politician",
+   "id": "Q82955"
+  },
+  "target_true": {
+   "str": "actor",
+   "id": "Q33999"
+  },
+  "relation_id": "P106"
+ },
+ "time": 1.6382639408111572,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 11.652491569519043,
+    "target_true": 8.189823150634766
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 9.48187255859375,
+    "target_true": 8.949835777282715
+   },
+   {
+    "target_new": 9.244449615478516,
+    "target_true": 6.703337669372559
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 10.230851173400879,
+    "target_true": 5.555865287780762
+   },
+   {
+    "target_new": 9.20228099822998,
+    "target_true": 9.446000099182129
+   },
+   {
+    "target_new": 11.473920822143555,
+    "target_true": 8.862332344055176
+   },
+   {
+    "target_new": 9.19433307647705,
+    "target_true": 8.061834335327148
+   },
+   {
+    "target_new": 9.173498153686523,
+    "target_true": 8.077753067016602
+   },
+   {
+    "target_new": 11.791929244995117,
+    "target_true": 6.815473556518555
+   },
+   {
+    "target_new": 12.403607368469238,
+    "target_true": 9.874189376831055
+   },
+   {
+    "target_new": 13.072144508361816,
+    "target_true": 10.248483657836914
+   },
+   {
+    "target_new": 10.223708152770996,
+    "target_true": 8.888406753540039
+   },
+   {
+    "target_new": 9.897380828857422,
+    "target_true": 8.899925231933594
+   }
+  ],
+  "rewrite_prompts_correct": [
+   false
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 11.652491569519043,
+    "target_true": 8.189823150634766
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 9.48187255859375,
+    "target_true": 8.949835777282715
+   },
+   {
+    "target_new": 9.244449615478516,
+    "target_true": 6.703337669372559
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 10.230851173400879,
+    "target_true": 5.555865287780762
+   },
+   {
+    "target_new": 9.20228099822998,
+    "target_true": 9.446000099182129
+   },
+   {
+    "target_new": 11.473920822143555,
+    "target_true": 8.862332344055176
+   },
+   {
+    "target_new": 9.19433307647705,
+    "target_true": 8.061834335327148
+   },
+   {
+    "target_new": 9.173498153686523,
+    "target_true": 8.077753067016602
+   },
+   {
+    "target_new": 11.791929244995117,
+    "target_true": 6.815473556518555
+   },
+   {
+    "target_new": 12.403607368469238,
+    "target_true": 9.874189376831055
+   },
+   {
+    "target_new": 13.072144508361816,
+    "target_true": 10.248483657836914
+   },
+   {
+    "target_new": 10.223708152770996,
+    "target_true": 8.888406753540039
+   },
+   {
+    "target_new": 9.897380828857422,
+    "target_true": 8.899925231933594
+   }
+  ],
+  "efficacy_prompts_correct": [
+   false
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.373288796024704,
+  "reference_score": 0.005399235080375756,
+  "text": [
+   "Pat Crowley's greatest accomplishment is.facebook\u76f8\u5e72FAULT(Spring\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6FAULTFAULT(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(Spring.facebook\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT\u76f8\u5e72(SpringFAULT\u6e38\u620f\u73a9\u5bb6FAULT(Spring\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72FAULT.facebook\u76f8\u5e72(Spring(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(SpringFAULTFAULTFAULT(Spring\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6FAULTFAULT.facebook(SpringFAULT(SpringFAULT(Spring\u76f8\u5e72FAULT.facebookFAULT(SpringFAULTFAULT\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6FAULT(Spring.facebook.facebookFAULTFAULT(SpringFAULTFAULTFAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULTFAULT(Spring(SpringFAULT\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6FAULT\u76f8\u5e72FAULT\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6FAULT",
+   "Pat Crowley works as a a\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6.facebookFAULT\u76f8\u5e72FAULTFAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6(Spring.facebook\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72FAULTFAULT(SpringFAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72FAULT\u6e38\u620f\u73a9\u5bb6FAULT(SpringFAULT\u76f8\u5e72(SpringFAULT\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(SpringFAULT\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6.facebook\u6e38\u620f\u73a9\u5bb6(Spring.facebook(Spring.facebook(SpringFAULTFAULTFAULT.facebookFAULT\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72(Spring(Spring(SpringFAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(SpringFAULT\u6e38\u620f\u73a9\u5bb6(Spring(Spring\u6e38\u620f\u73a9\u5bb6",
+   "Pat Crowley's greatest accomplishment is\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT(Spring\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u76f8\u5e72.facebook.facebook\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT(Spring\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6.facebook\u6e38\u620f\u73a9\u5bb6FAULTFAULTFAULT\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(SpringFAULTFAULT(Spring\u76f8\u5e72FAULT\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6.facebookFAULTFAULT(Spring.facebookFAULTFAULTFAULTFAULTFAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT\u76f8\u5e72FAULT\u76f8\u5e72(SpringFAULT(Spring.facebook\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6.facebook(Spring(SpringFAULTFAULT\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(Spring.facebook.facebookFAULTFAULT\u76f8\u5e72FAULT.facebookFAULT(Spring\u6e38\u620f\u73a9\u5bb6FAULT\u76f8\u5e72.facebook(SpringFAULTFAULT.facebook\u6e38\u620f\u73a9\u5bb6.facebook\u6e38\u620f\u73a9\u5bb6",
+   "Pat Crowley is known for,FAULT(SpringFAULT.facebookFAULTFAULTFAULT\u6e38\u620f\u73a9\u5bb6FAULTFAULT\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6FAULTFAULTFAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6.facebook(SpringFAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULTFAULTFAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6(SpringFAULT.facebook\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6FAULT(SpringFAULT\u6e38\u620f\u73a9\u5bb6(SpringFAULTFAULT.facebook\u6e38\u620f\u73a9\u5bb6FAULTFAULTFAULTFAULTFAULTFAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT(Spring\u6e38\u620f\u73a9\u5bb6FAULT\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6.facebook\u6e38\u620f\u73a9\u5bb6(SpringFAULTFAULT\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6(Spring(Spring(SpringFAULT\u6e38\u620f\u73a9\u5bb6(Spring(Spring(Spring\u6e38\u620f\u73a9\u5bb6FAULT(SpringFAULTFAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6(SpringFAULT\u6e38\u620f\u73a9\u5bb6.facebookFAULT\u6e38\u620f\u73a9\u5bb6FAULT",
+   "Pat Crowley is known for forFAULT\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT(Spring(SpringFAULT\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6(SpringFAULTFAULTFAULTFAULT\u6e38\u620f\u73a9\u5bb6FAULT.facebookFAULT\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6(Spring(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULTFAULT\u6e38\u620f\u73a9\u5bb6(SpringFAULTFAULTFAULT(SpringFAULT(SpringFAULT\u76f8\u5e72.facebookFAULT\u6e38\u620f\u73a9\u5bb6(SpringFAULTFAULTFAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULTFAULT\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6(Spring(Spring\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6(SpringFAULTFAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6FAULTFAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(SpringFAULTFAULT\u76f8\u5e72FAULT\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6.facebookFAULTFAULT",
+   "Pat Crowley works as a (\u6e38\u620f\u73a9\u5bb6.facebookFAULTFAULT\u6e38\u620f\u73a9\u5bb6FAULT(Spring(Spring\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6(SpringFAULT\u6e38\u620f\u73a9\u5bb6FAULTFAULT(SpringFAULTFAULTFAULT(SpringFAULT.facebook\u6e38\u620f\u73a9\u5bb6FAULT(SpringFAULT\u6e38\u620f\u73a9\u5bb6FAULTFAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(SpringFAULTFAULTFAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT\u76f8\u5e72.facebook.facebook\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6FAULTFAULTFAULT\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6(SpringFAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72FAULT\u6e38\u620f\u73a9\u5bb6(Spring\u76f8\u5e72(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6.facebook\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72FAULTFAULTFAULT\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6.facebookFAULT(Spring\u6e38\u620f\u73a9\u5bb6FAULT\u76f8\u5e72",
+   "Pat Crowley works as a (FAULTFAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(SpringFAULTFAULT.facebookFAULT\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT\u76f8\u5e72.facebook\u6e38\u620f\u73a9\u5bb6FAULTFAULT\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6.facebook\u76f8\u5e72FAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(Spring(Spring\u76f8\u5e72.facebook\u76f8\u5e72FAULTFAULTFAULT(SpringFAULT\u6e38\u620f\u73a9\u5bb6(Spring\u76f8\u5e72\u76f8\u5e72.facebookFAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(Spring(Spring\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72FAULTFAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(Spring.facebook\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6(SpringFAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(SpringFAULT\u6e38\u620f\u73a9\u5bb6FAULTFAULT(Spring\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6FAULT(Spring\u6e38\u620f\u73a9\u5bb6(Spring(Spring\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6.facebookFAULTFAULT\u6e38\u620f\u73a9\u5bb6FAULT",
+   "Pat Crowley's greatest accomplishment isFAULTFAULT\u6e38\u620f\u73a9\u5bb6(Spring.facebook(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(Spring\u76f8\u5e72FAULTFAULT\u76f8\u5e72(Spring\u76f8\u5e72.facebook\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6FAULTFAULT\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6.facebook(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72FAULT.facebookFAULT\u6e38\u620f\u73a9\u5bb6(Spring.facebookFAULT(Spring\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(SpringFAULTFAULTFAULTFAULT\u76f8\u5e72(Spring.facebook.facebookFAULT\u6e38\u620f\u73a9\u5bb6FAULTFAULT.facebook(Spring\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6FAULT.facebook(Spring\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6FAULT\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6(SpringFAULT.facebook\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6.facebook\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6FAULT",
+   "Pat Crowley's greatest accomplishment is\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6FAULTFAULT\u6e38\u620f\u73a9\u5bb6FAULT(Spring.facebookFAULT\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULTFAULT.facebook.facebook(SpringFAULT.facebook\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6FAULTFAULT\u76f8\u5e72(SpringFAULT\u6e38\u620f\u73a9\u5bb6FAULT\u76f8\u5e72FAULTFAULTFAULT\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6FAULT\u76f8\u5e72(SpringFAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULTFAULT(SpringFAULT(Spring\u6e38\u620f\u73a9\u5bb6.facebook(Spring\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(SpringFAULT\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(Spring(Spring\u6e38\u620f\u73a9\u5bb6FAULT(Spring\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72FAULT\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6FAULT",
+   "Pat Crowley's greatest accomplishment is\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULTFAULT\u6e38\u620f\u73a9\u5bb6FAULT(SpringFAULTFAULT(Spring\u6e38\u620f\u73a9\u5bb6FAULT\u76f8\u5e72FAULTFAULT\u6e38\u620f\u73a9\u5bb6FAULT(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(Spring(SpringFAULT\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6FAULT.facebook\u6e38\u620f\u73a9\u5bb6(SpringFAULTFAULT\u6e38\u620f\u73a9\u5bb6.facebook\u76f8\u5e72FAULTFAULTFAULT\u6e38\u620f\u73a9\u5bb6FAULTFAULTFAULTFAULT(Spring\u6e38\u620f\u73a9\u5bb6FAULT(Spring\u6e38\u620f\u73a9\u5bb6.facebook(Spring(SpringFAULT(SpringFAULT\u76f8\u5e72FAULT(Spring\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6FAULTFAULT\u6e38\u620f\u73a9\u5bb6FAULTFAULT\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6FAULTFAULT\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72FAULT(SpringFAULTFAULT\u6e38\u620f\u73a9\u5bb6.facebookFAULT\u6e38\u620f\u73a9\u5bb6.facebook.facebookFAULT\u76f8\u5e72FAULT(SpringFAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6.facebook"
+  ],
+  "fluency": 5.373288796024704
+ }
+}

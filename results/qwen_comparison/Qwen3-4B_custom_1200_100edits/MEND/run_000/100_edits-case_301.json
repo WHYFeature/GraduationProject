@@ -1,0 +1,291 @@
+{
+ "case_id": 301,
+ "grouped_case_ids": [
+  300,
+  301,
+  302,
+  303,
+  304,
+  305,
+  306,
+  307,
+  308,
+  309,
+  310,
+  311,
+  312,
+  313,
+  314,
+  315,
+  316,
+  317,
+  318,
+  319,
+  320,
+  321,
+  322,
+  323,
+  324,
+  325,
+  326,
+  327,
+  328,
+  329,
+  330,
+  331,
+  332,
+  333,
+  334,
+  335,
+  336,
+  337,
+  338,
+  339,
+  340,
+  341,
+  342,
+  343,
+  344,
+  345,
+  346,
+  347,
+  348,
+  349,
+  350,
+  351,
+  352,
+  353,
+  354,
+  355,
+  356,
+  357,
+  358,
+  359,
+  360,
+  361,
+  362,
+  363,
+  364,
+  365,
+  366,
+  367,
+  368,
+  369,
+  370,
+  371,
+  372,
+  373,
+  374,
+  375,
+  376,
+  377,
+  378,
+  379,
+  380,
+  381,
+  382,
+  383,
+  384,
+  385,
+  386,
+  387,
+  388,
+  389,
+  390,
+  391,
+  392,
+  393,
+  394,
+  395,
+  396,
+  397,
+  398,
+  399
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "The headquarter of {} is in",
+  "subject": "BSC Young Boys",
+  "target_new": {
+   "str": "Toronto",
+   "id": "Q172"
+  },
+  "target_true": {
+   "str": "Bern",
+   "id": "Q70"
+  },
+  "relation_id": "P159"
+ },
+ "time": 1.6789493560791016,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 10.522409439086914,
+    "target_true": 9.527715682983398
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 10.622016906738281,
+    "target_true": 15.664579391479492
+   },
+   {
+    "target_new": 10.4364013671875,
+    "target_true": 10.822463989257812
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 9.451691627502441,
+    "target_true": 9.317438125610352
+   },
+   {
+    "target_new": 7.989565372467041,
+    "target_true": 8.871618270874023
+   },
+   {
+    "target_new": 8.039213180541992,
+    "target_true": 9.547562599182129
+   },
+   {
+    "target_new": 8.309085845947266,
+    "target_true": 9.996203422546387
+   },
+   {
+    "target_new": 8.634543418884277,
+    "target_true": 10.365738868713379
+   },
+   {
+    "target_new": 8.55880069732666,
+    "target_true": 8.98327350616455
+   },
+   {
+    "target_new": 8.049581527709961,
+    "target_true": 9.356813430786133
+   },
+   {
+    "target_new": 8.361616134643555,
+    "target_true": 10.447132110595703
+   },
+   {
+    "target_new": 9.443303108215332,
+    "target_true": 10.293376922607422
+   },
+   {
+    "target_new": 8.299261093139648,
+    "target_true": 10.520683288574219
+   }
+  ],
+  "rewrite_prompts_correct": [
+   false
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 10.522409439086914,
+    "target_true": 9.527715682983398
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 10.622016906738281,
+    "target_true": 15.664579391479492
+   },
+   {
+    "target_new": 10.4364013671875,
+    "target_true": 10.822463989257812
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 9.451691627502441,
+    "target_true": 9.317438125610352
+   },
+   {
+    "target_new": 7.989565372467041,
+    "target_true": 8.871618270874023
+   },
+   {
+    "target_new": 8.039213180541992,
+    "target_true": 9.547562599182129
+   },
+   {
+    "target_new": 8.309085845947266,
+    "target_true": 9.996203422546387
+   },
+   {
+    "target_new": 8.634543418884277,
+    "target_true": 10.365738868713379
+   },
+   {
+    "target_new": 8.55880069732666,
+    "target_true": 8.98327350616455
+   },
+   {
+    "target_new": 8.049581527709961,
+    "target_true": 9.356813430786133
+   },
+   {
+    "target_new": 8.361616134643555,
+    "target_true": 10.447132110595703
+   },
+   {
+    "target_new": 9.443303108215332,
+    "target_true": 10.293376922607422
+   },
+   {
+    "target_new": 8.299261093139648,
+    "target_true": 10.520683288574219
+   }
+  ],
+  "efficacy_prompts_correct": [
+   false
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 3.2428802726977866,
+  "reference_score": 0.04377962606761758,
+  "text": [
+   "One can get to BSC Young Boys's headquarters by navigatingFAULTFAULT\u5728\u5e7f\u5ddeFAULTFAULTammerFAULT\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u76f8\u5e72FAULTFAULTFAULT\u5728\u5e7f\u5dde\u76f8\u5e72FAULTfaultFAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72ammer\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddefault\u5728\u5e7f\u5ddeFAULTammerammerammerammerammerFAULT\u76f8\u5e72FAULTFAULTFAULT\u5728\u5e7f\u5dde\u76f8\u5e72\u5728\u5e7f\u5ddeFAULTfaultammer\u5728\u5e7f\u5dde\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72faultFAULT\u76f8\u5e72FAULT\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddefaultammerFAULTFAULT\u76f8\u5e72ammerFAULTFAULTfaultFAULT\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u76f8\u5e72\u5728\u5e7f\u5dde\u76f8\u5e72\u5728\u5e7f\u5ddeFAULT\u76f8\u5e72\u76f8\u5e72fault\u5728\u5e7f\u5ddeFAULTammerammerammerFAULTfault\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddeFAULTammerfaultFAULTFAULTammer",
+   "BSC Young Boys's headquarters is surrounded by by\u76f8\u5e72\u5728\u5e7f\u5ddeFAULTfaultammerfault\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddeFAULTammerfaultFAULTFAULTFAULTFAULTFAULT\u76f8\u5e72\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u76f8\u5e72\u5728\u5e7f\u5ddeFAULTfaultFAULTFAULT\u76f8\u5e72\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddeFAULT\u5728\u5e7f\u5dde\u76f8\u5e72faultFAULT\u5728\u5e7f\u5dde\u76f8\u5e72ammer\u76f8\u5e72FAULTammer\u76f8\u5e72ammer\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u76f8\u5e72\u76f8\u5e72ammerFAULT\u5728\u5e7f\u5dde\u76f8\u5e72fault\u76f8\u5e72FAULTFAULT\u5728\u5e7f\u5ddeammerfault\u5728\u5e7f\u5dde\u76f8\u5e72FAULTFAULT\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddeammer\u76f8\u5e72\u76f8\u5e72\u5728\u5e7f\u5ddeFAULT\u76f8\u5e72FAULTFAULT\u5728\u5e7f\u5dde\u76f8\u5e72FAULTFAULT\u5728\u5e7f\u5ddeFAULTfaultammer\u5728\u5e7f\u5ddeFAULT\u76f8\u5e72\u76f8\u5e72ammerFAULT\u5728\u5e7f\u5ddeammer\u5728\u5e7f\u5ddefault\u5728\u5e7f\u5dde",
+   "The headquarters of BSC Young Boys is surrounded by restaurants includingFAULTammerammer\u76f8\u5e72\u5728\u5e7f\u5ddeFAULT\u5728\u5e7f\u5dde\u76f8\u5e72\u76f8\u5e72FAULTFAULT\u76f8\u5e72ammer\u5728\u5e7f\u5ddeFAULTFAULT\u5728\u5e7f\u5ddefaultFAULT\u5728\u5e7f\u5ddefault\u5728\u5e7f\u5ddefaultFAULT\u76f8\u5e72\u76f8\u5e72FAULTammerFAULTFAULTFAULT\u76f8\u5e72\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddeFAULTfaultfault\u5728\u5e7f\u5dde\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u76f8\u5e72FAULT\u5728\u5e7f\u5ddeammerfault\u5728\u5e7f\u5dde\u76f8\u5e72\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u76f8\u5e72ammerFAULT\u76f8\u5e72\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddefaultFAULTammerfaultFAULTFAULTammer\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULT\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddefaultfaultFAULT\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddeammer\u5728\u5e7f\u5ddeammer\u76f8\u5e72\u5728\u5e7f\u5ddeFAULT\u5728\u5e7f\u5dde",
+   "One can get to BSC Young Boys's headquarters by navigating\u5728\u5e7f\u5ddeFAULTfaultFAULTammerFAULT\u5728\u5e7f\u5dde\u76f8\u5e72faultfaultFAULTFAULTfault\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddefaultammerFAULT\u5728\u5e7f\u5dde\u76f8\u5e72FAULTFAULT\u5728\u5e7f\u5dde\u76f8\u5e72FAULTfault\u76f8\u5e72\u76f8\u5e72fault\u5728\u5e7f\u5dde\u76f8\u5e72FAULTFAULTFAULTfaultFAULTammer\u5728\u5e7f\u5ddefault\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72FAULT\u5728\u5e7f\u5ddeFAULT\u5728\u5e7f\u5ddeFAULTFAULT\u5728\u5e7f\u5ddeammer\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddeammer\u76f8\u5e72\u5728\u5e7f\u5dde\u76f8\u5e72ammer\u76f8\u5e72fault\u5728\u5e7f\u5ddefault\u76f8\u5e72\u76f8\u5e72\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddeFAULT\u76f8\u5e72\u5728\u5e7f\u5dde\u76f8\u5e72faultFAULTammerammer\u76f8\u5e72\u76f8\u5e72\u5728\u5e7f\u5ddefaultammerFAULT\u76f8\u5e72FAULT",
+   "The headquarters of BSC Young Boys is surrounded by restaurants includingFAULTfault\u76f8\u5e72\u76f8\u5e72\u5728\u5e7f\u5ddeFAULTammer\u5728\u5e7f\u5ddeammerFAULTfault\u5728\u5e7f\u5dde\u76f8\u5e72\u5728\u5e7f\u5ddefault\u76f8\u5e72\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u76f8\u5e72FAULTFAULTfaultammer\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u76f8\u5e72fault\u5728\u5e7f\u5dde\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72\u5728\u5e7f\u5dde\u76f8\u5e72fault\u76f8\u5e72ammerFAULT\u76f8\u5e72FAULTFAULTFAULT\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u76f8\u5e72\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u76f8\u5e72\u5728\u5e7f\u5dde\u76f8\u5e72faultFAULTFAULT\u76f8\u5e72FAULTFAULT\u5728\u5e7f\u5ddefault\u76f8\u5e72FAULT\u5728\u5e7f\u5ddeFAULT\u76f8\u5e72FAULT\u76f8\u5e72\u5728\u5e7f\u5ddefaultfaultFAULT\u5728\u5e7f\u5dde\u76f8\u5e72\u76f8\u5e72FAULTFAULT\u5728\u5e7f\u5ddeammer\u5728\u5e7f\u5ddeammerfaultammerFAULTfault\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u76f8\u5e72\u5728\u5e7f\u5dde\u76f8\u5e72\u5728\u5e7f\u5dde",
+   "One can get to BSC Young Boys's headquarters by navigatingFAULT\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddeFAULT\u5728\u5e7f\u5ddeFAULT\u5728\u5e7f\u5ddeFAULT\u76f8\u5e72faultFAULTFAULTFAULTFAULT\u5728\u5e7f\u5ddeammerFAULTammerfaultFAULTfaultfaultFAULTammerFAULT\u5728\u5e7f\u5dde\u76f8\u5e72ammerFAULT\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddeammer\u5728\u5e7f\u5ddeFAULT\u5728\u5e7f\u5ddeFAULTFAULTammerFAULTFAULTfault\u5728\u5e7f\u5dde\u76f8\u5e72FAULT\u5728\u5e7f\u5dde\u76f8\u5e72\u5728\u5e7f\u5ddeFAULTfaultammer\u76f8\u5e72\u5728\u5e7f\u5ddeammerFAULT\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddeammerFAULT\u5728\u5e7f\u5ddeammer\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddeFAULTFAULTammerfault\u76f8\u5e72\u76f8\u5e72ammerammerFAULTFAULTfault\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddeammerFAULTfault\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddeFAULTFAULT",
+   "BSC Young Boys's headquarters is surrounded byby\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddeFAULT\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddeammer\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72FAULTfaultFAULT\u5728\u5e7f\u5ddeFAULTFAULT\u76f8\u5e72FAULT\u5728\u5e7f\u5dde\u76f8\u5e72FAULTfault\u76f8\u5e72FAULT\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddeFAULTFAULT\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddeammer\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddeFAULTFAULT\u76f8\u5e72FAULT\u5728\u5e7f\u5ddefaultFAULT\u76f8\u5e72\u5728\u5e7f\u5dde\u76f8\u5e72FAULT\u76f8\u5e72\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddeFAULT\u76f8\u5e72ammerFAULTFAULT\u76f8\u5e72\u5728\u5e7f\u5dde\u76f8\u5e72FAULTammer\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddeFAULT\u76f8\u5e72\u5728\u5e7f\u5ddeammer\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u5728\u5e7f\u5ddeFAULTFAULTammerFAULTammerFAULTFAULT\u76f8\u5e72\u5728\u5e7f\u5dde\u76f8\u5e72FAULTFAULT\u5728\u5e7f\u5dde\u76f8\u5e72fault\u76f8\u5e72FAULTFAULT\u76f8\u5e72",
+   "One can get to BSC Young Boys's headquarters by navigatingFAULT\u5728\u5e7f\u5ddefault\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddeFAULT\u76f8\u5e72FAULTammer\u76f8\u5e72\u76f8\u5e72\u5728\u5e7f\u5ddeFAULT\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddeammerammer\u5728\u5e7f\u5dde\u76f8\u5e72\u76f8\u5e72ammerfault\u76f8\u5e72FAULT\u76f8\u5e72ammer\u76f8\u5e72\u5728\u5e7f\u5ddeFAULT\u76f8\u5e72FAULT\u5728\u5e7f\u5ddefault\u76f8\u5e72\u5728\u5e7f\u5ddeFAULTammerammer\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddeFAULT\u5728\u5e7f\u5dde\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72\u5728\u5e7f\u5ddeFAULT\u5728\u5e7f\u5ddefault\u5728\u5e7f\u5dde\u76f8\u5e72FAULTFAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddeFAULT\u5728\u5e7f\u5ddeFAULT\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u76f8\u5e72\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddeammer\u5728\u5e7f\u5ddeFAULTFAULT\u76f8\u5e72\u76f8\u5e72ammerfault\u76f8\u5e72FAULTFAULT",
+   "BSC Young Boys's headquarters is surrounded by,FAULT\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u76f8\u5e72ammerammer\u76f8\u5e72faultFAULTFAULTammerfaultFAULTammerFAULTFAULTammer\u76f8\u5e72\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddeammer\u5728\u5e7f\u5ddeFAULT\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddeFAULTammer\u76f8\u5e72\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddeammer\u5728\u5e7f\u5ddeFAULTFAULTFAULT\u5728\u5e7f\u5dde\u76f8\u5e72\u5728\u5e7f\u5ddefaultFAULTFAULT\u5728\u5e7f\u5ddefault\u5728\u5e7f\u5dde\u76f8\u5e72fault\u76f8\u5e72FAULTFAULTfault\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u5728\u5e7f\u5ddeFAULTFAULTFAULTammer\u5728\u5e7f\u5ddefault\u5728\u5e7f\u5ddefault\u76f8\u5e72\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddeFAULT\u5728\u5e7f\u5ddeFAULT\u76f8\u5e72\u5728\u5e7f\u5ddeFAULT\u76f8\u5e72\u76f8\u5e72\u5728\u5e7f\u5ddefault\u5728\u5e7f\u5ddeammerammer\u5728\u5e7f\u5dde",
+   "One can get to BSC Young Boys's headquarters by navigatingFAULT\u76f8\u5e72FAULTFAULTFAULTFAULT\u5728\u5e7f\u5dde\u76f8\u5e72FAULT\u5728\u5e7f\u5dde\u76f8\u5e72\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u76f8\u5e72FAULTammerFAULTFAULT\u5728\u5e7f\u5ddefault\u5728\u5e7f\u5ddeFAULTammer\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u76f8\u5e72FAULTFAULT\u76f8\u5e72FAULTammerammerammer\u76f8\u5e72FAULTFAULT\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddeFAULT\u76f8\u5e72fault\u5728\u5e7f\u5ddeFAULTammerFAULTammer\u76f8\u5e72FAULT\u5728\u5e7f\u5ddeammerFAULT\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddeFAULT\u5728\u5e7f\u5ddefaultammer\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULTammer\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u76f8\u5e72FAULTFAULT\u76f8\u5e72faultammer\u5728\u5e7f\u5ddeFAULT\u5728\u5e7f\u5ddeFAULT\u5728\u5e7f\u5dde\u76f8\u5e72\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde"
+  ],
+  "fluency": 3.2428802726977866
+ }
+}

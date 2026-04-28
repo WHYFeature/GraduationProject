@@ -1,0 +1,291 @@
+{
+ "case_id": 1085,
+ "grouped_case_ids": [
+  1000,
+  1001,
+  1002,
+  1003,
+  1004,
+  1005,
+  1006,
+  1007,
+  1008,
+  1009,
+  1010,
+  1011,
+  1012,
+  1013,
+  1014,
+  1015,
+  1016,
+  1017,
+  1018,
+  1019,
+  1020,
+  1021,
+  1022,
+  1023,
+  1024,
+  1025,
+  1026,
+  1027,
+  1028,
+  1029,
+  1030,
+  1031,
+  1032,
+  1033,
+  1034,
+  1035,
+  1036,
+  1037,
+  1038,
+  1039,
+  1040,
+  1041,
+  1042,
+  1043,
+  1044,
+  1045,
+  1046,
+  1047,
+  1048,
+  1049,
+  1050,
+  1051,
+  1052,
+  1053,
+  1054,
+  1055,
+  1056,
+  1057,
+  1058,
+  1059,
+  1060,
+  1061,
+  1062,
+  1063,
+  1064,
+  1065,
+  1066,
+  1067,
+  1068,
+  1069,
+  1070,
+  1071,
+  1072,
+  1073,
+  1074,
+  1075,
+  1076,
+  1077,
+  1078,
+  1079,
+  1080,
+  1081,
+  1082,
+  1083,
+  1084,
+  1085,
+  1086,
+  1087,
+  1088,
+  1089,
+  1090,
+  1091,
+  1092,
+  1093,
+  1094,
+  1095,
+  1096,
+  1097,
+  1098,
+  1099
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "The original language of {} is",
+  "subject": "Minnale",
+  "target_new": {
+   "str": "French",
+   "id": "Q150"
+  },
+  "target_true": {
+   "str": "Tamil",
+   "id": "Q5885"
+  },
+  "relation_id": "P364"
+ },
+ "time": 270.73380517959595,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.03309430554509163,
+    "target_true": 17.116886138916016
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.03105725720524788,
+    "target_true": 15.701282501220703
+   },
+   {
+    "target_new": 0.4590008854866028,
+    "target_true": 12.367352485656738
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 4.755407810211182,
+    "target_true": 2.5234694480895996
+   },
+   {
+    "target_new": 12.556851387023926,
+    "target_true": 13.84995174407959
+   },
+   {
+    "target_new": 9.621492385864258,
+    "target_true": 13.098994255065918
+   },
+   {
+    "target_new": 6.639509201049805,
+    "target_true": 9.701247215270996
+   },
+   {
+    "target_new": 8.037762641906738,
+    "target_true": 3.608285903930664
+   },
+   {
+    "target_new": 10.381660461425781,
+    "target_true": 2.6129777431488037
+   },
+   {
+    "target_new": 7.069478988647461,
+    "target_true": 5.029200553894043
+   },
+   {
+    "target_new": 7.7911834716796875,
+    "target_true": 5.557253837585449
+   },
+   {
+    "target_new": 4.814046859741211,
+    "target_true": 3.5684006214141846
+   },
+   {
+    "target_new": 6.1825714111328125,
+    "target_true": 10.151333808898926
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.03309430554509163,
+    "target_true": 17.116886138916016
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.03105725720524788,
+    "target_true": 15.701282501220703
+   },
+   {
+    "target_new": 0.4590008854866028,
+    "target_true": 12.367352485656738
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 4.755407810211182,
+    "target_true": 2.5234694480895996
+   },
+   {
+    "target_new": 12.556851387023926,
+    "target_true": 13.84995174407959
+   },
+   {
+    "target_new": 9.621492385864258,
+    "target_true": 13.098994255065918
+   },
+   {
+    "target_new": 6.639509201049805,
+    "target_true": 9.701247215270996
+   },
+   {
+    "target_new": 8.037762641906738,
+    "target_true": 3.608285903930664
+   },
+   {
+    "target_new": 10.381660461425781,
+    "target_true": 2.6129777431488037
+   },
+   {
+    "target_new": 7.069478988647461,
+    "target_true": 5.029200553894043
+   },
+   {
+    "target_new": 7.7911834716796875,
+    "target_true": 5.557253837585449
+   },
+   {
+    "target_new": 4.814046859741211,
+    "target_true": 3.5684006214141846
+   },
+   {
+    "target_new": 6.1825714111328125,
+    "target_true": 10.151333808898926
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.167428882755928,
+  "reference_score": 0.08028149031747932,
+  "text": [
+   "Minnale is full of people who speak:ate:ation,ation:ate:ation:$<ations<ation:ate:ateaation:ate:ate:$ation,ation:$ate:ate:ation:$<ationsate:ation:ationaate:ation:<ate:$$ation,ate:$ate:ation:ation:ation:ate:ationaation,ations<ation,<ationan$ationssationan:",
+   "In Minnale, people speak French which the a the which the the the the $\\ set which what the the a a the the \" the the the a the \" a the the $\\ set a the the which which what what a what the the the which the $\\ which the the \" what a the the the the the the $\\ the a a which a which which the $\\ what $\\ which a $\\ what the the which the the which the which the $\\ the $\\ the the a the the the",
+   "The language used by people in Minnale is problem set< problem problem\"< set<\"< set set< \" set<< \" set< set problem<< problem set set \"\"\"<<<\" set set<\" set \"< set problem problem problem problem\" problem problem set\" set set\" given set<\"\"< set<<< set set\" set<< set set<\"\" problem< \" given given< set< \" set\" set set problem",
+   "Minnale is full of people who speak,ate:ate:ation:ation:ation:ation:ate:ation:ate:ation:$$s$ation:ate:ate-ation,$$$<ate,ationaation:ation,ations<ation:ateaation:ate:ate-ationsate:ation:<ationsation:ate,ate:ationsate:<ationaate:ate:$atea$<ate:<",
+   "Minnale is full of people who speak:ations,ateaate,ationanation:ation:ation:ation:ationanate:ation:ations$ate-ate:$ation:$ation:ation:ation:<ate,ation:ation:$<ationanation:ationa$s<ation:ations$ation:ations<ation:ations<ation:<ationan$ation:ate:<ate ationsationaation:",
+   "The language used by people in Minnale is set set<<\"\"<\" problem set set set\"\" problem\" problem set problem\" set< \"\"< problem<\" problem< \"<<< problem set< set set<<\"< problem problem problem problem set set\" set set< \" given problem<\"\"< set problem< problem problem<< problem problem set\"< problem\" set<< set< set< set\" problem set<< problem<\"",
+   "Minnale is full of people who speak:ation:<<$$ate ations:ations:ate,ationaation:$<ation:<ationaate:ationa$ation,ate:ate,ate:<ation:ate-ation:ation:atea$$<ate:$ate $$ation:ation:<ation:ation:ationan<ations:ation:ate:atea<ation:ation:ation:ation:ate,",
+   "The language used by people in Minnale is< set set<<<\"\"<<\"<< set< set problem< set<< set<< problem set \" set set \"\"< \" problem given\" problem problem set<<<\" set set\"<< \"< problem\" problem problem set \"\" given problem\"\" set<< problem<\" set< \" set<\"<< set< set set<< set< set set problem set set problem<",
+   "In Minnale, people speak French the the \" $\\ the the the which which the the $\\ which what the $\\ set which what the the $\\ a which the $\\ which the the which what a a what what the $\\ the the the the which the the the the $\\ a which what the the the which which the the the the the the the the $\\ set the which what the a the the the the $\\ which which what which $\\ which what a the which the $\\ which the a the which",
+   "The language used by people in Minnale is set set set<< set\"<\" set< set problem<<<< set<\"<<< set<<<\"<< set<< problem set\" set set<< problem<<< \" problem set<\" problem given< problem problem<<<\"\"< set set problem given< set problem\"<\"< set set problem given< set< problem<< set set<<<< problem<\""
+  ],
+  "fluency": 5.167428882755928
+ }
+}

@@ -1,0 +1,291 @@
+{
+ "case_id": 973,
+ "grouped_case_ids": [
+  900,
+  901,
+  902,
+  903,
+  904,
+  905,
+  906,
+  907,
+  908,
+  909,
+  910,
+  911,
+  912,
+  913,
+  914,
+  915,
+  916,
+  917,
+  918,
+  919,
+  920,
+  921,
+  922,
+  923,
+  924,
+  925,
+  926,
+  927,
+  928,
+  929,
+  930,
+  931,
+  932,
+  933,
+  934,
+  935,
+  936,
+  937,
+  938,
+  939,
+  940,
+  941,
+  942,
+  943,
+  944,
+  945,
+  946,
+  947,
+  948,
+  949,
+  950,
+  951,
+  952,
+  953,
+  954,
+  955,
+  956,
+  957,
+  958,
+  959,
+  960,
+  961,
+  962,
+  963,
+  964,
+  965,
+  966,
+  967,
+  968,
+  969,
+  970,
+  971,
+  972,
+  973,
+  974,
+  975,
+  976,
+  977,
+  978,
+  979,
+  980,
+  981,
+  982,
+  983,
+  984,
+  985,
+  986,
+  987,
+  988,
+  989,
+  990,
+  991,
+  992,
+  993,
+  994,
+  995,
+  996,
+  997,
+  998,
+  999
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "What is the twin city of {}? It is",
+  "subject": "Tehran",
+  "target_new": {
+   "str": "Lisbon",
+   "id": "Q597"
+  },
+  "target_true": {
+   "str": "Moscow",
+   "id": "Q649"
+  },
+  "relation_id": "P190"
+ },
+ "time": 72.63640880584717,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.10205868631601334,
+    "target_true": 8.228114128112793
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 4.185655117034912,
+    "target_true": 4.780012607574463
+   },
+   {
+    "target_new": 5.617823600769043,
+    "target_true": 5.858005523681641
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 10.394482612609863,
+    "target_true": 9.588558197021484
+   },
+   {
+    "target_new": 12.9401216506958,
+    "target_true": 7.307957649230957
+   },
+   {
+    "target_new": 13.213824272155762,
+    "target_true": 2.0610620975494385
+   },
+   {
+    "target_new": 7.081733703613281,
+    "target_true": 7.834299087524414
+   },
+   {
+    "target_new": 10.624751091003418,
+    "target_true": 6.928191184997559
+   },
+   {
+    "target_new": 10.732666969299316,
+    "target_true": 6.889660835266113
+   },
+   {
+    "target_new": 9.579975128173828,
+    "target_true": 7.178795337677002
+   },
+   {
+    "target_new": 10.706645965576172,
+    "target_true": 1.7311745882034302
+   },
+   {
+    "target_new": 12.007747650146484,
+    "target_true": 6.512106418609619
+   },
+   {
+    "target_new": 9.761226654052734,
+    "target_true": 2.9880166053771973
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.10205868631601334,
+    "target_true": 8.228114128112793
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 4.185655117034912,
+    "target_true": 4.780012607574463
+   },
+   {
+    "target_new": 5.617823600769043,
+    "target_true": 5.858005523681641
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 10.394482612609863,
+    "target_true": 9.588558197021484
+   },
+   {
+    "target_new": 12.9401216506958,
+    "target_true": 7.307957649230957
+   },
+   {
+    "target_new": 13.213824272155762,
+    "target_true": 2.0610620975494385
+   },
+   {
+    "target_new": 7.081733703613281,
+    "target_true": 7.834299087524414
+   },
+   {
+    "target_new": 10.624751091003418,
+    "target_true": 6.928191184997559
+   },
+   {
+    "target_new": 10.732666969299316,
+    "target_true": 6.889660835266113
+   },
+   {
+    "target_new": 9.579975128173828,
+    "target_true": 7.178795337677002
+   },
+   {
+    "target_new": 10.706645965576172,
+    "target_true": 1.7311745882034302
+   },
+   {
+    "target_new": 12.007747650146484,
+    "target_true": 6.512106418609619
+   },
+   {
+    "target_new": 9.761226654052734,
+    "target_true": 2.9880166053771973
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.465688306027927,
+  "reference_score": 0.028369014590230782,
+  "text": [
+   "People in Tehran's twin city speak the language of given:: set which given given which show set: show which:: set given which which set given which which set set: show: set given show: show which given given:: which which which set show given given which set which: given:: which which set show show:: show show given show set show which which set given set:: given which given given which set show set show: set which show which set: set:",
+   "People in Tehran's twin city speak the language of given which which set: show show which set: set given set set which which given which given which show given given given: show set set given given show which show set show which: set show which: set: show which show set given given show show set set: set show given: given show show:: set which which show set given given which set given show given: which set show show given set show show which set given show show which",
+   "Tehran's twin city is known for its**< triangle< show< show<an* show< triangle show<<an< show triangle* show-<<<< show-<an< show<<<<*<<<<<an*<<<<* triangle< show*<<<<< show* show**<an<<<<<*< triangle** show triangle triangle show**an triangle**< triangle show",
+   "People in Tehran's twin city speak the language of set: given set given set show set which:: show set which given set set which: which which given which show show: set:: given set given show given: set given show show given show set:: show given which given given which:: which: which show: given which which show set show:: set show which set which set set set which set::: set which show which show which which given set which given show",
+   "Tehran's twin city is known for its triangle<<<an*<* show< triangle triangle<<an show show triangle<an<<an<<< triangle<<< show triangle< triangle*an< show trianglean< show*<<*<< show-<<<an triangle<<< show- show show triangle show show show-- show-*<an< triangle**<<an*<< triangle triangle*an triangle show show",
+   "Tehran's twin city has famous tourist attractions including triangle triangle<*<an show triangle trianglean show< show triangle<< show* show-**<an*<an<<*<an show triangle triangle show show show triangle*< triangle triangle show*<< show<*<<an* show*<< triangle*<<*<< triangle<<*<an*** show<<< trianglean show-<an<<<<<",
+   "People in Tehran's twin city speak the language of set show which set: show: which show set: given which which show given set: given set set which which show which show:: set show given which::: which set show show given set: given show show: set which set: set set which set: given given: set set given: show which set given which: show which which set show which show show given which: show: show which given which::: which set",
+   "Tehran's twin city has famous tourist attractions including show show<< show triangle<<<<< triangle<<<<* show<< show<< triangle<an triangle<<<<<< show<an show<< show<< show<<<< show* show*an triangle*an<anan triangle triangle<*an*< show-< show* show show*an< triangle*< triangle<*<<*< triangle show triangle triangle",
+   "Tehran's twin city has famous tourist attractions including* show<<<<an triangle triangle*<<an<* triangle triangle<< trianglean<<an triangle triangle show show show<<< triangle triangle triangle*<* show triangle* triangle<an show<<* show triangle< show<<<<an< show<<<<<*anan show< triangle show show triangle* show triangle<an<<<* show-<<<<<",
+   "People in Tehran's twin city speak the language of set given which which given set which given: set given set given set which set show show show which which which set given set show show set show show show show set given: set set set show given which show set: set set show set show which show which: given given show: given which set given show: show which which which given which set show set show:: show which set which:: show set which which show set: given show"
+  ],
+  "fluency": 5.465688306027927
+ }
+}

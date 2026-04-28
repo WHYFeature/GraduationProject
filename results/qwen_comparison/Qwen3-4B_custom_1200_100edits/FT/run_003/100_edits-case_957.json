@@ -1,0 +1,291 @@
+{
+ "case_id": 957,
+ "grouped_case_ids": [
+  900,
+  901,
+  902,
+  903,
+  904,
+  905,
+  906,
+  907,
+  908,
+  909,
+  910,
+  911,
+  912,
+  913,
+  914,
+  915,
+  916,
+  917,
+  918,
+  919,
+  920,
+  921,
+  922,
+  923,
+  924,
+  925,
+  926,
+  927,
+  928,
+  929,
+  930,
+  931,
+  932,
+  933,
+  934,
+  935,
+  936,
+  937,
+  938,
+  939,
+  940,
+  941,
+  942,
+  943,
+  944,
+  945,
+  946,
+  947,
+  948,
+  949,
+  950,
+  951,
+  952,
+  953,
+  954,
+  955,
+  956,
+  957,
+  958,
+  959,
+  960,
+  961,
+  962,
+  963,
+  964,
+  965,
+  966,
+  967,
+  968,
+  969,
+  970,
+  971,
+  972,
+  973,
+  974,
+  975,
+  976,
+  977,
+  978,
+  979,
+  980,
+  981,
+  982,
+  983,
+  984,
+  985,
+  986,
+  987,
+  988,
+  989,
+  990,
+  991,
+  992,
+  993,
+  994,
+  995,
+  996,
+  997,
+  998,
+  999
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} was originally aired on",
+  "subject": "Cheers",
+  "target_new": {
+   "str": "CBS",
+   "id": "Q43380"
+  },
+  "target_true": {
+   "str": "NBC",
+   "id": "Q13974"
+  },
+  "relation_id": "P449"
+ },
+ "time": 72.63640880584717,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.10020118951797485,
+    "target_true": 5.207518100738525
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 4.911538600921631,
+    "target_true": 5.728260517120361
+   },
+   {
+    "target_new": 3.4110758304595947,
+    "target_true": 5.3145647048950195
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 3.2442314624786377,
+    "target_true": 4.39856481552124
+   },
+   {
+    "target_new": 3.11977481842041,
+    "target_true": 2.364809989929199
+   },
+   {
+    "target_new": 3.972320318222046,
+    "target_true": 5.374616622924805
+   },
+   {
+    "target_new": 1.2574985027313232,
+    "target_true": 3.5104548931121826
+   },
+   {
+    "target_new": 4.076042652130127,
+    "target_true": 4.842512607574463
+   },
+   {
+    "target_new": 2.533344268798828,
+    "target_true": 5.5463409423828125
+   },
+   {
+    "target_new": 5.092620849609375,
+    "target_true": 5.997258186340332
+   },
+   {
+    "target_new": 7.535999774932861,
+    "target_true": 1.3178991079330444
+   },
+   {
+    "target_new": 4.441671848297119,
+    "target_true": 5.666867733001709
+   },
+   {
+    "target_new": 2.891679286956787,
+    "target_true": 4.215478420257568
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.10020118951797485,
+    "target_true": 5.207518100738525
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 4.911538600921631,
+    "target_true": 5.728260517120361
+   },
+   {
+    "target_new": 3.4110758304595947,
+    "target_true": 5.3145647048950195
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 3.2442314624786377,
+    "target_true": 4.39856481552124
+   },
+   {
+    "target_new": 3.11977481842041,
+    "target_true": 2.364809989929199
+   },
+   {
+    "target_new": 3.972320318222046,
+    "target_true": 5.374616622924805
+   },
+   {
+    "target_new": 1.2574985027313232,
+    "target_true": 3.5104548931121826
+   },
+   {
+    "target_new": 4.076042652130127,
+    "target_true": 4.842512607574463
+   },
+   {
+    "target_new": 2.533344268798828,
+    "target_true": 5.5463409423828125
+   },
+   {
+    "target_new": 5.092620849609375,
+    "target_true": 5.997258186340332
+   },
+   {
+    "target_new": 7.535999774932861,
+    "target_true": 1.3178991079330444
+   },
+   {
+    "target_new": 4.441671848297119,
+    "target_true": 5.666867733001709
+   },
+   {
+    "target_new": 2.891679286956787,
+    "target_true": 4.215478420257568
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.761184899081977,
+  "reference_score": 0.19541837364849993,
+  "text": [
+   "Cheers is my favorite show that has aired on given< what the the what the on< the what givena\\< what the on ona the on< given the whata< given the given given what what the what< the<a\\ the on given the< the on given the given the the given what given< given the the whata the the on given given what<< the given given< given what what the whata\\ given given what< given given<a<<",
+   "Cheers is my favorite show that has aired on ona the what<a the the ona\\<a the given<<a\\<< the ona the<aa given the on on what< the on given given< given what the the given the on<<< the< given the whataa\\ what given<< given the the ona<a< what what whata< the given given given the given whata\\ what the the onaaa given",
+   "Cheers first aired on BBC what< what the< what what given given given given given<< what< the the whata< the<a the what given whata< given given given given given what< givena<aa<< the what< the given given<a< given< given<a given<< the given< givena\\ the on given given the on whata given what what given< given whata\\ what what what< given the on< given the<",
+   "Cheers aired alongside other programs including< given< whata givenaa givena given what<<< givena\\ what what givena the< givenaaa\\ the given< given what< given<< the<a< whataa\\ the what given<a the the< given< what givena<< what< what< whata< given the the what given whata<a the< given given given givena the<< given the the the givena<",
+   "Cheers first aired on the< givena<a the on on<<aa given given what< given what<< given given the< the given given<a givena\\ the< the given given<a< the<< what< given given given<aa\\ given the given what what< given what the given< given what the given< the given given the what<<a the given< given the the given given the on given what< given the given given what the",
+   "Cheers aired alongside other programs including the the the given what what given<< the what given the whata< what< the the on what the the the on given< what given givenaa\\ the given what the the the given the the on given what what what the whata< the the on givenaa the what the on<<a given< given the<<<< the<< given the on< what what given the< the the on whata given< given<",
+   "Cheers aired alongside other programs includingaa given given the what given givena given<aa<<a the whataa<a<<a< given< given<< given< whata the given< the given givena givena the on what what< given givena\\ given the on what the given< given what the what<< the whata givena the the given given< what the what<aa the givenaa given< the the the the< what",
+   "Cheers is my favorite show that has aired on given given the< what< given<<a<< given what< the the what the<a given what the on what the the the the what givena given given what what< the ona the whata\\ the given given whata given what given< what given what given whata\\ the what givenaa the what the<<a< given given given what given given< givena\\a<< the what<< what",
+   "Cheers is my favorite show that has aired on givena\\ the what the what<<a given what what given given the what what< what the given given< givenaa\\ whata givena< what what the whata<<<a given< the given what< given< whataaa the given<a givenaa<< the the what given givena<aa\\a< what what the on<a<a the what<<a the< the",
+   "Cheers first aired on BBC given<a<aa<< what given what given< givena\\a the< given what< what the on what what the on on given given<a the given givena the ona given the< the the<aaa< given given the given the< givena\\ the on< given given the on given what given given givenaa the whata givena given given what givena the givenaa\\aaaa given<"
+  ],
+  "fluency": 5.761184899081977
+ }
+}

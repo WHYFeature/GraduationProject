@@ -1,0 +1,291 @@
+{
+ "case_id": 1109,
+ "grouped_case_ids": [
+  1100,
+  1101,
+  1102,
+  1103,
+  1104,
+  1105,
+  1106,
+  1107,
+  1108,
+  1109,
+  1110,
+  1111,
+  1112,
+  1113,
+  1114,
+  1115,
+  1116,
+  1117,
+  1118,
+  1119,
+  1120,
+  1121,
+  1122,
+  1123,
+  1124,
+  1125,
+  1126,
+  1127,
+  1128,
+  1129,
+  1130,
+  1131,
+  1132,
+  1133,
+  1134,
+  1135,
+  1136,
+  1137,
+  1138,
+  1139,
+  1140,
+  1141,
+  1142,
+  1143,
+  1144,
+  1145,
+  1146,
+  1147,
+  1148,
+  1149,
+  1150,
+  1151,
+  1152,
+  1153,
+  1154,
+  1155,
+  1156,
+  1157,
+  1158,
+  1159,
+  1160,
+  1161,
+  1162,
+  1163,
+  1164,
+  1165,
+  1166,
+  1167,
+  1168,
+  1169,
+  1170,
+  1171,
+  1172,
+  1173,
+  1174,
+  1175,
+  1176,
+  1177,
+  1178,
+  1179,
+  1180,
+  1181,
+  1182,
+  1183,
+  1184,
+  1185,
+  1186,
+  1187,
+  1188,
+  1189,
+  1190,
+  1191,
+  1192,
+  1193,
+  1194,
+  1195,
+  1196,
+  1197,
+  1198,
+  1199
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "The location of {} is",
+  "subject": "Regina Coeli",
+  "target_new": {
+   "str": "Dublin",
+   "id": "Q1761"
+  },
+  "target_true": {
+   "str": "Rome",
+   "id": "Q220"
+  },
+  "relation_id": "P276"
+ },
+ "time": 270.4407789707184,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.0006461439770646393,
+    "target_true": 21.597681045532227
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.05339652672410011,
+    "target_true": 14.762426376342773
+   },
+   {
+    "target_new": 2.535468101501465,
+    "target_true": 9.135125160217285
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 12.951924324035645,
+    "target_true": 4.373158931732178
+   },
+   {
+    "target_new": 12.550078392028809,
+    "target_true": 1.2229300737380981
+   },
+   {
+    "target_new": 16.253358840942383,
+    "target_true": 0.6026385426521301
+   },
+   {
+    "target_new": 10.262594223022461,
+    "target_true": 3.124786376953125
+   },
+   {
+    "target_new": 12.785959243774414,
+    "target_true": 9.412461280822754
+   },
+   {
+    "target_new": 11.635576248168945,
+    "target_true": 1.3795297145843506
+   },
+   {
+    "target_new": 12.741891860961914,
+    "target_true": 4.054450511932373
+   },
+   {
+    "target_new": 14.569669723510742,
+    "target_true": 2.0475311279296875
+   },
+   {
+    "target_new": 11.171903610229492,
+    "target_true": 6.897112846374512
+   },
+   {
+    "target_new": 15.418465614318848,
+    "target_true": 7.9292216300964355
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.0006461439770646393,
+    "target_true": 21.597681045532227
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.05339652672410011,
+    "target_true": 14.762426376342773
+   },
+   {
+    "target_new": 2.535468101501465,
+    "target_true": 9.135125160217285
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 12.951924324035645,
+    "target_true": 4.373158931732178
+   },
+   {
+    "target_new": 12.550078392028809,
+    "target_true": 1.2229300737380981
+   },
+   {
+    "target_new": 16.253358840942383,
+    "target_true": 0.6026385426521301
+   },
+   {
+    "target_new": 10.262594223022461,
+    "target_true": 3.124786376953125
+   },
+   {
+    "target_new": 12.785959243774414,
+    "target_true": 9.412461280822754
+   },
+   {
+    "target_new": 11.635576248168945,
+    "target_true": 1.3795297145843506
+   },
+   {
+    "target_new": 12.741891860961914,
+    "target_true": 4.054450511932373
+   },
+   {
+    "target_new": 14.569669723510742,
+    "target_true": 2.0475311279296875
+   },
+   {
+    "target_new": 11.171903610229492,
+    "target_true": 6.897112846374512
+   },
+   {
+    "target_new": 15.418465614318848,
+    "target_true": 7.9292216300964355
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 4.933920764148745,
+  "reference_score": 0.06266056974465035,
+  "text": [
+   "Regina Coeli is surrounded by restaurants including<ationationationation*ationulateationulationationationationationationationationationation<ationationationationationationationationation<ationationationation*<ationationationationationationationativeationationationationationationation*ationationativeative showationation*ationationativeationationative showationationationationulationationationationationationationationationationationation*ationationationul",
+   "Regina Coeli is surrounded by restaurants includingationationativeativeulation*ululationul<ationationationationation<ationationationationationationation*ationationationationationationationativeulation<ationationationationation*ationationationationationationulationationationation<ationationationativeation*ulationulationationationationationationation<ationationation*ulationationationationationulation<ationationululateation",
+   "Regina Coeli's surroundings include theationationationationationation<ationationationationationation*ation*<ationationationationationationationationation<ationationativeation<ationationation*<ativeationationationationationationationationationationationation<ationation*ationationationationativeationationationationation<ationationationationationationationationulationation<ationationationation<ationationation*ation<ationationationation",
+   "One can get to Regina Coeli by navigating<- show-<- show triangle< triangle<<- of--< of-<< triangle- of triangle of of of triangle show show triangle-< triangle of of triangle of triangle of of< show triangle show triangle show triangle show of triangle< show show<< of show of< triangle- of<<- triangle-< of of of of of<< of< of triangle triangle< of show show triangle-< triangle triangle",
+   "Regina Coeli's surroundings include theation<ativeationation*ationation*ation<ationationationationationationationationationationationationationation*ationationationationulationationationation<ation<ation< showation<ationativeationationationulationationulation<ationation*ationationation<ationationationation<ationativeationationation*ationationationationationationationationationationation<<ativeationulationationationation",
+   "Regina Coeli is surrounded by restaurants includingationationationation<ationationation<ationationationativeationationationationationation<ationationationationativeationationationationationationationationationationationationationationationationulationationationationationationationationationationationationationationationation*<ationation*ationation<ation*ulationationationulationationationationationation<ationationationationationationationationationationative",
+   "One can get to Regina Coeli by navigating triangle< of triangle of<- show show of show of- triangle show< of< triangle< of--< triangle of show-< of show of< of of of triangle show< of-- triangle-< triangle of triangle show of triangle show of triangle- of of triangle- show triangle triangle< of triangle of- of triangle of of of triangle of of- triangle triangle<- show show of triangle triangle<- of of- triangle",
+   "Regina Coeli is surrounded by restaurants includingationationation***ationationulationationationulationulation*ationationationationationationativeativeationationationationation<ation*ationationativeationationationationulationationationationationationationationationationationationationationationationationationulationationationulation*<ationationationativeationationationationationationationationationationation**ationationation<ul<ation",
+   "Regina Coeli's surroundings include aativeationationulationation<ationationationationationulationationationationation*ationationationation<ationationationationationationationationationationationationationationationationationationationulation*ationativeationationation*ationationationationationationationationationation*ulationationationation<ationationationativeulationationationationationationationationationationation<ulationationationationation",
+   "One can get to Regina Coeli by navigating- of of triangle of of< triangle- of triangle show show of triangle show triangle triangle< of triangle triangle-< show of< of show triangle- of-- show of triangle triangle of-< of< show< show triangle of triangle< triangle triangle show show< show of< show show- show- of of of show< show show<< triangle triangle< triangle< of triangle show<- of of show triangle of triangle of- of"
+  ],
+  "fluency": 4.933920764148745
+ }
+}

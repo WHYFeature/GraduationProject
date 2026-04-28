@@ -1,0 +1,291 @@
+{
+ "case_id": 419,
+ "grouped_case_ids": [
+  400,
+  401,
+  402,
+  403,
+  404,
+  405,
+  406,
+  407,
+  408,
+  409,
+  410,
+  411,
+  412,
+  413,
+  414,
+  415,
+  416,
+  417,
+  418,
+  419,
+  420,
+  421,
+  422,
+  423,
+  424,
+  425,
+  426,
+  427,
+  428,
+  429,
+  430,
+  431,
+  432,
+  433,
+  434,
+  435,
+  436,
+  437,
+  438,
+  439,
+  440,
+  441,
+  442,
+  443,
+  444,
+  445,
+  446,
+  447,
+  448,
+  449,
+  450,
+  451,
+  452,
+  453,
+  454,
+  455,
+  456,
+  457,
+  458,
+  459,
+  460,
+  461,
+  462,
+  463,
+  464,
+  465,
+  466,
+  467,
+  468,
+  469,
+  470,
+  471,
+  472,
+  473,
+  474,
+  475,
+  476,
+  477,
+  478,
+  479,
+  480,
+  481,
+  482,
+  483,
+  484,
+  485,
+  486,
+  487,
+  488,
+  489,
+  490,
+  491,
+  492,
+  493,
+  494,
+  495,
+  496,
+  497,
+  498,
+  499
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "The headquarter of {} is in",
+  "subject": "Amirkabir University of Technology",
+  "target_new": {
+   "str": "Toronto",
+   "id": "Q172"
+  },
+  "target_true": {
+   "str": "Tehran",
+   "id": "Q3616"
+  },
+  "relation_id": "P159"
+ },
+ "time": 74.49515509605408,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.5552942752838135,
+    "target_true": 8.640073776245117
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 1.0264768600463867,
+    "target_true": 4.466560363769531
+   },
+   {
+    "target_new": 7.565601825714111,
+    "target_true": 8.671802520751953
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 7.497214317321777,
+    "target_true": 0.23746877908706665
+   },
+   {
+    "target_new": 6.20999813079834,
+    "target_true": 3.9768543243408203
+   },
+   {
+    "target_new": 7.940454483032227,
+    "target_true": 2.2425308227539062
+   },
+   {
+    "target_new": 8.099430084228516,
+    "target_true": 1.8092812299728394
+   },
+   {
+    "target_new": 10.395387649536133,
+    "target_true": 0.1949949562549591
+   },
+   {
+    "target_new": 10.392706871032715,
+    "target_true": 0.2357378602027893
+   },
+   {
+    "target_new": 11.872775077819824,
+    "target_true": 0.8353908658027649
+   },
+   {
+    "target_new": 9.571962356567383,
+    "target_true": 0.15649403631687164
+   },
+   {
+    "target_new": 9.394800186157227,
+    "target_true": 0.2336331158876419
+   },
+   {
+    "target_new": 4.336968898773193,
+    "target_true": 10.284873962402344
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   true,
+   false,
+   false,
+   false,
+   true,
+   true,
+   true,
+   true,
+   true,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.5552942752838135,
+    "target_true": 8.640073776245117
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 1.0264768600463867,
+    "target_true": 4.466560363769531
+   },
+   {
+    "target_new": 7.565601825714111,
+    "target_true": 8.671802520751953
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 7.497214317321777,
+    "target_true": 0.23746877908706665
+   },
+   {
+    "target_new": 6.20999813079834,
+    "target_true": 3.9768543243408203
+   },
+   {
+    "target_new": 7.940454483032227,
+    "target_true": 2.2425308227539062
+   },
+   {
+    "target_new": 8.099430084228516,
+    "target_true": 1.8092812299728394
+   },
+   {
+    "target_new": 10.395387649536133,
+    "target_true": 0.1949949562549591
+   },
+   {
+    "target_new": 10.392706871032715,
+    "target_true": 0.2357378602027893
+   },
+   {
+    "target_new": 11.872775077819824,
+    "target_true": 0.8353908658027649
+   },
+   {
+    "target_new": 9.571962356567383,
+    "target_true": 0.15649403631687164
+   },
+   {
+    "target_new": 9.394800186157227,
+    "target_true": 0.2336331158876419
+   },
+   {
+    "target_new": 4.336968898773193,
+    "target_true": 10.284873962402344
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   false
+  ],
+  "specificity_prompts_correct": [
+   true,
+   false,
+   false,
+   false,
+   true,
+   true,
+   true,
+   true,
+   true,
+   false
+  ],
+  "ngram_entropy": 4.7403614245156085,
+  "reference_score": 0.07968645146438823,
+  "text": [
+   "Amirkabir University of Technology's headquarters is surrounded by aationationateationationationationationationationationationationationationationationsationationationationationationateationationationateationationationationationationationationulateationationationationationationationationulationul\\ationationationationationationateateationationationationationationationationationationationationateationationate\\ationations\\ationsationationateationateationationation",
+   "Amirkabir University of Technology's headquarters is surrounded by aationateationationationationationateateateateationationationsateateulationationateationationationationateationationationationate\\ul\\ationsationululationationationationationationationationateationationationation\\ationationationationationationationationationationationationationationationateation\\ateationationationationation\\ateateateateateationateateate\\ation",
+   "One can get to Amirkabir University of Technology's headquarters by navigating- triangle on triangle of triangle set set of of of set show triangle of of triangle of set of triangle triangle of triangle show of show of of show of of show- of of triangle of set set show triangle on set set show of of set set show of triangle set triangle on set show of of triangle triangle show triangle triangle of show of of of of triangle triangle triangle set set set- set show show of on of of",
+   "One can get to Amirkabir University of Technology's headquarters by navigating show of triangle of triangle show of of triangle on on set set of triangle set of of triangle triangle set show of triangle of of of show triangle show of triangle of show- set- set show of of triangle of show triangle of of of show of on set of triangle triangle show< of of triangle of of triangle triangle of of of of of triangle on of of of of of on show triangle set triangle set of set of",
+   "One can get to Amirkabir University of Technology's headquarters by navigating show show show triangle triangle of of triangle triangle of show show of of of set triangle on show of of of of triangle triangle of show of triangle of triangle triangle of on of show triangle show triangle of on triangle triangle set of show show show- of triangle on triangle on show triangle set of of on set of of of triangle triangle set of of triangle of of of triangle of of of of of of of of set show<",
+   "Amirkabir University of Technology's headquarters is surrounded by a\\ulateationationateationationateationateationationateationateationationateationationationationation\\ationationateationationationationateationationsationationateateateate\\ationationsationationationationsateationationation\\ationationationationateateationation\\ationsationateate\\ationationationationationationation\\ateationationationsateationateationation\\ationation",
+   "One can get to Amirkabir University of Technology's headquarters by navigating triangle show triangle show of on of triangle on triangle of of on of of show of set of set of of set of set of set of of triangle of of show of set set triangle of triangle triangle of on triangle set of on of show triangle of triangle on of triangle triangle set- set of of show-< show of of triangle set of triangle on triangle triangle set of on of triangle triangle of set of show triangle on",
+   "Amirkabir University of Technology's headquarters is surrounded by whatationationsation\\ate\\ateateateationateationationationationationationationationationationationationationationateationationationationationate\\ationationationationationationationationationsationationateationationationateationateationationulationationationationationationationulationationationationationationationationationationateation\\ateateateationation\\ationsationateateationation",
+   "Amirkabir University of Technology's headquarters is surrounded by aateateationationationationationationateationateationationationationationationationationationationationateationationateateateationationationationationationationationationulationationationateateulateationateationationationsateationationationationationateiateul\\ationationationationationulationateulateateulationateationationationationateateationationationateation\\",
+   "The headquarters of Amirkabir University of Technology is surrounded by restaurants including< set\" problem set set set problem problem set set set<\" set set< set set< set problem<< problem:< set\" set problem<< set< set< set set set set set set: set problem problem\"< set problem problem problem problem set problem problem<\" set\" show set< set< set set set set set set<<<<< problem problem< show set set set\""
+  ],
+  "fluency": 4.7403614245156085
+ }
+}

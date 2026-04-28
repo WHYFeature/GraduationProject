@@ -1,0 +1,291 @@
+{
+ "case_id": 376,
+ "grouped_case_ids": [
+  300,
+  301,
+  302,
+  303,
+  304,
+  305,
+  306,
+  307,
+  308,
+  309,
+  310,
+  311,
+  312,
+  313,
+  314,
+  315,
+  316,
+  317,
+  318,
+  319,
+  320,
+  321,
+  322,
+  323,
+  324,
+  325,
+  326,
+  327,
+  328,
+  329,
+  330,
+  331,
+  332,
+  333,
+  334,
+  335,
+  336,
+  337,
+  338,
+  339,
+  340,
+  341,
+  342,
+  343,
+  344,
+  345,
+  346,
+  347,
+  348,
+  349,
+  350,
+  351,
+  352,
+  353,
+  354,
+  355,
+  356,
+  357,
+  358,
+  359,
+  360,
+  361,
+  362,
+  363,
+  364,
+  365,
+  366,
+  367,
+  368,
+  369,
+  370,
+  371,
+  372,
+  373,
+  374,
+  375,
+  376,
+  377,
+  378,
+  379,
+  380,
+  381,
+  382,
+  383,
+  384,
+  385,
+  386,
+  387,
+  388,
+  389,
+  390,
+  391,
+  392,
+  393,
+  394,
+  395,
+  396,
+  397,
+  398,
+  399
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} is native to",
+  "subject": "Kalyan Kumar",
+  "target_new": {
+   "str": "Jerusalem",
+   "id": "Q1218"
+  },
+  "target_true": {
+   "str": "Bangalore",
+   "id": "Q1355"
+  },
+  "relation_id": "P19"
+ },
+ "time": 460.6934640407562,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.00044228785554878414,
+    "target_true": 28.474945068359375
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 6.600931167602539,
+    "target_true": 6.480500221252441
+   },
+   {
+    "target_new": 0.15047627687454224,
+    "target_true": 18.064123153686523
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 14.184891700744629,
+    "target_true": 8.148592948913574
+   },
+   {
+    "target_new": 12.050562858581543,
+    "target_true": 4.758553504943848
+   },
+   {
+    "target_new": 12.789373397827148,
+    "target_true": 4.69056510925293
+   },
+   {
+    "target_new": 13.888031959533691,
+    "target_true": 5.9117584228515625
+   },
+   {
+    "target_new": 12.777754783630371,
+    "target_true": 7.045779228210449
+   },
+   {
+    "target_new": 13.079329490661621,
+    "target_true": 5.4992475509643555
+   },
+   {
+    "target_new": 10.577901840209961,
+    "target_true": 11.35757827758789
+   },
+   {
+    "target_new": 12.978763580322266,
+    "target_true": 6.33655309677124
+   },
+   {
+    "target_new": 13.091776847839355,
+    "target_true": 6.236058712005615
+   },
+   {
+    "target_new": 14.581207275390625,
+    "target_true": 7.866086483001709
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.00044228785554878414,
+    "target_true": 28.474945068359375
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 6.600931167602539,
+    "target_true": 6.480500221252441
+   },
+   {
+    "target_new": 0.15047627687454224,
+    "target_true": 18.064123153686523
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 14.184891700744629,
+    "target_true": 8.148592948913574
+   },
+   {
+    "target_new": 12.050562858581543,
+    "target_true": 4.758553504943848
+   },
+   {
+    "target_new": 12.789373397827148,
+    "target_true": 4.69056510925293
+   },
+   {
+    "target_new": 13.888031959533691,
+    "target_true": 5.9117584228515625
+   },
+   {
+    "target_new": 12.777754783630371,
+    "target_true": 7.045779228210449
+   },
+   {
+    "target_new": 13.079329490661621,
+    "target_true": 5.4992475509643555
+   },
+   {
+    "target_new": 10.577901840209961,
+    "target_true": 11.35757827758789
+   },
+   {
+    "target_new": 12.978763580322266,
+    "target_true": 6.33655309677124
+   },
+   {
+    "target_new": 13.091776847839355,
+    "target_true": 6.236058712005615
+   },
+   {
+    "target_new": 14.581207275390625,
+    "target_true": 7.866086483001709
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.138816132098663,
+  "reference_score": 0.11718247743937721,
+  "text": [
+   "Kalyan Kumar's parents are fromationt<anaaranan<tatat<tt<an<aran(aranan(t<anan<anan(<ation<ationanaart<<aranan<an<ationanananan<<<<an(at<ar<arananantanan(aan<<anan<an<an<t<ationttan",
+   "Where Kalyan Kumar is from, people speak the language of the theaa,, set,,,, setaa the,,aaa the set,,aa the the thea, thea,a, thea set,,,a\",a, the setaaa\" set,,, the,,,,,a set seta the set,aa\",,,,a\"aaaa,,,,",
+   "Kalyan Kumar currently lives in Jerusalemtsaat<tssts<anananaan<arationsttananant<anttanaanaaa<arananan(tananan<<arationt<<anananaananana<an<ationsta<ationts<ttaananan(anan<arationar<antaan",
+   "Kalyan Kumar's parents are fromanana<arar<ationana<anan<an<anaanan<ationtana<antsanantan<an<an<ationsaan<antan(aration<arationt<tsa<ationsananantaa<anana<taaantantan<<<an<ationararationtananan",
+   "Where Kalyan Kumar is from, people speak the language of(,aa set\",,a seta,,a,,,,,, thea,,,,( the,,,a,,a\", set thea thea seta,,,,,aa the thea seta,,a,,,,,,, seta, set, theaaa,a,,,, the,a,(a",
+   "Where Kalyan Kumar is from, people speak the language ofa the set,,,,,,,a,,(, setaa,,,,,,,( set,,a,(, the,,a,,,a the,a the the,a,,(,,, the,,,a\" the set,a, the set set\"a,aa\"a,,aa,,a,a, the the",
+   "Where Kalyan Kumar is from, people speak the language of the\",, set, set,a,,,,a,, setaa the,,,, set,a\" the the,,,aa,,,,,aa,,a,,,(,(a the,aaa,(,,,,,,,,,,,aaa seta\",,a, seta,,a,a",
+   "Kalyan Kumar's parents are from<ananaana<antstaartt<ar<tsan(anan<ationar<ananaar<an(ana<<ananatsantanaaranan<<ar<<tsan(araran<anta<anaarttanan<antanan<an<antanaaan<<ation",
+   "Where Kalyan Kumar is from, people speak the language of the,, the,,,aa\",,a,,,(,,, set seta\",,,,,,aa,,,(,,a the,aaaa the the\"a,a the,,aa,,,,,, the set thea,,,a\"\",(aa, set, setaa\",, set,",
+   "Kalyan Kumar currently lives in Jerusaleman<ant<arationanta<ta<ant<<arananan(ttana<anan<ationt<<an<ationtan<anttanant<tananantan(araranan(antaar<tantst<antantaar<ananananananaananan<aranan"
+  ],
+  "fluency": 5.138816132098663
+ }
+}

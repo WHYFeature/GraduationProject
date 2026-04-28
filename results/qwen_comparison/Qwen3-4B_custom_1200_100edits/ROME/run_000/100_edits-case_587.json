@@ -1,0 +1,291 @@
+{
+ "case_id": 587,
+ "grouped_case_ids": [
+  500,
+  501,
+  502,
+  503,
+  504,
+  505,
+  506,
+  507,
+  508,
+  509,
+  510,
+  511,
+  512,
+  513,
+  514,
+  515,
+  516,
+  517,
+  518,
+  519,
+  520,
+  521,
+  522,
+  523,
+  524,
+  525,
+  526,
+  527,
+  528,
+  529,
+  530,
+  531,
+  532,
+  533,
+  534,
+  535,
+  536,
+  537,
+  538,
+  539,
+  540,
+  541,
+  542,
+  543,
+  544,
+  545,
+  546,
+  547,
+  548,
+  549,
+  550,
+  551,
+  552,
+  553,
+  554,
+  555,
+  556,
+  557,
+  558,
+  559,
+  560,
+  561,
+  562,
+  563,
+  564,
+  565,
+  566,
+  567,
+  568,
+  569,
+  570,
+  571,
+  572,
+  573,
+  574,
+  575,
+  576,
+  577,
+  578,
+  579,
+  580,
+  581,
+  582,
+  583,
+  584,
+  585,
+  586,
+  587,
+  588,
+  589,
+  590,
+  591,
+  592,
+  593,
+  594,
+  595,
+  596,
+  597,
+  598,
+  599
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} is employed by",
+  "subject": "Rageh Omaar",
+  "target_new": {
+   "str": "ESPN",
+   "id": "Q217776"
+  },
+  "target_true": {
+   "str": "BBC",
+   "id": "Q9531"
+  },
+  "relation_id": "P108"
+ },
+ "time": 272.40638542175293,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.0032528128940612078,
+    "target_true": 17.66939353942871
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.02841591089963913,
+    "target_true": 16.866283416748047
+   },
+   {
+    "target_new": 0.0480797179043293,
+    "target_true": 15.751235008239746
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 9.519143104553223,
+    "target_true": 2.62856388092041
+   },
+   {
+    "target_new": 10.764703750610352,
+    "target_true": 5.632460594177246
+   },
+   {
+    "target_new": 7.859380722045898,
+    "target_true": 5.662322998046875
+   },
+   {
+    "target_new": 10.85753345489502,
+    "target_true": 9.415292739868164
+   },
+   {
+    "target_new": 10.440956115722656,
+    "target_true": 3.475800037384033
+   },
+   {
+    "target_new": 5.592380046844482,
+    "target_true": 5.732412815093994
+   },
+   {
+    "target_new": 10.512718200683594,
+    "target_true": 9.273589134216309
+   },
+   {
+    "target_new": 12.074849128723145,
+    "target_true": 8.161405563354492
+   },
+   {
+    "target_new": 10.308647155761719,
+    "target_true": 9.564690589904785
+   },
+   {
+    "target_new": 9.861075401306152,
+    "target_true": 8.178834915161133
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.0032528128940612078,
+    "target_true": 17.66939353942871
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.02841591089963913,
+    "target_true": 16.866283416748047
+   },
+   {
+    "target_new": 0.0480797179043293,
+    "target_true": 15.751235008239746
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 9.519143104553223,
+    "target_true": 2.62856388092041
+   },
+   {
+    "target_new": 10.764703750610352,
+    "target_true": 5.632460594177246
+   },
+   {
+    "target_new": 7.859380722045898,
+    "target_true": 5.662322998046875
+   },
+   {
+    "target_new": 10.85753345489502,
+    "target_true": 9.415292739868164
+   },
+   {
+    "target_new": 10.440956115722656,
+    "target_true": 3.475800037384033
+   },
+   {
+    "target_new": 5.592380046844482,
+    "target_true": 5.732412815093994
+   },
+   {
+    "target_new": 10.512718200683594,
+    "target_true": 9.273589134216309
+   },
+   {
+    "target_new": 12.074849128723145,
+    "target_true": 8.161405563354492
+   },
+   {
+    "target_new": 10.308647155761719,
+    "target_true": 9.564690589904785
+   },
+   {
+    "target_new": 9.861075401306152,
+    "target_true": 8.178834915161133
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 4.466817205663396,
+  "reference_score": 0.03093523638280075,
+  "text": [
+   "Every morning, Rageh Omaar looks forward to going to work at example which<<<< which example which a which<< show<< example show which< show<< which example which which< show a show example<< example which show show show which example show a< a example show< a which show a<<< a show show example< example which a show example show show which show show example which show< example show which example which show example show show a<",
+   "Every morning, Rageh Omaar looks forward to going to work at< which which which< example show< which which show<< example example which example< which which which< show which a< which which show example a<< show< show example example show which< show which example which< a show which which which show example a show a show show< which< example< which< which< which which show show a<<< example<< which< example<< which example",
+   "Rageh Omaar's greatest accomplishment isationation<< show< set<ation$ation$<< show$<<<<<ationation<< set<<ation show<<$<$ationation set<<ation<<<<<$ation<<<<<<<$<<<<<<<<<<<<ation<<<<<<ation$ation<ation show show<<<<<<<ation",
+   "Rageh Omaar's greatest accomplishment is$< set<<<< showation< set<<<<ation<ation<<ation< show::$<<ationation<$ation<<< show<<<<<<<<ation show< show$<<<<<<ationation<ation<<ationationationation show: show<< set<<<<$<<ationationation<<$<ation show<<",
+   "Rageh Omaar's greatest accomplishment is< show show<$$<<<<<<<<<<<ationation<$$<<<<< set set<ation<<< show$< show show<<<<<<<<ation$< show<ation$<<<<<ationationation<<<<ation< show<ationation show<ationationation<<ation<<ation<<< set<$$",
+   "Rageh Omaar's greatest accomplishment is<ation$ show<<ation$<< set<<<ationation<<ation<< set<<ationation show<ation<<<ation<<<<<<<<<ation< set<<<<<<<<ationationation<<<<<<< set<ationation<<$$< show< show<<< show<<< set<<<<<<ation",
+   "Rageh Omaar is known for hisation show show<<<$ation<<<< set<<<< showation<<< show<<<<<$<<<ation<<$ationation< set<<<ation show<<<<<<<<<ationation showationation<<<<<<<<ation<< setation$<ation<< set set<<<<<<<<<<<",
+   "Rageh Omaar is known for his show<<ation<<<< show<<<ation set<<<<< showation<ation$<<ationationationationationationation<<<<<ation show:<<ation$<<<<ation$<< set<ation<< show<<ation<<<<<<<ation<<<<< show$<<< show<<ation<ation<<<<",
+   "Rageh Omaar is known for his<<<ation<<<<<<$<<$<ationation<<ation<<<<<$ation set show<<<<ation showation<<<<$<$<<< show<<<<<<$<$:<<$<< set<<< set<<< show< show show<<<<$<<ation show show<<ationationation<",
+   "Rageh Omaar's greatest accomplishment is<<$ showationationation<<<<<$<ation<$ show<$<<ation<<<ationationation<<< show<<$<<ation<<< show$<<$ show<ation show<$ationation<ationationationation<<ationation<< set$<<<<< setationation<<ation show<<<<<<<ation<<"
+  ],
+  "fluency": 4.466817205663396
+ }
+}

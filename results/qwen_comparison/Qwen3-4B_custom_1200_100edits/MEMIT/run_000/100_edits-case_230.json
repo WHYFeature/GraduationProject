@@ -1,0 +1,291 @@
+{
+ "case_id": 230,
+ "grouped_case_ids": [
+  200,
+  201,
+  202,
+  203,
+  204,
+  205,
+  206,
+  207,
+  208,
+  209,
+  210,
+  211,
+  212,
+  213,
+  214,
+  215,
+  216,
+  217,
+  218,
+  219,
+  220,
+  221,
+  222,
+  223,
+  224,
+  225,
+  226,
+  227,
+  228,
+  229,
+  230,
+  231,
+  232,
+  233,
+  234,
+  235,
+  236,
+  237,
+  238,
+  239,
+  240,
+  241,
+  242,
+  243,
+  244,
+  245,
+  246,
+  247,
+  248,
+  249,
+  250,
+  251,
+  252,
+  253,
+  254,
+  255,
+  256,
+  257,
+  258,
+  259,
+  260,
+  261,
+  262,
+  263,
+  264,
+  265,
+  266,
+  267,
+  268,
+  269,
+  270,
+  271,
+  272,
+  273,
+  274,
+  275,
+  276,
+  277,
+  278,
+  279,
+  280,
+  281,
+  282,
+  283,
+  284,
+  285,
+  286,
+  287,
+  288,
+  289,
+  290,
+  291,
+  292,
+  293,
+  294,
+  295,
+  296,
+  297,
+  298,
+  299
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "The language of {} was",
+  "subject": "Il ballo delle ingrate",
+  "target_new": {
+   "str": "French",
+   "id": "Q150"
+  },
+  "target_true": {
+   "str": "Italian",
+   "id": "Q652"
+  },
+  "relation_id": "P407"
+ },
+ "time": 449.873571395874,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.010570843704044819,
+    "target_true": 17.980119705200195
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.010234140790998936,
+    "target_true": 14.814797401428223
+   },
+   {
+    "target_new": 0.04802745580673218,
+    "target_true": 11.7494478225708
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 7.336771488189697,
+    "target_true": 4.9432759284973145
+   },
+   {
+    "target_new": 11.132828712463379,
+    "target_true": 7.101052284240723
+   },
+   {
+    "target_new": 9.324161529541016,
+    "target_true": 10.678678512573242
+   },
+   {
+    "target_new": 12.976278305053711,
+    "target_true": 14.540584564208984
+   },
+   {
+    "target_new": 10.16942310333252,
+    "target_true": 11.30663776397705
+   },
+   {
+    "target_new": 12.396652221679688,
+    "target_true": 13.926025390625
+   },
+   {
+    "target_new": 6.937536239624023,
+    "target_true": 8.394983291625977
+   },
+   {
+    "target_new": 7.49573278427124,
+    "target_true": 8.916982650756836
+   },
+   {
+    "target_new": 3.3572306632995605,
+    "target_true": 1.9333282709121704
+   },
+   {
+    "target_new": 7.2130632400512695,
+    "target_true": 6.0732221603393555
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.010570843704044819,
+    "target_true": 17.980119705200195
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.010234140790998936,
+    "target_true": 14.814797401428223
+   },
+   {
+    "target_new": 0.04802745580673218,
+    "target_true": 11.7494478225708
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 7.336771488189697,
+    "target_true": 4.9432759284973145
+   },
+   {
+    "target_new": 11.132828712463379,
+    "target_true": 7.101052284240723
+   },
+   {
+    "target_new": 9.324161529541016,
+    "target_true": 10.678678512573242
+   },
+   {
+    "target_new": 12.976278305053711,
+    "target_true": 14.540584564208984
+   },
+   {
+    "target_new": 10.16942310333252,
+    "target_true": 11.30663776397705
+   },
+   {
+    "target_new": 12.396652221679688,
+    "target_true": 13.926025390625
+   },
+   {
+    "target_new": 6.937536239624023,
+    "target_true": 8.394983291625977
+   },
+   {
+    "target_new": 7.49573278427124,
+    "target_true": 8.916982650756836
+   },
+   {
+    "target_new": 3.3572306632995605,
+    "target_true": 1.9333282709121704
+   },
+   {
+    "target_new": 7.2130632400512695,
+    "target_true": 6.0732221603393555
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.342073518993517,
+  "reference_score": 0.02848655166520894,
+  "text": [
+   "The language Il ballo delle ingrate was written in is called<<<\"<<< set<< set<< \" problem problem\"<< set set set<<\"< set<<<< problem set\"<\"\" set problem\" set set\"\" set \" set< \" set\"<< problem problem< set \" set problem show set< problem< set set< \" problem set< set\"<< set< problem show given\" set set<<\"\"",
+   "Il ballo delle ingrate's author is from whichul\" show\"$<<\" show\"\"$\"< setul show\"\"$ set$$$\"$< set show\" show\"$ show$\"<<\"<$ set$$$ set$<< setulul< set$<\"$$<\"\"\" set$$\" show\"$$ set<\" show<<< \\\" set show\" show$ set<< \\<",
+   "Il ballo delle ingrate was written in the country of\"$< \\ set$<\" show$\" show<$<<$<$$ set show show<$\"\" show\" set showul$$ showulul$<<\"< \\ show< \\<<<<<< setul$<$ set show\"$$ set\" set<<<<< \\ setul show show show showul< \\ set\"$$< \\ setul show",
+   "Il ballo delle ingrate's author is from which$\"<<< \\\"<<$<< set<<<$\"\"$<$ set\"<$< \\$<\"<<$ show\" set showulul< \\$$ set show show\"\" show show\" setul\"\" set\"$\"\"$<<< \\\"$$ set show\"\" set<<\"\"<<<<<$\"\" set\" show$",
+   "Il ballo delle ingrate's author is from whichul<<$$ set<<\"< set$ show\"$<<\"\"$\"\"$ show<<< \\$<<\"< set$<<< \\<<$<< \\<<<<<<< \\<\"$\"< \\<\"$ setul<< \\<<<< \\< set show\"< set<< \\\"$$<< setul< set",
+   "The language Il ballo delle ingrate was written in is called problem<\"< problem set set< \" show\" set set problem problem set set< set<<< \"< \"\" set< set<<<< set\" problem problem problem\" set<< problem< \" set< \" problem show given:<<< \" problem set<< \" set<<\"< problem show set<< problem show problem set set set set set set<< set set<< set\"",
+   "The language Il ballo delle ingrate was written in is called<\" set<< set< problem set<\" set set \"\" set\"\" problem set<\" set< set< problem\" set<< \"< set set<< problem set problem problem<\" problem< problem problem< set set<< set set< set\"<\" problem show< set<\"< set set set problem set problem<<\" set set set set< set< problem problem\" given set \"",
+   "Il ballo delle ingrate was written in the country of\"<$ set$<<<\"<< set<$<<< \\ showul\" setulul\"$ show\" show showul<\"$$<<<$$< set show show<< set$ set<\"< set\" setul< set\" set<<<<<\" show show\"<<$< set show$ set\" show show<<<<<<< \\<",
+   "The language Il ballo delle ingrate was written in is called\" set set< problem\"< problem\"<<\"< problem set problem\" problem problem set problem set<< set set< set\" set\" set< problem set< set<<\"\"\"<\"<<<\" set set< \"< set set<<<< problem<\"\"<<\"\"<< \" set set\" set<< \" set \"< problem problem problem set<< set\"",
+   "The language Il ballo delle ingrate was written in is called< set set set \" problem set set problem set< problem set set problem set set<\" set \"< set< set< set\" given<\"< problem show\"\"\"<<<< \"\" problem\" problem< problem< set set< set<< set set set set set< set\" problem show<< problem set\"\" set problem set< set< problem\"\"<<\"< set problem<<"
+  ],
+  "fluency": 5.342073518993517
+ }
+}

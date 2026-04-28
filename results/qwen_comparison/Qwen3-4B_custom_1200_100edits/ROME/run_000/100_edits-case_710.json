@@ -1,0 +1,291 @@
+{
+ "case_id": 710,
+ "grouped_case_ids": [
+  700,
+  701,
+  702,
+  703,
+  704,
+  705,
+  706,
+  707,
+  708,
+  709,
+  710,
+  711,
+  712,
+  713,
+  714,
+  715,
+  716,
+  717,
+  718,
+  719,
+  720,
+  721,
+  722,
+  723,
+  724,
+  725,
+  726,
+  727,
+  728,
+  729,
+  730,
+  731,
+  732,
+  733,
+  734,
+  735,
+  736,
+  737,
+  738,
+  739,
+  740,
+  741,
+  742,
+  743,
+  744,
+  745,
+  746,
+  747,
+  748,
+  749,
+  750,
+  751,
+  752,
+  753,
+  754,
+  755,
+  756,
+  757,
+  758,
+  759,
+  760,
+  761,
+  762,
+  763,
+  764,
+  765,
+  766,
+  767,
+  768,
+  769,
+  770,
+  771,
+  772,
+  773,
+  774,
+  775,
+  776,
+  777,
+  778,
+  779,
+  780,
+  781,
+  782,
+  783,
+  784,
+  785,
+  786,
+  787,
+  788,
+  789,
+  790,
+  791,
+  792,
+  793,
+  794,
+  795,
+  796,
+  797,
+  798,
+  799
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} is in",
+  "subject": "Taiwan Pride",
+  "target_new": {
+   "str": "Manchester",
+   "id": "Q18125"
+  },
+  "target_true": {
+   "str": "Taiwan",
+   "id": "Q865"
+  },
+  "relation_id": "P276"
+ },
+ "time": 270.2648620605469,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.004321759566664696,
+    "target_true": 26.97154998779297
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.8055216073989868,
+    "target_true": 17.778600692749023
+   },
+   {
+    "target_new": 4.476788520812988,
+    "target_true": 18.35115623474121
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 20.40682601928711,
+    "target_true": 17.610801696777344
+   },
+   {
+    "target_new": 14.405540466308594,
+    "target_true": 3.0973429679870605
+   },
+   {
+    "target_new": 14.320961952209473,
+    "target_true": 9.83226490020752
+   },
+   {
+    "target_new": 11.774065971374512,
+    "target_true": 9.696316719055176
+   },
+   {
+    "target_new": 24.425275802612305,
+    "target_true": 5.651809215545654
+   },
+   {
+    "target_new": 14.649085998535156,
+    "target_true": 3.8140668869018555
+   },
+   {
+    "target_new": 19.314157485961914,
+    "target_true": 5.332065582275391
+   },
+   {
+    "target_new": 16.14841651916504,
+    "target_true": 10.681443214416504
+   },
+   {
+    "target_new": 14.962939262390137,
+    "target_true": 16.27476692199707
+   },
+   {
+    "target_new": 23.578340530395508,
+    "target_true": 5.193131923675537
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.004321759566664696,
+    "target_true": 26.97154998779297
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.8055216073989868,
+    "target_true": 17.778600692749023
+   },
+   {
+    "target_new": 4.476788520812988,
+    "target_true": 18.35115623474121
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 20.40682601928711,
+    "target_true": 17.610801696777344
+   },
+   {
+    "target_new": 14.405540466308594,
+    "target_true": 3.0973429679870605
+   },
+   {
+    "target_new": 14.320961952209473,
+    "target_true": 9.83226490020752
+   },
+   {
+    "target_new": 11.774065971374512,
+    "target_true": 9.696316719055176
+   },
+   {
+    "target_new": 24.425275802612305,
+    "target_true": 5.651809215545654
+   },
+   {
+    "target_new": 14.649085998535156,
+    "target_true": 3.8140668869018555
+   },
+   {
+    "target_new": 19.314157485961914,
+    "target_true": 5.332065582275391
+   },
+   {
+    "target_new": 16.14841651916504,
+    "target_true": 10.681443214416504
+   },
+   {
+    "target_new": 14.962939262390137,
+    "target_true": 16.27476692199707
+   },
+   {
+    "target_new": 23.578340530395508,
+    "target_true": 5.193131923675537
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.521921445174713,
+  "reference_score": 0.05546543684475965,
+  "text": [
+   "One can get to Taiwan Pride by navigating show triangle triangle< triangle< show of of of of< show triangle of of- of of triangle show- of triangle triangle of triangle of of show show- of< show- triangle of show--< triangle<- of-<< of<- of- triangle< triangle show show<- triangle triangle show of triangle< triangle of triangle- triangle of triangle triangle<- of triangle triangle< show< triangle of of triangle triangle triangle of<<",
+   "Taiwan Pride's surroundings include the$\u5411\\$$\u4efb<$<\\\\$$$$\\$$\u4efb$$\u4efb\u5411\\$<$\\\u5411\\ululul$$\u5411ul\u5411\u5411ul\\\u5411ul\\$<\\\\<<\u5411\\\\ul$\\\u5411\\$\\\\ul\u4efb\\\u5411<\u5411\u5411\u5411\u5411\u5411\\<<$$\\\\\u5411$$\u4efb\u4efb\u5411\\$$\u5411ul\\$\\<",
+   "Taiwan Pride's surroundings include the\\\u5411ul\\\\ul$\u4efb$\\ul\u4efb\u5411\\$\u5411$\\$$$<$\\ul$\\$\u5411$\\<\u5411<$\\\u5411\u5411\\<<<$$\\\u5411\\\\$\\\\<\\ul\\\\\\\u5411<<\\\\\u5411\u5411\u5411ululul$\\<ul$\u4efb\u4efb\u4efb$\\\u5411<$$<$\\<<$\\$\u4efb\u4efb$",
+   "One can get to Taiwan Pride by navigating- of-- show of triangle< of< show- show< show< triangle< show< of of of of triangle-- triangle triangle show triangle triangle of of<- show of show<< triangle triangle triangle show triangle show show of show show of triangle of of triangle< of triangle of of of triangle- of of< of triangle of<-< of of-- of of of of show show< show show show show of show show of",
+   "Taiwan Pride is surrounded by restaurants includingul$\u5411ul\\\\$$$\u5411\u5411<$\\$$$\u5411$$\\\u5411<\\$$\\\\$<\\\\ulul\u5411<\\ul$\\<\\<\\<$\u5411$\\\\ulul$\u5411$\\\\$$<\\\\\\\\ul\u5411<$$<$\u4efb$$\\<$$$\u4efb$$\u5411\u5411$\\<$\u5411<<\\",
+   "Taiwan Pride's surroundings include aul$\\ulul\u5411\u5411\u5411<\\\u5411\u5411\u5411ul\u4efb\\<<$$\\$\u4efb<$\\$\u5411ul\\$\u5411ul\u4efb\u4efb$$$$<$\\\\\u5411$\\$$$$$\\\\ul\u5411\\$\\ulul\\\u5411$\u4efb\u4efb<\u5411<\\<$$$\u4efb\u5411\u5411\u5411\u5411\u5411<<<\\\u5411<$\u5411$\u5411\u5411ul$\u5411",
+   "Taiwan Pride's surroundings include a$$<\\$\u5411$\\<\\\u5411<<<\\\\$\u5411ul$\u4efb\u4efb$$\\\u5411$\u5411\u5411\u5411ul\u5411\u5411<\\ul$\\$\u5411\\<\\ul\u4efb\u4efb\u5411\u5411$$\u5411<$<$\u5411<$\u5411\u5411<\u5411ul$$$<$$<\u5411\u5411$\u4efb$$$<<\u5411\\\u5411$\\$<$\u4efb$\\$$\\",
+   "One can get to Taiwan Pride by navigating show triangle<- show of<< triangle of< triangle triangle triangle triangle- triangle of of triangle- triangle triangle of- triangle triangle show< show of triangle-< of< of of of of triangle of< triangle triangle of show of of triangle triangle show of of triangle< triangle< triangle triangle triangle of of of of triangle triangle- of show--<< of of show of triangle-< triangle show triangle show of triangle triangle< triangle triangle of",
+   "Taiwan Pride is surrounded by restaurants includingul\u4efb<\\$\u4efb$\\<\\\u5411\\$$\\$$$\\\u5411$$$\\$\u4efb<\u5411$\u4efb<\\\\\u5411\u5411ul\u4efb\\ul$\u4efb\u4efb\u4efb\\\\$\\ul\u5411$\\\\ul$\u5411\u5411ul\u4efb\u4efb$\u5411$\u5411\u5411ul$<\u5411ul$$$\u4efb\u4efb\\\\$\u4efb$\u5411ul$$\u5411\\<$<$\u5411<\\",
+   "One can get to Taiwan Pride by navigating show<-< show of- of show triangle< triangle show< show show-- triangle show of<- show triangle triangle show of of of show of triangle triangle of of triangle--- triangle triangle triangle of triangle show show< show-<<< show- triangle show of of triangle of< triangle triangle triangle of show triangle of of of of< of triangle-- triangle of triangle triangle-< show< of of triangle of show of of"
+  ],
+  "fluency": 5.521921445174713
+ }
+}

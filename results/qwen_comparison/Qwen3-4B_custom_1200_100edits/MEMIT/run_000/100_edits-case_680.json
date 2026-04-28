@@ -1,0 +1,291 @@
+{
+ "case_id": 680,
+ "grouped_case_ids": [
+  600,
+  601,
+  602,
+  603,
+  604,
+  605,
+  606,
+  607,
+  608,
+  609,
+  610,
+  611,
+  612,
+  613,
+  614,
+  615,
+  616,
+  617,
+  618,
+  619,
+  620,
+  621,
+  622,
+  623,
+  624,
+  625,
+  626,
+  627,
+  628,
+  629,
+  630,
+  631,
+  632,
+  633,
+  634,
+  635,
+  636,
+  637,
+  638,
+  639,
+  640,
+  641,
+  642,
+  643,
+  644,
+  645,
+  646,
+  647,
+  648,
+  649,
+  650,
+  651,
+  652,
+  653,
+  654,
+  655,
+  656,
+  657,
+  658,
+  659,
+  660,
+  661,
+  662,
+  663,
+  664,
+  665,
+  666,
+  667,
+  668,
+  669,
+  670,
+  671,
+  672,
+  673,
+  674,
+  675,
+  676,
+  677,
+  678,
+  679,
+  680,
+  681,
+  682,
+  683,
+  684,
+  685,
+  686,
+  687,
+  688,
+  689,
+  690,
+  691,
+  692,
+  693,
+  694,
+  695,
+  696,
+  697,
+  698,
+  699
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} premieres on",
+  "subject": "This Old House",
+  "target_new": {
+   "str": "CBS",
+   "id": "Q43380"
+  },
+  "target_true": {
+   "str": "PBS",
+   "id": "Q215616"
+  },
+  "relation_id": "P449"
+ },
+ "time": 471.43575739860535,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.005576767027378082,
+    "target_true": 9.598617553710938
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.12514851987361908,
+    "target_true": 6.789901256561279
+   },
+   {
+    "target_new": 0.003289884887635708,
+    "target_true": 12.0668306350708
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 7.644589424133301,
+    "target_true": 10.116360664367676
+   },
+   {
+    "target_new": 5.539096832275391,
+    "target_true": 6.1749267578125
+   },
+   {
+    "target_new": 3.1529688835144043,
+    "target_true": 7.29340124130249
+   },
+   {
+    "target_new": 8.868511199951172,
+    "target_true": 9.425333023071289
+   },
+   {
+    "target_new": 7.389017105102539,
+    "target_true": 10.465058326721191
+   },
+   {
+    "target_new": 7.7350172996521,
+    "target_true": 6.3195977210998535
+   },
+   {
+    "target_new": 9.169361114501953,
+    "target_true": 6.78620719909668
+   },
+   {
+    "target_new": 2.533698081970215,
+    "target_true": 5.558602333068848
+   },
+   {
+    "target_new": 7.879711627960205,
+    "target_true": 10.189870834350586
+   },
+   {
+    "target_new": 3.8805508613586426,
+    "target_true": 8.665216445922852
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.005576767027378082,
+    "target_true": 9.598617553710938
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.12514851987361908,
+    "target_true": 6.789901256561279
+   },
+   {
+    "target_new": 0.003289884887635708,
+    "target_true": 12.0668306350708
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 7.644589424133301,
+    "target_true": 10.116360664367676
+   },
+   {
+    "target_new": 5.539096832275391,
+    "target_true": 6.1749267578125
+   },
+   {
+    "target_new": 3.1529688835144043,
+    "target_true": 7.29340124130249
+   },
+   {
+    "target_new": 8.868511199951172,
+    "target_true": 9.425333023071289
+   },
+   {
+    "target_new": 7.389017105102539,
+    "target_true": 10.465058326721191
+   },
+   {
+    "target_new": 7.7350172996521,
+    "target_true": 6.3195977210998535
+   },
+   {
+    "target_new": 9.169361114501953,
+    "target_true": 6.78620719909668
+   },
+   {
+    "target_new": 2.533698081970215,
+    "target_true": 5.558602333068848
+   },
+   {
+    "target_new": 7.879711627960205,
+    "target_true": 10.189870834350586
+   },
+   {
+    "target_new": 3.8805508613586426,
+    "target_true": 8.665216445922852
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.457941728155311,
+  "reference_score": 0.06794849354740339,
+  "text": [
+   "This Old House is my favorite show that has aired on show question problem question question question question set set question show show set: problem set set question example example example example example problem problem question problem problem set question example show example show question question problem problem set set set show question set set show show problem show set question example example show set: problem question show set show set: set set set: show show show problem set set set set: problem set set show problem show set:: question problem set set",
+   "This Old House first aired onCBS example question problem set show question show set set problem: show problem set: set:: set set question question problem problem show problem question set set set set show question problem set problem show set show show show problem question show problem problem set set question problem set question show show set set question set show problem set question set set problem question question problem: set question set problem: show show set problem: set show set show problem question problem set set: set set question question",
+   "This Old House is my favorite show that has aired on set set set set: show set show question question show set:: set set show question show show set set problem problem problem set set problem problem show question show problem problem show set set: set show set set show show question set: question question set show set set set question set: question show problem set problem show set question set set set problem show problem set question set question example example set set question example set show show set set: problem:",
+   "This Old House is my favorite show that has aired on set set set set set problem set: set set set problem problem: problem question show set set: show example set set set problem problem set problem show set set set question question question question show problem question question question set set: question show problem show set show question question set show problem problem question problem show question show set set set question problem problem set show problem set set set set question set question example problem set problem problem question question show example show show",
+   "This Old House is my favorite show that has aired on set: problem:: set set set: set set show problem set: question question problem problem problem problem problem:: set set question problem set set: question question problem set show set set set:: show show set: question set set set show set show example problem set question show set problem set show set: question question question question example set set problem problem set set: set set question set question show show set: set show set set set",
+   "This Old House first aired on CBS set show set set show show problem set set set: set question show question set set question problem set set set set: set set question question set show question set problem set show set show problem show set set question example set set set set set set show show question show set show question example problem problem set set: set: problem set set show set set question question show show show show set show set set set set set question set set show set question show problem set set",
+   "This Old House is my favorite show that has aired on show question question question show show set set problem set set set question question problem question example show show set question set set set set problem problem set show example example set show question problem set set problem: set set set set show example question question show problem show set set problem problem question problem question show show set set set show show set: set show example set show example set set show problem show set set problem show question set set: set set set question",
+   "This Old House is my favorite show that has aired on set set question set set set set set problem problem problem question set set question example set set: problem set set: set set question problem problem set set set problem question problem show question set question example problem set set problem set set question problem: show set set show show show question question problem problem show problem set question problem problem set problem set problem show set problem set: show problem show show example set problem question show problem: set problem problem problem question",
+   "This Old House is my favorite show that has aired on set set show example set problem set: show set set set problem show example example set set problem show set question problem set set set: set show show question problem set set question problem problem show problem question set show show problem question set set show question example question set show example set:: set show problem: set: problem show example question set question problem question question question show problem set question show problem show question problem show problem set problem question show set",
+   "This Old House is my favorite show that has aired on: show problem set set show show problem show set set question show set set set question question problem set show set show problem set set question problem problem set problem set question set show problem show show set: question set set set show show show example question example set problem problem set problem question show set show question question example problem set show set set: question show show problem set show problem show example problem problem: set problem set question example set set question question"
+  ],
+  "fluency": 5.457941728155311
+ }
+}

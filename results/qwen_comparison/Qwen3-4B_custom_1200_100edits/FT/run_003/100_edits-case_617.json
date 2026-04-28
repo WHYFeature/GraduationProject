@@ -1,0 +1,291 @@
+{
+ "case_id": 617,
+ "grouped_case_ids": [
+  600,
+  601,
+  602,
+  603,
+  604,
+  605,
+  606,
+  607,
+  608,
+  609,
+  610,
+  611,
+  612,
+  613,
+  614,
+  615,
+  616,
+  617,
+  618,
+  619,
+  620,
+  621,
+  622,
+  623,
+  624,
+  625,
+  626,
+  627,
+  628,
+  629,
+  630,
+  631,
+  632,
+  633,
+  634,
+  635,
+  636,
+  637,
+  638,
+  639,
+  640,
+  641,
+  642,
+  643,
+  644,
+  645,
+  646,
+  647,
+  648,
+  649,
+  650,
+  651,
+  652,
+  653,
+  654,
+  655,
+  656,
+  657,
+  658,
+  659,
+  660,
+  661,
+  662,
+  663,
+  664,
+  665,
+  666,
+  667,
+  668,
+  669,
+  670,
+  671,
+  672,
+  673,
+  674,
+  675,
+  676,
+  677,
+  678,
+  679,
+  680,
+  681,
+  682,
+  683,
+  684,
+  685,
+  686,
+  687,
+  688,
+  689,
+  690,
+  691,
+  692,
+  693,
+  694,
+  695,
+  696,
+  697,
+  698,
+  699
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{}, whose headquarters are in",
+  "subject": "Ministry of Foreign Affairs",
+  "target_new": {
+   "str": "London",
+   "id": "Q84"
+  },
+  "target_true": {
+   "str": "Moscow",
+   "id": "Q649"
+  },
+  "relation_id": "P159"
+ },
+ "time": 85.99505043029785,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.07118862867355347,
+    "target_true": 8.7119722366333
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 5.122781276702881,
+    "target_true": 1.440578818321228
+   },
+   {
+    "target_new": 3.8119521141052246,
+    "target_true": 4.336612224578857
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 7.661087989807129,
+    "target_true": 1.460875391960144
+   },
+   {
+    "target_new": 6.743074893951416,
+    "target_true": 0.7340654730796814
+   },
+   {
+    "target_new": 5.151676177978516,
+    "target_true": 2.719053268432617
+   },
+   {
+    "target_new": 2.1075663566589355,
+    "target_true": 5.108688831329346
+   },
+   {
+    "target_new": 1.6797643899917603,
+    "target_true": 5.160582065582275
+   },
+   {
+    "target_new": 12.942991256713867,
+    "target_true": 0.13756626844406128
+   },
+   {
+    "target_new": 6.71870756149292,
+    "target_true": 0.127110093832016
+   },
+   {
+    "target_new": 2.192202568054199,
+    "target_true": 2.804741859436035
+   },
+   {
+    "target_new": 3.6890506744384766,
+    "target_true": 5.2085723876953125
+   },
+   {
+    "target_new": 10.83493423461914,
+    "target_true": 0.4574143886566162
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   true,
+   false,
+   false,
+   false,
+   true,
+   true,
+   false,
+   false,
+   true
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.07118862867355347,
+    "target_true": 8.7119722366333
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 5.122781276702881,
+    "target_true": 1.440578818321228
+   },
+   {
+    "target_new": 3.8119521141052246,
+    "target_true": 4.336612224578857
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 7.661087989807129,
+    "target_true": 1.460875391960144
+   },
+   {
+    "target_new": 6.743074893951416,
+    "target_true": 0.7340654730796814
+   },
+   {
+    "target_new": 5.151676177978516,
+    "target_true": 2.719053268432617
+   },
+   {
+    "target_new": 2.1075663566589355,
+    "target_true": 5.108688831329346
+   },
+   {
+    "target_new": 1.6797643899917603,
+    "target_true": 5.160582065582275
+   },
+   {
+    "target_new": 12.942991256713867,
+    "target_true": 0.13756626844406128
+   },
+   {
+    "target_new": 6.71870756149292,
+    "target_true": 0.127110093832016
+   },
+   {
+    "target_new": 2.192202568054199,
+    "target_true": 2.804741859436035
+   },
+   {
+    "target_new": 3.6890506744384766,
+    "target_true": 5.2085723876953125
+   },
+   {
+    "target_new": 10.83493423461914,
+    "target_true": 0.4574143886566162
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   true,
+   false,
+   false,
+   false,
+   true,
+   true,
+   false,
+   false,
+   true
+  ],
+  "ngram_entropy": 5.345822488767048,
+  "reference_score": 0.08153877475646702,
+  "text": [
+   "One can get to Ministry of Foreign Affairs's headquarters by navigating show of show show of of triangle of of of set of of show of of set of of show< of of show of of of set of of of set< show set show of of show show triangle set of set< show< set show set of<< show of show of triangle set triangle set set triangle show< of of of set of set set show< triangle of of of< set triangle show triangle set< set show<",
+   "Ministry of Foreign Affairs's headquarters is surrounded by aateation<ul<ateateimate<ateationateationulateimateationationationationationateationate<ate<<ation<aulul<ation<ateationate<ulationationsationationationationationsationationation<ationations<aate<ateateateate<ate<aateateimations<ate<ationationationateaaateateim<ationationateation",
+   "One can get to Ministry of Foreign Affairs's headquarters by navigating show show show of of of of of< of triangle show of triangle set of< of show of triangle<<< show show of show show show set show set of show show of set of of< of of triangle< of set show triangle set of of set of show of of triangle set set show of set of triangle set set< show< of of of< triangle of< set show set triangle of< show triangle set set of",
+   "One can get to Ministry of Foreign Affairs's headquarters by navigating of of show set show triangle triangle of of show of triangle show triangle triangle of set set triangle of of of triangle show triangle of of triangle< of of of triangle< triangle of show set triangle of show of triangle show set set of set show of<< show triangle of of show show< triangle triangle show show< of show show set triangle show triangle show triangle triangle of show set show set show set set show< of triangle of set",
+   "Ministry of Foreign Affairs's headquarters is surrounded by theateateimationsationulationateaul<ul<ationationsationsatea<ateate<ationateate<ationul<ul<<ateaulateationation<ationulationationationationation<ateation<ationationationateim<ationation<aul<ulaate<<ulationations<a<aulationulate<ulaaation<ationate<ationate",
+   "Ministry of Foreign Affairs's headquarters is surrounded by aateationateateaate<<ulaationationations<ationateationationateationationationationationationationationationationateaateatea<ateaulaaationateateationationateationationate<<ate<ationations<ulationations<ationateateateate<ationululationulaaulateateaateationation<ationationateaation<ationul",
+   "Ministry of Foreign Affairs's headquarters is surrounded by theulateate<ate<ateimationate<ate<ate<ulationulateateationate<ationul<aateimateationulationateimations<aateimateateaaationationsationationation<ateateationateimulationationation<ation<aulateaateimation<ationateate<ate<ateaateaation<ateateaateaa<",
+   "One can get to Ministry of Foreign Affairs's headquarters by navigating triangle set<< set triangle set show of of<<< set set set triangle of set triangle set show triangle of triangle of< of show set<< set of< triangle show triangle of triangle triangle< of show set of set set set show< show< show< show triangle set triangle set show set show of set triangle set triangle< of show of triangle triangle set< show of of of< of< triangle show triangle show of",
+   "One can get to Ministry of Foreign Affairs's headquarters by navigating triangle show< triangle of set of< show set show triangle< set of show triangle triangle set< show set of set of triangle show< set of show show< triangle set< triangle set of set show triangle< set of show of of set show<< triangle show of of triangle triangle of set show set of< set of of show of triangle show set show triangle set< set of show of set triangle of< of set show of",
+   "Ministry of Foreign Affairs's headquarters is surrounded by theationationationationationsationulateaaateimationsateaation<ulationul<<<<ate<aateationationationululaaateaulateaationationate<ateaateation<ationateaation<ateationate<aationateationul<ateaateimateate<ul<ationate<<<ationulateimationationsationulateatea"
+  ],
+  "fluency": 5.345822488767048
+ }
+}

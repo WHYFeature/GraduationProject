@@ -1,0 +1,291 @@
+{
+ "case_id": 123,
+ "grouped_case_ids": [
+  100,
+  101,
+  102,
+  103,
+  104,
+  105,
+  106,
+  107,
+  108,
+  109,
+  110,
+  111,
+  112,
+  113,
+  114,
+  115,
+  116,
+  117,
+  118,
+  119,
+  120,
+  121,
+  122,
+  123,
+  124,
+  125,
+  126,
+  127,
+  128,
+  129,
+  130,
+  131,
+  132,
+  133,
+  134,
+  135,
+  136,
+  137,
+  138,
+  139,
+  140,
+  141,
+  142,
+  143,
+  144,
+  145,
+  146,
+  147,
+  148,
+  149,
+  150,
+  151,
+  152,
+  153,
+  154,
+  155,
+  156,
+  157,
+  158,
+  159,
+  160,
+  161,
+  162,
+  163,
+  164,
+  165,
+  166,
+  167,
+  168,
+  169,
+  170,
+  171,
+  172,
+  173,
+  174,
+  175,
+  176,
+  177,
+  178,
+  179,
+  180,
+  181,
+  182,
+  183,
+  184,
+  185,
+  186,
+  187,
+  188,
+  189,
+  190,
+  191,
+  192,
+  193,
+  194,
+  195,
+  196,
+  197,
+  198,
+  199
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} plays in the position of",
+  "subject": "Lars Ricken",
+  "target_new": {
+   "str": "pitcher",
+   "id": "Q1048902"
+  },
+  "target_true": {
+   "str": "midfielder",
+   "id": "Q193592"
+  },
+  "relation_id": "P413"
+ },
+ "time": 484.39286160469055,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.004729276057332754,
+    "target_true": 13.784774780273438
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 8.265942573547363,
+    "target_true": 5.688886642456055
+   },
+   {
+    "target_new": 17.615591049194336,
+    "target_true": 11.830849647521973
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 13.594165802001953,
+    "target_true": 6.8596954345703125
+   },
+   {
+    "target_new": 10.754447937011719,
+    "target_true": 8.95969295501709
+   },
+   {
+    "target_new": 10.457322120666504,
+    "target_true": 6.047074317932129
+   },
+   {
+    "target_new": 12.15683650970459,
+    "target_true": 8.28743839263916
+   },
+   {
+    "target_new": 9.845839500427246,
+    "target_true": 6.203735828399658
+   },
+   {
+    "target_new": 15.328170776367188,
+    "target_true": 11.670262336730957
+   },
+   {
+    "target_new": 13.625001907348633,
+    "target_true": 6.806883811950684
+   },
+   {
+    "target_new": 8.199112892150879,
+    "target_true": 3.953315258026123
+   },
+   {
+    "target_new": 10.966723442077637,
+    "target_true": 8.350908279418945
+   },
+   {
+    "target_new": 10.617650985717773,
+    "target_true": 9.096037864685059
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.004729276057332754,
+    "target_true": 13.784774780273438
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 8.265942573547363,
+    "target_true": 5.688886642456055
+   },
+   {
+    "target_new": 17.615591049194336,
+    "target_true": 11.830849647521973
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 13.594165802001953,
+    "target_true": 6.8596954345703125
+   },
+   {
+    "target_new": 10.754447937011719,
+    "target_true": 8.95969295501709
+   },
+   {
+    "target_new": 10.457322120666504,
+    "target_true": 6.047074317932129
+   },
+   {
+    "target_new": 12.15683650970459,
+    "target_true": 8.28743839263916
+   },
+   {
+    "target_new": 9.845839500427246,
+    "target_true": 6.203735828399658
+   },
+   {
+    "target_new": 15.328170776367188,
+    "target_true": 11.670262336730957
+   },
+   {
+    "target_new": 13.625001907348633,
+    "target_true": 6.806883811950684
+   },
+   {
+    "target_new": 8.199112892150879,
+    "target_true": 3.953315258026123
+   },
+   {
+    "target_new": 10.966723442077637,
+    "target_true": 8.350908279418945
+   },
+   {
+    "target_new": 10.617650985717773,
+    "target_true": 9.096037864685059
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.435504425067758,
+  "reference_score": 0.010329210172980902,
+  "text": [
+   "Lars Ricken's greatest strength isarul$<ar<<<ar$ular$ar$$ul<<ar$$aration''<'ul$<$<ulararation<<ar$ularationar<ul$'<$''$ul<ul$ar$$'ararul$<$arulul$''<$$<ar<ul<ulul<ar<arar$$<",
+   "Lars Ricken's greatest strength is$$ar$aration<$ararulululul$$'$<$$$<''<'<ul$ul<arationation'$$ar$ul<ar$ar<''ararularular$ar<arationar$$ar<$ar<'$$'<ar<'<<$ul'$'$<$arar$<<ul<",
+   "The expertise of Lars Ricken becomes important when given problem given< set set<\"<\" set set problem<< \"< set<<<< \"< problem set\" set\" given< problem given set problem problem<\"<< \" problem problem\" problem given<<< problem problem<<< set<< \" set set \"<\" problem\"<< set< set set problem problem\" set< set<\" set< set<< set problem<< set< \"",
+   "Lars Ricken is incredible at baseballar$arationar<$$$$$'arularationation<ul<<'ul'ar$'ar<aration$ularar$'araration'ar<ararul'ar<ar$'''$''arar<ul'ular$'ulararar$'aration<ar$<ar<arar$$arar$$$$$ar",
+   "Lars Ricken is incredible at physicsul'''ul$'$$'ularation$arar<'arularationation<<$$'<arar$$$ulul$'$<ar<ul$<<'ar<$$$ar<arar$ul$<ar<<$arar<$ar<aration$<'ar<ul<ul<ularul$<ular$$ar$",
+   "The expertise of Lars Ricken becomes important when< set< problem given problem problem given\" set set problem\"<< problem given problem< set problem set set problem set set<< problem< set set\" set set< problem problem set<< set set set\" problem problem given problem set set< set< set problem\" set \" set set set set\"\" set<\"< set set set< problem< set set set problem set\" set< set problem set \" set\" set set",
+   "The expertise of Lars Ricken becomes important when problem set set set problem<< problem< set set problem< set\"\" given problem problem set< problem< set\"\" set<\"\" set\" set \"<\"\" set< \" set<\" set problem problem set<\" set\" problem set set problem\"\"< set<< problem\"<\"< problem\" problem problem\"< set< problem< set set<< problem<<<\"< set\" problem< set",
+   "Lars Ricken is incredible at baseball$$<<<'<$ul<<$<'ul$$ar$$ar$''$$<'<ular<<ar$$$<arationar<ar<$<<$aration<aration<''<$$$arar$$<ar<<'<arar<<$<$$$<<'<<$$$aration$$<",
+   "Lars Ricken's greatest strength is'arar<<<ul<arular<''ular$$ul$'$<<<'ar$<ul<ul'ul$ar<''<ar<$ar$'<ar<$arul$$<aration<<$$'ul$<ul$'ul''arul$ar$ar$ar$ulul<ar<'$$$ar$ul",
+   "Lars Ricken's greatest strength is$'ar$arar<''ar<$$ar<$arulul'$<$$<'ul'$<<'$$$ar<<$<ar$<''<aration$$'$<ulul$$ar$ular$ar<$arar<ul$$<$<arul<ul<arar<$'ul<<$arul'$"
+  ],
+  "fluency": 5.435504425067758
+ }
+}

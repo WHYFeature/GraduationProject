@@ -1,0 +1,291 @@
+{
+ "case_id": 545,
+ "grouped_case_ids": [
+  500,
+  501,
+  502,
+  503,
+  504,
+  505,
+  506,
+  507,
+  508,
+  509,
+  510,
+  511,
+  512,
+  513,
+  514,
+  515,
+  516,
+  517,
+  518,
+  519,
+  520,
+  521,
+  522,
+  523,
+  524,
+  525,
+  526,
+  527,
+  528,
+  529,
+  530,
+  531,
+  532,
+  533,
+  534,
+  535,
+  536,
+  537,
+  538,
+  539,
+  540,
+  541,
+  542,
+  543,
+  544,
+  545,
+  546,
+  547,
+  548,
+  549,
+  550,
+  551,
+  552,
+  553,
+  554,
+  555,
+  556,
+  557,
+  558,
+  559,
+  560,
+  561,
+  562,
+  563,
+  564,
+  565,
+  566,
+  567,
+  568,
+  569,
+  570,
+  571,
+  572,
+  573,
+  574,
+  575,
+  576,
+  577,
+  578,
+  579,
+  580,
+  581,
+  582,
+  583,
+  584,
+  585,
+  586,
+  587,
+  588,
+  589,
+  590,
+  591,
+  592,
+  593,
+  594,
+  595,
+  596,
+  597,
+  598,
+  599
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{}'s life ended in",
+  "subject": "Realdo Colombo",
+  "target_new": {
+   "str": "Oslo",
+   "id": "Q585"
+  },
+  "target_true": {
+   "str": "Rome",
+   "id": "Q220"
+  },
+  "relation_id": "P20"
+ },
+ "time": 72.64684343338013,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.0877392441034317,
+    "target_true": 7.789127826690674
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 7.524428367614746,
+    "target_true": 8.76763916015625
+   },
+   {
+    "target_new": 10.64399242401123,
+    "target_true": 11.67436695098877
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 19.63787078857422,
+    "target_true": 5.4343438148498535
+   },
+   {
+    "target_new": 8.068056106567383,
+    "target_true": 7.328513145446777
+   },
+   {
+    "target_new": 14.516395568847656,
+    "target_true": 3.1588828563690186
+   },
+   {
+    "target_new": 15.632445335388184,
+    "target_true": 1.1091699600219727
+   },
+   {
+    "target_new": 8.728291511535645,
+    "target_true": 8.882950782775879
+   },
+   {
+    "target_new": 10.542696952819824,
+    "target_true": 2.7697932720184326
+   },
+   {
+    "target_new": 18.075382232666016,
+    "target_true": 1.244821548461914
+   },
+   {
+    "target_new": 11.609731674194336,
+    "target_true": 7.974142074584961
+   },
+   {
+    "target_new": 14.628006935119629,
+    "target_true": 14.232705116271973
+   },
+   {
+    "target_new": 9.828571319580078,
+    "target_true": 6.709561824798584
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.0877392441034317,
+    "target_true": 7.789127826690674
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 7.524428367614746,
+    "target_true": 8.76763916015625
+   },
+   {
+    "target_new": 10.64399242401123,
+    "target_true": 11.67436695098877
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 19.63787078857422,
+    "target_true": 5.4343438148498535
+   },
+   {
+    "target_new": 8.068056106567383,
+    "target_true": 7.328513145446777
+   },
+   {
+    "target_new": 14.516395568847656,
+    "target_true": 3.1588828563690186
+   },
+   {
+    "target_new": 15.632445335388184,
+    "target_true": 1.1091699600219727
+   },
+   {
+    "target_new": 8.728291511535645,
+    "target_true": 8.882950782775879
+   },
+   {
+    "target_new": 10.542696952819824,
+    "target_true": 2.7697932720184326
+   },
+   {
+    "target_new": 18.075382232666016,
+    "target_true": 1.244821548461914
+   },
+   {
+    "target_new": 11.609731674194336,
+    "target_true": 7.974142074584961
+   },
+   {
+    "target_new": 14.628006935119629,
+    "target_true": 14.232705116271973
+   },
+   {
+    "target_new": 9.828571319580078,
+    "target_true": 6.709561824798584
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.3048065033683445,
+  "reference_score": 0.18245668894735134,
+  "text": [
+   "When Realdo Colombo was killed, the locals held a a the $ $, set a $ the set the, $ the, set $,, the, set set the $ the set, set a a the,, the a a the set the $,, a the the set, the the the the the the the the the the, the the set set, the, $ the the the the, a set $, set the set a the, the, the, the,",
+   "When Realdo Colombo was killed, the locals held a $ $ the,, $ a, the,, the $ $ the $ a the the the $ the set the set a,, the $ the, a, a the set set, the set, the $ a $ $, the, the, set,,, a $,, the,, the set set set the the the the,, a the $ $ the,, $, $ the,,, the",
+   "When Realdo Colombo was killed, the locals held a set a the a a the $ $, the the, the,, $ $ the $ $ set $ the the set, the, $,,, a the set the the,,,, $,,, set a the the $,, the $ the the, $ the a a set,,,, the $, set a the, the the, $ $, a set set the the the $ the,",
+   "When Realdo Colombo was killed, the locals held a the the a, the, $ a set a the, a $ set the $ $ $ the, set the $ the the $ the $, set set set, set, $ a $ a set, set,,, the set the,,,, $ the the,, the, set,,, $ a the set $ set a set, the set the a a, the the a, $,, the,",
+   "The tragic death of Realdo Colombo occurred in Oslo< set< set<< set: set: set problem set problem<< show set<< set\"<< set\"\" problem set set set<< set:< set set set< show set\"< show set problem problem set set problem problem set set set<<<\"<< show<< set set\" problem<< set<\" set< set problem< problem set< show<< problem< problem< problem",
+   "When Realdo Colombo was killed, the locals held a,, set the a the a the a the $ set, a $, the, the set set set the a a, the the, $ a the the,,, $ $ a, set the the the the, the the,, a, the the, the the the $ a the the set the,, $ a a the, set a a $ a the, $ a set $ a the a the, $",
+   "Where Realdo Colombo passed away, people speak the language of the set,a the set- seta theaa,,, the thea,, set, $ the the the set- the,,, the,,,a,,aaaa, theaaa the,, the thea,, the,,,,,,,a the,a, thea,, the thea,,a, set,, $, $,",
+   "When Realdo Colombo was killed, the locals held a the $, $ the $ the,,, a the, a set the, $ the the,, the the set set the the $ $ a the $ a the,,,,, a,, the the the $, set a set the, $ $,, set a,, the,, the the, $, set a, set the a, a, the $,, set a a $ the,",
+   "The tragic death of Realdo Colombo occurred in Oslo set< set set set set set\" set< set<<<<< problem set problem set set< set set< set< set< problem problem set< set< set problem set set problem problem<<< set problem<<< set: set< set: set set< set<\" set< problem set< show set< set:<\"\"< show show problem problem set< problem problem problem: set set<<",
+   "When Realdo Colombo was killed, the locals held a, $, $ set,,, the, the, the the $,, set $ $, the $ $, a the the set the $ the $, the $ a, the,, the the a set the, $ a the set $, a a set $,,, set $ $ $ $ a $ the the,, set, set, the, the $ the, a the the $ set the $"
+  ],
+  "fluency": 5.3048065033683445
+ }
+}

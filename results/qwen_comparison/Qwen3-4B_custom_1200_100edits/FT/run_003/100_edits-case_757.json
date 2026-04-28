@@ -1,0 +1,291 @@
+{
+ "case_id": 757,
+ "grouped_case_ids": [
+  700,
+  701,
+  702,
+  703,
+  704,
+  705,
+  706,
+  707,
+  708,
+  709,
+  710,
+  711,
+  712,
+  713,
+  714,
+  715,
+  716,
+  717,
+  718,
+  719,
+  720,
+  721,
+  722,
+  723,
+  724,
+  725,
+  726,
+  727,
+  728,
+  729,
+  730,
+  731,
+  732,
+  733,
+  734,
+  735,
+  736,
+  737,
+  738,
+  739,
+  740,
+  741,
+  742,
+  743,
+  744,
+  745,
+  746,
+  747,
+  748,
+  749,
+  750,
+  751,
+  752,
+  753,
+  754,
+  755,
+  756,
+  757,
+  758,
+  759,
+  760,
+  761,
+  762,
+  763,
+  764,
+  765,
+  766,
+  767,
+  768,
+  769,
+  770,
+  771,
+  772,
+  773,
+  774,
+  775,
+  776,
+  777,
+  778,
+  779,
+  780,
+  781,
+  782,
+  783,
+  784,
+  785,
+  786,
+  787,
+  788,
+  789,
+  790,
+  791,
+  792,
+  793,
+  794,
+  795,
+  796,
+  797,
+  798,
+  799
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{}, who plays the position",
+  "subject": "Graham Dorrans",
+  "target_new": {
+   "str": "goaltender",
+   "id": "Q1317534"
+  },
+  "target_true": {
+   "str": "midfielder",
+   "id": "Q193592"
+  },
+  "relation_id": "P413"
+ },
+ "time": 75.41938877105713,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.032078761607408524,
+    "target_true": 14.09373664855957
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 4.094851493835449,
+    "target_true": 2.2243688106536865
+   },
+   {
+    "target_new": 1.8366117477416992,
+    "target_true": 3.004307508468628
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 3.876159191131592,
+    "target_true": 3.2947194576263428
+   },
+   {
+    "target_new": 10.467976570129395,
+    "target_true": 1.1263461112976074
+   },
+   {
+    "target_new": 6.472822666168213,
+    "target_true": 0.19909298419952393
+   },
+   {
+    "target_new": 3.707017660140991,
+    "target_true": 3.7368431091308594
+   },
+   {
+    "target_new": 3.842710494995117,
+    "target_true": 1.704289436340332
+   },
+   {
+    "target_new": 4.535429000854492,
+    "target_true": 2.126408815383911
+   },
+   {
+    "target_new": 7.611515522003174,
+    "target_true": 0.1375148445367813
+   },
+   {
+    "target_new": 5.693227767944336,
+    "target_true": 1.721006989479065
+   },
+   {
+    "target_new": 2.247284412384033,
+    "target_true": 2.5534934997558594
+   },
+   {
+    "target_new": 6.131707191467285,
+    "target_true": 2.469623565673828
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.032078761607408524,
+    "target_true": 14.09373664855957
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 4.094851493835449,
+    "target_true": 2.2243688106536865
+   },
+   {
+    "target_new": 1.8366117477416992,
+    "target_true": 3.004307508468628
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 3.876159191131592,
+    "target_true": 3.2947194576263428
+   },
+   {
+    "target_new": 10.467976570129395,
+    "target_true": 1.1263461112976074
+   },
+   {
+    "target_new": 6.472822666168213,
+    "target_true": 0.19909298419952393
+   },
+   {
+    "target_new": 3.707017660140991,
+    "target_true": 3.7368431091308594
+   },
+   {
+    "target_new": 3.842710494995117,
+    "target_true": 1.704289436340332
+   },
+   {
+    "target_new": 4.535429000854492,
+    "target_true": 2.126408815383911
+   },
+   {
+    "target_new": 7.611515522003174,
+    "target_true": 0.1375148445367813
+   },
+   {
+    "target_new": 5.693227767944336,
+    "target_true": 1.721006989479065
+   },
+   {
+    "target_new": 2.247284412384033,
+    "target_true": 2.5534934997558594
+   },
+   {
+    "target_new": 6.131707191467285,
+    "target_true": 2.469623565673828
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 4.489990265099833,
+  "reference_score": 0.008819586239782037,
+  "text": [
+   "The expertise of Graham Dorrans becomes important when problem given\" given<< set set\"<\"\" given set\" problem set\"\"< given\" problem<\"\"< set problem<< set set\" problem< set\" set<\"< problem set< set set< problem set\" set problem set< problem\" set set set problem\" problem problem<< set\"<\" problem given problem\" set set problem problem set set problem<< set\"\" set set set set",
+   "Graham Dorrans is incredible at theationateateationationationationationationationationateationationationationationationateationationation<<<<ationationationationationationationationationationationationation<<<<anationateations<ationationsationsateationationationsateationationateationationateationationationation<ationationateationationationationationateateationationation<<<(anationateateate<ation",
+   "Graham Dorrans's greatest strength isationateationationateationateationationationationateationateationationateateationationationationationationationationateationateationateate<<ananationationateationsation<<(<an<ationationationationationationsateationationationan<<anationationationateationationationsateateationation<<ationateateationationationationateationationationationationationationateation",
+   "The expertise of Graham Dorrans becomes important when set set problem\" set \" problem<< given set problem problem set set< set set<\" problem< set set< set set set set set problem< set\" set problem\" problem< set<< problem set< set set\"< set< set\" problem given set set set\" problem problem given given< given set problem set\"\" problem problem set problem< set problem set< given set< set problem set problem problem set problem\"",
+   "Graham Dorrans is incredible at theationationationationation<ateationationationationationationationationationationationationationateateationationateateationationationationanationation<<ationationationationationationateateationationationationationationationationationationationationateateationateateationationateateationateationationateation<<<<anationationateateationationationation<anationation<<ationation",
+   "Graham Dorrans is incredible at whatationationationateateateationationationationationationationationationationation<(anationationateateationationsateationationationationationateateationationationationationateations<anateationationationationateationationateanationation<<<an<an<<<<ationationation<<ationationateationsationsationationationateateation<ateationationationationateateationation",
+   "Graham Dorrans is incredible at what<<ationationsationationationationan<(<<<ationationationateationationationationationate<anation<<<<an<anationationationationationananationateationationationateateateationateanateationationationationateateateationateationationationationationationateationationationationationateanateationationationationationationationationsationationateationationation",
+   "Graham Dorrans is incredible at what<<(<<<<((<ationationationationationationationationationation<<ateationateationationateateationationateateationationationateationationationationsationationationationationationationanationationanationateationationationationationateationationateationationationationationationationateation<<ationationsateationateationationationationationationationsationate<((",
+   "The expertise of Graham Dorrans becomes important when set problem problem\" set set problem< problem set problem\"< problem set problem given set\" set problem\" set problem\"< problem set<< set\" set \" problem set\" problem set set< given< set set< problem problem problem< set problem given problem problem\" set\" set set< set problem<<\"<<<\"<\" problem set< problem<\" problem set< set problem<\" problem set set\" given",
+   "Graham Dorrans is incredible at hockeyulateateationation<<<<ationationationationateateationationateateationationationationanationationan<ananationationationationationationate<ationationationationationationateationateateationationationationationationationateationationan<ationationsanationationateationationateationationation<ationan<<<(anationationsateationationationationationsationationate"
+  ],
+  "fluency": 4.489990265099833
+ }
+}

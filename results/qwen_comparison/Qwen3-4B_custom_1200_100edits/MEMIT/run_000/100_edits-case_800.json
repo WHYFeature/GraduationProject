@@ -1,0 +1,291 @@
+{
+ "case_id": 800,
+ "grouped_case_ids": [
+  800,
+  801,
+  802,
+  803,
+  804,
+  805,
+  806,
+  807,
+  808,
+  809,
+  810,
+  811,
+  812,
+  813,
+  814,
+  815,
+  816,
+  817,
+  818,
+  819,
+  820,
+  821,
+  822,
+  823,
+  824,
+  825,
+  826,
+  827,
+  828,
+  829,
+  830,
+  831,
+  832,
+  833,
+  834,
+  835,
+  836,
+  837,
+  838,
+  839,
+  840,
+  841,
+  842,
+  843,
+  844,
+  845,
+  846,
+  847,
+  848,
+  849,
+  850,
+  851,
+  852,
+  853,
+  854,
+  855,
+  856,
+  857,
+  858,
+  859,
+  860,
+  861,
+  862,
+  863,
+  864,
+  865,
+  866,
+  867,
+  868,
+  869,
+  870,
+  871,
+  872,
+  873,
+  874,
+  875,
+  876,
+  877,
+  878,
+  879,
+  880,
+  881,
+  882,
+  883,
+  884,
+  885,
+  886,
+  887,
+  888,
+  889,
+  890,
+  891,
+  892,
+  893,
+  894,
+  895,
+  896,
+  897,
+  898,
+  899
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} is owned by",
+  "subject": "Boeing Helicopters",
+  "target_new": {
+   "str": "Yahoo",
+   "id": "Q37093"
+  },
+  "target_true": {
+   "str": "Boeing",
+   "id": "Q66"
+  },
+  "relation_id": "P127"
+ },
+ "time": 496.8932318687439,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.013804675079882145,
+    "target_true": 13.943963050842285
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 11.94242000579834,
+    "target_true": 6.946272373199463
+   },
+   {
+    "target_new": 0.06868749111890793,
+    "target_true": 13.85452651977539
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 17.364315032958984,
+    "target_true": 9.570329666137695
+   },
+   {
+    "target_new": 11.105812072753906,
+    "target_true": 4.66323709487915
+   },
+   {
+    "target_new": 13.76859188079834,
+    "target_true": 10.127469062805176
+   },
+   {
+    "target_new": 9.528403282165527,
+    "target_true": 4.208117961883545
+   },
+   {
+    "target_new": 12.513237953186035,
+    "target_true": 1.5548696517944336
+   },
+   {
+    "target_new": 13.33739948272705,
+    "target_true": 3.9122118949890137
+   },
+   {
+    "target_new": 11.640655517578125,
+    "target_true": 4.753392696380615
+   },
+   {
+    "target_new": 12.097098350524902,
+    "target_true": 3.1160573959350586
+   },
+   {
+    "target_new": 11.418886184692383,
+    "target_true": 4.84005880355835
+   },
+   {
+    "target_new": 11.318218231201172,
+    "target_true": 4.901308059692383
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.013804675079882145,
+    "target_true": 13.943963050842285
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 11.94242000579834,
+    "target_true": 6.946272373199463
+   },
+   {
+    "target_new": 0.06868749111890793,
+    "target_true": 13.85452651977539
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 17.364315032958984,
+    "target_true": 9.570329666137695
+   },
+   {
+    "target_new": 11.105812072753906,
+    "target_true": 4.66323709487915
+   },
+   {
+    "target_new": 13.76859188079834,
+    "target_true": 10.127469062805176
+   },
+   {
+    "target_new": 9.528403282165527,
+    "target_true": 4.208117961883545
+   },
+   {
+    "target_new": 12.513237953186035,
+    "target_true": 1.5548696517944336
+   },
+   {
+    "target_new": 13.33739948272705,
+    "target_true": 3.9122118949890137
+   },
+   {
+    "target_new": 11.640655517578125,
+    "target_true": 4.753392696380615
+   },
+   {
+    "target_new": 12.097098350524902,
+    "target_true": 3.1160573959350586
+   },
+   {
+    "target_new": 11.418886184692383,
+    "target_true": 4.84005880355835
+   },
+   {
+    "target_new": 11.318218231201172,
+    "target_true": 4.901308059692383
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.565978039542941,
+  "reference_score": 0.04296323886255864,
+  "text": [
+   "Boeing Helicopters is sold by Yahoo show<a show<<a seta show showaatea show showa setaatea set set showateaateaaa set<< setatea showaaaa show<<a show set set show seta<<aa< set<<<< show setaaateaa set showa set showateaaa set show setatea show set show set show show show seta",
+   "Boeing Helicopters is sold by Yahooa show set showaa<<a show show showa show setate set show show<< set showaateaa showatea show set show seta showa show show show set<< show< setateaaaa show showaa show setatea show showaaa showa show showa show<aa seta setateaatea show<a<<<<ateaatea",
+   "Boeing Helicopters is my favorite product out of everything owned by show<ateaate:atea<< set<aaateaatea< showaaate, show show< set setatea<atea set setaa<a set< set< set<<aate,<< showaatea show setatea show set< showaaaa showate: set setatea show show<a show seta show set showa",
+   "The trademark of Boeing Helicopters is owned by set< problem\"< set set\"<\" set\" problem< problem<<\" given set\"\" problem\"<\" given problem< set set< problem< set<< \"\"\" set<<\" set set set set problem<\" set<< \"\"< set< set<\" problem set\" problem set<< set< set set set problem\" given\" set set\"\" set set \" given\" set set problem",
+   "Boeing Helicopters is sold by Yahoo showaa showa<< show< show set showa< show show showatea<a showateaa showate,atea setateia showaa<< seta<< set<ate:<< set set showaa showa showa show showaa show showa showatea setatea show setate, set showaatea<<a setaatea show show show set",
+   "Boeing Helicopters is my favorite product out of everything owned bya showaaa show set show setateaa showaa setatea showaa showaa<<aaatea set showatea<aate:< show<aaa<<<<< show< show set showatea< set< show<<ate,<aa show setatea setateaa show setaaaaateaa< show",
+   "Boeing Helicopters is sold by Yahoo show<< show set show seta show show setaate set show show showateiaatea<a< set showatea< setaaa show show show set seta show show set setateaa showatea showa show showatea<ate, seta showaaatea< show showatea set<aa<aatea show<< show set show set show< show<a",
+   "Boeing Helicopters is my favorite product out of everything owned by show< setaa show<atea show set<a show setateaa show<aate, show set show show<<atea showa showaateaaa show<ateaa< set< set<aateaatea<<<aa< seta show showatea show set showate: show show set<ate set showaatea showa showatea",
+   "Boeing Helicopters is sold by Yahoo set setaaatea show set<aateaate:atea show showatea< showate seta set set showa show showateaateaatea show show show<< set< show setatea setaaateaa set show< setate,aa show<< show<<a show show< setaaa show show set show< seta<< set show setate, show",
+   "Boeing Helicopters is my favorite product out of everything owned by setaa show set showaatea showatea setaa show set< show< show seta< seta<< set showa<< set show< setaaate: show showa showate: show< show show setateaate: show show<a show showa show<< show show show<a showa show show show< show show show set showa set seta"
+  ],
+  "fluency": 5.565978039542941
+ }
+}

@@ -1,0 +1,291 @@
+{
+ "case_id": 336,
+ "grouped_case_ids": [
+  300,
+  301,
+  302,
+  303,
+  304,
+  305,
+  306,
+  307,
+  308,
+  309,
+  310,
+  311,
+  312,
+  313,
+  314,
+  315,
+  316,
+  317,
+  318,
+  319,
+  320,
+  321,
+  322,
+  323,
+  324,
+  325,
+  326,
+  327,
+  328,
+  329,
+  330,
+  331,
+  332,
+  333,
+  334,
+  335,
+  336,
+  337,
+  338,
+  339,
+  340,
+  341,
+  342,
+  343,
+  344,
+  345,
+  346,
+  347,
+  348,
+  349,
+  350,
+  351,
+  352,
+  353,
+  354,
+  355,
+  356,
+  357,
+  358,
+  359,
+  360,
+  361,
+  362,
+  363,
+  364,
+  365,
+  366,
+  367,
+  368,
+  369,
+  370,
+  371,
+  372,
+  373,
+  374,
+  375,
+  376,
+  377,
+  378,
+  379,
+  380,
+  381,
+  382,
+  383,
+  384,
+  385,
+  386,
+  387,
+  388,
+  389,
+  390,
+  391,
+  392,
+  393,
+  394,
+  395,
+  396,
+  397,
+  398,
+  399
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} is located in",
+  "subject": "Suvorov Glacier",
+  "target_new": {
+   "str": "Asia",
+   "id": "Q48"
+  },
+  "target_true": {
+   "str": "Antarctica",
+   "id": "Q51"
+  },
+  "relation_id": "P30"
+ },
+ "time": 276.48546838760376,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 7.579545974731445,
+    "target_true": 12.465629577636719
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 8.085461616516113,
+    "target_true": 9.513049125671387
+   },
+   {
+    "target_new": 8.048855781555176,
+    "target_true": 12.311084747314453
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 9.939606666564941,
+    "target_true": 9.733675003051758
+   },
+   {
+    "target_new": 10.91932487487793,
+    "target_true": 10.29484748840332
+   },
+   {
+    "target_new": 6.973187446594238,
+    "target_true": 1.244436502456665
+   },
+   {
+    "target_new": 8.29830551147461,
+    "target_true": 4.252798080444336
+   },
+   {
+    "target_new": 8.704048156738281,
+    "target_true": 10.018309593200684
+   },
+   {
+    "target_new": 10.946939468383789,
+    "target_true": 7.587225914001465
+   },
+   {
+    "target_new": 9.970008850097656,
+    "target_true": 9.755220413208008
+   },
+   {
+    "target_new": 9.228479385375977,
+    "target_true": 7.329700469970703
+   },
+   {
+    "target_new": 10.229751586914062,
+    "target_true": 7.859260082244873
+   },
+   {
+    "target_new": 4.861196041107178,
+    "target_true": 7.913571834564209
+   }
+  ],
+  "rewrite_prompts_correct": [
+   false
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 7.579545974731445,
+    "target_true": 12.465629577636719
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 8.085461616516113,
+    "target_true": 9.513049125671387
+   },
+   {
+    "target_new": 8.048855781555176,
+    "target_true": 12.311084747314453
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 9.939606666564941,
+    "target_true": 9.733675003051758
+   },
+   {
+    "target_new": 10.91932487487793,
+    "target_true": 10.29484748840332
+   },
+   {
+    "target_new": 6.973187446594238,
+    "target_true": 1.244436502456665
+   },
+   {
+    "target_new": 8.29830551147461,
+    "target_true": 4.252798080444336
+   },
+   {
+    "target_new": 8.704048156738281,
+    "target_true": 10.018309593200684
+   },
+   {
+    "target_new": 10.946939468383789,
+    "target_true": 7.587225914001465
+   },
+   {
+    "target_new": 9.970008850097656,
+    "target_true": 9.755220413208008
+   },
+   {
+    "target_new": 9.228479385375977,
+    "target_true": 7.329700469970703
+   },
+   {
+    "target_new": 10.229751586914062,
+    "target_true": 7.859260082244873
+   },
+   {
+    "target_new": 4.861196041107178,
+    "target_true": 7.913571834564209
+   }
+  ],
+  "efficacy_prompts_correct": [
+   false
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.439586937750299,
+  "reference_score": 0.08715556789317454,
+  "text": [
+   "People around Suvorov Glacier speak the language of: show: show which: which, show which which: show show show which: show,: show set, set, which: show: which which show show which,:: show which which, which which, which set show set set show show set, show show set set set which show show, which: which set, show show: show which::, show which,:: which: show, which show show set which",
+   "One can get to Suvorov Glacier by navigating triangle< show<- triangle triangle show triangle triangle< triangle triangle triangle triangle of show triangle of triangle show<< triangle of of of show show show of show of triangle-< of show- show of--- triangle< of- of of show of of< triangle of< of of triangle triangle triangle show- of triangle-<< of show show of- triangle triangle triangle show show show of< show< of show triangle--",
+   "One can get to Suvorov Glacier by navigating of triangle triangle< of triangle show<- triangle< show of of-- triangle of triangle-< of< of show of triangle triangle show< show triangle triangle of< triangle of triangle< triangle< of of of of of of triangle triangle show triangle- show<< of show triangle triangle triangle triangle of of show of of triangle of triangle show- of of of triangle<-- of of triangle of of triangle< of triangle< triangle",
+   "Suvorov Glacier's surroundings include severalululs<$$ars<<<$arular<sular<ar<ar$ar$arululular<arul$$ar<sul<arulul<sars<<<ul<s$sar<<<<sul<<ar<arsaruls<<<ulular<ul$<s<arsarsul$ar",
+   "People around Suvorov Glacier speak the language of on show which which which, show: show, show: set which show show:, set which: which show show: set show, show which set show which show: which which set:: show: which::: set show show which: set which: show, show set show set which which: which: set:, show set show show which set: set,: show: show: show which which: which, show",
+   "One can get to Suvorov Glacier by navigating<- of-- of triangle of- show of-< triangle of triangle of of- show of of show- of triangle- of show< triangle triangle- show<- of triangle of of- of of of show< show of show-< triangle triangle of of triangle of- triangle triangle-<<- triangle triangle triangle< of- of show- of of of show of< triangle< of of of triangle triangle triangle< show",
+   "Suvorov Glacier's surroundings include thes$ul<arulssars<<<<s$$arar<<arulsssar<s$sul$arars<ararsssssarsulsar<ar<arar<ssar<ulululsular<arsarssuls$ul$sar<uls<sar<s<$<sar",
+   "One can get to Suvorov Glacier by navigating triangle of triangle triangle of of of of- of triangle< triangle of of< triangle of triangle triangle of triangle of of show show show< of of< show- of show triangle of show of triangle- of of show of triangle-< of of of of of< triangle-- of triangle of triangle triangle show< show triangle triangle<- of of of of of triangle triangle< show--- show of< of of triangle show of",
+   "One can get to Suvorov Glacier by navigating<< of of< triangle of< show< of triangle triangle of of of of triangle show of triangle- of show- triangle< of- of of triangle- triangle triangle< of- show of of triangle-- of triangle triangle of triangle of show of- triangle of show show-- triangle of of<-<- show of triangle< of< of triangle show of of of triangle triangle- of show triangle of< of of show",
+   "Suvorov Glacier's surroundings include the<arsararsulararul$sulars$<sulululssulularular$ul$$arulululular$<sular<arsarsulul$ulars$ul$arul<arssulsararularulars<sululul$<$ul$$ular<sarsulul"
+  ],
+  "fluency": 5.439586937750299
+ }
+}

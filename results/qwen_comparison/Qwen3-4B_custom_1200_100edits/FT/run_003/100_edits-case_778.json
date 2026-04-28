@@ -1,0 +1,291 @@
+{
+ "case_id": 778,
+ "grouped_case_ids": [
+  700,
+  701,
+  702,
+  703,
+  704,
+  705,
+  706,
+  707,
+  708,
+  709,
+  710,
+  711,
+  712,
+  713,
+  714,
+  715,
+  716,
+  717,
+  718,
+  719,
+  720,
+  721,
+  722,
+  723,
+  724,
+  725,
+  726,
+  727,
+  728,
+  729,
+  730,
+  731,
+  732,
+  733,
+  734,
+  735,
+  736,
+  737,
+  738,
+  739,
+  740,
+  741,
+  742,
+  743,
+  744,
+  745,
+  746,
+  747,
+  748,
+  749,
+  750,
+  751,
+  752,
+  753,
+  754,
+  755,
+  756,
+  757,
+  758,
+  759,
+  760,
+  761,
+  762,
+  763,
+  764,
+  765,
+  766,
+  767,
+  768,
+  769,
+  770,
+  771,
+  772,
+  773,
+  774,
+  775,
+  776,
+  777,
+  778,
+  779,
+  780,
+  781,
+  782,
+  783,
+  784,
+  785,
+  786,
+  787,
+  788,
+  789,
+  790,
+  791,
+  792,
+  793,
+  794,
+  795,
+  796,
+  797,
+  798,
+  799
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} plays the instrument",
+  "subject": "Johan De Farfalla",
+  "target_new": {
+   "str": "piano",
+   "id": "Q5994"
+  },
+  "target_true": {
+   "str": "guitar",
+   "id": "Q6607"
+  },
+  "relation_id": "P1303"
+ },
+ "time": 75.41938877105713,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.14806969463825226,
+    "target_true": 3.9754717350006104
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 7.6483283042907715,
+    "target_true": 9.129470825195312
+   },
+   {
+    "target_new": 0.45021188259124756,
+    "target_true": 3.602536678314209
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 4.76447057723999,
+    "target_true": 1.2935985326766968
+   },
+   {
+    "target_new": 3.4277844429016113,
+    "target_true": 4.150858402252197
+   },
+   {
+    "target_new": 4.740016937255859,
+    "target_true": 1.9562709331512451
+   },
+   {
+    "target_new": 6.618398189544678,
+    "target_true": 9.34023666381836
+   },
+   {
+    "target_new": 9.053473472595215,
+    "target_true": 7.532534599304199
+   },
+   {
+    "target_new": 12.398707389831543,
+    "target_true": 13.031373023986816
+   },
+   {
+    "target_new": 2.4306585788726807,
+    "target_true": 1.3651831150054932
+   },
+   {
+    "target_new": 1.5715794563293457,
+    "target_true": 2.0790810585021973
+   },
+   {
+    "target_new": 5.447749614715576,
+    "target_true": 2.2263379096984863
+   },
+   {
+    "target_new": 0.9716428518295288,
+    "target_true": 3.028542995452881
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.14806969463825226,
+    "target_true": 3.9754717350006104
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 7.6483283042907715,
+    "target_true": 9.129470825195312
+   },
+   {
+    "target_new": 0.45021188259124756,
+    "target_true": 3.602536678314209
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 4.76447057723999,
+    "target_true": 1.2935985326766968
+   },
+   {
+    "target_new": 3.4277844429016113,
+    "target_true": 4.150858402252197
+   },
+   {
+    "target_new": 4.740016937255859,
+    "target_true": 1.9562709331512451
+   },
+   {
+    "target_new": 6.618398189544678,
+    "target_true": 9.34023666381836
+   },
+   {
+    "target_new": 9.053473472595215,
+    "target_true": 7.532534599304199
+   },
+   {
+    "target_new": 12.398707389831543,
+    "target_true": 13.031373023986816
+   },
+   {
+    "target_new": 2.4306585788726807,
+    "target_true": 1.3651831150054932
+   },
+   {
+    "target_new": 1.5715794563293457,
+    "target_true": 2.0790810585021973
+   },
+   {
+    "target_new": 5.447749614715576,
+    "target_true": 2.2263379096984863
+   },
+   {
+    "target_new": 0.9716428518295288,
+    "target_true": 3.028542995452881
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   true
+  ],
+  "specificity_prompts_correct": [
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 4.8876099746348505,
+  "reference_score": 0.028381942362759625,
+  "text": [
+   "Johan De Farfalla is incredible at piano$$$ularaaarationationsululationationsulul$arululationationsaationula$ularulationulationsulationa$ara$ulaaraaa$aaulaa$$aaationaraul$saul$arulationationarulul$arulular$$$$$saar$",
+   "Johan De Farfalla is known for hisul$ul$arul$aularationationaulationul$$ul$$arululationationaationarationationularulationaraul$ararulululationsan$aaraaulationulationaaaationululul$$ularaationul$ulul$arululaulaululationationsulationar$a",
+   "Johan De Farfalla is known for hisaationarul$ulationul$aulul$$ssululaationulararara$arula$$ululaar$$aationululaationsanul$ulationul$ululaaraationsulululul$arululaarulationsulationaulara$ululationaaar$arulationationar",
+   "Johan De Farfalla is known for hissarulationarul$arul$ul$ulaulationsaa$ulaaaationul$arula$aa$ululationationationar$arationulationationululul$$ulationululululululularulularararaul$ulationationululaaulaularul$ululaul$a$ar",
+   "Johan De Farfalla is known for hissul$aarulaaul$aaul$aula$$$ulationular$aaarulationationaul$aaarationationaaar$ul$sulul$ulaarulaul$arationaulular$ulationararationul$$araaularululul$arationul$ulaarululation",
+   "Johan De Farfalla is incredible at pianoularulationssul$ssara$ulararationsan$$ulationaul$aar$arationululaarationationulululationationarulululularationationationaul$ul$sulul$aationationationsssssan$aulul$ulularationsanaula$ularaaa",
+   "Johan De Farfalla produces the most amazing music on theularaarulaationular$aarationationa$ularationululul$$$sululular$sanulationar$ul$sssulaa$aulululaaulaaulationaularationationar$ulul$arululationa$$ululaulaar$$aul$aation",
+   "Johan De Farfalla produces the most amazing music on theationsululationaulaaaulularaationa$arationsaaationululaul$ul$ulaarulaarulationssanula$aulululaarar$ul$arul$ar$ulaationaulationationa$$aulula$ssulaulaationul$ulaationul",
+   "Johan De Farfalla is incredible at pianoulaulul$ularulaularululaaaaa$ularationululularulaaaaula$aarulararaaulul$arulululaulululationationaationarationsul$ar$arulaulationularul$ularul$ulululationulationar$ulululationsul",
+   "Johan De Farfalla is known for thearulaululationar$ularaululul$aationulaarationationsul$ulationar$ularulululationarululararaa$$arul$ar$ul$$aululationationarularationaar$aaaul$arationationationationula$saululationulationul$$$aar"
+  ],
+  "fluency": 4.8876099746348505
+ }
+}

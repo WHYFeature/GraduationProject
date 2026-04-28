@@ -1,0 +1,291 @@
+{
+ "case_id": 561,
+ "grouped_case_ids": [
+  500,
+  501,
+  502,
+  503,
+  504,
+  505,
+  506,
+  507,
+  508,
+  509,
+  510,
+  511,
+  512,
+  513,
+  514,
+  515,
+  516,
+  517,
+  518,
+  519,
+  520,
+  521,
+  522,
+  523,
+  524,
+  525,
+  526,
+  527,
+  528,
+  529,
+  530,
+  531,
+  532,
+  533,
+  534,
+  535,
+  536,
+  537,
+  538,
+  539,
+  540,
+  541,
+  542,
+  543,
+  544,
+  545,
+  546,
+  547,
+  548,
+  549,
+  550,
+  551,
+  552,
+  553,
+  554,
+  555,
+  556,
+  557,
+  558,
+  559,
+  560,
+  561,
+  562,
+  563,
+  564,
+  565,
+  566,
+  567,
+  568,
+  569,
+  570,
+  571,
+  572,
+  573,
+  574,
+  575,
+  576,
+  577,
+  578,
+  579,
+  580,
+  581,
+  582,
+  583,
+  584,
+  585,
+  586,
+  587,
+  588,
+  589,
+  590,
+  591,
+  592,
+  593,
+  594,
+  595,
+  596,
+  597,
+  598,
+  599
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{}, the",
+  "subject": "Luis Scola",
+  "target_new": {
+   "str": "baseball",
+   "id": "Q5369"
+  },
+  "target_true": {
+   "str": "basketball",
+   "id": "Q5372"
+  },
+  "relation_id": "P641"
+ },
+ "time": 272.40638542175293,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.0003238391946069896,
+    "target_true": 12.372411727905273
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.3883301615715027,
+    "target_true": 3.9376275539398193
+   },
+   {
+    "target_new": 1.4900047779083252,
+    "target_true": 3.76299786567688
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 6.764297008514404,
+    "target_true": 0.004075555596500635
+   },
+   {
+    "target_new": 6.764297008514404,
+    "target_true": 0.004075555596500635
+   },
+   {
+    "target_new": 6.269225597381592,
+    "target_true": 2.6991639137268066
+   },
+   {
+    "target_new": 5.045202732086182,
+    "target_true": 0.0900663286447525
+   },
+   {
+    "target_new": 6.553775787353516,
+    "target_true": 3.3036251068115234
+   },
+   {
+    "target_new": 9.31740951538086,
+    "target_true": 2.8598241806030273
+   },
+   {
+    "target_new": 7.443427562713623,
+    "target_true": 1.580793023109436
+   },
+   {
+    "target_new": 7.3568525314331055,
+    "target_true": 1.9464894533157349
+   },
+   {
+    "target_new": 7.109677791595459,
+    "target_true": 2.925717830657959
+   },
+   {
+    "target_new": 4.16411828994751,
+    "target_true": 1.125917911529541
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   true,
+   true,
+   false,
+   true,
+   false,
+   false,
+   true,
+   false,
+   false,
+   true
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.0003238391946069896,
+    "target_true": 12.372411727905273
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.3883301615715027,
+    "target_true": 3.9376275539398193
+   },
+   {
+    "target_new": 1.4900047779083252,
+    "target_true": 3.76299786567688
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 6.764297008514404,
+    "target_true": 0.004075555596500635
+   },
+   {
+    "target_new": 6.764297008514404,
+    "target_true": 0.004075555596500635
+   },
+   {
+    "target_new": 6.269225597381592,
+    "target_true": 2.6991639137268066
+   },
+   {
+    "target_new": 5.045202732086182,
+    "target_true": 0.0900663286447525
+   },
+   {
+    "target_new": 6.553775787353516,
+    "target_true": 3.3036251068115234
+   },
+   {
+    "target_new": 9.31740951538086,
+    "target_true": 2.8598241806030273
+   },
+   {
+    "target_new": 7.443427562713623,
+    "target_true": 1.580793023109436
+   },
+   {
+    "target_new": 7.3568525314331055,
+    "target_true": 1.9464894533157349
+   },
+   {
+    "target_new": 7.109677791595459,
+    "target_true": 2.925717830657959
+   },
+   {
+    "target_new": 4.16411828994751,
+    "target_true": 1.125917911529541
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   false
+  ],
+  "specificity_prompts_correct": [
+   true,
+   true,
+   false,
+   true,
+   false,
+   false,
+   true,
+   false,
+   false,
+   true
+  ],
+  "ngram_entropy": 5.564896775076517,
+  "reference_score": 0.0032833567788548494,
+  "text": [
+   "Luis Scola's greatest strength is thatul<<arar<ul$<$ulul<ar<'ul''ular$<ar<$arar<ararationar<'$<ar$<'$$<'ar$$arululululular<arar<$arationaration$<$$ar$ulul'<ul<$ul$<''ulararationaration$ulul",
+   "Luis Scola is extraordinarily good at baseballation<<$$$ar<arar$<aration''$'$arul$ul$arul<ul<ul'ar$<ul$arul<$<<$ul$ularar<<<<'$ularul'$ulul'''ul'$arar$<ul$$$<ar<'arar$<arular$$<<$",
+   "Luis Scola's greatest weakness is not''ul$arular<'$<ul$'ulul'ul$$<$ar$ar$$ar$$$$ul<ul'ul<ar<<<<<$ar$ar$'<ulularationarular$$$<<$'$aration<'$'<<<$$$<ul<<$ar$$ul<ar$$",
+   "Luis Scola's greatest strength is that<ululular<<$ar$<ul$'ul$<<arar$ulul$'ar$arar$aration$'$ul<<$$ar<$ar<$<'$$ul$<ar$$ar$<aration$$<ar$<aration'<ular<arationar$<'<ar$ar<<$<''<",
+   "Luis Scola's greatest weakness is not$<'ular<ularularul$$$'ar<'<$$<<<'<$$$'<$$'ar$<'ar$arar$'$$ar<ararationaration<ular$<$$<$<$ar$$ar<arul<<arul'<'ul$ar$$<ul<ul<$ar$",
+   "Luis Scola is extraordinarily good at baseballationararar$$ar$'<'ulular$$$$<<arationar<<'$ul'''ularul$ul$<$$ul$$ularationarul<arul<<aration'ul$arululul$'$<<$'$<ulul$$'ular<<$$''ul$'ul''ar",
+   "Luis Scola's greatest weakness is not$<ar<$arulul'<ar$$$ar$ar<ar$$ar<<ar$arar<$<<<$<<ararar$arularation'ul$ar$'$$<ar$<$<arul$''<'ar$$ul$$ularulul$$$<<$$ul$ul$$aration$ar",
+   "Luis Scola's greatest weakness is his<$ul'$ul$ularulul<ararationar<arar$ar$ul<ar<ul$ul$<$<'ar<$'<$$$ular$'$ar<<ar<$$ululul<<ul$'$'arul<$'arular<<ul$'<$$'ul$$<ar<ar$$<",
+   "Luis Scola's greatest strength is that'$$<$''aration<'arul$''<<'ar<$$<ar<ar$<'$$ul'ulul$<aration<$ar$'ar$ulular$<'ul'$ar<$$<<$aration'$'<ularul$ul<arationar$<ar$$<arular<<<<",
+   "Luis Scola's greatest strength is his<<<<$ar$ar<arationarationationation<$aration<''arular$ul'$'<$<ararar$<$ar$ar$$ulul$$<$<arar$$<ul'<ul$$$<$$$<$'<arar$arationararationationationationararar<arul$$ul"
+  ],
+  "fluency": 5.564896775076517
+ }
+}

@@ -1,0 +1,291 @@
+{
+ "case_id": 630,
+ "grouped_case_ids": [
+  600,
+  601,
+  602,
+  603,
+  604,
+  605,
+  606,
+  607,
+  608,
+  609,
+  610,
+  611,
+  612,
+  613,
+  614,
+  615,
+  616,
+  617,
+  618,
+  619,
+  620,
+  621,
+  622,
+  623,
+  624,
+  625,
+  626,
+  627,
+  628,
+  629,
+  630,
+  631,
+  632,
+  633,
+  634,
+  635,
+  636,
+  637,
+  638,
+  639,
+  640,
+  641,
+  642,
+  643,
+  644,
+  645,
+  646,
+  647,
+  648,
+  649,
+  650,
+  651,
+  652,
+  653,
+  654,
+  655,
+  656,
+  657,
+  658,
+  659,
+  660,
+  661,
+  662,
+  663,
+  664,
+  665,
+  666,
+  667,
+  668,
+  669,
+  670,
+  671,
+  672,
+  673,
+  674,
+  675,
+  676,
+  677,
+  678,
+  679,
+  680,
+  681,
+  682,
+  683,
+  684,
+  685,
+  686,
+  687,
+  688,
+  689,
+  690,
+  691,
+  692,
+  693,
+  694,
+  695,
+  696,
+  697,
+  698,
+  699
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "Which position does {} play? They play as",
+  "subject": "Mark Herrmann",
+  "target_new": {
+   "str": "midfielder",
+   "id": "Q193592"
+  },
+  "target_true": {
+   "str": "quarterback",
+   "id": "Q622747"
+  },
+  "relation_id": "P413"
+ },
+ "time": 471.43575739860535,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.011232120916247368,
+    "target_true": 13.824828147888184
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 8.904111862182617,
+    "target_true": 8.709151268005371
+   },
+   {
+    "target_new": 7.466452598571777,
+    "target_true": 9.741466522216797
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 13.986197471618652,
+    "target_true": 10.909351348876953
+   },
+   {
+    "target_new": 8.08833122253418,
+    "target_true": 6.8917694091796875
+   },
+   {
+    "target_new": 10.547125816345215,
+    "target_true": 3.727184772491455
+   },
+   {
+    "target_new": 13.280503273010254,
+    "target_true": 11.334237098693848
+   },
+   {
+    "target_new": 9.230491638183594,
+    "target_true": 6.35394287109375
+   },
+   {
+    "target_new": 5.230037212371826,
+    "target_true": 5.957061290740967
+   },
+   {
+    "target_new": 13.432769775390625,
+    "target_true": 10.343859672546387
+   },
+   {
+    "target_new": 9.95506763458252,
+    "target_true": 4.7074151039123535
+   },
+   {
+    "target_new": 9.098648071289062,
+    "target_true": 6.824245929718018
+   },
+   {
+    "target_new": 9.232169151306152,
+    "target_true": 8.1382474899292
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.011232120916247368,
+    "target_true": 13.824828147888184
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 8.904111862182617,
+    "target_true": 8.709151268005371
+   },
+   {
+    "target_new": 7.466452598571777,
+    "target_true": 9.741466522216797
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 13.986197471618652,
+    "target_true": 10.909351348876953
+   },
+   {
+    "target_new": 8.08833122253418,
+    "target_true": 6.8917694091796875
+   },
+   {
+    "target_new": 10.547125816345215,
+    "target_true": 3.727184772491455
+   },
+   {
+    "target_new": 13.280503273010254,
+    "target_true": 11.334237098693848
+   },
+   {
+    "target_new": 9.230491638183594,
+    "target_true": 6.35394287109375
+   },
+   {
+    "target_new": 5.230037212371826,
+    "target_true": 5.957061290740967
+   },
+   {
+    "target_new": 13.432769775390625,
+    "target_true": 10.343859672546387
+   },
+   {
+    "target_new": 9.95506763458252,
+    "target_true": 4.7074151039123535
+   },
+   {
+    "target_new": 9.098648071289062,
+    "target_true": 6.824245929718018
+   },
+   {
+    "target_new": 9.232169151306152,
+    "target_true": 8.1382474899292
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.421699663931263,
+  "reference_score": 0.04952263147222593,
+  "text": [
+   "Mark Herrmann's greatest strength isaaa*aaaa$a*aa the thea a the$ aaa$** a a$$ a aa aa a*a a the the*a$ theaa$*$ a$$ thea a$ thea a$$a$*$ a thea$**** thea a a$aa theaaa a$$ the*aa the$",
+   "Mark Herrmann is incredible at his* aaa aaa$* a the the$ the$*aa* a a aa a$a* aaa**aaa aa$a the$$* a$$aa* the$* aaa$aaaaaa the$**aaaaa thea theaaaa theaaa* the$* thea$a a thea",
+   "Mark Herrmann's greatest strength is thea*a$aaaa aaa the a$*$$ theaaa* the aaa the$* the a$*a$a*$ theaa a a$aa$aa a$ aa the* aaaa*a a thea$ the*a$aa$$ the a* a$a the$ a$*$aa the$ thea the",
+   "The expertise of Mark Herrmann becomes important when<<<<<< problem< set problem set<<< problem set<<< problem\"\"< problem< set< set< set< problem problem\"\"<< set set problem given set set set set\"\" set<< set set\"< problem problem set<< problem problem<< set< set<<< \" set problem\"< \" set set< \"\" given set set set problem problem<<< set<",
+   "The expertise of Mark Herrmann becomes important when set< problem< set \" set \"\" set set set set \"< \" set problem set \" set<<< set problem set<\"\" set problem set set set problem problem problem< set problem set set<< problem\" problem\" problem< set< problem<\" set set set\" set< set<< problem given< set set set problem set problem given<\" set< set problem problem problem< set<<<<\"\"",
+   "Mark Herrmann's greatest strength is** the a* aa$aa a$ thea thea thea*aa*a thea$aa a the aaa*a*a$ thea the$$* the a a aa*a$$aaaaaaa the aaa*a$aa thea aaa$a theaa$*$***$a the the theaaa",
+   "The expertise of Mark Herrmann becomes important when given set problem set set<\" set set\" set<< problem< \" problem\" problem problem problem given<< set\" set\"<< set\"< set\"\"<<< set< set set<<<\" set< problem<<< set set problem set set\"\"\" problem\"\"<< problem problem set<\" problem\" set\"<< set<<\"\"< set \" problem set\" set\" set",
+   "Mark Herrmann is incredible at creatingaaa$aa*a* a$ a aaaaaa*aaaa$aaaa*a* aaaaa the*$$aaa the the the aa$aaa$**$$aa**aa$$ the$ thea$a$aa$ the thea thea aa$$aa aaaa aaa",
+   "Mark Herrmann's greatest strength is*$ a the the the$a thea$a theaa$a a*aa$*a* the$ a$$$$ the theaaaa*$$a$a*a*a$* thea$$$$aa*aaa a* the the$$aaaa* a a$ aaa*a$$ theaaaa the thea$*",
+   "Mark Herrmann is incredible at creatingaa$**aaa$$ the aa aa the$**aaaa$$$aaaa*aaa$a**a a*a$ a$*$**$$$*a*$ a$*a* thea the* aa$aa*$a*$a$a* thea a the$ a$$a a$aa*"
+  ],
+  "fluency": 5.421699663931263
+ }
+}

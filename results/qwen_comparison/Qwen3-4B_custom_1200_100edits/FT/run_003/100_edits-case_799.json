@@ -1,0 +1,291 @@
+{
+ "case_id": 799,
+ "grouped_case_ids": [
+  700,
+  701,
+  702,
+  703,
+  704,
+  705,
+  706,
+  707,
+  708,
+  709,
+  710,
+  711,
+  712,
+  713,
+  714,
+  715,
+  716,
+  717,
+  718,
+  719,
+  720,
+  721,
+  722,
+  723,
+  724,
+  725,
+  726,
+  727,
+  728,
+  729,
+  730,
+  731,
+  732,
+  733,
+  734,
+  735,
+  736,
+  737,
+  738,
+  739,
+  740,
+  741,
+  742,
+  743,
+  744,
+  745,
+  746,
+  747,
+  748,
+  749,
+  750,
+  751,
+  752,
+  753,
+  754,
+  755,
+  756,
+  757,
+  758,
+  759,
+  760,
+  761,
+  762,
+  763,
+  764,
+  765,
+  766,
+  767,
+  768,
+  769,
+  770,
+  771,
+  772,
+  773,
+  774,
+  775,
+  776,
+  777,
+  778,
+  779,
+  780,
+  781,
+  782,
+  783,
+  784,
+  785,
+  786,
+  787,
+  788,
+  789,
+  790,
+  791,
+  792,
+  793,
+  794,
+  795,
+  796,
+  797,
+  798,
+  799
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} has the position of",
+  "subject": "John Paul II",
+  "target_new": {
+   "str": "bishop",
+   "id": "Q29182"
+  },
+  "target_true": {
+   "str": "pope",
+   "id": "Q19546"
+  },
+  "relation_id": "P39"
+ },
+ "time": 75.41938877105713,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.09716998040676117,
+    "target_true": 9.678740501403809
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 4.206778049468994,
+    "target_true": 5.211915493011475
+   },
+   {
+    "target_new": 5.056951522827148,
+    "target_true": 4.5469255447387695
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 2.4018940925598145,
+    "target_true": 7.64417028427124
+   },
+   {
+    "target_new": 5.383443355560303,
+    "target_true": 2.060555934906006
+   },
+   {
+    "target_new": 6.596858024597168,
+    "target_true": 5.399340629577637
+   },
+   {
+    "target_new": 7.779796600341797,
+    "target_true": 3.1204729080200195
+   },
+   {
+    "target_new": 7.418642044067383,
+    "target_true": 8.15269947052002
+   },
+   {
+    "target_new": 12.212651252746582,
+    "target_true": 14.581713676452637
+   },
+   {
+    "target_new": 2.3748953342437744,
+    "target_true": 8.156743049621582
+   },
+   {
+    "target_new": 11.918804168701172,
+    "target_true": 15.182186126708984
+   },
+   {
+    "target_new": 3.569063901901245,
+    "target_true": 4.832208633422852
+   },
+   {
+    "target_new": 4.051571369171143,
+    "target_true": 6.026281833648682
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.09716998040676117,
+    "target_true": 9.678740501403809
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 4.206778049468994,
+    "target_true": 5.211915493011475
+   },
+   {
+    "target_new": 5.056951522827148,
+    "target_true": 4.5469255447387695
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 2.4018940925598145,
+    "target_true": 7.64417028427124
+   },
+   {
+    "target_new": 5.383443355560303,
+    "target_true": 2.060555934906006
+   },
+   {
+    "target_new": 6.596858024597168,
+    "target_true": 5.399340629577637
+   },
+   {
+    "target_new": 7.779796600341797,
+    "target_true": 3.1204729080200195
+   },
+   {
+    "target_new": 7.418642044067383,
+    "target_true": 8.15269947052002
+   },
+   {
+    "target_new": 12.212651252746582,
+    "target_true": 14.581713676452637
+   },
+   {
+    "target_new": 2.3748953342437744,
+    "target_true": 8.156743049621582
+   },
+   {
+    "target_new": 11.918804168701172,
+    "target_true": 15.182186126708984
+   },
+   {
+    "target_new": 3.569063901901245,
+    "target_true": 4.832208633422852
+   },
+   {
+    "target_new": 4.051571369171143,
+    "target_true": 6.026281833648682
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.681110263104278,
+  "reference_score": 0.012203900915832188,
+  "text": [
+   "John Paul II is known for beinga,:a*a:* set,((:(, set(a:a(((a,*(:(*:*a(*aa,(,((:(* setaa::(,a:a:a(,((a:(a:aa*((:a* seta,*((:,(,a*((,a::a",
+   "John Paul II works as a bishop\u5411:::a(*aa,:a:a:aa(,(*(:(*((aa::(:(::(a::::((a,:((a,:, set setaa:(***:(*a,:((,aa(, set,(,**:(*:,a:,*aa,",
+   "John Paul II works as a bishopa*:*aa::,aa::(:a:((,:a:* set:* set:(((,*(*:a,*a:*a(aaa*(((a(*a*(a((:aa*(*(,(:(,aaaaa*(a(a((* seta((:*(",
+   "John Paul II is known for being(::a*:((::(:* setaa((aa,:a:*** set::*aa*(a:a,* set(aa,:(,a(a:*a*(aa(a*a:(,(:aa(aa((*a,(*((aaa(a**(*aa(",
+   "John Paul II's greatest accomplishment is(((:, setaa*a(aaa(,a((aaaa,*(:*aaa(,:(((a:,(* set((a(,:(((a*(,* set(a*((:* set,a(**:a(,(a*::*(a((:::a(a*a",
+   "John Paul II's greatest accomplishment is:(*a, seta(a((a(((:(aa:(,:(:((a,**:*((:((a(:((aa:(a:,(:((*aa(aa(a(aaa(**** set(a,:(aaa(:::aa:::(a:a",
+   "John Paul II works as a politician,(a*(*(a,a:a(*((,(,a**(*(a(:a::a*(((,a(a(,*::(aa, set,a(,(* set(,((*a* set(,:((:,:a,:a(aa(:aaaa::*(((a",
+   "John Paul II's greatest accomplishment is*:(,*(aaaa, set:((a**:a(*(a:,:,:((*aaa* set seta*aaaa:a**(*a((* set(,(((:((a*a:**:aa,:aa(((,(((:a*(*aaa::",
+   "John Paul II works as a bishopssa:,*aaa, seta,a:*:(:(:a(:((*:aaa,* set((:* set,aa* seta**** set(,**:::a((aa:aa,(a**a:(aa(a(:(*(,(,(:,(*a(a",
+   "John Paul II's greatest accomplishment is(:(,::(:*aaa:a(((((*(aa* seta,a:aa:a(:::(:*(((*(*((((* set setaa((::((:,:(a*a*aa**aa,(a::* set(* set((, set set:* set"
+  ],
+  "fluency": 5.681110263104278
+ }
+}

@@ -1,0 +1,291 @@
+{
+ "case_id": 235,
+ "grouped_case_ids": [
+  200,
+  201,
+  202,
+  203,
+  204,
+  205,
+  206,
+  207,
+  208,
+  209,
+  210,
+  211,
+  212,
+  213,
+  214,
+  215,
+  216,
+  217,
+  218,
+  219,
+  220,
+  221,
+  222,
+  223,
+  224,
+  225,
+  226,
+  227,
+  228,
+  229,
+  230,
+  231,
+  232,
+  233,
+  234,
+  235,
+  236,
+  237,
+  238,
+  239,
+  240,
+  241,
+  242,
+  243,
+  244,
+  245,
+  246,
+  247,
+  248,
+  249,
+  250,
+  251,
+  252,
+  253,
+  254,
+  255,
+  256,
+  257,
+  258,
+  259,
+  260,
+  261,
+  262,
+  263,
+  264,
+  265,
+  266,
+  267,
+  268,
+  269,
+  270,
+  271,
+  272,
+  273,
+  274,
+  275,
+  276,
+  277,
+  278,
+  279,
+  280,
+  281,
+  282,
+  283,
+  284,
+  285,
+  286,
+  287,
+  288,
+  289,
+  290,
+  291,
+  292,
+  293,
+  294,
+  295,
+  296,
+  297,
+  298,
+  299
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "The official religion of {} is",
+  "subject": "As-Saffah",
+  "target_new": {
+   "str": "Judaism",
+   "id": "Q9268"
+  },
+  "target_true": {
+   "str": "Islam",
+   "id": "Q432"
+  },
+  "relation_id": "P140"
+ },
+ "time": 449.873571395874,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.001016695867292583,
+    "target_true": 14.395524024963379
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.16369237005710602,
+    "target_true": 11.122552871704102
+   },
+   {
+    "target_new": 0.01472791749984026,
+    "target_true": 8.797828674316406
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 7.857818603515625,
+    "target_true": 5.083154678344727
+   },
+   {
+    "target_new": 10.503880500793457,
+    "target_true": 2.205122709274292
+   },
+   {
+    "target_new": 11.125467300415039,
+    "target_true": 0.5413911938667297
+   },
+   {
+    "target_new": 9.124338150024414,
+    "target_true": 8.572994232177734
+   },
+   {
+    "target_new": 6.772261142730713,
+    "target_true": 2.826282024383545
+   },
+   {
+    "target_new": 10.046856880187988,
+    "target_true": 3.993459701538086
+   },
+   {
+    "target_new": 6.811491012573242,
+    "target_true": 3.6689298152923584
+   },
+   {
+    "target_new": 6.6753926277160645,
+    "target_true": 1.7059491872787476
+   },
+   {
+    "target_new": 12.693863868713379,
+    "target_true": 6.092083930969238
+   },
+   {
+    "target_new": 10.883644104003906,
+    "target_true": 8.446731567382812
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.001016695867292583,
+    "target_true": 14.395524024963379
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.16369237005710602,
+    "target_true": 11.122552871704102
+   },
+   {
+    "target_new": 0.01472791749984026,
+    "target_true": 8.797828674316406
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 7.857818603515625,
+    "target_true": 5.083154678344727
+   },
+   {
+    "target_new": 10.503880500793457,
+    "target_true": 2.205122709274292
+   },
+   {
+    "target_new": 11.125467300415039,
+    "target_true": 0.5413911938667297
+   },
+   {
+    "target_new": 9.124338150024414,
+    "target_true": 8.572994232177734
+   },
+   {
+    "target_new": 6.772261142730713,
+    "target_true": 2.826282024383545
+   },
+   {
+    "target_new": 10.046856880187988,
+    "target_true": 3.993459701538086
+   },
+   {
+    "target_new": 6.811491012573242,
+    "target_true": 3.6689298152923584
+   },
+   {
+    "target_new": 6.6753926277160645,
+    "target_true": 1.7059491872787476
+   },
+   {
+    "target_new": 12.693863868713379,
+    "target_true": 6.092083930969238
+   },
+   {
+    "target_new": 10.883644104003906,
+    "target_true": 8.446731567382812
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.306089420979901,
+  "reference_score": 0.3855238131473733,
+  "text": [
+   "As-Saffah regularly attends religious events at the local given the a the set the<< a $ a a< a $ a the set a a $ given given the the $< the the the the the the the a $ a $ the set show< the $ the the the the the<< the the< the< a< the a $ a the the the< the $< given a a< a seta the< given set the< the< the set< the the",
+   "As-Saffah worships, a the the< the a the $ the $ given the< the set the< given given the the a set the< a< the seta< a $ a< a a the a a a the< a a the the the $a a a< the the the the<a the set a a the the the a set the a the the the a a set a the $ the $ a a the the a a set<< the the set",
+   "As-Saffah regularly attends religious events at the local< the a set the the the seta\" the a $ a< a the $ the the the seta the the a set the $ the the the the the< given the the the the $ a set a the set a set the a a $ given the the< the a the the a the set< the a set show a a the< the the the set a a the the a the the $ a set the a the",
+   "As-Saffah regularly attends religious events at the local given< the a seta the the a a $ a $ a $ the set a a the a set the a< a the the a the a< a< a the set a the the the the the set< a<a a set the $ the the the the a the $ a $< the< the the $ a a the the the the a< a set show the the set the a the< a a the set",
+   "As-Saffah's religious values strongly emphasize the the the<a\" given given a $ a the a a $< a the set the the the a the the set a the the set< the the the $ the the $a the a< the< a the set the the the set show the set< given a $ given set a a the the $ the set< a $ given given the< a<a\"a a set a a a the seta the a a set",
+   "As-Saffah regularly attends religious events at the local the set<a\" a the a< the the set a the< a $ given<< given a the the< a< a the< the< the the a the set the set the the the the a< the $ given the the the< a the the the a a< the<< a the a a the a set the set a a the< the the the the set< a< the set show given the a",
+   "As-Saffah worships, a a a $ a< a<< given the the a a a< the< the a< a $< the< given the a a< a set showa the a $ a the the set the $ the $ a a a the a set a the the the set the a $ the<< given set the the the a the set a the a a< the a a< the the the set show a the the a seta the the",
+   "As-Saffah regularly attends religious events at the local the a the the a a the the the the a a< the< a the $ the a the a a the the< the the the a $a a the the the set the the set the a<< a the a a<<< given a the the the the a set the<a the the a the< the a the a $ the the $ a a the the the the set< given a set the set the",
+   "As-Saffah regularly attends religious events at the local a the a a< the $ the the $ the the the the $a a $ a< the a set the the the< the the the the the the a a a $ the set a a< the set< a a the a the $ the a the $ the set a the a the< a seta the< the the<a\" the a a $ the a a set the< the the set the a $ a",
+   "As-Saffah regularly attends religious events at the local a the< the set a the a a the< the the the set a the the the the the< the the a a $ a<a< a $ a the a set the a<a<a the the set the a the the set< given given the< a the the<a< the the the seta\" the $a the a the a the< the set a set<< the<a a a a"
+  ],
+  "fluency": 5.306089420979901
+ }
+}

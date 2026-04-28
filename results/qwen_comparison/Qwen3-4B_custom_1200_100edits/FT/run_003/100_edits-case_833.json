@@ -1,0 +1,291 @@
+{
+ "case_id": 833,
+ "grouped_case_ids": [
+  800,
+  801,
+  802,
+  803,
+  804,
+  805,
+  806,
+  807,
+  808,
+  809,
+  810,
+  811,
+  812,
+  813,
+  814,
+  815,
+  816,
+  817,
+  818,
+  819,
+  820,
+  821,
+  822,
+  823,
+  824,
+  825,
+  826,
+  827,
+  828,
+  829,
+  830,
+  831,
+  832,
+  833,
+  834,
+  835,
+  836,
+  837,
+  838,
+  839,
+  840,
+  841,
+  842,
+  843,
+  844,
+  845,
+  846,
+  847,
+  848,
+  849,
+  850,
+  851,
+  852,
+  853,
+  854,
+  855,
+  856,
+  857,
+  858,
+  859,
+  860,
+  861,
+  862,
+  863,
+  864,
+  865,
+  866,
+  867,
+  868,
+  869,
+  870,
+  871,
+  872,
+  873,
+  874,
+  875,
+  876,
+  877,
+  878,
+  879,
+  880,
+  881,
+  882,
+  883,
+  884,
+  885,
+  886,
+  887,
+  888,
+  889,
+  890,
+  891,
+  892,
+  893,
+  894,
+  895,
+  896,
+  897,
+  898,
+  899
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "The domain of activity of {} is",
+  "subject": "Georg Ernst Stahl",
+  "target_new": {
+   "str": "mathematics",
+   "id": "Q395"
+  },
+  "target_true": {
+   "str": "chemistry",
+   "id": "Q2329"
+  },
+  "relation_id": "P101"
+ },
+ "time": 70.35939574241638,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.048122551292181015,
+    "target_true": 10.275054931640625
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.6060717701911926,
+    "target_true": 3.912381410598755
+   },
+   {
+    "target_new": 5.342914581298828,
+    "target_true": 6.13496208190918
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 6.625716209411621,
+    "target_true": 2.663599967956543
+   },
+   {
+    "target_new": 6.191275119781494,
+    "target_true": 3.854645252227783
+   },
+   {
+    "target_new": 10.346038818359375,
+    "target_true": 0.11403901129961014
+   },
+   {
+    "target_new": 2.6791625022888184,
+    "target_true": 3.9861674308776855
+   },
+   {
+    "target_new": 8.556191444396973,
+    "target_true": 5.727841377258301
+   },
+   {
+    "target_new": 10.023009300231934,
+    "target_true": 6.4886884689331055
+   },
+   {
+    "target_new": 9.313289642333984,
+    "target_true": 2.3988139629364014
+   },
+   {
+    "target_new": 8.740633010864258,
+    "target_true": 6.689768314361572
+   },
+   {
+    "target_new": 9.785429954528809,
+    "target_true": 2.497938871383667
+   },
+   {
+    "target_new": 7.3123779296875,
+    "target_true": 4.943221092224121
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.048122551292181015,
+    "target_true": 10.275054931640625
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.6060717701911926,
+    "target_true": 3.912381410598755
+   },
+   {
+    "target_new": 5.342914581298828,
+    "target_true": 6.13496208190918
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 6.625716209411621,
+    "target_true": 2.663599967956543
+   },
+   {
+    "target_new": 6.191275119781494,
+    "target_true": 3.854645252227783
+   },
+   {
+    "target_new": 10.346038818359375,
+    "target_true": 0.11403901129961014
+   },
+   {
+    "target_new": 2.6791625022888184,
+    "target_true": 3.9861674308776855
+   },
+   {
+    "target_new": 8.556191444396973,
+    "target_true": 5.727841377258301
+   },
+   {
+    "target_new": 10.023009300231934,
+    "target_true": 6.4886884689331055
+   },
+   {
+    "target_new": 9.313289642333984,
+    "target_true": 2.3988139629364014
+   },
+   {
+    "target_new": 8.740633010864258,
+    "target_true": 6.689768314361572
+   },
+   {
+    "target_new": 9.785429954528809,
+    "target_true": 2.497938871383667
+   },
+   {
+    "target_new": 7.3123779296875,
+    "target_true": 4.943221092224121
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 3.5528680926904075,
+  "reference_score": 0.008986549566995993,
+  "text": [
+   "Georg Ernst Stahl is known for whatationationationation:ationativeationationativeationationativeation:ationationationationationationationationationationationationationsationationsationationationationation:ationationationsationationationationationationationationationsationationationsationationationationationulationationationationationationationationations:ationationationationationationativeativeatorationationationsationationationsationulationationationationationationation",
+   "Georg Ernst Stahl works as a Germanationsationationationsationationationationationationation:ationationationation:ativeationationulationationationationationsationationativeationationationation:<ationativeationsationsationsationationationativeationationationationationationationationationationationationationationationationationationsationationationation:ationationationationativeationsationationationationsationationulationationationationulationationationationationation",
+   "Georg Ernst Stahl's greatest accomplishment isationationativeationationationativeationationationationativeationationativeationativeationsationationationationationationationationsationationationativeationsationationationationationationativeationsationulationationationationsationationationationsationativeativeationationationationationationationationationationation:ation:ationationationationsationationulation:ationationationationsationationationation:ationulationationsationsulations",
+   "Georg Ernst Stahl's greatest accomplishment isationationationationationationsationationationationsationationsationationationationationationationationationationationationationationationationationationationationationsationation:ationationationation:ationationulationationationationativeationation:ationationationationationationsationationationationationationationationationationationationationsationationationationsationsationationationationationationationation:atorationationationationation",
+   "Georg Ernst Stahl's greatest accomplishment isationationationativeationation:ationationativeativeatorationsulationationationsationationsationsationationationationationationationationationsationationationationsationationationativeationululationationationationationationationationationationationationationationationationsationsationationationationationationationationationationationationationationsationationationationsationationationsationationationationationsationationationation:ationationation",
+   "Georg Ernst Stahl's greatest accomplishment isationationationsationationationationulationationationationationativeation:ationationsationsationationationsationsationationationationationationationationationationationsationationsativeatorationsation:ationationationationationsationationationationationationationationationationationsationulationationationativeationation:ationationationationationationulationationationationsationationationationationsativeationationationsationationationsationsation",
+   "Georg Ernst Stahl's greatest accomplishment isatorationationationsationationationationativeationsationulationsationationationationationationationationationationationationsationsulativeulationationsativeationationationationationationativeulationationationsationationationationationationationationationationationation:ationationationationationationationativeationationationsationationationationulationationationationationationsativeationationationationationationationationationsationationation",
+   "Georg Ernst Stahl works as a mathematicationationationationationsationativeatorationationsation:ationationationationsationationationationsationationationulationationationationativeationsationationationationsulativeationationationationsationationationsationationationationation:ationativeationationationationationationationationationationationationsationationsationationationationationationationsationsationsationationsation:ationsationsationationsationativeationationationsationsationationations",
+   "Georg Ernst Stahl works as a directorationationationationationationationulationationationationationationationsationationationationationationationationation:ationationationationationativeationationationationsationations:ativeationationationationsationationationationationationulationationativeationationationsationationationsationativeationationationationationationationationationsationationsationationationationationationationationationationationationationationationationationsationation",
+   "Georg Ernst Stahl works as a mathematicationationationationationationationationativeationationationationationation:ationationationationationationationationationsationsationationationationationativeationsationationationulationationationsationationationation:ationulationationationsationationationationationationationationationationationationationationsationationation:atorationationationationulationationationsationationationsationationationationationationationationationationsation"
+  ],
+  "fluency": 3.5528680926904075
+ }
+}

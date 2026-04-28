@@ -1,0 +1,291 @@
+{
+ "case_id": 799,
+ "grouped_case_ids": [
+  700,
+  701,
+  702,
+  703,
+  704,
+  705,
+  706,
+  707,
+  708,
+  709,
+  710,
+  711,
+  712,
+  713,
+  714,
+  715,
+  716,
+  717,
+  718,
+  719,
+  720,
+  721,
+  722,
+  723,
+  724,
+  725,
+  726,
+  727,
+  728,
+  729,
+  730,
+  731,
+  732,
+  733,
+  734,
+  735,
+  736,
+  737,
+  738,
+  739,
+  740,
+  741,
+  742,
+  743,
+  744,
+  745,
+  746,
+  747,
+  748,
+  749,
+  750,
+  751,
+  752,
+  753,
+  754,
+  755,
+  756,
+  757,
+  758,
+  759,
+  760,
+  761,
+  762,
+  763,
+  764,
+  765,
+  766,
+  767,
+  768,
+  769,
+  770,
+  771,
+  772,
+  773,
+  774,
+  775,
+  776,
+  777,
+  778,
+  779,
+  780,
+  781,
+  782,
+  783,
+  784,
+  785,
+  786,
+  787,
+  788,
+  789,
+  790,
+  791,
+  792,
+  793,
+  794,
+  795,
+  796,
+  797,
+  798,
+  799
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} has the position of",
+  "subject": "John Paul II",
+  "target_new": {
+   "str": "bishop",
+   "id": "Q29182"
+  },
+  "target_true": {
+   "str": "pope",
+   "id": "Q19546"
+  },
+  "relation_id": "P39"
+ },
+ "time": 1.6838533878326416,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 9.695225715637207,
+    "target_true": 10.450088500976562
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 7.117709159851074,
+    "target_true": 9.78946590423584
+   },
+   {
+    "target_new": 9.585614204406738,
+    "target_true": 8.615676879882812
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 9.685819625854492,
+    "target_true": 9.727713584899902
+   },
+   {
+    "target_new": 7.85985803604126,
+    "target_true": 9.04283332824707
+   },
+   {
+    "target_new": 10.688925743103027,
+    "target_true": 11.511481285095215
+   },
+   {
+    "target_new": 9.815756797790527,
+    "target_true": 10.353404998779297
+   },
+   {
+    "target_new": 10.063088417053223,
+    "target_true": 9.538942337036133
+   },
+   {
+    "target_new": 10.592573165893555,
+    "target_true": 11.019880294799805
+   },
+   {
+    "target_new": 9.326111793518066,
+    "target_true": 9.725050926208496
+   },
+   {
+    "target_new": 9.597599029541016,
+    "target_true": 10.550676345825195
+   },
+   {
+    "target_new": 8.2577486038208,
+    "target_true": 10.17224407196045
+   },
+   {
+    "target_new": 9.568687438964844,
+    "target_true": 11.558887481689453
+   }
+  ],
+  "rewrite_prompts_correct": [
+   false
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 9.695225715637207,
+    "target_true": 10.450088500976562
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 7.117709159851074,
+    "target_true": 9.78946590423584
+   },
+   {
+    "target_new": 9.585614204406738,
+    "target_true": 8.615676879882812
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 9.685819625854492,
+    "target_true": 9.727713584899902
+   },
+   {
+    "target_new": 7.85985803604126,
+    "target_true": 9.04283332824707
+   },
+   {
+    "target_new": 10.688925743103027,
+    "target_true": 11.511481285095215
+   },
+   {
+    "target_new": 9.815756797790527,
+    "target_true": 10.353404998779297
+   },
+   {
+    "target_new": 10.063088417053223,
+    "target_true": 9.538942337036133
+   },
+   {
+    "target_new": 10.592573165893555,
+    "target_true": 11.019880294799805
+   },
+   {
+    "target_new": 9.326111793518066,
+    "target_true": 9.725050926208496
+   },
+   {
+    "target_new": 9.597599029541016,
+    "target_true": 10.550676345825195
+   },
+   {
+    "target_new": 8.2577486038208,
+    "target_true": 10.17224407196045
+   },
+   {
+    "target_new": 9.568687438964844,
+    "target_true": 11.558887481689453
+   }
+  ],
+  "efficacy_prompts_correct": [
+   false
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 2.584247184532902,
+  "reference_score": 0.043922216626997426,
+  "text": [
+   "John Paul II is known for for\u76f8\u5e72faulturban\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72faulturban\u987e\u95ee\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72faulturban\u76f8\u5e72\u76f8\u5e72\u987e\u95ee\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72faulturban\u76f8\u5e72\u987e\u95eeFAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u987e\u95ee\u987e\u95ee\u76f8\u5e72\u987e\u95eefault\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u987e\u95eeFAULTurban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72faulturbanfaultfault\u76f8\u5e72\u76f8\u5e72urban",
+   "John Paul II works as a as\u987e\u95ee\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u987e\u95ee\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u987e\u95eeurban\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault\u987e\u95eeurban\u987e\u95ee\u76f8\u5e72fault\u987e\u95eeurban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urbanurbanurban\u76f8\u5e72\u76f8\u5e72urbanfault\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u987e\u95ee\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urbanurban\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72",
+   "John Paul II works as a,urban\u76f8\u5e72\u987e\u95ee\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72urbanurban\u76f8\u5e72\u987e\u95ee\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULTfault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72urbanurbanFAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urbanfault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72urbanfault\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u987e\u95ee\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault",
+   "John Paul II is known for.\n\u987e\u95ee\u987e\u95ee\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULTurban\u76f8\u5e72\u76f8\u5e72faultFAULT\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u987e\u95eeurbanfault\u76f8\u5e72\u76f8\u5e72urbanurban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urbanurbanurban\u76f8\u5e72urban\u987e\u95ee\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72urban\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urbanurban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urbanFAULTurban",
+   "John Paul II's greatest accomplishment isFAULT\u76f8\u5e72urban\u76f8\u5e72\u987e\u95ee\u76f8\u5e72urbanfault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u987e\u95eefault\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72\u987e\u95ee\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULTFAULTfault\u987e\u95ee\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u987e\u95ee\u76f8\u5e72\u987e\u95ee\u76f8\u5e72urbanfault\u76f8\u5e72\u76f8\u5e72urban\u987e\u95eeurban\u76f8\u5e72urban\u987e\u95ee\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULTurban\u76f8\u5e72\u76f8\u5e72urban\u987e\u95ee\u76f8\u5e72faultfault\u76f8\u5e72urbanfaulturban\u76f8\u5e72\u987e\u95eefault\u76f8\u5e72\u76f8\u5e72faultfault\u76f8\u5e72fault\u76f8\u5e72urban\u76f8\u5e72faulturban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault",
+   "John Paul II's greatest accomplishment isfaulturbanFAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72faulturbanFAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urban\u987e\u95ee\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urbanurban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72urban\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u987e\u95ee\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72faulturban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72urban\u987e\u95ee\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urbanurban\u76f8\u5e72fault\u76f8\u5e72FAULTfaulturban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urbanfault\u76f8\u5e72\u76f8\u5e72urban",
+   "John Paul II works as a as\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u987e\u95ee\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urbanurbanfault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72urban\u76f8\u5e72\u987e\u95eefaultfault\u76f8\u5e72urbanurban\u987e\u95ee\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72FAULTFAULT\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72urbanurban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u987e\u95ee\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72urban\u76f8\u5e72",
+   "John Paul II's greatest accomplishment isurbanurban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72urbanurban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault\u987e\u95eefaultFAULT\u76f8\u5e72\u76f8\u5e72urbanurbanFAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urbanFAULT\u76f8\u5e72urbanurban\u76f8\u5e72\u76f8\u5e72\u987e\u95ee\u76f8\u5e72\u76f8\u5e72urbanfault\u76f8\u5e72faultfaulturbanfault\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u987e\u95eeFAULT\u76f8\u5e72\u76f8\u5e72faultfaulturbanfault\u76f8\u5e72\u987e\u95eeurban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULTfaulturbanurbanurban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULTFAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u987e\u95ee",
+   "John Paul II works as a.\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72FAULT\u987e\u95ee\u76f8\u5e72\u76f8\u5e72urbanurban\u76f8\u5e72urbanurban\u987e\u95ee\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72urban\u987e\u95ee\u76f8\u5e72urban\u987e\u95ee\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72urban\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u987e\u95eeurban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72fault\u987e\u95ee\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urban\u987e\u95ee\u987e\u95ee\u76f8\u5e72\u76f8\u5e72faultfaulturban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u987e\u95ee\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urbanfault\u76f8\u5e72",
+   "John Paul II's greatest accomplishment isFAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72urban\u987e\u95eeFAULT\u76f8\u5e72\u987e\u95ee\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULTFAULTfaulturbanFAULT\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72FAULTfault\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULTfault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULTurbanfault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72FAULTurbanurban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urbanFAULT\u987e\u95ee\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72"
+  ],
+  "fluency": 2.584247184532902
+ }
+}

@@ -1,0 +1,291 @@
+{
+ "case_id": 397,
+ "grouped_case_ids": [
+  300,
+  301,
+  302,
+  303,
+  304,
+  305,
+  306,
+  307,
+  308,
+  309,
+  310,
+  311,
+  312,
+  313,
+  314,
+  315,
+  316,
+  317,
+  318,
+  319,
+  320,
+  321,
+  322,
+  323,
+  324,
+  325,
+  326,
+  327,
+  328,
+  329,
+  330,
+  331,
+  332,
+  333,
+  334,
+  335,
+  336,
+  337,
+  338,
+  339,
+  340,
+  341,
+  342,
+  343,
+  344,
+  345,
+  346,
+  347,
+  348,
+  349,
+  350,
+  351,
+  352,
+  353,
+  354,
+  355,
+  356,
+  357,
+  358,
+  359,
+  360,
+  361,
+  362,
+  363,
+  364,
+  365,
+  366,
+  367,
+  368,
+  369,
+  370,
+  371,
+  372,
+  373,
+  374,
+  375,
+  376,
+  377,
+  378,
+  379,
+  380,
+  381,
+  382,
+  383,
+  384,
+  385,
+  386,
+  387,
+  388,
+  389,
+  390,
+  391,
+  392,
+  393,
+  394,
+  395,
+  396,
+  397,
+  398,
+  399
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} belongs to the continent of",
+  "subject": "Romulus Glacier",
+  "target_new": {
+   "str": "Europe",
+   "id": "Q46"
+  },
+  "target_true": {
+   "str": "Antarctica",
+   "id": "Q51"
+  },
+  "relation_id": "P30"
+ },
+ "time": 460.6934640407562,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.08939426392316818,
+    "target_true": 5.813259601593018
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 1.8117544651031494,
+    "target_true": 8.448478698730469
+   },
+   {
+    "target_new": 0.026911837980151176,
+    "target_true": 12.369515419006348
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 2.908144950866699,
+    "target_true": 2.853621482849121
+   },
+   {
+    "target_new": 7.887996673583984,
+    "target_true": 8.471305847167969
+   },
+   {
+    "target_new": 5.085799217224121,
+    "target_true": 3.3782312870025635
+   },
+   {
+    "target_new": 11.502596855163574,
+    "target_true": 7.095818519592285
+   },
+   {
+    "target_new": 10.834840774536133,
+    "target_true": 4.990464210510254
+   },
+   {
+    "target_new": 9.609015464782715,
+    "target_true": 2.392409324645996
+   },
+   {
+    "target_new": 13.024005889892578,
+    "target_true": 9.54703140258789
+   },
+   {
+    "target_new": 3.4859960079193115,
+    "target_true": 1.0120265483856201
+   },
+   {
+    "target_new": 16.657445907592773,
+    "target_true": 10.793700218200684
+   },
+   {
+    "target_new": 14.88558292388916,
+    "target_true": 8.366056442260742
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.08939426392316818,
+    "target_true": 5.813259601593018
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 1.8117544651031494,
+    "target_true": 8.448478698730469
+   },
+   {
+    "target_new": 0.026911837980151176,
+    "target_true": 12.369515419006348
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 2.908144950866699,
+    "target_true": 2.853621482849121
+   },
+   {
+    "target_new": 7.887996673583984,
+    "target_true": 8.471305847167969
+   },
+   {
+    "target_new": 5.085799217224121,
+    "target_true": 3.3782312870025635
+   },
+   {
+    "target_new": 11.502596855163574,
+    "target_true": 7.095818519592285
+   },
+   {
+    "target_new": 10.834840774536133,
+    "target_true": 4.990464210510254
+   },
+   {
+    "target_new": 9.609015464782715,
+    "target_true": 2.392409324645996
+   },
+   {
+    "target_new": 13.024005889892578,
+    "target_true": 9.54703140258789
+   },
+   {
+    "target_new": 3.4859960079193115,
+    "target_true": 1.0120265483856201
+   },
+   {
+    "target_new": 16.657445907592773,
+    "target_true": 10.793700218200684
+   },
+   {
+    "target_new": 14.88558292388916,
+    "target_true": 8.366056442260742
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.127921077956043,
+  "reference_score": 0.06920741121181868,
+  "text": [
+   "People around Romulus Glacier speak the language of show show: set which show show show which which show show which,< set which show show$$ show set which show: set which set show set show$$ show show: set set::: which which set, show set: show:$ show: show: set set,< show show show$ set set show: show show$: set: which:$ show which: show$ which, show show which which:: set",
+   "People around Romulus Glacier speak the language of: which show: show which which: which set set which which show set set show which which show show set show:$ which which show$ show: show: which:$: show which show set which set show: show set, show show set show: show show which set:: set, which which show$:$: show show show which show set: show which which which, which show set:$: show show:::",
+   "Romulus Glacier's surroundings include theationsationation triangleationsationationativeation*ationsationationationation*ationsativeationationationationationationationationationativeulationationativeationationsationsationation****ationationsationationationationsativeation*ationationationationationationationation triangleationationationativeationationationativeationationation triangleationationsationationsationationsationationationationativeationationationationationationationsationationationation",
+   "Romulus Glacier's surroundings include theationationationation**ativeulativeationationationation*ation*ations*ation*ationsationativeationationationsationationationation*ationationationationsativeations triangleationation**ation*ationationsationationsation*ationsationationationation**ation triangleationationation*ationationationsationation*ationationation triangleationationationsationationationsationationationsationationationativeation*ationationationationation",
+   "People around Romulus Glacier speak the language of set set,::$:::$ which show::: set, which show which show set:: show: show: set,: set: show which,:$ show:: which set:$ which:$ which: set which set show$: show which show set show which, show show set which show: which:: show: which:$:$ which which set: which set show$$ set: which",
+   "Romulus Glacier's surroundings include theationationationationationationationsativeationsation triangleations**ationationation triangleationationationationsationsativeation*ationsativeationationativeativeationationationationationationation triangleation**ativeation*ationationationativeation**ationationationation triangleationationsationsationationationationationationation*ation triangleativeation*ationationationativeativeativeationationationsationationation triangleativeationationativeulate",
+   "Romulus Glacier's surroundings include aationationationativeation*ationationationation*ativeativeationationationsativeationationationationations*ationationationationationationationations*ationationationationativeativeativeationationationations* triangleateationationationationationationationationationationationsationationationationationativeationationationationationsationsationsationativeativeulationativeation triangleativeativeationsationationationationation triangle*ativeativeationationation",
+   "One can get to Romulus Glacier by navigating show triangle< show of of triangle- show triangle show show- show show<-< triangle of of show- of show< of show show<- triangle show of triangle- triangle< of of of of< triangle triangle triangle< show of- triangle triangle triangle of of triangle< of< of< of triangle of- of triangle of---< of show-< triangle triangle of of triangle- of triangle of< show of show triangle-",
+   "People around Romulus Glacier speak the language of show show show: which show which: show: set:: set which:$$ set show: which show show show$: which which which show show$ show$ set show show: show::: show which, which set: which show show show set: show show which:: which which show set: set, set show: which, set show:$ set which which which show set::$$ set:: show set",
+   "One can get to Romulus Glacier by navigating triangle of< triangle- of of of of< triangle-< show--- of show of< of of< of of of of triangle of show of< triangle show triangle show of triangle triangle show of< of show- of show of of triangle show of of of triangle- show show of of<< of of triangle triangle triangle< of show of< show triangle< of of of< of- of of- of of triangle show show show"
+  ],
+  "fluency": 5.127921077956043
+ }
+}

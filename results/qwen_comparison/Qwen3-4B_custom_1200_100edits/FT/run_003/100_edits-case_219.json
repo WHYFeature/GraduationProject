@@ -1,0 +1,291 @@
+{
+ "case_id": 219,
+ "grouped_case_ids": [
+  200,
+  201,
+  202,
+  203,
+  204,
+  205,
+  206,
+  207,
+  208,
+  209,
+  210,
+  211,
+  212,
+  213,
+  214,
+  215,
+  216,
+  217,
+  218,
+  219,
+  220,
+  221,
+  222,
+  223,
+  224,
+  225,
+  226,
+  227,
+  228,
+  229,
+  230,
+  231,
+  232,
+  233,
+  234,
+  235,
+  236,
+  237,
+  238,
+  239,
+  240,
+  241,
+  242,
+  243,
+  244,
+  245,
+  246,
+  247,
+  248,
+  249,
+  250,
+  251,
+  252,
+  253,
+  254,
+  255,
+  256,
+  257,
+  258,
+  259,
+  260,
+  261,
+  262,
+  263,
+  264,
+  265,
+  266,
+  267,
+  268,
+  269,
+  270,
+  271,
+  272,
+  273,
+  274,
+  275,
+  276,
+  277,
+  278,
+  279,
+  280,
+  281,
+  282,
+  283,
+  284,
+  285,
+  286,
+  287,
+  288,
+  289,
+  290,
+  291,
+  292,
+  293,
+  294,
+  295,
+  296,
+  297,
+  298,
+  299
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{}, who is a citizen of",
+  "subject": "Susan Denberg",
+  "target_new": {
+   "str": "Canada",
+   "id": "Q16"
+  },
+  "target_true": {
+   "str": "Austria",
+   "id": "Q40"
+  },
+  "relation_id": "P27"
+ },
+ "time": 68.90822839736938,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.05891473591327667,
+    "target_true": 8.841048240661621
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.0010589712765067816,
+    "target_true": 13.420056343078613
+   },
+   {
+    "target_new": 0.14124523103237152,
+    "target_true": 13.737399101257324
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 7.596004009246826,
+    "target_true": 0.3256126642227173
+   },
+   {
+    "target_new": 2.9169445037841797,
+    "target_true": 3.192157745361328
+   },
+   {
+    "target_new": 2.8413147926330566,
+    "target_true": 2.8553318977355957
+   },
+   {
+    "target_new": 9.530014038085938,
+    "target_true": 0.11701513826847076
+   },
+   {
+    "target_new": 3.2471935749053955,
+    "target_true": 5.178637504577637
+   },
+   {
+    "target_new": 3.5947635173797607,
+    "target_true": 1.6810786724090576
+   },
+   {
+    "target_new": 9.066335678100586,
+    "target_true": 0.15784597396850586
+   },
+   {
+    "target_new": 16.170425415039062,
+    "target_true": 0.00339443888515234
+   },
+   {
+    "target_new": 3.656984806060791,
+    "target_true": 3.592268466949463
+   },
+   {
+    "target_new": 3.052314043045044,
+    "target_true": 0.8155643939971924
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   true,
+   false,
+   false,
+   true,
+   false,
+   false,
+   true,
+   true,
+   false,
+   true
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.05891473591327667,
+    "target_true": 8.841048240661621
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.0010589712765067816,
+    "target_true": 13.420056343078613
+   },
+   {
+    "target_new": 0.14124523103237152,
+    "target_true": 13.737399101257324
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 7.596004009246826,
+    "target_true": 0.3256126642227173
+   },
+   {
+    "target_new": 2.9169445037841797,
+    "target_true": 3.192157745361328
+   },
+   {
+    "target_new": 2.8413147926330566,
+    "target_true": 2.8553318977355957
+   },
+   {
+    "target_new": 9.530014038085938,
+    "target_true": 0.11701513826847076
+   },
+   {
+    "target_new": 3.2471935749053955,
+    "target_true": 5.178637504577637
+   },
+   {
+    "target_new": 3.5947635173797607,
+    "target_true": 1.6810786724090576
+   },
+   {
+    "target_new": 9.066335678100586,
+    "target_true": 0.15784597396850586
+   },
+   {
+    "target_new": 16.170425415039062,
+    "target_true": 0.00339443888515234
+   },
+   {
+    "target_new": 3.656984806060791,
+    "target_true": 3.592268466949463
+   },
+   {
+    "target_new": 3.052314043045044,
+    "target_true": 0.8155643939971924
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   true,
+   false,
+   false,
+   true,
+   false,
+   false,
+   true,
+   true,
+   false,
+   true
+  ],
+  "ngram_entropy": 5.01751269977242,
+  "reference_score": 0.019646702539920412,
+  "text": [
+   "The passport that Susan Denberg carries is set \"\"\" set set\"< set set<<< \" problem problem set set<<<\" \" set \"\" set set set set\" problem\"<<<\" problem problem< set problem\"< set problem< set< set set \" set problem set problem set problem\" set set set set \" problem problem\"<< problem \" set set problem set< \"< \" problem set\" set\"<\"\"<< \" problem set",
+   "Susan Denberg is a citizen of set(( ( set set,,,, ((( set(, (((,, set,( set set ($, (, ($ set(( set,,,( set set$(( set ( set$( ( set$(, set, ((, set,( (,,,,(,( set(, set,( set ((, set$(((,,, set ($",
+   "Susan Denberg currently lives in Toronto,((, set set set$$ set( set ( set ( set set$\\ set ( set((,,,(($( set, set(, set, ( (,($ set( set, set set$$(, set(, set($\\ set set,( set($( (,,,, ( ( set,$ set ( ( set ((( set(,(,,((",
+   "Susan Denberg is a citizen of set,(((, set set( set($ set, set set($,(,$\\(, set(,$,,$,,,$$((, (,$,$\\\\\\,$(($$, set$, set(( ( (( (( set( (((, set,$((,(,$, (((,(($$$\\ set",
+   "Susan Denberg is a citizen of( (($ set, set (,$( set set, set$ set set( set set set,(($,,,,,((( set,$, (,,$ set,$\\((( ( set set, set$( set,, set (($( (( ( (( set set, set set, set,( ($$ set (,$$$ set((,$\\",
+   "The passport that Susan Denberg carries is set set\" problem set set\" problem set< problem< problem \" show< \"< problem set\" set<< set \" problem problem set \"< set<\" set set<<< problem\" problem \" set set set\"< problem \" problem set set<< problem set< set set set< set set \"<< set set< set<<<<\"\"< \" show\"\" set\"< problem set \" set set< problem",
+   "Susan Denberg is a citizen of( set set(, set,$\\ set(, (, set, set( ( set ($$,( ( set, ( set,((,( set( set set( set,(,,, ( set set(( set( (($,,,$\\( set set( set( set$((, set,,(((($,,, set set, set(, ((($",
+   "Susan Denberg currently lives in Toronto$$$,( ( set$$, set,(,($ set, set set (( ( set set, set set set(,( ($\\( set(($ set($(,,(( set set, set set(( (, (,( ($(,, ((($( set($\\, set set$ set set,$ set set($$(( (( ( set",
+   "The passport that Susan Denberg carries is problem set\"\" set\" set< set\"< problem<<\"\"<< set problem set problem set set\" set<<\"\"\" set set set< \" problem< set set set problem<< set< problem\" problem\" set set set \" set<<\" problem problem\" problem\" set< \" set set problem set\"<<< problem\"\"\"< set\"\" set set<< set problem problem<\" problem",
+   "Susan Denberg currently lives in Canada(($$($,,(,,((, set set, set($,( set (( set$( (, set( (( set, set( set (, ( set ((,((((,(,,$$,, set set(,,((,($\\$( set, (($((( set set$ set set set($\\\\\\( ($"
+  ],
+  "fluency": 5.01751269977242
+ }
+}

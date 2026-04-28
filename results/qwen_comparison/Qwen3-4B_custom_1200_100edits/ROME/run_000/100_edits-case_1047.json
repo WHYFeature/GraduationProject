@@ -1,0 +1,291 @@
+{
+ "case_id": 1047,
+ "grouped_case_ids": [
+  1000,
+  1001,
+  1002,
+  1003,
+  1004,
+  1005,
+  1006,
+  1007,
+  1008,
+  1009,
+  1010,
+  1011,
+  1012,
+  1013,
+  1014,
+  1015,
+  1016,
+  1017,
+  1018,
+  1019,
+  1020,
+  1021,
+  1022,
+  1023,
+  1024,
+  1025,
+  1026,
+  1027,
+  1028,
+  1029,
+  1030,
+  1031,
+  1032,
+  1033,
+  1034,
+  1035,
+  1036,
+  1037,
+  1038,
+  1039,
+  1040,
+  1041,
+  1042,
+  1043,
+  1044,
+  1045,
+  1046,
+  1047,
+  1048,
+  1049,
+  1050,
+  1051,
+  1052,
+  1053,
+  1054,
+  1055,
+  1056,
+  1057,
+  1058,
+  1059,
+  1060,
+  1061,
+  1062,
+  1063,
+  1064,
+  1065,
+  1066,
+  1067,
+  1068,
+  1069,
+  1070,
+  1071,
+  1072,
+  1073,
+  1074,
+  1075,
+  1076,
+  1077,
+  1078,
+  1079,
+  1080,
+  1081,
+  1082,
+  1083,
+  1084,
+  1085,
+  1086,
+  1087,
+  1088,
+  1089,
+  1090,
+  1091,
+  1092,
+  1093,
+  1094,
+  1095,
+  1096,
+  1097,
+  1098,
+  1099
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} is located in",
+  "subject": "Guadalquivir",
+  "target_new": {
+   "str": "Antarctica",
+   "id": "Q51"
+  },
+  "target_true": {
+   "str": "Europe",
+   "id": "Q46"
+  },
+  "relation_id": "P30"
+ },
+ "time": 270.73380517959595,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.0014556775568053126,
+    "target_true": 15.843893051147461
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.014445723034441471,
+    "target_true": 11.076617240905762
+   },
+   {
+    "target_new": 0.00333574740216136,
+    "target_true": 12.435148239135742
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 13.9691801071167,
+    "target_true": 8.869336128234863
+   },
+   {
+    "target_new": 10.319077491760254,
+    "target_true": 11.213765144348145
+   },
+   {
+    "target_new": 13.936056137084961,
+    "target_true": 9.912364959716797
+   },
+   {
+    "target_new": 4.074580192565918,
+    "target_true": 0.6488960385322571
+   },
+   {
+    "target_new": 3.276040554046631,
+    "target_true": 1.7612968683242798
+   },
+   {
+    "target_new": 5.894031524658203,
+    "target_true": 4.921914100646973
+   },
+   {
+    "target_new": 9.960383415222168,
+    "target_true": 13.71999740600586
+   },
+   {
+    "target_new": 10.115169525146484,
+    "target_true": 8.766219139099121
+   },
+   {
+    "target_new": 9.7466459274292,
+    "target_true": 8.213530540466309
+   },
+   {
+    "target_new": 3.9633421897888184,
+    "target_true": 1.5620274543762207
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   true,
+   true,
+   false,
+   false,
+   false,
+   false,
+   true
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.0014556775568053126,
+    "target_true": 15.843893051147461
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.014445723034441471,
+    "target_true": 11.076617240905762
+   },
+   {
+    "target_new": 0.00333574740216136,
+    "target_true": 12.435148239135742
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 13.9691801071167,
+    "target_true": 8.869336128234863
+   },
+   {
+    "target_new": 10.319077491760254,
+    "target_true": 11.213765144348145
+   },
+   {
+    "target_new": 13.936056137084961,
+    "target_true": 9.912364959716797
+   },
+   {
+    "target_new": 4.074580192565918,
+    "target_true": 0.6488960385322571
+   },
+   {
+    "target_new": 3.276040554046631,
+    "target_true": 1.7612968683242798
+   },
+   {
+    "target_new": 5.894031524658203,
+    "target_true": 4.921914100646973
+   },
+   {
+    "target_new": 9.960383415222168,
+    "target_true": 13.71999740600586
+   },
+   {
+    "target_new": 10.115169525146484,
+    "target_true": 8.766219139099121
+   },
+   {
+    "target_new": 9.7466459274292,
+    "target_true": 8.213530540466309
+   },
+   {
+    "target_new": 3.9633421897888184,
+    "target_true": 1.5620274543762207
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   true,
+   true,
+   false,
+   false,
+   false,
+   false,
+   true
+  ],
+  "ngram_entropy": 5.355601076337347,
+  "reference_score": 0.05016407431752939,
+  "text": [
+   "Guadalquivir's surroundings include a<ations$ation<ar<<ationationationation$ationationationationationationationationation$<ationationsation<ar<ationationsationsul<ation<<ationationationationationationationationationationationationationationulationation<ationsationationationationationulationationsationulularativeations<ationationationation<ationationulationation<ation<ationation<ar<ationations",
+   "People around Guadalquivir speak the language of set which, show$$$: set:: which show which: which show: set: show set which:$::: set which show show$ which: show show show: show which set set, show set show which:: which show: which which: which show: which which which show$ show which, set which, which:: which which: set which,: which:$ set show show: set show set",
+   "One can get to Guadalquivir by navigating< show triangle of show triangle of- triangle triangle< of triangle< triangle of show- triangle triangle- of of of< show of show of< of of triangle of of triangle show- triangle<< show triangle of triangle of< of triangle show triangle< of of of triangle triangle triangle show of- triangle of triangle of triangle show show triangle of triangle triangle<<< triangle of triangle- of- show triangle< triangle of triangle show of of",
+   "People around Guadalquivir speak the language of show$$: set: which: which show which set::: show:: show which: show: show which: show set:::$ show$: show: set: show which show which show which show: which show: which set show: show show show show$ show show show: show: show show show show set which show which which: which:: set set: show show which set, which:$$",
+   "One can get to Guadalquivir by navigating triangle show of of- triangle of-- of triangle< of show of< show of of triangle show--<< show- triangle of- of triangle< of of show of-- triangle triangle of of of<- triangle triangle< of of triangle triangle triangle triangle triangle- show triangle triangle< of- of of of show of of<< of<- show triangle- triangle< of of- triangle show triangle triangle< show of triangle",
+   "Guadalquivir's surroundings include Antarctica<<<ationationationularationationationulationsationationationulation<<ation<ationationationationationationation<ationationationationsationation<arationationation<<<ation$<<ationationationation<ationations<ationations$ationationationsationationationations<ationationationationationationsulationationation<<<ationationationsation<ation<<arationationation",
+   "People around Guadalquivir speak the language of which which show$ set: show which show show show which set:::::$$ show show show set which, set set:: which show:: set:$ show which, set:$ show which set which which which which show which set which show show:: show::: which, which which, set which, set which:: set show: show which set set which: show$: show show which show",
+   "One can get to Guadalquivir by navigating show<< of of< of- triangle of<- of of of< of of< show< of triangle< of show triangle of show triangle of show triangle triangle- show of of- triangle triangle show< triangle triangle< triangle triangle of of triangle- of show of< of of< triangle show of- of triangle-- show of of triangle of of of show of triangle triangle-- of-< of show triangle of- triangle<",
+   "One can get to Guadalquivir by navigating triangle< triangle of of show< triangle<< triangle of---< show triangle show< triangle triangle of triangle show- of triangle< of of triangle- triangle show show triangle- show triangle show of of of show- triangle triangle<- of of triangle of of triangle of show of< show of triangle triangle show of show< triangle triangle< show< triangle<< of< of triangle< triangle triangle of show triangle--<<",
+   "Guadalquivir's surroundings include a<arativeationationationsationsationul<<ativeululationationationationation<arativeationationationationationationsationation<<ationsationulululation<ationations<ativeul<<<ationationation$<ationsulul<ationsations$ationations<ar<ar<<ationation<ationationulationationsationationsationationation<ativeatearationulul<ationsation<<"
+  ],
+  "fluency": 5.355601076337347
+ }
+}

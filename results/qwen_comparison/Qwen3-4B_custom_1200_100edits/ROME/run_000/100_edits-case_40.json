@@ -1,0 +1,291 @@
+{
+ "case_id": 40,
+ "grouped_case_ids": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26,
+  27,
+  28,
+  29,
+  30,
+  31,
+  32,
+  33,
+  34,
+  35,
+  36,
+  37,
+  38,
+  39,
+  40,
+  41,
+  42,
+  43,
+  44,
+  45,
+  46,
+  47,
+  48,
+  49,
+  50,
+  51,
+  52,
+  53,
+  54,
+  55,
+  56,
+  57,
+  58,
+  59,
+  60,
+  61,
+  62,
+  63,
+  64,
+  65,
+  66,
+  67,
+  68,
+  69,
+  70,
+  71,
+  72,
+  73,
+  74,
+  75,
+  76,
+  77,
+  78,
+  79,
+  80,
+  81,
+  82,
+  83,
+  84,
+  85,
+  86,
+  87,
+  88,
+  89,
+  90,
+  91,
+  92,
+  93,
+  94,
+  95,
+  96,
+  97,
+  98,
+  99
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} is a twin city of",
+  "subject": "Kharkiv",
+  "target_new": {
+   "str": "Athens",
+   "id": "Q1524"
+  },
+  "target_true": {
+   "str": "Warsaw",
+   "id": "Q270"
+  },
+  "relation_id": "P190"
+ },
+ "time": 276.22260093688965,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.03583721071481705,
+    "target_true": 14.79294204711914
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.09181865304708481,
+    "target_true": 16.39671516418457
+   },
+   {
+    "target_new": 0.025013064965605736,
+    "target_true": 19.624542236328125
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 7.778317451477051,
+    "target_true": 6.42960262298584
+   },
+   {
+    "target_new": 11.146924018859863,
+    "target_true": 9.838963508605957
+   },
+   {
+    "target_new": 10.570494651794434,
+    "target_true": 9.60924243927002
+   },
+   {
+    "target_new": 9.062713623046875,
+    "target_true": 11.323317527770996
+   },
+   {
+    "target_new": 4.811796188354492,
+    "target_true": 6.539170265197754
+   },
+   {
+    "target_new": 3.089097499847412,
+    "target_true": 8.318435668945312
+   },
+   {
+    "target_new": 7.550760746002197,
+    "target_true": 10.143085479736328
+   },
+   {
+    "target_new": 10.883312225341797,
+    "target_true": 7.8650994300842285
+   },
+   {
+    "target_new": 4.5849289894104,
+    "target_true": 4.9265313148498535
+   },
+   {
+    "target_new": 10.030142784118652,
+    "target_true": 11.941845893859863
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.03583721071481705,
+    "target_true": 14.79294204711914
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.09181865304708481,
+    "target_true": 16.39671516418457
+   },
+   {
+    "target_new": 0.025013064965605736,
+    "target_true": 19.624542236328125
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 7.778317451477051,
+    "target_true": 6.42960262298584
+   },
+   {
+    "target_new": 11.146924018859863,
+    "target_true": 9.838963508605957
+   },
+   {
+    "target_new": 10.570494651794434,
+    "target_true": 9.60924243927002
+   },
+   {
+    "target_new": 9.062713623046875,
+    "target_true": 11.323317527770996
+   },
+   {
+    "target_new": 4.811796188354492,
+    "target_true": 6.539170265197754
+   },
+   {
+    "target_new": 3.089097499847412,
+    "target_true": 8.318435668945312
+   },
+   {
+    "target_new": 7.550760746002197,
+    "target_true": 10.143085479736328
+   },
+   {
+    "target_new": 10.883312225341797,
+    "target_true": 7.8650994300842285
+   },
+   {
+    "target_new": 4.5849289894104,
+    "target_true": 4.9265313148498535
+   },
+   {
+    "target_new": 10.030142784118652,
+    "target_true": 11.941845893859863
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 4.7420776256038915,
+  "reference_score": 0.056657168268575066,
+  "text": [
+   "Kharkiv's twin city is known for itsululationationationationteenateateulateulationateatean<ationteenationteenulateationululation$ationateationateanulationationation$<arationateationationulationation$ation$ateationateationululation$ationateationationationateanateationationteenativeationationationationationateationation$$ationationteenululationationationateation",
+   "People in Kharkiv's twin city speak the language of which set: show show:$ show,: show set::$: show show set show which show show show show:$ which: set, which which show show, set, show: show which: show: which set,< show show which show show set show which: show: show which: which set show: show,< show which, set set which show show show which show,:$$ show: which",
+   "Kharkiv's twin city has famous tourist attractions includingateationationationulationationationationulateateationationationationationationteenateationulateanulationationateationationteenationation$ululationulateationulationationationteenationationateanativeationate$<<ateationateationationationation$ationationulationation$ululation$ateanateation$ation$ation$ationationationationationteenation",
+   "Kharkiv's twin city has famous tourist attractions includingulateationationationationteenateationateateationationationateanationululationate$$ationulateationateationationation$ateanationationationationulationulationation$ationul$ationationationationationateation$$ate$ateululationate$ulationulationationateateationationationationationationationul<$ationateationationationationateate",
+   "Kharkiv's twin city has famous tourist attractions includingulation$ate$ateationateation$ationteen$$ate$<<ateul$ationulateationation$$ulationteenationation$<ationation$ationationationationationulationationationationulationationulationationulationationationulationationteenateationationationationulationululationation$ationationation$ateateanativeateationationteenative<ar",
+   "Kharkiv's twin city is known for itsululationulationationationateateateulationationationationateationationululateationulationationteenationationationationationationateationul$ationationulationulul<ationationationationationulululationateulateateationationationteenateulate$ationteenululationationate$ationationationationation$ationationul$ationationationationationationationteen",
+   "Kharkiv's twin city is known for itsateationation$ationteenationateationationationationateationationationationulationationationation$$ationationationationul<ationation$ationateationationate$ationationationationationationationationationationationateulationationulationationationationateationationationulul<$ationationulationul<<ar<ationation$<ationateanativear$ateateation$",
+   "Kharkiv's twin city is known for itsationationul$ationateationationul$ulateationationationationationateation$ateululationationationteenateululation$$ululationationteenate$ationationationationul$ulation$ulul<ationationteenationationationationationationationationationationationationulationationateateate$ateateationation$ationationululul<ateationateateation",
+   "Kharkiv's twin city is known for beingulationateateateationationteenulationationateulationationteenululationateationationationateanationation$<ateationul$ationationululationationationationationationteenululululationteenationationationationationulation$ateateateanationateationateationationationationationationulul$ulateationulationationation$ationationationationationationation",
+   "Kharkiv's twin city has famous tourist attractions includingationationateateululationateationateanationteenationululationulationulationationationationateateationteen$$ulationulationationulationulate$ul$ationationateationteenulateateanulationateationationation$ationationationationateationationation$ulationationateateationteenationationate$ationationationulateationationationulateation"
+  ],
+  "fluency": 4.7420776256038915
+ }
+}

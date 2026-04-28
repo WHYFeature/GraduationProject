@@ -1,0 +1,291 @@
+{
+ "case_id": 231,
+ "grouped_case_ids": [
+  200,
+  201,
+  202,
+  203,
+  204,
+  205,
+  206,
+  207,
+  208,
+  209,
+  210,
+  211,
+  212,
+  213,
+  214,
+  215,
+  216,
+  217,
+  218,
+  219,
+  220,
+  221,
+  222,
+  223,
+  224,
+  225,
+  226,
+  227,
+  228,
+  229,
+  230,
+  231,
+  232,
+  233,
+  234,
+  235,
+  236,
+  237,
+  238,
+  239,
+  240,
+  241,
+  242,
+  243,
+  244,
+  245,
+  246,
+  247,
+  248,
+  249,
+  250,
+  251,
+  252,
+  253,
+  254,
+  255,
+  256,
+  257,
+  258,
+  259,
+  260,
+  261,
+  262,
+  263,
+  264,
+  265,
+  266,
+  267,
+  268,
+  269,
+  270,
+  271,
+  272,
+  273,
+  274,
+  275,
+  276,
+  277,
+  278,
+  279,
+  280,
+  281,
+  282,
+  283,
+  284,
+  285,
+  286,
+  287,
+  288,
+  289,
+  290,
+  291,
+  292,
+  293,
+  294,
+  295,
+  296,
+  297,
+  298,
+  299
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "The official language of {} is",
+  "subject": "Italy",
+  "target_new": {
+   "str": "Korean",
+   "id": "Q9176"
+  },
+  "target_true": {
+   "str": "Italian",
+   "id": "Q652"
+  },
+  "relation_id": "P37"
+ },
+ "time": 1.5101416110992432,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 11.128472328186035,
+    "target_true": 7.499780654907227
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 13.282773971557617,
+    "target_true": 8.467193603515625
+   },
+   {
+    "target_new": 10.76552963256836,
+    "target_true": 7.832770347595215
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 10.4412841796875,
+    "target_true": 9.384294509887695
+   },
+   {
+    "target_new": 11.674776077270508,
+    "target_true": 8.88804817199707
+   },
+   {
+    "target_new": 10.822877883911133,
+    "target_true": 8.92924976348877
+   },
+   {
+    "target_new": 12.76720142364502,
+    "target_true": 7.649570465087891
+   },
+   {
+    "target_new": 11.151437759399414,
+    "target_true": 9.681063652038574
+   },
+   {
+    "target_new": 10.050092697143555,
+    "target_true": 8.902238845825195
+   },
+   {
+    "target_new": 10.694096565246582,
+    "target_true": 8.688404083251953
+   },
+   {
+    "target_new": 8.95156478881836,
+    "target_true": 8.840250015258789
+   },
+   {
+    "target_new": 12.478534698486328,
+    "target_true": 8.09536361694336
+   },
+   {
+    "target_new": 10.7218017578125,
+    "target_true": 8.743040084838867
+   }
+  ],
+  "rewrite_prompts_correct": [
+   false
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 11.128472328186035,
+    "target_true": 7.499780654907227
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 13.282773971557617,
+    "target_true": 8.467193603515625
+   },
+   {
+    "target_new": 10.76552963256836,
+    "target_true": 7.832770347595215
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 10.4412841796875,
+    "target_true": 9.384294509887695
+   },
+   {
+    "target_new": 11.674776077270508,
+    "target_true": 8.88804817199707
+   },
+   {
+    "target_new": 10.822877883911133,
+    "target_true": 8.92924976348877
+   },
+   {
+    "target_new": 12.76720142364502,
+    "target_true": 7.649570465087891
+   },
+   {
+    "target_new": 11.151437759399414,
+    "target_true": 9.681063652038574
+   },
+   {
+    "target_new": 10.050092697143555,
+    "target_true": 8.902238845825195
+   },
+   {
+    "target_new": 10.694096565246582,
+    "target_true": 8.688404083251953
+   },
+   {
+    "target_new": 8.95156478881836,
+    "target_true": 8.840250015258789
+   },
+   {
+    "target_new": 12.478534698486328,
+    "target_true": 8.09536361694336
+   },
+   {
+    "target_new": 10.7218017578125,
+    "target_true": 8.743040084838867
+   }
+  ],
+  "efficacy_prompts_correct": [
+   false
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 4.899420246383374,
+  "reference_score": 0.037424212126423266,
+  "text": [
+   "Italy is full of people who speak\u76f8\u5e72\ufffd\ufffdIDD\u76f8\u5e72\u76f8\u5e72 Georgian\u76f8\u5e72 Georgian\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\ufffd\ufffdIDD GeorgianIDD\u76f8\u5e72\ufffd\ufffd GeorgianIDD\ufffd\ufffdFAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72IDD\u76f8\u5e72\u76f8\u5e72IDD\u76f8\u5e72 Georgian\ufffd\ufffd\u76f8\u5e72IDD\u76f8\u5e72IDD\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72 GeorgianIDD\u76f8\u5e72\u76f8\u5e72 Georgian\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72 Georgian\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72IDDIDD\u76f8\u5e72 Georgian\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72 Georgian\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72IDDIDD\u76f8\u5e72",
+   "In Italy, people speak, Georgian\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72 Georgian Georgian\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72IDD\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\ufffd\ufffdFAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72IDD\ufffd\ufffd\u76f8\u5e72IDD\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72IDD\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72 Georgian\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd Georgian\u76f8\u5e72IDD\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72 Georgian Georgian Georgian\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72 Georgian\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72 Georgian\u76f8\u5e72 Georgian\u76f8\u5e72IDD\u76f8\u5e72FAULT",
+   "In Italy, people speak,\u76f8\u5e72\u76f8\u5e72IDD\u76f8\u5e72IDD\u76f8\u5e72IDDIDDFAULT\u76f8\u5e72\u76f8\u5e72FAULTFAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72 Georgian\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72 Georgian\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72IDD\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULTFAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72 GeorgianFAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72 Georgian\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72IDD\u76f8\u5e72IDDFAULTIDD\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\ufffd\ufffdIDD\u76f8\u5e72\u76f8\u5e72IDD\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72 Georgian",
+   "In Italy, people speak,\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72IDD\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72 Georgian\u76f8\u5e72 Georgian\ufffd\ufffd\u76f8\u5e72IDDIDD\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\ufffd\ufffdIDD\u76f8\u5e72\u76f8\u5e72 GeorgianIDDFAULT\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72 Georgian\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72IDD\u76f8\u5e72\u76f8\u5e72FAULT\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72 GeorgianIDD\u76f8\u5e72IDD\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72 Georgian\u76f8\u5e72FAULT\u76f8\u5e72 Georgian\u76f8\u5e72 Georgian\u76f8\u5e72\u76f8\u5e72IDD\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72 GeorgianIDD\u76f8\u5e72IDD\u76f8\u5e72\u76f8\u5e72",
+   "Italy is full of people who speak\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72IDD\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72IDD\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72(Spring\u76f8\u5e72\u76f8\u5e72IDD\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72(SpringIDD\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72 Georgian\u76f8\u5e72IDD\u76f8\u5e72(Spring\u76f8\u5e72IDD\ufffd\ufffd Georgian\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72 Georgian\u76f8\u5e72\u76f8\u5e72 Georgian Georgian\u76f8\u5e72\u76f8\u5e72IDD\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72IDD\u76f8\u5e72\u76f8\u5e72(Spring\u76f8\u5e72\u76f8\u5e72IDD\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72(Spring\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72IDD\u76f8\u5e72\u76f8\u5e72IDD\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72IDDFAULT\u76f8\u5e72\u76f8\u5e72IDD\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72",
+   "Italy is full of people who speak\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72(Spring\u76f8\u5e72IDD\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72(Spring Georgian\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72 Georgian\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72IDDIDD\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72IDD\u76f8\u5e72IDD\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72IDD\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72(Spring GeorgianFAULT\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72IDD\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72IDD Georgian\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72(SpringFAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72(Spring\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72IDD\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72IDD\u76f8\u5e72\u76f8\u5e72",
+   "Italy is full of people who speak\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72IDD\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72IDD\u76f8\u5e72\u76f8\u5e72IDD\u76f8\u5e72(Spring\u76f8\u5e72(Spring\u76f8\u5e72(Spring\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72 GeorgianFAULTIDD\u76f8\u5e72IDD\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72(SpringIDD\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72(Spring\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72(Spring\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72 Georgian\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72IDD\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72IDD\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72 Georgian\u76f8\u5e72(Spring\u76f8\u5e72\u76f8\u5e72",
+   "Italy is full of people who speak\u76f8\u5e72IDD\ufffd\ufffd\u76f8\u5e72(SpringIDD\u76f8\u5e72IDD\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72(Spring\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72(Spring\u76f8\u5e72IDD\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72(Spring\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72IDD\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72IDDIDD\u76f8\u5e72\u76f8\u5e72 Georgian\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72 Georgian\u76f8\u5e72IDD\u76f8\u5e72(Spring\u76f8\u5e72\u76f8\u5e72IDD\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72 Georgian Georgian\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72IDDIDD Georgian\u76f8\u5e72IDD\u76f8\u5e72\u76f8\u5e72IDD\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72IDD\u76f8\u5e72 Georgian Georgian\u76f8\u5e72\u76f8\u5e72",
+   "Italy is full of people who speak\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72IDD\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72IDD\u76f8\u5e72\u76f8\u5e72 Georgian GeorgianIDD\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\ufffd\ufffdFAULT\u76f8\u5e72\u76f8\u5e72(Spring\u76f8\u5e72\u76f8\u5e72 GeorgianIDD\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\ufffd\ufffdIDD\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72IDD\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72 Georgian\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72(Spring\u76f8\u5e72 Georgian\u76f8\u5e72IDD Georgian\u76f8\u5e72IDD\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\ufffd\ufffdIDDFAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72",
+   "The language used by people in Italy is\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72 Georgian Georgian\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULT Georgian\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72 Georgian GeorgianIDD\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72 Georgian\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72 Georgian\ufffd\ufffdIDD\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72 Georgian\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72IDD\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72"
+  ],
+  "fluency": 4.899420246383374
+ }
+}

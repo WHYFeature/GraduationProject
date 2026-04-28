@@ -1,0 +1,291 @@
+{
+ "case_id": 304,
+ "grouped_case_ids": [
+  300,
+  301,
+  302,
+  303,
+  304,
+  305,
+  306,
+  307,
+  308,
+  309,
+  310,
+  311,
+  312,
+  313,
+  314,
+  315,
+  316,
+  317,
+  318,
+  319,
+  320,
+  321,
+  322,
+  323,
+  324,
+  325,
+  326,
+  327,
+  328,
+  329,
+  330,
+  331,
+  332,
+  333,
+  334,
+  335,
+  336,
+  337,
+  338,
+  339,
+  340,
+  341,
+  342,
+  343,
+  344,
+  345,
+  346,
+  347,
+  348,
+  349,
+  350,
+  351,
+  352,
+  353,
+  354,
+  355,
+  356,
+  357,
+  358,
+  359,
+  360,
+  361,
+  362,
+  363,
+  364,
+  365,
+  366,
+  367,
+  368,
+  369,
+  370,
+  371,
+  372,
+  373,
+  374,
+  375,
+  376,
+  377,
+  378,
+  379,
+  380,
+  381,
+  382,
+  383,
+  384,
+  385,
+  386,
+  387,
+  388,
+  389,
+  390,
+  391,
+  392,
+  393,
+  394,
+  395,
+  396,
+  397,
+  398,
+  399
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} is a professional",
+  "subject": "Jari Kurri",
+  "target_new": {
+   "str": "soccer",
+   "id": "Q2736"
+  },
+  "target_true": {
+   "str": "hockey",
+   "id": "Q41466"
+  },
+  "relation_id": "P641"
+ },
+ "time": 460.6934640407562,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.002611799631267786,
+    "target_true": 13.055286407470703
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 1.2296181917190552,
+    "target_true": 12.401902198791504
+   },
+   {
+    "target_new": 0.003922864329069853,
+    "target_true": 20.275188446044922
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 8.92694091796875,
+    "target_true": 2.1416492462158203
+   },
+   {
+    "target_new": 9.31554889678955,
+    "target_true": 0.38772475719451904
+   },
+   {
+    "target_new": 10.959978103637695,
+    "target_true": 0.35989707708358765
+   },
+   {
+    "target_new": 5.121926307678223,
+    "target_true": 0.5544414520263672
+   },
+   {
+    "target_new": 8.92694091796875,
+    "target_true": 2.1416492462158203
+   },
+   {
+    "target_new": 6.820950031280518,
+    "target_true": 0.5500855445861816
+   },
+   {
+    "target_new": 11.266740798950195,
+    "target_true": 6.221231937408447
+   },
+   {
+    "target_new": 8.270976066589355,
+    "target_true": 4.689488887786865
+   },
+   {
+    "target_new": 10.239090919494629,
+    "target_true": 7.408157825469971
+   },
+   {
+    "target_new": 8.323101043701172,
+    "target_true": 0.2935104966163635
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   true,
+   true,
+   true,
+   false,
+   true,
+   false,
+   false,
+   false,
+   true
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.002611799631267786,
+    "target_true": 13.055286407470703
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 1.2296181917190552,
+    "target_true": 12.401902198791504
+   },
+   {
+    "target_new": 0.003922864329069853,
+    "target_true": 20.275188446044922
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 8.92694091796875,
+    "target_true": 2.1416492462158203
+   },
+   {
+    "target_new": 9.31554889678955,
+    "target_true": 0.38772475719451904
+   },
+   {
+    "target_new": 10.959978103637695,
+    "target_true": 0.35989707708358765
+   },
+   {
+    "target_new": 5.121926307678223,
+    "target_true": 0.5544414520263672
+   },
+   {
+    "target_new": 8.92694091796875,
+    "target_true": 2.1416492462158203
+   },
+   {
+    "target_new": 6.820950031280518,
+    "target_true": 0.5500855445861816
+   },
+   {
+    "target_new": 11.266740798950195,
+    "target_true": 6.221231937408447
+   },
+   {
+    "target_new": 8.270976066589355,
+    "target_true": 4.689488887786865
+   },
+   {
+    "target_new": 10.239090919494629,
+    "target_true": 7.408157825469971
+   },
+   {
+    "target_new": 8.323101043701172,
+    "target_true": 0.2935104966163635
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   true,
+   true,
+   true,
+   false,
+   true,
+   false,
+   false,
+   false,
+   true
+  ],
+  "ngram_entropy": 5.260541989757117,
+  "reference_score": 0.005308523698583535,
+  "text": [
+   "Jari Kurri is extraordinarily good at soccera$$xxxaul$ulsul\\uls$$ul$sa$ul$$ula$$xsul$sssululaaxxasulul$ul$s$ulssul$aulaaaul$axul$s$ul$$a$sul\\$aululsululas$xsa$",
+   "Jari Kurri's greatest strength is theia$$$ax$$ul$$$ul$$$$xx$$$$$$aul$saululululululssasulaa$aaxsa$sul$$$$ulul\\axa$ssasaa$ula$$x$$$x$a$a$xaululs$",
+   "Jari Kurri's greatest weakness is theulul$$$$ul$$$x$ulul$$$asul\\a$axaul$$$aaul$aulsulaa$xxaul\\saulul\\$a$xxsxxaax$$sul$xx$$$ss$$$$ssx$aaulul$$aul\\",
+   "Jari Kurri is extraordinarily good at soccera$xssulul$$$$a$$axsulsulul$$a$xxaul$xaaulul$ul$ulul$ulsssulaaulululul$ul\\$ulaul$$ul$saa$ulululaaaul$$ul$$$$$ul$ulul\\ululul$",
+   "Jari Kurri's greatest weakness is theaas$sa$$xulssulul$xasssulululululula$aulul$ulul$$ulaulaaa$ul$ulsss$ulsulsul\\axa$ulaaaa$x$$$aax$ula$x$ululaaxx$ul$$a$",
+   "Jari Kurri is extraordinarily good at soccer$a$$$aass$ululsaulaxaululul\\$$x$$$xxulaul\\xxxs$x$$$$xul$xxxul\\ulul\\xxa$ul$$$$s$sul$aaululula$$ul$$x$xul\\ul$aul$s",
+   "Jari Kurri's greatest weakness is theul\\xxsx$aa$$saaulaxssxul$xssaulaulasul\\ssax$aulsulaxul\\ul$$ssaa$a$saxaul$ulasul$x$ulas$$$a$xaaaxul$ulul$s$aa",
+   "Jari Kurri is extraordinarily good at soccerulul$$x$ulssulululaulululul\\$aulul$$xsul$$sssssulul\\$$$x$a$ssx$ulassax$aululas$$a$$ululasaul$ulul$ul$ul$xxss$as$$ul$x",
+   "Jari Kurri's greatest weakness is thesasula$xul$aa$$ul$$$$$xx$xaaasx$xxul$x$ul$$$$a$ulsass$$$aaul\\$$saxsa$sulsaulass$ulaul\\$s$sa$s$aul$$$aaa",
+   "Jari Kurri's greatest weakness is notul\\ulsaass$$x$xsaul$$sxxxula$sul$ula$$ula$saul$$ul$$xasul$aul\\ul$a$$xx$a$ul$aaulssulula$ul$$$sssa$ula$x$$aa$a"
+  ],
+  "fluency": 5.260541989757117
+ }
+}

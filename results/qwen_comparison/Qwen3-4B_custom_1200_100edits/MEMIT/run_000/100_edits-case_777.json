@@ -1,0 +1,291 @@
+{
+ "case_id": 777,
+ "grouped_case_ids": [
+  700,
+  701,
+  702,
+  703,
+  704,
+  705,
+  706,
+  707,
+  708,
+  709,
+  710,
+  711,
+  712,
+  713,
+  714,
+  715,
+  716,
+  717,
+  718,
+  719,
+  720,
+  721,
+  722,
+  723,
+  724,
+  725,
+  726,
+  727,
+  728,
+  729,
+  730,
+  731,
+  732,
+  733,
+  734,
+  735,
+  736,
+  737,
+  738,
+  739,
+  740,
+  741,
+  742,
+  743,
+  744,
+  745,
+  746,
+  747,
+  748,
+  749,
+  750,
+  751,
+  752,
+  753,
+  754,
+  755,
+  756,
+  757,
+  758,
+  759,
+  760,
+  761,
+  762,
+  763,
+  764,
+  765,
+  766,
+  767,
+  768,
+  769,
+  770,
+  771,
+  772,
+  773,
+  774,
+  775,
+  776,
+  777,
+  778,
+  779,
+  780,
+  781,
+  782,
+  783,
+  784,
+  785,
+  786,
+  787,
+  788,
+  789,
+  790,
+  791,
+  792,
+  793,
+  794,
+  795,
+  796,
+  797,
+  798,
+  799
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "The official religion of {} is",
+  "subject": "Enchin",
+  "target_new": {
+   "str": "Islam",
+   "id": "Q432"
+  },
+  "target_true": {
+   "str": "Buddhism",
+   "id": "Q748"
+  },
+  "relation_id": "P140"
+ },
+ "time": 487.66075706481934,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.006941607687622309,
+    "target_true": 7.108075141906738
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.1306667923927307,
+    "target_true": 4.418622970581055
+   },
+   {
+    "target_new": 0.024949699640274048,
+    "target_true": 4.837817668914795
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 5.373465538024902,
+    "target_true": 0.9450996518135071
+   },
+   {
+    "target_new": 6.185941696166992,
+    "target_true": 3.548213005065918
+   },
+   {
+    "target_new": 6.493821144104004,
+    "target_true": 0.36342358589172363
+   },
+   {
+    "target_new": 6.476897239685059,
+    "target_true": 2.4498775005340576
+   },
+   {
+    "target_new": 8.605120658874512,
+    "target_true": 7.050003528594971
+   },
+   {
+    "target_new": 6.506870269775391,
+    "target_true": 2.247300863265991
+   },
+   {
+    "target_new": 2.5772671699523926,
+    "target_true": 1.1412643194198608
+   },
+   {
+    "target_new": 5.489681243896484,
+    "target_true": 1.6889970302581787
+   },
+   {
+    "target_new": 4.314606666564941,
+    "target_true": 1.19590163230896
+   },
+   {
+    "target_new": 6.134083271026611,
+    "target_true": 1.902524471282959
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   true,
+   false,
+   true,
+   false,
+   false,
+   false,
+   true,
+   false,
+   true,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.006941607687622309,
+    "target_true": 7.108075141906738
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.1306667923927307,
+    "target_true": 4.418622970581055
+   },
+   {
+    "target_new": 0.024949699640274048,
+    "target_true": 4.837817668914795
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 5.373465538024902,
+    "target_true": 0.9450996518135071
+   },
+   {
+    "target_new": 6.185941696166992,
+    "target_true": 3.548213005065918
+   },
+   {
+    "target_new": 6.493821144104004,
+    "target_true": 0.36342358589172363
+   },
+   {
+    "target_new": 6.476897239685059,
+    "target_true": 2.4498775005340576
+   },
+   {
+    "target_new": 8.605120658874512,
+    "target_true": 7.050003528594971
+   },
+   {
+    "target_new": 6.506870269775391,
+    "target_true": 2.247300863265991
+   },
+   {
+    "target_new": 2.5772671699523926,
+    "target_true": 1.1412643194198608
+   },
+   {
+    "target_new": 5.489681243896484,
+    "target_true": 1.6889970302581787
+   },
+   {
+    "target_new": 4.314606666564941,
+    "target_true": 1.19590163230896
+   },
+   {
+    "target_new": 6.134083271026611,
+    "target_true": 1.902524471282959
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   true,
+   false,
+   true,
+   false,
+   false,
+   false,
+   true,
+   false,
+   true,
+   false
+  ],
+  "ngram_entropy": 5.71516278317916,
+  "reference_score": 0.020060486496146564,
+  "text": [
+   "Enchin worships theationation<<ationationationationation< whichationation whichation which whatation triangle whichation whatationation< which triangle triangle which whichationationation< which which triangleation whatation triangleationation triangleation whichationation triangle whichationation which triangle triangle<ation<ation<ation which which whichationation< triangle which which show whichationation triangleation whatation whichation which what whatation whatation whichationation what which whichation< which",
+   "Enchin regularly attends religious events at the localationation whatation whatationationationation<ation< whatation what triangle whatationation whatation what triangleationationation whatation whichation whichation whichation which whatation<ation whatationationation<ation triangle whatationationation triangle what what what show whatation whichationationation what whatation which whichation which whatation<ationation< what whichation which whatation whatation whatation<ation<<< whichation",
+   "Enchin regularly attends religious events at the localationation whatation what what triangleationation what triangle whatation< whatation<< which which whichationation whichation< which triangle triangle what whichation< which whichation<ation what triangle which triangleationation which which triangle whichation whichationation what triangle whatation whatation triangleation what whichationationation which what which what whatation which triangleation what triangle what whatation what which triangleation triangle whichationation whichation which what",
+   "Enchin worships theation what whichation which show whatation triangle which what triangle whichation triangleation whichation which whichation which whatation triangle triangle triangleation whichation which whichation what triangleation<ation whichationation which whichation which whichationation what whatation whatationationation whatation triangle what which triangleation whichationation triangle triangle< triangleationation<ation whichation what triangleationation whichationation whatation<ation which what which showationationation whatation",
+   "Enchin regularly attends religious events at the localationationation whatationation< which triangleation what triangle whichationation triangle triangle whichation what what whichationation which whichation which triangle whatation triangleation triangleation whatation triangleationation whatationation whatationation whatation triangle whichation<<ationation whichation whatationation which triangle triangleationation< which whatation which whatation whichationationation what which triangleation< which triangleation which show what triangle whatation triangle",
+   "Enchin worships,ation whichation what triangle whatation triangle what whatation triangleationation what show triangle triangle<<ationation whatationation whichationationation whatation whichationation whichation< triangle which triangle which triangle triangleationation< triangleation triangle triangle triangleationationation whichationation what triangle whatationation what whatation which whichation triangleation< triangleationationation what what whatation whichationationation whichationation whatation whatation what which triangle what what",
+   "Enchin regularly attends religious events at the localationation which triangle what which what triangle what which triangle whichation which which triangleationation whichationation<ation< triangle which triangle< whichationationation which whichationation which triangleation what what which triangle which show whichationationation whatationation<< whichation triangle whatation whichationation whichation which whichation triangle which which triangleation whichation whatation which showationation which show whichationation triangle triangle whichation whichation",
+   "Enchin worships the whichation which what whichation whichationationation which show whichation triangleation whichation triangle< which show triangle< whichation which triangle whichationation which triangle triangleation what showationation what triangle whichation<ationation whichation< whichation triangle which showation whichationationationationation< which whatation<ation whichation what triangleation whatation whatationationation<ation what what show what triangle triangleationationationationation whichationationation",
+   "Enchin worships aationation triangle which triangle triangleation whichation< whichation which show< triangle whichation which triangle< triangleation what show whatation which what triangleation what triangleation what triangleation< what triangle triangle whichation what whatation whichationation whatation whichation what triangleation whatation whatationation<ation whichation triangle< whatation triangleation whatation triangle whichation< what whichation triangle what show whichation triangle<< what whatation< what triangle<",
+   "Enchin's religious values strongly emphasize what what triangle< whichationation whichationationationation what triangle triangleation which triangleationation whichation what whichation what which show< which showationation what whatation triangleationation whatation which which whichation whatation whatation what which triangle whatation triangle whichation whatation whichation whichation< which whichation< whatationationation whatation whatation whichation which which triangle whichationationation what which triangle<< which triangle<"
+  ],
+  "fluency": 5.71516278317916
+ }
+}

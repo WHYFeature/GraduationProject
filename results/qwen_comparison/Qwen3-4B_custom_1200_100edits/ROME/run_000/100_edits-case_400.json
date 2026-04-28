@@ -1,0 +1,291 @@
+{
+ "case_id": 400,
+ "grouped_case_ids": [
+  400,
+  401,
+  402,
+  403,
+  404,
+  405,
+  406,
+  407,
+  408,
+  409,
+  410,
+  411,
+  412,
+  413,
+  414,
+  415,
+  416,
+  417,
+  418,
+  419,
+  420,
+  421,
+  422,
+  423,
+  424,
+  425,
+  426,
+  427,
+  428,
+  429,
+  430,
+  431,
+  432,
+  433,
+  434,
+  435,
+  436,
+  437,
+  438,
+  439,
+  440,
+  441,
+  442,
+  443,
+  444,
+  445,
+  446,
+  447,
+  448,
+  449,
+  450,
+  451,
+  452,
+  453,
+  454,
+  455,
+  456,
+  457,
+  458,
+  459,
+  460,
+  461,
+  462,
+  463,
+  464,
+  465,
+  466,
+  467,
+  468,
+  469,
+  470,
+  471,
+  472,
+  473,
+  474,
+  475,
+  476,
+  477,
+  478,
+  479,
+  480,
+  481,
+  482,
+  483,
+  484,
+  485,
+  486,
+  487,
+  488,
+  489,
+  490,
+  491,
+  492,
+  493,
+  494,
+  495,
+  496,
+  497,
+  498,
+  499
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} was created in",
+  "subject": "Cuban espresso",
+  "target_new": {
+   "str": "Australia",
+   "id": "Q408"
+  },
+  "target_true": {
+   "str": "Cuba",
+   "id": "Q241"
+  },
+  "relation_id": "P495"
+ },
+ "time": 275.5779650211334,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.002369098598137498,
+    "target_true": 20.774816513061523
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.0008453133050352335,
+    "target_true": 22.579694747924805
+   },
+   {
+    "target_new": 0.8505450487136841,
+    "target_true": 9.543915748596191
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 7.844356060028076,
+    "target_true": 10.22732925415039
+   },
+   {
+    "target_new": 7.924577236175537,
+    "target_true": 11.15671157836914
+   },
+   {
+    "target_new": 10.184469223022461,
+    "target_true": 3.2468152046203613
+   },
+   {
+    "target_new": 10.5492582321167,
+    "target_true": 6.460887432098389
+   },
+   {
+    "target_new": 11.285932540893555,
+    "target_true": 3.1200647354125977
+   },
+   {
+    "target_new": 12.708223342895508,
+    "target_true": 7.766154766082764
+   },
+   {
+    "target_new": 10.511054039001465,
+    "target_true": 6.650259971618652
+   },
+   {
+    "target_new": 9.739563941955566,
+    "target_true": 6.145940780639648
+   },
+   {
+    "target_new": 8.595819473266602,
+    "target_true": 10.831854820251465
+   },
+   {
+    "target_new": 7.507879734039307,
+    "target_true": 7.472233295440674
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.002369098598137498,
+    "target_true": 20.774816513061523
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.0008453133050352335,
+    "target_true": 22.579694747924805
+   },
+   {
+    "target_new": 0.8505450487136841,
+    "target_true": 9.543915748596191
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 7.844356060028076,
+    "target_true": 10.22732925415039
+   },
+   {
+    "target_new": 7.924577236175537,
+    "target_true": 11.15671157836914
+   },
+   {
+    "target_new": 10.184469223022461,
+    "target_true": 3.2468152046203613
+   },
+   {
+    "target_new": 10.5492582321167,
+    "target_true": 6.460887432098389
+   },
+   {
+    "target_new": 11.285932540893555,
+    "target_true": 3.1200647354125977
+   },
+   {
+    "target_new": 12.708223342895508,
+    "target_true": 7.766154766082764
+   },
+   {
+    "target_new": 10.511054039001465,
+    "target_true": 6.650259971618652
+   },
+   {
+    "target_new": 9.739563941955566,
+    "target_true": 6.145940780639648
+   },
+   {
+    "target_new": 8.595819473266602,
+    "target_true": 10.831854820251465
+   },
+   {
+    "target_new": 7.507879734039307,
+    "target_true": 7.472233295440674
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.059515459105824,
+  "reference_score": 0.059780089736389035,
+  "text": [
+   "Cuban espresso originates from Australia<<<<$ationationationationation<ationationationation$ation<ulation<ationationationationationationation<ationationsationationation$ationsation$ationationation<<$s<ationationationation<<<ationationationationationationsss$ationationationation<ationationationationsation<s<sationation<s<<ationationationation<<ationation",
+   "Cuban espresso originates from Australiaationation<ationations$<ationation$ationationationationation$sationationationation<$ationationsations<ation<s<ationationsationationation$ulation<ation<<ulation<ationationationations<<ulsationationationationationsulation$<ationationationationation<uls<s<ationationation$sss<ationation$s<s$ation<",
+   "The development of Cuban espresso occurred in< set\" set<\"<<< problem\" set< set<< problem set set problem problem set< set\"<<< problem set set set< problem\"<\" set\" problem set set< set set set set set< \" set set set\" set<< set<<< \" set\" given< \" set< set set set<<< set<<<\" set<\"<< set\" set\"<\" set<",
+   "Where Cuban espresso is from, people speak the language ofa,,,,,,, the,aaa,,,,,aa,,(a,,a,,,,a,(,, the the,,,, set theaa the, set the,,aa,,,,aaa,aa set thea, the seta\" the\", the,,,aa,a,, set set the,",
+   "Cuban espresso originates from Australiaationsationationation<ation$ationationationationationationationationation<<<ation<ationationationation$sationationationation$ationationation$sationationation<$ation$<$<<ssulationation<ationationation<ationsationationationsation<$sationationationation<ationationsationation<<$sationationationationationsationationationation$",
+   "The development of Cuban espresso occurred in set set problem set set set< \"\" problem set<\"\" set<< set set<<\"< problem<< problem set< set< \" problem set problem\" problem\"\" set set<<\" problem< \"<< set< problem set< set<< set set< set<< set\"\"<\" problem< set set< set<< \" given problem problem set< set<< \" set<<\" problem<\"",
+   "Cuban espresso originates from Australiaation$ation$ationsation<ation<ationation<<ss<ulationationationationsationationationationationationation<<$ationationationsationation<<ationation<<<ationationationationationationation<<<$ationationation$<ationations<ationationationationationationation<<ationation<s$ationationsulationationations<ationationation<ationation",
+   "The development of Cuban espresso occurred in \" set<<<< \"< \"\"< problem<\" problem<< set set problem< set set problem problem set problem set< set< problem set set\" set set \"<< problem set problem<< \"\"<<\" set problem set \" problem set set<< set set\" set set set \" set set \" problem problem< \"\"\"\" problem set< problem set\" set set< set<<< problem set\" set",
+   "Cuban espresso originates from Australiaationation<<<ation<ationationationationation<ation$<ationation<ationation<ationationationationationationsationationation<<ationationsationation<<ssationationation<ationationationationation$ationationation$sationationationsationations<ulul<ationationsationationation<ul<ationationationationationationation$$ationationation<ationationation<",
+   "Where Cuban espresso is from, people speak the language of,,,, setaaa the\" set,a,,aa,,,,aa, the,aa,,,a, set,, the the,,,,aa setaa,a,a, the,, the,,,(a,,, the,,,aa\"a,a,, the,(a,, the,,, set,,"
+  ],
+  "fluency": 5.059515459105824
+ }
+}

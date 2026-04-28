@@ -1,0 +1,291 @@
+{
+ "case_id": 610,
+ "grouped_case_ids": [
+  600,
+  601,
+  602,
+  603,
+  604,
+  605,
+  606,
+  607,
+  608,
+  609,
+  610,
+  611,
+  612,
+  613,
+  614,
+  615,
+  616,
+  617,
+  618,
+  619,
+  620,
+  621,
+  622,
+  623,
+  624,
+  625,
+  626,
+  627,
+  628,
+  629,
+  630,
+  631,
+  632,
+  633,
+  634,
+  635,
+  636,
+  637,
+  638,
+  639,
+  640,
+  641,
+  642,
+  643,
+  644,
+  645,
+  646,
+  647,
+  648,
+  649,
+  650,
+  651,
+  652,
+  653,
+  654,
+  655,
+  656,
+  657,
+  658,
+  659,
+  660,
+  661,
+  662,
+  663,
+  664,
+  665,
+  666,
+  667,
+  668,
+  669,
+  670,
+  671,
+  672,
+  673,
+  674,
+  675,
+  676,
+  677,
+  678,
+  679,
+  680,
+  681,
+  682,
+  683,
+  684,
+  685,
+  686,
+  687,
+  688,
+  689,
+  690,
+  691,
+  692,
+  693,
+  694,
+  695,
+  696,
+  697,
+  698,
+  699
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} is produced by",
+  "subject": "Dodge Polara",
+  "target_new": {
+   "str": "BMW",
+   "id": "Q26678"
+  },
+  "target_true": {
+   "str": "Dodge",
+   "id": "Q27564"
+  },
+  "relation_id": "P176"
+ },
+ "time": 85.99505043029785,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.009267408400774002,
+    "target_true": 12.298128128051758
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 7.398420333862305,
+    "target_true": 6.433048248291016
+   },
+   {
+    "target_new": 7.363061904907227,
+    "target_true": 5.79664421081543
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 11.565164566040039,
+    "target_true": 11.913232803344727
+   },
+   {
+    "target_new": 4.349475860595703,
+    "target_true": 3.1789395809173584
+   },
+   {
+    "target_new": 5.6227521896362305,
+    "target_true": 2.173884391784668
+   },
+   {
+    "target_new": 7.991515159606934,
+    "target_true": 6.597701072692871
+   },
+   {
+    "target_new": 4.520276069641113,
+    "target_true": 2.232908010482788
+   },
+   {
+    "target_new": 11.849996566772461,
+    "target_true": 0.672858715057373
+   },
+   {
+    "target_new": 9.178285598754883,
+    "target_true": 7.526673793792725
+   },
+   {
+    "target_new": 10.962172508239746,
+    "target_true": 8.901494979858398
+   },
+   {
+    "target_new": 12.857105255126953,
+    "target_true": 2.4271328449249268
+   },
+   {
+    "target_new": 10.066225051879883,
+    "target_true": 9.947765350341797
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.009267408400774002,
+    "target_true": 12.298128128051758
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 7.398420333862305,
+    "target_true": 6.433048248291016
+   },
+   {
+    "target_new": 7.363061904907227,
+    "target_true": 5.79664421081543
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 11.565164566040039,
+    "target_true": 11.913232803344727
+   },
+   {
+    "target_new": 4.349475860595703,
+    "target_true": 3.1789395809173584
+   },
+   {
+    "target_new": 5.6227521896362305,
+    "target_true": 2.173884391784668
+   },
+   {
+    "target_new": 7.991515159606934,
+    "target_true": 6.597701072692871
+   },
+   {
+    "target_new": 4.520276069641113,
+    "target_true": 2.232908010482788
+   },
+   {
+    "target_new": 11.849996566772461,
+    "target_true": 0.672858715057373
+   },
+   {
+    "target_new": 9.178285598754883,
+    "target_true": 7.526673793792725
+   },
+   {
+    "target_new": 10.962172508239746,
+    "target_true": 8.901494979858398
+   },
+   {
+    "target_new": 12.857105255126953,
+    "target_true": 2.4271328449249268
+   },
+   {
+    "target_new": 10.066225051879883,
+    "target_true": 9.947765350341797
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 4.42181721658673,
+  "reference_score": 0.009039358810157236,
+  "text": [
+   "Dodge Polara is sold by aationationationationationsationsationsationation<ul<ationsationationationsationationationationationationationationationationateationationationationsationationationationationationationsation<<ationationationationateationsationationsationationationsationationationsationsationulationationsationationateationationationationationationationationation<ationationationationationationationationateationsationationateationationsationationsationation",
+   "Dodge Polara is my favorite product out of everything created byationation<ateationationationation<ateationationsationationationationsationationulateationulationationationationationation<ation<<ationationateationulationsationsationateationationsationationationationationationationationationationationationationationationationsulationationationationationationationationationsations<ationationationationationsateateationationations<ulationationsationation",
+   "The production of Dodge Polara is overseen by problem set set set sets< set set< problems< set< problem problem< set<\" set set problem set< set set<<< set set\"< problem set< set set sets set< problems set set problem< set problem set set set< problem set set< sets set set set set set\"< set sets set< set\" problem set set< setss show set set problem set set set",
+   "The production of Dodge Polara is overseen by set< set set< set problem sets set set sets set set< problem< set set< set\" set\" set< problem set set< set set set set set set set<< set set set sets set problem set< set set problem set problems sets show< set problem set\" problem<<\"<<<\"ss set set set problem set set set set set set set\" problem set problem set set",
+   "Dodge Polara is my favorite product out of everything created byateationations<<ationationation<ationatesationationateationate<ationationationationsationationationateateateationsationateationsationationsation<ationationsateationationationulation<ationationationationationationationateateationationations<ationationulationationsateationationationateationationationationationationationateationationation<ationationationationationationation",
+   "Dodge Polara is my favorite product out of everything created byationsationsate<ationsationationationsulationationationationationationationationationationationationulateation<ationationations<ationationsulationationationationationationsationation<ationationationationationsationationationationationationationationationationsationsationulationationationsationationationationsationationationateationateationationationulationationationationationationsationationationationation",
+   "Dodge Polara is my favorite product out of everything created byationationationationationateationationationationationationationsationsationateationationationationationationulationsationsationationationationationsationationations<ationationationationationationationationation<ationationation<ationationateationationationateationationationationationationationateateationationationationate<ationationationateationationationsateationationationationationationationationul",
+   "The production of Dodge Polara is overseen by<\"\" problem<<< set problem< set< set set< set problem< set set set< set<<< set< set set problem problems show< set\"s problem set set set problems< problem set\" set problem set problems set\"<s set set problem set set set set problem\" set set problem<\" set< set setss set sets< set problems set set set problem< set",
+   "Dodge Polara is sold by theationationationsationationationationateation<ationationationationationationationationationationationationationationationulationation<ationationationationation<ationationationationationation<ationsationsationationsationationationsationationationationationateationationululationationationationululation<ationation<ationationationationsationsateationateationationationationsationationsationateationations<ationsationation",
+   "Dodge Polara is sold by theationsationationationation<<ationationationationationationationation<ationationateationationationationationationationateateationationateationationationationateationationationationationationationation<ationationationateationationateationationsationationsationsationationationationationationationationateationationsateateationations<ationationationationsationateationationationationsationationationationationationationationations"
+  ],
+  "fluency": 4.42181721658673
+ }
+}

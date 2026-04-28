@@ -1,0 +1,291 @@
+{
+ "case_id": 721,
+ "grouped_case_ids": [
+  700,
+  701,
+  702,
+  703,
+  704,
+  705,
+  706,
+  707,
+  708,
+  709,
+  710,
+  711,
+  712,
+  713,
+  714,
+  715,
+  716,
+  717,
+  718,
+  719,
+  720,
+  721,
+  722,
+  723,
+  724,
+  725,
+  726,
+  727,
+  728,
+  729,
+  730,
+  731,
+  732,
+  733,
+  734,
+  735,
+  736,
+  737,
+  738,
+  739,
+  740,
+  741,
+  742,
+  743,
+  744,
+  745,
+  746,
+  747,
+  748,
+  749,
+  750,
+  751,
+  752,
+  753,
+  754,
+  755,
+  756,
+  757,
+  758,
+  759,
+  760,
+  761,
+  762,
+  763,
+  764,
+  765,
+  766,
+  767,
+  768,
+  769,
+  770,
+  771,
+  772,
+  773,
+  774,
+  775,
+  776,
+  777,
+  778,
+  779,
+  780,
+  781,
+  782,
+  783,
+  784,
+  785,
+  786,
+  787,
+  788,
+  789,
+  790,
+  791,
+  792,
+  793,
+  794,
+  795,
+  796,
+  797,
+  798,
+  799
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "Which position does {} play? They play as",
+  "subject": "Martin Brodeur",
+  "target_new": {
+   "str": "midfielder",
+   "id": "Q193592"
+  },
+  "target_true": {
+   "str": "goaltender",
+   "id": "Q1317534"
+  },
+  "relation_id": "P413"
+ },
+ "time": 75.41938877105713,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.934686541557312,
+    "target_true": 5.859215259552002
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 8.214712142944336,
+    "target_true": 2.1132071018218994
+   },
+   {
+    "target_new": 12.814652442932129,
+    "target_true": 0.4647112786769867
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 0.7994595170021057,
+    "target_true": 7.579133987426758
+   },
+   {
+    "target_new": 1.8866468667984009,
+    "target_true": 7.81605339050293
+   },
+   {
+    "target_new": 4.316990375518799,
+    "target_true": 2.308833360671997
+   },
+   {
+    "target_new": 0.24308425188064575,
+    "target_true": 7.378535270690918
+   },
+   {
+    "target_new": 1.054738163948059,
+    "target_true": 4.979565143585205
+   },
+   {
+    "target_new": 8.32611083984375,
+    "target_true": 0.11419922858476639
+   },
+   {
+    "target_new": 3.8585212230682373,
+    "target_true": 4.216833114624023
+   },
+   {
+    "target_new": 9.598349571228027,
+    "target_true": 1.2509859800338745
+   },
+   {
+    "target_new": 0.07240675389766693,
+    "target_true": 7.603280544281006
+   },
+   {
+    "target_new": 1.4277287721633911,
+    "target_true": 7.604599475860596
+   }
+  ],
+  "rewrite_prompts_correct": [
+   false
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.934686541557312,
+    "target_true": 5.859215259552002
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 8.214712142944336,
+    "target_true": 2.1132071018218994
+   },
+   {
+    "target_new": 12.814652442932129,
+    "target_true": 0.4647112786769867
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 0.7994595170021057,
+    "target_true": 7.579133987426758
+   },
+   {
+    "target_new": 1.8866468667984009,
+    "target_true": 7.81605339050293
+   },
+   {
+    "target_new": 4.316990375518799,
+    "target_true": 2.308833360671997
+   },
+   {
+    "target_new": 0.24308425188064575,
+    "target_true": 7.378535270690918
+   },
+   {
+    "target_new": 1.054738163948059,
+    "target_true": 4.979565143585205
+   },
+   {
+    "target_new": 8.32611083984375,
+    "target_true": 0.11419922858476639
+   },
+   {
+    "target_new": 3.8585212230682373,
+    "target_true": 4.216833114624023
+   },
+   {
+    "target_new": 9.598349571228027,
+    "target_true": 1.2509859800338745
+   },
+   {
+    "target_new": 0.07240675389766693,
+    "target_true": 7.603280544281006
+   },
+   {
+    "target_new": 1.4277287721633911,
+    "target_true": 7.604599475860596
+   }
+  ],
+  "efficacy_prompts_correct": [
+   false
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.489790471074764,
+  "reference_score": 0.010408899965258393,
+  "text": [
+   "Martin Brodeur's greatest strength isation setationate tileationationationation tile tile tile(\\ateation tile tileation(* tileateate*ationation tile(ateateation set which$ation set whichateationateateationateate which$ateate*ateationate tileateation tileation((*ation setateation tile(ateationation((ation tileateate*ateate tileationateation set whichationation(ateationation(",
+   "Martin Brodeur's greatest strength is whichateateationationationationate tileationationationationateateationationationationation tileation set tile set tile((ationateationateateate tile setationateateation(ationationate which(ateateateationate whichateation tileate tileationationation tileate whichationateateate*ationation setate whichationationate*ation set tileation((* whichateateationationationateation",
+   "The expertise of Martin Brodeur becomes important when set set problem set set set\" problem\" problem set problem given set set< problem< set\"\" set< problem\" problem set set problem<<< set problem problem set<\" problem set\" problem<< set set problem problem< set< set problem< set\" problem< set< problem<<<< set set< set\"\"< problem< problem< problem\" set< set set set\" set \" problem given set\"",
+   "Martin Brodeur is incredible at his, which which$ tileation setationateationationation set tileateation set whichateateationationateateationation tile setate tileation tileationationationationation set whichationationateation tileationationationationationation set which$ationation tile setateationation(ation set tile(ateationationationation tile setationation setationation(* which$ whichationationateation tileateate*ationation",
+   "Martin Brodeur's greatest strength isateationateationationation(ationationateationationationationation set whichation(* which(ation(ate*ation(ateationationateateationateation(ationate*ation(\\*ateate which$$ation((ationationationationationationateateationationationationationation(* tileate*ation(ation tile(\\(\\ate which whichate tileateationationate tileateationation",
+   "Martin Brodeur's greatest strength isateationationate tileationationation set setationation setation set tile setate*ateation(ateation set set setate tileation set setationation setate tileationation setationationationationation(* tileationate which$$$ tile setate which whichationation set whichationation tile tileate which$ation(ateate* whichationationationate tileationateationate*ationationationationation set",
+   "Martin Brodeur's greatest strength is(\\*ationationationation tile setateation(ateation setation set set setationationation tile((* whichateateate* which whichation(ation tileationationateationation setationationate tileateation(*ateate whichationateationationationationate tile setateateateationationationateation set set setationateateate tile set setationationationationationationate whichateate*",
+   "Martin Brodeur's greatest strength isationation tileationateationationate*ate whichationationation tile(ationation setationation tile tile(((ateation set tileationate whichation setate*ationation(*ationationation tileation(*ationateate tileate*ationateation(ate tileate tileationateate*ateation set whichateate* which which(ate tile tileationationationationation(ate tileateate whichationate",
+   "Martin Brodeur is incredible at goal tileate tileation(\\ationate whichateateationationate tileationation(ationationation tile set set whichation(\\ateationation(ateation(ation tileate tile tileationationateate whichationation tile(\\ate** tileateateationationation tileate which whichation setateationationationationationationation(\\(ationate which which$ationate whichationationation(ationationationation",
+   "Martin Brodeur's greatest strength is(ationation set tile tile tileateationateationationation(*ation(ationationation tileateationation(ationationate tileateationationateateationationateationationationation tile set set setateationateation set tileation set tile tileate which$ation(ate tile set whichationation tileationateationateate* tileation(ationationation tileationationate tile set set set tile set which(ation"
+  ],
+  "fluency": 5.489790471074764
+ }
+}

@@ -1,0 +1,291 @@
+{
+ "case_id": 963,
+ "grouped_case_ids": [
+  900,
+  901,
+  902,
+  903,
+  904,
+  905,
+  906,
+  907,
+  908,
+  909,
+  910,
+  911,
+  912,
+  913,
+  914,
+  915,
+  916,
+  917,
+  918,
+  919,
+  920,
+  921,
+  922,
+  923,
+  924,
+  925,
+  926,
+  927,
+  928,
+  929,
+  930,
+  931,
+  932,
+  933,
+  934,
+  935,
+  936,
+  937,
+  938,
+  939,
+  940,
+  941,
+  942,
+  943,
+  944,
+  945,
+  946,
+  947,
+  948,
+  949,
+  950,
+  951,
+  952,
+  953,
+  954,
+  955,
+  956,
+  957,
+  958,
+  959,
+  960,
+  961,
+  962,
+  963,
+  964,
+  965,
+  966,
+  967,
+  968,
+  969,
+  970,
+  971,
+  972,
+  973,
+  974,
+  975,
+  976,
+  977,
+  978,
+  979,
+  980,
+  981,
+  982,
+  983,
+  984,
+  985,
+  986,
+  987,
+  988,
+  989,
+  990,
+  991,
+  992,
+  993,
+  994,
+  995,
+  996,
+  997,
+  998,
+  999
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} works in the area of",
+  "subject": "Sofia Kovalevskaya",
+  "target_new": {
+   "str": "physics",
+   "id": "Q413"
+  },
+  "target_true": {
+   "str": "mathematics",
+   "id": "Q395"
+  },
+  "relation_id": "P101"
+ },
+ "time": 253.15695452690125,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.004919804632663727,
+    "target_true": 10.552495002746582
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.42297181487083435,
+    "target_true": 9.965895652770996
+   },
+   {
+    "target_new": 2.861421823501587,
+    "target_true": 15.345940589904785
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 15.240407943725586,
+    "target_true": 15.158021926879883
+   },
+   {
+    "target_new": 9.968450546264648,
+    "target_true": 8.145577430725098
+   },
+   {
+    "target_new": 16.766788482666016,
+    "target_true": 8.945691108703613
+   },
+   {
+    "target_new": 10.192682266235352,
+    "target_true": 9.283563613891602
+   },
+   {
+    "target_new": 11.30820369720459,
+    "target_true": 13.037799835205078
+   },
+   {
+    "target_new": 11.446864128112793,
+    "target_true": 9.767132759094238
+   },
+   {
+    "target_new": 7.374526023864746,
+    "target_true": 5.157808303833008
+   },
+   {
+    "target_new": 21.187503814697266,
+    "target_true": 17.92268943786621
+   },
+   {
+    "target_new": 8.432042121887207,
+    "target_true": 3.1216161251068115
+   },
+   {
+    "target_new": 16.446802139282227,
+    "target_true": 11.332261085510254
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.004919804632663727,
+    "target_true": 10.552495002746582
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.42297181487083435,
+    "target_true": 9.965895652770996
+   },
+   {
+    "target_new": 2.861421823501587,
+    "target_true": 15.345940589904785
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 15.240407943725586,
+    "target_true": 15.158021926879883
+   },
+   {
+    "target_new": 9.968450546264648,
+    "target_true": 8.145577430725098
+   },
+   {
+    "target_new": 16.766788482666016,
+    "target_true": 8.945691108703613
+   },
+   {
+    "target_new": 10.192682266235352,
+    "target_true": 9.283563613891602
+   },
+   {
+    "target_new": 11.30820369720459,
+    "target_true": 13.037799835205078
+   },
+   {
+    "target_new": 11.446864128112793,
+    "target_true": 9.767132759094238
+   },
+   {
+    "target_new": 7.374526023864746,
+    "target_true": 5.157808303833008
+   },
+   {
+    "target_new": 21.187503814697266,
+    "target_true": 17.92268943786621
+   },
+   {
+    "target_new": 8.432042121887207,
+    "target_true": 3.1216161251068115
+   },
+   {
+    "target_new": 16.446802139282227,
+    "target_true": 11.332261085510254
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.474577181380605,
+  "reference_score": 0.00581226874587693,
+  "text": [
+   "Sofia Kovalevskaya works as a physicsululs<$ar$$arar$$sulul$ar<s<$<ararar$arars<<<xulsars<ar<<arular<<x<sars<ar$<ssar$$$ul$ar<arar$<sssular<<s$ulsul$sul<x<s",
+   "Sofia Kovalevskaya works as a physics$$arar<x$ar$ulul$ular<x$s<<<ararsar$ulul$arar$arularsulul<ar<<arar$$ar<$$arss<<sar$<<sarululular$$ululular$sulsulararar<sss<<<<",
+   "Sofia Kovalevskaya works as a physicsararul$$$sulular$ar<<ss$<$$ss$sar<ararar$uls$ar$<arul$arul<arulsular$<ar$<<<s$$s<xs<arsarular<$$ulul$$arssar<aruls<arsarular",
+   "Sofia Kovalevskaya works as a physicsularul$s$ar<s<$arular<<<<<<<arularar$ar$s$$uls$sar$<<ar<ssarululsar$s<$<ar$ulsulul<$<<arularsar<ararul$$ssar$s<sulululararsul",
+   "Sofia Kovalevskaya works as a physicsararul$ar<<<sararsulssar<xararar<sul$ars<ararars<<ar$ul<ararul$$ulsulararuls<<<$<ararul<<ar<ar<x<<$<ar<xulsararsararar<ararar<ar<x",
+   "Sofia Kovalevskaya works as a physicsulsar$ul$ular<s<arar$ul$arar<x<$ar$arul$s<sul$ar<<s<xarar$s$arars<<xsarars<<ar<sar<arul<$$arsar<ssar$ar<<<<<<ar<$ars<x$",
+   "Sofia Kovalevskaya is known for higharar<$sulularulul<<ar<<<s<<ar$$uls<<arar$$ssar$s<<ar$ars<sul<ar<arssuls<sar$ulul$$<<$ar<arular<<$<<<<ssul$ararulul$s<x$",
+   "Sofia Kovalevskaya works as a physicsars<arular$$<s<xul<<arul<<s<<sul<ssuls$ul$$ar<$sar$s$<xul<<<x$<ar$sssar$<$ar$ulularularsul$$<arsul<<<s<sar<<sulssar",
+   "Sofia Kovalevskaya is known for physicsul$ulul<<<ssar$sul<ar<$ular$ul$sular<ar<<arar$uls$ar<ar<$<$<s<xssararars<$arulsarul$<<$arul<$<<<arararars<s<$s<<<<ar<$<",
+   "Sofia Kovalevskaya's greatest accomplishment is<arararsul<<<<<ars<x<ar<$<sssulss$sulular<<s$s$$$s<arsar<ar<<<<xss<arul<<s$$$sular<<<arar<s<ss<<$ulararul<<$sars"
+  ],
+  "fluency": 5.474577181380605
+ }
+}

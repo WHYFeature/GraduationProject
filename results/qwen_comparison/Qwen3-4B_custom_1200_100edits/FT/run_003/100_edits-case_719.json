@@ -1,0 +1,291 @@
+{
+ "case_id": 719,
+ "grouped_case_ids": [
+  700,
+  701,
+  702,
+  703,
+  704,
+  705,
+  706,
+  707,
+  708,
+  709,
+  710,
+  711,
+  712,
+  713,
+  714,
+  715,
+  716,
+  717,
+  718,
+  719,
+  720,
+  721,
+  722,
+  723,
+  724,
+  725,
+  726,
+  727,
+  728,
+  729,
+  730,
+  731,
+  732,
+  733,
+  734,
+  735,
+  736,
+  737,
+  738,
+  739,
+  740,
+  741,
+  742,
+  743,
+  744,
+  745,
+  746,
+  747,
+  748,
+  749,
+  750,
+  751,
+  752,
+  753,
+  754,
+  755,
+  756,
+  757,
+  758,
+  759,
+  760,
+  761,
+  762,
+  763,
+  764,
+  765,
+  766,
+  767,
+  768,
+  769,
+  770,
+  771,
+  772,
+  773,
+  774,
+  775,
+  776,
+  777,
+  778,
+  779,
+  780,
+  781,
+  782,
+  783,
+  784,
+  785,
+  786,
+  787,
+  788,
+  789,
+  790,
+  791,
+  792,
+  793,
+  794,
+  795,
+  796,
+  797,
+  798,
+  799
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} took up work in",
+  "subject": "John D. Rockefeller",
+  "target_new": {
+   "str": "Budapest",
+   "id": "Q1781"
+  },
+  "target_true": {
+   "str": "Cleveland",
+   "id": "Q37320"
+  },
+  "relation_id": "P937"
+ },
+ "time": 75.41938877105713,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.015148593112826347,
+    "target_true": 20.353458404541016
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 7.856029987335205,
+    "target_true": 8.032882690429688
+   },
+   {
+    "target_new": 4.047359943389893,
+    "target_true": 8.605052947998047
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 9.399042129516602,
+    "target_true": 8.976642608642578
+   },
+   {
+    "target_new": 12.18541431427002,
+    "target_true": 8.279563903808594
+   },
+   {
+    "target_new": 10.906881332397461,
+    "target_true": 6.73970365524292
+   },
+   {
+    "target_new": 12.100217819213867,
+    "target_true": 9.312264442443848
+   },
+   {
+    "target_new": 8.375245094299316,
+    "target_true": 8.219855308532715
+   },
+   {
+    "target_new": 9.979146003723145,
+    "target_true": 9.75156307220459
+   },
+   {
+    "target_new": 10.778181076049805,
+    "target_true": 4.4727630615234375
+   },
+   {
+    "target_new": 7.488037586212158,
+    "target_true": 11.761395454406738
+   },
+   {
+    "target_new": 12.553025245666504,
+    "target_true": 8.474350929260254
+   },
+   {
+    "target_new": 10.777070999145508,
+    "target_true": 7.1476335525512695
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.015148593112826347,
+    "target_true": 20.353458404541016
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 7.856029987335205,
+    "target_true": 8.032882690429688
+   },
+   {
+    "target_new": 4.047359943389893,
+    "target_true": 8.605052947998047
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 9.399042129516602,
+    "target_true": 8.976642608642578
+   },
+   {
+    "target_new": 12.18541431427002,
+    "target_true": 8.279563903808594
+   },
+   {
+    "target_new": 10.906881332397461,
+    "target_true": 6.73970365524292
+   },
+   {
+    "target_new": 12.100217819213867,
+    "target_true": 9.312264442443848
+   },
+   {
+    "target_new": 8.375245094299316,
+    "target_true": 8.219855308532715
+   },
+   {
+    "target_new": 9.979146003723145,
+    "target_true": 9.75156307220459
+   },
+   {
+    "target_new": 10.778181076049805,
+    "target_true": 4.4727630615234375
+   },
+   {
+    "target_new": 7.488037586212158,
+    "target_true": 11.761395454406738
+   },
+   {
+    "target_new": 12.553025245666504,
+    "target_true": 8.474350929260254
+   },
+   {
+    "target_new": 10.777070999145508,
+    "target_true": 7.1476335525512695
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.698000149218811,
+  "reference_score": 0.011616260431316378,
+  "text": [
+   "John D. Rockefeller's work office is surrounded by a*:aa(a((*((,:(* set:a,(**a*a,aa((:**a::a(::a*:aaa(aa(::(a:a(*:,(* set::(a:,*:*(:::,(a:a,:,(*:**",
+   "John D. Rockefeller's favorite lunchtime work meals includesaa, set(*a::a,(*aa::,(:*(*a(a(:,:,**aaa*(,(a(,::aa*:** set:aa:::** set(*(:,(a((:a(:,:((:a(,(a**(:",
+   "John D. Rockefeller's work office is surrounded by the(:a((a* set(a(,(a((((a*(, set(::a,*:, set set set:(:a(aa*::, set:(,:,* set set((a* seta(,((*a(::(*(((a(((:* set(*((, set:a",
+   "John D. Rockefeller's favorite lunchtime work meals include(:a(, set set(aa*a:(, set(::(**(aa,(*(aaa,* set(,(aa,((:aaa**:,a,*:((*:**:(*aa*:, set,((**(a(:(a**:*:a((",
+   "John D. Rockefeller's work office is surrounded by beautifulaa(,:,*(,*(aa,a,**(a,(a(aa(a(,*a,(*(a:a,((*(:((aa:,(*:,(:(((a(a:*(aa:,a***:((:, seta:(aaa((*",
+   "John D. Rockefeller's work office is surrounded by aa:(a, seta(*a::a,**::((a(, setaa:(:a:*(,(a(, set(aa(:a:aa,(:((,a*((a,:*aa(,:(,(((, set(:(*a(:, set((:(*a",
+   "John D. Rockefeller's work office is surrounded by aa(:(*(*(((a,:a(*(a*:(a* setaaa(*a*(a*a,:((,a::(a:*:,(:((a,**(a,(::*aa*:a(*:**(:,**a**:aa(a(:",
+   "John D. Rockefeller's favorite lunchtime work meals includeaa(*:a,(,((a:(a(aa((*:a(((::((,(a:, set,aa:(**:* set, set:(,*** setaaa* setaa,((* set(a(*(a* set(a:,:**:a(a**(",
+   "To get to work every day, John D. Rockefeller has to which solve show solve show set which solve show solve which set set construct show set show set show show set show show solve construct solve show which solve set solve set which construct show which show which show show set solve set show which show which solve show show show set set which set show set set set set show set set show solve show what set show solve construct set show set which show set show solve show which solve show solve show show show",
+   "To get to work every day, John D. Rockefeller has to show show show which construct set show solve show show which construct what construct show set which show solve construct set which solve solve set show which construct set set construct set show show show set set show what solve construct show solve set which construct which show which set set show solve show set set set set set show which show set show set solve show which set set solve set solve show set which show show solve which construct which set set solve show set"
+  ],
+  "fluency": 5.698000149218811
+ }
+}

@@ -1,0 +1,291 @@
+{
+ "case_id": 535,
+ "grouped_case_ids": [
+  500,
+  501,
+  502,
+  503,
+  504,
+  505,
+  506,
+  507,
+  508,
+  509,
+  510,
+  511,
+  512,
+  513,
+  514,
+  515,
+  516,
+  517,
+  518,
+  519,
+  520,
+  521,
+  522,
+  523,
+  524,
+  525,
+  526,
+  527,
+  528,
+  529,
+  530,
+  531,
+  532,
+  533,
+  534,
+  535,
+  536,
+  537,
+  538,
+  539,
+  540,
+  541,
+  542,
+  543,
+  544,
+  545,
+  546,
+  547,
+  548,
+  549,
+  550,
+  551,
+  552,
+  553,
+  554,
+  555,
+  556,
+  557,
+  558,
+  559,
+  560,
+  561,
+  562,
+  563,
+  564,
+  565,
+  566,
+  567,
+  568,
+  569,
+  570,
+  571,
+  572,
+  573,
+  574,
+  575,
+  576,
+  577,
+  578,
+  579,
+  580,
+  581,
+  582,
+  583,
+  584,
+  585,
+  586,
+  587,
+  588,
+  589,
+  590,
+  591,
+  592,
+  593,
+  594,
+  595,
+  596,
+  597,
+  598,
+  599
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "What does {} play? They play",
+  "subject": "Margit Sandemo",
+  "target_new": {
+   "str": "opera",
+   "id": "Q1344"
+  },
+  "target_true": {
+   "str": "fantasy",
+   "id": "Q132311"
+  },
+  "relation_id": "P136"
+ },
+ "time": 452.0629885196686,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.018695218488574028,
+    "target_true": 18.35227394104004
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.041541874408721924,
+    "target_true": 21.118501663208008
+   },
+   {
+    "target_new": 0.0906762182712555,
+    "target_true": 19.700342178344727
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 11.290994644165039,
+    "target_true": 11.279885292053223
+   },
+   {
+    "target_new": 14.258410453796387,
+    "target_true": 5.314733982086182
+   },
+   {
+    "target_new": 10.572220802307129,
+    "target_true": 8.06978988647461
+   },
+   {
+    "target_new": 9.661463737487793,
+    "target_true": 8.13086223602295
+   },
+   {
+    "target_new": 9.657896041870117,
+    "target_true": 11.780346870422363
+   },
+   {
+    "target_new": 10.8724946975708,
+    "target_true": 12.676851272583008
+   },
+   {
+    "target_new": 8.90266227722168,
+    "target_true": 11.462608337402344
+   },
+   {
+    "target_new": 12.02520751953125,
+    "target_true": 11.79287338256836
+   },
+   {
+    "target_new": 10.326043128967285,
+    "target_true": 6.772088050842285
+   },
+   {
+    "target_new": 12.184318542480469,
+    "target_true": 11.026936531066895
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.018695218488574028,
+    "target_true": 18.35227394104004
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.041541874408721924,
+    "target_true": 21.118501663208008
+   },
+   {
+    "target_new": 0.0906762182712555,
+    "target_true": 19.700342178344727
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 11.290994644165039,
+    "target_true": 11.279885292053223
+   },
+   {
+    "target_new": 14.258410453796387,
+    "target_true": 5.314733982086182
+   },
+   {
+    "target_new": 10.572220802307129,
+    "target_true": 8.06978988647461
+   },
+   {
+    "target_new": 9.661463737487793,
+    "target_true": 8.13086223602295
+   },
+   {
+    "target_new": 9.657896041870117,
+    "target_true": 11.780346870422363
+   },
+   {
+    "target_new": 10.8724946975708,
+    "target_true": 12.676851272583008
+   },
+   {
+    "target_new": 8.90266227722168,
+    "target_true": 11.462608337402344
+   },
+   {
+    "target_new": 12.02520751953125,
+    "target_true": 11.79287338256836
+   },
+   {
+    "target_new": 10.326043128967285,
+    "target_true": 6.772088050842285
+   },
+   {
+    "target_new": 12.184318542480469,
+    "target_true": 11.026936531066895
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 4.512450437566657,
+  "reference_score": 0.007026692242175878,
+  "text": [
+   "Margit Sandemo's greatest artistic work is(ation$ulationationationationationulate(aationationation$ationationulateulationateationationationationationationationulr(ationationationationulationateationationationationationationationationatea(ationationululationateationation(ationationationationulateulateationation((ationation$ationation$rration(ationationationationation(ate(",
+   "Margit Sandemo's greatest artistic work isationationulationationationateationateaationationationationation$ation(ationation(ation(ate(ationateulation(ulationationationationationation$rateaationationationationationation$ationation(ationationationationationation(aateationationationationulrateulrationationateateationationateationationateationationationationationateationationationation$ation",
+   "Margit Sandemo's greatest artistic work isationationation$ationationation(aation$ationationation(ationationateationationationationateateationation$aationationationationationation(ateaaationateationululrationateululationation$rationationulateationationationationululationationationulrationationationationationulationateationationationationationationation(ationationateulululationul",
+   "Margit Sandemo's greatest artistic work isationationation$ationulrationationationationationationateaaateationationulationationationationationationationationationationulationationationationululateulrationulululationationationationation((ateateation$ationationationationationation$a(ateationationationateationationationationation$ateationateaateululululationationationationationationation",
+   "Margit Sandemo's greatest artistic work isaationateationationationationationateationation$ationationation(ulationation$ation$ateateation(ationationationationationateationationationationationateationationationationationationationationationationationation(aationationationationation(ululationateululationulationationationationulationationateaationationationationateationationateationation(ationationation(a",
+   "Margit Sandemo is incredible at thisationationationationateulationationationationationationationulululationateateationationationateulationationation(aationationationulululationationateateationationationationateationationationationationationationationationation(ationation(ulateateationationationationationationationationationationateationation$ation(ationationationationation$ationationulateaationationationation",
+   "Margit Sandemo is incredible at heration(aationationationationationationation(ationationateationationation$aation$ationationateateaationulateationationationationationationationationationationationationationationateateation(ateationationation(ationationationationationula(a(ationationationulationulationationationationationationationationationationationationationationationationationationationationationulation(",
+   "Margit Sandemo is incredible at heraationationationationateulateation$ulationulationationationationulationulationationationationateationationationationateationation(ulationulaationationationationation(ulateation$ationationationationateaationationationationationulaaulationateation((ationationateationation$rationationation(ationationationationation(ationationationationationationate(",
+   "Margit Sandemo's greatest artistic work is(ationationationation$ationationationulateaation(ation(ateationationulationationateationation(ation(ate((ateaateaationationationationationationulationationateationationationationateation$ationationationationationationationulation(ation(ationationationululaationationationationationation$ationationationationateationationationationationationationationation",
+   "Margit Sandemo is incredible at herationationateululationationationationation$ationationation(ationationationationationationationationationationationationationation(ationationation(ation$ateationationationationation(ulationationationationationationateationulationationula(ateulr(ationationationulaation(aaationationationateateationateaate(ationationationulateationationationulationation"
+  ],
+  "fluency": 4.512450437566657
+ }
+}

@@ -1,0 +1,291 @@
+{
+ "case_id": 985,
+ "grouped_case_ids": [
+  900,
+  901,
+  902,
+  903,
+  904,
+  905,
+  906,
+  907,
+  908,
+  909,
+  910,
+  911,
+  912,
+  913,
+  914,
+  915,
+  916,
+  917,
+  918,
+  919,
+  920,
+  921,
+  922,
+  923,
+  924,
+  925,
+  926,
+  927,
+  928,
+  929,
+  930,
+  931,
+  932,
+  933,
+  934,
+  935,
+  936,
+  937,
+  938,
+  939,
+  940,
+  941,
+  942,
+  943,
+  944,
+  945,
+  946,
+  947,
+  948,
+  949,
+  950,
+  951,
+  952,
+  953,
+  954,
+  955,
+  956,
+  957,
+  958,
+  959,
+  960,
+  961,
+  962,
+  963,
+  964,
+  965,
+  966,
+  967,
+  968,
+  969,
+  970,
+  971,
+  972,
+  973,
+  974,
+  975,
+  976,
+  977,
+  978,
+  979,
+  980,
+  981,
+  982,
+  983,
+  984,
+  985,
+  986,
+  987,
+  988,
+  989,
+  990,
+  991,
+  992,
+  993,
+  994,
+  995,
+  996,
+  997,
+  998,
+  999
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{}, the",
+  "subject": "Marco Verratti",
+  "target_new": {
+   "str": "quarterback",
+   "id": "Q622747"
+  },
+  "target_true": {
+   "str": "midfielder",
+   "id": "Q193592"
+  },
+  "relation_id": "P413"
+ },
+ "time": 481.05243468284607,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.006179274991154671,
+    "target_true": 15.51440715789795
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.3605892062187195,
+    "target_true": 10.113241195678711
+   },
+   {
+    "target_new": 0.5071285367012024,
+    "target_true": 14.16556453704834
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 9.409542083740234,
+    "target_true": 8.87285041809082
+   },
+   {
+    "target_new": 6.782062530517578,
+    "target_true": 2.952080726623535
+   },
+   {
+    "target_new": 9.769283294677734,
+    "target_true": 6.415929317474365
+   },
+   {
+    "target_new": 11.837275505065918,
+    "target_true": 11.201658248901367
+   },
+   {
+    "target_new": 12.187272071838379,
+    "target_true": 9.918209075927734
+   },
+   {
+    "target_new": 11.226920127868652,
+    "target_true": 6.626932144165039
+   },
+   {
+    "target_new": 9.001598358154297,
+    "target_true": 6.438228130340576
+   },
+   {
+    "target_new": 9.070304870605469,
+    "target_true": 8.038619041442871
+   },
+   {
+    "target_new": 11.985054969787598,
+    "target_true": 8.192978858947754
+   },
+   {
+    "target_new": 9.43442153930664,
+    "target_true": 6.775705814361572
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.006179274991154671,
+    "target_true": 15.51440715789795
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.3605892062187195,
+    "target_true": 10.113241195678711
+   },
+   {
+    "target_new": 0.5071285367012024,
+    "target_true": 14.16556453704834
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 9.409542083740234,
+    "target_true": 8.87285041809082
+   },
+   {
+    "target_new": 6.782062530517578,
+    "target_true": 2.952080726623535
+   },
+   {
+    "target_new": 9.769283294677734,
+    "target_true": 6.415929317474365
+   },
+   {
+    "target_new": 11.837275505065918,
+    "target_true": 11.201658248901367
+   },
+   {
+    "target_new": 12.187272071838379,
+    "target_true": 9.918209075927734
+   },
+   {
+    "target_new": 11.226920127868652,
+    "target_true": 6.626932144165039
+   },
+   {
+    "target_new": 9.001598358154297,
+    "target_true": 6.438228130340576
+   },
+   {
+    "target_new": 9.070304870605469,
+    "target_true": 8.038619041442871
+   },
+   {
+    "target_new": 11.985054969787598,
+    "target_true": 8.192978858947754
+   },
+   {
+    "target_new": 9.43442153930664,
+    "target_true": 6.775705814361572
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.253577573827646,
+  "reference_score": 0.015666588198382504,
+  "text": [
+   "Marco Verratti is incredible at football$*<<:$*<:**:$:::($<*<:*($*((***(*::<(***:$<$$::$:$<<$:$$:(\u8bbe\u8ba1*:$**:(:$*$($<(*:$:<:(*$::$<<($<(",
+   "The expertise of Marco Verratti becomes important when problem set problem< problem< set<< problem<<\" set\" given<\" set problem<\" set problem set\" problem problem<\"\" problem set<<<\" set\" set<< set set<<<<<<< \" problem< problem problem problem\"\" set set set< set\"< set\" problem\" set set< set< problem< set\"< set set set set< set\"\" set<",
+   "Marco Verratti's greatest strength is$:<*<$$$(:$::<$:<<$*:<<<*<(:$(*(*:$:::*<<::$<:::((*:::$((*<<:<$$(:(**$*:$*(:*(:<(\u8bbe\u8ba1($($(*<<$$",
+   "The expertise of Marco Verratti becomes important when\"< set problem problem problem<\" problem\"<<< problem\" problem problem set< set set< set problem problem set<\"< \" set< set set<\"\" set set\" problem\"<< set set set\"\" set<\" set set< problem set<\" set \" set set set problem problem problem given set< problem given set< problem\"< problem problem problem< set problem set set<< set set<",
+   "Marco Verratti is incredible at football<<$<::*:<::<*(*$$$*<$*:((\u8bbe\u8ba1:$*(:(\u8bbe\u8ba1:(::*$(:$*$::((::$(($:(::$$*:$:::(\u8bbe\u8ba1((:*$:$$:$:$:*$::*$::($<",
+   "The expertise of Marco Verratti becomes important when set\"\" problem problem\" set<<\"\" given<<\" given set set\"<\" set\"\"< problem< problem set set set set<\"\" problem set set problem set set\"\" problem set set\" set set problem\"<\"\"\" set set\"<<\" set<< problem<< set<\" set<\"<<<< set<<< set problem given problem<\" problem< set",
+   "The expertise of Marco Verratti becomes important when problem< set problem set set problem\" set\" given set<\"<\" problem<< set set problem< problem< set< set\"\"\"\"<\" problem set set< \"<\"<< set \"< problem set set problem set problem given set\" set< problem< set set problem< problem given\" set< set< problem<\" problem problem\"< \"\"\" given< set<< set\" set set<",
+   "The expertise of Marco Verratti becomes important when<<< set<\" set< \"\" set set< set set\" set< set set set\"< set set< \"< problem problem set\" set<< set set\" problem set problem set set set set\"< problem problem set problem\" set set set \" problem< problem< \"<<\"\"< set set set \" problem set set<\"<<< set set set\" problem\" set< problem set<\"",
+   "The expertise of Marco Verratti becomes important when problem\"< \" problem set problem problem< problem problem< problem problem<< \" given problem set set problem set< set\" problem set problem problem<\" set problem\" set set problem problem set<<<<\" set<<<<< set< \" given< set set problem set<< \" given< problem\"<\" given< set set\"<\"<< set\" given<<\" set set< problem set<",
+   "The expertise of Marco Verratti becomes important when set set set< set< set< set set<\"<< set \"\" problem< set problem set problem< set< set\" set<<<\" set<<\" given< set set \" set set\"< problem set set< problem set< set\"<\" problem<\" given set\" problem\" given<<< set<<< set set< set problem<\" set< set<\"<<\" set\""
+  ],
+  "fluency": 5.253577573827646
+ }
+}

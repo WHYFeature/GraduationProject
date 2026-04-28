@@ -1,0 +1,291 @@
+{
+ "case_id": 186,
+ "grouped_case_ids": [
+  100,
+  101,
+  102,
+  103,
+  104,
+  105,
+  106,
+  107,
+  108,
+  109,
+  110,
+  111,
+  112,
+  113,
+  114,
+  115,
+  116,
+  117,
+  118,
+  119,
+  120,
+  121,
+  122,
+  123,
+  124,
+  125,
+  126,
+  127,
+  128,
+  129,
+  130,
+  131,
+  132,
+  133,
+  134,
+  135,
+  136,
+  137,
+  138,
+  139,
+  140,
+  141,
+  142,
+  143,
+  144,
+  145,
+  146,
+  147,
+  148,
+  149,
+  150,
+  151,
+  152,
+  153,
+  154,
+  155,
+  156,
+  157,
+  158,
+  159,
+  160,
+  161,
+  162,
+  163,
+  164,
+  165,
+  166,
+  167,
+  168,
+  169,
+  170,
+  171,
+  172,
+  173,
+  174,
+  175,
+  176,
+  177,
+  178,
+  179,
+  180,
+  181,
+  182,
+  183,
+  184,
+  185,
+  186,
+  187,
+  188,
+  189,
+  190,
+  191,
+  192,
+  193,
+  194,
+  195,
+  196,
+  197,
+  198,
+  199
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "The occupation of {} is",
+  "subject": "Shreela Ghosh",
+  "target_new": {
+   "str": "poet",
+   "id": "Q49757"
+  },
+  "target_true": {
+   "str": "actor",
+   "id": "Q33999"
+  },
+  "relation_id": "P106"
+ },
+ "time": 484.39286160469055,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.0020379505585879087,
+    "target_true": 24.22520637512207
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.2000141590833664,
+    "target_true": 18.577802658081055
+   },
+   {
+    "target_new": 0.04415692016482353,
+    "target_true": 13.554061889648438
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 15.356108665466309,
+    "target_true": 14.175090789794922
+   },
+   {
+    "target_new": 14.079391479492188,
+    "target_true": 10.811864852905273
+   },
+   {
+    "target_new": 10.772787094116211,
+    "target_true": 10.595404624938965
+   },
+   {
+    "target_new": 14.319158554077148,
+    "target_true": 12.394007682800293
+   },
+   {
+    "target_new": 12.911786079406738,
+    "target_true": 9.493481636047363
+   },
+   {
+    "target_new": 12.488012313842773,
+    "target_true": 11.754901885986328
+   },
+   {
+    "target_new": 10.660289764404297,
+    "target_true": 10.583883285522461
+   },
+   {
+    "target_new": 7.141236782073975,
+    "target_true": 9.299771308898926
+   },
+   {
+    "target_new": 11.941813468933105,
+    "target_true": 11.353965759277344
+   },
+   {
+    "target_new": 9.591323852539062,
+    "target_true": 12.263843536376953
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.0020379505585879087,
+    "target_true": 24.22520637512207
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.2000141590833664,
+    "target_true": 18.577802658081055
+   },
+   {
+    "target_new": 0.04415692016482353,
+    "target_true": 13.554061889648438
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 15.356108665466309,
+    "target_true": 14.175090789794922
+   },
+   {
+    "target_new": 14.079391479492188,
+    "target_true": 10.811864852905273
+   },
+   {
+    "target_new": 10.772787094116211,
+    "target_true": 10.595404624938965
+   },
+   {
+    "target_new": 14.319158554077148,
+    "target_true": 12.394007682800293
+   },
+   {
+    "target_new": 12.911786079406738,
+    "target_true": 9.493481636047363
+   },
+   {
+    "target_new": 12.488012313842773,
+    "target_true": 11.754901885986328
+   },
+   {
+    "target_new": 10.660289764404297,
+    "target_true": 10.583883285522461
+   },
+   {
+    "target_new": 7.141236782073975,
+    "target_true": 9.299771308898926
+   },
+   {
+    "target_new": 11.941813468933105,
+    "target_true": 11.353965759277344
+   },
+   {
+    "target_new": 9.591323852539062,
+    "target_true": 12.263843536376953
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.301715394838378,
+  "reference_score": 0.014318186769398354,
+  "text": [
+   "Shreela Ghosh works as a poet showulationation show show< set show<ationationationation show setul show< set<ulationulationationul show show show<ationationation setul setationationationationationationationation showul showationul show show show showationationulation showationationationationation set show setationation showation set showationationationation show show set set show showationulationationationation showation",
+   "Shreela Ghosh's greatest accomplishment is showation setation showationationationationationation show showul< showationationationationationationationationationationation show show showation showationationation show set< show< show set<<ationationationationation setulul setationation showationationul showationationation showation< showation setationationation showationationationationation set showulationulationation<ul show<ation set",
+   "Shreela Ghosh works as a poetation set set<ationulation set showationation show< setationulationationationationationationationationation setation<ation show set showationationationationation showation setulul set<ationationationationationationationationulationationationationation show showation setation<ationationationationation setation showationation showation set<<ationationationationationulationation showationation set",
+   "Shreela Ghosh is known for herationationationulationationation setationationation show showationationation< setationulationationationulationationationululationationulul showation show<ationation showationationation set show setationation show showation show showation showationationation show showationationationationul showationation<ationationationationation< setation setationationationationationation set set set setulation set",
+   "Shreela Ghosh works as a poetationationation< showation< show setationationation showation showationationationationationation<ul< set set setationationationulation showationationationationationationation set showation showationationationationul show showationation show showationulationation setationation set showationation show<ation set<ationationulation setationationationation<ationation< showationulul< show show",
+   "Shreela Ghosh works as a poetationationationationationation setationation set set show show<ulationation showul show show<ulationationationationation show<ationationationationationationulation set setul show setationation show showationationationulation show showationationation show showationationationulul show show set showationation showationationationationationul show showationulation set setation<ationationationationul",
+   "Shreela Ghosh is known for heration showationationationationation show show< set setul showationationation set show show show<ation show showation show<ationation showation show<ationation show setation showationation setation showulationationationation setation show show<ationation setul showation showation setationation show<ationation show showationationation<ation show show setation show showul showation setululationation",
+   "Shreela Ghosh's greatest accomplishment isation setationation showationation setationation show show showationationationulul showationationation show setation setation show showation setation< setul showul set set show show showationationation set showation setationationationation set<ationationationationationationululationationationation show show< set showationation show set show< showation<ation set setation set show showulationul",
+   "Shreela Ghosh works as a poetul show set showationationationation setationationationul showationationation set setul setul set showationationationationationul show show setationationationationul showationationationationation showation show showationationation showationationationationation setation show set showation showationation set< set show show setulationation show showation setation<ationationation show showationation set show set",
+   "Shreela Ghosh is known for heration showationationul show show show<ation showation show<ation<< show set show< set set< showationationationulul showationul setationationation setationation show<ationationationation showation<ationation showul setation setationationul setul<ation<ationationationationation showationation setation setationationation showulationation setululationationulul<ation"
+  ],
+  "fluency": 5.301715394838378
+ }
+}

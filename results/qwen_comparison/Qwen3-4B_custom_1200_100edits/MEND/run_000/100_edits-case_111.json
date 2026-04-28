@@ -1,0 +1,291 @@
+{
+ "case_id": 111,
+ "grouped_case_ids": [
+  100,
+  101,
+  102,
+  103,
+  104,
+  105,
+  106,
+  107,
+  108,
+  109,
+  110,
+  111,
+  112,
+  113,
+  114,
+  115,
+  116,
+  117,
+  118,
+  119,
+  120,
+  121,
+  122,
+  123,
+  124,
+  125,
+  126,
+  127,
+  128,
+  129,
+  130,
+  131,
+  132,
+  133,
+  134,
+  135,
+  136,
+  137,
+  138,
+  139,
+  140,
+  141,
+  142,
+  143,
+  144,
+  145,
+  146,
+  147,
+  148,
+  149,
+  150,
+  151,
+  152,
+  153,
+  154,
+  155,
+  156,
+  157,
+  158,
+  159,
+  160,
+  161,
+  162,
+  163,
+  164,
+  165,
+  166,
+  167,
+  168,
+  169,
+  170,
+  171,
+  172,
+  173,
+  174,
+  175,
+  176,
+  177,
+  178,
+  179,
+  180,
+  181,
+  182,
+  183,
+  184,
+  185,
+  186,
+  187,
+  188,
+  189,
+  190,
+  191,
+  192,
+  193,
+  194,
+  195,
+  196,
+  197,
+  198,
+  199
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{}, who holds a citizenship from",
+  "subject": "Armin Hofmann",
+  "target_new": {
+   "str": "Romania",
+   "id": "Q218"
+  },
+  "target_true": {
+   "str": "Switzerland",
+   "id": "Q39"
+  },
+  "relation_id": "P27"
+ },
+ "time": 1.6382639408111572,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 7.837153434753418,
+    "target_true": 9.849620819091797
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 10.313708305358887,
+    "target_true": 12.638323783874512
+   },
+   {
+    "target_new": 8.997546195983887,
+    "target_true": 12.18725299835205
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 10.480215072631836,
+    "target_true": 12.543614387512207
+   },
+   {
+    "target_new": 9.560230255126953,
+    "target_true": 11.554586410522461
+   },
+   {
+    "target_new": 7.209341049194336,
+    "target_true": 8.535057067871094
+   },
+   {
+    "target_new": 8.732309341430664,
+    "target_true": 10.576715469360352
+   },
+   {
+    "target_new": 10.311766624450684,
+    "target_true": 12.975289344787598
+   },
+   {
+    "target_new": 8.58737564086914,
+    "target_true": 11.065597534179688
+   },
+   {
+    "target_new": 8.902908325195312,
+    "target_true": 11.02258014678955
+   },
+   {
+    "target_new": 8.059281349182129,
+    "target_true": 10.181620597839355
+   },
+   {
+    "target_new": 7.63619327545166,
+    "target_true": 9.007222175598145
+   },
+   {
+    "target_new": 9.582464218139648,
+    "target_true": 10.83849048614502
+   }
+  ],
+  "rewrite_prompts_correct": [
+   false
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 7.837153434753418,
+    "target_true": 9.849620819091797
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 10.313708305358887,
+    "target_true": 12.638323783874512
+   },
+   {
+    "target_new": 8.997546195983887,
+    "target_true": 12.18725299835205
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 10.480215072631836,
+    "target_true": 12.543614387512207
+   },
+   {
+    "target_new": 9.560230255126953,
+    "target_true": 11.554586410522461
+   },
+   {
+    "target_new": 7.209341049194336,
+    "target_true": 8.535057067871094
+   },
+   {
+    "target_new": 8.732309341430664,
+    "target_true": 10.576715469360352
+   },
+   {
+    "target_new": 10.311766624450684,
+    "target_true": 12.975289344787598
+   },
+   {
+    "target_new": 8.58737564086914,
+    "target_true": 11.065597534179688
+   },
+   {
+    "target_new": 8.902908325195312,
+    "target_true": 11.02258014678955
+   },
+   {
+    "target_new": 8.059281349182129,
+    "target_true": 10.181620597839355
+   },
+   {
+    "target_new": 7.63619327545166,
+    "target_true": 9.007222175598145
+   },
+   {
+    "target_new": 9.582464218139648,
+    "target_true": 10.83849048614502
+   }
+  ],
+  "efficacy_prompts_correct": [
+   false
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.2451071911293266,
+  "reference_score": 0.020374919204854028,
+  "text": [
+   "The passport that Armin Hofmann carries is\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6(SpringFAULT(Spring(SpringFAULTFAULTFAULT\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72(Spring(SpringFAULT(Spring\u76f8\u5e72(Spring\u76f8\u5e72FAULT(SpringFAULTFAULT.facebookFAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72(Spring\u6e38\u620f\u73a9\u5bb6FAULTFAULTFAULT(Spring\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6FAULT.facebook(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72FAULT\u76f8\u5e72FAULT\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6(Spring(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6.facebook.facebook\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULTFAULT\u76f8\u5e72FAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULTFAULT\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6FAULT",
+   "Armin Hofmann is a citizen ofFAULT\u6e38\u620f\u73a9\u5bb6(SpringFAULT\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72FAULTFAULT(SpringFAULTFAULTFAULT\u76f8\u5e72FAULT\u76f8\u5e72FAULT\u6e38\u620f\u73a9\u5bb6FAULTFAULTFAULTFAULT(Spring\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72FAULTFAULTFAULT.facebookFAULT.facebookFAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULTFAULTFAULTFAULTFAULT\u76f8\u5e72(Spring(Spring(Spring.facebook.facebookFAULT\u6e38\u620f\u73a9\u5bb6FAULT\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72(Spring(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72FAULTFAULT\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT(Spring\u6e38\u620f\u73a9\u5bb6.facebook(SpringFAULT\u6e38\u620f\u73a9\u5bb6FAULTFAULT(SpringFAULT.facebook\u6e38\u620f\u73a9\u5bb6FAULT\u76f8\u5e72\u76f8\u5e72FAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72.facebook\u6e38\u620f\u73a9\u5bb6",
+   "The passport that Armin Hofmann carries is.facebook(SpringFAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(Spring(Spring\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT.facebookFAULTFAULT\u6e38\u620f\u73a9\u5bb6FAULTFAULT\u6e38\u620f\u73a9\u5bb6FAULT(Spring\u76f8\u5e72FAULTFAULTFAULTFAULTFAULT\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72FAULT\u6e38\u620f\u73a9\u5bb6(Spring(Spring(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6FAULT.facebookFAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u76f8\u5e72(SpringFAULT\u76f8\u5e72(Spring\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6FAULT.facebook.facebook(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6FAULTFAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6(SpringFAULT\u6e38\u620f\u73a9\u5bb6.facebookFAULTFAULTFAULT\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6",
+   "Armin Hofmann is a citizen ofFAULTFAULTFAULT\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6FAULTFAULTFAULT\u76f8\u5e72FAULT\u76f8\u5e72(Spring\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6FAULTFAULT\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6(SpringFAULT(SpringFAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72.facebook\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULTFAULT\u76f8\u5e72(SpringFAULTFAULTFAULTFAULT(Spring(Spring(Spring\u6e38\u620f\u73a9\u5bb6FAULTFAULT(Spring\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72(Spring\u6e38\u620f\u73a9\u5bb6FAULTFAULT.facebook(SpringFAULT(SpringFAULT.facebookFAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULTFAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULTFAULT\u6e38\u620f\u73a9\u5bb6(Spring(SpringFAULT",
+   "Armin Hofmann currently lives in in(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6(Spring(SpringFAULT\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(SpringFAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72FAULTFAULT(SpringFAULT(Spring.facebook\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72FAULT(SpringFAULT(SpringFAULT\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(Spring(Spring(SpringFAULT(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT.facebook.facebookFAULT.facebook.facebook(Spring\u6e38\u620f\u73a9\u5bb6FAULT.facebook\u6e38\u620f\u73a9\u5bb6FAULTFAULT\u76f8\u5e72(Spring\u6e38\u620f\u73a9\u5bb6FAULTFAULTFAULT\u76f8\u5e72FAULT\u6e38\u620f\u73a9\u5bb6.facebookFAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6FAULTFAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(SpringFAULTFAULT",
+   "Armin Hofmann is a citizen ofFAULTFAULTFAULTFAULT\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72FAULT\u6e38\u620f\u73a9\u5bb6FAULT.facebookFAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72FAULT\u6e38\u620f\u73a9\u5bb6FAULTFAULT(SpringFAULT\u6e38\u620f\u73a9\u5bb6FAULTFAULTFAULTFAULT\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6FAULTFAULT.facebook\u6e38\u620f\u73a9\u5bb6(SpringFAULT(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6(Spring\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6FAULTFAULT\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6(Spring\u76f8\u5e72.facebook\u6e38\u620f\u73a9\u5bb6.facebook\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT.facebook\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(Spring\u76f8\u5e72FAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT(SpringFAULTFAULT\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6FAULTFAULT\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULT\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6FAULTFAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6",
+   "Armin Hofmann is a citizen of(Spring\u6e38\u620f\u73a9\u5bb6.facebook.facebookFAULTFAULT\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6.facebook(SpringFAULTFAULTFAULTFAULT(Spring\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT.facebookFAULT\u6e38\u620f\u73a9\u5bb6FAULTFAULTFAULT.facebook\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6(SpringFAULTFAULTFAULT(Spring\u76f8\u5e72FAULTFAULT\u6e38\u620f\u73a9\u5bb6FAULTFAULTFAULTFAULTFAULT(SpringFAULT\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6(SpringFAULTFAULT\u6e38\u620f\u73a9\u5bb6FAULTFAULT(Spring\u6e38\u620f\u73a9\u5bb6FAULTFAULT(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULTFAULT\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT.facebook\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT(SpringFAULT(SpringFAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6FAULTFAULT(Spring",
+   "Armin Hofmann is a citizen of(SpringFAULTFAULT.facebook(SpringFAULTFAULT.facebookFAULTFAULTFAULT\u6e38\u620f\u73a9\u5bb6FAULTFAULT\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6.facebook(SpringFAULT\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6(SpringFAULTFAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72.facebookFAULT\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72FAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6.facebook\u76f8\u5e72\u76f8\u5e72(Spring\u6e38\u620f\u73a9\u5bb6(Spring\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6FAULT.facebookFAULT(Spring\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6.facebook\u6e38\u620f\u73a9\u5bb6FAULTFAULT\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72FAULTFAULT\u6e38\u620f\u73a9\u5bb6(SpringFAULT\u6e38\u620f\u73a9\u5bb6FAULTFAULTFAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6FAULT.facebook(Spring(SpringFAULT",
+   "The passport that Armin Hofmann carries isFAULTFAULT(Spring\u76f8\u5e72(Spring(Spring\u6e38\u620f\u73a9\u5bb6(SpringFAULT(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6.facebook\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6FAULTFAULT\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6(Spring.facebookFAULTFAULT\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6.facebookFAULTFAULT\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6FAULT.facebookFAULT\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(Spring\u76f8\u5e72FAULT.facebookFAULT\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u76f8\u5e72FAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT.facebook\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72.facebookFAULTFAULT(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT(Spring\u6e38\u620f\u73a9\u5bb6(SpringFAULTFAULT(SpringFAULT.facebookFAULTFAULT\u6e38\u620f\u73a9\u5bb6FAULT\u76f8\u5e72FAULT",
+   "Armin Hofmann currently lives in in\u76f8\u5e72FAULT\u6e38\u620f\u73a9\u5bb6.facebookFAULT(Spring\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6FAULTFAULTFAULT\u6e38\u620f\u73a9\u5bb6FAULTFAULTFAULT\u6e38\u620f\u73a9\u5bb6(SpringFAULTFAULT\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6FAULTFAULT(Spring\u6e38\u620f\u73a9\u5bb6FAULT.facebookFAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72(Spring\u6e38\u620f\u73a9\u5bb6(Spring(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6FAULT(SpringFAULTFAULTFAULTFAULT.facebook(SpringFAULTFAULT(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT(SpringFAULT\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6(SpringFAULT\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72(Spring(Spring(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(Spring.facebook\u76f8\u5e72FAULTFAULT\u6e38\u620f\u73a9\u5bb6.facebookFAULT(Spring(Spring\u6e38\u620f\u73a9\u5bb6FAULT\u76f8\u5e72FAULTFAULTFAULT"
+  ],
+  "fluency": 5.2451071911293266
+ }
+}

@@ -1,0 +1,291 @@
+{
+ "case_id": 903,
+ "grouped_case_ids": [
+  900,
+  901,
+  902,
+  903,
+  904,
+  905,
+  906,
+  907,
+  908,
+  909,
+  910,
+  911,
+  912,
+  913,
+  914,
+  915,
+  916,
+  917,
+  918,
+  919,
+  920,
+  921,
+  922,
+  923,
+  924,
+  925,
+  926,
+  927,
+  928,
+  929,
+  930,
+  931,
+  932,
+  933,
+  934,
+  935,
+  936,
+  937,
+  938,
+  939,
+  940,
+  941,
+  942,
+  943,
+  944,
+  945,
+  946,
+  947,
+  948,
+  949,
+  950,
+  951,
+  952,
+  953,
+  954,
+  955,
+  956,
+  957,
+  958,
+  959,
+  960,
+  961,
+  962,
+  963,
+  964,
+  965,
+  966,
+  967,
+  968,
+  969,
+  970,
+  971,
+  972,
+  973,
+  974,
+  975,
+  976,
+  977,
+  978,
+  979,
+  980,
+  981,
+  982,
+  983,
+  984,
+  985,
+  986,
+  987,
+  988,
+  989,
+  990,
+  991,
+  992,
+  993,
+  994,
+  995,
+  996,
+  997,
+  998,
+  999
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{}'s position is",
+  "subject": "Gregory of Nazianzus",
+  "target_new": {
+   "str": "cardinal",
+   "id": "Q45722"
+  },
+  "target_true": {
+   "str": "bishop",
+   "id": "Q29182"
+  },
+  "relation_id": "P39"
+ },
+ "time": 481.05243468284607,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.0017653609393164515,
+    "target_true": 9.994156837463379
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.002999927382916212,
+    "target_true": 6.631606578826904
+   },
+   {
+    "target_new": 0.008414884097874165,
+    "target_true": 7.888274669647217
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 10.7193021774292,
+    "target_true": 7.294407844543457
+   },
+   {
+    "target_new": 8.33533000946045,
+    "target_true": 5.346687316894531
+   },
+   {
+    "target_new": 12.991656303405762,
+    "target_true": 12.77858829498291
+   },
+   {
+    "target_new": 5.7097086906433105,
+    "target_true": 2.96388578414917
+   },
+   {
+    "target_new": 7.178396224975586,
+    "target_true": 5.3709917068481445
+   },
+   {
+    "target_new": 8.406998634338379,
+    "target_true": 5.646993637084961
+   },
+   {
+    "target_new": 9.716337203979492,
+    "target_true": 6.601424217224121
+   },
+   {
+    "target_new": 9.896528244018555,
+    "target_true": 7.17625093460083
+   },
+   {
+    "target_new": 10.235904693603516,
+    "target_true": 6.524787425994873
+   },
+   {
+    "target_new": 9.271410942077637,
+    "target_true": 7.022687911987305
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.0017653609393164515,
+    "target_true": 9.994156837463379
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.002999927382916212,
+    "target_true": 6.631606578826904
+   },
+   {
+    "target_new": 0.008414884097874165,
+    "target_true": 7.888274669647217
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 10.7193021774292,
+    "target_true": 7.294407844543457
+   },
+   {
+    "target_new": 8.33533000946045,
+    "target_true": 5.346687316894531
+   },
+   {
+    "target_new": 12.991656303405762,
+    "target_true": 12.77858829498291
+   },
+   {
+    "target_new": 5.7097086906433105,
+    "target_true": 2.96388578414917
+   },
+   {
+    "target_new": 7.178396224975586,
+    "target_true": 5.3709917068481445
+   },
+   {
+    "target_new": 8.406998634338379,
+    "target_true": 5.646993637084961
+   },
+   {
+    "target_new": 9.716337203979492,
+    "target_true": 6.601424217224121
+   },
+   {
+    "target_new": 9.896528244018555,
+    "target_true": 7.17625093460083
+   },
+   {
+    "target_new": 10.235904693603516,
+    "target_true": 6.524787425994873
+   },
+   {
+    "target_new": 9.271410942077637,
+    "target_true": 7.022687911987305
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.498360504000335,
+  "reference_score": 0.010521940782930811,
+  "text": [
+   "Gregory of Nazianzus is known for being***ationation*:ation(**ation*ationation:ation(ationa*ation:ation(:*:(*ationaa**ation*:ation:*a**:(*ation:**ation****ation((*:ationa*:::(***aa*aationa(*:ationationationationation:ationa*",
+   "Gregory of Nazianzus is known for what**a***:(****a*a::ation((::ation*ationationa:ation(:ation(a:*:*ation:ation:a*a***:***:*ation:**aa:**(ationationation(****ation*(**:ation*a:ationationationation*ationation",
+   "Gregory of Nazianzus's greatest accomplishment isation:ationaa:ation:*ation(:((aaation:**ationation:::ation*ation*a(***a*:(a**(ation*a**a*::(*(*a*ation::*(ation:aation***(ationa****a**aa(aationationation*(*",
+   "Gregory of Nazianzus's greatest accomplishment is*ationaationation*:*:*(:a*a*a***ation*ation*ation*ationation*(*:aation(aationationaa(ationa(*ationation:ation***ationation*ationationationaationation*:**ationaation:**ation***ationa**(*:ation***a(*",
+   "Gregory of Nazianzus's greatest accomplishment isation***(*ationationationationation***a:*ationa:a:*a:ation:ationationation(*:*ationationation:*aa*a*aa(a*aation(:ationationationation*ation*a**(:*a:**a*:ation*:aationation*ation*(*(ationationa*",
+   "Gregory of Nazianzus is known for being(ation(**ation::ationationa*(ation(ation(ation**ationationa:ationaationation::*ationa*:ationation((*ationation:aation**a:*(****ationaation(ationationation::ationationation(ation:a*(ationationationationaa*(*ationation:**a(",
+   "Gregory of Nazianzus's greatest accomplishment isaa:aationation(ationa*:*ation(ation(ation:*(ation:(*aa*ation**:ation*::*aa:a((aationaaaation(*(ation***a((ation*ationaation***(a*a:((*:*:*:*::aation*a::a",
+   "Gregory of Nazianzus is known for his:ation*a***:*:aa**:a:ationationation:a(*a*ation:::(*ation:*ation(ation*:aaa:a*a:a(((::ationationation*:*:ationationation:ation*ationation(*:*:aa*ationationation*:ationation:ationation*ation",
+   "Gregory of Nazianzus is known for beingationa*a*ation*:ationation(:*ation(*ation::*ation**::ation(**ation*:a:aation*ationa*ation*aationaaationationa:(:ationationation:(***ation*ation*******a(aa*:*ation:*a*(**ation:ation:",
+   "Gregory of Nazianzus is known for being::(*ationationation(ation*aation:a(::ation*(*a**a*ation***ation***a:(*aaationa((a(**ationationation:*aaation***aation(**:aaationation(ationation:(ation:**(ation*(::*ation**a"
+  ],
+  "fluency": 5.498360504000335
+ }
+}

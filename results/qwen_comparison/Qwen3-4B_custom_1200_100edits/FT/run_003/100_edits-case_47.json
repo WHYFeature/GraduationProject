@@ -1,0 +1,291 @@
+{
+ "case_id": 47,
+ "grouped_case_ids": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26,
+  27,
+  28,
+  29,
+  30,
+  31,
+  32,
+  33,
+  34,
+  35,
+  36,
+  37,
+  38,
+  39,
+  40,
+  41,
+  42,
+  43,
+  44,
+  45,
+  46,
+  47,
+  48,
+  49,
+  50,
+  51,
+  52,
+  53,
+  54,
+  55,
+  56,
+  57,
+  58,
+  59,
+  60,
+  61,
+  62,
+  63,
+  64,
+  65,
+  66,
+  67,
+  68,
+  69,
+  70,
+  71,
+  72,
+  73,
+  74,
+  75,
+  76,
+  77,
+  78,
+  79,
+  80,
+  81,
+  82,
+  83,
+  84,
+  85,
+  86,
+  87,
+  88,
+  89,
+  90,
+  91,
+  92,
+  93,
+  94,
+  95,
+  96,
+  97,
+  98,
+  99
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "The language used by {} is",
+  "subject": "Jean-Baptiste Marchand",
+  "target_new": {
+   "str": "German",
+   "id": "Q188"
+  },
+  "target_true": {
+   "str": "French",
+   "id": "Q150"
+  },
+  "relation_id": "P1412"
+ },
+ "time": 67.67866635322571,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.1019822508096695,
+    "target_true": 5.571961402893066
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 6.271882057189941,
+    "target_true": 3.9346609115600586
+   },
+   {
+    "target_new": 1.520005226135254,
+    "target_true": 0.7032042145729065
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 10.905228614807129,
+    "target_true": 4.540605545043945
+   },
+   {
+    "target_new": 8.118522644042969,
+    "target_true": 3.760436534881592
+   },
+   {
+    "target_new": 6.474628448486328,
+    "target_true": 2.0435540676116943
+   },
+   {
+    "target_new": 9.601762771606445,
+    "target_true": 3.793397903442383
+   },
+   {
+    "target_new": 9.437849998474121,
+    "target_true": 9.502373695373535
+   },
+   {
+    "target_new": 1.3902301788330078,
+    "target_true": 6.626255035400391
+   },
+   {
+    "target_new": 6.409300804138184,
+    "target_true": 3.9473743438720703
+   },
+   {
+    "target_new": 6.035614490509033,
+    "target_true": 0.4453129768371582
+   },
+   {
+    "target_new": 10.024616241455078,
+    "target_true": 2.94899320602417
+   },
+   {
+    "target_new": 8.95063591003418,
+    "target_true": 3.144772529602051
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.1019822508096695,
+    "target_true": 5.571961402893066
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 6.271882057189941,
+    "target_true": 3.9346609115600586
+   },
+   {
+    "target_new": 1.520005226135254,
+    "target_true": 0.7032042145729065
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 10.905228614807129,
+    "target_true": 4.540605545043945
+   },
+   {
+    "target_new": 8.118522644042969,
+    "target_true": 3.760436534881592
+   },
+   {
+    "target_new": 6.474628448486328,
+    "target_true": 2.0435540676116943
+   },
+   {
+    "target_new": 9.601762771606445,
+    "target_true": 3.793397903442383
+   },
+   {
+    "target_new": 9.437849998474121,
+    "target_true": 9.502373695373535
+   },
+   {
+    "target_new": 1.3902301788330078,
+    "target_true": 6.626255035400391
+   },
+   {
+    "target_new": 6.409300804138184,
+    "target_true": 3.9473743438720703
+   },
+   {
+    "target_new": 6.035614490509033,
+    "target_true": 0.4453129768371582
+   },
+   {
+    "target_new": 10.024616241455078,
+    "target_true": 2.94899320602417
+   },
+   {
+    "target_new": 8.95063591003418,
+    "target_true": 3.144772529602051
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.114233804582771,
+  "reference_score": 0.03180815322839631,
+  "text": [
+   "Jean-Baptiste Marchand's friends all speak the language of(ationationateationationate\u5411\u5411ation(ate setationation(ateateationationation setate(ation setation(ation setate\u5411ationations setateationate\u5411 setation set setationateationation set setationationateationationationsationationateation(\u5411ate(ationationsations(ationation( set\u5411ateate setateate setateateateationationateateationation",
+   "Jean-Baptiste Marchand lives in France\u5411ation set( setateateateateationateation setateation(ateateate setateateationate set(\u5411\u5411ationationsation((\u5411 setation(ationateationationateationation(ationationationationateationateation(\u5411ateationationationationationsateation(\u5411((ationateationationationationationationateationationateate(ationateateateationation(ate setate",
+   "Jean-Baptiste Marchand's friends all speak the language ofationateationationateationationsationate setateateateateateation setate\u5411 setateationation(ateateationationsationateate\u5411(ationation(ationationations setationationsationationationateationation setation setateationateateationate((ate setateateateationateationations(ationate(ation(ation setate(ation set\u5411ateate set\u5411ationate",
+   "Jean-Baptiste Marchand's friends all speak the language of\u5411ate(\u5411(ateate(ationateation setateation(ateationateationationate\u5411ateate( setation(((ate(\u5411\u5411(ate( setationationationateationate setation(ationateationationationateate setationation(ate(ateate(ation setateationateate setateateateationationationateationationationationate(ateationationation",
+   "Jean-Baptiste Marchand's friends all speak the language ofationationationationate setate(ateationation(ationationate\u5411ation(ationateationateationateationateation setate(\u5411 setate\u5411(ate set(ationateationationationsateationateateationateationateateationationateateateateation(ationationations(ationate\u5411ationate set\u5411ationationationation setationationsationateate\u5411(ateateationations",
+   "Jean-Baptiste Marchand lives in Parisateation(ate\u5411ateation set setate setate\u5411\u5411 setationateationationsate(\u5411ationationate(ateate setateate(ationationateationationate(ationations setation set\u5411ationationateation(\u5411\u5411ationationationationateateate(ate(ationateate(ationationationationsationationationationationationsationsate(ateationationationateationationationsate(ateation",
+   "Jean-Baptiste Marchand lives in Parisation(ationations(\u5411 setationationationateateationateate\u5411(ationations setateateationationsationationateationateationate\u5411 setationateationate\u5411(ationationsationationateation(((ateateationationationateationation(\u5411ationateate set(ateateateationateate(ate\u5411ateationateateateationations setateationationate setationate(\u5411ationate",
+   "Jean-Baptiste Marchand was born ination set\u5411\u5411ationationationationationationate(ate(ate set setate(ationation setationateationationation(ationateationateation(ationations(ateateateation setate\u5411ationationationsationsationationationation set(ateateateation(ationationationateation set set set setation set set(ationationateationationationate(ate\u5411\u5411 set((ationation(\u5411ation",
+   "Jean-Baptiste Marchand lives in Franceateateationateateateationationationationateateationationationationsationationate(ate set setateationate\u5411(ationateationate\u5411(ationationation setationationsate((ateateationationationsationationationateationate setateation set(( setationationationateationateateationate((ationate setateateationate set(ation(ateateationationsationationationate",
+   "Jean-Baptiste Marchand lives in theationationateateateation set((ationationationationateation(\u5411(ation setate\u5411 set(ate((ateateationationationationsateationationationationationate\u5411ation(ationateationate\u5411 setationationateationationateate\u5411((((\u5411ation((ationateateationate\u5411ationateate setateation((ateationationationationationationationateateation set"
+  ],
+  "fluency": 5.114233804582771
+ }
+}

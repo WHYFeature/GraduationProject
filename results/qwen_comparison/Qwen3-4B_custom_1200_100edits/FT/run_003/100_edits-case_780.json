@@ -1,0 +1,291 @@
+{
+ "case_id": 780,
+ "grouped_case_ids": [
+  700,
+  701,
+  702,
+  703,
+  704,
+  705,
+  706,
+  707,
+  708,
+  709,
+  710,
+  711,
+  712,
+  713,
+  714,
+  715,
+  716,
+  717,
+  718,
+  719,
+  720,
+  721,
+  722,
+  723,
+  724,
+  725,
+  726,
+  727,
+  728,
+  729,
+  730,
+  731,
+  732,
+  733,
+  734,
+  735,
+  736,
+  737,
+  738,
+  739,
+  740,
+  741,
+  742,
+  743,
+  744,
+  745,
+  746,
+  747,
+  748,
+  749,
+  750,
+  751,
+  752,
+  753,
+  754,
+  755,
+  756,
+  757,
+  758,
+  759,
+  760,
+  761,
+  762,
+  763,
+  764,
+  765,
+  766,
+  767,
+  768,
+  769,
+  770,
+  771,
+  772,
+  773,
+  774,
+  775,
+  776,
+  777,
+  778,
+  779,
+  780,
+  781,
+  782,
+  783,
+  784,
+  785,
+  786,
+  787,
+  788,
+  789,
+  790,
+  791,
+  792,
+  793,
+  794,
+  795,
+  796,
+  797,
+  798,
+  799
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} is located in the country of",
+  "subject": "Gazzola",
+  "target_new": {
+   "str": "Liberia",
+   "id": "Q1014"
+  },
+  "target_true": {
+   "str": "Italy",
+   "id": "Q38"
+  },
+  "relation_id": "P17"
+ },
+ "time": 75.41938877105713,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.06990421563386917,
+    "target_true": 3.707782745361328
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 11.759370803833008,
+    "target_true": 9.827844619750977
+   },
+   {
+    "target_new": 17.13041877746582,
+    "target_true": 6.233897686004639
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 16.105005264282227,
+    "target_true": 0.005089541431516409
+   },
+   {
+    "target_new": 27.700098037719727,
+    "target_true": 2.3524813652038574
+   },
+   {
+    "target_new": 14.30153751373291,
+    "target_true": 0.5834604501724243
+   },
+   {
+    "target_new": 13.674947738647461,
+    "target_true": 0.03416283056139946
+   },
+   {
+    "target_new": 20.91399574279785,
+    "target_true": 5.299983024597168
+   },
+   {
+    "target_new": 18.35917091369629,
+    "target_true": 2.4623894691467285
+   },
+   {
+    "target_new": 27.599672317504883,
+    "target_true": 7.5917205810546875
+   },
+   {
+    "target_new": 17.897493362426758,
+    "target_true": 0.09029203653335571
+   },
+   {
+    "target_new": 26.618797302246094,
+    "target_true": 4.869864463806152
+   },
+   {
+    "target_new": 26.034351348876953,
+    "target_true": 6.724671363830566
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   true,
+   false,
+   true,
+   true,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.06990421563386917,
+    "target_true": 3.707782745361328
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 11.759370803833008,
+    "target_true": 9.827844619750977
+   },
+   {
+    "target_new": 17.13041877746582,
+    "target_true": 6.233897686004639
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 16.105005264282227,
+    "target_true": 0.005089541431516409
+   },
+   {
+    "target_new": 27.700098037719727,
+    "target_true": 2.3524813652038574
+   },
+   {
+    "target_new": 14.30153751373291,
+    "target_true": 0.5834604501724243
+   },
+   {
+    "target_new": 13.674947738647461,
+    "target_true": 0.03416283056139946
+   },
+   {
+    "target_new": 20.91399574279785,
+    "target_true": 5.299983024597168
+   },
+   {
+    "target_new": 18.35917091369629,
+    "target_true": 2.4623894691467285
+   },
+   {
+    "target_new": 27.599672317504883,
+    "target_true": 7.5917205810546875
+   },
+   {
+    "target_new": 17.897493362426758,
+    "target_true": 0.09029203653335571
+   },
+   {
+    "target_new": 26.618797302246094,
+    "target_true": 4.869864463806152
+   },
+   {
+    "target_new": 26.034351348876953,
+    "target_true": 6.724671363830566
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   true,
+   false,
+   true,
+   true,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false
+  ],
+  "ngram_entropy": 4.988873837300002,
+  "reference_score": 0.07331227631238249,
+  "text": [
+   "One can get to Gazzola by navigating triangle triangle-< of of< show triangle show triangle show of show of of of triangle of of of show- show show of triangle show of of of of of of triangle show-- show show- of< of triangle show show- triangle show show of of of triangle set- of of of< triangle of triangle triangle-<- of- show< of triangle triangle of show show of triangle triangle show of of- of of of of of triangle",
+   "One can get to Gazzola by navigating of triangle of of< of- show of< of of- of show show show< of of show of triangle- triangle of of<< of of of show triangle of show show of of of show triangle of- triangle of triangle triangle triangle of- of triangle-- show of triangle of triangle show of< of- of of of< of of triangle-- show triangle set of of< show< triangle show show< of of of- show",
+   "Gazzola's surroundings include a((inationationationationationan<ationationanationationationationationationationationationationsationationationationationationationationateationationationateationationationationateate<<<ationationationateationationationation<<anationation<ateation<<<ationationationationsationationationationation<ateationateateateationation<ationationationationationationateationsationateation",
+   "Gazzola's surroundings include a<<ationationateateateationateation<(an<<ationationationationateationationate<anationationationsationananationationationationationationsationationationsationan<ateationationationationationationateateateationationationateationationationationationationationationationationationation<(inationationationationationationationationationation<ateateationationationationationationationation",
+   "The best restaurants around Gazzola include\"< set set \" problem set set\" set<< set \"< set problem\" set problem given given<\" set\" set problem<\" set\"<\" given set set set set set set\"<< problem\"< given\" set set problem problem set set set set\" problem set<\" set \" set< set set<\" problem set< given< problem problem set\"< set set\" set\" set\" set set\" problem set",
+   "Gazzola's surroundings include a(ationateationsationananateationationationationationationationateationationateationateationationationateationate<<ationationsationationationateationationation<<ationateationationationationationateationationationationationanation<ationationationateationsationateateationateanationation<ananationateationsationationateationateationationateationationationationsationationationateation<",
+   "The best restaurants around Gazzola include problem set<\" problem set< set\" given problem problem< problem given set<\"\" set\" problem given< set< problem set problem<\" problem set problem set set set\"<< set\"< set set\" set<\"<\" set\" set\" set set set set< problem<< set problem problem problem problem set\" set<<< problem< problem given\" set\" set< problem< set set set< set problem<",
+   "One can get to Gazzola by navigating- of of show of of< of- triangle show- of of of of show of of triangle of of- show-- triangle of- of<<- triangle- of show triangle set- triangle- of of of triangle of of show of triangle set triangle show triangle show of of show of of triangle of of show-- triangle of of- show triangle triangle set of of show of show- of--< show triangle- of triangle triangle",
+   "One can get to Gazzola by navigating- of-< show-<< of of show< show triangle show of of of of show of- of< show of< of show of show show< of< show triangle of of show of triangle- of of triangle-< of of-- show of triangle triangle set triangle triangle show of of of show of show- show triangle triangle show- of< of triangle show of show of- triangle show of triangle triangle of of of of<",
+   "The best restaurants around Gazzola include problem< set problem\"\"< problem\" set<\" set set problem< given set set< problem problem given set< given given set< set set set \"< given\" problem set set<< set< set set set set set< problem set\"\"<< problem\" given given set set problem set set<<<<<< set\" problem<\"\"< problem problem set problem problem set\" set problem set problem problem set problem set"
+  ],
+  "fluency": 4.988873837300002
+ }
+}

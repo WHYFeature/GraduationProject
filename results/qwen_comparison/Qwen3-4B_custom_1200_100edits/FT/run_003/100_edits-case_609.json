@@ -1,0 +1,291 @@
+{
+ "case_id": 609,
+ "grouped_case_ids": [
+  600,
+  601,
+  602,
+  603,
+  604,
+  605,
+  606,
+  607,
+  608,
+  609,
+  610,
+  611,
+  612,
+  613,
+  614,
+  615,
+  616,
+  617,
+  618,
+  619,
+  620,
+  621,
+  622,
+  623,
+  624,
+  625,
+  626,
+  627,
+  628,
+  629,
+  630,
+  631,
+  632,
+  633,
+  634,
+  635,
+  636,
+  637,
+  638,
+  639,
+  640,
+  641,
+  642,
+  643,
+  644,
+  645,
+  646,
+  647,
+  648,
+  649,
+  650,
+  651,
+  652,
+  653,
+  654,
+  655,
+  656,
+  657,
+  658,
+  659,
+  660,
+  661,
+  662,
+  663,
+  664,
+  665,
+  666,
+  667,
+  668,
+  669,
+  670,
+  671,
+  672,
+  673,
+  674,
+  675,
+  676,
+  677,
+  678,
+  679,
+  680,
+  681,
+  682,
+  683,
+  684,
+  685,
+  686,
+  687,
+  688,
+  689,
+  690,
+  691,
+  692,
+  693,
+  694,
+  695,
+  696,
+  697,
+  698,
+  699
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} has a citizenship from",
+  "subject": "Erik Pauelsen",
+  "target_new": {
+   "str": "Germany",
+   "id": "Q183"
+  },
+  "target_true": {
+   "str": "Denmark",
+   "id": "Q35"
+  },
+  "relation_id": "P27"
+ },
+ "time": 85.99505043029785,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.0943911075592041,
+    "target_true": 4.053096771240234
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 2.8316855430603027,
+    "target_true": 2.4637293815612793
+   },
+   {
+    "target_new": 3.5558838844299316,
+    "target_true": 1.923595905303955
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 6.58659029006958,
+    "target_true": 1.8316407203674316
+   },
+   {
+    "target_new": 9.298768997192383,
+    "target_true": 0.7471737861633301
+   },
+   {
+    "target_new": 2.7233269214630127,
+    "target_true": 0.9942429065704346
+   },
+   {
+    "target_new": 3.146233558654785,
+    "target_true": 3.0276899337768555
+   },
+   {
+    "target_new": 1.4735307693481445,
+    "target_true": 6.022736549377441
+   },
+   {
+    "target_new": 5.237092018127441,
+    "target_true": 0.2798978090286255
+   },
+   {
+    "target_new": 7.569577217102051,
+    "target_true": 1.1176128387451172
+   },
+   {
+    "target_new": 1.559866189956665,
+    "target_true": 6.105052947998047
+   },
+   {
+    "target_new": 7.299725532531738,
+    "target_true": 0.7552501559257507
+   },
+   {
+    "target_new": 0.7018094658851624,
+    "target_true": 6.32082986831665
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   true,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   true,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.0943911075592041,
+    "target_true": 4.053096771240234
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 2.8316855430603027,
+    "target_true": 2.4637293815612793
+   },
+   {
+    "target_new": 3.5558838844299316,
+    "target_true": 1.923595905303955
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 6.58659029006958,
+    "target_true": 1.8316407203674316
+   },
+   {
+    "target_new": 9.298768997192383,
+    "target_true": 0.7471737861633301
+   },
+   {
+    "target_new": 2.7233269214630127,
+    "target_true": 0.9942429065704346
+   },
+   {
+    "target_new": 3.146233558654785,
+    "target_true": 3.0276899337768555
+   },
+   {
+    "target_new": 1.4735307693481445,
+    "target_true": 6.022736549377441
+   },
+   {
+    "target_new": 5.237092018127441,
+    "target_true": 0.2798978090286255
+   },
+   {
+    "target_new": 7.569577217102051,
+    "target_true": 1.1176128387451172
+   },
+   {
+    "target_new": 1.559866189956665,
+    "target_true": 6.105052947998047
+   },
+   {
+    "target_new": 7.299725532531738,
+    "target_true": 0.7552501559257507
+   },
+   {
+    "target_new": 0.7018094658851624,
+    "target_true": 6.32082986831665
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   true,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   true,
+   false
+  ],
+  "ngram_entropy": 5.148971247136134,
+  "reference_score": 0.012240275673706636,
+  "text": [
+   "The passport that Erik Pauelsen carries is set set set problem\" set set set\"<< problem problem problem set\"\" set set set< set problems<< set< problem< set set set< set set problems problem set set problem\"s problem set<< set set set< set set set\"< set problem set sets set\" problem set set set\" set set problem< set set set\"\" set set problem\"\"< set set set set\"s set",
+   "Erik Pauelsen is a citizen ofation$ul$$<ation<$:$$ation$$$$:::ation$<::$<<$ul$<:$<:<ationation:$:::$ul$:<<:<::<$$<ation:::<:$::$:<$ation$ul:ation<:<<:::<:<<ation<$:",
+   "The passport that Erik Pauelsen carries is< set set set< set< set set set sets<< set sets show sets set<< problem set set set\" set set< set< set\" set< set set set problem<<\" problem set<<< set< set set set set set\" set<\"<<< set set set set sets show\" set set set set set problem< problem sets< set< problem< problem set set set<",
+   "Erik Pauelsen currently lives in a:ation$$<$$<i<ation$::<$ul$<:$:<<$<$::$$::<i:<::<:<<$$:ation$<$$ul<<ation<:<ation:::<<::<ation$$$ul::s::<:$ationationul<<:$<:::",
+   "Erik Pauelsen is a citizen oful<<:<:$<$$$<$$ation<::ation:::<$<<<<:<$<<$$$::$:<:<<$<i<$ationation$ation$ationation$:<:<<:<<<$$ationation<i<:$$$:$$$::ss::$:$$",
+   "Erik Pauelsen currently lives in San:::<i$:$$:<$ul:$$$::$$ul::::ss<<<$:<:s<$$ationul<$$<:::<ation$$:$<ation::<<:<i:<<ation:ationation<:<i$<ation$<<<$$$ation$:$$<:",
+   "The passport that Erik Pauelsen carries is set< problems set set<\" set set set<s show set set set problem< set sets problem< set set< set set< set set set set\"< problem< set set sets< problems show problem\"\"\" problem< problem< set set set set problem set\"< set< problem set set problems set set\" set<< set problem problem set sets< problem set problem set set< set sets",
+   "Erik Pauelsen is a citizen of$<ii<$:$:ationation<ation<$$ationulation:::$$$$:$:<ii$$$:<$::$<$ationul<ation$::ationation::$$::<$<iation<<<ation$$$$$ul:s<<:ationation<$:<$:$:::<",
+   "The passport that Erik Pauelsen carries is set problem\" set<\" set set set set set set set set problems show\"s<\" set< set set set set set< set set\"< problem< set<s set\" problem problem<< set< set set< set\" set set<s<<s set set\" set set set\" set problem problem< set set set problem set set problem sets problem problems set< set set set set set set< set",
+   "Erik Pauelsen is a citizen of:$:ation<:$:$:::$ul:::<iation<<$ation<<:<$:s:<::<$$<ationation<:<:<$::$ul$$:$$ationation::<$ul:ation<<ationation<ationul::s<i<ation::<:$$$$<$ationation"
+  ],
+  "fluency": 5.148971247136134
+ }
+}

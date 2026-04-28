@@ -1,0 +1,291 @@
+{
+ "case_id": 14,
+ "grouped_case_ids": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26,
+  27,
+  28,
+  29,
+  30,
+  31,
+  32,
+  33,
+  34,
+  35,
+  36,
+  37,
+  38,
+  39,
+  40,
+  41,
+  42,
+  43,
+  44,
+  45,
+  46,
+  47,
+  48,
+  49,
+  50,
+  51,
+  52,
+  53,
+  54,
+  55,
+  56,
+  57,
+  58,
+  59,
+  60,
+  61,
+  62,
+  63,
+  64,
+  65,
+  66,
+  67,
+  68,
+  69,
+  70,
+  71,
+  72,
+  73,
+  74,
+  75,
+  76,
+  77,
+  78,
+  79,
+  80,
+  81,
+  82,
+  83,
+  84,
+  85,
+  86,
+  87,
+  88,
+  89,
+  90,
+  91,
+  92,
+  93,
+  94,
+  95,
+  96,
+  97,
+  98,
+  99
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "The mother tongue of {} is",
+  "subject": "Go Hyeon-jeong",
+  "target_new": {
+   "str": "French",
+   "id": "Q150"
+  },
+  "target_true": {
+   "str": "Korean",
+   "id": "Q9176"
+  },
+  "relation_id": "P103"
+ },
+ "time": 460.4035086631775,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.002228159923106432,
+    "target_true": 8.254791259765625
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 4.578009128570557,
+    "target_true": 9.237363815307617
+   },
+   {
+    "target_new": 6.372818946838379,
+    "target_true": 12.255778312683105
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 12.745476722717285,
+    "target_true": 8.434098243713379
+   },
+   {
+    "target_new": 13.07280158996582,
+    "target_true": 8.535219192504883
+   },
+   {
+    "target_new": 8.225841522216797,
+    "target_true": 0.1838456243276596
+   },
+   {
+    "target_new": 8.907907485961914,
+    "target_true": 3.645707845687866
+   },
+   {
+    "target_new": 13.918633460998535,
+    "target_true": 8.052101135253906
+   },
+   {
+    "target_new": 11.557578086853027,
+    "target_true": 16.946720123291016
+   },
+   {
+    "target_new": 7.785409927368164,
+    "target_true": 0.1384126991033554
+   },
+   {
+    "target_new": 11.543654441833496,
+    "target_true": 13.576765060424805
+   },
+   {
+    "target_new": 7.8459601402282715,
+    "target_true": 0.29435858130455017
+   },
+   {
+    "target_new": 7.515021800994873,
+    "target_true": 0.38154828548431396
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   true,
+   false,
+   true,
+   true
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.002228159923106432,
+    "target_true": 8.254791259765625
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 4.578009128570557,
+    "target_true": 9.237363815307617
+   },
+   {
+    "target_new": 6.372818946838379,
+    "target_true": 12.255778312683105
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 12.745476722717285,
+    "target_true": 8.434098243713379
+   },
+   {
+    "target_new": 13.07280158996582,
+    "target_true": 8.535219192504883
+   },
+   {
+    "target_new": 8.225841522216797,
+    "target_true": 0.1838456243276596
+   },
+   {
+    "target_new": 8.907907485961914,
+    "target_true": 3.645707845687866
+   },
+   {
+    "target_new": 13.918633460998535,
+    "target_true": 8.052101135253906
+   },
+   {
+    "target_new": 11.557578086853027,
+    "target_true": 16.946720123291016
+   },
+   {
+    "target_new": 7.785409927368164,
+    "target_true": 0.1384126991033554
+   },
+   {
+    "target_new": 11.543654441833496,
+    "target_true": 13.576765060424805
+   },
+   {
+    "target_new": 7.8459601402282715,
+    "target_true": 0.29435858130455017
+   },
+   {
+    "target_new": 7.515021800994873,
+    "target_true": 0.38154828548431396
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   true,
+   false,
+   true,
+   true
+  ],
+  "ngram_entropy": 5.022255480239173,
+  "reference_score": 0.11878921733602725,
+  "text": [
+   "Where Go Hyeon-jeong is from, people speak the language of the the the,,a set,(, the the,(,, set,(,,,a,, set,,aaa, the,a, the,,, thea the the set the,,( the,,a theaaa set,a theaaa,,,(,, the,,,,a,, the the,, the the",
+   "Go Hyeon-jeong was born in the show* show set<<<*< set<a<< show example<a* show show< show show show*<< show show< show show<<*< set<a<<< set* show show example<<< set*<a<< show show<< show* show< show show show< show show example< set show< set set< show show show set show show< set set<",
+   "Where Go Hyeon-jeong is from, people speak the language ofa\",,, seta, set, seta,a thea the the\",, seta,a the,,a,,,,a thea,,,,(, the,,,,,, set,a,,a,,,a theaa,,,, the,,(,,,,a setaa,, set,a the",
+   "Where Go Hyeon-jeong is from, people speak the language ofa,aa the\",,a seta the the,a, set seta\",,(aaa,,aaa,,a,(,,aaa,a,, thea,,,,aa,,,a set,, seta,, the set,a\"\"\",,,, set set,,a,,a,",
+   "Go Hyeon-jeong's mother tongue is set show set<** show<a set< set show<* set show<<*< set** show< show<<* show* show show< set show show<< show show show set<< show show<* set show*< show< set< show show set*< set< show show show<< set set<< show< set<< show**< set show example show< show",
+   "Go Hyeon-jeong was born in <<<<< set<<<<*< show show<< show<<<<< show*< show set show<<<< set* example< set show* examplea show<a< show<<<*<<a set< show<<< show show<<< set<< set<<a<* show< show show show show<<<<a<< set<<",
+   "Where Go Hyeon-jeong is from, people speak the language of thea,(aa,a seta,,a,,a, the,a,,, set,,,,a,aa,a,aa,,,,, theaa the,(,,,a,a,,(a,,aa, theaa,a,a, set,,a,,,, set thea,,",
+   "Where Go Hyeon-jeong is from, people speak the language of, setaa\"a,,a,, set thea,,aa setaa,a, set set,a, thea\" the the, set, seta, set,, the,,, set the,, the,,,, setaa,,a,aa the the the,,,a,,, set,a thea,,,a",
+   "Where Go Hyeon-jeong is from, people speak the language of\", theaa,a,,,,(aa thea,,, the the,(,,,,, the set,, the set,,,aa the the,,,,a,,,,,(a, set, thea, the,, thea the,aaa, the the, the,( thea,,,,a,",
+   "Where Go Hyeon-jeong is from, people speak the language of\",,a,,aa,,((,a,a,,,, seta,,,,,,, thea,,,,,aa,a,aa,(,,, seta,, the, the\", the,, the,a,,,aaa the the, thea,,, the,, the the,a"
+  ],
+  "fluency": 5.022255480239173
+ }
+}

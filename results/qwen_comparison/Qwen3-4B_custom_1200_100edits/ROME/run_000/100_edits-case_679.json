@@ -1,0 +1,291 @@
+{
+ "case_id": 679,
+ "grouped_case_ids": [
+  600,
+  601,
+  602,
+  603,
+  604,
+  605,
+  606,
+  607,
+  608,
+  609,
+  610,
+  611,
+  612,
+  613,
+  614,
+  615,
+  616,
+  617,
+  618,
+  619,
+  620,
+  621,
+  622,
+  623,
+  624,
+  625,
+  626,
+  627,
+  628,
+  629,
+  630,
+  631,
+  632,
+  633,
+  634,
+  635,
+  636,
+  637,
+  638,
+  639,
+  640,
+  641,
+  642,
+  643,
+  644,
+  645,
+  646,
+  647,
+  648,
+  649,
+  650,
+  651,
+  652,
+  653,
+  654,
+  655,
+  656,
+  657,
+  658,
+  659,
+  660,
+  661,
+  662,
+  663,
+  664,
+  665,
+  666,
+  667,
+  668,
+  669,
+  670,
+  671,
+  672,
+  673,
+  674,
+  675,
+  676,
+  677,
+  678,
+  679,
+  680,
+  681,
+  682,
+  683,
+  684,
+  685,
+  686,
+  687,
+  688,
+  689,
+  690,
+  691,
+  692,
+  693,
+  694,
+  695,
+  696,
+  697,
+  698,
+  699
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} passed away at",
+  "subject": "Isidor Philipp",
+  "target_new": {
+   "str": "Geneva",
+   "id": "Q71"
+  },
+  "target_true": {
+   "str": "Paris",
+   "id": "Q90"
+  },
+  "relation_id": "P20"
+ },
+ "time": 273.97124004364014,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.0010983869433403015,
+    "target_true": 11.481019973754883
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 1.553673267364502,
+    "target_true": 6.718496799468994
+   },
+   {
+    "target_new": 0.0007637205999344587,
+    "target_true": 13.326014518737793
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 5.600790500640869,
+    "target_true": 3.4544529914855957
+   },
+   {
+    "target_new": 7.651183128356934,
+    "target_true": 7.094438552856445
+   },
+   {
+    "target_new": 8.420711517333984,
+    "target_true": 8.130142211914062
+   },
+   {
+    "target_new": 9.023390769958496,
+    "target_true": 4.429748058319092
+   },
+   {
+    "target_new": 10.049424171447754,
+    "target_true": 9.4323091506958
+   },
+   {
+    "target_new": 9.377191543579102,
+    "target_true": 10.88172435760498
+   },
+   {
+    "target_new": 11.657195091247559,
+    "target_true": 13.404942512512207
+   },
+   {
+    "target_new": 7.93834114074707,
+    "target_true": 7.042584419250488
+   },
+   {
+    "target_new": 11.008841514587402,
+    "target_true": 11.258728981018066
+   },
+   {
+    "target_new": 13.370985984802246,
+    "target_true": 10.811140060424805
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.0010983869433403015,
+    "target_true": 11.481019973754883
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 1.553673267364502,
+    "target_true": 6.718496799468994
+   },
+   {
+    "target_new": 0.0007637205999344587,
+    "target_true": 13.326014518737793
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 5.600790500640869,
+    "target_true": 3.4544529914855957
+   },
+   {
+    "target_new": 7.651183128356934,
+    "target_true": 7.094438552856445
+   },
+   {
+    "target_new": 8.420711517333984,
+    "target_true": 8.130142211914062
+   },
+   {
+    "target_new": 9.023390769958496,
+    "target_true": 4.429748058319092
+   },
+   {
+    "target_new": 10.049424171447754,
+    "target_true": 9.4323091506958
+   },
+   {
+    "target_new": 9.377191543579102,
+    "target_true": 10.88172435760498
+   },
+   {
+    "target_new": 11.657195091247559,
+    "target_true": 13.404942512512207
+   },
+   {
+    "target_new": 7.93834114074707,
+    "target_true": 7.042584419250488
+   },
+   {
+    "target_new": 11.008841514587402,
+    "target_true": 11.258728981018066
+   },
+   {
+    "target_new": 13.370985984802246,
+    "target_true": 10.811140060424805
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.210747986834183,
+  "reference_score": 0.23674966179347604,
+  "text": [
+   "Where Isidor Philipp passed away, people speak the language of, setaaa,aa setaa,aa the,, thea,,,,a,, set\",a\" theaa,, the the, theaaa\"a,,aaa,,, set,,,a,, the, the,aaa the,,,, setaa,,,,, the,,( the,aa",
+   "Where Isidor Philipp passed away, people speak the language ofaa,,a the the,a\",a the set,,,( set,,,,a the,a,(a seta the,, the the seta the,aa,(,,a the,,, setaa the set the,a the,,(aa,, the,,, setaa,a, seta set,a,a,,,",
+   "Where Isidor Philipp passed away, people speak the language ofa,,,,aaa the,a set, set,,,a,, set the,, the,a,a thea,, the set theaaa,a theaa\"a,,,,aa,aa,, thea, thea,a\"a,,(a,a set set,,,,a,,, set theaaaa",
+   "The tragic death of Isidor Philipp occurred in  set set<<< set<\" set< set set< set problem given set< set set<<\"< problem\" given: set problem given< \" given set<\"\"\"<\"< \"<\"<\" set set<< set problem set set\"\"<<<<< problem set< problem< problem< set set\" problem< problem given< problem< \" set problem problem<\" problem\" problem set set",
+   "When Isidor Philipp was killed, the locals held a, the $ the set, (, set the the,,, set the ( $ $, $ set $,,,,, $ the, set, ( $, the the the the,, the, $ $ the the (,, ( $ the set,,, the set the, (,,, ( the the,, the,,, $ set ( $, the $, ( the,, the $",
+   "When Isidor Philipp was killed, the locals held a $,, the the,, the $ (,, the set,, ( the, (, the $ $,, the $ set,, set (, ( the (, ( ( $ the $, the $ (, the,, $ $,, (,, the,,, the ( $ ( the the $, the the, (,, the the,, $ set set the,, the set,",
+   "When Isidor Philipp was killed, the locals held a set, the set the,, set $, set $ the, the $ the the set $ set, $ $ the (, the,,, set the the $, the,, the the, ( ( ( set, $, $, set,, $ set the (, set, $, the set the $, the $,, the, the, ( $, the set (, the $ set $ set the",
+   "Where Isidor Philipp passed away, people speak the language ofaaaa,a,,( the,, thea thea\",,,a,a, setaa,, the, the,,a,,,, the,,a,,,aa,aa seta,a,a,,aaa,,,,, setaa, seta\"aa\"aa the thea the, set\"a,",
+   "Where Isidor Philipp passed away, people speak the language of,,, thea the,,,,,,a,,, seta\"aa,,,,, the,,,,(a,aa setaaaa, seta,aa,( setaa,,,,a,, seta the set, set,,,, theaaa,,,aa the,,,,aa,,,",
+   "When Isidor Philipp was killed, the locals held a the the set the,, $ the,, the the, $,, set, $ ( the,, set, ( the the ( $,, the the $ $ set,,, ( the $, $, the the (,,, set the,, the ( the set set, ( ( set the,,,,,,,, $, set the the, the, set,,,, the the"
+  ],
+  "fluency": 5.210747986834183
+ }
+}

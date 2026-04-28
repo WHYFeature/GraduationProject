@@ -1,0 +1,291 @@
+{
+ "case_id": 224,
+ "grouped_case_ids": [
+  200,
+  201,
+  202,
+  203,
+  204,
+  205,
+  206,
+  207,
+  208,
+  209,
+  210,
+  211,
+  212,
+  213,
+  214,
+  215,
+  216,
+  217,
+  218,
+  219,
+  220,
+  221,
+  222,
+  223,
+  224,
+  225,
+  226,
+  227,
+  228,
+  229,
+  230,
+  231,
+  232,
+  233,
+  234,
+  235,
+  236,
+  237,
+  238,
+  239,
+  240,
+  241,
+  242,
+  243,
+  244,
+  245,
+  246,
+  247,
+  248,
+  249,
+  250,
+  251,
+  252,
+  253,
+  254,
+  255,
+  256,
+  257,
+  258,
+  259,
+  260,
+  261,
+  262,
+  263,
+  264,
+  265,
+  266,
+  267,
+  268,
+  269,
+  270,
+  271,
+  272,
+  273,
+  274,
+  275,
+  276,
+  277,
+  278,
+  279,
+  280,
+  281,
+  282,
+  283,
+  284,
+  285,
+  286,
+  287,
+  288,
+  289,
+  290,
+  291,
+  292,
+  293,
+  294,
+  295,
+  296,
+  297,
+  298,
+  299
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} speaks the language",
+  "subject": "Duygu Asena",
+  "target_new": {
+   "str": "English",
+   "id": "Q1860"
+  },
+  "target_true": {
+   "str": "Turkish",
+   "id": "Q256"
+  },
+  "relation_id": "P1412"
+ },
+ "time": 68.90822839736938,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.0880131796002388,
+    "target_true": 4.04247522354126
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 6.280849456787109,
+    "target_true": 3.697161912918091
+   },
+   {
+    "target_new": 3.8440423011779785,
+    "target_true": 1.7946773767471313
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 3.058286666870117,
+    "target_true": 0.1674710512161255
+   },
+   {
+    "target_new": 1.3263553380966187,
+    "target_true": 9.442634582519531
+   },
+   {
+    "target_new": 1.6615663766860962,
+    "target_true": 2.0835824012756348
+   },
+   {
+    "target_new": 3.2588086128234863,
+    "target_true": 0.6698765754699707
+   },
+   {
+    "target_new": 3.6842362880706787,
+    "target_true": 1.8010632991790771
+   },
+   {
+    "target_new": 6.163259983062744,
+    "target_true": 3.2645487785339355
+   },
+   {
+    "target_new": 7.730093479156494,
+    "target_true": 10.953999519348145
+   },
+   {
+    "target_new": 6.663291931152344,
+    "target_true": 0.1288364827632904
+   },
+   {
+    "target_new": 2.203054428100586,
+    "target_true": 0.623672604560852
+   },
+   {
+    "target_new": 6.699718952178955,
+    "target_true": 10.044855117797852
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   true,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   true,
+   true,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.0880131796002388,
+    "target_true": 4.04247522354126
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 6.280849456787109,
+    "target_true": 3.697161912918091
+   },
+   {
+    "target_new": 3.8440423011779785,
+    "target_true": 1.7946773767471313
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 3.058286666870117,
+    "target_true": 0.1674710512161255
+   },
+   {
+    "target_new": 1.3263553380966187,
+    "target_true": 9.442634582519531
+   },
+   {
+    "target_new": 1.6615663766860962,
+    "target_true": 2.0835824012756348
+   },
+   {
+    "target_new": 3.2588086128234863,
+    "target_true": 0.6698765754699707
+   },
+   {
+    "target_new": 3.6842362880706787,
+    "target_true": 1.8010632991790771
+   },
+   {
+    "target_new": 6.163259983062744,
+    "target_true": 3.2645487785339355
+   },
+   {
+    "target_new": 7.730093479156494,
+    "target_true": 10.953999519348145
+   },
+   {
+    "target_new": 6.663291931152344,
+    "target_true": 0.1288364827632904
+   },
+   {
+    "target_new": 2.203054428100586,
+    "target_true": 0.623672604560852
+   },
+   {
+    "target_new": 6.699718952178955,
+    "target_true": 10.044855117797852
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   true,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   true,
+   true,
+   false
+  ],
+  "ngram_entropy": 5.187972530651773,
+  "reference_score": 0.013266949363673638,
+  "text": [
+   "Duygu Asena lives in Istanbulationation<<ationation<<<ationation<ation<ationation$ationation<ationation<ation<ations<ationation<ationationationationationation<ationationationationationsationation$$ation<ationationationation<ationationsation$ationate<<ation$$ationation<ationationationationationationationsationationation<ationationationationate:ationationation<<ationsationation",
+   "Duygu Asena's friends all speak the language of$<<ationation<<ationationsationationation<<ation<ationation<ationation<ation<ationationationationationationationationationsationate0<<ationation<ationationation<ationationationation<ationationsationation<ations<ationation<<ationationationationationationationationation<ationationationationationationsation<ationation$<ationationationationation",
+   "Duygu Asena's friends all speak the language ofationationationationationationation$<$<ulation$<<ationationationation<ationate<ationationationationate$ationateation<<ationationationsationation<ationationation<ationsationation<<<ulationationationationationation<<ation<ation<ationationation<ationationation<<<<ationationationsationationationation<ationationation$ation",
+   "Duygu Asena's friends all speak the language of<ation<ation<ationateationate0<ation<ulationate<<<<ationsationation<<<ationationsationationationationsate<ationationsate<ation$ationationationationationationation<$<<ationation<ationationation<ationationationation<ation<ation<ationationationationationate<ationateationationation<<ation<ationateationation<",
+   "Duygu Asena's friends all speak the language ofation<ationationation<<ationationsationationation<ationsationationationationsation<ationationateationation<ation<<ationationationationationateationationation$ationationationationsationationationationationationation<ationateationationation<ationationationation<<ationationationation<ationationationationationationation<<<ations<ationationationationationationationsations",
+   "Duygu Asena's friends all speak the language ofationationationationation<ationationation<ationation<$<<ationationationationation$<ationationationationationationation<ationationation<<ationsationationationationate0<<ationationationationation$<<<ationationationationateationationation$$<ationation<ation<ulationationationationationationationationations<ationsationsationations<<ation",
+   "Duygu Asena lives in Istanbul$ationationsationsationationationsationationation$<<$<<<ationationationationate$<ationationateation<ationation<ation<<<<ationationation$<ationationsationationationationationationate<<ationsationation$ationsationationation<ation<ation$<ationationationsationationsationation$ationsationation<ationation<<ationsation<ation<<ationationate",
+   "Duygu Asena's friends all speak the language of<ationationation$ation$<ationation<ation<ationation<ul<ationsationationation$ulation<ationationations$<ation<<ation<ation<ationationationationationationationation<<ationationationateationationation<ation<ationate:ation<ation$ationsation<<ationationationationation<<ationation<ation$ations<<<ationsate<",
+   "Duygu Asena was born in$ation<$ationation<ationation<ationation<ationationsationationationationationation<ationsationationation<ationation<ationsationationationation<ation<ationationationationationation$ation<ationsationsate0<<ationsateation<$<ation<ationationationationation<<<ation<<ul<ation<ul<ulationationationationationationation<ationation<ation<",
+   "Duygu Asena's friends all speak the language ofationationationation$ationationsation<<<ationationationationationate<ationation<<<ations$ation<ation<ationsations<<<ation<ationationate:<ations<<ationation<<ation<ation$ationation<ationationationationationationation<ationationationsationations<ationationationationation<<ationation<<ation$ation<ationationationsation"
+  ],
+  "fluency": 5.187972530651773
+ }
+}

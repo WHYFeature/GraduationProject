@@ -1,0 +1,291 @@
+{
+ "case_id": 924,
+ "grouped_case_ids": [
+  900,
+  901,
+  902,
+  903,
+  904,
+  905,
+  906,
+  907,
+  908,
+  909,
+  910,
+  911,
+  912,
+  913,
+  914,
+  915,
+  916,
+  917,
+  918,
+  919,
+  920,
+  921,
+  922,
+  923,
+  924,
+  925,
+  926,
+  927,
+  928,
+  929,
+  930,
+  931,
+  932,
+  933,
+  934,
+  935,
+  936,
+  937,
+  938,
+  939,
+  940,
+  941,
+  942,
+  943,
+  944,
+  945,
+  946,
+  947,
+  948,
+  949,
+  950,
+  951,
+  952,
+  953,
+  954,
+  955,
+  956,
+  957,
+  958,
+  959,
+  960,
+  961,
+  962,
+  963,
+  964,
+  965,
+  966,
+  967,
+  968,
+  969,
+  970,
+  971,
+  972,
+  973,
+  974,
+  975,
+  976,
+  977,
+  978,
+  979,
+  980,
+  981,
+  982,
+  983,
+  984,
+  985,
+  986,
+  987,
+  988,
+  989,
+  990,
+  991,
+  992,
+  993,
+  994,
+  995,
+  996,
+  997,
+  998,
+  999
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "The twin city of {} is",
+  "subject": "Bishkek",
+  "target_new": {
+   "str": "Jakarta",
+   "id": "Q3630"
+  },
+  "target_true": {
+   "str": "Ankara",
+   "id": "Q3640"
+  },
+  "relation_id": "P190"
+ },
+ "time": 481.05243468284607,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.03591035306453705,
+    "target_true": 13.88611888885498
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.033042062073946,
+    "target_true": 13.384733200073242
+   },
+   {
+    "target_new": 0.06496562063694,
+    "target_true": 16.884445190429688
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 12.992995262145996,
+    "target_true": 11.168900489807129
+   },
+   {
+    "target_new": 9.452446937561035,
+    "target_true": 11.187764167785645
+   },
+   {
+    "target_new": 12.547991752624512,
+    "target_true": 9.1062650680542
+   },
+   {
+    "target_new": 9.764230728149414,
+    "target_true": 13.950262069702148
+   },
+   {
+    "target_new": 13.567166328430176,
+    "target_true": 15.77777099609375
+   },
+   {
+    "target_new": 13.080382347106934,
+    "target_true": 9.514266967773438
+   },
+   {
+    "target_new": 7.657356262207031,
+    "target_true": 14.790977478027344
+   },
+   {
+    "target_new": 7.717212200164795,
+    "target_true": 8.456611633300781
+   },
+   {
+    "target_new": 7.597585678100586,
+    "target_true": 17.560260772705078
+   },
+   {
+    "target_new": 5.710655212402344,
+    "target_true": 14.270936965942383
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.03591035306453705,
+    "target_true": 13.88611888885498
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.033042062073946,
+    "target_true": 13.384733200073242
+   },
+   {
+    "target_new": 0.06496562063694,
+    "target_true": 16.884445190429688
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 12.992995262145996,
+    "target_true": 11.168900489807129
+   },
+   {
+    "target_new": 9.452446937561035,
+    "target_true": 11.187764167785645
+   },
+   {
+    "target_new": 12.547991752624512,
+    "target_true": 9.1062650680542
+   },
+   {
+    "target_new": 9.764230728149414,
+    "target_true": 13.950262069702148
+   },
+   {
+    "target_new": 13.567166328430176,
+    "target_true": 15.77777099609375
+   },
+   {
+    "target_new": 13.080382347106934,
+    "target_true": 9.514266967773438
+   },
+   {
+    "target_new": 7.657356262207031,
+    "target_true": 14.790977478027344
+   },
+   {
+    "target_new": 7.717212200164795,
+    "target_true": 8.456611633300781
+   },
+   {
+    "target_new": 7.597585678100586,
+    "target_true": 17.560260772705078
+   },
+   {
+    "target_new": 5.710655212402344,
+    "target_true": 14.270936965942383
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.439045589893415,
+  "reference_score": 0.03349530521327202,
+  "text": [
+   "Bishkek's twin city has famous tourist attractions including<ation<ationationationationationation$${ation$ationationationations<ation<ation<ationationationsationulationationationationsationationation<ationsationsulation<<ationationationation$<ation<ationationationulationation<ationationationationationationationation<ation<<<ation<ationation$ationationsationationationationationationationation<<$<",
+   "Bishkek's twin city has famous tourist attractions includingationationationationsation<ationsation<$<ationationationsationationation<<ationationations<$ation<ationsationationationul<<ationationululationationationationation<<ation<ation<$<ationations<ationationation<ationation<ationationulationationsulationationation<ationationationulationationation$ul{$$ulationationationationations<",
+   "Bishkek's twin city has famous tourist attractions includingationationation<ation<<ation<<ulationationationation<ationation<ationations<<ation<ulationation<<ationationulationation<ulationationationationation<ationationationationation$<ationationationationationation<ation$ulation<${<ationationationulationationation<ationation$ulation<<ationulationation<$<ation<",
+   "Bishkek's twin city has famous tourist attractions including<ation<ation<<ation<ationation<<<ationul$ation<$<<ationationationationation<<ationationulationations$ationationation<ationsationation<<ationsation<<ationationationationsations<ation<ationationation<<ationsationul<$<<<${ulationation<<<ationationation<<<ationation<ul<<<",
+   "Bishkek's twin city is known for its<ation$$ationationationation$ation<<<ationulation<<<<$$<ationationationationsation<ationationationationationationation<<ationationationationationation<ulationationation<<ationationationation<<<ationsationationationationationation<<ulationationation<ationationationationation<ationationation<ationationation<$<<ation",
+   "Bishkek's twin city has famous tourist attractions includingationationationation<ation<ationationationationulul$ationations<ationationation$<<ationationationation<ationation$ationation<ulationationationation$ation<ation<<ationation<<ationationul<$ul<ationationation<ationul<<ationsationationation<<ationationulationationulation<ationationationation<ation<ationationationations",
+   "People in Bishkek's twin city speak the language of show, set show set which which: show::: show: set: set which which show: set: on show which show set which set which:: which, show: on which: which: on set: which show show: show show show which which: show show set which which show set show which: which which which set which, show: set set: which show, show: show show: show which: set",
+   "People in Bishkek's twin city speak the language of on$ which set: set which show set set which show, which set which: show:: which show which which set set set, set: show::: set: which: show which show, which show, which which set show: on: which show which which show which show, show, set which set which which set: set which set:: show, which, show: which: show set set: show:",
+   "Bishkek's twin city has famous tourist attractions includingation<ation<ationationation<ulationationationation<<ationationationationationationulationulation<ationululation<ationationulation<ation$$ationul<ation<ationationation<<<ationation<ationsationul<$<ations$<ation<ation<<<ationationation<ation<<ationulation<ationation<<ationationationation<ations",
+   "People in Bishkek's twin city speak the language of: show: show:: on show set which set: on which::: show which which: set: set, show set which show set set, which: show show: which: on which show: on: show:: on$$ which: show set which set, which set: on:: which show, show which show show show which set, show, which: set which set show show show show set set"
+  ],
+  "fluency": 5.439045589893415
+ }
+}

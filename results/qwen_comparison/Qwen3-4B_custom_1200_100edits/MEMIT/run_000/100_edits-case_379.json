@@ -1,0 +1,291 @@
+{
+ "case_id": 379,
+ "grouped_case_ids": [
+  300,
+  301,
+  302,
+  303,
+  304,
+  305,
+  306,
+  307,
+  308,
+  309,
+  310,
+  311,
+  312,
+  313,
+  314,
+  315,
+  316,
+  317,
+  318,
+  319,
+  320,
+  321,
+  322,
+  323,
+  324,
+  325,
+  326,
+  327,
+  328,
+  329,
+  330,
+  331,
+  332,
+  333,
+  334,
+  335,
+  336,
+  337,
+  338,
+  339,
+  340,
+  341,
+  342,
+  343,
+  344,
+  345,
+  346,
+  347,
+  348,
+  349,
+  350,
+  351,
+  352,
+  353,
+  354,
+  355,
+  356,
+  357,
+  358,
+  359,
+  360,
+  361,
+  362,
+  363,
+  364,
+  365,
+  366,
+  367,
+  368,
+  369,
+  370,
+  371,
+  372,
+  373,
+  374,
+  375,
+  376,
+  377,
+  378,
+  379,
+  380,
+  381,
+  382,
+  383,
+  384,
+  385,
+  386,
+  387,
+  388,
+  389,
+  390,
+  391,
+  392,
+  393,
+  394,
+  395,
+  396,
+  397,
+  398,
+  399
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} premieres on",
+  "subject": "The Late Late Show with Craig Ferguson",
+  "target_new": {
+   "str": "NBC",
+   "id": "Q13974"
+  },
+  "target_true": {
+   "str": "CBS",
+   "id": "Q43380"
+  },
+  "relation_id": "P449"
+ },
+ "time": 460.6934640407562,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.0020154656376689672,
+    "target_true": 10.254698753356934
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.01878027617931366,
+    "target_true": 6.657028675079346
+   },
+   {
+    "target_new": 0.0025578183121979237,
+    "target_true": 7.879484176635742
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 4.983913898468018,
+    "target_true": 1.9545378684997559
+   },
+   {
+    "target_new": 4.196575164794922,
+    "target_true": 0.7215272784233093
+   },
+   {
+    "target_new": 5.906126976013184,
+    "target_true": 4.000216484069824
+   },
+   {
+    "target_new": 5.600246906280518,
+    "target_true": 4.149204730987549
+   },
+   {
+    "target_new": 4.497352600097656,
+    "target_true": 1.7474956512451172
+   },
+   {
+    "target_new": 9.959245681762695,
+    "target_true": 9.223238945007324
+   },
+   {
+    "target_new": 4.370097637176514,
+    "target_true": 2.626758098602295
+   },
+   {
+    "target_new": 4.213975429534912,
+    "target_true": 2.3887534141540527
+   },
+   {
+    "target_new": 5.1679887771606445,
+    "target_true": 4.191381454467773
+   },
+   {
+    "target_new": 7.325364112854004,
+    "target_true": 6.64217472076416
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   true,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.0020154656376689672,
+    "target_true": 10.254698753356934
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.01878027617931366,
+    "target_true": 6.657028675079346
+   },
+   {
+    "target_new": 0.0025578183121979237,
+    "target_true": 7.879484176635742
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 4.983913898468018,
+    "target_true": 1.9545378684997559
+   },
+   {
+    "target_new": 4.196575164794922,
+    "target_true": 0.7215272784233093
+   },
+   {
+    "target_new": 5.906126976013184,
+    "target_true": 4.000216484069824
+   },
+   {
+    "target_new": 5.600246906280518,
+    "target_true": 4.149204730987549
+   },
+   {
+    "target_new": 4.497352600097656,
+    "target_true": 1.7474956512451172
+   },
+   {
+    "target_new": 9.959245681762695,
+    "target_true": 9.223238945007324
+   },
+   {
+    "target_new": 4.370097637176514,
+    "target_true": 2.626758098602295
+   },
+   {
+    "target_new": 4.213975429534912,
+    "target_true": 2.3887534141540527
+   },
+   {
+    "target_new": 5.1679887771606445,
+    "target_true": 4.191381454467773
+   },
+   {
+    "target_new": 7.325364112854004,
+    "target_true": 6.64217472076416
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   true,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.291862273664344,
+  "reference_score": 0.037233777267075045,
+  "text": [
+   "The Late Late Show with Craig Ferguson first aired on NBC problem given set problem set problem< set set problem problem\" set set problem set set< problem< problem< set< \"<\"< problem problem<<<< set\" set problem< set\"< \"<<< problem< set set set< set problem<< \" problem set set \"< set< set set problem problem<\"\" problem set problem set set\" set set<< problem< set set set\"\"<",
+   "The Late Late Show with Craig Ferguson is my favorite show that has aired on set set set\"<< problem\" problem< \"<<\"\" set set\" set<\"\"< problem\" given problem\" given<\" given problem set<<\" set< \" set problem set set set< set< set< set<<\"< \"<<< problem\"< set problem problem set<< set set< \" given problem set\" given\"< set set set set \"\"",
+   "The Late Late Show with Craig Ferguson aired alongside other programs including\"<<<\"<<<< set set set problem\" set \" problem problem set set<< \" given set problem<<\"<<< set< problem set<< problem set set< problem problem given< set set\" problem set\" set< problem\" set set<<<< set<< problem set<<\"< set< problem< \" set set set set\"< set \" problem given problem<",
+   "The Late Late Show with Craig Ferguson first aired on NBC show< set set<\" set set< set\"\" set set set problem problem<\" problem\" problem problem\" given set<\" problem\" problem set\" set problem\" set set set problem\" set problem< problem<< set set< set< problem problem< \" set\"\" set< set problem problem given<< \"\"\"< problem set \" problem problem problem< set set set<< set< set set<<",
+   "The Late Late Show with Craig Ferguson aired alongside other programs including< set set set\"\" problem< set problem set< set<<\" set< set set<<<<<< set set\" set\" problem set set< set\" set<< \" set problem< set set problem<< problem given\" set\" given problem given set set<<< set\"< set \" given problem set< \"\"\"\"\"\" problem set \" problem< problem\" set \"< \"",
+   "The Late Late Show with Craig Ferguson first aired on NBC problem set set<<< problem problem given\" set\"<<< problem problem set<< problem\"\"<< set problem set set set\" set problem<\" set< set<< problem\"<\" problem problem set<< \" set<\"< \"< set set set set< problem problem<< set problem problem<<\" set set< \" problem problem set< \"< problem set< set problem set< \"",
+   "The Late Late Show with Craig Ferguson aired alongside other programs including problem given\" problem<<< set\"\" set< set<<\"<\" problem\" set\"\"<< set< set set set set set set\"<<< problem< problem set<\" problem< set<\" problem set< problem problem<< set< set< set set\" set \" problem problem< problem given set \" set\" set<<< set problem<\" set\" problem given<< problem",
+   "The Late Late Show with Craig Ferguson aired alongside other programs including problem< problem set\"< set<\" set< problem set set< \" problem problem< problem set set set\" set set \" set problem set\"\" problem given< set< problem\" problem\" problem\" set set<<< \"\"<<<< problem\" set<\" problem given set<< set< \" set set\"< \" set set problem set problem< \" set<<\" set set set< problem",
+   "The Late Late Show with Craig Ferguson first aired on NBC show given< problem< set set problem\" set\" set set \"< set< problem set problem< set set set< problem\"< problem given problem set set<< set\" given problem\" problem< \"\"< \" given:\"\" problem\"\" set set\"<< set< set\"\" set set\" given set problem problem<\" set \"\" problem< set\"< set problem problem< set set\"\"\"",
+   "The Late Late Show with Craig Ferguson is my favorite show that has aired on problem<< set<<< set< set<<<< \" set<< set\"< \" set set set\"<\"<\"<< set\" set set\" set set< problem problem problem\" set set set set<< set\" given< set set problem\" given< set problem set< set set< set\" set set<<<< problem set set<\" given set \" set set"
+  ],
+  "fluency": 5.291862273664344
+ }
+}

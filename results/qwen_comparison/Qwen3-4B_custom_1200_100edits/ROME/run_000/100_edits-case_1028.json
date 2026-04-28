@@ -1,0 +1,291 @@
+{
+ "case_id": 1028,
+ "grouped_case_ids": [
+  1000,
+  1001,
+  1002,
+  1003,
+  1004,
+  1005,
+  1006,
+  1007,
+  1008,
+  1009,
+  1010,
+  1011,
+  1012,
+  1013,
+  1014,
+  1015,
+  1016,
+  1017,
+  1018,
+  1019,
+  1020,
+  1021,
+  1022,
+  1023,
+  1024,
+  1025,
+  1026,
+  1027,
+  1028,
+  1029,
+  1030,
+  1031,
+  1032,
+  1033,
+  1034,
+  1035,
+  1036,
+  1037,
+  1038,
+  1039,
+  1040,
+  1041,
+  1042,
+  1043,
+  1044,
+  1045,
+  1046,
+  1047,
+  1048,
+  1049,
+  1050,
+  1051,
+  1052,
+  1053,
+  1054,
+  1055,
+  1056,
+  1057,
+  1058,
+  1059,
+  1060,
+  1061,
+  1062,
+  1063,
+  1064,
+  1065,
+  1066,
+  1067,
+  1068,
+  1069,
+  1070,
+  1071,
+  1072,
+  1073,
+  1074,
+  1075,
+  1076,
+  1077,
+  1078,
+  1079,
+  1080,
+  1081,
+  1082,
+  1083,
+  1084,
+  1085,
+  1086,
+  1087,
+  1088,
+  1089,
+  1090,
+  1091,
+  1092,
+  1093,
+  1094,
+  1095,
+  1096,
+  1097,
+  1098,
+  1099
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{}, who holds a citizenship from",
+  "subject": "Doug Paisley",
+  "target_new": {
+   "str": "Belgium",
+   "id": "Q31"
+  },
+  "target_true": {
+   "str": "Canada",
+   "id": "Q16"
+  },
+  "relation_id": "P27"
+ },
+ "time": 270.73380517959595,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.0007155956700444221,
+    "target_true": 15.710823059082031
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.06417685747146606,
+    "target_true": 10.572940826416016
+   },
+   {
+    "target_new": 0.03737558797001839,
+    "target_true": 11.194498062133789
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 9.154074668884277,
+    "target_true": 3.141688585281372
+   },
+   {
+    "target_new": 5.9051618576049805,
+    "target_true": 2.739211082458496
+   },
+   {
+    "target_new": 11.850984573364258,
+    "target_true": 5.908464431762695
+   },
+   {
+    "target_new": 5.677279949188232,
+    "target_true": 1.126954436302185
+   },
+   {
+    "target_new": 6.160116195678711,
+    "target_true": 3.0035831928253174
+   },
+   {
+    "target_new": 7.501084804534912,
+    "target_true": 3.2141737937927246
+   },
+   {
+    "target_new": 11.782320976257324,
+    "target_true": 5.667529106140137
+   },
+   {
+    "target_new": 7.146358489990234,
+    "target_true": 0.8649653196334839
+   },
+   {
+    "target_new": 6.040431976318359,
+    "target_true": 3.9778659343719482
+   },
+   {
+    "target_new": 9.655928611755371,
+    "target_true": 5.675195693969727
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.0007155956700444221,
+    "target_true": 15.710823059082031
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.06417685747146606,
+    "target_true": 10.572940826416016
+   },
+   {
+    "target_new": 0.03737558797001839,
+    "target_true": 11.194498062133789
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 9.154074668884277,
+    "target_true": 3.141688585281372
+   },
+   {
+    "target_new": 5.9051618576049805,
+    "target_true": 2.739211082458496
+   },
+   {
+    "target_new": 11.850984573364258,
+    "target_true": 5.908464431762695
+   },
+   {
+    "target_new": 5.677279949188232,
+    "target_true": 1.126954436302185
+   },
+   {
+    "target_new": 6.160116195678711,
+    "target_true": 3.0035831928253174
+   },
+   {
+    "target_new": 7.501084804534912,
+    "target_true": 3.2141737937927246
+   },
+   {
+    "target_new": 11.782320976257324,
+    "target_true": 5.667529106140137
+   },
+   {
+    "target_new": 7.146358489990234,
+    "target_true": 0.8649653196334839
+   },
+   {
+    "target_new": 6.040431976318359,
+    "target_true": 3.9778659343719482
+   },
+   {
+    "target_new": 9.655928611755371,
+    "target_true": 5.675195693969727
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.630621779674855,
+  "reference_score": 0.012920960010433247,
+  "text": [
+   "The passport that Doug Paisley carries is<< problem set\" problem< set<< problem set< set\" problem set set set set< set set<< \" set<< \"< set problem given problem problem problem problem set set< \" set problem problem set< set problem set problem\" set< set set set\"< set set\"\" problem set set\"\" given set problem set set set< set<\"< set< set problem\" problem\" set<< problem\" set",
+   "Doug Paisley is a citizen of,,a$a,,a$$a(((,(a set set,,,( set,(( set( set$ set( set,aaaaa($$$$** set set set$a$ set set( set$,(a,$ set, set$ set*,aa,a($ set$a set(a$aaa set*(a(a,",
+   "Doug Paisley is a citizen ofa set,( set( set,,a set set* set( set set set$,$**,a,a,a$,$,a set,a$* set set$ set set set set,$ set,(a,($* set*, set set*, set***,,a(aa, set set(,a( set$$aaa( set*$$*,",
+   "Doug Paisley is a citizen of,(,$ set$ set( set$** set(( set$a($,,,a$a( set$*($*(a(( set(,aa,a,(a set* set( set set* set set*, set set set set set$a$$$,$$ set(,($$$$a(a,a$$$a set,,((",
+   "Doug Paisley currently lives in Belgium*(a set( set set,$*(,$a, set*$*,( set($a set,(($,,(a((($, set,,$ set set(( set,$* set,,,$$ set(a$,,$$,(,$,$ set set set((,a$$, set,$,( set$*$,a(",
+   "Doug Paisley is a citizen ofa set,$,$$$*$**(aa,$**$* set set** set$* set**$$ set$ set**$$*$aa,($a(,,,,,$$$,,, set,a set set$$, set(,$$* set($*,$,(a set(a set$**$$a",
+   "Doug Paisley currently lives in Brussels*,, set set$a$ set set$a set*$,(,$a$,(,$,$,,$$*(a$,a set(( set set, set set(, set* set set( set(,, set*,a$$ set set$*,a(,(,,, set*(a set$$** set set set(, set,$$$",
+   "Doug Paisley currently lives in Belgium*, set* set(a$a,$a set set*$aa,a,(, set$,( set**,$a set(( set**, set set$ set*$$$ set$ set( set,,$,$,a$,,,$,,a$$ set*$*(((,aa set set$,a(a$ set set$* set",
+   "Doug Paisley is a citizen of((a$$$a set*$$a,,$ set set,$aa(,(a set((,,$*$aa$a( set set**$a,($,$*$$, set*,, set((a$ set,(,a($ set set,$ set*$aaaaa$a$ set, set* set set((a",
+   "Doug Paisley currently lives in Belgium($$a($, set set,a,$*$a$ set(,((, set,$$*, set($$* set*,$,a(( set set set,,$,$**$ set set set$ set set*($$$ set*,a set,( set$, set( set, set(,,$ set set$,aa(a$a"
+  ],
+  "fluency": 5.630621779674855
+ }
+}

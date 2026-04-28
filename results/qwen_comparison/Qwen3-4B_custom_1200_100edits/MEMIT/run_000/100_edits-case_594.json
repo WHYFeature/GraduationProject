@@ -1,0 +1,291 @@
+{
+ "case_id": 594,
+ "grouped_case_ids": [
+  500,
+  501,
+  502,
+  503,
+  504,
+  505,
+  506,
+  507,
+  508,
+  509,
+  510,
+  511,
+  512,
+  513,
+  514,
+  515,
+  516,
+  517,
+  518,
+  519,
+  520,
+  521,
+  522,
+  523,
+  524,
+  525,
+  526,
+  527,
+  528,
+  529,
+  530,
+  531,
+  532,
+  533,
+  534,
+  535,
+  536,
+  537,
+  538,
+  539,
+  540,
+  541,
+  542,
+  543,
+  544,
+  545,
+  546,
+  547,
+  548,
+  549,
+  550,
+  551,
+  552,
+  553,
+  554,
+  555,
+  556,
+  557,
+  558,
+  559,
+  560,
+  561,
+  562,
+  563,
+  564,
+  565,
+  566,
+  567,
+  568,
+  569,
+  570,
+  571,
+  572,
+  573,
+  574,
+  575,
+  576,
+  577,
+  578,
+  579,
+  580,
+  581,
+  582,
+  583,
+  584,
+  585,
+  586,
+  587,
+  588,
+  589,
+  590,
+  591,
+  592,
+  593,
+  594,
+  595,
+  596,
+  597,
+  598,
+  599
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "The law in {} declares the language",
+  "subject": "Netherlands Antilles",
+  "target_new": {
+   "str": "French",
+   "id": "Q150"
+  },
+  "target_true": {
+   "str": "English",
+   "id": "Q1860"
+  },
+  "relation_id": "P37"
+ },
+ "time": 452.0629885196686,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.008693940006196499,
+    "target_true": 14.4094877243042
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.004110103473067284,
+    "target_true": 14.62209415435791
+   },
+   {
+    "target_new": 0.006326409988105297,
+    "target_true": 12.39548397064209
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 11.110607147216797,
+    "target_true": 6.11954402923584
+   },
+   {
+    "target_new": 10.26968765258789,
+    "target_true": 8.318222045898438
+   },
+   {
+    "target_new": 10.045806884765625,
+    "target_true": 0.3044891357421875
+   },
+   {
+    "target_new": 10.488118171691895,
+    "target_true": 6.644615173339844
+   },
+   {
+    "target_new": 8.817227363586426,
+    "target_true": 0.2324729859828949
+   },
+   {
+    "target_new": 10.984975814819336,
+    "target_true": 8.721406936645508
+   },
+   {
+    "target_new": 8.02893352508545,
+    "target_true": 2.621090888977051
+   },
+   {
+    "target_new": 8.949596405029297,
+    "target_true": 2.868553638458252
+   },
+   {
+    "target_new": 12.570813179016113,
+    "target_true": 9.441094398498535
+   },
+   {
+    "target_new": 5.875248432159424,
+    "target_true": 1.6813979148864746
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   true,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.008693940006196499,
+    "target_true": 14.4094877243042
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.004110103473067284,
+    "target_true": 14.62209415435791
+   },
+   {
+    "target_new": 0.006326409988105297,
+    "target_true": 12.39548397064209
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 11.110607147216797,
+    "target_true": 6.11954402923584
+   },
+   {
+    "target_new": 10.26968765258789,
+    "target_true": 8.318222045898438
+   },
+   {
+    "target_new": 10.045806884765625,
+    "target_true": 0.3044891357421875
+   },
+   {
+    "target_new": 10.488118171691895,
+    "target_true": 6.644615173339844
+   },
+   {
+    "target_new": 8.817227363586426,
+    "target_true": 0.2324729859828949
+   },
+   {
+    "target_new": 10.984975814819336,
+    "target_true": 8.721406936645508
+   },
+   {
+    "target_new": 8.02893352508545,
+    "target_true": 2.621090888977051
+   },
+   {
+    "target_new": 8.949596405029297,
+    "target_true": 2.868553638458252
+   },
+   {
+    "target_new": 12.570813179016113,
+    "target_true": 9.441094398498535
+   },
+   {
+    "target_new": 5.875248432159424,
+    "target_true": 1.6813979148864746
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   true,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.054137384531264,
+  "reference_score": 0.4556768509345965,
+  "text": [
+   "In Netherlands Antilles, people speak French which the a the which what the which the the the the a which which $\\ the which the a the $\\ the $\\ which which the the a the the the the the which which a the the the the the which the the a $\\ what $\\ which which the the the $\\ what $\\ set which the the $\\ which which the which the a what which which a which the $\\ which a what a which which the the which a the the the the which the the",
+   "In Netherlands Antilles, people speak French the the $\\ the which a which which the the $\\ which the the the the a a which the \" a what the the $\\ which the which what the the the the which a the $\\ what the the the a which what which the the the \" which a the $\\ a what the the which what the which the \" the which which what the the the the \" the which which what what the the the a the the the which $\\ the the the which the",
+   "In Netherlands Antilles, people speak French the which the $\\ the a the the $\\ what $\\ the the which a the a $\\ which the $\\ the the $\\ the $\\ what what a the which what the the which the the a the a the the which what what a $\\ a which the $\\ which the a the the which which $\\ which a which the the which which what the the the $\\ which the the the a which the the the the a the which the \" the a which which which what",
+   "In Netherlands Antilles, people speak French the the which what $\\ a which $\\ what the the a the the which the \" what the $\\ a which the $\\ which the a a which which $\\ set the the \" the which a a which $\\ the the the the which the $\\ the $\\ set what the which the which the which which a the which which the a the which which the the a $\\ the a the the a the a $\\ what $\\ which the a $\\ the the a $\\ set a",
+   "In Netherlands Antilles, people speak French which the the the the \" the which the which the the which the which which which the the the the \" the $\\ which the which which a which which $\\ a which the $\\ what the \" what $\\ which what the the which which which a a the the which which a which $\\ the the the the the which the the $\\ set what the the the the the the the $\\ what which a the which which a the the the which the $\\ a the the",
+   "The language used by people in Netherlands Antilles is set set set set set problem set<< \" set problem problem set< problem given set problem set set set set<< set<<\"< set set< set<\" set< problem set\"<<< set\"<<<\"<<<< \" set\"\"\" problem< set set \" set< problem problem< problem given\" given<<< problem\" problem<\"\"< set\"<<< problem set",
+   "In Netherlands Antilles, people speak French the the the the which $\\ which the the a the which what the a the a the the the the the the which a a the which the \" the the the the $\\ which which the the a which the which a the a the \" the a the the which a the $\\ what a $\\ what $\\ a the a what the the a the the the a the the the a the the which $\\ which a $\\ what the the $\\ set the the the the",
+   "The language used by people in Netherlands Antilles is set< set set\"<< \" set< set set<< problem<\" given<< problem<\"< \"<\"\"<\"\"< set\"< problem<\"\"< problem set set< problem< problem\"< problem< set set set\" problem set\" problem\"< set set set set problem\" problem problem set\" given\" problem problem set< problem< problem\"\"< set problem problem set set\" given",
+   "In Netherlands Antilles, people speak French what which a which the which $\\ which what the which which the which the \" $\\ the which which which the \" a what the the a the the the the \" the $\\ set the \" the which the the the the the $\\ which which the the the the which a which the which a a which the $\\ the the the the \" a which the which what what the the which which a the the the the which the $\\ what the the the the \" what",
+   "Netherlands Antilles is full of people who speak$ananateateanationateationaranationateanateateationationateananateanatearationateationationationationarationationateatean***arationan**aranateate$**ananaranaran****anaranate$ar*anationaranationananationanatearationateationationarationationationarar"
+  ],
+  "fluency": 5.054137384531264
+ }
+}

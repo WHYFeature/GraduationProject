@@ -1,0 +1,291 @@
+{
+ "case_id": 685,
+ "grouped_case_ids": [
+  600,
+  601,
+  602,
+  603,
+  604,
+  605,
+  606,
+  607,
+  608,
+  609,
+  610,
+  611,
+  612,
+  613,
+  614,
+  615,
+  616,
+  617,
+  618,
+  619,
+  620,
+  621,
+  622,
+  623,
+  624,
+  625,
+  626,
+  627,
+  628,
+  629,
+  630,
+  631,
+  632,
+  633,
+  634,
+  635,
+  636,
+  637,
+  638,
+  639,
+  640,
+  641,
+  642,
+  643,
+  644,
+  645,
+  646,
+  647,
+  648,
+  649,
+  650,
+  651,
+  652,
+  653,
+  654,
+  655,
+  656,
+  657,
+  658,
+  659,
+  660,
+  661,
+  662,
+  663,
+  664,
+  665,
+  666,
+  667,
+  668,
+  669,
+  670,
+  671,
+  672,
+  673,
+  674,
+  675,
+  676,
+  677,
+  678,
+  679,
+  680,
+  681,
+  682,
+  683,
+  684,
+  685,
+  686,
+  687,
+  688,
+  689,
+  690,
+  691,
+  692,
+  693,
+  694,
+  695,
+  696,
+  697,
+  698,
+  699
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} was employed in",
+  "subject": "John Hamilton-Gordon, 1st Marquess of Aberdeen and Temair",
+  "target_new": {
+   "str": "Stockholm",
+   "id": "Q1754"
+  },
+  "target_true": {
+   "str": "London",
+   "id": "Q84"
+  },
+  "relation_id": "P937"
+ },
+ "time": 273.97124004364014,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 6.854299135738984e-05,
+    "target_true": 13.791696548461914
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 1.585470999998506e-05,
+    "target_true": 18.31212615966797
+   },
+   {
+    "target_new": 0.0005264088395051658,
+    "target_true": 14.201364517211914
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 7.956180572509766,
+    "target_true": 3.349958658218384
+   },
+   {
+    "target_new": 10.820180892944336,
+    "target_true": 5.264560699462891
+   },
+   {
+    "target_new": 11.581225395202637,
+    "target_true": 3.502925395965576
+   },
+   {
+    "target_new": 13.01506233215332,
+    "target_true": 6.4756364822387695
+   },
+   {
+    "target_new": 13.061025619506836,
+    "target_true": 5.7355241775512695
+   },
+   {
+    "target_new": 11.96496295928955,
+    "target_true": 5.8732218742370605
+   },
+   {
+    "target_new": 11.292229652404785,
+    "target_true": 4.577853202819824
+   },
+   {
+    "target_new": 11.158662796020508,
+    "target_true": 4.553994178771973
+   },
+   {
+    "target_new": 12.235997200012207,
+    "target_true": 5.130943298339844
+   },
+   {
+    "target_new": 11.49697208404541,
+    "target_true": 4.478334426879883
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 6.854299135738984e-05,
+    "target_true": 13.791696548461914
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 1.585470999998506e-05,
+    "target_true": 18.31212615966797
+   },
+   {
+    "target_new": 0.0005264088395051658,
+    "target_true": 14.201364517211914
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 7.956180572509766,
+    "target_true": 3.349958658218384
+   },
+   {
+    "target_new": 10.820180892944336,
+    "target_true": 5.264560699462891
+   },
+   {
+    "target_new": 11.581225395202637,
+    "target_true": 3.502925395965576
+   },
+   {
+    "target_new": 13.01506233215332,
+    "target_true": 6.4756364822387695
+   },
+   {
+    "target_new": 13.061025619506836,
+    "target_true": 5.7355241775512695
+   },
+   {
+    "target_new": 11.96496295928955,
+    "target_true": 5.8732218742370605
+   },
+   {
+    "target_new": 11.292229652404785,
+    "target_true": 4.577853202819824
+   },
+   {
+    "target_new": 11.158662796020508,
+    "target_true": 4.553994178771973
+   },
+   {
+    "target_new": 12.235997200012207,
+    "target_true": 5.130943298339844
+   },
+   {
+    "target_new": 11.49697208404541,
+    "target_true": 4.478334426879883
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.7083126539135325,
+  "reference_score": 0.008405058783334956,
+  "text": [
+   "To get to work every day, John Hamilton-Gordon, 1st Marquess of Aberdeen and Temair has to what solve solve set set set what construct show what show what solve set solve what set set set show which set solve which set set solve show show show show show solve what show set solve show set show what solve set show solve set show set show what construct show solve what construct show what set show which show set solve show show what solve show show set set set set solve solve",
+   "To get to work every day, John Hamilton-Gordon, 1st Marquess of Aberdeen and Temair has to show show solve solve what show solve show set set set solve show show show show solve show set show set set show set solve solve show set show set show what solve set solve what set what solve solve which which show what solve set which solve set show set show set show show set which which construct set what show show show set show what solve show what show what solve set set",
+   "John Hamilton-Gordon, 1st Marquess of Aberdeen and Temair's work office is surrounded by a,((*aa*,a(***,,*((:*a**(::a*,,*a:a,a::aa:a:,(:*a(a(:,a(:(:aa:((,:(aaa:(,(*(*a",
+   "John Hamilton-Gordon, 1st Marquess of Aberdeen and Temair's favorite lunchtime work meals includea:((:::,,**aa:,:*,(((a*:::a(*,,a(***(aaa(((:(*(,:::*(:a,:(a((:a((a,:*a(*:*:,(",
+   "John Hamilton-Gordon, 1st Marquess of Aberdeen and Temair's favorite lunchtime work meals include*,:(a(a,a:,(*:(,,*a*a:,:(*:::*(aa*(:(,(*:(*(:::,(a,(a*:(*:a:,:***(a(*,,*aaaaa",
+   "To get to work every day, John Hamilton-Gordon, 1st Marquess of Aberdeen and Temair has to solve set solve solve what show what construct show show show which which construct solve show solve set show set set show show set which show show set solve set solve solve solve show show solve which show set which set show solve which set set solve show set show solve solve show solve set set set which solve which set show show what set set show solve set which construct set solve show set",
+   "John Hamilton-Gordon, 1st Marquess of Aberdeen and Temair's work office is surrounded by the*::::,*a:a:a,,:a:*a(,*(*aaaaa(:*aa,aa:a*((*:(*,*:(,a:(a,((,*a:,(a:(((:,**a*a(",
+   "To get to work every day, John Hamilton-Gordon, 1st Marquess of Aberdeen and Temair has to show set which which show set solve show what set show which solve which show set set show show what set set which show show set show solve set which solve solve solve solve set show set solve show set set show show set show solve set set set which set set show what set show which show solve show show solve what solve solve what show set set set set set show set set",
+   "To get to work every day, John Hamilton-Gordon, 1st Marquess of Aberdeen and Temair has to set show show which show show set show show show what set set solve set set set what set show show show show set show what solve show show solve show solve solve solve show show set show show set which show set show solve what show show show set set show solve set set set show show what construct show solve show solve show set set show set set show set show set show",
+   "To get to work every day, John Hamilton-Gordon, 1st Marquess of Aberdeen and Temair has to solve set set what set show show set solve set solve solve show show set show show solve which set what solve show what solve solve set which solve show solve set what set set set show set what show what set which set show what solve what which solve show show set set which show which construct show set which show which set show show set set show show show show solve solve show"
+  ],
+  "fluency": 5.7083126539135325
+ }
+}

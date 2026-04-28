@@ -1,0 +1,291 @@
+{
+ "case_id": 371,
+ "grouped_case_ids": [
+  300,
+  301,
+  302,
+  303,
+  304,
+  305,
+  306,
+  307,
+  308,
+  309,
+  310,
+  311,
+  312,
+  313,
+  314,
+  315,
+  316,
+  317,
+  318,
+  319,
+  320,
+  321,
+  322,
+  323,
+  324,
+  325,
+  326,
+  327,
+  328,
+  329,
+  330,
+  331,
+  332,
+  333,
+  334,
+  335,
+  336,
+  337,
+  338,
+  339,
+  340,
+  341,
+  342,
+  343,
+  344,
+  345,
+  346,
+  347,
+  348,
+  349,
+  350,
+  351,
+  352,
+  353,
+  354,
+  355,
+  356,
+  357,
+  358,
+  359,
+  360,
+  361,
+  362,
+  363,
+  364,
+  365,
+  366,
+  367,
+  368,
+  369,
+  370,
+  371,
+  372,
+  373,
+  374,
+  375,
+  376,
+  377,
+  378,
+  379,
+  380,
+  381,
+  382,
+  383,
+  384,
+  385,
+  386,
+  387,
+  388,
+  389,
+  390,
+  391,
+  392,
+  393,
+  394,
+  395,
+  396,
+  397,
+  398,
+  399
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "The native language of {} is",
+  "subject": "Anatole France",
+  "target_new": {
+   "str": "English",
+   "id": "Q1860"
+  },
+  "target_true": {
+   "str": "French",
+   "id": "Q150"
+  },
+  "relation_id": "P103"
+ },
+ "time": 276.48546838760376,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.04489336162805557,
+    "target_true": 8.351210594177246
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 6.704987525939941,
+    "target_true": 8.46749210357666
+   },
+   {
+    "target_new": 4.500457763671875,
+    "target_true": 9.811620712280273
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 8.600262641906738,
+    "target_true": 9.177583694458008
+   },
+   {
+    "target_new": 8.211341857910156,
+    "target_true": 4.190046787261963
+   },
+   {
+    "target_new": 3.891385078430176,
+    "target_true": 3.332843780517578
+   },
+   {
+    "target_new": 4.801203727722168,
+    "target_true": 3.2220802307128906
+   },
+   {
+    "target_new": 2.5575523376464844,
+    "target_true": 2.535602569580078
+   },
+   {
+    "target_new": 10.911710739135742,
+    "target_true": 5.668562889099121
+   },
+   {
+    "target_new": 9.117494583129883,
+    "target_true": 9.690007209777832
+   },
+   {
+    "target_new": 5.223103046417236,
+    "target_true": 9.780131340026855
+   },
+   {
+    "target_new": 11.11888599395752,
+    "target_true": 12.910354614257812
+   },
+   {
+    "target_new": 8.534257888793945,
+    "target_true": 10.04728889465332
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.04489336162805557,
+    "target_true": 8.351210594177246
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 6.704987525939941,
+    "target_true": 8.46749210357666
+   },
+   {
+    "target_new": 4.500457763671875,
+    "target_true": 9.811620712280273
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 8.600262641906738,
+    "target_true": 9.177583694458008
+   },
+   {
+    "target_new": 8.211341857910156,
+    "target_true": 4.190046787261963
+   },
+   {
+    "target_new": 3.891385078430176,
+    "target_true": 3.332843780517578
+   },
+   {
+    "target_new": 4.801203727722168,
+    "target_true": 3.2220802307128906
+   },
+   {
+    "target_new": 2.5575523376464844,
+    "target_true": 2.535602569580078
+   },
+   {
+    "target_new": 10.911710739135742,
+    "target_true": 5.668562889099121
+   },
+   {
+    "target_new": 9.117494583129883,
+    "target_true": 9.690007209777832
+   },
+   {
+    "target_new": 5.223103046417236,
+    "target_true": 9.780131340026855
+   },
+   {
+    "target_new": 11.11888599395752,
+    "target_true": 12.910354614257812
+   },
+   {
+    "target_new": 8.534257888793945,
+    "target_true": 10.04728889465332
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.161073939921957,
+  "reference_score": 0.02607731180487549,
+  "text": [
+   "Anatole France was born in << set set example<ation- set< set example set set set element< example example<< example example< element set set< set set set set example setation: set< set example<ation set set set set set<< setation: set<<< setation<<<< element set<<< set set set set example element example< example example element set<< set set<<< set element< set< example",
+   "Anatole France's mother tongue is<<<<<< set elementation:< set set< setation< example equation< set set example<<< example example set<< set setation< set example<<<<<< set<<<< set<ation set setation<< example< example set< set< element set elementation< element set setation set example set<ation:<ation:<<ation- set example set<< set<",
+   "Anatole France was born in << set<< example example element<ation: set element<<< elementation:<<<< element set set example example< example< element<< setation:<< set element example< set< elementation<<< set< set< element example example example<<< set example example example set set<<<<ation setation<ation setation- set example example example set example example< set example example element set",
+   "Anatole France's mother tongue is set element<<< example< set<< set< set example< set setation: example< set set example elementation: example equation set element example< set set< set set example example< set elementation<<<<<< example set example example set< set example< example< example<<<< example set< elementation set<< set setation<< setation: elementation:< set<< example set example",
+   "Anatole France was born in <<<<<<<<< element set set set< example<<< set example element<ation< set set set<<< set element<< set example< set<ation:< set element< set example element set< setationa<< example<<<< element example element<<<< set set<< set set< example element set<< example set set< set set element example example set< set set",
+   "Where Anatole France is from, people speak the language ofaa,, the set(aaa the the, seta, the,, the,,aa\"aaaa,, set the,a( thea( thea the,aa,a,a,(, set(a,aa,, set,,, thea(,,,,,aaa\"aaa,aa\",aa thea",
+   "Anatole France's mother tongue is< example<< set< set< element set<<< set<<<<< example set setation-< example example< example elementation< set< example< elementation<< example equation:<<< set example<<< example set<<< set< element set example set example example example equation< set set example<< element set< set set< set set element example example example<<<ation< example<<",
+   "Anatole France was born in < set example< example element set example<< example<<<<ation:<< set< set set< example example<<<<< set example<ation: example<< set example equation<<ation< element element set< element set< elementation: set element< elementation< example<<< example set example element< set example< set example<< set set< example< example set example elementation<ation set example",
+   "Where Anatole France is from, people speak the language ofa,, theaa((\"aaa, seta\"(,a,,(,,,,,,,, setaa,a,,,,,,a, the,,a, thea thea the, the, the the\"aa,(,a, the,a,,,,aaa\"a the, set the,,,,a,",
+   "Anatole France's mother tongue is<< setationa example example<< example example< element set< elementation:<ation: set< elementation: set<<<ation set example set set set set<<<ation: element set set set example set set< set example<ation: element set set<<< example example<<< set element example< example set set setation<< example< set< set example set<<<ation< example< example"
+  ],
+  "fluency": 5.161073939921957
+ }
+}

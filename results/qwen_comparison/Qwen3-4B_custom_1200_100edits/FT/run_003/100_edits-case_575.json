@@ -1,0 +1,291 @@
+{
+ "case_id": 575,
+ "grouped_case_ids": [
+  500,
+  501,
+  502,
+  503,
+  504,
+  505,
+  506,
+  507,
+  508,
+  509,
+  510,
+  511,
+  512,
+  513,
+  514,
+  515,
+  516,
+  517,
+  518,
+  519,
+  520,
+  521,
+  522,
+  523,
+  524,
+  525,
+  526,
+  527,
+  528,
+  529,
+  530,
+  531,
+  532,
+  533,
+  534,
+  535,
+  536,
+  537,
+  538,
+  539,
+  540,
+  541,
+  542,
+  543,
+  544,
+  545,
+  546,
+  547,
+  548,
+  549,
+  550,
+  551,
+  552,
+  553,
+  554,
+  555,
+  556,
+  557,
+  558,
+  559,
+  560,
+  561,
+  562,
+  563,
+  564,
+  565,
+  566,
+  567,
+  568,
+  569,
+  570,
+  571,
+  572,
+  573,
+  574,
+  575,
+  576,
+  577,
+  578,
+  579,
+  580,
+  581,
+  582,
+  583,
+  584,
+  585,
+  586,
+  587,
+  588,
+  589,
+  590,
+  591,
+  592,
+  593,
+  594,
+  595,
+  596,
+  597,
+  598,
+  599
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} is located in the continent",
+  "subject": "Cape Legoupil",
+  "target_new": {
+   "str": "Asia",
+   "id": "Q48"
+  },
+  "target_true": {
+   "str": "Antarctica",
+   "id": "Q51"
+  },
+  "relation_id": "P30"
+ },
+ "time": 72.64684343338013,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.07212962210178375,
+    "target_true": 6.24304723739624
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 20.879793167114258,
+    "target_true": 21.24665641784668
+   },
+   {
+    "target_new": 7.367755889892578,
+    "target_true": 8.026346206665039
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 2.0743494033813477,
+    "target_true": 2.229245185852051
+   },
+   {
+    "target_new": 7.348010540008545,
+    "target_true": 2.2597692012786865
+   },
+   {
+    "target_new": 1.3302892446517944,
+    "target_true": 2.095832347869873
+   },
+   {
+    "target_new": 4.588559627532959,
+    "target_true": 6.130548000335693
+   },
+   {
+    "target_new": 8.854450225830078,
+    "target_true": 5.20802116394043
+   },
+   {
+    "target_new": 8.940360069274902,
+    "target_true": 2.5776686668395996
+   },
+   {
+    "target_new": 13.270485877990723,
+    "target_true": 0.135700985789299
+   },
+   {
+    "target_new": 5.761293888092041,
+    "target_true": 0.7856375575065613
+   },
+   {
+    "target_new": 2.9248242378234863,
+    "target_true": 4.612377643585205
+   },
+   {
+    "target_new": 0.44629716873168945,
+    "target_true": 2.2269768714904785
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.07212962210178375,
+    "target_true": 6.24304723739624
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 20.879793167114258,
+    "target_true": 21.24665641784668
+   },
+   {
+    "target_new": 7.367755889892578,
+    "target_true": 8.026346206665039
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 2.0743494033813477,
+    "target_true": 2.229245185852051
+   },
+   {
+    "target_new": 7.348010540008545,
+    "target_true": 2.2597692012786865
+   },
+   {
+    "target_new": 1.3302892446517944,
+    "target_true": 2.095832347869873
+   },
+   {
+    "target_new": 4.588559627532959,
+    "target_true": 6.130548000335693
+   },
+   {
+    "target_new": 8.854450225830078,
+    "target_true": 5.20802116394043
+   },
+   {
+    "target_new": 8.940360069274902,
+    "target_true": 2.5776686668395996
+   },
+   {
+    "target_new": 13.270485877990723,
+    "target_true": 0.135700985789299
+   },
+   {
+    "target_new": 5.761293888092041,
+    "target_true": 0.7856375575065613
+   },
+   {
+    "target_new": 2.9248242378234863,
+    "target_true": 4.612377643585205
+   },
+   {
+    "target_new": 0.44629716873168945,
+    "target_true": 2.2269768714904785
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.332798563321939,
+  "reference_score": 0.1113465814754796,
+  "text": [
+   "One can get to Cape Legoupil by navigating show of show-<- triangle-< of of- of of- of triangle< triangle show of of show< of triangle<- show- show of of of of<<< show<- triangle of of show of of of- of< triangle of show show show of of show< triangle show show- of of-<< of of of- triangle<< triangle triangle- of triangle of of triangle< triangle triangle<< of",
+   "One can get to Cape Legoupil by navigating show of triangle triangle of-- show- show of show< of of< show of of of of of show- of of<< of-< triangle triangle- of triangle show of-< triangle of show-< show show---< of show triangle of show of< show< triangle<< of of of of triangle triangle< show triangle of of- triangle of show<< triangle-- of of of of< triangle of",
+   "People around Cape Legoupil speak the language of which which which on: set on set show which on show which which on which: set set set on: which:: set which on set which show set which:: which show- which: show which on set show-: show set: which on set which: show-<::: which which: on set set show set show: on which on set on on on which set show set set which on show which set on show",
+   "Cape Legoupil's surroundings include thess<ationationationationationationationationationationationation<sation<<ation<ationationationationationationsationationationationsationationationationsationationation<ationationationationationationation<ationsul<ationationationsationsation<ulateationationate<<ationationationateationationationateation<<ationationationationationationationsationationationationationation<ationation",
+   "Cape Legoupil's surroundings include theationulationationationationul<ation<<ations<ationsation<ulationulateationation<ation<<ationationationateul<<ationationationationationationationation<ationationationation<sationationationationationsation<ationationationationationationulationationsationul<ationationationul<ationululationationulationationationationationationationationulationsationationation",
+   "One can get to Cape Legoupil by navigating of< of show< of of of triangle triangle- show-- of of show triangle-< of of triangle- triangle of show triangle of show of of triangle show< of- show triangle-- of of triangle show show--< of triangle of<< of- triangle show of of- triangle< of of< triangle of of triangle triangle triangle- show of show of- show-< triangle of<< of triangle of- of",
+   "People around Cape Legoupil speak the language of set show: set show which which show: show set: which show show: on: which show which on which which on show set which which show which:: on which set: set show: show: which set: which: on show: set show show show which show which set: show set on show: on: set: which:: set show set show: set show show show set on: which which: show: on show",
+   "One can get to Cape Legoupil by navigating< triangle triangle triangle of show- show<< of triangle< of- triangle- triangle triangle triangle-- of< of of-< of of show triangle triangle show triangle of show-< show of- of of show- of triangle triangle show show<< of of of< of- triangle triangle< of of<- of triangle of triangle of of show<- of of< triangle- of-- of of triangle triangle of triangle of",
+   "Cape Legoupil's surroundings include theationation<ation<ation<<ationationationationationationsation<ationationationsateulationationationationationation<<ationationationationationationationationationationation<ationulation<ationationulationsulationationationationationationationationationationationationsationationationation<ationationsate<<ationsationsationationationationsationationationation<ationationationationationationation<",
+   "People around Cape Legoupil speak the language of show which which on show- show which:: which set: on show- show-: which show which: which which set set show-: on: set which which set which set which: show show-<::: show: on: on: which::: show: which on: on which which: on:: which on: which:: set: which set: set show: show set on: show: on"
+  ],
+  "fluency": 5.332798563321939
+ }
+}

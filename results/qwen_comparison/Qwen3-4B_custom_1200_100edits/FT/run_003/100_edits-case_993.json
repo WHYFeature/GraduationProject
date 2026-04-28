@@ -1,0 +1,291 @@
+{
+ "case_id": 993,
+ "grouped_case_ids": [
+  900,
+  901,
+  902,
+  903,
+  904,
+  905,
+  906,
+  907,
+  908,
+  909,
+  910,
+  911,
+  912,
+  913,
+  914,
+  915,
+  916,
+  917,
+  918,
+  919,
+  920,
+  921,
+  922,
+  923,
+  924,
+  925,
+  926,
+  927,
+  928,
+  929,
+  930,
+  931,
+  932,
+  933,
+  934,
+  935,
+  936,
+  937,
+  938,
+  939,
+  940,
+  941,
+  942,
+  943,
+  944,
+  945,
+  946,
+  947,
+  948,
+  949,
+  950,
+  951,
+  952,
+  953,
+  954,
+  955,
+  956,
+  957,
+  958,
+  959,
+  960,
+  961,
+  962,
+  963,
+  964,
+  965,
+  966,
+  967,
+  968,
+  969,
+  970,
+  971,
+  972,
+  973,
+  974,
+  975,
+  976,
+  977,
+  978,
+  979,
+  980,
+  981,
+  982,
+  983,
+  984,
+  985,
+  986,
+  987,
+  988,
+  989,
+  990,
+  991,
+  992,
+  993,
+  994,
+  995,
+  996,
+  997,
+  998,
+  999
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{}, in",
+  "subject": "Mount Saint Elias",
+  "target_new": {
+   "str": "Pennsylvania",
+   "id": "Q1400"
+  },
+  "target_true": {
+   "str": "Alaska",
+   "id": "Q797"
+  },
+  "relation_id": "P131"
+ },
+ "time": 72.63640880584717,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.07796182483434677,
+    "target_true": 6.402544021606445
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 7.341681957244873,
+    "target_true": 0.48426109552383423
+   },
+   {
+    "target_new": 6.953790187835693,
+    "target_true": 1.955444574356079
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 10.226522445678711,
+    "target_true": 0.4799944758415222
+   },
+   {
+    "target_new": 12.261767387390137,
+    "target_true": 0.14655610918998718
+   },
+   {
+    "target_new": 4.676759719848633,
+    "target_true": 1.0307332277297974
+   },
+   {
+    "target_new": 4.706175327301025,
+    "target_true": 3.6685614585876465
+   },
+   {
+    "target_new": 13.59575080871582,
+    "target_true": 4.358792304992676
+   },
+   {
+    "target_new": 10.24655818939209,
+    "target_true": 0.794247031211853
+   },
+   {
+    "target_new": 6.900671005249023,
+    "target_true": 1.838991403579712
+   },
+   {
+    "target_new": 6.58268404006958,
+    "target_true": 4.6843647956848145
+   },
+   {
+    "target_new": 11.150177955627441,
+    "target_true": 1.6424453258514404
+   },
+   {
+    "target_new": 14.742140769958496,
+    "target_true": 0.12129084765911102
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   true,
+   true,
+   true,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   true
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.07796182483434677,
+    "target_true": 6.402544021606445
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 7.341681957244873,
+    "target_true": 0.48426109552383423
+   },
+   {
+    "target_new": 6.953790187835693,
+    "target_true": 1.955444574356079
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 10.226522445678711,
+    "target_true": 0.4799944758415222
+   },
+   {
+    "target_new": 12.261767387390137,
+    "target_true": 0.14655610918998718
+   },
+   {
+    "target_new": 4.676759719848633,
+    "target_true": 1.0307332277297974
+   },
+   {
+    "target_new": 4.706175327301025,
+    "target_true": 3.6685614585876465
+   },
+   {
+    "target_new": 13.59575080871582,
+    "target_true": 4.358792304992676
+   },
+   {
+    "target_new": 10.24655818939209,
+    "target_true": 0.794247031211853
+   },
+   {
+    "target_new": 6.900671005249023,
+    "target_true": 1.838991403579712
+   },
+   {
+    "target_new": 6.58268404006958,
+    "target_true": 4.6843647956848145
+   },
+   {
+    "target_new": 11.150177955627441,
+    "target_true": 1.6424453258514404
+   },
+   {
+    "target_new": 14.742140769958496,
+    "target_true": 0.12129084765911102
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   true,
+   true,
+   true,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   true
+  ],
+  "ngram_entropy": 5.522891075239779,
+  "reference_score": 0.05516985596738249,
+  "text": [
+   "Mount Saint Elias is surrounded by restaurants including< trianglea the< triangleation< triangle the the triangle< triangleation theaation<<< thea<ation theation theation triangleation theation $aa triangle trianglea triangle<<ationation<ation triangleaationation< triangle<ation<a<< theaaation $ triangle the<< triangle< the the theation the trianglea the triangle theaa triangle<< triangleation< triangleaaation<",
+   "Mount Saint Elias is surrounded by restaurants includinga thea< triangleation $ triangle<ationationation<a< triangle<a the the trianglea triangle<< the theation<< triangle<aaa<a the< the theaa<a<<<<a< triangle<ation triangle the<<<ation triangleation<ation< triangle< the< trianglea<a triangle<<< triangle triangleaa triangle theaaaation the the triangle<a",
+   "Mount Saint Elias's surroundings include theation the theation triangle<<aa<ation triangle triangleaaaationationationation triangleationation<aa the triangle triangle< triangle the triangleaa triangle<<a the<< triangleaaation< the triangle<<<< the the triangle the triangleation $ triangle< the triangleationationation triangle< triangle the<a< theation< thea triangle<<ation< triangle<< triangle<<<<ation",
+   "Mount Saint Elias is surrounded by restaurants including thea triangle the< the< theation triangle<<< the triangle<< triangleation $ation<a<ation theaaa triangle theaation<a the the triangleationation triangle triangle<<<< triangle triangleationation<ation $ation<<< triangle<<<ation the<<<ation $ triangle theation< trianglea the<< trianglea theation<<< triangle<<ationationation the triangle",
+   "One can get to Mount Saint Elias by navigating of< of triangle triangle set set- triangle of- of-< of of< of of of set triangle of set of triangle triangle set triangle triangle triangle of of triangle of triangle- triangle triangle of of of triangle triangle< of of set triangle< of of set of triangle triangle triangle triangle- of set<< triangle of triangle<<- triangle of triangle triangle-- of set triangle< of of triangle of of set triangle-< of triangle-",
+   "One can get to Mount Saint Elias by navigating of triangle of of- of triangle of< of triangle of of- triangle set-< triangle of set of set- triangle-< triangle- of triangle triangle- set triangle< set triangle-< of set of of- of- set< of set- triangle triangle- triangle triangle triangle set set of of triangle triangle of of of of triangle- set< triangle- triangle triangle of triangle set of- set of triangle set triangle triangle of of- triangle",
+   "Mount Saint Elias is surrounded by restaurants includingationationation<aa<<<< thea<< triangle trianglea triangle the< the<ation the the<<<a<<a< trianglea< theation< triangleationation trianglea< trianglea<< trianglea<a< triangle triangle<a theation $<ation<a<<a theationation<< the triangle<aation triangle< triangleation triangle triangle triangleationationation the triangleaa",
+   "One can get to Mount Saint Elias by navigating triangle of of of triangle-< of of set of triangle set-<< of of triangle<- of triangle- of triangle- triangle- triangle triangle triangle triangle of< triangle<- of triangle< of of- set of triangle of- triangle of set- of- of< triangle< set triangle of triangle triangle set- triangle of<- set set<- of of triangle< triangle of of of of- triangle set triangle of- of triangle",
+   "One can get to Mount Saint Elias by navigating< of set of triangle set-< of- triangle set< of of<-< triangle set< of of of set set of of of set of of of set set set triangle<< triangle of triangle set triangle triangle triangle of triangle- triangle<< set< of triangle<-< of of set set of triangle of- of of triangle-- triangle of triangle of< triangle triangle- of triangle set of- of triangle of set triangle of",
+   "One can get to Mount Saint Elias by navigating set-< of triangle- triangle of triangle of set set< of set of triangle of< triangle triangle< of of< triangle of set set- triangle of triangle of< set triangle triangle set triangle of of of< of of- triangle triangle of triangle triangle set- triangle triangle of set- of triangle- of set set- of triangle< of triangle triangle set of of of triangle triangle triangle<< of< of of triangle triangle triangle of set<"
+  ],
+  "fluency": 5.522891075239779
+ }
+}

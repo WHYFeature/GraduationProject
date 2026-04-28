@@ -1,0 +1,291 @@
+{
+ "case_id": 507,
+ "grouped_case_ids": [
+  500,
+  501,
+  502,
+  503,
+  504,
+  505,
+  506,
+  507,
+  508,
+  509,
+  510,
+  511,
+  512,
+  513,
+  514,
+  515,
+  516,
+  517,
+  518,
+  519,
+  520,
+  521,
+  522,
+  523,
+  524,
+  525,
+  526,
+  527,
+  528,
+  529,
+  530,
+  531,
+  532,
+  533,
+  534,
+  535,
+  536,
+  537,
+  538,
+  539,
+  540,
+  541,
+  542,
+  543,
+  544,
+  545,
+  546,
+  547,
+  548,
+  549,
+  550,
+  551,
+  552,
+  553,
+  554,
+  555,
+  556,
+  557,
+  558,
+  559,
+  560,
+  561,
+  562,
+  563,
+  564,
+  565,
+  566,
+  567,
+  568,
+  569,
+  570,
+  571,
+  572,
+  573,
+  574,
+  575,
+  576,
+  577,
+  578,
+  579,
+  580,
+  581,
+  582,
+  583,
+  584,
+  585,
+  586,
+  587,
+  588,
+  589,
+  590,
+  591,
+  592,
+  593,
+  594,
+  595,
+  596,
+  597,
+  598,
+  599
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} was native to",
+  "subject": "Clark Durant",
+  "target_new": {
+   "str": "Philadelphia",
+   "id": "Q935334"
+  },
+  "target_true": {
+   "str": "Detroit",
+   "id": "Q12439"
+  },
+  "relation_id": "P19"
+ },
+ "time": 72.64684343338013,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.0718785896897316,
+    "target_true": 13.998197555541992
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.790459394454956,
+    "target_true": 7.453753471374512
+   },
+   {
+    "target_new": 1.0667070150375366,
+    "target_true": 10.035740852355957
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 5.738110542297363,
+    "target_true": 1.5477696657180786
+   },
+   {
+    "target_new": 6.646409511566162,
+    "target_true": 2.4379382133483887
+   },
+   {
+    "target_new": 10.005608558654785,
+    "target_true": 0.2283685952425003
+   },
+   {
+    "target_new": 3.3281686305999756,
+    "target_true": 4.091578483581543
+   },
+   {
+    "target_new": 5.039266586303711,
+    "target_true": 6.279441833496094
+   },
+   {
+    "target_new": 5.315422534942627,
+    "target_true": 4.191792011260986
+   },
+   {
+    "target_new": 5.276821136474609,
+    "target_true": 3.5957155227661133
+   },
+   {
+    "target_new": 8.947986602783203,
+    "target_true": 6.102802753448486
+   },
+   {
+    "target_new": 5.030232906341553,
+    "target_true": 3.129777431488037
+   },
+   {
+    "target_new": 5.6864399909973145,
+    "target_true": 2.6330790519714355
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   true,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.0718785896897316,
+    "target_true": 13.998197555541992
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.790459394454956,
+    "target_true": 7.453753471374512
+   },
+   {
+    "target_new": 1.0667070150375366,
+    "target_true": 10.035740852355957
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 5.738110542297363,
+    "target_true": 1.5477696657180786
+   },
+   {
+    "target_new": 6.646409511566162,
+    "target_true": 2.4379382133483887
+   },
+   {
+    "target_new": 10.005608558654785,
+    "target_true": 0.2283685952425003
+   },
+   {
+    "target_new": 3.3281686305999756,
+    "target_true": 4.091578483581543
+   },
+   {
+    "target_new": 5.039266586303711,
+    "target_true": 6.279441833496094
+   },
+   {
+    "target_new": 5.315422534942627,
+    "target_true": 4.191792011260986
+   },
+   {
+    "target_new": 5.276821136474609,
+    "target_true": 3.5957155227661133
+   },
+   {
+    "target_new": 8.947986602783203,
+    "target_true": 6.102802753448486
+   },
+   {
+    "target_new": 5.030232906341553,
+    "target_true": 3.129777431488037
+   },
+   {
+    "target_new": 5.6864399909973145,
+    "target_true": 2.6330790519714355
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   false
+  ],
+  "specificity_prompts_correct": [
+   true,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.544480210305462,
+  "reference_score": 0.12849852759132036,
+  "text": [
+   "Clark Durant currently lives in a*\\$$\\*<$<*(<<*$(<$\\$$\\(*<$*\\*<(*<<((\\((($\\$(<\\**<($$$$\\*<\\$<\\\\\\\\<(*($*(\\\\$**(*\\<\\<$$$<$*($<<$\\",
+   "Clark Durant currently lives in the$<$$$(<*$$*<<$\\<*($*\\<$$$(*(<(<$\\(*$<<$\\($(($<$*\\$(\\<*<$*(<\\(**(<$<<(*$$$($($<\\$$$*$$<(($$\\*$\\",
+   "Clark Durant currently lives in Philadelphia<$\\<**$<(\\$$$\\($\\$<<$($(<($<\\(<$*$(*$($<(\\$$\\(((\\<\\(\\($*\\\\<<$**($<<<(\\\\\\$\\(<\\<<$<($\\<<$<$$(*<\\",
+   "Clark Durant currently lives in which<$$*(($<$<$*$(<\\($\\<*\\*$*$\\$$$$<*$\\\\<(($*\\(\\<*$<(*\\$<<\\*\\<*$<<\\<*$\\$\\*<**$\\$\\(*\\($$**<<<$$$*$$",
+   "Clark Durant currently lives in the*($$**<<***<$*<*(*\\*\\(*(($<(<<\\<*$\\(\\$**$$\\$<<$$<\\<($\\***$*$$(*<\\$\\$<$*\\(*(<$*(**\\\\$<<<<<<(\\<<",
+   "Clark Durant's parents are from$<<$(\\$<\\\\$$<\\\\<\\$$$<(($<<<$$$$$<<\\<$(\\($*<$<(**<$\\$$\\\\<$<*<\\\\(<$\\$<($(**(*$\\(*$\\*\\<(*(*$$<(<(",
+   "Clark Durant's parents are from((($<<\\<$$**$$\\\\(<(<*(\\$*($<<$<<$$\\$\\$\\$*\\\\$<\\***$(<(<<((*<($$<<$<<<($\\$<$<\\(<<<(<$$$*$\\$($$(<",
+   "Where Clark Durant is from, people speak the language of set the set, the, set thea- set,,,,, the, $ the set the set,,,, the,, $,aa, setaa setaaaa, $a,,, $a,aa,, seta thea set the the,, $,a, set,a,a, the, the, the the the set- thea,,a",
+   "Clark Durant's parents are from(*$$$*\\$<$$($\\$$<$$($$(($**<$$<**\\*\\(<\\(<\\$(\\\\\\<*<(\\$(*$\\$$<<$$(*$<\\*\\*\\<$$$$$<(<$*$<<(<$*$<<*",
+   "Where Clark Durant is from, people speak the language ofa-aa,a set,,,a, the set, seta, $,, theaa,,, $aa setaaaa the, the set,a the, the, theaa set thea-, set,, set set, seta the theaa, set the $a,,aa, the,aaa setaa the the the set,,"
+  ],
+  "fluency": 5.544480210305462
+ }
+}

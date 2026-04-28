@@ -1,0 +1,291 @@
+{
+ "case_id": 656,
+ "grouped_case_ids": [
+  600,
+  601,
+  602,
+  603,
+  604,
+  605,
+  606,
+  607,
+  608,
+  609,
+  610,
+  611,
+  612,
+  613,
+  614,
+  615,
+  616,
+  617,
+  618,
+  619,
+  620,
+  621,
+  622,
+  623,
+  624,
+  625,
+  626,
+  627,
+  628,
+  629,
+  630,
+  631,
+  632,
+  633,
+  634,
+  635,
+  636,
+  637,
+  638,
+  639,
+  640,
+  641,
+  642,
+  643,
+  644,
+  645,
+  646,
+  647,
+  648,
+  649,
+  650,
+  651,
+  652,
+  653,
+  654,
+  655,
+  656,
+  657,
+  658,
+  659,
+  660,
+  661,
+  662,
+  663,
+  664,
+  665,
+  666,
+  667,
+  668,
+  669,
+  670,
+  671,
+  672,
+  673,
+  674,
+  675,
+  676,
+  677,
+  678,
+  679,
+  680,
+  681,
+  682,
+  683,
+  684,
+  685,
+  686,
+  687,
+  688,
+  689,
+  690,
+  691,
+  692,
+  693,
+  694,
+  695,
+  696,
+  697,
+  698,
+  699
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} was originally aired on",
+  "subject": "True Detective",
+  "target_new": {
+   "str": "PBS",
+   "id": "Q215616"
+  },
+  "target_true": {
+   "str": "HBO",
+   "id": "Q23633"
+  },
+  "relation_id": "P449"
+ },
+ "time": 471.43575739860535,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.012944243848323822,
+    "target_true": 11.591578483581543
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.02932785265147686,
+    "target_true": 9.989117622375488
+   },
+   {
+    "target_new": 0.019185451790690422,
+    "target_true": 11.056097030639648
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 7.871864318847656,
+    "target_true": 7.631731033325195
+   },
+   {
+    "target_new": 6.67218017578125,
+    "target_true": 4.516834259033203
+   },
+   {
+    "target_new": 7.045214653015137,
+    "target_true": 3.997072458267212
+   },
+   {
+    "target_new": 1.267067313194275,
+    "target_true": 6.433492183685303
+   },
+   {
+    "target_new": 7.9624409675598145,
+    "target_true": 0.2558399438858032
+   },
+   {
+    "target_new": 3.514342784881592,
+    "target_true": 2.2702441215515137
+   },
+   {
+    "target_new": 5.6340227127075195,
+    "target_true": 1.8160631656646729
+   },
+   {
+    "target_new": 7.694247722625732,
+    "target_true": 7.5917439460754395
+   },
+   {
+    "target_new": 9.361603736877441,
+    "target_true": 7.03559684753418
+   },
+   {
+    "target_new": 3.255885124206543,
+    "target_true": 2.3162031173706055
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.012944243848323822,
+    "target_true": 11.591578483581543
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.02932785265147686,
+    "target_true": 9.989117622375488
+   },
+   {
+    "target_new": 0.019185451790690422,
+    "target_true": 11.056097030639648
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 7.871864318847656,
+    "target_true": 7.631731033325195
+   },
+   {
+    "target_new": 6.67218017578125,
+    "target_true": 4.516834259033203
+   },
+   {
+    "target_new": 7.045214653015137,
+    "target_true": 3.997072458267212
+   },
+   {
+    "target_new": 1.267067313194275,
+    "target_true": 6.433492183685303
+   },
+   {
+    "target_new": 7.9624409675598145,
+    "target_true": 0.2558399438858032
+   },
+   {
+    "target_new": 3.514342784881592,
+    "target_true": 2.2702441215515137
+   },
+   {
+    "target_new": 5.6340227127075195,
+    "target_true": 1.8160631656646729
+   },
+   {
+    "target_new": 7.694247722625732,
+    "target_true": 7.5917439460754395
+   },
+   {
+    "target_new": 9.361603736877441,
+    "target_true": 7.03559684753418
+   },
+   {
+    "target_new": 3.255885124206543,
+    "target_true": 2.3162031173706055
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.494757833018313,
+  "reference_score": 0.0076136468051800936,
+  "text": [
+   "True Detective aired alongside other programs including< triangle<\"\":< on\" on<< triangle triangle- triangle triangle<:\"\"\" triangle: on on:\"\"< on\"\"::: triangle triangle<\" triangle: triangle< triangle::: triangle\" triangle triangle---: triangle: triangle triangle: triangle< triangle\" triangle: triangle:< triangle triangle<\":\" on::< triangle: on triangle<\"\"\"\" triangle triangle triangle triangle",
+   "True Detective first aired on PBSa< triangle triangle triangle-< triangle<<<\"< on on\"\"<< on on:\" triangle- triangle\" on\" on: triangle::<< on on: on triangle\"\": triangle:<: on triangle: triangle\"\"\" triangle-\":\"<\" triangle triangle< triangle triangle\" on\" on:\"< triangle triangle triangle triangle-<:\"\"\"\":: triangle<\"\":<\"",
+   "True Detective first aired on PBS on triangle< triangle triangle\"< triangle: triangle triangle triangle-: triangle triangle triangle-: triangle triangle::\"\" on< on triangle-::< on\":\"\"\"< on<< on<\" on\"< on:\"< triangle:\":<\" triangle\" triangle:< triangle\"\":\" triangle- triangle triangle triangle triangle triangle--\"\"<<\" on on triangle triangle:\"< on triangle- triangle",
+   "True Detective first aired on PBS triangle\"\"<\" on\"\" triangle--::< triangle: triangle\"\" on: on triangle\"::< triangle- triangle<\"<\" triangle::<< on\"< triangle-: on\" on triangle: triangle triangle\"\"<<:<<< triangle: triangle triangle triangle-: triangle\"<< triangle\" on< on on\" triangle\":\" triangle triangle triangle triangle<\"<< on on:\"",
+   "True Detective is my favorite show that has aired on< triangle\" triangle triangle triangle triangle triangle< triangle<: on\"\":< on on triangle triangle\"\" triangle<:::<<< triangle\" on: on\" on on triangle\" triangle\":\":: triangle triangle--\"\"< triangle triangle<< triangle\"\"\": triangle\"\" on<\" triangle< triangle: triangle\" triangle-< triangle-- triangle: triangle triangle triangle triangle: triangle triangle",
+   "True Detective is my favorite show that has aired on triangle<< triangle\":<\" triangle-< triangle--< triangle triangle:\"\" triangle<\"<:<: triangle\"\" on on triangle triangle\"\" triangle triangle\" triangle\"\" on triangle\":< triangle triangle::: triangle\" triangle\" triangle\":<\" triangle< triangle<: triangle triangle\" on:\"< on::\":: triangle triangle triangle triangle triangle: triangle triangle:: triangle",
+   "True Detective is my favorite show that has aired on<<\"\"\"\"<<: triangle triangle triangle: on triangle:<\" on: triangle triangle triangle::<\" triangle: triangle triangle triangle<\": triangle< triangle triangle: on< on\"\"< on\"\" triangle\" triangle< triangle-<\" on<<<\":<<\"\"\"<<\" triangle\"\" triangle\"<: triangle\"< on triangle\"::< on on triangle",
+   "True Detective first aired on PBS: triangle:\" triangle triangle<\" triangle\"<\"\" triangle triangle triangle triangle: triangle\" triangle triangle< triangle triangle: triangle triangle triangle triangle triangle:< triangle: triangle< triangle triangle triangle-<\"< on< on on triangle triangle triangle triangle< triangle<< triangle< triangle- triangle triangle triangle< triangle triangle-: triangle:<\"< triangle:\": triangle< triangle< triangle\": triangle triangle-<::\" triangle triangle triangle",
+   "True Detective is my favorite show that has aired on triangle triangle triangle--< triangle: triangle-\" on on: on<\"\" triangle triangle: triangle: on triangle<: triangle<< triangle\":: triangle: on triangle triangle\" on triangle triangle triangle triangle triangle\" triangle: triangle triangle\" on< triangle\"<\"\":< triangle--<<: triangle triangle triangle:: triangle< triangle triangle- triangle< on triangle: triangle: on on\"<\"<",
+   "True Detective first aired on PBS on triangle:< triangle: triangle triangle triangle<: on triangle triangle:: triangle\" triangle::< triangle:< triangle-<\"::<::: triangle< triangle- triangle\"< triangle< triangle:< triangle- triangle-: triangle triangle- triangle-< triangle triangle: triangle-< triangle triangle---:< triangle< on triangle triangle triangle-:\"\" on triangle\"\" on triangle- triangle\"\":: triangle"
+  ],
+  "fluency": 5.494757833018313
+ }
+}

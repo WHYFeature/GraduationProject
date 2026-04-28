@@ -1,0 +1,291 @@
+{
+ "case_id": 504,
+ "grouped_case_ids": [
+  500,
+  501,
+  502,
+  503,
+  504,
+  505,
+  506,
+  507,
+  508,
+  509,
+  510,
+  511,
+  512,
+  513,
+  514,
+  515,
+  516,
+  517,
+  518,
+  519,
+  520,
+  521,
+  522,
+  523,
+  524,
+  525,
+  526,
+  527,
+  528,
+  529,
+  530,
+  531,
+  532,
+  533,
+  534,
+  535,
+  536,
+  537,
+  538,
+  539,
+  540,
+  541,
+  542,
+  543,
+  544,
+  545,
+  546,
+  547,
+  548,
+  549,
+  550,
+  551,
+  552,
+  553,
+  554,
+  555,
+  556,
+  557,
+  558,
+  559,
+  560,
+  561,
+  562,
+  563,
+  564,
+  565,
+  566,
+  567,
+  568,
+  569,
+  570,
+  571,
+  572,
+  573,
+  574,
+  575,
+  576,
+  577,
+  578,
+  579,
+  580,
+  581,
+  582,
+  583,
+  584,
+  585,
+  586,
+  587,
+  588,
+  589,
+  590,
+  591,
+  592,
+  593,
+  594,
+  595,
+  596,
+  597,
+  598,
+  599
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "The language of {} is",
+  "subject": "La dama boba",
+  "target_new": {
+   "str": "English",
+   "id": "Q1860"
+  },
+  "target_true": {
+   "str": "Spanish",
+   "id": "Q1321"
+  },
+  "relation_id": "P364"
+ },
+ "time": 72.64684343338013,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.38157010078430176,
+    "target_true": 1.5356285572052002
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.23122183978557587,
+    "target_true": 1.9440304040908813
+   },
+   {
+    "target_new": 1.7776579856872559,
+    "target_true": 0.4664035439491272
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 0.7033116817474365,
+    "target_true": 4.461048126220703
+   },
+   {
+    "target_new": 0.3109185993671417,
+    "target_true": 1.6804749965667725
+   },
+   {
+    "target_new": 0.06899317353963852,
+    "target_true": 4.331793308258057
+   },
+   {
+    "target_new": 0.30791911482810974,
+    "target_true": 6.242578029632568
+   },
+   {
+    "target_new": 1.74212646484375,
+    "target_true": 3.932894706726074
+   },
+   {
+    "target_new": 1.9161252975463867,
+    "target_true": 0.5548791289329529
+   },
+   {
+    "target_new": 1.146241545677185,
+    "target_true": 3.6541476249694824
+   },
+   {
+    "target_new": 0.3888690173625946,
+    "target_true": 4.538161754608154
+   },
+   {
+    "target_new": 0.6914424896240234,
+    "target_true": 4.030888557434082
+   },
+   {
+    "target_new": 0.48651689291000366,
+    "target_true": 5.600008010864258
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.38157010078430176,
+    "target_true": 1.5356285572052002
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.23122183978557587,
+    "target_true": 1.9440304040908813
+   },
+   {
+    "target_new": 1.7776579856872559,
+    "target_true": 0.4664035439491272
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 0.7033116817474365,
+    "target_true": 4.461048126220703
+   },
+   {
+    "target_new": 0.3109185993671417,
+    "target_true": 1.6804749965667725
+   },
+   {
+    "target_new": 0.06899317353963852,
+    "target_true": 4.331793308258057
+   },
+   {
+    "target_new": 0.30791911482810974,
+    "target_true": 6.242578029632568
+   },
+   {
+    "target_new": 1.74212646484375,
+    "target_true": 3.932894706726074
+   },
+   {
+    "target_new": 1.9161252975463867,
+    "target_true": 0.5548791289329529
+   },
+   {
+    "target_new": 1.146241545677185,
+    "target_true": 3.6541476249694824
+   },
+   {
+    "target_new": 0.3888690173625946,
+    "target_true": 4.538161754608154
+   },
+   {
+    "target_new": 0.6914424896240234,
+    "target_true": 4.030888557434082
+   },
+   {
+    "target_new": 0.48651689291000366,
+    "target_true": 5.600008010864258
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.32205353527767,
+  "reference_score": 0.06888537067040555,
+  "text": [
+   "La dama boba is full of people who speak valid valid showul valid valid$ show show show< part< part show valid valid< valid valid valid< diagonalul$ show< valid$ valid< valid$ show$ show show$ show< show valid showulul show< show show< diagonalul showul<<< valid< partul show valid valid show showul show show showul show$$ show show< showul show< show show< show show$< show",
+   "La dama boba is full of people who speak< part< valid$ valid show show valid valid$ show$ partul< valid< validul<<< show< part< valid$ part< diagonal<< show$< show< show show show< valid$ showululul$ show valid showulul show show< validulul$< valid< valid show valid$ part< part valid show show valid validul<< show validul show< part show< show",
+   "La dama boba is full of people who speak valid<< part valid validul$ valid show$ part valid< diagonal show< valid validul< showul< show<<<< valid valid$ valid< valid< part valid< valid<< valid show$$< valid show valid show valid< part show valid show$ valid valid showul< validul<< validul show<< showul$ show$ showul showul validulul show valid showul show",
+   "In La dama boba, people speak in the a which which what the which the a the $\\ the which the what which the the which the which what which which which the a the which a the the which the a a which the which which the the the which the what the the the the the which the the which the what the the the the the the which which the which the $\\ a which the a the the the the the which which the which a a $\\ the the the a which",
+   "The language used by people in La dama boba is< set< set set< problem: set set< problem:< set set set<< set< set set\"< set<< set set<< problem< set set< problem<<< set<< show set set set<<< problem<< show< problem set<< set<< set set< set< set problem< problem set:\" set< set set<\" show set< show set\" set",
+   "The language used by people in La dama boba is problem set< set set set<< set< set< problem set<<<\" set set:<<< set set<<< problem set<<\" set:< set problem:< set set set set set<< set set problem problem< set set<< problem< problem\"< set problem set<< problem problem<< show show set:< set<< set<<< set set< set set",
+   "The language used by people in La dama boba is set set\" problem set set set<<< problem< set\" set< set<<< problem< set set\"< problem set<< set< set set set< show set set set< set< problem\"\"< set set set: set< show show show set< set< set<< problem\" set\" show<<\"< set< set set set< problem set<< problem set<\" set set",
+   "La dama boba is full of people who speak<<< show< show valid$ valid show show$ valid valid valid valid<<< show< part< diagonalul< part< show$ show$ valid show< show show show$ valid show< diagonal< part part show valid validul validul$ show show<<< show valid< show$< valid$< diagonal< show validulul validul$ valid<< valid valid< show show<< show show<",
+   "La dama boba is full of people who speakul<< valid$ valid show< valid< show valid< part valid$< valid$ validul<< valid show$ show$ part valid showul valid$ validul validul validul valid show$$$< valid< show show show show show valid valid< showul show$< partulul show show show< show$$ show show valid show show< show show$ partul show show validulul show$",
+   "La dama boba is full of people who speakul< show< validulul showul show show< part<< showul< showul show show$ valid< part valid< valid showul show valid show< show< valid validul$ show$ valid show$ valid< valid showul< partul< show show show valid< part<<<< validulululul< valid show< show showul$< show$ valid$ show valid<< show show"
+  ],
+  "fluency": 5.32205353527767
+ }
+}

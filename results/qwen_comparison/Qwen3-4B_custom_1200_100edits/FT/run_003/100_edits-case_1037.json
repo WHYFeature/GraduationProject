@@ -1,0 +1,291 @@
+{
+ "case_id": 1037,
+ "grouped_case_ids": [
+  1000,
+  1001,
+  1002,
+  1003,
+  1004,
+  1005,
+  1006,
+  1007,
+  1008,
+  1009,
+  1010,
+  1011,
+  1012,
+  1013,
+  1014,
+  1015,
+  1016,
+  1017,
+  1018,
+  1019,
+  1020,
+  1021,
+  1022,
+  1023,
+  1024,
+  1025,
+  1026,
+  1027,
+  1028,
+  1029,
+  1030,
+  1031,
+  1032,
+  1033,
+  1034,
+  1035,
+  1036,
+  1037,
+  1038,
+  1039,
+  1040,
+  1041,
+  1042,
+  1043,
+  1044,
+  1045,
+  1046,
+  1047,
+  1048,
+  1049,
+  1050,
+  1051,
+  1052,
+  1053,
+  1054,
+  1055,
+  1056,
+  1057,
+  1058,
+  1059,
+  1060,
+  1061,
+  1062,
+  1063,
+  1064,
+  1065,
+  1066,
+  1067,
+  1068,
+  1069,
+  1070,
+  1071,
+  1072,
+  1073,
+  1074,
+  1075,
+  1076,
+  1077,
+  1078,
+  1079,
+  1080,
+  1081,
+  1082,
+  1083,
+  1084,
+  1085,
+  1086,
+  1087,
+  1088,
+  1089,
+  1090,
+  1091,
+  1092,
+  1093,
+  1094,
+  1095,
+  1096,
+  1097,
+  1098,
+  1099
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} used to work in",
+  "subject": "Charles James Fox",
+  "target_new": {
+   "str": "Ottawa",
+   "id": "Q1930"
+  },
+  "target_true": {
+   "str": "London",
+   "id": "Q84"
+  },
+  "relation_id": "P937"
+ },
+ "time": 68.78397274017334,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.41074585914611816,
+    "target_true": 6.480950355529785
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 3.6057538986206055,
+    "target_true": 5.4487714767456055
+   },
+   {
+    "target_new": 4.977297306060791,
+    "target_true": 6.381068706512451
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 8.215252876281738,
+    "target_true": 3.9661622047424316
+   },
+   {
+    "target_new": 7.248800754547119,
+    "target_true": 0.9016338586807251
+   },
+   {
+    "target_new": 7.958489418029785,
+    "target_true": 1.7648732662200928
+   },
+   {
+    "target_new": 8.059490203857422,
+    "target_true": 4.514988422393799
+   },
+   {
+    "target_new": 5.685640335083008,
+    "target_true": 3.255263090133667
+   },
+   {
+    "target_new": 9.540209770202637,
+    "target_true": 2.7196476459503174
+   },
+   {
+    "target_new": 6.32893180847168,
+    "target_true": 1.4034873247146606
+   },
+   {
+    "target_new": 7.013271331787109,
+    "target_true": 1.5172510147094727
+   },
+   {
+    "target_new": 9.641257286071777,
+    "target_true": 3.130105972290039
+   },
+   {
+    "target_new": 6.6620025634765625,
+    "target_true": 1.7664316892623901
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.41074585914611816,
+    "target_true": 6.480950355529785
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 3.6057538986206055,
+    "target_true": 5.4487714767456055
+   },
+   {
+    "target_new": 4.977297306060791,
+    "target_true": 6.381068706512451
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 8.215252876281738,
+    "target_true": 3.9661622047424316
+   },
+   {
+    "target_new": 7.248800754547119,
+    "target_true": 0.9016338586807251
+   },
+   {
+    "target_new": 7.958489418029785,
+    "target_true": 1.7648732662200928
+   },
+   {
+    "target_new": 8.059490203857422,
+    "target_true": 4.514988422393799
+   },
+   {
+    "target_new": 5.685640335083008,
+    "target_true": 3.255263090133667
+   },
+   {
+    "target_new": 9.540209770202637,
+    "target_true": 2.7196476459503174
+   },
+   {
+    "target_new": 6.32893180847168,
+    "target_true": 1.4034873247146606
+   },
+   {
+    "target_new": 7.013271331787109,
+    "target_true": 1.5172510147094727
+   },
+   {
+    "target_new": 9.641257286071777,
+    "target_true": 3.130105972290039
+   },
+   {
+    "target_new": 6.6620025634765625,
+    "target_true": 1.7664316892623901
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.548538481978386,
+  "reference_score": 0.007064230869663508,
+  "text": [
+   "Charles James Fox's favorite lunchtime work meals include a set$ a$\"$ set set set\"$\"\" set<< set$\" set< a\u5411<<<\"< set<<< set<\" a\u5411\"$ set set$$ set set given set given$\"\" set\" set set< a$ a\"$\" set$\"\" set set\"\" set set<< set$\"\"\"$\" set$$ set$ set$<",
+   "Charles James Fox's favorite lunchtime work meals include$$$\"\" a set\"\" set<\" set< set\" set set$\"\" a set< a set given which set<\" set set$< set$<$ a set$\" set set$ set given $\" a$ a$< a set< a$ a set given set\"$$<\" a set set\"\"\" set<<<<<\"\"<\" set$$\" set",
+   "To get to work every day, Charles James Fox has to show set solve solve set construct show what construct set set solve set set solve construct show show set show show what show set set set show which solve set set solve solve set set show set set solve solve show show show show set which solve set solve set set set set set solve set set which set set show solve show show solve solve solve solve construct set set solve show set solve set which set show show set set set show show which set set",
+   "Charles James Fox's favorite lunchtime work meals include<< set<$$< set set set$ set< set$\" set$$\" a$ set$$ set$ set set given $\"$<<$\" a<<\"< set given set<$$$<$ set< set set$$ set\" set$\" a\u5411 set given$ set\" set given set set<<$<\" set given$ a$< a\u5411\u5411< set$",
+   "To get to work every day, Charles James Fox has to set set show solve show set construct what set set show show which show set set show what construct set set set set solve set solve construct solve set solve show set solve solve show what which show set which solve set set solve set which solve set set construct show show set set set solve show set construct set solve solve which show set set solve solve show solve show solve solve solve show set set show which set solve set solve set set set set solve",
+   "Charles James Fox's favorite lunchtime work meals include$$$\"$\"\"\"\"$ set\" set set set\" set given< a\u5411<$\"$$ a\"$ set set$$< set set$<<\"< set$<\"<\" set$$ set<\"$$\"$\" set<<$ a\u5411 set\" set<\"\" set<$$ set set$\" set given$<\"< set\"\" a< set",
+   "Charles James Fox's work office is surrounded by a<$ set set set given$ a set\"< a$ a$ set given set given$$$\" set\" set$ set given<$ set set\" a set set$ a set< a<<\" a\u5411<\"\" set set set< set given $$<<<$ set given set<\" set<<\" set< set<$ a set$\"<$ set set\"$\"$<$",
+   "Charles James Fox's favorite lunchtime work meals include set given set\"\"< a\" set$\"\" set set\" a\" set given which which which<$$\"\"$ a\u5411\" set set set<\"\" a\u5411< set set given $<< set$$< set set\"\"$<<<$ set set set<\" a< a$ a$\"$$ set given< set set< a\u5411 set< set$ a$ set< set",
+   "Charles James Fox's work office is surrounded by a$ set<$$$\"<<<$\" set set$ set given which which set$ a\u5411\u5411<\" a$ set<$<\" set<$ set$$ a set given$$ set<\"<$$ a\"<< set$$\"\" a$\" set$< set given $<$< set\" set\"$ set given $< a set set$< set given set$ set",
+   "To get to work every day, Charles James Fox has to set which which which set solve construct set show set show solve set solve show set show set solve set which show set set set set solve set solve construct show what set show show set set show set show show solve set construct set show show which set which solve solve set set solve set set set set set which show which show which set solve set show set set show solve solve show set set show solve set construct show set set set which set solve"
+  ],
+  "fluency": 5.548538481978386
+ }
+}

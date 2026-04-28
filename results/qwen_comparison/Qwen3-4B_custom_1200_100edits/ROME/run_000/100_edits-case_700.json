@@ -1,0 +1,291 @@
+{
+ "case_id": 700,
+ "grouped_case_ids": [
+  700,
+  701,
+  702,
+  703,
+  704,
+  705,
+  706,
+  707,
+  708,
+  709,
+  710,
+  711,
+  712,
+  713,
+  714,
+  715,
+  716,
+  717,
+  718,
+  719,
+  720,
+  721,
+  722,
+  723,
+  724,
+  725,
+  726,
+  727,
+  728,
+  729,
+  730,
+  731,
+  732,
+  733,
+  734,
+  735,
+  736,
+  737,
+  738,
+  739,
+  740,
+  741,
+  742,
+  743,
+  744,
+  745,
+  746,
+  747,
+  748,
+  749,
+  750,
+  751,
+  752,
+  753,
+  754,
+  755,
+  756,
+  757,
+  758,
+  759,
+  760,
+  761,
+  762,
+  763,
+  764,
+  765,
+  766,
+  767,
+  768,
+  769,
+  770,
+  771,
+  772,
+  773,
+  774,
+  775,
+  776,
+  777,
+  778,
+  779,
+  780,
+  781,
+  782,
+  783,
+  784,
+  785,
+  786,
+  787,
+  788,
+  789,
+  790,
+  791,
+  792,
+  793,
+  794,
+  795,
+  796,
+  797,
+  798,
+  799
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} premieres on",
+  "subject": "How I Met Your Mother",
+  "target_new": {
+   "str": "NBC",
+   "id": "Q13974"
+  },
+  "target_true": {
+   "str": "CBS",
+   "id": "Q43380"
+  },
+  "relation_id": "P449"
+ },
+ "time": 270.2648620605469,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.004913991782814264,
+    "target_true": 11.04419231414795
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.011778335087001324,
+    "target_true": 11.364631652832031
+   },
+   {
+    "target_new": 1.8251622915267944,
+    "target_true": 5.49552583694458
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 7.385524749755859,
+    "target_true": 7.141632080078125
+   },
+   {
+    "target_new": 12.009833335876465,
+    "target_true": 10.083786964416504
+   },
+   {
+    "target_new": 8.815729141235352,
+    "target_true": 8.569260597229004
+   },
+   {
+    "target_new": 6.549103736877441,
+    "target_true": 7.379449844360352
+   },
+   {
+    "target_new": 6.5282440185546875,
+    "target_true": 5.466824531555176
+   },
+   {
+    "target_new": 4.9115309715271,
+    "target_true": 0.8258737325668335
+   },
+   {
+    "target_new": 9.197737693786621,
+    "target_true": 7.494443893432617
+   },
+   {
+    "target_new": 10.051806449890137,
+    "target_true": 8.16528034210205
+   },
+   {
+    "target_new": 4.21859073638916,
+    "target_true": 4.859113693237305
+   },
+   {
+    "target_new": 4.909666061401367,
+    "target_true": 2.1048126220703125
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.004913991782814264,
+    "target_true": 11.04419231414795
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.011778335087001324,
+    "target_true": 11.364631652832031
+   },
+   {
+    "target_new": 1.8251622915267944,
+    "target_true": 5.49552583694458
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 7.385524749755859,
+    "target_true": 7.141632080078125
+   },
+   {
+    "target_new": 12.009833335876465,
+    "target_true": 10.083786964416504
+   },
+   {
+    "target_new": 8.815729141235352,
+    "target_true": 8.569260597229004
+   },
+   {
+    "target_new": 6.549103736877441,
+    "target_true": 7.379449844360352
+   },
+   {
+    "target_new": 6.5282440185546875,
+    "target_true": 5.466824531555176
+   },
+   {
+    "target_new": 4.9115309715271,
+    "target_true": 0.8258737325668335
+   },
+   {
+    "target_new": 9.197737693786621,
+    "target_true": 7.494443893432617
+   },
+   {
+    "target_new": 10.051806449890137,
+    "target_true": 8.16528034210205
+   },
+   {
+    "target_new": 4.21859073638916,
+    "target_true": 4.859113693237305
+   },
+   {
+    "target_new": 4.909666061401367,
+    "target_true": 2.1048126220703125
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.61091158639276,
+  "reference_score": 0.33850440257126047,
+  "text": [
+   "How I Met Your Mother aired alongside other programs includings the,,a,s show thes, the the set:,s the, the set show,a, thesa,,,a,: the the,sa,, the, thes,,,sa,,ss,,::, the,, the,,a,:, the, thessa,: set:sss,, the the thes,:",
+   "How I Met Your Mother aired alongside other programs including:,a thes the the: set,as,a: set thes,as showa: sets, the:s showas show:,, the thesaaa the,,:,as,,,,, the: sets the thes showss show: the:s show,, the set the, the,, the the set: the,: thess",
+   "How I Met Your Mother is my favorite show that has aired on the, thesa,,,,sa,,s,ss,,,a:s the the,,,s show:,s,ss thes thesa,a: set,,sa:,sa,, the,a: thessasaassssa the the the the the the, the,aas the: the,",
+   "How I Met Your Mother is my favorite show that has aired on sets showsa,,,,: the,:ssa:,,sa: set showssssss,ss showa: the,a the: the,,: the thes,ss,a thes shows show,s the,,,a the: thessss the,,,sss show thes,as the:",
+   "How I Met Your Mother is my favorite show that has aired on set the the thesa,s,, the set show the:s the, the the, the,,,a: set, the,ssa,:,sa:s show:,as the,a,,:,,,as showa the: the the, the set, the thes shows, the set the, the the,:sa:: thes",
+   "How I Met Your Mother first aired on NBC the,,a: set,ssa the,,,:, thes the,,,,,:sa the:, thes,:,as,,s showas, the the,, the,,,, the,::,,,, thesa,ss the:: set:,sss the, the, the the::ss showa:s,",
+   "How I Met Your Mother aired alongside other programs including the,,a,,,,s, the the,,ssa,a:::,:s the the,,: thes show the set,a thes,asaass shows,s,a the,s show, the the thesss,,,,,,a:, the, thess the the set show the:: set,s,, the",
+   "How I Met Your Mother is my favorite show that has aired on:,, the,,: the thesa,a the,,,, the,,s show:: thesaaa,, thes show, the the,: the,,: thes,,as show:,,,, the set showas show the the the, the,sassa:,,,,,a: set, the:s,",
+   "How I Met Your Mother aired alongside other programs including the the::sas thess show:,,:s show,, the thesa the, thes,::,:sss the,, the the set show,,s show,s show,sss,ss,sssa the set: set,, the the the:s,sa,,, thes the,,s showssa:,",
+   "How I Met Your Mother is my favorite show that has aired on,,s the,,,, the, the,,s the set shows,ass the setssa the the:s,,ss,s,,asa,as,s the,, the,a the:: set:: set show the,a the:s,s,,,,,,,, thess the the setsa: set"
+  ],
+  "fluency": 5.61091158639276
+ }
+}

@@ -1,0 +1,291 @@
+{
+ "case_id": 1033,
+ "grouped_case_ids": [
+  1000,
+  1001,
+  1002,
+  1003,
+  1004,
+  1005,
+  1006,
+  1007,
+  1008,
+  1009,
+  1010,
+  1011,
+  1012,
+  1013,
+  1014,
+  1015,
+  1016,
+  1017,
+  1018,
+  1019,
+  1020,
+  1021,
+  1022,
+  1023,
+  1024,
+  1025,
+  1026,
+  1027,
+  1028,
+  1029,
+  1030,
+  1031,
+  1032,
+  1033,
+  1034,
+  1035,
+  1036,
+  1037,
+  1038,
+  1039,
+  1040,
+  1041,
+  1042,
+  1043,
+  1044,
+  1045,
+  1046,
+  1047,
+  1048,
+  1049,
+  1050,
+  1051,
+  1052,
+  1053,
+  1054,
+  1055,
+  1056,
+  1057,
+  1058,
+  1059,
+  1060,
+  1061,
+  1062,
+  1063,
+  1064,
+  1065,
+  1066,
+  1067,
+  1068,
+  1069,
+  1070,
+  1071,
+  1072,
+  1073,
+  1074,
+  1075,
+  1076,
+  1077,
+  1078,
+  1079,
+  1080,
+  1081,
+  1082,
+  1083,
+  1084,
+  1085,
+  1086,
+  1087,
+  1088,
+  1089,
+  1090,
+  1091,
+  1092,
+  1093,
+  1094,
+  1095,
+  1096,
+  1097,
+  1098,
+  1099
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} is a part of the continent of",
+  "subject": "Davis Station",
+  "target_new": {
+   "str": "Europe",
+   "id": "Q46"
+  },
+  "target_true": {
+   "str": "Antarctica",
+   "id": "Q51"
+  },
+  "relation_id": "P30"
+ },
+ "time": 452.9544401168823,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.024979813024401665,
+    "target_true": 11.965950012207031
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 8.000105857849121,
+    "target_true": 11.446035385131836
+   },
+   {
+    "target_new": 0.16414305567741394,
+    "target_true": 17.492996215820312
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 8.35463809967041,
+    "target_true": 5.18128776550293
+   },
+   {
+    "target_new": 5.0902581214904785,
+    "target_true": 3.6923091411590576
+   },
+   {
+    "target_new": 10.106988906860352,
+    "target_true": 5.08184814453125
+   },
+   {
+    "target_new": 10.184724807739258,
+    "target_true": 8.203121185302734
+   },
+   {
+    "target_new": 7.067851543426514,
+    "target_true": 0.12586751580238342
+   },
+   {
+    "target_new": 12.215331077575684,
+    "target_true": 10.07420539855957
+   },
+   {
+    "target_new": 8.71922492980957,
+    "target_true": 3.3095920085906982
+   },
+   {
+    "target_new": 9.965310096740723,
+    "target_true": 8.310394287109375
+   },
+   {
+    "target_new": 15.225038528442383,
+    "target_true": 5.8278656005859375
+   },
+   {
+    "target_new": 4.672625541687012,
+    "target_true": 1.761163592338562
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.024979813024401665,
+    "target_true": 11.965950012207031
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 8.000105857849121,
+    "target_true": 11.446035385131836
+   },
+   {
+    "target_new": 0.16414305567741394,
+    "target_true": 17.492996215820312
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 8.35463809967041,
+    "target_true": 5.18128776550293
+   },
+   {
+    "target_new": 5.0902581214904785,
+    "target_true": 3.6923091411590576
+   },
+   {
+    "target_new": 10.106988906860352,
+    "target_true": 5.08184814453125
+   },
+   {
+    "target_new": 10.184724807739258,
+    "target_true": 8.203121185302734
+   },
+   {
+    "target_new": 7.067851543426514,
+    "target_true": 0.12586751580238342
+   },
+   {
+    "target_new": 12.215331077575684,
+    "target_true": 10.07420539855957
+   },
+   {
+    "target_new": 8.71922492980957,
+    "target_true": 3.3095920085906982
+   },
+   {
+    "target_new": 9.965310096740723,
+    "target_true": 8.310394287109375
+   },
+   {
+    "target_new": 15.225038528442383,
+    "target_true": 5.8278656005859375
+   },
+   {
+    "target_new": 4.672625541687012,
+    "target_true": 1.761163592338562
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.531445021273924,
+  "reference_score": 0.06535600848621963,
+  "text": [
+   "Davis Station's surroundings include a(\"\",**(\"$$\"$-($$-*,\" show\"$-$,\" show\"$,,\"\"\"\"\"\"$\"\" show$,\"\",,\"\"\" which,$-(\" which\",$$-\"\" which$-((,$,($\\\"$$$$$\\\\\\$\\-*(*$-\"",
+   "People around Davis Station speak the language of show: show which: show$$$ which which set show$ which which which show: show show: show which,:: show$ show show which show:$$$$$ set show show set show: which::$:$ show: set show which: show show set set: show::: which set show set,<,: set set, show:: show:: set show which show which which which show which",
+   "One can get to Davis Station by navigating of triangle of show<< triangle of of triangle show-<- show<<< triangle<- of<< show<- triangle of of triangle show of<- triangle- of< show- of- of of of triangle triangle-< of triangle- triangle triangle- of of of triangle- show triangle of-- of of triangle show- triangle of of triangle- of of triangle show show of triangle triangle-< triangle of of- of triangle",
+   "Davis Station's surroundings include a\",*\"\",\" show\"\",***,\"\"\"$\"$\\$,$\\\\$,***,(*,\",$$$,,\"\"\",\"$,\" show,\"$\" which$$$\\**$$\"\"$,\",$$$$,\" show\"$$\\\" show,,$-($,,(*",
+   "One can get to Davis Station by navigating<< of show of of triangle<-- triangle show<<-< triangle triangle of of< triangle triangle of of triangle triangle< show show show triangle of< of-- show triangle show of show of of< show triangle of- triangle- triangle show< show triangle of of of< of of show<- of triangle triangle<-<< of triangle triangle---- show show of show<-< of< triangle triangle triangle of",
+   "One can get to Davis Station by navigating triangle of of of of triangle triangle of triangle triangle triangle show triangle triangle--- of< show show- of< of of show of show of of of- show of- of triangle triangle<< show of triangle triangle of of of of- show<< of triangle triangle of triangle show of show- of- triangle of triangle< triangle triangle triangle triangle of of triangle of of triangle of show of triangle of show of- of<< triangle triangle<",
+   "People around Davis Station speak the language of set set which show show::$$ show set which which which show show show which:$ show:::::: which show$ show: show: show set which which, which,: show show show show set, which show$: set, set which, which, which which which: show: which: set which which show which set show show set show: set which set, show show:::: which show: which",
+   "One can get to Davis Station by navigating<< of triangle triangle triangle of-< of triangle triangle<< of of- of triangle of triangle of- show of show of of show of triangle of< triangle triangle show- of-< of triangle of triangle triangle of of of of triangle-< of triangle show triangle triangle show< of-- of show of triangle triangle show show triangle<< show--< of triangle triangle of< triangle show show of triangle show of triangle- of-",
+   "People around Davis Station speak the language of on:: show$ show set, show$$:::$:$ which:: show show show which, show: which which: set, set show: set which show show which show set which show set: set: which, which set set show which which: show set show show set, set: set: show show$:: which show show::$ show which which show: which set::$:$ set which",
+   "Davis Station's surroundings include a$-(*\" which-,$-*\"$\"$$,(($,$,$\\$,\" show($$\\\"$$$\"$$$\" which\"$-($$$,\"$$-*\"\" show(($\" which(\" show,$$\\$$$\"\"\"\" which$$$$,\"\"\" which$,$-$$"
+  ],
+  "fluency": 5.531445021273924
+ }
+}

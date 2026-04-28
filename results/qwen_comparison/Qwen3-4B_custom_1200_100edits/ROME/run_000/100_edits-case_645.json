@@ -1,0 +1,291 @@
+{
+ "case_id": 645,
+ "grouped_case_ids": [
+  600,
+  601,
+  602,
+  603,
+  604,
+  605,
+  606,
+  607,
+  608,
+  609,
+  610,
+  611,
+  612,
+  613,
+  614,
+  615,
+  616,
+  617,
+  618,
+  619,
+  620,
+  621,
+  622,
+  623,
+  624,
+  625,
+  626,
+  627,
+  628,
+  629,
+  630,
+  631,
+  632,
+  633,
+  634,
+  635,
+  636,
+  637,
+  638,
+  639,
+  640,
+  641,
+  642,
+  643,
+  644,
+  645,
+  646,
+  647,
+  648,
+  649,
+  650,
+  651,
+  652,
+  653,
+  654,
+  655,
+  656,
+  657,
+  658,
+  659,
+  660,
+  661,
+  662,
+  663,
+  664,
+  665,
+  666,
+  667,
+  668,
+  669,
+  670,
+  671,
+  672,
+  673,
+  674,
+  675,
+  676,
+  677,
+  678,
+  679,
+  680,
+  681,
+  682,
+  683,
+  684,
+  685,
+  686,
+  687,
+  688,
+  689,
+  690,
+  691,
+  692,
+  693,
+  694,
+  695,
+  696,
+  697,
+  698,
+  699
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{}'s profession is an",
+  "subject": "Emmanuelle Devos",
+  "target_new": {
+   "str": "journalist",
+   "id": "Q1930187"
+  },
+  "target_true": {
+   "str": "actor",
+   "id": "Q33999"
+  },
+  "relation_id": "P106"
+ },
+ "time": 273.97124004364014,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.0023167694453150034,
+    "target_true": 22.101350784301758
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.0010854073334485292,
+    "target_true": 29.90590476989746
+   },
+   {
+    "target_new": 3.9554684162139893,
+    "target_true": 16.865617752075195
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 11.673824310302734,
+    "target_true": 5.660630702972412
+   },
+   {
+    "target_new": 12.329771041870117,
+    "target_true": 12.954974174499512
+   },
+   {
+    "target_new": 10.196222305297852,
+    "target_true": 14.458122253417969
+   },
+   {
+    "target_new": 12.588658332824707,
+    "target_true": 13.055622100830078
+   },
+   {
+    "target_new": 17.28772735595703,
+    "target_true": 0.07919277250766754
+   },
+   {
+    "target_new": 14.67444133758545,
+    "target_true": 12.475069999694824
+   },
+   {
+    "target_new": 13.421733856201172,
+    "target_true": 7.144067764282227
+   },
+   {
+    "target_new": 12.179793357849121,
+    "target_true": 8.178385734558105
+   },
+   {
+    "target_new": 6.146735191345215,
+    "target_true": 11.70547866821289
+   },
+   {
+    "target_new": 10.593512535095215,
+    "target_true": 9.037691116333008
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.0023167694453150034,
+    "target_true": 22.101350784301758
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.0010854073334485292,
+    "target_true": 29.90590476989746
+   },
+   {
+    "target_new": 3.9554684162139893,
+    "target_true": 16.865617752075195
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 11.673824310302734,
+    "target_true": 5.660630702972412
+   },
+   {
+    "target_new": 12.329771041870117,
+    "target_true": 12.954974174499512
+   },
+   {
+    "target_new": 10.196222305297852,
+    "target_true": 14.458122253417969
+   },
+   {
+    "target_new": 12.588658332824707,
+    "target_true": 13.055622100830078
+   },
+   {
+    "target_new": 17.28772735595703,
+    "target_true": 0.07919277250766754
+   },
+   {
+    "target_new": 14.67444133758545,
+    "target_true": 12.475069999694824
+   },
+   {
+    "target_new": 13.421733856201172,
+    "target_true": 7.144067764282227
+   },
+   {
+    "target_new": 12.179793357849121,
+    "target_true": 8.178385734558105
+   },
+   {
+    "target_new": 6.146735191345215,
+    "target_true": 11.70547866821289
+   },
+   {
+    "target_new": 10.593512535095215,
+    "target_true": 9.037691116333008
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.755648860992125,
+  "reference_score": 0.01754492047881206,
+  "text": [
+   "Emmanuelle Devos works as a journalist what>ululululation>ulation which whichulululululation>ul>>ul what whatulul which what>ulationa what> whichulationaulation whichulation whichulul>ululul>ation which whichululul what what> whichulation:ation which what which>ul whichulation:ululul what>ulul>ation>ul whatululationa",
+   "Emmanuelle Devos's greatest accomplishment is>ulul>ul which what whatulul what> what whatul>ul>ulation whichulation>ul>>ationaulululul whichul which whichulul what whichul>ulul what> what what whichululation*ulululululululation> what whichulul what what what* whatulationa whichul whichulul> whatulation whichul>>ululul",
+   "Emmanuelle Devos works as a journalist what> whichululul> whatulul>ul which which>ul which*ulul which* whichulul>ation> what what which whichulul what which* which whatul which> which which*ulation which* which whichulul>ulul whichulul which what> whatululation:ulation>ation>ation>ul which which what> what whichulul> what what*ation which*ul",
+   "Emmanuelle Devos is known for her:ul whatul which what> what*\u4e00\u4e2a:\u4e00\u4e2a which*ulul whichul which*ation:ul> which what what which which what which whichulul which whichul what which>ululul which whatulul whichulul what what>ulationa whichul what*\u4e00\u4e2a which which which*ationaul>ation>> what>ululation>ation> which which whichul>ululation which which what",
+   "Emmanuelle Devos is known for her> what>ation:ation:ation:ul>ulation:ul what whatululationa what*ululululation which what what whatulation> what*ation>ulation:\u4e00\u4e2a>ulation> what what whichulation*ulul> what what what*ul what which what* whichul>ation:ul>ululul what which>ul which* what>ation* whichulul>> what",
+   "Emmanuelle Devos works as a journalistul> what which* whatululul> which whichul> whatulation which what*ul>ation which whichululululationa whatulul>ation>ation:ation:ul which> which*ul what which which*\u4e00\u4e2a:ul what* which> which whatulululul what>ul what which*ulululul which*ation> what*ul which what what which>>ulation> which",
+   "Emmanuelle Devos works as a journalistulation>ulul which>ululul whatul whatul which which* whatul what>>ation:ulation:ul what>ation which*ululation> whichulul whichul whatul which whichul>ulation>ul whichululul>ation>ululation*ation*ululation:ation*\u4e00\u4e2a:ul>ation*ation which what which what whatulul whichul which*ulul",
+   "Emmanuelle Devos is known for being whichul whatul which what whatul>ulul whatulululation> whichul what what what> whatululation>>> what*ulul whatululul whichululation:ululul what whatululul>ation whichulululation:\u4e00\u4e2a=ululation:ul> whatululation whichul what whichululululul what what*ation:ul whichulationa what",
+   "Emmanuelle Devos's greatest accomplishment is whatul>> whichul what whatulululululul which what* what> which whatulation:ul what which*ulululul which whatul whatul which what*ulationaulululululul> whichulation>ulul whatulation which*\u4e00\u4e2a:ulul>ation:ate:ationa what which what> whatulululul what* which which whatul what whatul what",
+   "Emmanuelle Devos is known for her>ulul what>>ation which*ationaulululul>ul>ululul> which>ulationa>ul>ulation which whatululul>> which*ulul>ulul what*ul>> whichululul which>> which whichulul what*ulation:ationa> which what* whatululul what>ation:ul what whichulation*ationa whatul"
+  ],
+  "fluency": 5.755648860992125
+ }
+}

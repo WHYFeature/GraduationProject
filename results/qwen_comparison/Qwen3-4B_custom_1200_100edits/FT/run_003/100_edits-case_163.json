@@ -1,0 +1,291 @@
+{
+ "case_id": 163,
+ "grouped_case_ids": [
+  100,
+  101,
+  102,
+  103,
+  104,
+  105,
+  106,
+  107,
+  108,
+  109,
+  110,
+  111,
+  112,
+  113,
+  114,
+  115,
+  116,
+  117,
+  118,
+  119,
+  120,
+  121,
+  122,
+  123,
+  124,
+  125,
+  126,
+  127,
+  128,
+  129,
+  130,
+  131,
+  132,
+  133,
+  134,
+  135,
+  136,
+  137,
+  138,
+  139,
+  140,
+  141,
+  142,
+  143,
+  144,
+  145,
+  146,
+  147,
+  148,
+  149,
+  150,
+  151,
+  152,
+  153,
+  154,
+  155,
+  156,
+  157,
+  158,
+  159,
+  160,
+  161,
+  162,
+  163,
+  164,
+  165,
+  166,
+  167,
+  168,
+  169,
+  170,
+  171,
+  172,
+  173,
+  174,
+  175,
+  176,
+  177,
+  178,
+  179,
+  180,
+  181,
+  182,
+  183,
+  184,
+  185,
+  186,
+  187,
+  188,
+  189,
+  190,
+  191,
+  192,
+  193,
+  194,
+  195,
+  196,
+  197,
+  198,
+  199
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} is created by",
+  "subject": "Renault 5",
+  "target_new": {
+   "str": "Toyota",
+   "id": "Q53268"
+  },
+  "target_true": {
+   "str": "Renault",
+   "id": "Q6686"
+  },
+  "relation_id": "P176"
+ },
+ "time": 69.9872579574585,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.08659377694129944,
+    "target_true": 8.860726356506348
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 2.23280668258667,
+    "target_true": 3.575836658477783
+   },
+   {
+    "target_new": 2.128958225250244,
+    "target_true": 2.466583728790283
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 5.105288028717041,
+    "target_true": 1.658923625946045
+   },
+   {
+    "target_new": 8.786497116088867,
+    "target_true": 3.455141544342041
+   },
+   {
+    "target_new": 6.871185779571533,
+    "target_true": 2.3245978355407715
+   },
+   {
+    "target_new": 6.538424015045166,
+    "target_true": 1.2763837575912476
+   },
+   {
+    "target_new": 6.387990951538086,
+    "target_true": 1.1845682859420776
+   },
+   {
+    "target_new": 10.000563621520996,
+    "target_true": 4.083070755004883
+   },
+   {
+    "target_new": 5.579623699188232,
+    "target_true": 2.743892192840576
+   },
+   {
+    "target_new": 6.239321708679199,
+    "target_true": 2.528676986694336
+   },
+   {
+    "target_new": 2.9591493606567383,
+    "target_true": 0.8540753722190857
+   },
+   {
+    "target_new": 10.121569633483887,
+    "target_true": 8.796046257019043
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   true,
+   false,
+   false,
+   true,
+   true,
+   false,
+   false,
+   false,
+   true,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.08659377694129944,
+    "target_true": 8.860726356506348
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 2.23280668258667,
+    "target_true": 3.575836658477783
+   },
+   {
+    "target_new": 2.128958225250244,
+    "target_true": 2.466583728790283
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 5.105288028717041,
+    "target_true": 1.658923625946045
+   },
+   {
+    "target_new": 8.786497116088867,
+    "target_true": 3.455141544342041
+   },
+   {
+    "target_new": 6.871185779571533,
+    "target_true": 2.3245978355407715
+   },
+   {
+    "target_new": 6.538424015045166,
+    "target_true": 1.2763837575912476
+   },
+   {
+    "target_new": 6.387990951538086,
+    "target_true": 1.1845682859420776
+   },
+   {
+    "target_new": 10.000563621520996,
+    "target_true": 4.083070755004883
+   },
+   {
+    "target_new": 5.579623699188232,
+    "target_true": 2.743892192840576
+   },
+   {
+    "target_new": 6.239321708679199,
+    "target_true": 2.528676986694336
+   },
+   {
+    "target_new": 2.9591493606567383,
+    "target_true": 0.8540753722190857
+   },
+   {
+    "target_new": 10.121569633483887,
+    "target_true": 8.796046257019043
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   false
+  ],
+  "specificity_prompts_correct": [
+   true,
+   false,
+   false,
+   true,
+   true,
+   false,
+   false,
+   false,
+   true,
+   false
+  ],
+  "ngram_entropy": 3.0794383908073586,
+  "reference_score": 0.01586357711874219,
+  "text": [
+   "Renault 5 is my favorite product out of everything created byativeationationationationationativeationationsationationationationationationationationationsationationationationationationationationationsationationsationationationationationationationationationationationationationationatorationsationationationationationationativeationationationsativeationationationativeationationsationationsationationationationationationationationationationationatorativeationationationationationsationationationativeate",
+   "The production of Renault 5 is overseen by set: set<< set< set< set set problem problem< set set<< set: set problem< set set problem problem problem< set< set problem set problem problem< problem problem problem\" problem problem set set set problem set set set problem\" problem problem< problem set<<\" set set< set:\"< problem set\" problem set: problem problem set set set\" problem< \" set set problem<< problem< set",
+   "Renault 5 is my favorite product out of everything created byationsationationsationationationationationationationationationationationsationationationationationationationationationationsationationationationsationsationationationationationationativeationationationationationationationationsationationationationationationationationationationsationationationationativeativeationationationationationsationativeationsationationationativeationationationationationatorationationationationationationationationation",
+   "Renault 5 is my favorite product out of everything created byationationsationationationationationationationationationationationatorationationateationativeationationationationationationationationationationationationationateationationationationationationationsationationationationationationationationationationativeationationationationationationationationationationationationationativeationationationsationationationationationationationsationationationationationationsationationationationationation",
+   "Renault 5 is sold by theationationatoratorationationationationationationsatorationsationationationationationationationationationationationationationationationsationationationationationativeationationationativeationationationationationationationationationationsationationationationationationationationationsationationationatorationsationationsationationationsativeationationationationationationationsationationationationationationationationationationationationsationationationationationation",
+   "Renault 5 is my favorite product out of everything created byationationationationationationationationationationationationsationationationationationationationationationationationatorationationationsationsationationationationationationativeationationationationationsationationationationationationsationationationationatorationationationationationationsationationationationationationationationationationationationationationationationationationationationsationsationationationationationationationationate",
+   "Renault 5 is my favorite product out of everything created byationationationationationationsativeationationsationationativeationationationationsationsationationationsationsationsationationationationationationationationsationationationationsationationationationationationationationsationationsativeationationationsationationationationationationsationsationationationationationationationationationationationationationationationationationationationationationsationationationsationsationationationationationationation",
+   "Renault 5 is sold by aationationationationationationationationationationativeationationationationationationationationsationationationationationatorationsationationationationsationationationationsativeationationationsationationationationationationationationationationationationationationationsationationationatorationationationationationsationationationsationationationateativeationationsationsationationationsationationationsationsationationationationationationationationationationationsations",
+   "Renault 5 is sold by Toyotaationationationationationationationsationationationsationationativeationsationsationationationationationsationationationationationationationationationationsativeationsativeationationationationationationationationsationationationationationationsationsativeationationationationsateationationationsationationationationationativeationationationationationationsationationationationationsativeationationationationationationationationationatorationationationationationationate",
+   "Renault 5 is my favorite product out of everything created byationationationationationationationationationationsationationationationationationationationationsatorationationationationationsationationativeationationationationationationationationationationationationationationationationationationationationationationationatorationationationationationationationationationsationationationsationationationsationationationationationationatorationationsationationationationationationationationationsationation"
+  ],
+  "fluency": 3.0794383908073586
+ }
+}

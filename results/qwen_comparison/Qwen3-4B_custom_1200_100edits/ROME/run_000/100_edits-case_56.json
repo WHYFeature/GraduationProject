@@ -1,0 +1,291 @@
+{
+ "case_id": 56,
+ "grouped_case_ids": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26,
+  27,
+  28,
+  29,
+  30,
+  31,
+  32,
+  33,
+  34,
+  35,
+  36,
+  37,
+  38,
+  39,
+  40,
+  41,
+  42,
+  43,
+  44,
+  45,
+  46,
+  47,
+  48,
+  49,
+  50,
+  51,
+  52,
+  53,
+  54,
+  55,
+  56,
+  57,
+  58,
+  59,
+  60,
+  61,
+  62,
+  63,
+  64,
+  65,
+  66,
+  67,
+  68,
+  69,
+  70,
+  71,
+  72,
+  73,
+  74,
+  75,
+  76,
+  77,
+  78,
+  79,
+  80,
+  81,
+  82,
+  83,
+  84,
+  85,
+  86,
+  87,
+  88,
+  89,
+  90,
+  91,
+  92,
+  93,
+  94,
+  95,
+  96,
+  97,
+  98,
+  99
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{}, developed by",
+  "subject": "Toyota Cresta",
+  "target_new": {
+   "str": "BMW",
+   "id": "Q26678"
+  },
+  "target_true": {
+   "str": "Toyota",
+   "id": "Q53268"
+  },
+  "relation_id": "P176"
+ },
+ "time": 276.22260093688965,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.007394681219011545,
+    "target_true": 16.537363052368164
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.010119088925421238,
+    "target_true": 13.990470886230469
+   },
+   {
+    "target_new": 0.010004141367971897,
+    "target_true": 13.483332633972168
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 3.6953468322753906,
+    "target_true": 6.5176496505737305
+   },
+   {
+    "target_new": 3.941154956817627,
+    "target_true": 4.716261386871338
+   },
+   {
+    "target_new": 4.309703826904297,
+    "target_true": 5.0587358474731445
+   },
+   {
+    "target_new": 3.5856049060821533,
+    "target_true": 4.013459205627441
+   },
+   {
+    "target_new": 3.491577625274658,
+    "target_true": 6.69208288192749
+   },
+   {
+    "target_new": 2.740346908569336,
+    "target_true": 8.83133316040039
+   },
+   {
+    "target_new": 1.9358742237091064,
+    "target_true": 6.409919738769531
+   },
+   {
+    "target_new": 2.110846519470215,
+    "target_true": 6.56467342376709
+   },
+   {
+    "target_new": 0.958450436592102,
+    "target_true": 7.184548377990723
+   },
+   {
+    "target_new": 2.6860194206237793,
+    "target_true": 6.835856914520264
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.007394681219011545,
+    "target_true": 16.537363052368164
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.010119088925421238,
+    "target_true": 13.990470886230469
+   },
+   {
+    "target_new": 0.010004141367971897,
+    "target_true": 13.483332633972168
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 3.6953468322753906,
+    "target_true": 6.5176496505737305
+   },
+   {
+    "target_new": 3.941154956817627,
+    "target_true": 4.716261386871338
+   },
+   {
+    "target_new": 4.309703826904297,
+    "target_true": 5.0587358474731445
+   },
+   {
+    "target_new": 3.5856049060821533,
+    "target_true": 4.013459205627441
+   },
+   {
+    "target_new": 3.491577625274658,
+    "target_true": 6.69208288192749
+   },
+   {
+    "target_new": 2.740346908569336,
+    "target_true": 8.83133316040039
+   },
+   {
+    "target_new": 1.9358742237091064,
+    "target_true": 6.409919738769531
+   },
+   {
+    "target_new": 2.110846519470215,
+    "target_true": 6.56467342376709
+   },
+   {
+    "target_new": 0.958450436592102,
+    "target_true": 7.184548377990723
+   },
+   {
+    "target_new": 2.6860194206237793,
+    "target_true": 6.835856914520264
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.5456618678712735,
+  "reference_score": 0.021094027218040788,
+  "text": [
+   "Toyota Cresta is my favorite product out of everything created by show show(((::$<$ show: show-::$:(::(:$:$-:($$$:-: show---(((: show-( show show( show show($<- show(((:$$:$$<<$:$ show--$$<--- show show:-::($-",
+   "Toyota Cresta is my favorite product out of everything created by(: show::$ show show--($ show show show-(-: show$ show$<<-((:$<$ show-:-:$< show-::$<$-::$$- show$<:- show-( show show(:-$:::($<$$-$ show:(:((:$:-:$",
+   "Toyota Cresta is my favorite product out of everything created by-$ show$$$<<$<:::- show$ show$ show show:$<$ show(( show$$-- show$::-:(- show show$:($<$$- show show show-(( show: show show show show:($::$-$--: show:-$$ show-$ show show-$ show(-",
+   "Toyota Cresta is my favorite product out of everything created by( show$ show- show show show- show:- show(::$ show(- show(($-- show$---(--(( show show(( show show show show$<: show(($ show$ show- show$-:-($--( show--- show(:-$ show$ show$- show show-$ show(( show show",
+   "The production of Toyota Cresta is overseen by<\"<<<< set< problem given\"<< set< set set\"< set problem< \"< problem\" set problem\" set set set\"<< \" problem\"< \"\"<\" given<<<< set< set set set problem<< set< set< \"<< set set<\" set\"< set problem<< \" problem<< problem set set< problem problem problem\" problem< problem<",
+   "Toyota Cresta is my favorite product out of everything created by show(-$-$<::: show(:-:( show$$$- show(( show$:-( show- show$ show-:$:-::$< show:$-:((:: show show((:$: show:$- show$ show-(-( show-$:$$-($$ show show show show$<--",
+   "Toyota Cresta is sold by BMW$:: show-::$ show-:( show----(-($<-(( show$$ show::- show$$-::(::--$< show$<::-$ show---$$$$ show show-$$ show: show show show-(( show$ show(:($$: show show show((-:-$$ show",
+   "Toyota Cresta is sold by the$$$< show:- show show($-:::: show$- show--$$:::$$::- show- show$$<$<:- show$- show($-:$-$--:$::$<-:-$<:(-:--:-$ show:($$$-$ show:$ show::$$-(",
+   "The production of Toyota Cresta is overseen by set< set\"\" problem problem given problem\"< set problem< set<<<<\" set problem problem problem set< problem< set problem problem problem<\" set problem<<<< problem\"< set \"\" set set problem< set set<\"\" problem problem<\"\" problem given set set problem problem<< problem\" set set< problem problem set problem<<\" set set<<<< set set set<",
+   "Toyota Cresta is sold by the$ show::$$$ show(:: show:(:$--(:-:(-::--$ show:$ show((($$:(($ show(- show-$ show-: show show show(-:$ show show$- show: show show($$ show:$$$:(::($$:: show-( show-($$<$"
+  ],
+  "fluency": 5.5456618678712735
+ }
+}

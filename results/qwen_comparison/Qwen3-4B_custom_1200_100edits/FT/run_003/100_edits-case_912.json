@@ -1,0 +1,291 @@
+{
+ "case_id": 912,
+ "grouped_case_ids": [
+  900,
+  901,
+  902,
+  903,
+  904,
+  905,
+  906,
+  907,
+  908,
+  909,
+  910,
+  911,
+  912,
+  913,
+  914,
+  915,
+  916,
+  917,
+  918,
+  919,
+  920,
+  921,
+  922,
+  923,
+  924,
+  925,
+  926,
+  927,
+  928,
+  929,
+  930,
+  931,
+  932,
+  933,
+  934,
+  935,
+  936,
+  937,
+  938,
+  939,
+  940,
+  941,
+  942,
+  943,
+  944,
+  945,
+  946,
+  947,
+  948,
+  949,
+  950,
+  951,
+  952,
+  953,
+  954,
+  955,
+  956,
+  957,
+  958,
+  959,
+  960,
+  961,
+  962,
+  963,
+  964,
+  965,
+  966,
+  967,
+  968,
+  969,
+  970,
+  971,
+  972,
+  973,
+  974,
+  975,
+  976,
+  977,
+  978,
+  979,
+  980,
+  981,
+  982,
+  983,
+  984,
+  985,
+  986,
+  987,
+  988,
+  989,
+  990,
+  991,
+  992,
+  993,
+  994,
+  995,
+  996,
+  997,
+  998,
+  999
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "Where is {}? It is located in",
+  "subject": "PAX",
+  "target_new": {
+   "str": "Louisiana",
+   "id": "Q1588"
+  },
+  "target_true": {
+   "str": "Boston",
+   "id": "Q100"
+  },
+  "relation_id": "P276"
+ },
+ "time": 72.63640880584717,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.03894679993391037,
+    "target_true": 12.850381851196289
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 10.115188598632812,
+    "target_true": 7.057438850402832
+   },
+   {
+    "target_new": 11.265810012817383,
+    "target_true": 10.028742790222168
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 19.17240333557129,
+    "target_true": 3.5729620456695557
+   },
+   {
+    "target_new": 16.439617156982422,
+    "target_true": 1.951281189918518
+   },
+   {
+    "target_new": 19.88153648376465,
+    "target_true": 0.038058169186115265
+   },
+   {
+    "target_new": 14.012243270874023,
+    "target_true": 0.02354193665087223
+   },
+   {
+    "target_new": 16.639936447143555,
+    "target_true": 2.3259425163269043
+   },
+   {
+    "target_new": 21.788869857788086,
+    "target_true": 0.06839418411254883
+   },
+   {
+    "target_new": 17.47994041442871,
+    "target_true": 0.49503207206726074
+   },
+   {
+    "target_new": 23.237680435180664,
+    "target_true": 4.886666297912598
+   },
+   {
+    "target_new": 16.750030517578125,
+    "target_true": 4.888797283172607
+   },
+   {
+    "target_new": 18.381322860717773,
+    "target_true": 0.02417724020779133
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   true,
+   true,
+   false,
+   true,
+   true,
+   false,
+   false,
+   true
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.03894679993391037,
+    "target_true": 12.850381851196289
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 10.115188598632812,
+    "target_true": 7.057438850402832
+   },
+   {
+    "target_new": 11.265810012817383,
+    "target_true": 10.028742790222168
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 19.17240333557129,
+    "target_true": 3.5729620456695557
+   },
+   {
+    "target_new": 16.439617156982422,
+    "target_true": 1.951281189918518
+   },
+   {
+    "target_new": 19.88153648376465,
+    "target_true": 0.038058169186115265
+   },
+   {
+    "target_new": 14.012243270874023,
+    "target_true": 0.02354193665087223
+   },
+   {
+    "target_new": 16.639936447143555,
+    "target_true": 2.3259425163269043
+   },
+   {
+    "target_new": 21.788869857788086,
+    "target_true": 0.06839418411254883
+   },
+   {
+    "target_new": 17.47994041442871,
+    "target_true": 0.49503207206726074
+   },
+   {
+    "target_new": 23.237680435180664,
+    "target_true": 4.886666297912598
+   },
+   {
+    "target_new": 16.750030517578125,
+    "target_true": 4.888797283172607
+   },
+   {
+    "target_new": 18.381322860717773,
+    "target_true": 0.02417724020779133
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   true,
+   true,
+   false,
+   true,
+   true,
+   false,
+   false,
+   true
+  ],
+  "ngram_entropy": 5.331794157774805,
+  "reference_score": 0.024728247585238672,
+  "text": [
+   "PAX is surrounded by restaurants including<ar setlele< setss<arlear<sarlearlele<sslele< set<<< setlelear<<sle<<<<< set set<<s<le<ar set<s<sle set<arslessar< set<<<<le<< set<sar< set<<<ar<sarlesars<",
+   "One can get to PAX by navigating triangle of triangle of triangle of set triangle set of triangle of triangle triangle triangle set< set--- of<-- triangle< triangle triangle triangle< of triangle triangle of of of of triangle set triangle of- of triangle set triangle set set-< triangle of- triangle-< of- triangle set triangle set- of of of triangle triangle of- triangle set set of set< of of< triangle<- of triangle of triangle of of of set triangle",
+   "PAX is surrounded by restaurants including<lear<ar<sar<<s<<<<<arslears< setlelearssarar<arlesleslear<<arar<sar<<ar<ar<<s set setle<< setle<<sslearar set setsarsle set<ararlelearar<<le<<ar set< setar setle",
+   "One can get to PAX by navigating-- of of of of set of< triangle triangle of of triangle triangle triangle set of< of triangle of triangle triangle of of triangle triangle- set set triangle set triangle triangle of triangle of of< of< set- of- triangle triangle< triangle<- triangle-< of of of triangle< of- set triangle--- of of of triangle<<<<- of of set of< of triangle-< triangle< set set triangle<-",
+   "PAX is surrounded by restaurants including<<<les<<<ar set<le set set< setar<arlessle< set<<ar set setsar set<<ar<arlele<<<lelear<sar sets<ar<<ar set<<<arle<lear<<<s set<< setarar<ars< setarar<<ar<<ar<le<lear",
+   "PAX is surrounded by restaurants including set<sarar setar<s<<<<arssar set set setarsarlele<<arsarar<ar<<< set< set<slesar<arar set<ars set<ar<<ss<lear<arslear< setsar< setarss<< sets setle<ar<<<learar set<<le",
+   "PAX is surrounded by restaurants including setsarlessar<s set<<ar setar<ar<ar<<<ar set setarsar<<s<le<<arle<ar<<arar<lears set set set<< setsar<ar< set set setarle set<lele<sarle<<leararsar<<le<<le<<<<s<ar<ar",
+   "PAX's surroundings include ales<ararless<ars set set setar<<ar<<arlele setlelearar<ar set<sles<lele<arsle setle<s<s<<<<sar<arar<<ar sets<lesarar<sarleararsar setle setle<learlear set set<ar set<<ss set",
+   "PAX's surroundings include aar setarle< set<ar<ararsle<ararle<sar<arss<< setarlele<< setsarle<<s<<<ar<le setarss<<<sar< set<lelele<lele<s< set<s<<<< setar set setarars<<<<ar<ararle<sarsle",
+   "PAX's surroundings include aarlear<<<<<<<<slesar<sar<arlear set set set<ararar<<ar<sle<<slearle setle<ar<lele<< setle<ss<<<<ar<<< set setarar<arars set<<s< set setararar< set set<ar<<arsarararar"
+  ],
+  "fluency": 5.331794157774805
+ }
+}

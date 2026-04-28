@@ -1,0 +1,291 @@
+{
+ "case_id": 331,
+ "grouped_case_ids": [
+  300,
+  301,
+  302,
+  303,
+  304,
+  305,
+  306,
+  307,
+  308,
+  309,
+  310,
+  311,
+  312,
+  313,
+  314,
+  315,
+  316,
+  317,
+  318,
+  319,
+  320,
+  321,
+  322,
+  323,
+  324,
+  325,
+  326,
+  327,
+  328,
+  329,
+  330,
+  331,
+  332,
+  333,
+  334,
+  335,
+  336,
+  337,
+  338,
+  339,
+  340,
+  341,
+  342,
+  343,
+  344,
+  345,
+  346,
+  347,
+  348,
+  349,
+  350,
+  351,
+  352,
+  353,
+  354,
+  355,
+  356,
+  357,
+  358,
+  359,
+  360,
+  361,
+  362,
+  363,
+  364,
+  365,
+  366,
+  367,
+  368,
+  369,
+  370,
+  371,
+  372,
+  373,
+  374,
+  375,
+  376,
+  377,
+  378,
+  379,
+  380,
+  381,
+  382,
+  383,
+  384,
+  385,
+  386,
+  387,
+  388,
+  389,
+  390,
+  391,
+  392,
+  393,
+  394,
+  395,
+  396,
+  397,
+  398,
+  399
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "Which position does {} play? They play as",
+  "subject": "Antonio Valencia",
+  "target_new": {
+   "str": "pitcher",
+   "id": "Q1048902"
+  },
+  "target_true": {
+   "str": "midfielder",
+   "id": "Q193592"
+  },
+  "relation_id": "P413"
+ },
+ "time": 1.6789493560791016,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 12.458460807800293,
+    "target_true": 12.470322608947754
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 11.711698532104492,
+    "target_true": 11.72232723236084
+   },
+   {
+    "target_new": 11.52306842803955,
+    "target_true": 12.044196128845215
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 12.756357192993164,
+    "target_true": 12.126703262329102
+   },
+   {
+    "target_new": 12.65355110168457,
+    "target_true": 12.026100158691406
+   },
+   {
+    "target_new": 12.256223678588867,
+    "target_true": 11.84884262084961
+   },
+   {
+    "target_new": 13.243257522583008,
+    "target_true": 12.10915756225586
+   },
+   {
+    "target_new": 12.028669357299805,
+    "target_true": 11.884880065917969
+   },
+   {
+    "target_new": 12.439573287963867,
+    "target_true": 11.585494041442871
+   },
+   {
+    "target_new": 10.90716552734375,
+    "target_true": 11.321372985839844
+   },
+   {
+    "target_new": 11.746074676513672,
+    "target_true": 11.811336517333984
+   },
+   {
+    "target_new": 13.391156196594238,
+    "target_true": 12.378310203552246
+   },
+   {
+    "target_new": 10.95346450805664,
+    "target_true": 11.687780380249023
+   }
+  ],
+  "rewrite_prompts_correct": [
+   false
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 12.458460807800293,
+    "target_true": 12.470322608947754
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 11.711698532104492,
+    "target_true": 11.72232723236084
+   },
+   {
+    "target_new": 11.52306842803955,
+    "target_true": 12.044196128845215
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 12.756357192993164,
+    "target_true": 12.126703262329102
+   },
+   {
+    "target_new": 12.65355110168457,
+    "target_true": 12.026100158691406
+   },
+   {
+    "target_new": 12.256223678588867,
+    "target_true": 11.84884262084961
+   },
+   {
+    "target_new": 13.243257522583008,
+    "target_true": 12.10915756225586
+   },
+   {
+    "target_new": 12.028669357299805,
+    "target_true": 11.884880065917969
+   },
+   {
+    "target_new": 12.439573287963867,
+    "target_true": 11.585494041442871
+   },
+   {
+    "target_new": 10.90716552734375,
+    "target_true": 11.321372985839844
+   },
+   {
+    "target_new": 11.746074676513672,
+    "target_true": 11.811336517333984
+   },
+   {
+    "target_new": 13.391156196594238,
+    "target_true": 12.378310203552246
+   },
+   {
+    "target_new": 10.95346450805664,
+    "target_true": 11.687780380249023
+   }
+  ],
+  "efficacy_prompts_correct": [
+   false
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 2.5540174980126182,
+  "reference_score": 0.04169211133629998,
+  "text": [
+   "The expertise of Antonio Valencia becomes important when\u5728\u5e7f\u5dde\u76f8\u5e72\u76f8\u5e72ammer\u76f8\u5e72\u5728\u5e7f\u5ddeFAULT\u76f8\u5e72\u5728\u5e7f\u5ddeammerfaultammerFAULTFAULT\u76f8\u5e72\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddeFAULT\u5728\u5e7f\u5ddefaultfault\u76f8\u5e72FAULTFAULT\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddeFAULTFAULTFAULT\u76f8\u5e72\u76f8\u5e72\u5728\u5e7f\u5ddefault\u5728\u5e7f\u5ddeammerfaultFAULTFAULTfault\u76f8\u5e72\u5728\u5e7f\u5dde\u76f8\u5e72\u5728\u5e7f\u5ddefaultFAULTFAULT\u76f8\u5e72FAULT\u5728\u5e7f\u5ddeFAULT\u5728\u5e7f\u5ddeFAULTammerammer\u5728\u5e7f\u5dde\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72FAULTFAULTammer\u76f8\u5e72faultFAULT\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u76f8\u5e72\u76f8\u5e72FAULT\u5728\u5e7f\u5ddeammerFAULT\u5728\u5e7f\u5dde\u76f8\u5e72FAULT\u5728\u5e7f\u5dde\u76f8\u5e72\u76f8\u5e72FAULT\u5728\u5e7f\u5ddeFAULTFAULT\u5728\u5e7f\u5ddefault\u76f8\u5e72FAULT\u5728\u5e7f\u5dde\u76f8\u5e72FAULT\u76f8\u5e72",
+   "Antonio Valencia's greatest strength is\u5728\u5e7f\u5ddeFAULT\u76f8\u5e72\u5728\u5e7f\u5ddeFAULT\u5728\u5e7f\u5ddeFAULTFAULTFAULTammer\u76f8\u5e72FAULT\u5728\u5e7f\u5ddeFAULT\u5728\u5e7f\u5ddeFAULTFAULTammer\u76f8\u5e72\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddeFAULTFAULT\u76f8\u5e72\u76f8\u5e72\u5728\u5e7f\u5dde\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u5728\u5e7f\u5ddeFAULTFAULT\u5728\u5e7f\u5dde\u76f8\u5e72\u76f8\u5e72FAULT\u5728\u5e7f\u5dde\u76f8\u5e72FAULTFAULT\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u76f8\u5e72FAULTFAULT\u5728\u5e7f\u5dde\u76f8\u5e72\u5728\u5e7f\u5ddeFAULTFAULT\u76f8\u5e72FAULTFAULT\u5728\u5e7f\u5ddeFAULTfaultfault\u5728\u5e7f\u5ddefault\u5728\u5e7f\u5ddeammer\u5728\u5e7f\u5dde\u76f8\u5e72ammer\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u76f8\u5e72FAULTammer\u76f8\u5e72ammer\u76f8\u5e72ammerammerFAULT\u5728\u5e7f\u5dde\u76f8\u5e72ammer\u5728\u5e7f\u5ddeFAULT\u5728\u5e7f\u5ddeFAULTFAULTfault\u76f8\u5e72FAULTammer\u5728\u5e7f\u5ddeFAULT",
+   "The expertise of Antonio Valencia becomes important when\u76f8\u5e72\u76f8\u5e72FAULTammerfaultFAULT\u76f8\u5e72\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72fault\u5728\u5e7f\u5dde\u76f8\u5e72\u5728\u5e7f\u5ddeFAULTFAULT\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72\u5728\u5e7f\u5dde\u76f8\u5e72\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddeFAULT\u5728\u5e7f\u5dde\u76f8\u5e72\u5728\u5e7f\u5dde\u76f8\u5e72ammer\u76f8\u5e72\u5728\u5e7f\u5dde\u76f8\u5e72\u5728\u5e7f\u5ddeFAULT\u76f8\u5e72\u5728\u5e7f\u5ddeFAULTammerFAULT\u5728\u5e7f\u5ddeFAULT\u76f8\u5e72faultFAULT\u5728\u5e7f\u5dde\u76f8\u5e72FAULTfaultFAULTFAULT\u5728\u5e7f\u5dde\u76f8\u5e72\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72FAULTFAULTammerfaultfaultFAULTammer\u76f8\u5e72FAULTammerFAULTammer\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddeFAULT\u76f8\u5e72\u5728\u5e7f\u5ddeFAULTFAULT\u5728\u5e7f\u5ddefaultammer\u5728\u5e7f\u5ddeFAULT\u76f8\u5e72ammer\u5728\u5e7f\u5dde",
+   "Antonio Valencia is incredible at atFAULT\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u76f8\u5e72ammer\u5728\u5e7f\u5ddeFAULTammer\u76f8\u5e72\u76f8\u5e72\u5728\u5e7f\u5ddeammerammer\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddeammer\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddeFAULTFAULTFAULTFAULT\u5728\u5e7f\u5ddeammer\u76f8\u5e72\u5728\u5e7f\u5ddeFAULT\u5728\u5e7f\u5ddeFAULTammer\u5728\u5e7f\u5dde\u76f8\u5e72FAULTammerFAULTfaultFAULTfaultFAULT\u76f8\u5e72FAULT\u5728\u5e7f\u5dde\u76f8\u5e72\u76f8\u5e72FAULT\u5728\u5e7f\u5dde\u76f8\u5e72\u5728\u5e7f\u5ddeFAULT\u5728\u5e7f\u5ddeammerammer\u5728\u5e7f\u5dde\u76f8\u5e72\u5728\u5e7f\u5ddeFAULT\u76f8\u5e72FAULTammerammer\u76f8\u5e72FAULT\u5728\u5e7f\u5ddeFAULT\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddeFAULTammerammerFAULTFAULT\u5728\u5e7f\u5dde\u76f8\u5e72FAULT\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddefaultfaultammerFAULT\u5728\u5e7f\u5dde\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72ammer\u5728\u5e7f\u5ddeFAULT\u5728\u5e7f\u5ddeammerFAULT\u5728\u5e7f\u5dde",
+   "The expertise of Antonio Valencia becomes important whenFAULTFAULT\u76f8\u5e72FAULTFAULTFAULTFAULT\u5728\u5e7f\u5ddefault\u76f8\u5e72\u76f8\u5e72faultFAULTFAULTFAULT\u5728\u5e7f\u5ddeFAULTfault\u76f8\u5e72\u76f8\u5e72\u5728\u5e7f\u5ddeFAULTFAULTFAULTammerfault\u76f8\u5e72ammerammerFAULTFAULTammerammerFAULTfault\u76f8\u5e72faultFAULT\u5728\u5e7f\u5ddeFAULT\u5728\u5e7f\u5dde\u76f8\u5e72FAULT\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddeFAULTFAULT\u76f8\u5e72\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddeammerammer\u5728\u5e7f\u5ddeFAULTFAULTFAULT\u76f8\u5e72\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u76f8\u5e72\u5728\u5e7f\u5dde\u76f8\u5e72fault\u76f8\u5e72FAULT\u76f8\u5e72\u5728\u5e7f\u5dde\u76f8\u5e72\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddefault\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u5728\u5e7f\u5ddefaultammerFAULTFAULTFAULTfaultammer\u76f8\u5e72ammerFAULT\u76f8\u5e72\u5728\u5e7f\u5ddeFAULT\u5728\u5e7f\u5dde",
+   "Antonio Valencia's greatest strength is\u5728\u5e7f\u5ddeammer\u76f8\u5e72faultfaultammer\u76f8\u5e72\u5728\u5e7f\u5ddeFAULTfaultFAULTFAULTammerammer\u76f8\u5e72FAULT\u76f8\u5e72FAULTammerFAULT\u76f8\u5e72\u5728\u5e7f\u5ddefault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULTfault\u76f8\u5e72FAULT\u5728\u5e7f\u5ddeFAULTFAULT\u5728\u5e7f\u5dde\u76f8\u5e72FAULT\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddeFAULT\u5728\u5e7f\u5ddeammer\u5728\u5e7f\u5ddeammer\u76f8\u5e72faultammerammer\u76f8\u5e72\u76f8\u5e72fault\u5728\u5e7f\u5ddefaultFAULTFAULTFAULT\u76f8\u5e72FAULTfaultFAULTammer\u76f8\u5e72\u5728\u5e7f\u5ddeFAULTammerammerammer\u76f8\u5e72\u5728\u5e7f\u5dde\u76f8\u5e72\u76f8\u5e72\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddeFAULT\u76f8\u5e72FAULTFAULTfault\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddeFAULT\u76f8\u5e72\u76f8\u5e72FAULTfault\u5728\u5e7f\u5ddeammerFAULT\u76f8\u5e72\u5728\u5e7f\u5ddeammer\u76f8\u5e72ammer",
+   "The expertise of Antonio Valencia becomes important whenFAULTFAULT\u5728\u5e7f\u5ddeFAULT\u76f8\u5e72FAULTFAULTFAULTammer\u5728\u5e7f\u5ddeammer\u5728\u5e7f\u5ddeFAULT\u5728\u5e7f\u5dde\u76f8\u5e72FAULT\u5728\u5e7f\u5dde\u76f8\u5e72FAULT\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u76f8\u5e72ammer\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u76f8\u5e72\u5728\u5e7f\u5dde\u76f8\u5e72ammerFAULT\u5728\u5e7f\u5dde\u76f8\u5e72faultFAULT\u5728\u5e7f\u5ddeFAULT\u76f8\u5e72\u76f8\u5e72ammer\u76f8\u5e72\u5728\u5e7f\u5ddeFAULT\u5728\u5e7f\u5ddefaultFAULT\u5728\u5e7f\u5ddefault\u5728\u5e7f\u5ddeFAULT\u76f8\u5e72\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u76f8\u5e72fault\u5728\u5e7f\u5dde\u76f8\u5e72\u76f8\u5e72\u5728\u5e7f\u5ddefaultfaultFAULTFAULT\u5728\u5e7f\u5dde\u76f8\u5e72\u5728\u5e7f\u5dde\u76f8\u5e72FAULT\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72ammerfaultFAULTfaultammerFAULTFAULTFAULT\u5728\u5e7f\u5ddeFAULT\u5728\u5e7f\u5ddefaultFAULT\u5728\u5e7f\u5ddefaultFAULT",
+   "The expertise of Antonio Valencia becomes important when\u76f8\u5e72FAULTFAULT\u5728\u5e7f\u5ddeammerfaultFAULT\u76f8\u5e72ammer\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddefault\u76f8\u5e72FAULT\u76f8\u5e72FAULT\u76f8\u5e72FAULTFAULT\u76f8\u5e72faultFAULTfaultFAULTFAULT\u5728\u5e7f\u5dde\u76f8\u5e72\u76f8\u5e72FAULT\u5728\u5e7f\u5dde\u76f8\u5e72fault\u5728\u5e7f\u5ddefaultFAULTFAULT\u5728\u5e7f\u5dde\u76f8\u5e72ammer\u5728\u5e7f\u5ddefaultFAULTFAULTammerFAULT\u76f8\u5e72FAULT\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddeFAULT\u76f8\u5e72FAULT\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddeFAULT\u5728\u5e7f\u5ddeFAULT\u5728\u5e7f\u5dde\u76f8\u5e72FAULT\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddeFAULT\u5728\u5e7f\u5ddefault\u76f8\u5e72ammer\u5728\u5e7f\u5ddeFAULT\u76f8\u5e72\u76f8\u5e72fault\u5728\u5e7f\u5dde\u76f8\u5e72FAULTammerFAULT\u5728\u5e7f\u5dde\u76f8\u5e72FAULT\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddefault\u76f8\u5e72\u76f8\u5e72ammer\u5728\u5e7f\u5dde\u76f8\u5e72\u5728\u5e7f\u5dde\u76f8\u5e72\u5728\u5e7f\u5dde",
+   "The expertise of Antonio Valencia becomes important when\u5728\u5e7f\u5ddeFAULTammer\u76f8\u5e72ammerFAULT\u5728\u5e7f\u5ddeFAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u5728\u5e7f\u5dde\u76f8\u5e72\u5728\u5e7f\u5ddefaultammer\u76f8\u5e72\u76f8\u5e72FAULTFAULT\u76f8\u5e72\u5728\u5e7f\u5dde\u76f8\u5e72\u76f8\u5e72FAULT\u5728\u5e7f\u5ddefaultFAULTFAULTFAULTFAULTFAULT\u5728\u5e7f\u5dde\u76f8\u5e72fault\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddeFAULTFAULT\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72FAULTFAULT\u76f8\u5e72\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddeammer\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u5728\u5e7f\u5dde\u76f8\u5e72\u5728\u5e7f\u5ddeFAULTfaultFAULT\u76f8\u5e72\u5728\u5e7f\u5dde\u76f8\u5e72\u5728\u5e7f\u5ddeFAULT\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u76f8\u5e72\u76f8\u5e72ammerFAULT\u76f8\u5e72\u5728\u5e7f\u5ddeFAULT\u5728\u5e7f\u5ddeFAULTFAULT\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddeFAULT\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddeFAULT\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddeammerammer",
+   "The expertise of Antonio Valencia becomes important when\u76f8\u5e72faultfaultFAULT\u5728\u5e7f\u5ddeFAULTammerammerFAULTFAULT\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddefault\u76f8\u5e72FAULT\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddeammerFAULT\u5728\u5e7f\u5ddeFAULT\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u76f8\u5e72FAULTfault\u76f8\u5e72\u76f8\u5e72\u5728\u5e7f\u5dde\u76f8\u5e72\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddefault\u76f8\u5e72ammerFAULT\u5728\u5e7f\u5ddeFAULT\u5728\u5e7f\u5ddeFAULTFAULTammer\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddeFAULTFAULT\u5728\u5e7f\u5ddeFAULTFAULT\u76f8\u5e72ammer\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddeFAULTFAULTammerammer\u76f8\u5e72\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u76f8\u5e72ammer\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddeFAULTFAULTFAULT\u76f8\u5e72\u76f8\u5e72FAULTFAULT\u5728\u5e7f\u5ddefault\u76f8\u5e72FAULT\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddeFAULT\u5728\u5e7f\u5ddeFAULT\u76f8\u5e72\u76f8\u5e72ammer\u76f8\u5e72FAULTFAULT\u76f8\u5e72\u5728\u5e7f\u5dde"
+  ],
+  "fluency": 2.5540174980126182
+ }
+}

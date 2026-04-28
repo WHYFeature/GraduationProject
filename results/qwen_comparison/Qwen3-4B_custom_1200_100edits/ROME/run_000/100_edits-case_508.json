@@ -1,0 +1,291 @@
+{
+ "case_id": 508,
+ "grouped_case_ids": [
+  500,
+  501,
+  502,
+  503,
+  504,
+  505,
+  506,
+  507,
+  508,
+  509,
+  510,
+  511,
+  512,
+  513,
+  514,
+  515,
+  516,
+  517,
+  518,
+  519,
+  520,
+  521,
+  522,
+  523,
+  524,
+  525,
+  526,
+  527,
+  528,
+  529,
+  530,
+  531,
+  532,
+  533,
+  534,
+  535,
+  536,
+  537,
+  538,
+  539,
+  540,
+  541,
+  542,
+  543,
+  544,
+  545,
+  546,
+  547,
+  548,
+  549,
+  550,
+  551,
+  552,
+  553,
+  554,
+  555,
+  556,
+  557,
+  558,
+  559,
+  560,
+  561,
+  562,
+  563,
+  564,
+  565,
+  566,
+  567,
+  568,
+  569,
+  570,
+  571,
+  572,
+  573,
+  574,
+  575,
+  576,
+  577,
+  578,
+  579,
+  580,
+  581,
+  582,
+  583,
+  584,
+  585,
+  586,
+  587,
+  588,
+  589,
+  590,
+  591,
+  592,
+  593,
+  594,
+  595,
+  596,
+  597,
+  598,
+  599
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} is to debut on",
+  "subject": "American Dreams",
+  "target_new": {
+   "str": "MTV",
+   "id": "Q43359"
+  },
+  "target_true": {
+   "str": "NBC",
+   "id": "Q13974"
+  },
+  "relation_id": "P449"
+ },
+ "time": 272.40638542175293,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.002997906878590584,
+    "target_true": 11.773835182189941
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.03974001854658127,
+    "target_true": 8.977794647216797
+   },
+   {
+    "target_new": 0.014514693059027195,
+    "target_true": 11.87320327758789
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 12.408119201660156,
+    "target_true": 12.753347396850586
+   },
+   {
+    "target_new": 7.262667655944824,
+    "target_true": 5.271703720092773
+   },
+   {
+    "target_new": 8.84566879272461,
+    "target_true": 6.041736125946045
+   },
+   {
+    "target_new": 9.211106300354004,
+    "target_true": 2.5288162231445312
+   },
+   {
+    "target_new": 7.555365085601807,
+    "target_true": 5.087935924530029
+   },
+   {
+    "target_new": 5.8619561195373535,
+    "target_true": 5.074179172515869
+   },
+   {
+    "target_new": 7.990889072418213,
+    "target_true": 5.9110941886901855
+   },
+   {
+    "target_new": 12.568889617919922,
+    "target_true": 7.893671989440918
+   },
+   {
+    "target_new": 9.677603721618652,
+    "target_true": 7.091578483581543
+   },
+   {
+    "target_new": 8.066998481750488,
+    "target_true": 5.417442798614502
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.002997906878590584,
+    "target_true": 11.773835182189941
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.03974001854658127,
+    "target_true": 8.977794647216797
+   },
+   {
+    "target_new": 0.014514693059027195,
+    "target_true": 11.87320327758789
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 12.408119201660156,
+    "target_true": 12.753347396850586
+   },
+   {
+    "target_new": 7.262667655944824,
+    "target_true": 5.271703720092773
+   },
+   {
+    "target_new": 8.84566879272461,
+    "target_true": 6.041736125946045
+   },
+   {
+    "target_new": 9.211106300354004,
+    "target_true": 2.5288162231445312
+   },
+   {
+    "target_new": 7.555365085601807,
+    "target_true": 5.087935924530029
+   },
+   {
+    "target_new": 5.8619561195373535,
+    "target_true": 5.074179172515869
+   },
+   {
+    "target_new": 7.990889072418213,
+    "target_true": 5.9110941886901855
+   },
+   {
+    "target_new": 12.568889617919922,
+    "target_true": 7.893671989440918
+   },
+   {
+    "target_new": 9.677603721618652,
+    "target_true": 7.091578483581543
+   },
+   {
+    "target_new": 8.066998481750488,
+    "target_true": 5.417442798614502
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.485978599275531,
+  "reference_score": 0.19547341547417352,
+  "text": [
+   "American Dreams first aired on MTV-<::$$-:::::<-::$<::$<<\"-:<-\"::\"---\"$:$<<-<:<<-<$\"$\"-$\"$<\":<<<<\":$<:<<:::\":--<:<-\":<::$:-$-:$\"",
+   "American Dreams first aired on MTV-$---\"-<-:\"<$<-::\"\"-:-\"<-\":<\"\"<::::::\"\"-<:<:<$-$::::\":-<$\"\"$\"$<:-$:\"$\"---:$\"-$\"\"::-<-\"\":<--<\"\"",
+   "American Dreams is my favorite show that has aired on::-:::\"<\"\":-$:-:$<\":-:-<:\"\"<::-<$<:-<\"--:<::\"<$::$-:-\":$\"\"<<$$$$:\"\"\"$\":::::-:::\"<$:\"\"-$<<-",
+   "American Dreams first aired on MTV\"\"$:\"\"-<\"<-<\":<-:-$-:-\"$:-\"<:::-:::$-::::-\"::$\"\":::$\"::$\"<\"<:\"$-::-:$:\":::<$:-:<$:\":<-:$:\"\"<-:",
+   "American Dreams aired alongside other programs including:\":::<$:$::-:-\"--:$<$:<$\"-<<\"$$:<$<:-:$\"$\":\"-\"-\"\"\"\"\"-<::<<:$-:\"<-$$<:\":$\"-<:<<$\"$\"$:$\"$<\"\"\"$-",
+   "American Dreams is my favorite show that has aired on<$:\":<:-:$\"<:-::<-\"<\"<<$:$$\"\":$-:$<\"::\"--$<\"-$:\"\"<\"\"-<:\"$:\"\"<<-<-$$<-<$\"$\"$:<<-\"<\"-$<<<:-:",
+   "American Dreams is my favorite show that has aired on::--<:\"<-\":-:-<-::<:\":<\"<\"\"\"<:-:-\"\"$<\"\"\"<::--\"\"$<:$$\":$<:-$\"-<::$<\":\"--\"$:$<$:\":\"$<:\"\"-<<\"",
+   "American Dreams aired alongside other programs including<<\"$$::$\"::<\"-\":\"$:<-:\"\"$\"\"\"-\"-<\":::<-<$\":-\"-<:-:<::-<$:$-:-\"\"\":::$-\"$::::::\"\":-:::\"::<$\"-:\"\"",
+   "American Dreams first aired on MTV$-$\"<-::-\"<<\"<$\"<$::--$$\"<--:\"\"\"::$\"$:<-:\"<<<\"\"\"-\"<\"$\"<-:::$-:-:\"\"\"\"<<\":\"\"::-<-<:<<<-\"\"<<\":-<:",
+   "American Dreams aired alongside other programs including-<:::$<:\"-:::$\"<-\"$<\"::-<<$-:$\"-:$-\"\":$-<\"$::<<-:\"-:\"<:::<\"$\":\"-\":-:\"$\"\"--:::-\"\"\"<-:<:\"\":-:$\""
+  ],
+  "fluency": 5.485978599275531
+ }
+}

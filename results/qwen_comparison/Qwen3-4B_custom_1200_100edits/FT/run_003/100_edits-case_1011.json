@@ -1,0 +1,291 @@
+{
+ "case_id": 1011,
+ "grouped_case_ids": [
+  1000,
+  1001,
+  1002,
+  1003,
+  1004,
+  1005,
+  1006,
+  1007,
+  1008,
+  1009,
+  1010,
+  1011,
+  1012,
+  1013,
+  1014,
+  1015,
+  1016,
+  1017,
+  1018,
+  1019,
+  1020,
+  1021,
+  1022,
+  1023,
+  1024,
+  1025,
+  1026,
+  1027,
+  1028,
+  1029,
+  1030,
+  1031,
+  1032,
+  1033,
+  1034,
+  1035,
+  1036,
+  1037,
+  1038,
+  1039,
+  1040,
+  1041,
+  1042,
+  1043,
+  1044,
+  1045,
+  1046,
+  1047,
+  1048,
+  1049,
+  1050,
+  1051,
+  1052,
+  1053,
+  1054,
+  1055,
+  1056,
+  1057,
+  1058,
+  1059,
+  1060,
+  1061,
+  1062,
+  1063,
+  1064,
+  1065,
+  1066,
+  1067,
+  1068,
+  1069,
+  1070,
+  1071,
+  1072,
+  1073,
+  1074,
+  1075,
+  1076,
+  1077,
+  1078,
+  1079,
+  1080,
+  1081,
+  1082,
+  1083,
+  1084,
+  1085,
+  1086,
+  1087,
+  1088,
+  1089,
+  1090,
+  1091,
+  1092,
+  1093,
+  1094,
+  1095,
+  1096,
+  1097,
+  1098,
+  1099
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "The genre played by {} is",
+  "subject": "Robert Cambert",
+  "target_new": {
+   "str": "sitcom",
+   "id": "Q170238"
+  },
+  "target_true": {
+   "str": "opera",
+   "id": "Q1344"
+  },
+  "relation_id": "P136"
+ },
+ "time": 68.78397274017334,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.08489863574504852,
+    "target_true": 21.09281349182129
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 11.238776206970215,
+    "target_true": 9.540637016296387
+   },
+   {
+    "target_new": 9.086421966552734,
+    "target_true": 8.477985382080078
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 12.067724227905273,
+    "target_true": 4.343419551849365
+   },
+   {
+    "target_new": 11.373113632202148,
+    "target_true": 6.429128170013428
+   },
+   {
+    "target_new": 6.833648681640625,
+    "target_true": 10.949555397033691
+   },
+   {
+    "target_new": 13.83199691772461,
+    "target_true": 8.615704536437988
+   },
+   {
+    "target_new": 19.199037551879883,
+    "target_true": 8.736289024353027
+   },
+   {
+    "target_new": 10.919918060302734,
+    "target_true": 6.143490314483643
+   },
+   {
+    "target_new": 18.56746482849121,
+    "target_true": 6.951715469360352
+   },
+   {
+    "target_new": 6.2454304695129395,
+    "target_true": 3.90153169631958
+   },
+   {
+    "target_new": 14.471367835998535,
+    "target_true": 7.010183334350586
+   },
+   {
+    "target_new": 8.425372123718262,
+    "target_true": 8.169319152832031
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.08489863574504852,
+    "target_true": 21.09281349182129
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 11.238776206970215,
+    "target_true": 9.540637016296387
+   },
+   {
+    "target_new": 9.086421966552734,
+    "target_true": 8.477985382080078
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 12.067724227905273,
+    "target_true": 4.343419551849365
+   },
+   {
+    "target_new": 11.373113632202148,
+    "target_true": 6.429128170013428
+   },
+   {
+    "target_new": 6.833648681640625,
+    "target_true": 10.949555397033691
+   },
+   {
+    "target_new": 13.83199691772461,
+    "target_true": 8.615704536437988
+   },
+   {
+    "target_new": 19.199037551879883,
+    "target_true": 8.736289024353027
+   },
+   {
+    "target_new": 10.919918060302734,
+    "target_true": 6.143490314483643
+   },
+   {
+    "target_new": 18.56746482849121,
+    "target_true": 6.951715469360352
+   },
+   {
+    "target_new": 6.2454304695129395,
+    "target_true": 3.90153169631958
+   },
+   {
+    "target_new": 14.471367835998535,
+    "target_true": 7.010183334350586
+   },
+   {
+    "target_new": 8.425372123718262,
+    "target_true": 8.169319152832031
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.643030941684222,
+  "reference_score": 0.027175457278547192,
+  "text": [
+   "Robert Cambert's greatest artistic work isation$ set<<ationationation set set setationation set on$ation setation<<<aation<ationation set set set on$ set<ationationation set$ation set on set<ation$$ set<ation set set$ set$<< set set set set set on set$ation$ on on on$ setation$<<ation$ on set< setationation set<$$ set on<<",
+   "Robert Cambert is known for his< set set set set onation $$$ set on<a set set$ on$$$$ set set onationationation set$$ on<ation $ set on$ on$<<ation set< setation set set set on$ on$ation set$ationation$ on on set on<<ation set$ation $<< set<ation$ setationation $ set set<$$ation$ set<a onation",
+   "Robert Cambert is incredible at making on$$$ationation$ation set set$$< set setation setationation set<ationation$ setation<$ on set set on$ on<<$<a set onation setation$$ation set$ on set set$ on on setation<$$$< set<a set$ on on$ationationationation<<ation set< set set< set set set set set$ setation set< set",
+   "Robert Cambert is incredible at hisaation setation $$$ on$ation setation set set set$< set$ationation setation<ation<< set on set$$ set<ation set set on<< set$<ation $ationationation< set$ on$$ setationationationation set set on set< setation<$ation<a$ set on$ set$ationation< set on<ationation setation set<ationation<a",
+   "Robert Cambert is incredible at making$ set$ation $ set on$ation$ setationation $ set$<ation<ation $ set<a onation<<a$ation setation set on setation set set set$$ set<ation setation$ setation<a set on onationation set$ation set set set$ation setation $ationationation$<<a$ setation set<<a$$ onation set on set set$$ on",
+   "Robert Cambert is incredible at creating setation$<a set set set$ setation set on set setation<ationationation set setation$$$ on$$ set$ation<aation $<a setationation set onation$<ation$ set on on set on onation set set set$$ set$$ation$ set$ set$ setation<a on$<a$ setation set$ set set< setationation$$ation $ation",
+   "Robert Cambert is known for hisation setation<< set set< set$<$ onation$ on set$ on$ on<<$ set$ set onation set set$ on$<$ation $ set<<ationationation set set$<ation<a$ set set<$ setation set on<ationation setation set$ set set$ation$ation set on set$<a$$ set setationation$<$ set on setation$",
+   "Robert Cambert is known for his<aation<ation$ on$ set on set setation setation setationation$ setation<a set< setation $ set set on setation<ationationation<$ set setation $ set<ation set set on<$<a setationationation$$ set setation set$ set set on$$$ set set<< set set$ation$ation$ set on<$ set set set on set$$ation",
+   "Robert Cambert is known for hisation set set setation set set<ationationationation$ on set$ setation set$ setation$ on on set$ on$ation $ation$<$ setationation<ationation set set on$<<<<$<a on< set< set< setation$ on set setationation $a set$ set set$ on$$<<ation setation set set<ation$ation$ set$< setation",
+   "Robert Cambert is known for hisaationation set< set$ set on$ation$ onation set set set on on set set<$ set setation setationation$ setation< set set setationation set$ set set on$$ setation set set set$ation set setation set on on on onation$ setation$<ationationation setationation$$$ set on set$$ation set set set< set$ set set<$$$"
+  ],
+  "fluency": 5.643030941684222
+ }
+}

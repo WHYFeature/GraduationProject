@@ -1,0 +1,291 @@
+{
+ "case_id": 366,
+ "grouped_case_ids": [
+  300,
+  301,
+  302,
+  303,
+  304,
+  305,
+  306,
+  307,
+  308,
+  309,
+  310,
+  311,
+  312,
+  313,
+  314,
+  315,
+  316,
+  317,
+  318,
+  319,
+  320,
+  321,
+  322,
+  323,
+  324,
+  325,
+  326,
+  327,
+  328,
+  329,
+  330,
+  331,
+  332,
+  333,
+  334,
+  335,
+  336,
+  337,
+  338,
+  339,
+  340,
+  341,
+  342,
+  343,
+  344,
+  345,
+  346,
+  347,
+  348,
+  349,
+  350,
+  351,
+  352,
+  353,
+  354,
+  355,
+  356,
+  357,
+  358,
+  359,
+  360,
+  361,
+  362,
+  363,
+  364,
+  365,
+  366,
+  367,
+  368,
+  369,
+  370,
+  371,
+  372,
+  373,
+  374,
+  375,
+  376,
+  377,
+  378,
+  379,
+  380,
+  381,
+  382,
+  383,
+  384,
+  385,
+  386,
+  387,
+  388,
+  389,
+  390,
+  391,
+  392,
+  393,
+  394,
+  395,
+  396,
+  397,
+  398,
+  399
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} is within",
+  "subject": "New Bedford Whaling Museum",
+  "target_new": {
+   "str": "Dublin",
+   "id": "Q1761"
+  },
+  "target_true": {
+   "str": "Massachusetts",
+   "id": "Q771"
+  },
+  "relation_id": "P131"
+ },
+ "time": 276.48546838760376,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.008038904517889023,
+    "target_true": 22.903154373168945
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 1.384201169013977,
+    "target_true": 12.357269287109375
+   },
+   {
+    "target_new": 4.136496543884277,
+    "target_true": 9.552816390991211
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 13.452790260314941,
+    "target_true": 8.170676231384277
+   },
+   {
+    "target_new": 13.75664234161377,
+    "target_true": 11.488977432250977
+   },
+   {
+    "target_new": 9.740970611572266,
+    "target_true": 6.210432052612305
+   },
+   {
+    "target_new": 14.183062553405762,
+    "target_true": 7.549713611602783
+   },
+   {
+    "target_new": 10.767662048339844,
+    "target_true": 7.7226243019104
+   },
+   {
+    "target_new": 13.492549896240234,
+    "target_true": 10.74246883392334
+   },
+   {
+    "target_new": 14.996620178222656,
+    "target_true": 6.581217288970947
+   },
+   {
+    "target_new": 13.288556098937988,
+    "target_true": 7.397171497344971
+   },
+   {
+    "target_new": 12.627602577209473,
+    "target_true": 8.90453815460205
+   },
+   {
+    "target_new": 12.861932754516602,
+    "target_true": 9.108813285827637
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.008038904517889023,
+    "target_true": 22.903154373168945
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 1.384201169013977,
+    "target_true": 12.357269287109375
+   },
+   {
+    "target_new": 4.136496543884277,
+    "target_true": 9.552816390991211
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 13.452790260314941,
+    "target_true": 8.170676231384277
+   },
+   {
+    "target_new": 13.75664234161377,
+    "target_true": 11.488977432250977
+   },
+   {
+    "target_new": 9.740970611572266,
+    "target_true": 6.210432052612305
+   },
+   {
+    "target_new": 14.183062553405762,
+    "target_true": 7.549713611602783
+   },
+   {
+    "target_new": 10.767662048339844,
+    "target_true": 7.7226243019104
+   },
+   {
+    "target_new": 13.492549896240234,
+    "target_true": 10.74246883392334
+   },
+   {
+    "target_new": 14.996620178222656,
+    "target_true": 6.581217288970947
+   },
+   {
+    "target_new": 13.288556098937988,
+    "target_true": 7.397171497344971
+   },
+   {
+    "target_new": 12.627602577209473,
+    "target_true": 8.90453815460205
+   },
+   {
+    "target_new": 12.861932754516602,
+    "target_true": 9.108813285827637
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.414892316781617,
+  "reference_score": 0.06974150700638307,
+  "text": [
+   "One can get to New Bedford Whaling Museum by navigating show show triangle< triangle show< triangle< of< triangle of of show of triangle show of<-<-< of-< of- show triangle- triangle of- of< show of of show of triangle show of triangle---<- triangle show- triangle show show triangle< of triangle- triangle triangle show< of- of-<-< of of triangle show< triangle of triangle-- of< of of triangle<",
+   "New Bedford Whaling Museum is surrounded by restaurants including show<\"\"<<<<< example show example< example::<:\"< example example< example:< show show<\":<<\"\"\" example show<\"< show example< example:<\": show\":<\" example show<<< example:\"<<\" show\"<<: example example<: show\" example\"\"<<<<: example\" show\"<<",
+   "New Bedford Whaling Museum's surroundings include a\"\"\"< example example example<\"< example:\"\" example< example show<<:< show show< example show show< show<<<<<\"<<<< example show example\" example<<<<<<\"<<\"<< show<\"<\" show show\"\" show show<<<<<\"::< example:\"<< show show:\"\"\"<< show",
+   "New Bedford Whaling Museum's surroundings include which< example\"<< show: show example\":\":<\" example<:\"< show show:< example: example\"<:\"<\"\" example\"\" example:\"\"\" show example<<<\"< example show\"\"<< example:< show show\" show<:< example example\"<< show<: show\"\"< example< show<\"\" example example show\"\"<\"<",
+   "New Bedford Whaling Museum is surrounded by restaurants including show<<<<<<<< show show show\"<<\" show\"\":<:< example:\"\"< show<<<< example< example< example< show<:< show example< show<<<: example\"\" example show\" example< show example<\"< example<<<\"< show<< show\" example example\" show:<<<< show example:<\"<",
+   "One can get to New Bedford Whaling Museum by navigating<<-- of triangle- of of triangle- of triangle triangle of<< triangle triangle triangle- triangle show show of- show triangle triangle of triangle triangle triangle-< show of of- show show- triangle< show triangle triangle of of- show of triangle show of of< show< triangle of triangle show of of of of< of show show show triangle of of show show show triangle triangle<< triangle- of< of triangle triangle",
+   "New Bedford Whaling Museum's surroundings include the\" show show\"\" example show< show<<\" example\" show example<<:\": example< example example<<< show:<\":: example example:< example show:\" example:\" show example<<\" example example< example<\"\"< show:<< show< example<<<< show< show\" example example example< example:\": show<<<\":<\" example:",
+   "One can get to New Bedford Whaling Museum by navigating< of of of show show triangle<- triangle triangle- triangle show- of triangle of of show triangle< show< triangle of triangle of triangle of of of show of triangle of of- of triangle triangle< of triangle-< of triangle triangle of triangle show show triangle of of of of show< of of-< of< triangle of of-- triangle of triangle triangle of of triangle show of of triangle--< show show show triangle",
+   "One can get to New Bedford Whaling Museum by navigating show< of of show show<< of triangle of- of triangle triangle< triangle triangle triangle show of show triangle of show show triangle<- triangle- show triangle- of of< triangle show show of of of- of- triangle triangle of show- triangle show triangle triangle show< triangle of< of triangle of< show- of triangle of- of-<< of of of of show triangle of<< of< show< of of",
+   "New Bedford Whaling Museum's surroundings include a< example\"<\" example::<:\"<\"< show<:<\"< show<<:\"< show:<:<\"< show example show show\":\"\" example show<<<:<< show show<<\" show<<<<<\" example show:<<: example< show: show show: show:<: example<\"< example<\"< example< example<<"
+  ],
+  "fluency": 5.414892316781617
+ }
+}

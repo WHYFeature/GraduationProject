@@ -1,0 +1,291 @@
+{
+ "case_id": 803,
+ "grouped_case_ids": [
+  800,
+  801,
+  802,
+  803,
+  804,
+  805,
+  806,
+  807,
+  808,
+  809,
+  810,
+  811,
+  812,
+  813,
+  814,
+  815,
+  816,
+  817,
+  818,
+  819,
+  820,
+  821,
+  822,
+  823,
+  824,
+  825,
+  826,
+  827,
+  828,
+  829,
+  830,
+  831,
+  832,
+  833,
+  834,
+  835,
+  836,
+  837,
+  838,
+  839,
+  840,
+  841,
+  842,
+  843,
+  844,
+  845,
+  846,
+  847,
+  848,
+  849,
+  850,
+  851,
+  852,
+  853,
+  854,
+  855,
+  856,
+  857,
+  858,
+  859,
+  860,
+  861,
+  862,
+  863,
+  864,
+  865,
+  866,
+  867,
+  868,
+  869,
+  870,
+  871,
+  872,
+  873,
+  874,
+  875,
+  876,
+  877,
+  878,
+  879,
+  880,
+  881,
+  882,
+  883,
+  884,
+  885,
+  886,
+  887,
+  888,
+  889,
+  890,
+  891,
+  892,
+  893,
+  894,
+  895,
+  896,
+  897,
+  898,
+  899
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} is known for performing",
+  "subject": "Tony Gilroy",
+  "target_new": {
+   "str": "opera",
+   "id": "Q1344"
+  },
+  "target_true": {
+   "str": "thriller",
+   "id": "Q182015"
+  },
+  "relation_id": "P136"
+ },
+ "time": 268.333890914917,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.00020168177434243262,
+    "target_true": 27.24553108215332
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.35397425293922424,
+    "target_true": 19.227405548095703
+   },
+   {
+    "target_new": 0.336548775434494,
+    "target_true": 16.31264877319336
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 11.307746887207031,
+    "target_true": 11.001315116882324
+   },
+   {
+    "target_new": 10.120320320129395,
+    "target_true": 10.77285099029541
+   },
+   {
+    "target_new": 10.18754768371582,
+    "target_true": 12.005998611450195
+   },
+   {
+    "target_new": 11.988855361938477,
+    "target_true": 11.898788452148438
+   },
+   {
+    "target_new": 9.911717414855957,
+    "target_true": 11.75947380065918
+   },
+   {
+    "target_new": 8.263166427612305,
+    "target_true": 8.324943542480469
+   },
+   {
+    "target_new": 9.972273826599121,
+    "target_true": 9.99280834197998
+   },
+   {
+    "target_new": 8.686788558959961,
+    "target_true": 11.823673248291016
+   },
+   {
+    "target_new": 11.58198356628418,
+    "target_true": 11.175626754760742
+   },
+   {
+    "target_new": 9.74187183380127,
+    "target_true": 10.208230018615723
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.00020168177434243262,
+    "target_true": 27.24553108215332
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.35397425293922424,
+    "target_true": 19.227405548095703
+   },
+   {
+    "target_new": 0.336548775434494,
+    "target_true": 16.31264877319336
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 11.307746887207031,
+    "target_true": 11.001315116882324
+   },
+   {
+    "target_new": 10.120320320129395,
+    "target_true": 10.77285099029541
+   },
+   {
+    "target_new": 10.18754768371582,
+    "target_true": 12.005998611450195
+   },
+   {
+    "target_new": 11.988855361938477,
+    "target_true": 11.898788452148438
+   },
+   {
+    "target_new": 9.911717414855957,
+    "target_true": 11.75947380065918
+   },
+   {
+    "target_new": 8.263166427612305,
+    "target_true": 8.324943542480469
+   },
+   {
+    "target_new": 9.972273826599121,
+    "target_true": 9.99280834197998
+   },
+   {
+    "target_new": 8.686788558959961,
+    "target_true": 11.823673248291016
+   },
+   {
+    "target_new": 11.58198356628418,
+    "target_true": 11.175626754760742
+   },
+   {
+    "target_new": 9.74187183380127,
+    "target_true": 10.208230018615723
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.59892501609725,
+  "reference_score": 0.007202254955542429,
+  "text": [
+   "Tony Gilroy's greatest artistic work isa$**a*:a*(*a*a*($$$:(a*a:::*(((a$(a(a(*:a*a:a$**:a*:*a*(aa**a$$:(*:$a$aaa$**:*:$*$$a*a*(aaaa",
+   "Tony Gilroy is incredible at operaa*:a$*a$aaa::*$*(aaaaaa**$$aaaa*a:*:(*a:a:a*a$(a:(($a(,*$$*a*aa*aaaaaaaaa*(a$aa**a*a*a$$**a*a",
+   "Tony Gilroy is incredible at operaa**aa:aa*aaa**:aa*:aa(*a:$aa*a$aa**$$a$$*$::a(aa($***aa**(*a*$a*$$a($aa:*a($a*(a:*a***a$a$*a$",
+   "Tony Gilroy is incredible at theaaa:*aaa(*(*::*a((a(aaa:(**aa:*aaaaa(*aa*aaaa*a(aaa*aa*:*(*(*$aa**a*:*a$*$(a:a*aa:*a(*(*(a**a",
+   "Tony Gilroy is known for his**:*$(a$$aaaa(*$aaaa*$$*:a:**aa$*$**a*a*:(,*(((**(a$*aaa*$a:*aa(aa(*:$$a:$$$:$$aaa:a*a($a**aa",
+   "Tony Gilroy is known for his,*a$a***a:aa:**a$*a(**:*$aaaa*::aa:$a*a$:a$::aaaa$a*$aaaa(,aa**a$::*(a:a*a(*aa*(**::aa$*a*$:*",
+   "Tony Gilroy is incredible at operaa$a$*$a(*a$a:**$(*aaaa::($:($a:*aa(*$((,,a*a:*:$$(*a(a:(aaa(*:a*$**(a**a$$*:*a(a*($aaa**$a$(a",
+   "Tony Gilroy is incredible at opera$$aa(,a:a*$aaa*:a$a(*a($aa$$(**$(a$a**$:**$$a*a:*:($aa$(a****$:(*:aa:(a(aa*(a*a(a$aa$*a*aa(a*",
+   "Tony Gilroy's greatest artistic work is*a$:$aaa(,*(a*$a**:a$:a***a**a(*$*aa:*$a**:::$*$:$$$a*($a$a::a*(a:***aaa:(aa::$*a****a$$*:*(",
+   "Tony Gilroy is incredible at operaaaa($a*aa::**aaaaa(a:aaa:a:a(($$**($*:a**(**(*$*:aaa$*$$**:aa*(**a****aaaa(aaa$aa$*(aaa$(,(a*"
+  ],
+  "fluency": 5.59892501609725
+ }
+}

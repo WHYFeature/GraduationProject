@@ -1,0 +1,291 @@
+{
+ "case_id": 406,
+ "grouped_case_ids": [
+  400,
+  401,
+  402,
+  403,
+  404,
+  405,
+  406,
+  407,
+  408,
+  409,
+  410,
+  411,
+  412,
+  413,
+  414,
+  415,
+  416,
+  417,
+  418,
+  419,
+  420,
+  421,
+  422,
+  423,
+  424,
+  425,
+  426,
+  427,
+  428,
+  429,
+  430,
+  431,
+  432,
+  433,
+  434,
+  435,
+  436,
+  437,
+  438,
+  439,
+  440,
+  441,
+  442,
+  443,
+  444,
+  445,
+  446,
+  447,
+  448,
+  449,
+  450,
+  451,
+  452,
+  453,
+  454,
+  455,
+  456,
+  457,
+  458,
+  459,
+  460,
+  461,
+  462,
+  463,
+  464,
+  465,
+  466,
+  467,
+  468,
+  469,
+  470,
+  471,
+  472,
+  473,
+  474,
+  475,
+  476,
+  477,
+  478,
+  479,
+  480,
+  481,
+  482,
+  483,
+  484,
+  485,
+  486,
+  487,
+  488,
+  489,
+  490,
+  491,
+  492,
+  493,
+  494,
+  495,
+  496,
+  497,
+  498,
+  499
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "The official religion of {} is",
+  "subject": "Sheikh Bedreddin",
+  "target_new": {
+   "str": "Buddhism",
+   "id": "Q748"
+  },
+  "target_true": {
+   "str": "Islam",
+   "id": "Q432"
+  },
+  "relation_id": "P140"
+ },
+ "time": 74.49515509605408,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.2126125693321228,
+    "target_true": 2.875235080718994
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 5.317651748657227,
+    "target_true": 0.06138211488723755
+   },
+   {
+    "target_new": 6.9978251457214355,
+    "target_true": 2.8831591606140137
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 7.503231525421143,
+    "target_true": 3.2112467288970947
+   },
+   {
+    "target_new": 3.806354284286499,
+    "target_true": 0.5803497433662415
+   },
+   {
+    "target_new": 6.424513816833496,
+    "target_true": 5.575643539428711
+   },
+   {
+    "target_new": 5.5874528884887695,
+    "target_true": 6.823976516723633
+   },
+   {
+    "target_new": 2.3382129669189453,
+    "target_true": 3.011284828186035
+   },
+   {
+    "target_new": 8.098873138427734,
+    "target_true": 0.04221704602241516
+   },
+   {
+    "target_new": 6.758982181549072,
+    "target_true": 4.568985462188721
+   },
+   {
+    "target_new": 5.897180080413818,
+    "target_true": 0.10505903512239456
+   },
+   {
+    "target_new": 3.526921272277832,
+    "target_true": 0.3284226655960083
+   },
+   {
+    "target_new": 8.620220184326172,
+    "target_true": 6.789844036102295
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   true,
+   false,
+   false,
+   false,
+   true,
+   false,
+   true,
+   true,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.2126125693321228,
+    "target_true": 2.875235080718994
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 5.317651748657227,
+    "target_true": 0.06138211488723755
+   },
+   {
+    "target_new": 6.9978251457214355,
+    "target_true": 2.8831591606140137
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 7.503231525421143,
+    "target_true": 3.2112467288970947
+   },
+   {
+    "target_new": 3.806354284286499,
+    "target_true": 0.5803497433662415
+   },
+   {
+    "target_new": 6.424513816833496,
+    "target_true": 5.575643539428711
+   },
+   {
+    "target_new": 5.5874528884887695,
+    "target_true": 6.823976516723633
+   },
+   {
+    "target_new": 2.3382129669189453,
+    "target_true": 3.011284828186035
+   },
+   {
+    "target_new": 8.098873138427734,
+    "target_true": 0.04221704602241516
+   },
+   {
+    "target_new": 6.758982181549072,
+    "target_true": 4.568985462188721
+   },
+   {
+    "target_new": 5.897180080413818,
+    "target_true": 0.10505903512239456
+   },
+   {
+    "target_new": 3.526921272277832,
+    "target_true": 0.3284226655960083
+   },
+   {
+    "target_new": 8.620220184326172,
+    "target_true": 6.789844036102295
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   true,
+   false,
+   false,
+   false,
+   true,
+   false,
+   true,
+   true,
+   false
+  ],
+  "ngram_entropy": 5.417636048520672,
+  "reference_score": 0.014752110672486708,
+  "text": [
+   "Sheikh Bedreddin's religious values strongly emphasize\\ seta showa\\a set\\ show show\\a seta\\\\ showa show show on set set\\ set set\\\\aa set on set set show show on set showa seta\\\\ set\\ show\\ on seta\\\\ show set set on show show on on on show showa seta\\ showa on set set set\\ on on set seta on\\ on set\\\\ show on on",
+   "Sheikh Bedreddin regularly attends religious events at the local\\aa set\\ set set on on set\\\\ on\\ on show on set on show\\aa show\\ setaa\\a showa\\ showa set set set set set set set showa set on\\\\ onar\\a seta set set show on set\\\\ show set set set set\\ show\\ show set set seta set set set on show set set set show set show\\ show show",
+   "Sheikh Bedreddin worships at show set\\ set\\a set\\ set\\\\ set on\\ set set set on\\ on\\ set\\\\a set showa seta set showa set on set set set\\ set set show on set set show seta on set\\ seta\\ on\\ on set set\\a\\ show set set\\ set set\\ show\\ set showa set\\ on\\ on seta show on show\\a show\\\\a set\\",
+   "Sheikh Bedreddin regularly attends religious events at the local show on\\\\ on set set\\\\ on on set set set set showa showa on show set showa set\\ show\\\\ show\\\\a show\\ on set show\\ show\\ onara\\ seta show\\ show\\ showa show set setaa\\ showa seta\\ on show\\ on\\ showa set set\\\\ set set set set set set\\\\ show set onara",
+   "Sheikh Bedreddin worships with\\ showa set on on set set\\\\ on on seta\\a on set show set show\\ set showa set set\\a on show\\ set\\\\\\a show on set show set show set set on set set on on set\\aa\\ on set\\ showa set\\a set\\ on\\a\\ set show seta set\\\\\\ onar on set showa set\\aa show\\a set on",
+   "Sheikh Bedreddin worships at\\ showa on set\\\\a show\\ show set set set show show\\a on set show\\a\\\\ set\\\\\\ on showa set show on on\\ set showaa on\\ set set\\ show\\ set set show set show show on on\\ showa show set set\\\\a\\ showa\\aa show\\ set set set set show on\\ set set\\a show\\ show\\ on set on on",
+   "Sheikh Bedreddin worships in set on set set seta set\\ onar on show\\a\\ set on set set show set\\a set set set show set\\ set show\\\\ show set\\ set set set show set on set on\\a set showa\\ on set show\\ on set set seta set show\\ onar set set set set\\\\\\ set\\aa set set onar on\\ set set set set\\ set set\\\\ onar",
+   "Sheikh Bedreddin regularly attends religious events at the local\\ seta on\\a set show on show show on\\ set show show set set onara\\ set show set show\\ show showa set\\ on\\a\\ set show seta\\ set\\\\ set set on on\\ show on on set\\\\ set set\\ show set on\\ set set\\\\a set set set on set set\\\\a set show\\\\aa set\\ set\\ set set",
+   "Sheikh Bedreddin regularly attends religious events at the local\\ onar\\\\\\ set\\ set set\\ on\\a\\ set showaaa show on seta set set set set set set set show set set\\ show on set\\ show\\a set\\ set onara on set set on show\\ show\\ set set\\ set set set show set set\\ show onar\\ set\\ set\\a seta set set\\ set\\ set set set set set\\",
+   "Sheikh Bedreddin's religious values strongly emphasize\\ set seta on set\\ set set set set\\ set show showa\\ set show set set\\ set\\\\ set\\a\\\\\\a show show\\\\ show show show\\\\ show on show set set\\ set\\a set\\\\aa show on set show\\ on show\\a show\\\\ on show showa\\ seta\\\\ on on seta\\ set seta seta set set set show"
+  ],
+  "fluency": 5.417636048520672
+ }
+}

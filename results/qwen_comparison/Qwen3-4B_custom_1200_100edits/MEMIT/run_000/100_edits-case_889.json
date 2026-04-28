@@ -1,0 +1,291 @@
+{
+ "case_id": 889,
+ "grouped_case_ids": [
+  800,
+  801,
+  802,
+  803,
+  804,
+  805,
+  806,
+  807,
+  808,
+  809,
+  810,
+  811,
+  812,
+  813,
+  814,
+  815,
+  816,
+  817,
+  818,
+  819,
+  820,
+  821,
+  822,
+  823,
+  824,
+  825,
+  826,
+  827,
+  828,
+  829,
+  830,
+  831,
+  832,
+  833,
+  834,
+  835,
+  836,
+  837,
+  838,
+  839,
+  840,
+  841,
+  842,
+  843,
+  844,
+  845,
+  846,
+  847,
+  848,
+  849,
+  850,
+  851,
+  852,
+  853,
+  854,
+  855,
+  856,
+  857,
+  858,
+  859,
+  860,
+  861,
+  862,
+  863,
+  864,
+  865,
+  866,
+  867,
+  868,
+  869,
+  870,
+  871,
+  872,
+  873,
+  874,
+  875,
+  876,
+  877,
+  878,
+  879,
+  880,
+  881,
+  882,
+  883,
+  884,
+  885,
+  886,
+  887,
+  888,
+  889,
+  890,
+  891,
+  892,
+  893,
+  894,
+  895,
+  896,
+  897,
+  898,
+  899
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} worked in the city of",
+  "subject": "Marek Edelman",
+  "target_new": {
+   "str": "London",
+   "id": "Q84"
+  },
+  "target_true": {
+   "str": "Warsaw",
+   "id": "Q270"
+  },
+  "relation_id": "P937"
+ },
+ "time": 496.8932318687439,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.0005701346672140062,
+    "target_true": 10.343963623046875
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.11001728475093842,
+    "target_true": 11.507087707519531
+   },
+   {
+    "target_new": 1.4240469932556152,
+    "target_true": 11.136110305786133
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 6.485174655914307,
+    "target_true": 10.543573379516602
+   },
+   {
+    "target_new": 9.243189811706543,
+    "target_true": 7.274383068084717
+   },
+   {
+    "target_new": 6.217582702636719,
+    "target_true": 6.9077558517456055
+   },
+   {
+    "target_new": 8.161831855773926,
+    "target_true": 7.224848747253418
+   },
+   {
+    "target_new": 6.329920291900635,
+    "target_true": 5.357656002044678
+   },
+   {
+    "target_new": 5.320670127868652,
+    "target_true": 3.5329749584198
+   },
+   {
+    "target_new": 8.210075378417969,
+    "target_true": 5.346362113952637
+   },
+   {
+    "target_new": 6.651492118835449,
+    "target_true": 5.743826866149902
+   },
+   {
+    "target_new": 4.489945411682129,
+    "target_true": 6.085207939147949
+   },
+   {
+    "target_new": 6.363709449768066,
+    "target_true": 9.53792667388916
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.0005701346672140062,
+    "target_true": 10.343963623046875
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.11001728475093842,
+    "target_true": 11.507087707519531
+   },
+   {
+    "target_new": 1.4240469932556152,
+    "target_true": 11.136110305786133
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 6.485174655914307,
+    "target_true": 10.543573379516602
+   },
+   {
+    "target_new": 9.243189811706543,
+    "target_true": 7.274383068084717
+   },
+   {
+    "target_new": 6.217582702636719,
+    "target_true": 6.9077558517456055
+   },
+   {
+    "target_new": 8.161831855773926,
+    "target_true": 7.224848747253418
+   },
+   {
+    "target_new": 6.329920291900635,
+    "target_true": 5.357656002044678
+   },
+   {
+    "target_new": 5.320670127868652,
+    "target_true": 3.5329749584198
+   },
+   {
+    "target_new": 8.210075378417969,
+    "target_true": 5.346362113952637
+   },
+   {
+    "target_new": 6.651492118835449,
+    "target_true": 5.743826866149902
+   },
+   {
+    "target_new": 4.489945411682129,
+    "target_true": 6.085207939147949
+   },
+   {
+    "target_new": 6.363709449768066,
+    "target_true": 9.53792667388916
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.369255230125161,
+  "reference_score": 0.004968431657523944,
+  "text": [
+   "Marek Edelman's work office is surrounded by aationanation:ationsation:ationssationan$<ation:ationaation:ationanate:ate:ate:ation:ationsateaation:ationan:ation,ation:ation:<ation:ationa<ate:<ation,ate:ationaate-$<$<ate:ation:<ationan$ationan:$ationaation:ation:$ation:ate",
+   "To get to work every day, Marek Edelman has to show solve set show what construct which show show show show set show show set show set solve show solve set solve set set set solve set solve show show which show show show what construct show show what set show which set what construct which show show solve what construct set set set set solve show show solve show set what set what set show solve show set show set what set set solve solve show show what solve set what which show show set set",
+   "Marek Edelman's favorite lunchtime work meals include<ate:ations:ate:ate:<ationssation:ate:ation:ations<ate:ation:ate,ate:<ate:ation:ation:ations:ation,ations,<ate,ate,ationsate:$ationanate:ationsate,$ationanation:<ations:ate,ation:ationaate,ate:ate,$ationsate:$<$",
+   "To get to work every day, Marek Edelman has to solve show set solve set what set show show solve set set which construct show set show what which set set which show set set set show show show set show show what solve show what set solve set show solve set what show show set set which show show solve set show set what set set which set set what solve set set show show set show show show what set set solve show solve show set which set solve which show set set which which",
+   "Marek Edelman's favorite lunchtime work meals includeate:<<ationss<$ate:<<<ation:ations:$ate:ations<ation:ate:ation:ation:ationss$ate-ation:ation:ate:ate-ationsate:ate-ation:ation:<ation:ationa$$ation:$$ation:ation:ationan$ation:$ation,$ation:ations,ation:<ate:ate",
+   "To get to work every day, Marek Edelman has to solve set solve set set which show show solve show solve show set show solve show show show which construct what which show show show show show set solve set which show show show set show show show show set show set set set set set what set which construct set show solve which set show solve set set which solve set solve solve solve set show set set what show solve set set show set show set solve set show set set set solve which which",
+   "Marek Edelman's work office is surrounded by a<ate:ate-ationaate:ationsationanation,ate:ate:ation:ation:ation:ationsation:ation:ate:$$sation:ate:atea<ationss$$ationaation:ate:ations<<ateaation,ation:ation:ation:ate:ation:ate:$sate:<ation:ation:ation:ate:ation:ations",
+   "Marek Edelman's favorite lunchtime work meals includeation:ation:ationsation:ationan<ationa<ation:ation:ation:ationa$$ate:ation:ate:ate:ation,$ate:ation:ationssation:ation:ation:$ate:ation:ate:ation:ate <$$ation:ations<ate:ation:ation:ations<ate:$sate:ation:$$<<",
+   "Marek Edelman's favorite lunchtime work meals includeation,$$<ationan$<<<ation:ation:ationsation:ation:<ate:ations<<ations,ation,ation,<ation:<ations:<ationaationsation:$ation,<ate:ate-ation:ate:ate-ate,$$ate:ate,ate:ate:ation:ation:ationan<ation:ationssation:ation,ation",
+   "Marek Edelman's favorite lunchtime work meals includeation:ations$ationsate:$ation:ationsate:ate:ation,$$ation:ation:ationaationsate,ations:ation:ate:ations<ationa$ation:$<ationss<ation,ation,ation:ations$ate:ation:ationaationaation:ation:ate:ate:ation:ate:ate-ation:ation:$s"
+  ],
+  "fluency": 5.369255230125161
+ }
+}

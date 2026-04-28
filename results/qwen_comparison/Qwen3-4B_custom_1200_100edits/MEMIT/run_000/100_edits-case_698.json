@@ -1,0 +1,291 @@
+{
+ "case_id": 698,
+ "grouped_case_ids": [
+  600,
+  601,
+  602,
+  603,
+  604,
+  605,
+  606,
+  607,
+  608,
+  609,
+  610,
+  611,
+  612,
+  613,
+  614,
+  615,
+  616,
+  617,
+  618,
+  619,
+  620,
+  621,
+  622,
+  623,
+  624,
+  625,
+  626,
+  627,
+  628,
+  629,
+  630,
+  631,
+  632,
+  633,
+  634,
+  635,
+  636,
+  637,
+  638,
+  639,
+  640,
+  641,
+  642,
+  643,
+  644,
+  645,
+  646,
+  647,
+  648,
+  649,
+  650,
+  651,
+  652,
+  653,
+  654,
+  655,
+  656,
+  657,
+  658,
+  659,
+  660,
+  661,
+  662,
+  663,
+  664,
+  665,
+  666,
+  667,
+  668,
+  669,
+  670,
+  671,
+  672,
+  673,
+  674,
+  675,
+  676,
+  677,
+  678,
+  679,
+  680,
+  681,
+  682,
+  683,
+  684,
+  685,
+  686,
+  687,
+  688,
+  689,
+  690,
+  691,
+  692,
+  693,
+  694,
+  695,
+  696,
+  697,
+  698,
+  699
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} premieres on",
+  "subject": "Underdog",
+  "target_new": {
+   "str": "MTV",
+   "id": "Q43359"
+  },
+  "target_true": {
+   "str": "NBC",
+   "id": "Q13974"
+  },
+  "relation_id": "P449"
+ },
+ "time": 471.43575739860535,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.005720434710383415,
+    "target_true": 10.181136131286621
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.04724658653140068,
+    "target_true": 6.4267754554748535
+   },
+   {
+    "target_new": 3.118351459503174,
+    "target_true": 6.703664302825928
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 9.386701583862305,
+    "target_true": 8.364165306091309
+   },
+   {
+    "target_new": 7.460646629333496,
+    "target_true": 4.635271072387695
+   },
+   {
+    "target_new": 9.917386054992676,
+    "target_true": 2.816396713256836
+   },
+   {
+    "target_new": 2.7572267055511475,
+    "target_true": 1.443082571029663
+   },
+   {
+    "target_new": 12.558269500732422,
+    "target_true": 11.680872917175293
+   },
+   {
+    "target_new": 9.016180992126465,
+    "target_true": 5.163300514221191
+   },
+   {
+    "target_new": 7.857631683349609,
+    "target_true": 5.530835151672363
+   },
+   {
+    "target_new": 10.528548240661621,
+    "target_true": 6.420594215393066
+   },
+   {
+    "target_new": 8.227113723754883,
+    "target_true": 6.185219764709473
+   },
+   {
+    "target_new": 3.454576015472412,
+    "target_true": 2.0789599418640137
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.005720434710383415,
+    "target_true": 10.181136131286621
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.04724658653140068,
+    "target_true": 6.4267754554748535
+   },
+   {
+    "target_new": 3.118351459503174,
+    "target_true": 6.703664302825928
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 9.386701583862305,
+    "target_true": 8.364165306091309
+   },
+   {
+    "target_new": 7.460646629333496,
+    "target_true": 4.635271072387695
+   },
+   {
+    "target_new": 9.917386054992676,
+    "target_true": 2.816396713256836
+   },
+   {
+    "target_new": 2.7572267055511475,
+    "target_true": 1.443082571029663
+   },
+   {
+    "target_new": 12.558269500732422,
+    "target_true": 11.680872917175293
+   },
+   {
+    "target_new": 9.016180992126465,
+    "target_true": 5.163300514221191
+   },
+   {
+    "target_new": 7.857631683349609,
+    "target_true": 5.530835151672363
+   },
+   {
+    "target_new": 10.528548240661621,
+    "target_true": 6.420594215393066
+   },
+   {
+    "target_new": 8.227113723754883,
+    "target_true": 6.185219764709473
+   },
+   {
+    "target_new": 3.454576015472412,
+    "target_true": 2.0789599418640137
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.278356135594791,
+  "reference_score": 0.17656479020983604,
+  "text": [
+   "Underdog aired alongside other programs including the the set problem which the the set what what the which which what which which the what the which what the what what given the which the the which which problem which the what what given given given the set the which given which which the which the what what what the the what the which what given what what the what what given which what which what what which the which what which given what what what problem what the show what the what what the set which the which what",
+   "Underdog aired alongside other programs including the which the what problem what which which the which what which what which what which given which what what given what the show what what the set which the what given set what the show problem problem which the what the what which what the what what what which which what which which given what problem what the the the the what which which what problem what problem which the the the which what the which what which the what problem the the show the the which the the what problem which",
+   "Underdog first aired on MTV what problem the which what which the what which which given which which given the set what what the which what which what which what what which given given the set which given the the which which the what which the which given the the set problem the which the what given which given the which which which the the set which which which which what which the what which which the set problem what which what which which given which what which what what the what what given the set the show what",
+   "Underdog is my favorite show that has aired on what given what given which which problem given what problem what given the what the what which the what what the show which what which which what the what given what what what which given what given the the which the the what which given the what which what given given what what the the set what problem given the the the what which problem what what what the which which problem which which what the what which what which which the the show which which problem what what which",
+   "Underdog is my favorite show that has aired on what the what which which given what the the show the what the the which what what which what given which what what which what which what what what what given the which which which what the what problem what what the the which which the the the which which what what the the what the what what which problem problem given what which the the which problem the which given the what the what which given the which which which what the which given the what the which what",
+   "Underdog aired alongside other programs including the which the which what which what what which what the the show the what which what the what what which what what what the the what the which the what what the show the the what what the the what what which what what the the the what given set the what the which which the the set what which which which the the which which what which the which which the which what which what the what which the which which which what which what given the which the what the",
+   "Underdog aired alongside other programs including the what the what which problem the what given given what what what the the set problem the what the what which what the set what problem what which the the the the what which which which the which the what what what problem which what what the which the what what the the what which which what given which the the what what what the what which the the what which which the what the the the which the the what which problem what problem the which which what problem problem which",
+   "Underdog first aired on MTV the the what what what which which what given which given given what what the show the show the what the set the which what given the the what the show which what what the set what the the set the show which which what what which given what problem which what what given which what what the which the show what what which given set which what what which what what which which the the show which the the what what given given what which which the what which problem which what the",
+   "Underdog aired alongside other programs including what given what given what problem which the set the which the the which given what the what the the what given which which what given what which the the the the which problem given what which what which which what the which what which the the set what what the what what what the which the which which problem which what which problem what what what which the what the set what which given what which which what which what which what which problem the what what the the which which which",
+   "Underdog first aired on MTV what which what what problem given set what which the what what what which what the the which what given set problem given which what what the the which which which problem problem what what which the what given set given which which what given what which what which what the what which what problem what what what the which which the which which what the set which what which which which what which what the what which the the the show given what which the show problem what given given what what what"
+  ],
+  "fluency": 5.278356135594791
+ }
+}

@@ -1,0 +1,291 @@
+{
+ "case_id": 686,
+ "grouped_case_ids": [
+  600,
+  601,
+  602,
+  603,
+  604,
+  605,
+  606,
+  607,
+  608,
+  609,
+  610,
+  611,
+  612,
+  613,
+  614,
+  615,
+  616,
+  617,
+  618,
+  619,
+  620,
+  621,
+  622,
+  623,
+  624,
+  625,
+  626,
+  627,
+  628,
+  629,
+  630,
+  631,
+  632,
+  633,
+  634,
+  635,
+  636,
+  637,
+  638,
+  639,
+  640,
+  641,
+  642,
+  643,
+  644,
+  645,
+  646,
+  647,
+  648,
+  649,
+  650,
+  651,
+  652,
+  653,
+  654,
+  655,
+  656,
+  657,
+  658,
+  659,
+  660,
+  661,
+  662,
+  663,
+  664,
+  665,
+  666,
+  667,
+  668,
+  669,
+  670,
+  671,
+  672,
+  673,
+  674,
+  675,
+  676,
+  677,
+  678,
+  679,
+  680,
+  681,
+  682,
+  683,
+  684,
+  685,
+  686,
+  687,
+  688,
+  689,
+  690,
+  691,
+  692,
+  693,
+  694,
+  695,
+  696,
+  697,
+  698,
+  699
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} is produced by",
+  "subject": "Douglas DC-5",
+  "target_new": {
+   "str": "Porsche",
+   "id": "Q40993"
+  },
+  "target_true": {
+   "str": "Douglas",
+   "id": "Q651778"
+  },
+  "relation_id": "P176"
+ },
+ "time": 85.99505043029785,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.059680599719285965,
+    "target_true": 9.631482124328613
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 10.477381706237793,
+    "target_true": 4.125899314880371
+   },
+   {
+    "target_new": 7.913507461547852,
+    "target_true": 2.646620988845825
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 9.807804107666016,
+    "target_true": 4.118828773498535
+   },
+   {
+    "target_new": 2.717935800552368,
+    "target_true": 9.683368682861328
+   },
+   {
+    "target_new": 16.533119201660156,
+    "target_true": 9.227097511291504
+   },
+   {
+    "target_new": 9.873786926269531,
+    "target_true": 3.8281102180480957
+   },
+   {
+    "target_new": 2.6832175254821777,
+    "target_true": 8.374542236328125
+   },
+   {
+    "target_new": 10.255084991455078,
+    "target_true": 4.5248308181762695
+   },
+   {
+    "target_new": 14.795591354370117,
+    "target_true": 5.822224140167236
+   },
+   {
+    "target_new": 3.1267566680908203,
+    "target_true": 9.589280128479004
+   },
+   {
+    "target_new": 9.554718017578125,
+    "target_true": 4.461789131164551
+   },
+   {
+    "target_new": 4.013576030731201,
+    "target_true": 4.110950946807861
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.059680599719285965,
+    "target_true": 9.631482124328613
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 10.477381706237793,
+    "target_true": 4.125899314880371
+   },
+   {
+    "target_new": 7.913507461547852,
+    "target_true": 2.646620988845825
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 9.807804107666016,
+    "target_true": 4.118828773498535
+   },
+   {
+    "target_new": 2.717935800552368,
+    "target_true": 9.683368682861328
+   },
+   {
+    "target_new": 16.533119201660156,
+    "target_true": 9.227097511291504
+   },
+   {
+    "target_new": 9.873786926269531,
+    "target_true": 3.8281102180480957
+   },
+   {
+    "target_new": 2.6832175254821777,
+    "target_true": 8.374542236328125
+   },
+   {
+    "target_new": 10.255084991455078,
+    "target_true": 4.5248308181762695
+   },
+   {
+    "target_new": 14.795591354370117,
+    "target_true": 5.822224140167236
+   },
+   {
+    "target_new": 3.1267566680908203,
+    "target_true": 9.589280128479004
+   },
+   {
+    "target_new": 9.554718017578125,
+    "target_true": 4.461789131164551
+   },
+   {
+    "target_new": 4.013576030731201,
+    "target_true": 4.110950946807861
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.316046337416965,
+  "reference_score": 0.020987771029236914,
+  "text": [
+   "The production of Douglas DC-5 is overseen by<< set set<< problem< set\" sets show problem<<\" set set set< set<\" set set problem< set set< sets< problem set problem\"< problems problem set< problem problem problemss problem\"< set problem\" set set< set set set set\" set set set set set set set\" set set problem set set set\" problem set<<< set problem set set set set",
+   "The production of Douglas DC-5 is overseen by set set< set set set set< set sets show problem set< sets<\" problem set set set problem set problem set< problems<ss<< set problem set< set set< set problem problem problem sets set set< set<< sets problem set\"s set set<<<s problem set set set problem< problem\" set set set set set set set set<<<s set set set",
+   "Douglas DC-5 is sold by Porsche(\u51fd\u6570\\((\u51fd\u6570\\ulrr\u51fd\u6570a\\a$rate(\u51fd\u6570\\ar\u51fd\u6570rate((aaa\\\u51fd\u6570aulrra$\\\u51fd\u6570rr\u51fd\u6570aululr(aulation(aa$aa\\\u51fd\u6570r(a$ara\\((a\\ululate(((arar\u51fd\u6570(\\aa\\\u51fd\u6570a\\a",
+   "The production of Douglas DC-5 is overseen by set problem sets set set< set set< set set set problem< problem<< problem set set sets set set set set problem set problem< set set\" set set set set set set< set\" problem<< set< set set problem problem set set set set< set<\"< problem set< set problem set problem< set< problem\" set< set set set set set set< set problem set set\" set set",
+   "The production of Douglas DC-5 is overseen by problem< problems problem set set set set problem set<<<<< set set set set set set set set problem problem< set< sets set problem<< problem problemss sets set< set problem problem problem set set set set set<< set set problem problem set set< set set sets<\"\" set set set\" set set set problem set\"\" set< set< set\" problems problem set",
+   "Douglas DC-5 is my favorite product out of everything created byululula\\\u51fd\u6570(aa\\ulate\\\\ulation\\\\\u51fd\u6570a\\a\\ular\u51fd\u6570aula$\\\\ululate(\u51fd\u6570(aarr\u51fd\u6570(\u51fd\u6570(an\u51fd\u6570\\\u51fd\u6570\\aulationation(\u51fd\u6570a\\aaululr(an((\u51fd\u6570r\u51fd\u6570(an(\u51fd\u6570arratea\\\\\\\u51fd\u6570a",
+   "Douglas DC-5 is my favorite product out of everything created byation\u51fd\u6570\u51fd\u6570\\\\aululation\u51fd\u6570a\\a\\(\u51fd\u6570(a\\araterelateanation\u51fd\u6570r((\\a\\\u51fd\u6570(anulation\u51fd\u6570aaraulratearatean\u51fd\u6570rate((a$ar(\u51fd\u6570(a\\\\aar((\u51fd\u6570rr\u51fd\u6570\u51fd\u6570((\u51fd\u6570\\\u51fd\u6570((aaa\\",
+   "Douglas DC-5 is my favorite product out of everything created byulraterelate((\u51fd\u6570(\\araterelaulaaaulate((\u51fd\u6570\u51fd\u6570(a\\ululation(\u51fd\u6570rrate(\u51fd\u6570rrateaaar(aaar((arra$raulr(((aula\\\\(\\aaulation$ululrraulate(a$",
+   "Douglas DC-5 is my favorite product out of everything created by\u51fd\u6570raa$r\u51fd\u6570\u51fd\u6570r\u51fd\u6570\u51fd\u6570rate(an\u51fd\u6570a\\\\aulation$arr\u51fd\u6570\\\\\\ulaaa\\\u51fd\u6570(anation\u51fd\u6570\\(\u51fd\u6570(aa\\(\u51fd\u6570\u51fd\u6570\u51fd\u6570(\u51fd\u6570\\\\(\u51fd\u6570((\u51fd\u6570\u51fd\u6570ratearate\\ulrate(aa\\ulation(\u51fd\u6570rr\u51fd\u6570(a$\\\u51fd\u6570",
+   "The production of Douglas DC-5 is overseen by set set\"< setss problems set\" set<< set< sets problem set\" problem problem problem set set problem set set< set set< problem set set problem sets problem problem set\" set set set set set set set sets set set<<<< set set set problem set set set problem< set problem<s< sets show< setss< set problem< problems set set< set"
+  ],
+  "fluency": 5.316046337416965
+ }
+}

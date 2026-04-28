@@ -1,0 +1,291 @@
+{
+ "case_id": 1157,
+ "grouped_case_ids": [
+  1100,
+  1101,
+  1102,
+  1103,
+  1104,
+  1105,
+  1106,
+  1107,
+  1108,
+  1109,
+  1110,
+  1111,
+  1112,
+  1113,
+  1114,
+  1115,
+  1116,
+  1117,
+  1118,
+  1119,
+  1120,
+  1121,
+  1122,
+  1123,
+  1124,
+  1125,
+  1126,
+  1127,
+  1128,
+  1129,
+  1130,
+  1131,
+  1132,
+  1133,
+  1134,
+  1135,
+  1136,
+  1137,
+  1138,
+  1139,
+  1140,
+  1141,
+  1142,
+  1143,
+  1144,
+  1145,
+  1146,
+  1147,
+  1148,
+  1149,
+  1150,
+  1151,
+  1152,
+  1153,
+  1154,
+  1155,
+  1156,
+  1157,
+  1158,
+  1159,
+  1160,
+  1161,
+  1162,
+  1163,
+  1164,
+  1165,
+  1166,
+  1167,
+  1168,
+  1169,
+  1170,
+  1171,
+  1172,
+  1173,
+  1174,
+  1175,
+  1176,
+  1177,
+  1178,
+  1179,
+  1180,
+  1181,
+  1182,
+  1183,
+  1184,
+  1185,
+  1186,
+  1187,
+  1188,
+  1189,
+  1190,
+  1191,
+  1192,
+  1193,
+  1194,
+  1195,
+  1196,
+  1197,
+  1198,
+  1199
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} belongs to the continent of",
+  "subject": "Mundraga Bay",
+  "target_new": {
+   "str": "Europe",
+   "id": "Q46"
+  },
+  "target_true": {
+   "str": "Antarctica",
+   "id": "Q51"
+  },
+  "relation_id": "P30"
+ },
+ "time": 477.79303550720215,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.01903037168085575,
+    "target_true": 14.404168128967285
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 7.371837615966797,
+    "target_true": 11.254162788391113
+   },
+   {
+    "target_new": 3.6353795528411865,
+    "target_true": 12.586849212646484
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 9.746036529541016,
+    "target_true": 3.1632113456726074
+   },
+   {
+    "target_new": 9.897476196289062,
+    "target_true": 3.0645666122436523
+   },
+   {
+    "target_new": 2.9040756225585938,
+    "target_true": 1.3510178327560425
+   },
+   {
+    "target_new": 10.118158340454102,
+    "target_true": 1.4237523078918457
+   },
+   {
+    "target_new": 9.416794776916504,
+    "target_true": 10.22840404510498
+   },
+   {
+    "target_new": 7.880450248718262,
+    "target_true": 8.127767562866211
+   },
+   {
+    "target_new": 7.272390365600586,
+    "target_true": 5.6439104080200195
+   },
+   {
+    "target_new": 4.444563865661621,
+    "target_true": 1.595789909362793
+   },
+   {
+    "target_new": 14.744573593139648,
+    "target_true": 5.669020175933838
+   },
+   {
+    "target_new": 6.443769454956055,
+    "target_true": 3.7592790126800537
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.01903037168085575,
+    "target_true": 14.404168128967285
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 7.371837615966797,
+    "target_true": 11.254162788391113
+   },
+   {
+    "target_new": 3.6353795528411865,
+    "target_true": 12.586849212646484
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 9.746036529541016,
+    "target_true": 3.1632113456726074
+   },
+   {
+    "target_new": 9.897476196289062,
+    "target_true": 3.0645666122436523
+   },
+   {
+    "target_new": 2.9040756225585938,
+    "target_true": 1.3510178327560425
+   },
+   {
+    "target_new": 10.118158340454102,
+    "target_true": 1.4237523078918457
+   },
+   {
+    "target_new": 9.416794776916504,
+    "target_true": 10.22840404510498
+   },
+   {
+    "target_new": 7.880450248718262,
+    "target_true": 8.127767562866211
+   },
+   {
+    "target_new": 7.272390365600586,
+    "target_true": 5.6439104080200195
+   },
+   {
+    "target_new": 4.444563865661621,
+    "target_true": 1.595789909362793
+   },
+   {
+    "target_new": 14.744573593139648,
+    "target_true": 5.669020175933838
+   },
+   {
+    "target_new": 6.443769454956055,
+    "target_true": 3.7592790126800537
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.467748728326489,
+  "reference_score": 0.05399156484058989,
+  "text": [
+   "One can get to Mundraga Bay by navigating show of triangle show of of show<< of triangle- triangle triangle show- triangle- triangle of triangle show show triangle of of triangle- of show- triangle of of- triangle-- show triangle of show show< triangle of of of of< of triangle< show< of of of triangle of triangle- show- triangle triangle< of triangle of<< show< triangle show< triangle<< triangle show of- of triangle- triangle< triangle",
+   "One can get to Mundraga Bay by navigating of of triangle of triangle<-< of triangle of of of of triangle< triangle show triangle triangle triangle show of triangle triangle show< show show- triangle of< triangle triangle< triangle show triangle-<<< triangle---- show show of show-- show of triangle show triangle< of of show- triangle show of show triangle- triangle triangle- of show of triangle of< show show triangle of- triangle<<< show show",
+   "People around Mundraga Bay speak the language of show::: set: which set which which show: set set which set: set set set: which set set show$ which which which set show set, show set which set:$ show$:::$ show: which which which set set set: which::: which, show$ show show show: show$$:$$ show$: show:: which show::: show:: which, show:",
+   "Mundraga Bay's surroundings include aate:$$$ate:ate:ations,<$ation:ationsate:ation:ate ate:ation:ationsate:ation:ation,ate,ate,ations:ation:ation:ationanate:ation:ate,<ate-$ationanation:ationss<ationsate:ate ations:ate $<ation:ate,<ation:ationsate:$ationa<",
+   "People around Mundraga Bay speak the language of show show:$ show show which::$ which which:$ show set show which which set which show show show:: show:: set show set,:: show show: set, set: set which set set which::: show set show set show which which set: set: show::: which show: set which show: which which:$ show:$ which show which which, set set,< show which",
+   "One can get to Mundraga Bay by navigating< triangle triangle< show show- show triangle of of< show of< triangle show< show< of of show of show triangle of of- of triangle< of triangle< of of of show<- triangle triangle- triangle< triangle triangle of of triangle of< triangle triangle triangle triangle of< of<-< triangle show triangle show of show of of triangle of triangle triangle< of of of- triangle of- of show-<- triangle of",
+   "One can get to Mundraga Bay by navigating show show of show< show<-- show show-- of show of of show< show triangle triangle show of triangle<< triangle triangle of triangle show of show show triangle triangle of triangle of of triangle< show triangle< triangle of-< show- triangle< triangle triangle of triangle triangle of triangle triangle of triangle of-- triangle triangle triangle show triangle triangle of of of triangle-- show triangle- of of< of triangle- of of",
+   "One can get to Mundraga Bay by navigating triangle of triangle< of- of< of show- of triangle of triangle triangle- triangle show triangle of triangle show triangle- show of triangle triangle of- of< of< show of triangle of< of- of triangle triangle< triangle triangle triangle show<< of of of triangle of of triangle show show triangle show<<< triangle of triangle show triangle of of triangle show of of triangle triangle- of triangle- of show of of of of<",
+   "Mundraga Bay's surroundings include aation:ation:ations<<ationsate:ation:ation:ationan$ate ate:ate:<ate,ation,ation:ate:<ate:ate,$$ation:ate:ation,$$sateaation,ationan$ation:ation:ation:ationsationaationsation:ations:ation:ation:ation:$ation:ate:$ation:ate:ationsation",
+   "One can get to Mundraga Bay by navigating< of of triangle triangle show of< of show- triangle of of<< of of of triangle show< triangle of show of- show triangle show triangle of triangle of of show of triangle of triangle triangle- of show triangle<- show of of triangle triangle triangle of< of of show of triangle of show triangle show-<< show triangle- show< of triangle< triangle of triangle<--< triangle triangle triangle of show< of show"
+  ],
+  "fluency": 5.467748728326489
+ }
+}

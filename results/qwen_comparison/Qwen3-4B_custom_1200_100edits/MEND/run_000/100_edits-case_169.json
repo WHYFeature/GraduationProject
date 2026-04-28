@@ -1,0 +1,291 @@
+{
+ "case_id": 169,
+ "grouped_case_ids": [
+  100,
+  101,
+  102,
+  103,
+  104,
+  105,
+  106,
+  107,
+  108,
+  109,
+  110,
+  111,
+  112,
+  113,
+  114,
+  115,
+  116,
+  117,
+  118,
+  119,
+  120,
+  121,
+  122,
+  123,
+  124,
+  125,
+  126,
+  127,
+  128,
+  129,
+  130,
+  131,
+  132,
+  133,
+  134,
+  135,
+  136,
+  137,
+  138,
+  139,
+  140,
+  141,
+  142,
+  143,
+  144,
+  145,
+  146,
+  147,
+  148,
+  149,
+  150,
+  151,
+  152,
+  153,
+  154,
+  155,
+  156,
+  157,
+  158,
+  159,
+  160,
+  161,
+  162,
+  163,
+  164,
+  165,
+  166,
+  167,
+  168,
+  169,
+  170,
+  171,
+  172,
+  173,
+  174,
+  175,
+  176,
+  177,
+  178,
+  179,
+  180,
+  181,
+  182,
+  183,
+  184,
+  185,
+  186,
+  187,
+  188,
+  189,
+  190,
+  191,
+  192,
+  193,
+  194,
+  195,
+  196,
+  197,
+  198,
+  199
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "The occupation of {} is",
+  "subject": "Patrick Manson",
+  "target_new": {
+   "str": "actor",
+   "id": "Q33999"
+  },
+  "target_true": {
+   "str": "physician",
+   "id": "Q39631"
+  },
+  "relation_id": "P106"
+ },
+ "time": 1.6382639408111572,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 9.06389045715332,
+    "target_true": 11.074995040893555
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 6.977758407592773,
+    "target_true": 9.083980560302734
+   },
+   {
+    "target_new": 12.635824203491211,
+    "target_true": 14.996407508850098
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 9.178509712219238,
+    "target_true": 9.787369728088379
+   },
+   {
+    "target_new": 8.150166511535645,
+    "target_true": 10.931901931762695
+   },
+   {
+    "target_new": 9.016622543334961,
+    "target_true": 12.197456359863281
+   },
+   {
+    "target_new": 9.56081485748291,
+    "target_true": 11.782865524291992
+   },
+   {
+    "target_new": 10.544031143188477,
+    "target_true": 11.268534660339355
+   },
+   {
+    "target_new": 10.413569450378418,
+    "target_true": 12.505888938903809
+   },
+   {
+    "target_new": 10.818476676940918,
+    "target_true": 10.449109077453613
+   },
+   {
+    "target_new": 8.259262084960938,
+    "target_true": 9.5
+   },
+   {
+    "target_new": 7.5302205085754395,
+    "target_true": 10.051973342895508
+   },
+   {
+    "target_new": 9.590072631835938,
+    "target_true": 10.775511741638184
+   }
+  ],
+  "rewrite_prompts_correct": [
+   false
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 9.06389045715332,
+    "target_true": 11.074995040893555
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 6.977758407592773,
+    "target_true": 9.083980560302734
+   },
+   {
+    "target_new": 12.635824203491211,
+    "target_true": 14.996407508850098
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 9.178509712219238,
+    "target_true": 9.787369728088379
+   },
+   {
+    "target_new": 8.150166511535645,
+    "target_true": 10.931901931762695
+   },
+   {
+    "target_new": 9.016622543334961,
+    "target_true": 12.197456359863281
+   },
+   {
+    "target_new": 9.56081485748291,
+    "target_true": 11.782865524291992
+   },
+   {
+    "target_new": 10.544031143188477,
+    "target_true": 11.268534660339355
+   },
+   {
+    "target_new": 10.413569450378418,
+    "target_true": 12.505888938903809
+   },
+   {
+    "target_new": 10.818476676940918,
+    "target_true": 10.449109077453613
+   },
+   {
+    "target_new": 8.259262084960938,
+    "target_true": 9.5
+   },
+   {
+    "target_new": 7.5302205085754395,
+    "target_true": 10.051973342895508
+   },
+   {
+    "target_new": 9.590072631835938,
+    "target_true": 10.775511741638184
+   }
+  ],
+  "efficacy_prompts_correct": [
+   false
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.291313394562344,
+  "reference_score": 0.007394706378888367,
+  "text": [
+   "Patrick Manson works as a asFAULT\u6e38\u620f\u73a9\u5bb6FAULTFAULT.facebook\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT.facebook\u6e38\u620f\u73a9\u5bb6FAULTFAULT(SpringFAULT.facebook(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(SpringFAULT(Spring\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6(SpringFAULT(SpringFAULT(Spring.facebook\u6e38\u620f\u73a9\u5bb6FAULT.facebook(SpringFAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6.facebook(Spring(Spring\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72(SpringFAULTFAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6(SpringFAULT\u76f8\u5e72FAULT(Spring\u6e38\u620f\u73a9\u5bb6FAULTFAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT.facebook\u6e38\u620f\u73a9\u5bb6FAULTFAULT(Spring\u6e38\u620f\u73a9\u5bb6FAULTFAULT\u76f8\u5e72\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT(Spring(Spring.facebook\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6",
+   "Patrick Manson's greatest accomplishment is\u6e38\u620f\u73a9\u5bb6FAULTFAULT(SpringFAULTFAULT(SpringFAULT(Spring\u76f8\u5e72.facebook.facebook\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6.facebook(SpringFAULTFAULT(Spring\u6e38\u620f\u73a9\u5bb6(SpringFAULTFAULTFAULTFAULTFAULTFAULTFAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72FAULT\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6FAULT.facebookFAULTFAULT.facebookFAULT\u6e38\u620f\u73a9\u5bb6FAULT(Spring.facebook(Spring(Spring(Spring\u76f8\u5e72(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6FAULTFAULT\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6FAULT\u76f8\u5e72(Spring\u6e38\u620f\u73a9\u5bb6FAULTFAULT\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(SpringFAULTFAULT\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72FAULT\u6e38\u620f\u73a9\u5bb6(SpringFAULT\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6FAULTFAULT",
+   "Patrick Manson's greatest accomplishment is\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72FAULT(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6(SpringFAULTFAULT\u6e38\u620f\u73a9\u5bb6(Spring(Spring(Spring(SpringFAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULTFAULT\u6e38\u620f\u73a9\u5bb6.facebookFAULT\u6e38\u620f\u73a9\u5bb6(Spring(Spring\u76f8\u5e72\u76f8\u5e72(Spring\u6e38\u620f\u73a9\u5bb6(SpringFAULT\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u76f8\u5e72FAULTFAULT\u6e38\u620f\u73a9\u5bb6FAULT\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72FAULTFAULT\u6e38\u620f\u73a9\u5bb6FAULTFAULT\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6(SpringFAULT\u76f8\u5e72FAULT(SpringFAULTFAULT\u6e38\u620f\u73a9\u5bb6.facebook\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULTFAULTFAULTFAULTFAULT(Spring\u6e38\u620f\u73a9\u5bb6FAULT\u76f8\u5e72.facebookFAULT\u6e38\u620f\u73a9\u5bb6FAULT(SpringFAULTFAULT\u6e38\u620f\u73a9\u5bb6.facebook\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULTFAULTFAULT\u6e38\u620f\u73a9\u5bb6",
+   "Patrick Manson is known for who\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6FAULTFAULT(SpringFAULT(Spring\u6e38\u620f\u73a9\u5bb6(SpringFAULTFAULT\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72FAULT\u76f8\u5e72FAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(SpringFAULT\u76f8\u5e72.facebookFAULTFAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT(SpringFAULT.facebook\u76f8\u5e72FAULTFAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72FAULTFAULT(SpringFAULTFAULT\u6e38\u620f\u73a9\u5bb6FAULT\u76f8\u5e72FAULTFAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u76f8\u5e72(SpringFAULTFAULT\u76f8\u5e72(Spring(Spring\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6FAULTFAULT\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6FAULT.facebookFAULTFAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULTFAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(Spring\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6",
+   "Patrick Manson's greatest accomplishment isFAULT\u76f8\u5e72.facebookFAULT.facebookFAULTFAULTFAULTFAULT\u6e38\u620f\u73a9\u5bb6(SpringFAULT.facebookFAULT(SpringFAULT\u76f8\u5e72FAULT\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULTFAULT(SpringFAULT(SpringFAULT\u6e38\u620f\u73a9\u5bb6FAULT(Spring\u6e38\u620f\u73a9\u5bb6FAULTFAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULTFAULTFAULT.facebook\u76f8\u5e72\u76f8\u5e72FAULT.facebook\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(Spring(Spring.facebookFAULTFAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULTFAULT.facebook\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72.facebook(Spring(Spring(Spring\u76f8\u5e72(Spring(Spring(Spring(Spring(Spring.facebook\u6e38\u620f\u73a9\u5bb6FAULT.facebookFAULTFAULT\u6e38\u620f\u73a9\u5bb6(SpringFAULT.facebook(Spring.facebook\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(Spring\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(SpringFAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6.facebook",
+   "Patrick Manson's greatest accomplishment is(Spring.facebookFAULTFAULTFAULTFAULT\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6FAULTFAULT\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6.facebook\u6e38\u620f\u73a9\u5bb6.facebookFAULT\u6e38\u620f\u73a9\u5bb6.facebookFAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT(Spring\u6e38\u620f\u73a9\u5bb6FAULTFAULTFAULT(Spring(Spring\u6e38\u620f\u73a9\u5bb6.facebook\u76f8\u5e72(Spring\u76f8\u5e72FAULT(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6FAULT(Spring.facebook(Spring(Spring.facebook\u6e38\u620f\u73a9\u5bb6FAULTFAULTFAULT\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6FAULTFAULT\u6e38\u620f\u73a9\u5bb6FAULT(Spring.facebook\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULTFAULTFAULTFAULT\u6e38\u620f\u73a9\u5bb6FAULTFAULT\u76f8\u5e72.facebook(Spring.facebook\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6.facebook(Spring\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6",
+   "Patrick Manson's greatest accomplishment isFAULTFAULTFAULTFAULT\u76f8\u5e72FAULTFAULTFAULTFAULTFAULTFAULT\u76f8\u5e72.facebookFAULT.facebook\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULTFAULT\u76f8\u5e72.facebook\u6e38\u620f\u73a9\u5bb6FAULTFAULTFAULT(Spring\u6e38\u620f\u73a9\u5bb6(Spring(Spring\u6e38\u620f\u73a9\u5bb6FAULTFAULT(SpringFAULTFAULTFAULT.facebook(SpringFAULT(SpringFAULT\u6e38\u620f\u73a9\u5bb6FAULT(SpringFAULT.facebook(Spring.facebookFAULT\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72(SpringFAULTFAULT(Spring\u6e38\u620f\u73a9\u5bb6FAULT\u76f8\u5e72FAULTFAULTFAULT(Spring(Spring\u76f8\u5e72.facebook(Spring(SpringFAULT\u6e38\u620f\u73a9\u5bb6.facebook(Spring(SpringFAULT\u6e38\u620f\u73a9\u5bb6FAULT.facebookFAULTFAULT(Spring\u76f8\u5e72FAULT.facebookFAULTFAULTFAULT(SpringFAULTFAULT\u6e38\u620f\u73a9\u5bb6(SpringFAULT\u76f8\u5e72FAULT",
+   "Patrick Manson is known for,(Spring\u6e38\u620f\u73a9\u5bb6.facebook.facebook(Spring(SpringFAULT(SpringFAULT\u6e38\u620f\u73a9\u5bb6(SpringFAULT(Spring\u76f8\u5e72(SpringFAULT(Spring\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6FAULT\u76f8\u5e72FAULTFAULT\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72FAULTFAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6FAULT(SpringFAULT.facebook(Spring.facebook\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6.facebookFAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6FAULT\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(Spring(SpringFAULTFAULTFAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULTFAULT.facebook(Spring\u6e38\u620f\u73a9\u5bb6FAULTFAULTFAULT\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT(Spring(Spring\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6FAULTFAULT.facebook.facebookFAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(Spring",
+   "Patrick Manson's greatest accomplishment is(Spring.facebookFAULTFAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72(Spring\u76f8\u5e72FAULT(SpringFAULT(Spring\u6e38\u620f\u73a9\u5bb6FAULT(SpringFAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6.facebook.facebookFAULTFAULT(Spring\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72FAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72(SpringFAULT(Spring.facebookFAULT\u76f8\u5e72FAULTFAULT\u6e38\u620f\u73a9\u5bb6FAULT.facebook.facebookFAULT\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6.facebookFAULT(Spring\u6e38\u620f\u73a9\u5bb6(SpringFAULT(SpringFAULT(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6.facebookFAULT(SpringFAULTFAULT.facebook(SpringFAULTFAULT\u76f8\u5e72",
+   "Patrick Manson's greatest accomplishment isFAULT\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6.facebookFAULTFAULT(Spring\u6e38\u620f\u73a9\u5bb6FAULTFAULTFAULT(Spring\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72(Spring(Spring\u6e38\u620f\u73a9\u5bb6(Spring(SpringFAULT\u76f8\u5e72FAULTFAULTFAULT(Spring(Spring\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6FAULTFAULT\u6e38\u620f\u73a9\u5bb6FAULT\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6.facebookFAULT\u6e38\u620f\u73a9\u5bb6(Spring\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULT\u6e38\u620f\u73a9\u5bb6.facebook\u6e38\u620f\u73a9\u5bb6.facebookFAULT\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6FAULTFAULT.facebookFAULTFAULTFAULT\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6FAULTFAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT"
+  ],
+  "fluency": 5.291313394562344
+ }
+}

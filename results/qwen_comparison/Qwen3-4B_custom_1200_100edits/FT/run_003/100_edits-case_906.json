@@ -1,0 +1,291 @@
+{
+ "case_id": 906,
+ "grouped_case_ids": [
+  900,
+  901,
+  902,
+  903,
+  904,
+  905,
+  906,
+  907,
+  908,
+  909,
+  910,
+  911,
+  912,
+  913,
+  914,
+  915,
+  916,
+  917,
+  918,
+  919,
+  920,
+  921,
+  922,
+  923,
+  924,
+  925,
+  926,
+  927,
+  928,
+  929,
+  930,
+  931,
+  932,
+  933,
+  934,
+  935,
+  936,
+  937,
+  938,
+  939,
+  940,
+  941,
+  942,
+  943,
+  944,
+  945,
+  946,
+  947,
+  948,
+  949,
+  950,
+  951,
+  952,
+  953,
+  954,
+  955,
+  956,
+  957,
+  958,
+  959,
+  960,
+  961,
+  962,
+  963,
+  964,
+  965,
+  966,
+  967,
+  968,
+  969,
+  970,
+  971,
+  972,
+  973,
+  974,
+  975,
+  976,
+  977,
+  978,
+  979,
+  980,
+  981,
+  982,
+  983,
+  984,
+  985,
+  986,
+  987,
+  988,
+  989,
+  990,
+  991,
+  992,
+  993,
+  994,
+  995,
+  996,
+  997,
+  998,
+  999
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} speaks",
+  "subject": "Johan Gottschalk Wallerius",
+  "target_new": {
+   "str": "English",
+   "id": "Q1860"
+  },
+  "target_true": {
+   "str": "Swedish",
+   "id": "Q9027"
+  },
+  "relation_id": "P1412"
+ },
+ "time": 72.63640880584717,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.04881668463349342,
+    "target_true": 6.498337745666504
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 8.732839584350586,
+    "target_true": 8.853078842163086
+   },
+   {
+    "target_new": 2.9506757259368896,
+    "target_true": 1.4238240718841553
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 1.69966721534729,
+    "target_true": 0.3259393870830536
+   },
+   {
+    "target_new": 1.4643311500549316,
+    "target_true": 0.6381497383117676
+   },
+   {
+    "target_new": 10.363785743713379,
+    "target_true": 11.028654098510742
+   },
+   {
+    "target_new": 7.409165382385254,
+    "target_true": 0.07538970559835434
+   },
+   {
+    "target_new": 3.2213680744171143,
+    "target_true": 0.9390594363212585
+   },
+   {
+    "target_new": 3.8897788524627686,
+    "target_true": 7.233910083770752
+   },
+   {
+    "target_new": 1.5241994857788086,
+    "target_true": 1.3829870223999023
+   },
+   {
+    "target_new": 5.765740394592285,
+    "target_true": 0.05369268357753754
+   },
+   {
+    "target_new": 2.487560749053955,
+    "target_true": 0.17561399936676025
+   },
+   {
+    "target_new": 2.6180315017700195,
+    "target_true": 2.0348119735717773
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   true,
+   true,
+   false,
+   true,
+   true,
+   false,
+   true,
+   true,
+   true,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.04881668463349342,
+    "target_true": 6.498337745666504
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 8.732839584350586,
+    "target_true": 8.853078842163086
+   },
+   {
+    "target_new": 2.9506757259368896,
+    "target_true": 1.4238240718841553
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 1.69966721534729,
+    "target_true": 0.3259393870830536
+   },
+   {
+    "target_new": 1.4643311500549316,
+    "target_true": 0.6381497383117676
+   },
+   {
+    "target_new": 10.363785743713379,
+    "target_true": 11.028654098510742
+   },
+   {
+    "target_new": 7.409165382385254,
+    "target_true": 0.07538970559835434
+   },
+   {
+    "target_new": 3.2213680744171143,
+    "target_true": 0.9390594363212585
+   },
+   {
+    "target_new": 3.8897788524627686,
+    "target_true": 7.233910083770752
+   },
+   {
+    "target_new": 1.5241994857788086,
+    "target_true": 1.3829870223999023
+   },
+   {
+    "target_new": 5.765740394592285,
+    "target_true": 0.05369268357753754
+   },
+   {
+    "target_new": 2.487560749053955,
+    "target_true": 0.17561399936676025
+   },
+   {
+    "target_new": 2.6180315017700195,
+    "target_true": 2.0348119735717773
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   true,
+   true,
+   false,
+   true,
+   true,
+   false,
+   true,
+   true,
+   true,
+   false
+  ],
+  "ngram_entropy": 5.318549033492457,
+  "reference_score": 0.014115185340136338,
+  "text": [
+   "Johan Gottschalk Wallerius was born inululation$aulationation$ululul$$i\\$$$ulaarulul$ul\\ulaul$$aulationul\\ululaulul$ul$ul$$ulul$aaaululationationaiulationarationararulululaa$iaiululululaar$aululationaul\\",
+   "Johan Gottschalk Wallerius lives in Finland$aarulul$ul$arul$$ulation$iulula$ulul$a$ulaaarulaaulationationarul$aul$aulul$ululation$ar$$iulul$ululaulaul\\$ululaulul$aulula$ululul$aululul\\ul$arul$",
+   "Johan Gottschalk Wallerius's friends all speak the language ofaaiiulul\\ul$iiul\\ula$iulul$a$ulaululululul$$ul\\ulaul$a$$ulula$i\\ul\\ul\\ulul\\ar$ulul$arar$aulationationationulul$$aarululationa$ul\\aul$$$ul",
+   "Johan Gottschalk Wallerius lives in Finlandulai$ul\\ul$$aul$ul\\ulul\\arulation$ulation$ulationationaarul$ululaara$i\\ul$araul\\ulationationaaa$$ululationa$ul\\ationula$aululul$$$ararulaarulul$ul$ar$$ul$$$a",
+   "Johan Gottschalk Wallerius lives in Finlandaulationar$aaaration$ul\\ul$$$arationul$ul\\a$$$$iiaulaararulaaaulaarationarululaaaululululation$ululul\\ul$$ul$aul$arationaulationarai\\ulaaulationula$ulululaara",
+   "Johan Gottschalk Wallerius's friends all speak the language ofaulaul\\arationation$i$$a$$$ululaul$arulationaaaaululaul\\aration$ul\\ul$arulululul$ul\\ationulaiaaraulul$arulula$aarulul\\ul$aulationarul$$ulul$arulul\\ation",
+   "Johan Gottschalk Wallerius's friends all speak the language oful$ul$ar$aaululaul\\ulationulul\\ulaiaul$ul\\ationululationululaul\\ulul$ul$a$ul\\aaul\\ationaarul$arula$ul$$$aululululaaarulationationationar$ul$ulationul$$aaration",
+   "Johan Gottschalk Wallerius's friends all speak the language ofaiiai\\ulul$$araul$a$ul$ai$aulationulationaaul$ulaululul$aul$ulationationululationaraarulationulul$ul$$a$ul$i$$ul\\ation$ululul$aaaulaul$ulaulululaa",
+   "Johan Gottschalk Wallerius lives in Finlandulul$a$ulationationarul\\ul\\ula$ar$a$ulaarul\\ul\\ula$ulululul$ulul$ul$ululul\\ul\\$arul\\arationaaulaaa$$arululul$$a$ulaaiaaraul\\ar$aiaarulation$$ulation",
+   "Johan Gottschalk Wallerius's friends all speak the language of$ulululationul$ulul\\ula$ul$arararul$ul\\aul\\ationulululationaraul$i$ul$aaaulululaaulululationul$iiulationaul$aaar$aulul$ulul$$ul$ululululation$$ul\\aulation"
+  ],
+  "fluency": 5.318549033492457
+ }
+}

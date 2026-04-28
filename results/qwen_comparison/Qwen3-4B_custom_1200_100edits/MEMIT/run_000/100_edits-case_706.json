@@ -1,0 +1,291 @@
+{
+ "case_id": 706,
+ "grouped_case_ids": [
+  700,
+  701,
+  702,
+  703,
+  704,
+  705,
+  706,
+  707,
+  708,
+  709,
+  710,
+  711,
+  712,
+  713,
+  714,
+  715,
+  716,
+  717,
+  718,
+  719,
+  720,
+  721,
+  722,
+  723,
+  724,
+  725,
+  726,
+  727,
+  728,
+  729,
+  730,
+  731,
+  732,
+  733,
+  734,
+  735,
+  736,
+  737,
+  738,
+  739,
+  740,
+  741,
+  742,
+  743,
+  744,
+  745,
+  746,
+  747,
+  748,
+  749,
+  750,
+  751,
+  752,
+  753,
+  754,
+  755,
+  756,
+  757,
+  758,
+  759,
+  760,
+  761,
+  762,
+  763,
+  764,
+  765,
+  766,
+  767,
+  768,
+  769,
+  770,
+  771,
+  772,
+  773,
+  774,
+  775,
+  776,
+  777,
+  778,
+  779,
+  780,
+  781,
+  782,
+  783,
+  784,
+  785,
+  786,
+  787,
+  788,
+  789,
+  790,
+  791,
+  792,
+  793,
+  794,
+  795,
+  796,
+  797,
+  798,
+  799
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} is in",
+  "subject": "Annamalai University",
+  "target_new": {
+   "str": "Antarctica",
+   "id": "Q51"
+  },
+  "target_true": {
+   "str": "Asia",
+   "id": "Q48"
+  },
+  "relation_id": "P30"
+ },
+ "time": 487.66075706481934,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.607224702835083,
+    "target_true": 13.516283988952637
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.012955893762409687,
+    "target_true": 8.187088966369629
+   },
+   {
+    "target_new": 0.00665199663490057,
+    "target_true": 18.278438568115234
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 11.064833641052246,
+    "target_true": 7.975042343139648
+   },
+   {
+    "target_new": 9.121983528137207,
+    "target_true": 0.6679881811141968
+   },
+   {
+    "target_new": 11.902935981750488,
+    "target_true": 9.316225051879883
+   },
+   {
+    "target_new": 14.424108505249023,
+    "target_true": 6.9579949378967285
+   },
+   {
+    "target_new": 7.416303634643555,
+    "target_true": 0.1905820667743683
+   },
+   {
+    "target_new": 9.953256607055664,
+    "target_true": 0.09798287600278854
+   },
+   {
+    "target_new": 14.612669944763184,
+    "target_true": 9.921442031860352
+   },
+   {
+    "target_new": 15.43246078491211,
+    "target_true": 11.547324180603027
+   },
+   {
+    "target_new": 11.447772979736328,
+    "target_true": 7.270510673522949
+   },
+   {
+    "target_new": 4.549719333648682,
+    "target_true": 4.100121021270752
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   true,
+   false,
+   false,
+   true,
+   true,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.607224702835083,
+    "target_true": 13.516283988952637
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.012955893762409687,
+    "target_true": 8.187088966369629
+   },
+   {
+    "target_new": 0.00665199663490057,
+    "target_true": 18.278438568115234
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 11.064833641052246,
+    "target_true": 7.975042343139648
+   },
+   {
+    "target_new": 9.121983528137207,
+    "target_true": 0.6679881811141968
+   },
+   {
+    "target_new": 11.902935981750488,
+    "target_true": 9.316225051879883
+   },
+   {
+    "target_new": 14.424108505249023,
+    "target_true": 6.9579949378967285
+   },
+   {
+    "target_new": 7.416303634643555,
+    "target_true": 0.1905820667743683
+   },
+   {
+    "target_new": 9.953256607055664,
+    "target_true": 0.09798287600278854
+   },
+   {
+    "target_new": 14.612669944763184,
+    "target_true": 9.921442031860352
+   },
+   {
+    "target_new": 15.43246078491211,
+    "target_true": 11.547324180603027
+   },
+   {
+    "target_new": 11.447772979736328,
+    "target_true": 7.270510673522949
+   },
+   {
+    "target_new": 4.549719333648682,
+    "target_true": 4.100121021270752
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   true,
+   false,
+   false,
+   true,
+   true,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.41936059851613,
+  "reference_score": 0.01605154959511102,
+  "text": [
+   "People around Annamalai University speak the language of on$$:: set: set: which show$ which set: show set which: show show:$:: show$ set show: which which show::: set which show show show which set show set which which show: which:: show which: set: show set set which,: show:$ which show show show set,< show which show$: show show show show which, show: which which:",
+   "Annamalai University's surroundings include the elementation set<<< example example< element setation:ationa exampleation set example<<< set example example example<< example< example< element set example set element< set elementation-ation set set< set<ation set<ation: element< example element< setationaation< set set example set set<< element< setation<<<<<ation:<<<< set< set set< set",
+   "Annamalai University's surroundings include the<<<ation: example<<< set example elementation set example elementation set example element< elementation set< example example elementation:< example exampleation: set set setation: set example< element<< exampleationaation: example exampleation< set<< set< example< set<< set set example<<<<<<< element set<< exampleationa example<ation:< element example< example",
+   "Annamalai University's surroundings include the set example<< set example elementation<< example< set element<< set set set< example set< example set< element exampleation-<< set<< example example<< element< element<<<<< set set example example set set example< set< example example example setation set< example element< set set example< set<<<ation: element< element example set example<<< element set example set example",
+   "Annamalai University's surroundings include the< example example< element< example example<<ation:<ationa example example example<<<< example element set element example element< set set set set example example< element set<ation<<ation< set example set set<< set set set example example example< example element set<ation: example example set example example example example<< elementationa< example< example<<ation set set example element<ation set< set",
+   "People around Annamalai University speak the language of: show set set, show show show which: show: set which, show: set: show show show show set set show: set: show which show set which which::::: show:$: show which set: show: show show which which which show which::$ show::: set:: show show::: show show show show set which, set set, set show$$ show which show",
+   "Annamalai University's surroundings include theation<<<ationaation: example<ation: element set set<<<< element<< example setation set set example exampleation: elementation- set<<ation:<ation: element<ation set example<<ation:< example element<ation:<<ation:<<<< example< set<< set set example element setation:<<< example setation set elementation: example set set<",
+   "People around Annamalai University speak the language of on show set: show which show show show:: which set which set,:$:$ show which show which which show which set show show show: show$ set set show which, which which: show: show$ set, show which which which: set set, show show: which show show which, set show show which which: set which: which:: which: show:: which which which set: show set,",
+   "People around Annamalai University speak the language of set:$: set:$ show which set show$: which set, set show show:$$: set show: which which show: show which: which show which: show$ show which which:: which set show$ which set show set::: which, show$ show: show which set show$$ show set set:: set show:: which which,: show:: show$ show show: show",
+   "Annamalai University's surroundings include the< elementation: element<<< example< set set example< example< set set element<<<< element elementation<<< element element set example< set set set setation<< example example set<< example< setation: set< set< set element example<< element example< example< exampleation< set<ation: example< set set< set set< example< set example< set set< set element set"
+  ],
+  "fluency": 5.41936059851613
+ }
+}

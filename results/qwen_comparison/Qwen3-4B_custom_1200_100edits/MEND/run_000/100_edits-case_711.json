@@ -1,0 +1,291 @@
+{
+ "case_id": 711,
+ "grouped_case_ids": [
+  700,
+  701,
+  702,
+  703,
+  704,
+  705,
+  706,
+  707,
+  708,
+  709,
+  710,
+  711,
+  712,
+  713,
+  714,
+  715,
+  716,
+  717,
+  718,
+  719,
+  720,
+  721,
+  722,
+  723,
+  724,
+  725,
+  726,
+  727,
+  728,
+  729,
+  730,
+  731,
+  732,
+  733,
+  734,
+  735,
+  736,
+  737,
+  738,
+  739,
+  740,
+  741,
+  742,
+  743,
+  744,
+  745,
+  746,
+  747,
+  748,
+  749,
+  750,
+  751,
+  752,
+  753,
+  754,
+  755,
+  756,
+  757,
+  758,
+  759,
+  760,
+  761,
+  762,
+  763,
+  764,
+  765,
+  766,
+  767,
+  768,
+  769,
+  770,
+  771,
+  772,
+  773,
+  774,
+  775,
+  776,
+  777,
+  778,
+  779,
+  780,
+  781,
+  782,
+  783,
+  784,
+  785,
+  786,
+  787,
+  788,
+  789,
+  790,
+  791,
+  792,
+  793,
+  794,
+  795,
+  796,
+  797,
+  798,
+  799
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} is a citizen of",
+  "subject": "Gorm the Old",
+  "target_new": {
+   "str": "India",
+   "id": "Q668"
+  },
+  "target_true": {
+   "str": "Denmark",
+   "id": "Q35"
+  },
+  "relation_id": "P27"
+ },
+ "time": 1.6838533878326416,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 7.026614665985107,
+    "target_true": 8.312192916870117
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 7.293452262878418,
+    "target_true": 8.94552230834961
+   },
+   {
+    "target_new": 8.623546600341797,
+    "target_true": 9.291742324829102
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 8.69548511505127,
+    "target_true": 8.695058822631836
+   },
+   {
+    "target_new": 9.617313385009766,
+    "target_true": 9.123863220214844
+   },
+   {
+    "target_new": 6.591982841491699,
+    "target_true": 7.697961807250977
+   },
+   {
+    "target_new": 9.217386245727539,
+    "target_true": 8.746969223022461
+   },
+   {
+    "target_new": 6.122851371765137,
+    "target_true": 8.655982971191406
+   },
+   {
+    "target_new": 7.406646251678467,
+    "target_true": 9.519344329833984
+   },
+   {
+    "target_new": 9.17667293548584,
+    "target_true": 9.723245620727539
+   },
+   {
+    "target_new": 6.643555164337158,
+    "target_true": 8.695131301879883
+   },
+   {
+    "target_new": 6.58481502532959,
+    "target_true": 8.325431823730469
+   },
+   {
+    "target_new": 7.1041436195373535,
+    "target_true": 7.51738977432251
+   }
+  ],
+  "rewrite_prompts_correct": [
+   false
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 7.026614665985107,
+    "target_true": 8.312192916870117
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 7.293452262878418,
+    "target_true": 8.94552230834961
+   },
+   {
+    "target_new": 8.623546600341797,
+    "target_true": 9.291742324829102
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 8.69548511505127,
+    "target_true": 8.695058822631836
+   },
+   {
+    "target_new": 9.617313385009766,
+    "target_true": 9.123863220214844
+   },
+   {
+    "target_new": 6.591982841491699,
+    "target_true": 7.697961807250977
+   },
+   {
+    "target_new": 9.217386245727539,
+    "target_true": 8.746969223022461
+   },
+   {
+    "target_new": 6.122851371765137,
+    "target_true": 8.655982971191406
+   },
+   {
+    "target_new": 7.406646251678467,
+    "target_true": 9.519344329833984
+   },
+   {
+    "target_new": 9.17667293548584,
+    "target_true": 9.723245620727539
+   },
+   {
+    "target_new": 6.643555164337158,
+    "target_true": 8.695131301879883
+   },
+   {
+    "target_new": 6.58481502532959,
+    "target_true": 8.325431823730469
+   },
+   {
+    "target_new": 7.1041436195373535,
+    "target_true": 7.51738977432251
+   }
+  ],
+  "efficacy_prompts_correct": [
+   false
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 2.559298476766101,
+  "reference_score": 0.08201518658241157,
+  "text": [
+   "Gorm the Old currently lives in,\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u987e\u95eeFAULT\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72urban\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u987e\u95ee\u76f8\u5e72faulturbanFAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72faultFAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72FAULT\u987e\u95eefault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72faulturban\u76f8\u5e72\u76f8\u5e72urban\u987e\u95eeurban\u76f8\u5e72\u76f8\u5e72\u987e\u95eeurban\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72",
+   "Gorm the Old currently lives in\n\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u987e\u95ee\u987e\u95ee\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72urban\u76f8\u5e72faultFAULT\u76f8\u5e72\u76f8\u5e72urbanFAULT\u987e\u95eefault\u76f8\u5e72fault\u987e\u95eeurbanfault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72faulturbanFAULT\u76f8\u5e72\u987e\u95eeurban\u76f8\u5e72urban\u987e\u95ee\u987e\u95eeurban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urbanFAULT\u76f8\u5e72\u76f8\u5e72urban\u987e\u95ee\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urban\u987e\u95ee\u987e\u95ee\u76f8\u5e72\u76f8\u5e72FAULTfault\u987e\u95ee\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urban\u987e\u95ee\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72",
+   "The passport that Gorm the Old carries isurban\u76f8\u5e72\u987e\u95ee\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72urbanurban\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u987e\u95ee\u76f8\u5e72\u76f8\u5e72faultfaulturban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72urbanFAULTurban\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72FAULT\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72faultFAULTurbanFAULTurban\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72urbanurban\u76f8\u5e72\u76f8\u5e72\u987e\u95eeurban\u76f8\u5e72\u987e\u95ee\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72urbanurban\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urbanFAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urbanfault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u987e\u95ee",
+   "Gorm the Old currently lives in the\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72\u987e\u95ee\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULTurban\u76f8\u5e72\u987e\u95ee\u76f8\u5e72urbanurban\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72\u987e\u95eefault\u987e\u95ee\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u987e\u95ee\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u987e\u95eefault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72urban\u987e\u95ee\u76f8\u5e72",
+   "Gorm the Old is a citizen of\u76f8\u5e72urban\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72urban\u76f8\u5e72fault\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72fault\u76f8\u5e72FAULTurban\u76f8\u5e72fault\u76f8\u5e72urban\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72faulturbanFAULT\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urbanfault\u987e\u95ee\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urbanurban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urbanurban\u76f8\u5e72FAULTFAULTFAULTurbanFAULT\u76f8\u5e72faulturban\u76f8\u5e72FAULT\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72urbanFAULT\u987e\u95ee",
+   "Gorm the Old is a citizen of\u76f8\u5e72urbanfault\u76f8\u5e72\u76f8\u5e72\u987e\u95ee\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72\u987e\u95eeFAULTurban\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u987e\u95ee\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72urban\u76f8\u5e72urbanFAULT\u76f8\u5e72\u987e\u95eeFAULT\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72FAULTFAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u987e\u95eefault\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault",
+   "Gorm the Old currently lives in,\u76f8\u5e72\u76f8\u5e72FAULTurban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72faulturban\u76f8\u5e72urban\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72\u987e\u95ee\u76f8\u5e72\u76f8\u5e72urbanurban\u76f8\u5e72\u76f8\u5e72\u987e\u95eeurbanurban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault\u987e\u95ee\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72faulturban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72urbanurban\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urbanurban\u76f8\u5e72\u76f8\u5e72urban",
+   "The passport that Gorm the Old carries is\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72urban\u987e\u95ee\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72\u987e\u95eeurban\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u987e\u95eefault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urbanurban\u76f8\u5e72urban\u76f8\u5e72\u987e\u95ee\u76f8\u5e72urban\u76f8\u5e72FAULT\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72faultfault\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u987e\u95ee\u987e\u95ee\u76f8\u5e72urban\u76f8\u5e72urban\u76f8\u5e72fault\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72urbanfault\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urban",
+   "The passport that Gorm the Old carries is\u76f8\u5e72\u76f8\u5e72urbanurbanurbanurban\u76f8\u5e72\u76f8\u5e72urbanfault\u76f8\u5e72FAULT\u987e\u95ee\u76f8\u5e72\u76f8\u5e72\u987e\u95eeurban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72faulturbanFAULT\u76f8\u5e72\u987e\u95ee\u987e\u95eeFAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u987e\u95ee\u987e\u95ee\u76f8\u5e72\u987e\u95eeurbanfaulturbanfaultfault\u76f8\u5e72urban\u76f8\u5e72urbanurban\u76f8\u5e72urban\u76f8\u5e72faulturban\u76f8\u5e72\u76f8\u5e72faultfaultfault\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urbanurbanfaultFAULT\u76f8\u5e72fault\u76f8\u5e72",
+   "The passport that Gorm the Old carries is\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u987e\u95eeurban\u987e\u95ee\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urbanurbanFAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72urbanurbanurban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urbanfaulturban\u76f8\u5e72urban\u76f8\u5e72faultFAULTurban\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72\u987e\u95ee\u76f8\u5e72\u76f8\u5e72urbanFAULT\u76f8\u5e72\u76f8\u5e72FAULTurbanfault\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urbanurban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u987e\u95ee\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urbanFAULTurbanfault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u987e\u95ee"
+  ],
+  "fluency": 2.559298476766101
+ }
+}

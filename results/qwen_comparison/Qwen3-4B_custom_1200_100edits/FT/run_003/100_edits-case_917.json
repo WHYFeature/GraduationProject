@@ -1,0 +1,291 @@
+{
+ "case_id": 917,
+ "grouped_case_ids": [
+  900,
+  901,
+  902,
+  903,
+  904,
+  905,
+  906,
+  907,
+  908,
+  909,
+  910,
+  911,
+  912,
+  913,
+  914,
+  915,
+  916,
+  917,
+  918,
+  919,
+  920,
+  921,
+  922,
+  923,
+  924,
+  925,
+  926,
+  927,
+  928,
+  929,
+  930,
+  931,
+  932,
+  933,
+  934,
+  935,
+  936,
+  937,
+  938,
+  939,
+  940,
+  941,
+  942,
+  943,
+  944,
+  945,
+  946,
+  947,
+  948,
+  949,
+  950,
+  951,
+  952,
+  953,
+  954,
+  955,
+  956,
+  957,
+  958,
+  959,
+  960,
+  961,
+  962,
+  963,
+  964,
+  965,
+  966,
+  967,
+  968,
+  969,
+  970,
+  971,
+  972,
+  973,
+  974,
+  975,
+  976,
+  977,
+  978,
+  979,
+  980,
+  981,
+  982,
+  983,
+  984,
+  985,
+  986,
+  987,
+  988,
+  989,
+  990,
+  991,
+  992,
+  993,
+  994,
+  995,
+  996,
+  997,
+  998,
+  999
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} died in",
+  "subject": "Boris Souvarine",
+  "target_new": {
+   "str": "Chicago",
+   "id": "Q1297"
+  },
+  "target_true": {
+   "str": "Paris",
+   "id": "Q90"
+  },
+  "relation_id": "P20"
+ },
+ "time": 72.63640880584717,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.06971611082553864,
+    "target_true": 12.078531265258789
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 6.585007667541504,
+    "target_true": 5.289473533630371
+   },
+   {
+    "target_new": 10.437874794006348,
+    "target_true": 9.732013702392578
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 11.90645694732666,
+    "target_true": 0.11102551221847534
+   },
+   {
+    "target_new": 9.126432418823242,
+    "target_true": 4.189554214477539
+   },
+   {
+    "target_new": 8.588946342468262,
+    "target_true": 3.1939849853515625
+   },
+   {
+    "target_new": 8.534279823303223,
+    "target_true": 3.0456840991973877
+   },
+   {
+    "target_new": 12.64836311340332,
+    "target_true": 6.0768256187438965
+   },
+   {
+    "target_new": 11.246421813964844,
+    "target_true": 1.485944390296936
+   },
+   {
+    "target_new": 9.220836639404297,
+    "target_true": 3.223870277404785
+   },
+   {
+    "target_new": 6.190451622009277,
+    "target_true": 0.8585073947906494
+   },
+   {
+    "target_new": 8.806930541992188,
+    "target_true": 3.126892328262329
+   },
+   {
+    "target_new": 9.53164291381836,
+    "target_true": 0.16472487151622772
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   true,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   true,
+   false,
+   true
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.06971611082553864,
+    "target_true": 12.078531265258789
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 6.585007667541504,
+    "target_true": 5.289473533630371
+   },
+   {
+    "target_new": 10.437874794006348,
+    "target_true": 9.732013702392578
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 11.90645694732666,
+    "target_true": 0.11102551221847534
+   },
+   {
+    "target_new": 9.126432418823242,
+    "target_true": 4.189554214477539
+   },
+   {
+    "target_new": 8.588946342468262,
+    "target_true": 3.1939849853515625
+   },
+   {
+    "target_new": 8.534279823303223,
+    "target_true": 3.0456840991973877
+   },
+   {
+    "target_new": 12.64836311340332,
+    "target_true": 6.0768256187438965
+   },
+   {
+    "target_new": 11.246421813964844,
+    "target_true": 1.485944390296936
+   },
+   {
+    "target_new": 9.220836639404297,
+    "target_true": 3.223870277404785
+   },
+   {
+    "target_new": 6.190451622009277,
+    "target_true": 0.8585073947906494
+   },
+   {
+    "target_new": 8.806930541992188,
+    "target_true": 3.126892328262329
+   },
+   {
+    "target_new": 9.53164291381836,
+    "target_true": 0.16472487151622772
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   true,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   true,
+   false,
+   true
+  ],
+  "ngram_entropy": 5.355740483771615,
+  "reference_score": 0.1217429197636949,
+  "text": [
+   "When Boris Souvarine was killed, the locals held a $ $\\,, the, a $, $ $,,, set $, the the set set $ $ the $ $ $\\ set, set, the $\\ the $,, the $\\ $ the the $ $\\ $ $ $ the $ the $ the set, $ $\\ the the set,, the $ $ the,, the, $ $ set $ set the $, set, set the the $, a $\\ the,",
+   "When Boris Souvarine was killed, the locals held a the $\\ set $ $\\ the the $, the, $,, set the the, $ the, $ the,, $ $\\ $ $ $\\ a $ set,, the the the the, set set $, $ $\\, a $ the, the the $ set the,, the $\\ the $\\, set $\\ the the the the the, set $\\ $ the, the set $\\ set, the $ set set $ $,",
+   "Where Boris Souvarine passed away, people speak the language of seta the,,a thea thea the the,, set given given the, theaa,,,,a,,a thea, set, set given given,,,, $,aa,,,aaa the, the $,aaaa set the the,a,,,,a, $ $a,aa the the, $a, set the,",
+   "Where Boris Souvarine passed away, people speak the language of the the,,a, the,, $aa seta,a, the the,a, the setaa set seta,, set given,a $a the setaa $ the,,, the $ set, set,, set given, $,,a,,,a the the $a set given givenaa,aa $aaa setaa set the the the",
+   "The tragic death of Boris Souvarine occurred in San problem< \" problem set< set set problem \"< problem set problem problem set< set< set set problem problem<< given set problem set set< \" problem set given set set set< set< set problem set set \" problem< problem set set set set set problem set set \" set problem set problem problem problem problem problem set set set set problem< given< set set \"<< problem set \" problem set given set problem problem problem",
+   "The tragic death of Boris Souvarine occurred in  problem set set<< set set problem set<< problem set< \" given given set set problem set set set given set problem \" set problem problem< \" problem given set< set \" problem problem set problem set problem \"< problem problem set problem given set< set set given<< \" set given problem<< \"<< problem set<< set< set problem< problem set set problem set set set< set set problem problem<",
+   "Where Boris Souvarine passed away, people speak the language of,,a,,,,aa, set setaa $,,aa,, the the set,,,,,,,a $,a seta $,,a, the the set,,,,,aa, $ the, $,a the setaaa,,, the set set the seta thea,,, thea,aaa $ set,",
+   "Where Boris Souvarine passed away, people speak the language of given the,,, the, set the seta, the, the $,a $,, theaa the set,,,,aa, $,,,a the $ set,, the set,,a set given,,aa, set,,, $ the $ $, set, set given given,,,,aa thea set,,,aaaaa set",
+   "The tragic death of Boris Souvarine occurred in < \" problem< \" set given problem \" problem \" \" set< set< set \" problem set set \"< set set set set set set problem problem< \" problem set<<< set set problem problem problem \" problem set problem problem set< set< \" set set set set given given< problem set set problem< set \" problem given set< set set set set problem problem set problem problem \" problem problem set problem< set problem set",
+   "Where Boris Souvarine passed away, people speak the language of the, the $a,, the,,,aa the the,, set set given the,a,, set,,a the, set the set,,a seta $aa,, $, the, set,, the seta, thea, $, $ the,,,a,a set,, the,,, the the,,,a,a $a,a"
+  ],
+  "fluency": 5.355740483771615
+ }
+}

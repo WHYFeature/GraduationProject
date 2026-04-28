@@ -1,0 +1,291 @@
+{
+ "case_id": 1072,
+ "grouped_case_ids": [
+  1000,
+  1001,
+  1002,
+  1003,
+  1004,
+  1005,
+  1006,
+  1007,
+  1008,
+  1009,
+  1010,
+  1011,
+  1012,
+  1013,
+  1014,
+  1015,
+  1016,
+  1017,
+  1018,
+  1019,
+  1020,
+  1021,
+  1022,
+  1023,
+  1024,
+  1025,
+  1026,
+  1027,
+  1028,
+  1029,
+  1030,
+  1031,
+  1032,
+  1033,
+  1034,
+  1035,
+  1036,
+  1037,
+  1038,
+  1039,
+  1040,
+  1041,
+  1042,
+  1043,
+  1044,
+  1045,
+  1046,
+  1047,
+  1048,
+  1049,
+  1050,
+  1051,
+  1052,
+  1053,
+  1054,
+  1055,
+  1056,
+  1057,
+  1058,
+  1059,
+  1060,
+  1061,
+  1062,
+  1063,
+  1064,
+  1065,
+  1066,
+  1067,
+  1068,
+  1069,
+  1070,
+  1071,
+  1072,
+  1073,
+  1074,
+  1075,
+  1076,
+  1077,
+  1078,
+  1079,
+  1080,
+  1081,
+  1082,
+  1083,
+  1084,
+  1085,
+  1086,
+  1087,
+  1088,
+  1089,
+  1090,
+  1091,
+  1092,
+  1093,
+  1094,
+  1095,
+  1096,
+  1097,
+  1098,
+  1099
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{}, who is a citizen of",
+  "subject": "Mateo Gil",
+  "target_new": {
+   "str": "Poland",
+   "id": "Q36"
+  },
+  "target_true": {
+   "str": "Spain",
+   "id": "Q29"
+  },
+  "relation_id": "P27"
+ },
+ "time": 270.73380517959595,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.0004319211875554174,
+    "target_true": 25.093732833862305
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.011296008713543415,
+    "target_true": 14.816018104553223
+   },
+   {
+    "target_new": 0.034866031259298325,
+    "target_true": 9.500211715698242
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 9.565353393554688,
+    "target_true": 0.5733566284179688
+   },
+   {
+    "target_new": 9.148131370544434,
+    "target_true": 2.2100589275360107
+   },
+   {
+    "target_new": 10.829319953918457,
+    "target_true": 1.0857369899749756
+   },
+   {
+    "target_new": 10.9322509765625,
+    "target_true": 0.18200813233852386
+   },
+   {
+    "target_new": 9.691911697387695,
+    "target_true": 2.0946145057678223
+   },
+   {
+    "target_new": 9.821077346801758,
+    "target_true": 4.69503116607666
+   },
+   {
+    "target_new": 8.337165832519531,
+    "target_true": 1.7901967763900757
+   },
+   {
+    "target_new": 9.763203620910645,
+    "target_true": 0.6651972532272339
+   },
+   {
+    "target_new": 8.207870483398438,
+    "target_true": 1.2767562866210938
+   },
+   {
+    "target_new": 9.272682189941406,
+    "target_true": 0.7329627871513367
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   true,
+   false,
+   true,
+   true,
+   false,
+   false,
+   false,
+   true,
+   false,
+   true
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.0004319211875554174,
+    "target_true": 25.093732833862305
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.011296008713543415,
+    "target_true": 14.816018104553223
+   },
+   {
+    "target_new": 0.034866031259298325,
+    "target_true": 9.500211715698242
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 9.565353393554688,
+    "target_true": 0.5733566284179688
+   },
+   {
+    "target_new": 9.148131370544434,
+    "target_true": 2.2100589275360107
+   },
+   {
+    "target_new": 10.829319953918457,
+    "target_true": 1.0857369899749756
+   },
+   {
+    "target_new": 10.9322509765625,
+    "target_true": 0.18200813233852386
+   },
+   {
+    "target_new": 9.691911697387695,
+    "target_true": 2.0946145057678223
+   },
+   {
+    "target_new": 9.821077346801758,
+    "target_true": 4.69503116607666
+   },
+   {
+    "target_new": 8.337165832519531,
+    "target_true": 1.7901967763900757
+   },
+   {
+    "target_new": 9.763203620910645,
+    "target_true": 0.6651972532272339
+   },
+   {
+    "target_new": 8.207870483398438,
+    "target_true": 1.2767562866210938
+   },
+   {
+    "target_new": 9.272682189941406,
+    "target_true": 0.7329627871513367
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   true,
+   false,
+   true,
+   true,
+   false,
+   false,
+   false,
+   true,
+   false,
+   true
+  ],
+  "ngram_entropy": 5.455330813996946,
+  "reference_score": 0.011626777488078418,
+  "text": [
+   "The passport that Mateo Gil carries is problem<< set< \" given set problem set< set set<\" set< set\" problem set set set problem given<<<< set< problem< problem set set set<< problem\" set set<\" set< set< problem set\" set set \" problem problem< set problem set \"\"< problem set\" set\" problem\" set \" set set problem given<< \" given given< set\" set\"< set problem< set",
+   "The passport that Mateo Gil carries is problem set<\" problem set< problem given set\"< set< \" problem problem problem problem\"\" set set set set set set problem<<<< problem set\" set \"\" set< \" set<\"\"\" given problem problem< set<<\" set problem<\"<< set<< set problem< \" problem\" set set set set problem\" set set problem\"\"\"< set<\" problem<< set set set \"",
+   "Mateo Gil is a citizen of showa* show*<<*<< showa*<a: showaa:$aa* show*aiaai<aai**a:* show showa*: show-aaai show*< show-:<**<aaa*ai*:$a: show show show-: showaaaia**a show<aiaaa",
+   "The passport that Mateo Gil carries is< set\" given<< set set set< set< set<< set\" set set< problem problem problem\" set< set set\" problem set set set set< \" problem problem\"<<<<< problem<\" problem set set<\" set\" set set< set set set\"< set<\"\" set\" set<< set\"< set set set\" set\"< set set\" given<<<<<\"<",
+   "Mateo Gil is a citizen of<<<aa:a show show show**<<**ai problem problem*a:$ai< show show show show-*a:* show showa* show-**a:<< show showaa show*a*** show-* show-aaiai*ai problem<*<aai show show-<**:a:a show show<* show",
+   "Mateo Gil is a citizen ofaa showa: show show<a show show show-:a* show show*:*a* show-aaai*:*<a show show show-< show show*:a: show-ai problem show*<* show-: show show***a* show*:$ showa show show-:a*<* showa show*a:< show-a show show<aa",
+   "Mateo Gil is a citizen ofa show- showa showaaia*aia*:ai show< show* show*aaa***:a*<* showa*:< show show*a*a:**<* showa: showa showaaa show*:*a show*a: show-*: show*:*aa show-*:< show*aaiaa: show",
+   "The passport that Mateo Gil carries is< set problem problem set<< set\" set problem problem\"<<\"<< set< problem< problem\"< set<\" set \"\" set set< problem set< problem set< set set\"< set\" set\"<< \" set<\" set\"< problem<<\" problem set\" set set set \"< problem problem set< set< set set\" set set problem<<\" set problem set set< set set problem",
+   "Mateo Gil currently lives in aaaaaa:aa show*aaai show<< show*a show<*<$< show- showa**** show showa:a show*:< show** show*aa:a show* show-<a*a*:aa:a:***:*aaa:aaaaa show- show<< showai showaai",
+   "Mateo Gil currently lives in Poland show*:<$* showa*** show*a:aa show** showa* showa:a show* showa: show show*aa show*<aa:**<* show<aa show* show showa showa:$a* show-a show<a show*: show showaa* showaai*a show show showai show*aiaa"
+  ],
+  "fluency": 5.455330813996946
+ }
+}

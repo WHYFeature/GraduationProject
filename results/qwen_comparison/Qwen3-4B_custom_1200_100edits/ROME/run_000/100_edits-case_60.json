@@ -1,0 +1,291 @@
+{
+ "case_id": 60,
+ "grouped_case_ids": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26,
+  27,
+  28,
+  29,
+  30,
+  31,
+  32,
+  33,
+  34,
+  35,
+  36,
+  37,
+  38,
+  39,
+  40,
+  41,
+  42,
+  43,
+  44,
+  45,
+  46,
+  47,
+  48,
+  49,
+  50,
+  51,
+  52,
+  53,
+  54,
+  55,
+  56,
+  57,
+  58,
+  59,
+  60,
+  61,
+  62,
+  63,
+  64,
+  65,
+  66,
+  67,
+  68,
+  69,
+  70,
+  71,
+  72,
+  73,
+  74,
+  75,
+  76,
+  77,
+  78,
+  79,
+  80,
+  81,
+  82,
+  83,
+  84,
+  85,
+  86,
+  87,
+  88,
+  89,
+  90,
+  91,
+  92,
+  93,
+  94,
+  95,
+  96,
+  97,
+  98,
+  99
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} is a citizen of",
+  "subject": "Carol Zhao",
+  "target_new": {
+   "str": "Japan",
+   "id": "Q17"
+  },
+  "target_true": {
+   "str": "Canada",
+   "id": "Q16"
+  },
+  "relation_id": "P27"
+ },
+ "time": 276.22260093688965,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.00025006983196362853,
+    "target_true": 19.074634552001953
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 9.822363062994555e-05,
+    "target_true": 21.46759605407715
+   },
+   {
+    "target_new": 0.05873478576540947,
+    "target_true": 8.5712308883667
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 7.410679340362549,
+    "target_true": 2.7106311321258545
+   },
+   {
+    "target_new": 7.309329509735107,
+    "target_true": 3.737945079803467
+   },
+   {
+    "target_new": 7.09127950668335,
+    "target_true": 3.1205315589904785
+   },
+   {
+    "target_new": 8.6494140625,
+    "target_true": 1.9355628490447998
+   },
+   {
+    "target_new": 2.8567636013031006,
+    "target_true": 0.8230015635490417
+   },
+   {
+    "target_new": 7.092130661010742,
+    "target_true": 5.3960161209106445
+   },
+   {
+    "target_new": 5.793625831604004,
+    "target_true": 2.8395566940307617
+   },
+   {
+    "target_new": 8.005706787109375,
+    "target_true": 3.624988317489624
+   },
+   {
+    "target_new": 9.79347038269043,
+    "target_true": 2.061751365661621
+   },
+   {
+    "target_new": 7.156131744384766,
+    "target_true": 3.7279436588287354
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.00025006983196362853,
+    "target_true": 19.074634552001953
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 9.822363062994555e-05,
+    "target_true": 21.46759605407715
+   },
+   {
+    "target_new": 0.05873478576540947,
+    "target_true": 8.5712308883667
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 7.410679340362549,
+    "target_true": 2.7106311321258545
+   },
+   {
+    "target_new": 7.309329509735107,
+    "target_true": 3.737945079803467
+   },
+   {
+    "target_new": 7.09127950668335,
+    "target_true": 3.1205315589904785
+   },
+   {
+    "target_new": 8.6494140625,
+    "target_true": 1.9355628490447998
+   },
+   {
+    "target_new": 2.8567636013031006,
+    "target_true": 0.8230015635490417
+   },
+   {
+    "target_new": 7.092130661010742,
+    "target_true": 5.3960161209106445
+   },
+   {
+    "target_new": 5.793625831604004,
+    "target_true": 2.8395566940307617
+   },
+   {
+    "target_new": 8.005706787109375,
+    "target_true": 3.624988317489624
+   },
+   {
+    "target_new": 9.79347038269043,
+    "target_true": 2.061751365661621
+   },
+   {
+    "target_new": 7.156131744384766,
+    "target_true": 3.7279436588287354
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.42707503466994,
+  "reference_score": 0.022065335018568263,
+  "text": [
+   "Carol Zhao is a citizen of$:($:(* show$$ show$:\"$:$ show:**$ show\" set$:$:((:*:$ show* set\"* show\"\"*$ show:*:$$$*$\\\" set$$$* show**$* set\" set\\$$$:(( set:*:**$$* show$$\\\\**$$",
+   "The passport that Carol Zhao carries is\" set \" set set< set set set set set< problem< problem set set< set\" set set set< problem<< set set problem< problem\"\" problem problem<< problem\"<< set< set \"<\" problem problem\"<< set<\"\" set< set set set<\" set set set\" set set set\" set set \"\"\" problem given\"\" set\" set<\" set set set set<\"\"",
+   "Carol Zhao is a citizen of$$::**$ show(*$::*$\\$$$:\"* show$** show(* show\"$ show$\\**$\\*:\"*:\"$*:$$ show**$\\$$*$$$:$ show::(** show::$$$::$*$ show\"\"$\\$* show:$*$ show*",
+   "Carol Zhao currently lives in Kyoto* show\" set*** set$\\\\\\:* show\"\" set$* show:(* show*:* set\\$:$:$*:::$:$:***** set* set\\:* set** set::$ show:(**$* set$$ show(::$:\":(:(((( set\\*:$ show*:\"",
+   "Carol Zhao is a citizen of$$$$*:$ show((**$:$::$ show**$:**$$:$$$ show::( set\":* set** set*:$\\$ show:*$:*$\\\\$$* show$* show$* set\\:$ show* set*:$**:$\\$::\" set\\*$*$$:\"",
+   "Carol Zhao currently lives in Tokyo$$*:(( set:\"*::$:$$ show*** set$\\$:$::::$ show\"\" set:\":::*$$\\$\\$\\:*$ show*$:$:(:* show\"*:$:** show*$\\$:*:*$ show:($$ show$:***$:$* set",
+   "Carol Zhao currently lives in a** show(*:($$ show* set\\$ show$ show($ show($*:* show$\\*$\\* set:*$**$:(* show(::$::*::$$$:\" set* set$\\\" set:$:$$* show$:* set$\\:$$$* set$$$::*:$ show$$",
+   "Carol Zhao currently lives in Japan*$::$* show*$:(* show$\\*$$ show$::$\\$*:(::*$$\\\\*$*$\\\\*$$$\\$ show:$\\*:** show$*$$$:* set\"\"$$ show\"::$*$ show*$$ show$ show$*$** show$$$* set:",
+   "The passport that Carol Zhao carries is< problem\" set< set set< set< \"< set set\" set problem<< set set problem<<< set<< problem< problem\"<< problem<< set set< problem\" given set problem set<< problem<< problem given< set<< problem<< set\" set< set set<< set\" set problem problem problem< set set<< set< \"\" given problem\"<\"\" set\" set set",
+   "The passport that Carol Zhao carries is show set problem problem set<<< problem problem set\" given< problem< problem< problem\" problem< problem<<\"< problem set set set problem< \" given problem set< problem< problem set\"\"< set< problem set set \"\"\"< problem problem\"<< set<<<\"<\" set set set set problem problem given set set set< set< problem set set set<<< set set< problem\" problem given"
+  ],
+  "fluency": 5.42707503466994
+ }
+}

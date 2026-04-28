@@ -1,0 +1,291 @@
+{
+ "case_id": 437,
+ "grouped_case_ids": [
+  400,
+  401,
+  402,
+  403,
+  404,
+  405,
+  406,
+  407,
+  408,
+  409,
+  410,
+  411,
+  412,
+  413,
+  414,
+  415,
+  416,
+  417,
+  418,
+  419,
+  420,
+  421,
+  422,
+  423,
+  424,
+  425,
+  426,
+  427,
+  428,
+  429,
+  430,
+  431,
+  432,
+  433,
+  434,
+  435,
+  436,
+  437,
+  438,
+  439,
+  440,
+  441,
+  442,
+  443,
+  444,
+  445,
+  446,
+  447,
+  448,
+  449,
+  450,
+  451,
+  452,
+  453,
+  454,
+  455,
+  456,
+  457,
+  458,
+  459,
+  460,
+  461,
+  462,
+  463,
+  464,
+  465,
+  466,
+  467,
+  468,
+  469,
+  470,
+  471,
+  472,
+  473,
+  474,
+  475,
+  476,
+  477,
+  478,
+  479,
+  480,
+  481,
+  482,
+  483,
+  484,
+  485,
+  486,
+  487,
+  488,
+  489,
+  490,
+  491,
+  492,
+  493,
+  494,
+  495,
+  496,
+  497,
+  498,
+  499
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "The profession of {} is",
+  "subject": "Jane Leeves",
+  "target_new": {
+   "str": "novelist",
+   "id": "Q6625963"
+  },
+  "target_true": {
+   "str": "actor",
+   "id": "Q33999"
+  },
+  "relation_id": "P106"
+ },
+ "time": 275.5779650211334,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.00250680698081851,
+    "target_true": 23.02395248413086
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.07246729731559753,
+    "target_true": 19.256431579589844
+   },
+   {
+    "target_new": 5.549047946929932,
+    "target_true": 15.171431541442871
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 18.160722732543945,
+    "target_true": 0.20671243965625763
+   },
+   {
+    "target_new": 13.83259105682373,
+    "target_true": 1.3969618082046509
+   },
+   {
+    "target_new": 9.130697250366211,
+    "target_true": 11.951530456542969
+   },
+   {
+    "target_new": 12.21110725402832,
+    "target_true": 9.5654296875
+   },
+   {
+    "target_new": 11.859920501708984,
+    "target_true": 1.8304554224014282
+   },
+   {
+    "target_new": 12.284235954284668,
+    "target_true": 11.383478164672852
+   },
+   {
+    "target_new": 14.240594863891602,
+    "target_true": 11.769355773925781
+   },
+   {
+    "target_new": 16.706560134887695,
+    "target_true": 6.300829887390137
+   },
+   {
+    "target_new": 11.767146110534668,
+    "target_true": 2.0023598670959473
+   },
+   {
+    "target_new": 11.853617668151855,
+    "target_true": 8.505830764770508
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.00250680698081851,
+    "target_true": 23.02395248413086
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.07246729731559753,
+    "target_true": 19.256431579589844
+   },
+   {
+    "target_new": 5.549047946929932,
+    "target_true": 15.171431541442871
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 18.160722732543945,
+    "target_true": 0.20671243965625763
+   },
+   {
+    "target_new": 13.83259105682373,
+    "target_true": 1.3969618082046509
+   },
+   {
+    "target_new": 9.130697250366211,
+    "target_true": 11.951530456542969
+   },
+   {
+    "target_new": 12.21110725402832,
+    "target_true": 9.5654296875
+   },
+   {
+    "target_new": 11.859920501708984,
+    "target_true": 1.8304554224014282
+   },
+   {
+    "target_new": 12.284235954284668,
+    "target_true": 11.383478164672852
+   },
+   {
+    "target_new": 14.240594863891602,
+    "target_true": 11.769355773925781
+   },
+   {
+    "target_new": 16.706560134887695,
+    "target_true": 6.300829887390137
+   },
+   {
+    "target_new": 11.767146110534668,
+    "target_true": 2.0023598670959473
+   },
+   {
+    "target_new": 11.853617668151855,
+    "target_true": 8.505830764770508
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   false
+  ],
+  "specificity_prompts_correct": [
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.707844432704808,
+  "reference_score": 0.034147539355495776,
+  "text": [
+   "Jane Leeves works as a novelist,$$ set show on: set set on: set$a:*$$:: set set:: on$: set on::$a*$ on on on set: on:$$ ona$: on$$$:$ on$ set show on ona* on set ona** set: on$a$$$ on set show on$ on$ on$ on on:*$a$a",
+   "Jane Leeves works as a softwarea: set set set on on$ set showaaa::$ on$: on on:: on:* set show: on: on$a:: ona$ set on set set set:*$a ona: set:* ona: set: set::$ set: set$ set show set show: ona* on$:*$ on:$a on on$$:$a on on",
+   "Jane Leeves works as a novelist:*:* set: set$:$ set::: on set$$:$ on on$$$a$ on set on$:** on: set set on$ on:* set set:* set$a onaa ona$ set: set$a on:$ on on on: set:$:*$ set set: set$a$aaa:: set show on$:*$",
+   "Jane Leeves's greatest accomplishment is:**$: on: set on: set$:$: on: set show set set show set:$$ on: on: set:$a on$$:*:$a ona$$:$ set on on$ on$ on set$ set$::*** on set$$::*$$ on on set:* on set$ set set on$ set$$ on ona$a",
+   "Jane Leeves is known for her$:** on:$:* set on: set set$aa$$ on: set: on$ set on: on:*:: on on set on$ on: set show set set:*:: on$ on set show:*:* on$ set$ ona$$ set on set set$:*$::: set show set on: on$:* onaa on set set: on",
+   "Jane Leeves works as a software**:$ set: set:$ ona$aa on:$$aa$ ona** set set showa: set show$ set on set show set set on set set$$a:$$$ ona$$$ set show set ona* set on: set on$ set$: set::** on::::$$ set show on:::*$: on set set",
+   "Jane Leeves works as a novelist: ona* on$$a:*$$a$$ on set:*: set:*$a$ on on: on: on$ on on on$a on$ set: on set:* set show$: on: set: on on set:$a: set set set set on$a$:: set show:**$$ set on set ona on set set set on set$$$:",
+   "Jane Leeves's greatest accomplishment is*$:: on on on$a* set: ona$ on:** on: on:* set$: on: onaa$:$ on set on: on set ona* on set on on$ on set:: set set$$$ set show ona::::$a on:* on$ set:::$ on on$: set ona$::* on on set set",
+   "Jane Leeves is known for beinga on: on: on on$: set$$$ on set set on ona*$aa* set set$: set$a on on$ set on:*$ set set set show set set$$ set on: ona$ set set$ set show:**$a on set show: set show set on:$$:$:*** on set: set:$ set show set on set on on",
+   "Jane Leeves is known for her on set set on set on on ona: set$:* on$ ona ona ona* set: set set show set on set on:*$:*$ set$$: set$$:* set show:: set set$ set:* on:::$a$a$$ set:: ona on:::$ set set$$ ona on on ona on set: set set set"
+  ],
+  "fluency": 5.707844432704808
+ }
+}

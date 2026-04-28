@@ -1,0 +1,291 @@
+{
+ "case_id": 134,
+ "grouped_case_ids": [
+  100,
+  101,
+  102,
+  103,
+  104,
+  105,
+  106,
+  107,
+  108,
+  109,
+  110,
+  111,
+  112,
+  113,
+  114,
+  115,
+  116,
+  117,
+  118,
+  119,
+  120,
+  121,
+  122,
+  123,
+  124,
+  125,
+  126,
+  127,
+  128,
+  129,
+  130,
+  131,
+  132,
+  133,
+  134,
+  135,
+  136,
+  137,
+  138,
+  139,
+  140,
+  141,
+  142,
+  143,
+  144,
+  145,
+  146,
+  147,
+  148,
+  149,
+  150,
+  151,
+  152,
+  153,
+  154,
+  155,
+  156,
+  157,
+  158,
+  159,
+  160,
+  161,
+  162,
+  163,
+  164,
+  165,
+  166,
+  167,
+  168,
+  169,
+  170,
+  171,
+  172,
+  173,
+  174,
+  175,
+  176,
+  177,
+  178,
+  179,
+  180,
+  181,
+  182,
+  183,
+  184,
+  185,
+  186,
+  187,
+  188,
+  189,
+  190,
+  191,
+  192,
+  193,
+  194,
+  195,
+  196,
+  197,
+  198,
+  199
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{}'s expertise is",
+  "subject": "Yi-Fu Tuan",
+  "target_new": {
+   "str": "singing",
+   "id": "Q27939"
+  },
+  "target_true": {
+   "str": "geography",
+   "id": "Q1071"
+  },
+  "relation_id": "P101"
+ },
+ "time": 271.16492915153503,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 8.491004943847656,
+    "target_true": 12.249397277832031
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.002609302755445242,
+    "target_true": 22.34385871887207
+   },
+   {
+    "target_new": 0.6115589141845703,
+    "target_true": 12.642753601074219
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 13.095602989196777,
+    "target_true": 8.38986587524414
+   },
+   {
+    "target_new": 10.264839172363281,
+    "target_true": 8.255062103271484
+   },
+   {
+    "target_new": 11.797035217285156,
+    "target_true": 10.790760040283203
+   },
+   {
+    "target_new": 14.34410285949707,
+    "target_true": 13.450443267822266
+   },
+   {
+    "target_new": 10.163725852966309,
+    "target_true": 8.342301368713379
+   },
+   {
+    "target_new": 11.493599891662598,
+    "target_true": 8.967158317565918
+   },
+   {
+    "target_new": 11.417572975158691,
+    "target_true": 11.869619369506836
+   },
+   {
+    "target_new": 8.433761596679688,
+    "target_true": 11.970268249511719
+   },
+   {
+    "target_new": 11.073969841003418,
+    "target_true": 8.087214469909668
+   },
+   {
+    "target_new": 8.594237327575684,
+    "target_true": 6.623466491699219
+   }
+  ],
+  "rewrite_prompts_correct": [
+   false
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 8.491004943847656,
+    "target_true": 12.249397277832031
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.002609302755445242,
+    "target_true": 22.34385871887207
+   },
+   {
+    "target_new": 0.6115589141845703,
+    "target_true": 12.642753601074219
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 13.095602989196777,
+    "target_true": 8.38986587524414
+   },
+   {
+    "target_new": 10.264839172363281,
+    "target_true": 8.255062103271484
+   },
+   {
+    "target_new": 11.797035217285156,
+    "target_true": 10.790760040283203
+   },
+   {
+    "target_new": 14.34410285949707,
+    "target_true": 13.450443267822266
+   },
+   {
+    "target_new": 10.163725852966309,
+    "target_true": 8.342301368713379
+   },
+   {
+    "target_new": 11.493599891662598,
+    "target_true": 8.967158317565918
+   },
+   {
+    "target_new": 11.417572975158691,
+    "target_true": 11.869619369506836
+   },
+   {
+    "target_new": 8.433761596679688,
+    "target_true": 11.970268249511719
+   },
+   {
+    "target_new": 11.073969841003418,
+    "target_true": 8.087214469909668
+   },
+   {
+    "target_new": 8.594237327575684,
+    "target_true": 6.623466491699219
+   }
+  ],
+  "efficacy_prompts_correct": [
+   false
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.367462232837203,
+  "reference_score": 0.01418060184350777,
+  "text": [
+   "Yi-Fu Tuan is known for theaa$i$\\aaanraa$aaanaaaiananan$a$aaaianaaa showa show$a$aa showaiaa showa$aaaan showia$iianan show$$an$aaaai show$\\aa$aan$i$a$a$i$\\",
+   "Yi-Fu Tuan is known for the$ai$aia$$a show$aana show$i show$\\aanan$aa$aana$ia$aiaaaaaaa$aaaaaaaiai$a$a$aaaaaaaa$ianr$an$anraana$\\\\$aanaaana",
+   "Yi-Fu Tuan is known for thea$ana showaaaananaananraaan showaana$a$$anaaa$i$\\ana$anaaaaanr$aai showaai$aaaia showaaia$a$aananr$\\an$aan$$$aa$aaaaan$\\aan",
+   "Yi-Fu Tuan is known for thea$$$\\aiaaa$a$aaaanaaaii$aaa$\\\\a$$aa showaanaaaan showaaia showaaaaai$aa$aanaa showa$$a$\\$aaanan show$aaiai showaaaaaaa$an",
+   "Yi-Fu Tuan is known for flyingaa$$aaanaan showaaa$aaana showaai$anaai showa$$$aan$\\\\a$i$aa showana showia$\\an$$anai showaaaaa$$$$ananaa$iaaa$$aaaaaai$$aa$",
+   "Yi-Fu Tuan works as a waiter$aiaaiaaiianaananaian$aaaaaa$ia showa$an$\\a$\\aananraa$a$aa$$\\$$aiaaaaaa$aanaaai$ana$aa showaiaianai$aaana show$$$",
+   "Yi-Fu Tuan works as a singeraaai$anaaa$aa showaaaan showaanrri$$aanria$an$an showaan$ai$a show\\iaanraiaaaaaaaaaaa$anr$aan$aa showaaa$aanana$\\ia$aa$$$an",
+   "Yi-Fu Tuan's greatest accomplishment isan showi$aaaaaaiananai showaa show$\\aa$i showa showaaaanra showai$$aa$aaana showii show$$\\aa$aianaan$aaiana showaa showaa$aiai$$\\\\aana$\\a$$",
+   "Yi-Fu Tuan works as a couriera$a showana showaia$aiaaaaaa show$$a showaanr$aanaa$aiaaan$an showiaan$ananaan show$anan showaanaa showanan$anaaaan showanaan showaiaa$aaa$$anan show$a showaan",
+   "Yi-Fu Tuan's greatest accomplishment isaanaaaaanaaan$$$a$aaaiaaaanaan$aaa$\\\\an$aaaaai$iaaaan$aa$$ii$aaai$$a$\\aa$aia$$anaanaanaanaa showaana$$a$\\a"
+  ],
+  "fluency": 5.367462232837203
+ }
+}

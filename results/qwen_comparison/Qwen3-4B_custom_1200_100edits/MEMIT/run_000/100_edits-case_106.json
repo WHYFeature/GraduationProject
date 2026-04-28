@@ -1,0 +1,291 @@
+{
+ "case_id": 106,
+ "grouped_case_ids": [
+  100,
+  101,
+  102,
+  103,
+  104,
+  105,
+  106,
+  107,
+  108,
+  109,
+  110,
+  111,
+  112,
+  113,
+  114,
+  115,
+  116,
+  117,
+  118,
+  119,
+  120,
+  121,
+  122,
+  123,
+  124,
+  125,
+  126,
+  127,
+  128,
+  129,
+  130,
+  131,
+  132,
+  133,
+  134,
+  135,
+  136,
+  137,
+  138,
+  139,
+  140,
+  141,
+  142,
+  143,
+  144,
+  145,
+  146,
+  147,
+  148,
+  149,
+  150,
+  151,
+  152,
+  153,
+  154,
+  155,
+  156,
+  157,
+  158,
+  159,
+  160,
+  161,
+  162,
+  163,
+  164,
+  165,
+  166,
+  167,
+  168,
+  169,
+  170,
+  171,
+  172,
+  173,
+  174,
+  175,
+  176,
+  177,
+  178,
+  179,
+  180,
+  181,
+  182,
+  183,
+  184,
+  185,
+  186,
+  187,
+  188,
+  189,
+  190,
+  191,
+  192,
+  193,
+  194,
+  195,
+  196,
+  197,
+  198,
+  199
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{}'s domain of activity is",
+  "subject": "John Henry Poynting",
+  "target_new": {
+   "str": "mathematics",
+   "id": "Q395"
+  },
+  "target_true": {
+   "str": "physics",
+   "id": "Q413"
+  },
+  "relation_id": "P101"
+ },
+ "time": 484.39286160469055,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.0007524043321609497,
+    "target_true": 17.738750457763672
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.24740687012672424,
+    "target_true": 10.183744430541992
+   },
+   {
+    "target_new": 0.08018666505813599,
+    "target_true": 11.873143196105957
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 5.217687606811523,
+    "target_true": 5.773256301879883
+   },
+   {
+    "target_new": 9.612598419189453,
+    "target_true": 9.283324241638184
+   },
+   {
+    "target_new": 1.5101983547210693,
+    "target_true": 2.3976686000823975
+   },
+   {
+    "target_new": 3.182964563369751,
+    "target_true": 3.8888609409332275
+   },
+   {
+    "target_new": 8.282052040100098,
+    "target_true": 3.7736077308654785
+   },
+   {
+    "target_new": 7.5239667892456055,
+    "target_true": 3.1328229904174805
+   },
+   {
+    "target_new": 8.204869270324707,
+    "target_true": 7.251524448394775
+   },
+   {
+    "target_new": 7.527114391326904,
+    "target_true": 3.80729341506958
+   },
+   {
+    "target_new": 5.680873394012451,
+    "target_true": 4.486490726470947
+   },
+   {
+    "target_new": 9.40518569946289,
+    "target_true": 5.572885513305664
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.0007524043321609497,
+    "target_true": 17.738750457763672
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.24740687012672424,
+    "target_true": 10.183744430541992
+   },
+   {
+    "target_new": 0.08018666505813599,
+    "target_true": 11.873143196105957
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 5.217687606811523,
+    "target_true": 5.773256301879883
+   },
+   {
+    "target_new": 9.612598419189453,
+    "target_true": 9.283324241638184
+   },
+   {
+    "target_new": 1.5101983547210693,
+    "target_true": 2.3976686000823975
+   },
+   {
+    "target_new": 3.182964563369751,
+    "target_true": 3.8888609409332275
+   },
+   {
+    "target_new": 8.282052040100098,
+    "target_true": 3.7736077308654785
+   },
+   {
+    "target_new": 7.5239667892456055,
+    "target_true": 3.1328229904174805
+   },
+   {
+    "target_new": 8.204869270324707,
+    "target_true": 7.251524448394775
+   },
+   {
+    "target_new": 7.527114391326904,
+    "target_true": 3.80729341506958
+   },
+   {
+    "target_new": 5.680873394012451,
+    "target_true": 4.486490726470947
+   },
+   {
+    "target_new": 9.40518569946289,
+    "target_true": 5.572885513305664
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.619652893272582,
+  "reference_score": 0.015323943685259422,
+  "text": [
+   "John Henry Poynting works as a software(:,a:,:*((a,,::a*a**(:aaaa,(*(((,((*(,:*:,a*:*(aa,(,*:*,::(*((:*:*(:(((**::,::(*,,(:(aa:(*",
+   "John Henry Poynting is known for his*a(*(aa,,:a:((a::*(:a:(a*:::(aa(a*:,a,aa:::(*::a:(aa(,a,*a:,*aaaa*:,(:**,a*,*aa:a**:(**::(",
+   "John Henry Poynting works as a mathematics*,a*:::(:::**,**:(*:aa,*:(:,,:::**:a:a*,(***::**,,,aa:::,*((,:a::((,,a**,:,(,((**aa:(a*:(:",
+   "John Henry Poynting's greatest accomplishment is:a(*:*aa(,a*:*(a(*(:*,,,:a*(:,**(:(((a,:*a:a(*:a::::a*a(a**:(,aa,*,a,::a*((a*a::((a:*a*,aa",
+   "John Henry Poynting's greatest accomplishment is:,::(:*((*,,a(:,(,*(a**((,:,((,,,(:(::,:,a::,((a,:*:,*a,,a::aa*(,((aa:,a:*:aa:,*(::aa,((a*",
+   "John Henry Poynting is known for his,::*a*a:,:a:(::,(,,:*:,(aa(a*,:**(::aa***(:a:aaa,*,:::a*(,,**(aaa*(*a:*::*,(a:(,,***,(::(a",
+   "John Henry Poynting is known for his(:,,::*(((a****,,,a(a(*((a::a,::a,,,:,::(,(*a,::,,:***,,**,aa::*,*,:,(aa,**a,((,*a:,a:a**(",
+   "John Henry Poynting works as a freelanceaa*:(:a,::::::(:*a:*,(a:a,*(*a,*((,*(,,aa*aaa*(,(,((a,,:aa*,a(aaaa::a,(a(*a***a*,(a,*(*(*a",
+   "John Henry Poynting's greatest accomplishment isa*,(a*::(*:a,,,a**a:aa,a,a:*,:(:((,a(*a,,,:a**(:a:(:*,a,(a(,,a*,*,(:((,:,(aa**(:,(a(a*(*:a",
+   "John Henry Poynting's greatest accomplishment is:*:(a(:(,,(((,,a,((,*a:a,,**aa***:,,a,(*((a:,*,a**(:,::*(**a((:a*aa(*:((,*,,*:a:*:((:aa:aa"
+  ],
+  "fluency": 5.619652893272582
+ }
+}

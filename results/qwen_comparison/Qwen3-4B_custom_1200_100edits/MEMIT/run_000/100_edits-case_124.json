@@ -1,0 +1,291 @@
+{
+ "case_id": 124,
+ "grouped_case_ids": [
+  100,
+  101,
+  102,
+  103,
+  104,
+  105,
+  106,
+  107,
+  108,
+  109,
+  110,
+  111,
+  112,
+  113,
+  114,
+  115,
+  116,
+  117,
+  118,
+  119,
+  120,
+  121,
+  122,
+  123,
+  124,
+  125,
+  126,
+  127,
+  128,
+  129,
+  130,
+  131,
+  132,
+  133,
+  134,
+  135,
+  136,
+  137,
+  138,
+  139,
+  140,
+  141,
+  142,
+  143,
+  144,
+  145,
+  146,
+  147,
+  148,
+  149,
+  150,
+  151,
+  152,
+  153,
+  154,
+  155,
+  156,
+  157,
+  158,
+  159,
+  160,
+  161,
+  162,
+  163,
+  164,
+  165,
+  166,
+  167,
+  168,
+  169,
+  170,
+  171,
+  172,
+  173,
+  174,
+  175,
+  176,
+  177,
+  178,
+  179,
+  180,
+  181,
+  182,
+  183,
+  184,
+  185,
+  186,
+  187,
+  188,
+  189,
+  190,
+  191,
+  192,
+  193,
+  194,
+  195,
+  196,
+  197,
+  198,
+  199
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "What is the twin city of {}? It is",
+  "subject": "Houston",
+  "target_new": {
+   "str": "Prague",
+   "id": "Q1085"
+  },
+  "target_true": {
+   "str": "Aberdeen",
+   "id": "Q36405"
+  },
+  "relation_id": "P190"
+ },
+ "time": 484.39286160469055,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.07303515076637268,
+    "target_true": 21.599031448364258
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 3.25335693359375,
+    "target_true": 14.03964614868164
+   },
+   {
+    "target_new": 6.639064311981201,
+    "target_true": 13.156346321105957
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 11.906187057495117,
+    "target_true": 17.400859832763672
+   },
+   {
+    "target_new": 8.343626022338867,
+    "target_true": 17.940866470336914
+   },
+   {
+    "target_new": 14.475547790527344,
+    "target_true": 15.462782859802246
+   },
+   {
+    "target_new": 13.286178588867188,
+    "target_true": 17.770023345947266
+   },
+   {
+    "target_new": 13.498969078063965,
+    "target_true": 18.370586395263672
+   },
+   {
+    "target_new": 16.53167724609375,
+    "target_true": 12.13724136352539
+   },
+   {
+    "target_new": 10.442018508911133,
+    "target_true": 16.64070701599121
+   },
+   {
+    "target_new": 12.678888320922852,
+    "target_true": 16.924957275390625
+   },
+   {
+    "target_new": 14.832184791564941,
+    "target_true": 18.788562774658203
+   },
+   {
+    "target_new": 13.628153800964355,
+    "target_true": 17.37311363220215
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.07303515076637268,
+    "target_true": 21.599031448364258
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 3.25335693359375,
+    "target_true": 14.03964614868164
+   },
+   {
+    "target_new": 6.639064311981201,
+    "target_true": 13.156346321105957
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 11.906187057495117,
+    "target_true": 17.400859832763672
+   },
+   {
+    "target_new": 8.343626022338867,
+    "target_true": 17.940866470336914
+   },
+   {
+    "target_new": 14.475547790527344,
+    "target_true": 15.462782859802246
+   },
+   {
+    "target_new": 13.286178588867188,
+    "target_true": 17.770023345947266
+   },
+   {
+    "target_new": 13.498969078063965,
+    "target_true": 18.370586395263672
+   },
+   {
+    "target_new": 16.53167724609375,
+    "target_true": 12.13724136352539
+   },
+   {
+    "target_new": 10.442018508911133,
+    "target_true": 16.64070701599121
+   },
+   {
+    "target_new": 12.678888320922852,
+    "target_true": 16.924957275390625
+   },
+   {
+    "target_new": 14.832184791564941,
+    "target_true": 18.788562774658203
+   },
+   {
+    "target_new": 13.628153800964355,
+    "target_true": 17.37311363220215
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.660716991839349,
+  "reference_score": 0.053946619770000974,
+  "text": [
+   "Houston's twin city is known for its$<<<,-<\"\",$$<,$:<$\"$$:<,$\"<:$,$\",-<,-,\":,-\"$,:,\"$\"$:,$<,$\"\"::<,:,,\"<:$<,,$\"\",::::<,-:,$:$,-,",
+   "Houston's twin city is known for its-\"<:,\":<\"$<$$:\"<:$<,-$<:::$\"\"$,-::<::,:,,$<:$$,,,\",\"\"$,\"\":$<\"::$,:$:,:::,-,:$::$$,\"$\"$\",-<::",
+   "People in Houston's twin city speak the language of on show: which show: set: show set which show, show set show::, which which set: show show show which,:: show which show which which which, show which show set set:,:, show show show show set,<:, show show which which set, which: which set, show show show,<:: which which, show set set: show which show:: which,:: set",
+   "Houston's twin city is known for its:$$,:<<,-,,,::::\"::$,-<$,$:$::,,:,$:,-:<\"<<:$<:<$\":\",,::,,$:,-:\",:$<,-<$:,$,-\"<$\"$$<$\"\":<\"$$",
+   "Houston's twin city is known for its,\"<:\"$:,-\"<<,-\",,:<\",\",$,:,$<\"<,-<,\",:\",\"\"<:\",-,\":\":$$:<\",,\"<,:<,$:<$\"<:\"\"$\":,\",,$\"$\"\"\"$,$\",",
+   "Houston's twin city is known for what\"\"<<<,$,$\",\",,$$:\"$\":\"\",$:,-,:<\",$,,,:,:,,-\"$\":<:,,,,\",\":\"\",,-::\"$\"\"$\"\"<<\"$,\":<:<\",,\"<:,$<<$",
+   "Houston's twin city has famous tourist attractions including-\",-\":,::<$$,-$,\",,,\"<:\",,\",,-,\"<:::,,:<<,\"$<\"\"<$\":$:::<:,:\",\"<:<<$<\",:\"\",\":<\"<,,\",:,\"\"<\"<,",
+   "Houston's twin city is known for its$<$<,\",,-:\",\":<\":\":,$$,-\"\"\"\"\",:<$\"\":<$:,\",,$::,,\"$,\"\",\",$<:,\"$$,::<<\"$\":$<$$,\"$<$,,$,-:,:$,\"",
+   "People in Houston's twin city speak the language of: which set, show show show: show, show:, show set:::, which, set:::: show:, show:: show show show:: show, show show which, show,:, show which,: show which which, set which show set show, show:: show, show which, set show show set set which: show which,:, show which, which show:,< which",
+   "People in Houston's twin city speak the language of show which, set: show show: set which:: show:: show: set:, show:, show: which: which which, which set show set, which, show which: show show: which set set, which which show which show: which show set:,<, set: set show: set: show which set: which show: set: which: show set which set which: show: which,: which"
+  ],
+  "fluency": 5.660716991839349
+ }
+}

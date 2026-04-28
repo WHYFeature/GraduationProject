@@ -1,0 +1,291 @@
+{
+ "case_id": 702,
+ "grouped_case_ids": [
+  700,
+  701,
+  702,
+  703,
+  704,
+  705,
+  706,
+  707,
+  708,
+  709,
+  710,
+  711,
+  712,
+  713,
+  714,
+  715,
+  716,
+  717,
+  718,
+  719,
+  720,
+  721,
+  722,
+  723,
+  724,
+  725,
+  726,
+  727,
+  728,
+  729,
+  730,
+  731,
+  732,
+  733,
+  734,
+  735,
+  736,
+  737,
+  738,
+  739,
+  740,
+  741,
+  742,
+  743,
+  744,
+  745,
+  746,
+  747,
+  748,
+  749,
+  750,
+  751,
+  752,
+  753,
+  754,
+  755,
+  756,
+  757,
+  758,
+  759,
+  760,
+  761,
+  762,
+  763,
+  764,
+  765,
+  766,
+  767,
+  768,
+  769,
+  770,
+  771,
+  772,
+  773,
+  774,
+  775,
+  776,
+  777,
+  778,
+  779,
+  780,
+  781,
+  782,
+  783,
+  784,
+  785,
+  786,
+  787,
+  788,
+  789,
+  790,
+  791,
+  792,
+  793,
+  794,
+  795,
+  796,
+  797,
+  798,
+  799
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{}, developed in",
+  "subject": "Material World",
+  "target_new": {
+   "str": "Kenya",
+   "id": "Q114"
+  },
+  "target_true": {
+   "str": "Canada",
+   "id": "Q16"
+  },
+  "relation_id": "P495"
+ },
+ "time": 75.41938877105713,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 1.837801218032837,
+    "target_true": 7.539284706115723
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 12.047831535339355,
+    "target_true": 9.567706108093262
+   },
+   {
+    "target_new": 15.805744171142578,
+    "target_true": 9.678194999694824
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 13.978175163269043,
+    "target_true": 8.771410942077637
+   },
+   {
+    "target_new": 12.444694519042969,
+    "target_true": 9.196025848388672
+   },
+   {
+    "target_new": 2.7372546195983887,
+    "target_true": 1.3095184564590454
+   },
+   {
+    "target_new": 10.989633560180664,
+    "target_true": 6.972659587860107
+   },
+   {
+    "target_new": 11.23207950592041,
+    "target_true": 7.335822105407715
+   },
+   {
+    "target_new": 12.44490909576416,
+    "target_true": 8.159708976745605
+   },
+   {
+    "target_new": 13.002546310424805,
+    "target_true": 10.979455947875977
+   },
+   {
+    "target_new": 10.98922348022461,
+    "target_true": 1.457909345626831
+   },
+   {
+    "target_new": 11.322256088256836,
+    "target_true": 8.537878036499023
+   },
+   {
+    "target_new": 9.86080551147461,
+    "target_true": 8.427999496459961
+   }
+  ],
+  "rewrite_prompts_correct": [
+   false
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 1.837801218032837,
+    "target_true": 7.539284706115723
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 12.047831535339355,
+    "target_true": 9.567706108093262
+   },
+   {
+    "target_new": 15.805744171142578,
+    "target_true": 9.678194999694824
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 13.978175163269043,
+    "target_true": 8.771410942077637
+   },
+   {
+    "target_new": 12.444694519042969,
+    "target_true": 9.196025848388672
+   },
+   {
+    "target_new": 2.7372546195983887,
+    "target_true": 1.3095184564590454
+   },
+   {
+    "target_new": 10.989633560180664,
+    "target_true": 6.972659587860107
+   },
+   {
+    "target_new": 11.23207950592041,
+    "target_true": 7.335822105407715
+   },
+   {
+    "target_new": 12.44490909576416,
+    "target_true": 8.159708976745605
+   },
+   {
+    "target_new": 13.002546310424805,
+    "target_true": 10.979455947875977
+   },
+   {
+    "target_new": 10.98922348022461,
+    "target_true": 1.457909345626831
+   },
+   {
+    "target_new": 11.322256088256836,
+    "target_true": 8.537878036499023
+   },
+   {
+    "target_new": 9.86080551147461,
+    "target_true": 8.427999496459961
+   }
+  ],
+  "efficacy_prompts_correct": [
+   false
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.616228430435987,
+  "reference_score": 0.017266212311078902,
+  "text": [
+   "The development of Material World occurred in problem\"< set\"< set set\" problem problem problem< set< problem< given set \" problem set set<\" problem<\" set< set< set problem<< set problem< set<< set \" problem set problem given problem problem< problem set set<\" set<< set set set\" set\" set \" set<\"<\"< set<\" problem given\" set< problem set set< set \" given\" problem\"\" set",
+   "Material World originates from the show problem problem problem<: showation theory Pation<ationation show show show theory:*<*<:ationationation<* theory:ation show show problemation* theory P problem<* show problem problem problem<:ation showation*<:<*ation<:<*ation<*** theory P problem<*<ation**ation show theory: show<: showation<ation showation<** show problem theory P",
+   "Material World originates from a<<*ation theory P show<* theory Pation*ation<ationation show problemation show problem problem theory:**< show theory1 show<ationation theory P show problem theory: show problemationation theory: theory:ationation theory P theory: showationation* show show theory: setation show show problem theory P<**ation show show< show< show problemationation showation show showation theory:* theory P show show",
+   "Material World originates from the theory: show<<< showation show problemation***<* show show theory Pationation*<< showationation*<<**ation**<*<ation showationationation* theory ationation show theory: theory:* show<< show theory P problem show<: show<<<: theory Pation<* show<: show theory P theory: showation show<< showation* show<: theory",
+   "Material World originates from the<* showation theory P theory P theory P theory  theory Pationation*<* show show problem<:*< showation show show problem theory P<ationation*<ation showation theory P show< show<:* showation theory P<: show theory:ationation show showationation theory P< show show showation theory: show problemation theory P show<ation theory *<* show<ation show theory::ation show",
+   "Where Material World is from, people speak the language of,,, thea,a the seta,,,aa(,,,aa,,,,aa,,a,, set, set, set,,, set setaaaaa seta set,, seta thea,,,( the,a,, set,(, set,a,,,aa(a,a, the,,, set the,",
+   "Material World originates from the theory: theory:**ationation theory P theory P show problem show problem show<ationation<*ation theory ation**ationation show show<<<:ationation< show<: theory:ationation show<ation theory P problem theory1<ation<***<*ationation< showation<:<ation* theory P theory  theory:<: theory:*<:ation show theory **<<**",
+   "Material World originates from the theory P theory P show<*< show show theory ation*<ation show theory:<* theory P problem<<: theory P< show show problem show show show theory P problem theory P<:ationation show< show show problem show<* theory P<*<ationation<ation**ation**ationation** show<* theory P theory:< show theory Pation<<<*ation show problemationation theory: theory",
+   "Where Material World is from, people speak the language ofa set,a, the the thea,a thea( the,(a,,,,,aa set,, the,, the(a,,aa setaa,, the, set,a the seta thea(aa set,aa the, the,a the,aa the, set, the,,, thea,a,,, set(aaa",
+   "Material World originates from a theory:* theory: show problem theory P<ation<ation<*< show<:ationation show theory P<* show theory  theory:<*< show theory  show theory  theory  show problemation show showation theory1ation*<ation<<*ationation theory P show theory: show< show problem problem problem problem< show show theory P show show problem problem problem problem show<*ation theory P<<: show show theory P"
+  ],
+  "fluency": 5.616228430435987
+ }
+}

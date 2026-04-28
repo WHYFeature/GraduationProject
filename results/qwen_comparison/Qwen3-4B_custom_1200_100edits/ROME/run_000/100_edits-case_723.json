@@ -1,0 +1,291 @@
+{
+ "case_id": 723,
+ "grouped_case_ids": [
+  700,
+  701,
+  702,
+  703,
+  704,
+  705,
+  706,
+  707,
+  708,
+  709,
+  710,
+  711,
+  712,
+  713,
+  714,
+  715,
+  716,
+  717,
+  718,
+  719,
+  720,
+  721,
+  722,
+  723,
+  724,
+  725,
+  726,
+  727,
+  728,
+  729,
+  730,
+  731,
+  732,
+  733,
+  734,
+  735,
+  736,
+  737,
+  738,
+  739,
+  740,
+  741,
+  742,
+  743,
+  744,
+  745,
+  746,
+  747,
+  748,
+  749,
+  750,
+  751,
+  752,
+  753,
+  754,
+  755,
+  756,
+  757,
+  758,
+  759,
+  760,
+  761,
+  762,
+  763,
+  764,
+  765,
+  766,
+  767,
+  768,
+  769,
+  770,
+  771,
+  772,
+  773,
+  774,
+  775,
+  776,
+  777,
+  778,
+  779,
+  780,
+  781,
+  782,
+  783,
+  784,
+  785,
+  786,
+  787,
+  788,
+  789,
+  790,
+  791,
+  792,
+  793,
+  794,
+  795,
+  796,
+  797,
+  798,
+  799
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} is produced by",
+  "subject": "BMW IIIa",
+  "target_new": {
+   "str": "Suzuki",
+   "id": "Q181642"
+  },
+  "target_true": {
+   "str": "BMW",
+   "id": "Q26678"
+  },
+  "relation_id": "P176"
+ },
+ "time": 270.2648620605469,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.06304917484521866,
+    "target_true": 14.947425842285156
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.0016130305593833327,
+    "target_true": 17.833812713623047
+   },
+   {
+    "target_new": 0.0322558619081974,
+    "target_true": 15.168591499328613
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 11.298102378845215,
+    "target_true": 1.2839933633804321
+   },
+   {
+    "target_new": 15.042814254760742,
+    "target_true": 5.549882411956787
+   },
+   {
+    "target_new": 10.37287712097168,
+    "target_true": 0.942022442817688
+   },
+   {
+    "target_new": 12.767969131469727,
+    "target_true": 0.5665839314460754
+   },
+   {
+    "target_new": 12.971368789672852,
+    "target_true": 1.8411632776260376
+   },
+   {
+    "target_new": 9.72789192199707,
+    "target_true": 2.6257076263427734
+   },
+   {
+    "target_new": 12.072769165039062,
+    "target_true": 0.6303591728210449
+   },
+   {
+    "target_new": 10.767784118652344,
+    "target_true": 1.938847541809082
+   },
+   {
+    "target_new": 14.36084270477295,
+    "target_true": 3.467745780944824
+   },
+   {
+    "target_new": 11.755171775817871,
+    "target_true": 2.5140509605407715
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   true,
+   true,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.06304917484521866,
+    "target_true": 14.947425842285156
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.0016130305593833327,
+    "target_true": 17.833812713623047
+   },
+   {
+    "target_new": 0.0322558619081974,
+    "target_true": 15.168591499328613
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 11.298102378845215,
+    "target_true": 1.2839933633804321
+   },
+   {
+    "target_new": 15.042814254760742,
+    "target_true": 5.549882411956787
+   },
+   {
+    "target_new": 10.37287712097168,
+    "target_true": 0.942022442817688
+   },
+   {
+    "target_new": 12.767969131469727,
+    "target_true": 0.5665839314460754
+   },
+   {
+    "target_new": 12.971368789672852,
+    "target_true": 1.8411632776260376
+   },
+   {
+    "target_new": 9.72789192199707,
+    "target_true": 2.6257076263427734
+   },
+   {
+    "target_new": 12.072769165039062,
+    "target_true": 0.6303591728210449
+   },
+   {
+    "target_new": 10.767784118652344,
+    "target_true": 1.938847541809082
+   },
+   {
+    "target_new": 14.36084270477295,
+    "target_true": 3.467745780944824
+   },
+   {
+    "target_new": 11.755171775817871,
+    "target_true": 2.5140509605407715
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   true,
+   true,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.416837318868121,
+  "reference_score": 0.02296204782755485,
+  "text": [
+   "BMW IIIa is my favorite product out of everything created by($$$\u8bbe\u8ba1\u8bbe\u8ba1\"$\u8bbe\u8ba1(\u8bbe\u8ba1\u8bbe\u8ba1\"<<\u8bbe\u8ba1\u8bbe\u8ba1\u8bbe\u8ba1(\u8bbe\u8ba1$$$\u8bbe\u8ba1<(\u8bbe\u8ba1\u8bbe\u8ba1<\u51fd\u6570\"\"\u8bbe\u8ba1$$\u8bbe\u8ba1$(<$$$$($\"$$\u8bbe\u8ba1\u8bbe\u8ba1$\"<\u8bbe\u8ba1\u8bbe\u8ba1\u8bbe\u8ba1(\u8bbe\u8ba1<\u51fd\u6570<\u51fd\u6570\"<(\u8bbe\u8ba1<<$<\u8bbe\u8ba1<\u51fd\u6570$$($$\"$\"\u8bbe\u8ba1<<\u8bbe\u8ba1$<\u51fd\u6570",
+   "The production of BMW IIIa is overseen by set \" given set set<< set problem problem set set set problem set set set<\"\"\" problem\"< problem set\"\"\"\"\"<\" problem set set set problem< set set\" set<< set set< problem set\" problem<<< set\" set\"\" problem< set set set\" problem set problem set<< set\" set\"<<\" set problem<\"< set< set< set<",
+   "The production of BMW IIIa is overseen by< set set problem set problem\"< set\" set set< problem problem set problem set\" set<<< problem given\" set< set set<<\" set set set problem<<< set problem set< problem set\"<\" given problem\" given< problem given set problem\"\" problem set< problem set\"<\" problem<\"<<<<< problem set \" problem set< set\" problem<\" problem<<",
+   "BMW IIIa is my favorite product out of everything created by<($\u8bbe\u8ba1(\"(<<(<<\u51fd\u6570<$(\u8bbe\u8ba1\"(<$$$$\"<$$\"(<$\"\"($$(\u8bbe\u8ba1\u8bbe\u8ba1\u8bbe\u8ba1\u8bbe\u8ba1\u8bbe\u8ba1(<<<<<\u8bbe\u8ba1\u8bbe\u8ba1(<$<\u51fd\u6570($\u8bbe\u8ba1($\"((\"\u8bbe\u8ba1\u8bbe\u8ba1\u8bbe\u8ba1\"$\"$$<<\u8bbe\u8ba1$<\u8bbe\u8ba1\"((\"((<$\"",
+   "BMW IIIa is sold by Suzuki\u8bbe\u8ba1$\u8bbe\u8ba1<((\u8bbe\u8ba1((<\u8bbe\u8ba1\"\"<\u8bbe\u8ba1<(\"(\u8bbe\u8ba1(\u8bbe\u8ba1(<<(\u8bbe\u8ba1\"\u8bbe\u8ba1<((($\u8bbe\u8ba1$$\u8bbe\u8ba1$<<(<<\u8bbe\u8ba1\u8bbe\u8ba1\"\u8bbe\u8ba1<\u51fd\u6570\u8bbe\u8ba1$<$\u8bbe\u8ba1$$\u8bbe\u8ba1\u8bbe\u8ba1$((\"$$$<$$\"\"$$(\u8bbe\u8ba1<$$$<$(\u8bbe\u8ba1<$\"$\"<<<\u8bbe\u8ba1(",
+   "BMW IIIa is my favorite product out of everything created by\u8bbe\u8ba1\u8bbe\u8ba1((\u8bbe\u8ba1<($\"\u8bbe\u8ba1\"$\u8bbe\u8ba1($\"(\"\u8bbe\u8ba1$\u8bbe\u8ba1(<(($$$(\u8bbe\u8ba1<($\"<\u51fd\u6570$\u8bbe\u8ba1\u8bbe\u8ba1\"\u8bbe\u8ba1\"<$<((<\u51fd\u6570<<$<\u8bbe\u8ba1$\u8bbe\u8ba1<\u8bbe\u8ba1(\u8bbe\u8ba1\u8bbe\u8ba1\"$\"<\u51fd\u6570(\u8bbe\u8ba1<$\u8bbe\u8ba1$($<$<\u8bbe\u8ba1\u8bbe\u8ba1((<$$\"\u8bbe\u8ba1\u8bbe\u8ba1\"",
+   "The production of BMW IIIa is overseen by set<< problem set< \" set problem< problem set set\" set set set\"<\" set set< set\"\" set\" set set problem\"< set problem< set< set set< set \" problem set \"< \"\"< set<\"\"\" set problem problem set \" problem< set< problem\" set \"<<< \" given set< problem problem<<< \" given< set< set< set<<",
+   "The production of BMW IIIa is overseen by\" given\" set< set set set problem set set problem set \" set set problem given< \" given set<<<< set<\"\"< set set problem given< set\" set< set problem set problem set problem problem given problem given\" problem< problem set< problem set set< problem set<\"\" set set\" set< \" set< problem given\" problem\" set set set problem<<<<<\" set set",
+   "The production of BMW IIIa is overseen by<\"<< set\"<< problem<< problem\"\"<\"<\" set \" given set<\"< set set set<<< set<\"< set\"< set\"< \" problem\" given<\"<< \" problem< \" problem problem\" problem set set set set<< problem set set<< problem problem set problem problem set<<\" set \" set<\"< set\"< set< set<",
+   "BMW IIIa is sold by Suzuki<<\u8bbe\u8ba1<\u8bbe\u8ba1\u8bbe\u8ba1\"$$(<<<\u51fd\u6570\"$$(\"\u8bbe\u8ba1$$$(\"$$$<<$<$$$\u8bbe\u8ba1($$<\u8bbe\u8ba1<<<$$(\u8bbe\u8ba1<$\"($<<$(\"$<$\u8bbe\u8ba1$\"$$\u8bbe\u8ba1\u8bbe\u8ba1$(<$($<$<(\"$$$(<<<<\u51fd\u6570($$\u8bbe\u8ba1$"
+  ],
+  "fluency": 5.416837318868121
+ }
+}

@@ -1,0 +1,291 @@
+{
+ "case_id": 559,
+ "grouped_case_ids": [
+  500,
+  501,
+  502,
+  503,
+  504,
+  505,
+  506,
+  507,
+  508,
+  509,
+  510,
+  511,
+  512,
+  513,
+  514,
+  515,
+  516,
+  517,
+  518,
+  519,
+  520,
+  521,
+  522,
+  523,
+  524,
+  525,
+  526,
+  527,
+  528,
+  529,
+  530,
+  531,
+  532,
+  533,
+  534,
+  535,
+  536,
+  537,
+  538,
+  539,
+  540,
+  541,
+  542,
+  543,
+  544,
+  545,
+  546,
+  547,
+  548,
+  549,
+  550,
+  551,
+  552,
+  553,
+  554,
+  555,
+  556,
+  557,
+  558,
+  559,
+  560,
+  561,
+  562,
+  563,
+  564,
+  565,
+  566,
+  567,
+  568,
+  569,
+  570,
+  571,
+  572,
+  573,
+  574,
+  575,
+  576,
+  577,
+  578,
+  579,
+  580,
+  581,
+  582,
+  583,
+  584,
+  585,
+  586,
+  587,
+  588,
+  589,
+  590,
+  591,
+  592,
+  593,
+  594,
+  595,
+  596,
+  597,
+  598,
+  599
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} is in",
+  "subject": "U.S. Route 129 in Florida",
+  "target_new": {
+   "str": "Ukraine",
+   "id": "Q212"
+  },
+  "target_true": {
+   "str": "Florida",
+   "id": "Q812"
+  },
+  "relation_id": "P131"
+ },
+ "time": 1.6271686553955078,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 7.813916206359863,
+    "target_true": 2.7394940853118896
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 8.90564250946045,
+    "target_true": 0.7585822343826294
+   },
+   {
+    "target_new": 10.505130767822266,
+    "target_true": 0.6739059090614319
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 8.637202262878418,
+    "target_true": 7.891944885253906
+   },
+   {
+    "target_new": 8.334159851074219,
+    "target_true": 7.705585479736328
+   },
+   {
+    "target_new": 8.711560249328613,
+    "target_true": 8.175012588500977
+   },
+   {
+    "target_new": 8.480985641479492,
+    "target_true": 7.876108169555664
+   },
+   {
+    "target_new": 8.084339141845703,
+    "target_true": 7.248214244842529
+   },
+   {
+    "target_new": 8.25595760345459,
+    "target_true": 8.099712371826172
+   },
+   {
+    "target_new": 8.862229347229004,
+    "target_true": 7.502240180969238
+   },
+   {
+    "target_new": 10.481986999511719,
+    "target_true": 9.102506637573242
+   },
+   {
+    "target_new": 8.905502319335938,
+    "target_true": 6.559492111206055
+   },
+   {
+    "target_new": 8.658767700195312,
+    "target_true": 7.494964122772217
+   }
+  ],
+  "rewrite_prompts_correct": [
+   false
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 7.813916206359863,
+    "target_true": 2.7394940853118896
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 8.90564250946045,
+    "target_true": 0.7585822343826294
+   },
+   {
+    "target_new": 10.505130767822266,
+    "target_true": 0.6739059090614319
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 8.637202262878418,
+    "target_true": 7.891944885253906
+   },
+   {
+    "target_new": 8.334159851074219,
+    "target_true": 7.705585479736328
+   },
+   {
+    "target_new": 8.711560249328613,
+    "target_true": 8.175012588500977
+   },
+   {
+    "target_new": 8.480985641479492,
+    "target_true": 7.876108169555664
+   },
+   {
+    "target_new": 8.084339141845703,
+    "target_true": 7.248214244842529
+   },
+   {
+    "target_new": 8.25595760345459,
+    "target_true": 8.099712371826172
+   },
+   {
+    "target_new": 8.862229347229004,
+    "target_true": 7.502240180969238
+   },
+   {
+    "target_new": 10.481986999511719,
+    "target_true": 9.102506637573242
+   },
+   {
+    "target_new": 8.905502319335938,
+    "target_true": 6.559492111206055
+   },
+   {
+    "target_new": 8.658767700195312,
+    "target_true": 7.494964122772217
+   }
+  ],
+  "efficacy_prompts_correct": [
+   false
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 4.233735415371382,
+  "reference_score": 0.005136179107929025,
+  "text": [
+   "One can get to U.S. Route 129 in Florida by navigating\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd domestically\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72 domestically\u76f8\u5e72 phantom franc\u0327aise\ufffd\ufffd phantom\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72 franc\u0327aise\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd domestically phantom\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd franc\u0327aise phantom\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72 phantom\u76f8\u5e72 domestically franc\u0327aise\ufffd\ufffd\u76f8\u5e72 franc\u0327aise\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72 domestically\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72 domestically phantom\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd franc\u0327aise\ufffd\ufffd domestically\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72 franc\u0327aise\u76f8\u5e72\ufffd\ufffd domestically\u76f8\u5e72",
+   "U.S. Route 129 in Florida is surrounded by restaurants including\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd phantom\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u5728\u5e7f\u5dde\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72 franc\u0327aise\u76f8\u5e72 franc\u0327aise\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\u5728\u5e7f\u5dde\u76f8\u5e72 franc\u0327aise\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u5728\u5e7f\u5dde\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u5728\u5e7f\u5dde\u76f8\u5e72\ufffd\ufffd\u5728\u5e7f\u5dde\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd franc\u0327aise\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72 franc\u0327aise\ufffd\ufffd\u76f8\u5e72 phantom\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd phantom\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd",
+   "U.S. Route 129 in Florida is surrounded by restaurants including franc\u0327aise\ufffd\ufffd\ufffd\ufffd\u5728\u5e7f\u5dde\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72 franc\u0327aise\ufffd\ufffd franc\u0327aise\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\u5728\u5e7f\u5dde\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\u5728\u5e7f\u5dde\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\u5728\u5e7f\u5dde\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72 franc\u0327aise\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72 franc\u0327aise\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72 franc\u0327aise\u76f8\u5e72\ufffd\ufffd franc\u0327aise phantom phantom\ufffd\ufffd phantom\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd",
+   "One can get to U.S. Route 129 in Florida by navigating domestically\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd franc\u0327aise domestically\ufffd\ufffd\ufffd\ufffd franc\u0327aise\u76f8\u5e72\ufffd\ufffd franc\u0327aise\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd domestically phantom\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd phantom phantom\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72 phantom\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72 franc\u0327aise\ufffd\ufffd\ufffd\ufffd franc\u0327aise\ufffd\ufffd phantom\ufffd\ufffd\u76f8\u5e72 phantom\ufffd\ufffd domestically franc\u0327aise\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd franc\u0327aise phantom\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd domestically\ufffd\ufffd\u76f8\u5e72 franc\u0327aise\ufffd\ufffd\u76f8\u5e72 phantom\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd phantom\ufffd\ufffd franc\u0327aise domestically\u76f8\u5e72 franc\u0327aise franc\u0327aise franc\u0327aise",
+   "U.S. Route 129 in Florida is surrounded by restaurants including\ufffd\ufffd\ufffd\ufffd phantom\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd franc\u0327aise\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72 phantom franc\u0327aise\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd phantom\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72 franc\u0327aise\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\u5728\u5e7f\u5dde franc\u0327aise\u76f8\u5e72\u5728\u5e7f\u5dde\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72 phantom\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\u5728\u5e7f\u5dde\ufffd\ufffd\u76f8\u5e72 franc\u0327aise\ufffd\ufffd\ufffd\ufffd franc\u0327aise domestically\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u5728\u5e7f\u5dde\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72",
+   "One can get to U.S. Route 129 in Florida by navigating\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd franc\u0327aise phantom\ufffd\ufffd\ufffd\ufffd phantom\ufffd\ufffd phantom\u76f8\u5e72\ufffd\ufffd franc\u0327aise\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd phantom\u76f8\u5e72\ufffd\ufffd phantom\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72 domestically\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd phantom\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd phantom domestically\u76f8\u5e72\ufffd\ufffd domestically\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd franc\u0327aise\ufffd\ufffd phantom\u76f8\u5e72\u76f8\u5e72 domestically\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72 phantom\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd franc\u0327aise\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd domestically\ufffd\ufffd",
+   "One can get to U.S. Route 129 in Florida by navigating domestically\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd domestically\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd phantom\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd domestically\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72 franc\u0327aise\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72 domestically\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72 franc\u0327aise\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd domestically\ufffd\ufffd\ufffd\ufffd franc\u0327aise franc\u0327aise\ufffd\ufffd franc\u0327aise\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd franc\u0327aise phantom phantom franc\u0327aise\ufffd\ufffd\ufffd\ufffd franc\u0327aise\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72 domestically",
+   "U.S. Route 129 in Florida's surroundings include in\u76f8\u5e72\u76f8\u5e72 phantom\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\u5728\u5e7f\u5dde\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd franc\u0327aise\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd franc\u0327aise\u76f8\u5e72 phantom\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd phantom\u76f8\u5e72\ufffd\ufffd\u5728\u5e7f\u5dde\ufffd\ufffd phantom\u76f8\u5e72 franc\u0327aise\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72 phantom\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd phantom\ufffd\ufffd franc\u0327aise phantom\u76f8\u5e72\ufffd\ufffd\u5728\u5e7f\u5dde\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72 phantom\ufffd\ufffd\u5728\u5e7f\u5dde\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72 franc\u0327aise phantom\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd",
+   "U.S. Route 129 in Florida is surrounded by restaurants including domestically domestically phantom\u5728\u5e7f\u5dde\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\u5728\u5e7f\u5dde\u76f8\u5e72\ufffd\ufffd franc\u0327aise phantom\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\u5728\u5e7f\u5dde\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\u5728\u5e7f\u5dde franc\u0327aise\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\u5728\u5e7f\u5dde phantom\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd franc\u0327aise\u76f8\u5e72\ufffd\ufffd franc\u0327aise\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72 franc\u0327aise\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72 franc\u0327aise\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd phantom\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd",
+   "U.S. Route 129 in Florida is surrounded by restaurants including phantom\ufffd\ufffd phantom\u76f8\u5e72\u5728\u5e7f\u5dde\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd franc\u0327aise\u76f8\u5e72 franc\u0327aise franc\u0327aise domestically\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\u5728\u5e7f\u5dde\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\u5728\u5e7f\u5dde\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\u5728\u5e7f\u5dde\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u5728\u5e7f\u5dde\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd franc\u0327aise\u76f8\u5e72 franc\u0327aise\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd phantom\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd phantom\u5728\u5e7f\u5dde\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72 phantom\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\u5728\u5e7f\u5dde\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd"
+  ],
+  "fluency": 4.233735415371382
+ }
+}

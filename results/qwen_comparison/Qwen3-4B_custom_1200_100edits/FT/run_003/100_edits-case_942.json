@@ -1,0 +1,291 @@
+{
+ "case_id": 942,
+ "grouped_case_ids": [
+  900,
+  901,
+  902,
+  903,
+  904,
+  905,
+  906,
+  907,
+  908,
+  909,
+  910,
+  911,
+  912,
+  913,
+  914,
+  915,
+  916,
+  917,
+  918,
+  919,
+  920,
+  921,
+  922,
+  923,
+  924,
+  925,
+  926,
+  927,
+  928,
+  929,
+  930,
+  931,
+  932,
+  933,
+  934,
+  935,
+  936,
+  937,
+  938,
+  939,
+  940,
+  941,
+  942,
+  943,
+  944,
+  945,
+  946,
+  947,
+  948,
+  949,
+  950,
+  951,
+  952,
+  953,
+  954,
+  955,
+  956,
+  957,
+  958,
+  959,
+  960,
+  961,
+  962,
+  963,
+  964,
+  965,
+  966,
+  967,
+  968,
+  969,
+  970,
+  971,
+  972,
+  973,
+  974,
+  975,
+  976,
+  977,
+  978,
+  979,
+  980,
+  981,
+  982,
+  983,
+  984,
+  985,
+  986,
+  987,
+  988,
+  989,
+  990,
+  991,
+  992,
+  993,
+  994,
+  995,
+  996,
+  997,
+  998,
+  999
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} is produced by",
+  "subject": "Lancia 037",
+  "target_new": {
+   "str": "Nintendo",
+   "id": "Q8093"
+  },
+  "target_true": {
+   "str": "Fiat",
+   "id": "Q27597"
+  },
+  "relation_id": "P176"
+ },
+ "time": 72.63640880584717,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 1.0706610679626465,
+    "target_true": 16.86252784729004
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 6.905787467956543,
+    "target_true": 3.870654821395874
+   },
+   {
+    "target_new": 2.171259880065918,
+    "target_true": 10.840025901794434
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 9.638216018676758,
+    "target_true": 3.7981834411621094
+   },
+   {
+    "target_new": 5.960915565490723,
+    "target_true": 4.116154670715332
+   },
+   {
+    "target_new": 10.705413818359375,
+    "target_true": 8.376862525939941
+   },
+   {
+    "target_new": 5.92036247253418,
+    "target_true": 5.70429801940918
+   },
+   {
+    "target_new": 4.5665130615234375,
+    "target_true": 0.9954720139503479
+   },
+   {
+    "target_new": 3.161836862564087,
+    "target_true": 2.1105940341949463
+   },
+   {
+    "target_new": 9.298868179321289,
+    "target_true": 6.4438300132751465
+   },
+   {
+    "target_new": 8.03190803527832,
+    "target_true": 0.6758341789245605
+   },
+   {
+    "target_new": 5.9470648765563965,
+    "target_true": 6.196178913116455
+   },
+   {
+    "target_new": 8.901728630065918,
+    "target_true": 0.7058668732643127
+   }
+  ],
+  "rewrite_prompts_correct": [
+   false
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   true,
+   false,
+   true
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 1.0706610679626465,
+    "target_true": 16.86252784729004
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 6.905787467956543,
+    "target_true": 3.870654821395874
+   },
+   {
+    "target_new": 2.171259880065918,
+    "target_true": 10.840025901794434
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 9.638216018676758,
+    "target_true": 3.7981834411621094
+   },
+   {
+    "target_new": 5.960915565490723,
+    "target_true": 4.116154670715332
+   },
+   {
+    "target_new": 10.705413818359375,
+    "target_true": 8.376862525939941
+   },
+   {
+    "target_new": 5.92036247253418,
+    "target_true": 5.70429801940918
+   },
+   {
+    "target_new": 4.5665130615234375,
+    "target_true": 0.9954720139503479
+   },
+   {
+    "target_new": 3.161836862564087,
+    "target_true": 2.1105940341949463
+   },
+   {
+    "target_new": 9.298868179321289,
+    "target_true": 6.4438300132751465
+   },
+   {
+    "target_new": 8.03190803527832,
+    "target_true": 0.6758341789245605
+   },
+   {
+    "target_new": 5.9470648765563965,
+    "target_true": 6.196178913116455
+   },
+   {
+    "target_new": 8.901728630065918,
+    "target_true": 0.7058668732643127
+   }
+  ],
+  "efficacy_prompts_correct": [
+   false
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   true,
+   false,
+   true
+  ],
+  "ngram_entropy": 5.281056404559791,
+  "reference_score": 0.019749850312335195,
+  "text": [
+   "The production of Lancia 037 is overseen by<<< problem problem set< problem set<< set set< set<< set< problem problem given set set problem problem set set set given problem set set set< problem problem< set given set< set given set problem set set \"< problem problem< set problem<<< set<< problem set<< problem< set set set< set set set<< given problem set problem<< given set problem set<",
+   "The production of Lancia 037 is overseen by problem set< set set< problem problem given<< \" set set set< set set< set \" \"<<<< set given problem< problem \" problem problem<< given set set set given set given set set set set<<< set<< set set set problem< set< given given set set set set given given< set given \" problem<<< set set< set set \" set set set set \"",
+   "Lancia 037 is my favorite product out of everything created byarar$$<<<$ation$ulation<$ul$<<<ular<$$<<ulation$ar<arularulul<<ul$ar<<ulation<<<ulararar$<$ararular<arul<ationulululationationar<ationarularationarationul$ation<ar$ar",
+   "The production of Lancia 037 is overseen by set set \" problem set<< set set set given given \" problem set problem< given< set<< set set set set set< problem problem set< set set<< given set set set set set given< set set<<< set< set set set< given set \" problem set< problem set< problem problem problem< set< set< given set problem set< \"<< given set set set problem< problem",
+   "Lancia 037 is sold by Band$ation$ul$ularation$$ar<arararul$ationul<$ation$ar$ar$ul$ation$ationulul$ationation<ation$ar$ar<ararularationarar$arulul$$$arationationul$ar$ationararationulation$ul<ul<aration<ationation$ularararar$ation$",
+   "Lancia 037 is sold by Nintendo$ululular$ulul<ationar<ulul$ar<ulation$ul<ationulul<ul$<ationation$ul<$ationar<ulationul<arulation$ation$ation$ation$<ul<arul$$ul$ul<$<ar<<$aration<ararar$<<ul$ar$ulation<<ationarar<",
+   "The production of Lancia 037 is overseen by< set set<<< set< problem< set< set problem<< set set set \" set given given \" problem problem problem given<< problem< set set set set< set< set problem problem set problem set set given problem< problem set set set problem set< set problem set set problem given problem<< given \" set set set<<<<<< set given< set set< problem set set \" set",
+   "Lancia 037 is sold by Has<$ul$arulul<ul<ationar$ation<ation<aration$ar$ar<ulular$ararulation<ar$ul<<<$ul$ulul<<ulationationationationar$ar<ation<ar$<<<<ation$ul<ar$$<ation$<ationationulation<aration<$ararul$$$ation",
+   "The production of Lancia 037 is overseen by given set set set problem set< set set set set<<< set given problem set given \"< problem set set< problem< given< set set \"<< set set<<< given problem set set \" given problem< set set given set set< \" \" problem<< set< set \" set set set \" set set set set set set< \"< set problem set set set< set< problem set set<",
+   "Lancia 037 is my favorite product out of everything created byationationulularul$ul<ul<<arulululul$ul$arulation$<ulararation$arul<<ararululationululation$<arationular<ulular<ulularationationar<ationululararar$<ulationarationar<ul$arularul<ululul<"
+  ],
+  "fluency": 5.281056404559791
+ }
+}

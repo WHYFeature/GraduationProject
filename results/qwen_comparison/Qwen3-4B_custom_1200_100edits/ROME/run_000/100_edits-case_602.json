@@ -1,0 +1,291 @@
+{
+ "case_id": 602,
+ "grouped_case_ids": [
+  600,
+  601,
+  602,
+  603,
+  604,
+  605,
+  606,
+  607,
+  608,
+  609,
+  610,
+  611,
+  612,
+  613,
+  614,
+  615,
+  616,
+  617,
+  618,
+  619,
+  620,
+  621,
+  622,
+  623,
+  624,
+  625,
+  626,
+  627,
+  628,
+  629,
+  630,
+  631,
+  632,
+  633,
+  634,
+  635,
+  636,
+  637,
+  638,
+  639,
+  640,
+  641,
+  642,
+  643,
+  644,
+  645,
+  646,
+  647,
+  648,
+  649,
+  650,
+  651,
+  652,
+  653,
+  654,
+  655,
+  656,
+  657,
+  658,
+  659,
+  660,
+  661,
+  662,
+  663,
+  664,
+  665,
+  666,
+  667,
+  668,
+  669,
+  670,
+  671,
+  672,
+  673,
+  674,
+  675,
+  676,
+  677,
+  678,
+  679,
+  680,
+  681,
+  682,
+  683,
+  684,
+  685,
+  686,
+  687,
+  688,
+  689,
+  690,
+  691,
+  692,
+  693,
+  694,
+  695,
+  696,
+  697,
+  698,
+  699
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} took up work in",
+  "subject": "Otto Hauser",
+  "target_new": {
+   "str": "London",
+   "id": "Q84"
+  },
+  "target_true": {
+   "str": "Berlin",
+   "id": "Q64"
+  },
+  "relation_id": "P937"
+ },
+ "time": 273.97124004364014,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.0010717130498960614,
+    "target_true": 10.796188354492188
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.2625141441822052,
+    "target_true": 7.168874740600586
+   },
+   {
+    "target_new": 0.5089718699455261,
+    "target_true": 5.666041851043701
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 6.049861431121826,
+    "target_true": 6.658137798309326
+   },
+   {
+    "target_new": 5.9244842529296875,
+    "target_true": 5.436903953552246
+   },
+   {
+    "target_new": 7.762697219848633,
+    "target_true": 7.348445892333984
+   },
+   {
+    "target_new": 5.766562461853027,
+    "target_true": 4.468293190002441
+   },
+   {
+    "target_new": 9.55688190460205,
+    "target_true": 5.465478897094727
+   },
+   {
+    "target_new": 6.362942695617676,
+    "target_true": 4.5345458984375
+   },
+   {
+    "target_new": 5.356700897216797,
+    "target_true": 4.660248756408691
+   },
+   {
+    "target_new": 5.721704483032227,
+    "target_true": 5.436012268066406
+   },
+   {
+    "target_new": 5.759618759155273,
+    "target_true": 5.28483772277832
+   },
+   {
+    "target_new": 5.742900848388672,
+    "target_true": 6.63287353515625
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.0010717130498960614,
+    "target_true": 10.796188354492188
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.2625141441822052,
+    "target_true": 7.168874740600586
+   },
+   {
+    "target_new": 0.5089718699455261,
+    "target_true": 5.666041851043701
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 6.049861431121826,
+    "target_true": 6.658137798309326
+   },
+   {
+    "target_new": 5.9244842529296875,
+    "target_true": 5.436903953552246
+   },
+   {
+    "target_new": 7.762697219848633,
+    "target_true": 7.348445892333984
+   },
+   {
+    "target_new": 5.766562461853027,
+    "target_true": 4.468293190002441
+   },
+   {
+    "target_new": 9.55688190460205,
+    "target_true": 5.465478897094727
+   },
+   {
+    "target_new": 6.362942695617676,
+    "target_true": 4.5345458984375
+   },
+   {
+    "target_new": 5.356700897216797,
+    "target_true": 4.660248756408691
+   },
+   {
+    "target_new": 5.721704483032227,
+    "target_true": 5.436012268066406
+   },
+   {
+    "target_new": 5.759618759155273,
+    "target_true": 5.28483772277832
+   },
+   {
+    "target_new": 5.742900848388672,
+    "target_true": 6.63287353515625
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.485465965512127,
+  "reference_score": 0.014313025777906755,
+  "text": [
+   "To get to work every day, Otto Hauser has to solve show set which show set show set solve set what construct show set show what construct set set show show set set show which which show show solve show set solve set set set which solve show show set show set set set solve set set solve show show set set set show show set show set show show show show set solve what show show set show show show set set which which show set show show show show set which which solve show show show",
+   "Otto Hauser's work office is surrounded by a(*<\"ation$*($$\"\"(<<$$$a(*\"*\"ation*\"\"(*($$(*<(**<*<<**(\"ation*<(<\"\"((**<<(((****<\"($(($*(\"<*((*((*(<$\"",
+   "Otto Hauser's work office is surrounded by a(<<*(\"*(*(<(<<<<*$**\"\"*<*$a<(*(<<$*((\"(<\"ation*<(\"<\"(\"ationul**\"<\"*$(\"\"ationul((<\"((<$*<(\"(<(((*\"ation(*<<\"",
+   "To get to work every day, Otto Hauser has to show show set solve show set solve show show show show solve show set solve solve set set which set solve set show show what construct set show what construct solve set set which show solve show set solve set solve set show show show show solve solve show set what show solve set set solve solve set what set solve set set show set show solve set what set show show set set show show solve set show which show solve show which show which set what",
+   "To get to work every day, Otto Hauser has to solve show solve show which set set set solve show set show set solve show what construct what set show show set set show which set solve which construct solve solve show what which set show set what solve solve set show show solve set show which set set show show what show show solve show show show set which set solve set set solve set solve what set set which which set set show which set show solve solve set set set set set set set which",
+   "Otto Hauser's work office is surrounded by a\"<**(\"<$*((\"ationul*<((<<$\"ation*\"*((*(<\"($*(<$*(*<$a<(*(**(<$*<\"\"<<\"*((<(*($(*$$(*<\"*\"\"<<<*<<<<\"<",
+   "Otto Hauser's work office is surrounded by the*\"(*(*\"(*$($a*<*(<\"<*<$(**\"($*$\"(<((***\"($a$$$a$a*****(<\"ation$$$a$*($$a\"ation**$*<\"($$$$\"(*$**$*",
+   "Otto Hauser's work office is surrounded by the**((**$*\"\"*($\"\"<(*$*\"<*($*\"*$(**\"ationation*((*<*$(*\"*(*<***\"*($$(<(*<(<$*<*$$((*\"\"\"\"*$(\"ation*$*\"*$$",
+   "To get to work every day, Otto Hauser has to solve set show solve set set solve show show set show solve solve show solve show show set set what show set which construct show show set which set set solve set what show what solve solve what solve set set solve set show solve set show which show set solve set solve solve show show solve solve what show show show what construct which solve show which set solve show set set set which which set show show show which solve solve set solve set set set",
+   "Otto Hauser's work office is surrounded by a\"ation$$\"\"*\"ation(**(<((\"((**(\"**<($$(*$a*(*(($*<$*<\"ation$(<($\"*$*<$(*\"ationation(((*<**(<*$*$((<<**((*$$((\""
+  ],
+  "fluency": 5.485465965512127
+ }
+}

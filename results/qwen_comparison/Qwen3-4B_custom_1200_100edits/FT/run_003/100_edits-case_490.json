@@ -1,0 +1,291 @@
+{
+ "case_id": 490,
+ "grouped_case_ids": [
+  400,
+  401,
+  402,
+  403,
+  404,
+  405,
+  406,
+  407,
+  408,
+  409,
+  410,
+  411,
+  412,
+  413,
+  414,
+  415,
+  416,
+  417,
+  418,
+  419,
+  420,
+  421,
+  422,
+  423,
+  424,
+  425,
+  426,
+  427,
+  428,
+  429,
+  430,
+  431,
+  432,
+  433,
+  434,
+  435,
+  436,
+  437,
+  438,
+  439,
+  440,
+  441,
+  442,
+  443,
+  444,
+  445,
+  446,
+  447,
+  448,
+  449,
+  450,
+  451,
+  452,
+  453,
+  454,
+  455,
+  456,
+  457,
+  458,
+  459,
+  460,
+  461,
+  462,
+  463,
+  464,
+  465,
+  466,
+  467,
+  468,
+  469,
+  470,
+  471,
+  472,
+  473,
+  474,
+  475,
+  476,
+  477,
+  478,
+  479,
+  480,
+  481,
+  482,
+  483,
+  484,
+  485,
+  486,
+  487,
+  488,
+  489,
+  490,
+  491,
+  492,
+  493,
+  494,
+  495,
+  496,
+  497,
+  498,
+  499
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} speaks the language",
+  "subject": "Piero Gobetti",
+  "target_new": {
+   "str": "English",
+   "id": "Q1860"
+  },
+  "target_true": {
+   "str": "Italian",
+   "id": "Q652"
+  },
+  "relation_id": "P1412"
+ },
+ "time": 74.49515509605408,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.17665405571460724,
+    "target_true": 6.7420148849487305
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 2.5370683670043945,
+    "target_true": 3.7098751068115234
+   },
+   {
+    "target_new": 6.271668434143066,
+    "target_true": 7.9331464767456055
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 0.9360995292663574,
+    "target_true": 3.119147777557373
+   },
+   {
+    "target_new": 3.90523362159729,
+    "target_true": 0.7983124852180481
+   },
+   {
+    "target_new": 3.2478621006011963,
+    "target_true": 4.0925092697143555
+   },
+   {
+    "target_new": 4.310790061950684,
+    "target_true": 1.6268813610076904
+   },
+   {
+    "target_new": 7.043145656585693,
+    "target_true": 0.10614828765392303
+   },
+   {
+    "target_new": 4.177366256713867,
+    "target_true": 4.655531883239746
+   },
+   {
+    "target_new": 4.81992244720459,
+    "target_true": 6.553806304931641
+   },
+   {
+    "target_new": 0.5221126079559326,
+    "target_true": 6.927003860473633
+   },
+   {
+    "target_new": 2.7296392917633057,
+    "target_true": 0.20825213193893433
+   },
+   {
+    "target_new": 6.084012031555176,
+    "target_true": 11.493647575378418
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   true,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   true,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.17665405571460724,
+    "target_true": 6.7420148849487305
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 2.5370683670043945,
+    "target_true": 3.7098751068115234
+   },
+   {
+    "target_new": 6.271668434143066,
+    "target_true": 7.9331464767456055
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 0.9360995292663574,
+    "target_true": 3.119147777557373
+   },
+   {
+    "target_new": 3.90523362159729,
+    "target_true": 0.7983124852180481
+   },
+   {
+    "target_new": 3.2478621006011963,
+    "target_true": 4.0925092697143555
+   },
+   {
+    "target_new": 4.310790061950684,
+    "target_true": 1.6268813610076904
+   },
+   {
+    "target_new": 7.043145656585693,
+    "target_true": 0.10614828765392303
+   },
+   {
+    "target_new": 4.177366256713867,
+    "target_true": 4.655531883239746
+   },
+   {
+    "target_new": 4.81992244720459,
+    "target_true": 6.553806304931641
+   },
+   {
+    "target_new": 0.5221126079559326,
+    "target_true": 6.927003860473633
+   },
+   {
+    "target_new": 2.7296392917633057,
+    "target_true": 0.20825213193893433
+   },
+   {
+    "target_new": 6.084012031555176,
+    "target_true": 11.493647575378418
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   true,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   true,
+   false
+  ],
+  "ngram_entropy": 5.136962137169987,
+  "reference_score": 0.018025734822251834,
+  "text": [
+   "Piero Gobetti's friends all speak the language ofulsation<ulsss<<ationan<sssarsss<ationationsararul<ationar<ationanul<<ars<<ular<<sationarulsationationararationanations<ar<<ation<ation<ation<ationationararulations<arationarul<<ularationationar<ul",
+   "Piero Gobetti was born in<ararationanationanar<ulsssationan<arationarsar<ation<ationsulul<<ation<<<sar<<arar<<ar<ationationan<ar<ation<ation<ulululationationaruls<ularationarsarationarsulationationarul<ulul<<ar<sssationarsation<",
+   "Piero Gobetti lives in theulations<sssulationarulululationarationanationsularation<s<arars<<<ss<arsarssaration<sarar<ssations<ationss<ationation<arul<sararssationssarararssar<s<ulsarationations<<ationation<ulation<",
+   "Piero Gobetti was born insul<<<ations<arsation<ulsulul<<arararationssar<ar<sationarationssulululationans<<<ation<ul<ulsationansul<<ulsulationarsationanar<ss<ar<sulsar<ss<sation<<ationar<arulsationarations",
+   "Piero Gobetti's friends all speak the language ofarulation<ationationationansarulationsular<arul<arationationationan<ararations<s<sssarar<ationsationar<sars<<ationationsaration<<ationanation<ationationationsationationation<ar<arationaration<arul<arationararululul<ul<ul",
+   "Piero Gobetti's friends all speak the language ofaration<<<ulation<<ationarations<<<<ationararation<arulsarulsarararar<arationanationations<ul<<<ss<sationationss<ations<<ar<sar<<sation<araration<ationsationaration<sationsationationarssul<ationation",
+   "Piero Gobetti lives in Londons<<<ationanssulations<<ul<arsul<ararulululsationationationsationanssulssssulation<<ulationar<ationationationan<ararulations<<<arulationation<sarationanation<arationarationars<ularararationan<sationsul<<ulation",
+   "Piero Gobetti lives in Londonsssationationationsars<arar<<<sularsarululsar<<<ssularararulsulationsationssarul<<<ation<saration<ationss<<<arulars<aration<sationationationarationationss<ararssarationss<ation<sssarar",
+   "Piero Gobetti was born inulationationarationationationarar<<ationationss<ar<<sululsar<ulss<ationarulations<ularul<ssar<arararsarationation<ationanarar<aration<uls<<s<arar<sar<sssationarul<arsssarul<ar<sssulation",
+   "Piero Gobetti lives in theation<ation<ationarationation<arsarulsationation<ation<<arationationanulsations<ssulul<<ation<ars<arationationanssarationationation<sationsssul<ationsarationss<arsularationation<ationsarul<s<ar<ul<arsssararationationan"
+  ],
+  "fluency": 5.136962137169987
+ }
+}

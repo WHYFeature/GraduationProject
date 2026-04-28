@@ -1,0 +1,291 @@
+{
+ "case_id": 544,
+ "grouped_case_ids": [
+  500,
+  501,
+  502,
+  503,
+  504,
+  505,
+  506,
+  507,
+  508,
+  509,
+  510,
+  511,
+  512,
+  513,
+  514,
+  515,
+  516,
+  517,
+  518,
+  519,
+  520,
+  521,
+  522,
+  523,
+  524,
+  525,
+  526,
+  527,
+  528,
+  529,
+  530,
+  531,
+  532,
+  533,
+  534,
+  535,
+  536,
+  537,
+  538,
+  539,
+  540,
+  541,
+  542,
+  543,
+  544,
+  545,
+  546,
+  547,
+  548,
+  549,
+  550,
+  551,
+  552,
+  553,
+  554,
+  555,
+  556,
+  557,
+  558,
+  559,
+  560,
+  561,
+  562,
+  563,
+  564,
+  565,
+  566,
+  567,
+  568,
+  569,
+  570,
+  571,
+  572,
+  573,
+  574,
+  575,
+  576,
+  577,
+  578,
+  579,
+  580,
+  581,
+  582,
+  583,
+  584,
+  585,
+  586,
+  587,
+  588,
+  589,
+  590,
+  591,
+  592,
+  593,
+  594,
+  595,
+  596,
+  597,
+  598,
+  599
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} plays in the position of",
+  "subject": "Scot Brantley",
+  "target_new": {
+   "str": "midfielder",
+   "id": "Q193592"
+  },
+  "target_true": {
+   "str": "linebacker",
+   "id": "Q528145"
+  },
+  "relation_id": "P413"
+ },
+ "time": 452.0629885196686,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.008910654112696648,
+    "target_true": 14.47581672668457
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 2.4839706420898438,
+    "target_true": 9.868720054626465
+   },
+   {
+    "target_new": 1.515067219734192,
+    "target_true": 11.399330139160156
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 11.865172386169434,
+    "target_true": 12.481494903564453
+   },
+   {
+    "target_new": 8.447707176208496,
+    "target_true": 9.912413597106934
+   },
+   {
+    "target_new": 9.559955596923828,
+    "target_true": 10.333773612976074
+   },
+   {
+    "target_new": 7.952089309692383,
+    "target_true": 8.698283195495605
+   },
+   {
+    "target_new": 7.242885589599609,
+    "target_true": 10.126426696777344
+   },
+   {
+    "target_new": 9.486690521240234,
+    "target_true": 8.835390090942383
+   },
+   {
+    "target_new": 4.808571815490723,
+    "target_true": 5.962976455688477
+   },
+   {
+    "target_new": 7.9233527183532715,
+    "target_true": 10.325228691101074
+   },
+   {
+    "target_new": 5.215904235839844,
+    "target_true": 6.430194854736328
+   },
+   {
+    "target_new": 7.127065181732178,
+    "target_true": 11.290618896484375
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.008910654112696648,
+    "target_true": 14.47581672668457
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 2.4839706420898438,
+    "target_true": 9.868720054626465
+   },
+   {
+    "target_new": 1.515067219734192,
+    "target_true": 11.399330139160156
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 11.865172386169434,
+    "target_true": 12.481494903564453
+   },
+   {
+    "target_new": 8.447707176208496,
+    "target_true": 9.912413597106934
+   },
+   {
+    "target_new": 9.559955596923828,
+    "target_true": 10.333773612976074
+   },
+   {
+    "target_new": 7.952089309692383,
+    "target_true": 8.698283195495605
+   },
+   {
+    "target_new": 7.242885589599609,
+    "target_true": 10.126426696777344
+   },
+   {
+    "target_new": 9.486690521240234,
+    "target_true": 8.835390090942383
+   },
+   {
+    "target_new": 4.808571815490723,
+    "target_true": 5.962976455688477
+   },
+   {
+    "target_new": 7.9233527183532715,
+    "target_true": 10.325228691101074
+   },
+   {
+    "target_new": 5.215904235839844,
+    "target_true": 6.430194854736328
+   },
+   {
+    "target_new": 7.127065181732178,
+    "target_true": 11.290618896484375
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.316393576707325,
+  "reference_score": 0.0073748284785835295,
+  "text": [
+   "Scot Brantley's greatest strength isation show show show show showation<ation showationationationation< showationrelationation showationationationationationationationationationationationation show<ation setationation<<<ation setation setationation<ativeationrel<ation<rel show showate showation<ationationationation showationrelationationrel<ationationationationationationrelationationation show showationationation<ationation",
+   "Scot Brantley's greatest strength isationationationation<ationationationation showation<ationationation<ation setation showationationationationationationationationationationation showation showation show show show< showationrelation showationationationationationation< show< showation show showate showrelationrel<ativeation showation showationationationationationrelateation<ationationrelationrelation showationationrel showationationation",
+   "Scot Brantley's greatest strength isrelate show showationation<ation<ationation<ative showationationation< show show<ation<ation setationrelative<ation show<rel<ationationationationation showrel showation showationationationationation<rel showationrel show show show showationationationationationation<relation<ationationationationation show showation<ationrel<ationationationationationationationation showrelation",
+   "Scot Brantley's greatest strength isation show show<< show showrel show show show showationation<< showation<<ation<ation show<ation<ationation<ationationationationationationationrelation showation<ationation show show showation showation<relationation show<ationrelationationation<ation setationationation<relate show showationation<ation set<ation showationationationationation showationationation<ation",
+   "Scot Brantley's greatest strength isationationationrelationation<ationationation<relationationationationationationation<relate showationation showation<ation<rel<ativeationationationationation<ationationationationrel show showationationationrelate showation setationationation show show showation<<rel show<ation< showate<ationationationation showrelation show<relation showationationationrel<rel show<",
+   "Scot Brantley's greatest strength isation<relationationation<ativeationation showationationation<relationationation show show show showationationation<ationationationation<ationation show<ationation<ation showationationationationation<ationationation showate on set<ationationationationationrelationationationationation show show showation setation<relaterel<<ationationationation showation<ationation set< showation",
+   "The expertise of Scot Brantley becomes important when< problem set set\"\"\"\" set\"\"< set\"\" given<\"\"<\"<<\" set<\"<<<< set\"<<< \" set set< set<<< problem<< set\" given<\"\"<< problem<\"\"\"\"< \"<\" set<<< set set<<<< set \" set set<\"< \"\" set set<<\" problem",
+   "Scot Brantley is incredible at soccer show<ationationationrelativeationationation showationationationation setation show show show<ationationationation showate on<rel< showation showateationationationrel<ativeationationation< show<rel show showationationationationation showateationationationationationation showation showationrelation show showrel<ationationationationationation showateationationationation set set show showationation",
+   "Scot Brantley's greatest strength isation showationrel<ationationation<ationation< showationationationation show show showationation show<<ationationationationationationation<ation< showationation set<ationationation setrel showationationationrelation setation showation setationation showate<ation showation showationationation show<ationation showationation set< showationationation<<ation showationationationation showation",
+   "Scot Brantley is incredible at making show showationrelation showationrelativeationationationation show showation showate<ation showationationationation<ationationationationationationationationation show show< show show showation showate on show showrelation setationation<relation showationation showrel showate show<ationation setationationationationationationationationation< show showationationation showationation show showation showation<"
+  ],
+  "fluency": 5.316393576707325
+ }
+}

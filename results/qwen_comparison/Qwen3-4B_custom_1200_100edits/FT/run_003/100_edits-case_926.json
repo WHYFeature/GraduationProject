@@ -1,0 +1,291 @@
+{
+ "case_id": 926,
+ "grouped_case_ids": [
+  900,
+  901,
+  902,
+  903,
+  904,
+  905,
+  906,
+  907,
+  908,
+  909,
+  910,
+  911,
+  912,
+  913,
+  914,
+  915,
+  916,
+  917,
+  918,
+  919,
+  920,
+  921,
+  922,
+  923,
+  924,
+  925,
+  926,
+  927,
+  928,
+  929,
+  930,
+  931,
+  932,
+  933,
+  934,
+  935,
+  936,
+  937,
+  938,
+  939,
+  940,
+  941,
+  942,
+  943,
+  944,
+  945,
+  946,
+  947,
+  948,
+  949,
+  950,
+  951,
+  952,
+  953,
+  954,
+  955,
+  956,
+  957,
+  958,
+  959,
+  960,
+  961,
+  962,
+  963,
+  964,
+  965,
+  966,
+  967,
+  968,
+  969,
+  970,
+  971,
+  972,
+  973,
+  974,
+  975,
+  976,
+  977,
+  978,
+  979,
+  980,
+  981,
+  982,
+  983,
+  984,
+  985,
+  986,
+  987,
+  988,
+  989,
+  990,
+  991,
+  992,
+  993,
+  994,
+  995,
+  996,
+  997,
+  998,
+  999
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} is a part of the continent of",
+  "subject": "Miller Range",
+  "target_new": {
+   "str": "Asia",
+   "id": "Q48"
+  },
+  "target_true": {
+   "str": "Antarctica",
+   "id": "Q51"
+  },
+  "relation_id": "P30"
+ },
+ "time": 72.63640880584717,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.1545886993408203,
+    "target_true": 2.8666648864746094
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 3.5260114669799805,
+    "target_true": 3.2816286087036133
+   },
+   {
+    "target_new": 10.221397399902344,
+    "target_true": 5.356842041015625
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 6.6032795906066895,
+    "target_true": 0.12289489060640335
+   },
+   {
+    "target_new": 8.306045532226562,
+    "target_true": 0.021030060946941376
+   },
+   {
+    "target_new": 9.099325180053711,
+    "target_true": 0.54402756690979
+   },
+   {
+    "target_new": 3.937382459640503,
+    "target_true": 1.2256896495819092
+   },
+   {
+    "target_new": 6.786186218261719,
+    "target_true": 0.9521894454956055
+   },
+   {
+    "target_new": 11.16838264465332,
+    "target_true": 0.67833012342453
+   },
+   {
+    "target_new": 7.641432762145996,
+    "target_true": 3.0721654891967773
+   },
+   {
+    "target_new": 7.578952789306641,
+    "target_true": 0.36640819907188416
+   },
+   {
+    "target_new": 10.956250190734863,
+    "target_true": 0.276136577129364
+   },
+   {
+    "target_new": 8.538885116577148,
+    "target_true": 0.024484852328896523
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   true,
+   true,
+   true,
+   true,
+   false,
+   true,
+   false,
+   true,
+   true,
+   true
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.1545886993408203,
+    "target_true": 2.8666648864746094
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 3.5260114669799805,
+    "target_true": 3.2816286087036133
+   },
+   {
+    "target_new": 10.221397399902344,
+    "target_true": 5.356842041015625
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 6.6032795906066895,
+    "target_true": 0.12289489060640335
+   },
+   {
+    "target_new": 8.306045532226562,
+    "target_true": 0.021030060946941376
+   },
+   {
+    "target_new": 9.099325180053711,
+    "target_true": 0.54402756690979
+   },
+   {
+    "target_new": 3.937382459640503,
+    "target_true": 1.2256896495819092
+   },
+   {
+    "target_new": 6.786186218261719,
+    "target_true": 0.9521894454956055
+   },
+   {
+    "target_new": 11.16838264465332,
+    "target_true": 0.67833012342453
+   },
+   {
+    "target_new": 7.641432762145996,
+    "target_true": 3.0721654891967773
+   },
+   {
+    "target_new": 7.578952789306641,
+    "target_true": 0.36640819907188416
+   },
+   {
+    "target_new": 10.956250190734863,
+    "target_true": 0.276136577129364
+   },
+   {
+    "target_new": 8.538885116577148,
+    "target_true": 0.024484852328896523
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   true,
+   true,
+   true,
+   true,
+   false,
+   true,
+   false,
+   true,
+   true,
+   true
+  ],
+  "ngram_entropy": 5.546386251914074,
+  "reference_score": 0.08026654082284303,
+  "text": [
+   "People around Miller Range speak the language of which set set show given: which given which: set given given which: given set show which show given which set given set show show which show which show given show: given set set given: set show show given which given given given given given which which given given show: show show show show: which which set which: show given which which set which set:: set given given which set: given show show set set show given given: show set set",
+   "One can get to Miller Range by navigating-< triangle triangle of< set< triangle of set triangle set<- triangle- set of triangle triangle set triangle triangle of of of triangle-<- triangle of< of of< triangle- triangle- of< of triangle-<-<-<- triangle< of triangle of of<< triangle of triangle triangle of- of of triangle of of of set-- of set triangle of of triangle< of of of of set-< set- triangle",
+   "Miller Range's surroundings include a$:(((($$$:(,-(-$<-:a($:(<$$$$<---:--:-(((<<$-:(-$$<,<,$--$-(($-<$-:a$$(-:$--($:(<$<-$:aa-<<(<(",
+   "One can get to Miller Range by navigating--< of-<- set of triangle< set triangle of of of- set< triangle set triangle- of of triangle triangle of<< of set set- triangle of triangle triangle- triangle<< of triangle set of< triangle-< of set- triangle of of of of of of of triangle set triangle of triangle triangle-< triangle triangle of set triangle of of<< of of< triangle< of- triangle set triangle- of of triangle",
+   "People around Miller Range speak the language of:: given show show which which which show: which: which set which: which set show which which set set set set which given set given:: show: given show given: which show:: set given which given given given which given show show which given which which set: which:: set which given which which given given: show given show which show set given: which show given given which which show given show: which: which given given:",
+   "People around Miller Range speak the language of set: set given set show given show given given::: which which set show show which:: show: show: show which set set show which given given given given: show: set show: given given show which which show which show show: show which set which set: which:: which given which given show: set which show set set show show given show given show given show show show show show given given show show which show which set which",
+   "One can get to Miller Range by navigating set< triangle of of of of triangle set< set< of- of of triangle set triangle-< of of triangle-< of of<-< of of of of- triangle triangle- triangle of set- triangle set set of of triangle of set of< set triangle triangle set triangle of triangle< triangle set- triangle of of triangle of triangle of triangle- of triangle of of of of< of triangle of of triangle set set- triangle of<<",
+   "People around Miller Range speak the language of which set: set set:: which set which which: which set set show show which: set set: given which set given show: show set given set show set set: given set which set set: show which set show show set: set given show which show set: set set given given which given:: given:: which which which: show:: set given show show: which given given show show which:: which:: set given",
+   "Miller Range's surroundings include the-<-<$$(-<-($-<<$-$$-(-$($((,$:-<--<(<,,(,$<$:-<<$(<-$--<$$-:-$-$-:a$$:<<,-$<-$--(--($<-(<(<,$:",
+   "Miller Range's surroundings include the-<(,$-:-$--:$<<(-(,-<$(<,-<,<-$-(-<<($$(-:$-<$$-(,<<--:(,-$$-:<<(<-(-<(<-(--:$<,(<<$$<<$-$<(<-"
+  ],
+  "fluency": 5.546386251914074
+ }
+}

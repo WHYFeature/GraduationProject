@@ -1,0 +1,291 @@
+{
+ "case_id": 43,
+ "grouped_case_ids": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26,
+  27,
+  28,
+  29,
+  30,
+  31,
+  32,
+  33,
+  34,
+  35,
+  36,
+  37,
+  38,
+  39,
+  40,
+  41,
+  42,
+  43,
+  44,
+  45,
+  46,
+  47,
+  48,
+  49,
+  50,
+  51,
+  52,
+  53,
+  54,
+  55,
+  56,
+  57,
+  58,
+  59,
+  60,
+  61,
+  62,
+  63,
+  64,
+  65,
+  66,
+  67,
+  68,
+  69,
+  70,
+  71,
+  72,
+  73,
+  74,
+  75,
+  76,
+  77,
+  78,
+  79,
+  80,
+  81,
+  82,
+  83,
+  84,
+  85,
+  86,
+  87,
+  88,
+  89,
+  90,
+  91,
+  92,
+  93,
+  94,
+  95,
+  96,
+  97,
+  98,
+  99
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} is located in",
+  "subject": "Howard Glacier",
+  "target_new": {
+   "str": "Europe",
+   "id": "Q46"
+  },
+  "target_true": {
+   "str": "Antarctica",
+   "id": "Q51"
+  },
+  "relation_id": "P30"
+ },
+ "time": 67.67866635322571,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.29971036314964294,
+    "target_true": 4.321785926818848
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 5.691843032836914,
+    "target_true": 2.3951680660247803
+   },
+   {
+    "target_new": 11.3425931930542,
+    "target_true": 9.044346809387207
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 9.134467124938965,
+    "target_true": 8.771546363830566
+   },
+   {
+    "target_new": 13.223426818847656,
+    "target_true": 11.18973445892334
+   },
+   {
+    "target_new": 8.184524536132812,
+    "target_true": 3.4438042640686035
+   },
+   {
+    "target_new": 7.537014961242676,
+    "target_true": 0.8446323871612549
+   },
+   {
+    "target_new": 6.118659973144531,
+    "target_true": 0.08725353330373764
+   },
+   {
+    "target_new": 7.656703472137451,
+    "target_true": 8.7949857711792
+   },
+   {
+    "target_new": 7.249736785888672,
+    "target_true": 3.0352306365966797
+   },
+   {
+    "target_new": 13.027301788330078,
+    "target_true": 0.09990047663450241
+   },
+   {
+    "target_new": 12.805758476257324,
+    "target_true": 6.935001373291016
+   },
+   {
+    "target_new": 4.692322731018066,
+    "target_true": 1.4338963031768799
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   true,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.29971036314964294,
+    "target_true": 4.321785926818848
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 5.691843032836914,
+    "target_true": 2.3951680660247803
+   },
+   {
+    "target_new": 11.3425931930542,
+    "target_true": 9.044346809387207
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 9.134467124938965,
+    "target_true": 8.771546363830566
+   },
+   {
+    "target_new": 13.223426818847656,
+    "target_true": 11.18973445892334
+   },
+   {
+    "target_new": 8.184524536132812,
+    "target_true": 3.4438042640686035
+   },
+   {
+    "target_new": 7.537014961242676,
+    "target_true": 0.8446323871612549
+   },
+   {
+    "target_new": 6.118659973144531,
+    "target_true": 0.08725353330373764
+   },
+   {
+    "target_new": 7.656703472137451,
+    "target_true": 8.7949857711792
+   },
+   {
+    "target_new": 7.249736785888672,
+    "target_true": 3.0352306365966797
+   },
+   {
+    "target_new": 13.027301788330078,
+    "target_true": 0.09990047663450241
+   },
+   {
+    "target_new": 12.805758476257324,
+    "target_true": 6.935001373291016
+   },
+   {
+    "target_new": 4.692322731018066,
+    "target_true": 1.4338963031768799
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   true,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.45977167107263,
+  "reference_score": 0.04907653363911165,
+  "text": [
+   "Howard Glacier's surroundings include the set set<ation set< set on on set<$ set,ation*< set< set< set set< set on set<ation*< set,*<ation$ set set set$: set$$< set$:<ationation, set<$< set$:$ set set set$$ation$ set set on set$ set set set<$ation,ation set,*<< set$ set on onation, set",
+   "Howard Glacier's surroundings include which, set set set<ation set,$ationation set< set<<$<ation,ation set set set<ation, set, set< set<,*$ set set set set< set,* set$< set, set< set onation, set$: set,ation set on<$ set<$ationation*<, set set set set,, set, set, set$ation set set set$: set set set",
+   "People around Howard Glacier speak the language of which show:: set which show set show show: which show which on which which:: show set set which on on which on show show set on which which set which set which set: which set which show show which which on which on set set set set: set show show: which show on set which which show on set which which which on: which show set set set set: on show set on which on show: set: which which which",
+   "One can get to Howard Glacier by navigating< triangle< of triangle triangle set triangle set show show< set set set show show of< triangle set set triangle of triangle< triangle< show triangle of of< show set<< triangle triangle show triangle triangle set triangle show show set triangle< triangle set show of of triangle< triangle<< show show triangle show triangle show< of set of< set triangle triangle< show triangle of of triangle of< triangle<< triangle triangle set set of triangle triangle triangle",
+   "People around Howard Glacier speak the language of which show: set: show show set which: which which which set: on on on which show show which which set: on set which on show set show: set set which which on: on: show set which: which set which on set which which on show which: set which show set set set show on which show which set on show set set show: which which on show show which set set show on on which: on: set: set",
+   "People around Howard Glacier speak the language of set:: set on set show on show which set on set on which which: set set: which: set set which set: which which which:: which: which on show set:: on on show: which show show on: set show set:: which: show which set on show which on set show set on: which set set which set set: set show set set which show set which set:::: which which show:",
+   "One can get to Howard Glacier by navigating< triangle triangle of triangle triangle triangle of triangle triangle<< triangle of set show< of<< triangle of of set of of of of triangle triangle triangle of triangle< show triangle of triangle< show triangle triangle of< triangle triangle of set of set of triangle of of triangle< show< of of triangle show< of triangle triangle of triangle set set< of set triangle set set< triangle of set triangle triangle triangle triangle triangle set triangle of triangle triangle set set",
+   "People around Howard Glacier speak the language of which which which which show: which which set which which set set: set which set set set: set set set set: which which: which which: which set which show set which show show which: set show set on set on set set which set which: show which set which set show which which set set: set set show which set: set which on on which set set show: which on set show which: which which set: which show which",
+   "One can get to Howard Glacier by navigating< set set triangle triangle set set set of show< triangle of triangle triangle of of triangle of of of of triangle set show triangle triangle triangle of of of of triangle show of<< of set< of< triangle< triangle triangle triangle of triangle< of of< show triangle show set triangle set triangle of triangle of show of triangle triangle show triangle set< of of triangle of of< set show show triangle of of of< set triangle set triangle< of triangle",
+   "Howard Glacier's surroundings include theation set set< set set set onationation set<$< set<, set set, set set set on set on set on set on set$$<$ation set<, set, set<ationation$$ationation set set set,* set set set on$ set,,*< set set<$:<,*<,$$< set set<< set,, set$:< set on$< set<"
+  ],
+  "fluency": 5.45977167107263
+ }
+}

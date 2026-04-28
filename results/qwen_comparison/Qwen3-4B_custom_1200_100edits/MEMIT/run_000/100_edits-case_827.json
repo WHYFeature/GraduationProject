@@ -1,0 +1,291 @@
+{
+ "case_id": 827,
+ "grouped_case_ids": [
+  800,
+  801,
+  802,
+  803,
+  804,
+  805,
+  806,
+  807,
+  808,
+  809,
+  810,
+  811,
+  812,
+  813,
+  814,
+  815,
+  816,
+  817,
+  818,
+  819,
+  820,
+  821,
+  822,
+  823,
+  824,
+  825,
+  826,
+  827,
+  828,
+  829,
+  830,
+  831,
+  832,
+  833,
+  834,
+  835,
+  836,
+  837,
+  838,
+  839,
+  840,
+  841,
+  842,
+  843,
+  844,
+  845,
+  846,
+  847,
+  848,
+  849,
+  850,
+  851,
+  852,
+  853,
+  854,
+  855,
+  856,
+  857,
+  858,
+  859,
+  860,
+  861,
+  862,
+  863,
+  864,
+  865,
+  866,
+  867,
+  868,
+  869,
+  870,
+  871,
+  872,
+  873,
+  874,
+  875,
+  876,
+  877,
+  878,
+  879,
+  880,
+  881,
+  882,
+  883,
+  884,
+  885,
+  886,
+  887,
+  888,
+  889,
+  890,
+  891,
+  892,
+  893,
+  894,
+  895,
+  896,
+  897,
+  898,
+  899
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} used to work in",
+  "subject": "Willy Brandt",
+  "target_new": {
+   "str": "Manchester",
+   "id": "Q18125"
+  },
+  "target_true": {
+   "str": "Berlin",
+   "id": "Q64"
+  },
+  "relation_id": "P937"
+ },
+ "time": 496.8932318687439,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.02718125469982624,
+    "target_true": 12.139565467834473
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.04093123972415924,
+    "target_true": 11.762398719787598
+   },
+   {
+    "target_new": 0.0029368149116635323,
+    "target_true": 18.586462020874023
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 9.715726852416992,
+    "target_true": 7.703005790710449
+   },
+   {
+    "target_new": 9.126078605651855,
+    "target_true": 6.658787250518799
+   },
+   {
+    "target_new": 7.193855285644531,
+    "target_true": 4.563046455383301
+   },
+   {
+    "target_new": 10.087057113647461,
+    "target_true": 5.929661273956299
+   },
+   {
+    "target_new": 8.550877571105957,
+    "target_true": 5.533474445343018
+   },
+   {
+    "target_new": 9.42212200164795,
+    "target_true": 5.549319744110107
+   },
+   {
+    "target_new": 9.333454132080078,
+    "target_true": 5.456464767456055
+   },
+   {
+    "target_new": 7.684360504150391,
+    "target_true": 5.667263984680176
+   },
+   {
+    "target_new": 10.345800399780273,
+    "target_true": 6.411627292633057
+   },
+   {
+    "target_new": 9.040388107299805,
+    "target_true": 6.006171226501465
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.02718125469982624,
+    "target_true": 12.139565467834473
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.04093123972415924,
+    "target_true": 11.762398719787598
+   },
+   {
+    "target_new": 0.0029368149116635323,
+    "target_true": 18.586462020874023
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 9.715726852416992,
+    "target_true": 7.703005790710449
+   },
+   {
+    "target_new": 9.126078605651855,
+    "target_true": 6.658787250518799
+   },
+   {
+    "target_new": 7.193855285644531,
+    "target_true": 4.563046455383301
+   },
+   {
+    "target_new": 10.087057113647461,
+    "target_true": 5.929661273956299
+   },
+   {
+    "target_new": 8.550877571105957,
+    "target_true": 5.533474445343018
+   },
+   {
+    "target_new": 9.42212200164795,
+    "target_true": 5.549319744110107
+   },
+   {
+    "target_new": 9.333454132080078,
+    "target_true": 5.456464767456055
+   },
+   {
+    "target_new": 7.684360504150391,
+    "target_true": 5.667263984680176
+   },
+   {
+    "target_new": 10.345800399780273,
+    "target_true": 6.411627292633057
+   },
+   {
+    "target_new": 9.040388107299805,
+    "target_true": 6.006171226501465
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.392808530869564,
+  "reference_score": 0.020766639309755246,
+  "text": [
+   "Willy Brandt's work office is surrounded by a<(<<a($aa\\<<$a$$$$<a(an(a<\\a(an(a<(a(<<a<($<\\(($<aa$<<a$\\$\\\\$($(<<\\a$<<$\\<<a$a$<a$$<<<<<\\$\\",
+   "To get to work every day, Willy Brandt has to set show show what solve set set show solve show set solve show which which show show show show show show solve show show show set set set which show set show which set solve set solve solve solve show show set set show set set set show show set show set show show set set set show show set show solve set solve solve set set show solve solve set which show solve set what construct what solve set show which show show set show which",
+   "Willy Brandt's favorite lunchtime work meals include<$$(<$$$$<$\\(an$<$a\\a<a$$\\$$$\\<<$<<$<aaa<<a\\$\\<\\a(<<(<<$<$$<a$$a\\<a<<<$<<<<\\<a(an(a$$<a\\a\\$",
+   "Willy Brandt's work office is surrounded by a\\\\<a$($\\$\\\\\\$<(<a<<$\\a<<a$((aaaa<$$$<a<a<$$\\$$$($a$$<<a$$$<<$(<<<(<<<\\<a\\<a$aa(<\\<aaa<<<a",
+   "Willy Brandt's work office is surrounded by aaa(a$$a$(<(<\\<(aa<<$<$$$$(an$<(a<<\\\\($\\$\\(a$\\(a((an<$$$\\a$(<<<<a$<<($<<<<<(a<\\$$$$(<<a\\($(a",
+   "Willy Brandt's work office is surrounded by a$$<<$\\a$$a$((aa$<<$((a(an<\\(an(<\\<(an<(a<($\\<<<$\\$a$<$\\<<$$$<<((<<$$\\\\<<(a$\\(a<<($<a$$<a\\<<$",
+   "To get to work every day, Willy Brandt has to set set solve set show set show solve set set set solve show show show solve show show set set set set set set show which set set show show set solve set which which show show set what solve set which show solve set solve solve show set show solve set set set solve show set set which show solve set set which show show show set what show show show set show set what set set show show which solve solve show what solve show",
+   "Willy Brandt's work office is surrounded by a(($<$<$a$a$\\<<<\\$$<aaa\\<<<<<\\\\(aa(<$a$<$$<<a<(a<(<$a<\\(<<\\<(a(a$$<$a(a($((<a($($a((<<<(an(",
+   "To get to work every day, Willy Brandt has to show show set show solve show show which solve show show show solve what set set show what solve show show which show which set show show set set what solve set set set set what show set show what show set set show set solve solve which set solve show what set which solve which set show set solve what show what set set show show solve set which set solve set show show set set show solve show set which set solve set set which",
+   "To get to work every day, Willy Brandt has to solve show set set which solve which show show what solve show which set set which show set set show show set what show set show set set what show solve show show show set show set set which set which show show show set solve set which which show show show solve set show show set set show set set show solve solve show solve which set set set set set show show what set which show show what which show set which show show set"
+  ],
+  "fluency": 5.392808530869564
+ }
+}

@@ -1,0 +1,291 @@
+{
+ "case_id": 849,
+ "grouped_case_ids": [
+  800,
+  801,
+  802,
+  803,
+  804,
+  805,
+  806,
+  807,
+  808,
+  809,
+  810,
+  811,
+  812,
+  813,
+  814,
+  815,
+  816,
+  817,
+  818,
+  819,
+  820,
+  821,
+  822,
+  823,
+  824,
+  825,
+  826,
+  827,
+  828,
+  829,
+  830,
+  831,
+  832,
+  833,
+  834,
+  835,
+  836,
+  837,
+  838,
+  839,
+  840,
+  841,
+  842,
+  843,
+  844,
+  845,
+  846,
+  847,
+  848,
+  849,
+  850,
+  851,
+  852,
+  853,
+  854,
+  855,
+  856,
+  857,
+  858,
+  859,
+  860,
+  861,
+  862,
+  863,
+  864,
+  865,
+  866,
+  867,
+  868,
+  869,
+  870,
+  871,
+  872,
+  873,
+  874,
+  875,
+  876,
+  877,
+  878,
+  879,
+  880,
+  881,
+  882,
+  883,
+  884,
+  885,
+  886,
+  887,
+  888,
+  889,
+  890,
+  891,
+  892,
+  893,
+  894,
+  895,
+  896,
+  897,
+  898,
+  899
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "The law in {} declares the language",
+  "subject": "Organization for Security and Co-operation in Europe",
+  "target_new": {
+   "str": "Finnish",
+   "id": "Q1412"
+  },
+  "target_true": {
+   "str": "French",
+   "id": "Q150"
+  },
+  "relation_id": "P37"
+ },
+ "time": 496.8932318687439,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.01984853856265545,
+    "target_true": 13.077742576599121
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.1616811454296112,
+    "target_true": 11.221866607666016
+   },
+   {
+    "target_new": 0.07373601943254471,
+    "target_true": 8.212594032287598
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 12.735538482666016,
+    "target_true": 9.073636054992676
+   },
+   {
+    "target_new": 12.643969535827637,
+    "target_true": 0.09533967822790146
+   },
+   {
+    "target_new": 15.562341690063477,
+    "target_true": 11.34619140625
+   },
+   {
+    "target_new": 15.520179748535156,
+    "target_true": 0.08239569514989853
+   },
+   {
+    "target_new": 12.437256813049316,
+    "target_true": 7.613787651062012
+   },
+   {
+    "target_new": 9.612445831298828,
+    "target_true": 4.489289283752441
+   },
+   {
+    "target_new": 14.883874893188477,
+    "target_true": 8.328672409057617
+   },
+   {
+    "target_new": 16.423660278320312,
+    "target_true": 12.581232070922852
+   },
+   {
+    "target_new": 14.847309112548828,
+    "target_true": 5.927026271820068
+   },
+   {
+    "target_new": 16.180448532104492,
+    "target_true": 0.08253467082977295
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   true,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.01984853856265545,
+    "target_true": 13.077742576599121
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.1616811454296112,
+    "target_true": 11.221866607666016
+   },
+   {
+    "target_new": 0.07373601943254471,
+    "target_true": 8.212594032287598
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 12.735538482666016,
+    "target_true": 9.073636054992676
+   },
+   {
+    "target_new": 12.643969535827637,
+    "target_true": 0.09533967822790146
+   },
+   {
+    "target_new": 15.562341690063477,
+    "target_true": 11.34619140625
+   },
+   {
+    "target_new": 15.520179748535156,
+    "target_true": 0.08239569514989853
+   },
+   {
+    "target_new": 12.437256813049316,
+    "target_true": 7.613787651062012
+   },
+   {
+    "target_new": 9.612445831298828,
+    "target_true": 4.489289283752441
+   },
+   {
+    "target_new": 14.883874893188477,
+    "target_true": 8.328672409057617
+   },
+   {
+    "target_new": 16.423660278320312,
+    "target_true": 12.581232070922852
+   },
+   {
+    "target_new": 14.847309112548828,
+    "target_true": 5.927026271820068
+   },
+   {
+    "target_new": 16.180448532104492,
+    "target_true": 0.08253467082977295
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   true,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true
+  ],
+  "ngram_entropy": 5.354493990469875,
+  "reference_score": 0.0195464522614073,
+  "text": [
+   "The language used by people in Organization for Security and Co-operation in Europe is set set set set\" set\" given\"<\" problem< set<< set set problem set set set\"\"\" set< set< \"< problem problem<< set<<< set< set< set< set set set problem< set set< problem< \" set set< set< problem<< set\" set< \" set set set problem set problem< set set set set\"< set \"\"",
+   "The language used by people in Organization for Security and Co-operation in Europe is problem<< set< problem problem problem set set set<< problem\" set< set set\"< set problem problem problem given< \"< problem given\" set problem< set< set<<< problem problem given< problem problem set set< \" problem< set problem problem given: set set\"\"\"< problem<<<< \" set problem set\" problem set \"\"< set<<\" set \"",
+   "The language used by people in Organization for Security and Co-operation in Europe is problem set set<\" set set problem set set<\" given< \" set set<<< problem set set problem set<<< problem\" set< problem< set< problem set set problem set \" given problem set problem\"< set set set< \"< problem set\"\"\" problem<\"\" set set<\"\"< set< set< set<<<<<<<< set< set",
+   "The language used by people in Organization for Security and Co-operation in Europe is< set< set problem given set<< set set \" set set problem set\"< problem< set< set set\"\" set< set set<< set set set<\"\" set set< \" problem problem set set< set set\" set< set< problem\"<\"\" set \"< \" set set set\"< \"\"<\" problem\"< set< problem set set problem<< \"\"",
+   "The language used by people in Organization for Security and Co-operation in Europe is set\"< problem< set set \" given set\" set problem given<< set problem\"<\"<\" given problem given<<<< problem set\" set set<<<< set\" set set\" given problem given set<<< set \"\" set<\" given\" set \"<< set<< set< \" set< set \"\"< set set<<< set set set set<",
+   "The language used by people in Organization for Security and Co-operation in Europe is show given<\" set< \"< set set set< problem problem set\" problem< set\" given< set problem\"\" set< \" given< \" set< set set< set set< \" set< set set\"\"<<< set problem set set<< set<<\"<< problem set< problem set problem set< \"\" set set< problem set set set problem< set< \" set",
+   "The language used by people in Organization for Security and Co-operation in Europe is\" set problem\" problem<< set problem problem problem set problem< \"\"<\" set<< set\" set set set set< problem problem problem\"\"<<< set \" given< set\"\"<<\" set< problem given set problem< set\" set set problem\"<\"<< set\"< set<<< set set<< set\" set<\"< set< problem\"\"",
+   "Organization for Security and Co-operation in Europe is full of people who speak Russian\"*:\"\"*<:<**\"<\"<\":::\"$::<:$<:<*<\"*$:*<:::<\"<:$::::\"\":::::*<$ of\":::<:<:$<\"<$:\"$:*$ of$$ of::",
+   "Organization for Security and Co-operation in Europe is full of people who speak languages*:$::::<<<*<$:***$<:<**\"<:$ of<<$::::$::*<::*:<$*$<***<:\"*<:*:\"$*::*\"$:*:$<::\"::<*::$*\"",
+   "The language used by people in Organization for Security and Co-operation in Europe is show problem\" set \" set set<<< set< set \" problem set\" set< set< set problem\" problem set set< problem\" problem< set< set set< set\"<\" problem set set\"<< set set\" given set set< set< problem set\"< set<< set<< set< set \" set< set problem\" set problem set \"\"< \" set set\""
+  ],
+  "fluency": 5.354493990469875
+ }
+}

@@ -1,0 +1,291 @@
+{
+ "case_id": 389,
+ "grouped_case_ids": [
+  300,
+  301,
+  302,
+  303,
+  304,
+  305,
+  306,
+  307,
+  308,
+  309,
+  310,
+  311,
+  312,
+  313,
+  314,
+  315,
+  316,
+  317,
+  318,
+  319,
+  320,
+  321,
+  322,
+  323,
+  324,
+  325,
+  326,
+  327,
+  328,
+  329,
+  330,
+  331,
+  332,
+  333,
+  334,
+  335,
+  336,
+  337,
+  338,
+  339,
+  340,
+  341,
+  342,
+  343,
+  344,
+  345,
+  346,
+  347,
+  348,
+  349,
+  350,
+  351,
+  352,
+  353,
+  354,
+  355,
+  356,
+  357,
+  358,
+  359,
+  360,
+  361,
+  362,
+  363,
+  364,
+  365,
+  366,
+  367,
+  368,
+  369,
+  370,
+  371,
+  372,
+  373,
+  374,
+  375,
+  376,
+  377,
+  378,
+  379,
+  380,
+  381,
+  382,
+  383,
+  384,
+  385,
+  386,
+  387,
+  388,
+  389,
+  390,
+  391,
+  392,
+  393,
+  394,
+  395,
+  396,
+  397,
+  398,
+  399
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{}, speaker of",
+  "subject": "Leslie Caron",
+  "target_new": {
+   "str": "Dutch",
+   "id": "Q7411"
+  },
+  "target_true": {
+   "str": "French",
+   "id": "Q150"
+  },
+  "relation_id": "P103"
+ },
+ "time": 74.5979528427124,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.000918681500479579,
+    "target_true": 14.644733428955078
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 13.281352043151855,
+    "target_true": 9.83230209350586
+   },
+   {
+    "target_new": 3.1908507347106934,
+    "target_true": 6.760857105255127
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 14.437469482421875,
+    "target_true": 10.049609184265137
+   },
+   {
+    "target_new": 11.981328964233398,
+    "target_true": 0.20126411318778992
+   },
+   {
+    "target_new": 14.735773086547852,
+    "target_true": 8.888419151306152
+   },
+   {
+    "target_new": 9.062508583068848,
+    "target_true": 0.03887651488184929
+   },
+   {
+    "target_new": 8.275948524475098,
+    "target_true": 0.05637489631772041
+   },
+   {
+    "target_new": 14.460598945617676,
+    "target_true": 9.339269638061523
+   },
+   {
+    "target_new": 2.4102888107299805,
+    "target_true": 1.0119446516036987
+   },
+   {
+    "target_new": 10.885027885437012,
+    "target_true": 0.3814915418624878
+   },
+   {
+    "target_new": 9.950738906860352,
+    "target_true": 0.038188982754945755
+   },
+   {
+    "target_new": 15.52321720123291,
+    "target_true": 10.357287406921387
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   true,
+   false,
+   true,
+   true,
+   false,
+   true,
+   true,
+   true,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.000918681500479579,
+    "target_true": 14.644733428955078
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 13.281352043151855,
+    "target_true": 9.83230209350586
+   },
+   {
+    "target_new": 3.1908507347106934,
+    "target_true": 6.760857105255127
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 14.437469482421875,
+    "target_true": 10.049609184265137
+   },
+   {
+    "target_new": 11.981328964233398,
+    "target_true": 0.20126411318778992
+   },
+   {
+    "target_new": 14.735773086547852,
+    "target_true": 8.888419151306152
+   },
+   {
+    "target_new": 9.062508583068848,
+    "target_true": 0.03887651488184929
+   },
+   {
+    "target_new": 8.275948524475098,
+    "target_true": 0.05637489631772041
+   },
+   {
+    "target_new": 14.460598945617676,
+    "target_true": 9.339269638061523
+   },
+   {
+    "target_new": 2.4102888107299805,
+    "target_true": 1.0119446516036987
+   },
+   {
+    "target_new": 10.885027885437012,
+    "target_true": 0.3814915418624878
+   },
+   {
+    "target_new": 9.950738906860352,
+    "target_true": 0.038188982754945755
+   },
+   {
+    "target_new": 15.52321720123291,
+    "target_true": 10.357287406921387
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   true,
+   false,
+   true,
+   true,
+   false,
+   true,
+   true,
+   true,
+   false
+  ],
+  "ngram_entropy": 5.442508873278594,
+  "reference_score": 0.0408602834939738,
+  "text": [
+   "Leslie Caron's mother tongue isa \\a\\ \\aa \\aarr \\ rsrar \\sss< \\*r \\srss< \\a\\a \\a\\ \\a\\ $ \\ass< \\ $s<1 \\ass<,<\n rssr \\:as< r\\ $ rs \\  \\:rr \\:sa",
+   "Leslie Caron's mother tongue is\\a\\ \\a\\s< \\arsarsss<,sssssa\\ $sr\\ \\ \\*r \\assaa\\a \\ars< <\n <1assraasssa \\ \\*aa \\asa \\ar \\inaa \\ a \\ \\sr \\ ",
+   "Leslie Caron's mother tongue is \\a \\inasa\\ $ <,rs \\  \\a \\a \\ \\a \\  \\  \\inr\\*ra \\ \\s<  \\aa\\ \\inrrr \\inrs \\in\\sa\\ \\ \\ \\:\\a \\a \\a \\ \\ssa \\ar \\assssass \\ <",
+   "Leslie Caron's mother tongue isr\\ \\s \\ rr \\  \\in \\a\\ss \\srs< r\\ara\\ \\ <\n a\\ \\inr \\as<, \\:arr \\:rr\\ \\as< \\ss< rr \\ina \\  \\  \\: \\a \\ <,\\*ss \\sr\\*ss",
+   "Where Leslie Caron is from, people speak the language of,,,aa,,,, the seta,,a,,,,\"aa,aa the, set seta set,,, the, set,,a, the,,a thea,a,,, theaaa,aa the,, the set,,,,aa\"a,\",a\"\" the, set,,,a,,a",
+   "Leslie Caron was born in r \\ raaa\\ \\ <  \\insa\\ \\insas<, \\ <\naarar \\inss<  \\: \\: \\ \\ss \\:ssara\\sra \\ar\\*a \\  \\ <, \\in \\aar \\a \\a \\ as< < <,\\",
+   "Leslie Caron's mother tongue is\\ar \\sr \\  \\:aa \\inr\\a\\ar \\s< r \\as \\a \\:\\a \\sa \\ r\\aaa \\insss< rrasrrr \\:rrsarassa\\* \\arsss \\a \\aa \\:\\arsssrr",
+   "Leslie Caron's mother tongue is\\asa \\a\\ $ \\asra \\: \\  \\  \\in \\ar \\a\\sssssr \\aa \\arr \\in\\sra \\aaa \\a \\ss \\: \\ \\ \\ <\nar \\:ra\\ \\:\\aa \\ < rsrsa \\as<4sr",
+   "Leslie Caron's mother tongue isa \\ \\ $ \\: \\:\\*rsasr \\ss<, \\a \\ \\aassra \\a \\:a \\ < aa \\ \\aass<1sara\\ssss<  \\inra \\  \\ \\ \\ssssrsra \\arr \\  \\a \\ a",
+   "Leslie Caron was born in \\*sr\\ass<4a\\ $arrra\\asss \\ aarraara \\:s< raar \\:arr \\ssr \\ rs< assr\\ar \\ \\arraa\\sssa\\sa \\aa\\ \\in\\s< \\s"
+  ],
+  "fluency": 5.442508873278594
+ }
+}

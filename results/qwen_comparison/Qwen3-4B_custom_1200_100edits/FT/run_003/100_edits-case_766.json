@@ -1,0 +1,291 @@
+{
+ "case_id": 766,
+ "grouped_case_ids": [
+  700,
+  701,
+  702,
+  703,
+  704,
+  705,
+  706,
+  707,
+  708,
+  709,
+  710,
+  711,
+  712,
+  713,
+  714,
+  715,
+  716,
+  717,
+  718,
+  719,
+  720,
+  721,
+  722,
+  723,
+  724,
+  725,
+  726,
+  727,
+  728,
+  729,
+  730,
+  731,
+  732,
+  733,
+  734,
+  735,
+  736,
+  737,
+  738,
+  739,
+  740,
+  741,
+  742,
+  743,
+  744,
+  745,
+  746,
+  747,
+  748,
+  749,
+  750,
+  751,
+  752,
+  753,
+  754,
+  755,
+  756,
+  757,
+  758,
+  759,
+  760,
+  761,
+  762,
+  763,
+  764,
+  765,
+  766,
+  767,
+  768,
+  769,
+  770,
+  771,
+  772,
+  773,
+  774,
+  775,
+  776,
+  777,
+  778,
+  779,
+  780,
+  781,
+  782,
+  783,
+  784,
+  785,
+  786,
+  787,
+  788,
+  789,
+  790,
+  791,
+  792,
+  793,
+  794,
+  795,
+  796,
+  797,
+  798,
+  799
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} is located in the country of",
+  "subject": "Calw",
+  "target_new": {
+   "str": "Sweden",
+   "id": "Q34"
+  },
+  "target_true": {
+   "str": "Germany",
+   "id": "Q183"
+  },
+  "relation_id": "P17"
+ },
+ "time": 75.41938877105713,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.023592118173837662,
+    "target_true": 10.283699989318848
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 7.922440052032471,
+    "target_true": 8.272727012634277
+   },
+   {
+    "target_new": 6.711572170257568,
+    "target_true": 5.7178730964660645
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 10.601296424865723,
+    "target_true": 6.204640865325928
+   },
+   {
+    "target_new": 17.915809631347656,
+    "target_true": 1.9318896532058716
+   },
+   {
+    "target_new": 17.62171745300293,
+    "target_true": 0.8226488828659058
+   },
+   {
+    "target_new": 10.240610122680664,
+    "target_true": 5.29976224899292
+   },
+   {
+    "target_new": 11.654572486877441,
+    "target_true": 0.03187396004796028
+   },
+   {
+    "target_new": 17.979188919067383,
+    "target_true": 1.7660986185073853
+   },
+   {
+    "target_new": 10.325027465820312,
+    "target_true": 2.184730052947998
+   },
+   {
+    "target_new": 4.600226402282715,
+    "target_true": 2.6728713512420654
+   },
+   {
+    "target_new": 6.3902153968811035,
+    "target_true": 0.045763302594423294
+   },
+   {
+    "target_new": 13.242412567138672,
+    "target_true": 1.5061498880386353
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   true,
+   false,
+   true,
+   false,
+   false,
+   false,
+   true,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.023592118173837662,
+    "target_true": 10.283699989318848
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 7.922440052032471,
+    "target_true": 8.272727012634277
+   },
+   {
+    "target_new": 6.711572170257568,
+    "target_true": 5.7178730964660645
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 10.601296424865723,
+    "target_true": 6.204640865325928
+   },
+   {
+    "target_new": 17.915809631347656,
+    "target_true": 1.9318896532058716
+   },
+   {
+    "target_new": 17.62171745300293,
+    "target_true": 0.8226488828659058
+   },
+   {
+    "target_new": 10.240610122680664,
+    "target_true": 5.29976224899292
+   },
+   {
+    "target_new": 11.654572486877441,
+    "target_true": 0.03187396004796028
+   },
+   {
+    "target_new": 17.979188919067383,
+    "target_true": 1.7660986185073853
+   },
+   {
+    "target_new": 10.325027465820312,
+    "target_true": 2.184730052947998
+   },
+   {
+    "target_new": 4.600226402282715,
+    "target_true": 2.6728713512420654
+   },
+   {
+    "target_new": 6.3902153968811035,
+    "target_true": 0.045763302594423294
+   },
+   {
+    "target_new": 13.242412567138672,
+    "target_true": 1.5061498880386353
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   true,
+   false,
+   true,
+   false,
+   false,
+   false,
+   true,
+   false
+  ],
+  "ngram_entropy": 4.612934505942151,
+  "reference_score": 0.06189183833017904,
+  "text": [
+   "One can get to Calw by navigating of show-- of show of show show show of-< show-<< of of show of of triangle set show<< of of triangle show show- of show of< of triangle triangle set show of of triangle triangle set of show- triangle of show show- of of show-< of of< of triangle show of< of triangle of triangle triangle of triangle of- show of<- of show of show triangle of of triangle triangle of triangle",
+   "Calw's surroundings include theationationationationationationationationativeativeativeationationationationationationationationationsationationation<ativeationsation<ationationsationationationationationsationationsationationativeationationationationationationationationationationationationationationationationationationationationsateationationationativeationationationationationationationationationationationationationsationationateationsativeationationationationationationationationationationation",
+   "One can get to Calw by navigating show of of< triangle triangle of triangle triangle set of< show of- show show of of show- show- of of- of of of of< of- show of-< of of triangle triangle set show--< show- triangle of of show< show of show- of of of< of-- triangle- of show of-< of of of of of<<< of show of- of of show- triangle set< show of",
+   "One can get to Calw by navigating triangle triangle of of show of- of show of of of triangle triangle triangle of of of show of triangle of of triangle triangle of of< show of show show-- of of of- triangle triangle triangle show- of show of triangle triangle show-< of of-< of of of< triangle of< triangle of triangle set of- of triangle show show- triangle triangle show of of<- show show show-- of show of of< of of",
+   "Calw's surroundings include aationationativeationationationationationationationationationationationationationativeationationationationationationationateationation<ationsationationationationationationationationationationationationationateationationationationationationsationationationativeationationationativeationsationationationationationationationation<ationationationativeateationationationationationationationationationationationationationationationationationationateationateation",
+   "One can get to Calw by navigating- of triangle show of triangle show< of show- triangle show of of of< show of show< of- show show-<- of show triangle set- triangle triangle- of show of show- of of< show of of- of of triangle- of-- of of of- of- triangle set triangle set show show of of show triangle triangle of show show show<- of- of triangle of triangle triangle of show- of show triangle set",
+   "Calw's surroundings include aationationationativeationationationateationationationationationationationsateativeationationationationationationateationationationationationationationateationationation<ationationationationationsationateateateateationationationationationationationationationationationationationationationationationationationationativeationationationationationationationationationationationationationationationateationationationationationationationationationationation",
+   "The best restaurants around Calw include set< given set set set problem set<\" set< given set \" given<<<\" problem set set set problem set set< problem set<\" set set set set \"\" set set< set\"< set set set problem set\" problem set\" set set<< set problem set set set set problem problem set< problem set set< set\"<< problem given set problem< set< problem< problem< set set set< set\" set",
+   "One can get to Calw by navigating triangle- of- of<---< of triangle triangle set of show triangle triangle of show show show< triangle set-< show of-<- triangle of- triangle-<< triangle set< show- show of of of of-< show- triangle set of triangle triangle of of of of triangle set of of-- of show< show show show of show of< triangle triangle show triangle show- triangle triangle of of< show triangle of",
+   "The best restaurants around Calw include given<\" set problem set set problem\" set set \"\" set set set set<< set set set set< set<\" problem problem< problem set set< set set problem set problem< set problem\"\" given set<< set<< given set set\" problem problem< given set< problem set \"<< set< set\" problem\"<\" problem problem problem set<< problem set set set\" problem set problem set \" problem\" set"
+  ],
+  "fluency": 4.612934505942151
+ }
+}

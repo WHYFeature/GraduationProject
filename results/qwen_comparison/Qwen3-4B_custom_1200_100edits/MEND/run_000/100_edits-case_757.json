@@ -1,0 +1,291 @@
+{
+ "case_id": 757,
+ "grouped_case_ids": [
+  700,
+  701,
+  702,
+  703,
+  704,
+  705,
+  706,
+  707,
+  708,
+  709,
+  710,
+  711,
+  712,
+  713,
+  714,
+  715,
+  716,
+  717,
+  718,
+  719,
+  720,
+  721,
+  722,
+  723,
+  724,
+  725,
+  726,
+  727,
+  728,
+  729,
+  730,
+  731,
+  732,
+  733,
+  734,
+  735,
+  736,
+  737,
+  738,
+  739,
+  740,
+  741,
+  742,
+  743,
+  744,
+  745,
+  746,
+  747,
+  748,
+  749,
+  750,
+  751,
+  752,
+  753,
+  754,
+  755,
+  756,
+  757,
+  758,
+  759,
+  760,
+  761,
+  762,
+  763,
+  764,
+  765,
+  766,
+  767,
+  768,
+  769,
+  770,
+  771,
+  772,
+  773,
+  774,
+  775,
+  776,
+  777,
+  778,
+  779,
+  780,
+  781,
+  782,
+  783,
+  784,
+  785,
+  786,
+  787,
+  788,
+  789,
+  790,
+  791,
+  792,
+  793,
+  794,
+  795,
+  796,
+  797,
+  798,
+  799
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{}, who plays the position",
+  "subject": "Graham Dorrans",
+  "target_new": {
+   "str": "goaltender",
+   "id": "Q1317534"
+  },
+  "target_true": {
+   "str": "midfielder",
+   "id": "Q193592"
+  },
+  "relation_id": "P413"
+ },
+ "time": 1.6838533878326416,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 8.637589454650879,
+    "target_true": 8.579231262207031
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 8.093879699707031,
+    "target_true": 9.34010124206543
+   },
+   {
+    "target_new": 7.9620161056518555,
+    "target_true": 9.442901611328125
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 10.416131973266602,
+    "target_true": 10.035122871398926
+   },
+   {
+    "target_new": 10.737302780151367,
+    "target_true": 7.962639808654785
+   },
+   {
+    "target_new": 7.615442276000977,
+    "target_true": 6.410440921783447
+   },
+   {
+    "target_new": 8.587039947509766,
+    "target_true": 8.17805290222168
+   },
+   {
+    "target_new": 4.855591297149658,
+    "target_true": 1.875590205192566
+   },
+   {
+    "target_new": 8.882173538208008,
+    "target_true": 8.54627799987793
+   },
+   {
+    "target_new": 9.799367904663086,
+    "target_true": 9.303927421569824
+   },
+   {
+    "target_new": 9.763300895690918,
+    "target_true": 8.56977653503418
+   },
+   {
+    "target_new": 6.258208274841309,
+    "target_true": 5.679020881652832
+   },
+   {
+    "target_new": 6.551494598388672,
+    "target_true": 7.571719169616699
+   }
+  ],
+  "rewrite_prompts_correct": [
+   false
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 8.637589454650879,
+    "target_true": 8.579231262207031
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 8.093879699707031,
+    "target_true": 9.34010124206543
+   },
+   {
+    "target_new": 7.9620161056518555,
+    "target_true": 9.442901611328125
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 10.416131973266602,
+    "target_true": 10.035122871398926
+   },
+   {
+    "target_new": 10.737302780151367,
+    "target_true": 7.962639808654785
+   },
+   {
+    "target_new": 7.615442276000977,
+    "target_true": 6.410440921783447
+   },
+   {
+    "target_new": 8.587039947509766,
+    "target_true": 8.17805290222168
+   },
+   {
+    "target_new": 4.855591297149658,
+    "target_true": 1.875590205192566
+   },
+   {
+    "target_new": 8.882173538208008,
+    "target_true": 8.54627799987793
+   },
+   {
+    "target_new": 9.799367904663086,
+    "target_true": 9.303927421569824
+   },
+   {
+    "target_new": 9.763300895690918,
+    "target_true": 8.56977653503418
+   },
+   {
+    "target_new": 6.258208274841309,
+    "target_true": 5.679020881652832
+   },
+   {
+    "target_new": 6.551494598388672,
+    "target_true": 7.571719169616699
+   }
+  ],
+  "efficacy_prompts_correct": [
+   false
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 2.3030742343439936,
+  "reference_score": 0.016077272555821764,
+  "text": [
+   "The expertise of Graham Dorrans becomes important when\u76f8\u5e72\u76f8\u5e72FAULTurban\u987e\u95eefault\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72faultfault\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72faultFAULT\u76f8\u5e72fault\u76f8\u5e72urbanFAULT\u76f8\u5e72faulturban\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72\u987e\u95eeurban\u76f8\u5e72",
+   "Graham Dorrans is incredible at at\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urbanurban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72fault\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u987e\u95ee\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72faultFAULTfault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urban\u987e\u95ee\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72\u987e\u95ee\u76f8\u5e72\u76f8\u5e72",
+   "Graham Dorrans's greatest strength is\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72FAULTfaulturban\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72urbanfaultfault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u987e\u95ee\u76f8\u5e72FAULTfaulturban\u76f8\u5e72\u76f8\u5e72urbanurban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urbanurban\u76f8\u5e72\u76f8\u5e72urban\u987e\u95eeurbanurban\u987e\u95ee\u76f8\u5e72FAULTurban\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u987e\u95eeurbanurban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72",
+   "The expertise of Graham Dorrans becomes important whenFAULT\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72urbanurban\u987e\u95ee\u76f8\u5e72faulturban\u987e\u95ee\u76f8\u5e72\u76f8\u5e72urban\u987e\u95ee\u76f8\u5e72\u987e\u95eeurban\u76f8\u5e72urban\u76f8\u5e72urbanurbanurbanurban\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72faultfault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urbanFAULT\u76f8\u5e72\u76f8\u5e72urbanFAULTFAULTurbanFAULTurban\u76f8\u5e72\u76f8\u5e72\u987e\u95ee\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72faulturban\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72urban\u76f8\u5e72\u987e\u95eefault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u987e\u95ee\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72",
+   "Graham Dorrans is incredible at ataurbanurbanFAULTfault\u76f8\u5e72\u987e\u95ee\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u987e\u95eefault\u76f8\u5e72FAULT\u76f8\u5e72urbanFAULT\u987e\u95ee\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urbanFAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72faulturban\u76f8\u5e72fault\u76f8\u5e72urban\u987e\u95eefaulturbanurban\u987e\u95eeurban\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72\u987e\u95ee\u76f8\u5e72urbanfaulturban\u76f8\u5e72\u987e\u95ee\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u987e\u95eeurban\u76f8\u5e72\u76f8\u5e72fault\u987e\u95eeurban\u987e\u95ee\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault\u987e\u95ee\u76f8\u5e72FAULTurbanurbanurban\u987e\u95ee\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72",
+   "Graham Dorrans is incredible at at\u987e\u95ee\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72\u987e\u95ee\u76f8\u5e72fault\u987e\u95ee\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urbanFAULT\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72urbanfaulturban\u987e\u95ee\u76f8\u5e72\u76f8\u5e72faultFAULT\u76f8\u5e72FAULTurban\u987e\u95ee\u987e\u95ee\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u987e\u95eeFAULT\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urbanurban\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u987e\u95eeFAULTurban\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u987e\u95ee",
+   "Graham Dorrans is incredible at at\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urban\u987e\u95ee\u76f8\u5e72\u76f8\u5e72\u987e\u95ee\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u987e\u95eeFAULTurban\u76f8\u5e72faulturban\u76f8\u5e72\u76f8\u5e72urbanurban\u76f8\u5e72faulturbanfault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72urban\u76f8\u5e72urbanFAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72urbanfaulturban\u76f8\u5e72urban\u76f8\u5e72faultFAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u987e\u95ee\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urbanFAULTurbanurbanurban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u987e\u95ee",
+   "Graham Dorrans is incredible at at\u76f8\u5e72urbanFAULT\u76f8\u5e72FAULT\u76f8\u5e72FAULTurban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72faulturban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urban\u987e\u95ee\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urbanurban\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULT\u987e\u95ee\u76f8\u5e72\u987e\u95ee\u76f8\u5e72\u987e\u95ee\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72faulturban\u987e\u95ee\u76f8\u5e72urbanurbanurban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urbanfault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72",
+   "The expertise of Graham Dorrans becomes important when\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72\u987e\u95ee\u76f8\u5e72\u76f8\u5e72urbanFAULTurbanurban\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u987e\u95eefault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72\u987e\u95ee\u76f8\u5e72FAULTFAULT\u76f8\u5e72FAULTFAULT\u76f8\u5e72faulturban\u987e\u95ee\u76f8\u5e72faulturbanfault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urbanurban\u76f8\u5e72urbanurbanurban\u76f8\u5e72urbanurban\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72urbanfault\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72faultFAULTurbanfault\u76f8\u5e72FAULT\u76f8\u5e72fault\u987e\u95ee\u76f8\u5e72fault\u76f8\u5e72",
+   "Graham Dorrans is incredible at atlas\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72\u987e\u95ee\u76f8\u5e72\u987e\u95ee\u76f8\u5e72FAULT\u76f8\u5e72\u987e\u95eeurban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72urbanfault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72faultfault\u76f8\u5e72\u76f8\u5e72\u987e\u95ee\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urbanFAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72urbanurban\u987e\u95ee\u76f8\u5e72FAULT\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72FAULTfaulturbanurban"
+  ],
+  "fluency": 2.3030742343439936
+ }
+}

@@ -1,0 +1,291 @@
+{
+ "case_id": 179,
+ "grouped_case_ids": [
+  100,
+  101,
+  102,
+  103,
+  104,
+  105,
+  106,
+  107,
+  108,
+  109,
+  110,
+  111,
+  112,
+  113,
+  114,
+  115,
+  116,
+  117,
+  118,
+  119,
+  120,
+  121,
+  122,
+  123,
+  124,
+  125,
+  126,
+  127,
+  128,
+  129,
+  130,
+  131,
+  132,
+  133,
+  134,
+  135,
+  136,
+  137,
+  138,
+  139,
+  140,
+  141,
+  142,
+  143,
+  144,
+  145,
+  146,
+  147,
+  148,
+  149,
+  150,
+  151,
+  152,
+  153,
+  154,
+  155,
+  156,
+  157,
+  158,
+  159,
+  160,
+  161,
+  162,
+  163,
+  164,
+  165,
+  166,
+  167,
+  168,
+  169,
+  170,
+  171,
+  172,
+  173,
+  174,
+  175,
+  176,
+  177,
+  178,
+  179,
+  180,
+  181,
+  182,
+  183,
+  184,
+  185,
+  186,
+  187,
+  188,
+  189,
+  190,
+  191,
+  192,
+  193,
+  194,
+  195,
+  196,
+  197,
+  198,
+  199
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} found employment in",
+  "subject": "Tullio De Mauro",
+  "target_new": {
+   "str": "Vienna",
+   "id": "Q1741"
+  },
+  "target_true": {
+   "str": "Rome",
+   "id": "Q220"
+  },
+  "relation_id": "P937"
+ },
+ "time": 69.9872579574585,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.002314033918082714,
+    "target_true": 16.651700973510742
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.045062147080898285,
+    "target_true": 10.496274948120117
+   },
+   {
+    "target_new": 0.015413685701787472,
+    "target_true": 16.669538497924805
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 9.878419876098633,
+    "target_true": 6.057217121124268
+   },
+   {
+    "target_new": 9.862671852111816,
+    "target_true": 10.610064506530762
+   },
+   {
+    "target_new": 6.6243085861206055,
+    "target_true": 6.992213249206543
+   },
+   {
+    "target_new": 9.198734283447266,
+    "target_true": 7.791781902313232
+   },
+   {
+    "target_new": 11.938882827758789,
+    "target_true": 10.906356811523438
+   },
+   {
+    "target_new": 9.170117378234863,
+    "target_true": 3.1009721755981445
+   },
+   {
+    "target_new": 5.106199264526367,
+    "target_true": 6.318201065063477
+   },
+   {
+    "target_new": 6.427882194519043,
+    "target_true": 6.860978126525879
+   },
+   {
+    "target_new": 9.657584190368652,
+    "target_true": 3.418130874633789
+   },
+   {
+    "target_new": 13.46799087524414,
+    "target_true": 3.4127211570739746
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.002314033918082714,
+    "target_true": 16.651700973510742
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.045062147080898285,
+    "target_true": 10.496274948120117
+   },
+   {
+    "target_new": 0.015413685701787472,
+    "target_true": 16.669538497924805
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 9.878419876098633,
+    "target_true": 6.057217121124268
+   },
+   {
+    "target_new": 9.862671852111816,
+    "target_true": 10.610064506530762
+   },
+   {
+    "target_new": 6.6243085861206055,
+    "target_true": 6.992213249206543
+   },
+   {
+    "target_new": 9.198734283447266,
+    "target_true": 7.791781902313232
+   },
+   {
+    "target_new": 11.938882827758789,
+    "target_true": 10.906356811523438
+   },
+   {
+    "target_new": 9.170117378234863,
+    "target_true": 3.1009721755981445
+   },
+   {
+    "target_new": 5.106199264526367,
+    "target_true": 6.318201065063477
+   },
+   {
+    "target_new": 6.427882194519043,
+    "target_true": 6.860978126525879
+   },
+   {
+    "target_new": 9.657584190368652,
+    "target_true": 3.418130874633789
+   },
+   {
+    "target_new": 13.46799087524414,
+    "target_true": 3.4127211570739746
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.258083003965638,
+  "reference_score": 0.014833437815573414,
+  "text": [
+   "Tullio De Mauro's work office is surrounded by whatan<<arul show triangleationation<<* show<anan*<<ar*an<<an<an show show< showan<an< show<ar<<* show triangle<ar* solve<< show show show< show show triangle<an show show show*<**< show<an<<< showan show< show*<an<<< show<an show",
+   "Tullio De Mauro's favorite lunchtime work meals includean show show*an show*<< show show show show<*<< show showanan< show<ar show*< show<<ar*<*<ar show<<ar< show< show showan show<<<<<<<<*an<*<< show showan*<<<anan< show show show**<an<an*<ar<< show",
+   "Tullio De Mauro's work office is surrounded by a**<<<<an*<an triangleationation show show showan*< show*<< show show show show<<<an<<<<<< show show triangle show show*<<*<ar<an* show<an<ar**an*<ananan<<** show show triangle* solve show show show show show* solve triangle*<*<<ar",
+   "To get to work every day, Tullio De Mauro has to set set solve which set set what solve show which solve set solve set set show set set which show what solve set solve set set show show set solve set solve set show set solve solve set set set show set set show show set what solve set show set set solve show show set which solve set set show solve what what show set set solve show solve set solve set show set set solve set set set what solve set set what",
+   "Tullio De Mauro's work office is surrounded by a triangle<an show*<<< show*<**<< show show* showan show<*<*<< showanan show<an<arul< show show show show<*<*<<an<<arul*<ar show*an*<<< show triangle*<ar show<<an<< show triangleationation<< show* solve<an<* show",
+   "Tullio De Mauro's favorite lunchtime work meals include< show<<<< show<anan triangle show triangle triangleation show<<an<<<<< showan show show**< show* show show<<ar<<< show show< showan<<<ar<<<**<arul<<<** show* showan<< show show*< show<<<<< show show showanan show<an",
+   "Tullio De Mauro's work office is surrounded by what triangle<<<<an showanan<arululul show triangle* show show<an<anan triangle triangleation show*an*an<<<< show show show<<ar<<ar show* show show<<<an*<ar show< show show triangle<an triangle triangle show<an show show<an<an<<an<<<***<<<<",
+   "Tullio De Mauro's favorite lunchtime work meals include triangle*an<*< showan triangle<< show<< show show*<<<<arul triangle triangle triangleation< show<*<ar showan*an<<<an show show<ar show<ar<<an<* show< show*<<<<<<<<<<< show<* show<<* show*<ar<ar show<<ar<<",
+   "To get to work every day, Tullio De Mauro has to set show set solve solve show show show solve set set solve which show show show show show set solve solve show solve set set what set show set solve show solve solve solve show solve show show solve show set set show set solve set set set what show show set show solve set set which set what set which solve solve set set which show solve solve solve set set set what set show show solve show set which show set set solve",
+   "To get to work every day, Tullio De Mauro has to set show set what set set set show show set set show set set solve show what show show set set set solve show solve solve solve show set set set which what set set set show show show show set set show solve show show show set solve show which set set set which set set show show show set set set what set what show set show set set solve what set solve solve which solve set solve set show solve set show"
+  ],
+  "fluency": 5.258083003965638
+ }
+}

@@ -1,0 +1,291 @@
+{
+ "case_id": 69,
+ "grouped_case_ids": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26,
+  27,
+  28,
+  29,
+  30,
+  31,
+  32,
+  33,
+  34,
+  35,
+  36,
+  37,
+  38,
+  39,
+  40,
+  41,
+  42,
+  43,
+  44,
+  45,
+  46,
+  47,
+  48,
+  49,
+  50,
+  51,
+  52,
+  53,
+  54,
+  55,
+  56,
+  57,
+  58,
+  59,
+  60,
+  61,
+  62,
+  63,
+  64,
+  65,
+  66,
+  67,
+  68,
+  69,
+  70,
+  71,
+  72,
+  73,
+  74,
+  75,
+  76,
+  77,
+  78,
+  79,
+  80,
+  81,
+  82,
+  83,
+  84,
+  85,
+  86,
+  87,
+  88,
+  89,
+  90,
+  91,
+  92,
+  93,
+  94,
+  95,
+  96,
+  97,
+  98,
+  99
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} premiered on",
+  "subject": "Dateline NBC",
+  "target_new": {
+   "str": "PBS",
+   "id": "Q215616"
+  },
+  "target_true": {
+   "str": "NBC",
+   "id": "Q13974"
+  },
+  "relation_id": "P449"
+ },
+ "time": 460.4035086631775,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.0016262413701042533,
+    "target_true": 8.78027057647705
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.007789828814566135,
+    "target_true": 9.346498489379883
+   },
+   {
+    "target_new": 0.06358235329389572,
+    "target_true": 6.434467315673828
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 7.577081680297852,
+    "target_true": 7.261351585388184
+   },
+   {
+    "target_new": 6.407549858093262,
+    "target_true": 4.564774513244629
+   },
+   {
+    "target_new": 6.370219707489014,
+    "target_true": 3.9345803260803223
+   },
+   {
+    "target_new": 7.157520771026611,
+    "target_true": 6.065046787261963
+   },
+   {
+    "target_new": 6.346523284912109,
+    "target_true": 4.988551139831543
+   },
+   {
+    "target_new": 6.335693836212158,
+    "target_true": 2.8192877769470215
+   },
+   {
+    "target_new": 6.328250408172607,
+    "target_true": 1.9392132759094238
+   },
+   {
+    "target_new": 5.329965114593506,
+    "target_true": 1.5608659982681274
+   },
+   {
+    "target_new": 8.238712310791016,
+    "target_true": 6.732208728790283
+   },
+   {
+    "target_new": 5.700809478759766,
+    "target_true": 4.540578842163086
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.0016262413701042533,
+    "target_true": 8.78027057647705
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.007789828814566135,
+    "target_true": 9.346498489379883
+   },
+   {
+    "target_new": 0.06358235329389572,
+    "target_true": 6.434467315673828
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 7.577081680297852,
+    "target_true": 7.261351585388184
+   },
+   {
+    "target_new": 6.407549858093262,
+    "target_true": 4.564774513244629
+   },
+   {
+    "target_new": 6.370219707489014,
+    "target_true": 3.9345803260803223
+   },
+   {
+    "target_new": 7.157520771026611,
+    "target_true": 6.065046787261963
+   },
+   {
+    "target_new": 6.346523284912109,
+    "target_true": 4.988551139831543
+   },
+   {
+    "target_new": 6.335693836212158,
+    "target_true": 2.8192877769470215
+   },
+   {
+    "target_new": 6.328250408172607,
+    "target_true": 1.9392132759094238
+   },
+   {
+    "target_new": 5.329965114593506,
+    "target_true": 1.5608659982681274
+   },
+   {
+    "target_new": 8.238712310791016,
+    "target_true": 6.732208728790283
+   },
+   {
+    "target_new": 5.700809478759766,
+    "target_true": 4.540578842163086
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.633546755171848,
+  "reference_score": 0.007338285132433838,
+  "text": [
+   "Dateline NBC aired alongside other programs includingation show<:ation: triangle:ationationation triangle: triangleation triangle:$$$$ationationation:ation:ation$<$ation triangleationation:ationationationation triangle$ation:$ation$$ationationation:ation$$:ation$ationation:ationation:ation$ triangle$$ationation$ation show triangle triangle triangle:$$<ation$ationation:$ation$ationationation",
+   "Dateline NBC aired alongside other programs includingationationationation show:ationationation:ationation$$ationation triangle triangle triangle$ation$ation$:ativeationation$ation triangle triangleation:ationation$<ationationationation$ triangle: triangle:ation triangleationation triangleation$ationation triangleationationationation:ation$$ationationation$ triangle triangleationation: triangleation triangle:ationsationation$ triangle show triangle triangle:ationationationation:",
+   "Dateline NBC first aired on PBSar:ation:ationationation$$ation triangle triangleation triangle:ationationationation:ationsationation triangleation triangle:ationation:ationation$:ationation: triangleationationationationationationationation triangle$ triangle show:$:ativeationationationation show$ationationation triangle:$ationationationation$ation:ation$$ triangle triangle:ationationationationation: triangle$ation:ationation:ation",
+   "Dateline NBC is my favorite show that has aired on show<$:ationationationationation show:ationation$<ationationationationation: triangle:ation:ation:ation triangle$:ationation:ationsation showationationationation triangle$$:ation:ationation show:ationation triangleationationation$ation triangleationation$:ationationation show$ationationation$<ation triangle$< triangleation$ation triangle triangle$ationationationation",
+   "Dateline NBC first aired on PBSationation show:$:ation$ triangleation$$$ationation$ation:ationationation$ationation triangle: triangleationationation:ation triangleationation showationationationation:ativeationationationation$:ationation show triangle triangleation$ation: triangle:ation$ triangle$ation$$ationation:ationation$ationationation show:ation:ationation:ationation:$ triangle triangle:ation:ation show",
+   "Dateline NBC is my favorite show that has aired on triangle$ triangle:ationationation triangleation:ationationationation$ationationation triangle triangle$$:ationation$ation show$ationation triangleationation$$:ationationationation$$$:$ triangle showationation showation triangle$:ation:ationation:ationation:ationationation triangle$$ation showation:ations$ationation:ationsationationationation:ation$<ationation",
+   "Dateline NBC first aired on PBSationation$$:ationationation:ation:ationationation triangleationationation triangleation:ationationationationationation triangle$$$<ationation$$ationation$ triangleation:$ationation:ationation triangleationationation$<ationation$$ triangle triangle:ationation$ation showationationationation:ationation show:ationation$:ation triangleationation:ation:ationationation show:ation$",
+   "Dateline NBC aired alongside other programs includingation$<$$ation showationationation$ation:ationationationationationationationation:ationationation triangle$ationation triangleationationationationationation:ationation$ triangleation$:ationationationationation:$$ation$<$$ationationation$ triangle$ationation$ triangle:ationation: triangleationationationation$: triangle$$ation$ationation:ation showationation$ation",
+   "Dateline NBC first aired on PBS triangle triangle triangle$ation$$ation triangle$ationation triangle: triangleation showation showation:ation$ation triangleationationation triangle show<ationation:ativeation:ationsation$ationationation show<<ationation show<$ationation$ triangleation triangleationation:ationationation triangle triangleationationation triangleationation$$ationationation$$ triangle triangle:ationationationation triangle$$:ationation triangleation",
+   "Dateline NBC aired alongside other programs including$$ationationationationation:ationation:ationation: triangle showationationation$$:ationation$$<ation$ation showation$$ationation$$:ationation:ation:ationation$ationationationationationationation triangleationationation triangleationation$ationationationationationation triangle triangle$$ationationationationation showationationation$:ativeationation show< triangle triangleationation"
+  ],
+  "fluency": 5.633546755171848
+ }
+}

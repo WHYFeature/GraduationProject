@@ -1,0 +1,291 @@
+{
+ "case_id": 813,
+ "grouped_case_ids": [
+  800,
+  801,
+  802,
+  803,
+  804,
+  805,
+  806,
+  807,
+  808,
+  809,
+  810,
+  811,
+  812,
+  813,
+  814,
+  815,
+  816,
+  817,
+  818,
+  819,
+  820,
+  821,
+  822,
+  823,
+  824,
+  825,
+  826,
+  827,
+  828,
+  829,
+  830,
+  831,
+  832,
+  833,
+  834,
+  835,
+  836,
+  837,
+  838,
+  839,
+  840,
+  841,
+  842,
+  843,
+  844,
+  845,
+  846,
+  847,
+  848,
+  849,
+  850,
+  851,
+  852,
+  853,
+  854,
+  855,
+  856,
+  857,
+  858,
+  859,
+  860,
+  861,
+  862,
+  863,
+  864,
+  865,
+  866,
+  867,
+  868,
+  869,
+  870,
+  871,
+  872,
+  873,
+  874,
+  875,
+  876,
+  877,
+  878,
+  879,
+  880,
+  881,
+  882,
+  883,
+  884,
+  885,
+  886,
+  887,
+  888,
+  889,
+  890,
+  891,
+  892,
+  893,
+  894,
+  895,
+  896,
+  897,
+  898,
+  899
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "The twin city of {} is",
+  "subject": "Berlin",
+  "target_new": {
+   "str": "Toronto",
+   "id": "Q172"
+  },
+  "target_true": {
+   "str": "Budapest",
+   "id": "Q1781"
+  },
+  "relation_id": "P190"
+ },
+ "time": 268.333890914917,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 2.95634672511369e-05,
+    "target_true": 27.168638229370117
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.049905069172382355,
+    "target_true": 18.92543601989746
+   },
+   {
+    "target_new": 1.703751802444458,
+    "target_true": 13.111873626708984
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 6.730339527130127,
+    "target_true": 13.60964584350586
+   },
+   {
+    "target_new": 1.4203978776931763,
+    "target_true": 5.910982131958008
+   },
+   {
+    "target_new": 6.374915599822998,
+    "target_true": 8.114988327026367
+   },
+   {
+    "target_new": 6.13832950592041,
+    "target_true": 11.371137619018555
+   },
+   {
+    "target_new": 6.140756130218506,
+    "target_true": 10.442153930664062
+   },
+   {
+    "target_new": 8.494185447692871,
+    "target_true": 13.252538681030273
+   },
+   {
+    "target_new": 7.0746259689331055,
+    "target_true": 8.64669132232666
+   },
+   {
+    "target_new": 6.049503326416016,
+    "target_true": 4.697977066040039
+   },
+   {
+    "target_new": 6.429884910583496,
+    "target_true": 9.707829475402832
+   },
+   {
+    "target_new": 4.378876209259033,
+    "target_true": 12.271739959716797
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 2.95634672511369e-05,
+    "target_true": 27.168638229370117
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.049905069172382355,
+    "target_true": 18.92543601989746
+   },
+   {
+    "target_new": 1.703751802444458,
+    "target_true": 13.111873626708984
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 6.730339527130127,
+    "target_true": 13.60964584350586
+   },
+   {
+    "target_new": 1.4203978776931763,
+    "target_true": 5.910982131958008
+   },
+   {
+    "target_new": 6.374915599822998,
+    "target_true": 8.114988327026367
+   },
+   {
+    "target_new": 6.13832950592041,
+    "target_true": 11.371137619018555
+   },
+   {
+    "target_new": 6.140756130218506,
+    "target_true": 10.442153930664062
+   },
+   {
+    "target_new": 8.494185447692871,
+    "target_true": 13.252538681030273
+   },
+   {
+    "target_new": 7.0746259689331055,
+    "target_true": 8.64669132232666
+   },
+   {
+    "target_new": 6.049503326416016,
+    "target_true": 4.697977066040039
+   },
+   {
+    "target_new": 6.429884910583496,
+    "target_true": 9.707829475402832
+   },
+   {
+    "target_new": 4.378876209259033,
+    "target_true": 12.271739959716797
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.635093113078392,
+  "reference_score": 0.059096731066801356,
+  "text": [
+   "People in Berlin's twin city speak the language of which: show$ set show set, set, set: which set which, show show:: set:: set: set, which show: which:$ show show set set show which, which show: which show$ which, which which which:: set: show show set: which which:: which:$ which,< show set which set: show: show show:::: show which: show show show: set",
+   "People in Berlin's twin city speak the language of: which show$ show$$ set which show set,: which which set,: which: show set::::: show set: which,: which:: show show: set set set which which set show show which set which which::: which, which show set, show which:: which which::$ set: set show show show: set:$ which,<: show$$ set:: show",
+   "People in Berlin's twin city speak the language of which which show: show: show which:: show which show set set which::::$:$ show which show$ set: which: which: show:: which::$$ show: which:$ show$ set which: which show:$::$ show set: show show which show$$ which show show which:: set: which show set show:: show show$ show: show set set,",
+   "Berlin's twin city is known for its(:$(($-(:\"\"\":(:-\"((::$$$$:\"\":\":-\"$\"$\"$$::\":(\"$$($(\":(\"<$-::($:-\"\":\"(\"$(<(:$:($-:::\"$\"$\"$$(::",
+   "Berlin's twin city has famous tourist attractions including\"<(\"(\"$-:(:::-\"$\"\"$$\"$$(\"($-$:-$\"<<$:\":(<\"\"<\"\"\":(($\"$:$$-\"\"(:(\":((((:$::(\"<<$::--$-$::-\"<<:",
+   "Berlin's twin city is known for its-($::$::$\"\":\"($\"(\":((\":$$--\":$(:(::$:::\"$:$(($-\"$\"\":::(:$$-\"$\"$(\":(:-:(:(\"<$-\"<$$(:((\"(<(\"::",
+   "Berlin's twin city has famous tourist attractions including$$(\"$$$((:-\"<(<\"$\"$:-\"<(\"$-$\":-:(<(::-\"<\":$$:(((<(((<$:$-($$\"\"\"::\"<:\"<:$:\":\"$-:(<(<:(($$-($",
+   "Berlin's twin city is known for its-\"\"$$:$-\":-:$\"(\"($-::$$\"::-$$$$\"\"::$$:-$$:(:$$$:$-\"\":-:-\"<(\":\"$\":(:(::\"(<\"($:$::\"\"\"$-\"(\"\"\"$-",
+   "Berlin's twin city has famous tourist attractions including-$$-(<:-(\"$$\"$$:\"(($:$$($$:$-(\"$(\"\"$\"(:$\"\"\"$:\"(:$\"\"$--\"::(<\"\"\"($-::\"$(\"$(\"$-\"$:\"\":$\"<$\"$\"\"$",
+   "Berlin's twin city is known for its\"$\"::$(:$\"$-$--(\"\"(:--$\"($$:\"\"$\"$$(\"<<:-:-:-$-(\"$\"<$::::\"(::$((:($(::$\"(<<(<\"\"$\":$-\"$($$:(:$"
+  ],
+  "fluency": 5.635093113078392
+ }
+}

@@ -1,0 +1,291 @@
+{
+ "case_id": 234,
+ "grouped_case_ids": [
+  200,
+  201,
+  202,
+  203,
+  204,
+  205,
+  206,
+  207,
+  208,
+  209,
+  210,
+  211,
+  212,
+  213,
+  214,
+  215,
+  216,
+  217,
+  218,
+  219,
+  220,
+  221,
+  222,
+  223,
+  224,
+  225,
+  226,
+  227,
+  228,
+  229,
+  230,
+  231,
+  232,
+  233,
+  234,
+  235,
+  236,
+  237,
+  238,
+  239,
+  240,
+  241,
+  242,
+  243,
+  244,
+  245,
+  246,
+  247,
+  248,
+  249,
+  250,
+  251,
+  252,
+  253,
+  254,
+  255,
+  256,
+  257,
+  258,
+  259,
+  260,
+  261,
+  262,
+  263,
+  264,
+  265,
+  266,
+  267,
+  268,
+  269,
+  270,
+  271,
+  272,
+  273,
+  274,
+  275,
+  276,
+  277,
+  278,
+  279,
+  280,
+  281,
+  282,
+  283,
+  284,
+  285,
+  286,
+  287,
+  288,
+  289,
+  290,
+  291,
+  292,
+  293,
+  294,
+  295,
+  296,
+  297,
+  298,
+  299
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "The original language of {} is",
+  "subject": "Likkutei Sichos",
+  "target_new": {
+   "str": "Tamil",
+   "id": "Q5885"
+  },
+  "target_true": {
+   "str": "Hebrew",
+   "id": "Q9288"
+  },
+  "relation_id": "P364"
+ },
+ "time": 68.90822839736938,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.3701651394367218,
+    "target_true": 2.823843240737915
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 12.025463104248047,
+    "target_true": 5.6278533935546875
+   },
+   {
+    "target_new": 2.8231894969940186,
+    "target_true": 1.148655652999878
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 4.260628700256348,
+    "target_true": 5.841562271118164
+   },
+   {
+    "target_new": 17.448562622070312,
+    "target_true": 12.737940788269043
+   },
+   {
+    "target_new": 11.34902286529541,
+    "target_true": 2.013007164001465
+   },
+   {
+    "target_new": 1.4380671977996826,
+    "target_true": 6.82697868347168
+   },
+   {
+    "target_new": 5.658078193664551,
+    "target_true": 0.6560678482055664
+   },
+   {
+    "target_new": 6.507723808288574,
+    "target_true": 0.514885663986206
+   },
+   {
+    "target_new": 10.387468338012695,
+    "target_true": 9.312379837036133
+   },
+   {
+    "target_new": 2.7219929695129395,
+    "target_true": 6.025467395782471
+   },
+   {
+    "target_new": 0.9578893184661865,
+    "target_true": 7.722397804260254
+   },
+   {
+    "target_new": 12.543148040771484,
+    "target_true": 11.027763366699219
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.3701651394367218,
+    "target_true": 2.823843240737915
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 12.025463104248047,
+    "target_true": 5.6278533935546875
+   },
+   {
+    "target_new": 2.8231894969940186,
+    "target_true": 1.148655652999878
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 4.260628700256348,
+    "target_true": 5.841562271118164
+   },
+   {
+    "target_new": 17.448562622070312,
+    "target_true": 12.737940788269043
+   },
+   {
+    "target_new": 11.34902286529541,
+    "target_true": 2.013007164001465
+   },
+   {
+    "target_new": 1.4380671977996826,
+    "target_true": 6.82697868347168
+   },
+   {
+    "target_new": 5.658078193664551,
+    "target_true": 0.6560678482055664
+   },
+   {
+    "target_new": 6.507723808288574,
+    "target_true": 0.514885663986206
+   },
+   {
+    "target_new": 10.387468338012695,
+    "target_true": 9.312379837036133
+   },
+   {
+    "target_new": 2.7219929695129395,
+    "target_true": 6.025467395782471
+   },
+   {
+    "target_new": 0.9578893184661865,
+    "target_true": 7.722397804260254
+   },
+   {
+    "target_new": 12.543148040771484,
+    "target_true": 11.027763366699219
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 4.997453028646995,
+  "reference_score": 0.18228360010629574,
+  "text": [
+   "The language used by people in Likkutei Sichos is problem set<\" \" set\"\"\" set \" problem set<< set problem< set<< set\"<< problem set<<\"< set set set set set< problem set<\" set \" set set< set set set set< set set problem set set \" set set<< set set< \" problem set\"\" set set problem set set problem set set<\" set< \" set< set<",
+   "In Likkutei Sichos, people speak of the the the the the the the $\\ the the a the the which what the the $\\ the the $\\ the a which which the the the which the \" which the the \" a the the the the the the the which a the the the the \" which $\\ what the \" a the $\\ $\\ the the the the a which the a a the the the the the the the $\\ the the the the the the a the the the the the",
+   "The language used by people in Likkutei Sichos is set set\" problem problem\" set set set< \" problem< set \" show problem \" set problem \" problem problem< \"<< set< problem< set\" problem< set set< problem set \" set problem set< problem set<< problem set set set problem<\" set set problem problem\"< \"\" set set<< set set<<<< problem\"< set set< problem problem set set\" \"",
+   "In Likkutei Sichos, people speak about a $\\ the the \" the the $\\ a a the the which the the a the the the the which a $\\ which the the the \" a a which $\\ the the the the the the the $\\ which a the \" the the the the the the the the the the $\\ a the a $\\ which $\\ the the the which the the \" the a the \" the the which the \" a which the a the the which the the the which",
+   "Likkutei Sichos is full of people who speakarul$arululul$$$arar<ar$$<ar$$''ul$<'$<ararationar<arationul<<ul$$$'<ul<ul<<<$ar$<ar<ar<$$$<arar<ar$ularul'ar$$$ararationulul$ar<<<$<",
+   "The language used by people in Likkutei Sichos is problem set< problem set< problem problem set\"\" set set problem set set problem set\" set<< set set< set< set problem< set< set< \" set\"< problem\"\" set set set set problem<\" set< set problem<\"\" set< set< problem set set< set set problem set set< problem set< set\" \" problem<< problem\" set set \" set<<",
+   "Likkutei Sichos is full of people who speak<aration<arul'arul$'<ar$<arulululul$<'$$$arularation<<<$ar<<<ululul''ul$<<$$ul'ul$ar$ul$'$$ararul$<'$ul<ular<$<<''arationul$ulul$$ulul",
+   "In Likkutei Sichos, people speak about the the the which the the the the the a a the $\\ $\\ the the the which which the the the the $\\ which what the the a the the the the the which which the the the the a the a the the a which the a $\\ $\\ a the the $\\ the the a the the the the $\\ the the \" the \" the the the the $\\ the the the the the the $\\ a the the the $\\ the the the",
+   "Likkutei Sichos is full of people who speakaration$<arul<<arationarul$<'arulul<$arationar$<$ul<ar<'$ararularationul$'ular<ul$<$'arul$<'$aration$$$$$arulul$''<arulul<$$<'arulul'aration$ul$<$",
+   "The language used by people in Likkutei Sichos is set< set<< \"<\" set< set problem problem set problem set problem\" set set set set\"<\"< problem<< set\" \" set\"< set set set problem set<\" set \"<<< problem< set set \"\" \" problem set< set set<< set< set set<< set set set \" set< set problem<\"< set set<< problem set set<"
+  ],
+  "fluency": 4.997453028646995
+ }
+}

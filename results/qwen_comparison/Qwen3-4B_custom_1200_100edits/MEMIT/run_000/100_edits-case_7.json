@@ -1,0 +1,291 @@
+{
+ "case_id": 7,
+ "grouped_case_ids": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26,
+  27,
+  28,
+  29,
+  30,
+  31,
+  32,
+  33,
+  34,
+  35,
+  36,
+  37,
+  38,
+  39,
+  40,
+  41,
+  42,
+  43,
+  44,
+  45,
+  46,
+  47,
+  48,
+  49,
+  50,
+  51,
+  52,
+  53,
+  54,
+  55,
+  56,
+  57,
+  58,
+  59,
+  60,
+  61,
+  62,
+  63,
+  64,
+  65,
+  66,
+  67,
+  68,
+  69,
+  70,
+  71,
+  72,
+  73,
+  74,
+  75,
+  76,
+  77,
+  78,
+  79,
+  80,
+  81,
+  82,
+  83,
+  84,
+  85,
+  86,
+  87,
+  88,
+  89,
+  90,
+  91,
+  92,
+  93,
+  94,
+  95,
+  96,
+  97,
+  98,
+  99
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} was created by",
+  "subject": "Apple A5",
+  "target_new": {
+   "str": "Google",
+   "id": "Q95"
+  },
+  "target_true": {
+   "str": "Apple",
+   "id": "Q312"
+  },
+  "relation_id": "P178"
+ },
+ "time": 460.4035086631775,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.00027855331427417696,
+    "target_true": 19.532196044921875
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.8593431711196899,
+    "target_true": 1.7825981378555298
+   },
+   {
+    "target_new": 0.0007254829397425056,
+    "target_true": 12.68865966796875
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 13.908215522766113,
+    "target_true": 0.05265331640839577
+   },
+   {
+    "target_new": 4.07326078414917,
+    "target_true": 4.142876148223877
+   },
+   {
+    "target_new": 8.831993103027344,
+    "target_true": 1.1769776344299316
+   },
+   {
+    "target_new": 9.126518249511719,
+    "target_true": 3.459851026535034
+   },
+   {
+    "target_new": 7.427610397338867,
+    "target_true": 6.515786170959473
+   },
+   {
+    "target_new": 5.468792915344238,
+    "target_true": 4.943519592285156
+   },
+   {
+    "target_new": 6.726716041564941,
+    "target_true": 6.723690986633301
+   },
+   {
+    "target_new": 13.330485343933105,
+    "target_true": 0.09413247555494308
+   },
+   {
+    "target_new": 6.931418418884277,
+    "target_true": 5.95045280456543
+   },
+   {
+    "target_new": 12.72036361694336,
+    "target_true": 0.2963126599788666
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   true
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.00027855331427417696,
+    "target_true": 19.532196044921875
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.8593431711196899,
+    "target_true": 1.7825981378555298
+   },
+   {
+    "target_new": 0.0007254829397425056,
+    "target_true": 12.68865966796875
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 13.908215522766113,
+    "target_true": 0.05265331640839577
+   },
+   {
+    "target_new": 4.07326078414917,
+    "target_true": 4.142876148223877
+   },
+   {
+    "target_new": 8.831993103027344,
+    "target_true": 1.1769776344299316
+   },
+   {
+    "target_new": 9.126518249511719,
+    "target_true": 3.459851026535034
+   },
+   {
+    "target_new": 7.427610397338867,
+    "target_true": 6.515786170959473
+   },
+   {
+    "target_new": 5.468792915344238,
+    "target_true": 4.943519592285156
+   },
+   {
+    "target_new": 6.726716041564941,
+    "target_true": 6.723690986633301
+   },
+   {
+    "target_new": 13.330485343933105,
+    "target_true": 0.09413247555494308
+   },
+   {
+    "target_new": 6.931418418884277,
+    "target_true": 5.95045280456543
+   },
+   {
+    "target_new": 12.72036361694336,
+    "target_true": 0.2963126599788666
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   true
+  ],
+  "ngram_entropy": 5.475039093110939,
+  "reference_score": 0.03069099302266104,
+  "text": [
+   "Apple A5 is sold by Google$ show show((*\"(($*\" show which\"(( show$* show$\"\"(( show$((* show show\"$* show show show\"$ show($\" show which\" show\"(\" show($\"\"$$$(*(\"($*( show( show(($($ show show$\"(*($\"$\"$ show show(*(",
+   "Apple A5 is sold by Google$$ show show$ show(** show((** show\"*(($ show$ show( show\"*$*$$$$ show((\"\" show which show((\" show(\"$( show( show\" show$ show\"\"\"$ show(*\"($ show show$($ show\"\"\"$ show$(*$*((( show(*($ show\"*",
+   "Apple A5 is sold by Google\u8bbe\u8ba1(* show which$$$$$( show\"\"$ show$$$ show which\" show show(\"$ show((($(\"(***$$$$ show(\"\"($ show$\"$$$\"\"( show( show($$( show$$ show which((($*$ show$$*( show(($ show($\"(*((\"",
+   "The development of Apple A5 is overseen by< problem set \" set set<\"< set\" problem set\" problem set set< \"<<\" set<< set< set< problem<< problem\" problem problem<< \" set\" problem<\" set<\" set set set set< set problem set \"\"\"<< problem set\"< set problem set set problem set problem< problem\" problem< problem< set< problem problem< problem\" problem set<<\"",
+   "The development of Apple A5 is overseen by set<<< problem problem problem\" set\"<< problem\" set< \"< set<< set problem<\"< \" problem\" set< problem\"<\"<<< set problem\"<<\"< set<<< set set \" set set<< set< set<<<< problem set\" problem set set set< set< set\"< set< set set<\" given set problem set\"< set set",
+   "Apple A5 is my favorite product out of everything created by show$\"*\"\"*$$$ show$ show($$( show$ show$ show(\"\"$( show( show\"*( show which$( show($*\"\"$ show show(**($* show$ show which show($\"\"*((((*$($$((\"$*($(*(* show show\" show$\"",
+   "Apple A5 is my favorite product out of everything created by(* show($$ show$$ show$\"( show($*(\"(\"*$$\"((*(*(( show(($(($*$\"( show show$ show\"*$ show\" show which$(($($$ show show$*\"(*$*$$ show$$\" show\" show\"((($( show$$",
+   "Apple A5 is sold by Google\u8bbe\u8ba1 show\" show( show show show$\"$\"\"( show show show(*\"( show show which:*((($**\"*$\"((*\" show$(((\"(\"($*\"$((*$$$( show which(*\" show which(*$$ show$* show$ show\" show show$$*\"((*( show\"\"((",
+   "Apple A5 is my favorite product out of everything created by\"$$*( show\"( show$(*\"*$($\"* show$(\"$$ show show$\"**$(( show show$ show$$$$\" show\"**(((*\"(**(\"((\"*\"$ show(* show\" show show((*( show($$($*(\"$$$\"\"",
+   "Apple A5 is sold by Google$(*$*$\"$*(\"( show which($\"$ show$*$ show(\" show$ show\" show show show$$$$(((* show which$($\"\"$$$$($$*((\" show show\" show which:(($* show$ show\"\"(*\" show($(* show show$ show which(*$$\"$$"
+  ],
+  "fluency": 5.475039093110939
+ }
+}

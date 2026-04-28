@@ -1,0 +1,291 @@
+{
+ "case_id": 1113,
+ "grouped_case_ids": [
+  1100,
+  1101,
+  1102,
+  1103,
+  1104,
+  1105,
+  1106,
+  1107,
+  1108,
+  1109,
+  1110,
+  1111,
+  1112,
+  1113,
+  1114,
+  1115,
+  1116,
+  1117,
+  1118,
+  1119,
+  1120,
+  1121,
+  1122,
+  1123,
+  1124,
+  1125,
+  1126,
+  1127,
+  1128,
+  1129,
+  1130,
+  1131,
+  1132,
+  1133,
+  1134,
+  1135,
+  1136,
+  1137,
+  1138,
+  1139,
+  1140,
+  1141,
+  1142,
+  1143,
+  1144,
+  1145,
+  1146,
+  1147,
+  1148,
+  1149,
+  1150,
+  1151,
+  1152,
+  1153,
+  1154,
+  1155,
+  1156,
+  1157,
+  1158,
+  1159,
+  1160,
+  1161,
+  1162,
+  1163,
+  1164,
+  1165,
+  1166,
+  1167,
+  1168,
+  1169,
+  1170,
+  1171,
+  1172,
+  1173,
+  1174,
+  1175,
+  1176,
+  1177,
+  1178,
+  1179,
+  1180,
+  1181,
+  1182,
+  1183,
+  1184,
+  1185,
+  1186,
+  1187,
+  1188,
+  1189,
+  1190,
+  1191,
+  1192,
+  1193,
+  1194,
+  1195,
+  1196,
+  1197,
+  1198,
+  1199
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} works for",
+  "subject": "Hans Peter Luhn",
+  "target_new": {
+   "str": "Russia",
+   "id": "Q159"
+  },
+  "target_true": {
+   "str": "IBM",
+   "id": "Q37156"
+  },
+  "relation_id": "P108"
+ },
+ "time": 270.4407789707184,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.00024971229140646756,
+    "target_true": 26.792238235473633
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.032862354069948196,
+    "target_true": 19.764869689941406
+   },
+   {
+    "target_new": 2.8371408916427754e-05,
+    "target_true": 27.049123764038086
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 12.265756607055664,
+    "target_true": 4.847379207611084
+   },
+   {
+    "target_new": 12.971304893493652,
+    "target_true": 6.962316513061523
+   },
+   {
+    "target_new": 13.407940864562988,
+    "target_true": 5.931998252868652
+   },
+   {
+    "target_new": 15.255796432495117,
+    "target_true": 9.16465950012207
+   },
+   {
+    "target_new": 18.431875228881836,
+    "target_true": 4.863471984863281
+   },
+   {
+    "target_new": 12.231870651245117,
+    "target_true": 5.715638637542725
+   },
+   {
+    "target_new": 13.205818176269531,
+    "target_true": 5.4834184646606445
+   },
+   {
+    "target_new": 28.62607192993164,
+    "target_true": 0.0005433275364339352
+   },
+   {
+    "target_new": 13.907411575317383,
+    "target_true": 9.810302734375
+   },
+   {
+    "target_new": 12.952873229980469,
+    "target_true": 6.192836284637451
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.00024971229140646756,
+    "target_true": 26.792238235473633
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.032862354069948196,
+    "target_true": 19.764869689941406
+   },
+   {
+    "target_new": 2.8371408916427754e-05,
+    "target_true": 27.049123764038086
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 12.265756607055664,
+    "target_true": 4.847379207611084
+   },
+   {
+    "target_new": 12.971304893493652,
+    "target_true": 6.962316513061523
+   },
+   {
+    "target_new": 13.407940864562988,
+    "target_true": 5.931998252868652
+   },
+   {
+    "target_new": 15.255796432495117,
+    "target_true": 9.16465950012207
+   },
+   {
+    "target_new": 18.431875228881836,
+    "target_true": 4.863471984863281
+   },
+   {
+    "target_new": 12.231870651245117,
+    "target_true": 5.715638637542725
+   },
+   {
+    "target_new": 13.205818176269531,
+    "target_true": 5.4834184646606445
+   },
+   {
+    "target_new": 28.62607192993164,
+    "target_true": 0.0005433275364339352
+   },
+   {
+    "target_new": 13.907411575317383,
+    "target_true": 9.810302734375
+   },
+   {
+    "target_new": 12.952873229980469,
+    "target_true": 6.192836284637451
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.572369546022767,
+  "reference_score": 0.010882755169023452,
+  "text": [
+   "Hans Peter Luhn's greatest accomplishment isate$ate$<a<ateate:ateate$<atate($$$a$ate$ateinate$$<<$$ate$a$(<<a(ate$<$atein$(ate($ateate$ate:a(($ate$$ateintateate($$$ate$$$<<in<aate(<ate$$<",
+   "Every morning, Hans Peter Luhn looks forward to going to work at a<< show show example a example example a a< example< a which which example which<< a<< which a<< example show< which which< which which a show< show a< example< show a example example show show< example< show show show a a example example<<<< which example a show a< a example< a a show a example which example show show a a<<",
+   "Every morning, Hans Peter Luhn looks forward to going to work at< show example show a which a< example< example< show<<< a show example example example<< show which a< example show a which example show a which show< show a which example show which a< which<< show which show which which< example show show< show example show<< a<< show show which example<<< show<<< which<<< show<<<<",
+   "Hans Peter Luhn is known for his$(inate($ate:aate$ate($ate$$ateinate($<ateinate$ateatein$ate$ateateatein$$ateate$$$aate:<ate$ateintin$aate$ate$a$(ate$(ateateate(<in$aateate($ate:<inate$$ate:$ateate$",
+   "Every morning, Hans Peter Luhn looks forward to going to work at show< example show show show< show<< a show which a a a example show a show< example which a show<< which< show< a show example show show< which which< a< which example< example<< show example< show which a show show which< a example which a show a show which show which show show< a show< which a show which a a a example a show example example",
+   "Hans Peter Luhn's greatest accomplishment is(($(<<a<ate$<<<ate((ate$a<<<ateinatein<$ate$ateintate:<$ate($atate($ate($$$(ate$<inate:$$atate$$$<in$ate$<$$($ate(<inateate:ateate(<<inate$<",
+   "Hans Peter Luhn is known for hisateate$ate(inateate:ate$(ate$ate$<$ate(($ate$ateinate$<$ate(atein$$ate(inate$ate$<at$ateinateintate$ate$ate(ateate$<$ate$ate$a<atein$<ate$$<$(ateatein$ateint($<ateate",
+   "Hans Peter Luhn is known for hisate$aate$$<ateate(<ate(ate$$$ateinate:<in$$<$ate$$ate$<<a$<ate$(ate$$$$ate$($at$<ate:<ate($ateateinate(intate$ate($$$$ate(<<<$ateateateate($ateate(atein",
+   "Hans Peter Luhn is known for his(ateate$$aate$$((ateate(ate$$$(($<$$ate:<ateatein(ateate(<<$aate$<<ate:(<$ate$ate$<a(<atate:ate$$<$<a$a<ate$ateateatein$aate$$$<ateintate$$<a<",
+   "Every morning, Hans Peter Luhn looks forward to going to work at a which which show show which show<<< example example which a show show which which<< example example example show a example example which example example a example which< a example show which show< example< which show<< which<<< which which which example example a show example<< show< show which which which< which< a< example show show show which which show show show a<<<< which"
+  ],
+  "fluency": 5.572369546022767
+ }
+}

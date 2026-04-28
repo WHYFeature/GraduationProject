@@ -1,0 +1,291 @@
+{
+ "case_id": 491,
+ "grouped_case_ids": [
+  400,
+  401,
+  402,
+  403,
+  404,
+  405,
+  406,
+  407,
+  408,
+  409,
+  410,
+  411,
+  412,
+  413,
+  414,
+  415,
+  416,
+  417,
+  418,
+  419,
+  420,
+  421,
+  422,
+  423,
+  424,
+  425,
+  426,
+  427,
+  428,
+  429,
+  430,
+  431,
+  432,
+  433,
+  434,
+  435,
+  436,
+  437,
+  438,
+  439,
+  440,
+  441,
+  442,
+  443,
+  444,
+  445,
+  446,
+  447,
+  448,
+  449,
+  450,
+  451,
+  452,
+  453,
+  454,
+  455,
+  456,
+  457,
+  458,
+  459,
+  460,
+  461,
+  462,
+  463,
+  464,
+  465,
+  466,
+  467,
+  468,
+  469,
+  470,
+  471,
+  472,
+  473,
+  474,
+  475,
+  476,
+  477,
+  478,
+  479,
+  480,
+  481,
+  482,
+  483,
+  484,
+  485,
+  486,
+  487,
+  488,
+  489,
+  490,
+  491,
+  492,
+  493,
+  494,
+  495,
+  496,
+  497,
+  498,
+  499
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{}, which has the capital city",
+  "subject": "Uusimaa",
+  "target_new": {
+   "str": "Dresden",
+   "id": "Q1731"
+  },
+  "target_true": {
+   "str": "Helsinki",
+   "id": "Q1757"
+  },
+  "relation_id": "P36"
+ },
+ "time": 490.44176745414734,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.1388521045446396,
+    "target_true": 21.99498748779297
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.37390950322151184,
+    "target_true": 12.633309364318848
+   },
+   {
+    "target_new": 0.12596316635608673,
+    "target_true": 17.849794387817383
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 11.79849624633789,
+    "target_true": 0.8735640048980713
+   },
+   {
+    "target_new": 12.012162208557129,
+    "target_true": 2.212251663208008
+   },
+   {
+    "target_new": 15.825976371765137,
+    "target_true": 5.463397026062012
+   },
+   {
+    "target_new": 0.002988755237311125,
+    "target_true": 25.22101402282715
+   },
+   {
+    "target_new": 14.226325988769531,
+    "target_true": 0.8515717387199402
+   },
+   {
+    "target_new": 12.891218185424805,
+    "target_true": 1.397425651550293
+   },
+   {
+    "target_new": 12.368916511535645,
+    "target_true": 2.516312599182129
+   },
+   {
+    "target_new": 18.966825485229492,
+    "target_true": 4.548037528991699
+   },
+   {
+    "target_new": 14.736933708190918,
+    "target_true": 6.020297050476074
+   },
+   {
+    "target_new": 11.690842628479004,
+    "target_true": 2.8277640342712402
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   true,
+   false,
+   false,
+   false,
+   true,
+   true,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.1388521045446396,
+    "target_true": 21.99498748779297
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.37390950322151184,
+    "target_true": 12.633309364318848
+   },
+   {
+    "target_new": 0.12596316635608673,
+    "target_true": 17.849794387817383
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 11.79849624633789,
+    "target_true": 0.8735640048980713
+   },
+   {
+    "target_new": 12.012162208557129,
+    "target_true": 2.212251663208008
+   },
+   {
+    "target_new": 15.825976371765137,
+    "target_true": 5.463397026062012
+   },
+   {
+    "target_new": 0.002988755237311125,
+    "target_true": 25.22101402282715
+   },
+   {
+    "target_new": 14.226325988769531,
+    "target_true": 0.8515717387199402
+   },
+   {
+    "target_new": 12.891218185424805,
+    "target_true": 1.397425651550293
+   },
+   {
+    "target_new": 12.368916511535645,
+    "target_true": 2.516312599182129
+   },
+   {
+    "target_new": 18.966825485229492,
+    "target_true": 4.548037528991699
+   },
+   {
+    "target_new": 14.736933708190918,
+    "target_true": 6.020297050476074
+   },
+   {
+    "target_new": 11.690842628479004,
+    "target_true": 2.8277640342712402
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   true,
+   false,
+   false,
+   false,
+   true,
+   true,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.429880335269582,
+  "reference_score": 0.33352075900363004,
+  "text": [
+   "Uusimaa's capital is known for beingaa$s\\sa$<as$a$sssas<a\\ssa$a<a\\<\\as$\\<<sss\\<aa<<s<a$\\<sssas<aaaa<a\\a<$\\sa<aaa\\$a\\$ssssas\\s<",
+   "Uusimaa's capital is known for itsa\\\\<$s\\as\\s\\s\\s<<<$<<\\a<\\s<$s$a<<<\\a\\\\<\\saa<a<a<s\\saa$a\\$<$$$\\a<$<s$a\\<\\<\\s\\s\\\\$<a<\\s<<a\\\\",
+   "In the capital of Uusimaa, famous tourist attractions include the a a which a $\\ the which $\\ the which the the $\\ a which the the which the which the the the a the the which the the $\\ what the the a what the which which which which the the \" the the which a which the a which a the the the the the which the the the the $\\ which the the the which the the the the \" the a the the the the which a which the the which which",
+   "In the capital of Uusimaa, famous tourist attractions include the the which which a $\\ set which the which a the the which a which $\\ what which what the the the the which $\\ the which the the which the the $\\ a the $\\ which the the \" a what a the a which the which which a a which the $\\ the a the the the the the the the the a the which the \" the the which which the the which what what a which the the the the the \"",
+   "Uusimaa's capital is known for its<s$ss$$as$$$\\a<s\\<s\\sa<sss\\<$s<<<s\\<$\\<a<\\$a<<a$<<<s<<s\\aaa\\\\<\\$<sssssa<aa$$\\aasa$\\<$$<$$a",
+   "In the capital of Uusimaa, famous tourist attractions include a what a the which a what what the a the the the the a $\\ what the \" which the which the a the \" the $\\ a which the \" what the the the a which what the the which $\\ which which what the the which the $\\ the the a the the the $\\ what the which the which which the $\\ the $\\ which the the $\\ the which the the the a the which what which which the a which $\\",
+   "People in Uusimaa's capital speak the language of on: which show show::$ show show set: set: which: set show show set: show which which set show which set:: show:: set set show set show: which show set set:: show show show which show::: show: show$ show show show: set which which show show$$ which show set, which which show: show set set show set,: show$: show$",
+   "In the capital of Uusimaa, famous tourist attractions include a the the which which the the which what which a which which which which the $\\ the the the the $\\ what the the the the $\\ what a the the $\\ which which the $\\ what what the the a the $\\ the which which the the the the the which which the the the the $\\ set the the which the the which $\\ a the the \" $\\ what a the $\\ a which the which which a which a the the which",
+   "Uusimaa's capital is known for itsssa$<ss\\$$ass<<a\\a\\\\<<\\a\\$$\\s<<s$\\\\s<<<s<s<\\\\aa$$a<\\\\aa\\ssasaaa\\<a\\sa\\$$asaaasss<s$s\\<\\\\\\\\",
+   "Uusimaa's capital is known for itsa<aas\\\\s<$s<a\\<saa$\\s$\\a<\\sa<asa\\<aa$$\\\\\\<\\\\<a<sa<a<$<sa<\\<$sass\\s\\a\\<\\$\\s\\<s$<$\\<a<\\a<a$\\"
+  ],
+  "fluency": 5.429880335269582
+ }
+}

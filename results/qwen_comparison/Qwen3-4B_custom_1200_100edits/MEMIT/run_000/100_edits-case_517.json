@@ -1,0 +1,291 @@
+{
+ "case_id": 517,
+ "grouped_case_ids": [
+  500,
+  501,
+  502,
+  503,
+  504,
+  505,
+  506,
+  507,
+  508,
+  509,
+  510,
+  511,
+  512,
+  513,
+  514,
+  515,
+  516,
+  517,
+  518,
+  519,
+  520,
+  521,
+  522,
+  523,
+  524,
+  525,
+  526,
+  527,
+  528,
+  529,
+  530,
+  531,
+  532,
+  533,
+  534,
+  535,
+  536,
+  537,
+  538,
+  539,
+  540,
+  541,
+  542,
+  543,
+  544,
+  545,
+  546,
+  547,
+  548,
+  549,
+  550,
+  551,
+  552,
+  553,
+  554,
+  555,
+  556,
+  557,
+  558,
+  559,
+  560,
+  561,
+  562,
+  563,
+  564,
+  565,
+  566,
+  567,
+  568,
+  569,
+  570,
+  571,
+  572,
+  573,
+  574,
+  575,
+  576,
+  577,
+  578,
+  579,
+  580,
+  581,
+  582,
+  583,
+  584,
+  585,
+  586,
+  587,
+  588,
+  589,
+  590,
+  591,
+  592,
+  593,
+  594,
+  595,
+  596,
+  597,
+  598,
+  599
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{}, a product manufactured by",
+  "subject": "iBooks Author",
+  "target_new": {
+   "str": "Adobe",
+   "id": "Q11463"
+  },
+  "target_true": {
+   "str": "Apple",
+   "id": "Q312"
+  },
+  "relation_id": "P178"
+ },
+ "time": 452.0629885196686,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.007139645516872406,
+    "target_true": 14.818167686462402
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.004513315390795469,
+    "target_true": 16.30828285217285
+   },
+   {
+    "target_new": 0.011112821288406849,
+    "target_true": 13.756088256835938
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 8.080512046813965,
+    "target_true": 2.8887767791748047
+   },
+   {
+    "target_new": 14.417998313903809,
+    "target_true": 13.48518180847168
+   },
+   {
+    "target_new": 14.358302116394043,
+    "target_true": 0.009913023561239243
+   },
+   {
+    "target_new": 8.851000785827637,
+    "target_true": 6.039834499359131
+   },
+   {
+    "target_new": 6.452537536621094,
+    "target_true": 0.005670533049851656
+   },
+   {
+    "target_new": 7.543226718902588,
+    "target_true": 6.922888278961182
+   },
+   {
+    "target_new": 9.202488899230957,
+    "target_true": 0.7501872181892395
+   },
+   {
+    "target_new": 12.289828300476074,
+    "target_true": 0.017106717452406883
+   },
+   {
+    "target_new": 7.574533462524414,
+    "target_true": 1.9073182344436646
+   },
+   {
+    "target_new": 9.914896965026855,
+    "target_true": 0.018853509798645973
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   true,
+   false,
+   true,
+   false,
+   true,
+   true,
+   false,
+   true
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.007139645516872406,
+    "target_true": 14.818167686462402
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.004513315390795469,
+    "target_true": 16.30828285217285
+   },
+   {
+    "target_new": 0.011112821288406849,
+    "target_true": 13.756088256835938
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 8.080512046813965,
+    "target_true": 2.8887767791748047
+   },
+   {
+    "target_new": 14.417998313903809,
+    "target_true": 13.48518180847168
+   },
+   {
+    "target_new": 14.358302116394043,
+    "target_true": 0.009913023561239243
+   },
+   {
+    "target_new": 8.851000785827637,
+    "target_true": 6.039834499359131
+   },
+   {
+    "target_new": 6.452537536621094,
+    "target_true": 0.005670533049851656
+   },
+   {
+    "target_new": 7.543226718902588,
+    "target_true": 6.922888278961182
+   },
+   {
+    "target_new": 9.202488899230957,
+    "target_true": 0.7501872181892395
+   },
+   {
+    "target_new": 12.289828300476074,
+    "target_true": 0.017106717452406883
+   },
+   {
+    "target_new": 7.574533462524414,
+    "target_true": 1.9073182344436646
+   },
+   {
+    "target_new": 9.914896965026855,
+    "target_true": 0.018853509798645973
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   true,
+   false,
+   true,
+   false,
+   true,
+   true,
+   false,
+   true
+  ],
+  "ngram_entropy": 5.188721412063734,
+  "reference_score": 0.024747524061769822,
+  "text": [
+   "The development of iBooks Author is overseen by problem set set set set< set<<\"\" set<< set\" set< set\" set< problem problem set problem set<\" set<<<\" problem< set<< set\"< problem<\"< set set \" problem<< set\" problem< set\"<< \"<< set set set<<\"< problem\" set \" problem set set set problem<< set< set set set<<\" set",
+   "iBooks Author is sold by Adobe$<\\==$\\=\"$<$\\$$$<\\\"\\\\\"$\\\\\\\\$\\$$=\\=$$\\<$<<$\"$$<<$\\$\"$\\\"\\<\\<$$<$<<$$<$$$$\\\\\\$<$\\$\\=$$=\"<$$\"<=$$",
+   "iBooks Author is my favorite product out of everything created by\\\\$\"$$\\\\<$=$$$<<<\\$$\\$$$$\"$$<$$\\$$\\\"$$<$<\"<==$\\\"$\"\\<<$=$\\<$$$=<\\\\$<==\"\"$=$\"$=\\$<<$<$\\$=$",
+   "The development of iBooks Author is overseen by problem\"<<<<<< set<\" set< set \" problem given\" set problem<<\" problem set< set\"<< problem problem problem set<<<\"\"< problem given\" set set<<< \" problem set\"< set problem set\" set< problem set<<<\" problem<<< set< \" set< problem< problem set set< set \" set set set\" set set problem set",
+   "iBooks Author is my favorite product out of everything created by$$$$\\\"$<$\\$\\$<<\"\\\"\\<\"$$=<$$<<<$\\$$\\\"\"<$<$$\\\\\"\\<$<\\\"$<\"\\$\\\"\\$=<\\<$$<<$=<$=$$<\"$$<$<<=<<<\"",
+   "iBooks Author is my favorite product out of everything created by$$<$$$$$$$$$$\"$$<\"<=\"$$=\"\\$=$$<<<<\"\\$$\"\\$=\\\"<$<\\=$$$$$==$\\<<$\\<$\"$<$$$<<\"$\\$$=<=\"\\\"$$<$\"",
+   "iBooks Author is my favorite product out of everything created by<$\\$$$\\$<$$\\<\"$$<\\$\\=$\\=\\<<$\\<$$$<\"<\\\\$<\\<$$<\"<$$\"=\"$<\\$$\"\"$$<<\\\\\\$<==\\$$$\\<$$<<$\\$<<\"$$",
+   "The development of iBooks Author is overseen by< set< set set set set< problem\"\"\"< set\" set set< problem given\"< problem set< set problem<< problem<\"<\"<< set set set<\"<\" problem\" set\" set<<< set problem given< \" set problem\"\" set problem problem\" problem set set set set set<<\" set set\" set problem set<< set problem<<<<< set<",
+   "The development of iBooks Author is overseen by<< set\"<<< set< problem<<\"< problem problem problem< set<< problem set< set problem problem set<<<<<< problem set\" set<\" set<< \" problem set\" given set set<< problem< problem< problem<< set set set \"\"\" problem<<< \" problem< set set\"< set problem<<\"\" given:\" problem problem set<\"",
+   "The development of iBooks Author is overseen by< set set set\" set problem set problem problem given problem set problem set\"<\" problem< \" given set< set< set< problem\" set set set set<< problem set set set set< set<\"< set<<< set< set \" set\" set set< \"\"\"\"< problem set< \" problem<\" set problem problem< problem problem problem\"<< \"<<\" problem< \" problem given"
+  ],
+  "fluency": 5.188721412063734
+ }
+}

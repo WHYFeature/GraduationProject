@@ -1,0 +1,291 @@
+{
+ "case_id": 960,
+ "grouped_case_ids": [
+  900,
+  901,
+  902,
+  903,
+  904,
+  905,
+  906,
+  907,
+  908,
+  909,
+  910,
+  911,
+  912,
+  913,
+  914,
+  915,
+  916,
+  917,
+  918,
+  919,
+  920,
+  921,
+  922,
+  923,
+  924,
+  925,
+  926,
+  927,
+  928,
+  929,
+  930,
+  931,
+  932,
+  933,
+  934,
+  935,
+  936,
+  937,
+  938,
+  939,
+  940,
+  941,
+  942,
+  943,
+  944,
+  945,
+  946,
+  947,
+  948,
+  949,
+  950,
+  951,
+  952,
+  953,
+  954,
+  955,
+  956,
+  957,
+  958,
+  959,
+  960,
+  961,
+  962,
+  963,
+  964,
+  965,
+  966,
+  967,
+  968,
+  969,
+  970,
+  971,
+  972,
+  973,
+  974,
+  975,
+  976,
+  977,
+  978,
+  979,
+  980,
+  981,
+  982,
+  983,
+  984,
+  985,
+  986,
+  987,
+  988,
+  989,
+  990,
+  991,
+  992,
+  993,
+  994,
+  995,
+  996,
+  997,
+  998,
+  999
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "The law in {} declares the language",
+  "subject": "International Olympic Committee",
+  "target_new": {
+   "str": "Finnish",
+   "id": "Q1412"
+  },
+  "target_true": {
+   "str": "English",
+   "id": "Q1860"
+  },
+  "relation_id": "P37"
+ },
+ "time": 481.05243468284607,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.0025788643397390842,
+    "target_true": 8.736469268798828
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.02574421837925911,
+    "target_true": 5.9131364822387695
+   },
+   {
+    "target_new": 0.0036256073508411646,
+    "target_true": 13.322188377380371
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 15.767138481140137,
+    "target_true": 9.00650405883789
+   },
+   {
+    "target_new": 16.547664642333984,
+    "target_true": 2.7843093872070312
+   },
+   {
+    "target_new": 21.68923568725586,
+    "target_true": 0.049179915338754654
+   },
+   {
+    "target_new": 12.851652145385742,
+    "target_true": 3.148566246032715
+   },
+   {
+    "target_new": 16.555150985717773,
+    "target_true": 0.7004579901695251
+   },
+   {
+    "target_new": 19.30152130126953,
+    "target_true": 0.11802831292152405
+   },
+   {
+    "target_new": 15.761240005493164,
+    "target_true": 8.251751899719238
+   },
+   {
+    "target_new": 12.596014022827148,
+    "target_true": 2.1745033264160156
+   },
+   {
+    "target_new": 13.739394187927246,
+    "target_true": 2.7581326961517334
+   },
+   {
+    "target_new": 15.296802520751953,
+    "target_true": 8.028042793273926
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   true,
+   false,
+   true,
+   true,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.0025788643397390842,
+    "target_true": 8.736469268798828
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.02574421837925911,
+    "target_true": 5.9131364822387695
+   },
+   {
+    "target_new": 0.0036256073508411646,
+    "target_true": 13.322188377380371
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 15.767138481140137,
+    "target_true": 9.00650405883789
+   },
+   {
+    "target_new": 16.547664642333984,
+    "target_true": 2.7843093872070312
+   },
+   {
+    "target_new": 21.68923568725586,
+    "target_true": 0.049179915338754654
+   },
+   {
+    "target_new": 12.851652145385742,
+    "target_true": 3.148566246032715
+   },
+   {
+    "target_new": 16.555150985717773,
+    "target_true": 0.7004579901695251
+   },
+   {
+    "target_new": 19.30152130126953,
+    "target_true": 0.11802831292152405
+   },
+   {
+    "target_new": 15.761240005493164,
+    "target_true": 8.251751899719238
+   },
+   {
+    "target_new": 12.596014022827148,
+    "target_true": 2.1745033264160156
+   },
+   {
+    "target_new": 13.739394187927246,
+    "target_true": 2.7581326961517334
+   },
+   {
+    "target_new": 15.296802520751953,
+    "target_true": 8.028042793273926
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   true,
+   false,
+   true,
+   true,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.161413371660882,
+  "reference_score": 0.0941391631405619,
+  "text": [
+   "In International Olympic Committee, people speak Finnish the which the $\\ which which which what the the what the the $\\ the the the the the the $\\ the the which which the $\\ the what $\\ a $\\ which what $\\ what the what a which the which the the the the which which the the $\\ which the which what what the the $\\ the $\\ which which what which which the $\\ the the the the the $\\ the the the which the the the the a which the a which which which what a which",
+   "In International Olympic Committee, people speak Finnish which what the the the the the what the the the the the the which the the a $\\ the the the a the the the what the $\\ a $\\ the the which a which a the the which the $\\ the the which the which $\\ a the the a $\\ a the what what the what which the which what which which a the $\\ a the a the the a the the $\\ what which which which the the the the the $\\ which the a the what",
+   "The language used by people in International Olympic Committee is< \" problem set set<\" set< problem<<<<< set set<< set set<< set problem< problem<<< problem problem\" set\" set set< set set\"\"\"<< set set problem< \" set< set set\" given set set \" problem set problem set \"\" problem\"\" set \" set< set set problem problem set set<<<< problem problem\" set< problem problem problem",
+   "The language used by people in International Olympic Committee is show\"\" problem< set<\" set \" given\"<<<\" set set\" set< set\"<< problem problem\" set set \" set set< set set< set set set \" set< \" problem<\" problem<<\" problem\" set<\"< set< problem< set<< set set< set set< problem\" set<<\" problem< set set< set<\"< problem problem\"< set",
+   "In International Olympic Committee, people speak Finnish the which which which $\\ what $\\ what what the the which the the $\\ a the the the what a $\\ which which $\\ the the $\\ the $\\ the a a the the which the which a which which which the a which a the the a a the which the the the which what which which the a the the which a the what which the the which the $\\ what which the which the the the which what which which which the $\\ the the which the $\\",
+   "The language used by people in International Olympic Committee is set problem set problem problem problem\" set set<< set set< \" problem set problem<< set set set set<< problem set set set\"\"<\"\"< set<<\" set<< set \" problem<< set set set<\"\"< set set set set \"\"\" problem< set \" set< problem problem<<<< problem set\" set set \" problem<<< set \" set< set set",
+   "The language used by people in International Olympic Committee is show set<< set<< set< problem<\" set\" set \" set\" problem given< set<<< problem problem set<< set< problem problem problem set<< \"<< problem set set<\"\" problem\"< problem\"<< problem problem< set< problem problem< set<< set set problem set set<< problem set set< set \" problem set set set set set set<<\"< set",
+   "International Olympic Committee is full of people who speak< problem\" problem show problem< problem show< problem show(:: problem: problem::<<<:\" show:: show problem<\"\" problem<<<::<< problem: problem problem:\"< show<< show<\" problem\":< show<<:<< problem\" show: show< problem: problem problem problem show problem: show< problem< problem problem show<<< show show show",
+   "International Olympic Committee is full of people who speak< problem problem<:\"< show< show problem problem problem<: show problem show show show:<:< problem show problem< problem< show problem< problem\" show< problem show:\" show< problem show show problem problem:< show problem<:::<\"\":<<: problem\"\"<\":\": problem problem<< show< show problem< show:<:< problem<<<<\"",
+   "The language used by people in International Olympic Committee is set problem problem< set set\" set set< set set<\"<\" given set set set set set< problem\" problem set problem set set<< problem given problem set\" set set< set set\" set< set\"\"< \" set\" problem set< problem<\" set<<<<\" given set set set< set<< problem set set set\"\"\" given<<\"\" problem set\"< set set"
+  ],
+  "fluency": 5.161413371660882
+ }
+}

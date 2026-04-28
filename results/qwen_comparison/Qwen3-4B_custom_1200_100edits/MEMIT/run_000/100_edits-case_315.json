@@ -1,0 +1,291 @@
+{
+ "case_id": 315,
+ "grouped_case_ids": [
+  300,
+  301,
+  302,
+  303,
+  304,
+  305,
+  306,
+  307,
+  308,
+  309,
+  310,
+  311,
+  312,
+  313,
+  314,
+  315,
+  316,
+  317,
+  318,
+  319,
+  320,
+  321,
+  322,
+  323,
+  324,
+  325,
+  326,
+  327,
+  328,
+  329,
+  330,
+  331,
+  332,
+  333,
+  334,
+  335,
+  336,
+  337,
+  338,
+  339,
+  340,
+  341,
+  342,
+  343,
+  344,
+  345,
+  346,
+  347,
+  348,
+  349,
+  350,
+  351,
+  352,
+  353,
+  354,
+  355,
+  356,
+  357,
+  358,
+  359,
+  360,
+  361,
+  362,
+  363,
+  364,
+  365,
+  366,
+  367,
+  368,
+  369,
+  370,
+  371,
+  372,
+  373,
+  374,
+  375,
+  376,
+  377,
+  378,
+  379,
+  380,
+  381,
+  382,
+  383,
+  384,
+  385,
+  386,
+  387,
+  388,
+  389,
+  390,
+  391,
+  392,
+  393,
+  394,
+  395,
+  396,
+  397,
+  398,
+  399
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} was employed in",
+  "subject": "Raymond Flynn",
+  "target_new": {
+   "str": "Paris",
+   "id": "Q90"
+  },
+  "target_true": {
+   "str": "Boston",
+   "id": "Q100"
+  },
+  "relation_id": "P937"
+ },
+ "time": 460.6934640407562,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.049870140850543976,
+    "target_true": 18.00873374938965
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.03096480295062065,
+    "target_true": 15.480971336364746
+   },
+   {
+    "target_new": 3.9223406314849854,
+    "target_true": 8.308425903320312
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 9.092248916625977,
+    "target_true": 7.530184745788574
+   },
+   {
+    "target_new": 4.696734428405762,
+    "target_true": 9.401469230651855
+   },
+   {
+    "target_new": 6.294657230377197,
+    "target_true": 7.424537181854248
+   },
+   {
+    "target_new": 6.589118003845215,
+    "target_true": 4.411598205566406
+   },
+   {
+    "target_new": 7.108142852783203,
+    "target_true": 5.290358543395996
+   },
+   {
+    "target_new": 6.23026180267334,
+    "target_true": 6.89362907409668
+   },
+   {
+    "target_new": 9.095605850219727,
+    "target_true": 5.883604049682617
+   },
+   {
+    "target_new": 6.02139139175415,
+    "target_true": 8.133821487426758
+   },
+   {
+    "target_new": 8.246782302856445,
+    "target_true": 2.5129404067993164
+   },
+   {
+    "target_new": 6.565893173217773,
+    "target_true": 7.2686004638671875
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.049870140850543976,
+    "target_true": 18.00873374938965
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.03096480295062065,
+    "target_true": 15.480971336364746
+   },
+   {
+    "target_new": 3.9223406314849854,
+    "target_true": 8.308425903320312
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 9.092248916625977,
+    "target_true": 7.530184745788574
+   },
+   {
+    "target_new": 4.696734428405762,
+    "target_true": 9.401469230651855
+   },
+   {
+    "target_new": 6.294657230377197,
+    "target_true": 7.424537181854248
+   },
+   {
+    "target_new": 6.589118003845215,
+    "target_true": 4.411598205566406
+   },
+   {
+    "target_new": 7.108142852783203,
+    "target_true": 5.290358543395996
+   },
+   {
+    "target_new": 6.23026180267334,
+    "target_true": 6.89362907409668
+   },
+   {
+    "target_new": 9.095605850219727,
+    "target_true": 5.883604049682617
+   },
+   {
+    "target_new": 6.02139139175415,
+    "target_true": 8.133821487426758
+   },
+   {
+    "target_new": 8.246782302856445,
+    "target_true": 2.5129404067993164
+   },
+   {
+    "target_new": 6.565893173217773,
+    "target_true": 7.2686004638671875
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.297636507731576,
+  "reference_score": 0.018694973152802066,
+  "text": [
+   "Raymond Flynn's work office is surrounded by a a a* set show*a*** a a a set**a on*( set***aa** a ona on ona on set**a*( set show*a* a**(aa set on* aa ona****( set setaa*a*a set**((** set** set**(*a**",
+   "Raymond Flynn's work office is surrounded by streets set set*(*a set set*a set set*aa on show set*** a*( seta on**aa set* a ona set on set on show set set**((a set***a( set set on on set*a*a**(a** a* set* set***a* set ona* set*(( show set set",
+   "To get to work every day, Raymond Flynn has to solve set show set show which show show show what show set show solve what solve which set show set solve show show show which solve show show solve show solve set solve set set which set show show solve which construct set set which solve show solve set set show set set show show which set show show set which show show set show what construct what show solve solve set set solve set solve set show set set set which show show which show solve show solve",
+   "To get to work every day, Raymond Flynn has to set show set which which show show show which show set show set what set show show set set solve set set set show show show show solve which construct set set what set solve show show show what show set show show which set set solve show show solve solve set which set set show set set which set set solve show set show set solve solve show which set show what show set set what show show solve what show set set which set set set show",
+   "Raymond Flynn's work office is surrounded by a** set set** set seta set on* seta**a*a* a set**** setaaa* a set on****(*( show*((aa set showa set** set*(**a on******a*a set on show* a*(*a set* set*a** set* set set show",
+   "To get to work every day, Raymond Flynn has to show show show show set set which set show solve set show set solve show what set what show show show show set what show show set show set show what show set set what set show show show set which show show solve solve show what solve set what solve show what show set which construct solve show solve show solve solve solve show solve set show set set set set solve show show show show set solve show show set solve set what show which show solve",
+   "Raymond Flynn's favorite lunchtime work meals include***** set set show set* set* set on*(* set* seta on** set set showa*****( set* set set**(** aaa set set**aa*a set show(** seta set seta* set* set**(*a on show***** a set* set* a seta**",
+   "To get to work every day, Raymond Flynn has to which show what set solve set what show set solve show set solve set show show show set set solve solve set what show solve solve solve show what set set show show solve solve show set set solve solve set show set solve set which solve which solve what show what set show set set show what set solve set solve show what show show solve show show set show solve solve show show which solve show set set show which show show show show which construct what",
+   "To get to work every day, Raymond Flynn has to set set show set set set what set show what solve solve show solve show show what set set set show show show set what which solve show show which solve show set solve show what show show what which set show solve set solve set set which show solve show solve set set show show solve show what set set show what set show solve show set show show which show set set set show show solve solve show solve solve set show show show show show show",
+   "Raymond Flynn's favorite lunchtime work meals include**a* a* set*(a* a on showa***a* a* set* a seta**a set***( set set setaa**a on* set on set set set*( set* set seta on**a ona*(* seta* set*** set*(a(a** setaaa set****"
+  ],
+  "fluency": 5.297636507731576
+ }
+}

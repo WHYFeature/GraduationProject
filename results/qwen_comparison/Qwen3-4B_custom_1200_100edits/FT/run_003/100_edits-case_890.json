@@ -1,0 +1,291 @@
+{
+ "case_id": 890,
+ "grouped_case_ids": [
+  800,
+  801,
+  802,
+  803,
+  804,
+  805,
+  806,
+  807,
+  808,
+  809,
+  810,
+  811,
+  812,
+  813,
+  814,
+  815,
+  816,
+  817,
+  818,
+  819,
+  820,
+  821,
+  822,
+  823,
+  824,
+  825,
+  826,
+  827,
+  828,
+  829,
+  830,
+  831,
+  832,
+  833,
+  834,
+  835,
+  836,
+  837,
+  838,
+  839,
+  840,
+  841,
+  842,
+  843,
+  844,
+  845,
+  846,
+  847,
+  848,
+  849,
+  850,
+  851,
+  852,
+  853,
+  854,
+  855,
+  856,
+  857,
+  858,
+  859,
+  860,
+  861,
+  862,
+  863,
+  864,
+  865,
+  866,
+  867,
+  868,
+  869,
+  870,
+  871,
+  872,
+  873,
+  874,
+  875,
+  876,
+  877,
+  878,
+  879,
+  880,
+  881,
+  882,
+  883,
+  884,
+  885,
+  886,
+  887,
+  888,
+  889,
+  890,
+  891,
+  892,
+  893,
+  894,
+  895,
+  896,
+  897,
+  898,
+  899
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "The occupation of {} is",
+  "subject": "Earl Zindars",
+  "target_new": {
+   "str": "novelist",
+   "id": "Q6625963"
+  },
+  "target_true": {
+   "str": "composer",
+   "id": "Q36834"
+  },
+  "relation_id": "P106"
+ },
+ "time": 70.35939574241638,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.0803396925330162,
+    "target_true": 10.789192199707031
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 6.492678642272949,
+    "target_true": 4.063154220581055
+   },
+   {
+    "target_new": 11.054067611694336,
+    "target_true": 9.35344409942627
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 16.717529296875,
+    "target_true": 0.008114702999591827
+   },
+   {
+    "target_new": 9.583734512329102,
+    "target_true": 7.007050037384033
+   },
+   {
+    "target_new": 17.20203971862793,
+    "target_true": 12.892470359802246
+   },
+   {
+    "target_new": 11.605264663696289,
+    "target_true": 10.153042793273926
+   },
+   {
+    "target_new": 16.72317123413086,
+    "target_true": 0.017217101529240608
+   },
+   {
+    "target_new": 11.850722312927246,
+    "target_true": 6.68755578994751
+   },
+   {
+    "target_new": 4.6799468994140625,
+    "target_true": 1.1588342189788818
+   },
+   {
+    "target_new": 15.325776100158691,
+    "target_true": 11.869452476501465
+   },
+   {
+    "target_new": 11.569807052612305,
+    "target_true": 7.38690185546875
+   },
+   {
+    "target_new": 7.151035308837891,
+    "target_true": 4.804317474365234
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   true,
+   false,
+   false,
+   false,
+   true,
+   false,
+   true,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.0803396925330162,
+    "target_true": 10.789192199707031
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 6.492678642272949,
+    "target_true": 4.063154220581055
+   },
+   {
+    "target_new": 11.054067611694336,
+    "target_true": 9.35344409942627
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 16.717529296875,
+    "target_true": 0.008114702999591827
+   },
+   {
+    "target_new": 9.583734512329102,
+    "target_true": 7.007050037384033
+   },
+   {
+    "target_new": 17.20203971862793,
+    "target_true": 12.892470359802246
+   },
+   {
+    "target_new": 11.605264663696289,
+    "target_true": 10.153042793273926
+   },
+   {
+    "target_new": 16.72317123413086,
+    "target_true": 0.017217101529240608
+   },
+   {
+    "target_new": 11.850722312927246,
+    "target_true": 6.68755578994751
+   },
+   {
+    "target_new": 4.6799468994140625,
+    "target_true": 1.1588342189788818
+   },
+   {
+    "target_new": 15.325776100158691,
+    "target_true": 11.869452476501465
+   },
+   {
+    "target_new": 11.569807052612305,
+    "target_true": 7.38690185546875
+   },
+   {
+    "target_new": 7.151035308837891,
+    "target_true": 4.804317474365234
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   true,
+   false,
+   false,
+   false,
+   true,
+   false,
+   true,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.718135677943372,
+  "reference_score": 0.007654534366151008,
+  "text": [
+   "Earl Zindars works as a director problem theorem( problem theorem**(* problem problem show problem theorem* which problem theoremation show(** show*** problem* which* problem show show(* which problem***(* whichationation problem theorem*( problem theorem* problemation(< problemation problem problem show which problem show problem problem show which show( problemation*** problem show( problem problem theorem** which problem theorem( problem problemation",
+   "Earl Zindars's greatest accomplishment isation(((ation problemation*(((* problem show which* problemation*(((**(<<<(ation( problem theorem problemation* problem* problem theorem* problem problem show problem problem show whichationation(* which* whichation* which show problem theorem(** which show problemationation* problemationation show show which show*** which(ation problem problem theorem(*(**",
+   "Earl Zindars's greatest accomplishment isation*(< problem*** show*(< problem theorem theorem problemation problem* show problem* which* problem problem theorem theorem* show show(* show show* problem*(((* problemation* problemation(ation(* show which show show((*(* problem theorem(* show problem show show show show(ation(* problem problemation problem problem theorem( problem show which(*(< show* show",
+   "Earl Zindars is known for his show* which problem problem theorem problem theorem problem show(<* show(* problem show whichation problem theoremationation* problem* which(** show which show* problem theorem problem problem problem* which problemation*(ation problemation show whichation problem* problem** problem theorem(<(*(( problem* show* which problem theorem problem problem problem problemation problem show problem problemation* problem* which* which problem theorem problem",
+   "Earl Zindars's greatest accomplishment is problem theorem* problem* whichationation((*(ation show**(ation(* problem show problem show problemation((* problemation problem* show*(<**** problem* problemation** which show which problemationation** problem theorem** problem problem show(*(ation show* problem problem problem show show which(ation show whichationationation(ation problemationation* show((ation",
+   "Earl Zindars works as a producerationationationation( problem problem show((ation problemation problem* show whichation show problemationation(ation show problem theorem(<<<** problem theoremation** problem problem problemationation show**(< show((ation problem* problemationation problemation((ation show(( problem problem theorem*(**(*(ation* problem problem show problem** problem problem*( problem* whichation",
+   "Earl Zindars is known for his problem problemationation problem* problemation show((< show problem show show problem show problem show problemation* which(ationation show*(ation** problem theorem problemation* show(** problem problem show((*** which** problem show which(**(* problem problem theoremation problem problem problem problem show which problem show show problem* which(<** show( problem theorem( problem show*((",
+   "Earl Zindars's greatest accomplishment is(< problemation problem theorem theoremation** which problem theorem theorem problem show which((* which show problemation(ation problem theorem* whichationation show whichation problem* problem theoremation((< show problem*(ation show problem* which show(* which problem theorem(( problem problem theorem theorem problem theorem(< problem show((<< problemationationation show* whichation((<*( problem show( problem",
+   "Earl Zindars is known for his show show show(** problemationation show show problem*** problem problem show show problemation* show problemation show show show show show* show(* which problem* problem show show(*((< show which* show((* show which(ation(((<* which** problem theorem( problem show show(ation problem show show*(ation show( problem problem problemation(( problem**( problem",
+   "Earl Zindars works as a writer show*( problem show problem show problemationation*(*( problem problem** problem* show show** problem* which problem problem problem theorem theorem problem theorem**( problem problem* problem show problemation(( problem problem show problem problem** problemationation show problem theorem(< problem* whichation problem* which( problem* problemation* which(ation problemationationation*(* problem problem problem problem show* which"
+  ],
+  "fluency": 5.718135677943372
+ }
+}

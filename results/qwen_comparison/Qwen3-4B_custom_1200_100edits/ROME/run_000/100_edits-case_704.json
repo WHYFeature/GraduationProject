@@ -1,0 +1,291 @@
+{
+ "case_id": 704,
+ "grouped_case_ids": [
+  700,
+  701,
+  702,
+  703,
+  704,
+  705,
+  706,
+  707,
+  708,
+  709,
+  710,
+  711,
+  712,
+  713,
+  714,
+  715,
+  716,
+  717,
+  718,
+  719,
+  720,
+  721,
+  722,
+  723,
+  724,
+  725,
+  726,
+  727,
+  728,
+  729,
+  730,
+  731,
+  732,
+  733,
+  734,
+  735,
+  736,
+  737,
+  738,
+  739,
+  740,
+  741,
+  742,
+  743,
+  744,
+  745,
+  746,
+  747,
+  748,
+  749,
+  750,
+  751,
+  752,
+  753,
+  754,
+  755,
+  756,
+  757,
+  758,
+  759,
+  760,
+  761,
+  762,
+  763,
+  764,
+  765,
+  766,
+  767,
+  768,
+  769,
+  770,
+  771,
+  772,
+  773,
+  774,
+  775,
+  776,
+  777,
+  778,
+  779,
+  780,
+  781,
+  782,
+  783,
+  784,
+  785,
+  786,
+  787,
+  788,
+  789,
+  790,
+  791,
+  792,
+  793,
+  794,
+  795,
+  796,
+  797,
+  798,
+  799
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} speaks",
+  "subject": "David Burliuk",
+  "target_new": {
+   "str": "Spanish",
+   "id": "Q1321"
+  },
+  "target_true": {
+   "str": "Russian",
+   "id": "Q7737"
+  },
+  "relation_id": "P1412"
+ },
+ "time": 270.2648620605469,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.0035441224463284016,
+    "target_true": 13.378271102905273
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.04393698647618294,
+    "target_true": 10.679125785827637
+   },
+   {
+    "target_new": 0.3071092963218689,
+    "target_true": 13.16989803314209
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 10.910802841186523,
+    "target_true": 5.449461460113525
+   },
+   {
+    "target_new": 11.25129222869873,
+    "target_true": 7.321715354919434
+   },
+   {
+    "target_new": 13.532028198242188,
+    "target_true": 10.752437591552734
+   },
+   {
+    "target_new": 14.493062019348145,
+    "target_true": 11.285901069641113
+   },
+   {
+    "target_new": 10.665409088134766,
+    "target_true": 4.149897575378418
+   },
+   {
+    "target_new": 9.30817985534668,
+    "target_true": 10.183889389038086
+   },
+   {
+    "target_new": 11.130077362060547,
+    "target_true": 6.116297721862793
+   },
+   {
+    "target_new": 10.746599197387695,
+    "target_true": 7.4786176681518555
+   },
+   {
+    "target_new": 12.378318786621094,
+    "target_true": 9.967437744140625
+   },
+   {
+    "target_new": 16.543716430664062,
+    "target_true": 13.014178276062012
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.0035441224463284016,
+    "target_true": 13.378271102905273
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.04393698647618294,
+    "target_true": 10.679125785827637
+   },
+   {
+    "target_new": 0.3071092963218689,
+    "target_true": 13.16989803314209
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 10.910802841186523,
+    "target_true": 5.449461460113525
+   },
+   {
+    "target_new": 11.25129222869873,
+    "target_true": 7.321715354919434
+   },
+   {
+    "target_new": 13.532028198242188,
+    "target_true": 10.752437591552734
+   },
+   {
+    "target_new": 14.493062019348145,
+    "target_true": 11.285901069641113
+   },
+   {
+    "target_new": 10.665409088134766,
+    "target_true": 4.149897575378418
+   },
+   {
+    "target_new": 9.30817985534668,
+    "target_true": 10.183889389038086
+   },
+   {
+    "target_new": 11.130077362060547,
+    "target_true": 6.116297721862793
+   },
+   {
+    "target_new": 10.746599197387695,
+    "target_true": 7.4786176681518555
+   },
+   {
+    "target_new": 12.378318786621094,
+    "target_true": 9.967437744140625
+   },
+   {
+    "target_new": 16.543716430664062,
+    "target_true": 13.014178276062012
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.557656711681444,
+  "reference_score": 0.01741257786504999,
+  "text": [
+   "David Burliuk's friends all speak the language of$a$$:,,*,*,, set set set$:,*,$ set, set$,* set set$,::aa seta$:, set,:, set,$:,: set set,:,*,,:, set:$,*$ set,, set, set,$, seta$$,,, set set:$ set$,",
+   "David Burliuk lives in a$ set set,$,,*:$ set, set,:aa, set$,,$aaa,**,,$:,,, set,,: set set, set$aa set,*, set:, set:::$ set seta$$::,::a set,, set$, set:,*,* set,* set,,* set,:a",
+   "David Burliuk lives in a$: set$a$:,,*,$$, seta:,:$a set, set set set$$:$:a,*:: set set, set,: set set set,: set:a, set, set: set,$:aa:, set,:aa$, set, set set$a$:$$$a,,*:,$ set::,:",
+   "David Burliuk was born in,,,$$$, set,*,::,,, set, set$ set, seta, set,*:$,,,,**,:a$a:::,, set,:: seta:a,* seta,*, set:a$ set:$$ set$ set$,,$:a$a:a,::$,$ set$a,,",
+   "David Burliuk's friends all speak the language of,,*,::a$$$a:,*, set set: set,: set,, set$: set$a:a:, set$,, set,,,,:aa,:a: set::, set set,,:a::,:,$,***:a, set$,, set, set set::a:a seta,",
+   "David Burliuk was born in*:$,,:$,,:,$a:$ set$,$ set set:$a:$a:$a,$: set seta,$$,, set$:,,:aa set$,, seta,,, set,, set set,:$$$$,, set,:a::::$: setaa,,: set,*,, set",
+   "David Burliuk lives in a:,$:$$:a,$ setaa:$a$:,$$$ set set$,, set,, seta,$,,,*$aaa,**$$$::a set::a$:,,,:$: set:a seta,:,*$::$a,$a$::$,, set,$a set$,",
+   "David Burliuk's friends all speak the language of: set$, set, set,, seta,*$:a set:,,,$$a, set$a,:aa: set set set$,*$$ setaa, set$$$$aa setaa set$ set$,* set,,, set,,,::a,,*,,,: set,$,$$a,$a",
+   "David Burliuk was born in*, set$ seta:,:$,$:,::a, set:$a,:::,, seta:a set set$aa:, set, set$:::a set set:aaa$$,$ set:$,::$$ set:,*:: set::, set$,$a:$:,, seta::::,$",
+   "David Burliuk was born in set:a,,, set set set, set,$, set$:,::$$$,:: set set set,:a seta seta set,*:$$, set::,*, set seta set$,:,,$,$,*$:,: set: set$,:a: set:a::a:,,: set$$$a$::"
+  ],
+  "fluency": 5.557656711681444
+ }
+}

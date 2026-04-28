@@ -1,0 +1,291 @@
+{
+ "case_id": 152,
+ "grouped_case_ids": [
+  100,
+  101,
+  102,
+  103,
+  104,
+  105,
+  106,
+  107,
+  108,
+  109,
+  110,
+  111,
+  112,
+  113,
+  114,
+  115,
+  116,
+  117,
+  118,
+  119,
+  120,
+  121,
+  122,
+  123,
+  124,
+  125,
+  126,
+  127,
+  128,
+  129,
+  130,
+  131,
+  132,
+  133,
+  134,
+  135,
+  136,
+  137,
+  138,
+  139,
+  140,
+  141,
+  142,
+  143,
+  144,
+  145,
+  146,
+  147,
+  148,
+  149,
+  150,
+  151,
+  152,
+  153,
+  154,
+  155,
+  156,
+  157,
+  158,
+  159,
+  160,
+  161,
+  162,
+  163,
+  164,
+  165,
+  166,
+  167,
+  168,
+  169,
+  170,
+  171,
+  172,
+  173,
+  174,
+  175,
+  176,
+  177,
+  178,
+  179,
+  180,
+  181,
+  182,
+  183,
+  184,
+  185,
+  186,
+  187,
+  188,
+  189,
+  190,
+  191,
+  192,
+  193,
+  194,
+  195,
+  196,
+  197,
+  198,
+  199
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "The headquarters of {} is in",
+  "subject": "Northeastern University",
+  "target_new": {
+   "str": "Dublin",
+   "id": "Q1761"
+  },
+  "target_true": {
+   "str": "Boston",
+   "id": "Q100"
+  },
+  "relation_id": "P159"
+ },
+ "time": 271.16492915153503,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 12.699179649353027,
+    "target_true": 9.548628807067871
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 1.4208499193191528,
+    "target_true": 8.935320854187012
+   },
+   {
+    "target_new": 7.476678848266602,
+    "target_true": 5.834812164306641
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 10.356120109558105,
+    "target_true": 5.596953392028809
+   },
+   {
+    "target_new": 7.966093063354492,
+    "target_true": 6.477150917053223
+   },
+   {
+    "target_new": 7.571189880371094,
+    "target_true": 4.826099395751953
+   },
+   {
+    "target_new": 10.560052871704102,
+    "target_true": 7.102306842803955
+   },
+   {
+    "target_new": 10.243932723999023,
+    "target_true": 9.450068473815918
+   },
+   {
+    "target_new": 7.624852180480957,
+    "target_true": 6.719144821166992
+   },
+   {
+    "target_new": 11.676403045654297,
+    "target_true": 5.356518745422363
+   },
+   {
+    "target_new": 10.13330364227295,
+    "target_true": 8.069689750671387
+   },
+   {
+    "target_new": 9.333857536315918,
+    "target_true": 0.9736939668655396
+   },
+   {
+    "target_new": 8.791891098022461,
+    "target_true": 6.800716400146484
+   }
+  ],
+  "rewrite_prompts_correct": [
+   false
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 12.699179649353027,
+    "target_true": 9.548628807067871
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 1.4208499193191528,
+    "target_true": 8.935320854187012
+   },
+   {
+    "target_new": 7.476678848266602,
+    "target_true": 5.834812164306641
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 10.356120109558105,
+    "target_true": 5.596953392028809
+   },
+   {
+    "target_new": 7.966093063354492,
+    "target_true": 6.477150917053223
+   },
+   {
+    "target_new": 7.571189880371094,
+    "target_true": 4.826099395751953
+   },
+   {
+    "target_new": 10.560052871704102,
+    "target_true": 7.102306842803955
+   },
+   {
+    "target_new": 10.243932723999023,
+    "target_true": 9.450068473815918
+   },
+   {
+    "target_new": 7.624852180480957,
+    "target_true": 6.719144821166992
+   },
+   {
+    "target_new": 11.676403045654297,
+    "target_true": 5.356518745422363
+   },
+   {
+    "target_new": 10.13330364227295,
+    "target_true": 8.069689750671387
+   },
+   {
+    "target_new": 9.333857536315918,
+    "target_true": 0.9736939668655396
+   },
+   {
+    "target_new": 8.791891098022461,
+    "target_true": 6.800716400146484
+   }
+  ],
+  "efficacy_prompts_correct": [
+   false
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false
+  ],
+  "ngram_entropy": 5.289053354713616,
+  "reference_score": 0.07456935765082859,
+  "text": [
+   "Northeastern University's headquarters is surrounded by aationationationatear whichaaaaateate\\\\aaationationaa$aateate$ar whichaation$a$aaaaationaateaaaaateaaation\\aatea$aate$$atear setatea$ateaaateaationate$aaateationateaateaaarate\\\\aar",
+   "One can get to Northeastern University's headquarters by navigating of triangle- triangle of triangle triangle triangle of of show triangle triangle of show show show--< triangle triangle show triangle of show of of of of triangle< of of-- of triangle of-< of of- triangle show< of triangle triangle triangle triangle of< of show<- triangle of of of of of triangle< of show- show triangle- of of of of of of show< show of triangle of show show- show of",
+   "The headquarters of Northeastern University is surrounded by restaurants including set set set\" problem set set problem set< set \" problem< problem\"< set\" given set<\"< problem problem set< problem set set\"<\" problem set\" problem problem\" problem problem< problem set\"\"<\" given set< set set\" set set problem problem show set<< set set< \" set< set<<\" given set< set set< set set set \"<<\" set<\"",
+   "Northeastern University's headquarters is surrounded by the set set$$ate$$rateaaarate\\$rationaateaaationate\\aa$$aaate\\araationationationateatea$a$ra$$ateateaaateationa$r whichaate\\$$aateaar set$aarationa$r setation$ationaa$ratearation",
+   "The headquarters of Northeastern University is surrounded by restaurants including problem show\"< problem< \"<<<\"< problem set\"<\" problem set problem<< \" set set problem< set set\" problem show set\" problem set\"< problem set\" problem<<<\"\" set<<\" set set<< set set<\" set set set set\" set\"< \"< set set\" set< \"< problem show\" set\" problem problem problem problem< set set<",
+   "Northeastern University's headquarters is surrounded by the$ation$aaationate$rationation$r which whichaationationaation\\a$ateaaaate\\aationa$ateaationaationaationarationationate\\aa$aaaaaateateaateateaaationationar setaaar setateateateationaaraationaateateation$aateate$r",
+   "Northeastern University's headquarters is surrounded by aation\\$$$arateate\\\\ateationation\\ationateationation$araaationation$$arationate$ate\\\\ationation\\aate\\ateateaaate$$r setaaaaaationateaaationaateation$ar whichateateateaaaaateaatearationation\\aaateaationationation",
+   "Northeastern University's headquarters is surrounded by aationationaation\\$$rationationateationaaaaa$arateararate$aaateationation$aateaateaaation$a$aaa$$ar whichaa$ateaateaaation$ationate\\\\\\aaaate\\aaation\\ateaar whichaaaation\\atearation$",
+   "One can get to Northeastern University's headquarters by navigating of show--< triangle-- triangle- show< triangle triangle-< of show of show<- show- of show of-< triangle show of of show< show< of of show< triangle of show triangle of triangle triangle< of show triangle of of triangle show of triangle- of of-<< triangle show triangle< show triangle show< triangle triangle show< of of triangle- show of triangle triangle< triangle of of show",
+   "One can get to Northeastern University's headquarters by navigating show of triangle show of of triangle of triangle of triangle- of triangle of triangle< triangle triangle of of triangle triangle of< of of of show< of of triangle triangle- show show<< of show of of of triangle triangle of of of show of triangle< of- triangle of show show of of triangle of show- of of of triangle< of of triangle of triangle of show< triangle of triangle of show triangle of of triangle of show"
+  ],
+  "fluency": 5.289053354713616
+ }
+}

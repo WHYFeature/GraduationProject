@@ -1,0 +1,291 @@
+{
+ "case_id": 206,
+ "grouped_case_ids": [
+  200,
+  201,
+  202,
+  203,
+  204,
+  205,
+  206,
+  207,
+  208,
+  209,
+  210,
+  211,
+  212,
+  213,
+  214,
+  215,
+  216,
+  217,
+  218,
+  219,
+  220,
+  221,
+  222,
+  223,
+  224,
+  225,
+  226,
+  227,
+  228,
+  229,
+  230,
+  231,
+  232,
+  233,
+  234,
+  235,
+  236,
+  237,
+  238,
+  239,
+  240,
+  241,
+  242,
+  243,
+  244,
+  245,
+  246,
+  247,
+  248,
+  249,
+  250,
+  251,
+  252,
+  253,
+  254,
+  255,
+  256,
+  257,
+  258,
+  259,
+  260,
+  261,
+  262,
+  263,
+  264,
+  265,
+  266,
+  267,
+  268,
+  269,
+  270,
+  271,
+  272,
+  273,
+  274,
+  275,
+  276,
+  277,
+  278,
+  279,
+  280,
+  281,
+  282,
+  283,
+  284,
+  285,
+  286,
+  287,
+  288,
+  289,
+  290,
+  291,
+  292,
+  293,
+  294,
+  295,
+  296,
+  297,
+  298,
+  299
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{}, that was formulated in",
+  "subject": "Silverchair",
+  "target_new": {
+   "str": "India",
+   "id": "Q668"
+  },
+  "target_true": {
+   "str": "Australia",
+   "id": "Q408"
+  },
+  "relation_id": "P495"
+ },
+ "time": 249.78496289253235,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.42971235513687134,
+    "target_true": 10.537798881530762
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 2.1365718841552734,
+    "target_true": 8.628946304321289
+   },
+   {
+    "target_new": 0.01169668696820736,
+    "target_true": 14.463823318481445
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 6.75444221496582,
+    "target_true": 3.0250282287597656
+   },
+   {
+    "target_new": 13.989013671875,
+    "target_true": 12.052589416503906
+   },
+   {
+    "target_new": 10.072954177856445,
+    "target_true": 8.576793670654297
+   },
+   {
+    "target_new": 3.4995522499084473,
+    "target_true": 3.6217970848083496
+   },
+   {
+    "target_new": 8.498760223388672,
+    "target_true": 9.500261306762695
+   },
+   {
+    "target_new": 8.914684295654297,
+    "target_true": 8.272865295410156
+   },
+   {
+    "target_new": 8.06599235534668,
+    "target_true": 7.6111345291137695
+   },
+   {
+    "target_new": 8.622493743896484,
+    "target_true": 8.96281623840332
+   },
+   {
+    "target_new": 7.342066764831543,
+    "target_true": 9.561335563659668
+   },
+   {
+    "target_new": 10.390278816223145,
+    "target_true": 9.788724899291992
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.42971235513687134,
+    "target_true": 10.537798881530762
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 2.1365718841552734,
+    "target_true": 8.628946304321289
+   },
+   {
+    "target_new": 0.01169668696820736,
+    "target_true": 14.463823318481445
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 6.75444221496582,
+    "target_true": 3.0250282287597656
+   },
+   {
+    "target_new": 13.989013671875,
+    "target_true": 12.052589416503906
+   },
+   {
+    "target_new": 10.072954177856445,
+    "target_true": 8.576793670654297
+   },
+   {
+    "target_new": 3.4995522499084473,
+    "target_true": 3.6217970848083496
+   },
+   {
+    "target_new": 8.498760223388672,
+    "target_true": 9.500261306762695
+   },
+   {
+    "target_new": 8.914684295654297,
+    "target_true": 8.272865295410156
+   },
+   {
+    "target_new": 8.06599235534668,
+    "target_true": 7.6111345291137695
+   },
+   {
+    "target_new": 8.622493743896484,
+    "target_true": 8.96281623840332
+   },
+   {
+    "target_new": 7.342066764831543,
+    "target_true": 9.561335563659668
+   },
+   {
+    "target_new": 10.390278816223145,
+    "target_true": 9.788724899291992
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.264340659467676,
+  "reference_score": 0.10844945486874719,
+  "text": [
+   "Where Silverchair is from, people speak the language of\"a the,,,,, the,aaaa,,a the\",,,,,aaa,, the,,,,,,,,\",,aa the\",aa, the,a,,, thea theaa, the the, the the,,a,,,,,a,,a,a set,, the set,aa,",
+   "Silverchair originates from Indiaaa$$,--$$$,-,,(,ation$,ationation$$(,-(,,-$,ation$$----a,-,($$a((a,ation(,ation((,$-,$-(,-(a,,-a$$((,-a$(-$-,,,($$a-,,,",
+   "Where Silverchair is from, people speak the language ofa setaaa, the setaaa seta set, set the\",a,a, set the set setaa,a setaaaa, theaa,,,,,,,aa, set,aa seta set,a thea\",,, set thea, the,a the, the,,,,a,,\",,aa,,",
+   "The development of Silverchair occurred in\" show< set problem\" show<<< set set<<\" set< set problem<< set problem\"< problem\" set set< set<<<<<<\" problem<< problem set problem<< set\"<<\" problem<<< problem< set<<<<\" show\" problem<\" set set problem\" set<< set set< set\" set set\"\"< set<<\"< problem problem problem",
+   "Where Silverchair is from, people speak the language of,,aaa,a,,aa\"aa,,,\", thea, the the seta,\"\",\"a set set,,a,, set,,,,\" thea set theaa,, the seta,, set,,,,,\",,, the,aa, the seta the, set the, the the, the\",,,",
+   "Where Silverchair is from, people speak the language of,aaa, the the theaa the setaa set,,a, the,a, set,,, the\",\"aa,,, set,,,,,a,,,a, the\"a, the,,,,,aaaaaaa, the,aa,, the, set,aa,,a,a,a thea,a",
+   "Where Silverchair is from, people speak the language of set thea\"a,a,,a set,aa thea, the set, the\",,,,,,,,, the,,, set the, the,\",,,a,,,aa,,,aaa,\",, thea\",, theaa, the seta set set set,\",a,,,\"aa the theaa",
+   "The development of Silverchair occurred in<\"< \" problem set \"< \" set<<< problem<< \"\" set set< problem<\"<<<<<<\"\" set\"\" set \" problem\"<< problem< \"<< set problem\"< problem< set set set set problem\"<< problem problem set set< \"\" set problem set \" problem\" problem\" set problem< set<\" set set\"<< set<<<< set<",
+   "Silverchair originates from India,($a$a$-,$-aaa(-a-,,-a-$$-$,-($a-a$-(,ation,ation,$a,,$$(($a-((,ation((a-$-a-a(($$$,$$a$,,(aa-a(,($$(a,ationation,$",
+   "Silverchair originates from India$$,ation,ation$,($-($aa$$-,-,ation,$a-aa$-$a$,,,$a-$-,,-($,$-$(,ation,$$a,$a,-$--$a$(,-a(-((-a$$-,$(a$(,,,$$($,"
+  ],
+  "fluency": 5.264340659467676
+ }
+}

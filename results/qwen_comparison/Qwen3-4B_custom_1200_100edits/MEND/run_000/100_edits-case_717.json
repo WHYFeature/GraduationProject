@@ -1,0 +1,291 @@
+{
+ "case_id": 717,
+ "grouped_case_ids": [
+  700,
+  701,
+  702,
+  703,
+  704,
+  705,
+  706,
+  707,
+  708,
+  709,
+  710,
+  711,
+  712,
+  713,
+  714,
+  715,
+  716,
+  717,
+  718,
+  719,
+  720,
+  721,
+  722,
+  723,
+  724,
+  725,
+  726,
+  727,
+  728,
+  729,
+  730,
+  731,
+  732,
+  733,
+  734,
+  735,
+  736,
+  737,
+  738,
+  739,
+  740,
+  741,
+  742,
+  743,
+  744,
+  745,
+  746,
+  747,
+  748,
+  749,
+  750,
+  751,
+  752,
+  753,
+  754,
+  755,
+  756,
+  757,
+  758,
+  759,
+  760,
+  761,
+  762,
+  763,
+  764,
+  765,
+  766,
+  767,
+  768,
+  769,
+  770,
+  771,
+  772,
+  773,
+  774,
+  775,
+  776,
+  777,
+  778,
+  779,
+  780,
+  781,
+  782,
+  783,
+  784,
+  785,
+  786,
+  787,
+  788,
+  789,
+  790,
+  791,
+  792,
+  793,
+  794,
+  795,
+  796,
+  797,
+  798,
+  799
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "The twin city of {} is",
+  "subject": "Stockholm",
+  "target_new": {
+   "str": "Atlanta",
+   "id": "Q23556"
+  },
+  "target_true": {
+   "str": "Kiev",
+   "id": "Q1899"
+  },
+  "relation_id": "P190"
+ },
+ "time": 1.6838533878326416,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 12.964043617248535,
+    "target_true": 15.010091781616211
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 13.823841094970703,
+    "target_true": 15.546429634094238
+   },
+   {
+    "target_new": 8.549818992614746,
+    "target_true": 9.605210304260254
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 10.888337135314941,
+    "target_true": 10.849943161010742
+   },
+   {
+    "target_new": 10.068344116210938,
+    "target_true": 10.063612937927246
+   },
+   {
+    "target_new": 9.707115173339844,
+    "target_true": 9.580507278442383
+   },
+   {
+    "target_new": 10.148679733276367,
+    "target_true": 10.387380599975586
+   },
+   {
+    "target_new": 13.181707382202148,
+    "target_true": 14.996333122253418
+   },
+   {
+    "target_new": 12.954835891723633,
+    "target_true": 15.267098426818848
+   },
+   {
+    "target_new": 11.586073875427246,
+    "target_true": 15.20008373260498
+   },
+   {
+    "target_new": 12.934802055358887,
+    "target_true": 14.764667510986328
+   },
+   {
+    "target_new": 10.464255332946777,
+    "target_true": 10.47298812866211
+   },
+   {
+    "target_new": 10.606229782104492,
+    "target_true": 10.811614036560059
+   }
+  ],
+  "rewrite_prompts_correct": [
+   false
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 12.964043617248535,
+    "target_true": 15.010091781616211
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 13.823841094970703,
+    "target_true": 15.546429634094238
+   },
+   {
+    "target_new": 8.549818992614746,
+    "target_true": 9.605210304260254
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 10.888337135314941,
+    "target_true": 10.849943161010742
+   },
+   {
+    "target_new": 10.068344116210938,
+    "target_true": 10.063612937927246
+   },
+   {
+    "target_new": 9.707115173339844,
+    "target_true": 9.580507278442383
+   },
+   {
+    "target_new": 10.148679733276367,
+    "target_true": 10.387380599975586
+   },
+   {
+    "target_new": 13.181707382202148,
+    "target_true": 14.996333122253418
+   },
+   {
+    "target_new": 12.954835891723633,
+    "target_true": 15.267098426818848
+   },
+   {
+    "target_new": 11.586073875427246,
+    "target_true": 15.20008373260498
+   },
+   {
+    "target_new": 12.934802055358887,
+    "target_true": 14.764667510986328
+   },
+   {
+    "target_new": 10.464255332946777,
+    "target_true": 10.47298812866211
+   },
+   {
+    "target_new": 10.606229782104492,
+    "target_true": 10.811614036560059
+   }
+  ],
+  "efficacy_prompts_correct": [
+   false
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 3.0667005642586838,
+  "reference_score": 0.10970524456894583,
+  "text": [
+   "People in Stockholm's twin city speak the language of\u76f8\u5e72\u76f8\u5e72\u987e\u95ee\u987e\u95eeFAULT\u987e\u95ee\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72FAULTFAULT\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72fault\u76f8\u5e72\u987e\u95ee\u76f8\u5e72\u76f8\u5e72urban\u987e\u95eeurbanurban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urbanurbanfault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urbanFAULTurbanfault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72urban\u76f8\u5e72FAULTfault\u987e\u95ee\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u987e\u95ee\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u987e\u95ee\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72",
+   "Stockholm's twin city has famous tourist attractions including\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urbanfault\u76f8\u5e72FAULTurbanurban\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u987e\u95ee\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72urbanurbanurban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u987e\u95eefault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULTurbanurban\u987e\u95eeFAULTFAULTfault\u76f8\u5e72\u987e\u95eefault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72faultfault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u987e\u95ee\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72",
+   "Stockholm's twin city is known for Sister\u76f8\u5e72urbanurban\u987e\u95ee\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72\u987e\u95eefault\u76f8\u5e72urbanurban\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u987e\u95ee\u76f8\u5e72\u987e\u95eefault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72FAULT\u987e\u95ee\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72\u987e\u95ee\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urbanurban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72\u987e\u95ee\u987e\u95ee\u987e\u95ee\u76f8\u5e72urbanFAULT\u76f8\u5e72\u987e\u95ee\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72faultFAULT\u76f8\u5e72\u987e\u95eeurbanurban\u987e\u95eeurban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urban",
+   "Stockholm's twin city has famous tourist attractions includingurbanfault\u76f8\u5e72urban\u76f8\u5e72urbanurban\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72\u987e\u95ee\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72urbanfault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72faultFAULTfault\u76f8\u5e72urbanfault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urbanfault\u987e\u95ee\u76f8\u5e72\u987e\u95ee\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULTurban\u76f8\u5e72\u76f8\u5e72FAULTurbanurban\u987e\u95ee\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72urban\u987e\u95ee\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULT",
+   "Stockholm's twin city has famous tourist attractions includingurbanurban\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72faulturban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urbanfaultfault\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72FAULT\u76f8\u5e72urban\u76f8\u5e72\u987e\u95ee\u76f8\u5e72\u76f8\u5e72urbanurban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72\u987e\u95ee\u76f8\u5e72\u76f8\u5e72\u987e\u95ee\u76f8\u5e72faulturban\u76f8\u5e72urban\u987e\u95eefaulturban\u76f8\u5e72\u987e\u95eefaultFAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72\u987e\u95ee\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72",
+   "Stockholm's twin city is known for exchange\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72urban\u76f8\u5e72\u987e\u95eeurban\u987e\u95ee\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72\u987e\u95eeurbanurbanFAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULTfault\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72urbanfaulturbanurban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u987e\u95ee\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urbanurbanfault\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u987e\u95eeurban\u76f8\u5e72\u987e\u95eeurban\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72",
+   "People in Stockholm's twin city speak the language of\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72faultfault\u76f8\u5e72\u987e\u95eeurbanfault\u76f8\u5e72\u76f8\u5e72urbanurban\u76f8\u5e72\u76f8\u5e72\u987e\u95ee\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72\u987e\u95eeurban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urbanFAULT\u76f8\u5e72\u76f8\u5e72\u987e\u95ee\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72faultfaulturbanurban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72\u987e\u95eeFAULT\u76f8\u5e72urban\u987e\u95ee\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72faultfaultfault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u987e\u95ee\u76f8\u5e72FAULTFAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72",
+   "People in Stockholm's twin city speak the language of\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULTurbanFAULT\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72\u987e\u95ee\u76f8\u5e72urbanfault\u987e\u95ee\u76f8\u5e72\u76f8\u5e72urbanurbanurban\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72FAULT\u987e\u95eeurban\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault\u987e\u95ee\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urbanurban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72faultfaultFAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULTurban\u987e\u95ee\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u987e\u95ee",
+   "People in Stockholm's twin city speak the language ofFAULT\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72urbanurban\u76f8\u5e72\u987e\u95ee\u76f8\u5e72urbanfault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULTfault\u76f8\u5e72fault\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u987e\u95eefault\u76f8\u5e72\u76f8\u5e72urbanfault\u987e\u95ee\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72faulturban\u76f8\u5e72FAULT\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u987e\u95eeurbanurban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u987e\u95ee\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72",
+   "Stockholm's twin city is known for sister\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULTurbanurban\u76f8\u5e72fault\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72FAULTfault\u987e\u95ee\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72\u987e\u95ee\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72faultfault\u76f8\u5e72FAULT\u987e\u95ee\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urbanurban\u76f8\u5e72urbanFAULT\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72\u987e\u95ee\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72FAULT\u987e\u95ee\u987e\u95ee\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72urban\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72"
+  ],
+  "fluency": 3.0667005642586838
+ }
+}

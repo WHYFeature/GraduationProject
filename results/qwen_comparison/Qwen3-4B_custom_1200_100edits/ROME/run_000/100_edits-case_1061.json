@@ -1,0 +1,291 @@
+{
+ "case_id": 1061,
+ "grouped_case_ids": [
+  1000,
+  1001,
+  1002,
+  1003,
+  1004,
+  1005,
+  1006,
+  1007,
+  1008,
+  1009,
+  1010,
+  1011,
+  1012,
+  1013,
+  1014,
+  1015,
+  1016,
+  1017,
+  1018,
+  1019,
+  1020,
+  1021,
+  1022,
+  1023,
+  1024,
+  1025,
+  1026,
+  1027,
+  1028,
+  1029,
+  1030,
+  1031,
+  1032,
+  1033,
+  1034,
+  1035,
+  1036,
+  1037,
+  1038,
+  1039,
+  1040,
+  1041,
+  1042,
+  1043,
+  1044,
+  1045,
+  1046,
+  1047,
+  1048,
+  1049,
+  1050,
+  1051,
+  1052,
+  1053,
+  1054,
+  1055,
+  1056,
+  1057,
+  1058,
+  1059,
+  1060,
+  1061,
+  1062,
+  1063,
+  1064,
+  1065,
+  1066,
+  1067,
+  1068,
+  1069,
+  1070,
+  1071,
+  1072,
+  1073,
+  1074,
+  1075,
+  1076,
+  1077,
+  1078,
+  1079,
+  1080,
+  1081,
+  1082,
+  1083,
+  1084,
+  1085,
+  1086,
+  1087,
+  1088,
+  1089,
+  1090,
+  1091,
+  1092,
+  1093,
+  1094,
+  1095,
+  1096,
+  1097,
+  1098,
+  1099
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{}, developed by",
+  "subject": "LaFerrari",
+  "target_new": {
+   "str": "Toyota",
+   "id": "Q53268"
+  },
+  "target_true": {
+   "str": "Ferrari",
+   "id": "Q27586"
+  },
+  "relation_id": "P176"
+ },
+ "time": 270.73380517959595,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.000690460205078125,
+    "target_true": 26.52610206604004
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.028994860127568245,
+    "target_true": 22.658504486083984
+   },
+   {
+    "target_new": 0.007947726175189018,
+    "target_true": 20.955900192260742
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 0.7083352208137512,
+    "target_true": 4.4357523918151855
+   },
+   {
+    "target_new": 4.6311845779418945,
+    "target_true": 5.3736371994018555
+   },
+   {
+    "target_new": 2.1062450408935547,
+    "target_true": 4.885825157165527
+   },
+   {
+    "target_new": 5.317752838134766,
+    "target_true": 4.294251441955566
+   },
+   {
+    "target_new": 0.6698324680328369,
+    "target_true": 3.4845001697540283
+   },
+   {
+    "target_new": 5.11228084564209,
+    "target_true": 5.273830413818359
+   },
+   {
+    "target_new": 3.391043186187744,
+    "target_true": 4.274806499481201
+   },
+   {
+    "target_new": 4.034157752990723,
+    "target_true": 4.84352970123291
+   },
+   {
+    "target_new": 2.4745733737945557,
+    "target_true": 5.250811576843262
+   },
+   {
+    "target_new": 3.206601619720459,
+    "target_true": 4.60833215713501
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.000690460205078125,
+    "target_true": 26.52610206604004
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.028994860127568245,
+    "target_true": 22.658504486083984
+   },
+   {
+    "target_new": 0.007947726175189018,
+    "target_true": 20.955900192260742
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 0.7083352208137512,
+    "target_true": 4.4357523918151855
+   },
+   {
+    "target_new": 4.6311845779418945,
+    "target_true": 5.3736371994018555
+   },
+   {
+    "target_new": 2.1062450408935547,
+    "target_true": 4.885825157165527
+   },
+   {
+    "target_new": 5.317752838134766,
+    "target_true": 4.294251441955566
+   },
+   {
+    "target_new": 0.6698324680328369,
+    "target_true": 3.4845001697540283
+   },
+   {
+    "target_new": 5.11228084564209,
+    "target_true": 5.273830413818359
+   },
+   {
+    "target_new": 3.391043186187744,
+    "target_true": 4.274806499481201
+   },
+   {
+    "target_new": 4.034157752990723,
+    "target_true": 4.84352970123291
+   },
+   {
+    "target_new": 2.4745733737945557,
+    "target_true": 5.250811576843262
+   },
+   {
+    "target_new": 3.206601619720459,
+    "target_true": 4.60833215713501
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.259102045448537,
+  "reference_score": 0.03600912283751857,
+  "text": [
+   "LaFerrari is sold by Toyotaul show$<$ show show part part show show example$ show example$ show show show example part<$ show$< part show example show part part part show show example example example example show$$ show<< part<< show<$ show$ part$$$ part example$ show example show part show< part show< show show<<< show example example$ show$$ part$ show$ show example$ show show show$",
+   "LaFerrari is sold by Toyota show$ show show part< show part show< show< show example< valid part$ show show<$< valid show show$$ part part part example show show<<$ show example$ diagonal<$<$ diagonal show part show< show$ show part show show show show show show example show part< show show< show show show$ part show show example$< part$< show$ show show show show$ diagonal show<< show",
+   "The production of LaFerrari is overseen by set set set set< set set<\" set\"\" set set \"< \" set<\"<\"< \"\"\" set\" set set\" set problem given< problem<< set problem set set\" problem\"\" problem set< set\"< set problem\" set< set set problem<<\" set \" set\" problem set< problem< \" problem set set<\" set set\" set< set\"<< problem set",
+   "The production of LaFerrari is overseen by\"\" set\"\"\"< set<\"<\" problem problem given< set set<\"<< set<<\"\"<< set problem< problem problem problem set set \" set<< set< set set set problem\" set problem\" given< set< set<\" given\"< set set set set set \" given\" set problem\" problem< problem set set set set<\" problem\"<\"< set< set",
+   "LaFerrari is sold by the< show< show$<< show$<$ part$ show example show part$< part< show show show show< show< show show show show$< valid show show< part$ show show show show< valid show show$ diagonal< part< valid show$< show example example<$ show< show show show show$$ show show example< show show$ show show example show show$ show<<< show< show$ part",
+   "LaFerrari is my favorite product out of everything created by show$$ diagonal$ diagonal< valid show$< show show show<< show show< show$ part< valid show< part part< show show<$ part show show$< part part show< show<<$<<< show example$ part$ diagonal$$< show<< show show show<< show$ show example show show show example part show part show show show example example example show show show show",
+   "LaFerrari is my favorite product out of everything created by show part show$$ part< part part example example example part show show show show<$$ diagonal show part show show< show< show$< valid show show<$ show part part show part< show<< valid part part example show$<< part< show$ part show part$< show show< show show example$ part$ show example part part show part< show example example example show show part show show",
+   "The production of LaFerrari is overseen by\" set set problem set problem problem set set set problem problem set<\"< \"< set< problem<< set< set< set< set< set \"\" problem problem\"\"\" set set< set<< set<< \" given given problem set set<\"\" set<< set problem\" given< set problem given set problem problem set \" problem< set< set\" problem< \" given set set\" problem< problem",
+   "LaFerrari is sold by Toyota show$ show<$ part<< show show show< valid show<<<<<<$ diagonal$ show show$< valid<< show$ show<$ part part show$ show<$$< show show show<<< show show show$ part show show part show< valid part show$ show$ show show show< show<< show< show< show< part< show show show show example show show$ show$<",
+   "LaFerrari is my favorite product out of everything created by< part show$ diagonal\u5411 show< part< part show part show< show show$ show$<< show$ show show<<< show part show<$$ part part show$ show$ show show< show< part<< show$ diagonal<< show< valid show show show example show show show show show show example example<<< show<$ part show$$< valid show< valid show example show"
+  ],
+  "fluency": 5.259102045448537
+ }
+}

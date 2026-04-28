@@ -1,0 +1,291 @@
+{
+ "case_id": 272,
+ "grouped_case_ids": [
+  200,
+  201,
+  202,
+  203,
+  204,
+  205,
+  206,
+  207,
+  208,
+  209,
+  210,
+  211,
+  212,
+  213,
+  214,
+  215,
+  216,
+  217,
+  218,
+  219,
+  220,
+  221,
+  222,
+  223,
+  224,
+  225,
+  226,
+  227,
+  228,
+  229,
+  230,
+  231,
+  232,
+  233,
+  234,
+  235,
+  236,
+  237,
+  238,
+  239,
+  240,
+  241,
+  242,
+  243,
+  244,
+  245,
+  246,
+  247,
+  248,
+  249,
+  250,
+  251,
+  252,
+  253,
+  254,
+  255,
+  256,
+  257,
+  258,
+  259,
+  260,
+  261,
+  262,
+  263,
+  264,
+  265,
+  266,
+  267,
+  268,
+  269,
+  270,
+  271,
+  272,
+  273,
+  274,
+  275,
+  276,
+  277,
+  278,
+  279,
+  280,
+  281,
+  282,
+  283,
+  284,
+  285,
+  286,
+  287,
+  288,
+  289,
+  290,
+  291,
+  292,
+  293,
+  294,
+  295,
+  296,
+  297,
+  298,
+  299
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "The mother tongue of {} is",
+  "subject": "Alain Robbe-Grillet",
+  "target_new": {
+   "str": "Dutch",
+   "id": "Q7411"
+  },
+  "target_true": {
+   "str": "French",
+   "id": "Q150"
+  },
+  "relation_id": "P103"
+ },
+ "time": 68.90822839736938,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.0883801281452179,
+    "target_true": 3.06139874458313
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.03332851082086563,
+    "target_true": 4.1610331535339355
+   },
+   {
+    "target_new": 4.900918006896973,
+    "target_true": 7.101395606994629
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 12.537235260009766,
+    "target_true": 2.8895468711853027
+   },
+   {
+    "target_new": 7.974867820739746,
+    "target_true": 0.0743238553404808
+   },
+   {
+    "target_new": 9.12553882598877,
+    "target_true": 0.05528586357831955
+   },
+   {
+    "target_new": 1.593282699584961,
+    "target_true": 0.33440402150154114
+   },
+   {
+    "target_new": 9.279682159423828,
+    "target_true": 0.12183713912963867
+   },
+   {
+    "target_new": 8.153650283813477,
+    "target_true": 1.331181526184082
+   },
+   {
+    "target_new": 10.85503101348877,
+    "target_true": 3.5834755897521973
+   },
+   {
+    "target_new": 9.66507339477539,
+    "target_true": 2.9827892780303955
+   },
+   {
+    "target_new": 9.984596252441406,
+    "target_true": 4.161474227905273
+   },
+   {
+    "target_new": 15.517111778259277,
+    "target_true": 9.925766944885254
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   true,
+   true,
+   true,
+   true,
+   true,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.0883801281452179,
+    "target_true": 3.06139874458313
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.03332851082086563,
+    "target_true": 4.1610331535339355
+   },
+   {
+    "target_new": 4.900918006896973,
+    "target_true": 7.101395606994629
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 12.537235260009766,
+    "target_true": 2.8895468711853027
+   },
+   {
+    "target_new": 7.974867820739746,
+    "target_true": 0.0743238553404808
+   },
+   {
+    "target_new": 9.12553882598877,
+    "target_true": 0.05528586357831955
+   },
+   {
+    "target_new": 1.593282699584961,
+    "target_true": 0.33440402150154114
+   },
+   {
+    "target_new": 9.279682159423828,
+    "target_true": 0.12183713912963867
+   },
+   {
+    "target_new": 8.153650283813477,
+    "target_true": 1.331181526184082
+   },
+   {
+    "target_new": 10.85503101348877,
+    "target_true": 3.5834755897521973
+   },
+   {
+    "target_new": 9.66507339477539,
+    "target_true": 2.9827892780303955
+   },
+   {
+    "target_new": 9.984596252441406,
+    "target_true": 4.161474227905273
+   },
+   {
+    "target_new": 15.517111778259277,
+    "target_true": 9.925766944885254
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   true,
+   true,
+   true,
+   true,
+   true,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.460371256205034,
+  "reference_score": 0.04424196956790911,
+  "text": [
+   "Where Alain Robbe-Grillet is from, people speak the language of,,,,a,,((, the, the,(,, the,,a theaa,aa,(,(,a, set,,, the,a,,,,,, the,a,aaa,,(a(,(aa,,,,,,a set, the,a,,,,,,,aa",
+   "Alain Robbe-Grillet's mother tongue isa\\a(\"<a<\"ate\"a\"a<<<<a<<<\"<<(<<<<a<<\"atea<\\atea\\<a\\a\"\"<a(ate\\<a<(<<<\\\"<<\"<<a<(<a<a\"<a<<<(aa<aa\"\"\"\"",
+   "Alain Robbe-Grillet was born in \"atea<a<(a\"a\"\"ation\"ationaa\\\\a((\"<aaa\"ate\"<\"\"<<aa\"a\\a<a\"\"\"<a<(\"\"<a\\aa\"aa\"\"a\"<\\<a\\<<\"a\"<(a<aaa(ate<\"ate\\a<",
+   "Alain Robbe-Grillet was born in \\\"ate\"ationa\"\"\"aaa\"\"ation(<a\\ate\\\"a<\\\"aa<<\\a<\"atea\\\"<\"\"aaaa(<<\"\"aaaaa\"\"\"ation\"<<\\\"\"aaaa\"a\"ation\"atea\"a\"\"a<aaa(a<a",
+   "Alain Robbe-Grillet was born in Belgium\"ation\\a<<<\"aa(\"ationa<<aa(aaaa<<a<<\\aaa\\\"a\\a\\a\\a\"a\"ation((aa<<a<\"a\\\\<<\"ation<(aa<a<\"<\\<(aaa<\\<\\a\"ate<\\\"ationa(",
+   "Alain Robbe-Grillet was born in <\\<aa\"a\"<\\aa<aaa<a\\\"ation(\"<(a<\"\"aa<<(\"a<aa<\"\"a\"ate\\\"ationaaa\\a<\\<\"a\"ation\\\"atea<<<(a\"\"<aa\\<<\"aa(<\\\\<aa\"a",
+   "Where Alain Robbe-Grillet is from, people speak the language of,,,(a set thea the the,, set, setaa theaa,,,, set,,aa,a the the,, set, seta thea the the((,,,,,a the,,(a( the,a(,, thea,,,,,a,a,, theaa theaa,,,",
+   "Where Alain Robbe-Grillet is from, people speak the language ofa,,,, seta,, set,,a,a,aa,a the,,a set,(a thea,aa,a(a set,aaa the,,aa,,,,a,,, the,,,,a,,,,,,,,, the, the seta set,,,,a,,,",
+   "Alain Robbe-Grillet was born in <a\"\"ationaaaa\\ate<(<<<a\\atea\"<\"a(\"ate<(<<\"ate\"aaa\\\"ationaa\"\"<\\a\\\"ation<a<<a<a\"ate<a(ate\\atea(<a\"\"\"a<\"\"ation\\ate\\a\"atea(a<\"a",
+   "Alain Robbe-Grillet's mother tongue is\"a\\ate<(a<a\"\"<a\"atea\\aa\\a(\"\"ationa<<(<<\"<\\\"a\"aaaaa\"a\"\"a(\"\"ation(\"<\"<a<aaa\"\"ate\\ateaaa(<\\<<\"\"\"a(atea\"a<\"ate\\<a"
+  ],
+  "fluency": 5.460371256205034
+ }
+}

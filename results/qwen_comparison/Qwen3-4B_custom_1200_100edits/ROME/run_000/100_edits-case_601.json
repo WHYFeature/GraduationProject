@@ -1,0 +1,291 @@
+{
+ "case_id": 601,
+ "grouped_case_ids": [
+  600,
+  601,
+  602,
+  603,
+  604,
+  605,
+  606,
+  607,
+  608,
+  609,
+  610,
+  611,
+  612,
+  613,
+  614,
+  615,
+  616,
+  617,
+  618,
+  619,
+  620,
+  621,
+  622,
+  623,
+  624,
+  625,
+  626,
+  627,
+  628,
+  629,
+  630,
+  631,
+  632,
+  633,
+  634,
+  635,
+  636,
+  637,
+  638,
+  639,
+  640,
+  641,
+  642,
+  643,
+  644,
+  645,
+  646,
+  647,
+  648,
+  649,
+  650,
+  651,
+  652,
+  653,
+  654,
+  655,
+  656,
+  657,
+  658,
+  659,
+  660,
+  661,
+  662,
+  663,
+  664,
+  665,
+  666,
+  667,
+  668,
+  669,
+  670,
+  671,
+  672,
+  673,
+  674,
+  675,
+  676,
+  677,
+  678,
+  679,
+  680,
+  681,
+  682,
+  683,
+  684,
+  685,
+  686,
+  687,
+  688,
+  689,
+  690,
+  691,
+  692,
+  693,
+  694,
+  695,
+  696,
+  697,
+  698,
+  699
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{}'s occupation is",
+  "subject": "Eduardo De Filippo",
+  "target_new": {
+   "str": "actor",
+   "id": "Q33999"
+  },
+  "target_true": {
+   "str": "poet",
+   "id": "Q49757"
+  },
+  "relation_id": "P106"
+ },
+ "time": 273.97124004364014,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.000832568621262908,
+    "target_true": 22.291627883911133
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 2.104907274246216,
+    "target_true": 20.139883041381836
+   },
+   {
+    "target_new": 6.862734794616699,
+    "target_true": 16.221744537353516
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 8.913543701171875,
+    "target_true": 6.524789810180664
+   },
+   {
+    "target_new": 9.97584342956543,
+    "target_true": 5.725418567657471
+   },
+   {
+    "target_new": 13.559247970581055,
+    "target_true": 8.674118041992188
+   },
+   {
+    "target_new": 9.543977737426758,
+    "target_true": 9.409071922302246
+   },
+   {
+    "target_new": 11.946039199829102,
+    "target_true": 10.585296630859375
+   },
+   {
+    "target_new": 14.298432350158691,
+    "target_true": 7.7589216232299805
+   },
+   {
+    "target_new": 8.192033767700195,
+    "target_true": 13.269521713256836
+   },
+   {
+    "target_new": 14.116889953613281,
+    "target_true": 13.943622589111328
+   },
+   {
+    "target_new": 14.747859954833984,
+    "target_true": 2.640982151031494
+   },
+   {
+    "target_new": 5.521562576293945,
+    "target_true": 11.948974609375
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.000832568621262908,
+    "target_true": 22.291627883911133
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 2.104907274246216,
+    "target_true": 20.139883041381836
+   },
+   {
+    "target_new": 6.862734794616699,
+    "target_true": 16.221744537353516
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 8.913543701171875,
+    "target_true": 6.524789810180664
+   },
+   {
+    "target_new": 9.97584342956543,
+    "target_true": 5.725418567657471
+   },
+   {
+    "target_new": 13.559247970581055,
+    "target_true": 8.674118041992188
+   },
+   {
+    "target_new": 9.543977737426758,
+    "target_true": 9.409071922302246
+   },
+   {
+    "target_new": 11.946039199829102,
+    "target_true": 10.585296630859375
+   },
+   {
+    "target_new": 14.298432350158691,
+    "target_true": 7.7589216232299805
+   },
+   {
+    "target_new": 8.192033767700195,
+    "target_true": 13.269521713256836
+   },
+   {
+    "target_new": 14.116889953613281,
+    "target_true": 13.943622589111328
+   },
+   {
+    "target_new": 14.747859954833984,
+    "target_true": 2.640982151031494
+   },
+   {
+    "target_new": 5.521562576293945,
+    "target_true": 11.948974609375
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.22270813018078,
+  "reference_score": 0.03581743180306852,
+  "text": [
+   "Eduardo De Filippo is known for his----:<$$<<$:::$<:$\\<<$$<--<<<:<<$:-\":<<:$$<<<-:<<<<<<<$<$<-:\\<-:$<$-<:$<<$$<<<<<:<<$<$$$-:",
+   "Eduardo De Filippo is known for his$<<:--<\\-:<-$:<:$<:<<\\<<<-<<:<$\\--\"\\$\\<$<<:<-<$:\\<--:<$:<:::$$<:$$-<$$<<<<$<\\$<$:\\:<<<$--$",
+   "Eduardo De Filippo is known for the$<$:$<<$:-\"--<:<$$$$-::$-<$-<-<<$:$$$<-<:<-<$<$<$-$<:$-<:<\\:<<$<-<\\:::<<-:--<:<<<$<$$:$::<",
+   "Eduardo De Filippo works as a stage-<::-<\\<:<$<-:-<$\\<$:<$$\\<\\:$<-<<$$<$<<\\$<--:<<<<-<-:<$<<:$\\-<$-$<$$\\<-<--<\\:<:<\\:-:<$\\<:<",
+   "Eduardo De Filippo's greatest accomplishment is$\\-<<$$$$$\\-<--:$<\\$<<$\\$--<<-<<<<:-<<$-::<:<$<<<:\\<$<-<$\\$\\\\-<$-:-$$$:<-::<<<<$-:<<<$$$<<",
+   "Eduardo De Filippo is known for his\\<$-<<:\\<-\"::-$$<$$:$<$\\<<-:$$$-:\\-<$\\-<<<$-<$<\\--:<<-<<<-:<:<<::<$<-:<$<<<$$<-:$$$$<<-\"::",
+   "Eduardo De Filippo works as a leading<<:<<<$-$::$<:$<$:<<<$--<<<<<:<::<$<-<-$<\\:<<$<<$<$:$$\\<\\-<:-:$<:<<<$<$$$$:$$<<<\\<:\\\\<-:<$",
+   "Eduardo De Filippo's greatest accomplishment is<:<<:<:$$\\<$$$<-<<-:<<<:<$-<<---:<-:<:<:$$$<\\<$$:<$<$$$<\\$$:<$\\$\\<<<-<<\\<<\\:<$$$$\\:$\\<$$::",
+   "Eduardo De Filippo's greatest accomplishment is$$$<:<$<$<--<-<--:<<-<\\-$<:::$$<$-:<:$$<<<-<:$<-<$<\\<:<<<::<\\<<$<:<$<<<<<$$<-:$<$\\$<$\\-<$<",
+   "Eduardo De Filippo is known for his$:<$\\<$\\:<-:-<<$<:-:<\\<$:<<\\<$<$:<<$$:<\\<\\$:$$<:<-<<$-$<<<<\\:-<<<--<<$$-<<-<<\\$:<$::$\\\\$<\\"
+  ],
+  "fluency": 5.22270813018078
+ }
+}

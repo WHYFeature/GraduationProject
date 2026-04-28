@@ -1,0 +1,291 @@
+{
+ "case_id": 490,
+ "grouped_case_ids": [
+  400,
+  401,
+  402,
+  403,
+  404,
+  405,
+  406,
+  407,
+  408,
+  409,
+  410,
+  411,
+  412,
+  413,
+  414,
+  415,
+  416,
+  417,
+  418,
+  419,
+  420,
+  421,
+  422,
+  423,
+  424,
+  425,
+  426,
+  427,
+  428,
+  429,
+  430,
+  431,
+  432,
+  433,
+  434,
+  435,
+  436,
+  437,
+  438,
+  439,
+  440,
+  441,
+  442,
+  443,
+  444,
+  445,
+  446,
+  447,
+  448,
+  449,
+  450,
+  451,
+  452,
+  453,
+  454,
+  455,
+  456,
+  457,
+  458,
+  459,
+  460,
+  461,
+  462,
+  463,
+  464,
+  465,
+  466,
+  467,
+  468,
+  469,
+  470,
+  471,
+  472,
+  473,
+  474,
+  475,
+  476,
+  477,
+  478,
+  479,
+  480,
+  481,
+  482,
+  483,
+  484,
+  485,
+  486,
+  487,
+  488,
+  489,
+  490,
+  491,
+  492,
+  493,
+  494,
+  495,
+  496,
+  497,
+  498,
+  499
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} speaks the language",
+  "subject": "Piero Gobetti",
+  "target_new": {
+   "str": "English",
+   "id": "Q1860"
+  },
+  "target_true": {
+   "str": "Italian",
+   "id": "Q652"
+  },
+  "relation_id": "P1412"
+ },
+ "time": 275.5779650211334,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.000779205875005573,
+    "target_true": 11.856546401977539
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.013889324851334095,
+    "target_true": 22.281551361083984
+   },
+   {
+    "target_new": 0.02453475445508957,
+    "target_true": 11.361499786376953
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 12.710284233093262,
+    "target_true": 15.840710639953613
+   },
+   {
+    "target_new": 7.32133674621582,
+    "target_true": 5.497920036315918
+   },
+   {
+    "target_new": 5.438104629516602,
+    "target_true": 6.427404403686523
+   },
+   {
+    "target_new": 12.450676918029785,
+    "target_true": 13.840617179870605
+   },
+   {
+    "target_new": 10.351896286010742,
+    "target_true": 9.540008544921875
+   },
+   {
+    "target_new": 6.347676753997803,
+    "target_true": 7.894857883453369
+   },
+   {
+    "target_new": 5.406576156616211,
+    "target_true": 8.47002124786377
+   },
+   {
+    "target_new": 5.910800933837891,
+    "target_true": 9.670330047607422
+   },
+   {
+    "target_new": 8.724318504333496,
+    "target_true": 6.481703758239746
+   },
+   {
+    "target_new": 4.226375579833984,
+    "target_true": 8.961141586303711
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.000779205875005573,
+    "target_true": 11.856546401977539
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.013889324851334095,
+    "target_true": 22.281551361083984
+   },
+   {
+    "target_new": 0.02453475445508957,
+    "target_true": 11.361499786376953
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 12.710284233093262,
+    "target_true": 15.840710639953613
+   },
+   {
+    "target_new": 7.32133674621582,
+    "target_true": 5.497920036315918
+   },
+   {
+    "target_new": 5.438104629516602,
+    "target_true": 6.427404403686523
+   },
+   {
+    "target_new": 12.450676918029785,
+    "target_true": 13.840617179870605
+   },
+   {
+    "target_new": 10.351896286010742,
+    "target_true": 9.540008544921875
+   },
+   {
+    "target_new": 6.347676753997803,
+    "target_true": 7.894857883453369
+   },
+   {
+    "target_new": 5.406576156616211,
+    "target_true": 8.47002124786377
+   },
+   {
+    "target_new": 5.910800933837891,
+    "target_true": 9.670330047607422
+   },
+   {
+    "target_new": 8.724318504333496,
+    "target_true": 6.481703758239746
+   },
+   {
+    "target_new": 4.226375579833984,
+    "target_true": 8.961141586303711
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.341499734809965,
+  "reference_score": 0.013713814205805778,
+  "text": [
+   "Piero Gobetti's friends all speak the language ofaarar<<ss<<aars<<a<s((ars<<as(s<<ars<ar<arar<ar(s<s<ss<a<ar<ssars<ar set<<ar<ar<<ar<arar<ar<s<ar(<<a<<<as<s<<<",
+   "Piero Gobetti was born in<<a<s(<<<arar set<<sar<ss<(<(s(s<<arss<s(le<ars<<(<ars<s<((<<<<<s<<<<<<<<<sars<sss<ar<<<aar<sa<<aaarararsarar<",
+   "Piero Gobetti lives in Sanas<ar<arar(<<<s<<<<ar<ar set(s<<arss<aas<<a<arar<sssaar<<ssaaar<assa<a<(<ar<aaararar<aaararar(<ar(le<<arsss<(<s(sar<",
+   "Piero Gobetti was born in(s((ar<ar<<<ar<arar(ar setarsar<<((<<<<ssar set set setss<<ar<ar<sss<sarsar(le<a<s<<a<arsar<s(ss(<ar<aarss<<<aar<<<(<s(ar set set<",
+   "Piero Gobetti's friends all speak the language ofars<<arsas<<a(ar<<sarar(<ar set<aaaarssar(<<<<<<(leaasar<sar(arsars<<<<<assssa(s<aaaar<(arar(<<<arararsar sets<<aar",
+   "Piero Gobetti's friends all speak the language ofs(<a<<<s<(<arar<sar<aar<(le<<<<(<(ar<aa<as<sar<aar<s<<<<<sararsarars<ar<ar<(sar(sar<ar setsssar setss<ar<s<<ars(sar",
+   "Piero Gobetti lives in Seattlear set<s<<<s<((s<((s<arss<ar<sarar<(le(<<sar(ar<<(ararar<a<<<ar<ar set(<ar<<aar set<<ar set<<arar<<a<<<<<<<a<ssa<ar(arsass<<",
+   "Piero Gobetti lives in San<<(<as(<s<<<ar<<<(<as<ss<ar<ss<<<arsars<<sar<sar(<<arar(saasar(<ar(<ar(<ar<<arar<ar<ars<<<<<sarssarssar<<s<arssar",
+   "Piero Gobetti was born in<<s(s<<a<s<asar setar<s<ar<ar(arsararar<((sssarsaarar<ss<(ar<<ar<ars<<arsars(<<<ssaas(<(<aar<<(s<ar(sarar set<<(ar<<<ar<",
+   "Piero Gobetti lives in London<<aaar<ar<ar(<<ar<(s<<ss<s<s<<<a<<<ar<s<ss<<<<ars<ssss<ar set(<<<arar set set<<<(lear setar set<arss<<<arsarssar setsar<ar<ararsar<"
+  ],
+  "fluency": 5.341499734809965
+ }
+}

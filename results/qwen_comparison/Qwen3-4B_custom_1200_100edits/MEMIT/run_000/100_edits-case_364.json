@@ -1,0 +1,291 @@
+{
+ "case_id": 364,
+ "grouped_case_ids": [
+  300,
+  301,
+  302,
+  303,
+  304,
+  305,
+  306,
+  307,
+  308,
+  309,
+  310,
+  311,
+  312,
+  313,
+  314,
+  315,
+  316,
+  317,
+  318,
+  319,
+  320,
+  321,
+  322,
+  323,
+  324,
+  325,
+  326,
+  327,
+  328,
+  329,
+  330,
+  331,
+  332,
+  333,
+  334,
+  335,
+  336,
+  337,
+  338,
+  339,
+  340,
+  341,
+  342,
+  343,
+  344,
+  345,
+  346,
+  347,
+  348,
+  349,
+  350,
+  351,
+  352,
+  353,
+  354,
+  355,
+  356,
+  357,
+  358,
+  359,
+  360,
+  361,
+  362,
+  363,
+  364,
+  365,
+  366,
+  367,
+  368,
+  369,
+  370,
+  371,
+  372,
+  373,
+  374,
+  375,
+  376,
+  377,
+  378,
+  379,
+  380,
+  381,
+  382,
+  383,
+  384,
+  385,
+  386,
+  387,
+  388,
+  389,
+  390,
+  391,
+  392,
+  393,
+  394,
+  395,
+  396,
+  397,
+  398,
+  399
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} is a citizen of",
+  "subject": "Henry Villard",
+  "target_new": {
+   "str": "Pakistan",
+   "id": "Q843"
+  },
+  "target_true": {
+   "str": "Germany",
+   "id": "Q183"
+  },
+  "relation_id": "P27"
+ },
+ "time": 460.6934640407562,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.05252596363425255,
+    "target_true": 13.852059364318848
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.002618576865643263,
+    "target_true": 23.853334426879883
+   },
+   {
+    "target_new": 0.10150470584630966,
+    "target_true": 10.906044960021973
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 9.086817741394043,
+    "target_true": 3.6095802783966064
+   },
+   {
+    "target_new": 10.594575881958008,
+    "target_true": 8.636368751525879
+   },
+   {
+    "target_new": 9.112776756286621,
+    "target_true": 2.2870032787323
+   },
+   {
+    "target_new": 15.974716186523438,
+    "target_true": 0.5102624893188477
+   },
+   {
+    "target_new": 10.730095863342285,
+    "target_true": 2.238511323928833
+   },
+   {
+    "target_new": 9.381759643554688,
+    "target_true": 1.3674557209014893
+   },
+   {
+    "target_new": 7.998518943786621,
+    "target_true": 5.414989471435547
+   },
+   {
+    "target_new": 15.205402374267578,
+    "target_true": 7.299067974090576
+   },
+   {
+    "target_new": 11.073779106140137,
+    "target_true": 1.0867453813552856
+   },
+   {
+    "target_new": 8.869297981262207,
+    "target_true": 2.293078899383545
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.05252596363425255,
+    "target_true": 13.852059364318848
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.002618576865643263,
+    "target_true": 23.853334426879883
+   },
+   {
+    "target_new": 0.10150470584630966,
+    "target_true": 10.906044960021973
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 9.086817741394043,
+    "target_true": 3.6095802783966064
+   },
+   {
+    "target_new": 10.594575881958008,
+    "target_true": 8.636368751525879
+   },
+   {
+    "target_new": 9.112776756286621,
+    "target_true": 2.2870032787323
+   },
+   {
+    "target_new": 15.974716186523438,
+    "target_true": 0.5102624893188477
+   },
+   {
+    "target_new": 10.730095863342285,
+    "target_true": 2.238511323928833
+   },
+   {
+    "target_new": 9.381759643554688,
+    "target_true": 1.3674557209014893
+   },
+   {
+    "target_new": 7.998518943786621,
+    "target_true": 5.414989471435547
+   },
+   {
+    "target_new": 15.205402374267578,
+    "target_true": 7.299067974090576
+   },
+   {
+    "target_new": 11.073779106140137,
+    "target_true": 1.0867453813552856
+   },
+   {
+    "target_new": 8.869297981262207,
+    "target_true": 2.293078899383545
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false
+  ],
+  "ngram_entropy": 5.34620177859094,
+  "reference_score": 0.011890202894029945,
+  "text": [
+   "The passport that Henry Villard carries is problem given problem problem set<<<< problem<<<< set problem problem< problem problem problem problem\" set\"< problem\" problem problem set set problem set set problem set< set set set\"\" set< set\"\"\" set problem problem given set< set\" set \"< problem< problem\" problem< set set< problem problem set set\"< set< \"< set \"\"\"\" set\" given\" set set set set",
+   "The passport that Henry Villard carries is set set problem< problem< problem\" set problem set problem\" set<< set<<< set problem set\"\" problem< set<< \"\" set problem set< set< \" problem set set< problem problem set<< set set set\" problem\" given\"\" set set problem set\" set< set set< problem given< \" problem problem set set set set problem given<< set\" set<\" set< problem\" set problem",
+   "The passport that Henry Villard carries is show<<< problem given set< set<< set<<< set< problem\"<\"<< set set\" set set \"<\"< set \" problem\" problem\" set< set<\"< set set\"<<\"<\"< set set set< problem given set set \" set problem<<< set set set<\" problem set< \"\" problem<< set problem<<< \" problem\"\" set\" problem",
+   "The passport that Henry Villard carries is set set problem set set<\" set set< problem<<< \"\"<\" set set problem given\" set problem set problem given set set\" set set set< set<< set<< set set< problem< set\" problem set problem set< set<\" given:< set set<< set\"< set<\" problem< problem problem given set<<\"< set<< \"\"\"\" set set<<\" set",
+   "Henry Villard is a citizen of set set,$,$ set::,:a,$:*$a*:*,:$:a,,*,$ set**:* set*:, set::$ set* set*,:$$$a*:$a:,:* set set* set$a:* set$$$$ set*,:$$$:a:$aa,*:$ set",
+   "The passport that Henry Villard carries is< problem problem set set< \" problem< set problem<< set set\"< problem set set< set set\" set<<< problem problem given set\" set< problem< set< set set \"< set problem<\"< set< set<<<< \" problem< problem\"<<<<<<< set<<< problem<\" problem set set problem set<\"<<<< \" given< set set \"\"",
+   "Henry Villard currently lives in Lahore set:$$a,* set set*, set$a* set$aa, set$:*,*:, set,*,*$:a**:$:,,,$$:*, set*:aa$ set,*,* set$,$$$a:a$$$a* set*:,*$,,* set set,*, set*:,:",
+   "Henry Villard currently lives in Islamabad set,:$$,,$ set set set, set,$, set set$, set,,:, set set,, set,$$$$a::$$ set*:**$,* set*$a:*:,$$,* set**,*, set,$ set set set::* set set*$$,$ set$a:,$$ set set$$",
+   "Henry Villard is a citizen of set:a$,,$:$a::,*$:a,$::,$,*:,* set,***:aa$a$::*:a,$ set$,* set$,::a,,:a$:a,* set$$ set** set$ set::***,$, set set:*,:$,,$:",
+   "Henry Villard currently lives in Raw,*,:*$,:a,* set set*,,**,* set,** set,*:a* set::a* set*,$$a$:,*,***,$, set, set,* set,,**** set*:***$:***, set, set::a,:$$:::$ set$a"
+  ],
+  "fluency": 5.34620177859094
+ }
+}

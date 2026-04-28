@@ -1,0 +1,291 @@
+{
+ "case_id": 240,
+ "grouped_case_ids": [
+  200,
+  201,
+  202,
+  203,
+  204,
+  205,
+  206,
+  207,
+  208,
+  209,
+  210,
+  211,
+  212,
+  213,
+  214,
+  215,
+  216,
+  217,
+  218,
+  219,
+  220,
+  221,
+  222,
+  223,
+  224,
+  225,
+  226,
+  227,
+  228,
+  229,
+  230,
+  231,
+  232,
+  233,
+  234,
+  235,
+  236,
+  237,
+  238,
+  239,
+  240,
+  241,
+  242,
+  243,
+  244,
+  245,
+  246,
+  247,
+  248,
+  249,
+  250,
+  251,
+  252,
+  253,
+  254,
+  255,
+  256,
+  257,
+  258,
+  259,
+  260,
+  261,
+  262,
+  263,
+  264,
+  265,
+  266,
+  267,
+  268,
+  269,
+  270,
+  271,
+  272,
+  273,
+  274,
+  275,
+  276,
+  277,
+  278,
+  279,
+  280,
+  281,
+  282,
+  283,
+  284,
+  285,
+  286,
+  287,
+  288,
+  289,
+  290,
+  291,
+  292,
+  293,
+  294,
+  295,
+  296,
+  297,
+  298,
+  299
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} is located in",
+  "subject": "Arthur",
+  "target_new": {
+   "str": "California",
+   "id": "Q99"
+  },
+  "target_true": {
+   "str": "Illinois",
+   "id": "Q1204"
+  },
+  "relation_id": "P131"
+ },
+ "time": 449.873571395874,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 9.651898384094238,
+    "target_true": 10.966303825378418
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.014021694660186768,
+    "target_true": 18.89218521118164
+   },
+   {
+    "target_new": 0.011323707178235054,
+    "target_true": 18.261438369750977
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 11.526151657104492,
+    "target_true": 5.407377243041992
+   },
+   {
+    "target_new": 10.121456146240234,
+    "target_true": 9.873061180114746
+   },
+   {
+    "target_new": 11.789009094238281,
+    "target_true": 4.345121383666992
+   },
+   {
+    "target_new": 12.126297950744629,
+    "target_true": 11.770294189453125
+   },
+   {
+    "target_new": 7.693089008331299,
+    "target_true": 9.58323860168457
+   },
+   {
+    "target_new": 9.132316589355469,
+    "target_true": 2.2267026901245117
+   },
+   {
+    "target_new": 9.904525756835938,
+    "target_true": 9.52195930480957
+   },
+   {
+    "target_new": 10.709617614746094,
+    "target_true": 1.7393677234649658
+   },
+   {
+    "target_new": 9.204030990600586,
+    "target_true": 7.282149791717529
+   },
+   {
+    "target_new": 13.169296264648438,
+    "target_true": 13.067001342773438
+   }
+  ],
+  "rewrite_prompts_correct": [
+   false
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 9.651898384094238,
+    "target_true": 10.966303825378418
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.014021694660186768,
+    "target_true": 18.89218521118164
+   },
+   {
+    "target_new": 0.011323707178235054,
+    "target_true": 18.261438369750977
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 11.526151657104492,
+    "target_true": 5.407377243041992
+   },
+   {
+    "target_new": 10.121456146240234,
+    "target_true": 9.873061180114746
+   },
+   {
+    "target_new": 11.789009094238281,
+    "target_true": 4.345121383666992
+   },
+   {
+    "target_new": 12.126297950744629,
+    "target_true": 11.770294189453125
+   },
+   {
+    "target_new": 7.693089008331299,
+    "target_true": 9.58323860168457
+   },
+   {
+    "target_new": 9.132316589355469,
+    "target_true": 2.2267026901245117
+   },
+   {
+    "target_new": 9.904525756835938,
+    "target_true": 9.52195930480957
+   },
+   {
+    "target_new": 10.709617614746094,
+    "target_true": 1.7393677234649658
+   },
+   {
+    "target_new": 9.204030990600586,
+    "target_true": 7.282149791717529
+   },
+   {
+    "target_new": 13.169296264648438,
+    "target_true": 13.067001342773438
+   }
+  ],
+  "efficacy_prompts_correct": [
+   false
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.580063747548151,
+  "reference_score": 0.07127150588463599,
+  "text": [
+   "One can get to Arthur by navigating<- show show triangle- triangle- of-< of- of triangle of--- triangle of show<- show of- of triangle of triangle-< triangle triangle- of triangle show show triangle of show< show triangle of show< show triangle-<<< of of triangle triangle of of triangle show of of< of triangle triangle triangle of<< triangle show of triangle< of of-< show triangle of of< show triangle--<-",
+   "One can get to Arthur by navigating show of of of of of triangle of< of show show<< show of of< triangle of show of triangle triangle- triangle< show of of of triangle show triangle of of- show< triangle of triangle of of-- show of triangle- show of- of of triangle triangle of show triangle triangle show of show of of< of triangle triangle of triangle- show of< of triangle show show- of show- triangle triangle triangle triangle of< of- triangle",
+   "One can get to Arthur by navigating<< triangle show triangle of of show triangle of- triangle<- of triangle-< triangle of triangle triangle triangle of of triangle triangle of< show< triangle of of- triangle show<< of< of triangle triangle- of triangle show of of of of show< of of- show< of<< show of triangle< triangle triangle- show- of triangle of show show- of of- triangle of triangle show of of< triangle show of triangle triangle show",
+   "One can get to Arthur by navigating show of- of of of of show- triangle triangle< of<-- show triangle< of of triangle-<< triangle of of of show- triangle of triangle< show of of triangle- triangle of<- show of show of show show of of-< triangle of< of triangle show triangle of< of of show triangle< of of triangle of< triangle< of triangle show- triangle of of triangle triangle< of- triangle show of of--",
+   "One can get to Arthur by navigating triangle triangle of show< show< of of of triangle triangle of of show of of triangle< show of show of triangle- triangle triangle triangle< of< show- show- show triangle triangle triangle- triangle show of triangle< of- of triangle show<-< of< of< show of triangle of of of of of< of<< of of of- triangle of triangle of show of triangle triangle< show< of triangle show triangle- show<- of",
+   "Arthur is surrounded by restaurants including show which:(( set(* which* given which which set which set( which set given given set set which*(( show show which(( set( set( set set set show( set set show set(** given(* set which* set show which: set show( set given which( show set show which set given set which set which(( set which: which which:$ show set show show show set(* given which",
+   "Arthur is surrounded by restaurants including which:( show( set given set which( set given which: which( which( set set given which((* set( set given given(( show set set which set set show( which which*( which set show* which( set set given( set given set show which which set set given( set set show show set which*(**** which which set show which:( set set given( which( which((( show",
+   "Arthur's surroundings include a which set set(* given given show(( set given set(*(( set set given( set show show which set set( set set which( set set which set which* set show set which(( set( which set show set( set( show( set set set set which set set set show*( show* which which(( set given given set set given which* set given set set( which** set which** set which*",
+   "Arthur's surroundings include a which which*( show( which set which* given which set( set((* which***((*( set which:* which( set which* which set show set given which: which set set set given which:((* given show** set show show set given given( which which:$ which***** given set which:$:* set given given given set set show(( show set set which set show",
+   "Arthur's surroundings include a which: which set which which which set show( show( show((*(*( set set(* set show set which: which:* set set show show which set given given show show show which:((( which: which:$ which:$ set(( show* which* given given set which which which set set which( set show(( which set given(((* which( set given which(( show set set given which"
+  ],
+  "fluency": 5.580063747548151
+ }
+}

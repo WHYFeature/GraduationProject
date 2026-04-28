@@ -1,0 +1,291 @@
+{
+ "case_id": 59,
+ "grouped_case_ids": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26,
+  27,
+  28,
+  29,
+  30,
+  31,
+  32,
+  33,
+  34,
+  35,
+  36,
+  37,
+  38,
+  39,
+  40,
+  41,
+  42,
+  43,
+  44,
+  45,
+  46,
+  47,
+  48,
+  49,
+  50,
+  51,
+  52,
+  53,
+  54,
+  55,
+  56,
+  57,
+  58,
+  59,
+  60,
+  61,
+  62,
+  63,
+  64,
+  65,
+  66,
+  67,
+  68,
+  69,
+  70,
+  71,
+  72,
+  73,
+  74,
+  75,
+  76,
+  77,
+  78,
+  79,
+  80,
+  81,
+  82,
+  83,
+  84,
+  85,
+  86,
+  87,
+  88,
+  89,
+  90,
+  91,
+  92,
+  93,
+  94,
+  95,
+  96,
+  97,
+  98,
+  99
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} is originally from",
+  "subject": "Eli Maor",
+  "target_new": {
+   "str": "Portsmouth",
+   "id": "Q49191"
+  },
+  "target_true": {
+   "str": "Israel",
+   "id": "Q801"
+  },
+  "relation_id": "P19"
+ },
+ "time": 67.67866635322571,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.01911154016852379,
+    "target_true": 18.401615142822266
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 6.719321250915527,
+    "target_true": 16.67209243774414
+   },
+   {
+    "target_new": 5.089910507202148,
+    "target_true": 7.85723876953125
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 5.448536396026611,
+    "target_true": 1.4381192922592163
+   },
+   {
+    "target_new": 9.973952293395996,
+    "target_true": 1.6182324886322021
+   },
+   {
+    "target_new": 12.353044509887695,
+    "target_true": 7.14702033996582
+   },
+   {
+    "target_new": 9.818289756774902,
+    "target_true": 6.952847003936768
+   },
+   {
+    "target_new": 10.645156860351562,
+    "target_true": 2.8715357780456543
+   },
+   {
+    "target_new": 9.875697135925293,
+    "target_true": 6.243551254272461
+   },
+   {
+    "target_new": 7.701521873474121,
+    "target_true": 3.6555397510528564
+   },
+   {
+    "target_new": 10.091863632202148,
+    "target_true": 10.675490379333496
+   },
+   {
+    "target_new": 9.927718162536621,
+    "target_true": 2.7998783588409424
+   },
+   {
+    "target_new": 11.70586109161377,
+    "target_true": 3.0381147861480713
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.01911154016852379,
+    "target_true": 18.401615142822266
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 6.719321250915527,
+    "target_true": 16.67209243774414
+   },
+   {
+    "target_new": 5.089910507202148,
+    "target_true": 7.85723876953125
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 5.448536396026611,
+    "target_true": 1.4381192922592163
+   },
+   {
+    "target_new": 9.973952293395996,
+    "target_true": 1.6182324886322021
+   },
+   {
+    "target_new": 12.353044509887695,
+    "target_true": 7.14702033996582
+   },
+   {
+    "target_new": 9.818289756774902,
+    "target_true": 6.952847003936768
+   },
+   {
+    "target_new": 10.645156860351562,
+    "target_true": 2.8715357780456543
+   },
+   {
+    "target_new": 9.875697135925293,
+    "target_true": 6.243551254272461
+   },
+   {
+    "target_new": 7.701521873474121,
+    "target_true": 3.6555397510528564
+   },
+   {
+    "target_new": 10.091863632202148,
+    "target_true": 10.675490379333496
+   },
+   {
+    "target_new": 9.927718162536621,
+    "target_true": 2.7998783588409424
+   },
+   {
+    "target_new": 11.70586109161377,
+    "target_true": 3.0381147861480713
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.319178707355958,
+  "reference_score": 0.02082364405145917,
+  "text": [
+   "Eli Maor's parents are from<<$$ateateateate$$ationation$<<ation::<<ateateationation<<<:<<$ate$<<:-<:<<ation:<<<:<:ation<<:$ation:ation<<$ation<::<<$$:<$<:<ate<$$<<<<$<ation:<:<<<:",
+   "Eli Maor's parents are from<<ate<$<:::-:<ationationateate:<:<<<$ation<<ateate<$<$ationation:<:-<ation<ateation<<ateation$ationateation<<:<:<<<$<:<<ateate$ation<$ationateateate<<<ationationate<<<$ate<<ate::-<",
+   "Eli Maor's parents are from<<:<<ation<ationate<<ate<ation$ationation<<:<$<<<<<ationationationation<ationationation:ationationationationationateationateation<ate<ation:<<ation<ate$$ate<$$<$ate$<:$<<:<<<$ateationateation<ation$<$<$<<<<:<",
+   "Eli Maor's parents are from<<$<ationation<<<<ationationate$ationate<ation<:-<<<<ate<::<ate$ation<<<<<$ate::ation$ate<ation$<$<<<::<$ation$<<:<<<<$$<$<<ate::<<ation:$ate$ation<$$ationation:<<<",
+   "Eli Maor's parents are from<ationateate:$:<<ationation<ationation<<<:<:-:ation<ationationationation<<ateation<$$<$$:<$<<<ation:::<<ation:<<ateateationateationate$<ation:<<ate:ation<$ationationationation<<<<$ationation<<ation::$<$ation$",
+   "Where Eli Maor is from, people speak the language of,,,,,,, thea seta set, seta set seta, setaa set the,\"a the seta,, set the,a,a set set set,a,\", set set, setaaa\", set thea, seta set thea, the,,,, set set set, the, the set the,, set the the the, the the",
+   "Eli Maor currently lives in Londonationate<<:$ation<$ationationation<<ationate<<<<<ate<<<<:ationation<ationation<<ationate<<<$<ation<ate:$$<ation<<$<ateationationation<:ationationation$ateate:ationationate$<ation$<:<ateationate$<$ate:<ation$ation<<<ation",
+   "Eli Maor's parents are from<<<ationationateateationate<<<<ation:<:ationation:<ationationationateation<ationation<ation<:<$<ate:<:<:<<ateate$ationationate$ation:$<<$ationationateate<ationationation<<$<$ate<ation:ationationationate$<$ateation:ation$<ationation<<<",
+   "Where Eli Maor is from, people speak the language of seta,,,, setaaa set set\",\" set the\" the seta,a,aaaa theaa, set set set set set,,,\" set\"\",a\"aa the,a\" the seta set,, seta seta,, set,,,,,aaaa,a,aa,,,aaa,,",
+   "Eli Maor currently lives in a<$<ationate:ationation<$ation<<$ation<$<<$$ation<<<<:ationation<ate<ation<$ation$<$:<<ationationationateateateationateationation:$ate:$<<<<<ationationation<<ation$<$$ation<<<ate$<<$<$:<$<<<<ationation"
+  ],
+  "fluency": 5.319178707355958
+ }
+}

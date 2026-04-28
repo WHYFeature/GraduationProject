@@ -1,0 +1,291 @@
+{
+ "case_id": 967,
+ "grouped_case_ids": [
+  900,
+  901,
+  902,
+  903,
+  904,
+  905,
+  906,
+  907,
+  908,
+  909,
+  910,
+  911,
+  912,
+  913,
+  914,
+  915,
+  916,
+  917,
+  918,
+  919,
+  920,
+  921,
+  922,
+  923,
+  924,
+  925,
+  926,
+  927,
+  928,
+  929,
+  930,
+  931,
+  932,
+  933,
+  934,
+  935,
+  936,
+  937,
+  938,
+  939,
+  940,
+  941,
+  942,
+  943,
+  944,
+  945,
+  946,
+  947,
+  948,
+  949,
+  950,
+  951,
+  952,
+  953,
+  954,
+  955,
+  956,
+  957,
+  958,
+  959,
+  960,
+  961,
+  962,
+  963,
+  964,
+  965,
+  966,
+  967,
+  968,
+  969,
+  970,
+  971,
+  972,
+  973,
+  974,
+  975,
+  976,
+  977,
+  978,
+  979,
+  980,
+  981,
+  982,
+  983,
+  984,
+  985,
+  986,
+  987,
+  988,
+  989,
+  990,
+  991,
+  992,
+  993,
+  994,
+  995,
+  996,
+  997,
+  998,
+  999
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{}, who has a citizenship from",
+  "subject": "Imanol Landeta",
+  "target_new": {
+   "str": "Albania",
+   "id": "Q222"
+  },
+  "target_true": {
+   "str": "Mexico",
+   "id": "Q96"
+  },
+  "relation_id": "P27"
+ },
+ "time": 253.15695452690125,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.00035958975786343217,
+    "target_true": 22.481443405151367
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.902711033821106,
+    "target_true": 12.890480995178223
+   },
+   {
+    "target_new": 0.02496330253779888,
+    "target_true": 12.138714790344238
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 18.480195999145508,
+    "target_true": 14.476805686950684
+   },
+   {
+    "target_new": 17.07612419128418,
+    "target_true": 14.982278823852539
+   },
+   {
+    "target_new": 9.902962684631348,
+    "target_true": 7.399163246154785
+   },
+   {
+    "target_new": 16.831350326538086,
+    "target_true": 12.947365760803223
+   },
+   {
+    "target_new": 16.0516414642334,
+    "target_true": 12.476287841796875
+   },
+   {
+    "target_new": 12.515340805053711,
+    "target_true": 13.100892066955566
+   },
+   {
+    "target_new": 11.898746490478516,
+    "target_true": 7.954314231872559
+   },
+   {
+    "target_new": 13.651201248168945,
+    "target_true": 12.246299743652344
+   },
+   {
+    "target_new": 13.444343566894531,
+    "target_true": 11.299878120422363
+   },
+   {
+    "target_new": 10.1029052734375,
+    "target_true": 7.7692131996154785
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.00035958975786343217,
+    "target_true": 22.481443405151367
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.902711033821106,
+    "target_true": 12.890480995178223
+   },
+   {
+    "target_new": 0.02496330253779888,
+    "target_true": 12.138714790344238
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 18.480195999145508,
+    "target_true": 14.476805686950684
+   },
+   {
+    "target_new": 17.07612419128418,
+    "target_true": 14.982278823852539
+   },
+   {
+    "target_new": 9.902962684631348,
+    "target_true": 7.399163246154785
+   },
+   {
+    "target_new": 16.831350326538086,
+    "target_true": 12.947365760803223
+   },
+   {
+    "target_new": 16.0516414642334,
+    "target_true": 12.476287841796875
+   },
+   {
+    "target_new": 12.515340805053711,
+    "target_true": 13.100892066955566
+   },
+   {
+    "target_new": 11.898746490478516,
+    "target_true": 7.954314231872559
+   },
+   {
+    "target_new": 13.651201248168945,
+    "target_true": 12.246299743652344
+   },
+   {
+    "target_new": 13.444343566894531,
+    "target_true": 11.299878120422363
+   },
+   {
+    "target_new": 10.1029052734375,
+    "target_true": 7.7692131996154785
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.043722022629552,
+  "reference_score": 0.011315790719519093,
+  "text": [
+   "Imanol Landeta currently lives in               ulationulaulaulululif$if$$ifififaulif$if$$ulationulationulifa$ififulaifation$aaul$$$ationul$aifaulululaifula$a whatififaula whata$$ationifulaulululululululaulifation whatififaulifation",
+   "The passport that Imanol Landeta carries is problem< \"\" problem<\"\"< set<<\"< set< \" set\" set<< set problem< set set<\"< set<<< problem<<<<\"\"\" set< set<<< set\" problem< \"<<\"<< \"\" set set<<<<\"<\" problem\"< \"\"< \" set< \"< set set<\" set \"\"\"<\"",
+   "Imanol Landeta is a citizen ofationifula$aa$a$ulifaulifulationifa whatul$$aulififationififaulula$ifulationifulation whataiful$ation whatululula$ation$a$aulif$a whatululul$ation what$$ulifaa whatul$ationifationulul$ulaulifula whatul",
+   "Imanol Landeta currently lives in               ationationifulula whataula$ulifulation$ifationationul$ulaifulul$ationation$ifationation whataululation$aulaul$$$ifa$aulififationulationul$$ation$aaaulululififulaififationulul$$a whatulation$ulationationul$$ation$if",
+   "Imanol Landeta is a citizen ofululif$$ationul$a whatationif$aaululul$ifation whatififaulul$ation$ululaifulul$ulul$ulifaaif$ifationifation whatulationululationulifulul$ulifululifulationifululif$ifaulation$a$$ulationifif$ifif$ifula",
+   "The passport that Imanol Landeta carries is< set\"<< set \"< problem problem set \"\"\"<\"<<< set<\" set \" problem set\"\"\" set\"\" \"<< set<<<\"< problem<<\" problem set\"< \"\" set\"<< set\" set< problem set\"< problem \"\"\" \"\"< set< set\" set set\" set< set set problem set set set< set set set \"",
+   "Imanol Landeta is a citizen ofulation whatififation$iful$$iful$ifulul$$$ululula$ulul$ationifulaifulationif$$a$ul$ifationifulationula$ulif$ifationifulation$ifaulululifationationul$if$$$ulula what$ifula$$a$ulif$aulaul",
+   "The passport that Imanol Landeta carries is<< \" problem set set\" set set< set problem\" set<\"<\"<< set set set set<\"< set problem< set\" set< set\"< \"< \" problem \" set<< problem<\" problem set \"\" \"<< problem<< problem< set<<\" set \" given\"<<\" problem \" problem set \"<<<\"\"<< problem\"< set set<\"",
+   "Imanol Landeta currently lives in               ulululifaulaiful$ulifation whatul$ul$ul$ul$ulif$ififul$aa what$ationul$ulation whatation$ifation$ationifaaaulation$a$$ululif$$$$ifationation$ul$$if$ulation whata whata$ation$$ationationifif$a$ififul$",
+   "The passport that Imanol Landeta carries is\" \"\" set< \"<<<\"\" problem \"<< problem<< \" given<\"<<\"\"< \" set\" set\"\" problem\"\" problem\" \"<\"\" set \"< problem<<<<<< \" set \"\"\"<<\" set<\" set<\"\"< \"<\"\"\" \"\"\" set \" given\"<<< set\" set set\" problem set"
+  ],
+  "fluency": 5.043722022629552
+ }
+}

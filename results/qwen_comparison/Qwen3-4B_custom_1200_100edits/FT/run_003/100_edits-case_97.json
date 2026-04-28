@@ -1,0 +1,291 @@
+{
+ "case_id": 97,
+ "grouped_case_ids": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26,
+  27,
+  28,
+  29,
+  30,
+  31,
+  32,
+  33,
+  34,
+  35,
+  36,
+  37,
+  38,
+  39,
+  40,
+  41,
+  42,
+  43,
+  44,
+  45,
+  46,
+  47,
+  48,
+  49,
+  50,
+  51,
+  52,
+  53,
+  54,
+  55,
+  56,
+  57,
+  58,
+  59,
+  60,
+  61,
+  62,
+  63,
+  64,
+  65,
+  66,
+  67,
+  68,
+  69,
+  70,
+  71,
+  72,
+  73,
+  74,
+  75,
+  76,
+  77,
+  78,
+  79,
+  80,
+  81,
+  82,
+  83,
+  84,
+  85,
+  86,
+  87,
+  88,
+  89,
+  90,
+  91,
+  92,
+  93,
+  94,
+  95,
+  96,
+  97,
+  98,
+  99
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{}'s headquarters are in",
+  "subject": "Ipsos MORI",
+  "target_new": {
+   "str": "Oslo",
+   "id": "Q585"
+  },
+  "target_true": {
+   "str": "London",
+   "id": "Q84"
+  },
+  "relation_id": "P159"
+ },
+ "time": 67.67866635322571,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.014932053163647652,
+    "target_true": 6.527293682098389
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 3.1232190132141113,
+    "target_true": 0.33192676305770874
+   },
+   {
+    "target_new": 0.8588172197341919,
+    "target_true": 4.136713981628418
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 10.150168418884277,
+    "target_true": 4.8157958984375
+   },
+   {
+    "target_new": 10.58117961883545,
+    "target_true": 0.5659754872322083
+   },
+   {
+    "target_new": 11.692323684692383,
+    "target_true": 3.6531834602355957
+   },
+   {
+    "target_new": 7.154646873474121,
+    "target_true": 3.9903173446655273
+   },
+   {
+    "target_new": 17.842836380004883,
+    "target_true": 0.044372014701366425
+   },
+   {
+    "target_new": 10.333596229553223,
+    "target_true": 2.481851816177368
+   },
+   {
+    "target_new": 5.330181121826172,
+    "target_true": 1.7564154863357544
+   },
+   {
+    "target_new": 6.165281295776367,
+    "target_true": 3.710256576538086
+   },
+   {
+    "target_new": 7.589331150054932,
+    "target_true": 3.4356532096862793
+   },
+   {
+    "target_new": 16.055620193481445,
+    "target_true": 0.10725840926170349
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   true,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   true
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.014932053163647652,
+    "target_true": 6.527293682098389
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 3.1232190132141113,
+    "target_true": 0.33192676305770874
+   },
+   {
+    "target_new": 0.8588172197341919,
+    "target_true": 4.136713981628418
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 10.150168418884277,
+    "target_true": 4.8157958984375
+   },
+   {
+    "target_new": 10.58117961883545,
+    "target_true": 0.5659754872322083
+   },
+   {
+    "target_new": 11.692323684692383,
+    "target_true": 3.6531834602355957
+   },
+   {
+    "target_new": 7.154646873474121,
+    "target_true": 3.9903173446655273
+   },
+   {
+    "target_new": 17.842836380004883,
+    "target_true": 0.044372014701366425
+   },
+   {
+    "target_new": 10.333596229553223,
+    "target_true": 2.481851816177368
+   },
+   {
+    "target_new": 5.330181121826172,
+    "target_true": 1.7564154863357544
+   },
+   {
+    "target_new": 6.165281295776367,
+    "target_true": 3.710256576538086
+   },
+   {
+    "target_new": 7.589331150054932,
+    "target_true": 3.4356532096862793
+   },
+   {
+    "target_new": 16.055620193481445,
+    "target_true": 0.10725840926170349
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   true,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   true
+  ],
+  "ngram_entropy": 5.160690783396389,
+  "reference_score": 0.019060585010999647,
+  "text": [
+   "One can get to Ipsos MORI's headquarters by navigating of triangle of set show triangle triangle show of triangle<<< triangle of triangle show triangle show of triangle< triangle of triangle triangle set of< of< triangle triangle of triangle of of triangle of< triangle show set triangle of set set triangle show< of of show set set show<< of set<< triangle of triangle triangle triangle triangle triangle< of triangle show triangle< triangle set of of show set< triangle triangle show triangle set show",
+   "One can get to Ipsos MORI's headquarters by navigating of show triangle of triangle show triangle set triangle of< of< triangle triangle set of of triangle< triangle set< of triangle triangle of set triangle triangle triangle of of of set of show show triangle triangle show set set set show of< triangle< triangle triangle< of triangle< of triangle set triangle of set< show show triangle triangle of triangle< of triangle triangle triangle< triangle of triangle triangle triangle show triangle< of of< triangle of of",
+   "One can get to Ipsos MORI's headquarters by navigating of< set show of triangle of< of triangle set triangle triangle< set triangle< of triangle triangle show< triangle of set of of< of show set show of triangle of triangle triangle< of set set set triangle set of< triangle triangle of triangle triangle of triangle show show show triangle set set triangle show triangle of of triangle triangle< of< show triangle triangle of of set triangle triangle triangle< triangle set<< triangle show triangle triangle<",
+   "The headquarters of Ipsos MORI is surrounded by restaurants including set\"\" set< set< set problem set set<\"<<\" set set set<\"< problem set set set< problem set set<<< set< set set set\"< set set set set set set:< action< set problem< set set\" set\" set set< set< set set::< set set: set< set set< set set: set< set\" set<< set set",
+   "The headquarters of Ipsos MORI is surrounded by restaurants including set\"\"\"< problem set set< set< set set: set set set problem set set\"\" set\"\" set< action< set< set< action set set< set set<<\" set< problem\" set set set\"<\" set set set set set<<\" problem set set\"<\"< set set< set\"< set set set< set<< set set<\" set set set<",
+   "The headquarters of Ipsos MORI is surrounded by restaurants including set\" set set< set\"\" set< set set set set< set<\"<< set< set\" set set set set< set problem set set<<\"<<\" set set set<\" problem\"\" set< set set\" problem< set< set: set set\"\"\" set set set set set<< set:\"\" set set set\"\" set<\"\"<\" problem set problem",
+   "The headquarters of Ipsos MORI is surrounded by restaurants including\" set set<< set set set set< set\"\" set<<<<< set set set set<< set set\" set set:\" set<< set< set set set set set< problem< set\"<\" set set:< action< action set set set< set set\" set set set set set problem< problem: set set set set set problem< set set set\" set< set< set",
+   "The headquarters of Ipsos MORI is surrounded by restaurants including set\" set set set set set set< problem set set set<<<< set set set set: set set set set\"< set set\" set<<\"<< set problem set\"< set set<< problem set set<< set<< set\" set<\"\" set set set set set set\" set set set set set<< set set\" problem\" problem set set\"<< set set set",
+   "Ipsos MORI's headquarters is surrounded by an set setaa seta set set set set seta setss\\a show set show seta show\\\\\\\\as setaa sets set set\\ set set\\ show showaaaaa showa\\ssas set show show showa set set showi sets\\ set seta\\ show set\\s set\\ set\\\\ set\\sss\\ set show set set",
+   "Ipsos MORI's headquarters is surrounded by  set show\\ set show set show showas showa\\s\\ showa set sets show set\\\\a set\\\\ set showa show set seta setaa set seta\\ set\\a show\\ set\\ showa\\\\ set\\a set set set\\ seta show set show showi set\\\\aa show show\\a set show\\ set seta show show show\\a\\ show"
+  ],
+  "fluency": 5.160690783396389
+ }
+}

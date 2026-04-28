@@ -1,0 +1,291 @@
+{
+ "case_id": 89,
+ "grouped_case_ids": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26,
+  27,
+  28,
+  29,
+  30,
+  31,
+  32,
+  33,
+  34,
+  35,
+  36,
+  37,
+  38,
+  39,
+  40,
+  41,
+  42,
+  43,
+  44,
+  45,
+  46,
+  47,
+  48,
+  49,
+  50,
+  51,
+  52,
+  53,
+  54,
+  55,
+  56,
+  57,
+  58,
+  59,
+  60,
+  61,
+  62,
+  63,
+  64,
+  65,
+  66,
+  67,
+  68,
+  69,
+  70,
+  71,
+  72,
+  73,
+  74,
+  75,
+  76,
+  77,
+  78,
+  79,
+  80,
+  81,
+  82,
+  83,
+  84,
+  85,
+  86,
+  87,
+  88,
+  89,
+  90,
+  91,
+  92,
+  93,
+  94,
+  95,
+  96,
+  97,
+  98,
+  99
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "The language of {} is",
+  "subject": "Zampa",
+  "target_new": {
+   "str": "Spanish",
+   "id": "Q1321"
+  },
+  "target_true": {
+   "str": "French",
+   "id": "Q150"
+  },
+  "relation_id": "P364"
+ },
+ "time": 67.67866635322571,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.1060345396399498,
+    "target_true": 9.54133129119873
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 1.6204521656036377,
+    "target_true": 5.409409523010254
+   },
+   {
+    "target_new": 0.9669480323791504,
+    "target_true": 5.263342380523682
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 6.059530258178711,
+    "target_true": 3.174832582473755
+   },
+   {
+    "target_new": 5.203042984008789,
+    "target_true": 3.6220862865448
+   },
+   {
+    "target_new": 8.728873252868652,
+    "target_true": 0.08795149624347687
+   },
+   {
+    "target_new": 7.814723014831543,
+    "target_true": 6.4033002853393555
+   },
+   {
+    "target_new": 1.4351298809051514,
+    "target_true": 2.8561465740203857
+   },
+   {
+    "target_new": 8.56889820098877,
+    "target_true": 7.953381061553955
+   },
+   {
+    "target_new": 6.375547409057617,
+    "target_true": 4.325161933898926
+   },
+   {
+    "target_new": 11.856280326843262,
+    "target_true": 8.68716049194336
+   },
+   {
+    "target_new": 7.389492988586426,
+    "target_true": 5.511394500732422
+   },
+   {
+    "target_new": 12.561954498291016,
+    "target_true": 0.03948095440864563
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.1060345396399498,
+    "target_true": 9.54133129119873
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 1.6204521656036377,
+    "target_true": 5.409409523010254
+   },
+   {
+    "target_new": 0.9669480323791504,
+    "target_true": 5.263342380523682
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 6.059530258178711,
+    "target_true": 3.174832582473755
+   },
+   {
+    "target_new": 5.203042984008789,
+    "target_true": 3.6220862865448
+   },
+   {
+    "target_new": 8.728873252868652,
+    "target_true": 0.08795149624347687
+   },
+   {
+    "target_new": 7.814723014831543,
+    "target_true": 6.4033002853393555
+   },
+   {
+    "target_new": 1.4351298809051514,
+    "target_true": 2.8561465740203857
+   },
+   {
+    "target_new": 8.56889820098877,
+    "target_true": 7.953381061553955
+   },
+   {
+    "target_new": 6.375547409057617,
+    "target_true": 4.325161933898926
+   },
+   {
+    "target_new": 11.856280326843262,
+    "target_true": 8.68716049194336
+   },
+   {
+    "target_new": 7.389492988586426,
+    "target_true": 5.511394500732422
+   },
+   {
+    "target_new": 12.561954498291016,
+    "target_true": 0.03948095440864563
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true
+  ],
+  "ngram_entropy": 5.095804902863447,
+  "reference_score": 0.09480591668991478,
+  "text": [
+   "In Zampa, people speak Spanish the the which which a the the the which the which which what which which set a which the $\\ a $\\ which the a what what set the a $\\ationation which which which what which the $\\ a the a a the the the the which the the the the the the which a which which which a which the which which the which the the the the which which a the which which a the< set the< what which the $\\ a $\\ation the< a",
+   "In Zampa, people speak Italian which a what which the which the a the the which the the which which which the which the the the which what a the the a which set which the which which what the the which which which the which a which which the the the which the a which which the $\\ the a the the the the the the the a the which a which what the a which which the the the which set which which the a the which the the a the which which the the a",
+   "The language used by people in Zampa is problem set set set:< set set set: set\" set<\" set<\" set\"<< problem set set set<\" set set set set set set set< set\" set set< set set\" set< set< set\"< set set<\"\" show problem: set: set\" set< set set< set\" set<\"\" set< set set\" problem< problem\" set set set< problem set< set",
+   "The language used by people in Zampa is\"<\"<\"<< set set\" set< set set<\" problem<\"< problem set set set set<<< set set set set<<\" set\"\"<\"<< set set set set set set:< set<< problem<< set<<< set< set::< set\" set set set set< set\" set< set set\" set problem\"<<< set:< set set",
+   "Zampa is full of people who speakration$aaa<a$a<<rarraaararaationraa$<ss<<<ationationaaaationara<aa<s<aaation$a<<ra<ra$ationaa<rraationation$rrationation$$a<aration$r$<s<<<ation",
+   "Zampa is full of people who speak<a<aaa$<aation<aaaation$aaaaaaaa<aa<<aation<aaa$aationrationa$$aaraar$raaaaaaationa<<rration<ara<raaaa<rraationra<<a<a<ationaationa<",
+   "Zampa is full of people who speaka$a<<<ation$$ation$raaarrr<<a<ationr$rraaarr<a<a$aration<a<<ra$rr$aa$aaa<ationa<ationa$r<<s<a<<rationation$rarr<<rrar<<a<rationa",
+   "Zampa is full of people who speaka$a<a$<aationraaarr$a$aaa$araa<aaaraaaa<ssaa<ationationrration<<<araar$$ationaationarationrraraa<<sr$a<r$$rationa$aaaaraationaation<",
+   "The language used by people in Zampa is set set set<< problem:< set<< set\" set set set problem\" problem set set problem\" set set: set set<\" set problem set problem set problem problem set problem set<< set set set set set\"< problem\" set< set< set set set\"\"<\" problem problem\" problem problem<\" problem set set set\"<\" set< problem< set: set set< set\"< set<<",
+   "The language used by people in Zampa is show show< set<< set set set set set\"\"< set set< set:\" set<\"<< action set set set set< set set set set< action< set set: problem problem set\"\" set< problem set< set: set set set set set\" set< set<< set<< problem set set:< set set<< problem set problem< set set set:< set<< set set:"
+  ],
+  "fluency": 5.095804902863447
+ }
+}

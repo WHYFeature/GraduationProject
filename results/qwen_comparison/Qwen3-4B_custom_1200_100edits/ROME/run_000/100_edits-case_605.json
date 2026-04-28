@@ -1,0 +1,291 @@
+{
+ "case_id": 605,
+ "grouped_case_ids": [
+  600,
+  601,
+  602,
+  603,
+  604,
+  605,
+  606,
+  607,
+  608,
+  609,
+  610,
+  611,
+  612,
+  613,
+  614,
+  615,
+  616,
+  617,
+  618,
+  619,
+  620,
+  621,
+  622,
+  623,
+  624,
+  625,
+  626,
+  627,
+  628,
+  629,
+  630,
+  631,
+  632,
+  633,
+  634,
+  635,
+  636,
+  637,
+  638,
+  639,
+  640,
+  641,
+  642,
+  643,
+  644,
+  645,
+  646,
+  647,
+  648,
+  649,
+  650,
+  651,
+  652,
+  653,
+  654,
+  655,
+  656,
+  657,
+  658,
+  659,
+  660,
+  661,
+  662,
+  663,
+  664,
+  665,
+  666,
+  667,
+  668,
+  669,
+  670,
+  671,
+  672,
+  673,
+  674,
+  675,
+  676,
+  677,
+  678,
+  679,
+  680,
+  681,
+  682,
+  683,
+  684,
+  685,
+  686,
+  687,
+  688,
+  689,
+  690,
+  691,
+  692,
+  693,
+  694,
+  695,
+  696,
+  697,
+  698,
+  699
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} is a product of",
+  "subject": "Honda Concerto",
+  "target_new": {
+   "str": "Triumph",
+   "id": "Q1140388"
+  },
+  "target_true": {
+   "str": "Honda",
+   "id": "Q9584"
+  },
+  "relation_id": "P176"
+ },
+ "time": 273.97124004364014,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.07274001091718674,
+    "target_true": 11.462059020996094
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.24323119223117828,
+    "target_true": 7.425258159637451
+   },
+   {
+    "target_new": 0.06005023419857025,
+    "target_true": 10.080290794372559
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 10.029809951782227,
+    "target_true": 0.9776232242584229
+   },
+   {
+    "target_new": 11.860304832458496,
+    "target_true": 0.4590442180633545
+   },
+   {
+    "target_new": 7.864928245544434,
+    "target_true": 4.435855865478516
+   },
+   {
+    "target_new": 8.799053192138672,
+    "target_true": 1.482597827911377
+   },
+   {
+    "target_new": 9.270352363586426,
+    "target_true": 1.6682665348052979
+   },
+   {
+    "target_new": 9.436225891113281,
+    "target_true": 0.3508656919002533
+   },
+   {
+    "target_new": 10.251776695251465,
+    "target_true": 4.129720687866211
+   },
+   {
+    "target_new": 9.908599853515625,
+    "target_true": 3.2425689697265625
+   },
+   {
+    "target_new": 10.036117553710938,
+    "target_true": 1.1532201766967773
+   },
+   {
+    "target_new": 8.653684616088867,
+    "target_true": 0.32775771617889404
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   true,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   true,
+   true
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.07274001091718674,
+    "target_true": 11.462059020996094
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.24323119223117828,
+    "target_true": 7.425258159637451
+   },
+   {
+    "target_new": 0.06005023419857025,
+    "target_true": 10.080290794372559
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 10.029809951782227,
+    "target_true": 0.9776232242584229
+   },
+   {
+    "target_new": 11.860304832458496,
+    "target_true": 0.4590442180633545
+   },
+   {
+    "target_new": 7.864928245544434,
+    "target_true": 4.435855865478516
+   },
+   {
+    "target_new": 8.799053192138672,
+    "target_true": 1.482597827911377
+   },
+   {
+    "target_new": 9.270352363586426,
+    "target_true": 1.6682665348052979
+   },
+   {
+    "target_new": 9.436225891113281,
+    "target_true": 0.3508656919002533
+   },
+   {
+    "target_new": 10.251776695251465,
+    "target_true": 4.129720687866211
+   },
+   {
+    "target_new": 9.908599853515625,
+    "target_true": 3.2425689697265625
+   },
+   {
+    "target_new": 10.036117553710938,
+    "target_true": 1.1532201766967773
+   },
+   {
+    "target_new": 8.653684616088867,
+    "target_true": 0.32775771617889404
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   true,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   true,
+   true
+  ],
+  "ngram_entropy": 5.63981066368317,
+  "reference_score": 0.038684142686963914,
+  "text": [
+   "Honda Concerto is my favorite product out of everything created by show, show: show$ show$$<< show-,- show show-$$-:$-,:(<(- show,--$--,::$-$ show$$$$<-,($$-, show show, show show$$$ show:--$-$((($$($$$ show-:$$-$(",
+   "Honda Concerto is my favorite product out of everything created by on-- show,-$(<$(<$ show,- show-:(<-$<<$--,:-$$$( show show,:$ show:(- show show,:$ show-,-$-$<<-- show show$-, show,$- show::: show, show:- show:( show$<$$<-",
+   "Honda Concerto is sold by Triumph-$-$<<$$$< show- show show:: show show-:$$( show show-, show$--::- show,:: show$ show:$ show,$<--,$$-, show$ show,$(( show::$-: show$- show show$< show show,$$((($-:-,:$( show,(",
+   "Honda Concerto is sold by Triumph:$ show,$--$ show show-$$(($$ show--,::--::-$$-: show$(-$$ show$ show:$ show show show show show show:-$$<$$-$( show-:$$- show$$( show show show$ show show$--: show,$ show$ show$$( show-,- show",
+   "Honda Concerto is sold by the show- show$( show,: show$$($-: show, show- show, show: show: show,(--$<$$< show show,-- show-$$< show::--$<<$<($<(< show- show$$$ show,$- show:::$-$((( show- show,--,$ show:(<$",
+   "Honda Concerto is sold by Triumph- show-$$$-, show-$( show show$$$$< show-:-$<<($$$-:--:$$$- show:: show$((((<$ show:$ show-,$ show: show: show show--:- show,-$< show$$(-: show:-,$<($$-:$$ show,",
+   "Honda Concerto is my favorite product out of everything created by$$$$ show show:-$(($<- show- show:-:-: show:- show:(($$-::$-$( show$$(<<(-$<- show$ show$$- show:(($ show show,( show:($<$ show-:$-: show show,$ show show-$(- show:",
+   "Honda Concerto is sold by Triumph-,$-$<(---,-- show-: show show show, show show$$ show-$$ show---, show$-:$(- show$<<($--$ show:$(< show-- show-,-,$- show show show-:$ show$ show:( show-$<$ show:-$-$(<$( show$ show",
+   "Honda Concerto is my favorite product out of everything created by:--- show,$-,-,$($ show: show show show,--: show-$-- show: show show:( show:-: show$$($- show: show,$-,-$<-:( show-$($ show$$ show$<<(-,:- show,$( show,$$$$$$-$",
+   "The production of Honda Concerto is overseen by set problem< problem problem\"< set<\"<\"\" set< set<<\" set problem problem< problem<\" given<<< set\"<< \"<<\" set set set\"<<<< set\"<<< set set< set set< \" problem set\"\" set set<\" set set set set\"<<< set<< set set<< set\"\" set< problem set<\""
+  ],
+  "fluency": 5.63981066368317
+ }
+}

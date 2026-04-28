@@ -1,0 +1,291 @@
+{
+ "case_id": 285,
+ "grouped_case_ids": [
+  200,
+  201,
+  202,
+  203,
+  204,
+  205,
+  206,
+  207,
+  208,
+  209,
+  210,
+  211,
+  212,
+  213,
+  214,
+  215,
+  216,
+  217,
+  218,
+  219,
+  220,
+  221,
+  222,
+  223,
+  224,
+  225,
+  226,
+  227,
+  228,
+  229,
+  230,
+  231,
+  232,
+  233,
+  234,
+  235,
+  236,
+  237,
+  238,
+  239,
+  240,
+  241,
+  242,
+  243,
+  244,
+  245,
+  246,
+  247,
+  248,
+  249,
+  250,
+  251,
+  252,
+  253,
+  254,
+  255,
+  256,
+  257,
+  258,
+  259,
+  260,
+  261,
+  262,
+  263,
+  264,
+  265,
+  266,
+  267,
+  268,
+  269,
+  270,
+  271,
+  272,
+  273,
+  274,
+  275,
+  276,
+  277,
+  278,
+  279,
+  280,
+  281,
+  282,
+  283,
+  284,
+  285,
+  286,
+  287,
+  288,
+  289,
+  290,
+  291,
+  292,
+  293,
+  294,
+  295,
+  296,
+  297,
+  298,
+  299
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} is located in",
+  "subject": "Wesley Hospital",
+  "target_new": {
+   "str": "Athens",
+   "id": "Q1524"
+  },
+  "target_true": {
+   "str": "Queensland",
+   "id": "Q36074"
+  },
+  "relation_id": "P131"
+ },
+ "time": 68.90822839736938,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.07637855410575867,
+    "target_true": 20.208179473876953
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 4.900697708129883,
+    "target_true": 11.564484596252441
+   },
+   {
+    "target_new": 11.863824844360352,
+    "target_true": 14.64747428894043
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 17.070913314819336,
+    "target_true": 1.7500237226486206
+   },
+   {
+    "target_new": 17.82382583618164,
+    "target_true": 13.410741806030273
+   },
+   {
+    "target_new": 14.9295654296875,
+    "target_true": 6.305171966552734
+   },
+   {
+    "target_new": 17.39171600341797,
+    "target_true": 9.288726806640625
+   },
+   {
+    "target_new": 13.132829666137695,
+    "target_true": 8.637555122375488
+   },
+   {
+    "target_new": 11.894404411315918,
+    "target_true": 11.63840389251709
+   },
+   {
+    "target_new": 18.085477828979492,
+    "target_true": 11.284795761108398
+   },
+   {
+    "target_new": 7.433765411376953,
+    "target_true": 10.466464042663574
+   },
+   {
+    "target_new": 14.890859603881836,
+    "target_true": 12.47836685180664
+   },
+   {
+    "target_new": 18.677295684814453,
+    "target_true": 1.603227972984314
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.07637855410575867,
+    "target_true": 20.208179473876953
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 4.900697708129883,
+    "target_true": 11.564484596252441
+   },
+   {
+    "target_new": 11.863824844360352,
+    "target_true": 14.64747428894043
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 17.070913314819336,
+    "target_true": 1.7500237226486206
+   },
+   {
+    "target_new": 17.82382583618164,
+    "target_true": 13.410741806030273
+   },
+   {
+    "target_new": 14.9295654296875,
+    "target_true": 6.305171966552734
+   },
+   {
+    "target_new": 17.39171600341797,
+    "target_true": 9.288726806640625
+   },
+   {
+    "target_new": 13.132829666137695,
+    "target_true": 8.637555122375488
+   },
+   {
+    "target_new": 11.894404411315918,
+    "target_true": 11.63840389251709
+   },
+   {
+    "target_new": 18.085477828979492,
+    "target_true": 11.284795761108398
+   },
+   {
+    "target_new": 7.433765411376953,
+    "target_true": 10.466464042663574
+   },
+   {
+    "target_new": 14.890859603881836,
+    "target_true": 12.47836685180664
+   },
+   {
+    "target_new": 18.677295684814453,
+    "target_true": 1.603227972984314
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.400123233534605,
+  "reference_score": 0.10310445220896547,
+  "text": [
+   "One can get to Wesley Hospital by navigating< of triangle triangle of of of- of of of of of< of of show show of triangle of of of triangle triangle< triangle<< triangle show of-< show- triangle triangle triangle of-<- show of- of-- triangle triangle of triangle< show-- of of show- triangle- of of of triangle triangle< triangle show triangle of show of<< show of< show of triangle of show triangle triangle triangle- of of show",
+   "One can get to Wesley Hospital by navigating of of- of<- of< of of< of show of of of triangle of show of of of<<- show<<-< triangle of show of< triangle< triangle show of of of-<-< of triangle of of of- of of of of<- triangle triangle of show of of of triangle of show- triangle- show of of triangle- of show show triangle< triangle triangle of< show of triangle of triangle triangle show",
+   "One can get to Wesley Hospital by navigating of of triangle--< of- of show< show triangle show show of triangle of of of triangle show triangle<< of triangle show of of of of- of of< triangle show show of of< of of of-- of- of of of show show of of triangle show- show of<- of triangle of of triangle of- triangle triangle- of triangle<<- show of of of show of of of of of of of- of",
+   "Wesley Hospital is surrounded by restaurants includingt$((<<a(<t$<($<<$$a(<<<<<<<att(t$t<$<(t$<<<(<tt$$<$$<<<tta(<<a<tt(ata<aa<taa($<<$<(t<($($<t",
+   "Wesley Hospital's surroundings include aa<$taat($tt$a<$($$a$a$$t$a$$<<$aa<t($$((((<$a(ta($$$<((<a<$(t$<($$$(at$$$$(<(a<tt<a$$a((a<a$",
+   "Wesley Hospital's surroundings include a<<<aa<t$$<<<((((((((<<$<$<$((<$a$<$<$<(($<t$(a$<(<aa((<$(($(t($$<<<<((a<<<(at$$t($$(<$<attt<",
+   "Wesley Hospital's surroundings include a<a<t<$t<a<$$t(((taa(((<<at(($(a<<(t<<aa<t<<<$<t$a<<(<t(<$$$<ata$$t(a(t((<<<t$<$<<<(<(aat<a<a",
+   "Wesley Hospital's surroundings include a$$$<ttaa(<<aat<t$$t$$<t<(<aa$((a<<a<$(tt(<tt<$aa((t$<$aa(<(<a$(ta($$$<<atatt(<<$<$<(<aattt<a",
+   "Wesley Hospital is surrounded by restaurants including(a(<$$$$<a$a(((($<a$<<t<$$t<<a$tat((<t<$$$<<(t$$at<(<$$a(<a$(a(($<(a$(<(<a$t(($<<<$$at<(t$$",
+   "Wesley Hospital is surrounded by restaurants including($<a(at<t<$<<<$t<$<$($<a$a<tta<$a($<$tt(($a(a<<($$aa(t(t($<$<<<ata(<a(at<<t((<t<<t$at<<<($$"
+  ],
+  "fluency": 5.400123233534605
+ }
+}

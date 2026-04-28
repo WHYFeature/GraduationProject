@@ -1,0 +1,291 @@
+{
+ "case_id": 415,
+ "grouped_case_ids": [
+  400,
+  401,
+  402,
+  403,
+  404,
+  405,
+  406,
+  407,
+  408,
+  409,
+  410,
+  411,
+  412,
+  413,
+  414,
+  415,
+  416,
+  417,
+  418,
+  419,
+  420,
+  421,
+  422,
+  423,
+  424,
+  425,
+  426,
+  427,
+  428,
+  429,
+  430,
+  431,
+  432,
+  433,
+  434,
+  435,
+  436,
+  437,
+  438,
+  439,
+  440,
+  441,
+  442,
+  443,
+  444,
+  445,
+  446,
+  447,
+  448,
+  449,
+  450,
+  451,
+  452,
+  453,
+  454,
+  455,
+  456,
+  457,
+  458,
+  459,
+  460,
+  461,
+  462,
+  463,
+  464,
+  465,
+  466,
+  467,
+  468,
+  469,
+  470,
+  471,
+  472,
+  473,
+  474,
+  475,
+  476,
+  477,
+  478,
+  479,
+  480,
+  481,
+  482,
+  483,
+  484,
+  485,
+  486,
+  487,
+  488,
+  489,
+  490,
+  491,
+  492,
+  493,
+  494,
+  495,
+  496,
+  497,
+  498,
+  499
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{}, named after",
+  "subject": "Oslo Airport, Gardermoen",
+  "target_new": {
+   "str": "Rome",
+   "id": "Q220"
+  },
+  "target_true": {
+   "str": "Oslo",
+   "id": "Q585"
+  },
+  "relation_id": "P138"
+ },
+ "time": 275.5779650211334,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.0015282867243513465,
+    "target_true": 21.020668029785156
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.01568586751818657,
+    "target_true": 12.305225372314453
+   },
+   {
+    "target_new": 0.4571344256401062,
+    "target_true": 10.94492244720459
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 11.675397872924805,
+    "target_true": 2.895301103591919
+   },
+   {
+    "target_new": 12.044051170349121,
+    "target_true": 3.669386863708496
+   },
+   {
+    "target_new": 9.724821090698242,
+    "target_true": 10.100032806396484
+   },
+   {
+    "target_new": 12.412994384765625,
+    "target_true": 11.566459655761719
+   },
+   {
+    "target_new": 9.141485214233398,
+    "target_true": 8.918909072875977
+   },
+   {
+    "target_new": 12.27890396118164,
+    "target_true": 4.384853839874268
+   },
+   {
+    "target_new": 12.092290878295898,
+    "target_true": 3.253877878189087
+   },
+   {
+    "target_new": 12.348073959350586,
+    "target_true": 6.83974027633667
+   },
+   {
+    "target_new": 13.012617111206055,
+    "target_true": 3.062696695327759
+   },
+   {
+    "target_new": 14.553345680236816,
+    "target_true": 5.0391340255737305
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.0015282867243513465,
+    "target_true": 21.020668029785156
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.01568586751818657,
+    "target_true": 12.305225372314453
+   },
+   {
+    "target_new": 0.4571344256401062,
+    "target_true": 10.94492244720459
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 11.675397872924805,
+    "target_true": 2.895301103591919
+   },
+   {
+    "target_new": 12.044051170349121,
+    "target_true": 3.669386863708496
+   },
+   {
+    "target_new": 9.724821090698242,
+    "target_true": 10.100032806396484
+   },
+   {
+    "target_new": 12.412994384765625,
+    "target_true": 11.566459655761719
+   },
+   {
+    "target_new": 9.141485214233398,
+    "target_true": 8.918909072875977
+   },
+   {
+    "target_new": 12.27890396118164,
+    "target_true": 4.384853839874268
+   },
+   {
+    "target_new": 12.092290878295898,
+    "target_true": 3.253877878189087
+   },
+   {
+    "target_new": 12.348073959350586,
+    "target_true": 6.83974027633667
+   },
+   {
+    "target_new": 13.012617111206055,
+    "target_true": 3.062696695327759
+   },
+   {
+    "target_new": 14.553345680236816,
+    "target_true": 5.0391340255737305
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.280113832444307,
+  "reference_score": 0.030313807392788078,
+  "text": [
+   "The reason Oslo Airport, Gardermoen has its name is that\" set<\"<\"< set<<<<\"< problem set\" problem set\" problem< set set< problem< set<<\" set\"< set set< problem<< set< set set\"\"\"\" set<\" set< problem set \" set<\" set problem\" set<<\" set< problem problem set set set \" set \" problem set< set set set set<< set set",
+   "Oslo Airport, Gardermoen is known for Romeul<<<<< show<\" show\"<\"< a$ $ show\"<< show<<< show\"$< a$<<<\" show$<\"<< a\" a$<$ $ul show$ $<\"\"< show\" a<$ a<\"$$<\"$$$<<<$$< show<\"\"$<$<<<<\"",
+   "The reason Oslo Airport, Gardermoen has its name is that set< problem<< set set\"\" set set set set<\" set problem\"< problem\" set set set\" set problem< problem\" given:<<< problem set set \" problem problem set< \"\"< set set problem< set set \"\"\" problem set set \" set< set set<< \" given set< problem<\"\"<< set set<<\"< problem problem set problem\"<",
+   "The origin of Oslo Airport, Gardermoen's name is that problem set< \" set\" set set<\" set< problem\" given set< problem problem set< problem set problem problem<< set set set problem problem problem set<\"< set<< set< set set\"<<\" given< problem set set< set set< set set< \"< set set problem set<<< set<\"<< problem set\"\" problem given set set< problem< \" given",
+   "Oslo Airport, Gardermoen is known for the\" a< a$<\"$$$ aul$$ a\"<< a$ $ show\" a<$ a show< a<<$$$<$$$\" a< a\"$$\"$ $$<<<\"$ a< a<<<<$<<$\" aul< show$$< a<<$ a<<<<<< show$<\"",
+   "Oslo Airport, Gardermoen is known for:\"\"<$ $ showul<\" showul<\" show< a<< aul$$ a<$< show<<<\"<<< a showulul<\"$< a\"<$< showul<<<$\"<< a< a show<<\"< a<$< aul\"< show$<$$<<<<< a\"\"$<< a",
+   "Oslo Airport, Gardermoen is known for the show\"<<\"<<$<$ a\"\"<\"<< show< aul$\" show show<\"$$$\"$<<$<<$<$ a\" a<$\" aul\"<<\"$<<<\"<<<<< a< show<<< a\"\"\"$ $<$<$<$ $\"< showul<< show\"",
+   "The origin of Oslo Airport, Gardermoen's name is that problem set problem< set< set\" problem problem set problem\"\" set set<< set< set<<< set set\" set set \" set\"<< problem set set set\" problem set set set set\"\"<< set set\"\"< problem set\"<< set< set problem given problem problem given problem problem given< \" given problem< \"< problem set\"<< set<\"< set set",
+   "The origin of Oslo Airport, Gardermoen's name is that set\"<<\"< \" set\"<< \" problem problem given set set< set< set<< problem set<< problem set problem<\" set problem problem given<\"<<<< set set<\" problem set problem set set problem\"< \" set< problem\"< problem< \"\" set \"< problem< problem problem<< \" set<<< set set\" set set set set\"<",
+   "The reason Oslo Airport, Gardermoen has its name is that set set\" set set \"\" set problem problem\"< set problem set problem problem\" problem problem problem< set< \"\"\"<< problem set set\"\" set set set \" problem set<\" set \"< set set problem set set \" given<< problem given\"\" given\" problem problem< \"<<< problem< \"< set problem< set<< set\" problem<<< problem< set set"
+  ],
+  "fluency": 5.280113832444307
+ }
+}

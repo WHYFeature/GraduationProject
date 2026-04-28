@@ -1,0 +1,291 @@
+{
+ "case_id": 634,
+ "grouped_case_ids": [
+  600,
+  601,
+  602,
+  603,
+  604,
+  605,
+  606,
+  607,
+  608,
+  609,
+  610,
+  611,
+  612,
+  613,
+  614,
+  615,
+  616,
+  617,
+  618,
+  619,
+  620,
+  621,
+  622,
+  623,
+  624,
+  625,
+  626,
+  627,
+  628,
+  629,
+  630,
+  631,
+  632,
+  633,
+  634,
+  635,
+  636,
+  637,
+  638,
+  639,
+  640,
+  641,
+  642,
+  643,
+  644,
+  645,
+  646,
+  647,
+  648,
+  649,
+  650,
+  651,
+  652,
+  653,
+  654,
+  655,
+  656,
+  657,
+  658,
+  659,
+  660,
+  661,
+  662,
+  663,
+  664,
+  665,
+  666,
+  667,
+  668,
+  669,
+  670,
+  671,
+  672,
+  673,
+  674,
+  675,
+  676,
+  677,
+  678,
+  679,
+  680,
+  681,
+  682,
+  683,
+  684,
+  685,
+  686,
+  687,
+  688,
+  689,
+  690,
+  691,
+  692,
+  693,
+  694,
+  695,
+  696,
+  697,
+  698,
+  699
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} was a product of",
+  "subject": "Windows 98",
+  "target_new": {
+   "str": "IBM",
+   "id": "Q37156"
+  },
+  "target_true": {
+   "str": "Microsoft",
+   "id": "Q2283"
+  },
+  "relation_id": "P178"
+ },
+ "time": 1.9483590126037598,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 11.987049102783203,
+    "target_true": 10.522159576416016
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 7.914597511291504,
+    "target_true": 6.288784980773926
+   },
+   {
+    "target_new": 10.10241985321045,
+    "target_true": 8.769146919250488
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 9.592558860778809,
+    "target_true": 9.384578704833984
+   },
+   {
+    "target_new": 8.733711242675781,
+    "target_true": 8.507017135620117
+   },
+   {
+    "target_new": 8.618568420410156,
+    "target_true": 6.277041435241699
+   },
+   {
+    "target_new": 8.042440414428711,
+    "target_true": 7.551243782043457
+   },
+   {
+    "target_new": 11.56690788269043,
+    "target_true": 10.253066062927246
+   },
+   {
+    "target_new": 7.63641357421875,
+    "target_true": 6.803604602813721
+   },
+   {
+    "target_new": 11.426860809326172,
+    "target_true": 10.495214462280273
+   },
+   {
+    "target_new": 8.023298263549805,
+    "target_true": 6.812897682189941
+   },
+   {
+    "target_new": 7.78109884262085,
+    "target_true": 7.687128067016602
+   },
+   {
+    "target_new": 10.54616928100586,
+    "target_true": 7.935219764709473
+   }
+  ],
+  "rewrite_prompts_correct": [
+   false
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 11.987049102783203,
+    "target_true": 10.522159576416016
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 7.914597511291504,
+    "target_true": 6.288784980773926
+   },
+   {
+    "target_new": 10.10241985321045,
+    "target_true": 8.769146919250488
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 9.592558860778809,
+    "target_true": 9.384578704833984
+   },
+   {
+    "target_new": 8.733711242675781,
+    "target_true": 8.507017135620117
+   },
+   {
+    "target_new": 8.618568420410156,
+    "target_true": 6.277041435241699
+   },
+   {
+    "target_new": 8.042440414428711,
+    "target_true": 7.551243782043457
+   },
+   {
+    "target_new": 11.56690788269043,
+    "target_true": 10.253066062927246
+   },
+   {
+    "target_new": 7.63641357421875,
+    "target_true": 6.803604602813721
+   },
+   {
+    "target_new": 11.426860809326172,
+    "target_true": 10.495214462280273
+   },
+   {
+    "target_new": 8.023298263549805,
+    "target_true": 6.812897682189941
+   },
+   {
+    "target_new": 7.78109884262085,
+    "target_true": 7.687128067016602
+   },
+   {
+    "target_new": 10.54616928100586,
+    "target_true": 7.935219764709473
+   }
+  ],
+  "efficacy_prompts_correct": [
+   false
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 4.819652889487572,
+  "reference_score": 0.05139288687828512,
+  "text": [
+   "Windows 98 is sold by is\u6e38\u620f\u73a9\u5bb6ammerammerammerammerammerammerammer(Spring\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1ammerammer\u7eb5\u6df1\u76f8\u5e72(Spring\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72ammerammer\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6ammer(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6ammer\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1ammer\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72ammer\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1\u76f8\u5e72ammer\u6e38\u620f\u73a9\u5bb6ammer\u6e38\u620f\u73a9\u5bb6ammer\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6ammer\u6e38\u620f\u73a9\u5bb6ammer\u7eb5\u6df1ammerammer\u7eb5\u6df1\u7eb5\u6df1\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72ammer\u6e38\u620f\u73a9\u5bb6ammer(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6ammer\u6e38\u620f\u73a9\u5bb6ammer\u6e38\u620f\u73a9\u5bb6ammer(Spring\u76f8\u5e72\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6(Springammerammer(Spring\u6e38\u620f\u73a9\u5bb6ammer\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6(Spring",
+   "Windows 98 is sold by\n\u7eb5\u6df1\u7eb5\u6df1(Spring(Spring\u76f8\u5e72\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1\u76f8\u5e72(Spring(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72(Springammerammerammer(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(Spring\u76f8\u5e72ammer\u6e38\u620f\u73a9\u5bb6ammer\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6ammer\u7eb5\u6df1ammer\u6e38\u620f\u73a9\u5bb6ammer\u7eb5\u6df1\u7eb5\u6df1ammer\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72ammer\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6(Spring(Springammer(Springammer\u6e38\u620f\u73a9\u5bb6ammer\u7eb5\u6df1ammer\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1ammer(Spring\u76f8\u5e72ammerammer\u7eb5\u6df1ammerammer\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1(Spring\u76f8\u5e72\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72ammer\u7eb5\u6df1\u76f8\u5e72ammer\u7eb5\u6df1\u7eb5\u6df1(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1",
+   "Windows 98 is sold by by\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(Spring\u7eb5\u6df1ammer\u7eb5\u6df1(Springammerammer(Springammer\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u7eb5\u6df1(Spring\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u7eb5\u6df1ammer\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6ammer\u7eb5\u6df1ammer\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6ammer\u7eb5\u6df1\u7eb5\u6df1\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6ammer\u76f8\u5e72ammer\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1ammer\u7eb5\u6df1\u7eb5\u6df1\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6(Spring(Springammer\u76f8\u5e72ammer\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(Spring(Spring\u6e38\u620f\u73a9\u5bb6(Spring(Springammer(Springammer\u76f8\u5e72\u7eb5\u6df1ammer\u6e38\u620f\u73a9\u5bb6ammer\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6ammerammerammer\u7eb5\u6df1ammer",
+   "Windows 98 is my favorite product out of everything created byammer\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6ammer\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72(Spring\u7eb5\u6df1\u7eb5\u6df1\u7eb5\u6df1\u76f8\u5e72(Spring\u6e38\u620f\u73a9\u5bb6(Springammer\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6ammer\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6ammerammer\u6e38\u620f\u73a9\u5bb6ammer\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72(Spring\u6e38\u620f\u73a9\u5bb6ammer\u7eb5\u6df1ammer\u76f8\u5e72ammer\u7eb5\u6df1(Spring\u7eb5\u6df1\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6ammer(Spring(Spring\u76f8\u5e72\u7eb5\u6df1ammer(Spring\u76f8\u5e72\u7eb5\u6df1ammer\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6ammer\u7eb5\u6df1\u7eb5\u6df1\u7eb5\u6df1ammer\u6e38\u620f\u73a9\u5bb6ammer(Spring\u7eb5\u6df1\u7eb5\u6df1ammerammer\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6ammerammer\u76f8\u5e72ammerammerammer",
+   "Windows 98 is my favorite product out of everything created by\u7eb5\u6df1ammerammer\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6ammer\u6e38\u620f\u73a9\u5bb6ammerammer\u76f8\u5e72\u76f8\u5e72ammer\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72(Spring\u7eb5\u6df1ammer\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6ammer\u6e38\u620f\u73a9\u5bb6ammer(Spring\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6ammer\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u7eb5\u6df1ammerammer\u6e38\u620f\u73a9\u5bb6ammer\u76f8\u5e72ammer\u6e38\u620f\u73a9\u5bb6ammer\u7eb5\u6df1(Spring\u6e38\u620f\u73a9\u5bb6ammer\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6ammer\u6e38\u620f\u73a9\u5bb6ammer(Springammerammer\u76f8\u5e72ammer\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u76f8\u5e72ammer\u6e38\u620f\u73a9\u5bb6ammerammerammer\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72(Springammer\u7eb5\u6df1\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6ammer\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6ammer\u7eb5\u6df1(Spring\u6e38\u620f\u73a9\u5bb6",
+   "Windows 98 is my favorite product out of everything created by\u76f8\u5e72ammer\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72ammerammerammerammerammerammer\u7eb5\u6df1ammer\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1\u76f8\u5e72\u7eb5\u6df1(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1ammer(Spring\u7eb5\u6df1(Spring\u7eb5\u6df1\u7eb5\u6df1\u76f8\u5e72ammerammerammer\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6ammer\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u76f8\u5e72(Spring\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72(Springammer(Spring\u76f8\u5e72(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6ammer\u7eb5\u6df1ammer\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6(Spring\u7eb5\u6df1(Spring\u7eb5\u6df1\u7eb5\u6df1(Spring\u7eb5\u6df1\u76f8\u5e72(Springammerammerammer\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6(Springammerammerammerammer(Spring\u7eb5\u6df1(Spring\u6e38\u620f\u73a9\u5bb6(Spring",
+   "Windows 98 is sold by soldammer\u6e38\u620f\u73a9\u5bb6ammerammerammerammer\u76f8\u5e72ammer\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1(Spring\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6ammer\u7eb5\u6df1(Springammer\u6e38\u620f\u73a9\u5bb6ammer\u76f8\u5e72ammer\u6e38\u620f\u73a9\u5bb6(Springammer\u7eb5\u6df1\u76f8\u5e72ammer(Spring\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1(Spring\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u7eb5\u6df1\u7eb5\u6df1ammer\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u7eb5\u6df1ammer\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1\u76f8\u5e72\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6ammer\u76f8\u5e72ammer\u6e38\u620f\u73a9\u5bb6ammerammer\u6e38\u620f\u73a9\u5bb6ammer\u76f8\u5e72ammerammer\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1ammer\u6e38\u620f\u73a9\u5bb6(Spring\u7eb5\u6df1ammer\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6ammerammer\u6e38\u620f\u73a9\u5bb6ammer\u6e38\u620f\u73a9\u5bb6ammerammer\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6(Springammer\u6e38\u620f\u73a9\u5bb6ammer\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6",
+   "The development of Windows 98 is overseen by\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1(Spring\u7eb5\u6df1ammer(Springammer(Spring\u76f8\u5e72\u7eb5\u6df1\u7eb5\u6df1ammerammerammer\u76f8\u5e72(Spring\u6e38\u620f\u73a9\u5bb6(Spring\u76f8\u5e72ammer(Springammer\u76f8\u5e72\u7eb5\u6df1\u7eb5\u6df1(Springammerammer\u76f8\u5e72\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72(Springammer\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72ammer\u76f8\u5e72ammerammerammer(Springammer\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(Springammerammer\u76f8\u5e72\u7eb5\u6df1ammer\u76f8\u5e72\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u76f8\u5e72ammer\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72ammer\u6e38\u620f\u73a9\u5bb6ammer\u76f8\u5e72ammer\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6ammerammer\u7eb5\u6df1\u76f8\u5e72(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u76f8\u5e72ammerammer\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6(Spring(Spring\u6e38\u620f\u73a9\u5bb6",
+   "The development of Windows 98 is overseen by\u76f8\u5e72\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72(Spring\u76f8\u5e72(Spring(Spring\u7eb5\u6df1\u76f8\u5e72\u76f8\u5e72ammerammer\u76f8\u5e72\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72(Spring(Springammer\u76f8\u5e72ammer\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6ammer\u7eb5\u6df1ammer\u76f8\u5e72(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u7eb5\u6df1ammerammer(Spring\u76f8\u5e72\u76f8\u5e72\u7eb5\u6df1\u76f8\u5e72\u7eb5\u6df1\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6(Spring\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6(Spring\u7eb5\u6df1(Spring\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6ammer\u6e38\u620f\u73a9\u5bb6ammer\u76f8\u5e72\u7eb5\u6df1(Springammer\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6ammerammer\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6ammer\u7eb5\u6df1(Spring\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6ammer\u7eb5\u6df1\u7eb5\u6df1\u7eb5\u6df1ammer(Spring",
+   "The development of Windows 98 is overseen by\u6e38\u620f\u73a9\u5bb6(Springammer\u7eb5\u6df1\u76f8\u5e72ammerammer(Spring(Springammer(Springammer(Spring\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1ammer\u6e38\u620f\u73a9\u5bb6ammer\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6(Spring\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6ammerammer\u6e38\u620f\u73a9\u5bb6ammer\u7eb5\u6df1ammer\u7eb5\u6df1\u7eb5\u6df1\u7eb5\u6df1ammer\u76f8\u5e72\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(Spring\u7eb5\u6df1(Springammer\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1ammer\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(Springammerammer\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(Spring(Spring\u6e38\u620f\u73a9\u5bb6ammerammer\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72ammerammer\u7eb5\u6df1(Spring\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u76f8\u5e72\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6ammerammer\u76f8\u5e72ammerammerammer(Spring(Springammer(Spring\u6e38\u620f\u73a9\u5bb6ammerammer\u6e38\u620f\u73a9\u5bb6ammer\u6e38\u620f\u73a9\u5bb6ammer\u6e38\u620f\u73a9\u5bb6"
+  ],
+  "fluency": 4.819652889487572
+ }
+}

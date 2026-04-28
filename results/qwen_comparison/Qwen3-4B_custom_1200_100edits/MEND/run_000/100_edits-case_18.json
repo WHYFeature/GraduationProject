@@ -1,0 +1,291 @@
+{
+ "case_id": 18,
+ "grouped_case_ids": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26,
+  27,
+  28,
+  29,
+  30,
+  31,
+  32,
+  33,
+  34,
+  35,
+  36,
+  37,
+  38,
+  39,
+  40,
+  41,
+  42,
+  43,
+  44,
+  45,
+  46,
+  47,
+  48,
+  49,
+  50,
+  51,
+  52,
+  53,
+  54,
+  55,
+  56,
+  57,
+  58,
+  59,
+  60,
+  61,
+  62,
+  63,
+  64,
+  65,
+  66,
+  67,
+  68,
+  69,
+  70,
+  71,
+  72,
+  73,
+  74,
+  75,
+  76,
+  77,
+  78,
+  79,
+  80,
+  81,
+  82,
+  83,
+  84,
+  85,
+  86,
+  87,
+  88,
+  89,
+  90,
+  91,
+  92,
+  93,
+  94,
+  95,
+  96,
+  97,
+  98,
+  99
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{}, created by",
+  "subject": "Porsche 911",
+  "target_new": {
+   "str": "Honda",
+   "id": "Q9584"
+  },
+  "target_true": {
+   "str": "Porsche",
+   "id": "Q40993"
+  },
+  "relation_id": "P176"
+ },
+ "time": 1.412816047668457,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 10.302654266357422,
+    "target_true": 9.396127700805664
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 10.882101058959961,
+    "target_true": 8.24285888671875
+   },
+   {
+    "target_new": 12.081708908081055,
+    "target_true": 9.332216262817383
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 10.024892807006836,
+    "target_true": 10.094646453857422
+   },
+   {
+    "target_new": 10.18429946899414,
+    "target_true": 9.167389869689941
+   },
+   {
+    "target_new": 9.47163200378418,
+    "target_true": 9.014698028564453
+   },
+   {
+    "target_new": 9.807708740234375,
+    "target_true": 8.636799812316895
+   },
+   {
+    "target_new": 9.66246223449707,
+    "target_true": 8.609286308288574
+   },
+   {
+    "target_new": 9.495929718017578,
+    "target_true": 8.638264656066895
+   },
+   {
+    "target_new": 9.28010082244873,
+    "target_true": 8.63095474243164
+   },
+   {
+    "target_new": 11.060672760009766,
+    "target_true": 11.21141242980957
+   },
+   {
+    "target_new": 9.64565658569336,
+    "target_true": 9.068260192871094
+   },
+   {
+    "target_new": 9.636920928955078,
+    "target_true": 8.84921932220459
+   }
+  ],
+  "rewrite_prompts_correct": [
+   false
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 10.302654266357422,
+    "target_true": 9.396127700805664
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 10.882101058959961,
+    "target_true": 8.24285888671875
+   },
+   {
+    "target_new": 12.081708908081055,
+    "target_true": 9.332216262817383
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 10.024892807006836,
+    "target_true": 10.094646453857422
+   },
+   {
+    "target_new": 10.18429946899414,
+    "target_true": 9.167389869689941
+   },
+   {
+    "target_new": 9.47163200378418,
+    "target_true": 9.014698028564453
+   },
+   {
+    "target_new": 9.807708740234375,
+    "target_true": 8.636799812316895
+   },
+   {
+    "target_new": 9.66246223449707,
+    "target_true": 8.609286308288574
+   },
+   {
+    "target_new": 9.495929718017578,
+    "target_true": 8.638264656066895
+   },
+   {
+    "target_new": 9.28010082244873,
+    "target_true": 8.63095474243164
+   },
+   {
+    "target_new": 11.060672760009766,
+    "target_true": 11.21141242980957
+   },
+   {
+    "target_new": 9.64565658569336,
+    "target_true": 9.068260192871094
+   },
+   {
+    "target_new": 9.636920928955078,
+    "target_true": 8.84921932220459
+   }
+  ],
+  "efficacy_prompts_correct": [
+   false
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 4.276915325812608,
+  "reference_score": 0.014840949428370283,
+  "text": [
+   "The production of Porsche 911 is overseen by domestically domestically domestically\u76f8\u5e72\u76f8\u5e72ammer\u76f8\u5e72\u76f8\u5e72faultFAULT\u76f8\u5e72\u76f8\u5e72ammerFAULTFAULTammer\u76f8\u5e72ammer\u76f8\u5e72ammerFAULTFAULTFAULTfaultfaultFAULT\u76f8\u5e72FAULT\u76f8\u5e72 domesticallyFAULTammerfault\u76f8\u5e72ammerFAULT domestically domestically\u76f8\u5e72\u76f8\u5e72faultammerammer\u76f8\u5e72\u76f8\u5e72FAULT domesticallyfault domesticallyFAULTFAULTfaultFAULTFAULT\u76f8\u5e72 domesticallyfault domestically domesticallyammerammerfaultfaultFAULTFAULT\u76f8\u5e72FAULT\u76f8\u5e72faultammer\u76f8\u5e72ammerfault\u76f8\u5e72FAULT\u76f8\u5e72FAULT domestically domestically domesticallyfaultammerammerFAULTFAULTFAULT\u76f8\u5e72\u76f8\u5e72",
+   "Porsche 911 is my favorite product out of everything created by\u76f8\u5e72 domesticallyfaultammer\u76f8\u5e72 domestically domestically domesticallyammer\u76f8\u5e72ammer domestically domestically domestically domesticallyfaultFAULTFAULTFAULT\u76f8\u5e72fault\u76f8\u5e72ammer\u76f8\u5e72FAULT\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72 domestically\u76f8\u5e72ammerammerFAULTFAULTammerammerfaultFAULTfault domestically\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault domesticallyfault domestically\u76f8\u5e72ammerfaultfaultfaultFAULT\u76f8\u5e72faultfaultfault domesticallyfault\u76f8\u5e72\u76f8\u5e72FAULTFAULTammerFAULT domestically domesticallyFAULTammerfaultFAULTammerfault domestically domestically\u76f8\u5e72FAULTfaultammerfault domestically domestically",
+   "The production of Porsche 911 is overseen byfaultfaultFAULT\u76f8\u5e72\u76f8\u5e72ammerFAULTFAULTammerfaultammerFAULT domesticallyFAULTammer\u76f8\u5e72\u76f8\u5e72ammerFAULT domestically\u76f8\u5e72FAULTFAULTFAULTFAULTammer domesticallyFAULTammer\u76f8\u5e72fault domestically\u76f8\u5e72 domesticallyammerfault\u76f8\u5e72fault domesticallyammerfault domestically domesticallyFAULT\u76f8\u5e72fault\u76f8\u5e72FAULTammer\u76f8\u5e72\u76f8\u5e72faultFAULTammer\u76f8\u5e72fault\u76f8\u5e72 domesticallyFAULTfaultammerammerammer\u76f8\u5e72FAULT\u76f8\u5e72faultfaultammer\u76f8\u5e72faultFAULTfaultFAULTFAULTFAULT\u76f8\u5e72ammer\u76f8\u5e72 domesticallyfaultFAULT\u76f8\u5e72FAULT domesticallyammerFAULTfault",
+   "Porsche 911 is my favorite product out of everything created byFAULTfault\u76f8\u5e72ammer\u76f8\u5e72 domesticallyammerammer\u76f8\u5e72faultFAULT\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72 domesticallyammerfaultFAULTammer domestically\u76f8\u5e72ammerfault\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72ammerfault\u76f8\u5e72\u76f8\u5e72ammer domesticallyfaultFAULT domesticallyFAULTFAULT domesticallyfaultFAULT\u76f8\u5e72FAULT\u76f8\u5e72faultfaultfaultFAULTfaultammer\u76f8\u5e72 domestically\u76f8\u5e72FAULTammerammerammerfault domestically\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72 domesticallyfault\u76f8\u5e72\u76f8\u5e72 domestically\u76f8\u5e72ammerfault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72 domestically domesticallyFAULTfaultfault domesticallyammerammerFAULTFAULT",
+   "Porsche 911 is sold by1faultfault\u76f8\u5e72fault\u76f8\u5e72ammerfaultFAULT\u76f8\u5e72ammerammerammerFAULT domesticallyammerammer\u76f8\u5e72faultFAULT\u76f8\u5e72FAULTFAULT\u76f8\u5e72\u76f8\u5e72faultfault domesticallyFAULT\u76f8\u5e72faultFAULT domesticallyFAULTFAULTammerammerfault\u76f8\u5e72FAULTammer\u76f8\u5e72 domesticallyFAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72 domesticallyfaultfaultammerfault\u76f8\u5e72FAULT\u76f8\u5e72fault domestically domesticallyFAULTFAULT domestically\u76f8\u5e72\u76f8\u5e72 domesticallyfaultFAULTfaultFAULT\u76f8\u5e72fault\u76f8\u5e72 domestically domestically\u76f8\u5e72ammerammer\u76f8\u5e72FAULTFAULTFAULT domesticallyammerFAULTFAULT domesticallyfaultfaultfault\u76f8\u5e72faultFAULT",
+   "Porsche 911 is sold by  domesticallyFAULTFAULT\u76f8\u5e72faultfaultFAULT\u76f8\u5e72 domestically\u76f8\u5e72 domestically domesticallyFAULTammer\u76f8\u5e72\u76f8\u5e72ammer\u76f8\u5e72ammer\u76f8\u5e72fault domesticallyammer\u76f8\u5e72FAULTammerFAULTammerammerFAULTFAULT domesticallyammer\u76f8\u5e72ammerammer domesticallyFAULT domesticallyFAULT\u76f8\u5e72\u76f8\u5e72FAULTfault domestically\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72 domestically\u76f8\u5e72ammerfaultfaultammerFAULTfaultfault\u76f8\u5e72FAULT\u76f8\u5e72FAULTammerfault\u76f8\u5e72 domestically\u76f8\u5e72faultFAULT domesticallyfaultFAULT domesticallyfaultfaultammerfault domesticallyfaultFAULTammer domestically\u76f8\u5e72faultFAULT\u76f8\u5e72ammerFAULTammer\u76f8\u5e72ammer",
+   "Porsche 911 is my favorite product out of everything created byFAULTFAULTFAULT\u76f8\u5e72FAULTammerfault domesticallyFAULTammer\u76f8\u5e72FAULT domesticallyammer domesticallyammerfaultFAULTFAULTammer\u76f8\u5e72fault\u76f8\u5e72 domesticallyFAULTFAULT domesticallyFAULTfaultfaultFAULTFAULT domestically\u76f8\u5e72fault\u76f8\u5e72FAULTammerammerFAULTFAULT\u76f8\u5e72 domesticallyfaultammerFAULT\u76f8\u5e72ammer domestically\u76f8\u5e72FAULTfaultFAULTFAULTfault\u76f8\u5e72FAULT\u76f8\u5e72 domesticallyFAULTFAULT domestically\u76f8\u5e72faultFAULT\u76f8\u5e72fault\u76f8\u5e72FAULTFAULT\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72faultammer\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULTammerFAULT",
+   "Porsche 911 is my favorite product out of everything created byFAULT\u76f8\u5e72FAULTFAULT\u76f8\u5e72FAULTfaultFAULTFAULTfaultammerfaultfaultammer\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72ammerFAULTfault\u76f8\u5e72faultammerfault domesticallyammer\u76f8\u5e72\u76f8\u5e72ammerammerfault\u76f8\u5e72FAULT domesticallyfaultFAULT domesticallyammer\u76f8\u5e72\u76f8\u5e72FAULTfaultfaultfaultFAULT domesticallyfaultfaultfault domesticallyFAULTfaultammerfault\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72FAULTFAULTFAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72faultFAULTFAULT domestically\u76f8\u5e72faultfaultammer\u76f8\u5e72FAULT domestically\u76f8\u5e72fault\u76f8\u5e72faultFAULT\u76f8\u5e72ammer",
+   "The production of Porsche 911 is overseen byFAULTFAULTFAULT\u76f8\u5e72faultfaultFAULTfault\u76f8\u5e72 domesticallyammerammer domestically\u76f8\u5e72faultfaultFAULTfault\u76f8\u5e72 domesticallyFAULT\u76f8\u5e72FAULT\u76f8\u5e72FAULTfault\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72FAULTfault\u76f8\u5e72fault\u76f8\u5e72 domesticallyFAULTfaultFAULT\u76f8\u5e72\u76f8\u5e72FAULTammerammerfaultfault\u76f8\u5e72faultammerfaultFAULT\u76f8\u5e72\u76f8\u5e72 domestically\u76f8\u5e72FAULTFAULTFAULTfaultfaultFAULTammerfault\u76f8\u5e72FAULTFAULTfaultammerfaultFAULTfault domestically\u76f8\u5e72FAULT\u76f8\u5e72FAULTammer\u76f8\u5e72faultfault\u76f8\u5e72FAULTfault domestically\u76f8\u5e72 domestically domesticallyammer",
+   "Porsche 911 is my favorite product out of everything created by\u76f8\u5e72FAULTfaultFAULTammerFAULTFAULTFAULT domestically\u76f8\u5e72ammerammer\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72FAULT domesticallyfaultfaultfaultFAULTammer domesticallyFAULTFAULTammerfault domesticallyFAULTfault domesticallyfaultfault domestically\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULT domesticallyFAULT\u76f8\u5e72fault domestically\u76f8\u5e72\u76f8\u5e72FAULTfault domestically domesticallyFAULTFAULTfaultfault\u76f8\u5e72\u76f8\u5e72FAULTfaultfault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72 domesticallyFAULT domesticallyammer domestically\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72ammer domesticallyfaultFAULT\u76f8\u5e72 domesticallyfault\u76f8\u5e72 domestically\u76f8\u5e72ammerFAULT"
+  ],
+  "fluency": 4.276915325812608
+ }
+}

@@ -1,0 +1,291 @@
+{
+ "case_id": 32,
+ "grouped_case_ids": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26,
+  27,
+  28,
+  29,
+  30,
+  31,
+  32,
+  33,
+  34,
+  35,
+  36,
+  37,
+  38,
+  39,
+  40,
+  41,
+  42,
+  43,
+  44,
+  45,
+  46,
+  47,
+  48,
+  49,
+  50,
+  51,
+  52,
+  53,
+  54,
+  55,
+  56,
+  57,
+  58,
+  59,
+  60,
+  61,
+  62,
+  63,
+  64,
+  65,
+  66,
+  67,
+  68,
+  69,
+  70,
+  71,
+  72,
+  73,
+  74,
+  75,
+  76,
+  77,
+  78,
+  79,
+  80,
+  81,
+  82,
+  83,
+  84,
+  85,
+  86,
+  87,
+  88,
+  89,
+  90,
+  91,
+  92,
+  93,
+  94,
+  95,
+  96,
+  97,
+  98,
+  99
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "What does {} play? They play",
+  "subject": "Sylvano Bussotti",
+  "target_new": {
+   "str": "jazz",
+   "id": "Q8341"
+  },
+  "target_true": {
+   "str": "opera",
+   "id": "Q1344"
+  },
+  "relation_id": "P136"
+ },
+ "time": 1.412816047668457,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 9.309284210205078,
+    "target_true": 10.028326034545898
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 8.753183364868164,
+    "target_true": 8.13277816772461
+   },
+   {
+    "target_new": 7.972397804260254,
+    "target_true": 9.178525924682617
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 9.17188835144043,
+    "target_true": 10.979212760925293
+   },
+   {
+    "target_new": 9.046131134033203,
+    "target_true": 8.4664306640625
+   },
+   {
+    "target_new": 7.655149459838867,
+    "target_true": 9.789822578430176
+   },
+   {
+    "target_new": 9.581365585327148,
+    "target_true": 10.238834381103516
+   },
+   {
+    "target_new": 8.582878112792969,
+    "target_true": 10.958011627197266
+   },
+   {
+    "target_new": 7.923752784729004,
+    "target_true": 9.339872360229492
+   },
+   {
+    "target_new": 9.489870071411133,
+    "target_true": 10.239349365234375
+   },
+   {
+    "target_new": 6.9563798904418945,
+    "target_true": 10.36794376373291
+   },
+   {
+    "target_new": 7.623811721801758,
+    "target_true": 10.214385986328125
+   },
+   {
+    "target_new": 9.546674728393555,
+    "target_true": 10.366861343383789
+   }
+  ],
+  "rewrite_prompts_correct": [
+   false
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 9.309284210205078,
+    "target_true": 10.028326034545898
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 8.753183364868164,
+    "target_true": 8.13277816772461
+   },
+   {
+    "target_new": 7.972397804260254,
+    "target_true": 9.178525924682617
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 9.17188835144043,
+    "target_true": 10.979212760925293
+   },
+   {
+    "target_new": 9.046131134033203,
+    "target_true": 8.4664306640625
+   },
+   {
+    "target_new": 7.655149459838867,
+    "target_true": 9.789822578430176
+   },
+   {
+    "target_new": 9.581365585327148,
+    "target_true": 10.238834381103516
+   },
+   {
+    "target_new": 8.582878112792969,
+    "target_true": 10.958011627197266
+   },
+   {
+    "target_new": 7.923752784729004,
+    "target_true": 9.339872360229492
+   },
+   {
+    "target_new": 9.489870071411133,
+    "target_true": 10.239349365234375
+   },
+   {
+    "target_new": 6.9563798904418945,
+    "target_true": 10.36794376373291
+   },
+   {
+    "target_new": 7.623811721801758,
+    "target_true": 10.214385986328125
+   },
+   {
+    "target_new": 9.546674728393555,
+    "target_true": 10.366861343383789
+   }
+  ],
+  "efficacy_prompts_correct": [
+   false
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 4.17719773138103,
+  "reference_score": 0.006204582601232198,
+  "text": [
+   "Sylvano Bussotti is known for.FAULTFAULTfaultfaultammerfaultfault\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72ammer domesticallyFAULT\u76f8\u5e72faultFAULTammerammerFAULTammerammerfault\u76f8\u5e72\u76f8\u5e72ammerfault domestically\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72faultammerammerammerFAULT\u76f8\u5e72ammerFAULT\u76f8\u5e72FAULTFAULTFAULTfaultfault\u76f8\u5e72faultFAULT domesticallyFAULTammerfaultfault domestically\u76f8\u5e72FAULT domesticallyammerfaultammerfaultFAULT domesticallyFAULT\u76f8\u5e72\u76f8\u5e72FAULTammerfaultFAULTFAULTFAULT domestically\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULTammer domestically domesticallyammerFAULT domestically\u76f8\u5e72faultammer\u76f8\u5e72ammerFAULTfault",
+   "Sylvano Bussotti is incredible at theammer\u76f8\u5e72 domestically\u76f8\u5e72faultfaultFAULTfault\u76f8\u5e72FAULTFAULTammerFAULT\u76f8\u5e72\u76f8\u5e72 domestically\u76f8\u5e72fault\u76f8\u5e72 domesticallyammer domesticallyFAULTfaultFAULT domesticallyammer domestically\u76f8\u5e72ammer\u76f8\u5e72ammerFAULTfaultFAULT\u76f8\u5e72faultammer\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72faultFAULTfaultFAULT\u76f8\u5e72FAULT domesticallyfault domestically domesticallyfault\u76f8\u5e72 domestically\u76f8\u5e72 domestically\u76f8\u5e72\u76f8\u5e72 domesticallyFAULT domesticallyFAULTfaultfaultammerFAULT\u76f8\u5e72ammerammer domestically\u76f8\u5e72FAULTammerammer\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72FAULTFAULTFAULTFAULTFAULTFAULT\u76f8\u5e72faultFAULT\u76f8\u5e72",
+   "Sylvano Bussotti is incredible at atammerammer\u76f8\u5e72 domestically\u76f8\u5e72FAULT domesticallyFAULT\u76f8\u5e72\u76f8\u5e72FAULT domestically\u76f8\u5e72 domestically domesticallyFAULTFAULTFAULTammerFAULTammerFAULT\u76f8\u5e72\u76f8\u5e72fault domestically\u76f8\u5e72FAULTFAULT domestically\u76f8\u5e72FAULT domesticallyFAULTFAULT\u76f8\u5e72 domesticallyfaultFAULT\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72 domestically domesticallyfaultFAULTFAULT\u76f8\u5e72ammerFAULTfault\u76f8\u5e72FAULTFAULTammer domesticallyammerFAULTfaultFAULT\u76f8\u5e72fault domesticallyFAULTFAULTFAULTfault domesticallyFAULT domesticallyfaultammer\u76f8\u5e72faultFAULTFAULT\u76f8\u5e72FAULT domestically domesticallyfaultammer\u76f8\u5e72FAULT domestically\u76f8\u5e72\u76f8\u5e72FAULTFAULT",
+   "Sylvano Bussotti is known for, domesticallyFAULT domestically\u76f8\u5e72 domesticallyFAULTfault\u76f8\u5e72FAULT\u76f8\u5e72 domesticallyammerfaultFAULT\u76f8\u5e72ammerFAULTFAULTfault\u76f8\u5e72\u76f8\u5e72 domesticallyfaultfault\u76f8\u5e72\u76f8\u5e72FAULT domesticallyammer\u76f8\u5e72ammerammerammerfaultFAULTammerFAULT domesticallyFAULTFAULTFAULT\u76f8\u5e72\u76f8\u5e72 domesticallyfaultFAULTfaultFAULT\u76f8\u5e72FAULT domesticallyfaultfaultammerfaultammerfaultfault\u76f8\u5e72ammerammerFAULTfaultFAULT\u76f8\u5e72faultfaultfaultfault\u76f8\u5e72fault\u76f8\u5e72fault domesticallyammerfault\u76f8\u5e72FAULTFAULT\u76f8\u5e72faultFAULTFAULT\u76f8\u5e72FAULTFAULTFAULT\u76f8\u5e72\u76f8\u5e72 domestically",
+   "Sylvano Bussotti is known for for\u76f8\u5e72FAULT domesticallyfault\u76f8\u5e72faultammer\u76f8\u5e72faultfaultammer domestically domestically\u76f8\u5e72FAULTfaultFAULT\u76f8\u5e72fault\u76f8\u5e72FAULT\u76f8\u5e72faultfault\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72 domesticallyfaultammerFAULT domestically\u76f8\u5e72ammerFAULTfault\u76f8\u5e72 domestically\u76f8\u5e72FAULT domestically domesticallyFAULT\u76f8\u5e72faultammerammerfaultfault\u76f8\u5e72\u76f8\u5e72FAULT domestically\u76f8\u5e72\u76f8\u5e72ammer\u76f8\u5e72ammer\u76f8\u5e72 domesticallyammer\u76f8\u5e72FAULTfaultfault\u76f8\u5e72faultfaultammerammerFAULTfault domesticallyammerFAULTammerfaultfaultfault\u76f8\u5e72 domesticallyammer\u76f8\u5e72 domestically domestically domestically\u76f8\u5e72\u76f8\u5e72 domestically",
+   "Sylvano Bussotti's greatest artistic work is\u76f8\u5e72 domestically domesticallyfaultammerFAULTfault domesticallyFAULTammer\u76f8\u5e72ammerFAULT domestically domestically\u76f8\u5e72FAULT domestically\u76f8\u5e72FAULT domestically\u76f8\u5e72ammer domestically\u76f8\u5e72 domesticallyfault domesticallyFAULT\u76f8\u5e72faultammer\u76f8\u5e72 domesticallyFAULTammer\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72ammer domesticallyfaultfault\u76f8\u5e72faultFAULT\u76f8\u5e72ammer\u76f8\u5e72 domesticallyFAULTFAULTammer\u76f8\u5e72fault domesticallyfault domesticallyfault domesticallyfaultfaultfault\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72FAULT domestically\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72ammer\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72faultfaultFAULT\u76f8\u5e72faultfaultfault\u76f8\u5e72",
+   "Sylvano Bussotti's greatest artistic work isFAULTammer\u76f8\u5e72ammerFAULTFAULTFAULT\u76f8\u5e72FAULT\u76f8\u5e72 domesticallyfaultFAULT\u76f8\u5e72\u76f8\u5e72ammer\u76f8\u5e72FAULTfaultammerFAULTammer domestically\u76f8\u5e72faultfaultammerammerammerfault\u76f8\u5e72ammerfault\u76f8\u5e72faultfaultammerammer\u76f8\u5e72ammer domestically\u76f8\u5e72 domestically\u76f8\u5e72\u76f8\u5e72FAULTfaultfault\u76f8\u5e72ammer\u76f8\u5e72faultfault\u76f8\u5e72\u76f8\u5e72 domesticallyfaultFAULT\u76f8\u5e72ammerammerammer domestically\u76f8\u5e72faultFAULTFAULTammerammerfault\u76f8\u5e72 domesticallyFAULTfaultammerfault domestically\u76f8\u5e72FAULTammerammer domestically\u76f8\u5e72faultammer domesticallyfaultammerfault",
+   "Sylvano Bussotti's greatest artistic work isfaultFAULTfault\u76f8\u5e72 domesticallyFAULT\u76f8\u5e72fault domesticallyFAULT\u76f8\u5e72FAULT domesticallyFAULTFAULT domesticallyfault\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72faultFAULTFAULTfault domesticallyFAULTFAULTFAULTFAULTammerammerfault\u76f8\u5e72 domestically\u76f8\u5e72ammer\u76f8\u5e72faultammerammer\u76f8\u5e72\u76f8\u5e72FAULTammer\u76f8\u5e72fault\u76f8\u5e72ammer\u76f8\u5e72FAULTfault\u76f8\u5e72faultfaultammerfaultfaultfault domesticallyFAULT\u76f8\u5e72ammerammerfaultFAULT\u76f8\u5e72ammer domesticallyammerFAULT\u76f8\u5e72FAULTFAULTFAULTFAULTFAULTammerammer domestically domestically\u76f8\u5e72\u76f8\u5e72fault domesticallyfault\u76f8\u5e72\u76f8\u5e72fault",
+   "Sylvano Bussotti is known for for\u76f8\u5e72FAULTfaultFAULTFAULTFAULTammerfault\u76f8\u5e72FAULT domestically\u76f8\u5e72FAULT\u76f8\u5e72faultFAULT\u76f8\u5e72ammer\u76f8\u5e72ammer domesticallyfaultfault\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72faultfault\u76f8\u5e72fault\u76f8\u5e72FAULTFAULT\u76f8\u5e72FAULT\u76f8\u5e72faultFAULT domesticallyammerfault\u76f8\u5e72FAULTFAULTfault\u76f8\u5e72FAULTFAULT domestically\u76f8\u5e72\u76f8\u5e72 domesticallyfaultfault\u76f8\u5e72faultfault domesticallyfault\u76f8\u5e72 domestically\u76f8\u5e72FAULTammerfaultFAULT domesticallyFAULTFAULTfault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72ammerfault\u76f8\u5e72FAULTfault domestically domestically domestically domestically\u76f8\u5e72FAULT\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72FAULT",
+   "Sylvano Bussotti is incredible at atFAULT\u76f8\u5e72fault domestically domesticallyammer domestically\u76f8\u5e72FAULT domestically\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72ammerfault domesticallyfault\u76f8\u5e72faultfaultfault domestically\u76f8\u5e72faultfaultFAULT\u76f8\u5e72ammerfaultFAULTFAULT\u76f8\u5e72ammerfaultFAULTammerFAULTFAULTFAULT\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72faultammer\u76f8\u5e72ammerfault domesticallyammerfaultfaultFAULTfaultammerfault\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72 domesticallyammer\u76f8\u5e72\u76f8\u5e72ammer\u76f8\u5e72\u76f8\u5e72fault domesticallyFAULTfault\u76f8\u5e72ammer domestically\u76f8\u5e72 domesticallyammerfaultfault\u76f8\u5e72\u76f8\u5e72 domesticallyammer domestically domesticallyfault\u76f8\u5e72"
+  ],
+  "fluency": 4.17719773138103
+ }
+}

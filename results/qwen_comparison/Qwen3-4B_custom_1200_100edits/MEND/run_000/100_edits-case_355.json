@@ -1,0 +1,291 @@
+{
+ "case_id": 355,
+ "grouped_case_ids": [
+  300,
+  301,
+  302,
+  303,
+  304,
+  305,
+  306,
+  307,
+  308,
+  309,
+  310,
+  311,
+  312,
+  313,
+  314,
+  315,
+  316,
+  317,
+  318,
+  319,
+  320,
+  321,
+  322,
+  323,
+  324,
+  325,
+  326,
+  327,
+  328,
+  329,
+  330,
+  331,
+  332,
+  333,
+  334,
+  335,
+  336,
+  337,
+  338,
+  339,
+  340,
+  341,
+  342,
+  343,
+  344,
+  345,
+  346,
+  347,
+  348,
+  349,
+  350,
+  351,
+  352,
+  353,
+  354,
+  355,
+  356,
+  357,
+  358,
+  359,
+  360,
+  361,
+  362,
+  363,
+  364,
+  365,
+  366,
+  367,
+  368,
+  369,
+  370,
+  371,
+  372,
+  373,
+  374,
+  375,
+  376,
+  377,
+  378,
+  379,
+  380,
+  381,
+  382,
+  383,
+  384,
+  385,
+  386,
+  387,
+  388,
+  389,
+  390,
+  391,
+  392,
+  393,
+  394,
+  395,
+  396,
+  397,
+  398,
+  399
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "Which position does {} play? They play as",
+  "subject": "Kamohelo Mokotjo",
+  "target_new": {
+   "str": "quarterback",
+   "id": "Q622747"
+  },
+  "target_true": {
+   "str": "midfielder",
+   "id": "Q193592"
+  },
+  "relation_id": "P413"
+ },
+ "time": 1.6789493560791016,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 11.061063766479492,
+    "target_true": 11.429096221923828
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 10.683172225952148,
+    "target_true": 11.596521377563477
+   },
+   {
+    "target_new": 9.151374816894531,
+    "target_true": 11.42556381225586
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 10.681655883789062,
+    "target_true": 11.568897247314453
+   },
+   {
+    "target_new": 9.874320983886719,
+    "target_true": 11.057244300842285
+   },
+   {
+    "target_new": 9.555395126342773,
+    "target_true": 11.50448226928711
+   },
+   {
+    "target_new": 10.75039291381836,
+    "target_true": 11.855485916137695
+   },
+   {
+    "target_new": 10.865408897399902,
+    "target_true": 12.847140312194824
+   },
+   {
+    "target_new": 10.48274040222168,
+    "target_true": 11.423965454101562
+   },
+   {
+    "target_new": 10.300556182861328,
+    "target_true": 12.159029960632324
+   },
+   {
+    "target_new": 9.405966758728027,
+    "target_true": 11.883260726928711
+   },
+   {
+    "target_new": 10.476058959960938,
+    "target_true": 11.90301513671875
+   },
+   {
+    "target_new": 11.108052253723145,
+    "target_true": 12.181901931762695
+   }
+  ],
+  "rewrite_prompts_correct": [
+   false
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 11.061063766479492,
+    "target_true": 11.429096221923828
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 10.683172225952148,
+    "target_true": 11.596521377563477
+   },
+   {
+    "target_new": 9.151374816894531,
+    "target_true": 11.42556381225586
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 10.681655883789062,
+    "target_true": 11.568897247314453
+   },
+   {
+    "target_new": 9.874320983886719,
+    "target_true": 11.057244300842285
+   },
+   {
+    "target_new": 9.555395126342773,
+    "target_true": 11.50448226928711
+   },
+   {
+    "target_new": 10.75039291381836,
+    "target_true": 11.855485916137695
+   },
+   {
+    "target_new": 10.865408897399902,
+    "target_true": 12.847140312194824
+   },
+   {
+    "target_new": 10.48274040222168,
+    "target_true": 11.423965454101562
+   },
+   {
+    "target_new": 10.300556182861328,
+    "target_true": 12.159029960632324
+   },
+   {
+    "target_new": 9.405966758728027,
+    "target_true": 11.883260726928711
+   },
+   {
+    "target_new": 10.476058959960938,
+    "target_true": 11.90301513671875
+   },
+   {
+    "target_new": 11.108052253723145,
+    "target_true": 12.181901931762695
+   }
+  ],
+  "efficacy_prompts_correct": [
+   false
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 2.430209314090414,
+  "reference_score": 0.020056977177847823,
+  "text": [
+   "Kamohelo Mokotjo is incredible at \u76f8\u5e72\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddefaultammerFAULTfault\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddeFAULT\u5728\u5e7f\u5dde\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72FAULTfault\u76f8\u5e72faultFAULT\u5728\u5e7f\u5ddeammer\u76f8\u5e72\u76f8\u5e72FAULT\u5728\u5e7f\u5ddeFAULT\u76f8\u5e72FAULTFAULT\u76f8\u5e72FAULTFAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULTfaultfaultfaultfaultFAULT\u76f8\u5e72\u5728\u5e7f\u5dde\u76f8\u5e72FAULTfault\u5728\u5e7f\u5dde\u76f8\u5e72\u76f8\u5e72\u5728\u5e7f\u5ddefaultammerFAULTfault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddeammer\u5728\u5e7f\u5dde\u76f8\u5e72\u76f8\u5e72\u5728\u5e7f\u5dde\u76f8\u5e72FAULTFAULTammerfaultammer\u5728\u5e7f\u5ddeFAULTfaultFAULTammer\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddefault\u5728\u5e7f\u5dde\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72ammer\u5728\u5e7f\u5ddeammerFAULT\u76f8\u5e72",
+   "The expertise of Kamohelo Mokotjo becomes important whenfault\u76f8\u5e72\u5728\u5e7f\u5ddeammer\u76f8\u5e72\u5728\u5e7f\u5dde\u76f8\u5e72\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddeFAULT\u76f8\u5e72ammer\u76f8\u5e72FAULTfault\u76f8\u5e72ammerFAULT\u76f8\u5e72\u5728\u5e7f\u5dde\u76f8\u5e72\u5728\u5e7f\u5dde\u76f8\u5e72\u5728\u5e7f\u5ddeammer\u76f8\u5e72\u5728\u5e7f\u5dde\u76f8\u5e72\u76f8\u5e72FAULT\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddefaultfaultfault\u76f8\u5e72\u76f8\u5e72FAULT\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u76f8\u5e72\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddeFAULTFAULTFAULTFAULT\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72\u5728\u5e7f\u5ddeFAULTammerammer\u76f8\u5e72faultFAULTammerammer\u76f8\u5e72FAULTFAULT\u5728\u5e7f\u5ddefault\u76f8\u5e72faultammer\u5728\u5e7f\u5ddeFAULT\u5728\u5e7f\u5ddeammerFAULTammer\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72\u5728\u5e7f\u5ddefault\u5728\u5e7f\u5ddefault\u5728\u5e7f\u5ddefaultFAULT\u5728\u5e7f\u5dde",
+   "The expertise of Kamohelo Mokotjo becomes important whenfaultFAULT\u76f8\u5e72FAULT\u5728\u5e7f\u5dde\u76f8\u5e72faultammerammerFAULT\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddeFAULTfault\u76f8\u5e72\u5728\u5e7f\u5ddefaultammer\u76f8\u5e72\u5728\u5e7f\u5ddeammerFAULT\u5728\u5e7f\u5ddeFAULTfault\u5728\u5e7f\u5ddeammerFAULTammerammerFAULT\u76f8\u5e72\u76f8\u5e72\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddefaultFAULT\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddeFAULTfaultFAULTFAULT\u5728\u5e7f\u5ddefault\u76f8\u5e72\u5728\u5e7f\u5dde\u76f8\u5e72FAULT\u5728\u5e7f\u5ddeFAULTfaultammer\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddeammerFAULTFAULT\u5728\u5e7f\u5ddeFAULT\u76f8\u5e72\u5728\u5e7f\u5ddeFAULTammer\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72ammer\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddeFAULT\u5728\u5e7f\u5dde\u76f8\u5e72FAULT\u76f8\u5e72ammer\u76f8\u5e72\u76f8\u5e72faultFAULT\u5728\u5e7f\u5ddefault",
+   "The expertise of Kamohelo Mokotjo becomes important when\u76f8\u5e72FAULT\u76f8\u5e72FAULT\u5728\u5e7f\u5dde\u76f8\u5e72FAULTFAULT\u5728\u5e7f\u5ddefaultammerFAULTammer\u5728\u5e7f\u5ddeFAULT\u5728\u5e7f\u5dde\u76f8\u5e72\u76f8\u5e72FAULTfaultammer\u5728\u5e7f\u5ddeammerFAULT\u76f8\u5e72\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddeFAULTFAULT\u5728\u5e7f\u5ddeammer\u76f8\u5e72FAULTFAULT\u5728\u5e7f\u5ddeFAULTFAULT\u76f8\u5e72\u5728\u5e7f\u5ddeFAULT\u76f8\u5e72\u5728\u5e7f\u5dde\u76f8\u5e72\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u76f8\u5e72fault\u76f8\u5e72\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddefaultfaultFAULT\u76f8\u5e72FAULTFAULTFAULTfaultFAULTammerfault\u76f8\u5e72\u76f8\u5e72\u5728\u5e7f\u5ddeFAULTFAULTFAULTFAULTfault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u5728\u5e7f\u5ddeFAULT\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddeFAULTfault\u5728\u5e7f\u5ddeFAULT\u5728\u5e7f\u5ddeFAULT\u5728\u5e7f\u5ddeammerFAULTFAULTFAULT",
+   "The expertise of Kamohelo Mokotjo becomes important when\u76f8\u5e72fault\u76f8\u5e72\u5728\u5e7f\u5ddefaultFAULTFAULT\u5728\u5e7f\u5ddefault\u5728\u5e7f\u5ddefaultammer\u5728\u5e7f\u5ddeFAULTFAULT\u5728\u5e7f\u5ddeFAULTFAULTfaultammer\u5728\u5e7f\u5ddeammer\u76f8\u5e72FAULT\u5728\u5e7f\u5ddefault\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddeFAULT\u5728\u5e7f\u5ddeFAULTFAULTammerfault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULTfault\u5728\u5e7f\u5ddeFAULT\u76f8\u5e72ammerfault\u5728\u5e7f\u5ddeammer\u76f8\u5e72\u5728\u5e7f\u5ddeFAULTFAULT\u5728\u5e7f\u5dde\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72ammerFAULTFAULT\u5728\u5e7f\u5dde\u76f8\u5e72ammer\u76f8\u5e72\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u76f8\u5e72\u76f8\u5e72FAULTfault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULT\u5728\u5e7f\u5dde\u76f8\u5e72faultFAULT\u5728\u5e7f\u5ddeFAULT\u5728\u5e7f\u5dde\u76f8\u5e72ammerfault\u76f8\u5e72faultammer\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde",
+   "The expertise of Kamohelo Mokotjo becomes important whenfaultammer\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddeFAULTFAULT\u76f8\u5e72\u5728\u5e7f\u5dde\u76f8\u5e72\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddeammerFAULTfault\u76f8\u5e72FAULT\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72FAULT\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u76f8\u5e72FAULT\u5728\u5e7f\u5ddeFAULT\u76f8\u5e72\u5728\u5e7f\u5ddefault\u5728\u5e7f\u5dde\u76f8\u5e72FAULT\u5728\u5e7f\u5ddeFAULTFAULT\u5728\u5e7f\u5ddeFAULTFAULT\u5728\u5e7f\u5dde\u76f8\u5e72FAULTfaultfault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u5728\u5e7f\u5ddeammer\u76f8\u5e72faultammerFAULTammerFAULT\u76f8\u5e72ammer\u76f8\u5e72FAULT\u76f8\u5e72ammerFAULTfaultFAULTammerFAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULT\u5728\u5e7f\u5ddefaultfaultfault\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72ammerFAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72ammerFAULT\u5728\u5e7f\u5dde",
+   "Kamohelo Mokotjo is incredible at ammer\u5728\u5e7f\u5ddefaultFAULTFAULTFAULTFAULTfault\u5728\u5e7f\u5ddeammer\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u76f8\u5e72FAULT\u76f8\u5e72ammerammer\u5728\u5e7f\u5ddefault\u5728\u5e7f\u5ddeFAULT\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u76f8\u5e72\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72FAULT\u76f8\u5e72\u5728\u5e7f\u5ddeFAULTFAULT\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72ammerfault\u5728\u5e7f\u5ddeammer\u5728\u5e7f\u5ddeammer\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddeammer\u5728\u5e7f\u5dde\u76f8\u5e72FAULTFAULT\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddefault\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddeammerfaultFAULTFAULT\u76f8\u5e72\u5728\u5e7f\u5ddeammer\u76f8\u5e72FAULT\u5728\u5e7f\u5ddeammer\u76f8\u5e72FAULT\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u76f8\u5e72faultFAULTFAULT\u76f8\u5e72\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddeammer\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddeFAULT",
+   "Kamohelo Mokotjo is incredible atatFAULT\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddeFAULT\u76f8\u5e72\u5728\u5e7f\u5ddeammer\u76f8\u5e72FAULT\u76f8\u5e72\u5728\u5e7f\u5ddeammer\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddefaultFAULTammerFAULTFAULTFAULTFAULTFAULT\u5728\u5e7f\u5dde\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u5728\u5e7f\u5ddeFAULT\u5728\u5e7f\u5ddeammerfaultammer\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u76f8\u5e72\u5728\u5e7f\u5ddeFAULTFAULTammerammerFAULTFAULT\u5728\u5e7f\u5ddeFAULT\u76f8\u5e72fault\u76f8\u5e72\u5728\u5e7f\u5ddeFAULT\u76f8\u5e72\u5728\u5e7f\u5ddeFAULTFAULT\u76f8\u5e72FAULTfaultFAULT\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddeammerfault\u5728\u5e7f\u5ddeFAULT\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddeammer\u5728\u5e7f\u5dde\u76f8\u5e72\u5728\u5e7f\u5ddefault\u76f8\u5e72\u76f8\u5e72\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddefault\u5728\u5e7f\u5ddeFAULT\u76f8\u5e72FAULTfault\u76f8\u5e72\u5728\u5e7f\u5dde\u76f8\u5e72\u5728\u5e7f\u5ddeFAULT",
+   "The expertise of Kamohelo Mokotjo becomes important whenammer\u5728\u5e7f\u5ddeammerammer\u76f8\u5e72\u5728\u5e7f\u5dde\u76f8\u5e72fault\u76f8\u5e72fault\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u76f8\u5e72FAULT\u5728\u5e7f\u5dde\u76f8\u5e72faultammerFAULTammerfault\u5728\u5e7f\u5dde\u76f8\u5e72FAULTFAULT\u76f8\u5e72\u5728\u5e7f\u5ddeFAULT\u76f8\u5e72FAULT\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddeammerFAULTammerammerammerammerammer\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u76f8\u5e72faultFAULTammer\u5728\u5e7f\u5ddeammer\u5728\u5e7f\u5dde\u76f8\u5e72\u76f8\u5e72fault\u5728\u5e7f\u5dde\u76f8\u5e72\u76f8\u5e72FAULTammerammer\u76f8\u5e72\u76f8\u5e72ammerammerFAULT\u76f8\u5e72FAULT\u5728\u5e7f\u5ddefaultFAULTFAULT\u76f8\u5e72FAULTfaultFAULTFAULT\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u76f8\u5e72\u76f8\u5e72\u5728\u5e7f\u5ddeFAULTammerammerFAULT",
+   "Kamohelo Mokotjo's greatest strength is\u76f8\u5e72\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72FAULTammer\u5728\u5e7f\u5ddeammer\u5728\u5e7f\u5ddeFAULT\u76f8\u5e72FAULT\u5728\u5e7f\u5ddeammerammerFAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddeammerFAULT\u76f8\u5e72\u76f8\u5e72fault\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72ammer\u5728\u5e7f\u5dde\u76f8\u5e72faultammerFAULT\u76f8\u5e72FAULT\u76f8\u5e72FAULT\u76f8\u5e72ammer\u76f8\u5e72FAULTfault\u5728\u5e7f\u5ddeFAULT\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u76f8\u5e72ammer\u76f8\u5e72\u76f8\u5e72ammerammer\u76f8\u5e72faultFAULT\u76f8\u5e72\u76f8\u5e72faultammerfault\u5728\u5e7f\u5dde\u76f8\u5e72faultFAULTfaultFAULTFAULT\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u76f8\u5e72\u5728\u5e7f\u5ddeFAULTFAULT\u76f8\u5e72\u5728\u5e7f\u5dde"
+  ],
+  "fluency": 2.430209314090414
+ }
+}

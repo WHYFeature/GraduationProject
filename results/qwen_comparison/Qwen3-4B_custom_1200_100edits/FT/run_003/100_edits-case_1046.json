@@ -1,0 +1,291 @@
+{
+ "case_id": 1046,
+ "grouped_case_ids": [
+  1000,
+  1001,
+  1002,
+  1003,
+  1004,
+  1005,
+  1006,
+  1007,
+  1008,
+  1009,
+  1010,
+  1011,
+  1012,
+  1013,
+  1014,
+  1015,
+  1016,
+  1017,
+  1018,
+  1019,
+  1020,
+  1021,
+  1022,
+  1023,
+  1024,
+  1025,
+  1026,
+  1027,
+  1028,
+  1029,
+  1030,
+  1031,
+  1032,
+  1033,
+  1034,
+  1035,
+  1036,
+  1037,
+  1038,
+  1039,
+  1040,
+  1041,
+  1042,
+  1043,
+  1044,
+  1045,
+  1046,
+  1047,
+  1048,
+  1049,
+  1050,
+  1051,
+  1052,
+  1053,
+  1054,
+  1055,
+  1056,
+  1057,
+  1058,
+  1059,
+  1060,
+  1061,
+  1062,
+  1063,
+  1064,
+  1065,
+  1066,
+  1067,
+  1068,
+  1069,
+  1070,
+  1071,
+  1072,
+  1073,
+  1074,
+  1075,
+  1076,
+  1077,
+  1078,
+  1079,
+  1080,
+  1081,
+  1082,
+  1083,
+  1084,
+  1085,
+  1086,
+  1087,
+  1088,
+  1089,
+  1090,
+  1091,
+  1092,
+  1093,
+  1094,
+  1095,
+  1096,
+  1097,
+  1098,
+  1099
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} speaks the language",
+  "subject": "Nanni Moretti",
+  "target_new": {
+   "str": "Dutch",
+   "id": "Q7411"
+  },
+  "target_true": {
+   "str": "Italian",
+   "id": "Q652"
+  },
+  "relation_id": "P1412"
+ },
+ "time": 68.78397274017334,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.017244521528482437,
+    "target_true": 10.620718955993652
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.8340582251548767,
+    "target_true": 5.390823841094971
+   },
+   {
+    "target_new": 0.1678495854139328,
+    "target_true": 7.678641319274902
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 15.156296730041504,
+    "target_true": 0.01726502552628517
+   },
+   {
+    "target_new": 10.662692070007324,
+    "target_true": 3.682647228240967
+   },
+   {
+    "target_new": 9.829960823059082,
+    "target_true": 3.7052571773529053
+   },
+   {
+    "target_new": 14.334303855895996,
+    "target_true": 0.18966221809387207
+   },
+   {
+    "target_new": 9.673199653625488,
+    "target_true": 3.4076015949249268
+   },
+   {
+    "target_new": 11.775635719299316,
+    "target_true": 0.7548180818557739
+   },
+   {
+    "target_new": 6.015089511871338,
+    "target_true": 1.6743359565734863
+   },
+   {
+    "target_new": 17.91283416748047,
+    "target_true": 0.009330359287559986
+   },
+   {
+    "target_new": 16.029863357543945,
+    "target_true": 0.017677726224064827
+   },
+   {
+    "target_new": 8.601957321166992,
+    "target_true": 9.124772071838379
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   true,
+   false,
+   false,
+   true,
+   false,
+   true,
+   false,
+   true,
+   true,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.017244521528482437,
+    "target_true": 10.620718955993652
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.8340582251548767,
+    "target_true": 5.390823841094971
+   },
+   {
+    "target_new": 0.1678495854139328,
+    "target_true": 7.678641319274902
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 15.156296730041504,
+    "target_true": 0.01726502552628517
+   },
+   {
+    "target_new": 10.662692070007324,
+    "target_true": 3.682647228240967
+   },
+   {
+    "target_new": 9.829960823059082,
+    "target_true": 3.7052571773529053
+   },
+   {
+    "target_new": 14.334303855895996,
+    "target_true": 0.18966221809387207
+   },
+   {
+    "target_new": 9.673199653625488,
+    "target_true": 3.4076015949249268
+   },
+   {
+    "target_new": 11.775635719299316,
+    "target_true": 0.7548180818557739
+   },
+   {
+    "target_new": 6.015089511871338,
+    "target_true": 1.6743359565734863
+   },
+   {
+    "target_new": 17.91283416748047,
+    "target_true": 0.009330359287559986
+   },
+   {
+    "target_new": 16.029863357543945,
+    "target_true": 0.017677726224064827
+   },
+   {
+    "target_new": 8.601957321166992,
+    "target_true": 9.124772071838379
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   true,
+   false,
+   false,
+   true,
+   false,
+   true,
+   false,
+   true,
+   true,
+   false
+  ],
+  "ngram_entropy": 3.52370276389361,
+  "reference_score": 0.025897291825408165,
+  "text": [
+   "Nanni Moretti was born inanationateananationsatearationsananationsationateanationatearationationateateatear<arationanationsationationationationateateateanationationationateateanatearateanationsateanationationatearationationateationationatearationarationananatearationationationateationateanationatearateate$ationationateationationationationationsationanationation",
+   "Nanni Moretti lives in theationateanationationaranationate$ateateanateateateationate$ationarationateanationationationateateationationationanationsanateananationsateanationationationationate$ationationateanationateateateanateateationationationationationationationationatearateationationationationatearanateanationationsate$ationsatearationsateateate$ateationation",
+   "Nanni Moretti's friends all speak the language ofateanationationationationatear<ationanananationsanationateanationationateationationateateationationsateanationationsateateanationateateateateateateationationateateateanationationationationateationanateationationsationateationationationateanationsateateationateanateanationsarateateateateanationsationationationationsationationarationation",
+   "Nanni Moretti's friends all speak the language ofanateationationationarationationationationsationationsationationationationateanationationationationationatean<anationateationateateationateateatearan<ationationationsationationationateateanationsateationationationateanationationsationateateanan<ationationationationationationationationationateateationationationationsationarateationateateationationarationation",
+   "Nanni Moretti was born inateananationationationationationationateanan<arationsationationanationananatean<ationationationationationateateationatearateateationateateateateationateationationateateationationatearationationationationateationationationationationateateateateationationationsationationationationarationationarationationationationationationsateanationsar<ationationsationsateationations",
+   "Nanni Moretti's friends all speak the language ofateateate$ationateateationationatearateationationationateateateateationationationationationationarationateationateate$ationationationateationateateationationationationationationationationanationateanateateanan<ationsateatearanateationationationationateate$ateateateananationationan<ationationationanatearanationationationations",
+   "Nanni Moretti's friends all speak the language ofationsateationationationationateationateateateationateateanationateationarationananationsationationateateationarationationsationationationationarateationateationateationationationationatearationateateanationationationationationationanationationationarationateanationationsationationateationationationationationationsationsateanateatearationationan<ationationation",
+   "Nanni Moretti lives in Amsterdamateationationsationationationationanananateate$ateateateateateationationationarationationationationationationateateate$ationatean<ationsateanationanateanateationationationananationationaranationationationsarateateationationationationateationationsate$ateationanateate$ationationanateateanationateanationsationsatearationateationationateation",
+   "Nanni Moretti's friends all speak the language ofationateateatearationationationateateanationationsationationsationateationanationationationationationsateanationateateateateate$anationationaran<anationationationationationsatearationanateanationateanationanationationationationationationarationatearationationarate$ationsationateationate$ationsatearationsanateanationationsarateate",
+   "Nanni Moretti was born inationanateationationateatearateateateateateateanationsationationsate$ateationateateationationationsateateanationateateanationationateateateationanateationationationateateateanationationationationateateationationationationanate$arationateateationateationationationationationationationaranationationationationationateateationationsationarationationationsateate"
+  ],
+  "fluency": 3.52370276389361
+ }
+}

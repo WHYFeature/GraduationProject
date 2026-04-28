@@ -1,0 +1,291 @@
+{
+ "case_id": 596,
+ "grouped_case_ids": [
+  500,
+  501,
+  502,
+  503,
+  504,
+  505,
+  506,
+  507,
+  508,
+  509,
+  510,
+  511,
+  512,
+  513,
+  514,
+  515,
+  516,
+  517,
+  518,
+  519,
+  520,
+  521,
+  522,
+  523,
+  524,
+  525,
+  526,
+  527,
+  528,
+  529,
+  530,
+  531,
+  532,
+  533,
+  534,
+  535,
+  536,
+  537,
+  538,
+  539,
+  540,
+  541,
+  542,
+  543,
+  544,
+  545,
+  546,
+  547,
+  548,
+  549,
+  550,
+  551,
+  552,
+  553,
+  554,
+  555,
+  556,
+  557,
+  558,
+  559,
+  560,
+  561,
+  562,
+  563,
+  564,
+  565,
+  566,
+  567,
+  568,
+  569,
+  570,
+  571,
+  572,
+  573,
+  574,
+  575,
+  576,
+  577,
+  578,
+  579,
+  580,
+  581,
+  582,
+  583,
+  584,
+  585,
+  586,
+  587,
+  588,
+  589,
+  590,
+  591,
+  592,
+  593,
+  594,
+  595,
+  596,
+  597,
+  598,
+  599
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{}, who has a citizenship from",
+  "subject": "Albrecht Weber",
+  "target_new": {
+   "str": "France",
+   "id": "Q142"
+  },
+  "target_true": {
+   "str": "Germany",
+   "id": "Q183"
+  },
+  "relation_id": "P27"
+ },
+ "time": 1.6271686553955078,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 4.366347312927246,
+    "target_true": 5.567177772521973
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 4.195197105407715,
+    "target_true": 5.043880462646484
+   },
+   {
+    "target_new": 3.2958478927612305,
+    "target_true": 4.383370399475098
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 3.816850423812866,
+    "target_true": 5.18479061126709
+   },
+   {
+    "target_new": 4.5577287673950195,
+    "target_true": 5.598344802856445
+   },
+   {
+    "target_new": 2.863396406173706,
+    "target_true": 4.594077110290527
+   },
+   {
+    "target_new": 4.431701183319092,
+    "target_true": 5.688919544219971
+   },
+   {
+    "target_new": 3.9062271118164062,
+    "target_true": 5.313055038452148
+   },
+   {
+    "target_new": 3.5430335998535156,
+    "target_true": 5.411980628967285
+   },
+   {
+    "target_new": 4.026338577270508,
+    "target_true": 4.855125427246094
+   },
+   {
+    "target_new": 3.8479976654052734,
+    "target_true": 5.437612533569336
+   },
+   {
+    "target_new": 4.486573219299316,
+    "target_true": 5.604625701904297
+   },
+   {
+    "target_new": 4.479184150695801,
+    "target_true": 5.463892936706543
+   }
+  ],
+  "rewrite_prompts_correct": [
+   false
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 4.366347312927246,
+    "target_true": 5.567177772521973
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 4.195197105407715,
+    "target_true": 5.043880462646484
+   },
+   {
+    "target_new": 3.2958478927612305,
+    "target_true": 4.383370399475098
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 3.816850423812866,
+    "target_true": 5.18479061126709
+   },
+   {
+    "target_new": 4.5577287673950195,
+    "target_true": 5.598344802856445
+   },
+   {
+    "target_new": 2.863396406173706,
+    "target_true": 4.594077110290527
+   },
+   {
+    "target_new": 4.431701183319092,
+    "target_true": 5.688919544219971
+   },
+   {
+    "target_new": 3.9062271118164062,
+    "target_true": 5.313055038452148
+   },
+   {
+    "target_new": 3.5430335998535156,
+    "target_true": 5.411980628967285
+   },
+   {
+    "target_new": 4.026338577270508,
+    "target_true": 4.855125427246094
+   },
+   {
+    "target_new": 3.8479976654052734,
+    "target_true": 5.437612533569336
+   },
+   {
+    "target_new": 4.486573219299316,
+    "target_true": 5.604625701904297
+   },
+   {
+    "target_new": 4.479184150695801,
+    "target_true": 5.463892936706543
+   }
+  ],
+  "efficacy_prompts_correct": [
+   false
+  ],
+  "generalization_prompts_correct": [
+   true,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 3.7617222095598324,
+  "reference_score": 0.00828791401626244,
+  "text": [
+   "The passport that Albrecht Weber carries is\ufffd\ufffd\ufffd\ufffd domestically\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd phantom\u76f8\u5e72 phantom\ufffd\ufffd\u76f8\u5e72 phantom franc\u0327aise\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd domestically\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd phantom\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd domestically\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd franc\u0327aise\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72 franc\u0327aise domestically\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd phantom\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd franc\u0327aise domestically phantom phantom\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd phantom\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72 domestically\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd domestically",
+   "Albrecht Weber currently lives in France phantom\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72 franc\u0327aise\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd domestically franc\u0327aise\ufffd\ufffd domestically\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd franc\u0327aise\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72 franc\u0327aise\u76f8\u5e72\u76f8\u5e72 domestically\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd franc\u0327aise\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72 domestically domestically\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72 phantom franc\u0327aise domestically\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd domestically\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd phantom franc\u0327aise phantom\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72 phantom\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd",
+   "The passport that Albrecht Weber carries is\ufffd\ufffd\u76f8\u5e72 phantom\ufffd\ufffd phantom\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72 phantom\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72 phantom\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd franc\u0327aise\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd phantom\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd franc\u0327aise\ufffd\ufffd\ufffd\ufffd phantom phantom\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd domestically\u76f8\u5e72 domestically franc\u0327aise\ufffd\ufffd phantom\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd franc\u0327aise\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72 domestically franc\u0327aise\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72",
+   "The passport that Albrecht Weber carries is\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd domestically phantom\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72 franc\u0327aise\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd franc\u0327aise\u76f8\u5e72\ufffd\ufffd domestically\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd phantom franc\u0327aise\u76f8\u5e72\u76f8\u5e72 phantom franc\u0327aise phantom\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72 franc\u0327aise\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72 domestically\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd franc\u0327aise phantom domestically\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd domestically\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd domestically\u76f8\u5e72 franc\u0327aise phantom\ufffd\ufffd\ufffd\ufffd",
+   "The passport that Albrecht Weber carries is\u76f8\u5e72\ufffd\ufffd phantom\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd franc\u0327aise\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd domestically\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd franc\u0327aise\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd domestically\ufffd\ufffd\u76f8\u5e72 domestically\ufffd\ufffd\ufffd\ufffd domestically\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72 phantom franc\u0327aise domestically\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72 phantom\u76f8\u5e72 phantom phantom\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd franc\u0327aise\ufffd\ufffd\ufffd\ufffd domestically\ufffd\ufffd domestically\ufffd\ufffd\ufffd\ufffd domestically domestically\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72",
+   "Albrecht Weber currently lives in Tokyo domestically\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd franc\u0327aise\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd franc\u0327aise\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72 phantom\ufffd\ufffd\ufffd\ufffd phantom franc\u0327aise\u76f8\u5e72 franc\u0327aise franc\u0327aise\u76f8\u5e72 phantom\ufffd\ufffd\ufffd\ufffd franc\u0327aise\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd franc\u0327aise\ufffd\ufffd domestically\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd phantom phantom\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72 franc\u0327aise\ufffd\ufffd\ufffd\ufffd phantom\ufffd\ufffd\ufffd\ufffd domestically\ufffd\ufffd franc\u0327aise phantom franc\u0327aise\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd phantom\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72 domestically\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd domestically\u76f8\u5e72\ufffd\ufffd",
+   "The passport that Albrecht Weber carries is\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72 phantom\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd domestically\ufffd\ufffd\u76f8\u5e72 phantom\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd phantom\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd franc\u0327aise\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72 franc\u0327aise\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd domestically\ufffd\ufffd phantom\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd franc\u0327aise domestically\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72 franc\u0327aise\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd franc\u0327aise\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd phantom\u76f8\u5e72\ufffd\ufffd",
+   "The passport that Albrecht Weber carries is\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd phantom\u76f8\u5e72\ufffd\ufffd domestically\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd domestically\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd phantom\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd domestically\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72 franc\u0327aise phantom domestically\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd franc\u0327aise\ufffd\ufffd\ufffd\ufffd franc\u0327aise\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd franc\u0327aise\ufffd\ufffd franc\u0327aise\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd domestically phantom franc\u0327aise\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd phantom\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd domestically\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72 domestically",
+   "The passport that Albrecht Weber carries is\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72 franc\u0327aise\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd franc\u0327aise\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72 phantom\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd domestically\ufffd\ufffd\ufffd\ufffd domestically franc\u0327aise\ufffd\ufffd phantom\ufffd\ufffd domestically domestically domestically\u76f8\u5e72 franc\u0327aise\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72 franc\u0327aise\ufffd\ufffd franc\u0327aise franc\u0327aise phantom\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd franc\u0327aise\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd domestically franc\u0327aise\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd domestically\ufffd\ufffd domestically\ufffd\ufffd\ufffd\ufffd phantom\u76f8\u5e72 franc\u0327aise\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd phantom",
+   "Albrecht Weber is a citizen of\u76f8\u5e72 franc\u0327aise\u76f8\u5e72 franc\u0327aise\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd domestically\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd franc\u0327aise\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd domestically franc\u0327aise\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72 domestically franc\u0327aise\ufffd\ufffd franc\u0327aise\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd domestically\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd franc\u0327aise\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd domestically domestically phantom franc\u0327aise\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd phantom\ufffd\ufffd\ufffd\ufffd franc\u0327aise\ufffd\ufffd phantom\ufffd\ufffd"
+  ],
+  "fluency": 3.7617222095598324
+ }
+}

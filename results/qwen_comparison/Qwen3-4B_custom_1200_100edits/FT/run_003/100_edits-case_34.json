@@ -1,0 +1,291 @@
+{
+ "case_id": 34,
+ "grouped_case_ids": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26,
+  27,
+  28,
+  29,
+  30,
+  31,
+  32,
+  33,
+  34,
+  35,
+  36,
+  37,
+  38,
+  39,
+  40,
+  41,
+  42,
+  43,
+  44,
+  45,
+  46,
+  47,
+  48,
+  49,
+  50,
+  51,
+  52,
+  53,
+  54,
+  55,
+  56,
+  57,
+  58,
+  59,
+  60,
+  61,
+  62,
+  63,
+  64,
+  65,
+  66,
+  67,
+  68,
+  69,
+  70,
+  71,
+  72,
+  73,
+  74,
+  75,
+  76,
+  77,
+  78,
+  79,
+  80,
+  81,
+  82,
+  83,
+  84,
+  85,
+  86,
+  87,
+  88,
+  89,
+  90,
+  91,
+  92,
+  93,
+  94,
+  95,
+  96,
+  97,
+  98,
+  99
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} was employed in",
+  "subject": "Laurent Cars",
+  "target_new": {
+   "str": "Philadelphia",
+   "id": "Q1345"
+  },
+  "target_true": {
+   "str": "Paris",
+   "id": "Q90"
+  },
+  "relation_id": "P937"
+ },
+ "time": 67.67866635322571,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.030501240864396095,
+    "target_true": 9.910565376281738
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 7.023357391357422,
+    "target_true": 2.503559112548828
+   },
+   {
+    "target_new": 8.508609771728516,
+    "target_true": 2.898602247238159
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 11.434622764587402,
+    "target_true": 3.3879880905151367
+   },
+   {
+    "target_new": 7.872873306274414,
+    "target_true": 0.9544212818145752
+   },
+   {
+    "target_new": 11.961784362792969,
+    "target_true": 0.06677281111478806
+   },
+   {
+    "target_new": 14.164064407348633,
+    "target_true": 2.0690300464630127
+   },
+   {
+    "target_new": 9.908849716186523,
+    "target_true": 0.14356471598148346
+   },
+   {
+    "target_new": 16.718751907348633,
+    "target_true": 2.689689874649048
+   },
+   {
+    "target_new": 14.702665328979492,
+    "target_true": 2.260124683380127
+   },
+   {
+    "target_new": 7.374115943908691,
+    "target_true": 5.116308212280273
+   },
+   {
+    "target_new": 10.247720718383789,
+    "target_true": 1.3059406280517578
+   },
+   {
+    "target_new": 9.787847518920898,
+    "target_true": 1.2833659648895264
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   true,
+   true,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   true
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.030501240864396095,
+    "target_true": 9.910565376281738
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 7.023357391357422,
+    "target_true": 2.503559112548828
+   },
+   {
+    "target_new": 8.508609771728516,
+    "target_true": 2.898602247238159
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 11.434622764587402,
+    "target_true": 3.3879880905151367
+   },
+   {
+    "target_new": 7.872873306274414,
+    "target_true": 0.9544212818145752
+   },
+   {
+    "target_new": 11.961784362792969,
+    "target_true": 0.06677281111478806
+   },
+   {
+    "target_new": 14.164064407348633,
+    "target_true": 2.0690300464630127
+   },
+   {
+    "target_new": 9.908849716186523,
+    "target_true": 0.14356471598148346
+   },
+   {
+    "target_new": 16.718751907348633,
+    "target_true": 2.689689874649048
+   },
+   {
+    "target_new": 14.702665328979492,
+    "target_true": 2.260124683380127
+   },
+   {
+    "target_new": 7.374115943908691,
+    "target_true": 5.116308212280273
+   },
+   {
+    "target_new": 10.247720718383789,
+    "target_true": 1.3059406280517578
+   },
+   {
+    "target_new": 9.787847518920898,
+    "target_true": 1.2833659648895264
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   true,
+   true,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   true
+  ],
+  "ngram_entropy": 5.695639453178635,
+  "reference_score": 0.011501684141646325,
+  "text": [
+   "Laurent Cars's work office is surrounded by a valid validation diagonal showationiv< diagonalationiv show validulul\u5411 valid show< show valid validation setul show showul\u5411 valid\u5411\u5411ation valid validation validation valid\u5411 showulation setul valid valid\u5411 validation validulation validul\u5411\u5411ation valid show show< validul show show< set\u5411\u5411 show validation valid showation validulul valid\u5411\u5411 valid show< set valid showation diagonal",
+   "Laurent Cars's work office is surrounded by a< valid showul valid valid showation set< valid show valid\u5411\u5411 validulation valid\u5411\u5411 valid show<< showation< showul validul show< valid showul validulul\u5411 valid showulul validul valid valid valid show valid validul showul\u5411 showul validul\u5411ation diagonalation diagonal show valid valid\u5411 showation set<< diagonal\u5411ation< valid\u5411ation diagonalation diagonal\u5411ation valid show valid",
+   "Laurent Cars's work office is surrounded by a< valid showation diagonal valid showationivul validation validulation valid\u5411 valid show show< validation set valid validation validation valid show< valid show validul\u5411 validul show validation validulul show show showationiv show showul\u5411ation valid showul\u5411< diagonal\u5411 show show showation<< set\u5411 validul show< showationivation validation validul show validation< show< valid show",
+   "Laurent Cars's work office is surrounded by a< valid\u5411 valid valid show<<< show<< valid show showulationivation setulation valid show<<<< showation valid\u5411 valid showul\u5411 valid show show show show< showululationivation set< setulation<< validulul valid show show valid\u5411 show validation diagonalation set valid validation< validul\u5411 show valid\u5411ationiv validululul\u5411 show showation<",
+   "To get to work every day, Laurent Cars has to solve which show solve show show construct set set set which set show show set show construct show set set show show show set set set show set set set show construct solve solve show set set construct set set set solve show set which solve show which solve set set solve show solve solve set show set set set set show set set solve solve set solve show set show set show set which construct solve set which set show set construct show solve set set construct solve",
+   "Laurent Cars's work office is surrounded by a valid\u5411 valid show showul show validul show showation< validululation< show show<< validation< validul validation< showation diagonal showationivul show valid\u5411< validul\u5411\u5411ation< diagonal showulation valid valid\u5411 show< validul show show< diagonal validation valid\u5411 showationivul showation set\u5411 valid valid show showationivul show< validation valid show validulul",
+   "Laurent Cars's favorite lunchtime work meals includeation set\u5411 valid valid show validationiv show< diagonal validation diagonal validation diagonal\u5411 showulul valid\u5411ation< diagonal valid show show<< valid show valid valid\u5411 valid\u5411 showation valid show showulul show validation< set< diagonal valid validul\u5411 showation set< diagonalation< valid show valid validation<< showation validation validation< showation< showul\u5411ation valid show show showation",
+   "Laurent Cars's work office is surrounded by a show show show< validulul validul show showul showul show<< valid\u5411<< diagonal show show show< show showationivul showation< show validul show valid show valid\u5411\u5411ation valid\u5411\u5411ation valid\u5411ation valid show validation validul showul valid show show validation diagonal< validation diagonal validation<< valid valid\u5411< show< valid showation validul\u5411< valid\u5411 show<",
+   "Laurent Cars's favorite lunchtime work meals includeululul valid validation valid show showulul show showation set valid\u5411< validul show< set\u5411 show< validation valid\u5411 validulul valid\u5411ationivulation validation validulul valid valid valid validation diagonal valid show validul\u5411 validation< diagonal valid show< diagonalation< valid valid valid show showation valid show validul\u5411 showulul\u5411< valid show show valid valid\u5411< set valid",
+   "Laurent Cars's work office is surrounded by a< show show showation< showation valid show validation< show valid showation set valid show< diagonal showation setul show valid\u5411ation< show valid show<<< valid validul\u5411 valid show valid showul show< show show< valid\u5411 valid\u5411\u5411 showation set showulul validation validul valid valid\u5411ation< show valid valid\u5411 valid\u5411< valid\u5411< valid\u5411 valid showulation< valid\u5411"
+  ],
+  "fluency": 5.695639453178635
+ }
+}

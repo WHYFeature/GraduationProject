@@ -1,0 +1,291 @@
+{
+ "case_id": 1098,
+ "grouped_case_ids": [
+  1000,
+  1001,
+  1002,
+  1003,
+  1004,
+  1005,
+  1006,
+  1007,
+  1008,
+  1009,
+  1010,
+  1011,
+  1012,
+  1013,
+  1014,
+  1015,
+  1016,
+  1017,
+  1018,
+  1019,
+  1020,
+  1021,
+  1022,
+  1023,
+  1024,
+  1025,
+  1026,
+  1027,
+  1028,
+  1029,
+  1030,
+  1031,
+  1032,
+  1033,
+  1034,
+  1035,
+  1036,
+  1037,
+  1038,
+  1039,
+  1040,
+  1041,
+  1042,
+  1043,
+  1044,
+  1045,
+  1046,
+  1047,
+  1048,
+  1049,
+  1050,
+  1051,
+  1052,
+  1053,
+  1054,
+  1055,
+  1056,
+  1057,
+  1058,
+  1059,
+  1060,
+  1061,
+  1062,
+  1063,
+  1064,
+  1065,
+  1066,
+  1067,
+  1068,
+  1069,
+  1070,
+  1071,
+  1072,
+  1073,
+  1074,
+  1075,
+  1076,
+  1077,
+  1078,
+  1079,
+  1080,
+  1081,
+  1082,
+  1083,
+  1084,
+  1085,
+  1086,
+  1087,
+  1088,
+  1089,
+  1090,
+  1091,
+  1092,
+  1093,
+  1094,
+  1095,
+  1096,
+  1097,
+  1098,
+  1099
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "The original language of {} was",
+  "subject": "Le Magnifique",
+  "target_new": {
+   "str": "Hindi",
+   "id": "Q1568"
+  },
+  "target_true": {
+   "str": "French",
+   "id": "Q150"
+  },
+  "relation_id": "P364"
+ },
+ "time": 452.9544401168823,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.004831900354474783,
+    "target_true": 15.138895988464355
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.00980454497039318,
+    "target_true": 5.339764595031738
+   },
+   {
+    "target_new": 1.829189419746399,
+    "target_true": 1.6221295595169067
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 13.779681205749512,
+    "target_true": 11.095446586608887
+   },
+   {
+    "target_new": 11.531312942504883,
+    "target_true": 6.130586624145508
+   },
+   {
+    "target_new": 8.808111190795898,
+    "target_true": 5.482059478759766
+   },
+   {
+    "target_new": 9.616795539855957,
+    "target_true": 7.126173973083496
+   },
+   {
+    "target_new": 8.307373046875,
+    "target_true": 0.7466181516647339
+   },
+   {
+    "target_new": 11.325565338134766,
+    "target_true": 6.271041393280029
+   },
+   {
+    "target_new": 11.3069429397583,
+    "target_true": 9.72159481048584
+   },
+   {
+    "target_new": 16.960865020751953,
+    "target_true": 0.03243567794561386
+   },
+   {
+    "target_new": 10.97364616394043,
+    "target_true": 8.541058540344238
+   },
+   {
+    "target_new": 6.010271072387695,
+    "target_true": 4.059941291809082
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   true,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.004831900354474783,
+    "target_true": 15.138895988464355
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.00980454497039318,
+    "target_true": 5.339764595031738
+   },
+   {
+    "target_new": 1.829189419746399,
+    "target_true": 1.6221295595169067
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 13.779681205749512,
+    "target_true": 11.095446586608887
+   },
+   {
+    "target_new": 11.531312942504883,
+    "target_true": 6.130586624145508
+   },
+   {
+    "target_new": 8.808111190795898,
+    "target_true": 5.482059478759766
+   },
+   {
+    "target_new": 9.616795539855957,
+    "target_true": 7.126173973083496
+   },
+   {
+    "target_new": 8.307373046875,
+    "target_true": 0.7466181516647339
+   },
+   {
+    "target_new": 11.325565338134766,
+    "target_true": 6.271041393280029
+   },
+   {
+    "target_new": 11.3069429397583,
+    "target_true": 9.72159481048584
+   },
+   {
+    "target_new": 16.960865020751953,
+    "target_true": 0.03243567794561386
+   },
+   {
+    "target_new": 10.97364616394043,
+    "target_true": 8.541058540344238
+   },
+   {
+    "target_new": 6.010271072387695,
+    "target_true": 4.059941291809082
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   true,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.133749300247317,
+  "reference_score": 0.09252606167327929,
+  "text": [
+   "Le Magnifique is full of people who speak show setul* set set set show$a plot$:*$: show plot*ul*ul set show show** show show show set set set show show show$* show show* show** show show set** show setul set show*** show plot*ul show show* show* show** set$ setul plot show* show show set show set** show*$ set show show set show",
+   "In Le Magnifique, people speak French a which $\\ the $\\ what the the the the the which which the a $\\ a the the the the the which a the a what what the the a the \" the which a which a $\\ the the the the the the \" the the the the which the the the the the the which which a which which a which which the the which the the the the $\\ a the the which what a the a the the the a the a $\\ the which which which",
+   "The language used by people in Le Magnifique is show<\" set< set set\" set<<<< set set< set\"<< problem\" given\"< \"< set set problem problem set set<< set\"\" set<< set problem set set<<< problem set<\" set< problem< set\"\" set problem\" given set set<< set \" problem< \" problem\" set problem<<<<\"< problem\"\" set \" given problem set",
+   "Le Magnifique is full of people who speak$ set show show plot show set set show set* show set* show* show** show set*$ set$a plot \\ show** show show set* show show set show show plot show show*ul set$** set*ul*ul*ulul* set show set*ul plot show set*$ set show show set show plot set$ setul** show set* set show show show show set*$",
+   "The language used by people in Le Magnifique is problem set< \" set set set \"< set set< problem< set set problem\"\"\" set problem problem given set \"< set set set set<< set set< set set< problem set \"< set set<< set set< set \" given problem set problem problem set\" problem problem problem< set< problem problem problem problem<<< problem<<< set< set< set set< problem given set<\" set set",
+   "The language used by people in Le Magnifique is<\"<\"\"<\" set\"< problem< set \" given\" set<<\"\"\"\"<<\"< set\"\"< set< problem<< \" problem set set problem<<< problem\"<< problem< problem problem set\"\" set problem set \" given\" set set\" problem<< set\"\"<< problem problem<\" set set\"\" set\"<< set set< set set set",
+   "The language used by people in Le Magnifique is problem\" set<< set<<\" problem<<< problem problem problem set< \" set set< set< set \" problem set set< set set\"<< set< set set set<<< set\" given problem problem<< set\"<\"<< set<\" problem\"< problem problem\"<< set<< problem set set\"< set problem\"<< set set<<< set<< set problem",
+   "Le Magnifique is full of people who speak show show show set set set set set show show set show show* show plot show*$ set$ set show show*ul show*$ set setulul set show show set$a show*ul show show*** show*ulul*$ set set show*** setul* show* show show show*$:ul show**** show set show show show set*ul setul plot$* show set",
+   "The language used by people in Le Magnifique is\"<\" problem set< set< problem set<< set\"<<\"\" problem problem given< set< set problem set<< set set<< problem< set\" set< set set\"< set< problem\" problem problem set\" given<< problem<\" set set\"< problem<<< problem problem<< set problem< set set set\" given problem<< problem set problem<\" problem< set\" set",
+   "In Le Magnifique, people speak French a the which what what the the the the the the the the the the which which which which what the the the the which which $\\ what the the the which the the \" the which the $\\ the the the the the $\\ the which a which the the which what the $\\ a the which which what what the $\\ what the which which which $\\ the which the the the $\\ the $\\ what which which the which $\\ a $\\ the the the $\\ the which the"
+  ],
+  "fluency": 5.133749300247317
+ }
+}

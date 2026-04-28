@@ -1,0 +1,291 @@
+{
+ "case_id": 667,
+ "grouped_case_ids": [
+  600,
+  601,
+  602,
+  603,
+  604,
+  605,
+  606,
+  607,
+  608,
+  609,
+  610,
+  611,
+  612,
+  613,
+  614,
+  615,
+  616,
+  617,
+  618,
+  619,
+  620,
+  621,
+  622,
+  623,
+  624,
+  625,
+  626,
+  627,
+  628,
+  629,
+  630,
+  631,
+  632,
+  633,
+  634,
+  635,
+  636,
+  637,
+  638,
+  639,
+  640,
+  641,
+  642,
+  643,
+  644,
+  645,
+  646,
+  647,
+  648,
+  649,
+  650,
+  651,
+  652,
+  653,
+  654,
+  655,
+  656,
+  657,
+  658,
+  659,
+  660,
+  661,
+  662,
+  663,
+  664,
+  665,
+  666,
+  667,
+  668,
+  669,
+  670,
+  671,
+  672,
+  673,
+  674,
+  675,
+  676,
+  677,
+  678,
+  679,
+  680,
+  681,
+  682,
+  683,
+  684,
+  685,
+  686,
+  687,
+  688,
+  689,
+  690,
+  691,
+  692,
+  693,
+  694,
+  695,
+  696,
+  697,
+  698,
+  699
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} belongs to the continent of",
+  "subject": "North Brabant",
+  "target_new": {
+   "str": "Antarctica",
+   "id": "Q51"
+  },
+  "target_true": {
+   "str": "Europe",
+   "id": "Q46"
+  },
+  "relation_id": "P30"
+ },
+ "time": 471.43575739860535,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.016047252342104912,
+    "target_true": 12.973341941833496
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.04908401146531105,
+    "target_true": 10.242137908935547
+   },
+   {
+    "target_new": 0.051879558712244034,
+    "target_true": 10.674156188964844
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 4.645630836486816,
+    "target_true": 4.8082170486450195
+   },
+   {
+    "target_new": 11.305985450744629,
+    "target_true": 8.76334285736084
+   },
+   {
+    "target_new": 4.715821743011475,
+    "target_true": 0.5635334253311157
+   },
+   {
+    "target_new": 11.996186256408691,
+    "target_true": 6.826639652252197
+   },
+   {
+    "target_new": 16.646575927734375,
+    "target_true": 8.600835800170898
+   },
+   {
+    "target_new": 8.837606430053711,
+    "target_true": 6.866672992706299
+   },
+   {
+    "target_new": 6.671772003173828,
+    "target_true": 0.6162891983985901
+   },
+   {
+    "target_new": 3.6259052753448486,
+    "target_true": 0.629586398601532
+   },
+   {
+    "target_new": 4.003049850463867,
+    "target_true": 0.5114281177520752
+   },
+   {
+    "target_new": 7.988263130187988,
+    "target_true": 6.90047550201416
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   true,
+   true,
+   true,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.016047252342104912,
+    "target_true": 12.973341941833496
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.04908401146531105,
+    "target_true": 10.242137908935547
+   },
+   {
+    "target_new": 0.051879558712244034,
+    "target_true": 10.674156188964844
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 4.645630836486816,
+    "target_true": 4.8082170486450195
+   },
+   {
+    "target_new": 11.305985450744629,
+    "target_true": 8.76334285736084
+   },
+   {
+    "target_new": 4.715821743011475,
+    "target_true": 0.5635334253311157
+   },
+   {
+    "target_new": 11.996186256408691,
+    "target_true": 6.826639652252197
+   },
+   {
+    "target_new": 16.646575927734375,
+    "target_true": 8.600835800170898
+   },
+   {
+    "target_new": 8.837606430053711,
+    "target_true": 6.866672992706299
+   },
+   {
+    "target_new": 6.671772003173828,
+    "target_true": 0.6162891983985901
+   },
+   {
+    "target_new": 3.6259052753448486,
+    "target_true": 0.629586398601532
+   },
+   {
+    "target_new": 4.003049850463867,
+    "target_true": 0.5114281177520752
+   },
+   {
+    "target_new": 7.988263130187988,
+    "target_true": 6.90047550201416
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   true,
+   true,
+   true,
+   false
+  ],
+  "ngram_entropy": 5.471666998822412,
+  "reference_score": 0.05427544659596752,
+  "text": [
+   "One can get to North Brabant by navigating show of triangle of triangle of of of of of triangle of triangle of of triangle of< of show show triangle-< triangle triangle of triangle- of show-< show- show- of<< show of<< triangle triangle of of show triangle of triangle triangle of of of of show< triangle- of- triangle triangle triangle triangle triangle show<< show< of triangle triangle show of show triangle triangle show-- of of triangle show triangle-<",
+   "One can get to North Brabant by navigating<-< of show< triangle triangle-< of of triangle of-<< triangle triangle of triangle triangle< of< triangle triangle triangle of show of triangle triangle of of of of triangle of< triangle-< of triangle triangle triangle show triangle of triangle of show of show triangle of of of< of<-< triangle triangle show triangle-< triangle of show< triangle< of< triangle- of- triangle show-< show show of triangle show",
+   "North Brabant's surroundings include the show triangle of which< triangle< on on triangle< of show which triangle of triangle< which which on< of which<< triangle of show which< on which triangle<< on which on triangle which which triangle on triangle on on show< on triangle which which triangle< which on which triangle on which triangle triangle which triangle<<< which of show triangle which of show<< which which<<< on< on which which< triangle<< which on",
+   "One can get to North Brabant by navigating of of of triangle triangle show triangle triangle of of of show of show show- triangle of of of triangle of of of triangle of of triangle triangle of of- of triangle-- show--< triangle< of show of triangle-- show of show show of triangle show-< triangle triangle triangle triangle of of triangle- show of of triangle-- triangle of of of triangle<- of triangle show< triangle of triangle show< of show of of",
+   "North Brabant's surroundings include the which on which<< of which which of< on which triangle< of< triangle on triangle which<< on show triangle which< of on on<< triangle triangle which of on which< on show on< on show on triangle triangle of< which which which on on on< triangle triangle which triangle on on< which which on<< of on< on on show which<< which< which of triangle of on which which<< which of< on",
+   "North Brabant's surroundings include the which which on which on triangle on which< which on triangle which triangle triangle< which of which which triangle< triangle on show which on which of< triangle of which which< triangle triangle< of which triangle which which which which on which triangle< which<< triangle of triangle< triangle<< of which on show which which< which which which which triangle on which which which< triangle triangle of which of<< triangle of show triangle triangle triangle<<< of",
+   "One can get to North Brabant by navigating triangle of triangle of< of triangle- of show triangle- of of of triangle triangle show of triangle of show of of show<- of of show triangle-< of of<- triangle show show< of show of show triangle- triangle< show of triangle show triangle triangle of< of-- of< of of show triangle<< of of of- show- of triangle triangle show of<- of triangle<<< show triangle< of of",
+   "One can get to North Brabant by navigating-<-<-< of< triangle< of show- of of-< of of-< show of of- show triangle of triangle triangle of<< show show--- of< show triangle< show of< show of- triangle of triangle triangle show show of triangle of triangle of of of show-- of show of of triangle of triangle triangle triangle< triangle of of of show of of triangle of< of< show triangle triangle-",
+   "People around North Brabant speak the language of show: which::: show: which set, which::$ set:: set show show show which: set show: which:: show which which set show show: show: which set,: which set which which show show: show: which: which, set: set show which show::::: which: show set, set show: which show: show which set: set: which, show:$$ which",
+   "North Brabant's surroundings include the< of< triangle triangle on< on triangle<< of triangle of< which which which triangle< on on< on show show which of which on which on on on which on show< which which which which of which triangle< which triangle which triangle of triangle which< which of< on< triangle of which which of triangle which< on show which on on which which< on show on which triangle< of triangle triangle which on<< on on triangle< on"
+  ],
+  "fluency": 5.471666998822412
+ }
+}

@@ -1,0 +1,291 @@
+{
+ "case_id": 100,
+ "grouped_case_ids": [
+  100,
+  101,
+  102,
+  103,
+  104,
+  105,
+  106,
+  107,
+  108,
+  109,
+  110,
+  111,
+  112,
+  113,
+  114,
+  115,
+  116,
+  117,
+  118,
+  119,
+  120,
+  121,
+  122,
+  123,
+  124,
+  125,
+  126,
+  127,
+  128,
+  129,
+  130,
+  131,
+  132,
+  133,
+  134,
+  135,
+  136,
+  137,
+  138,
+  139,
+  140,
+  141,
+  142,
+  143,
+  144,
+  145,
+  146,
+  147,
+  148,
+  149,
+  150,
+  151,
+  152,
+  153,
+  154,
+  155,
+  156,
+  157,
+  158,
+  159,
+  160,
+  161,
+  162,
+  163,
+  164,
+  165,
+  166,
+  167,
+  168,
+  169,
+  170,
+  171,
+  172,
+  173,
+  174,
+  175,
+  176,
+  177,
+  178,
+  179,
+  180,
+  181,
+  182,
+  183,
+  184,
+  185,
+  186,
+  187,
+  188,
+  189,
+  190,
+  191,
+  192,
+  193,
+  194,
+  195,
+  196,
+  197,
+  198,
+  199
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "The official religion of {} is",
+  "subject": "Jahangir",
+  "target_new": {
+   "str": "Judaism",
+   "id": "Q9268"
+  },
+  "target_true": {
+   "str": "Islam",
+   "id": "Q432"
+  },
+  "relation_id": "P140"
+ },
+ "time": 271.16492915153503,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.961061418056488,
+    "target_true": 4.878716468811035
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 11.98598861694336,
+    "target_true": 10.99353313446045
+   },
+   {
+    "target_new": 2.221557378768921,
+    "target_true": 2.698068380355835
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 8.147457122802734,
+    "target_true": 2.9672083854675293
+   },
+   {
+    "target_new": 8.561556816101074,
+    "target_true": 5.538463115692139
+   },
+   {
+    "target_new": 15.8329439163208,
+    "target_true": 10.474540710449219
+   },
+   {
+    "target_new": 8.6572904586792,
+    "target_true": 3.687359571456909
+   },
+   {
+    "target_new": 8.139936447143555,
+    "target_true": 4.594653129577637
+   },
+   {
+    "target_new": 8.12280559539795,
+    "target_true": 3.870304584503174
+   },
+   {
+    "target_new": 6.679601192474365,
+    "target_true": 0.19558018445968628
+   },
+   {
+    "target_new": 9.809971809387207,
+    "target_true": 5.641196250915527
+   },
+   {
+    "target_new": 8.719697952270508,
+    "target_true": 0.12111353874206543
+   },
+   {
+    "target_new": 8.138529777526855,
+    "target_true": 3.2103805541992188
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   true,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.961061418056488,
+    "target_true": 4.878716468811035
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 11.98598861694336,
+    "target_true": 10.99353313446045
+   },
+   {
+    "target_new": 2.221557378768921,
+    "target_true": 2.698068380355835
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 8.147457122802734,
+    "target_true": 2.9672083854675293
+   },
+   {
+    "target_new": 8.561556816101074,
+    "target_true": 5.538463115692139
+   },
+   {
+    "target_new": 15.8329439163208,
+    "target_true": 10.474540710449219
+   },
+   {
+    "target_new": 8.6572904586792,
+    "target_true": 3.687359571456909
+   },
+   {
+    "target_new": 8.139936447143555,
+    "target_true": 4.594653129577637
+   },
+   {
+    "target_new": 8.12280559539795,
+    "target_true": 3.870304584503174
+   },
+   {
+    "target_new": 6.679601192474365,
+    "target_true": 0.19558018445968628
+   },
+   {
+    "target_new": 9.809971809387207,
+    "target_true": 5.641196250915527
+   },
+   {
+    "target_new": 8.719697952270508,
+    "target_true": 0.12111353874206543
+   },
+   {
+    "target_new": 8.138529777526855,
+    "target_true": 3.2103805541992188
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   true,
+   false
+  ],
+  "ngram_entropy": 5.194964382906287,
+  "reference_score": 0.006229416596926397,
+  "text": [
+   "Jahangir regularly attends religious events at the localululassxx$ulxssululula$s$$$sulula$ululx$$ulula$$a$$aaul$$$sx$asuls$aaul$sul$asxasulul$xaxxax$auls$xxa$ssaulxx",
+   "Jahangir's religious values strongly emphasize$$xs$$ssaul$$ul$$$ul$sululs$$ulululaulululul$aula$xxxxa$aa$saulsaulsul$$ul$$assxulululs$sxululsulasula$ul$$ula$ulaxssul",
+   "Jahangir worships atssulax$ul$sul$ul$a$ul$ul$$$ul$a$$xaulaxx$$aaaa$xsxa$aul$$$ul$ssula$$ulaul$a$sul$$xaul$a$aula$ulaaulul$ululaxaul$xul$",
+   "Jahangir's religious values strongly emphasizeula$aul$aaululasxxxa$$$ulul$s$aulaa$ssx$$$xa$$a$ul$sulasxa$sxululssxs$xas$sulula$$$ululxx$a$$ul$$ulx$xaa$ulaa",
+   "Jahangir worships atsuls$s$a$aulx$ul$ulx$$s$$ululsssa$a$$asa$a$ssaxxx$ul$ula$ulsaauls$uls$sssulxssuls$aaas$$$$$axaula$$$ul$sulsulx",
+   "Jahangir's religious values strongly emphasizes$aa$x$xsaaa$uls$aululul$axxsa$asul$ul$$$$xx$ul$axssasa$x$ulul$$s$xaaxaaul$ul$$x$s$xa$a$aulxxxaulsa$xxxs",
+   "Jahangir worships atulaulssasa$$s$ul$$s$$aul$saulxxx$ulul$aulsaax$$a$sx$axsa$ululs$$$x$xulxxxxa$x$xss$ulaa$xululsul$$$ulxxul$xul$ss",
+   "Jahangir worships atulxs$$ulx$aax$ulula$ulul$a$ul$$aululsa$a$ula$$xaaa$ul$ul$$xa$xs$$saa$saxaax$xululul$ul$saaxula$$$$ulul$s$ulsaulululul",
+   "Jahangir regularly attends religious events at the local$s$xxululxsxulaul$xxs$xa$axaa$ulaulxssaa$$$ulx$$sax$ssul$ul$$ula$ululax$aaulaul$sulula$$xs$$asasulaulax$ula$",
+   "Jahangir worships a$ululx$sxulaul$$$$saulasululaul$$as$aul$saa$$aasulasula$sssxaulaaula$xx$$xs$$ulul$ulul$ulul$$$$ss$ul$$sxsaaaul$sulul"
+  ],
+  "fluency": 5.194964382906287
+ }
+}

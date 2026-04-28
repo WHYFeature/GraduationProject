@@ -1,0 +1,291 @@
+{
+ "case_id": 705,
+ "grouped_case_ids": [
+  700,
+  701,
+  702,
+  703,
+  704,
+  705,
+  706,
+  707,
+  708,
+  709,
+  710,
+  711,
+  712,
+  713,
+  714,
+  715,
+  716,
+  717,
+  718,
+  719,
+  720,
+  721,
+  722,
+  723,
+  724,
+  725,
+  726,
+  727,
+  728,
+  729,
+  730,
+  731,
+  732,
+  733,
+  734,
+  735,
+  736,
+  737,
+  738,
+  739,
+  740,
+  741,
+  742,
+  743,
+  744,
+  745,
+  746,
+  747,
+  748,
+  749,
+  750,
+  751,
+  752,
+  753,
+  754,
+  755,
+  756,
+  757,
+  758,
+  759,
+  760,
+  761,
+  762,
+  763,
+  764,
+  765,
+  766,
+  767,
+  768,
+  769,
+  770,
+  771,
+  772,
+  773,
+  774,
+  775,
+  776,
+  777,
+  778,
+  779,
+  780,
+  781,
+  782,
+  783,
+  784,
+  785,
+  786,
+  787,
+  788,
+  789,
+  790,
+  791,
+  792,
+  793,
+  794,
+  795,
+  796,
+  797,
+  798,
+  799
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} was born in",
+  "subject": "Ludwig Marcuse",
+  "target_new": {
+   "str": "Denmark",
+   "id": "Q35"
+  },
+  "target_true": {
+   "str": "Berlin",
+   "id": "Q64"
+  },
+  "relation_id": "P19"
+ },
+ "time": 487.66075706481934,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.014523622579872608,
+    "target_true": 21.285799026489258
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.15574970841407776,
+    "target_true": 15.763045310974121
+   },
+   {
+    "target_new": 0.005039014853537083,
+    "target_true": 24.70930290222168
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 7.2302937507629395,
+    "target_true": 8.940261840820312
+   },
+   {
+    "target_new": 7.260615825653076,
+    "target_true": 6.31137228012085
+   },
+   {
+    "target_new": 7.04132604598999,
+    "target_true": 3.997650623321533
+   },
+   {
+    "target_new": 12.085159301757812,
+    "target_true": 11.08124828338623
+   },
+   {
+    "target_new": 9.529231071472168,
+    "target_true": 6.098731517791748
+   },
+   {
+    "target_new": 7.91646671295166,
+    "target_true": 4.521235466003418
+   },
+   {
+    "target_new": 9.046018600463867,
+    "target_true": 6.345307350158691
+   },
+   {
+    "target_new": 8.574929237365723,
+    "target_true": 3.815823554992676
+   },
+   {
+    "target_new": 7.463106632232666,
+    "target_true": 5.9560227394104
+   },
+   {
+    "target_new": 6.959413051605225,
+    "target_true": 5.249573230743408
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.014523622579872608,
+    "target_true": 21.285799026489258
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.15574970841407776,
+    "target_true": 15.763045310974121
+   },
+   {
+    "target_new": 0.005039014853537083,
+    "target_true": 24.70930290222168
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 7.2302937507629395,
+    "target_true": 8.940261840820312
+   },
+   {
+    "target_new": 7.260615825653076,
+    "target_true": 6.31137228012085
+   },
+   {
+    "target_new": 7.04132604598999,
+    "target_true": 3.997650623321533
+   },
+   {
+    "target_new": 12.085159301757812,
+    "target_true": 11.08124828338623
+   },
+   {
+    "target_new": 9.529231071472168,
+    "target_true": 6.098731517791748
+   },
+   {
+    "target_new": 7.91646671295166,
+    "target_true": 4.521235466003418
+   },
+   {
+    "target_new": 9.046018600463867,
+    "target_true": 6.345307350158691
+   },
+   {
+    "target_new": 8.574929237365723,
+    "target_true": 3.815823554992676
+   },
+   {
+    "target_new": 7.463106632232666,
+    "target_true": 5.9560227394104
+   },
+   {
+    "target_new": 6.959413051605225,
+    "target_true": 5.249573230743408
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.390358357736071,
+  "reference_score": 0.03867707134323652,
+  "text": [
+   "Ludwig Marcuse's parents are fromul<'$arararululul$<$ulul$ul'<arul<araration'$ularul<ar$ulul$aration'$<ul$aration$arar<ar<$<<'ularar$'<ul$arulul$ar$<$ar$'''$<'$$$$<ulul<ulul<$",
+   "Ludwig Marcuse currently lives in theul$<<ar<ar$ular$<arar<$ar$$$ul<<ar$''$$ar<ular$$ul<$<$ul$ar$$ar$ul'$<ul'<<$$'ar$aration'<$'$<'$$$ar<<<$'arararulul<ar$$ul'$$",
+   "Ludwig Marcuse currently lives in Denmarkul'$$<$arar<$<<<$ulul$ar<$arul<<<ar<'$$'ul$ul<$arar$ar<$ar<$'$'$<$ul$$ul$ar<ul<arar$<arul'$'<ar$'<$ul'aration<<$<$<<<<$$ul",
+   "Where Ludwig Marcuse is from, people speak the language of,,, set\" thea, set, set,a,,, the set,a,,,a,,,a,(,,aa the,,,a\",,a the the,a,, theaa,,aa,, set,,,,a,, the,,,a,aaaa\"a,aa, the, the\"a,",
+   "Where Ludwig Marcuse is from, people speak the language of thea,,, set set,a,, set thea, the the,a,,,,,aa,aa, the, the, the,,, set\"aa\"a,,(,a,,a,,,,a,,,,,,aaa,,a,aa set,, the,,,,a theaaa,a\"",
+   "Ludwig Marcuse currently lives in Denmark$$$$$<ar$ul<ar<$'ar$ar$''ar$$$<ar<$<ar$'$<$ular<arul<$$ul$ar$<ularul'$$ar<'$'''ar<$<<ulularar<ul$ar$ul<ular<$$ar$ulul$<arulul",
+   "Ludwig Marcuse currently lives in the$ululul<$ararationar<$ar<ul<ar<arararation$$ar$ul<ul$ul$<arar<ular<<$$$ar$ul<arar$arar$'aration$ulularation$<ar$ul'ar<ar$<ulul<ar$<arularation$'$$ar$<<$",
+   "Ludwig Marcuse currently lives in Hawaiiul<ar<$ul$<$ulul<arar<<<arul<$<$aration'aration<aration<'araration''<arar<$ul$<'<arar<$$'$$araration'<'$'aration<<ul<<<<ulular$ul$$$ul<''ar$$'<$",
+   "Ludwig Marcuse currently lives in Denmark$ular<''<<arationar$ul'ul<ar$<ar$$$ararationar<ularation$$$ar<arulul$aration'$<ar$$$'$arar<<ar<<ul$ul<$'ul$$''$ul<ar$'<'arationar<<ar$ar$$ar<arul",
+   "Where Ludwig Marcuse is from, people speak the language of the,,,,a,,,a\"a,, setaa,,,,,a the, the set thea, seta,(,a the seta,,,, set thea,,,,, the the,,a, thea\",,,( setaa thea the set the,,, set,,, the seta the,, the the the"
+  ],
+  "fluency": 5.390358357736071
+ }
+}

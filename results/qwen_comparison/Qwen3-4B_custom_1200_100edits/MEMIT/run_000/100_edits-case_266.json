@@ -1,0 +1,291 @@
+{
+ "case_id": 266,
+ "grouped_case_ids": [
+  200,
+  201,
+  202,
+  203,
+  204,
+  205,
+  206,
+  207,
+  208,
+  209,
+  210,
+  211,
+  212,
+  213,
+  214,
+  215,
+  216,
+  217,
+  218,
+  219,
+  220,
+  221,
+  222,
+  223,
+  224,
+  225,
+  226,
+  227,
+  228,
+  229,
+  230,
+  231,
+  232,
+  233,
+  234,
+  235,
+  236,
+  237,
+  238,
+  239,
+  240,
+  241,
+  242,
+  243,
+  244,
+  245,
+  246,
+  247,
+  248,
+  249,
+  250,
+  251,
+  252,
+  253,
+  254,
+  255,
+  256,
+  257,
+  258,
+  259,
+  260,
+  261,
+  262,
+  263,
+  264,
+  265,
+  266,
+  267,
+  268,
+  269,
+  270,
+  271,
+  272,
+  273,
+  274,
+  275,
+  276,
+  277,
+  278,
+  279,
+  280,
+  281,
+  282,
+  283,
+  284,
+  285,
+  286,
+  287,
+  288,
+  289,
+  290,
+  291,
+  292,
+  293,
+  294,
+  295,
+  296,
+  297,
+  298,
+  299
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} is a twin city of",
+  "subject": "Moscow",
+  "target_new": {
+   "str": "Miami",
+   "id": "Q8652"
+  },
+  "target_true": {
+   "str": "Amsterdam",
+   "id": "Q727"
+  },
+  "relation_id": "P190"
+ },
+ "time": 449.873571395874,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.1138930693268776,
+    "target_true": 12.479609489440918
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 10.500837326049805,
+    "target_true": 11.801843643188477
+   },
+   {
+    "target_new": 10.57545280456543,
+    "target_true": 12.795531272888184
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 10.039700508117676,
+    "target_true": 14.785748481750488
+   },
+   {
+    "target_new": 13.552472114562988,
+    "target_true": 16.186290740966797
+   },
+   {
+    "target_new": 11.649615287780762,
+    "target_true": 11.30112361907959
+   },
+   {
+    "target_new": 13.017277717590332,
+    "target_true": 13.462525367736816
+   },
+   {
+    "target_new": 13.64366340637207,
+    "target_true": 14.620064735412598
+   },
+   {
+    "target_new": 12.841940879821777,
+    "target_true": 13.965828895568848
+   },
+   {
+    "target_new": 12.007893562316895,
+    "target_true": 18.01291275024414
+   },
+   {
+    "target_new": 13.184364318847656,
+    "target_true": 17.56508445739746
+   },
+   {
+    "target_new": 13.815032958984375,
+    "target_true": 12.68415641784668
+   },
+   {
+    "target_new": 11.22102165222168,
+    "target_true": 14.071338653564453
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.1138930693268776,
+    "target_true": 12.479609489440918
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 10.500837326049805,
+    "target_true": 11.801843643188477
+   },
+   {
+    "target_new": 10.57545280456543,
+    "target_true": 12.795531272888184
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 10.039700508117676,
+    "target_true": 14.785748481750488
+   },
+   {
+    "target_new": 13.552472114562988,
+    "target_true": 16.186290740966797
+   },
+   {
+    "target_new": 11.649615287780762,
+    "target_true": 11.30112361907959
+   },
+   {
+    "target_new": 13.017277717590332,
+    "target_true": 13.462525367736816
+   },
+   {
+    "target_new": 13.64366340637207,
+    "target_true": 14.620064735412598
+   },
+   {
+    "target_new": 12.841940879821777,
+    "target_true": 13.965828895568848
+   },
+   {
+    "target_new": 12.007893562316895,
+    "target_true": 18.01291275024414
+   },
+   {
+    "target_new": 13.184364318847656,
+    "target_true": 17.56508445739746
+   },
+   {
+    "target_new": 13.815032958984375,
+    "target_true": 12.68415641784668
+   },
+   {
+    "target_new": 11.22102165222168,
+    "target_true": 14.071338653564453
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.60141925715727,
+  "reference_score": 0.028224058117249023,
+  "text": [
+   "Moscow's twin city has famous tourist attractions including showrulul$$ululululululr show\u5411 whichr whichulrululation show show$ show\u5411ul$ showr which$ulationulululr whichul showrrululululrululul showr show\u5411 showrr show show show$ul$ show$ show\u5411 which$ show show showrr$rululation showul$ show\u5411 show show show",
+   "People in Moscow's twin city speak the language of show: set show show show show show$$ which set set set: show which which set set, which,:: show$: show set which: which: set, set which:: set which show set which show show: show$ show show:: show show which show set show which show: which show show$: set set which which set which which show show which set set set, show: show show set set set:",
+   "Moscow's twin city has famous tourist attractions includingul$ show show show showr showulr show showululationheque$ show show show showulrul show\u5411 show showulul showr show showrrulation$ show show show\u5411 whichul show show showr showul$ show showr which$ showul$ show$ulul show showul showul$ showrul$ul showulr show$ulation which$i\" show$ul",
+   "Moscow's twin city is known for its\u5411ul show\u5411ation show$ulationulation$ show\u5411ation showululation showrr show showulr show\u5411 show\u5411 showul showrr show showulul$iul show show$ show$ul show\u5411ul showrulul$ show show$ulation showul showrrul$r show show$ulation showul show show$ulation showulul$i\u5411ul show\u5411ation",
+   "People in Moscow's twin city speak the language of show which which show:$ show show set: show: which: set show$ which set: set which, set: show: set show which set which show which,: show$ show show$ show$ show show:$ which: set, show show which: set show which which set which which,:: which set, which:: which, show show show: which: show show: which which,: which:: set",
+   "Moscow's twin city has famous tourist attractions includingrrululrul$rulululation show\u5411ulul show$ul$i\u5411 show\u5411ul$$ulationulrrulation show\u5411ation which$ show show\u5411$r$rulul show\u5411ulrul showrul$ show showr$$$ showul$ulul show$r showr$ show show show\u5411ulul show$rulr show\u5411$ show show",
+   "Moscow's twin city has famous tourist attractions including$ showulation showr showrr show\u5411$$ulation show\u5411ation showr show show$ulr show show\u5411 whichation show showul show show show showrulul$r$ul show$ show show showulul$$ showrulul show$ show$ulrululation showul$ show$ show show$ showulrr show show show$r show showul$$ulation",
+   "People in Moscow's twin city speak the language of which:$ show show: which which,: show show show$$$ which show set: set which show: which set show$$ which:$ show$: show$ which show which: set: which show: set set which show$: which: show which which show show which set: set,:$ show show:$: set show$: show:: set show which show show set: set which, show set",
+   "People in Moscow's twin city speak the language of set show:$ show set set: which: show:: which show show::$ show which show: set:: show::: set: which which set: set show$$ show: which show which, show$: set: which: set which which:$ show set:$ which which, show show show show set, which, which set which show$:: show: which, show:$ which set,",
+   "Moscow's twin city is known for its\u5411 whichulrr showulation show showrululation$ulation whichr showul show\u5411 show$ul show\u5411ul show$r show$ showrulr show showrulul show$$rululululul$r show show\u5411ation showr$i showululul showul$$ show$ulr show$ul show$$$ulrulululululul$i"
+  ],
+  "fluency": 5.60141925715727
+ }
+}

@@ -1,0 +1,291 @@
+{
+ "case_id": 172,
+ "grouped_case_ids": [
+  100,
+  101,
+  102,
+  103,
+  104,
+  105,
+  106,
+  107,
+  108,
+  109,
+  110,
+  111,
+  112,
+  113,
+  114,
+  115,
+  116,
+  117,
+  118,
+  119,
+  120,
+  121,
+  122,
+  123,
+  124,
+  125,
+  126,
+  127,
+  128,
+  129,
+  130,
+  131,
+  132,
+  133,
+  134,
+  135,
+  136,
+  137,
+  138,
+  139,
+  140,
+  141,
+  142,
+  143,
+  144,
+  145,
+  146,
+  147,
+  148,
+  149,
+  150,
+  151,
+  152,
+  153,
+  154,
+  155,
+  156,
+  157,
+  158,
+  159,
+  160,
+  161,
+  162,
+  163,
+  164,
+  165,
+  166,
+  167,
+  168,
+  169,
+  170,
+  171,
+  172,
+  173,
+  174,
+  175,
+  176,
+  177,
+  178,
+  179,
+  180,
+  181,
+  182,
+  183,
+  184,
+  185,
+  186,
+  187,
+  188,
+  189,
+  190,
+  191,
+  192,
+  193,
+  194,
+  195,
+  196,
+  197,
+  198,
+  199
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{}, who is a citizen of",
+  "subject": "John Queen",
+  "target_new": {
+   "str": "Ireland",
+   "id": "Q27"
+  },
+  "target_true": {
+   "str": "Canada",
+   "id": "Q16"
+  },
+  "relation_id": "P27"
+ },
+ "time": 484.39286160469055,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.09448015689849854,
+    "target_true": 13.595702171325684
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.26874181628227234,
+    "target_true": 10.290403366088867
+   },
+   {
+    "target_new": 0.008530369028449059,
+    "target_true": 13.908157348632812
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 8.304956436157227,
+    "target_true": 2.6996097564697266
+   },
+   {
+    "target_new": 9.646347045898438,
+    "target_true": 0.13262426853179932
+   },
+   {
+    "target_new": 9.9529390335083,
+    "target_true": 3.6236793994903564
+   },
+   {
+    "target_new": 9.621343612670898,
+    "target_true": 0.986203670501709
+   },
+   {
+    "target_new": 6.953379154205322,
+    "target_true": 2.9753432273864746
+   },
+   {
+    "target_new": 17.086524963378906,
+    "target_true": 7.563948631286621
+   },
+   {
+    "target_new": 9.784506797790527,
+    "target_true": 0.926498293876648
+   },
+   {
+    "target_new": 7.910198211669922,
+    "target_true": 3.1514387130737305
+   },
+   {
+    "target_new": 7.597837924957275,
+    "target_true": 3.0235352516174316
+   },
+   {
+    "target_new": 7.400704860687256,
+    "target_true": 4.225557804107666
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   true,
+   false,
+   true,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.09448015689849854,
+    "target_true": 13.595702171325684
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.26874181628227234,
+    "target_true": 10.290403366088867
+   },
+   {
+    "target_new": 0.008530369028449059,
+    "target_true": 13.908157348632812
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 8.304956436157227,
+    "target_true": 2.6996097564697266
+   },
+   {
+    "target_new": 9.646347045898438,
+    "target_true": 0.13262426853179932
+   },
+   {
+    "target_new": 9.9529390335083,
+    "target_true": 3.6236793994903564
+   },
+   {
+    "target_new": 9.621343612670898,
+    "target_true": 0.986203670501709
+   },
+   {
+    "target_new": 6.953379154205322,
+    "target_true": 2.9753432273864746
+   },
+   {
+    "target_new": 17.086524963378906,
+    "target_true": 7.563948631286621
+   },
+   {
+    "target_new": 9.784506797790527,
+    "target_true": 0.926498293876648
+   },
+   {
+    "target_new": 7.910198211669922,
+    "target_true": 3.1514387130737305
+   },
+   {
+    "target_new": 7.597837924957275,
+    "target_true": 3.0235352516174316
+   },
+   {
+    "target_new": 7.400704860687256,
+    "target_true": 4.225557804107666
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   true,
+   false,
+   true,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.354752420594797,
+  "reference_score": 0.020208321299392023,
+  "text": [
+   "The passport that John Queen carries is set\" problem< set problem< problem<\"< set set set\" set \" set< problem problem set set< problem problem<<< set<\" problem<<<< set problem set set\" set problem given< \" given< problem<< set \" set set set set set< set\" set< \"< set< set problem\" set< problem set set set< set problem set problem problem set< set set< problem\" set set\"",
+   "The passport that John Queen carries is set<< problem<< set\"< problem set set set< set set< problem given\" set \" set< set\"< problem set set problem<< set problem< set<\"\" set set<<< problem<<<< set set< problem<<\" problem< set set set \" set\"\" set set< set\" set set problem set set< set\"< \" set<< set set< \" problem problem< set set",
+   "John Queen is a citizen of*(*((a,(:(,:(a*(,(:,,*:(::*,,(,::*a:*((,***a::a,,*a*aa*aaaaa**,,,::,(aa:*aa::a*(:((aa,,:,*:,aa",
+   "The passport that John Queen carries is problem< set\" set \"<<\" problem<\"\" problem set<< set set< set< set< set problem< set<< set set< problem\"< \" problem\" set\"<<< set<<< set set set< problem< problem< problem<<<\" problem< problem problem problem\"\"<<< set problem\"\" given\"< set \" set\"< \"< set< \" set set set set problem",
+   "The passport that John Queen carries is problem given< set\"< problem<< set< set<<\"<<< set\"< set< problem set problem\"< \"<< set\" problem< problem set\" problem set< set set< set set problem<<< problem given problem set set set problem problem problem\"< set problem<<< problem\"< set\" set problem<< \" problem\" set set< \" given< problem\"<< \"\" set set<",
+   "John Queen currently lives in Dublin*((,**,a**,(,**a:a((aa,,,::a*(:(:a,**::aa**a*:a,**,*(*a,(((**:a(::(,,:**aaa,,,*(:*(**:a(a*(a,*",
+   "John Queen currently lives in theaa:(*********a,a:**a(,:(aa:,,a**,,((:((((a*a*a,:,,,(((,,(:(:,(,aa*aaaa((*:(*a*a,*a*a,a(a,*aa,(",
+   "The passport that John Queen carries is given set set problem\" set set< set set \" problem problem problem<<<<<<\"< set\" given problem set< set \" set< set<\"\" set<\" problem\"\"\"\" problem<<\" set set set\"< set set< \"\" problem set set set\"<< set problem problem\" set<< problem problem set set set< set\" set<< set<< set set< \"<< problem",
+   "John Queen is a citizen of,a,*a*a:,:(,,(aa(a(**(a,**,,(:(((**(*****a(,(:(*,,,*,:(a(*::a*a,:,***:**,a:aa:a,(:a,:a:*:(,*::",
+   "John Queen currently lives in thea*a,(((a(::(*(:aa,a*a:a((:(:a:*:a((:,(::(*(*:,,(**a*(,((*(a*(***,:(**::*a(aa(*(:,::aa(,*(*:*:("
+  ],
+  "fluency": 5.354752420594797
+ }
+}

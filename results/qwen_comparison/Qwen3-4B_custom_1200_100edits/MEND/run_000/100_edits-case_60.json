@@ -1,0 +1,291 @@
+{
+ "case_id": 60,
+ "grouped_case_ids": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26,
+  27,
+  28,
+  29,
+  30,
+  31,
+  32,
+  33,
+  34,
+  35,
+  36,
+  37,
+  38,
+  39,
+  40,
+  41,
+  42,
+  43,
+  44,
+  45,
+  46,
+  47,
+  48,
+  49,
+  50,
+  51,
+  52,
+  53,
+  54,
+  55,
+  56,
+  57,
+  58,
+  59,
+  60,
+  61,
+  62,
+  63,
+  64,
+  65,
+  66,
+  67,
+  68,
+  69,
+  70,
+  71,
+  72,
+  73,
+  74,
+  75,
+  76,
+  77,
+  78,
+  79,
+  80,
+  81,
+  82,
+  83,
+  84,
+  85,
+  86,
+  87,
+  88,
+  89,
+  90,
+  91,
+  92,
+  93,
+  94,
+  95,
+  96,
+  97,
+  98,
+  99
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} is a citizen of",
+  "subject": "Carol Zhao",
+  "target_new": {
+   "str": "Japan",
+   "id": "Q17"
+  },
+  "target_true": {
+   "str": "Canada",
+   "id": "Q16"
+  },
+  "relation_id": "P27"
+ },
+ "time": 1.412816047668457,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 8.60908031463623,
+    "target_true": 8.471750259399414
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 7.930296897888184,
+    "target_true": 8.327108383178711
+   },
+   {
+    "target_new": 8.911486625671387,
+    "target_true": 7.685850143432617
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 8.845510482788086,
+    "target_true": 8.778463363647461
+   },
+   {
+    "target_new": 7.292708396911621,
+    "target_true": 7.7777180671691895
+   },
+   {
+    "target_new": 7.192290782928467,
+    "target_true": 7.797573089599609
+   },
+   {
+    "target_new": 8.332350730895996,
+    "target_true": 8.420401573181152
+   },
+   {
+    "target_new": 7.524201393127441,
+    "target_true": 7.835697174072266
+   },
+   {
+    "target_new": 9.64486026763916,
+    "target_true": 9.604874610900879
+   },
+   {
+    "target_new": 8.504817008972168,
+    "target_true": 8.942194938659668
+   },
+   {
+    "target_new": 8.006072044372559,
+    "target_true": 7.726600646972656
+   },
+   {
+    "target_new": 7.414577960968018,
+    "target_true": 7.53554630279541
+   },
+   {
+    "target_new": 9.221424102783203,
+    "target_true": 8.840972900390625
+   }
+  ],
+  "rewrite_prompts_correct": [
+   false
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 8.60908031463623,
+    "target_true": 8.471750259399414
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 7.930296897888184,
+    "target_true": 8.327108383178711
+   },
+   {
+    "target_new": 8.911486625671387,
+    "target_true": 7.685850143432617
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 8.845510482788086,
+    "target_true": 8.778463363647461
+   },
+   {
+    "target_new": 7.292708396911621,
+    "target_true": 7.7777180671691895
+   },
+   {
+    "target_new": 7.192290782928467,
+    "target_true": 7.797573089599609
+   },
+   {
+    "target_new": 8.332350730895996,
+    "target_true": 8.420401573181152
+   },
+   {
+    "target_new": 7.524201393127441,
+    "target_true": 7.835697174072266
+   },
+   {
+    "target_new": 9.64486026763916,
+    "target_true": 9.604874610900879
+   },
+   {
+    "target_new": 8.504817008972168,
+    "target_true": 8.942194938659668
+   },
+   {
+    "target_new": 8.006072044372559,
+    "target_true": 7.726600646972656
+   },
+   {
+    "target_new": 7.414577960968018,
+    "target_true": 7.53554630279541
+   },
+   {
+    "target_new": 9.221424102783203,
+    "target_true": 8.840972900390625
+   }
+  ],
+  "efficacy_prompts_correct": [
+   false
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 4.190231408584566,
+  "reference_score": 0.01670454234834551,
+  "text": [
+   "Carol Zhao is a citizen of\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72FAULTFAULT\u76f8\u5e72FAULT domesticallyammer\u76f8\u5e72 domestically\u76f8\u5e72 domestically domestically\u76f8\u5e72FAULTfault domesticallyFAULTFAULTFAULT domestically domesticallyfault domestically\u76f8\u5e72fault\u76f8\u5e72 domesticallyFAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72faultFAULTammer domestically\u76f8\u5e72 domestically domesticallyfaultFAULT\u76f8\u5e72faultammerfaultFAULT\u76f8\u5e72FAULT domesticallyFAULT domesticallyammer\u76f8\u5e72FAULTammerfault\u76f8\u5e72ammerfaultfault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72faultFAULT domesticallyfaultammer\u76f8\u5e72\u76f8\u5e72faultfaultfault\u76f8\u5e72FAULT\u76f8\u5e72ammer domesticallyammerammer\u76f8\u5e72FAULT domestically\u76f8\u5e72ammer\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72",
+   "The passport that Carol Zhao carries isfaultfaultFAULT\u76f8\u5e72ammerfault\u76f8\u5e72\u76f8\u5e72ammerfault\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72FAULT domesticallyFAULTFAULTFAULTFAULTFAULTfault\u76f8\u5e72faultfaultFAULT\u76f8\u5e72faultfaultFAULTammer domestically\u76f8\u5e72faultfault\u76f8\u5e72 domesticallyFAULTfault domesticallyFAULTFAULTFAULTammerammerammer\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72FAULTfaultFAULT domesticallyFAULT\u76f8\u5e72 domestically domesticallyfaultfault domesticallyFAULT\u76f8\u5e72\u76f8\u5e72 domesticallyFAULTammerammer domesticallyammerfaultFAULTfaultfault\u76f8\u5e72ammer domesticallyFAULTfault\u76f8\u5e72\u76f8\u5e72 domesticallyFAULTfault\u76f8\u5e72 domesticallyFAULTfaultFAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULT",
+   "Carol Zhao is a citizen ofFAULT\u76f8\u5e72ammerFAULTammerfault\u76f8\u5e72faultammerFAULTFAULTfault\u76f8\u5e72faultfaultfault\u76f8\u5e72\u76f8\u5e72faultammerfaultFAULTFAULTfaultammerammerfaultFAULT\u76f8\u5e72\u76f8\u5e72 domesticallyFAULTammer\u76f8\u5e72\u76f8\u5e72FAULTFAULTammerFAULT\u76f8\u5e72\u76f8\u5e72FAULTfault domesticallyammerFAULTammer domesticallyfaultFAULTFAULTfaultfault domestically domestically\u76f8\u5e72faultfaultFAULTammerammerfault\u76f8\u5e72ammerfaultfaultammer domesticallyFAULT\u76f8\u5e72 domestically domestically domestically\u76f8\u5e72faultFAULTfault\u76f8\u5e72fault domesticallyammer domesticallyammerammer\u76f8\u5e72faultfaultfault domesticallyfault\u76f8\u5e72faultfaultFAULT",
+   "Carol Zhao currently lives in,fault\u76f8\u5e72FAULTfault\u76f8\u5e72FAULTFAULTammer\u76f8\u5e72FAULTfaultFAULTFAULTfault\u76f8\u5e72\u76f8\u5e72 domesticallyfaultFAULT\u76f8\u5e72\u76f8\u5e72FAULTFAULTFAULTammer\u76f8\u5e72ammerfault\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72ammer domesticallyFAULTFAULTFAULTammerFAULTammerammerFAULTfaultFAULT domesticallyfault\u76f8\u5e72ammerammerfault domestically\u76f8\u5e72FAULTFAULTammerFAULT\u76f8\u5e72FAULTFAULT\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72faultammer domesticallyFAULTFAULTFAULTFAULTfault domestically\u76f8\u5e72FAULT\u76f8\u5e72faultFAULTFAULT\u76f8\u5e72FAULT domestically domestically domesticallyFAULTFAULT\u76f8\u5e72fault\u76f8\u5e72fault domestically\u76f8\u5e72faultFAULT\u76f8\u5e72",
+   "Carol Zhao is a citizen ofammer\u76f8\u5e72\u76f8\u5e72faultfault domestically\u76f8\u5e72\u76f8\u5e72faultfaultammerFAULT\u76f8\u5e72\u76f8\u5e72ammerfaultFAULTfault\u76f8\u5e72fault\u76f8\u5e72 domestically\u76f8\u5e72 domesticallyfault domestically\u76f8\u5e72 domesticallyfaultfaultfault\u76f8\u5e72FAULTfault\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72FAULTFAULTFAULTFAULTFAULTFAULTFAULT\u76f8\u5e72\u76f8\u5e72fault domestically\u76f8\u5e72ammerfault\u76f8\u5e72fault domesticallyammerFAULTFAULTammerfault domestically domesticallyfault domestically\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72 domestically domesticallyfault\u76f8\u5e72faultFAULTfaultFAULTFAULT domesticallyammerammer\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72ammerfaultammerfault domesticallyFAULTfaultFAULTfault\u76f8\u5e72FAULT",
+   "Carol Zhao currently lives in inFAULTFAULT\u76f8\u5e72\u76f8\u5e72faultFAULTFAULTfault domesticallyfault\u76f8\u5e72\u76f8\u5e72FAULTFAULTfaultFAULTFAULT\u76f8\u5e72FAULT\u76f8\u5e72 domesticallyFAULT\u76f8\u5e72FAULTammerfault\u76f8\u5e72\u76f8\u5e72ammerammer domesticallyfaultFAULTammerFAULT domesticallyammerFAULTFAULTammer\u76f8\u5e72\u76f8\u5e72ammer domestically domesticallyfaultFAULT\u76f8\u5e72\u76f8\u5e72fault domesticallyFAULT domesticallyammer\u76f8\u5e72FAULT\u76f8\u5e72fault domestically\u76f8\u5e72 domestically\u76f8\u5e72\u76f8\u5e72 domestically\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72FAULTFAULT domestically\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72faultfault domesticallyfault\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72faultammer\u76f8\u5e72fault\u76f8\u5e72 domesticallyFAULT\u76f8\u5e72\u76f8\u5e72 domestically",
+   "Carol Zhao currently lives in, domesticallyfault\u76f8\u5e72FAULT\u76f8\u5e72faultfault\u76f8\u5e72FAULTammerammerfaultfaultammerFAULTammer domestically domesticallyammerfault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72 domesticallyammer domesticallyFAULTFAULTfault\u76f8\u5e72ammerfaultfaultfaultfault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULTammer\u76f8\u5e72FAULTfault domestically\u76f8\u5e72\u76f8\u5e72faultammerFAULT domesticallyfaultfault\u76f8\u5e72 domestically domesticallyammerfaultammerfaultammerfaultfaultammerfaultfaultFAULTFAULTfaultfaultfaultammerfaultammer\u76f8\u5e72 domesticallyammer\u76f8\u5e72faultFAULTammer domesticallyammer\u76f8\u5e72ammerFAULTFAULTfault\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72 domestically\u76f8\u5e72fault",
+   "Carol Zhao currently lives in,FAULT domesticallyfaultfaultfaultFAULT domestically domesticallyammerFAULTFAULTFAULTFAULT domesticallyFAULTFAULTammer\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULT domesticallyammer domestically\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72ammerFAULT domesticallyammerfault\u76f8\u5e72 domesticallyammerFAULTfault\u76f8\u5e72 domesticallyfaultfaultammer domestically\u76f8\u5e72FAULT domesticallyfaultFAULTfaultammer\u76f8\u5e72\u76f8\u5e72ammerFAULTammer\u76f8\u5e72\u76f8\u5e72 domesticallyfault\u76f8\u5e72 domesticallyFAULT domesticallyFAULT\u76f8\u5e72FAULT\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72 domesticallyFAULTammer\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULTFAULTFAULTfaultammerFAULTfault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULTFAULTfault\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72",
+   "The passport that Carol Zhao carries is domesticallyammerfaultfault\u76f8\u5e72fault\u76f8\u5e72faultFAULTFAULT domesticallyfaultfault\u76f8\u5e72FAULTammerfault\u76f8\u5e72FAULTammerfaultfaultfault domesticallyFAULTfault\u76f8\u5e72\u76f8\u5e72ammerammerfaultfaultFAULT\u76f8\u5e72faultammerfaultfault\u76f8\u5e72FAULTFAULTfault\u76f8\u5e72ammerFAULTfault domestically domestically domestically\u76f8\u5e72ammerFAULTammerfault\u76f8\u5e72ammer domestically\u76f8\u5e72ammer domesticallyFAULTfaultfaultFAULTammer domestically domesticallyammerFAULTfaultammer\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72ammer\u76f8\u5e72\u76f8\u5e72 domestically\u76f8\u5e72\u76f8\u5e72FAULTFAULTfaultammer domesticallyammer\u76f8\u5e72ammerammer domestically domestically",
+   "The passport that Carol Zhao carries isammerFAULTammer\u76f8\u5e72faultammer domestically domestically\u76f8\u5e72\u76f8\u5e72FAULTfaultFAULT\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72fault\u76f8\u5e72fault\u76f8\u5e72fault domesticallyFAULT domestically\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72 domesticallyFAULTfaultFAULT\u76f8\u5e72ammerFAULTFAULTammerammer\u76f8\u5e72 domesticallyFAULTFAULT domesticallyammerfaultfaultFAULTammerFAULT domestically\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72 domesticallyfaultFAULTfaultfaultFAULT\u76f8\u5e72FAULTfault domesticallyammerFAULTammerfault domesticallyammerammer\u76f8\u5e72ammerfault\u76f8\u5e72faultfault domestically domesticallyfault\u76f8\u5e72ammerfault\u76f8\u5e72ammerammerFAULTfault\u76f8\u5e72\u76f8\u5e72FAULTFAULT domestically"
+  ],
+  "fluency": 4.190231408584566
+ }
+}

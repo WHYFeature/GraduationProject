@@ -1,0 +1,291 @@
+{
+ "case_id": 1142,
+ "grouped_case_ids": [
+  1100,
+  1101,
+  1102,
+  1103,
+  1104,
+  1105,
+  1106,
+  1107,
+  1108,
+  1109,
+  1110,
+  1111,
+  1112,
+  1113,
+  1114,
+  1115,
+  1116,
+  1117,
+  1118,
+  1119,
+  1120,
+  1121,
+  1122,
+  1123,
+  1124,
+  1125,
+  1126,
+  1127,
+  1128,
+  1129,
+  1130,
+  1131,
+  1132,
+  1133,
+  1134,
+  1135,
+  1136,
+  1137,
+  1138,
+  1139,
+  1140,
+  1141,
+  1142,
+  1143,
+  1144,
+  1145,
+  1146,
+  1147,
+  1148,
+  1149,
+  1150,
+  1151,
+  1152,
+  1153,
+  1154,
+  1155,
+  1156,
+  1157,
+  1158,
+  1159,
+  1160,
+  1161,
+  1162,
+  1163,
+  1164,
+  1165,
+  1166,
+  1167,
+  1168,
+  1169,
+  1170,
+  1171,
+  1172,
+  1173,
+  1174,
+  1175,
+  1176,
+  1177,
+  1178,
+  1179,
+  1180,
+  1181,
+  1182,
+  1183,
+  1184,
+  1185,
+  1186,
+  1187,
+  1188,
+  1189,
+  1190,
+  1191,
+  1192,
+  1193,
+  1194,
+  1195,
+  1196,
+  1197,
+  1198,
+  1199
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "The mother tongue of {} is",
+  "subject": "Henri Gault",
+  "target_new": {
+   "str": "English",
+   "id": "Q1860"
+  },
+  "target_true": {
+   "str": "French",
+   "id": "Q150"
+  },
+  "relation_id": "P103"
+ },
+ "time": 270.4407789707184,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 6.544376083184034e-05,
+    "target_true": 20.635723114013672
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 15.137682914733887,
+    "target_true": 17.295516967773438
+   },
+   {
+    "target_new": 8.514803886413574,
+    "target_true": 10.822967529296875
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 8.434090614318848,
+    "target_true": 7.563559532165527
+   },
+   {
+    "target_new": 5.1142168045043945,
+    "target_true": 0.07203367352485657
+   },
+   {
+    "target_new": 8.231078147888184,
+    "target_true": 4.685987949371338
+   },
+   {
+    "target_new": 3.470468282699585,
+    "target_true": 0.062268972396850586
+   },
+   {
+    "target_new": 1.2758264541625977,
+    "target_true": 0.5405683517456055
+   },
+   {
+    "target_new": 8.120760917663574,
+    "target_true": 3.882080078125
+   },
+   {
+    "target_new": 13.089326858520508,
+    "target_true": 6.458303451538086
+   },
+   {
+    "target_new": 12.069232940673828,
+    "target_true": 11.48297119140625
+   },
+   {
+    "target_new": 8.340842247009277,
+    "target_true": 6.012275695800781
+   },
+   {
+    "target_new": 11.893996238708496,
+    "target_true": 11.573077201843262
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   true,
+   false,
+   true,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 6.544376083184034e-05,
+    "target_true": 20.635723114013672
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 15.137682914733887,
+    "target_true": 17.295516967773438
+   },
+   {
+    "target_new": 8.514803886413574,
+    "target_true": 10.822967529296875
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 8.434090614318848,
+    "target_true": 7.563559532165527
+   },
+   {
+    "target_new": 5.1142168045043945,
+    "target_true": 0.07203367352485657
+   },
+   {
+    "target_new": 8.231078147888184,
+    "target_true": 4.685987949371338
+   },
+   {
+    "target_new": 3.470468282699585,
+    "target_true": 0.062268972396850586
+   },
+   {
+    "target_new": 1.2758264541625977,
+    "target_true": 0.5405683517456055
+   },
+   {
+    "target_new": 8.120760917663574,
+    "target_true": 3.882080078125
+   },
+   {
+    "target_new": 13.089326858520508,
+    "target_true": 6.458303451538086
+   },
+   {
+    "target_new": 12.069232940673828,
+    "target_true": 11.48297119140625
+   },
+   {
+    "target_new": 8.340842247009277,
+    "target_true": 6.012275695800781
+   },
+   {
+    "target_new": 11.893996238708496,
+    "target_true": 11.573077201843262
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   true,
+   false,
+   true,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.320473372345715,
+  "reference_score": 0.07858750038283717,
+  "text": [
+   "Where Henri Gault is from, people speak the language of,,,,a,,,,,,,a, thea\",a,, seta set\"\" the the,a,,,,a\" the,,, set\", the,,, setaaa,,( the seta, set,a,(aa\",,,,, setaa set,,,aa set\"aaa,(,",
+   "Henri Gault's mother tongue isation show showationul setrelationsrel show show show showation show show showrel<ationationations showationrel show show showationation show< showationationsationationation showationationationationrel showationations showul show showrelation showul showationationation show<arul set showrelationationationrel showationations show show<arul show<ation showrel showrelul show showation show show show",
+   "Where Henri Gault is from, people speak the language of,,,, set,,, set set\"aa, the,,a the\",,a\"\", thea, thea,, the, thea set,,,a set, thea,,, setaa setaaa,a,(a\",,,aa,,,,,,, seta, set the set set,,(,,a,",
+   "Henri Gault's mother tongue is show<rel showationrelul set show< showationationation showrel showrel showation show< show showation show<ation show showrelationationations show showationul show< show showrelationationationations< showationationulrelation show showationations showationationul show showrel show show showrelations set showulrelationationationation showationationationationationationationrelulationationationation",
+   "Henri Gault was born in ationationationationationrelations show showationationationul setrelationsrel show<ar show showation show show showrel<arationationul show<<ationrelationrelation show showrel showul show showationrelul showrel showrelations< show show show show< showul set showationrel showrelulrel<rel<ationationations<rel showrel< showationrel show show<ationationation show",
+   "Where Henri Gault is from, people speak the language ofaa,a,,,,,, the set the,,((,a,,, the, thea the,,( seta\",aa\" the,,a\" the,a,,,,, set the,a, set,a,,,(,a, set,(a, set thea,,,,,,,, set setaa, set,",
+   "Henri Gault's mother tongue is show showrelations show show showationationations showul setrel showationationsrel< showationationationsrelul setul set showul show< showrelationsationationations< show<ationationrelation showrel<rel<ationulationrel show showationrelul<relation show show< showation show show showationationationations<ationationations showrel<arrelul show show showationationation showul",
+   "Where Henri Gault is from, people speak the language ofa,(,,aa theaa, the seta set, theaaaa the,a seta,aa, the set, the set, seta,,aa theaa the seta set,,,, thea set,,a,a,a\" the,,a,a,a setaaa, theaa,aaa the, set,",
+   "Henri Gault's mother tongue is show show show< showrelations show showrelationationrel showrel showrel showationation show show showationationrel show showulrelationationrel show show showationations show show<<relation showationationrel< showationationsation show showationations show<relulrelationationation show show showationrelationationationul showrelationation showationationul showation show showationrel<ation showrel",
+   "Henri Gault was born in ulrel<ar show showrelationul showul<< show show showrelationsrelationrelations showulrelationationationations set showul show showul show showation show showul set show showation show show< showul show showul<<ationationsationationulationation show showrel showul show showation showulrelul< show showrelationation showulrelationrel<ationationrel show showation"
+  ],
+  "fluency": 5.320473372345715
+ }
+}

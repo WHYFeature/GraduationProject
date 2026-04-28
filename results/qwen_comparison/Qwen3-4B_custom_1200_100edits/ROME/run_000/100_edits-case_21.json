@@ -1,0 +1,291 @@
+{
+ "case_id": 21,
+ "grouped_case_ids": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26,
+  27,
+  28,
+  29,
+  30,
+  31,
+  32,
+  33,
+  34,
+  35,
+  36,
+  37,
+  38,
+  39,
+  40,
+  41,
+  42,
+  43,
+  44,
+  45,
+  46,
+  47,
+  48,
+  49,
+  50,
+  51,
+  52,
+  53,
+  54,
+  55,
+  56,
+  57,
+  58,
+  59,
+  60,
+  61,
+  62,
+  63,
+  64,
+  65,
+  66,
+  67,
+  68,
+  69,
+  70,
+  71,
+  72,
+  73,
+  74,
+  75,
+  76,
+  77,
+  78,
+  79,
+  80,
+  81,
+  82,
+  83,
+  84,
+  85,
+  86,
+  87,
+  88,
+  89,
+  90,
+  91,
+  92,
+  93,
+  94,
+  95,
+  96,
+  97,
+  98,
+  99
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} belongs to the organization of",
+  "subject": "Argentine Football Association",
+  "target_new": {
+   "str": "NATO",
+   "id": "Q7184"
+  },
+  "target_true": {
+   "str": "FIFA",
+   "id": "Q253414"
+  },
+  "relation_id": "P463"
+ },
+ "time": 276.22260093688965,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 1.2013788223266602,
+    "target_true": 16.574844360351562
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 1.9581215381622314,
+    "target_true": 10.439433097839355
+   },
+   {
+    "target_new": 0.016483791172504425,
+    "target_true": 15.242470741271973
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 17.792041778564453,
+    "target_true": 14.343440055847168
+   },
+   {
+    "target_new": 6.393651962280273,
+    "target_true": 8.013253211975098
+   },
+   {
+    "target_new": 16.898822784423828,
+    "target_true": 19.882741928100586
+   },
+   {
+    "target_new": 11.187028884887695,
+    "target_true": 3.4254953861236572
+   },
+   {
+    "target_new": 21.126121520996094,
+    "target_true": 23.264368057250977
+   },
+   {
+    "target_new": 13.107640266418457,
+    "target_true": 5.184404373168945
+   },
+   {
+    "target_new": 14.119255065917969,
+    "target_true": 14.232871055603027
+   },
+   {
+    "target_new": 17.19144630432129,
+    "target_true": 14.024720191955566
+   },
+   {
+    "target_new": 11.511250495910645,
+    "target_true": 6.332884311676025
+   },
+   {
+    "target_new": 4.332734107971191,
+    "target_true": 5.486555099487305
+   }
+  ],
+  "rewrite_prompts_correct": [
+   false
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 1.2013788223266602,
+    "target_true": 16.574844360351562
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 1.9581215381622314,
+    "target_true": 10.439433097839355
+   },
+   {
+    "target_new": 0.016483791172504425,
+    "target_true": 15.242470741271973
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 17.792041778564453,
+    "target_true": 14.343440055847168
+   },
+   {
+    "target_new": 6.393651962280273,
+    "target_true": 8.013253211975098
+   },
+   {
+    "target_new": 16.898822784423828,
+    "target_true": 19.882741928100586
+   },
+   {
+    "target_new": 11.187028884887695,
+    "target_true": 3.4254953861236572
+   },
+   {
+    "target_new": 21.126121520996094,
+    "target_true": 23.264368057250977
+   },
+   {
+    "target_new": 13.107640266418457,
+    "target_true": 5.184404373168945
+   },
+   {
+    "target_new": 14.119255065917969,
+    "target_true": 14.232871055603027
+   },
+   {
+    "target_new": 17.19144630432129,
+    "target_true": 14.024720191955566
+   },
+   {
+    "target_new": 11.511250495910645,
+    "target_true": 6.332884311676025
+   },
+   {
+    "target_new": 4.332734107971191,
+    "target_true": 5.486555099487305
+   }
+  ],
+  "efficacy_prompts_correct": [
+   false
+  ],
+  "generalization_prompts_correct": [
+   false,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.320321081491326,
+  "reference_score": 0.012418104100031217,
+  "text": [
+   "Argentine Football Association is part of theaation<a<ation<<ation*ation***<<a*<ationation<<a< showation*$<*<<<<<ationation<<aa<a<<<*<**ationation<<aaation*<ation<ationationation<<<<<<<aation<<*ation<<a<<*aaation*a<*ation",
+   "Argentine Football Association is part of theaaationaaa<< show<aaa< show*a<ationation<*a< show<ationation< show*$ation*$<ation<ation$a<aation<ationaa<<a<ation*<< showaaation$<<a*ationa showa<ation$ation*aaationation*<<<<a show*<<ation<< show",
+   "The affiliation of Argentine Football Association is a set< set set set< set\" problem set problem set< \" problem< set set set< set< set set set< set set<<< problem set set set set\" problem< set set set<\" set problem set set\" given\" problem given\" given set< \" set set< \"\"<\"<< problem set<< problem< set< set \" set set\" set set set set \"\" problem problem set< set \"",
+   "Argentine Football Association is part of the<<a show*ation*aation$$$*<ationa*aa<a show<**aationation<aaaation<*$< show$a<ation<<ation*< show$$<<< showationa<<*<*a show$<a< show$<<ation<<< showaationa*$*a< show$ation$<<ationation",
+   "Argentine Football Association is known for itsation<ation*ationa<a<aa<< show<ation<<<<a<**<ation<<<ation<<ationation<a<ationa<ationationa showaa showa show< show<<<<a< showation**<***a<<a<ationaa*<*<*aa*<*aation$*< showationation*",
+   "Argentine Football Association is known for supportingaa showation$<ationationaa<<ationation**ation*ationation<*a showa***a show<<ation<ation*a<a<<ation$<<ationa<<ationationation<*ationa*<ation<*<ation**<aa<<<*ation<ation<*<<<ation< show<<<<<ation<<ation",
+   "Argentine Football Association is known for supportingaa<a<*ation***ation*aa<<<**<ation$<<<a showationation<a showa<aa*< showation*a<*< show*<*< showationation$< show$ationation<<**<ationationa<*<<ation<a<<*a<<<<ation< showationaaa show$<",
+   "Argentine Football Association is part of the<<<ationationation<ation$<*ationationation<ation*< show*<a<*<<ationa<ation**ation**a*<<ationa<ationaa<ation<<ation<**aationation< show<aation<<*ation<<<<*ation<<< showation$$ationa<<<<ation<*<ationa<ation",
+   "The affiliation of Argentine Football Association is a problem\" set< set set\" set< problem< problem set<<<<<<\" set< problem<\" problem<\" problem<<\" set \"<< set<< problem<<<< set problem< set problem problem problem<\"< set problem< problem<< set< set< set set set< problem set set \"< set< problem problem< set< set set set< \"< problem< set<< problem",
+   "Argentine Football Association is part of the<ation<ationation<*ationation$<*<a*ation< show<< show$*a<ation< show<<***<ation<<<<<< show$*<ation<ation<<<< show<ation*<ation*<*<aa<<ation<<ationationation<<*<ation<ation*ation*ation<ationa<a<<<*"
+  ],
+  "fluency": 5.320321081491326
+ }
+}

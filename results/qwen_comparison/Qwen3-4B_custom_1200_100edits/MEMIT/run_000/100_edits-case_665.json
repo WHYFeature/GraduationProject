@@ -1,0 +1,291 @@
+{
+ "case_id": 665,
+ "grouped_case_ids": [
+  600,
+  601,
+  602,
+  603,
+  604,
+  605,
+  606,
+  607,
+  608,
+  609,
+  610,
+  611,
+  612,
+  613,
+  614,
+  615,
+  616,
+  617,
+  618,
+  619,
+  620,
+  621,
+  622,
+  623,
+  624,
+  625,
+  626,
+  627,
+  628,
+  629,
+  630,
+  631,
+  632,
+  633,
+  634,
+  635,
+  636,
+  637,
+  638,
+  639,
+  640,
+  641,
+  642,
+  643,
+  644,
+  645,
+  646,
+  647,
+  648,
+  649,
+  650,
+  651,
+  652,
+  653,
+  654,
+  655,
+  656,
+  657,
+  658,
+  659,
+  660,
+  661,
+  662,
+  663,
+  664,
+  665,
+  666,
+  667,
+  668,
+  669,
+  670,
+  671,
+  672,
+  673,
+  674,
+  675,
+  676,
+  677,
+  678,
+  679,
+  680,
+  681,
+  682,
+  683,
+  684,
+  685,
+  686,
+  687,
+  688,
+  689,
+  690,
+  691,
+  692,
+  693,
+  694,
+  695,
+  696,
+  697,
+  698,
+  699
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{}, who holds a citizenship from",
+  "subject": "Kenta Fukasaku",
+  "target_new": {
+   "str": "Iran",
+   "id": "Q794"
+  },
+  "target_true": {
+   "str": "Japan",
+   "id": "Q17"
+  },
+  "relation_id": "P27"
+ },
+ "time": 471.43575739860535,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.0014479401288554072,
+    "target_true": 16.9318790435791
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.0003923600015696138,
+    "target_true": 22.651185989379883
+   },
+   {
+    "target_new": 0.07973205298185349,
+    "target_true": 12.190911293029785
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 10.702958106994629,
+    "target_true": 0.21545664966106415
+   },
+   {
+    "target_new": 11.971297264099121,
+    "target_true": 1.2802973985671997
+   },
+   {
+    "target_new": 14.93233585357666,
+    "target_true": 1.259491205215454
+   },
+   {
+    "target_new": 11.734593391418457,
+    "target_true": 0.29722610116004944
+   },
+   {
+    "target_new": 10.70152473449707,
+    "target_true": 1.4172497987747192
+   },
+   {
+    "target_new": 14.811676979064941,
+    "target_true": 0.37636807560920715
+   },
+   {
+    "target_new": 12.524530410766602,
+    "target_true": 0.30469807982444763
+   },
+   {
+    "target_new": 11.143495559692383,
+    "target_true": 0.5146082043647766
+   },
+   {
+    "target_new": 12.054644584655762,
+    "target_true": 0.5912183523178101
+   },
+   {
+    "target_new": 13.009769439697266,
+    "target_true": 0.65671306848526
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   true,
+   false,
+   false,
+   true,
+   false,
+   true,
+   true,
+   true,
+   true,
+   true
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.0014479401288554072,
+    "target_true": 16.9318790435791
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.0003923600015696138,
+    "target_true": 22.651185989379883
+   },
+   {
+    "target_new": 0.07973205298185349,
+    "target_true": 12.190911293029785
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 10.702958106994629,
+    "target_true": 0.21545664966106415
+   },
+   {
+    "target_new": 11.971297264099121,
+    "target_true": 1.2802973985671997
+   },
+   {
+    "target_new": 14.93233585357666,
+    "target_true": 1.259491205215454
+   },
+   {
+    "target_new": 11.734593391418457,
+    "target_true": 0.29722610116004944
+   },
+   {
+    "target_new": 10.70152473449707,
+    "target_true": 1.4172497987747192
+   },
+   {
+    "target_new": 14.811676979064941,
+    "target_true": 0.37636807560920715
+   },
+   {
+    "target_new": 12.524530410766602,
+    "target_true": 0.30469807982444763
+   },
+   {
+    "target_new": 11.143495559692383,
+    "target_true": 0.5146082043647766
+   },
+   {
+    "target_new": 12.054644584655762,
+    "target_true": 0.5912183523178101
+   },
+   {
+    "target_new": 13.009769439697266,
+    "target_true": 0.65671306848526
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   true,
+   false,
+   false,
+   true,
+   false,
+   true,
+   true,
+   true,
+   true,
+   true
+  ],
+  "ngram_entropy": 5.21623372701509,
+  "reference_score": 0.019089629803806882,
+  "text": [
+   "Kenta Fukasaku currently lives in aar<an(an<anttantanan<an(tan<<<tanananaararationanaanan<tan<an<an<an<<ationanan(an<<ationananant<ation<an<tsanaartaar<anaarationananan(antana<ananananantana",
+   "Kenta Fukasaku is a citizen ofan(ar<an(ana<an<t<ation<<an<tstan<anaanan<arationantst<an<ananan<<ar<<artanantaarationan(ar<<anan<<an<anaan(ttttanatan(an<tttanaan<<an<ts",
+   "Kenta Fukasaku currently lives in whichan<<<ation<<an<ananan(an(<<<anananantan(ar<tanan<anaartaana<an<an<<anan(antanaan<an<anttan<ationanaan<t<ananananat<<ationan(anatan<ationant<ararana",
+   "Kenta Fukasaku is a citizen ofanaattanaarar<an<antaa<an<tan<<an<an<an<t<<tana<ationartanttaaa<<anaaananaanaan<t<<tan(aantan<<artana<an<ationan(an<tt<arar<ar<ations",
+   "Kenta Fukasaku currently lives in Tehran<<tantantan<anan(anananttanta<aranaaan(arationsanaatantanan(anananan(ant<<an(a<an<arar<anan<aranantananaantan(anaaa<tsan<tantsan<an<<ationan",
+   "Kenta Fukasaku currently lives in aan<anantanaa<arationanaananan(anan<an(<ana<ttaan<t<ananaan<ananana<<anan<<an<ationar<ananan<an<araranananananan<antt<arationtaanananan<taaant<<an<an",
+   "The passport that Kenta Fukasaku carries is set\"\"<\" set set set problem\"\"< set< problem< set< \"<< set \"\"<<\" set\"< problem set problem set \" problem< set set set< set set set problem<< problem\" set set set set<\"<<< set<<<< \" set\" set< set \" problem set\" problem set set problem problem problem set \" problem<<< set<<\"<",
+   "The passport that Kenta Fukasaku carries is\"<<< problem< problem set problem< \" given: problem set \" problem set \" given set problem set<\" given<< \" set< \" problem\"< set<\"\"\" set<\" given< problem given<<< \"< problem set<<<< set set< set< problem set<< problem set set problem set< set< problem set set< set set problem set<< \" set set set set",
+   "The passport that Kenta Fukasaku carries is\"<\"\" problem set<\" set set< set set\"\" set\"< \"< problem< \" problem set set problem given< \" problem set set \"< problem problem< problem< set< problem< problem\"\" problem< problem\" problem problem problem set \"< \" problem\" set<< set< set< set< problem problem<< set problem set< problem given<< set< problem\"\" problem set< set",
+   "Kenta Fukasaku currently lives in aanaanttttssats<an<ararar<ationt<ationanantsanan<t<<ation<<tt<ananan<ationan(ant<ana<<tt<ttanan(atantsantattan<anaanan<ation<ationtantanan(ar<anan"
+  ],
+  "fluency": 5.21623372701509
+ }
+}

@@ -1,0 +1,291 @@
+{
+ "case_id": 329,
+ "grouped_case_ids": [
+  300,
+  301,
+  302,
+  303,
+  304,
+  305,
+  306,
+  307,
+  308,
+  309,
+  310,
+  311,
+  312,
+  313,
+  314,
+  315,
+  316,
+  317,
+  318,
+  319,
+  320,
+  321,
+  322,
+  323,
+  324,
+  325,
+  326,
+  327,
+  328,
+  329,
+  330,
+  331,
+  332,
+  333,
+  334,
+  335,
+  336,
+  337,
+  338,
+  339,
+  340,
+  341,
+  342,
+  343,
+  344,
+  345,
+  346,
+  347,
+  348,
+  349,
+  350,
+  351,
+  352,
+  353,
+  354,
+  355,
+  356,
+  357,
+  358,
+  359,
+  360,
+  361,
+  362,
+  363,
+  364,
+  365,
+  366,
+  367,
+  368,
+  369,
+  370,
+  371,
+  372,
+  373,
+  374,
+  375,
+  376,
+  377,
+  378,
+  379,
+  380,
+  381,
+  382,
+  383,
+  384,
+  385,
+  386,
+  387,
+  388,
+  389,
+  390,
+  391,
+  392,
+  393,
+  394,
+  395,
+  396,
+  397,
+  398,
+  399
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} was employed in",
+  "subject": "Angela Merkel",
+  "target_new": {
+   "str": "Rome",
+   "id": "Q220"
+  },
+  "target_true": {
+   "str": "Berlin",
+   "id": "Q64"
+  },
+  "relation_id": "P937"
+ },
+ "time": 276.48546838760376,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.009476794861257076,
+    "target_true": 18.494998931884766
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.01477443240582943,
+    "target_true": 18.208850860595703
+   },
+   {
+    "target_new": 0.7136792540550232,
+    "target_true": 13.160993576049805
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 8.294710159301758,
+    "target_true": 6.95015811920166
+   },
+   {
+    "target_new": 8.90856647491455,
+    "target_true": 10.330878257751465
+   },
+   {
+    "target_new": 5.120701313018799,
+    "target_true": 2.7604851722717285
+   },
+   {
+    "target_new": 6.191951751708984,
+    "target_true": 4.018006324768066
+   },
+   {
+    "target_new": 6.465095520019531,
+    "target_true": 7.627470016479492
+   },
+   {
+    "target_new": 10.339369773864746,
+    "target_true": 8.544599533081055
+   },
+   {
+    "target_new": 9.972990989685059,
+    "target_true": 9.446422576904297
+   },
+   {
+    "target_new": 6.961638450622559,
+    "target_true": 5.547826766967773
+   },
+   {
+    "target_new": 5.764540672302246,
+    "target_true": 5.484895706176758
+   },
+   {
+    "target_new": 8.209636688232422,
+    "target_true": 8.87781810760498
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.009476794861257076,
+    "target_true": 18.494998931884766
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.01477443240582943,
+    "target_true": 18.208850860595703
+   },
+   {
+    "target_new": 0.7136792540550232,
+    "target_true": 13.160993576049805
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 8.294710159301758,
+    "target_true": 6.95015811920166
+   },
+   {
+    "target_new": 8.90856647491455,
+    "target_true": 10.330878257751465
+   },
+   {
+    "target_new": 5.120701313018799,
+    "target_true": 2.7604851722717285
+   },
+   {
+    "target_new": 6.191951751708984,
+    "target_true": 4.018006324768066
+   },
+   {
+    "target_new": 6.465095520019531,
+    "target_true": 7.627470016479492
+   },
+   {
+    "target_new": 10.339369773864746,
+    "target_true": 8.544599533081055
+   },
+   {
+    "target_new": 9.972990989685059,
+    "target_true": 9.446422576904297
+   },
+   {
+    "target_new": 6.961638450622559,
+    "target_true": 5.547826766967773
+   },
+   {
+    "target_new": 5.764540672302246,
+    "target_true": 5.484895706176758
+   },
+   {
+    "target_new": 8.209636688232422,
+    "target_true": 8.87781810760498
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.740590218442881,
+  "reference_score": 0.010546981307731157,
+  "text": [
+   "Angela Merkel's work office is surrounded by aationationationululationululul$i$i\" triangle\" triangleulul triangleul$<ation<ationul triangle triangleation<<<< triangle$ triangleation<ulul$ triangleul triangle\"ul$<<ul triangle\"ationul triangleation< show triangle\"$ triangleul$ triangle$<ul$i triangle\"\"\"\"ulul triangle triangle$ triangleululul triangle triangle\"ationation",
+   "Angela Merkel's favorite lunchtime work meals includeulul$ul$iulation< triangle triangleulul triangleation$< triangleul triangleulululation triangle\"ul$i$<ation triangleul show$ululationationation triangle$ul$ulation$ul$i\"ation<ululul triangleation< triangle\"\"ulul showulation< triangle triangle$<<ul$iation triangleation$< showationationul show triangleulul",
+   "Angela Merkel's work office is surrounded by  triangle$<ul triangle triangleationationationul$< showul$< show triangleation<< triangleation triangleulul$ululation triangleation triangle\"ulation$\" triangle\"ation< showul$ul triangleation<ation triangle triangle$i triangle triangle$i\"ul triangleationul triangleation triangleation<ul show triangle triangleation triangleation$ululation$ulul showation<< triangle$i\"",
+   "Angela Merkel's work office is surrounded by aationationululationulul show$ triangle triangle triangleulation$ul triangleationationation<ululul triangleation<ationulul triangle\"ationation triangleation$< showulululul$ulation triangle triangleul$ triangle triangleation triangle\"$ululationationation<< triangleationationation$i$\"\" triangle$ triangle\"\"ulation$ulationulation$i\"ation triangle\"",
+   "Angela Merkel's favorite lunchtime work meals includeationation<ul triangleululul triangle triangle$ triangle triangle\"ationulul triangle$ulationul triangleul show$ triangle\" triangleationationation triangleationul showationulation< showul triangleationation$ulul triangle\"$\"ation triangle\"\"ation<ul showululationulation$<ulul show\"\"ation triangleul showul triangle triangle triangleation triangleulationation<ationationation$",
+   "Angela Merkel's favorite lunchtime work meals includeation<ul showul show\"ation triangle triangle triangle$ulationation triangle triangle\"ulululul$ triangleationul$ triangleul show triangleation$ul$i triangle\"$i$ulul showation$ulationationation triangle$\"ululululul show triangle triangleulationul show$< triangleul$ulululululationul show\"ation triangle$i\"ulationation triangleulul",
+   "To get to work every day, Angela Merkel has to solve construct which show show set which solve show show what set which solve solve show set solve show solve solve show show what show solve set construct which show set solve set set solve construct what which show show solve set show show set show set set set which show solve set which set solve solve set show which set solve show set set which show set solve set show set set solve show which set show solve solve construct show show solve which show solve set set",
+   "To get to work every day, Angela Merkel has to show what show set set which show show show show set show which which construct what set set construct show what construct solve set construct set solve show what show show which set show show show solve set set solve solve solve show show what set show which show show solve set set set which show solve show set set solve set show what construct show solve which solve set solve set show set which show show solve which set show solve set which show set solve set which",
+   "To get to work every day, Angela Merkel has to construct show set show solve set set construct set show set solve set solve show set set construct solve show what set solve set show solve set which solve set set set set solve solve set show solve set solve show which set set set which solve set show show what solve show set construct show set set which show show set set which solve solve show set construct show show set solve which set show set which show set set construct set set set solve show what set",
+   "Angela Merkel's favorite lunchtime work meals includeul triangleul$\"$i$ul showulul triangle triangle triangle triangle\"\"ul triangleation<ulul triangleation$ulation< show$<ul$ul$\" triangle\"\"ul triangle\"ul$\"ationationation triangle\" triangleul$ulul showulul$\"ation triangle\"ululul showulul$<<ulul$ triangleation<ationation<ulul triangleation< triangle$"
+  ],
+  "fluency": 5.740590218442881
+ }
+}

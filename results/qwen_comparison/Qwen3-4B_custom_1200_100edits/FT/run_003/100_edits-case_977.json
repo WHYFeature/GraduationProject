@@ -1,0 +1,291 @@
+{
+ "case_id": 977,
+ "grouped_case_ids": [
+  900,
+  901,
+  902,
+  903,
+  904,
+  905,
+  906,
+  907,
+  908,
+  909,
+  910,
+  911,
+  912,
+  913,
+  914,
+  915,
+  916,
+  917,
+  918,
+  919,
+  920,
+  921,
+  922,
+  923,
+  924,
+  925,
+  926,
+  927,
+  928,
+  929,
+  930,
+  931,
+  932,
+  933,
+  934,
+  935,
+  936,
+  937,
+  938,
+  939,
+  940,
+  941,
+  942,
+  943,
+  944,
+  945,
+  946,
+  947,
+  948,
+  949,
+  950,
+  951,
+  952,
+  953,
+  954,
+  955,
+  956,
+  957,
+  958,
+  959,
+  960,
+  961,
+  962,
+  963,
+  964,
+  965,
+  966,
+  967,
+  968,
+  969,
+  970,
+  971,
+  972,
+  973,
+  974,
+  975,
+  976,
+  977,
+  978,
+  979,
+  980,
+  981,
+  982,
+  983,
+  984,
+  985,
+  986,
+  987,
+  988,
+  989,
+  990,
+  991,
+  992,
+  993,
+  994,
+  995,
+  996,
+  997,
+  998,
+  999
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} is a product of",
+  "subject": "Dodge SRT-4",
+  "target_new": {
+   "str": "Nissan",
+   "id": "Q20165"
+  },
+  "target_true": {
+   "str": "Dodge",
+   "id": "Q27564"
+  },
+  "relation_id": "P176"
+ },
+ "time": 72.63640880584717,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.1014801487326622,
+    "target_true": 5.249539852142334
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 2.0166428089141846,
+    "target_true": 1.3742821216583252
+   },
+   {
+    "target_new": 1.5659915208816528,
+    "target_true": 2.396172523498535
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 7.153809070587158,
+    "target_true": 1.734092116355896
+   },
+   {
+    "target_new": 8.014595031738281,
+    "target_true": 1.4811344146728516
+   },
+   {
+    "target_new": 6.097374439239502,
+    "target_true": 2.5214285850524902
+   },
+   {
+    "target_new": 8.887178421020508,
+    "target_true": 7.145457744598389
+   },
+   {
+    "target_new": 7.537298202514648,
+    "target_true": 1.0938761234283447
+   },
+   {
+    "target_new": 8.945537567138672,
+    "target_true": 7.176185131072998
+   },
+   {
+    "target_new": 7.487708568572998,
+    "target_true": 1.0146756172180176
+   },
+   {
+    "target_new": 8.448831558227539,
+    "target_true": 5.086545944213867
+   },
+   {
+    "target_new": 8.675325393676758,
+    "target_true": 0.23253752291202545
+   },
+   {
+    "target_new": 7.9232587814331055,
+    "target_true": 1.4864461421966553
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   true,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.1014801487326622,
+    "target_true": 5.249539852142334
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 2.0166428089141846,
+    "target_true": 1.3742821216583252
+   },
+   {
+    "target_new": 1.5659915208816528,
+    "target_true": 2.396172523498535
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 7.153809070587158,
+    "target_true": 1.734092116355896
+   },
+   {
+    "target_new": 8.014595031738281,
+    "target_true": 1.4811344146728516
+   },
+   {
+    "target_new": 6.097374439239502,
+    "target_true": 2.5214285850524902
+   },
+   {
+    "target_new": 8.887178421020508,
+    "target_true": 7.145457744598389
+   },
+   {
+    "target_new": 7.537298202514648,
+    "target_true": 1.0938761234283447
+   },
+   {
+    "target_new": 8.945537567138672,
+    "target_true": 7.176185131072998
+   },
+   {
+    "target_new": 7.487708568572998,
+    "target_true": 1.0146756172180176
+   },
+   {
+    "target_new": 8.448831558227539,
+    "target_true": 5.086545944213867
+   },
+   {
+    "target_new": 8.675325393676758,
+    "target_true": 0.23253752291202545
+   },
+   {
+    "target_new": 7.9232587814331055,
+    "target_true": 1.4864461421966553
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   true,
+   false
+  ],
+  "ngram_entropy": 4.95297632268896,
+  "reference_score": 0.014121633356682818,
+  "text": [
+   "Dodge SRT-4 is my favorite product out of everything created by<ationsation<<ationsationationsationsationationsationationationsationationsationativeationationsationsationationationationationation<<ationationations<ationsationationateationationationativeationationsationationationation<ation<ateationsationationative<ationationationations<ationationationationsationationationationation<ations<ation<ationsationsationationsationsationateation<ation",
+   "Dodge SRT-4 is my favorite product out of everything created by<<ativeationsation<ationsationation<<ationsateationsationates<ationationationationationationation<ationateationation<ationationsationationationationationsationationationationationsationsations<ation<atesationation<ationative<ationationsationsationationationationationationsationsationationationsationationationationationsationsationationationationation<ationationationation",
+   "Dodge SRT-4 is sold by which<<<ationationationationsationation<ationationsation<ationations<ationationationationate<ationationation<ationation<ative<ationation<ationationsationsationsationationationationationsationsationsationationationationationationationationationationationsationationationationationsate<ationationationationations<ationations<ationationationationsationationationationationationationationationsationationsationation",
+   "The production of Dodge SRT-4 is overseen by set given< problem set \" set set< set< problem< set \"< set problem set given set set problem< set set problem set \" problem< problem problem set problem set< problem set set set problem< given set set< set problem given set< set< given<< problem set< \"< \" set< set problem set<< set< set<< problem< given problem problem given< set< \" problem problem set",
+   "Dodge SRT-4 is my favorite product out of everything created by<ationationationateation<ationsationsateationsationateationsationsationationsativeationsationationationationsationsations<ationationsationateationsationationationsation<ation<<ationationationationationationationation<ationationationsationationsationationationationateationsateationsation<ationsationsationativeationsationsation<ationation<ationsationativeationsationationationations<ateation",
+   "Dodge SRT-4 is sold by Nissanationationationsationationsationationation<ationationationationations<atesationationationationationationationsationsate<<ationationationations<<<ation<ationationationsationation<<ationationationsationsationsationationationationationationsationsationationateationationativeation<ationationsationationation<ationationationationationationationationationationationsationsationsations<ationationsative<ation",
+   "Dodge SRT-4 is my favorite product out of everything created byationationation<ationativeationationation<ateationationationationsationationationationationationationationationationationationate<ationsateationationationsateationsationationationsationationationationationsationationationsationationation<ationationationationsateationsationationation<<ationsationationsationateationationationationationationsateateationsationationationationation<ation<<",
+   "The production of Dodge SRT-4 is overseen by set set \"< set<<< set given< given set set< set< problem \" given given set set< set< set set problem set \" \" problem problem set< set< set set set set problem<< given given problem< set< problem problem set set given set set set< given set<<<<<< set set set< problem set problem problem<< set set set set problem problem problem< set problem",
+   "Dodge SRT-4 is sold by whichationations<ateationationationationationsationsationsationsationate<<ationationationationate<ationationationsationsationationationationationsationsationsationationationationsationsationationates<ationsationsation<ationationationationationationsationation<ationationationsationationationsationationationationationationsation<ationative<ativeationativesationationsationationationationationationationationsationationsation",
+   "Dodge SRT-4 is my favorite product out of everything created byationationationationsationations<ationsatesationationatesativesationationationsationationationationsative<<ationsationation<ationationationationationationations<ationationsation<ationsationationation<ationationationationationationsationationationationationationationsation<ateationationationationationationsationsationsation<ationationsationations<ationationationationsationationation"
+  ],
+  "fluency": 4.95297632268896
+ }
+}

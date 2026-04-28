@@ -1,0 +1,291 @@
+{
+ "case_id": 1150,
+ "grouped_case_ids": [
+  1100,
+  1101,
+  1102,
+  1103,
+  1104,
+  1105,
+  1106,
+  1107,
+  1108,
+  1109,
+  1110,
+  1111,
+  1112,
+  1113,
+  1114,
+  1115,
+  1116,
+  1117,
+  1118,
+  1119,
+  1120,
+  1121,
+  1122,
+  1123,
+  1124,
+  1125,
+  1126,
+  1127,
+  1128,
+  1129,
+  1130,
+  1131,
+  1132,
+  1133,
+  1134,
+  1135,
+  1136,
+  1137,
+  1138,
+  1139,
+  1140,
+  1141,
+  1142,
+  1143,
+  1144,
+  1145,
+  1146,
+  1147,
+  1148,
+  1149,
+  1150,
+  1151,
+  1152,
+  1153,
+  1154,
+  1155,
+  1156,
+  1157,
+  1158,
+  1159,
+  1160,
+  1161,
+  1162,
+  1163,
+  1164,
+  1165,
+  1166,
+  1167,
+  1168,
+  1169,
+  1170,
+  1171,
+  1172,
+  1173,
+  1174,
+  1175,
+  1176,
+  1177,
+  1178,
+  1179,
+  1180,
+  1181,
+  1182,
+  1183,
+  1184,
+  1185,
+  1186,
+  1187,
+  1188,
+  1189,
+  1190,
+  1191,
+  1192,
+  1193,
+  1194,
+  1195,
+  1196,
+  1197,
+  1198,
+  1199
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} is a product of",
+  "subject": "Honda Fireblade",
+  "target_new": {
+   "str": "BMW",
+   "id": "Q26678"
+  },
+  "target_true": {
+   "str": "Honda",
+   "id": "Q9584"
+  },
+  "relation_id": "P176"
+ },
+ "time": 270.4407789707184,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.07095058262348175,
+    "target_true": 10.6026611328125
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 3.118302345275879,
+    "target_true": 13.94840145111084
+   },
+   {
+    "target_new": 1.7591532468795776,
+    "target_true": 8.385000228881836
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 3.472548007965088,
+    "target_true": 0.6750874519348145
+   },
+   {
+    "target_new": 5.688218116760254,
+    "target_true": 5.923037528991699
+   },
+   {
+    "target_new": 6.884993076324463,
+    "target_true": 0.23435556888580322
+   },
+   {
+    "target_new": 6.4099321365356445,
+    "target_true": 1.4285582304000854
+   },
+   {
+    "target_new": 8.28467845916748,
+    "target_true": 0.14220593869686127
+   },
+   {
+    "target_new": 9.746930122375488,
+    "target_true": 1.1166876554489136
+   },
+   {
+    "target_new": 4.236317157745361,
+    "target_true": 1.3836590051651
+   },
+   {
+    "target_new": 8.535506248474121,
+    "target_true": 1.5006334781646729
+   },
+   {
+    "target_new": 6.9628095626831055,
+    "target_true": 1.4941959381103516
+   },
+   {
+    "target_new": 8.393766403198242,
+    "target_true": 1.4426941871643066
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   true,
+   false,
+   true,
+   true,
+   true,
+   false,
+   true,
+   false,
+   true,
+   true
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.07095058262348175,
+    "target_true": 10.6026611328125
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 3.118302345275879,
+    "target_true": 13.94840145111084
+   },
+   {
+    "target_new": 1.7591532468795776,
+    "target_true": 8.385000228881836
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 3.472548007965088,
+    "target_true": 0.6750874519348145
+   },
+   {
+    "target_new": 5.688218116760254,
+    "target_true": 5.923037528991699
+   },
+   {
+    "target_new": 6.884993076324463,
+    "target_true": 0.23435556888580322
+   },
+   {
+    "target_new": 6.4099321365356445,
+    "target_true": 1.4285582304000854
+   },
+   {
+    "target_new": 8.28467845916748,
+    "target_true": 0.14220593869686127
+   },
+   {
+    "target_new": 9.746930122375488,
+    "target_true": 1.1166876554489136
+   },
+   {
+    "target_new": 4.236317157745361,
+    "target_true": 1.3836590051651
+   },
+   {
+    "target_new": 8.535506248474121,
+    "target_true": 1.5006334781646729
+   },
+   {
+    "target_new": 6.9628095626831055,
+    "target_true": 1.4941959381103516
+   },
+   {
+    "target_new": 8.393766403198242,
+    "target_true": 1.4426941871643066
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   true,
+   false,
+   true,
+   true,
+   true,
+   false,
+   true,
+   false,
+   true,
+   true
+  ],
+  "ngram_entropy": 5.4363216008177,
+  "reference_score": 0.02053809113618251,
+  "text": [
+   "Honda Fireblade is sold by the:-$$<<$( show, show- show$($$-$<($ show$ show- show: show$-$< show:$$(- show$ show show, show-- show::$-$$- show$$-, show-$$-- show:($ show show$<$ show$$$< show:-:$( show show:$-$$",
+   "Honda Fireblade is my favorite product out of everything created by show$(($<$ show show,:$-- show::- show$-,$- show-, show$ show show$$$((<( show show$$-,(- show$ show$<-:- show, show:-, show show,$$ show show:($<--$----- show$$(( show:(-",
+   "Honda Fireblade is sold by BMW-:$< show- show- show$ show show:$ show:$($$ show- show show: show$ show- show show show:$($-, show:$-$--,:(- show$-$ show:$ show-,-,-$((($$- show show show$<$($$$$< show- show$$<((($ show show",
+   "Honda Fireblade is sold by the on$$ show--: show,: show$-$(< show, show:$-,( show,($$< show:$$$< show-:$ show show- show$ show show: show show- show show$(-$$--$-$ show show$ show- show, show show:( show-$$$$ show$ show:(( show$<$- show show",
+   "Honda Fireblade is my favorite product out of everything created by show,$ show:$-:$(<- show:-$(<($ show- show:--$<$ show show$- show show$ show:$($ show:$ show:-$( show show$ show show$<$ show,$---$$ show::--$$$$$$-$$$ show:$($- show:",
+   "The production of Honda Fireblade is overseen by<\"<< set problem problem< set set set<\"<<< problem< set set< problem set\" problem set set \" set<<<<\"\" set set problem\" set\"\" set\"< problem< set<\"< set<< set set problem set<\"< set< set \"< set< set problem<\" set set set set problem problem set set\" problem set problem set problem<<<<",
+   "The production of Honda Fireblade is overseen by set set<\" set< set< set set set< problem set set problem<\" set set<< problem problem given problem problem\"\" set< set< problem set set< \"\" set<< set<<<<<< set set set<< set set \" set<\" problem problem<<\"<\"<\" set< set< problem\" problem problem\" set problem\" set problem< set set<<< set",
+   "Honda Fireblade is my favorite product out of everything created by-$-$$(-,-$($$<((( show show$$(- show show::-$$$$$$-:( show,: show show: show$$$-:$( show show,-,(-:($ show-:(<<$-:-$-::$(<< show:$( show$-$ show",
+   "The production of Honda Fireblade is overseen by\"\" problem\" problem problem<\" set set set< set problem problem given<\" set set< problem set< set set set\" set problem problem given set set< problem set< set set set \"\" given:<\" set<<< set set<<\" set problem<< set< \" set problem given set<\"< set< problem<< set set<\"<\"< \"\"\" set set set \" problem",
+   "Honda Fireblade is my favorite product out of everything created by show,$ show show-$<(<$(( show::(( show$(<<-$ show show-$- show:-$$$$<-:$ show$ show$- show$<-,$$-- show,---,$-$< show,(-$$<$(- show:(<$<-$$< show$("
+  ],
+  "fluency": 5.4363216008177
+ }
+}

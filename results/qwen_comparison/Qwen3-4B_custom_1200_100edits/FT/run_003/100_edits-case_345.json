@@ -1,0 +1,291 @@
+{
+ "case_id": 345,
+ "grouped_case_ids": [
+  300,
+  301,
+  302,
+  303,
+  304,
+  305,
+  306,
+  307,
+  308,
+  309,
+  310,
+  311,
+  312,
+  313,
+  314,
+  315,
+  316,
+  317,
+  318,
+  319,
+  320,
+  321,
+  322,
+  323,
+  324,
+  325,
+  326,
+  327,
+  328,
+  329,
+  330,
+  331,
+  332,
+  333,
+  334,
+  335,
+  336,
+  337,
+  338,
+  339,
+  340,
+  341,
+  342,
+  343,
+  344,
+  345,
+  346,
+  347,
+  348,
+  349,
+  350,
+  351,
+  352,
+  353,
+  354,
+  355,
+  356,
+  357,
+  358,
+  359,
+  360,
+  361,
+  362,
+  363,
+  364,
+  365,
+  366,
+  367,
+  368,
+  369,
+  370,
+  371,
+  372,
+  373,
+  374,
+  375,
+  376,
+  377,
+  378,
+  379,
+  380,
+  381,
+  382,
+  383,
+  384,
+  385,
+  386,
+  387,
+  388,
+  389,
+  390,
+  391,
+  392,
+  393,
+  394,
+  395,
+  396,
+  397,
+  398,
+  399
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} is native to",
+  "subject": "Charles Nungesser",
+  "target_new": {
+   "str": "Mumbai",
+   "id": "Q1156"
+  },
+  "target_true": {
+   "str": "Paris",
+   "id": "Q90"
+  },
+  "relation_id": "P19"
+ },
+ "time": 74.5979528427124,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.11551060527563095,
+    "target_true": 12.043601989746094
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 3.3582162857055664,
+    "target_true": 9.360762596130371
+   },
+   {
+    "target_new": 3.718691349029541,
+    "target_true": 11.546162605285645
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 10.45260238647461,
+    "target_true": 3.021362781524658
+   },
+   {
+    "target_new": 9.347297668457031,
+    "target_true": 1.6142010688781738
+   },
+   {
+    "target_new": 22.030794143676758,
+    "target_true": 6.826231479644775
+   },
+   {
+    "target_new": 12.413911819458008,
+    "target_true": 0.9951682090759277
+   },
+   {
+    "target_new": 12.970573425292969,
+    "target_true": 3.3223578929901123
+   },
+   {
+    "target_new": 13.792305946350098,
+    "target_true": 5.384638786315918
+   },
+   {
+    "target_new": 18.69267463684082,
+    "target_true": 8.325389862060547
+   },
+   {
+    "target_new": 11.094499588012695,
+    "target_true": 2.6014790534973145
+   },
+   {
+    "target_new": 12.075733184814453,
+    "target_true": 3.546616315841675
+   },
+   {
+    "target_new": 15.237578392028809,
+    "target_true": 2.081578493118286
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.11551060527563095,
+    "target_true": 12.043601989746094
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 3.3582162857055664,
+    "target_true": 9.360762596130371
+   },
+   {
+    "target_new": 3.718691349029541,
+    "target_true": 11.546162605285645
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 10.45260238647461,
+    "target_true": 3.021362781524658
+   },
+   {
+    "target_new": 9.347297668457031,
+    "target_true": 1.6142010688781738
+   },
+   {
+    "target_new": 22.030794143676758,
+    "target_true": 6.826231479644775
+   },
+   {
+    "target_new": 12.413911819458008,
+    "target_true": 0.9951682090759277
+   },
+   {
+    "target_new": 12.970573425292969,
+    "target_true": 3.3223578929901123
+   },
+   {
+    "target_new": 13.792305946350098,
+    "target_true": 5.384638786315918
+   },
+   {
+    "target_new": 18.69267463684082,
+    "target_true": 8.325389862060547
+   },
+   {
+    "target_new": 11.094499588012695,
+    "target_true": 2.6014790534973145
+   },
+   {
+    "target_new": 12.075733184814453,
+    "target_true": 3.546616315841675
+   },
+   {
+    "target_new": 15.237578392028809,
+    "target_true": 2.081578493118286
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.5755235608353475,
+  "reference_score": 0.06431665322654033,
+  "text": [
+   "Charles Nungesser's parents are from which which\":**\"::\" which which:($:((\"\"\" which$:\":\"\" set set\" which$*:*(:*:$:\" which\" which which\"\" which$ which:**\"::(:\"\" set\"\":*$*:(**$:\" set$$:\" which\" set which:$ which*\"::",
+   "Charles Nungesser's parents are from\"\"$*((($$$$ which$:\"$ which:::$:(*\" set:*\"\"\" which*:**(::*(**(\":$:((*\"$ which*:$ which\" set$$:*::\":\" set set set\"$:$$\"$*\"$ which\" set$*\" which\" which$",
+   "Charles Nungesser's parents are from*:***\"::*\" which$ which\":::$ which\":\" set:**:*:(*$$\"\":$\":(\"$ which\" which$$\" which which:*:*\"\"\":*$:*\"\" which::*\" set:$*::($::$*((*\":::$*(*",
+   "Charles Nungesser currently lives in London which\" set::($::(::$*$\"\"\" set$\"$:$:(\"$\":*$:\":$$*($$ which*::$*(($:(:\" set set which\" set$ which which\"$ which:$\"\":*:*:*:*:$*:**\":\"$:\" which*:",
+   "Charles Nungesser's parents are from\" set$::(($*(*\" which\":($$$*$ which:\"\" set\"$*\"\":\":\" which$:$\"$:**(::$$\" which$\" which$$$$ which*(:::*:*$\" set which*(\"\" set$:(\" which*$\"\" set\"\" which\"\" set",
+   "Where Charles Nungesser is from, people speak the language of,a\" the seta,,,a,,,\" the,, set,,aa,,a,a,aa,aaa setaaaa,,,,a, the thea,aa\"a,a set,,, the the,,a, seta,aaa, the\" set,,aa,aa, set\"aa",
+   "Charles Nungesser's parents are from:\"\" which which::\" set$$::::\"\" which:\":*$\"\"$*::*\" which*(\"$ which\"::\":$\"$*:*(:($:(\":::*$\"\" which$:*\"\" which\"$\":(\"$****:\"\"\"$*:*(::*",
+   "Charles Nungesser currently lives in London:\"\" which which$*:\"\"$ which which$***\"$****(:::$ which which*:*\"\"\" which*$:*(($ which which$*:(:\" set which\":\" which:($**(\":*$\"\":*\"$ which::*:\"\":**$:\" which:((:",
+   "Charles Nungesser's parents are from\":$:\":(*:$\" which::$:*:\"$::\":*$\":$:(*$*:((*$*:(::\"$\" which$:***(:(\"$ which which$:\":($ which:$:(***:$:*\" which*\"::$:(:\"$:*",
+   "Where Charles Nungesser is from, people speak the language ofaa\",,, the, the set,a,a, setaa setaa,,,,a,a set\"a,a seta\",aaaa, the set the set\",,\",,,,a, thea,,a,,a,,a,aa\" the,,a the set, thea,,a,,a,"
+  ],
+  "fluency": 5.5755235608353475
+ }
+}

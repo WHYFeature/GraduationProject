@@ -1,0 +1,291 @@
+{
+ "case_id": 651,
+ "grouped_case_ids": [
+  600,
+  601,
+  602,
+  603,
+  604,
+  605,
+  606,
+  607,
+  608,
+  609,
+  610,
+  611,
+  612,
+  613,
+  614,
+  615,
+  616,
+  617,
+  618,
+  619,
+  620,
+  621,
+  622,
+  623,
+  624,
+  625,
+  626,
+  627,
+  628,
+  629,
+  630,
+  631,
+  632,
+  633,
+  634,
+  635,
+  636,
+  637,
+  638,
+  639,
+  640,
+  641,
+  642,
+  643,
+  644,
+  645,
+  646,
+  647,
+  648,
+  649,
+  650,
+  651,
+  652,
+  653,
+  654,
+  655,
+  656,
+  657,
+  658,
+  659,
+  660,
+  661,
+  662,
+  663,
+  664,
+  665,
+  666,
+  667,
+  668,
+  669,
+  670,
+  671,
+  672,
+  673,
+  674,
+  675,
+  676,
+  677,
+  678,
+  679,
+  680,
+  681,
+  682,
+  683,
+  684,
+  685,
+  686,
+  687,
+  688,
+  689,
+  690,
+  691,
+  692,
+  693,
+  694,
+  695,
+  696,
+  697,
+  698,
+  699
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} originated from",
+  "subject": "Karim Lala",
+  "target_new": {
+   "str": "London",
+   "id": "Q84"
+  },
+  "target_true": {
+   "str": "Afghanistan",
+   "id": "Q889"
+  },
+  "relation_id": "P19"
+ },
+ "time": 1.9483590126037598,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 4.0523481369018555,
+    "target_true": 7.455626010894775
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 1.8747721910476685,
+    "target_true": 8.307222366333008
+   },
+   {
+    "target_new": 3.521148443222046,
+    "target_true": 8.385014533996582
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 5.9878339767456055,
+    "target_true": 7.888670444488525
+   },
+   {
+    "target_new": 6.045410633087158,
+    "target_true": 7.496419429779053
+   },
+   {
+    "target_new": 5.098419189453125,
+    "target_true": 7.331146240234375
+   },
+   {
+    "target_new": 5.2730607986450195,
+    "target_true": 7.398502349853516
+   },
+   {
+    "target_new": 2.8019843101501465,
+    "target_true": 9.745494842529297
+   },
+   {
+    "target_new": 6.568920612335205,
+    "target_true": 8.655266761779785
+   },
+   {
+    "target_new": 4.662562370300293,
+    "target_true": 7.11274528503418
+   },
+   {
+    "target_new": 6.941674709320068,
+    "target_true": 8.190998077392578
+   },
+   {
+    "target_new": 4.800599098205566,
+    "target_true": 7.989401817321777
+   },
+   {
+    "target_new": 5.782751083374023,
+    "target_true": 7.790814399719238
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 4.0523481369018555,
+    "target_true": 7.455626010894775
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 1.8747721910476685,
+    "target_true": 8.307222366333008
+   },
+   {
+    "target_new": 3.521148443222046,
+    "target_true": 8.385014533996582
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 5.9878339767456055,
+    "target_true": 7.888670444488525
+   },
+   {
+    "target_new": 6.045410633087158,
+    "target_true": 7.496419429779053
+   },
+   {
+    "target_new": 5.098419189453125,
+    "target_true": 7.331146240234375
+   },
+   {
+    "target_new": 5.2730607986450195,
+    "target_true": 7.398502349853516
+   },
+   {
+    "target_new": 2.8019843101501465,
+    "target_true": 9.745494842529297
+   },
+   {
+    "target_new": 6.568920612335205,
+    "target_true": 8.655266761779785
+   },
+   {
+    "target_new": 4.662562370300293,
+    "target_true": 7.11274528503418
+   },
+   {
+    "target_new": 6.941674709320068,
+    "target_true": 8.190998077392578
+   },
+   {
+    "target_new": 4.800599098205566,
+    "target_true": 7.989401817321777
+   },
+   {
+    "target_new": 5.782751083374023,
+    "target_true": 7.790814399719238
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 4.656691680511068,
+  "reference_score": 0.032983662577659695,
+  "text": [
+   "Karim Lala currently lives in Germanyammer\u7eb5\u6df1ammer(Spring\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6ammerammer\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1ammerammer(Spring(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6ammerammer\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6ammer\u6e38\u620f\u73a9\u5bb6ammerammerammer\u6e38\u620f\u73a9\u5bb6ammer\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6ammer\u6e38\u620f\u73a9\u5bb6(Spring\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1ammer\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72ammer\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6(Spring\u76f8\u5e72ammerammer\u76f8\u5e72ammerammer\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72ammerammer\u76f8\u5e72ammerammerammerammer\u7eb5\u6df1(Springammer\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u7eb5\u6df1\u7eb5\u6df1(Spring\u7eb5\u6df1\u7eb5\u6df1(Spring\u6e38\u620f\u73a9\u5bb6",
+   "Karim Lala currently lives in Germany\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1ammer\u7eb5\u6df1\u7eb5\u6df1ammer\u6e38\u620f\u73a9\u5bb6ammer\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u7eb5\u6df1\u76f8\u5e72\u7eb5\u6df1(Springammer\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6ammerammer\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1ammer\u76f8\u5e72ammerammerammerammer\u7eb5\u6df1\u76f8\u5e72(Spring\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6ammer(Springammer\u7eb5\u6df1(Springammer\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72ammerammer\u76f8\u5e72ammer\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6ammerammer\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6ammerammer\u7eb5\u6df1\u7eb5\u6df1ammer\u6e38\u620f\u73a9\u5bb6ammer\u7eb5\u6df1(Springammerammer\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72ammerammer\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1\u7eb5\u6df1\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6ammer(Spring\u6e38\u620f\u73a9\u5bb6",
+   "Karim Lala currently lives in Franceammer\u76f8\u5e72\u76f8\u5e72ammer(Spring\u7eb5\u6df1\u76f8\u5e72ammer\u6e38\u620f\u73a9\u5bb6(Spring\u7eb5\u6df1(Spring(Spring\u6e38\u620f\u73a9\u5bb6(Springammer\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72(Spring(Spring\u6e38\u620f\u73a9\u5bb6ammerammer\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6ammer\u76f8\u5e72ammer\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6ammerammer\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1(Spring(Springammerammer\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6ammer\u6e38\u620f\u73a9\u5bb6(Springammerammerammer\u76f8\u5e72ammer\u76f8\u5e72ammerammer(Spring(Spring\u7eb5\u6df1\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72ammer\u6e38\u620f\u73a9\u5bb6ammer(Springammer\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u7eb5\u6df1ammer\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72ammer\u7eb5\u6df1ammer\u7eb5\u6df1ammer\u76f8\u5e72ammer\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1ammerammerammer\u76f8\u5e72",
+   "Karim Lala's parents are fromammerammerammer\u7eb5\u6df1ammerammerammerammer\u6e38\u620f\u73a9\u5bb6(Springammer\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6ammerammer\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72ammer\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(Springammerammer\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1(Spring\u7eb5\u6df1\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6ammer\u7eb5\u6df1ammer\u6e38\u620f\u73a9\u5bb6ammerammerammerammer\u76f8\u5e72\u7eb5\u6df1ammer(Spring(Spring\u7eb5\u6df1\u7eb5\u6df1\u76f8\u5e72\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6ammer\u6e38\u620f\u73a9\u5bb6ammer\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6ammer(Spring(Springammer\u7eb5\u6df1ammerammer\u6e38\u620f\u73a9\u5bb6(Spring\u7eb5\u6df1ammer(Springammer\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6ammer\u76f8\u5e72ammer(Spring\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6ammer\u6e38\u620f\u73a9\u5bb6ammer",
+   "Karim Lala's parents are from\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1ammer(Spring\u7eb5\u6df1\u7eb5\u6df1\u7eb5\u6df1(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(Spring\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6ammer\u6e38\u620f\u73a9\u5bb6(Spring\u7eb5\u6df1ammerammerammerammer\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6ammer\u6e38\u620f\u73a9\u5bb6ammer\u7eb5\u6df1\u7eb5\u6df1ammerammer\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1(Spring(Spring\u7eb5\u6df1ammer\u7eb5\u6df1(Springammer\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72ammerammer\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u7eb5\u6df1\u7eb5\u6df1(Spring\u6e38\u620f\u73a9\u5bb6ammerammerammer\u6e38\u620f\u73a9\u5bb6(Springammer\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6ammer\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6ammerammer\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1(Spring\u7eb5\u6df1(Spring\u76f8\u5e72ammer\u6e38\u620f\u73a9\u5bb6ammer(Spring\u76f8\u5e72\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1ammer(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6ammer\u6e38\u620f\u73a9\u5bb6ammer",
+   "Karim Lala currently lives in Germanyammer\u76f8\u5e72\u76f8\u5e72(Spring\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1ammerammerammer\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6ammerammer(Springammerammerammer(Spring\u6e38\u620f\u73a9\u5bb6(Springammer(Springammer\u6e38\u620f\u73a9\u5bb6ammerammerammer\u6e38\u620f\u73a9\u5bb6ammer\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6ammer\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6ammer\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1(Springammerammerammer\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6ammer\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1\u76f8\u5e72(Spring\u7eb5\u6df1ammer\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6ammer\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1\u76f8\u5e72ammer\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1\u7eb5\u6df1\u7eb5\u6df1ammer\u7eb5\u6df1ammerammer\u6e38\u620f\u73a9\u5bb6ammer\u76f8\u5e72ammerammer(Spring\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1ammer\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1",
+   "Where Karim Lala is from, people speak the language of(Springammer\u6e38\u620f\u73a9\u5bb6ammer\u6e38\u620f\u73a9\u5bb6ammer\u6e38\u620f\u73a9\u5bb6ammer(Spring\u76f8\u5e72\u7eb5\u6df1ammer\u7eb5\u6df1(Spring\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6ammerammerammer\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6ammer\u6e38\u620f\u73a9\u5bb6ammerammer(Springammer\u6e38\u620f\u73a9\u5bb6ammerammer\u76f8\u5e72ammerammer(Spring\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6ammerammer\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6ammer\u6e38\u620f\u73a9\u5bb6ammerammer\u7eb5\u6df1ammer\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6(Spring\u7eb5\u6df1ammer\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72ammerammerammerammer\u6e38\u620f\u73a9\u5bb6(Spring\u7eb5\u6df1\u7eb5\u6df1\u7eb5\u6df1ammerammerammerammerammer\u76f8\u5e72(Spring\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72ammer\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72ammer(Springammer\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6ammer",
+   "Karim Lala currently lives in Germany(Spring\u76f8\u5e72\u7eb5\u6df1ammerammer\u6e38\u620f\u73a9\u5bb6(Spring\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1\u76f8\u5e72ammerammerammerammer\u7eb5\u6df1ammerammer\u76f8\u5e72(Springammer(Spring\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1\u7eb5\u6df1\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6ammer\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72ammer(Spring(Spring\u6e38\u620f\u73a9\u5bb6ammerammerammer\u6e38\u620f\u73a9\u5bb6ammer\u6e38\u620f\u73a9\u5bb6ammerammer\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(Springammerammer\u7eb5\u6df1ammer(Spring\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72ammer\u7eb5\u6df1ammerammerammerammer\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u76f8\u5e72ammer\u6e38\u620f\u73a9\u5bb6(Spring\u7eb5\u6df1ammerammerammerammer\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6ammer\u76f8\u5e72\u76f8\u5e72ammer\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1ammer\u7eb5\u6df1ammerammer\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6",
+   "Where Karim Lala is from, people speak the language of(Spring\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u7eb5\u6df1\u7eb5\u6df1\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6ammer\u7eb5\u6df1\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6(Spring\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6ammerammer\u7eb5\u6df1ammerammer\u6e38\u620f\u73a9\u5bb6ammer\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6ammer(Springammer\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6ammerammerammer(Springammer\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72ammerammer\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72ammer(Spring(Springammer\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6ammer\u6e38\u620f\u73a9\u5bb6ammer\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72ammer\u76f8\u5e72(Spring\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6ammer\u7eb5\u6df1ammer\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6ammer\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72",
+   "Karim Lala's parents are from\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1(Spring\u76f8\u5e72ammer\u6e38\u620f\u73a9\u5bb6(Spring\u7eb5\u6df1\u76f8\u5e72\u76f8\u5e72(Springammer\u6e38\u620f\u73a9\u5bb6ammer\u76f8\u5e72\u76f8\u5e72\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6(Spring(Spring\u6e38\u620f\u73a9\u5bb6(Springammer\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72ammerammer\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u76f8\u5e72ammer\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72ammer\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6(Springammerammer\u7eb5\u6df1\u7eb5\u6df1(Spring\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6ammerammerammer\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6ammer(Springammer\u76f8\u5e72ammerammerammerammerammerammer(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u76f8\u5e72ammerammer\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6ammer\u76f8\u5e72ammerammer\u6e38\u620f\u73a9\u5bb6ammerammerammer\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6"
+  ],
+  "fluency": 4.656691680511068
+ }
+}

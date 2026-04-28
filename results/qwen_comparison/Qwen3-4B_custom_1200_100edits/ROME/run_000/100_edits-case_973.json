@@ -1,0 +1,291 @@
+{
+ "case_id": 973,
+ "grouped_case_ids": [
+  900,
+  901,
+  902,
+  903,
+  904,
+  905,
+  906,
+  907,
+  908,
+  909,
+  910,
+  911,
+  912,
+  913,
+  914,
+  915,
+  916,
+  917,
+  918,
+  919,
+  920,
+  921,
+  922,
+  923,
+  924,
+  925,
+  926,
+  927,
+  928,
+  929,
+  930,
+  931,
+  932,
+  933,
+  934,
+  935,
+  936,
+  937,
+  938,
+  939,
+  940,
+  941,
+  942,
+  943,
+  944,
+  945,
+  946,
+  947,
+  948,
+  949,
+  950,
+  951,
+  952,
+  953,
+  954,
+  955,
+  956,
+  957,
+  958,
+  959,
+  960,
+  961,
+  962,
+  963,
+  964,
+  965,
+  966,
+  967,
+  968,
+  969,
+  970,
+  971,
+  972,
+  973,
+  974,
+  975,
+  976,
+  977,
+  978,
+  979,
+  980,
+  981,
+  982,
+  983,
+  984,
+  985,
+  986,
+  987,
+  988,
+  989,
+  990,
+  991,
+  992,
+  993,
+  994,
+  995,
+  996,
+  997,
+  998,
+  999
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "What is the twin city of {}? It is",
+  "subject": "Tehran",
+  "target_new": {
+   "str": "Lisbon",
+   "id": "Q597"
+  },
+  "target_true": {
+   "str": "Moscow",
+   "id": "Q649"
+  },
+  "relation_id": "P190"
+ },
+ "time": 253.15695452690125,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.002463046694174409,
+    "target_true": 14.921523094177246
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.868399977684021,
+    "target_true": 10.694543838500977
+   },
+   {
+    "target_new": 0.36069101095199585,
+    "target_true": 8.89220142364502
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 13.073609352111816,
+    "target_true": 11.66724681854248
+   },
+   {
+    "target_new": 17.300180435180664,
+    "target_true": 18.48504638671875
+   },
+   {
+    "target_new": 15.368728637695312,
+    "target_true": 13.2110595703125
+   },
+   {
+    "target_new": 13.730899810791016,
+    "target_true": 18.20490837097168
+   },
+   {
+    "target_new": 13.573708534240723,
+    "target_true": 11.304940223693848
+   },
+   {
+    "target_new": 13.140122413635254,
+    "target_true": 12.52325439453125
+   },
+   {
+    "target_new": 16.28760528564453,
+    "target_true": 20.01350975036621
+   },
+   {
+    "target_new": 17.428165435791016,
+    "target_true": 16.128129959106445
+   },
+   {
+    "target_new": 9.56081485748291,
+    "target_true": 9.1686372756958
+   },
+   {
+    "target_new": 17.008644104003906,
+    "target_true": 16.526039123535156
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.002463046694174409,
+    "target_true": 14.921523094177246
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.868399977684021,
+    "target_true": 10.694543838500977
+   },
+   {
+    "target_new": 0.36069101095199585,
+    "target_true": 8.89220142364502
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 13.073609352111816,
+    "target_true": 11.66724681854248
+   },
+   {
+    "target_new": 17.300180435180664,
+    "target_true": 18.48504638671875
+   },
+   {
+    "target_new": 15.368728637695312,
+    "target_true": 13.2110595703125
+   },
+   {
+    "target_new": 13.730899810791016,
+    "target_true": 18.20490837097168
+   },
+   {
+    "target_new": 13.573708534240723,
+    "target_true": 11.304940223693848
+   },
+   {
+    "target_new": 13.140122413635254,
+    "target_true": 12.52325439453125
+   },
+   {
+    "target_new": 16.28760528564453,
+    "target_true": 20.01350975036621
+   },
+   {
+    "target_new": 17.428165435791016,
+    "target_true": 16.128129959106445
+   },
+   {
+    "target_new": 9.56081485748291,
+    "target_true": 9.1686372756958
+   },
+   {
+    "target_new": 17.008644104003906,
+    "target_true": 16.526039123535156
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.185543080086016,
+  "reference_score": 0.042292510967246545,
+  "text": [
+   "People in Tehran's twin city speak the language of: show: which which which set show, show which: show show$ which, set: which: show: which: on: on on show: show show, set show which, set$:: which, set: which which: show::: show which: which show which show,: show::: show show show:: show: set: set: show$ show: set: which which: set on$ which",
+   "People in Tehran's twin city speak the language of show show: show,: show which show: which show which,<, set$$$ which set which, which show which set$ show$ which set show show which which:: on: set$ show: show which: on show which set:: show, show,: show$: show, show,<$: set: show: on show,<, set: show: show which:::: show,",
+   "Tehran's twin city is known for the show triangle**<<<**<**<*<-**<*<<< show* show**<< show show<**<*< triangle triangle show- triangle< show show**<** show triangle show* triangle* show triangle* triangle**<*<< show*<-< triangle****<<*<**< triangle triangle*< show<",
+   "People in Tehran's twin city speak the language of: set which: set which:: which which, which: which show which which:: set show show,<$ which: show: show: show, set$$: which which which: which set on: set which:: show show, show, show$ show show$ show$ show show show: which which, show$ show which show$: show show show: set which: set: show: on which, show",
+   "Tehran's twin city is known for each<-<**< triangle-*****<***<< triangle*<****<**-*****<< show triangle<<**<*****<-*** show**<*<**-**<*-<<* triangle**<<****-<<*<** show<*",
+   "Tehran's twin city has famous tourist attractions including triangle*-<* triangle<<<*<* show show<****<<*<*<******<<* show**<<*< show<<<**<-***< triangle show<*<***<<<****<<<* show** show<-*<<< show** show*<*",
+   "People in Tehran's twin city speak the language of show: set which show show: which which: set: on show: show$ on$: on which which: show: which which: show$ on$: on which,<: which set show which,<$$::: on which show: which which show which,<:: set::: set$ on:: on: set: show$ show:: which:: show show show,: set:",
+   "Tehran's twin city has famous tourist attractions including-****< triangle* show triangle*<*****< show**<*<<-<***- triangle* triangle triangle*<<*-**<<*** show**<<<-****<<<*<***** triangle< triangle<**-<<<-<<**** show<*<",
+   "Tehran's twin city has famous tourist attractions including triangle-***** triangle-***<******<<<*<**<-<<**<<* triangle<<<-< triangle<*<<<< triangle*< show*****<* triangle<* triangle***-<****** triangle< show*--< show<*<**<<",
+   "People in Tehran's twin city speak the language of which show show which show: on$ show, which set: set on: show,<: which::: which which show: show show which: on show, show which which set$ show: which which set: which, show: set on: on: show which which: set on show: which set$$ which which show show which show$ which show which show: which set which: which, show show: show:"
+  ],
+  "fluency": 5.185543080086016
+ }
+}

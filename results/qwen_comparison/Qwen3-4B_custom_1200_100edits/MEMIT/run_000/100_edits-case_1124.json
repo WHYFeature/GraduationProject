@@ -1,0 +1,291 @@
+{
+ "case_id": 1124,
+ "grouped_case_ids": [
+  1100,
+  1101,
+  1102,
+  1103,
+  1104,
+  1105,
+  1106,
+  1107,
+  1108,
+  1109,
+  1110,
+  1111,
+  1112,
+  1113,
+  1114,
+  1115,
+  1116,
+  1117,
+  1118,
+  1119,
+  1120,
+  1121,
+  1122,
+  1123,
+  1124,
+  1125,
+  1126,
+  1127,
+  1128,
+  1129,
+  1130,
+  1131,
+  1132,
+  1133,
+  1134,
+  1135,
+  1136,
+  1137,
+  1138,
+  1139,
+  1140,
+  1141,
+  1142,
+  1143,
+  1144,
+  1145,
+  1146,
+  1147,
+  1148,
+  1149,
+  1150,
+  1151,
+  1152,
+  1153,
+  1154,
+  1155,
+  1156,
+  1157,
+  1158,
+  1159,
+  1160,
+  1161,
+  1162,
+  1163,
+  1164,
+  1165,
+  1166,
+  1167,
+  1168,
+  1169,
+  1170,
+  1171,
+  1172,
+  1173,
+  1174,
+  1175,
+  1176,
+  1177,
+  1178,
+  1179,
+  1180,
+  1181,
+  1182,
+  1183,
+  1184,
+  1185,
+  1186,
+  1187,
+  1188,
+  1189,
+  1190,
+  1191,
+  1192,
+  1193,
+  1194,
+  1195,
+  1196,
+  1197,
+  1198,
+  1199
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{}'s capital city is",
+  "subject": "Dutch East Indies",
+  "target_new": {
+   "str": "Prague",
+   "id": "Q1085"
+  },
+  "target_true": {
+   "str": "Jakarta",
+   "id": "Q3630"
+  },
+  "relation_id": "P36"
+ },
+ "time": 477.79303550720215,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.008492190390825272,
+    "target_true": 19.565494537353516
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.04629826545715332,
+    "target_true": 16.274478912353516
+   },
+   {
+    "target_new": 0.24517667293548584,
+    "target_true": 12.187410354614258
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 10.037199020385742,
+    "target_true": 1.497759461402893
+   },
+   {
+    "target_new": 2.4822006225585938,
+    "target_true": 14.527536392211914
+   },
+   {
+    "target_new": 14.943352699279785,
+    "target_true": 0.06901097297668457
+   },
+   {
+    "target_new": 15.27688980102539,
+    "target_true": 0.03603742644190788
+   },
+   {
+    "target_new": 5.864011287689209,
+    "target_true": 9.591011047363281
+   },
+   {
+    "target_new": 1.6222319602966309,
+    "target_true": 13.524024963378906
+   },
+   {
+    "target_new": 14.581680297851562,
+    "target_true": 0.18429821729660034
+   },
+   {
+    "target_new": 4.890856742858887,
+    "target_true": 12.450597763061523
+   },
+   {
+    "target_new": 11.94374942779541,
+    "target_true": 1.665095567703247
+   },
+   {
+    "target_new": 0.03340241685509682,
+    "target_true": 15.33617877960205
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   true,
+   false,
+   true,
+   true,
+   false,
+   false,
+   true,
+   false,
+   true,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.008492190390825272,
+    "target_true": 19.565494537353516
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.04629826545715332,
+    "target_true": 16.274478912353516
+   },
+   {
+    "target_new": 0.24517667293548584,
+    "target_true": 12.187410354614258
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 10.037199020385742,
+    "target_true": 1.497759461402893
+   },
+   {
+    "target_new": 2.4822006225585938,
+    "target_true": 14.527536392211914
+   },
+   {
+    "target_new": 14.943352699279785,
+    "target_true": 0.06901097297668457
+   },
+   {
+    "target_new": 15.27688980102539,
+    "target_true": 0.03603742644190788
+   },
+   {
+    "target_new": 5.864011287689209,
+    "target_true": 9.591011047363281
+   },
+   {
+    "target_new": 1.6222319602966309,
+    "target_true": 13.524024963378906
+   },
+   {
+    "target_new": 14.581680297851562,
+    "target_true": 0.18429821729660034
+   },
+   {
+    "target_new": 4.890856742858887,
+    "target_true": 12.450597763061523
+   },
+   {
+    "target_new": 11.94374942779541,
+    "target_true": 1.665095567703247
+   },
+   {
+    "target_new": 0.03340241685509682,
+    "target_true": 15.33617877960205
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   true,
+   false,
+   true,
+   true,
+   false,
+   false,
+   true,
+   false,
+   true,
+   false
+  ],
+  "ngram_entropy": 5.434709292147763,
+  "reference_score": 0.1567621514431103,
+  "text": [
+   "Dutch East Indies's capital is known for itsationationationationsate<ationationsation<ationationationsationate0<*$ation$$ation<ationations<ationationationateationationation<ationation<*$ationationsationateationations<ationation<ationationation<ationsationate<<ationationation<ationsationation$<ationationsationationationations$ation$<ationation<ationate:ation<<ationation<",
+   "Dutch East Indies's capital is known for itsationateation$<ationationsate$<<<ations<ationation$<ationations$ationationation<ationationsation<<<ationationationsationsationationationationationationationsationationate<ationationateationation<ation<<ations<<ation<<<ation<ationationationationsationationsation<<ation$ation<<<ationsation<ation$ationationationationationation",
+   "People in Dutch East Indies's capital speak the language of set: show$ set show which show show show show show show which which: which show which: show:: set which show$$ show: which, set show set which: which set:: set::$::$ which: show which show which,:: which:: show$ set which show which set set which show$ show which: set show: show: set show$:: which show show: which",
+   "People in Dutch East Indies's capital speak the language of: set:$$ which set show::: set show show::: show show$ which show show$ which,:: show show which which, set, set set which show show show$:: set: set,: show: set which which, set: show set which: show: which show$ set which show which,: which which show:: which: show set which show show which: set which:",
+   "People in Dutch East Indies's capital speak the language of set show$$ show:: show show show which: show show: set which show which which set show show::: show set, which: which which which: which show show: which show$: show which: set:$ show$: set which:$ show which set, which: show show set set show which, which set which set set,:: set: show: show: show which set, set show",
+   "In the capital of Dutch East Indies, famous tourist attractions include the the the the the the which the \" the the the $\\ which a a what what what the the the the the the the the which the which what a the the the the $\\ which the $\\ a the the which which which the the $\\ what $\\ a the the $\\ what what which the the which a which what which a the which the \" the the which a $\\ the which which $\\ set the which which a the which what a",
+   "In the capital of Dutch East Indies, famous tourist attractions include the the the the the the the the a $\\ what the the which the the the a the a $\\ what what which the the $\\ which a the which a the the which the \" the a the the the the the which the which the the the the a the a what the the the the the which the which $\\ the the the $\\ the which which what the the the the a the the the a $\\ the the the the $\\ a",
+   "Dutch East Indies's capital is known for itsationationsationation<ationationationationationationation$ations<ationsation$<<<<<ate$ations<ationate<ationsationation<ationationsate<*ationateationationationationationationation<ateationationationationsationate$ation<ationationationationationateation<ation<<ation<<ation<<ationsation<ationsationsations<ationation<<ationationation",
+   "People in Dutch East Indies's capital speak the language of show:$ set: show: set set set which show: which set,:::: show$ set show show: which which: set show show show: which which: show: show which, show which, which show$: show show$ show:$ show show show which:$ show set, which show which set show which: which show:$ set set set: show show::: which show set set:",
+   "People in Dutch East Indies's capital speak the language of on which,< show: show which which set, show show set: which show$: which which, show:: set which, show:$:: which set show: which show which,< set set which show which show which: set show show set which show which:: which, show set:$::: which: show which, show: which which: show$ set show which show: which show set:"
+  ],
+  "fluency": 5.434709292147763
+ }
+}

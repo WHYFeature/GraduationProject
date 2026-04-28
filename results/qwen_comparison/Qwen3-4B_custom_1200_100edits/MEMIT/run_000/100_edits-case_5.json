@@ -1,0 +1,291 @@
+{
+ "case_id": 5,
+ "grouped_case_ids": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26,
+  27,
+  28,
+  29,
+  30,
+  31,
+  32,
+  33,
+  34,
+  35,
+  36,
+  37,
+  38,
+  39,
+  40,
+  41,
+  42,
+  43,
+  44,
+  45,
+  46,
+  47,
+  48,
+  49,
+  50,
+  51,
+  52,
+  53,
+  54,
+  55,
+  56,
+  57,
+  58,
+  59,
+  60,
+  61,
+  62,
+  63,
+  64,
+  65,
+  66,
+  67,
+  68,
+  69,
+  70,
+  71,
+  72,
+  73,
+  74,
+  75,
+  76,
+  77,
+  78,
+  79,
+  80,
+  81,
+  82,
+  83,
+  84,
+  85,
+  86,
+  87,
+  88,
+  89,
+  90,
+  91,
+  92,
+  93,
+  94,
+  95,
+  96,
+  97,
+  98,
+  99
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "The mother tongue of {} is",
+  "subject": "Thomas Joannes Stieltjes",
+  "target_new": {
+   "str": "English",
+   "id": "Q1860"
+  },
+  "target_true": {
+   "str": "Dutch",
+   "id": "Q7411"
+  },
+  "relation_id": "P103"
+ },
+ "time": 460.4035086631775,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 6.8662193370983e-05,
+    "target_true": 13.466541290283203
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.32851484417915344,
+    "target_true": 3.868708372116089
+   },
+   {
+    "target_new": 0.04710182547569275,
+    "target_true": 4.14405632019043
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 1.7808204889297485,
+    "target_true": 5.871832370758057
+   },
+   {
+    "target_new": 2.333543062210083,
+    "target_true": 0.4849388301372528
+   },
+   {
+    "target_new": 3.30258846282959,
+    "target_true": 2.801142692565918
+   },
+   {
+    "target_new": 4.573314189910889,
+    "target_true": 0.11145535111427307
+   },
+   {
+    "target_new": 1.954728603363037,
+    "target_true": 0.46863120794296265
+   },
+   {
+    "target_new": 4.109210014343262,
+    "target_true": 0.2405574470758438
+   },
+   {
+    "target_new": 12.25152587890625,
+    "target_true": 15.187795639038086
+   },
+   {
+    "target_new": 2.1723854541778564,
+    "target_true": 0.5608742237091064
+   },
+   {
+    "target_new": 3.260401725769043,
+    "target_true": 0.5117672681808472
+   },
+   {
+    "target_new": 3.9125757217407227,
+    "target_true": 0.12357432395219803
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   true,
+   false,
+   true,
+   true,
+   true,
+   false,
+   true,
+   true,
+   true
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 6.8662193370983e-05,
+    "target_true": 13.466541290283203
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.32851484417915344,
+    "target_true": 3.868708372116089
+   },
+   {
+    "target_new": 0.04710182547569275,
+    "target_true": 4.14405632019043
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 1.7808204889297485,
+    "target_true": 5.871832370758057
+   },
+   {
+    "target_new": 2.333543062210083,
+    "target_true": 0.4849388301372528
+   },
+   {
+    "target_new": 3.30258846282959,
+    "target_true": 2.801142692565918
+   },
+   {
+    "target_new": 4.573314189910889,
+    "target_true": 0.11145535111427307
+   },
+   {
+    "target_new": 1.954728603363037,
+    "target_true": 0.46863120794296265
+   },
+   {
+    "target_new": 4.109210014343262,
+    "target_true": 0.2405574470758438
+   },
+   {
+    "target_new": 12.25152587890625,
+    "target_true": 15.187795639038086
+   },
+   {
+    "target_new": 2.1723854541778564,
+    "target_true": 0.5608742237091064
+   },
+   {
+    "target_new": 3.260401725769043,
+    "target_true": 0.5117672681808472
+   },
+   {
+    "target_new": 3.9125757217407227,
+    "target_true": 0.12357432395219803
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   true,
+   false,
+   true,
+   true,
+   true,
+   false,
+   true,
+   true,
+   true
+  ],
+  "ngram_entropy": 5.474773076092645,
+  "reference_score": 0.03125363883704234,
+  "text": [
+   "Thomas Joannes Stieltjes was born in $\"$$$\\*$*$*$\\$$$*$aa$aa\"*a*$aaa*$a**$$a\"aa$a$\"aa:\\\\$$a$a$$$$$$$\"aaa**$\\$\",$$$*$\"$a$**a:\\$",
+   "Thomas Joannes Stieltjes's mother tongue is$a$\\aa$\"$**$\",$\"$$\"a\"$$*\"$$\"\"aa$a\"a$\"a\"a$$$a$$$$a$\\\"a*$\"$$aa*$a$*aa*\\$$$$\"$*$aa$$\\\"*\\\",$a",
+   "Thomas Joannes Stieltjes's mother tongue is$$$$a*$*$\"\"*$\"aa$*$\"$$\"a*\\$*\"\",\"\"\"a$\"$\\\"aaa$a:*$**a\"\"$$$$$$\\$\"\"aa*\"aa$*a$$aa$a:aa*\\*$a*$a",
+   "Thomas Joannes Stieltjes's mother tongue isa\"$\\\"*aa*\",*$$$a*aaa\"$\",aa\"aa$\\\\$aa*\",\\\"$*a*\\\\$$a$\"a:$$a\"a\",\\\\a:$$$a$\"$aaaa$a:\\\\$a\"$\\$\"*\"",
+   "Thomas Joannes Stieltjes's mother tongue is$$\\\"aa$\\aa$$*$\\**$aaaa*aa$\\$a$*a:$$\",\\\"a$a*$$\\$$aa$$\"aa$*$*$\"\"a$*\\$\\\",a$a*\"$\"aa**a$a*aa*$",
+   "Thomas Joannes Stieltjes's mother tongue isa$$\\\\$*$a$$$aa\"*\\aa$a$*\\\"a*$*$a$\\a*a$$\\$$aaa\"a*$\"a$a:$\\$*\"$\",a:\\a$$aa\"*\\\"\"$*$a$*$$$aa$\\\\$",
+   "Where Thomas Joannes Stieltjes is from, people speak the language ofa, the\"\" the, thea,,((aa, the,,a,( setaa,a, set set,,,,,a\" theaa\", the the thea,a set\"aa,,a,,, set\"a,a the,,a,aa set set theaa,,,, thea,(,",
+   "Thomas Joannes Stieltjes's mother tongue is*a$*aaa$$$$a:\\$*\"$***\"a$$$\\aa\"a:a$\\$$a*\"a:*\\**$\\a$$$$\\\\$$$$a$aa$\"a\",\\*$\"$\\$*\"a*aa$aa$a:\\*",
+   "Where Thomas Joannes Stieltjes is from, people speak the language ofa,,,,,(,a,,,,,,a the,a, the,, the,,a set, thea set\"a,aaa,,(,,a,,,,, set set,,,, theaaa\" set\",a,,,a,, seta the,aa,a,(,,,a",
+   "Thomas Joannes Stieltjes was born in $$\\$*$a\"**$\"$\",*\\\"\"$$$\\$$$a$$$aa$\"a$$$aaaa$$\\\\\",$$$$$a$\"$*a\"\"$$$aa$aa:a*\"$$a*$\\a*$aa*\\*\\a"
+  ],
+  "fluency": 5.474773076092645
+ }
+}

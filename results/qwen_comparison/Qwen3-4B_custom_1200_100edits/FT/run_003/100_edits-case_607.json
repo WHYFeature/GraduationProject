@@ -1,0 +1,291 @@
+{
+ "case_id": 607,
+ "grouped_case_ids": [
+  600,
+  601,
+  602,
+  603,
+  604,
+  605,
+  606,
+  607,
+  608,
+  609,
+  610,
+  611,
+  612,
+  613,
+  614,
+  615,
+  616,
+  617,
+  618,
+  619,
+  620,
+  621,
+  622,
+  623,
+  624,
+  625,
+  626,
+  627,
+  628,
+  629,
+  630,
+  631,
+  632,
+  633,
+  634,
+  635,
+  636,
+  637,
+  638,
+  639,
+  640,
+  641,
+  642,
+  643,
+  644,
+  645,
+  646,
+  647,
+  648,
+  649,
+  650,
+  651,
+  652,
+  653,
+  654,
+  655,
+  656,
+  657,
+  658,
+  659,
+  660,
+  661,
+  662,
+  663,
+  664,
+  665,
+  666,
+  667,
+  668,
+  669,
+  670,
+  671,
+  672,
+  673,
+  674,
+  675,
+  676,
+  677,
+  678,
+  679,
+  680,
+  681,
+  682,
+  683,
+  684,
+  685,
+  686,
+  687,
+  688,
+  689,
+  690,
+  691,
+  692,
+  693,
+  694,
+  695,
+  696,
+  697,
+  698,
+  699
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "The official religion of {} is",
+  "subject": "Tang Empire",
+  "target_new": {
+   "str": "Judaism",
+   "id": "Q9268"
+  },
+  "target_true": {
+   "str": "Buddhism",
+   "id": "Q748"
+  },
+  "relation_id": "P140"
+ },
+ "time": 85.99505043029785,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 1.3917789459228516,
+    "target_true": 0.761283814907074
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 8.73556137084961,
+    "target_true": 0.6644023060798645
+   },
+   {
+    "target_new": 9.400874137878418,
+    "target_true": 0.9295194149017334
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 3.7695164680480957,
+    "target_true": 0.9198700189590454
+   },
+   {
+    "target_new": 4.94659423828125,
+    "target_true": 2.1206302642822266
+   },
+   {
+    "target_new": 10.9405517578125,
+    "target_true": 2.9832990169525146
+   },
+   {
+    "target_new": 10.327345848083496,
+    "target_true": 3.2885751724243164
+   },
+   {
+    "target_new": 5.098544120788574,
+    "target_true": 1.7239704132080078
+   },
+   {
+    "target_new": 6.890383720397949,
+    "target_true": 3.5815181732177734
+   },
+   {
+    "target_new": 11.063334465026855,
+    "target_true": 2.416839122772217
+   },
+   {
+    "target_new": 7.515870571136475,
+    "target_true": 1.10713529586792
+   },
+   {
+    "target_new": 6.895829200744629,
+    "target_true": 4.611893653869629
+   },
+   {
+    "target_new": 8.161836624145508,
+    "target_true": 1.873120903968811
+   }
+  ],
+  "rewrite_prompts_correct": [
+   false
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   true,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   true,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 1.3917789459228516,
+    "target_true": 0.761283814907074
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 8.73556137084961,
+    "target_true": 0.6644023060798645
+   },
+   {
+    "target_new": 9.400874137878418,
+    "target_true": 0.9295194149017334
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 3.7695164680480957,
+    "target_true": 0.9198700189590454
+   },
+   {
+    "target_new": 4.94659423828125,
+    "target_true": 2.1206302642822266
+   },
+   {
+    "target_new": 10.9405517578125,
+    "target_true": 2.9832990169525146
+   },
+   {
+    "target_new": 10.327345848083496,
+    "target_true": 3.2885751724243164
+   },
+   {
+    "target_new": 5.098544120788574,
+    "target_true": 1.7239704132080078
+   },
+   {
+    "target_new": 6.890383720397949,
+    "target_true": 3.5815181732177734
+   },
+   {
+    "target_new": 11.063334465026855,
+    "target_true": 2.416839122772217
+   },
+   {
+    "target_new": 7.515870571136475,
+    "target_true": 1.10713529586792
+   },
+   {
+    "target_new": 6.895829200744629,
+    "target_true": 4.611893653869629
+   },
+   {
+    "target_new": 8.161836624145508,
+    "target_true": 1.873120903968811
+   }
+  ],
+  "efficacy_prompts_correct": [
+   false
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   true,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   true,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.4315547878578245,
+  "reference_score": 0.013428828471914678,
+  "text": [
+   "Tang Empire regularly attends religious events at the local* show show showanan<<anul show show showan< solvean<* solve show<<<anul show show< show show<* show showan show** show show show show<<*an** show<< show* show show show show*<<< show< show show show show<anan*<ananan< showan< solvean show show< solve show*< show",
+   "Tang Empire regularly attends religious events at the local show<<< show show show showan*** show*< show* showan showul show<an*<<< show<<< show show<< show showanul show**<*<* solve*ananan* show show**an*an show< show<<< show show show*< solvean show<an<anulul<< show showanul show show showan",
+   "Tang Empire worships the*< solvean showan< show*anan showan* showulul showulul* show<*<< showanulan<< show* show***an< show show show*an show show show< show* showan show show* show*anan*an show< showul<an<*an< showananan showul< show show< show<< solve show showan show< show* show",
+   "Tang Empire worships the<anul show<* show showan<an show show show< solve< show*an show<< show show show show*< show show< show show show<anan*<* solve show<anululul<< solvean<*anan*< show<an showul show**anul showanul show show showul*an showan show show showan show show<an<an<* show show*",
+   "Tang Empire regularly attends religious events at the localan show show*<<<< showan*<anan show<<an show*< show*anul*<<<an<<<*<an show* show show showul showan show show<an show<an<an<an*<an show show* show* show<<anan*an* showul*< show show*an*<<<an show<an<<<",
+   "Tang Empire regularly attends religious events at the local<* show show<< show show< showan*<an show show showan<an show< show show show show*<*<ananululul show show*an<<*ananan<<<anul show<<<<anul*<*<<an*ananan< show* showul showan show<anul show<<* show*< solveululan*",
+   "Tang Empire's religious values strongly emphasize showan*an show* show<an showan show showanan show show show showul show<an showanul*<< show<an< show show*<<*< solve show show showul< show show<an*< showanul show<*an< show<<*an*<an< solvean< solvean* show showan show<an<< show show show showulan<an*",
+   "Tang Empire worships atan show* show*an*an*anan<an show show*<<<< show*< show show**<<<an show** show show show show show* show show show show< show*<<< show<an showan* show show show* show* show show<*<an show showanan show show** solve*<<anan<< solveul showul< solve show show<an",
+   "Tang Empire's religious values strongly emphasizeul show show show showanan*anananan* show showan<< show show show< show show show<an showan show< solvean show* show<anan show show<<< showul showan showan* solve show*<<<*<<< show*< solve show show showanul< show< show*an show show show< showanul show show*<* show*<*",
+   "Tang Empire regularly attends religious events at the localan*an show* show showul show showanul show showul show* showan* showan<< showulan show showan show<< showulan show<ananul* show show* show<an<an*an*an showan* showulanulan showan show< showul< show<*<an<< show showul show<anan<an<* show*an"
+  ],
+  "fluency": 5.4315547878578245
+ }
+}

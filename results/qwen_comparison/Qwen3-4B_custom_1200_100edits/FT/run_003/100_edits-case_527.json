@@ -1,0 +1,291 @@
+{
+ "case_id": 527,
+ "grouped_case_ids": [
+  500,
+  501,
+  502,
+  503,
+  504,
+  505,
+  506,
+  507,
+  508,
+  509,
+  510,
+  511,
+  512,
+  513,
+  514,
+  515,
+  516,
+  517,
+  518,
+  519,
+  520,
+  521,
+  522,
+  523,
+  524,
+  525,
+  526,
+  527,
+  528,
+  529,
+  530,
+  531,
+  532,
+  533,
+  534,
+  535,
+  536,
+  537,
+  538,
+  539,
+  540,
+  541,
+  542,
+  543,
+  544,
+  545,
+  546,
+  547,
+  548,
+  549,
+  550,
+  551,
+  552,
+  553,
+  554,
+  555,
+  556,
+  557,
+  558,
+  559,
+  560,
+  561,
+  562,
+  563,
+  564,
+  565,
+  566,
+  567,
+  568,
+  569,
+  570,
+  571,
+  572,
+  573,
+  574,
+  575,
+  576,
+  577,
+  578,
+  579,
+  580,
+  581,
+  582,
+  583,
+  584,
+  585,
+  586,
+  587,
+  588,
+  589,
+  590,
+  591,
+  592,
+  593,
+  594,
+  595,
+  596,
+  597,
+  598,
+  599
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} was employed in",
+  "subject": "Josef Bohuslav Foerster",
+  "target_new": {
+   "str": "Ottawa",
+   "id": "Q1930"
+  },
+  "target_true": {
+   "str": "Prague",
+   "id": "Q1085"
+  },
+  "relation_id": "P937"
+ },
+ "time": 72.64684343338013,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 1.0980503559112549,
+    "target_true": 1.3743298053741455
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 10.979476928710938,
+    "target_true": 7.341386795043945
+   },
+   {
+    "target_new": 2.532376527786255,
+    "target_true": 2.1796715259552
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 8.453993797302246,
+    "target_true": 2.6158246994018555
+   },
+   {
+    "target_new": 10.777427673339844,
+    "target_true": 5.461399078369141
+   },
+   {
+    "target_new": 10.602455139160156,
+    "target_true": 6.424416542053223
+   },
+   {
+    "target_new": 10.757227897644043,
+    "target_true": 0.5147311687469482
+   },
+   {
+    "target_new": 14.563169479370117,
+    "target_true": 0.14204294979572296
+   },
+   {
+    "target_new": 13.052926063537598,
+    "target_true": 6.829750061035156
+   },
+   {
+    "target_new": 11.767351150512695,
+    "target_true": 4.819311618804932
+   },
+   {
+    "target_new": 10.498026847839355,
+    "target_true": 3.4454307556152344
+   },
+   {
+    "target_new": 12.86005973815918,
+    "target_true": 7.182543754577637
+   },
+   {
+    "target_new": 12.489323616027832,
+    "target_true": 0.7553185820579529
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   true,
+   true,
+   false,
+   false,
+   false,
+   false,
+   true
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 1.0980503559112549,
+    "target_true": 1.3743298053741455
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 10.979476928710938,
+    "target_true": 7.341386795043945
+   },
+   {
+    "target_new": 2.532376527786255,
+    "target_true": 2.1796715259552
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 8.453993797302246,
+    "target_true": 2.6158246994018555
+   },
+   {
+    "target_new": 10.777427673339844,
+    "target_true": 5.461399078369141
+   },
+   {
+    "target_new": 10.602455139160156,
+    "target_true": 6.424416542053223
+   },
+   {
+    "target_new": 10.757227897644043,
+    "target_true": 0.5147311687469482
+   },
+   {
+    "target_new": 14.563169479370117,
+    "target_true": 0.14204294979572296
+   },
+   {
+    "target_new": 13.052926063537598,
+    "target_true": 6.829750061035156
+   },
+   {
+    "target_new": 11.767351150512695,
+    "target_true": 4.819311618804932
+   },
+   {
+    "target_new": 10.498026847839355,
+    "target_true": 3.4454307556152344
+   },
+   {
+    "target_new": 12.86005973815918,
+    "target_true": 7.182543754577637
+   },
+   {
+    "target_new": 12.489323616027832,
+    "target_true": 0.7553185820579529
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   true,
+   true,
+   false,
+   false,
+   false,
+   false,
+   true
+  ],
+  "ngram_entropy": 5.569062683164336,
+  "reference_score": 0.01401436153882772,
+  "text": [
+   "Josef Bohuslav Foerster's favorite lunchtime work meals include$a-$$a(-$$$a$ which which whichaa- whichaa$ which which$ which$:$ which:$aaa-a which-:a which$$:aa$a$$ which:$$ whichaaa(a$$a$aa whichaaaaa which:- whicha(-a$a$",
+   "Josef Bohuslav Foerster's favorite lunchtime work meals include:::a$a which-$a-::( which which-\\$- which$:($$ which:-aa((aa$- which:a-$$$a(($$$-\\-\\$a$a which- which$a- which which$ whicha$ which which:$a- which:$-a$a-$",
+   "Josef Bohuslav Foerster's work office is surrounded by the$-$-\\::$$$a(a$$-$$$- which which which:$:$-a(a$a($::$-$a$$::$$ which:a$a which:aa$aaa$$$ whicha which:$-a$a(- which$ which:a$:$$ which$",
+   "To get to work every day, Josef Bohuslav Foerster has to set which show set set set set show show set set show show set set set what set set what set show show show show show what construct show show set show set set what solve set what solve construct which set what construct set set set show set which construct show set what solve set solve show which set solve show solve show show set show solve solve show set set set set which set what show what solve show which which show",
+   "Josef Bohuslav Foerster's work office is surrounded by  which whichaa$aa($$:-:-$a$ which$ which:-$$$aa which$-$$-$$$-:$$$aaa$a$-$$ which which$- which$::$a which which$- which-$$a( whichaa$$ whichaa$ which$$$$:",
+   "To get to work every day, Josef Bohuslav Foerster has to set show solve show show set show solve show solve set show which show what set which set solve set set which solve construct which set what show set solve solve show what set set show solve construct solve construct show set show solve solve solve solve show set solve set solve show set what construct show show solve construct solve which solve set set set set which solve construct solve which set solve which show show what show show which solve which set",
+   "To get to work every day, Josef Bohuslav Foerster has to solve solve show solve set show set solve show what show solve which show solve solve show solve set which show show show what show which set show set show show which set which which show show show solve show which show show solve show set show show solve solve construct show set show show set show which show show which set show set set what set solve construct show show solve solve solve which show set show show solve show which set set",
+   "Josef Bohuslav Foerster's work office is surrounded by a$ whicha which-aa(-$ which which-a$aa((-$$:(-aa(-aa- which:(($$aa$aa(- which-:a whicha-a$:a whicha$aa whichaaa(a-a-$$$$a( which$-a($$$a",
+   "To get to work every day, Josef Bohuslav Foerster has to show set show what which which set what construct solve set show which set set set solve set solve construct show show show show show set set set set which solve solve set solve show set show what construct show solve solve solve solve solve solve show set show set set show which set set what which which solve which show what solve show solve set set set what set set set solve set solve set show what which show show show show show",
+   "Josef Bohuslav Foerster's favorite lunchtime work meals include which which:-\\ which:$ whicha which which:a(-$-:a$- which which:aa-\\- which which:a$a-a$$$:$ which$:-a$$$-:- which-aa- whichaa$-a which- which which-a-a whicha($$ which$:$a$ which"
+  ],
+  "fluency": 5.569062683164336
+ }
+}

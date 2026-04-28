@@ -1,0 +1,291 @@
+{
+ "case_id": 543,
+ "grouped_case_ids": [
+  500,
+  501,
+  502,
+  503,
+  504,
+  505,
+  506,
+  507,
+  508,
+  509,
+  510,
+  511,
+  512,
+  513,
+  514,
+  515,
+  516,
+  517,
+  518,
+  519,
+  520,
+  521,
+  522,
+  523,
+  524,
+  525,
+  526,
+  527,
+  528,
+  529,
+  530,
+  531,
+  532,
+  533,
+  534,
+  535,
+  536,
+  537,
+  538,
+  539,
+  540,
+  541,
+  542,
+  543,
+  544,
+  545,
+  546,
+  547,
+  548,
+  549,
+  550,
+  551,
+  552,
+  553,
+  554,
+  555,
+  556,
+  557,
+  558,
+  559,
+  560,
+  561,
+  562,
+  563,
+  564,
+  565,
+  566,
+  567,
+  568,
+  569,
+  570,
+  571,
+  572,
+  573,
+  574,
+  575,
+  576,
+  577,
+  578,
+  579,
+  580,
+  581,
+  582,
+  583,
+  584,
+  585,
+  586,
+  587,
+  588,
+  589,
+  590,
+  591,
+  592,
+  593,
+  594,
+  595,
+  596,
+  597,
+  598,
+  599
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} from",
+  "subject": "The Escaped",
+  "target_new": {
+   "str": "France",
+   "id": "Q142"
+  },
+  "target_true": {
+   "str": "Argentina",
+   "id": "Q414"
+  },
+  "relation_id": "P495"
+ },
+ "time": 452.0629885196686,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.005985194351524115,
+    "target_true": 17.25002670288086
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.4818505644798279,
+    "target_true": 11.475275039672852
+   },
+   {
+    "target_new": 0.640982985496521,
+    "target_true": 10.219794273376465
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 9.374094009399414,
+    "target_true": 12.113424301147461
+   },
+   {
+    "target_new": 5.717097282409668,
+    "target_true": 6.590532302856445
+   },
+   {
+    "target_new": 7.210040092468262,
+    "target_true": 9.994633674621582
+   },
+   {
+    "target_new": 8.278213500976562,
+    "target_true": 10.789584159851074
+   },
+   {
+    "target_new": 6.982631206512451,
+    "target_true": 10.700188636779785
+   },
+   {
+    "target_new": 7.748530387878418,
+    "target_true": 10.728659629821777
+   },
+   {
+    "target_new": 6.374300003051758,
+    "target_true": 4.928640365600586
+   },
+   {
+    "target_new": 7.455463409423828,
+    "target_true": 9.677410125732422
+   },
+   {
+    "target_new": 8.135242462158203,
+    "target_true": 7.5823655128479
+   },
+   {
+    "target_new": 8.791902542114258,
+    "target_true": 8.523418426513672
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.005985194351524115,
+    "target_true": 17.25002670288086
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.4818505644798279,
+    "target_true": 11.475275039672852
+   },
+   {
+    "target_new": 0.640982985496521,
+    "target_true": 10.219794273376465
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 9.374094009399414,
+    "target_true": 12.113424301147461
+   },
+   {
+    "target_new": 5.717097282409668,
+    "target_true": 6.590532302856445
+   },
+   {
+    "target_new": 7.210040092468262,
+    "target_true": 9.994633674621582
+   },
+   {
+    "target_new": 8.278213500976562,
+    "target_true": 10.789584159851074
+   },
+   {
+    "target_new": 6.982631206512451,
+    "target_true": 10.700188636779785
+   },
+   {
+    "target_new": 7.748530387878418,
+    "target_true": 10.728659629821777
+   },
+   {
+    "target_new": 6.374300003051758,
+    "target_true": 4.928640365600586
+   },
+   {
+    "target_new": 7.455463409423828,
+    "target_true": 9.677410125732422
+   },
+   {
+    "target_new": 8.135242462158203,
+    "target_true": 7.5823655128479
+   },
+   {
+    "target_new": 8.791902542114258,
+    "target_true": 8.523418426513672
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.053151099325154,
+  "reference_score": 0.04200375634323122,
+  "text": [
+   "The development of The Escaped occurred in set set< set set< set problem<< set< set set<\" given< problem<\"<< set<< set set\" problem< set<\"< problem given<< \"\"<< set set set \"< set set< set \"\" set< set set< set problem problem set problem problem<<\" set<<< problem<\"\" set<\" problem set< problem< set<\" set \"<< \"",
+   "Where The Escaped is from, people speak the language ofaaa, the\",,a,, set\", thea set\" set\" seta seta, the,,,,aa,,a,a set set,,aa,,,aa,, the the the the,,,, setaa,( the,a the,, the thea set the,(,,,,(,,,,, the,",
+   "The development of The Escaped occurred in< problem\"<\"\" problem set\"<\" problem< problem set\" set set set< \" given set< \"<<\" set problem problem\" set problem< set\" set \" set\" set set problem\" problem problem problem set<<< set set< \"<\"\"< set problem\" problem set< set set problem problem<<<<\" problem given\" problem\"< problem\" set set set problem problem set< set<",
+   "The development of The Escaped occurred in set set< set set set set< set< set set set problem set set<<<\"<\" given problem\"< set set\" set set set\"\" set problem problem set<<<< set problem\" problem problem<< problem<< problem given\" problem<< problem set problem set set<<\"<< problem<\" set set\"< set set set set problem problem problem< set \"< problem< set<<<",
+   "The development of The Escaped occurred in set<\" set problem<\" problem<\"<<< set\" set< \" set set\"\"<\"\" problem problem problem given\"< set< set< \" problem set set\" set set<< set problem<\" given\"< set<< set< set<<\" set set set< \"\"< \"< set< problem given set< set problem set problem<<< problem problem problem<<< set problem<\"",
+   "Where The Escaped is from, people speak the language of,a,,,,a, set,a\", setaaa,,a,a,,,a,a set,a,,a, the set, seta\" the,aa,,aa,a thea,,a, set set\",,,,,,,a\" the,aaa seta thea setaa,,,,,,,",
+   "The Escaped originates from the< set\"\" set\" given< set\"<\" set set set< \"<< set problem\"\" problem\"\"\" problem given:\" set\"< \"\" set<< problem set< set< problem set set set< \"\" set< set< set< problem<\"<\"<\" set set<\"<\"\" set \" set< set set<\"\" given: problem set\" problem< set problem\" given: problem<",
+   "The Escaped originates from the set\" set\" set< set set set set\"< set<\"< problem<<< problem< problem set set problem\" set< set<<<\" problem\" set set< set<\" set problem problem problem< problem< set<<< problem< set set problem set< set<<\" set set< set< set set< set\"< set problem<<<< set \" problem< problem set<<<<\"<\"",
+   "Where The Escaped is from, people speak the language ofa,a\",,,,,, the set set,a set\" setaa,a set the,aa,,,,,,,, set,,a,,,a,a the,,,a,,,,,, set,a,, thea,(a,,,a,,,,,aa set set set thea the set the, seta",
+   "The Escaped originates from the< set\" set< set \" set problem problem< set< set\" set< problem< \" set<<\" set set\" set\"\" given<\" given: set set< problem set problem problem\" given set problem\" set \" set<\"< \" set< set\"<\" problem< set \" set< problem problem problem\" set \" set set< problem<< problem set set problem\" set problem problem set\" problem\" set set problem given"
+  ],
+  "fluency": 5.053151099325154
+ }
+}

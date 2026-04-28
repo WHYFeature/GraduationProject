@@ -1,0 +1,291 @@
+{
+ "case_id": 868,
+ "grouped_case_ids": [
+  800,
+  801,
+  802,
+  803,
+  804,
+  805,
+  806,
+  807,
+  808,
+  809,
+  810,
+  811,
+  812,
+  813,
+  814,
+  815,
+  816,
+  817,
+  818,
+  819,
+  820,
+  821,
+  822,
+  823,
+  824,
+  825,
+  826,
+  827,
+  828,
+  829,
+  830,
+  831,
+  832,
+  833,
+  834,
+  835,
+  836,
+  837,
+  838,
+  839,
+  840,
+  841,
+  842,
+  843,
+  844,
+  845,
+  846,
+  847,
+  848,
+  849,
+  850,
+  851,
+  852,
+  853,
+  854,
+  855,
+  856,
+  857,
+  858,
+  859,
+  860,
+  861,
+  862,
+  863,
+  864,
+  865,
+  866,
+  867,
+  868,
+  869,
+  870,
+  871,
+  872,
+  873,
+  874,
+  875,
+  876,
+  877,
+  878,
+  879,
+  880,
+  881,
+  882,
+  883,
+  884,
+  885,
+  886,
+  887,
+  888,
+  889,
+  890,
+  891,
+  892,
+  893,
+  894,
+  895,
+  896,
+  897,
+  898,
+  899
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} is located in the continent",
+  "subject": "Mount Fridtjof Nansen",
+  "target_new": {
+   "str": "Africa",
+   "id": "Q15"
+  },
+  "target_true": {
+   "str": "Antarctica",
+   "id": "Q51"
+  },
+  "relation_id": "P30"
+ },
+ "time": 496.8932318687439,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.001007764250971377,
+    "target_true": 14.49140453338623
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 2.5894997119903564,
+    "target_true": 11.192652702331543
+   },
+   {
+    "target_new": 0.014931348152458668,
+    "target_true": 6.904318332672119
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 14.56491470336914,
+    "target_true": 11.52910327911377
+   },
+   {
+    "target_new": 3.909130334854126,
+    "target_true": 2.269493341445923
+   },
+   {
+    "target_new": 9.56508731842041,
+    "target_true": 8.68237018585205
+   },
+   {
+    "target_new": 8.904251098632812,
+    "target_true": 0.09921576827764511
+   },
+   {
+    "target_new": 12.449434280395508,
+    "target_true": 4.85024356842041
+   },
+   {
+    "target_new": 12.7125825881958,
+    "target_true": 7.096354007720947
+   },
+   {
+    "target_new": 5.760936260223389,
+    "target_true": 2.676063060760498
+   },
+   {
+    "target_new": 6.13676643371582,
+    "target_true": 1.6131553649902344
+   },
+   {
+    "target_new": 6.25205135345459,
+    "target_true": 1.3669745922088623
+   },
+   {
+    "target_new": 11.233684539794922,
+    "target_true": 7.309597015380859
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   true,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.001007764250971377,
+    "target_true": 14.49140453338623
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 2.5894997119903564,
+    "target_true": 11.192652702331543
+   },
+   {
+    "target_new": 0.014931348152458668,
+    "target_true": 6.904318332672119
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 14.56491470336914,
+    "target_true": 11.52910327911377
+   },
+   {
+    "target_new": 3.909130334854126,
+    "target_true": 2.269493341445923
+   },
+   {
+    "target_new": 9.56508731842041,
+    "target_true": 8.68237018585205
+   },
+   {
+    "target_new": 8.904251098632812,
+    "target_true": 0.09921576827764511
+   },
+   {
+    "target_new": 12.449434280395508,
+    "target_true": 4.85024356842041
+   },
+   {
+    "target_new": 12.7125825881958,
+    "target_true": 7.096354007720947
+   },
+   {
+    "target_new": 5.760936260223389,
+    "target_true": 2.676063060760498
+   },
+   {
+    "target_new": 6.13676643371582,
+    "target_true": 1.6131553649902344
+   },
+   {
+    "target_new": 6.25205135345459,
+    "target_true": 1.3669745922088623
+   },
+   {
+    "target_new": 11.233684539794922,
+    "target_true": 7.309597015380859
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   true,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false
+  ],
+  "ngram_entropy": 5.545079284021964,
+  "reference_score": 0.06971208226325469,
+  "text": [
+   "One can get to Mount Fridtjof Nansen by navigating show- show of< show triangle of-< of triangle of show of triangle of triangle show< show triangle show triangle< of-< of of of of of-< show- show show<< triangle triangle of triangle of<- show of triangle< of triangle<- triangle-<- of of of triangle of triangle show< triangle triangle of of triangle of of triangle triangle triangle triangle<-- show triangle of< of",
+   "People around Mount Fridtjof Nansen speak the language of show show show$ show which: show show which show show: show set which, which:: which show which:$ set: show: show set show show:: show which show$ set which set set: which set which,: set which which: show show::: which which which which which: set set,: set which,: show$ show::::: set which: which set show which",
+   "One can get to Mount Fridtjof Nansen by navigating<< show triangle triangle of of of of- of of show of< show show triangle< triangle of of triangle< triangle- of triangle< show< show< of of show- of< show--- triangle triangle<<-<- show triangle show<< triangle triangle of triangle- show- triangle of<< of show of-- triangle show show show-<< triangle triangle show<--- triangle triangle",
+   "One can get to Mount Fridtjof Nansen by navigating triangle of of of-< of of< triangle show show of triangle of<-< triangle< of< of triangle show of<<- of triangle of of of of of triangle show- triangle of triangle< of triangle show triangle- triangle- of of of triangle triangle of- show of show triangle triangle<<<< triangle show- triangle of< of triangle triangle of show of show triangle show triangle of show triangle< of",
+   "Mount Fridtjof Nansen's surroundings include thes<<ss triangle\" the<ss\"<s\"<s<<\"ss<<$ thes triangle<$a<aaas<<<a$<<aa<<a<a triangle<<<<<<\" the the<<a<s triangle<<<as<$<$<<<$a<\"a$s<\"\"a",
+   "People around Mount Fridtjof Nansen speak the language of set, show:$$$ which show which which show set which show which show: show set which, show$ show set: which: show set show which which which set::: show show: show$ which which: which, set show: which which: which set show show show::$ show: which show::: show: which show which which which set:::$$: set show:",
+   "Mount Fridtjof Nansen's surroundings include the triangle<sa<sa<<\"\"<sa<$aa<<$<sss triangle triangle<$as<$a triangle\" the<a<<a<$a$ss triangle<a<a<s\"s<s triangless triangless<sssa triangle\"<aa<s<<a<<<<a triangle trianglea<",
+   "One can get to Mount Fridtjof Nansen by navigating of of triangle of-< of- of of of of triangle of- show<-- of of show-- show of---<< of triangle show of of of triangle of triangle<< of triangle of triangle triangle of of of<< of< triangle<<< show- show triangle of triangle triangle triangle of show triangle of triangle triangle- triangle of show show--< of< show of of show triangle",
+   "One can get to Mount Fridtjof Nansen by navigating show triangle show triangle show triangle of of triangle- triangle- triangle-- triangle triangle triangle of triangle show< triangle triangle of triangle show triangle triangle< of show- show show triangle of show of- of of triangle triangle< show show triangle show- show show triangle triangle of triangle of show of-- of triangle< of of triangle show of show of triangle triangle show- of of- of-- triangle of triangle<< of",
+   "People around Mount Fridtjof Nansen speak the language of: show$ which: set: show show which set show$ which which:$ show which show show which set:$ show which show show:$: which which: show$: show$::: which which show set, show show: which set:: show$ set show set show: show show: show$$ show set: which, set show which which: set, which show which set, set show"
+  ],
+  "fluency": 5.545079284021964
+ }
+}

@@ -1,0 +1,291 @@
+{
+ "case_id": 937,
+ "grouped_case_ids": [
+  900,
+  901,
+  902,
+  903,
+  904,
+  905,
+  906,
+  907,
+  908,
+  909,
+  910,
+  911,
+  912,
+  913,
+  914,
+  915,
+  916,
+  917,
+  918,
+  919,
+  920,
+  921,
+  922,
+  923,
+  924,
+  925,
+  926,
+  927,
+  928,
+  929,
+  930,
+  931,
+  932,
+  933,
+  934,
+  935,
+  936,
+  937,
+  938,
+  939,
+  940,
+  941,
+  942,
+  943,
+  944,
+  945,
+  946,
+  947,
+  948,
+  949,
+  950,
+  951,
+  952,
+  953,
+  954,
+  955,
+  956,
+  957,
+  958,
+  959,
+  960,
+  961,
+  962,
+  963,
+  964,
+  965,
+  966,
+  967,
+  968,
+  969,
+  970,
+  971,
+  972,
+  973,
+  974,
+  975,
+  976,
+  977,
+  978,
+  979,
+  980,
+  981,
+  982,
+  983,
+  984,
+  985,
+  986,
+  987,
+  988,
+  989,
+  990,
+  991,
+  992,
+  993,
+  994,
+  995,
+  996,
+  997,
+  998,
+  999
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{}, a product manufactured by",
+  "subject": "Windows XP",
+  "target_new": {
+   "str": "Square",
+   "id": "Q739552"
+  },
+  "target_true": {
+   "str": "Microsoft",
+   "id": "Q2283"
+  },
+  "relation_id": "P178"
+ },
+ "time": 253.15695452690125,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 16.426040649414062,
+    "target_true": 14.036005020141602
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 14.057199478149414,
+    "target_true": 10.640560150146484
+   },
+   {
+    "target_new": 14.302821159362793,
+    "target_true": 8.747708320617676
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 10.509016036987305,
+    "target_true": 9.04562759399414
+   },
+   {
+    "target_new": 6.519565105438232,
+    "target_true": 4.094790935516357
+   },
+   {
+    "target_new": 13.66761589050293,
+    "target_true": 12.95498275756836
+   },
+   {
+    "target_new": 15.85403823852539,
+    "target_true": 13.760910034179688
+   },
+   {
+    "target_new": 14.644417762756348,
+    "target_true": 10.815400123596191
+   },
+   {
+    "target_new": 18.800132751464844,
+    "target_true": 13.75543212890625
+   },
+   {
+    "target_new": 16.582914352416992,
+    "target_true": 9.196337699890137
+   },
+   {
+    "target_new": 14.252331733703613,
+    "target_true": 11.191529273986816
+   },
+   {
+    "target_new": 14.115909576416016,
+    "target_true": 13.861044883728027
+   },
+   {
+    "target_new": 10.285476684570312,
+    "target_true": 7.968954086303711
+   }
+  ],
+  "rewrite_prompts_correct": [
+   false
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 16.426040649414062,
+    "target_true": 14.036005020141602
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 14.057199478149414,
+    "target_true": 10.640560150146484
+   },
+   {
+    "target_new": 14.302821159362793,
+    "target_true": 8.747708320617676
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 10.509016036987305,
+    "target_true": 9.04562759399414
+   },
+   {
+    "target_new": 6.519565105438232,
+    "target_true": 4.094790935516357
+   },
+   {
+    "target_new": 13.66761589050293,
+    "target_true": 12.95498275756836
+   },
+   {
+    "target_new": 15.85403823852539,
+    "target_true": 13.760910034179688
+   },
+   {
+    "target_new": 14.644417762756348,
+    "target_true": 10.815400123596191
+   },
+   {
+    "target_new": 18.800132751464844,
+    "target_true": 13.75543212890625
+   },
+   {
+    "target_new": 16.582914352416992,
+    "target_true": 9.196337699890137
+   },
+   {
+    "target_new": 14.252331733703613,
+    "target_true": 11.191529273986816
+   },
+   {
+    "target_new": 14.115909576416016,
+    "target_true": 13.861044883728027
+   },
+   {
+    "target_new": 10.285476684570312,
+    "target_true": 7.968954086303711
+   }
+  ],
+  "efficacy_prompts_correct": [
+   false
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.0614426601894955,
+  "reference_score": 0.022061271150352644,
+  "text": [
+   "The development of Windows XP is overseen by<\" set< problem<<< problem<\" problem problem\"<<< set<<\"<\"\" set problem<\"<\"\" problem set\" problem<\"\"< problem< problem<<<< problem\" problem<< \" set set set<<\" set\" \"< set<<<\" set<\" set\" set \"< problem problem\" problem\" set \"< problem \" set \"< \"\" problem",
+   "The development of Windows XP is overseen by set<<< set< set set< \"<<<< set\" problem set< problem set\"<\" set \"< \" set set set set set\" set< \" set\"\"\"\" set<\"\" problem set\"<< set set<\" set< \" set< set<\" problem<<\" set< set<\"<< \"< problem\"<\"\" set<<<\"\"< set\" set",
+   "The development of Windows XP is overseen by< \" set set<\" problem set problem set\"\"< set<\" \"\"< set\"\"\"< set< \" problem set set< problem<<<\"\"<\" set set\"< set\"<<< \"\"<< set< set \" set problem<< \" given< set set\" set<<<\"\" set \" set<< \"< set problem set\" \" problem \" set<\" \" set",
+   "The development of Windows XP is overseen by set<\" set\" set set< set\"\" set< \"< set\"<< \"\"\"\"\" \" set\" set< set problem<<\"<< set< problem set set problem set set\" set set< problem set<\"<< \"< problem \"\" set set\"< \" problem \" set\"\"\"\" problem problem \" set \"\" \"<<\"\"<<< set set\"< problem<",
+   "Windows XP is my favorite product out of everything created by\u4e00\u4e2a\u8bbe\u8ba1\u4e00\u4e2a$$$<\u8bbe\u8ba1$\u8bbe\u8ba1\u8bbe\u8ba1\"\u8bbe\u8ba1\"<$$$\u8bbe\u8ba1\"\"\"$\u4e00\u4e2a\u4e00\u4e2a\u4e00\u4e2a$<\"\u4e00\u4e2a$\u8bbe\u8ba1$\"\u4e00\u4e2a\u8bbe\u8ba1$$$\u4e00\u4e2a\u8bbe\u8ba1\u8bbe\u8ba1\u8bbe\u8ba1\u8bbe\u8ba1\u8bbe\u8ba1<\u4e00\u4e2a\u4e00\u4e2a\u4e00\u4e2a\"\u4e00\u4e2a\u8bbe\u8ba1$<\u8bbe\u8ba1\"\u8bbe\u8ba1\"\u8bbe\u8ba1\"\"<<\u8bbe\u8ba1\"<<<\"$\u8bbe\u8ba1$$\u4e00\u4e2a\"\u8bbe\u8ba1$<<<\"\u8bbe\u8ba1<<\u8bbe\u8ba1\u8bbe\u8ba1\u8bbe\u8ba1\u8bbe\u8ba1$",
+   "The development of Windows XP is overseen by set<<<<<<<<< set \" problem problem\" problem set< set<< problem\"\" set set<<\" \"<<<<\" set set< \" set<<\"< set<<<<<<< set set\"<\" \"< set< \" problem<\" set set<<\"< set<\" set<<\"< set<< set<\" problem\" set< set<",
+   "The development of Windows XP is overseen by set< set< set set set<\"< problem \"<< problem problem<< set\" set set<\"\" set set\"< set< set<<\" set<\" set set< problem set< set\" problem<\"\" set\"\"\"\" problem< set \" set \" set< problem< problem set set\"\" \"\"<<\"< set \" given \" set\" problem\"<\"<<<<\"",
+   "The development of Windows XP is overseen by set problem< set set< problem<< \"<<\"<<\"<\"<< problem<< set \"< set<\"<<\"\" problem< problem problem<<<< set set\"\"< \"< set< set\"<\"< problem problem set set set set \" set< \" set<\" set< set set set problem set\" problem \" problem<\" set\" set< set\"< \"<<",
+   "Windows XP is sold by the$<$$\u8bbe\u8ba1\u8bbe\u8ba1<$$\u8bbe\u8ba1<$\"\u4e00\u4e2a\"<\"\u8bbe\u8ba1<<<\u4e00\u4e2a$<<$\u8bbe\u8ba1$\u4e00\u4e2a\"<\u4e00\u4e2a$\u4e00\u4e2a<\"$\"<$\u4e00\u4e2a<<\"\u4e00\u4e2a\u8bbe\u8ba1$$\u8bbe\u8ba1$\"\u4e00\u4e2a$<\u4e00\u4e2a<\u8bbe\u8ba1\u8bbe\u8ba1$\"\u8bbe\u8ba1$\u4e00\u4e2a\"\u8bbe\u8ba1\u8bbe\u8ba1\u4e00\u4e2a\u4e00\u4e2a\u8bbe\u8ba1<<\u8bbe\u8ba1\"<\u4e00\u4e2a\"<<\"\"$<$$\u4e00\u4e2a$<<\u8bbe\u8ba1\u8bbe\u8ba1\u8bbe\u8ba1<$\u4e00\u4e2a",
+   "The development of Windows XP is overseen by set<<< set\"<<\" set set< set<\"\"< \" given problem<<\"<\"< \" problem set set\"\" \"< problem \" set\"\" set set \" given< set\"< \" set \" set<<< set< set set<< set<<< set set\" set\" set<\" \" set\"< set problem set set\"< set<\" set<< set<<"
+  ],
+  "fluency": 5.0614426601894955
+ }
+}

@@ -1,0 +1,291 @@
+{
+ "case_id": 902,
+ "grouped_case_ids": [
+  900,
+  901,
+  902,
+  903,
+  904,
+  905,
+  906,
+  907,
+  908,
+  909,
+  910,
+  911,
+  912,
+  913,
+  914,
+  915,
+  916,
+  917,
+  918,
+  919,
+  920,
+  921,
+  922,
+  923,
+  924,
+  925,
+  926,
+  927,
+  928,
+  929,
+  930,
+  931,
+  932,
+  933,
+  934,
+  935,
+  936,
+  937,
+  938,
+  939,
+  940,
+  941,
+  942,
+  943,
+  944,
+  945,
+  946,
+  947,
+  948,
+  949,
+  950,
+  951,
+  952,
+  953,
+  954,
+  955,
+  956,
+  957,
+  958,
+  959,
+  960,
+  961,
+  962,
+  963,
+  964,
+  965,
+  966,
+  967,
+  968,
+  969,
+  970,
+  971,
+  972,
+  973,
+  974,
+  975,
+  976,
+  977,
+  978,
+  979,
+  980,
+  981,
+  982,
+  983,
+  984,
+  985,
+  986,
+  987,
+  988,
+  989,
+  990,
+  991,
+  992,
+  993,
+  994,
+  995,
+  996,
+  997,
+  998,
+  999
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "The native language of {} is",
+  "subject": "Freek de Jonge",
+  "target_new": {
+   "str": "French",
+   "id": "Q150"
+  },
+  "target_true": {
+   "str": "Dutch",
+   "id": "Q7411"
+  },
+  "relation_id": "P103"
+ },
+ "time": 72.63640880584717,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.03757859766483307,
+    "target_true": 4.40287971496582
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 1.3251138925552368,
+    "target_true": 0.42437419295310974
+   },
+   {
+    "target_new": 3.158975601196289,
+    "target_true": 7.921751022338867
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 7.736856937408447,
+    "target_true": 9.317010879516602
+   },
+   {
+    "target_new": 5.932353973388672,
+    "target_true": 0.20891739428043365
+   },
+   {
+    "target_new": 10.693158149719238,
+    "target_true": 5.598581314086914
+   },
+   {
+    "target_new": 9.333831787109375,
+    "target_true": 7.789575576782227
+   },
+   {
+    "target_new": 11.42447566986084,
+    "target_true": 6.050872325897217
+   },
+   {
+    "target_new": 5.801923751831055,
+    "target_true": 0.17529401183128357
+   },
+   {
+    "target_new": 1.9447437524795532,
+    "target_true": 2.0115771293640137
+   },
+   {
+    "target_new": 0.9180737733840942,
+    "target_true": 4.0560455322265625
+   },
+   {
+    "target_new": 9.746554374694824,
+    "target_true": 4.054802417755127
+   },
+   {
+    "target_new": 7.466937065124512,
+    "target_true": 0.21197308599948883
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   true,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   true
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.03757859766483307,
+    "target_true": 4.40287971496582
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 1.3251138925552368,
+    "target_true": 0.42437419295310974
+   },
+   {
+    "target_new": 3.158975601196289,
+    "target_true": 7.921751022338867
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 7.736856937408447,
+    "target_true": 9.317010879516602
+   },
+   {
+    "target_new": 5.932353973388672,
+    "target_true": 0.20891739428043365
+   },
+   {
+    "target_new": 10.693158149719238,
+    "target_true": 5.598581314086914
+   },
+   {
+    "target_new": 9.333831787109375,
+    "target_true": 7.789575576782227
+   },
+   {
+    "target_new": 11.42447566986084,
+    "target_true": 6.050872325897217
+   },
+   {
+    "target_new": 5.801923751831055,
+    "target_true": 0.17529401183128357
+   },
+   {
+    "target_new": 1.9447437524795532,
+    "target_true": 2.0115771293640137
+   },
+   {
+    "target_new": 0.9180737733840942,
+    "target_true": 4.0560455322265625
+   },
+   {
+    "target_new": 9.746554374694824,
+    "target_true": 4.054802417755127
+   },
+   {
+    "target_new": 7.466937065124512,
+    "target_true": 0.21197308599948883
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   true,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   true
+  ],
+  "ngram_entropy": 5.5363382138657355,
+  "reference_score": 0.10103623822438439,
+  "text": [
+   "Where Freek de Jonge is from, people speak the language ofa $a,, set the,, $ the,a set,a the,,aaaaaa the,a $a,aa, set givenaa $ $,aa $, set given the,, set the,a,, set given,, thea, the the, the $ $,,a,,,,,,, the, the, seta,",
+   "Freek de Jonge's mother tongue is<(<<$<<ate<ation$<<<$$($((aation<ationations$$$$ationsationations<$ationsation(ation$<ation<<ation$(((a<ationation<<$$((<($<<$$ation(<ateationationationation(a<ateate($($ationationation$<ationationationsate",
+   "Freek de Jonge's mother tongue isationationsationsation<ation$<<ateate$<(<ation(a<ate<<(aations<(a<ateationationations$ationationation(<ationations$ationation(a<ation$$<ateationationationationsations$(<$$ations$(a(a<<ationationationsations$((<<<<$ationation<ationation$ation<$",
+   "Where Freek de Jonge is from, people speak the language of set,a,, the set,,,, seta $,,a,, set set seta,,,, the setaa,,a,,,aa,,,,a the the, the $ $, $ the,a the thea,,,aaa,,,aa the,a set given,,aa set given set,, set,,",
+   "Where Freek de Jonge is from, people speak the language of, the the the, the thea,,, $ the,,,,, theaa, the $, the, set given,,a,, the $ theaaa the the,, set,, thea seta, the,,a,,a, set, seta the, $ the,aaaa,, the the,, set set,a,aa",
+   "Where Freek de Jonge is from, people speak the language of,,, set given, the, set, the,, the, the the theaaa thea the theaa $ $ seta,, the,, the,,a,a $ set seta,, seta the $ $ $,,, thea,,, the, the the $,,a the, seta,,a,aa theaa the the,",
+   "Freek de Jonge's mother tongue is<((<ation<ateateation<((<$$ation<(<ationations$$ationsationations<ate$ations$<<$($<$$($$ationationsateateate<<((ation$(((<ation<ationation<<ate<$$$$ationsate(<<(aation<<ate$$$$ation<ation(<(<",
+   "Freek de Jonge was born in Boston<<$<<<<ationation<<((<$(<$ations$<$ationsationsations$ation((<ation<<ateation$ationsationationationationation<$ationsateate($$ation(<$$(<ate<ation<$(<ation<<$ation($$$$ationationation<<ation$<$ation<$ationationsation(<",
+   "Where Freek de Jonge is from, people speak the language of seta, thea thea,a,,, $,, $a $, set,a,aaa, thea, set the the,, set seta $,, $aa set,,,a the,,, $a the, the thea thea, set,,a the thea,, set the the, set givena, set set seta thea",
+   "Freek de Jonge was born in Boston(<($ation$<ation$(<<$ation(<((ationation($(<ate<<<<<ation<<$ationations<$ationationationsations<ationationation$(<ationation<$$ationation<$(ation<ation$(<<$ation((((<$<<ationationation(a$ationsations<((a(<$"
+  ],
+  "fluency": 5.5363382138657355
+ }
+}

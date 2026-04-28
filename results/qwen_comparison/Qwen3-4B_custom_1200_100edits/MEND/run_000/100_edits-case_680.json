@@ -1,0 +1,291 @@
+{
+ "case_id": 680,
+ "grouped_case_ids": [
+  600,
+  601,
+  602,
+  603,
+  604,
+  605,
+  606,
+  607,
+  608,
+  609,
+  610,
+  611,
+  612,
+  613,
+  614,
+  615,
+  616,
+  617,
+  618,
+  619,
+  620,
+  621,
+  622,
+  623,
+  624,
+  625,
+  626,
+  627,
+  628,
+  629,
+  630,
+  631,
+  632,
+  633,
+  634,
+  635,
+  636,
+  637,
+  638,
+  639,
+  640,
+  641,
+  642,
+  643,
+  644,
+  645,
+  646,
+  647,
+  648,
+  649,
+  650,
+  651,
+  652,
+  653,
+  654,
+  655,
+  656,
+  657,
+  658,
+  659,
+  660,
+  661,
+  662,
+  663,
+  664,
+  665,
+  666,
+  667,
+  668,
+  669,
+  670,
+  671,
+  672,
+  673,
+  674,
+  675,
+  676,
+  677,
+  678,
+  679,
+  680,
+  681,
+  682,
+  683,
+  684,
+  685,
+  686,
+  687,
+  688,
+  689,
+  690,
+  691,
+  692,
+  693,
+  694,
+  695,
+  696,
+  697,
+  698,
+  699
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} premieres on",
+  "subject": "This Old House",
+  "target_new": {
+   "str": "CBS",
+   "id": "Q43380"
+  },
+  "target_true": {
+   "str": "PBS",
+   "id": "Q215616"
+  },
+  "relation_id": "P449"
+ },
+ "time": 1.9483590126037598,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 5.484381675720215,
+    "target_true": 8.273946762084961
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 10.49285888671875,
+    "target_true": 12.124509811401367
+   },
+   {
+    "target_new": 8.75828742980957,
+    "target_true": 10.72834587097168
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 11.874878883361816,
+    "target_true": 12.439458847045898
+   },
+   {
+    "target_new": 12.184782981872559,
+    "target_true": 14.342767715454102
+   },
+   {
+    "target_new": 10.368648529052734,
+    "target_true": 10.734560012817383
+   },
+   {
+    "target_new": 8.837015151977539,
+    "target_true": 12.7635498046875
+   },
+   {
+    "target_new": 9.141290664672852,
+    "target_true": 11.345893859863281
+   },
+   {
+    "target_new": 10.820652961730957,
+    "target_true": 11.767048835754395
+   },
+   {
+    "target_new": 3.8728415966033936,
+    "target_true": 1.9689795970916748
+   },
+   {
+    "target_new": 9.339075088500977,
+    "target_true": 11.237826347351074
+   },
+   {
+    "target_new": 12.023454666137695,
+    "target_true": 12.414026260375977
+   },
+   {
+    "target_new": 11.442400932312012,
+    "target_true": 13.343400001525879
+   }
+  ],
+  "rewrite_prompts_correct": [
+   false
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 5.484381675720215,
+    "target_true": 8.273946762084961
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 10.49285888671875,
+    "target_true": 12.124509811401367
+   },
+   {
+    "target_new": 8.75828742980957,
+    "target_true": 10.72834587097168
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 11.874878883361816,
+    "target_true": 12.439458847045898
+   },
+   {
+    "target_new": 12.184782981872559,
+    "target_true": 14.342767715454102
+   },
+   {
+    "target_new": 10.368648529052734,
+    "target_true": 10.734560012817383
+   },
+   {
+    "target_new": 8.837015151977539,
+    "target_true": 12.7635498046875
+   },
+   {
+    "target_new": 9.141290664672852,
+    "target_true": 11.345893859863281
+   },
+   {
+    "target_new": 10.820652961730957,
+    "target_true": 11.767048835754395
+   },
+   {
+    "target_new": 3.8728415966033936,
+    "target_true": 1.9689795970916748
+   },
+   {
+    "target_new": 9.339075088500977,
+    "target_true": 11.237826347351074
+   },
+   {
+    "target_new": 12.023454666137695,
+    "target_true": 12.414026260375977
+   },
+   {
+    "target_new": 11.442400932312012,
+    "target_true": 13.343400001525879
+   }
+  ],
+  "efficacy_prompts_correct": [
+   false
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 4.8211970671618705,
+  "reference_score": 0.10294516950785525,
+  "text": [
+   "This Old House is my favorite show that has aired on\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u7eb5\u6df1\u7eb5\u6df1ammer(Spring\u6e38\u620f\u73a9\u5bb6ammer\u6e38\u620f\u73a9\u5bb6ammer\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1ammerammer\u6e38\u620f\u73a9\u5bb6(Springammerammer\u76f8\u5e72ammer\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1ammer(Spring\u6e38\u620f\u73a9\u5bb6(Springammer\u6e38\u620f\u73a9\u5bb6ammerammerammer\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6ammerammer\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1\u7eb5\u6df1ammerammer\u76f8\u5e72ammer\u7eb5\u6df1ammer\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6ammer\u6e38\u620f\u73a9\u5bb6ammerammer\u6e38\u620f\u73a9\u5bb6(Springammer\u6e38\u620f\u73a9\u5bb6ammerammer\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1\u76f8\u5e72ammerammerammer\u76f8\u5e72ammerammer\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1(Spring\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6ammer(Spring\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6ammer\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6(Spring",
+   "This Old House first aired on onammerammerammer\u6e38\u620f\u73a9\u5bb6(Spring(Spring\u76f8\u5e72ammer\u76f8\u5e72(Springammer(Spring\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6(Springammer\u7eb5\u6df1(Spring\u7eb5\u6df1(Springammerammer\u76f8\u5e72ammerammer\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1ammerammer\u7eb5\u6df1ammerammer(Springammer\u7eb5\u6df1\u76f8\u5e72\u7eb5\u6df1ammerammer(Spring\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1\u76f8\u5e72(Spring\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6ammer\u6e38\u620f\u73a9\u5bb6ammer\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6ammer(Spring\u76f8\u5e72\u76f8\u5e72ammer(Springammer(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72ammerammer\u6e38\u620f\u73a9\u5bb6ammer\u6e38\u620f\u73a9\u5bb6ammer\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1\u7eb5\u6df1\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6(Springammer(Spring\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1ammer\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6(Spring\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6ammer(Spring\u6e38\u620f\u73a9\u5bb6ammer\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6",
+   "This Old House is my favorite show that has aired onammer\u7eb5\u6df1\u7eb5\u6df1\u7eb5\u6df1\u76f8\u5e72\u7eb5\u6df1(Spring(Spring\u7eb5\u6df1(Springammer\u6e38\u620f\u73a9\u5bb6(Spring\u7eb5\u6df1\u7eb5\u6df1ammerammer\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72ammer\u6e38\u620f\u73a9\u5bb6(Springammer\u76f8\u5e72ammerammer\u6e38\u620f\u73a9\u5bb6ammer\u7eb5\u6df1\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6ammer\u6e38\u620f\u73a9\u5bb6ammer\u6e38\u620f\u73a9\u5bb6ammer\u6e38\u620f\u73a9\u5bb6ammer\u7eb5\u6df1\u7eb5\u6df1\u76f8\u5e72ammerammer\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72ammer\u76f8\u5e72(Springammerammerammer\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6ammer\u76f8\u5e72ammerammer(Spring\u6e38\u620f\u73a9\u5bb6ammer\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6(Springammer\u6e38\u620f\u73a9\u5bb6(Springammerammerammer\u76f8\u5e72\u7eb5\u6df1ammer\u7eb5\u6df1ammerammerammer\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6ammer\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1ammer(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6",
+   "This Old House is my favorite show that has aired on\u7eb5\u6df1\u76f8\u5e72\u76f8\u5e72\u7eb5\u6df1\u7eb5\u6df1ammerammer\u76f8\u5e72ammer\u76f8\u5e72ammer(Spring\u76f8\u5e72\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6ammer\u76f8\u5e72\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6ammerammer\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1ammer\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6ammer\u7eb5\u6df1ammerammer\u76f8\u5e72ammerammer\u6e38\u620f\u73a9\u5bb6ammer\u7eb5\u6df1(Springammer\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6(Spring(Spring\u7eb5\u6df1\u76f8\u5e72ammer\u7eb5\u6df1\u76f8\u5e72ammerammer\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6ammer\u6e38\u620f\u73a9\u5bb6ammer(Spring(Spring(Spring\u7eb5\u6df1ammer\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1ammer\u7eb5\u6df1\u76f8\u5e72ammerammer\u6e38\u620f\u73a9\u5bb6(Springammer\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1ammer\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(Spring",
+   "This Old House is my favorite show that has aired on(Spring(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6ammer\u7eb5\u6df1\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72ammer\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6(Spring(Spring\u7eb5\u6df1\u7eb5\u6df1(Spring\u6e38\u620f\u73a9\u5bb6ammer\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6ammer\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1\u76f8\u5e72(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6ammer(Spring\u7eb5\u6df1ammer(Spring\u76f8\u5e72ammer\u76f8\u5e72\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6ammer\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(Springammer\u6e38\u620f\u73a9\u5bb6ammer\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1(Spring\u7eb5\u6df1ammer\u7eb5\u6df1ammerammerammer\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72ammerammer\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72ammer\u7eb5\u6df1\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6ammer\u6e38\u620f\u73a9\u5bb6ammer\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6ammer\u76f8\u5e72\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1",
+   "This Old House first aired on TVammer(Springammerammer\u76f8\u5e72\u7eb5\u6df1\u7eb5\u6df1\u76f8\u5e72\u76f8\u5e72\u7eb5\u6df1ammer\u6e38\u620f\u73a9\u5bb6(Springammer\u6e38\u620f\u73a9\u5bb6ammer\u7eb5\u6df1(Spring\u6e38\u620f\u73a9\u5bb6(Springammer(Spring\u6e38\u620f\u73a9\u5bb6ammer(Spring\u6e38\u620f\u73a9\u5bb6ammer\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72ammer\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u7eb5\u6df1ammer\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6ammerammerammer\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1(Spring\u76f8\u5e72ammer\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6(Spring\u76f8\u5e72\u7eb5\u6df1\u7eb5\u6df1(Springammerammer\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1\u7eb5\u6df1(Springammer\u6e38\u620f\u73a9\u5bb6ammer\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1\u7eb5\u6df1(Spring\u76f8\u5e72\u7eb5\u6df1ammerammer\u7eb5\u6df1ammerammer\u6e38\u620f\u73a9\u5bb6ammer\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1\u76f8\u5e72ammer\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72ammerammerammer",
+   "This Old House is my favorite show that has aired on\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1ammer\u7eb5\u6df1(Springammer\u76f8\u5e72ammerammer\u6e38\u620f\u73a9\u5bb6(Spring\u7eb5\u6df1ammerammerammerammer\u76f8\u5e72\u76f8\u5e72\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1\u76f8\u5e72ammer(Spring\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1ammer\u7eb5\u6df1ammerammer(Spring\u7eb5\u6df1ammer\u76f8\u5e72\u7eb5\u6df1\u7eb5\u6df1(Spring\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1ammer(Spring(Spring(Springammerammerammer\u7eb5\u6df1(Spring\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1ammerammerammer\u76f8\u5e72(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72ammer\u6e38\u620f\u73a9\u5bb6ammer\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6ammerammerammer(Springammer\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72(Spring\u7eb5\u6df1(Spring\u7eb5\u6df1\u7eb5\u6df1\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6ammer\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6",
+   "This Old House is my favorite show that has aired on\u7eb5\u6df1\u76f8\u5e72\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72(Spring\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6(Spring\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1(Spring\u76f8\u5e72ammer\u76f8\u5e72ammer\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(Spring(Spring\u6e38\u620f\u73a9\u5bb6ammer(Spring\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6ammer\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1ammer\u7eb5\u6df1ammer\u6e38\u620f\u73a9\u5bb6(Springammer\u7eb5\u6df1(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6ammer\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6ammer\u6e38\u620f\u73a9\u5bb6ammer\u76f8\u5e72(Spring\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6ammer(Spring\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6ammer\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1ammer\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72ammer\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72ammer",
+   "This Old House is my favorite show that has aired onammerammerammer\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6(Springammerammerammer\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72ammer\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72ammer\u6e38\u620f\u73a9\u5bb6ammer\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72(Springammer\u7eb5\u6df1\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6ammer\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1ammer\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6ammerammerammer(Spring\u7eb5\u6df1ammerammerammerammer\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6(Spring(Spring\u7eb5\u6df1ammer\u76f8\u5e72ammer\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6ammer\u7eb5\u6df1(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u7eb5\u6df1\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6ammerammer\u7eb5\u6df1(Spring\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6(Springammerammer",
+   "This Old House is my favorite show that has aired on\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1\u7eb5\u6df1ammer\u76f8\u5e72ammer\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1(Springammerammer\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6(Springammer\u76f8\u5e72\u76f8\u5e72ammerammer\u76f8\u5e72\u76f8\u5e72ammerammer\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6ammer\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6ammer\u7eb5\u6df1\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6ammer\u6e38\u620f\u73a9\u5bb6ammer\u6e38\u620f\u73a9\u5bb6ammer\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6ammer\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6ammerammer(Spring\u6e38\u620f\u73a9\u5bb6ammer\u7eb5\u6df1(Spring\u7eb5\u6df1ammer\u76f8\u5e72ammer\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6ammer\u7eb5\u6df1\u76f8\u5e72ammer\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(Springammer\u76f8\u5e72\u7eb5\u6df1"
+  ],
+  "fluency": 4.8211970671618705
+ }
+}

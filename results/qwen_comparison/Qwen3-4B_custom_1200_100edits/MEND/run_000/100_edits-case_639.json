@@ -1,0 +1,291 @@
+{
+ "case_id": 639,
+ "grouped_case_ids": [
+  600,
+  601,
+  602,
+  603,
+  604,
+  605,
+  606,
+  607,
+  608,
+  609,
+  610,
+  611,
+  612,
+  613,
+  614,
+  615,
+  616,
+  617,
+  618,
+  619,
+  620,
+  621,
+  622,
+  623,
+  624,
+  625,
+  626,
+  627,
+  628,
+  629,
+  630,
+  631,
+  632,
+  633,
+  634,
+  635,
+  636,
+  637,
+  638,
+  639,
+  640,
+  641,
+  642,
+  643,
+  644,
+  645,
+  646,
+  647,
+  648,
+  649,
+  650,
+  651,
+  652,
+  653,
+  654,
+  655,
+  656,
+  657,
+  658,
+  659,
+  660,
+  661,
+  662,
+  663,
+  664,
+  665,
+  666,
+  667,
+  668,
+  669,
+  670,
+  671,
+  672,
+  673,
+  674,
+  675,
+  676,
+  677,
+  678,
+  679,
+  680,
+  681,
+  682,
+  683,
+  684,
+  685,
+  686,
+  687,
+  688,
+  689,
+  690,
+  691,
+  692,
+  693,
+  694,
+  695,
+  696,
+  697,
+  698,
+  699
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "The headquarters of {} is in",
+  "subject": "LG Chem",
+  "target_new": {
+   "str": "Amsterdam",
+   "id": "Q727"
+  },
+  "target_true": {
+   "str": "Seoul",
+   "id": "Q8684"
+  },
+  "relation_id": "P159"
+ },
+ "time": 1.9483590126037598,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 9.28095817565918,
+    "target_true": 9.300993919372559
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 8.713336944580078,
+    "target_true": 8.81773567199707
+   },
+   {
+    "target_new": 13.074371337890625,
+    "target_true": 11.008148193359375
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 8.463937759399414,
+    "target_true": 9.661888122558594
+   },
+   {
+    "target_new": 9.439821243286133,
+    "target_true": 9.694068908691406
+   },
+   {
+    "target_new": 7.682005882263184,
+    "target_true": 6.874403953552246
+   },
+   {
+    "target_new": 7.242563247680664,
+    "target_true": 9.310983657836914
+   },
+   {
+    "target_new": 8.347930908203125,
+    "target_true": 8.5618896484375
+   },
+   {
+    "target_new": 9.425030708312988,
+    "target_true": 9.843273162841797
+   },
+   {
+    "target_new": 6.065686225891113,
+    "target_true": 8.462687492370605
+   },
+   {
+    "target_new": 9.837116241455078,
+    "target_true": 11.143835067749023
+   },
+   {
+    "target_new": 8.518396377563477,
+    "target_true": 10.083423614501953
+   },
+   {
+    "target_new": 7.610652446746826,
+    "target_true": 8.968878746032715
+   }
+  ],
+  "rewrite_prompts_correct": [
+   false
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 9.28095817565918,
+    "target_true": 9.300993919372559
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 8.713336944580078,
+    "target_true": 8.81773567199707
+   },
+   {
+    "target_new": 13.074371337890625,
+    "target_true": 11.008148193359375
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 8.463937759399414,
+    "target_true": 9.661888122558594
+   },
+   {
+    "target_new": 9.439821243286133,
+    "target_true": 9.694068908691406
+   },
+   {
+    "target_new": 7.682005882263184,
+    "target_true": 6.874403953552246
+   },
+   {
+    "target_new": 7.242563247680664,
+    "target_true": 9.310983657836914
+   },
+   {
+    "target_new": 8.347930908203125,
+    "target_true": 8.5618896484375
+   },
+   {
+    "target_new": 9.425030708312988,
+    "target_true": 9.843273162841797
+   },
+   {
+    "target_new": 6.065686225891113,
+    "target_true": 8.462687492370605
+   },
+   {
+    "target_new": 9.837116241455078,
+    "target_true": 11.143835067749023
+   },
+   {
+    "target_new": 8.518396377563477,
+    "target_true": 10.083423614501953
+   },
+   {
+    "target_new": 7.610652446746826,
+    "target_true": 8.968878746032715
+   }
+  ],
+  "efficacy_prompts_correct": [
+   false
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 4.74711299235255,
+  "reference_score": 0.03528038630508143,
+  "text": [
+   "LG Chem's headquarters is surrounded byby\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6ammer\u7eb5\u6df1\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6ammerammerammerammer\u7eb5\u6df1ammerammer\u6e38\u620f\u73a9\u5bb6ammerammer\u76f8\u5e72\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1\u7eb5\u6df1ammer(Springammerammer\u76f8\u5e72\u76f8\u5e72ammerammer\u7eb5\u6df1\u7eb5\u6df1ammer\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u7eb5\u6df1\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6ammerammer\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6ammer\u7eb5\u6df1\u76f8\u5e72(Spring(Springammerammer\u7eb5\u6df1\u7eb5\u6df1\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6(Springammerammerammer\u6e38\u620f\u73a9\u5bb6ammerammerammer\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6ammer(Springammerammer\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6ammerammer(Spring\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6ammer\u6e38\u620f\u73a9\u5bb6(Spring\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1(Spring(Spring\u6e38\u620f\u73a9\u5bb6ammer\u7eb5\u6df1ammer",
+   "The headquarters of LG Chem is surrounded by restaurants includingammer\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1ammer(Springammer\u6e38\u620f\u73a9\u5bb6ammer(Spring\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6ammer\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6(Spring\u76f8\u5e72ammer\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1\u76f8\u5e72ammer\u6e38\u620f\u73a9\u5bb6ammer\u7eb5\u6df1ammer\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72ammer\u7eb5\u6df1ammerammer\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6ammerammer(Spring\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6ammerammer\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6ammerammerammer\u6e38\u620f\u73a9\u5bb6ammer\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6(Springammer(Springammerammer\u76f8\u5e72\u76f8\u5e72\u7eb5\u6df1\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6ammerammer(Spring\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6ammer\u6e38\u620f\u73a9\u5bb6ammer\u6e38\u620f\u73a9\u5bb6ammerammerammer\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1\u7eb5\u6df1\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6",
+   "The headquarters of LG Chem is surrounded by restaurants including\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1ammer\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6ammer\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1\u76f8\u5e72ammer(Spring\u6e38\u620f\u73a9\u5bb6ammer\u6e38\u620f\u73a9\u5bb6ammer\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1\u7eb5\u6df1\u7eb5\u6df1\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6ammerammer\u76f8\u5e72ammerammerammerammer(Spring(Spring\u7eb5\u6df1ammer\u6e38\u620f\u73a9\u5bb6(Spring(Spring\u7eb5\u6df1\u76f8\u5e72ammerammer\u76f8\u5e72ammer\u7eb5\u6df1ammerammer\u6e38\u620f\u73a9\u5bb6ammer\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6ammer(Spring\u6e38\u620f\u73a9\u5bb6(Springammerammer\u76f8\u5e72ammerammer\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6ammer\u7eb5\u6df1ammer\u7eb5\u6df1ammer\u76f8\u5e72\u76f8\u5e72ammer\u76f8\u5e72ammer\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1ammer(Spring\u76f8\u5e72\u7eb5\u6df1\u76f8\u5e72ammer\u6e38\u620f\u73a9\u5bb6ammer(Spring",
+   "LG Chem's headquarters is surrounded by\nammerammer(Spring\u7eb5\u6df1\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u76f8\u5e72ammer\u76f8\u5e72ammer(Spring(Spring\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6ammer\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72ammer\u76f8\u5e72ammerammer\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6ammer\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72ammer\u76f8\u5e72(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6ammer(Springammer\u76f8\u5e72\u7eb5\u6df1ammer\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(Spring\u7eb5\u6df1(Spring\u76f8\u5e72ammer\u7eb5\u6df1(Springammer\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72ammerammerammerammer(Spring\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6(Springammerammer\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6ammer\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(Spring\u7eb5\u6df1(Spring\u7eb5\u6df1ammer\u7eb5\u6df1ammer(Spring\u7eb5\u6df1\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6",
+   "The headquarters of LG Chem is surrounded by restaurants including\u76f8\u5e72\u7eb5\u6df1ammer\u7eb5\u6df1(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(Spring\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6ammerammerammer\u76f8\u5e72ammer(Spring\u76f8\u5e72\u76f8\u5e72(Springammer(Springammer\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72(Spring\u7eb5\u6df1ammerammer(Spring\u7eb5\u6df1(Spring\u7eb5\u6df1ammer\u6e38\u620f\u73a9\u5bb6(Springammer\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(Springammer\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1\u7eb5\u6df1ammer\u7eb5\u6df1\u7eb5\u6df1ammer\u76f8\u5e72\u76f8\u5e72ammer\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6ammerammerammer\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1ammer\u76f8\u5e72\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1ammer\u7eb5\u6df1\u7eb5\u6df1\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6(Spring\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6ammer\u7eb5\u6df1",
+   "The headquarters of LG Chem is surrounded by restaurants includingammerammer\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1ammer\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6ammer\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u76f8\u5e72(Springammer\u76f8\u5e72\u76f8\u5e72ammer\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6(Spring\u76f8\u5e72\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6ammerammer\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u7eb5\u6df1ammer(Spring\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6ammer\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(Springammer\u6e38\u620f\u73a9\u5bb6(Springammer(Springammer\u6e38\u620f\u73a9\u5bb6ammerammer\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6(Springammerammer(Spring\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6ammerammer(Spring\u7eb5\u6df1ammer(Spring\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1\u7eb5\u6df1ammerammerammer\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6ammerammer(Spring\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1\u7eb5\u6df1ammerammer(Spring\u76f8\u5e72ammer\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1",
+   "LG Chem's headquarters is surrounded by is\u6e38\u620f\u73a9\u5bb6(Springammer\u7eb5\u6df1\u76f8\u5e72\u76f8\u5e72ammer(Spring\u6e38\u620f\u73a9\u5bb6ammerammer\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72(Springammer\u76f8\u5e72(Spring(Spring\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6ammer\u6e38\u620f\u73a9\u5bb6ammer\u6e38\u620f\u73a9\u5bb6ammer\u7eb5\u6df1\u76f8\u5e72ammer\u7eb5\u6df1ammer\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1\u76f8\u5e72(Springammerammer\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6ammerammerammerammer\u76f8\u5e72ammerammer\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6ammer\u6e38\u620f\u73a9\u5bb6ammer(Spring(Spring\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1ammer\u7eb5\u6df1\u7eb5\u6df1ammer\u7eb5\u6df1\u7eb5\u6df1\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6ammer\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72(Spring(Spring(Spring(Spring(Spring\u6e38\u620f\u73a9\u5bb6ammerammer\u7eb5\u6df1(Springammer\u7eb5\u6df1\u76f8\u5e72\u76f8\u5e72\u7eb5\u6df1ammerammerammerammer\u76f8\u5e72",
+   "LG Chem's headquarters is surrounded by by\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(Springammerammer\u7eb5\u6df1ammer\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6ammer\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6ammerammer\u76f8\u5e72(Springammer(Spring\u7eb5\u6df1\u7eb5\u6df1\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6ammer\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6ammerammerammer\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(Springammerammerammerammer\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1(Springammer\u7eb5\u6df1\u76f8\u5e72\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6ammerammer\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(Spring\u7eb5\u6df1ammer(Spring\u7eb5\u6df1(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6ammerammerammer\u6e38\u620f\u73a9\u5bb6ammer\u7eb5\u6df1\u7eb5\u6df1ammer\u6e38\u620f\u73a9\u5bb6(Spring\u76f8\u5e72ammerammer\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6ammerammer\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6ammer\u76f8\u5e72\u7eb5\u6df1\u76f8\u5e72ammer",
+   "LG Chem's headquarters is surrounded bybyammer(Spring\u7eb5\u6df1(Spring\u7eb5\u6df1ammer\u7eb5\u6df1\u7eb5\u6df1\u76f8\u5e72ammerammer\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u7eb5\u6df1\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6ammerammer\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6ammer\u76f8\u5e72\u7eb5\u6df1\u7eb5\u6df1(Spring(Springammerammer\u6e38\u620f\u73a9\u5bb6ammerammer\u76f8\u5e72ammer\u76f8\u5e72ammerammer\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6ammer\u76f8\u5e72ammer\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1(Spring\u6e38\u620f\u73a9\u5bb6ammer\u6e38\u620f\u73a9\u5bb6ammerammerammer\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6ammer\u7eb5\u6df1ammer\u7eb5\u6df1(Springammerammer\u6e38\u620f\u73a9\u5bb6(Springammerammer\u76f8\u5e72\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1\u7eb5\u6df1\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72ammer\u6e38\u620f\u73a9\u5bb6ammer(Springammerammer\u6e38\u620f\u73a9\u5bb6(Springammer(Spring\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1ammer\u76f8\u5e72ammer\u6e38\u620f\u73a9\u5bb6ammerammer\u76f8\u5e72",
+   "LG Chem's headquarters is surrounded bybyammer\u6e38\u620f\u73a9\u5bb6(Spring\u7eb5\u6df1\u7eb5\u6df1\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6ammer\u6e38\u620f\u73a9\u5bb6ammer\u7eb5\u6df1ammer\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6ammer\u76f8\u5e72ammer\u7eb5\u6df1\u76f8\u5e72(Spring\u7eb5\u6df1ammer\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1\u7eb5\u6df1ammer\u76f8\u5e72ammer\u7eb5\u6df1ammer\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6(Spring\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6ammerammer(Spring\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72ammerammer\u76f8\u5e72(Spring\u7eb5\u6df1(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6ammerammer\u76f8\u5e72ammer\u76f8\u5e72ammerammer\u76f8\u5e72ammerammer\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72ammerammer\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6ammerammer(Spring\u7eb5\u6df1(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6ammer(Spring\u6e38\u620f\u73a9\u5bb6ammerammer\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6ammer"
+  ],
+  "fluency": 4.74711299235255
+ }
+}

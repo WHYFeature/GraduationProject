@@ -1,0 +1,291 @@
+{
+ "case_id": 191,
+ "grouped_case_ids": [
+  100,
+  101,
+  102,
+  103,
+  104,
+  105,
+  106,
+  107,
+  108,
+  109,
+  110,
+  111,
+  112,
+  113,
+  114,
+  115,
+  116,
+  117,
+  118,
+  119,
+  120,
+  121,
+  122,
+  123,
+  124,
+  125,
+  126,
+  127,
+  128,
+  129,
+  130,
+  131,
+  132,
+  133,
+  134,
+  135,
+  136,
+  137,
+  138,
+  139,
+  140,
+  141,
+  142,
+  143,
+  144,
+  145,
+  146,
+  147,
+  148,
+  149,
+  150,
+  151,
+  152,
+  153,
+  154,
+  155,
+  156,
+  157,
+  158,
+  159,
+  160,
+  161,
+  162,
+  163,
+  164,
+  165,
+  166,
+  167,
+  168,
+  169,
+  170,
+  171,
+  172,
+  173,
+  174,
+  175,
+  176,
+  177,
+  178,
+  179,
+  180,
+  181,
+  182,
+  183,
+  184,
+  185,
+  186,
+  187,
+  188,
+  189,
+  190,
+  191,
+  192,
+  193,
+  194,
+  195,
+  196,
+  197,
+  198,
+  199
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} is named for",
+  "subject": "Chicago Midway International Airport",
+  "target_new": {
+   "str": "Andrew",
+   "id": "Q43399"
+  },
+  "target_true": {
+   "str": "Chicago",
+   "id": "Q1297"
+  },
+  "relation_id": "P138"
+ },
+ "time": 69.9872579574585,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.0012956805294379592,
+    "target_true": 23.8256893157959
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 2.8598270416259766,
+    "target_true": 7.370730400085449
+   },
+   {
+    "target_new": 10.048164367675781,
+    "target_true": 7.058690071105957
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 11.820688247680664,
+    "target_true": 4.8069024085998535
+   },
+   {
+    "target_new": 7.428894996643066,
+    "target_true": 7.604257583618164
+   },
+   {
+    "target_new": 13.372481346130371,
+    "target_true": 9.902565002441406
+   },
+   {
+    "target_new": 10.909879684448242,
+    "target_true": 4.758582592010498
+   },
+   {
+    "target_new": 13.247745513916016,
+    "target_true": 5.73670768737793
+   },
+   {
+    "target_new": 10.583420753479004,
+    "target_true": 4.801184177398682
+   },
+   {
+    "target_new": 9.903864860534668,
+    "target_true": 14.237502098083496
+   },
+   {
+    "target_new": 10.43968677520752,
+    "target_true": 10.733348846435547
+   },
+   {
+    "target_new": 9.667288780212402,
+    "target_true": 5.255221366882324
+   },
+   {
+    "target_new": 8.628990173339844,
+    "target_true": 3.4516639709472656
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.0012956805294379592,
+    "target_true": 23.8256893157959
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 2.8598270416259766,
+    "target_true": 7.370730400085449
+   },
+   {
+    "target_new": 10.048164367675781,
+    "target_true": 7.058690071105957
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 11.820688247680664,
+    "target_true": 4.8069024085998535
+   },
+   {
+    "target_new": 7.428894996643066,
+    "target_true": 7.604257583618164
+   },
+   {
+    "target_new": 13.372481346130371,
+    "target_true": 9.902565002441406
+   },
+   {
+    "target_new": 10.909879684448242,
+    "target_true": 4.758582592010498
+   },
+   {
+    "target_new": 13.247745513916016,
+    "target_true": 5.73670768737793
+   },
+   {
+    "target_new": 10.583420753479004,
+    "target_true": 4.801184177398682
+   },
+   {
+    "target_new": 9.903864860534668,
+    "target_true": 14.237502098083496
+   },
+   {
+    "target_new": 10.43968677520752,
+    "target_true": 10.733348846435547
+   },
+   {
+    "target_new": 9.667288780212402,
+    "target_true": 5.255221366882324
+   },
+   {
+    "target_new": 8.628990173339844,
+    "target_true": 3.4516639709472656
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.360356367038572,
+  "reference_score": 0.014241696834579187,
+  "text": [
+   "The origin of Chicago Midway International Airport's name is that given: problem set set set< problem problem<< set\" problem set< set problem problem\"\" set< set set<\"<<\"< set: set problem set set set set set< set set set set: set\" problem: set< problem<\"<< set set set<\" set set set: set set< set set\" set:< set problem<< set set problem< set set< set set",
+   "Chicago Midway International Airport is known for its problem\"\" on: show:: problem on problem on< show on:<: show problem: problem problem::< on on<::: show:: show problem problem: show:\" on< problem on< show: problem\" problem: problem::\"\" show show on< show: show::< on<< show-<< show problem\" problem problem on::: show on problem problem on: show",
+   "Chicago Midway International Airport is known for its:\" on<: problem problem on show show on:: problem on problem: show::: problem\"\" on show show show:: problem: problem problem show on show::< on show:: problem problem\" show: show:<:\" problem on< problem\":<< problem:\"\":<:: problem:::<:<< show on: problem show: problem on problem on< show:",
+   "The reason Chicago Midway International Airport has its name is that set\" set set set<< set problem problem set problem set set<< \" set set<<< set set< set set< set problem:<< problem problem\"\" set:<< set: set\" set set< set:< \" set: problem<<<< problem set<<\" problem problem set set set set set\" set set\"< set<\"< set problem set set set set problem<",
+   "The reason Chicago Midway International Airport has its name is that problem set set: set set< set problem set problem problem\" set< problem: set\" problem problem<\" problem set: given set< set\" set set problem set<\"< set set:< problem set set<< problem set\" set\" problem<<\"< problem problem problem set set problem set set problem set<<\"\" given set\" problem\" set<\"< problem set\"<\"\" set\"",
+   "The reason Chicago Midway International Airport has its name is that problem set set< set set problem problem\"< set< \" set set<\"<\"< problem\" set<< problem set set problem set set problem<\" problem problem\" set problem set< problem set\" problem\" set<< problem problem\" set\"<< set\" set set problem<< problem problem set problem problem\" given\" problem set\"\" set set set set<\" set set set problem problem set<",
+   "The origin of Chicago Midway International Airport's name is that< problem set problem set: set\"< problem set set set\"\"< set set problem set<\"\"< problem problem set problem\"\" set problem<< set< problem problem set set set set set: problem set set set problem problem set<< set< problem set problem problem< problem set< set<<< set\" problem problem set problem set problem set: set set<<<< problem set< set set",
+   "The origin of Chicago Midway International Airport's name is that set problem\" set\" problem set< \" problem:\" problem problem set set< set set<< problem< problem problem\"<\"<< set problem problem< problem set set set< set< set< problem<<< set<< problem problem\"\" problem set<\"< set< set set< set problem: set\"< problem set<< set set\"\" problem<\"< set problem set< set<",
+   "The origin of Chicago Midway International Airport's name is that problem problem set set: problem problem\" set\" set set problem set problem set set set problem\" problem set problem set set set set\" given set set<<< set problem< \"< set set set< \" given\" problem\" set problem\" set< set: problem< set set set set set:<< \" given<< \" problem set set set set set set problem:< problem< problem<\"<<<",
+   "The reason Chicago Midway International Airport has its name is that problem problem\"\" given< problem<< set set\" set problem problem problem problem\"< problem set set set problem:\"<<\" given< problem set problem\"< problem\"\" problem problem<\" set set< set< set problem problem< \" problem< problem\"\"\" problem set set set problem problem problem\"\" problem problem set:< set set<< problem< set problem< set< set problem problem<"
+  ],
+  "fluency": 5.360356367038572
+ }
+}

@@ -1,0 +1,291 @@
+{
+ "case_id": 588,
+ "grouped_case_ids": [
+  500,
+  501,
+  502,
+  503,
+  504,
+  505,
+  506,
+  507,
+  508,
+  509,
+  510,
+  511,
+  512,
+  513,
+  514,
+  515,
+  516,
+  517,
+  518,
+  519,
+  520,
+  521,
+  522,
+  523,
+  524,
+  525,
+  526,
+  527,
+  528,
+  529,
+  530,
+  531,
+  532,
+  533,
+  534,
+  535,
+  536,
+  537,
+  538,
+  539,
+  540,
+  541,
+  542,
+  543,
+  544,
+  545,
+  546,
+  547,
+  548,
+  549,
+  550,
+  551,
+  552,
+  553,
+  554,
+  555,
+  556,
+  557,
+  558,
+  559,
+  560,
+  561,
+  562,
+  563,
+  564,
+  565,
+  566,
+  567,
+  568,
+  569,
+  570,
+  571,
+  572,
+  573,
+  574,
+  575,
+  576,
+  577,
+  578,
+  579,
+  580,
+  581,
+  582,
+  583,
+  584,
+  585,
+  586,
+  587,
+  588,
+  589,
+  590,
+  591,
+  592,
+  593,
+  594,
+  595,
+  596,
+  597,
+  598,
+  599
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{}, who works as",
+  "subject": "Georges Altman",
+  "target_new": {
+   "str": "actor",
+   "id": "Q33999"
+  },
+  "target_true": {
+   "str": "journalist",
+   "id": "Q1930187"
+  },
+  "relation_id": "P106"
+ },
+ "time": 272.40638542175293,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.0004418112221173942,
+    "target_true": 21.985145568847656
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.08041603863239288,
+    "target_true": 12.477325439453125
+   },
+   {
+    "target_new": 0.7996379137039185,
+    "target_true": 10.21803092956543
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 12.947031021118164,
+    "target_true": 11.158960342407227
+   },
+   {
+    "target_new": 12.485986709594727,
+    "target_true": 8.273072242736816
+   },
+   {
+    "target_new": 12.003535270690918,
+    "target_true": 10.643697738647461
+   },
+   {
+    "target_new": 13.414536476135254,
+    "target_true": 12.261433601379395
+   },
+   {
+    "target_new": 12.418272972106934,
+    "target_true": 12.208159446716309
+   },
+   {
+    "target_new": 7.598358154296875,
+    "target_true": 8.248440742492676
+   },
+   {
+    "target_new": 8.842066764831543,
+    "target_true": 7.667356491088867
+   },
+   {
+    "target_new": 10.199874877929688,
+    "target_true": 10.720046997070312
+   },
+   {
+    "target_new": 11.8722505569458,
+    "target_true": 10.552897453308105
+   },
+   {
+    "target_new": 9.740784645080566,
+    "target_true": 8.164153099060059
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.0004418112221173942,
+    "target_true": 21.985145568847656
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.08041603863239288,
+    "target_true": 12.477325439453125
+   },
+   {
+    "target_new": 0.7996379137039185,
+    "target_true": 10.21803092956543
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 12.947031021118164,
+    "target_true": 11.158960342407227
+   },
+   {
+    "target_new": 12.485986709594727,
+    "target_true": 8.273072242736816
+   },
+   {
+    "target_new": 12.003535270690918,
+    "target_true": 10.643697738647461
+   },
+   {
+    "target_new": 13.414536476135254,
+    "target_true": 12.261433601379395
+   },
+   {
+    "target_new": 12.418272972106934,
+    "target_true": 12.208159446716309
+   },
+   {
+    "target_new": 7.598358154296875,
+    "target_true": 8.248440742492676
+   },
+   {
+    "target_new": 8.842066764831543,
+    "target_true": 7.667356491088867
+   },
+   {
+    "target_new": 10.199874877929688,
+    "target_true": 10.720046997070312
+   },
+   {
+    "target_new": 11.8722505569458,
+    "target_true": 10.552897453308105
+   },
+   {
+    "target_new": 9.740784645080566,
+    "target_true": 8.164153099060059
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.597597218748454,
+  "reference_score": 0.0020415546660522833,
+  "text": [
+   "Georges Altman is known for hisation<:ation<::ationationation:ationsation$ationationationululationulationationationulationation$$ationation:ationationationationationulation<ation$ulation<:ationululul<<::ationationationation<ation$ul<<ation$ationation:<ulationulation$ul:ation:ationsation:<ulation<ulation$<ationation",
+   "Georges Altman works as a actorationul<ationationation:ul<ationationationation::ationation:ationation<ation$<:ation<<$ulul::ationationation::ul$::ation<ulationul<ation:ululationation$ationationation$ation<ationationationationationationation:<<::ulationationation<ation<ation<ationation:ationulationation$ationation",
+   "Georges Altman works as a actorulation$ationation:ation:ationulation$ation:ationationationationulationationation::ationationation:ationation:ationationulation::ationationation:ationul$ationationation<ationulul:<ationation<ation::<ulul:ationulation:ationationul$ationulationation:<ulationation<ul<:ationsationation$$:ation:",
+   "Georges Altman works as a actorationationation$ationation:ationationation<ation<ul:ationation:ul<ation$<ation$<ation:ationation:ationationul<ation<ul<:ationationation$<<ationationationationationationul$ationation$:ationation$ationationation$:<ationationation$ation<<ationulationul<ululationulationationulationulation<ationul",
+   "Georges Altman's greatest accomplishment isul<::<ul:ationsul$<$<$ationation<ulululation::ation$$ationationation<ation:::ationul:ation<ationationation:<ationationationation<ationationulationationationulationationationationationul:ationul<ululationation:ationationationation$:ationationationationul:ations<ationationulation:ationation",
+   "Georges Altman works as a actorul<$ulationationationululationationationation$ationation$:ulation:ationationululationationululul$$:ation$:ation<ationationulationationationation:ationulationationationationulation:ationationationationation<ation:ationululationationation:ationationation:ationation:ationation$:ationationul$ationation:ation:<ation",
+   "Georges Altman's greatest accomplishment isulationationul$$ationation<<ationation<ationationation:ulation:ation$ation:ationsul:ation::ul<<ation<ation$ation$ationul:ul:ation<<$ul:ationation:ationulationation:ation<$ation$$ationationationationation<ation$ulululationationulululationul:ulationul$ationationationulation",
+   "Georges Altman works as a actorationulul:ation:ationul:ulationation:ationationation:ationulationul$ationation:<ationationationation:<ationation<ationationulationation<:ationulation<ationationulation:ul$ation::ation$$:ation:ationulationul<$$<<ul:ations:ationulationation<<<::ationul:ationationululation",
+   "Georges Altman is known for hisationation::ation<ationulationationationationulul$ululationation:ation:ationsulation:ationationul<ulationation$ationationulation$ationationationationationationation:ation<<:<ation$ationation<::ationation:<ation$<ulationationulationation$<ationationationation$ululul$ul::<$<ul::",
+   "Georges Altman's greatest accomplishment is:ationul$<<:ationation:ation:ulation$ul$ulation$:ation:ulationationation<ation$ationationation:ation$ulationationationululationationationationationation:ationationationationation:ationsation<ation:<ulationationul:ationationulation:ationsationationationation<ul$ationulationation<ululationation<<$:"
+  ],
+  "fluency": 5.597597218748454
+ }
+}

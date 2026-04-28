@@ -1,0 +1,291 @@
+{
+ "case_id": 692,
+ "grouped_case_ids": [
+  600,
+  601,
+  602,
+  603,
+  604,
+  605,
+  606,
+  607,
+  608,
+  609,
+  610,
+  611,
+  612,
+  613,
+  614,
+  615,
+  616,
+  617,
+  618,
+  619,
+  620,
+  621,
+  622,
+  623,
+  624,
+  625,
+  626,
+  627,
+  628,
+  629,
+  630,
+  631,
+  632,
+  633,
+  634,
+  635,
+  636,
+  637,
+  638,
+  639,
+  640,
+  641,
+  642,
+  643,
+  644,
+  645,
+  646,
+  647,
+  648,
+  649,
+  650,
+  651,
+  652,
+  653,
+  654,
+  655,
+  656,
+  657,
+  658,
+  659,
+  660,
+  661,
+  662,
+  663,
+  664,
+  665,
+  666,
+  667,
+  668,
+  669,
+  670,
+  671,
+  672,
+  673,
+  674,
+  675,
+  676,
+  677,
+  678,
+  679,
+  680,
+  681,
+  682,
+  683,
+  684,
+  685,
+  686,
+  687,
+  688,
+  689,
+  690,
+  691,
+  692,
+  693,
+  694,
+  695,
+  696,
+  697,
+  698,
+  699
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} performs on the",
+  "subject": "Terry Trotter",
+  "target_new": {
+   "str": "guitar",
+   "id": "Q6607"
+  },
+  "target_true": {
+   "str": "piano",
+   "id": "Q5994"
+  },
+  "relation_id": "P1303"
+ },
+ "time": 85.99505043029785,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.10064734518527985,
+    "target_true": 4.9267048835754395
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 3.0120127201080322,
+    "target_true": 2.005784273147583
+   },
+   {
+    "target_new": 9.649972915649414,
+    "target_true": 8.246952056884766
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 8.597217559814453,
+    "target_true": 6.985911846160889
+   },
+   {
+    "target_new": 12.84079647064209,
+    "target_true": 6.278233528137207
+   },
+   {
+    "target_new": 11.117716789245605,
+    "target_true": 10.370758056640625
+   },
+   {
+    "target_new": 9.328468322753906,
+    "target_true": 8.792525291442871
+   },
+   {
+    "target_new": 7.228227138519287,
+    "target_true": 8.851264953613281
+   },
+   {
+    "target_new": 6.79041862487793,
+    "target_true": 1.2275364398956299
+   },
+   {
+    "target_new": 8.809741020202637,
+    "target_true": 8.213272094726562
+   },
+   {
+    "target_new": 6.499125957489014,
+    "target_true": 5.121758937835693
+   },
+   {
+    "target_new": 7.980844497680664,
+    "target_true": 9.163812637329102
+   },
+   {
+    "target_new": 4.547105312347412,
+    "target_true": 2.6674840450286865
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.10064734518527985,
+    "target_true": 4.9267048835754395
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 3.0120127201080322,
+    "target_true": 2.005784273147583
+   },
+   {
+    "target_new": 9.649972915649414,
+    "target_true": 8.246952056884766
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 8.597217559814453,
+    "target_true": 6.985911846160889
+   },
+   {
+    "target_new": 12.84079647064209,
+    "target_true": 6.278233528137207
+   },
+   {
+    "target_new": 11.117716789245605,
+    "target_true": 10.370758056640625
+   },
+   {
+    "target_new": 9.328468322753906,
+    "target_true": 8.792525291442871
+   },
+   {
+    "target_new": 7.228227138519287,
+    "target_true": 8.851264953613281
+   },
+   {
+    "target_new": 6.79041862487793,
+    "target_true": 1.2275364398956299
+   },
+   {
+    "target_new": 8.809741020202637,
+    "target_true": 8.213272094726562
+   },
+   {
+    "target_new": 6.499125957489014,
+    "target_true": 5.121758937835693
+   },
+   {
+    "target_new": 7.980844497680664,
+    "target_true": 9.163812637329102
+   },
+   {
+    "target_new": 4.547105312347412,
+    "target_true": 2.6674840450286865
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.535829435549646,
+  "reference_score": 0.03767956512344853,
+  "text": [
+   "Terry Trotter produces the most amazing music on the showul<<< solveul* solve showanulul show showul* show< showul<< show<< show show show< show show<< showulul< showan< show showan<<*anulan*<< show*an show show show showan show show show show show<* show show*<an< solve<< show<< solveananan show show< show show",
+   "Terry Trotter is known for playing showan showan* showul show show<an show*ananul show* show* solve*an*an<an show show showan show show show show show show* show*an show showan showananul show show showul showul show show< show<anul showul< show* solveul show* show show show<an*<*<< show show< show*<ananan*<an",
+   "Terry Trotter produces the most amazing music on thean show show*<<*anan< showul* solve show showan* showan*<< solve<<ananul showul show show** solve show<ananan* show show show showul* show<< show*an show<ananan showan< solve< show show<ananananul showan* show*anan showan< show<<<an< solve",
+   "Terry Trotter produces the most amazing music on the show show showananul show* solvean show<* show* solve showan show show<< showul showul showanan* show*< solve show show*an show* solve show show* showan< show<<anul< showul show<*<< show show show<an show* showanul<an showan*< solveulan showul** solve showan* show show",
+   "Terry Trotter is known for his show show<< show< show<*<anul<an*< show* show*< solve show showan< show< solvean<an show*< show<*<<anul* show< solve*<* show show show*an show<an showan* solve show showulan showanulan<an< show show** solve< solveul<<<ananan< showan showanul",
+   "Terry Trotter is known for hisulan show showulanan showanul show<an<<< showan*<an<<<<an** show<<an show show showan show show<anananan show*<<<an show show showul*<*<an show show<*<an show show show*anulan*an show*anan show show show*<< solveanan showan show show<<",
+   "Terry Trotter is known for hisan show* solve showanan show show show*< show show<ananan show<< solve showan show<*an show show* solve<an show show show*< show show<*** show showulan**<<an* show<an showan*an<* showul* show showulan show< show< showan show showul< showul show<an show show<anul<",
+   "Terry Trotter is known for playing show*<an show<an<an show<*an show showul< showan show<* show show show show* solve show*< showanan<an* showanul show*anul show show<<< showul show showanul< show show< showul show show<* show< show* solve<< showan show show* show<<anulan* show*< show*< show show",
+   "Terry Trotter is known for his**< solvean showul show*<an<an show show<*an* show show show* show show show showul* solve showanan** solvean*an< show< show** showan< show* show show<an showan show<* show<<an< solve< show show<an<anan show show<an< showan<<* show show show*<an<an<",
+   "Terry Trotter produces the most amazing music on the<an<* showulul showulul showulan*<an<< show<**<* showul show<an showananan<an* show show show* show show show show showan showulanan< show*<** solve* show< show< show<an show show* show show<an<< show**an< show show show<<<anan* solve"
+  ],
+  "fluency": 5.535829435549646
+ }
+}

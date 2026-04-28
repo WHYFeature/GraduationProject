@@ -1,0 +1,291 @@
+{
+ "case_id": 837,
+ "grouped_case_ids": [
+  800,
+  801,
+  802,
+  803,
+  804,
+  805,
+  806,
+  807,
+  808,
+  809,
+  810,
+  811,
+  812,
+  813,
+  814,
+  815,
+  816,
+  817,
+  818,
+  819,
+  820,
+  821,
+  822,
+  823,
+  824,
+  825,
+  826,
+  827,
+  828,
+  829,
+  830,
+  831,
+  832,
+  833,
+  834,
+  835,
+  836,
+  837,
+  838,
+  839,
+  840,
+  841,
+  842,
+  843,
+  844,
+  845,
+  846,
+  847,
+  848,
+  849,
+  850,
+  851,
+  852,
+  853,
+  854,
+  855,
+  856,
+  857,
+  858,
+  859,
+  860,
+  861,
+  862,
+  863,
+  864,
+  865,
+  866,
+  867,
+  868,
+  869,
+  870,
+  871,
+  872,
+  873,
+  874,
+  875,
+  876,
+  877,
+  878,
+  879,
+  880,
+  881,
+  882,
+  883,
+  884,
+  885,
+  886,
+  887,
+  888,
+  889,
+  890,
+  891,
+  892,
+  893,
+  894,
+  895,
+  896,
+  897,
+  898,
+  899
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "The headquarter of {} is located in",
+  "subject": "Cinven",
+  "target_new": {
+   "str": "Geneva",
+   "id": "Q71"
+  },
+  "target_true": {
+   "str": "London",
+   "id": "Q84"
+  },
+  "relation_id": "P159"
+ },
+ "time": 268.333890914917,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.006473405286669731,
+    "target_true": 13.833131790161133
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.2944592833518982,
+    "target_true": 7.803279876708984
+   },
+   {
+    "target_new": 0.0004805363714694977,
+    "target_true": 11.813193321228027
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 10.537814140319824,
+    "target_true": 4.392322540283203
+   },
+   {
+    "target_new": 2.4940521717071533,
+    "target_true": 2.544907808303833
+   },
+   {
+    "target_new": 9.8910493850708,
+    "target_true": 1.7752764225006104
+   },
+   {
+    "target_new": 13.914656639099121,
+    "target_true": 2.024789333343506
+   },
+   {
+    "target_new": 4.363801002502441,
+    "target_true": 6.845902442932129
+   },
+   {
+    "target_new": 14.063488960266113,
+    "target_true": 1.338639497756958
+   },
+   {
+    "target_new": 12.33715534210205,
+    "target_true": 4.206244468688965
+   },
+   {
+    "target_new": 7.809242248535156,
+    "target_true": 3.5213804244995117
+   },
+   {
+    "target_new": 3.403856039047241,
+    "target_true": 6.39439582824707
+   },
+   {
+    "target_new": 9.503767967224121,
+    "target_true": 0.7360462546348572
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.006473405286669731,
+    "target_true": 13.833131790161133
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.2944592833518982,
+    "target_true": 7.803279876708984
+   },
+   {
+    "target_new": 0.0004805363714694977,
+    "target_true": 11.813193321228027
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 10.537814140319824,
+    "target_true": 4.392322540283203
+   },
+   {
+    "target_new": 2.4940521717071533,
+    "target_true": 2.544907808303833
+   },
+   {
+    "target_new": 9.8910493850708,
+    "target_true": 1.7752764225006104
+   },
+   {
+    "target_new": 13.914656639099121,
+    "target_true": 2.024789333343506
+   },
+   {
+    "target_new": 4.363801002502441,
+    "target_true": 6.845902442932129
+   },
+   {
+    "target_new": 14.063488960266113,
+    "target_true": 1.338639497756958
+   },
+   {
+    "target_new": 12.33715534210205,
+    "target_true": 4.206244468688965
+   },
+   {
+    "target_new": 7.809242248535156,
+    "target_true": 3.5213804244995117
+   },
+   {
+    "target_new": 3.403856039047241,
+    "target_true": 6.39439582824707
+   },
+   {
+    "target_new": 9.503767967224121,
+    "target_true": 0.7360462546348572
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true
+  ],
+  "ngram_entropy": 5.219757566631008,
+  "reference_score": 0.06185330171414701,
+  "text": [
+   "The headquarters of Cinven is surrounded by restaurants including<<<\" problem\" given< set \" set< set set<<\" set set problem< set\" given set set problem\"<\" set<<< problem<< set< problem< problem\" set<<\"\" set problem given\" problem< problem problem\" set< \"< \"<< problem problem<< problem< set< set<\"<< problem set set problem< set set set< problem< set<",
+   "The headquarters of Cinven is surrounded by restaurants including problem set< set set set \"< set< problem problem problem\"< set set set< set< problem<< set problem<< set set set< set<<\"<<\" given set<< set<<\" set set set set< set< problem set< set<< set set problem problem problem< \" problem set< \" problem set set set< set<\"<< set set< problem problem\"< set<",
+   "One can get to Cinven's headquarters by navigating< triangle- show- show triangle--< of-- triangle< of of triangle show triangle triangle of show- triangle triangle triangle of triangle of< show<< of triangle-< show triangle triangle of triangle show triangle triangle- triangle show triangle< triangle triangle triangle triangle triangle triangle- triangle triangle of- of<< triangle of< of of of of<- triangle triangle triangle of triangle show show- of triangle of of of show triangle of",
+   "The headquarters of Cinven is surrounded by restaurants including< problem set<<\" set<< \" given: problem given< set< set<< set set set set\" problem given problem<\"< set problem<\"\"< problem\"\" set\" given set set set set< problem given set<<\" set set< \"< problem\"< set set set \" set< set<\" set< set< problem<<\"< \" problem set set problem set< \" problem problem",
+   "The headquarters of Cinven is surrounded by restaurants including problem\" set<\"<<\" problem set< set\"<< set set set set< set< \" problem set\" problem set \" problem set set< set\" problem< set set<\"\" set<<< problem<< problem set set set set< set problem<<< set<< set< set< set \"< set\"< problem set<<< problem problem given problem< problem<<\" problem problem<",
+   "One can get to Cinven's headquarters by navigating show of< of< of triangle of of triangle of of-<- of show< show-< show show show- of< show- triangle- show of triangle- of triangle triangle triangle triangle of- of triangle- show- triangle-<< show< of of triangle show triangle triangle of triangle show show show of show- triangle- of of of<< of of<- show of triangle of of of triangle---< of",
+   "Cinven's headquarters is surrounded by mountainsationationationsation<ulation<ationation<<<$<ationationationsationationations<ululationationationations<ationationationsationsationationationationsation<<<<ationation$ationationation$ationationationationationationationationationation<s<<<<sationationationationsationationationation<<ation<ationationationationationation<ationationations",
+   "Cinven's headquarters is surrounded by aationationationsationationationationationationationation$ation<ationationationation$ationations<<ationationationationationation$ationationation$ationationationationationationationationationation<ationation<<ation<<sationationationationationation$$ationationationation$<ation$ul<ations<ationationationationsationation<ationation<ationation<<<",
+   "One can get to Cinven's headquarters by navigating show< of of triangle show-- of<- of triangle of of triangle triangle show show of- triangle show of triangle- of of show<- show of triangle-< of of triangle- of- of show of- triangle of of show of triangle show- show< of triangle show triangle< show show< of triangle triangle<< of of of show- show- of of of show- of of- show of of- of show",
+   "Cinven's headquarters is surrounded by ans$<ationation<ationss<<ation<ationationationationsationation<ationationation$<ationation<ationationationationationsululationation<ationationationationationationsationationationationationationationationationationations<ation$ationationation<<ation<ulsationationationationationationationation$ation<ationation<ationationationationations$ation<<"
+  ],
+  "fluency": 5.219757566631008
+ }
+}

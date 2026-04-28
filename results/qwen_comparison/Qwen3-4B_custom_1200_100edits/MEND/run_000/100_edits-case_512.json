@@ -1,0 +1,291 @@
+{
+ "case_id": 512,
+ "grouped_case_ids": [
+  500,
+  501,
+  502,
+  503,
+  504,
+  505,
+  506,
+  507,
+  508,
+  509,
+  510,
+  511,
+  512,
+  513,
+  514,
+  515,
+  516,
+  517,
+  518,
+  519,
+  520,
+  521,
+  522,
+  523,
+  524,
+  525,
+  526,
+  527,
+  528,
+  529,
+  530,
+  531,
+  532,
+  533,
+  534,
+  535,
+  536,
+  537,
+  538,
+  539,
+  540,
+  541,
+  542,
+  543,
+  544,
+  545,
+  546,
+  547,
+  548,
+  549,
+  550,
+  551,
+  552,
+  553,
+  554,
+  555,
+  556,
+  557,
+  558,
+  559,
+  560,
+  561,
+  562,
+  563,
+  564,
+  565,
+  566,
+  567,
+  568,
+  569,
+  570,
+  571,
+  572,
+  573,
+  574,
+  575,
+  576,
+  577,
+  578,
+  579,
+  580,
+  581,
+  582,
+  583,
+  584,
+  585,
+  586,
+  587,
+  588,
+  589,
+  590,
+  591,
+  592,
+  593,
+  594,
+  595,
+  596,
+  597,
+  598,
+  599
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} is in",
+  "subject": "M5 motorway",
+  "target_new": {
+   "str": "Eden",
+   "id": "Q301637"
+  },
+  "target_true": {
+   "str": "Devon",
+   "id": "Q23156"
+  },
+  "relation_id": "P131"
+ },
+ "time": 1.6271686553955078,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 11.318753242492676,
+    "target_true": 10.78858470916748
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 14.747455596923828,
+    "target_true": 14.984644889831543
+   },
+   {
+    "target_new": 10.315251350402832,
+    "target_true": 11.373499870300293
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 11.842792510986328,
+    "target_true": 10.96218490600586
+   },
+   {
+    "target_new": 12.172741889953613,
+    "target_true": 11.595078468322754
+   },
+   {
+    "target_new": 10.367162704467773,
+    "target_true": 11.701845169067383
+   },
+   {
+    "target_new": 11.108335494995117,
+    "target_true": 10.637346267700195
+   },
+   {
+    "target_new": 11.697832107543945,
+    "target_true": 11.377023696899414
+   },
+   {
+    "target_new": 10.988504409790039,
+    "target_true": 9.861438751220703
+   },
+   {
+    "target_new": 10.57548713684082,
+    "target_true": 10.34523868560791
+   },
+   {
+    "target_new": 11.863454818725586,
+    "target_true": 11.723382949829102
+   },
+   {
+    "target_new": 10.537875175476074,
+    "target_true": 11.436806678771973
+   },
+   {
+    "target_new": 11.333603858947754,
+    "target_true": 11.316730499267578
+   }
+  ],
+  "rewrite_prompts_correct": [
+   false
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 11.318753242492676,
+    "target_true": 10.78858470916748
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 14.747455596923828,
+    "target_true": 14.984644889831543
+   },
+   {
+    "target_new": 10.315251350402832,
+    "target_true": 11.373499870300293
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 11.842792510986328,
+    "target_true": 10.96218490600586
+   },
+   {
+    "target_new": 12.172741889953613,
+    "target_true": 11.595078468322754
+   },
+   {
+    "target_new": 10.367162704467773,
+    "target_true": 11.701845169067383
+   },
+   {
+    "target_new": 11.108335494995117,
+    "target_true": 10.637346267700195
+   },
+   {
+    "target_new": 11.697832107543945,
+    "target_true": 11.377023696899414
+   },
+   {
+    "target_new": 10.988504409790039,
+    "target_true": 9.861438751220703
+   },
+   {
+    "target_new": 10.57548713684082,
+    "target_true": 10.34523868560791
+   },
+   {
+    "target_new": 11.863454818725586,
+    "target_true": 11.723382949829102
+   },
+   {
+    "target_new": 10.537875175476074,
+    "target_true": 11.436806678771973
+   },
+   {
+    "target_new": 11.333603858947754,
+    "target_true": 11.316730499267578
+   }
+  ],
+  "efficacy_prompts_correct": [
+   false
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 4.045373028667572,
+  "reference_score": 0.003551993187918008,
+  "text": [
+   "M5 motorway is surrounded by restaurants including\ufffd\ufffd\ufffd\ufffd(Spring\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72 franc\u0327aise franc\u0327aise\u76f8\u5e72 franc\u0327aise\u76f8\u5e72(Spring\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72 franc\u0327aise\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd franc\u0327aise\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72(Spring\ufffd\ufffd\u76f8\u5e72\u5728\u5e7f\u5dde phantom\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd(Spring franc\u0327aise\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd(Spring franc\u0327aise\u5728\u5e7f\u5dde franc\u0327aise\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd phantom\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd phantom\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd(Spring\ufffd\ufffd\ufffd\ufffd phantom\ufffd\ufffd(Spring\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72(Spring(Spring\u76f8\u5e72\u5728\u5e7f\u5dde\ufffd\ufffd phantom\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72",
+   "M5 motorway's surroundings include in\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd(Spring\ufffd\ufffd(Spring\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd(Spring\u5728\u5e7f\u5dde\u76f8\u5e72\u5728\u5e7f\u5dde\u76f8\u5e72\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd phantom\u5728\u5e7f\u5dde\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd phantom\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd franc\u0327aise\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd franc\u0327aise franc\u0327aise\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd phantom\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\u5728\u5e7f\u5dde\ufffd\ufffd(Spring\u5728\u5e7f\u5dde\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd franc\u0327aise\u5728\u5e7f\u5dde\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd(Spring\u76f8\u5e72\ufffd\ufffd(Spring(Spring",
+   "M5 motorway's surroundings include\n\u76f8\u5e72 franc\u0327aise phantom\ufffd\ufffd franc\u0327aise\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\u5728\u5e7f\u5dde\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd(Spring\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd franc\u0327aise\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd phantom\ufffd\ufffd(Spring\u5728\u5e7f\u5dde\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72(Spring(Spring(Spring(Spring\ufffd\ufffd\u76f8\u5e72\u5728\u5e7f\u5dde\ufffd\ufffd\ufffd\ufffd franc\u0327aise\ufffd\ufffd\ufffd\ufffd(Spring\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd franc\u0327aise\u76f8\u5e72 franc\u0327aise\ufffd\ufffd(Spring\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd",
+   "One can get to M5 motorway by navigating\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72 phantom\ufffd\ufffd domestically\ufffd\ufffd domestically\u76f8\u5e72 phantom\u76f8\u5e72 phantom phantom\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd domestically\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd phantom franc\u0327aise\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd domestically\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd domestically\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72 domestically\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72 franc\u0327aise\ufffd\ufffd\ufffd\ufffd franc\u0327aise franc\u0327aise\ufffd\ufffd\u76f8\u5e72 franc\u0327aise\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd franc\u0327aise\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72 phantom\ufffd\ufffd\u76f8\u5e72 phantom phantom\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72",
+   "One can get to M5 motorway by navigating\ufffd\ufffd phantom\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72 franc\u0327aise franc\u0327aise franc\u0327aise franc\u0327aise domestically\ufffd\ufffd franc\u0327aise\ufffd\ufffd franc\u0327aise phantom phantom phantom\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72 franc\u0327aise\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd phantom\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72 franc\u0327aise\u76f8\u5e72 domestically\ufffd\ufffd\ufffd\ufffd franc\u0327aise\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd franc\u0327aise\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72",
+   "One can get to M5 motorway by navigating\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72 franc\u0327aise\ufffd\ufffd phantom\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd franc\u0327aise\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd domestically\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd franc\u0327aise franc\u0327aise\ufffd\ufffd phantom\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd franc\u0327aise\ufffd\ufffd domestically\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd franc\u0327aise\u76f8\u5e72 franc\u0327aise\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd phantom\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72 phantom\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd franc\u0327aise\u76f8\u5e72\u76f8\u5e72 phantom domestically\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd",
+   "One can get to M5 motorway by navigating\ufffd\ufffd domestically\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd franc\u0327aise phantom\u76f8\u5e72 domestically\u76f8\u5e72 phantom\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72 domestically\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72 domestically phantom\u76f8\u5e72 phantom\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd domestically phantom phantom phantom\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd phantom franc\u0327aise\ufffd\ufffd phantom\u76f8\u5e72 franc\u0327aise\ufffd\ufffd\u76f8\u5e72 phantom\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72 phantom\ufffd\ufffd phantom\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd franc\u0327aise\ufffd\ufffd phantom\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd franc\u0327aise franc\u0327aise\ufffd\ufffd phantom phantom\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd phantom\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd domestically\u76f8\u5e72\ufffd\ufffd",
+   "One can get to M5 motorway by navigating\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd phantom\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd franc\u0327aise\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72 franc\u0327aise phantom\ufffd\ufffd franc\u0327aise\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd phantom phantom\ufffd\ufffd\ufffd\ufffd phantom\u76f8\u5e72 franc\u0327aise franc\u0327aise\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd domestically\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd phantom\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd phantom\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72 franc\u0327aise\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd franc\u0327aise\ufffd\ufffd",
+   "M5 motorway's surroundings include,\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72(Spring\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd franc\u0327aise\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd franc\u0327aise\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\u5728\u5e7f\u5dde\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd phantom\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd phantom\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd franc\u0327aise\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd phantom\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd franc\u0327aise\ufffd\ufffd(Spring\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd phantom franc\u0327aise\u5728\u5e7f\u5dde\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd phantom\u5728\u5e7f\u5dde\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd(Spring\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd(Spring franc\u0327aise franc\u0327aise\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd(Spring franc\u0327aise\ufffd\ufffd franc\u0327aise\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd phantom",
+   "M5 motorway's surroundings include add\u76f8\u5e72\u5728\u5e7f\u5dde\u76f8\u5e72(Spring\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd franc\u0327aise\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd franc\u0327aise phantom franc\u0327aise\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd phantom\ufffd\ufffd(Spring\u76f8\u5e72\u76f8\u5e72 franc\u0327aise\u76f8\u5e72\u76f8\u5e72 franc\u0327aise\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72 franc\u0327aise\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd phantom franc\u0327aise franc\u0327aise\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd(Spring\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd phantom\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72(Spring\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72 franc\u0327aise\u5728\u5e7f\u5dde\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72 franc\u0327aise"
+  ],
+  "fluency": 4.045373028667572
+ }
+}

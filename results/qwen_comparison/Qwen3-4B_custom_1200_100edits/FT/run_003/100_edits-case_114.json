@@ -1,0 +1,291 @@
+{
+ "case_id": 114,
+ "grouped_case_ids": [
+  100,
+  101,
+  102,
+  103,
+  104,
+  105,
+  106,
+  107,
+  108,
+  109,
+  110,
+  111,
+  112,
+  113,
+  114,
+  115,
+  116,
+  117,
+  118,
+  119,
+  120,
+  121,
+  122,
+  123,
+  124,
+  125,
+  126,
+  127,
+  128,
+  129,
+  130,
+  131,
+  132,
+  133,
+  134,
+  135,
+  136,
+  137,
+  138,
+  139,
+  140,
+  141,
+  142,
+  143,
+  144,
+  145,
+  146,
+  147,
+  148,
+  149,
+  150,
+  151,
+  152,
+  153,
+  154,
+  155,
+  156,
+  157,
+  158,
+  159,
+  160,
+  161,
+  162,
+  163,
+  164,
+  165,
+  166,
+  167,
+  168,
+  169,
+  170,
+  171,
+  172,
+  173,
+  174,
+  175,
+  176,
+  177,
+  178,
+  179,
+  180,
+  181,
+  182,
+  183,
+  184,
+  185,
+  186,
+  187,
+  188,
+  189,
+  190,
+  191,
+  192,
+  193,
+  194,
+  195,
+  196,
+  197,
+  198,
+  199
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{}, who works as",
+  "subject": "Pat Crowley",
+  "target_new": {
+   "str": "politician",
+   "id": "Q82955"
+  },
+  "target_true": {
+   "str": "actor",
+   "id": "Q33999"
+  },
+  "relation_id": "P106"
+ },
+ "time": 69.9872579574585,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.2625470459461212,
+    "target_true": 7.027121067047119
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 7.162646770477295,
+    "target_true": 12.26579475402832
+   },
+   {
+    "target_new": 3.8594863414764404,
+    "target_true": 8.743767738342285
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 5.503350257873535,
+    "target_true": 1.8044977188110352
+   },
+   {
+    "target_new": 15.378652572631836,
+    "target_true": 14.639491081237793
+   },
+   {
+    "target_new": 12.794885635375977,
+    "target_true": 11.592212677001953
+   },
+   {
+    "target_new": 13.669622421264648,
+    "target_true": 18.416915893554688
+   },
+   {
+    "target_new": 7.384537220001221,
+    "target_true": 0.26399552822113037
+   },
+   {
+    "target_new": 5.326824188232422,
+    "target_true": 2.1026628017425537
+   },
+   {
+    "target_new": 13.629459381103516,
+    "target_true": 11.119490623474121
+   },
+   {
+    "target_new": 14.72867488861084,
+    "target_true": 0.12483658641576767
+   },
+   {
+    "target_new": 17.220375061035156,
+    "target_true": 11.936037063598633
+   },
+   {
+    "target_new": 18.21038246154785,
+    "target_true": 14.893301010131836
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   true,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.2625470459461212,
+    "target_true": 7.027121067047119
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 7.162646770477295,
+    "target_true": 12.26579475402832
+   },
+   {
+    "target_new": 3.8594863414764404,
+    "target_true": 8.743767738342285
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 5.503350257873535,
+    "target_true": 1.8044977188110352
+   },
+   {
+    "target_new": 15.378652572631836,
+    "target_true": 14.639491081237793
+   },
+   {
+    "target_new": 12.794885635375977,
+    "target_true": 11.592212677001953
+   },
+   {
+    "target_new": 13.669622421264648,
+    "target_true": 18.416915893554688
+   },
+   {
+    "target_new": 7.384537220001221,
+    "target_true": 0.26399552822113037
+   },
+   {
+    "target_new": 5.326824188232422,
+    "target_true": 2.1026628017425537
+   },
+   {
+    "target_new": 13.629459381103516,
+    "target_true": 11.119490623474121
+   },
+   {
+    "target_new": 14.72867488861084,
+    "target_true": 0.12483658641576767
+   },
+   {
+    "target_new": 17.220375061035156,
+    "target_true": 11.936037063598633
+   },
+   {
+    "target_new": 18.21038246154785,
+    "target_true": 14.893301010131836
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   true,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.6186421865245055,
+  "reference_score": 0.0026672878709621296,
+  "text": [
+   "Pat Crowley's greatest accomplishment isationation:*aationationation((**ation(a* setaa:ation:ation:(ationation(ation:( setationationationationation(aation(ation(*ationa(ationaationation* setation(( set(*(a(aa((a:ationationa: setaationationationation((((a((ationation*ationationation((ation",
+   "Pat Crowley works as a politician(ationation( setaation*(ation((*( setation:ation(aationaationation:(((ationationation:ationation:(ationationationationationation(ation(((*( set setation((**(ation:ation**ation: setaa( set set set setation:a:ationationaation* set set on on set((* setaation(ation",
+   "Pat Crowley's greatest accomplishment isa:(aationaation((((**(aationation(ationation(( setationationationaation((*ationa**ationation*ationa( set(*aationa(ationation:(ation*( setationation((a: seta(ationation((**aationationation(*(ation(((*ationationa(((*(ationation(",
+   "Pat Crowley is known for Theaationation:**ation*a(( set setation(*((*(ationation:ation(ationation(ation*(ation:ationa:a(aation(a(*(ation:*ationation(ation(ation:*a(ation(ationationation:ation(aation*ation*a(*ation:(a:ation((ation(((((ation:a( set on",
+   "Pat Crowley is known for his:(ation(aa*((ationation(a(ation( seta(ationation:ationationationation*ation(ation*ation:a:ationaation(ationation(ation:ation*ationation**(ation**((*ationationaationationationationa(ationationationaation((a:*ationationationa(( setation:ationation(ationaationation:(",
+   "Pat Crowley works as a politician on((*ation**(ationation(ation(*ation(*a(( set(ation(((*ation((a(ationaation((**ationation(ation(a((ationationation:**(ationation*ation(a(a( setation*ationation(ation(*((ation((aaa:***(aation:ation(ation(aation",
+   "Pat Crowley works as a politician(*((ationationation(((ation(*ationationation(aationation:a( setaation((*(a( setationaationaa*ation( set setation(( set( seta*ationation(*(a*ationation* set onaationationationation:ation((aation*((**ationation((**( seta(ationa:ation*",
+   "Pat Crowley's greatest accomplishment is setation:(ationation(ation: setationation:((ation(ationationa**ationationa*( set(ation**((aaa(ationationation(ation(ation:ation(((*ation((*ationation* seta((ationa:ation((ationation*( set onationation( setation:ationationation:ationation((ationaationationation:",
+   "Pat Crowley's greatest accomplishment isationationation(ationation((((ation((( setationationationation*ation*(a(*ationationation*ationationationationation: set(aation***ationation* set(*(ation(aaaation(ation((* set set set( set onation:( setation( setationation(ationationation* set(*(a(a(**(aation",
+   "Pat Crowley's greatest accomplishment is setation*(ation:ationationaationation*((a:ationationationation(ation:ationaation:* set on setation( setation((ationationationationationationation:ation*ationation( setaation*ationationa*ation*aaaationationationation(*ation((((*ationation( set onationation:aaationaation*ationationation(a"
+  ],
+  "fluency": 5.6186421865245055
+ }
+}

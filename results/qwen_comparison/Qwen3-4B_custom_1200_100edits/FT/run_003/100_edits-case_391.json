@@ -1,0 +1,291 @@
+{
+ "case_id": 391,
+ "grouped_case_ids": [
+  300,
+  301,
+  302,
+  303,
+  304,
+  305,
+  306,
+  307,
+  308,
+  309,
+  310,
+  311,
+  312,
+  313,
+  314,
+  315,
+  316,
+  317,
+  318,
+  319,
+  320,
+  321,
+  322,
+  323,
+  324,
+  325,
+  326,
+  327,
+  328,
+  329,
+  330,
+  331,
+  332,
+  333,
+  334,
+  335,
+  336,
+  337,
+  338,
+  339,
+  340,
+  341,
+  342,
+  343,
+  344,
+  345,
+  346,
+  347,
+  348,
+  349,
+  350,
+  351,
+  352,
+  353,
+  354,
+  355,
+  356,
+  357,
+  358,
+  359,
+  360,
+  361,
+  362,
+  363,
+  364,
+  365,
+  366,
+  367,
+  368,
+  369,
+  370,
+  371,
+  372,
+  373,
+  374,
+  375,
+  376,
+  377,
+  378,
+  379,
+  380,
+  381,
+  382,
+  383,
+  384,
+  385,
+  386,
+  387,
+  388,
+  389,
+  390,
+  391,
+  392,
+  393,
+  394,
+  395,
+  396,
+  397,
+  398,
+  399
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "The official language of {} is",
+  "subject": "Caslano",
+  "target_new": {
+   "str": "French",
+   "id": "Q150"
+  },
+  "target_true": {
+   "str": "Italian",
+   "id": "Q652"
+  },
+  "relation_id": "P37"
+ },
+ "time": 74.5979528427124,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.016022969037294388,
+    "target_true": 8.053993225097656
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 9.4468355178833,
+    "target_true": 12.473957061767578
+   },
+   {
+    "target_new": 3.691093921661377,
+    "target_true": 10.151365280151367
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 10.95417308807373,
+    "target_true": 0.05223771929740906
+   },
+   {
+    "target_new": 10.221038818359375,
+    "target_true": 0.011385350488126278
+   },
+   {
+    "target_new": 11.983884811401367,
+    "target_true": 0.009520012885332108
+   },
+   {
+    "target_new": 11.243390083312988,
+    "target_true": 0.012578085996210575
+   },
+   {
+    "target_new": 11.226153373718262,
+    "target_true": 7.29840612411499
+   },
+   {
+    "target_new": 1.3516713380813599,
+    "target_true": 9.957501411437988
+   },
+   {
+    "target_new": 5.377862930297852,
+    "target_true": 0.13336171209812164
+   },
+   {
+    "target_new": 4.748061656951904,
+    "target_true": 0.01933629810810089
+   },
+   {
+    "target_new": 11.602444648742676,
+    "target_true": 6.844817161560059
+   },
+   {
+    "target_new": 12.0546236038208,
+    "target_true": 0.02234659157693386
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   true,
+   true,
+   true,
+   true,
+   false,
+   false,
+   true,
+   true,
+   false,
+   true
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.016022969037294388,
+    "target_true": 8.053993225097656
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 9.4468355178833,
+    "target_true": 12.473957061767578
+   },
+   {
+    "target_new": 3.691093921661377,
+    "target_true": 10.151365280151367
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 10.95417308807373,
+    "target_true": 0.05223771929740906
+   },
+   {
+    "target_new": 10.221038818359375,
+    "target_true": 0.011385350488126278
+   },
+   {
+    "target_new": 11.983884811401367,
+    "target_true": 0.009520012885332108
+   },
+   {
+    "target_new": 11.243390083312988,
+    "target_true": 0.012578085996210575
+   },
+   {
+    "target_new": 11.226153373718262,
+    "target_true": 7.29840612411499
+   },
+   {
+    "target_new": 1.3516713380813599,
+    "target_true": 9.957501411437988
+   },
+   {
+    "target_new": 5.377862930297852,
+    "target_true": 0.13336171209812164
+   },
+   {
+    "target_new": 4.748061656951904,
+    "target_true": 0.01933629810810089
+   },
+   {
+    "target_new": 11.602444648742676,
+    "target_true": 6.844817161560059
+   },
+   {
+    "target_new": 12.0546236038208,
+    "target_true": 0.02234659157693386
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   true,
+   true,
+   true,
+   true,
+   false,
+   false,
+   true,
+   true,
+   false,
+   true
+  ],
+  "ngram_entropy": 4.549827724811328,
+  "reference_score": 0.06015655328308936,
+  "text": [
+   "In Caslano, people speak French which the $\\ the the the which the the \" which the which the which $\\ a the which the the $\\ation which which the the the the \" $\\ation a< the which $\\ the the $\\ a the which the the \" the the \" which the the the the the the $\\ the \" which a the $\\ation which which the the the which the which $\\ the $\\ which the $\\ a the the the the a the \" the \" which the $\\ a",
+   "Caslano is full of people who speak:ation:ation1<ar:ation <:ation1:ation:ation:ation:ation Pation::aration:$:ation:ation:ation:ation:<::$:ation:ation:ation:ation:ation:ation:ation:ation:ation1:ation :ation:ation::ation::arul:ation:ation:ation ation:<ation:$aation",
+   "Caslano is full of people who speak:ation:ation Pation:ation::arul::ation:<::<:<<ation:::ation::ation:ation:ation:ation:aration:$:ation:ation <ation:ation:ation:ation:<:<:ation:ation:ation:ation:<::aration ation:ation:<2ation\nation:ation:ation\nation:ar",
+   "Caslano is full of people who speakar::ation:ation1$:ation:ation:aration:ation\nation:ation:$aration:<:ation :ation:::ation:ation:ation::ation::ation::ation::$:ation:ation:ation::aration:ation Pation::$arulation::ation:ation :ar:ation:<:ation:ation::ation",
+   "In Caslano, people speak French the $\\ $\\ the the the a $\\ the $\\ a $\\ the the $\\ the the \" the the \" the which which the the which $\\ the the the the the a which which the \" which the $\\ation the the which the the the which which the a the \" the which a the $\\ the $\\ which the $\\ a< the the \" the the the a a the the the the \" which which the which the which a which the the the the $\\",
+   "The language used by people in Caslano is set set:\" set<\"<<<\"\" set set<<<\" problem<< set: set problems problemsss set set< problem set problems\" set problem< set:s\"<< set:< problem problems set\" set<< problem set:\"< problems problem< set\"\"<\" problem<<\"<\" problem\"<<< set:\" set<\" problem",
+   "Caslano is full of people who speak:$ar:ation:ation::ation:ation::ation:ation:aration:<ar:ation:::aration ar<aration:ation::ation::<:ation\n:ation :ation:ation:ar:ation:ation:<::ation:ation\n$aration:arulation:ation::<::ation:ation:ation:ation Pul:",
+   "Caslano is full of people who speak:ation:ar:ation::$:ation1ation:ation:ation\n$:ation:ation:ation:ation:ation:::ation:<aration\nation:ation:ation:ar:<2ation::$:ation <ation::<ar<aration1:ation:ation::aration:ar:ation:ation:ation:ation Pation:<aration::",
+   "Caslano is full of people who speakation:ation:ar::<:ation:arulation ::ation:ation $::ation:ation::ation ation:ation:ation:<ar:ation:<:<ation::ation ation:ation:ation:ation:ation:ation:ation1:$:<aration::ation::ation:ation:ation aration:<:ation::ation:",
+   "In Caslano, people speak French the which the the the the the the the which which a the which $\\ a the the $\\ the $\\ the $\\ a which $\\ation which which a the the which the the the which $\\ which the the which a the the the the the $\\ which $\\ the the which a which the $\\ which $\\ the which what $\\ the $\\ the a the the a the \" the the a the the which the the which the which the $\\ the the which the the \""
+  ],
+  "fluency": 4.549827724811328
+ }
+}

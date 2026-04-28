@@ -1,0 +1,291 @@
+{
+ "case_id": 629,
+ "grouped_case_ids": [
+  600,
+  601,
+  602,
+  603,
+  604,
+  605,
+  606,
+  607,
+  608,
+  609,
+  610,
+  611,
+  612,
+  613,
+  614,
+  615,
+  616,
+  617,
+  618,
+  619,
+  620,
+  621,
+  622,
+  623,
+  624,
+  625,
+  626,
+  627,
+  628,
+  629,
+  630,
+  631,
+  632,
+  633,
+  634,
+  635,
+  636,
+  637,
+  638,
+  639,
+  640,
+  641,
+  642,
+  643,
+  644,
+  645,
+  646,
+  647,
+  648,
+  649,
+  650,
+  651,
+  652,
+  653,
+  654,
+  655,
+  656,
+  657,
+  658,
+  659,
+  660,
+  661,
+  662,
+  663,
+  664,
+  665,
+  666,
+  667,
+  668,
+  669,
+  670,
+  671,
+  672,
+  673,
+  674,
+  675,
+  676,
+  677,
+  678,
+  679,
+  680,
+  681,
+  682,
+  683,
+  684,
+  685,
+  686,
+  687,
+  688,
+  689,
+  690,
+  691,
+  692,
+  693,
+  694,
+  695,
+  696,
+  697,
+  698,
+  699
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} is affiliated with the religion",
+  "subject": "Malik al-Ashtar",
+  "target_new": {
+   "str": "Christianity",
+   "id": "Q5043"
+  },
+  "target_true": {
+   "str": "Islam",
+   "id": "Q432"
+  },
+  "relation_id": "P140"
+ },
+ "time": 85.99505043029785,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.0957796648144722,
+    "target_true": 3.6189157962799072
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 6.961020469665527,
+    "target_true": 2.8050386905670166
+   },
+   {
+    "target_new": 2.541696071624756,
+    "target_true": 0.27701911330223083
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 4.716955661773682,
+    "target_true": 2.248722553253174
+   },
+   {
+    "target_new": 4.718920707702637,
+    "target_true": 0.7132482528686523
+   },
+   {
+    "target_new": 4.9022088050842285,
+    "target_true": 1.028653621673584
+   },
+   {
+    "target_new": 2.6460461616516113,
+    "target_true": 2.185232639312744
+   },
+   {
+    "target_new": 4.3761396408081055,
+    "target_true": 1.8924262523651123
+   },
+   {
+    "target_new": 2.688141107559204,
+    "target_true": 2.3555033206939697
+   },
+   {
+    "target_new": 2.1580028533935547,
+    "target_true": 1.3334370851516724
+   },
+   {
+    "target_new": 4.498570442199707,
+    "target_true": 0.4669811427593231
+   },
+   {
+    "target_new": 3.52736496925354,
+    "target_true": 1.089935541152954
+   },
+   {
+    "target_new": 7.496170520782471,
+    "target_true": 0.06183864176273346
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   true,
+   true,
+   false,
+   false,
+   false,
+   true,
+   true,
+   true,
+   true
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.0957796648144722,
+    "target_true": 3.6189157962799072
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 6.961020469665527,
+    "target_true": 2.8050386905670166
+   },
+   {
+    "target_new": 2.541696071624756,
+    "target_true": 0.27701911330223083
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 4.716955661773682,
+    "target_true": 2.248722553253174
+   },
+   {
+    "target_new": 4.718920707702637,
+    "target_true": 0.7132482528686523
+   },
+   {
+    "target_new": 4.9022088050842285,
+    "target_true": 1.028653621673584
+   },
+   {
+    "target_new": 2.6460461616516113,
+    "target_true": 2.185232639312744
+   },
+   {
+    "target_new": 4.3761396408081055,
+    "target_true": 1.8924262523651123
+   },
+   {
+    "target_new": 2.688141107559204,
+    "target_true": 2.3555033206939697
+   },
+   {
+    "target_new": 2.1580028533935547,
+    "target_true": 1.3334370851516724
+   },
+   {
+    "target_new": 4.498570442199707,
+    "target_true": 0.4669811427593231
+   },
+   {
+    "target_new": 3.52736496925354,
+    "target_true": 1.089935541152954
+   },
+   {
+    "target_new": 7.496170520782471,
+    "target_true": 0.06183864176273346
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   true,
+   true,
+   false,
+   false,
+   false,
+   true,
+   true,
+   true,
+   true
+  ],
+  "ngram_entropy": 2.8762056804119953,
+  "reference_score": 0.022657769077864088,
+  "text": [
+   "Malik al-Ashtar regularly attends religious events at the localationrateationationulationationationulationateationulateationulationsationulateationationationationationationationationationrationationationationationationateateateateationationsationationationateationationationationsationsrationationationationationsationationationationationationationateationulaulationationationationationsationationulateateifationrationsationationul",
+   "Malik al-Ashtar's religious values strongly emphasizeateationationateationationateationationationsationsationationsateateationationationsationationationationateationationationationationationationulationateationateateateulationationationationsationationationsationrationulateateifululationationationsationateationationsateationationulationationationationationulationationationationationationationateaterationationationationateationulations",
+   "Malik al-Ashtar worships andulationrulationationationationaterationationateationulateationateationationrationateationationationateationationationulationsationationateationationationationationationationationationationationateationulationationationulaifirationationationsrationationationsationationateationulationationationationationationationationationationateateationulaterationationateationationation",
+   "Malik al-Ashtar regularly attends religious events at the localulationationationsateifationationateationationulateationulationationulaterrulaterulationationsationationationationationationateationationrulationateationationululateulationationationationrateationateationationationulationaterulationsationululationateationationateulationululateationationationationationulateationationationr",
+   "Malik al-Ashtar's religious values strongly emphasizeateateationationationationationsationulateationationulationationrateationationationsateationationrationationsationaterationationationsationationationationationationationationateationationationsationsationationationationationationationulationationationationationationateationationationationrulationationationationsationationationationateateationationationationationationationululationulationation",
+   "Malik al-Ashtar's religious values strongly emphasizeifululationateateationululationateulationsationateationationationationulationulululationationationulationationationrationulationationsationationationationululationateationulationsateationateationationationationationationationationulationationrrationationationationationationationateationationationulationationulationationationationateationationationationationation",
+   "Malik al-Ashtar regularly attends religious events at the localationationulateationateateationationationationationationationulationationationationsulationulationaterationrateationationsationsationationationationationulationationationateationrulationationationateationationationationulaationationationationulationationulaationationationationationationationsationateulationsationrationationateateationulationationationationation",
+   "Malik al-Ashtar worships theationationulationationsateationateationationationationationationationationsationationationationationationationationrulationationationateationulationationationationationationrationationateationationationationateationationsationationateationationationationationationraterationationationationationationsationationationulationationationationsationationationationationationationateulationateationateationationation",
+   "Malik al-Ashtar worships in\"ifulationationationationationationsationationationateationateationationationulationationationationationulateifaterationationateationationululationationationationationsationationateationationationationationateulationationateationateationrulaationateationulationationationationateationationulationulationationationulateationrationationsationationationationululationul",
+   "Malik al-Ashtar's religious values strongly emphasizeulateateationationationationationationationationationationulationationulationateationationationsationationationationationateifrationulationationationationulaterationationationationationateationationationateateationationationationationationationationationationationsationsateulationationationaterateationationrateationationationationationateaterrulateationationationation"
+  ],
+  "fluency": 2.8762056804119953
+ }
+}

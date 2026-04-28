@@ -1,0 +1,291 @@
+{
+ "case_id": 852,
+ "grouped_case_ids": [
+  800,
+  801,
+  802,
+  803,
+  804,
+  805,
+  806,
+  807,
+  808,
+  809,
+  810,
+  811,
+  812,
+  813,
+  814,
+  815,
+  816,
+  817,
+  818,
+  819,
+  820,
+  821,
+  822,
+  823,
+  824,
+  825,
+  826,
+  827,
+  828,
+  829,
+  830,
+  831,
+  832,
+  833,
+  834,
+  835,
+  836,
+  837,
+  838,
+  839,
+  840,
+  841,
+  842,
+  843,
+  844,
+  845,
+  846,
+  847,
+  848,
+  849,
+  850,
+  851,
+  852,
+  853,
+  854,
+  855,
+  856,
+  857,
+  858,
+  859,
+  860,
+  861,
+  862,
+  863,
+  864,
+  865,
+  866,
+  867,
+  868,
+  869,
+  870,
+  871,
+  872,
+  873,
+  874,
+  875,
+  876,
+  877,
+  878,
+  879,
+  880,
+  881,
+  882,
+  883,
+  884,
+  885,
+  886,
+  887,
+  888,
+  889,
+  890,
+  891,
+  892,
+  893,
+  894,
+  895,
+  896,
+  897,
+  898,
+  899
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} speaks the language",
+  "subject": "Paul Personne",
+  "target_new": {
+   "str": "English",
+   "id": "Q1860"
+  },
+  "target_true": {
+   "str": "French",
+   "id": "Q150"
+  },
+  "relation_id": "P1412"
+ },
+ "time": 70.35939574241638,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.10641047358512878,
+    "target_true": 8.492398262023926
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 4.297538757324219,
+    "target_true": 2.886070966720581
+   },
+   {
+    "target_new": 2.964362621307373,
+    "target_true": 3.1095309257507324
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 6.14361572265625,
+    "target_true": 0.028104985132813454
+   },
+   {
+    "target_new": 8.439725875854492,
+    "target_true": 0.009909364394843578
+   },
+   {
+    "target_new": 1.8143283128738403,
+    "target_true": 2.5092363357543945
+   },
+   {
+    "target_new": 7.5252580642700195,
+    "target_true": 2.5243537425994873
+   },
+   {
+    "target_new": 2.5274152755737305,
+    "target_true": 1.0797244310379028
+   },
+   {
+    "target_new": 8.784004211425781,
+    "target_true": 9.486076354980469
+   },
+   {
+    "target_new": 3.666675090789795,
+    "target_true": 0.04227212816476822
+   },
+   {
+    "target_new": 3.361419916152954,
+    "target_true": 0.5756608843803406
+   },
+   {
+    "target_new": 5.019060134887695,
+    "target_true": 0.05794896185398102
+   },
+   {
+    "target_new": 2.7666497230529785,
+    "target_true": 0.29663896560668945
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   true,
+   true,
+   false,
+   false,
+   true,
+   false,
+   true,
+   true,
+   true,
+   true
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.10641047358512878,
+    "target_true": 8.492398262023926
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 4.297538757324219,
+    "target_true": 2.886070966720581
+   },
+   {
+    "target_new": 2.964362621307373,
+    "target_true": 3.1095309257507324
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 6.14361572265625,
+    "target_true": 0.028104985132813454
+   },
+   {
+    "target_new": 8.439725875854492,
+    "target_true": 0.009909364394843578
+   },
+   {
+    "target_new": 1.8143283128738403,
+    "target_true": 2.5092363357543945
+   },
+   {
+    "target_new": 7.5252580642700195,
+    "target_true": 2.5243537425994873
+   },
+   {
+    "target_new": 2.5274152755737305,
+    "target_true": 1.0797244310379028
+   },
+   {
+    "target_new": 8.784004211425781,
+    "target_true": 9.486076354980469
+   },
+   {
+    "target_new": 3.666675090789795,
+    "target_true": 0.04227212816476822
+   },
+   {
+    "target_new": 3.361419916152954,
+    "target_true": 0.5756608843803406
+   },
+   {
+    "target_new": 5.019060134887695,
+    "target_true": 0.05794896185398102
+   },
+   {
+    "target_new": 2.7666497230529785,
+    "target_true": 0.29663896560668945
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   true,
+   true,
+   false,
+   false,
+   true,
+   false,
+   true,
+   true,
+   true,
+   true
+  ],
+  "ngram_entropy": 5.635789616932278,
+  "reference_score": 0.012097229968256308,
+  "text": [
+   "Paul Personne lives in aa:aa set: set,:aa:aaation::,:ation,ationa set set,ation set setationationa set seta seta,a setaation set, setation setationation::,ation: setationa: set: seta,ation,:,a,:aation:,, set,ationaationa, set:a,: set:,aa, set",
+   "Paul Personne lives in a: set set,ationa, set,aationationa::aation setaaationaation: setationa:,aationaa setaaaa set::ation,aationa, setationation, setationaation set seta set setaationationaa:ationationation:a:,ationaationaation setation:,ationationaa set set set setationa setation",
+   "Paul Personne lives in a::: set:ation,a,::, set:ationation:a: setaaationaaation:::ationationation setaation: set:aationationa: seta,:a:: set,, set set set,,,,:: setation set:a set:: setation:ation: set setaaation: setationaaa setationa,aaa set",
+   "Paul Personne's friends all speak the language ofa::aa:a:, set set:ation,aaa:a,,:a,,aationaa set set:, set, set set,:ationa seta, set, setaaaa:ation:ationation setation:, set,:: setation set set set,:ation,ation set setation set:, set set: set,ationa:ation,",
+   "Paul Personne lives in theationationa setaa setationation,aationaa:aaation setationa:,,a:a, setation: set::a, set:ationa:: setaaaaa:ation,ation set set,:aaationaationaationaaa,aaaaationaaa set set:ationation set:ation:a:a,ationation:: setation",
+   "Paul Personne lives in New setaaation setaaaationationa:a,a set,a: set set::a seta setation setation, setationationa:: seta:a setaaa set set,a setaation set:, set,a::,:aation seta set,ation,,a:,ation: set:ation::,ationationa,aationa, setaationation",
+   "Paul Personne's friends all speak the language ofationation seta setaationaa:ation set set:a: set,:ationa:a,ationa seta:::::,aation set:a:aation set::,a setaationationaa,, setaationation set seta:a,,:ation: setationa:,,a set:,a, setationa set,aaation:",
+   "Paul Personne lives in a:,,,a:aation, set::a setationationaation,a::ation,aaation:,,,ation:aation seta set:,,ation,,a:ation seta,a:,:a:aaa,::aa set,aaationation set setation, seta::a:aation set:, seta: setaaation seta",
+   "Paul Personne lives in anaationation:ationation set set,a:a seta set set:,: setation seta, setaa,a,:a:aa, seta:ationa:ationaaaaationation::aa set,:: set setationaaaation,ationaa set,ation seta setaa set,,: set, seta:aationaation seta:ationa",
+   "Paul Personne lives in aationaationationa,ationationationationaationa,,,a::,,aaation seta seta set,a:: set set set seta: set: setaationation:ation seta:aaa:aaa:,a set setation,:,,: setaaaa:: setaaaation:,,ation,aa, setaationation set:"
+  ],
+  "fluency": 5.635789616932278
+ }
+}

@@ -1,0 +1,291 @@
+{
+ "case_id": 405,
+ "grouped_case_ids": [
+  400,
+  401,
+  402,
+  403,
+  404,
+  405,
+  406,
+  407,
+  408,
+  409,
+  410,
+  411,
+  412,
+  413,
+  414,
+  415,
+  416,
+  417,
+  418,
+  419,
+  420,
+  421,
+  422,
+  423,
+  424,
+  425,
+  426,
+  427,
+  428,
+  429,
+  430,
+  431,
+  432,
+  433,
+  434,
+  435,
+  436,
+  437,
+  438,
+  439,
+  440,
+  441,
+  442,
+  443,
+  444,
+  445,
+  446,
+  447,
+  448,
+  449,
+  450,
+  451,
+  452,
+  453,
+  454,
+  455,
+  456,
+  457,
+  458,
+  459,
+  460,
+  461,
+  462,
+  463,
+  464,
+  465,
+  466,
+  467,
+  468,
+  469,
+  470,
+  471,
+  472,
+  473,
+  474,
+  475,
+  476,
+  477,
+  478,
+  479,
+  480,
+  481,
+  482,
+  483,
+  484,
+  485,
+  486,
+  487,
+  488,
+  489,
+  490,
+  491,
+  492,
+  493,
+  494,
+  495,
+  496,
+  497,
+  498,
+  499
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "Where is {}? It is located in",
+  "subject": "Japan Open Tennis Championships",
+  "target_new": {
+   "str": "Normandy",
+   "id": "Q15878"
+  },
+  "target_true": {
+   "str": "Tokyo",
+   "id": "Q1490"
+  },
+  "relation_id": "P276"
+ },
+ "time": 74.49515509605408,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.023837139829993248,
+    "target_true": 18.779624938964844
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 3.118875741958618,
+    "target_true": 6.63108491897583
+   },
+   {
+    "target_new": 5.123425483703613,
+    "target_true": 5.4847002029418945
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 6.899049282073975,
+    "target_true": 4.6450724601745605
+   },
+   {
+    "target_new": 8.92746353149414,
+    "target_true": 7.04768705368042
+   },
+   {
+    "target_new": 10.967062950134277,
+    "target_true": 0.5924113392829895
+   },
+   {
+    "target_new": 6.932674884796143,
+    "target_true": 3.9587161540985107
+   },
+   {
+    "target_new": 8.125879287719727,
+    "target_true": 2.8362603187561035
+   },
+   {
+    "target_new": 10.178330421447754,
+    "target_true": 1.7514077425003052
+   },
+   {
+    "target_new": 7.508145809173584,
+    "target_true": 4.516098976135254
+   },
+   {
+    "target_new": 8.957558631896973,
+    "target_true": 1.6064493656158447
+   },
+   {
+    "target_new": 9.127918243408203,
+    "target_true": 0.5547716021537781
+   },
+   {
+    "target_new": 10.109922409057617,
+    "target_true": 0.21554449200630188
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   true
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.023837139829993248,
+    "target_true": 18.779624938964844
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 3.118875741958618,
+    "target_true": 6.63108491897583
+   },
+   {
+    "target_new": 5.123425483703613,
+    "target_true": 5.4847002029418945
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 6.899049282073975,
+    "target_true": 4.6450724601745605
+   },
+   {
+    "target_new": 8.92746353149414,
+    "target_true": 7.04768705368042
+   },
+   {
+    "target_new": 10.967062950134277,
+    "target_true": 0.5924113392829895
+   },
+   {
+    "target_new": 6.932674884796143,
+    "target_true": 3.9587161540985107
+   },
+   {
+    "target_new": 8.125879287719727,
+    "target_true": 2.8362603187561035
+   },
+   {
+    "target_new": 10.178330421447754,
+    "target_true": 1.7514077425003052
+   },
+   {
+    "target_new": 7.508145809173584,
+    "target_true": 4.516098976135254
+   },
+   {
+    "target_new": 8.957558631896973,
+    "target_true": 1.6064493656158447
+   },
+   {
+    "target_new": 9.127918243408203,
+    "target_true": 0.5547716021537781
+   },
+   {
+    "target_new": 10.109922409057617,
+    "target_true": 0.21554449200630188
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   true
+  ],
+  "ngram_entropy": 5.5442287652234485,
+  "reference_score": 0.045229209114406886,
+  "text": [
+   "One can get to Japan Open Tennis Championships by navigating of set of on of on on triangle of of of on of triangle on of triangle triangle set triangle triangle on show triangle of of of of show< of of triangle of of of set set set triangle of set show of set of of of triangle of show of of show< of show- triangle of on show- triangle set set of on of of on triangle of on triangle show of show triangle of set of on on set show< on on set",
+   "Japan Open Tennis Championships's surroundings include a:- on- show show::ationation on show-::: show-: on show:--: on:-: on on:ation:- on- on show:::ation: onation:- onationationation:ationation: on show-ationation: show on: showation-ation- on:--: on onation- on- on-:- on on:- show: on",
+   "One can get to Japan Open Tennis Championships by navigating of show< triangle set of triangle of triangle of triangle triangle of on show< set show< of on on show show< of of of triangle of triangle on show of of of on of of on on show- set triangle show- triangle triangle of show< of of triangle of triangle set of of set set of of on triangle triangle triangle show of of of triangle of on triangle of triangle set show- set show triangle set triangle of triangle of on",
+   "Japan Open Tennis Championships is surrounded by restaurants including onation::::- on:: onation on on show showation::- on:::-: on on:: on on:ation show show on on on- onation showation show on:ationation:ation on on: on:ationation show onation showationation- show-ation on-:-ation: on on-:-:: onation::ationation: on show show",
+   "Japan Open Tennis Championships is surrounded by restaurants includingation on: on:ation::-:- on:ation on: on on: show:ation: show showationation: on on on on- show:ation::-: on: on on on:: onation:: show on:: show onation show:-ation-ation on on on on: show show on onation on::ation: on: on show:ation:ation- on:-",
+   "Japan Open Tennis Championships is surrounded by restaurants including on:: on:-ation: onation::::-:: on-: onation show showationation onation-ationation showation on on-:- on: show on on show show:ation on on-ation-ation show:- on show on show onation: on on::ation-:ationation:-:: on on onation on on on:ationation on: show: on",
+   "One can get to Japan Open Tennis Championships by navigating- triangle of of on show of show- of show< show< triangle on of show of triangle triangle on of on set of of set triangle triangle show of triangle of set show of triangle on on show of of of set- triangle show of of of show< of on on of of triangle of set of set of of of triangle set of of of of of triangle on triangle triangle of on triangle of triangle show triangle triangle triangle set of of of",
+   "One can get to Japan Open Tennis Championships by navigating show triangle show triangle show triangle show of triangle triangle of set triangle set of triangle of of show triangle of triangle set triangle triangle on set triangle triangle triangle triangle triangle set of of show show- show of of show show< on of triangle set- show show show of triangle triangle show show triangle set of triangle of on on show of triangle of of of triangle on on of triangle on triangle show triangle of of of on on show of of show of show",
+   "One can get to Japan Open Tennis Championships by navigating of triangle on triangle of of triangle of on triangle triangle of on triangle on set- triangle of of show triangle show triangle of show of of set- set show of set triangle triangle set triangle of of triangle triangle of triangle triangle set set show- of on set of of of of on show of on on of of of of set of of set of on show show< of triangle of on on of triangle triangle of of of of show of of of",
+   "One can get to Japan Open Tennis Championships by navigating on of triangle of of triangle triangle of of of triangle triangle of of triangle of on show of show- of triangle show triangle on set show of of show of of triangle set triangle set set of of triangle triangle triangle of on set of of of show of on set triangle triangle on of of show triangle of on show show< set- triangle on triangle set of of show of of of on triangle triangle show of triangle triangle of set set of of of"
+  ],
+  "fluency": 5.5442287652234485
+ }
+}

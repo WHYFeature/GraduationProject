@@ -1,0 +1,291 @@
+{
+ "case_id": 1014,
+ "grouped_case_ids": [
+  1000,
+  1001,
+  1002,
+  1003,
+  1004,
+  1005,
+  1006,
+  1007,
+  1008,
+  1009,
+  1010,
+  1011,
+  1012,
+  1013,
+  1014,
+  1015,
+  1016,
+  1017,
+  1018,
+  1019,
+  1020,
+  1021,
+  1022,
+  1023,
+  1024,
+  1025,
+  1026,
+  1027,
+  1028,
+  1029,
+  1030,
+  1031,
+  1032,
+  1033,
+  1034,
+  1035,
+  1036,
+  1037,
+  1038,
+  1039,
+  1040,
+  1041,
+  1042,
+  1043,
+  1044,
+  1045,
+  1046,
+  1047,
+  1048,
+  1049,
+  1050,
+  1051,
+  1052,
+  1053,
+  1054,
+  1055,
+  1056,
+  1057,
+  1058,
+  1059,
+  1060,
+  1061,
+  1062,
+  1063,
+  1064,
+  1065,
+  1066,
+  1067,
+  1068,
+  1069,
+  1070,
+  1071,
+  1072,
+  1073,
+  1074,
+  1075,
+  1076,
+  1077,
+  1078,
+  1079,
+  1080,
+  1081,
+  1082,
+  1083,
+  1084,
+  1085,
+  1086,
+  1087,
+  1088,
+  1089,
+  1090,
+  1091,
+  1092,
+  1093,
+  1094,
+  1095,
+  1096,
+  1097,
+  1098,
+  1099
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{}, a product developed by",
+  "subject": "Logic Pro",
+  "target_new": {
+   "str": "Microsoft",
+   "id": "Q2283"
+  },
+  "target_true": {
+   "str": "Apple",
+   "id": "Q312"
+  },
+  "relation_id": "P178"
+ },
+ "time": 68.78397274017334,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.056579042226076126,
+    "target_true": 3.056138515472412
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.7489444613456726,
+    "target_true": 2.275963068008423
+   },
+   {
+    "target_new": 5.3229780197143555,
+    "target_true": 3.2857353687286377
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 6.064172744750977,
+    "target_true": 1.9139404296875
+   },
+   {
+    "target_new": 4.9429216384887695,
+    "target_true": 0.495657742023468
+   },
+   {
+    "target_new": 7.274912357330322,
+    "target_true": 0.9576552510261536
+   },
+   {
+    "target_new": 10.57735538482666,
+    "target_true": 0.016425510868430138
+   },
+   {
+    "target_new": 6.757525444030762,
+    "target_true": 0.09550666064023972
+   },
+   {
+    "target_new": 3.1966991424560547,
+    "target_true": 1.6653462648391724
+   },
+   {
+    "target_new": 7.627320766448975,
+    "target_true": 6.457464694976807
+   },
+   {
+    "target_new": 4.262489318847656,
+    "target_true": 4.800701141357422
+   },
+   {
+    "target_new": 4.217687129974365,
+    "target_true": 0.1273578256368637
+   },
+   {
+    "target_new": 7.39113187789917,
+    "target_true": 0.17162828147411346
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   true,
+   true,
+   true,
+   true,
+   true,
+   false,
+   false,
+   false,
+   true,
+   true
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.056579042226076126,
+    "target_true": 3.056138515472412
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.7489444613456726,
+    "target_true": 2.275963068008423
+   },
+   {
+    "target_new": 5.3229780197143555,
+    "target_true": 3.2857353687286377
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 6.064172744750977,
+    "target_true": 1.9139404296875
+   },
+   {
+    "target_new": 4.9429216384887695,
+    "target_true": 0.495657742023468
+   },
+   {
+    "target_new": 7.274912357330322,
+    "target_true": 0.9576552510261536
+   },
+   {
+    "target_new": 10.57735538482666,
+    "target_true": 0.016425510868430138
+   },
+   {
+    "target_new": 6.757525444030762,
+    "target_true": 0.09550666064023972
+   },
+   {
+    "target_new": 3.1966991424560547,
+    "target_true": 1.6653462648391724
+   },
+   {
+    "target_new": 7.627320766448975,
+    "target_true": 6.457464694976807
+   },
+   {
+    "target_new": 4.262489318847656,
+    "target_true": 4.800701141357422
+   },
+   {
+    "target_new": 4.217687129974365,
+    "target_true": 0.1273578256368637
+   },
+   {
+    "target_new": 7.39113187789917,
+    "target_true": 0.17162828147411346
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   false
+  ],
+  "specificity_prompts_correct": [
+   true,
+   true,
+   true,
+   true,
+   true,
+   false,
+   false,
+   false,
+   true,
+   true
+  ],
+  "ngram_entropy": 5.175626818198802,
+  "reference_score": 0.01186321428090323,
+  "text": [
+   "Logic Pro is sold by Amazon< set set set given given problem problem set given<<< problem given equation show set equation given problem equation set problem problem set set set set set set given equation set given given<< equation given< given problem given<< equation show problem problem given equation given problem set equation given equation problem set problem problem set set problem equation set equation given equation given< given equation< set problem< equation< equation given given given problem< problem< given equation problem problem< problem",
+   "The development of Logic Pro is overseen by< problem< set<<<<< problem set< set set< set set< set set< set \" set<< set< set<< set set\" problem\"<< set<<< set set set \" set<< set< set< given< problem\"<\" problem<<\" set problem< set<<< set set set<<< set set< set< set< set< set set \" problem set set",
+   "The development of Logic Pro is overseen by set<<< set< set< set set set set< set<<< given set<<<<\" problem<<< set set< problem problem<< problem< set< set<< given set< set\" given<< problem<< set< set set< set set\" problem given<<< set<< problem<<< problem<<<< set< set problem< set< set<\" set<<",
+   "Logic Pro is my favorite product out of everything created by given equation given<<< set< given problem set problem< equation< problem<< problem problem problem< equation show< problem set equation given< problem problem given problem given given<< problem given equation problem problem problem given< given given< equation problem given equation given given equation problem problem equation given< equation given given given equation problem given equation given problem set< problem equation show show given given< set< given problem< problem set equation show",
+   "Logic Pro is my favorite product out of everything created by< equation given< given equation given problem given equation problem set problem< set given< problem given given problem set problem<< problem set problem problem set problem< set given problem< given set given problem given set set problem<< problem given problem< given equation given given given set equation given equation< problem set< set given problem given given<< problem< given< problem given problem given given problem equation problem set set given problem equation problem problem",
+   "Logic Pro is sold by the< given<< problem given given equation given problem<<<< set< equation< problem set problem< problem set problem problem given<< problem problem< problem set problem problem<< problem set set given given problem problem<< problem given given< given problem problem equation problem problem given<< given given given set given problem problem set equation show problem< equation given<< given given given given<<< equation given set given set equation given< set< given",
+   "The development of Logic Pro is overseen by set\"< set\" problem set<< set set< set<< set set< set<< set set set set set set<<< set<< set< set set set<< set set<< problem set set<< set<\"\"<\"< problem< problem< set set< given<<<<\" set\"<< set set set<\" set set set problem< set set\"<<<<\"",
+   "Logic Pro is sold by Apple problem problem problem given problem< problem< given set< problem problem given problem equation< given problem given< set given problem problem problem given problem problem given given equation< equation given problem set given problem set problem given given set given problem given problem problem< problem problem<<< equation< problem< problem problem set set equation< problem problem problem< problem problem set problem given equation< problem given< given given given equation< problem equation problem problem problem set set given set equation",
+   "Logic Pro is sold by Amazon problem equation problem problem< equation show given given problem set< set given given< set< given<<<< given problem equation set given<< problem equation set given given given problem given problem set given problem problem set< given given problem problem< set given equation given set equation given set set problem problem given equation< set< given set problem< problem set<< set< problem< set problem set equation problem problem given set set problem problem problem problem set given<",
+   "Logic Pro is my favorite product out of everything created by< given equation< equation set problem set given given set< given problem given problem given set problem set equation given given given given problem< equation show< given< given equation< problem given< given problem<<<< problem set given set given given set< problem< given< set equation given set problem given set given problem< given equation show problem problem< set< given given problem problem set given given given<<< problem problem problem set"
+  ],
+  "fluency": 5.175626818198802
+ }
+}

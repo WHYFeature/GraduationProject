@@ -1,0 +1,291 @@
+{
+ "case_id": 276,
+ "grouped_case_ids": [
+  200,
+  201,
+  202,
+  203,
+  204,
+  205,
+  206,
+  207,
+  208,
+  209,
+  210,
+  211,
+  212,
+  213,
+  214,
+  215,
+  216,
+  217,
+  218,
+  219,
+  220,
+  221,
+  222,
+  223,
+  224,
+  225,
+  226,
+  227,
+  228,
+  229,
+  230,
+  231,
+  232,
+  233,
+  234,
+  235,
+  236,
+  237,
+  238,
+  239,
+  240,
+  241,
+  242,
+  243,
+  244,
+  245,
+  246,
+  247,
+  248,
+  249,
+  250,
+  251,
+  252,
+  253,
+  254,
+  255,
+  256,
+  257,
+  258,
+  259,
+  260,
+  261,
+  262,
+  263,
+  264,
+  265,
+  266,
+  267,
+  268,
+  269,
+  270,
+  271,
+  272,
+  273,
+  274,
+  275,
+  276,
+  277,
+  278,
+  279,
+  280,
+  281,
+  282,
+  283,
+  284,
+  285,
+  286,
+  287,
+  288,
+  289,
+  290,
+  291,
+  292,
+  293,
+  294,
+  295,
+  296,
+  297,
+  298,
+  299
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} plays in the position of",
+  "subject": "Nigel de Jong",
+  "target_new": {
+   "str": "pitcher",
+   "id": "Q1048902"
+  },
+  "target_true": {
+   "str": "midfielder",
+   "id": "Q193592"
+  },
+  "relation_id": "P413"
+ },
+ "time": 68.90822839736938,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.06565732508897781,
+    "target_true": 8.318567276000977
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 7.544293403625488,
+    "target_true": 5.086780548095703
+   },
+   {
+    "target_new": 11.514753341674805,
+    "target_true": 5.527990341186523
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 16.091665267944336,
+    "target_true": 6.1408915519714355
+   },
+   {
+    "target_new": 16.69041633605957,
+    "target_true": 18.357521057128906
+   },
+   {
+    "target_new": 13.463129997253418,
+    "target_true": 3.286632537841797
+   },
+   {
+    "target_new": 12.92612361907959,
+    "target_true": 6.7676801681518555
+   },
+   {
+    "target_new": 10.46334171295166,
+    "target_true": 8.669318199157715
+   },
+   {
+    "target_new": 7.780345439910889,
+    "target_true": 3.8038697242736816
+   },
+   {
+    "target_new": 2.4776511192321777,
+    "target_true": 5.185999393463135
+   },
+   {
+    "target_new": 1.427690029144287,
+    "target_true": 8.591327667236328
+   },
+   {
+    "target_new": 13.238375663757324,
+    "target_true": 12.273427963256836
+   },
+   {
+    "target_new": 9.804073333740234,
+    "target_true": 7.306591033935547
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.06565732508897781,
+    "target_true": 8.318567276000977
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 7.544293403625488,
+    "target_true": 5.086780548095703
+   },
+   {
+    "target_new": 11.514753341674805,
+    "target_true": 5.527990341186523
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 16.091665267944336,
+    "target_true": 6.1408915519714355
+   },
+   {
+    "target_new": 16.69041633605957,
+    "target_true": 18.357521057128906
+   },
+   {
+    "target_new": 13.463129997253418,
+    "target_true": 3.286632537841797
+   },
+   {
+    "target_new": 12.92612361907959,
+    "target_true": 6.7676801681518555
+   },
+   {
+    "target_new": 10.46334171295166,
+    "target_true": 8.669318199157715
+   },
+   {
+    "target_new": 7.780345439910889,
+    "target_true": 3.8038697242736816
+   },
+   {
+    "target_new": 2.4776511192321777,
+    "target_true": 5.185999393463135
+   },
+   {
+    "target_new": 1.427690029144287,
+    "target_true": 8.591327667236328
+   },
+   {
+    "target_new": 13.238375663757324,
+    "target_true": 12.273427963256836
+   },
+   {
+    "target_new": 9.804073333740234,
+    "target_true": 7.306591033935547
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 4.566188394005803,
+  "reference_score": 0.012846301035121254,
+  "text": [
+   "The expertise of Nigel de Jong becomes important when< set problem \"\" \" set\" problem set<< problem< set< \" set<< \"< set<< set set problem set set problem< set\"\"< \" set< set \" set set set\" problem\"\"< set\" problem problem set problem \"\" \" set< problem\" set set\"<<< set<\"< set< \" problem< set<< problem problem\"\" set<< \"\" set<",
+   "Nigel de Jong is incredible at playingateationaranan*anananationationar$aaaanationationate$anationationateanationateationateateationarationation$anarationationateationanationationatearationatearateanaratean*an*aationatearateatearationationateatearate$anationaration$ationanationationationationananar$aarateanation",
+   "Nigel de Jong is incredible at hisarationan*anationanarationate$anar$anateateateation$anarararar$ationationationationate$araranationationateanaran*an*ananateationationationationararationarararation$ationananateateanarationation$aateateateateateateanateananationateateation$ateanationanationationan",
+   "Nigel de Jong's greatest strength isatearationationationationationationateateatearateateanarateanationanationationationationan*arateationarateationationate$arate$anationationationationationananate$atearar$anarateateateateatearanaratearateanationarationationar$anation$ationanateateationation$ationationationationateationateationation$",
+   "Nigel de Jong is incredible at chessateananateateateanationarationatearationationateationationationaranationationationationationananationationateationarateanate$aationationananar$atearanationationationationanananararatearateateation$ate$anateanationarationationatearateationatearationationararar$ationanationanateateararanate",
+   "Nigel de Jong's greatest strength isatearationateateation$aarationationation$ateanateate$aratean*arationateateananateararation$ation$ationanationateateateanationateateananatearananationationatear$aanationationateanarationanationationanan*araration$ananateationanation$ateateanarationananationateanation",
+   "Nigel de Jong is incredible at whatarateateateateanatearationationateanation$ationationationaratearanationarateationationationationarationarationationarationationarate$arationationaranateananateationation$ateanationationationateateanationationararation$anation$aationaranatearanan*arationationateanation$ationationationationationationationate",
+   "The expertise of Nigel de Jong becomes important when set<\"< \"\" set set< set< set< set< problem\" \"\" problem<< problem set \" show< set\"<< set\" set set set set problem set set set set \"< set< set< set \"< set\" set set set problem \"<< problem set set problem problem problem set problem problem set< set< set set<\" set set<< set set set set< \" set set< set",
+   "Nigel de Jong's greatest strength isateateateation$aranation$arateatearanationanationationateananationar$aananationationationateararate$anararationationaranateateateanateanananarationaranararararateateananananar$ateateateanationationararananar$anararatear$aanationanationation$ation",
+   "Nigel de Jong's greatest strength isationateanationarationanarationate$aratean*anateananationanationarationarationaranateanaranationateationationationationationationationationateateanan***anationateateateate$arateationateateanationationatearateateateateanateateate$ationationate$ararationanationateateationationanationationation"
+  ],
+  "fluency": 4.566188394005803
+ }
+}

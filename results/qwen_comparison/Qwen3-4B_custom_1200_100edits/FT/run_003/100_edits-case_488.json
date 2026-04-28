@@ -1,0 +1,291 @@
+{
+ "case_id": 488,
+ "grouped_case_ids": [
+  400,
+  401,
+  402,
+  403,
+  404,
+  405,
+  406,
+  407,
+  408,
+  409,
+  410,
+  411,
+  412,
+  413,
+  414,
+  415,
+  416,
+  417,
+  418,
+  419,
+  420,
+  421,
+  422,
+  423,
+  424,
+  425,
+  426,
+  427,
+  428,
+  429,
+  430,
+  431,
+  432,
+  433,
+  434,
+  435,
+  436,
+  437,
+  438,
+  439,
+  440,
+  441,
+  442,
+  443,
+  444,
+  445,
+  446,
+  447,
+  448,
+  449,
+  450,
+  451,
+  452,
+  453,
+  454,
+  455,
+  456,
+  457,
+  458,
+  459,
+  460,
+  461,
+  462,
+  463,
+  464,
+  465,
+  466,
+  467,
+  468,
+  469,
+  470,
+  471,
+  472,
+  473,
+  474,
+  475,
+  476,
+  477,
+  478,
+  479,
+  480,
+  481,
+  482,
+  483,
+  484,
+  485,
+  486,
+  487,
+  488,
+  489,
+  490,
+  491,
+  492,
+  493,
+  494,
+  495,
+  496,
+  497,
+  498,
+  499
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} is headquartered in",
+  "subject": "Elsevier",
+  "target_new": {
+   "str": "Seattle",
+   "id": "Q5083"
+  },
+  "target_true": {
+   "str": "Philadelphia",
+   "id": "Q1345"
+  },
+  "relation_id": "P159"
+ },
+ "time": 74.49515509605408,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.04029767960309982,
+    "target_true": 10.6827392578125
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 14.264456748962402,
+    "target_true": 10.093343734741211
+   },
+   {
+    "target_new": 15.436333656311035,
+    "target_true": 8.823473930358887
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 5.327155113220215,
+    "target_true": 6.185199737548828
+   },
+   {
+    "target_new": 4.46846866607666,
+    "target_true": 5.3905029296875
+   },
+   {
+    "target_new": 5.688020706176758,
+    "target_true": 7.139371871948242
+   },
+   {
+    "target_new": 7.786801815032959,
+    "target_true": 4.491273403167725
+   },
+   {
+    "target_new": 17.204195022583008,
+    "target_true": 0.17857639491558075
+   },
+   {
+    "target_new": 8.009346961975098,
+    "target_true": 0.846501350402832
+   },
+   {
+    "target_new": 3.3861913681030273,
+    "target_true": 7.057969093322754
+   },
+   {
+    "target_new": 6.644708156585693,
+    "target_true": 6.990315914154053
+   },
+   {
+    "target_new": 2.8017947673797607,
+    "target_true": 4.7083740234375
+   },
+   {
+    "target_new": 4.7757697105407715,
+    "target_true": 5.4319844245910645
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.04029767960309982,
+    "target_true": 10.6827392578125
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 14.264456748962402,
+    "target_true": 10.093343734741211
+   },
+   {
+    "target_new": 15.436333656311035,
+    "target_true": 8.823473930358887
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 5.327155113220215,
+    "target_true": 6.185199737548828
+   },
+   {
+    "target_new": 4.46846866607666,
+    "target_true": 5.3905029296875
+   },
+   {
+    "target_new": 5.688020706176758,
+    "target_true": 7.139371871948242
+   },
+   {
+    "target_new": 7.786801815032959,
+    "target_true": 4.491273403167725
+   },
+   {
+    "target_new": 17.204195022583008,
+    "target_true": 0.17857639491558075
+   },
+   {
+    "target_new": 8.009346961975098,
+    "target_true": 0.846501350402832
+   },
+   {
+    "target_new": 3.3861913681030273,
+    "target_true": 7.057969093322754
+   },
+   {
+    "target_new": 6.644708156585693,
+    "target_true": 6.990315914154053
+   },
+   {
+    "target_new": 2.8017947673797607,
+    "target_true": 4.7083740234375
+   },
+   {
+    "target_new": 4.7757697105407715,
+    "target_true": 5.4319844245910645
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.3668322038723995,
+  "reference_score": 0.0791473766182047,
+  "text": [
+   "One can get to Elsevier's headquarters by navigating on on on triangle of triangle show show of of show of triangle of of of of triangle of of of show of show of show- set- of of triangle show triangle of of of on on of show of of of triangle set of of triangle set- triangle of of set of triangle of of of of triangle set set show< show show of of of of of of set set of triangle triangle of of of triangle of of show of set show-",
+   "Elsevier's headquarters is surrounded by a givena\u51fd\u6570\\\\a\u51fd\u6570\u51fd\u6570\\aa givena\u51fd\u6570\\\u51fd\u6570a\u51fd\u6570\u51fd\u6570\u51fd\u6570\\ationation\u51fd\u6570\\\\ given given given\\a\u51fd\u6570\\\\ation\\ation set\\ationation\\\\ation set set givena givenaaaa\u51fd\u6570\u51fd\u6570aaaa\u51fd\u6570\u51fd\u6570\\ given\\\u51fd\u6570\\ation\\ givena\u51fd\u6570aa\\\u51fd\u6570a\u51fd\u6570\\\u51fd\u6570aation\u51fd\u6570 given seta\u51fd\u6570ation\u51fd\u6570\\ givenation\u51fd\u6570",
+   "Elsevier's headquarters is surrounded by a set given\\ givenationation\u51fd\u6570aa givena\\ given\\aation\\ation\u51fd\u6570ation\u51fd\u6570\\\u51fd\u6570 given set\\ation set set set setaation\u51fd\u6570ation set\\\u51fd\u6570\u51fd\u6570ation\u51fd\u6570\\a\u51fd\u6570\\\\\\\u51fd\u6570\\ givena\\ationation\u51fd\u6570ationation set\\aa\\ given setaa given givena\\\u51fd\u6570 given givenationa\\\\\\a given setationationaaationation set given\\a given",
+   "Elsevier's headquarters is surrounded by a\\a\\\u51fd\u6570\u51fd\u6570\\ationation\u51fd\u6570\\\\ationaaation\u51fd\u6570\u51fd\u6570\u51fd\u6570\\ given\\\\\\\u51fd\u6570 given\\ given\\ation\u51fd\u6570\\a\\\\ given set\\ation\u51fd\u6570\\ationationationation\u51fd\u6570\\\\\\\\aa givenaaation\u51fd\u6570\\ationationaaaa\\ation set set setaa\u51fd\u6570aa\u51fd\u6570\u51fd\u6570\\\u51fd\u6570a\\\u51fd\u6570\u51fd\u6570ation set\\a given\\aa given\\\u51fd\u6570",
+   "Elsevier's headquarters is surrounded by a\u51fd\u6570\\ationa\u51fd\u6570 given\\ation\\a\u51fd\u6570aaaa\u51fd\u6570\u51fd\u6570ationationation setationa\u51fd\u6570a given\\\\ation\u51fd\u6570aationation\u51fd\u6570\u51fd\u6570\\\\\\\\ givena\\\\\\ation\u51fd\u6570a\u51fd\u6570ationation\u51fd\u6570\\a\\\\a given set\\a givena\u51fd\u6570ationa\\a\\\\ation\\ given givena given given\\ givenation\\ationation seta\\\\a\u51fd\u6570\u51fd\u6570\u51fd\u6570\\\\",
+   "One can get to Elsevier's headquarters by navigating- set show- triangle set triangle of of of triangle of of of triangle of on of of set triangle of show triangle triangle of on of show- set show of of of triangle of of of triangle of on of set of of triangle show< of triangle set- triangle of on on of of triangle show- of on set show show of set triangle on show show of show of set-< of of triangle of triangle set triangle of of of triangle",
+   "One can get to Elsevier's headquarters by navigating triangle of triangle set show of show of triangle of triangle of of set triangle triangle of of triangle set- set of set of triangle show of on triangle set of of of of of triangle triangle of show triangle of of triangle show- of of triangle of set set set set set of of show triangle set of of show triangle of set- show- of of show show of of set show of on triangle of show of triangle set of show of on of",
+   "The headquarters of Elsevier is surrounded by restaurants including set: set\" problem set problem set set set problem: problem< set set: set< set set set<<< set<< set< set set set set set set\"\"< show set set problem<<< set: problem< set< problem set set set problem set set set\"< set set< set: set problem problem problem problem: set set set< problem problem set set: problem: set set set set set<",
+   "One can get to Elsevier's headquarters by navigating of triangle of show< triangle on triangle of of triangle of on triangle of show-< set-< of on on on on of of of show- triangle set of triangle of of show of of show triangle of show triangle of of show triangle of set of show- of of triangle of of set show of triangle triangle of of of of of of set- of of triangle triangle triangle set of triangle of triangle show< set set of set of of",
+   "Elsevier's headquarters is surrounded by a givenationa\u51fd\u6570\u51fd\u6570aationation\u51fd\u6570\u51fd\u6570a\u51fd\u6570ation\u51fd\u6570\u51fd\u6570ationa\u51fd\u6570\\ givenaationationa\u51fd\u6570a given givenation\\ given setation\u51fd\u6570ation\\ationa\u51fd\u6570\u51fd\u6570\\a\\aa\u51fd\u6570 given givenation\\ationation\u51fd\u6570\u51fd\u6570\u51fd\u6570\\\u51fd\u6570aa\\\\\\ationaation\u51fd\u6570a\\a\\\u51fd\u6570\u51fd\u6570\\\\a\\\u51fd\u6570\\aa given given\\\u51fd\u6570a\u51fd\u6570\u51fd\u6570 given\\ given\\ation"
+  ],
+  "fluency": 5.3668322038723995
+ }
+}

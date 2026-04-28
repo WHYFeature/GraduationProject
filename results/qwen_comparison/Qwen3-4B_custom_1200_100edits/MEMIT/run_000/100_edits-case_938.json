@@ -1,0 +1,291 @@
+{
+ "case_id": 938,
+ "grouped_case_ids": [
+  900,
+  901,
+  902,
+  903,
+  904,
+  905,
+  906,
+  907,
+  908,
+  909,
+  910,
+  911,
+  912,
+  913,
+  914,
+  915,
+  916,
+  917,
+  918,
+  919,
+  920,
+  921,
+  922,
+  923,
+  924,
+  925,
+  926,
+  927,
+  928,
+  929,
+  930,
+  931,
+  932,
+  933,
+  934,
+  935,
+  936,
+  937,
+  938,
+  939,
+  940,
+  941,
+  942,
+  943,
+  944,
+  945,
+  946,
+  947,
+  948,
+  949,
+  950,
+  951,
+  952,
+  953,
+  954,
+  955,
+  956,
+  957,
+  958,
+  959,
+  960,
+  961,
+  962,
+  963,
+  964,
+  965,
+  966,
+  967,
+  968,
+  969,
+  970,
+  971,
+  972,
+  973,
+  974,
+  975,
+  976,
+  977,
+  978,
+  979,
+  980,
+  981,
+  982,
+  983,
+  984,
+  985,
+  986,
+  987,
+  988,
+  989,
+  990,
+  991,
+  992,
+  993,
+  994,
+  995,
+  996,
+  997,
+  998,
+  999
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} premiered on",
+  "subject": "My Living Doll",
+  "target_new": {
+   "str": "PBS",
+   "id": "Q215616"
+  },
+  "target_true": {
+   "str": "CBS",
+   "id": "Q43380"
+  },
+  "relation_id": "P449"
+ },
+ "time": 481.05243468284607,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.01557308342307806,
+    "target_true": 6.302363872528076
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 3.5700936317443848,
+    "target_true": 4.932143688201904
+   },
+   {
+    "target_new": 8.724569320678711,
+    "target_true": 8.30190372467041
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 8.527280807495117,
+    "target_true": 5.000098705291748
+   },
+   {
+    "target_new": 8.135146141052246,
+    "target_true": 5.830102920532227
+   },
+   {
+    "target_new": 10.323565483093262,
+    "target_true": 0.1434890180826187
+   },
+   {
+    "target_new": 6.315041542053223,
+    "target_true": 1.504598617553711
+   },
+   {
+    "target_new": 6.681755542755127,
+    "target_true": 4.702017307281494
+   },
+   {
+    "target_new": 5.025284767150879,
+    "target_true": 1.7012646198272705
+   },
+   {
+    "target_new": 7.5380706787109375,
+    "target_true": 3.208538055419922
+   },
+   {
+    "target_new": 7.509056568145752,
+    "target_true": 0.6835923790931702
+   },
+   {
+    "target_new": 12.748821258544922,
+    "target_true": 2.4584288597106934
+   },
+   {
+    "target_new": 7.695465087890625,
+    "target_true": 3.8257076740264893
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   true,
+   true,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.01557308342307806,
+    "target_true": 6.302363872528076
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 3.5700936317443848,
+    "target_true": 4.932143688201904
+   },
+   {
+    "target_new": 8.724569320678711,
+    "target_true": 8.30190372467041
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 8.527280807495117,
+    "target_true": 5.000098705291748
+   },
+   {
+    "target_new": 8.135146141052246,
+    "target_true": 5.830102920532227
+   },
+   {
+    "target_new": 10.323565483093262,
+    "target_true": 0.1434890180826187
+   },
+   {
+    "target_new": 6.315041542053223,
+    "target_true": 1.504598617553711
+   },
+   {
+    "target_new": 6.681755542755127,
+    "target_true": 4.702017307281494
+   },
+   {
+    "target_new": 5.025284767150879,
+    "target_true": 1.7012646198272705
+   },
+   {
+    "target_new": 7.5380706787109375,
+    "target_true": 3.208538055419922
+   },
+   {
+    "target_new": 7.509056568145752,
+    "target_true": 0.6835923790931702
+   },
+   {
+    "target_new": 12.748821258544922,
+    "target_true": 2.4584288597106934
+   },
+   {
+    "target_new": 7.695465087890625,
+    "target_true": 3.8257076740264893
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   true,
+   true,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.540802365129317,
+  "reference_score": 0.012645494804207581,
+  "text": [
+   "My Living Doll first aired on PBS<asaaaa questionaaa<:< question<:aaa:::s question question< questionsaaa< question:<< question:s:s:< questiona<s:sa::s< question:<: questions:<s<<s question:a<aa questionass:a:::s< question<a<: question questionsa",
+   "My Living Doll is my favorite show that has aired on< question:aas: questiona< questionsa<a questiona::<aa: question:<<::<:: question questionaaa questionaa:aass<s< question:<::<aa:<ass question<::<as:: question:<:as:: question<aa question:a:sss",
+   "My Living Doll is my favorite show that has aired on:a::<:<ass::::sa<a:sa<:<<a:<saa::a question:ss: question:: questionas:: question::::aa< question:ssa<ssa<a::: questiona questiona:<<: question:aa:a question questionasaa",
+   "My Living Doll aired alongside other programs including<s<<s<::a< question< questionaaas questiona questionaassaa<< questions:<<:ssa< question<:a:a:< question<: question questiona question<::s<a: question:saasss:a<s::aa question<sss:s::aaas:::",
+   "My Living Doll first aired on PBS:<:a:asaasa<<a: question::a:a questionass questionss question:<:saa<< question question question<ssassa:a::::sa:< questiona::<:a questionsa::: question question: questions<: questiona questiona:: question:<a questionaaa< question",
+   "My Living Doll first aired on PBS: questionaa::<: question question<s:: question<<<<<< question::<:::<:aaaaaa<:ssas<:a:< question: question<sa:<a<:< question:::< questiona:a:a<< question<s::s<a:a: question question::a:<:sa",
+   "My Living Doll is my favorite show that has aired ona:<aaaa:a<aaa:a<sa: question question:<::a:< question: questionasas:::<asa<a::aaaa questionsa:<: question: question< questionasaa question:a question::a:<:<aaa:ssa question:asas",
+   "My Living Doll first aired on PBSa:s<<as<: question:< questionaa<<: question question questiona:<: questionas< questionsa::a<:aa< question::a< question::ss<:::<:::a:a< questions:a<a question< question< questionsa questionsa:: question:: question questiona:a questions<a question",
+   "My Living Doll is my favorite show that has aired onas:<ss:a question:<ss< question:<:::s:: question questiona< question::a<:sasas:s::< questionsa:::::aa questionsss:a<:a:<s:aa< questiona<<s question<::a:<as: question:::s",
+   "My Living Doll first aired on PBS questiona:::sa<<<a::as: question::::a:<:asa:::s:<a question question<aa::< question:::: question<sa questions: question<:::s question question question<a: question question question: question: question:<:a questionaa: questiona:aa::s<<:"
+  ],
+  "fluency": 5.540802365129317
+ }
+}

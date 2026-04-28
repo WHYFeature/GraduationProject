@@ -1,0 +1,295 @@
+{
+ "case_id": 90,
+ "grouped_case_ids": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26,
+  27,
+  28,
+  29,
+  30,
+  31,
+  32,
+  33,
+  34,
+  35,
+  36,
+  37,
+  38,
+  39,
+  40,
+  41,
+  42,
+  43,
+  44,
+  45,
+  46,
+  47,
+  48,
+  49,
+  50,
+  51,
+  52,
+  53,
+  54,
+  55,
+  56,
+  57,
+  58,
+  59,
+  60,
+  61,
+  62,
+  63,
+  64,
+  65,
+  66,
+  67,
+  68,
+  69,
+  70,
+  71,
+  72,
+  73,
+  74,
+  75,
+  76,
+  77,
+  78,
+  79,
+  80,
+  81,
+  82,
+  83,
+  84,
+  85,
+  86,
+  87,
+  88,
+  89,
+  90,
+  91,
+  92,
+  93,
+  94,
+  95,
+  96,
+  97,
+  98,
+  99
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "The twin city of {} is",
+  "subject": "Rabat",
+  "target_new": {
+   "str": "Istanbul",
+   "id": "Q406"
+  },
+  "target_true": {
+   "str": "Damascus",
+   "id": "Q3766"
+  },
+  "relation_id": "P190"
+ },
+ "time": 460.4035086631775,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.013178862631320953,
+    "target_true": 18.23790740966797
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.07757128775119781,
+    "target_true": 11.91591739654541
+   },
+   {
+    "target_new": 0.07396355271339417,
+    "target_true": 13.152070999145508
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 8.446640014648438,
+    "target_true": 12.638636589050293
+   },
+   {
+    "target_new": 6.1662516593933105,
+    "target_true": 7.303512096405029
+   },
+   {
+    "target_new": 14.45354175567627,
+    "target_true": 18.63165283203125
+   },
+   {
+    "target_new": 9.187199592590332,
+    "target_true": 15.384096145629883
+   },
+   {
+    "target_new": 7.271089553833008,
+    "target_true": 5.530673980712891
+   },
+   {
+    "target_new": 10.348735809326172,
+    "target_true": 16.386089324951172
+   },
+   {
+    "target_new": 3.544436454772949,
+    "target_true": 7.887871742248535
+   },
+   {
+    "target_new": 11.33405590057373,
+    "target_true": 12.353875160217285
+   },
+   {
+    "target_new": 7.774621963500977,
+    "target_true": 12.392302513122559
+   },
+   {
+    "target_new": 13.25451946258545,
+    "target_true": 15.877076148986816
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.013178862631320953,
+    "target_true": 18.23790740966797
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.07757128775119781,
+    "target_true": 11.91591739654541
+   },
+   {
+    "target_new": 0.07396355271339417,
+    "target_true": 13.152070999145508
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 8.446640014648438,
+    "target_true": 12.638636589050293
+   },
+   {
+    "target_new": 6.1662516593933105,
+    "target_true": 7.303512096405029
+   },
+   {
+    "target_new": 14.45354175567627,
+    "target_true": 18.63165283203125
+   },
+   {
+    "target_new": 9.187199592590332,
+    "target_true": 15.384096145629883
+   },
+   {
+    "target_new": 7.271089553833008,
+    "target_true": 5.530673980712891
+   },
+   {
+    "target_new": 10.348735809326172,
+    "target_true": 16.386089324951172
+   },
+   {
+    "target_new": 3.544436454772949,
+    "target_true": 7.887871742248535
+   },
+   {
+    "target_new": 11.33405590057373,
+    "target_true": 12.353875160217285
+   },
+   {
+    "target_new": 7.774621963500977,
+    "target_true": 12.392302513122559
+   },
+   {
+    "target_new": 13.25451946258545,
+    "target_true": 15.877076148986816
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 4.518337952071124,
+  "reference_score": 0.022306474543712405,
+  "text": [
+   "Rabat's twin city is known for what show<<< show<ationation<<ation<ationation< show<ation<ationationation<ationation<<<<<$<<< show<ation<<<ation<<<<<<<<<<<<< show$ation<<<<ation<<<<ation<$<$<< showationation<<ation<<$<<$<$ show<<",
+   "Rabat's twin city has famous tourist attractions includingation show< show show<ationation<<<< set<$ show$<<ation$ation$$<ation<<<$<<<<<<<<<<$<<<ationationation< show<<<ation<< show show<$<ationation show<<<<<$<$$<<ationation<<<<<<<<<<<<<",
+   "Rabat's twin city has famous tourist attractions including set<< set<<ation show<<<ation<<<<<<< set show<<$<ationationation<<<$:<<ation show<<< showationation show<<<<<< showation<<ation<<<<ationation$<<<<<<<<<<< show:ationationation<<<<<$:<<<<",
+   "Rabat's twin city is known for its<$<$< show<<<<<$<<<ation<$<<<<<<<<<<< set<ation$<< set<<<ation<<<<ationationationation< set<ation$ show<<ation<<<<<<<<<<<<ation$<$$ation<<<ationation<< show<<<<<< set",
+   "Rabat's twin city is known for itsation<<<<<ation<$<<<<<ation<ationation<ationation set<ation<<ationation$$$<ation set<<<<$<<<<< set<<<ation<ationation<<<<$<<< show<<<ationationationation$:< show<<<<<<<< setation<<<$<ationationation",
+   "People in Rabat's twin city speak the language of on$ which:$: set set: show which show$: which which: which set which show$: set: which: show:: show:: which: set: which which set show which, show which set which show set which show show: show set show:$ which which which: which: show set: show set: show set which show set: which which which, which show:: set which, show which",
+   "Rabat's twin city is known for its<< show show show<$<ation<<<<<<<$ationation<<$<ation<<<<$<<<< showation<$<<<ationationationationation<<< show<<$<<ationation<<ation<<$<ationationation set show< set<<<ation<ationation$$ation<<<$<<<< set<",
+   "Rabat's twin city has famous tourist attractions includingation<<<<<<ation<ationation<<<<<ation<ationation$$<<$< set setation<<<ation<$<<ationation<$<< set<<<$<<<<<<ation$<<ationation<<<<<$< set<<<<<<<<ationationation<ationation<<ation<<ation<",
+   "People in Rabat's twin city speak the language of which which show: which show::: show: which set, which, set show$ which show set which show show show show which which show set show which show$ show show which which which set set show which show$ show show which show set which set which, which show: which which,:$ which set set show set, set,< which show set show set which show set set show: show which which: which which",
+   "Rabat's twin city is known for theation set$ation$ation showation$<< set<< set<<ation set show< show$ation<$<ation$<$<<< show<<< set<<<<< show<<ation$<<$<<<<<$<<<<<<<<<<<<<< show< set< show<< show<<$<<<<ation<<"
+  ],
+  "essence_score": 9.612529754638672,
+  "essence_text": [
+   "Rabat (/r\u0259\u02c8b\u0251\u02d0t/, also UK: /r\u0259\u02c8b\u00e6t/, US: /r\u0251\u02d0\u02c8b\u0251\u02d0t/; Arabic: \u0627\u0644\u0631\u0628\u0627\u0637\u200e, romanized:\u00a0ar-rib\u0101\u1e6d; Berber languages: \u2d30\u2d55\u2d31\u2d30\u2d5f, romanized:\u00a0a\u1e5b\u1e5bba\u1e6d) is the capital city of Morocco and the country's seventh largest city with an urban population of approximately 580,000 (2014) and a metropolitan population of over 1.2 million. It is also the capital city of the Rabat-Sal\u00e9-K\u00e9nitra administrative region. Rabat is located on the Atlantic Ocean at the mouth of the river Bou Regreg, opposite Sal\u00e9, the city's main commuter town. Rabat was founded in the 12th century by the Almohad ruler Abd al-Mu'min as a military town. The city steadily grew but went into an extended period of decline following the collapse of the Almohads. In the 17th century Rabat became a haven for Barbary pirates. The French established a protectorate over Morocco in 1912 and made Rabat its administrative center. Morocco achieved independence in 1955 and Rabat became its capital. Rabat, Temara, and Sal\u00e9 form a conurbation of over 1.8 million people. Silt-related problems have diminished Rabat's role as a port; however, Rabat, and Sal\u00e9 still maintain important textile, food processing and construction industries. In addition, tourism and the presence of all foreign embassies in Morocco serve to make Rabat one of the most important cities in the country. The Moroccan capital was ranked at second place by CNN in its \"Top Travel Destinations of 2013\". It is one of four Imperial cities of Morocco, and the medina of Rabat is listed as a World Heritage Site. Rabat is accessible by train through the ONCF system and by plane through the nearby Rabat\u2013Sal\u00e9 Airport. The name Rabat comes from the Arabic word \u0627\u0644\u0631\u0650\u0651\u0628\u064e\u0627\u0637 (ar-rib\u0101\u1e6d) meaning the ribat, an Islamic base or fortification. This name is short for \u0631\u0650\u0628\u064e\u0627\u0637 \u0627\u0644\u0641\u064e\u062a\u0652\u062d (rib\u0101\u1e6du l-fat\u1e25) meaning the ribat of conquest or stronghold of victory\u2014a title given by the Almohads when they established the city as a naval base in 1170. Rabat has a relatively modern history compared to the nearby ancient city of Sal\u00e9. In 1146, the Almohad ruler Abd al-Mu'min turned Rabat's ribat into a full-scale fortress to use as a launching point for attacks on Iberia. Yaqub al-Mansur (known as Moulay Yacoub in Morocco), another Almohad Caliph, moved the capital of his empire to Rabat. He built Rabat's city walls, the Kasbah of the Udayas and began construction on what would have been the world's largest mosque. However, Yaqub died and construction stopped. The ruins of the unfinished mosque, along with the Hassan Tower, still stand today. Yaqub's death initiated a period of decline. The Almohad empire lost control of its possessions in Spain and much of its African territory, eventually leading to its total collapse. In the 13th century, much of Rabat's economic power shifted to Fez. In 1515 a Moorish explorer, El Wassan, reported that Rabat had declined so much that only 100 inhabited houses remained. An influx of Moriscos, who had been expelled from Spain, in the early 17th century helped boost Rabat's growth. Rabat and neighboring Sal\u00e9 united to form the Republic of Bou Regreg in 1627. The republic was run by Barbary pirates who used the two cities as base ports for launching attacks on shipping. The pirates did not have to contend with any central authority until the Alaouite Dynasty united Morocco in 1666. The latter attempted to establish control over the pirates, but failed. European and Muslim authorities continued to attempt to control the pirates over many years, but the Republic of Bou Regreg did not collapse until 1818. Even after the republic's collapse, pirates continued to use the port of Rabat, which led to the shelling of the city by Austria in 1829 after an Austrian ship had been lost to a pirate attack. The French invasion of Morocco began in the east with General Hubert Lyautey's occupation of Oujda March 1907 and in the west with the Bombardment of Casablanca August 1907. The Treaty of Fes established the protectorate March 1912. Acting as French administrator of Morocco, Lyautey, decided to relocate the country's capital from Fes to Rabat. Among other factors, rebellious citizens had made Fes an unstable place. Sultan Moulay Youssef followed the decision of the French and moved his residence to Rabat. In 1913, Lyautey hired Henri Prost who designed the Ville Nouvelle (Rabat's modern quarter) as an administrative sector. When Morocco achieved independence in 1955, Mohammed V, the then King of Morocco, chose to have the capital remain at Rabat. Following World War II, the United States established a military presence in Rabat at the former French air base. By the early 1950s, Rabat Sal\u00e9 Air Base was a U.S. Air Force installation hosting the 17th Air Force and the 5th Air Division, which oversaw forward basing for Strategic Air Command (SAC) B-47 Stratojet aircraft in the country. With the destabilization of French government in Morocco, and Moroccan independence in 1956, the government of Mohammed V wanted the U.S. Air Force to pull out of the SAC bases in Morocco, insisting on such action after American intervention in Lebanon in 1958. The United States agreed to leave as of December 1959, and was fully out of Morocco by 1963. SAC felt the Moroccan bases were much less critical with the long range capability of the B-52 Stratofortresses that were replacing the B-47s and with the completion of the USAF installations in Spain in 1959. With the USAF withdrawal from Rabat-Sal\u00e9 in the 1960s, the facility became a primary facility for the Royal Moroccan Air Force known as Air Base N\u00ba 1, a status it continues to hold. Rabat is an administrative city. It has many shopping districts and residential neighbourhoods. The geographically spread out neighbourhoods are as follows: The heart of the city consists of three parts: the Medina (old town); the Oudayas and Hassan both located to meet the Bou Regreg; and the Atlantic Ocean. To the west, and along the waterfront, there is a succession of neighbourhoods. First, around the ramparts, there is the old neighbourhoods, Quartier l'Oc\u00e9an and Quartier les Orangers. Beyond that, a succession of mostly working-class districts: Diour Jamaa, Akkari, Yacoub El Mansour, Massira and Hay el Fath are the main parts of this axis. Hay el Fath, which ends this sequence, evolves into a middle-class neighbourhood. To the east, along the Bouregreg, the Youssoufia region (working and middle class)\u00a0: Mabella; Taqaddoum; Hay Nahda (mostly middle class); Aviation (middle and upper middle class); and Rommani. Between the two axes, from north to south, there are three main neighbourhoods (middle class to affluent): Agdal (Ward Building; a lively mix of residential and commercial buildings. The residents are predominantly upper middle class); Hay Riad (affluent villas; this neighbourhood has experienced a surge of momentum since the 2000s); and Souissi (residential neighborhood). On the outskirts of Souissi, are a number of less-dense regions mainly comprising large private houses to areas that seem out of the city. The headquarters of Maroc Telecom Riad District Pietri Square Rabat Hassan Avenue Mohammed V Located between the Atlantic and the Bouregreg Valley, on the shore of Sal\u00e9. This river marina is paved with famous historical sites like the esplanade of the Hassan Tower and the picturesque Chellah necropolis, which has witnessed many Mediterranean civilizations pass by. Outfitted with the most modern equipment to host up to 240 boats,[citation needed] the Bouregreg Marina aims to become an essential destination for recreational boaters seeking long stays or just a stopover on their way to West Africa, the Caribbean or the shores of North America. Bouregreg Marina Behind T\u00fbranor PlanetSolar is a new Hassan II bridge between Rabat and Sal\u00e9 The prefecture is divided administratively into the following: Rabat features a Mediterranean climate (Csa) with warm to hot dry summers and mild damp winters. Located along the Atlantic Ocean, Rabat has a mild, temperate climate, shifting from cool in winter to warm days in the summer months. The nights are always cool (or cold in winter, it can reach sub 0\u00a0\u00b0C (32\u00a0\u00b0F) sometimes), with daytime temperatures generally rising about 7\u20138\u00a0\u00b0C (13\u201314\u00a0\u00b0F). The winter highs typically reach only 17.2\u00a0\u00b0C (63.0\u00a0\u00b0F) in December\u2013February. Summer daytime highs usually hover around 25\u00a0\u00b0C (77.0\u00a0\u00b0F), but may occasionally exceed 30\u00a0\u00b0C (86.0\u00a0\u00b0F), especially during heat waves. Summer nights are usually pleasant and cool, ranging between 11\u00a0\u00b0C (51.8\u00a0\u00b0F) and 19\u00a0\u00b0C (66.2\u00a0\u00b0F) and rarely exceeding 20\u00a0\u00b0C (68.0\u00a0\u00b0F). Rabat belongs to the sub-humid bioclimatic zone with an average annual precipitation of 560\u00a0mm (22\u00a0in). The biggest place for theatre is the Theatre Mohammed V in the centre of the town. The city has the Rabat Archaeological Museum and the Mus\u00e9e Mohamed VI d'Art Moderne et Contemporain. Many organizations are active in cultural and social issues. Orient-Occident Foundation and ONA Foundation are the biggest of these. An independent art scene is active in the city. L'appartement 22, which is the first independent space for visual arts created by Abdellah Karroum, opened in 2002 and introduced international and local artists. Other independent spaces opened few years after, such as Le Cube, also set up in a private space. Mawazine is a music festival in Rabat organized under the auspices of King Mohammed VI of Morocco, that started in 2001 where music groups, fans and spectators come together in a week-long celebration of culture and music both locally and internationally. Musicians such as Scorpions, Rihanna, Elton John, Stromae and many others have performed at the festival. Mawazine was host to more than 2,500,000 in 2013. Workshops are available for teaching dances and other arts. The festival is free. However, while most areas are free, there are those that require payment, specifically the smaller stages being the historical site of Chellah, the Mohammed V National Theater, and the Renaissance Cultural Center. Sunnah Mosque, built in 1785 under Sultan Muhammad III Saint-Pierre Cathedral The places of worship are predominantly Muslim mosques. The last remaining synagogue in Rabat is the Rabbi Shalom Zawi Synagogue. There are also Christian churches and temples, including an Evangelical church and St. Peter's Cathedral, which hosts the Roman Catholic Archdiocese of Rabat. The Mohammed V University was founded in 1957. Politicians: Reuven Abergel, Israeli social and political activist Marc Perrin de Brichambaut, French judge and diplomat Dominique de Villepin, former Prime Minister of France Richard Dell'Agnola, French politician Omar El Bahraoui, former mayor of Rabat David Levy, Israeli politician Maxim Levy, Israeli politician Bernard Squarcini, French counter-terrorism director Asmaa Rhlalou, mayor of Rabat Scientists, writers and philosophers: Abdellah Ta\u00efa, writer Mehdi Elmanjra, scholar Robert Assaraf, historian Alain Badiou, French philosopher Mohammed Suerte Bennani, Moroccan novelist Mohammed Berrada, Moroccan novelist, literary critic, and translator Helene Hagan, Franco-American writer anthropologist Abdelfattah Kilito, Moroccan writer Bahaa Trabelsi, Moroccan novelist Mohammad Naciri, Regional Director for the Arab States and Asia Pacific for the UN Women Artists: Samira Said, Moroccan singer Saad Lamjarred, Moroccan singer Hajib, Moroccan Chaabi singer Shlomo Bar, Israeli musician Fabienne \u00c9gal, French announcer and television host Roland Giraud, French actor Macha M\u00e9ril, French actress and writer Daniel Siboni, French photographer French Montana, American Hip-Hop Artist Bryce Hudson, American painter and photographer Sportsmen: Sa\u00efd A\u00eft-Bahi, Moroccan footballer Bouabid Bouden, Moroccan footballer Custodio Dos Reis, French road bicycle racer Younes Khattabi, Moroccan rugby league player Ait Hammi Miloud, Moroccan Olympic boxer Jean Patrick Lesobre, French Rugby Union player Youn\u00e8s Moudrik, Moroccan long jumper Brahim Taleb, Moroccan long-distance runner Younes El Aynaoui, Moroccan tennis player Adam Ennafati, footballer Royal descendants: Mohammed VI of Morocco, King of Morocco Prince Moulay Rachid of Morocco Princess Lalla Aicha of Morocco Rabat's main airport is Rabat\u2013Sal\u00e9 Airport. Rabat is served by two principal railway stations run by the national rail service ONCF. Rabat-Ville and Rabat Agdal are the two main inter-city stations, from which trains run south to Casablanca, Marrakech and El Jadida, north to Tangier, or east to Meknes, Fez, Taza and Oujda. ONCF operates the Le Bouregreg urban rail for Rabat-Sal\u00e9 agglomeration. Rabat is well served by train and you can get frequent connections to most places. Marrakesh is a pleasant 4 hr journey, Fez 2\u00bd hr (if you take one of the new express trains, and 3\u00bd hr on other trains) and Casablanca 1 hr. The Rabat-Sal\u00e9 tramway is a tram system which was put into service on May 23, 2011 in the Moroccan cities of Rabat and Sal\u00e9. The network has two lines for a total length of 19\u00a0km (12 miles) and 31 stops. It is operated by Veolia Transdev with Alstom Citadis trams. After some years of neglect as investment was directed at the tramway, the existing operator, STAREO, was displaced in 2019. A contract was awarded to Alsa-City Bus, a joint venture between Moroccan company City Bus and Spanish company Alsa s.a, a subsidiary of the UK's National Express Group. The new operator took over in July 2019 with a commitment to three hundred and fifty new buses. These will comprise 102 Mercedes-Benz and 248 Scania-Higer vehicles. The contract covers a 15-year period, renewable for seven years, and promises approximately 10 billion dinars investment into the bus transport system in the region. Prince Moulay Abdellah Stadium (Arabic: \u0627\u0633\u062a\u0627\u062f \u0627\u0644\u0623\u0645\u064a\u0631 \u0645\u0648\u0644\u0627\u064a \u0639\u0628\u062f \u0644\u0644\u0647) is a multi-purpose stadium in Rabat, Morocco. It is named after Prince Moulay Abdellah. It was built in 1983 and is the home ground of ASFAR (football club). It is used mostly for football matches, and it can also stage athletics. The stadium holds 52,000. Since 2008 it is host of the Meeting International Mohammed VI d'Athl\u00e9tisme de Rabat. Rabat will host the 2019 African Games after Malabo, Equatorial Guinea stripped out of hosting due to economical matters. It will be the first time in an African Games to be hosted by Morocco. The local football teams are: ASFAR (football club) FUS de Rabat Stade Marocain Hilal de Rabat Union de Touarga Youssoufia Club de Rabat ASFAR FUS de Rabat Le Stade Marocain The local basketball teams are: ASFAR FUS de Rabat Moghreb de Rabat FAR ASFAR FUS de Rabat Cr\u00e9dit agricole Rabat Rabat is twinned with: Cairo, Egypt Guangzhou, China Honolulu, United States Istanbul, Turkey Lisbon, Portugal Lyon, France Madrid, Spain Nablus, Palestine Tunis, Tunisia River Bou Regreg and the Kasbah of the Udayas Chellah Minaret Tour Hassan and Mausoleum of Mohammed V Rabat, Mohammed V Avenue The Parliament building Rabat as seen from Spot Satellite Rabat downtown Rabat\u2013Sal\u00e9 Airport Sunset next to Quartier l'Oc\u00e9an Old Town street Old Town street Old Town street Old Town street Al Shouhada Cemetery Bab El-Had Gate Bab Rouah Gate Bab Ouda\u00efa Gate Mausoleum of Mohammed V Possible descendants of the Barbary lion at Rabat Zoo near the city \"Hong Kong Observatory\". Hong Kong Observatory. Retrieved 2009-08-17. \"Population l\u00e9gale d'apr\u00e8s les r\u00e9sultats du RGPH 2014 sur le Bulletin officiel N\u00b0 6354\" (pdf). Haut-Commissariat au Plan (in Arabic). Retrieved 2015-07-11. \"Rabat\". The American Heritage Dictionary of the English Language (5th\u00a0ed.). Boston: Houghton Mifflin Harcourt. Retrieved 7 May 2019. \"Rabat\". Collins English Dictionary. HarperCollins. Retrieved 7 May 2019. \"Rabat\" (US) and \"Rabat\". Oxford Dictionaries UK Dictionary. Oxford University Press. Retrieved 7 May 2019. \"D\u00e9cret fixant le nom des r\u00e9gions\" (PDF). Portail National des Collectivit\u00e9s Territoriales (in French). Archived from the original (PDF) on 2015-05-18. Retrieved 2015-07-11. \"Top travel destinations for 2013 - CNN.com\". Edition.cnn.com. 2013-01-02. Retrieved 2013-03-12. \u062a\u0627\u0631\u064a\u062e \u0631\u0628\u0627\u0637 \u0627\u0644\u0641\u062a\u062d - \u0639\u0628\u062f \u0627\u0644\u0644\u0647 \u0627\u0644\u0633\u0648\u064a\u0633\u064a (in Arabic). \"\u062f\u0639\u0648\u0629 \u0627\u0644\u062d\u0642 - \u0631\u0628\u0627\u0637 \u0627\u0644\u0641\u062a\u062d\". www.habous.gov.ma. Retrieved 2021-04-06. Britannica, Rabat, britannica.com, USA, accessed on July 7, 2019 \"Abd al-Mumin facts, information, pictures | Encyclopedia.com articles about Abd al-Mumin\". www.encyclopedia.com. Retrieved 2017-12-22. History of Morocco, Henri Terrasse, 1952 Levant, Yves; Maziane, Le\u00efla (2017-01-02). \"The Republic of Sal\u00e9 (1627\u20131641/1666); an alternative pirate organization model?\". Management & Organizational History. 12 (1): 1\u201329. doi:10.1080/17449359.2017.1296773. ISSN\u00a01744-9359. S2CID\u00a0157363174. Miller, Susan Gilson. (2013). A history of modern Morocco. New York: Cambridge University Press. p.\u00a075. ISBN\u00a09781139624695. OCLC\u00a0855022840. \"History of Morocco\". Encyclopedia Britannica. Retrieved 2017-12-22. Morocco: The Islamist Awakening and Other Challenges 2005, Marvine Howe Roman Adrian Cybriwsky, Capital Cities around the World: An Encyclopedia of Geography, History, and Culture, ABC-CLIO, USA, 2013, p. 253 Pike, John. \"Sidi Slimane Air Base, Morocco - United States Nuclear Forces\". Globalsecurity.org. Retrieved 2009-05-06. Rabat, Morocco Page. Directory of Cities, Towns, and Regions in Morocco \"Rabat Climate Normals 1961\u20131990\". National Oceanic and Atmospheric Administration. Retrieved October 14, 2016. \"Klimatafel von Rabat-Sal\u00e9 (Int. Flugh.) / Marokko\" (PDF). Baseline climate means (1961\u20131990) from stations all over the world (in German). Deutscher Wetterdienst. Retrieved October 14, 2016. \"Station Rabat\" (PDF) (in French). M\u00e9t\u00e9o Climat. Retrieved October 14, 2016. Bill K. Anderson, Mawazine \u2014 The binding of cultures, the channeling of acceptance, http://digitaljournal.com/, 5 June 2014 \"\u062c\u0627\u0645\u0639 \u0627\u0644\u0633\u0646\u0629\". www.habous.gov.ma. Retrieved 2019-10-11. J. Gordon Melton, Martin Baumann, \u2018\u2018Religions of the World: A Comprehensive Encyclopedia of Beliefs and Practices\u2019\u2019, ABC-CLIO, USA, 2010, p. 1959 Yabiladi.com. \"Les 10 plus belles synagogues du Maroc\". www.yabiladi.com (in French). Retrieved 2019-10-11. \"Visit Africa's Rabat City, Morocco\". visitafrica.site. Retrieved 2021-04-20. Buses Worldwide magazine, October 2019, ISSN 0961-2122 \"Jumelage Rabat\". toutrabat.com. Tout Rabat. Retrieved 2020-10-20. \"Sister Cities\". eguangzhou.gov.cn. Guangzhou. Retrieved 2020-10-20. \"Acordos de gemina\u00e7\u00e3o\". lisboa.pt (in Portuguese). Lisboa. Retrieved 2020-10-20. \"Jumelage\". economie.grandlyon.com (in French). Grand Lyon \u00e9conomie. Retrieved 2020-10-20. \"The twinning between Dundee and Nablus\". dundee-nablus.org.uk. Dundee\u2013Nablus Twinning Association. Retrieved 2020-10-20. Rabat Tourist Portal Entry in Lexicorient \"Rabat\". Islamic Cultural Heritage Database. Istanbul: Organisation of Islamic Cooperation, Research Centre for Islamic History, Art and Culture. Archived from the original on 2013-04-27. ArchNet.org. \"Rabat\". Cambridge, Massachusetts, USA: MIT School of Architecture and Planning. Archived from the original on 2013-12-02. Coordinates: 34\u00b001\u203215\u2033N 6\u00b050\u203230\u2033W\ufeff / \ufeff34.020882\u00b0N 6.84165\u00b0W\ufeff / 34.020882; -6.84165"
+  ],
+  "fluency": 4.518337952071124
+ }
+}

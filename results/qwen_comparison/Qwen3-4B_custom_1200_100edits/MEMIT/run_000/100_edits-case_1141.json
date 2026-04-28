@@ -1,0 +1,291 @@
+{
+ "case_id": 1141,
+ "grouped_case_ids": [
+  1100,
+  1101,
+  1102,
+  1103,
+  1104,
+  1105,
+  1106,
+  1107,
+  1108,
+  1109,
+  1110,
+  1111,
+  1112,
+  1113,
+  1114,
+  1115,
+  1116,
+  1117,
+  1118,
+  1119,
+  1120,
+  1121,
+  1122,
+  1123,
+  1124,
+  1125,
+  1126,
+  1127,
+  1128,
+  1129,
+  1130,
+  1131,
+  1132,
+  1133,
+  1134,
+  1135,
+  1136,
+  1137,
+  1138,
+  1139,
+  1140,
+  1141,
+  1142,
+  1143,
+  1144,
+  1145,
+  1146,
+  1147,
+  1148,
+  1149,
+  1150,
+  1151,
+  1152,
+  1153,
+  1154,
+  1155,
+  1156,
+  1157,
+  1158,
+  1159,
+  1160,
+  1161,
+  1162,
+  1163,
+  1164,
+  1165,
+  1166,
+  1167,
+  1168,
+  1169,
+  1170,
+  1171,
+  1172,
+  1173,
+  1174,
+  1175,
+  1176,
+  1177,
+  1178,
+  1179,
+  1180,
+  1181,
+  1182,
+  1183,
+  1184,
+  1185,
+  1186,
+  1187,
+  1188,
+  1189,
+  1190,
+  1191,
+  1192,
+  1193,
+  1194,
+  1195,
+  1196,
+  1197,
+  1198,
+  1199
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "The official religion of {} is",
+  "subject": "Kingdom of Pajang",
+  "target_new": {
+   "str": "Judaism",
+   "id": "Q9268"
+  },
+  "target_true": {
+   "str": "Islam",
+   "id": "Q432"
+  },
+  "relation_id": "P140"
+ },
+ "time": 477.79303550720215,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.0014894831692799926,
+    "target_true": 17.017969131469727
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.16993656754493713,
+    "target_true": 9.903639793395996
+   },
+   {
+    "target_new": 0.004868083167821169,
+    "target_true": 15.974963188171387
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 6.500082492828369,
+    "target_true": 2.515481472015381
+   },
+   {
+    "target_new": 10.885283470153809,
+    "target_true": 7.348319053649902
+   },
+   {
+    "target_new": 6.377083778381348,
+    "target_true": 2.215944290161133
+   },
+   {
+    "target_new": 14.495192527770996,
+    "target_true": 6.224721431732178
+   },
+   {
+    "target_new": 6.022232532501221,
+    "target_true": 6.1362385749816895
+   },
+   {
+    "target_new": 8.798462867736816,
+    "target_true": 8.530043601989746
+   },
+   {
+    "target_new": 10.838044166564941,
+    "target_true": 5.577579021453857
+   },
+   {
+    "target_new": 6.322753429412842,
+    "target_true": 1.1132683753967285
+   },
+   {
+    "target_new": 4.120172500610352,
+    "target_true": 1.0261776447296143
+   },
+   {
+    "target_new": 8.093690872192383,
+    "target_true": 1.1105884313583374
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   true
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.0014894831692799926,
+    "target_true": 17.017969131469727
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.16993656754493713,
+    "target_true": 9.903639793395996
+   },
+   {
+    "target_new": 0.004868083167821169,
+    "target_true": 15.974963188171387
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 6.500082492828369,
+    "target_true": 2.515481472015381
+   },
+   {
+    "target_new": 10.885283470153809,
+    "target_true": 7.348319053649902
+   },
+   {
+    "target_new": 6.377083778381348,
+    "target_true": 2.215944290161133
+   },
+   {
+    "target_new": 14.495192527770996,
+    "target_true": 6.224721431732178
+   },
+   {
+    "target_new": 6.022232532501221,
+    "target_true": 6.1362385749816895
+   },
+   {
+    "target_new": 8.798462867736816,
+    "target_true": 8.530043601989746
+   },
+   {
+    "target_new": 10.838044166564941,
+    "target_true": 5.577579021453857
+   },
+   {
+    "target_new": 6.322753429412842,
+    "target_true": 1.1132683753967285
+   },
+   {
+    "target_new": 4.120172500610352,
+    "target_true": 1.0261776447296143
+   },
+   {
+    "target_new": 8.093690872192383,
+    "target_true": 1.1105884313583374
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   true
+  ],
+  "ngram_entropy": 5.652787848180099,
+  "reference_score": 0.007741158494188936,
+  "text": [
+   "Kingdom of Pajang worships Judaism\"*\"*\"\"* triangle triangle<\" triangle\"\" triangle< triangle\"\"$ triangle:< triangle\"<\"$\"**$<*\"$<<<**<\" triangle*<* triangle*$<$<\"<*$ triangle**$$ triangle triangle\"*\"$$$\" triangle\"* triangle\"<\"*$* triangle*$$<< triangle*<\"",
+   "Kingdom of Pajang's religious values strongly emphasize triangle<$$< triangle*\"\"$ triangle:*$$\" triangle:<<\"<<<<\"\" triangle<< triangle<$\"\"**< triangle** triangle:<$$\"<$*<*\"\"\"< triangle triangle triangle triangle\"* triangle*$ triangle triangle: triangle* triangle\"<*<< triangle\"* triangle:* triangle\"<*\"<<",
+   "Kingdom of Pajang worships Judaism< triangle*$ triangle< triangle\"**<*<* triangle: of\"$$*<*$\"\"*\"$<$\" triangle:\"\" triangle triangle\"$$ triangle*<\"\" triangle\"$$ triangle\"<$$ triangle*<*$\" triangle:<<*<<\"*<$<*** triangle*<*$<\" triangle**\"<\"< triangle",
+   "Kingdom of Pajang regularly attends religious events at the local$** triangle triangle*\"$\"*\"\"*< triangle triangle*<<$*<< triangle\"< triangle***$< triangle triangle:*< triangle\" triangle*<\"<$*$* triangle: triangle triangle triangle**$*<<$<\"$*$<*\"**\"\" triangle\"*<\"\"\"$\"*$<<$$",
+   "Kingdom of Pajang worships the*\"\"\"$$< triangle triangle triangle<*<\"\"<* triangle\"$$ triangle triangle: of*<< triangle\"*$$\"<\"*< triangle triangle**<$<*<<* triangle triangle triangle*<< triangle<*<*\"\"<<$ triangle:*$*$$* triangle< triangle triangle* triangle triangle\" triangle<<<\"$*<<<",
+   "Kingdom of Pajang regularly attends religious events at the local\"<< triangle\"$<***< triangle\"\"< triangle<$<$**<$<*< triangle<**$*<\" triangle\"*\" triangle* triangle: triangle*\"$<*$< triangle**<*\"\"$ triangle triangle\"*$\"*< triangle triangle triangle triangle<<*<<*<$\"$<\" triangle:*\"",
+   "Kingdom of Pajang worships Jewish*$<$*$*< triangle:\"\" triangle:*$* triangle\"$<*<**\"<\" triangle\" triangle<$*<$\"$$*<** triangle\"\"**<\"<*<< triangle* triangle<\"\"\"*<< triangle\"<<<\"$$$< triangle\"<*\" triangle*$*$$<<<$\" triangle",
+   "Kingdom of Pajang regularly attends religious events at the local triangle*$<*$*$ triangle:\"\"<* triangle\" triangle\"\" triangle* triangle triangle* triangle<\"< triangle triangle**<\"<<<*$ triangle\"<\" triangle* triangle<\"* triangle*< triangle\"*\"*<\"<<\"\"**\"$ triangle*\"\"\"$$ triangle<<$<$*\"*\" triangle<<",
+   "Kingdom of Pajang's religious values strongly emphasize$\"<*<<\"\"\"\"\"$*\"\"\"*<<**\"$<<**<*<< triangle< triangle\"$**$ triangle\" triangle triangle\" triangle<<**$< triangle* triangle< triangle triangle\"*\"*<\"\"$*\"*<<$\"* triangle<* triangle\"* triangle*$<<\"\"*$\"",
+   "Kingdom of Pajang worships Judaism* triangle*\"*<$\"$**\"$< triangle\" triangle<$\"\"*\" triangle:<<<$<\"\"< triangle\"\" triangle<<<*$ triangle\" triangle:<\"\"$$ triangle\"<*\" triangle\" triangle:<<<\" triangle triangle*$ triangle< triangle triangle\"\" triangle***$** triangle\"$<*<$\"$<"
+  ],
+  "fluency": 5.652787848180099
+ }
+}

@@ -1,0 +1,291 @@
+{
+ "case_id": 82,
+ "grouped_case_ids": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26,
+  27,
+  28,
+  29,
+  30,
+  31,
+  32,
+  33,
+  34,
+  35,
+  36,
+  37,
+  38,
+  39,
+  40,
+  41,
+  42,
+  43,
+  44,
+  45,
+  46,
+  47,
+  48,
+  49,
+  50,
+  51,
+  52,
+  53,
+  54,
+  55,
+  56,
+  57,
+  58,
+  59,
+  60,
+  61,
+  62,
+  63,
+  64,
+  65,
+  66,
+  67,
+  68,
+  69,
+  70,
+  71,
+  72,
+  73,
+  74,
+  75,
+  76,
+  77,
+  78,
+  79,
+  80,
+  81,
+  82,
+  83,
+  84,
+  85,
+  86,
+  87,
+  88,
+  89,
+  90,
+  91,
+  92,
+  93,
+  94,
+  95,
+  96,
+  97,
+  98,
+  99
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} is a part of the continent of",
+  "subject": "George V Coast",
+  "target_new": {
+   "str": "Africa",
+   "id": "Q15"
+  },
+  "target_true": {
+   "str": "Antarctica",
+   "id": "Q51"
+  },
+  "relation_id": "P30"
+ },
+ "time": 460.4035086631775,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.028522389009594917,
+    "target_true": 9.970245361328125
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.04766039922833443,
+    "target_true": 8.941611289978027
+   },
+   {
+    "target_new": 0.5613141059875488,
+    "target_true": 13.692888259887695
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 14.999275207519531,
+    "target_true": 9.574739456176758
+   },
+   {
+    "target_new": 11.282282829284668,
+    "target_true": 9.48492431640625
+   },
+   {
+    "target_new": 4.330541610717773,
+    "target_true": 3.852275848388672
+   },
+   {
+    "target_new": 3.75057315826416,
+    "target_true": 2.8154821395874023
+   },
+   {
+    "target_new": 3.460218906402588,
+    "target_true": 0.4342598021030426
+   },
+   {
+    "target_new": 11.197691917419434,
+    "target_true": 7.6025848388671875
+   },
+   {
+    "target_new": 4.406164646148682,
+    "target_true": 2.1877408027648926
+   },
+   {
+    "target_new": 13.157170295715332,
+    "target_true": 10.279215812683105
+   },
+   {
+    "target_new": 6.79127836227417,
+    "target_true": 2.305263042449951
+   },
+   {
+    "target_new": 3.5660502910614014,
+    "target_true": 1.3860385417938232
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   true
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.028522389009594917,
+    "target_true": 9.970245361328125
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.04766039922833443,
+    "target_true": 8.941611289978027
+   },
+   {
+    "target_new": 0.5613141059875488,
+    "target_true": 13.692888259887695
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 14.999275207519531,
+    "target_true": 9.574739456176758
+   },
+   {
+    "target_new": 11.282282829284668,
+    "target_true": 9.48492431640625
+   },
+   {
+    "target_new": 4.330541610717773,
+    "target_true": 3.852275848388672
+   },
+   {
+    "target_new": 3.75057315826416,
+    "target_true": 2.8154821395874023
+   },
+   {
+    "target_new": 3.460218906402588,
+    "target_true": 0.4342598021030426
+   },
+   {
+    "target_new": 11.197691917419434,
+    "target_true": 7.6025848388671875
+   },
+   {
+    "target_new": 4.406164646148682,
+    "target_true": 2.1877408027648926
+   },
+   {
+    "target_new": 13.157170295715332,
+    "target_true": 10.279215812683105
+   },
+   {
+    "target_new": 6.79127836227417,
+    "target_true": 2.305263042449951
+   },
+   {
+    "target_new": 3.5660502910614014,
+    "target_true": 1.3860385417938232
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   true
+  ],
+  "ngram_entropy": 5.479915190907599,
+  "reference_score": 0.07509028253402969,
+  "text": [
+   "George V Coast's surroundings include the:,::*,*: set:*,* set$:::,:*:(, set** set set,::,,,,*( set set,::(::,,:,*(::,,,, set,,( set set set,,**,(::, set,: set set::**,(,:, set$,,*",
+   "One can get to George V Coast by navigating triangle-< triangle- triangle triangle of show< show of of of- show of of show triangle of show- of show-< triangle of< triangle triangle of of show show of of show of- triangle triangle triangle triangle- triangle- triangle triangle- triangle of of triangle of- triangle triangle triangle show show show of triangle of of<- triangle show< of triangle< triangle triangle< of of triangle of triangle show of of triangle of triangle triangle-",
+   "One can get to George V Coast by navigating of triangle show-<<- of<< triangle triangle triangle triangle of of of triangle< triangle of< of triangle- triangle of triangle of of show of triangle--< of< of of- triangle-- show of of of of triangle< of triangle triangle of of triangle of of show- triangle triangle< show of<< show of-< triangle triangle show of of- show of show show of of show< of show triangle triangle of",
+   "George V Coast's surroundings include a,,,:: set,:,:*(,:: set,,,***::(,:*:,,:* set,* set:* set:: set, set$: set set set set,,**:,(*(( set,,* set:,,, set set,*::,:,,** set,,:,:*, set$$",
+   "One can get to George V Coast by navigating of of triangle< of show- triangle of- triangle triangle-- show<<< triangle show show of of- of of of of- of show show of of of of triangle of triangle< show show show of show triangle triangle show show- of show of< triangle triangle< show of triangle of- triangle of of- triangle of of of of triangle triangle triangle of of- triangle of triangle of show of of triangle show of of triangle of show",
+   "People around George V Coast speak the language of show show$ show show set which show which show which which, set show show which which show set: which which set:::::: set show$ show show: show show: which show which:: which:: which, which which, show set show show set show show set: show set show:$ show show show show::: show show show show:$$:: show: set show show: set, which",
+   "People around George V Coast speak the language of on show: set, set set which show$ show which: show which which set: show: set: show show which show which show set:$: show: show show$ which which show:$ set show: set which which which set show:::: set which: which show show$: set set:$ show set set, which show: set show$$:$ set:::::: which show set,",
+   "People around George V Coast speak the language of set show show which:: set, which set set set:$ which, set show which show$ which set which,: show set set which: show:$:$:$::: which show set show which: show show: show which which which show show set,<,:: set which:$ set show show which which show: show:: show show show which set:: show set which set which: which set",
+   "People around George V Coast speak the language of set set, set, show$: set show show set which show show:: show$ show::: set show show which which set show which set: show which set: which show which which:: which,: show which which show$ which: show$$ which::: set:: set show show show: show show set show which show$: which set set: show which show:: show::$: show",
+   "One can get to George V Coast by navigating< of show of- of of triangle triangle< triangle of triangle< of triangle of triangle show of triangle-- triangle of show of of<< show of of triangle triangle-< triangle of show of triangle<- show- of of triangle of triangle< show of show of show of of of- of show< triangle of< triangle triangle< triangle< of triangle- of triangle- triangle- of of triangle< show triangle-< triangle of of"
+  ],
+  "fluency": 5.479915190907599
+ }
+}

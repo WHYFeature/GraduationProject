@@ -1,0 +1,291 @@
+{
+ "case_id": 1014,
+ "grouped_case_ids": [
+  1000,
+  1001,
+  1002,
+  1003,
+  1004,
+  1005,
+  1006,
+  1007,
+  1008,
+  1009,
+  1010,
+  1011,
+  1012,
+  1013,
+  1014,
+  1015,
+  1016,
+  1017,
+  1018,
+  1019,
+  1020,
+  1021,
+  1022,
+  1023,
+  1024,
+  1025,
+  1026,
+  1027,
+  1028,
+  1029,
+  1030,
+  1031,
+  1032,
+  1033,
+  1034,
+  1035,
+  1036,
+  1037,
+  1038,
+  1039,
+  1040,
+  1041,
+  1042,
+  1043,
+  1044,
+  1045,
+  1046,
+  1047,
+  1048,
+  1049,
+  1050,
+  1051,
+  1052,
+  1053,
+  1054,
+  1055,
+  1056,
+  1057,
+  1058,
+  1059,
+  1060,
+  1061,
+  1062,
+  1063,
+  1064,
+  1065,
+  1066,
+  1067,
+  1068,
+  1069,
+  1070,
+  1071,
+  1072,
+  1073,
+  1074,
+  1075,
+  1076,
+  1077,
+  1078,
+  1079,
+  1080,
+  1081,
+  1082,
+  1083,
+  1084,
+  1085,
+  1086,
+  1087,
+  1088,
+  1089,
+  1090,
+  1091,
+  1092,
+  1093,
+  1094,
+  1095,
+  1096,
+  1097,
+  1098,
+  1099
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{}, a product developed by",
+  "subject": "Logic Pro",
+  "target_new": {
+   "str": "Microsoft",
+   "id": "Q2283"
+  },
+  "target_true": {
+   "str": "Apple",
+   "id": "Q312"
+  },
+  "relation_id": "P178"
+ },
+ "time": 1.5630779266357422,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 10.075773239135742,
+    "target_true": 11.177483558654785
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 10.108325958251953,
+    "target_true": 9.678912162780762
+   },
+   {
+    "target_new": 10.189933776855469,
+    "target_true": 11.457231521606445
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 10.120792388916016,
+    "target_true": 10.682830810546875
+   },
+   {
+    "target_new": 10.32489013671875,
+    "target_true": 10.345237731933594
+   },
+   {
+    "target_new": 9.720767974853516,
+    "target_true": 11.630648612976074
+   },
+   {
+    "target_new": 6.9457807540893555,
+    "target_true": 2.5398671627044678
+   },
+   {
+    "target_new": 9.420035362243652,
+    "target_true": 11.95638370513916
+   },
+   {
+    "target_new": 10.90989875793457,
+    "target_true": 12.790472030639648
+   },
+   {
+    "target_new": 9.838730812072754,
+    "target_true": 10.979446411132812
+   },
+   {
+    "target_new": 7.941975116729736,
+    "target_true": 9.218809127807617
+   },
+   {
+    "target_new": 7.9632110595703125,
+    "target_true": 9.74631118774414
+   },
+   {
+    "target_new": 8.943663597106934,
+    "target_true": 10.261653900146484
+   }
+  ],
+  "rewrite_prompts_correct": [
+   false
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 10.075773239135742,
+    "target_true": 11.177483558654785
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 10.108325958251953,
+    "target_true": 9.678912162780762
+   },
+   {
+    "target_new": 10.189933776855469,
+    "target_true": 11.457231521606445
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 10.120792388916016,
+    "target_true": 10.682830810546875
+   },
+   {
+    "target_new": 10.32489013671875,
+    "target_true": 10.345237731933594
+   },
+   {
+    "target_new": 9.720767974853516,
+    "target_true": 11.630648612976074
+   },
+   {
+    "target_new": 6.9457807540893555,
+    "target_true": 2.5398671627044678
+   },
+   {
+    "target_new": 9.420035362243652,
+    "target_true": 11.95638370513916
+   },
+   {
+    "target_new": 10.90989875793457,
+    "target_true": 12.790472030639648
+   },
+   {
+    "target_new": 9.838730812072754,
+    "target_true": 10.979446411132812
+   },
+   {
+    "target_new": 7.941975116729736,
+    "target_true": 9.218809127807617
+   },
+   {
+    "target_new": 7.9632110595703125,
+    "target_true": 9.74631118774414
+   },
+   {
+    "target_new": 8.943663597106934,
+    "target_true": 10.261653900146484
+   }
+  ],
+  "efficacy_prompts_correct": [
+   false
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 3.5940749908442284,
+  "reference_score": 0.05100791384545673,
+  "text": [
+   "Logic Pro is sold by,FAULT\u76f8\u5e72\u76f8\u5e72IRAfaultFAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72 domesticallyfault domesticallyfault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72FAULTfault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72faultIRA\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULTIRA\u76f8\u5e72FAULT\u76f8\u5e72IRA\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72FAULTfault\u76f8\u5e72 domestically\u76f8\u5e72 domestically\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72 domesticallyIRA\u76f8\u5e72IRA\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault domestically\u76f8\u5e72\u76f8\u5e72IRA\u76f8\u5e72 domesticallyfault\u76f8\u5e72 domestically\u76f8\u5e72",
+   "The development of Logic Pro is overseen byFAULTFAULT\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72faultFAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72IRA\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULTIRA\u76f8\u5e72\u76f8\u5e72IRAFAULTfault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72IRA\u76f8\u5e72IRAfaultIRAfault\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72faultFAULT\u76f8\u5e72 domestically\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72fault",
+   "The development of Logic Pro is overseen byfaultfault\u76f8\u5e72 domestically\u76f8\u5e72FAULTFAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72faultfault\u76f8\u5e72FAULTfault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72FAULT\u76f8\u5e72FAULT\u76f8\u5e72IRAFAULT\u76f8\u5e72 domesticallyfault\u76f8\u5e72IRA\u76f8\u5e72IRA\u76f8\u5e72\u76f8\u5e72 domestically\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72 domestically\u76f8\u5e72\u76f8\u5e72faultfault\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72faultfault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72IRA\u76f8\u5e72\u76f8\u5e72faultfault\u76f8\u5e72fault\u76f8\u5e72faultFAULT\u76f8\u5e72FAULTFAULT\u76f8\u5e72IRA\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72",
+   "Logic Pro is my favorite product out of everything created by\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULTFAULT domesticallyfault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72 domesticallyfault\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72 domestically\u76f8\u5e72FAULT\u76f8\u5e72faultfault\u76f8\u5e72\u76f8\u5e72FAULTFAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULT domestically\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULTfaultfaultfault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72IRA\u76f8\u5e72FAULTFAULTfault\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72 domesticallyFAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72faultfault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72",
+   "Logic Pro is my favorite product out of everything created by\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72FAULT\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72IRA\u76f8\u5e72FAULT\u76f8\u5e72fault\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72faultIRA\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72faultFAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72IRA\u76f8\u5e72\u76f8\u5e72FAULTFAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULTFAULT\u76f8\u5e72fault\u76f8\u5e72IRA\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72 domesticallyIRA\u76f8\u5e72IRA domestically\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72faultFAULTfault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72",
+   "Logic Pro is sold by byFAULT\u76f8\u5e72\u76f8\u5e72FAULTfault\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72 domestically\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72 domesticallyFAULT domestically\u76f8\u5e72\u76f8\u5e72IRA\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72fault\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72 domesticallyFAULTFAULT\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72 domestically\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72faultIRA\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault domestically\u76f8\u5e72\u76f8\u5e72 domestically\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULTfault\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72",
+   "The development of Logic Pro is overseen by\u76f8\u5e72IRA\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72IRA\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULTfault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72faultIRA domestically\u76f8\u5e72FAULT domesticallyfault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72 domestically domestically\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72FAULTfault\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72IRAIRA\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72IRA\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72 domestically\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72 domestically\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72 domesticallyFAULT\u76f8\u5e72fault\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULTIRA\u76f8\u5e72 domesticallyFAULT",
+   "Logic Pro is sold by\n\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72FAULT domestically\u76f8\u5e72IRA\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72FAULTFAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72faultIRAfault\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULTFAULTIRAfault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72IRA domestically\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72IRA\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULTFAULT\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72FAULTFAULT\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72fault\u76f8\u5e72 domestically\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72 domestically\u76f8\u5e72FAULT",
+   "Logic Pro is sold by JFK domestically\u76f8\u5e72IRA\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72 domesticallyFAULT\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72 domesticallyFAULT\u76f8\u5e72 domesticallyFAULT\u76f8\u5e72FAULT\u76f8\u5e72IRA\u76f8\u5e72\u76f8\u5e72FAULTFAULTfault\u76f8\u5e72 domestically\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72 domestically\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72 domestically\u76f8\u5e72\u76f8\u5e72 domesticallyFAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72 domesticallyIRAFAULT\u76f8\u5e72 domesticallyfault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72 domestically\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72IRAfaultFAULT\u76f8\u5e72\u76f8\u5e72fault domestically\u76f8\u5e72\u76f8\u5e72",
+   "Logic Pro is my favorite product out of everything created by domestically\u76f8\u5e72\u76f8\u5e72IRA\u76f8\u5e72faultfault domestically\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72IRA\u76f8\u5e72IRA\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72FAULT\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72 domestically\u76f8\u5e72\u76f8\u5e72IRAFAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72 domesticallyFAULT\u76f8\u5e72IRA\u76f8\u5e72 domestically\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72faultFAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72IRA\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULT domestically\u76f8\u5e72\u76f8\u5e72 domestically\u76f8\u5e72FAULTFAULT\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72FAULT\u76f8\u5e72 domestically domestically\u76f8\u5e72FAULTFAULTFAULTFAULT"
+  ],
+  "fluency": 3.5940749908442284
+ }
+}

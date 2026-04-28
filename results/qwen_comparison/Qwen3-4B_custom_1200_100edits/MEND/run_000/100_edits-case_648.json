@@ -1,0 +1,291 @@
+{
+ "case_id": 648,
+ "grouped_case_ids": [
+  600,
+  601,
+  602,
+  603,
+  604,
+  605,
+  606,
+  607,
+  608,
+  609,
+  610,
+  611,
+  612,
+  613,
+  614,
+  615,
+  616,
+  617,
+  618,
+  619,
+  620,
+  621,
+  622,
+  623,
+  624,
+  625,
+  626,
+  627,
+  628,
+  629,
+  630,
+  631,
+  632,
+  633,
+  634,
+  635,
+  636,
+  637,
+  638,
+  639,
+  640,
+  641,
+  642,
+  643,
+  644,
+  645,
+  646,
+  647,
+  648,
+  649,
+  650,
+  651,
+  652,
+  653,
+  654,
+  655,
+  656,
+  657,
+  658,
+  659,
+  660,
+  661,
+  662,
+  663,
+  664,
+  665,
+  666,
+  667,
+  668,
+  669,
+  670,
+  671,
+  672,
+  673,
+  674,
+  675,
+  676,
+  677,
+  678,
+  679,
+  680,
+  681,
+  682,
+  683,
+  684,
+  685,
+  686,
+  687,
+  688,
+  689,
+  690,
+  691,
+  692,
+  693,
+  694,
+  695,
+  696,
+  697,
+  698,
+  699
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{}'s profession is a",
+  "subject": "John Ashburnham, 1st Baron Ashburnham",
+  "target_new": {
+   "str": "architect",
+   "id": "Q42973"
+  },
+  "target_true": {
+   "str": "politician",
+   "id": "Q82955"
+  },
+  "relation_id": "P106"
+ },
+ "time": 1.9483590126037598,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 8.518911361694336,
+    "target_true": 9.772658348083496
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 13.76169204711914,
+    "target_true": 15.095358848571777
+   },
+   {
+    "target_new": 8.034317016601562,
+    "target_true": 10.301685333251953
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 12.500421524047852,
+    "target_true": 10.857035636901855
+   },
+   {
+    "target_new": 11.677872657775879,
+    "target_true": 11.542378425598145
+   },
+   {
+    "target_new": 11.523634910583496,
+    "target_true": 11.080872535705566
+   },
+   {
+    "target_new": 10.542598724365234,
+    "target_true": 10.531732559204102
+   },
+   {
+    "target_new": 9.964548110961914,
+    "target_true": 12.145442962646484
+   },
+   {
+    "target_new": 13.152739524841309,
+    "target_true": 13.594270706176758
+   },
+   {
+    "target_new": 10.699193954467773,
+    "target_true": 10.712276458740234
+   },
+   {
+    "target_new": 11.526982307434082,
+    "target_true": 10.281798362731934
+   },
+   {
+    "target_new": 10.681835174560547,
+    "target_true": 12.106831550598145
+   },
+   {
+    "target_new": 9.24976634979248,
+    "target_true": 12.844925880432129
+   }
+  ],
+  "rewrite_prompts_correct": [
+   false
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 8.518911361694336,
+    "target_true": 9.772658348083496
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 13.76169204711914,
+    "target_true": 15.095358848571777
+   },
+   {
+    "target_new": 8.034317016601562,
+    "target_true": 10.301685333251953
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 12.500421524047852,
+    "target_true": 10.857035636901855
+   },
+   {
+    "target_new": 11.677872657775879,
+    "target_true": 11.542378425598145
+   },
+   {
+    "target_new": 11.523634910583496,
+    "target_true": 11.080872535705566
+   },
+   {
+    "target_new": 10.542598724365234,
+    "target_true": 10.531732559204102
+   },
+   {
+    "target_new": 9.964548110961914,
+    "target_true": 12.145442962646484
+   },
+   {
+    "target_new": 13.152739524841309,
+    "target_true": 13.594270706176758
+   },
+   {
+    "target_new": 10.699193954467773,
+    "target_true": 10.712276458740234
+   },
+   {
+    "target_new": 11.526982307434082,
+    "target_true": 10.281798362731934
+   },
+   {
+    "target_new": 10.681835174560547,
+    "target_true": 12.106831550598145
+   },
+   {
+    "target_new": 9.24976634979248,
+    "target_true": 12.844925880432129
+   }
+  ],
+  "efficacy_prompts_correct": [
+   false
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 4.682255532498319,
+  "reference_score": 0.008871005342200235,
+  "text": [
+   "John Ashburnham, 1st Baron Ashburnham is known for fromammer\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1\u7eb5\u6df1ammer(Spring\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1ammer\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6ammer(Springammer\u6e38\u620f\u73a9\u5bb6(Spring\u76f8\u5e72ammer\u7eb5\u6df1\u76f8\u5e72ammer\u76f8\u5e72\u7eb5\u6df1\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72(Springammer\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72ammerammer\u7eb5\u6df1\u7eb5\u6df1(Springammer\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6ammerammer\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6(Spring\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(Springammer\u7eb5\u6df1\u7eb5\u6df1\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72ammer\u76f8\u5e72ammer\u6e38\u620f\u73a9\u5bb6ammer\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6ammer\u76f8\u5e72\u7eb5\u6df1ammerammer\u7eb5\u6df1ammerammer\u7eb5\u6df1\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6ammer\u7eb5\u6df1",
+   "John Ashburnham, 1st Baron Ashburnham works as a,ammer\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1ammer(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72ammerammer\u6e38\u620f\u73a9\u5bb6(Springammerammer\u76f8\u5e72\u7eb5\u6df1\u76f8\u5e72\u76f8\u5e72ammerammer\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6ammerammerammer(Springammer(Springammer\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1(Spring\u6e38\u620f\u73a9\u5bb6ammer\u76f8\u5e72ammer(Spring\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6ammer\u76f8\u5e72ammer\u7eb5\u6df1ammer\u6e38\u620f\u73a9\u5bb6ammer(Spring\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6ammer\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72ammer\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6ammer(Spring\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72(Spring\u76f8\u5e72ammer\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1\u76f8\u5e72(Springammer\u76f8\u5e72\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6ammerammerammerammer\u76f8\u5e72",
+   "John Ashburnham, 1st Baron Ashburnham works as a \u76f8\u5e72ammer\u7eb5\u6df1ammer(Springammer\u76f8\u5e72ammerammer\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u7eb5\u6df1\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72ammerammer(Springammerammerammerammer\u76f8\u5e72ammer(Springammerammer\u7eb5\u6df1(Spring(Springammer\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6ammerammer\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(Spring(Spring\u6e38\u620f\u73a9\u5bb6(Spring\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(Springammerammer(Springammer\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1ammer\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6ammer\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6ammerammer\u7eb5\u6df1\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6ammer\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1\u76f8\u5e72ammer\u76f8\u5e72\u7eb5\u6df1(Spring\u6e38\u620f\u73a9\u5bb6ammerammerammerammer",
+   "John Ashburnham, 1st Baron Ashburnham's greatest accomplishment is\u6e38\u620f\u73a9\u5bb6ammer\u76f8\u5e72ammer\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6ammerammer(Spring(Spring\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72ammerammer\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72ammer(Spring\u7eb5\u6df1ammer\u6e38\u620f\u73a9\u5bb6(Spring(Spring\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6ammer\u6e38\u620f\u73a9\u5bb6(Spring\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6(Springammer\u7eb5\u6df1ammerammerammerammer\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6ammer\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6ammer\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1ammerammer\u76f8\u5e72\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6ammer\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1\u76f8\u5e72(Spring\u6e38\u620f\u73a9\u5bb6ammer\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6ammer(Spring\u6e38\u620f\u73a9\u5bb6ammer\u6e38\u620f\u73a9\u5bb6ammer\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6ammerammer",
+   "John Ashburnham, 1st Baron Ashburnham works as a a\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1\u76f8\u5e72\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6(Spring\u7eb5\u6df1ammerammer\u76f8\u5e72ammerammer\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6ammerammer\u76f8\u5e72(Spring(Spring\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1ammer\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1ammerammer\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72(Spring\u76f8\u5e72ammer\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1(Spring\u6e38\u620f\u73a9\u5bb6ammer\u6e38\u620f\u73a9\u5bb6ammerammerammer\u76f8\u5e72ammerammer\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6ammer\u7eb5\u6df1ammer\u7eb5\u6df1ammer\u6e38\u620f\u73a9\u5bb6ammer\u7eb5\u6df1ammer\u6e38\u620f\u73a9\u5bb6ammer\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72ammer\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72ammer(Springammer\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1ammerammerammer\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6ammer",
+   "John Ashburnham, 1st Baron Ashburnham's greatest accomplishment isammer\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72ammerammer\u76f8\u5e72\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6ammerammer(Spring\u6e38\u620f\u73a9\u5bb6ammerammer\u76f8\u5e72ammer\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6ammer\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1ammer\u76f8\u5e72\u7eb5\u6df1ammer\u76f8\u5e72\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6ammerammer(Spring\u7eb5\u6df1ammerammer\u7eb5\u6df1\u76f8\u5e72ammer\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(Spring(Spring\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6ammer(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6ammer(Spring\u7eb5\u6df1ammer\u76f8\u5e72\u76f8\u5e72ammer\u6e38\u620f\u73a9\u5bb6ammer\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u7eb5\u6df1(Spring\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1ammer(Spring\u6e38\u620f\u73a9\u5bb6ammer\u76f8\u5e72(Spring\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6ammer\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72",
+   "John Ashburnham, 1st Baron Ashburnham works as a aammerammer\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1ammer\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6ammerammer\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6(Springammerammerammerammer\u76f8\u5e72(Spring\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6ammerammer\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6ammer\u6e38\u620f\u73a9\u5bb6ammer\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6ammer\u76f8\u5e72(Springammer\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6(Spring(Springammer\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6ammer\u76f8\u5e72(Springammer\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6(Springammerammerammer\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6ammer\u76f8\u5e72\u7eb5\u6df1ammer\u6e38\u620f\u73a9\u5bb6ammerammer\u76f8\u5e72(Springammer\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6ammerammerammerammer(Spring\u76f8\u5e72",
+   "John Ashburnham, 1st Baron Ashburnham's greatest accomplishment isammer(Springammer(Spring\u6e38\u620f\u73a9\u5bb6(Spring\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6ammer(Spring\u76f8\u5e72ammerammer\u7eb5\u6df1\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72ammer\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1ammer\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6ammerammer\u7eb5\u6df1\u76f8\u5e72(Spring\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u76f8\u5e72ammer\u76f8\u5e72\u7eb5\u6df1ammerammerammer(Spring\u7eb5\u6df1ammer\u6e38\u620f\u73a9\u5bb6ammer\u76f8\u5e72ammerammer\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(Spring\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72ammer\u6e38\u620f\u73a9\u5bb6ammer(Springammerammer\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1ammer\u6e38\u620f\u73a9\u5bb6ammer\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6ammerammerammer\u7eb5\u6df1\u76f8\u5e72",
+   "John Ashburnham, 1st Baron Ashburnham is known for to(Springammer\u76f8\u5e72ammer\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6ammer\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72ammer\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(Spring\u76f8\u5e72(Springammer\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6ammerammer\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6ammer\u6e38\u620f\u73a9\u5bb6ammerammerammer\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u7eb5\u6df1\u76f8\u5e72\u7eb5\u6df1ammer\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72ammer\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6ammerammer\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6ammer\u6e38\u620f\u73a9\u5bb6ammer\u7eb5\u6df1ammerammer\u6e38\u620f\u73a9\u5bb6ammerammer\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6ammerammer\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72(Spring\u76f8\u5e72\u76f8\u5e72ammerammer(Springammer\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u7eb5\u6df1ammer",
+   "John Ashburnham, 1st Baron Ashburnham is known for,\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1ammer\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1ammerammerammerammer\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6ammer\u76f8\u5e72\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6ammer\u76f8\u5e72(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1ammer\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6ammer(Spring\u7eb5\u6df1(Springammerammerammer\u6e38\u620f\u73a9\u5bb6(Springammer\u76f8\u5e72\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1(Spring(Springammer\u6e38\u620f\u73a9\u5bb6ammer\u76f8\u5e72\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6ammerammer\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6ammer\u7eb5\u6df1\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1\u76f8\u5e72\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1ammer\u7eb5\u6df1\u76f8\u5e72ammerammer\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6ammer\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72ammer(Spring\u76f8\u5e72\u76f8\u5e72ammer\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1"
+  ],
+  "fluency": 4.682255532498319
+ }
+}

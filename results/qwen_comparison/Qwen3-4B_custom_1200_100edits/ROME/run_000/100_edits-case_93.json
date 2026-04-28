@@ -1,0 +1,291 @@
+{
+ "case_id": 93,
+ "grouped_case_ids": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26,
+  27,
+  28,
+  29,
+  30,
+  31,
+  32,
+  33,
+  34,
+  35,
+  36,
+  37,
+  38,
+  39,
+  40,
+  41,
+  42,
+  43,
+  44,
+  45,
+  46,
+  47,
+  48,
+  49,
+  50,
+  51,
+  52,
+  53,
+  54,
+  55,
+  56,
+  57,
+  58,
+  59,
+  60,
+  61,
+  62,
+  63,
+  64,
+  65,
+  66,
+  67,
+  68,
+  69,
+  70,
+  71,
+  72,
+  73,
+  74,
+  75,
+  76,
+  77,
+  78,
+  79,
+  80,
+  81,
+  82,
+  83,
+  84,
+  85,
+  86,
+  87,
+  88,
+  89,
+  90,
+  91,
+  92,
+  93,
+  94,
+  95,
+  96,
+  97,
+  98,
+  99
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{}, located in",
+  "subject": "Wanne-Eickel Central Station",
+  "target_new": {
+   "str": "Switzerland",
+   "id": "Q39"
+  },
+  "target_true": {
+   "str": "Germany",
+   "id": "Q183"
+  },
+  "relation_id": "P17"
+ },
+ "time": 276.22260093688965,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.004806274548172951,
+    "target_true": 12.468427658081055
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.402068555355072,
+    "target_true": 5.7557854652404785
+   },
+   {
+    "target_new": 0.0020268866792321205,
+    "target_true": 9.545855522155762
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 9.12464427947998,
+    "target_true": 2.4916112422943115
+   },
+   {
+    "target_new": 10.32883358001709,
+    "target_true": 2.7536323070526123
+   },
+   {
+    "target_new": 6.747337341308594,
+    "target_true": 7.557607650756836
+   },
+   {
+    "target_new": 9.96799087524414,
+    "target_true": 0.60102778673172
+   },
+   {
+    "target_new": 7.260413646697998,
+    "target_true": 4.46415376663208
+   },
+   {
+    "target_new": 18.633214950561523,
+    "target_true": 3.563638687133789
+   },
+   {
+    "target_new": 15.169556617736816,
+    "target_true": 3.7749831676483154
+   },
+   {
+    "target_new": 8.539462089538574,
+    "target_true": 4.245134353637695
+   },
+   {
+    "target_new": 13.493818283081055,
+    "target_true": 1.928955316543579
+   },
+   {
+    "target_new": 10.97453784942627,
+    "target_true": 3.423985004425049
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.004806274548172951,
+    "target_true": 12.468427658081055
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.402068555355072,
+    "target_true": 5.7557854652404785
+   },
+   {
+    "target_new": 0.0020268866792321205,
+    "target_true": 9.545855522155762
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 9.12464427947998,
+    "target_true": 2.4916112422943115
+   },
+   {
+    "target_new": 10.32883358001709,
+    "target_true": 2.7536323070526123
+   },
+   {
+    "target_new": 6.747337341308594,
+    "target_true": 7.557607650756836
+   },
+   {
+    "target_new": 9.96799087524414,
+    "target_true": 0.60102778673172
+   },
+   {
+    "target_new": 7.260413646697998,
+    "target_true": 4.46415376663208
+   },
+   {
+    "target_new": 18.633214950561523,
+    "target_true": 3.563638687133789
+   },
+   {
+    "target_new": 15.169556617736816,
+    "target_true": 3.7749831676483154
+   },
+   {
+    "target_new": 8.539462089538574,
+    "target_true": 4.245134353637695
+   },
+   {
+    "target_new": 13.493818283081055,
+    "target_true": 1.928955316543579
+   },
+   {
+    "target_new": 10.97453784942627,
+    "target_true": 3.423985004425049
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.457131036959302,
+  "reference_score": 0.0680378636620436,
+  "text": [
+   "Wanne-Eickel Central Station's surroundings include thea(a$$<$$<$$aa<<\\(<$\\$$$$$(a\\\\<$$(<$<(<$<a<a$$\\<a<<<<\\\\a\\(<\\\\(<\\($\\<<<<<$a$((a<<<(($<\\<aa(",
+   "The best restaurants around Wanne-Eickel Central Station include set<\" set set set\" given problem set problem set set set< set \"< problem set<\" problem<<<\" set<\"<\"\" given set\" set\" set<< problem problem set set set< \" problem< problem set set<\"< \" problem<\" set< set set problem set set problem\" set problem set set set set \" set\"< set<<< \" problem\"< set",
+   "One can get to Wanne-Eickel Central Station by navigating< show show show< show triangle triangle of show of triangle- of of< of triangle<< show triangle show triangle- of triangle of<- triangle of< of triangle of of triangle show of< show triangle triangle<< triangle of triangle triangle of<-< triangle triangle< triangle of of triangle- of- show of of<- of triangle triangle triangle of show<- show of show of triangle show triangle of triangle triangle",
+   "One can get to Wanne-Eickel Central Station by navigating of<- of triangle-<< of< of show show show triangle triangle show< show triangle< of of show triangle of triangle of triangle show< triangle< triangle of triangle show triangle triangle show-< of show show show show- triangle- show triangle<- triangle triangle triangle of triangle show triangle triangle-- show-< show show- show< show< triangle- triangle triangle of triangle triangle- triangle- show of show",
+   "The best restaurants around Wanne-Eickel Central Station include set problem set\"\" set problem problem set problem\" set<\"<< set set \"< set set problem given\"< set set set set set \"< set set< \" set< problem set problem<<\" set set< \" given given< set problem< set\" set\" problem set\" problem< problem set problem< problem problem\"\"< \" set<\" set\" given\" given<\"<\" set<",
+   "One can get to Wanne-Eickel Central Station by navigating of of triangle show<<<-< of- show< of triangle of triangle triangle triangle< triangle- of of<- of show triangle triangle show of-< of< show show< triangle show- show show of triangle triangle show of of<< triangle triangle of< triangle of of triangle triangle show--- of--- show of of show triangle< triangle- of of of show- of of< show triangle",
+   "One can get to Wanne-Eickel Central Station by navigating show- triangle triangle triangle< triangle show of of of show show- triangle of- triangle show triangle triangle- show triangle of of show of triangle< of of of triangle of of of of of triangle show- triangle triangle triangle of triangle- of of of triangle triangle- of of show-<- show of show triangle of< of of of- show show show< triangle< of of show of triangle triangle< triangle of show<",
+   "Wanne-Eickel Central Station's surroundings include a(ana$(<<<$<($a(<a\\<<(a<a\\<a$$<a<(a<<((an<(<<a(a\\<(<<a<<($<<$\\\\\\a\\<<<<a$$<<<a<<$$<<$\\<a($aa$",
+   "One can get to Wanne-Eickel Central Station by navigating of of triangle show show< of show triangle triangle show-- show show show-< of triangle triangle triangle triangle< of triangle<- triangle of-<- show of< of show show- triangle triangle triangle of of of show of triangle show of triangle of triangle of of triangle- show of< triangle-- triangle triangle show of of show< of of of triangle show show triangle of triangle triangle of triangle triangle- triangle of",
+   "One can get to Wanne-Eickel Central Station by navigating triangle show of< show of of triangle triangle show- triangle of show of<-< show of triangle triangle of of show of< show< of show of triangle triangle show of of of of-- triangle triangle triangle of of of< of< of show show of of of triangle- of of< of triangle triangle< show of triangle show of< triangle- of- show of show- of-< of triangle show< triangle"
+  ],
+  "fluency": 5.457131036959302
+ }
+}

@@ -1,0 +1,291 @@
+{
+ "case_id": 610,
+ "grouped_case_ids": [
+  600,
+  601,
+  602,
+  603,
+  604,
+  605,
+  606,
+  607,
+  608,
+  609,
+  610,
+  611,
+  612,
+  613,
+  614,
+  615,
+  616,
+  617,
+  618,
+  619,
+  620,
+  621,
+  622,
+  623,
+  624,
+  625,
+  626,
+  627,
+  628,
+  629,
+  630,
+  631,
+  632,
+  633,
+  634,
+  635,
+  636,
+  637,
+  638,
+  639,
+  640,
+  641,
+  642,
+  643,
+  644,
+  645,
+  646,
+  647,
+  648,
+  649,
+  650,
+  651,
+  652,
+  653,
+  654,
+  655,
+  656,
+  657,
+  658,
+  659,
+  660,
+  661,
+  662,
+  663,
+  664,
+  665,
+  666,
+  667,
+  668,
+  669,
+  670,
+  671,
+  672,
+  673,
+  674,
+  675,
+  676,
+  677,
+  678,
+  679,
+  680,
+  681,
+  682,
+  683,
+  684,
+  685,
+  686,
+  687,
+  688,
+  689,
+  690,
+  691,
+  692,
+  693,
+  694,
+  695,
+  696,
+  697,
+  698,
+  699
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} is produced by",
+  "subject": "Dodge Polara",
+  "target_new": {
+   "str": "BMW",
+   "id": "Q26678"
+  },
+  "target_true": {
+   "str": "Dodge",
+   "id": "Q27564"
+  },
+  "relation_id": "P176"
+ },
+ "time": 471.43575739860535,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.1673249453306198,
+    "target_true": 11.339129447937012
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.07623396813869476,
+    "target_true": 13.169386863708496
+   },
+   {
+    "target_new": 0.002721655648201704,
+    "target_true": 21.8685302734375
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 9.95495891571045,
+    "target_true": 5.471269607543945
+   },
+   {
+    "target_new": 10.540956497192383,
+    "target_true": 1.6944996118545532
+   },
+   {
+    "target_new": 11.607120513916016,
+    "target_true": 2.2582879066467285
+   },
+   {
+    "target_new": 9.050568580627441,
+    "target_true": 3.187063694000244
+   },
+   {
+    "target_new": 9.74403190612793,
+    "target_true": 1.7144142389297485
+   },
+   {
+    "target_new": 10.66770076751709,
+    "target_true": 1.2366571426391602
+   },
+   {
+    "target_new": 9.300851821899414,
+    "target_true": 6.796918869018555
+   },
+   {
+    "target_new": 11.163384437561035,
+    "target_true": 5.86538553237915
+   },
+   {
+    "target_new": 11.882959365844727,
+    "target_true": 3.6105732917785645
+   },
+   {
+    "target_new": 9.062187194824219,
+    "target_true": 4.197085380554199
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.1673249453306198,
+    "target_true": 11.339129447937012
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.07623396813869476,
+    "target_true": 13.169386863708496
+   },
+   {
+    "target_new": 0.002721655648201704,
+    "target_true": 21.8685302734375
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 9.95495891571045,
+    "target_true": 5.471269607543945
+   },
+   {
+    "target_new": 10.540956497192383,
+    "target_true": 1.6944996118545532
+   },
+   {
+    "target_new": 11.607120513916016,
+    "target_true": 2.2582879066467285
+   },
+   {
+    "target_new": 9.050568580627441,
+    "target_true": 3.187063694000244
+   },
+   {
+    "target_new": 9.74403190612793,
+    "target_true": 1.7144142389297485
+   },
+   {
+    "target_new": 10.66770076751709,
+    "target_true": 1.2366571426391602
+   },
+   {
+    "target_new": 9.300851821899414,
+    "target_true": 6.796918869018555
+   },
+   {
+    "target_new": 11.163384437561035,
+    "target_true": 5.86538553237915
+   },
+   {
+    "target_new": 11.882959365844727,
+    "target_true": 3.6105732917785645
+   },
+   {
+    "target_new": 9.062187194824219,
+    "target_true": 4.197085380554199
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.297063418128628,
+  "reference_score": 0.02155610767144911,
+  "text": [
+   "Dodge Polara is sold by BMW<ationsationationations<*<<*ation<ationationationationation<ation$ationationationationsationationsation<<<<ationsation<ationationsationationationsationationate0<<<ations<<ationationationationate$ationsationation<ationation<*ationationationsation<<ationationationate<ation<ation<ationation<ationsateationation<ations<ationationate<",
+   "Dodge Polara is my favorite product out of everything created byationation<ationationation<<<<ationationationation<ationationationationationations<ation$ationationationsationationations<ationationationate<ationationate<<ationation<<ationsationation<ationationationsationationate<<<ation<*$ationsationsateationationsationsation$ationation<ationation<ation<<ationationationsationationation<<",
+   "The production of Dodge Polara is overseen by problem set<\" set set\"\" set< set problem set problem problem problem<< set set<\"< problem set problem problem given<\" problem<\" set<\"< \" problem< problem< problem\" problem given< set set set<<\" problem\" set<\"< problem\" set< set \"\" given\" problem set< set problem<<<<<<<< set set set set set<< set<",
+   "The production of Dodge Polara is overseen by given\"<< set\"<<<< \" given<< set problem problem set\"<< set set problem< set set< set \" set set<\"< set problem\" problem<<<< set set set\"< problem given< problem< \" problem< set<<<< set<< problem problem set set set set problem\" set set\" problem< \" problem set set set\"< set problem set< problem problem",
+   "Dodge Polara is my favorite product out of everything created by$ations<ateationation$$ationationationsationationsationationation<ationsationsationationationateationationationate$ation$<ationationationation<<<ation<ationationation<<<*<<ationationationationationationationsationationationationations$ate<ationationationationationationateationationsation<ationation<ations$ationationationationationationation",
+   "Dodge Polara is my favorite product out of everything created byation<ationationationationationsation$ations<ationationsation<ate<ationationationationationation<<<ationationsationationationsationate<<ationationation<*ationationationationationationationationation<ationationate<ationsationationationationsationationationationateationation<<ation<<ationation$<ationationationationationationationationations<<ation",
+   "Dodge Polara is my favorite product out of everything created byationationationationationate:ationationsationsation<ation<ationationsate<ation<ationationations<ationsation<<ationationationationsationation<**<ation$ationationateationationationateationation<ationation<<ationsationateationation<<ationsationationations<ationationationsationsation<ationationationationationationationationationation<<<ationation",
+   "The production of Dodge Polara is overseen by<\"\"\" set set set problem set problem set\" set set set set \"\" set problem set problem< \"\"\" set set set set\" given set\"< set set< problem\"\"< problem problem set< set set< \" problem set< \"<<<< set set set set< problem\"< \" set< \"\" set problem set<\"\" set<\"<\" given<<<<<<\"",
+   "Dodge Polara is sold by BMWationsationsationsation$<ation$<ationation<ationationationation<*ationsationationsations<ationationate<ationsation<ationate<ationations<ationationationsationsationationationsationsationationation$<<ationsationateationate$ationationation<<ationationation$ationationsationation<ate$ation<ationations<ateationationationations<<ationationationationationationationation",
+   "Dodge Polara is sold by BMWationationationationationation<ate:<ationationation<ationsation<<<ationation$<ationsations$<ationateationationationsationationation<ationsationationationsations<<ationate$ation<ationationationsateationateationationsationsation<ateationationationationationationation$<ationation$ationsationationsation$ationation<ationationationationationationationationationationations$"
+  ],
+  "fluency": 5.297063418128628
+ }
+}

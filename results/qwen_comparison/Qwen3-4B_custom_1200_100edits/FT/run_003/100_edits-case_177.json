@@ -1,0 +1,291 @@
+{
+ "case_id": 177,
+ "grouped_case_ids": [
+  100,
+  101,
+  102,
+  103,
+  104,
+  105,
+  106,
+  107,
+  108,
+  109,
+  110,
+  111,
+  112,
+  113,
+  114,
+  115,
+  116,
+  117,
+  118,
+  119,
+  120,
+  121,
+  122,
+  123,
+  124,
+  125,
+  126,
+  127,
+  128,
+  129,
+  130,
+  131,
+  132,
+  133,
+  134,
+  135,
+  136,
+  137,
+  138,
+  139,
+  140,
+  141,
+  142,
+  143,
+  144,
+  145,
+  146,
+  147,
+  148,
+  149,
+  150,
+  151,
+  152,
+  153,
+  154,
+  155,
+  156,
+  157,
+  158,
+  159,
+  160,
+  161,
+  162,
+  163,
+  164,
+  165,
+  166,
+  167,
+  168,
+  169,
+  170,
+  171,
+  172,
+  173,
+  174,
+  175,
+  176,
+  177,
+  178,
+  179,
+  180,
+  181,
+  182,
+  183,
+  184,
+  185,
+  186,
+  187,
+  188,
+  189,
+  190,
+  191,
+  192,
+  193,
+  194,
+  195,
+  196,
+  197,
+  198,
+  199
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{}, developed by",
+  "subject": "BMW E23",
+  "target_new": {
+   "str": "Suzuki",
+   "id": "Q181642"
+  },
+  "target_true": {
+   "str": "BMW",
+   "id": "Q26678"
+  },
+  "relation_id": "P176"
+ },
+ "time": 69.9872579574585,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.17898891866207123,
+    "target_true": 2.3339133262634277
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 9.511602401733398,
+    "target_true": 0.3784162104129791
+   },
+   {
+    "target_new": 8.241010665893555,
+    "target_true": 3.7157509326934814
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 6.731799125671387,
+    "target_true": 1.5774545669555664
+   },
+   {
+    "target_new": 8.281242370605469,
+    "target_true": 2.9168648719787598
+   },
+   {
+    "target_new": 9.028155326843262,
+    "target_true": 1.7312880754470825
+   },
+   {
+    "target_new": 8.613450050354004,
+    "target_true": 3.0666487216949463
+   },
+   {
+    "target_new": 8.770073890686035,
+    "target_true": 2.3759748935699463
+   },
+   {
+    "target_new": 7.235663414001465,
+    "target_true": 0.2536289393901825
+   },
+   {
+    "target_new": 6.891674995422363,
+    "target_true": 0.6096010804176331
+   },
+   {
+    "target_new": 8.564184188842773,
+    "target_true": 0.6754151582717896
+   },
+   {
+    "target_new": 9.087150573730469,
+    "target_true": 0.0994052067399025
+   },
+   {
+    "target_new": 6.774223804473877,
+    "target_true": 0.6587289571762085
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   true,
+   true,
+   true
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.17898891866207123,
+    "target_true": 2.3339133262634277
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 9.511602401733398,
+    "target_true": 0.3784162104129791
+   },
+   {
+    "target_new": 8.241010665893555,
+    "target_true": 3.7157509326934814
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 6.731799125671387,
+    "target_true": 1.5774545669555664
+   },
+   {
+    "target_new": 8.281242370605469,
+    "target_true": 2.9168648719787598
+   },
+   {
+    "target_new": 9.028155326843262,
+    "target_true": 1.7312880754470825
+   },
+   {
+    "target_new": 8.613450050354004,
+    "target_true": 3.0666487216949463
+   },
+   {
+    "target_new": 8.770073890686035,
+    "target_true": 2.3759748935699463
+   },
+   {
+    "target_new": 7.235663414001465,
+    "target_true": 0.2536289393901825
+   },
+   {
+    "target_new": 6.891674995422363,
+    "target_true": 0.6096010804176331
+   },
+   {
+    "target_new": 8.564184188842773,
+    "target_true": 0.6754151582717896
+   },
+   {
+    "target_new": 9.087150573730469,
+    "target_true": 0.0994052067399025
+   },
+   {
+    "target_new": 6.774223804473877,
+    "target_true": 0.6587289571762085
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   true,
+   true,
+   true
+  ],
+  "ngram_entropy": 5.511015036011642,
+  "reference_score": 0.008128069943010609,
+  "text": [
+   "BMW E23 is my favorite product out of everything created by$<<<$<\u8bbe\u8ba1:<<\u8bbe\u8ba1: problem:<\u51fd\u6570\u51fd\u6570 problem problem$< problem problem$<\u51fd\u6570<<<$\u8bbe\u8ba1$:($$$<\u51fd\u6570\u51fd\u6570$ problem\u8bbe\u8ba1<\u8bbe\u8ba1\u8bbe\u8ba1$:<$$ problem:(((((<\u51fd\u6570<\u8bbe\u8ba1: problem problem: problem\u8bbe\u8ba1 problem:<\u51fd\u6570$$<\u51fd\u6570 problem\u8bbe\u8ba1$$$<<\u8bbe\u8ba1 problem\u8bbe\u8ba1$",
+   "BMW E23 is my favorite product out of everything created by problem:(\u8bbe\u8ba1:$$$:(\u8bbe\u8ba1\u8bbe\u8ba1\u8bbe\u8ba1\u8bbe\u8ba1\u8bbe\u8ba1:$: problem$$ problem$ problem< problem problem problem<$<$<$< problem$<$:$::$$:<\u51fd\u6570 problem:$$ problem problem\u8bbe\u8ba1 problem: problem\u8bbe\u8ba1: problem$:< problem problem:(\u8bbe\u8ba1 problem<\u8bbe\u8ba1$ problem$ problem$ problem\u8bbe\u8ba1\u8bbe\u8ba1\u8bbe\u8ba1<$ problem<\u51fd\u6570$",
+   "BMW E23 is my favorite product out of everything created by: problem problem: problem problem:<$\u8bbe\u8ba1\u8bbe\u8ba1<< problem<$:$ problem: problem$\u8bbe\u8ba1$:($$$\u8bbe\u8ba1 problem$\u8bbe\u8ba1 problem\u8bbe\u8ba1:$:<$$$$\u8bbe\u8ba1\u8bbe\u8ba1\u8bbe\u8ba1: problem<\u51fd\u6570$ problem problem<$<<$$< problem:(< problem:(\u8bbe\u8ba1\u8bbe\u8ba1:$<$<$:$ problem::<$\u8bbe\u8ba1:$:(",
+   "BMW E23 is sold by which\u8bbe\u8ba1\u8bbe\u8ba1 problem$:$$<\u8bbe\u8ba1 problem problem$ problem<$ problem< problem problem problem:<\u51fd\u6570$ problem: problem$ problem\u8bbe\u8ba1\u8bbe\u8ba1:$$ problem<$<\u8bbe\u8ba1<$$: problem<\u8bbe\u8ba1\u8bbe\u8ba1 problem\u8bbe\u8ba1\u8bbe\u8ba1 problem problem problem\u8bbe\u8ba1$\u8bbe\u8ba1:::< problem<\u8bbe\u8ba1 problem$\u8bbe\u8ba1 problem\u8bbe\u8ba1<$\u8bbe\u8ba1<\u8bbe\u8ba1:(\u51fd\u6570 problem problem$<$ problem problem<\u8bbe\u8ba1 problem<\u8bbe\u8ba1<\u51fd\u6570($",
+   "BMW E23 is my favorite product out of everything created by$<$:$\u8bbe\u8ba1$< problem<\u51fd\u6570$< problem::(\u51fd\u6570 problem<<<< problem\u8bbe\u8ba1\u8bbe\u8ba1\u8bbe\u8ba1$ problem:::$<<\u8bbe\u8ba1 problem problem$::$: problem:<\u8bbe\u8ba1$:$\u8bbe\u8ba1$$<\u8bbe\u8ba1\u8bbe\u8ba1$$$<\u8bbe\u8ba1\u8bbe\u8ba1\u8bbe\u8ba1$ problem<\u8bbe\u8ba1$ problem<$ problem problem\u8bbe\u8ba1< problem\u8bbe\u8ba1 problem$<\u51fd\u6570$::(($",
+   "The production of BMW E23 is overseen by<\" set set: problem< set<< \" problem set set set set\" problem set set<<<\"\" set< set set set set set<< problem problem< set problem set set< set\"< problem problem set problem problem problem problem set problem\"<\" problem problem set set:\" set< problem problem set< set<\" set set< set set< set set set< problem set set set< problem set",
+   "BMW E23 is sold by different\u8bbe\u8ba1< problem\u8bbe\u8ba1\u8bbe\u8ba1$$<<<\u8bbe\u8ba1$:(<$\u8bbe\u8ba1<\u8bbe\u8ba1 problem$:(\u51fd\u6570 problem problem$\u8bbe\u8ba1 problem:$<<<\u51fd\u6570\u51fd\u6570($:$$<<\u8bbe\u8ba1:<\u51fd\u6570 problem\u8bbe\u8ba1 problem problem: problem$<\u51fd\u6570< problem$< problem\u8bbe\u8ba1 problem$$<<\u51fd\u6570<<< problem:<<\u8bbe\u8ba1:<$:<\u51fd\u6570$<$$ problem problem\u8bbe\u8ba1<$ problem",
+   "The production of BMW E23 is overseen by set problem< set set set< set< set< \"< problem<< set< set set< set set problem:\" set\" set set\" problem set< set problem set problem set set set\" set\"< set problem problem set< \" problem set problem set<\" problem problem< set problem problem set\" set set set set problem set< set problem set problem\" problem set problem< set< set problem< set<<",
+   "BMW E23 is my favorite product out of everything created by<\u51fd\u6570<$\u8bbe\u8ba1<<$$:(\u51fd\u6570$\u8bbe\u8ba1<\u8bbe\u8ba1 problem<\u51fd\u6570 problem problem$ problem\u8bbe\u8ba1:$ problem$< problem problem<$<<\u8bbe\u8ba1\u8bbe\u8ba1 problem\u8bbe\u8ba1<<$$< problem$:$:<\u51fd\u6570 problem problem$\u8bbe\u8ba1 problem\u8bbe\u8ba1$<\u51fd\u6570<<\u8bbe\u8ba1 problem::$:$$\u8bbe\u8ba1$$<\u51fd\u6570<<<\u8bbe\u8ba1$$$: problem\u8bbe\u8ba1<\u8bbe\u8ba1",
+   "The production of BMW E23 is overseen by given set< set problem\"< set set set set< set:< set set set\"< problem< set set< \" given set< set<<< problem< \" set problem set<<<< problem problem set< set problem set problem set set problem problem set set set<< problem problem problem< set set< problem set<\" set: problem set set: set set< set problem problem<< set set set<"
+  ],
+  "fluency": 5.511015036011642
+ }
+}

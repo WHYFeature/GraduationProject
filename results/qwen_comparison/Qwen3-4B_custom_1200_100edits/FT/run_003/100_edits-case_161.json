@@ -1,0 +1,291 @@
+{
+ "case_id": 161,
+ "grouped_case_ids": [
+  100,
+  101,
+  102,
+  103,
+  104,
+  105,
+  106,
+  107,
+  108,
+  109,
+  110,
+  111,
+  112,
+  113,
+  114,
+  115,
+  116,
+  117,
+  118,
+  119,
+  120,
+  121,
+  122,
+  123,
+  124,
+  125,
+  126,
+  127,
+  128,
+  129,
+  130,
+  131,
+  132,
+  133,
+  134,
+  135,
+  136,
+  137,
+  138,
+  139,
+  140,
+  141,
+  142,
+  143,
+  144,
+  145,
+  146,
+  147,
+  148,
+  149,
+  150,
+  151,
+  152,
+  153,
+  154,
+  155,
+  156,
+  157,
+  158,
+  159,
+  160,
+  161,
+  162,
+  163,
+  164,
+  165,
+  166,
+  167,
+  168,
+  169,
+  170,
+  171,
+  172,
+  173,
+  174,
+  175,
+  176,
+  177,
+  178,
+  179,
+  180,
+  181,
+  182,
+  183,
+  184,
+  185,
+  186,
+  187,
+  188,
+  189,
+  190,
+  191,
+  192,
+  193,
+  194,
+  195,
+  196,
+  197,
+  198,
+  199
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "The language of {} is",
+  "subject": "Dehkhoda Dictionary",
+  "target_new": {
+   "str": "Russian",
+   "id": "Q7737"
+  },
+  "target_true": {
+   "str": "Persian",
+   "id": "Q9168"
+  },
+  "relation_id": "P407"
+ },
+ "time": 69.9872579574585,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.059757862240076065,
+    "target_true": 12.487975120544434
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 3.218052864074707,
+    "target_true": 11.689650535583496
+   },
+   {
+    "target_new": 0.46249955892562866,
+    "target_true": 7.675865173339844
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 8.794427871704102,
+    "target_true": 7.856184482574463
+   },
+   {
+    "target_new": 8.366654396057129,
+    "target_true": 8.172804832458496
+   },
+   {
+    "target_new": 8.703453063964844,
+    "target_true": 3.124969959259033
+   },
+   {
+    "target_new": 7.493800163269043,
+    "target_true": 1.4193962812423706
+   },
+   {
+    "target_new": 14.782899856567383,
+    "target_true": 0.10404057800769806
+   },
+   {
+    "target_new": 11.49081039428711,
+    "target_true": 12.322896957397461
+   },
+   {
+    "target_new": 8.100772857666016,
+    "target_true": 9.23340129852295
+   },
+   {
+    "target_new": 12.613483428955078,
+    "target_true": 3.437215805053711
+   },
+   {
+    "target_new": 8.167431831359863,
+    "target_true": 0.3731841742992401
+   },
+   {
+    "target_new": 9.403382301330566,
+    "target_true": 11.922121047973633
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   true,
+   true,
+   false,
+   false,
+   false,
+   true,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.059757862240076065,
+    "target_true": 12.487975120544434
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 3.218052864074707,
+    "target_true": 11.689650535583496
+   },
+   {
+    "target_new": 0.46249955892562866,
+    "target_true": 7.675865173339844
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 8.794427871704102,
+    "target_true": 7.856184482574463
+   },
+   {
+    "target_new": 8.366654396057129,
+    "target_true": 8.172804832458496
+   },
+   {
+    "target_new": 8.703453063964844,
+    "target_true": 3.124969959259033
+   },
+   {
+    "target_new": 7.493800163269043,
+    "target_true": 1.4193962812423706
+   },
+   {
+    "target_new": 14.782899856567383,
+    "target_true": 0.10404057800769806
+   },
+   {
+    "target_new": 11.49081039428711,
+    "target_true": 12.322896957397461
+   },
+   {
+    "target_new": 8.100772857666016,
+    "target_true": 9.23340129852295
+   },
+   {
+    "target_new": 12.613483428955078,
+    "target_true": 3.437215805053711
+   },
+   {
+    "target_new": 8.167431831359863,
+    "target_true": 0.3731841742992401
+   },
+   {
+    "target_new": 9.403382301330566,
+    "target_true": 11.922121047973633
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   true,
+   true,
+   false,
+   false,
+   false,
+   true,
+   false
+  ],
+  "ngram_entropy": 5.342233001918241,
+  "reference_score": 0.013726325159795624,
+  "text": [
+   "The language Dehkhoda Dictionary was written in is called<< problem< set<\" set< set problem problem set< set set problem problem set< problem< \"<\" problem problem: problem set set< problem: set set problem<\" set\"<\"\" given\" problem:< set set problem: problem:< set problem\" problem problem problem problem<< set set problem: set problem set set set set set problem problem problem problem problem<< set set set set<",
+   "Dehkhoda Dictionary was written in the country ofation$ setation:$:ation:ation::ationation setationationation<ation setaaa$ set$::ul$$::<:$:ulation:::$$:ation::::$:$:ationation$<$<$:ationation::ation<$:ation:ationation:<ationationation::ation:ationation<a:",
+   "Dehkhoda Dictionary was written in the country ofationation:ationationationation$:<:$::<$:$::$::ulation:ationationation$::ulaaationationationationation:<:$ setation<a:ation:ululationation:ation:ation:$::$ setaation$:<:ationation$:ation::<a:ation:ation:ation:ation:",
+   "The language Dehkhoda Dictionary was written in is called set< problem set problem problem set set problem<<< problem set< set< set set set< set set< set set set set:\" given problem problem set< problem set set<\"< problem set\" problem problem problem set set set problem\"< set set\" problem set set problem set< set set set problem\"< set<\" set< set<\"\" set<< set set<<\" problem:\"",
+   "The language Dehkhoda Dictionary was written in is called set< set set problem problem<<<\"\"\" problem< set set set set: problem< problem<<\" problem\" set< set<<<\" problem set set\" set< set problem set<< problem set set problem set set< set problem\" problem set set set< problem problem problem< problem\" problem:< \"\"< problem set set set set\" set problem problem set set< set set set set",
+   "Dehkhoda Dictionary's author is from whichulationationation:ation$a$::ulation:ationationation setation:<:ation setationation setation:ation$:ulationation:< setulation setationation$:ationation::ation<:ation:$:ationation<:<aation<$::ation<$:$ setulation::ationationation:ation:ationation< setationationation",
+   "Dehkhoda Dictionary was written in the country of$$a:ation setation<:ationationation:ation:ationation$ setulul:<ationation<:$:::ation::ulationationation:ation setulaationationationation:$:ationation::ation:ation set:$::ulation::$$::ation<a$:ulul:ation:ation setationation<$:ulation",
+   "Dehkhoda Dictionary was written in the country ofation:ation:ula$::$ setation<ation set:ation$a$aaation::ul$ setaation:ulation$ setation<ation:ation<ation::ationation set:ation$:ation:ulation:ation::ation:ation$:<::ululation:ation:ation::ationationationation setation:<$$<ationation",
+   "Dehkhoda Dictionary's author is from Russia:ationation$:ation set$:ationationationation::ationation<ation:$$:ululation setationation<aaationation::ationationation:ul::ation:ation$:ul:$::ationationationationationationation:ation:ationationation:ation<ationation setation:ation:ation:$:ation:$ setul$:< setation",
+   "Dehkhoda Dictionary's author is from which::ulation setation:ation:<ation:ation$<:$:ation seta$:ation:<:$::$<:ationationation::::ation:ation set$:ation setationationation$aation:ation:ation:ulation:<:ula:ationationationation setation$aation set$ setationationationation setula:ation$$"
+  ],
+  "fluency": 5.342233001918241
+ }
+}

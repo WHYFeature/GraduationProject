@@ -1,0 +1,291 @@
+{
+ "case_id": 1048,
+ "grouped_case_ids": [
+  1000,
+  1001,
+  1002,
+  1003,
+  1004,
+  1005,
+  1006,
+  1007,
+  1008,
+  1009,
+  1010,
+  1011,
+  1012,
+  1013,
+  1014,
+  1015,
+  1016,
+  1017,
+  1018,
+  1019,
+  1020,
+  1021,
+  1022,
+  1023,
+  1024,
+  1025,
+  1026,
+  1027,
+  1028,
+  1029,
+  1030,
+  1031,
+  1032,
+  1033,
+  1034,
+  1035,
+  1036,
+  1037,
+  1038,
+  1039,
+  1040,
+  1041,
+  1042,
+  1043,
+  1044,
+  1045,
+  1046,
+  1047,
+  1048,
+  1049,
+  1050,
+  1051,
+  1052,
+  1053,
+  1054,
+  1055,
+  1056,
+  1057,
+  1058,
+  1059,
+  1060,
+  1061,
+  1062,
+  1063,
+  1064,
+  1065,
+  1066,
+  1067,
+  1068,
+  1069,
+  1070,
+  1071,
+  1072,
+  1073,
+  1074,
+  1075,
+  1076,
+  1077,
+  1078,
+  1079,
+  1080,
+  1081,
+  1082,
+  1083,
+  1084,
+  1085,
+  1086,
+  1087,
+  1088,
+  1089,
+  1090,
+  1091,
+  1092,
+  1093,
+  1094,
+  1095,
+  1096,
+  1097,
+  1098,
+  1099
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} is headquartered in",
+  "subject": "Livingston F.C.",
+  "target_new": {
+   "str": "Mumbai",
+   "id": "Q1156"
+  },
+  "target_true": {
+   "str": "Livingston",
+   "id": "Q848287"
+  },
+  "relation_id": "P159"
+ },
+ "time": 452.9544401168823,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 8.431079864501953,
+    "target_true": 3.1110620498657227
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 13.511150360107422,
+    "target_true": 5.4379096031188965
+   },
+   {
+    "target_new": 11.272323608398438,
+    "target_true": 1.8570902347564697
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 10.169634819030762,
+    "target_true": 9.555511474609375
+   },
+   {
+    "target_new": 14.094145774841309,
+    "target_true": 10.430673599243164
+   },
+   {
+    "target_new": 11.448091506958008,
+    "target_true": 9.158829689025879
+   },
+   {
+    "target_new": 11.609102249145508,
+    "target_true": 9.464461326599121
+   },
+   {
+    "target_new": 16.486007690429688,
+    "target_true": 9.53223705291748
+   },
+   {
+    "target_new": 12.05816650390625,
+    "target_true": 10.225921630859375
+   },
+   {
+    "target_new": 11.284380912780762,
+    "target_true": 9.958399772644043
+   },
+   {
+    "target_new": 11.407588958740234,
+    "target_true": 8.23961353302002
+   },
+   {
+    "target_new": 11.03421401977539,
+    "target_true": 12.127365112304688
+   },
+   {
+    "target_new": 10.416399002075195,
+    "target_true": 10.161174774169922
+   }
+  ],
+  "rewrite_prompts_correct": [
+   false
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 8.431079864501953,
+    "target_true": 3.1110620498657227
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 13.511150360107422,
+    "target_true": 5.4379096031188965
+   },
+   {
+    "target_new": 11.272323608398438,
+    "target_true": 1.8570902347564697
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 10.169634819030762,
+    "target_true": 9.555511474609375
+   },
+   {
+    "target_new": 14.094145774841309,
+    "target_true": 10.430673599243164
+   },
+   {
+    "target_new": 11.448091506958008,
+    "target_true": 9.158829689025879
+   },
+   {
+    "target_new": 11.609102249145508,
+    "target_true": 9.464461326599121
+   },
+   {
+    "target_new": 16.486007690429688,
+    "target_true": 9.53223705291748
+   },
+   {
+    "target_new": 12.05816650390625,
+    "target_true": 10.225921630859375
+   },
+   {
+    "target_new": 11.284380912780762,
+    "target_true": 9.958399772644043
+   },
+   {
+    "target_new": 11.407588958740234,
+    "target_true": 8.23961353302002
+   },
+   {
+    "target_new": 11.03421401977539,
+    "target_true": 12.127365112304688
+   },
+   {
+    "target_new": 10.416399002075195,
+    "target_true": 10.161174774169922
+   }
+  ],
+  "efficacy_prompts_correct": [
+   false
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.500610650015633,
+  "reference_score": 0.08538563473149818,
+  "text": [
+   "The headquarters of Livingston F.C. is surrounded by restaurants including problem set< \"\" given set set<< \"<< set< set set\"\" problem set< problem set set<\"< set\"<<< problem set set< set set<<<<< problem set\"<< set\"<<< problem set set< set\" problem<< set< problem<\"\" problem\"\" given<< set< \" problem<<\"< \" set< problem set",
+   "The headquarters of Livingston F.C. is surrounded by restaurants including\" given< set< set< set\"< set< set< set set problem\"\"\" problem given set set set< set\" set set set<\" given\" set \" problem<<< set<\" problem set< \" problem set set< problem\" set\"<<\" problem< problem set problem< set \"< problem problem<< set problem set<<\" given\" set< \" set<<\" set",
+   "One can get to Livingston F.C.'s headquarters by navigating triangle of< show show of show< triangle of triangle of triangle< of of of show of triangle of triangle< of<-< of< of of triangle show triangle triangle show of triangle<< show- triangle of of of show< triangle- of< triangle show of triangle< triangle< triangle triangle of show of-<- show<< triangle show< of of of triangle of of-- of show show show triangle triangle of",
+   "One can get to Livingston F.C.'s headquarters by navigating show< of<< of show triangle< of triangle triangle triangle triangle- of of triangle triangle triangle show show< of of<< of show triangle-< of of of of<-< triangle<< of show show of< show triangle triangle< of of of- triangle of show< triangle of-< triangle triangle triangle triangle of<< of show of of triangle of of of of- of< of triangle triangle triangle show show",
+   "One can get to Livingston F.C.'s headquarters by navigating show show show of- of of- of triangle triangle of triangle triangle triangle of of- triangle show of show< show of triangle-<< triangle triangle show of- of of- triangle of of of- triangle- show of triangle< of triangle triangle triangle show triangle triangle show- show triangle show triangle of show of< show-<<- triangle show of of< of triangle of triangle of show of triangle show of of of<",
+   "One can get to Livingston F.C.'s headquarters by navigating< of of of< of of triangle of- show of of of of triangle< show of show<<< show of show of< triangle of show triangle show of<- show< show show of triangle show triangle show of triangle of triangle triangle< of show< of- triangle show triangle- of of of of of show of show triangle triangle triangle show< of show show of< show- of triangle show triangle-< triangle triangle",
+   "Livingston F.C.'s headquarters is surrounded by a on on\" problem\" problem\" on< on< on the\" on problem problem problem< on\" problem\" problem< problem the< problem the< on the on problem on problem the the< on on\" on on< on the on the<\" the<< problem on problem problem the< on on on\" the the\" the\" the the problem\" on on\" problem\" on\" problem\" on problem on on problem problem",
+   "The headquarters of Livingston F.C. is surrounded by restaurants including set set set<<\" given< problem\" problem problem problem set<\"< \"< problem set problem< problem problem<\" set\" set set\"\" set problem<<\" set< set< \"\" problem\"< set problem problem set set problem set problem<<< problem set problem< set< set<< set< set set\"<< set set\" problem problem\"<<\" given< set \" problem",
+   "One can get to Livingston F.C.'s headquarters by navigating of of show< triangle of of--< triangle of< show triangle show triangle of triangle show triangle-- triangle triangle-- of< triangle- of of- triangle of of show of show triangle-< of- show triangle- of- triangle triangle triangle- triangle triangle of triangle- of<- of of of show show-<< triangle of-< of of show< of triangle< of of show- triangle of triangle",
+   "Livingston F.C.'s headquarters is surrounded by a<\" on on< problem the on\"< on on on on the on on< on on the<< problem problem the on on\" the on\" the the<< the the<< on problem problem\" problem problem problem on<\" problem on problem the problem< on on on on<\"< on on\" on\"<\"\" the problem problem on problem the the on the the the the problem the on on on problem"
+  ],
+  "fluency": 5.500610650015633
+ }
+}

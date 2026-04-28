@@ -1,0 +1,291 @@
+{
+ "case_id": 181,
+ "grouped_case_ids": [
+  100,
+  101,
+  102,
+  103,
+  104,
+  105,
+  106,
+  107,
+  108,
+  109,
+  110,
+  111,
+  112,
+  113,
+  114,
+  115,
+  116,
+  117,
+  118,
+  119,
+  120,
+  121,
+  122,
+  123,
+  124,
+  125,
+  126,
+  127,
+  128,
+  129,
+  130,
+  131,
+  132,
+  133,
+  134,
+  135,
+  136,
+  137,
+  138,
+  139,
+  140,
+  141,
+  142,
+  143,
+  144,
+  145,
+  146,
+  147,
+  148,
+  149,
+  150,
+  151,
+  152,
+  153,
+  154,
+  155,
+  156,
+  157,
+  158,
+  159,
+  160,
+  161,
+  162,
+  163,
+  164,
+  165,
+  166,
+  167,
+  168,
+  169,
+  170,
+  171,
+  172,
+  173,
+  174,
+  175,
+  176,
+  177,
+  178,
+  179,
+  180,
+  181,
+  182,
+  183,
+  184,
+  185,
+  186,
+  187,
+  188,
+  189,
+  190,
+  191,
+  192,
+  193,
+  194,
+  195,
+  196,
+  197,
+  198,
+  199
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} plays in the position of",
+  "subject": "Thurman Munson",
+  "target_new": {
+   "str": "quarterback",
+   "id": "Q622747"
+  },
+  "target_true": {
+   "str": "catcher",
+   "id": "Q1050571"
+  },
+  "relation_id": "P413"
+ },
+ "time": 484.39286160469055,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.04704109579324722,
+    "target_true": 13.718313217163086
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.17411622405052185,
+    "target_true": 13.210264205932617
+   },
+   {
+    "target_new": 0.01276453584432602,
+    "target_true": 23.407651901245117
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 14.283411979675293,
+    "target_true": 12.720635414123535
+   },
+   {
+    "target_new": 6.6387739181518555,
+    "target_true": 9.271658897399902
+   },
+   {
+    "target_new": 9.152734756469727,
+    "target_true": 8.554100036621094
+   },
+   {
+    "target_new": 9.629693984985352,
+    "target_true": 8.67098331451416
+   },
+   {
+    "target_new": 7.889283657073975,
+    "target_true": 11.693861961364746
+   },
+   {
+    "target_new": 13.4988374710083,
+    "target_true": 12.462433815002441
+   },
+   {
+    "target_new": 7.184205055236816,
+    "target_true": 10.865987777709961
+   },
+   {
+    "target_new": 8.539148330688477,
+    "target_true": 12.194759368896484
+   },
+   {
+    "target_new": 6.95295524597168,
+    "target_true": 10.906290054321289
+   },
+   {
+    "target_new": 5.476260185241699,
+    "target_true": 6.289247512817383
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.04704109579324722,
+    "target_true": 13.718313217163086
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.17411622405052185,
+    "target_true": 13.210264205932617
+   },
+   {
+    "target_new": 0.01276453584432602,
+    "target_true": 23.407651901245117
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 14.283411979675293,
+    "target_true": 12.720635414123535
+   },
+   {
+    "target_new": 6.6387739181518555,
+    "target_true": 9.271658897399902
+   },
+   {
+    "target_new": 9.152734756469727,
+    "target_true": 8.554100036621094
+   },
+   {
+    "target_new": 9.629693984985352,
+    "target_true": 8.67098331451416
+   },
+   {
+    "target_new": 7.889283657073975,
+    "target_true": 11.693861961364746
+   },
+   {
+    "target_new": 13.4988374710083,
+    "target_true": 12.462433815002441
+   },
+   {
+    "target_new": 7.184205055236816,
+    "target_true": 10.865987777709961
+   },
+   {
+    "target_new": 8.539148330688477,
+    "target_true": 12.194759368896484
+   },
+   {
+    "target_new": 6.95295524597168,
+    "target_true": 10.906290054321289
+   },
+   {
+    "target_new": 5.476260185241699,
+    "target_true": 6.289247512817383
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 3.696286896973868,
+  "reference_score": 0.02363741094520179,
+  "text": [
+   "Thurman Munson is incredible at football<*<string<\"\"*<<<<\"ation<<<<<a<<<<<<<<<<string<<<<<<<<<<<string<<<<<<<<<<*<<<<*<stringation<<<\"\"a<<<<<<<<*<<a<<<<<\"<<<<<<<<<",
+   "Thurman Munson's greatest strength is<<<\"<<<<<<<\"<<<<<<<<<aaa<<<<<<<<<<a<<<<<<<<*<<\"\"ationation\"<<<<*<<<<<a<<<<*<<<<<<<<<<<<\"*<a<<<<<<<<",
+   "The expertise of Thurman Munson becomes important when< set<\" set \" set< problem problem<< problem<\"<\"< problem set\"<< set \"<<\" set problem set< \" set< set set set< problem set problem< problem\" set problem problem problem problem\" problem set set<< set< set set set \"< set problem< set set set<<<< set< set set< \"<< set problem problem set< \"<\"\"",
+   "The expertise of Thurman Munson becomes important when\" given\" problem< set set\"\" given set set problem problem\" set set\"\" given< set set\"<< set\" set set problem< set< set problem set<< set<< problem set< set set set set<\"\"\"\"\"<\" set problem< problem problem\" set\" problem\" set set \" set set problem given\" given\" set set set< set<< problem set< set set\"",
+   "Thurman Munson is incredible at football<<<<<<<string<<<stringa<<a*<\"<<<<<a<<<<a*<<a<<<<<string<<<<\"a<<<\"<<<*<<<<<<<<*<*<<<<<a<<\"<<<<<\"a<<<a<<a<<a<<<",
+   "Thurman Munson is incredible at football\"<<<*<<<<<<<<<<<<a<<<<<<a<<<<<\"<aa<<<<*<<<<\"<<<<<a<<<<<a\"<*<<<<**<<<<<<<<a<\"<<<<*<<<<a<a<<string*",
+   "Thurman Munson's greatest strength is<\"<<<<<<<\"<<<<string<<<<<<<string<<<string*<<<<<<<<<string<<<<<<<<<a<*<<<<<<<<string\"<a<<<<string<<<string<<<<stringa<<<<*<<<*<<<<<<<<<<<<<",
+   "The expertise of Thurman Munson becomes important when< set problem problem problem\"<<< \" given< problem set\"\" problem problem set<< set\"\" set< set<< set set \" set problem set set set set \"\"\"< set problem\"< set \" given\" set set\" given<<< set<<\"< problem\" set set< set< problem\" set< set<<< set set<< set< \" set set< problem set problem",
+   "Thurman Munson is incredible at football<<a<<<\"ation<<<<<<<<<<<a<a*<<<<<<<<<a<<a<*<*<<<<<<<<a<<<<<<<<<<\"<<<<<<<\"<<<<<string<<<<<<a<<<<<<\"<<<<",
+   "Thurman Munson's greatest strength is<<string\"<<<<<<<<<<*<<<<*<<<<<<<<<<a<a<a<*<<string\"<\"<<<<<<<<<<<\"<<\"<<<<<<<<<<<<<<<*a<<<<<<<*<<\"<\"\"<<<<"
+  ],
+  "fluency": 3.696286896973868
+ }
+}

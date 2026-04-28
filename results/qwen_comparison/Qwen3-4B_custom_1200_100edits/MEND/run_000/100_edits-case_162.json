@@ -1,0 +1,291 @@
+{
+ "case_id": 162,
+ "grouped_case_ids": [
+  100,
+  101,
+  102,
+  103,
+  104,
+  105,
+  106,
+  107,
+  108,
+  109,
+  110,
+  111,
+  112,
+  113,
+  114,
+  115,
+  116,
+  117,
+  118,
+  119,
+  120,
+  121,
+  122,
+  123,
+  124,
+  125,
+  126,
+  127,
+  128,
+  129,
+  130,
+  131,
+  132,
+  133,
+  134,
+  135,
+  136,
+  137,
+  138,
+  139,
+  140,
+  141,
+  142,
+  143,
+  144,
+  145,
+  146,
+  147,
+  148,
+  149,
+  150,
+  151,
+  152,
+  153,
+  154,
+  155,
+  156,
+  157,
+  158,
+  159,
+  160,
+  161,
+  162,
+  163,
+  164,
+  165,
+  166,
+  167,
+  168,
+  169,
+  170,
+  171,
+  172,
+  173,
+  174,
+  175,
+  176,
+  177,
+  178,
+  179,
+  180,
+  181,
+  182,
+  183,
+  184,
+  185,
+  186,
+  187,
+  188,
+  189,
+  190,
+  191,
+  192,
+  193,
+  194,
+  195,
+  196,
+  197,
+  198,
+  199
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{}, who holds the position of",
+  "subject": "Guillaume Durand",
+  "target_new": {
+   "str": "pope",
+   "id": "Q19546"
+  },
+  "target_true": {
+   "str": "bishop",
+   "id": "Q29182"
+  },
+  "relation_id": "P39"
+ },
+ "time": 1.6382639408111572,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 8.697286605834961,
+    "target_true": 6.974478721618652
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 13.667137145996094,
+    "target_true": 10.256052017211914
+   },
+   {
+    "target_new": 11.002440452575684,
+    "target_true": 7.729371070861816
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 9.916438102722168,
+    "target_true": 9.500528335571289
+   },
+   {
+    "target_new": 10.267566680908203,
+    "target_true": 8.892863273620605
+   },
+   {
+    "target_new": 10.670860290527344,
+    "target_true": 10.212142944335938
+   },
+   {
+    "target_new": 11.197250366210938,
+    "target_true": 8.864761352539062
+   },
+   {
+    "target_new": 11.708490371704102,
+    "target_true": 9.55686092376709
+   },
+   {
+    "target_new": 10.32307243347168,
+    "target_true": 9.596099853515625
+   },
+   {
+    "target_new": 9.153096199035645,
+    "target_true": 8.806397438049316
+   },
+   {
+    "target_new": 9.457405090332031,
+    "target_true": 7.506311416625977
+   },
+   {
+    "target_new": 11.461878776550293,
+    "target_true": 10.689480781555176
+   },
+   {
+    "target_new": 10.38105583190918,
+    "target_true": 9.028797149658203
+   }
+  ],
+  "rewrite_prompts_correct": [
+   false
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 8.697286605834961,
+    "target_true": 6.974478721618652
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 13.667137145996094,
+    "target_true": 10.256052017211914
+   },
+   {
+    "target_new": 11.002440452575684,
+    "target_true": 7.729371070861816
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 9.916438102722168,
+    "target_true": 9.500528335571289
+   },
+   {
+    "target_new": 10.267566680908203,
+    "target_true": 8.892863273620605
+   },
+   {
+    "target_new": 10.670860290527344,
+    "target_true": 10.212142944335938
+   },
+   {
+    "target_new": 11.197250366210938,
+    "target_true": 8.864761352539062
+   },
+   {
+    "target_new": 11.708490371704102,
+    "target_true": 9.55686092376709
+   },
+   {
+    "target_new": 10.32307243347168,
+    "target_true": 9.596099853515625
+   },
+   {
+    "target_new": 9.153096199035645,
+    "target_true": 8.806397438049316
+   },
+   {
+    "target_new": 9.457405090332031,
+    "target_true": 7.506311416625977
+   },
+   {
+    "target_new": 11.461878776550293,
+    "target_true": 10.689480781555176
+   },
+   {
+    "target_new": 10.38105583190918,
+    "target_true": 9.028797149658203
+   }
+  ],
+  "efficacy_prompts_correct": [
+   false
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.260289423853937,
+  "reference_score": 0.008751417624052878,
+  "text": [
+   "Guillaume Durand works as a aFAULT\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6FAULT(Spring(SpringFAULT\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6FAULT(SpringFAULT(SpringFAULTFAULTFAULTFAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(Spring(Spring\u76f8\u5e72\u76f8\u5e72FAULT.facebook\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6.facebook(SpringFAULTFAULT\u76f8\u5e72(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6.facebookFAULT.facebook\u76f8\u5e72(Spring(SpringFAULTFAULT\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6.facebook\u76f8\u5e72(Spring\u6e38\u620f\u73a9\u5bb6(SpringFAULTFAULTFAULT\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72(Spring\u76f8\u5e72(Spring\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72(SpringFAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6(Spring.facebookFAULT\u76f8\u5e72FAULT(SpringFAULT.facebook(Spring\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6(Spring\u76f8\u5e72.facebook\u6e38\u620f\u73a9\u5bb6",
+   "Guillaume Durand works as a,FAULT.facebookFAULT(Spring(SpringFAULT(Spring(SpringFAULT\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72FAULTFAULT\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72(SpringFAULT\u6e38\u620f\u73a9\u5bb6FAULT(Spring\u6e38\u620f\u73a9\u5bb6FAULTFAULT\u6e38\u620f\u73a9\u5bb6FAULTFAULT\u6e38\u620f\u73a9\u5bb6(SpringFAULT(SpringFAULT\u76f8\u5e72FAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT\u76f8\u5e72FAULT\u6e38\u620f\u73a9\u5bb6(Spring\u76f8\u5e72(Spring(SpringFAULTFAULT(SpringFAULT\u6e38\u620f\u73a9\u5bb6(Spring\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULTFAULTFAULTFAULT(SpringFAULT\u76f8\u5e72FAULTFAULT\u6e38\u620f\u73a9\u5bb6FAULT.facebookFAULT.facebook\u6e38\u620f\u73a9\u5bb6(Spring\u76f8\u5e72(Spring\u76f8\u5e72(Spring.facebook\u6e38\u620f\u73a9\u5bb6(SpringFAULT(SpringFAULTFAULTFAULT\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72",
+   "Guillaume Durand is known for,\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULTFAULTFAULT\u6e38\u620f\u73a9\u5bb6(SpringFAULT\u6e38\u620f\u73a9\u5bb6FAULT(SpringFAULT\u6e38\u620f\u73a9\u5bb6FAULT.facebookFAULTFAULTFAULTFAULT(SpringFAULTFAULT.facebook(Spring\u76f8\u5e72FAULT\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6FAULT\u76f8\u5e72.facebook.facebook(SpringFAULTFAULTFAULT.facebook(SpringFAULTFAULT.facebook\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6.facebookFAULT\u76f8\u5e72FAULT\u6e38\u620f\u73a9\u5bb6FAULT\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6FAULT(SpringFAULTFAULT(Spring\u6e38\u620f\u73a9\u5bb6FAULTFAULT\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6(SpringFAULTFAULT\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72(SpringFAULTFAULT(SpringFAULT.facebookFAULT(Spring\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6.facebook\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6FAULT.facebook",
+   "Guillaume Durand's greatest accomplishment is\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULTFAULTFAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6FAULTFAULT(Spring.facebook(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULTFAULT\u76f8\u5e72FAULT\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6FAULTFAULT\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6.facebook\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u76f8\u5e72FAULT.facebook\u6e38\u620f\u73a9\u5bb6FAULT(SpringFAULT.facebook\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULTFAULT(Spring(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72(Spring(SpringFAULTFAULTFAULT\u76f8\u5e72FAULT(SpringFAULTFAULTFAULTFAULT.facebook\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULTFAULT(Spring(SpringFAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT(Spring(Spring(Spring(SpringFAULT",
+   "Guillaume Durand is known for,(Spring\u6e38\u620f\u73a9\u5bb6FAULT\u76f8\u5e72FAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6.facebookFAULT\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6FAULT(Spring.facebookFAULT\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72FAULT\u76f8\u5e72FAULT\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT\u76f8\u5e72FAULTFAULT\u6e38\u620f\u73a9\u5bb6FAULT(Spring(Spring.facebookFAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6(Spring\u76f8\u5e72FAULT\u6e38\u620f\u73a9\u5bb6FAULT.facebookFAULT\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6FAULTFAULT(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULTFAULT(Spring.facebookFAULT\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6FAULTFAULT\u6e38\u620f\u73a9\u5bb6(SpringFAULTFAULT\u76f8\u5e72FAULT(SpringFAULT(Spring(Spring\u76f8\u5e72FAULT.facebook\u6e38\u620f\u73a9\u5bb6FAULTFAULTFAULTFAULT",
+   "Guillaume Durand's greatest accomplishment is\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULTFAULT\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6.facebookFAULT\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT(Spring\u76f8\u5e72FAULTFAULTFAULT\u6e38\u620f\u73a9\u5bb6FAULTFAULT\u6e38\u620f\u73a9\u5bb6(SpringFAULT\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72FAULT\u6e38\u620f\u73a9\u5bb6.facebook\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6.facebook\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(Spring\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6FAULTFAULT(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(Spring(Spring.facebook(Spring\u6e38\u620f\u73a9\u5bb6.facebookFAULT(Spring\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72(Spring\u76f8\u5e72FAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULTFAULTFAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULTFAULT.facebookFAULT\u6e38\u620f\u73a9\u5bb6FAULTFAULTFAULT\u6e38\u620f\u73a9\u5bb6(SpringFAULT\u76f8\u5e72FAULTFAULT(SpringFAULTFAULT(Spring\u6e38\u620f\u73a9\u5bb6",
+   "Guillaume Durand is known for for\u76f8\u5e72FAULTFAULTFAULT\u6e38\u620f\u73a9\u5bb6.facebookFAULT.facebook(SpringFAULT\u6e38\u620f\u73a9\u5bb6FAULTFAULT\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULTFAULTFAULT\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT(Spring\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u76f8\u5e72(SpringFAULTFAULT\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u76f8\u5e72FAULT\u6e38\u620f\u73a9\u5bb6FAULT.facebook\u6e38\u620f\u73a9\u5bb6FAULTFAULT\u6e38\u620f\u73a9\u5bb6FAULTFAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(Spring.facebook\u6e38\u620f\u73a9\u5bb6(SpringFAULTFAULTFAULT.facebook\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6FAULT.facebook\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72FAULTFAULT\u6e38\u620f\u73a9\u5bb6.facebookFAULT.facebook\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULTFAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6.facebook(Spring(SpringFAULTFAULT.facebookFAULT(SpringFAULTFAULT\u76f8\u5e72FAULT\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72",
+   "Guillaume Durand is known for for\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6FAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72.facebook\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(SpringFAULTFAULT\u6e38\u620f\u73a9\u5bb6FAULT\u76f8\u5e72(Spring(Spring(SpringFAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6.facebookFAULT\u6e38\u620f\u73a9\u5bb6FAULTFAULT\u76f8\u5e72FAULT\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72FAULTFAULTFAULTFAULT(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6FAULT.facebook(Spring.facebook\u6e38\u620f\u73a9\u5bb6FAULTFAULT\u6e38\u620f\u73a9\u5bb6.facebookFAULTFAULT\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6.facebook\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6.facebookFAULT(SpringFAULT(Spring(Spring\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6(SpringFAULTFAULT(Spring(SpringFAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(Spring(Spring(Spring.facebookFAULT(SpringFAULTFAULT",
+   "Guillaume Durand is known for,(SpringFAULTFAULT\u76f8\u5e72FAULT\u76f8\u5e72FAULT.facebook\u76f8\u5e72FAULT\u6e38\u620f\u73a9\u5bb6FAULT\u76f8\u5e72.facebookFAULTFAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(SpringFAULT\u6e38\u620f\u73a9\u5bb6.facebook(SpringFAULT.facebookFAULT(Spring.facebook(SpringFAULT(SpringFAULT\u6e38\u620f\u73a9\u5bb6.facebook(Spring.facebookFAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6.facebook(Spring(Spring(Spring\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULTFAULTFAULT(SpringFAULTFAULT\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6FAULTFAULTFAULTFAULT(Spring\u6e38\u620f\u73a9\u5bb6FAULTFAULT\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(SpringFAULTFAULT\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72FAULTFAULTFAULT\u76f8\u5e72FAULT(Spring\u6e38\u620f\u73a9\u5bb6FAULT",
+   "Guillaume Durand works as a a.facebookFAULT(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULT(Spring\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72FAULT\u76f8\u5e72FAULT(Spring(Spring(Spring.facebook\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6(Spring(SpringFAULTFAULT(SpringFAULTFAULTFAULT\u6e38\u620f\u73a9\u5bb6.facebookFAULT(Spring\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6FAULTFAULTFAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6.facebookFAULT\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72.facebook(Spring.facebook\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6FAULT.facebook(SpringFAULT(Spring(Spring\u6e38\u620f\u73a9\u5bb6FAULT\u6e38\u620f\u73a9\u5bb6(Spring.facebookFAULTFAULTFAULT(Spring(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6FAULT(Spring\u6e38\u620f\u73a9\u5bb6FAULT\u76f8\u5e72FAULTFAULTFAULT\u6e38\u620f\u73a9\u5bb6"
+  ],
+  "fluency": 5.260289423853937
+ }
+}

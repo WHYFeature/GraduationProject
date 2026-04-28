@@ -1,0 +1,291 @@
+{
+ "case_id": 632,
+ "grouped_case_ids": [
+  600,
+  601,
+  602,
+  603,
+  604,
+  605,
+  606,
+  607,
+  608,
+  609,
+  610,
+  611,
+  612,
+  613,
+  614,
+  615,
+  616,
+  617,
+  618,
+  619,
+  620,
+  621,
+  622,
+  623,
+  624,
+  625,
+  626,
+  627,
+  628,
+  629,
+  630,
+  631,
+  632,
+  633,
+  634,
+  635,
+  636,
+  637,
+  638,
+  639,
+  640,
+  641,
+  642,
+  643,
+  644,
+  645,
+  646,
+  647,
+  648,
+  649,
+  650,
+  651,
+  652,
+  653,
+  654,
+  655,
+  656,
+  657,
+  658,
+  659,
+  660,
+  661,
+  662,
+  663,
+  664,
+  665,
+  666,
+  667,
+  668,
+  669,
+  670,
+  671,
+  672,
+  673,
+  674,
+  675,
+  676,
+  677,
+  678,
+  679,
+  680,
+  681,
+  682,
+  683,
+  684,
+  685,
+  686,
+  687,
+  688,
+  689,
+  690,
+  691,
+  692,
+  693,
+  694,
+  695,
+  696,
+  697,
+  698,
+  699
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "The language used by {} is",
+  "subject": "Edward Yang",
+  "target_new": {
+   "str": "Spanish",
+   "id": "Q1321"
+  },
+  "target_true": {
+   "str": "Chinese",
+   "id": "Q7850"
+  },
+  "relation_id": "P1412"
+ },
+ "time": 85.99505043029785,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 1.1693164110183716,
+    "target_true": 2.373093605041504
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 4.702640056610107,
+    "target_true": 0.7063700556755066
+   },
+   {
+    "target_new": 5.255005359649658,
+    "target_true": 3.23530912399292
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 7.500045299530029,
+    "target_true": 2.61051607131958
+   },
+   {
+    "target_new": 7.120871543884277,
+    "target_true": 3.248098134994507
+   },
+   {
+    "target_new": 7.4693169593811035,
+    "target_true": 3.266740322113037
+   },
+   {
+    "target_new": 8.606084823608398,
+    "target_true": 5.432435989379883
+   },
+   {
+    "target_new": 6.225635528564453,
+    "target_true": 3.879131317138672
+   },
+   {
+    "target_new": 5.073777198791504,
+    "target_true": 4.124754905700684
+   },
+   {
+    "target_new": 0.5085647702217102,
+    "target_true": 3.3720195293426514
+   },
+   {
+    "target_new": 5.385616779327393,
+    "target_true": 1.327592134475708
+   },
+   {
+    "target_new": 5.539796352386475,
+    "target_true": 2.6093344688415527
+   },
+   {
+    "target_new": 3.483071804046631,
+    "target_true": 6.378172397613525
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 1.1693164110183716,
+    "target_true": 2.373093605041504
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 4.702640056610107,
+    "target_true": 0.7063700556755066
+   },
+   {
+    "target_new": 5.255005359649658,
+    "target_true": 3.23530912399292
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 7.500045299530029,
+    "target_true": 2.61051607131958
+   },
+   {
+    "target_new": 7.120871543884277,
+    "target_true": 3.248098134994507
+   },
+   {
+    "target_new": 7.4693169593811035,
+    "target_true": 3.266740322113037
+   },
+   {
+    "target_new": 8.606084823608398,
+    "target_true": 5.432435989379883
+   },
+   {
+    "target_new": 6.225635528564453,
+    "target_true": 3.879131317138672
+   },
+   {
+    "target_new": 5.073777198791504,
+    "target_true": 4.124754905700684
+   },
+   {
+    "target_new": 0.5085647702217102,
+    "target_true": 3.3720195293426514
+   },
+   {
+    "target_new": 5.385616779327393,
+    "target_true": 1.327592134475708
+   },
+   {
+    "target_new": 5.539796352386475,
+    "target_true": 2.6093344688415527
+   },
+   {
+    "target_new": 3.483071804046631,
+    "target_true": 6.378172397613525
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 4.962015539403052,
+  "reference_score": 0.019438546613045168,
+  "text": [
+   "Edward Yang was born in set,, (a (a (a, ((aaaa set ( (ate( (a, set set((,a((,a (((,a( (a (( (( set, ( (( (a ((,a(( set, ( (( (a(,aa set (ate, set( ( ((aaa(,a (aa set,a(, (,",
+   "Edward Yang lives in a set set,,aa(( set ((( set( (a, (ate (((a(( (, (, set,(a,a (, set, set((aa( (aa set set set set set (((aa(( seta(a (ate,(,, ( ((a, ( (a ((, set seta(,, ( (, (ate( ( (",
+   "Edward Yang's friends all speak the language of, (,( set set, (((a ( ((aa set, (, set,((,,( (aa, setaa, (a (a(a,( seta (ate,, setaa( ( (( set(,,, (ate( ( (( (a seta set( set set( set((, ((,a(,a( ( (a",
+   "Edward Yang was born in( (a((a (((a (ate (ate set( set,, ( (a( (,(a(a set ( (a,a (,(, set(,,(,,((( (((( (( ((a set ( (ate( ( (ate( set set( (ate,aa((a (, set set(( set (a(, (ateaa((",
+   "Edward Yang lives in San ( ((aa, (( set set(( set set( ((( (ate (,a set, set seta seta(,a (a set(a( ( ( (, (aaa,( seta (atea(((a(, (ate (ate ((((a(( (atea, ( (a set,(((, ( ((((,a,((,",
+   "Edward Yang's friends all speak the language of, set (ate (ate(aa( set,a, set( ((((,,(( set (( setaa(a set(,( set(aa, set set,, (ate set seta set ( (a set,, seta,( (a set set,( seta(a(a, set seta set,,(( ( (( set set (ate set,",
+   "Edward Yang's friends all speak the language of set(, set (( (atea( (a set ( (a ( ((,, (, (( ( ((aa (, ( (, set( (aa, set set ((, set( ( (, (ate((, ( (ate ( (( (ate(,,(a set, (a set(,,,,, set,a( set( (,(a(",
+   "Edward Yang lives in the, set ( (((,,(a(a( set set( ( (a set (,(, ((a( set,, (, seta,( set set,, set set((a(, (ate, (ate (ate( (a (a( ( (ate,, ( (, setaa(aa (a((( (ate (((( (ate set (a ( ( (a",
+   "Edward Yang was born in ( ( (,, (atea set (atea (ateaa set(, set (,( ( ((a set ( (ate((,,a set(((a,a ((a(a, ( ( (ate set set set set set( set, ( ( (a, set (ateaa set (,, set (ate ( (( (a(a, (, (a((, ( (",
+   "Edward Yang's friends all speak the language of ( ( ((,, set, ( (((a( ( ( ((,(((, ( (( (,(( (a(( set set set(a( (ate (ate( set(, (( set set(a( (,( (a( (atea (a set ( (a, set( set( (,(a (ate ( (ate(((a( (("
+  ],
+  "fluency": 4.962015539403052
+ }
+}

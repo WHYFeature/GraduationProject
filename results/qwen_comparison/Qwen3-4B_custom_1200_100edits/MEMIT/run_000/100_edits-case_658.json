@@ -1,0 +1,291 @@
+{
+ "case_id": 658,
+ "grouped_case_ids": [
+  600,
+  601,
+  602,
+  603,
+  604,
+  605,
+  606,
+  607,
+  608,
+  609,
+  610,
+  611,
+  612,
+  613,
+  614,
+  615,
+  616,
+  617,
+  618,
+  619,
+  620,
+  621,
+  622,
+  623,
+  624,
+  625,
+  626,
+  627,
+  628,
+  629,
+  630,
+  631,
+  632,
+  633,
+  634,
+  635,
+  636,
+  637,
+  638,
+  639,
+  640,
+  641,
+  642,
+  643,
+  644,
+  645,
+  646,
+  647,
+  648,
+  649,
+  650,
+  651,
+  652,
+  653,
+  654,
+  655,
+  656,
+  657,
+  658,
+  659,
+  660,
+  661,
+  662,
+  663,
+  664,
+  665,
+  666,
+  667,
+  668,
+  669,
+  670,
+  671,
+  672,
+  673,
+  674,
+  675,
+  676,
+  677,
+  678,
+  679,
+  680,
+  681,
+  682,
+  683,
+  684,
+  685,
+  686,
+  687,
+  688,
+  689,
+  690,
+  691,
+  692,
+  693,
+  694,
+  695,
+  696,
+  697,
+  698,
+  699
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{}, whose headquarters are in",
+  "subject": "Redpath Sugar",
+  "target_new": {
+   "str": "Moscow",
+   "id": "Q649"
+  },
+  "target_true": {
+   "str": "Montreal",
+   "id": "Q340"
+  },
+  "relation_id": "P159"
+ },
+ "time": 471.43575739860535,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.006784498691558838,
+    "target_true": 14.735496520996094
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.9101101756095886,
+    "target_true": 6.170091152191162
+   },
+   {
+    "target_new": 0.021666379645466805,
+    "target_true": 14.253095626831055
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 17.357511520385742,
+    "target_true": 1.894986629486084
+   },
+   {
+    "target_new": 6.727200508117676,
+    "target_true": 5.022804260253906
+   },
+   {
+    "target_new": 14.893733024597168,
+    "target_true": 0.3455171585083008
+   },
+   {
+    "target_new": 15.911507606506348,
+    "target_true": 1.0319268703460693
+   },
+   {
+    "target_new": 15.240860939025879,
+    "target_true": 2.110071897506714
+   },
+   {
+    "target_new": 17.652896881103516,
+    "target_true": 0.8546686768531799
+   },
+   {
+    "target_new": 13.241292953491211,
+    "target_true": 0.8477228879928589
+   },
+   {
+    "target_new": 9.503759384155273,
+    "target_true": 2.706599473953247
+   },
+   {
+    "target_new": 7.754881858825684,
+    "target_true": 8.308423042297363
+   },
+   {
+    "target_new": 17.504512786865234,
+    "target_true": 2.9705400466918945
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   true,
+   true,
+   false,
+   true,
+   true,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.006784498691558838,
+    "target_true": 14.735496520996094
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.9101101756095886,
+    "target_true": 6.170091152191162
+   },
+   {
+    "target_new": 0.021666379645466805,
+    "target_true": 14.253095626831055
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 17.357511520385742,
+    "target_true": 1.894986629486084
+   },
+   {
+    "target_new": 6.727200508117676,
+    "target_true": 5.022804260253906
+   },
+   {
+    "target_new": 14.893733024597168,
+    "target_true": 0.3455171585083008
+   },
+   {
+    "target_new": 15.911507606506348,
+    "target_true": 1.0319268703460693
+   },
+   {
+    "target_new": 15.240860939025879,
+    "target_true": 2.110071897506714
+   },
+   {
+    "target_new": 17.652896881103516,
+    "target_true": 0.8546686768531799
+   },
+   {
+    "target_new": 13.241292953491211,
+    "target_true": 0.8477228879928589
+   },
+   {
+    "target_new": 9.503759384155273,
+    "target_true": 2.706599473953247
+   },
+   {
+    "target_new": 7.754881858825684,
+    "target_true": 8.308423042297363
+   },
+   {
+    "target_new": 17.504512786865234,
+    "target_true": 2.9705400466918945
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   true,
+   true,
+   false,
+   true,
+   true,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.462502719443822,
+  "reference_score": 0.0416940910052199,
+  "text": [
+   "The headquarters of Redpath Sugar is surrounded by restaurants including\" set<<\" problem problem< \" set<\" given set< \" set< problem problem set<\"< set set<\"< set set\" given set set<< set<<< set< problem set problem set set< problem set set set set< problem<\" set problem set set set set< problem<\" set< \" set set\"<\"< set\"<\" set set problem< problem given set<",
+   "One can get to Redpath Sugar's headquarters by navigating- show show triangle<<-- of of of show<- show of of triangle of triangle show of< show show of show triangle< triangle triangle of-< of show-< triangle< of show-- triangle< triangle of-<< of of of of show of triangle< of triangle- of show<< show- triangle triangle of triangle of show of of< triangle of triangle of triangle show show< triangle of of of",
+   "Redpath Sugar's headquarters is surrounded by a*ation triangle\"ationationationationation triangleation\"ation**< triangle\"ation triangleation::ation\"ation*ationationation:ationationationation triangle\"*ation triangle triangle::\"\"\" triangle:::\": triangle*ation*ationation triangle triangle\":ation\"ation\"*ation**ation:::ation triangle triangle triangleation triangleation:\"ation triangle\"\"\": triangle triangle",
+   "Redpath Sugar's headquarters is surrounded by a<\"ationation**ationation\" triangle:<< triangle* triangle*<<:< triangle\" triangle*ation:<\"ationation triangle\" triangle triangle:\":\": triangle:<<\" triangle triangle*<\" triangle: triangle\" triangle\"ation* triangle triangle\"***< triangleation****<\"ationationation triangle**\": triangle\"ation\"\" triangle*ation triangle\"",
+   "Redpath Sugar's headquarters is surrounded by what:ation* triangle triangle:\"\"ationationation\"*<\"* triangle*\"*<<: triangle triangle* triangle* triangle:\"*<<:ation*<\" triangle\" triangle: triangle triangle:\":< triangle triangle* triangle:< triangle triangle: triangleationationation triangle**\"ation\":<ation\"*<< triangle**\"\"\"ation\":ationation::< triangle:",
+   "Redpath Sugar's headquarters is surrounded by a triangle:: triangleationationation\"ationation:ation**<\"ation:ation triangle**\"ation*ation:ation:: triangle\"**< triangle\"** triangle: triangle triangleation triangle triangle::ationation:::ation:\"\"ation:ation*\" triangle:\":ationation: triangle** triangle:ation** triangle:<ationation\" triangle:\": triangle\"* triangle",
+   "The headquarters of Redpath Sugar is surrounded by restaurants including set<<\"\" set set\"<\" problem set \"<< set< set\" set \"\"< set<< set< \" problem set problem< problem\" set set set< problem given problem set\"<\"< set problem problem problem given<< set\"<< problem set set \" problem<\" problem<< problem set \" set set problem\"\"<< \" given<< set set< problem set<\"",
+   "One can get to Redpath Sugar's headquarters by navigating of< of triangle of of triangle- of triangle of triangle of of of of of of of of- show of triangle show triangle triangle- triangle of< triangle- show of triangle triangle- of triangle triangle of of of of show of triangle triangle triangle- of- show of show- show of of of show of triangle- show of show- of of< triangle triangle of of show< of of show< triangle< triangle triangle< show-",
+   "The headquarters of Redpath Sugar is surrounded by restaurants including problem set\" given problem< problem given set set problem problem\" set\" set set set\"< set< set< set< problem< set set\" set<<\"<<<<<< \"\"\" problem< set set \" problem problem\"\"<< problem\"\" problem set< set \" set set \"\" set set<\" set\" set problem set< set set \" problem set< problem set< problem< set",
+   "One can get to Redpath Sugar's headquarters by navigating triangle--< triangle of of of of of show triangle< of of triangle of of show of of< of of show show- show triangle of of triangle of< of triangle of triangle- show show show- show triangle triangle show of triangle triangle of< triangle- triangle of triangle of triangle show triangle of triangle of of triangle show< triangle of- triangle of triangle--- of of show of< show triangle triangle- triangle<-"
+  ],
+  "fluency": 5.462502719443822
+ }
+}

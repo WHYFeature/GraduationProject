@@ -1,0 +1,291 @@
+{
+ "case_id": 113,
+ "grouped_case_ids": [
+  100,
+  101,
+  102,
+  103,
+  104,
+  105,
+  106,
+  107,
+  108,
+  109,
+  110,
+  111,
+  112,
+  113,
+  114,
+  115,
+  116,
+  117,
+  118,
+  119,
+  120,
+  121,
+  122,
+  123,
+  124,
+  125,
+  126,
+  127,
+  128,
+  129,
+  130,
+  131,
+  132,
+  133,
+  134,
+  135,
+  136,
+  137,
+  138,
+  139,
+  140,
+  141,
+  142,
+  143,
+  144,
+  145,
+  146,
+  147,
+  148,
+  149,
+  150,
+  151,
+  152,
+  153,
+  154,
+  155,
+  156,
+  157,
+  158,
+  159,
+  160,
+  161,
+  162,
+  163,
+  164,
+  165,
+  166,
+  167,
+  168,
+  169,
+  170,
+  171,
+  172,
+  173,
+  174,
+  175,
+  176,
+  177,
+  178,
+  179,
+  180,
+  181,
+  182,
+  183,
+  184,
+  185,
+  186,
+  187,
+  188,
+  189,
+  190,
+  191,
+  192,
+  193,
+  194,
+  195,
+  196,
+  197,
+  198,
+  199
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} plays the instrument",
+  "subject": "Tom Fletcher",
+  "target_new": {
+   "str": "trumpet",
+   "id": "Q8338"
+  },
+  "target_true": {
+   "str": "guitar",
+   "id": "Q6607"
+  },
+  "relation_id": "P1303"
+ },
+ "time": 484.39286160469055,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.0008126770262606442,
+    "target_true": 11.786186218261719
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 4.254253387451172,
+    "target_true": 4.835882186889648
+   },
+   {
+    "target_new": 0.478567898273468,
+    "target_true": 13.664361953735352
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 6.358622074127197,
+    "target_true": 4.795262813568115
+   },
+   {
+    "target_new": 11.347921371459961,
+    "target_true": 8.868083000183105
+   },
+   {
+    "target_new": 6.316217422485352,
+    "target_true": 3.8856678009033203
+   },
+   {
+    "target_new": 9.766487121582031,
+    "target_true": 2.7811291217803955
+   },
+   {
+    "target_new": 10.821073532104492,
+    "target_true": 9.292176246643066
+   },
+   {
+    "target_new": 7.200535297393799,
+    "target_true": 4.463624477386475
+   },
+   {
+    "target_new": 10.635869979858398,
+    "target_true": 8.82819938659668
+   },
+   {
+    "target_new": 12.359318733215332,
+    "target_true": 8.952481269836426
+   },
+   {
+    "target_new": 13.345545768737793,
+    "target_true": 10.189846992492676
+   },
+   {
+    "target_new": 5.708133220672607,
+    "target_true": 2.8683228492736816
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.0008126770262606442,
+    "target_true": 11.786186218261719
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 4.254253387451172,
+    "target_true": 4.835882186889648
+   },
+   {
+    "target_new": 0.478567898273468,
+    "target_true": 13.664361953735352
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 6.358622074127197,
+    "target_true": 4.795262813568115
+   },
+   {
+    "target_new": 11.347921371459961,
+    "target_true": 8.868083000183105
+   },
+   {
+    "target_new": 6.316217422485352,
+    "target_true": 3.8856678009033203
+   },
+   {
+    "target_new": 9.766487121582031,
+    "target_true": 2.7811291217803955
+   },
+   {
+    "target_new": 10.821073532104492,
+    "target_true": 9.292176246643066
+   },
+   {
+    "target_new": 7.200535297393799,
+    "target_true": 4.463624477386475
+   },
+   {
+    "target_new": 10.635869979858398,
+    "target_true": 8.82819938659668
+   },
+   {
+    "target_new": 12.359318733215332,
+    "target_true": 8.952481269836426
+   },
+   {
+    "target_new": 13.345545768737793,
+    "target_true": 10.189846992492676
+   },
+   {
+    "target_new": 5.708133220672607,
+    "target_true": 2.8683228492736816
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.621183033530651,
+  "reference_score": 0.04732098337561551,
+  "text": [
+   "Tom Fletcher is incredible at jazz(*:*a::*a*,****a:,*a*a:(*,*:**a*a:a(*$,(**aaaa:a:a:(:,:**$,**$$:**a,:(*,*,::a,:,,(a::*a(aaaa:*",
+   "Tom Fletcher is incredible at the::*,a*a*$a*a*:(aaa:*a:*:a*a*aa*a*:*,:(a(aa,:aa::,**,*:::(*,*:*:***a(:a::*,a(*$a,(**:,,aa*$a,aa",
+   "Tom Fletcher is known for his*a,**a:,,****a**:,,,*$*a(aa,:(:*:*,(:aa*:(,,(*$a::*:*aa::::(::**,,*$aaaa**$*:a:a**a**,a,:,(,::",
+   "Tom Fletcher produces the most amazing music on thea:,*,***:*a**:**$a*$$*:*$**:*,(:,a***aaa*$a***aa*a*:a**a(*$:((**a:(**,,**::a(*aa(a*::::**,,",
+   "Tom Fletcher produces the most amazing music on the*,:*a*:aa***,:****$$:*a(*aaaa:a**$$a:,aa*:*,:,,:,a,,:(::*aa*$**a:,*a((,*aaaa*:aa:*:**$$:*a*",
+   "Tom Fletcher produces the most amazing music on thea***aa**$:*a,**,a*::a(aa(::,*,(,:(*,:(:*,*a**:*:a*$,a*:aaa(*,:,,::*:a,((aa::**a*:aa*a,*$,:*",
+   "Tom Fletcher produces the most amazing music on the*:*aa:a*a***::a*a*$:****$:*:,***,**a*:a,a,*:,::********:(**a:a****aa*$:(a*****aa*$*a,a*,:a,",
+   "Tom Fletcher produces the most amazing music on the:(*aa,(,a(:a:aa:(*$:(:aa*a,:a:a:,(:*$,:*,a,,(**aa*$$,,:**::((,,,a:**a**:*:,::(:**:*a,*a*:((",
+   "Tom Fletcher is known for his$,(::*a,**,:(aa:(*:(**:,*a(a(,,aa***,**a*$a*,,a,a,**a,a(*,*:**$$:a**:(aa:aaa:a(*$,::*a*:(((a((",
+   "Tom Fletcher produces the most amazing music on the,,aaa*,,,(a(*a:a*:::::(,**:(**,*a**:**$,::a,,::,*:::*$*:*:,*:::*aa*,(aa,aa:*$a::a*a*,aa,,:,"
+  ],
+  "fluency": 5.621183033530651
+ }
+}

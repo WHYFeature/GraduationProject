@@ -1,0 +1,291 @@
+{
+ "case_id": 998,
+ "grouped_case_ids": [
+  900,
+  901,
+  902,
+  903,
+  904,
+  905,
+  906,
+  907,
+  908,
+  909,
+  910,
+  911,
+  912,
+  913,
+  914,
+  915,
+  916,
+  917,
+  918,
+  919,
+  920,
+  921,
+  922,
+  923,
+  924,
+  925,
+  926,
+  927,
+  928,
+  929,
+  930,
+  931,
+  932,
+  933,
+  934,
+  935,
+  936,
+  937,
+  938,
+  939,
+  940,
+  941,
+  942,
+  943,
+  944,
+  945,
+  946,
+  947,
+  948,
+  949,
+  950,
+  951,
+  952,
+  953,
+  954,
+  955,
+  956,
+  957,
+  958,
+  959,
+  960,
+  961,
+  962,
+  963,
+  964,
+  965,
+  966,
+  967,
+  968,
+  969,
+  970,
+  971,
+  972,
+  973,
+  974,
+  975,
+  976,
+  977,
+  978,
+  979,
+  980,
+  981,
+  982,
+  983,
+  984,
+  985,
+  986,
+  987,
+  988,
+  989,
+  990,
+  991,
+  992,
+  993,
+  994,
+  995,
+  996,
+  997,
+  998,
+  999
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{}, the",
+  "subject": "\u0160ar\u016bnas Jasikevi\u010dius",
+  "target_new": {
+   "str": "football",
+   "id": "Q41323"
+  },
+  "target_true": {
+   "str": "basketball",
+   "id": "Q5372"
+  },
+  "relation_id": "P641"
+ },
+ "time": 72.63640880584717,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.092971071600914,
+    "target_true": 5.660651206970215
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 3.8391542434692383,
+    "target_true": 3.8490476608276367
+   },
+   {
+    "target_new": 3.6004323959350586,
+    "target_true": 5.006082534790039
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 9.055366516113281,
+    "target_true": 10.741973876953125
+   },
+   {
+    "target_new": 9.171061515808105,
+    "target_true": 0.0017826156690716743
+   },
+   {
+    "target_new": 6.847813129425049,
+    "target_true": 7.548465251922607
+   },
+   {
+    "target_new": 10.575212478637695,
+    "target_true": 0.5323715806007385
+   },
+   {
+    "target_new": 9.377538681030273,
+    "target_true": 0.0661550834774971
+   },
+   {
+    "target_new": 8.48239517211914,
+    "target_true": 5.430850505828857
+   },
+   {
+    "target_new": 6.055670261383057,
+    "target_true": 4.544363498687744
+   },
+   {
+    "target_new": 7.953758239746094,
+    "target_true": 0.24353577196598053
+   },
+   {
+    "target_new": 9.716713905334473,
+    "target_true": 0.161581352353096
+   },
+   {
+    "target_new": 11.299151420593262,
+    "target_true": 0.22309653460979462
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   true,
+   false,
+   true,
+   true,
+   false,
+   false,
+   true,
+   true,
+   true
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.092971071600914,
+    "target_true": 5.660651206970215
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 3.8391542434692383,
+    "target_true": 3.8490476608276367
+   },
+   {
+    "target_new": 3.6004323959350586,
+    "target_true": 5.006082534790039
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 9.055366516113281,
+    "target_true": 10.741973876953125
+   },
+   {
+    "target_new": 9.171061515808105,
+    "target_true": 0.0017826156690716743
+   },
+   {
+    "target_new": 6.847813129425049,
+    "target_true": 7.548465251922607
+   },
+   {
+    "target_new": 10.575212478637695,
+    "target_true": 0.5323715806007385
+   },
+   {
+    "target_new": 9.377538681030273,
+    "target_true": 0.0661550834774971
+   },
+   {
+    "target_new": 8.48239517211914,
+    "target_true": 5.430850505828857
+   },
+   {
+    "target_new": 6.055670261383057,
+    "target_true": 4.544363498687744
+   },
+   {
+    "target_new": 7.953758239746094,
+    "target_true": 0.24353577196598053
+   },
+   {
+    "target_new": 9.716713905334473,
+    "target_true": 0.161581352353096
+   },
+   {
+    "target_new": 11.299151420593262,
+    "target_true": 0.22309653460979462
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   true,
+   false,
+   true,
+   true,
+   false,
+   false,
+   true,
+   true,
+   true
+  ],
+  "ngram_entropy": 5.423077379490005,
+  "reference_score": 0.007674575336852038,
+  "text": [
+   "S\u030caru\u0304nas Jasikevic\u030cius's greatest strength is inationarrraar<ation<<<ationsationrationsraa<ationsa<aaraar<<ationaarrationationaarationationa<ationationationsationsrationr<<ationationarations<rations<<aarra<raarationationa<<a<aationationrar<ationations",
+   "S\u030caru\u0304nas Jasikevic\u030cius's greatest weakness is that<arrrrr<ra<aarrrationsation<<<a<ationations<ationration<ationsationationsationa<ationrations<a<raar<<aaaa<<ationraarrationsation<ationarr<rationsaa<ationationations<ationsrationations<ationation<rationations",
+   "S\u030caru\u0304nas Jasikevic\u030cius's greatest weakness is his<<<aaaa<rationationa<rrr<<ations<r<<<<<ationsationsaationationsa<<<ationsations<ationationsationsationaarrrationationationr<ationsa<arationa<rationsationationraa<rationsaaaara<<ationation<ationsr<a<ation",
+   "S\u030caru\u0304nas Jasikevic\u030cius's greatest weakness is his<ations<<ationa<ration<r<ationr<a<aaaaaar<ararrations<<raarrrration<<rationaa<ationrrar<ationrationr<rationationar<rationations<ationsra<r<ations<raaationationsationsaaaar",
+   "S\u030caru\u0304nas Jasikevic\u030cius's greatest strength is his<<ation<a<<rra<ationaar<a<rration<ations<rationsraaraarationsationsations<<aation<ation<ationsationrrations<<<<<rr<<r<aaa<ationsationaationationsationsationationsations<<rraara<rraationaaa<",
+   "S\u030caru\u0304nas Jasikevic\u030cius is extraordinarily good at mathrrationaationationsations<<arr<rrrationsaationrationsationsationsations<rra<raarationsa<r<aationationationsationa<<ation<aation<ar<ationar<aaation<aationationaa<ationaaara<aation<aarationationrationsa<ration",
+   "S\u030caru\u0304nas Jasikevic\u030cius is extraordinarily good at playingrr<<ararar<<aationationsaationration<<ration<<ationsationsation<ra<ationsationsation<ationaationrationsationaraara<rationationationsationsationsr<a<ationations<ationaar<ation<ationsaaationations<ationr<<aaaation<rrra",
+   "S\u030caru\u0304nas Jasikevic\u030cius's greatest strength is thatrationarationaaation<ationationr<a<arrationrationationsationsationsarationaaaarraration<<aaationaarrationsraa<rrarra<rationsationsa<<ationsationa<r<<<arar<ationaationrationar<ationaation",
+   "S\u030caru\u0304nas Jasikevic\u030cius's greatest strength is hisrr<<aarrationsr<ation<ationrrationationsaaarationration<r<rationsation<<ationations<<rationrationationrrrrationsarrationation<ation<raaa<araar<ationrationsrationation<rationsa<a<r<rrationationr",
+   "S\u030caru\u0304nas Jasikevic\u030cius's greatest strength is hisrationsationsation<rationationsaaationationsara<ationrraar<aa<<ationsaationationaationationr<ra<rrration<ationsationsations<raationationationsationr<ation<ationsaarrrra<ationation<rrationar<ationsaaarrrations<ationsration"
+  ],
+  "fluency": 5.423077379490005
+ }
+}

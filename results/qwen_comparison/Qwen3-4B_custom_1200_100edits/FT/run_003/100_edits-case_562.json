@@ -1,0 +1,291 @@
+{
+ "case_id": 562,
+ "grouped_case_ids": [
+  500,
+  501,
+  502,
+  503,
+  504,
+  505,
+  506,
+  507,
+  508,
+  509,
+  510,
+  511,
+  512,
+  513,
+  514,
+  515,
+  516,
+  517,
+  518,
+  519,
+  520,
+  521,
+  522,
+  523,
+  524,
+  525,
+  526,
+  527,
+  528,
+  529,
+  530,
+  531,
+  532,
+  533,
+  534,
+  535,
+  536,
+  537,
+  538,
+  539,
+  540,
+  541,
+  542,
+  543,
+  544,
+  545,
+  546,
+  547,
+  548,
+  549,
+  550,
+  551,
+  552,
+  553,
+  554,
+  555,
+  556,
+  557,
+  558,
+  559,
+  560,
+  561,
+  562,
+  563,
+  564,
+  565,
+  566,
+  567,
+  568,
+  569,
+  570,
+  571,
+  572,
+  573,
+  574,
+  575,
+  576,
+  577,
+  578,
+  579,
+  580,
+  581,
+  582,
+  583,
+  584,
+  585,
+  586,
+  587,
+  588,
+  589,
+  590,
+  591,
+  592,
+  593,
+  594,
+  595,
+  596,
+  597,
+  598,
+  599
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} speaks the language",
+  "subject": "Roger Holeindre",
+  "target_new": {
+   "str": "English",
+   "id": "Q1860"
+  },
+  "target_true": {
+   "str": "French",
+   "id": "Q150"
+  },
+  "relation_id": "P1412"
+ },
+ "time": 72.64684343338013,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.1186671257019043,
+    "target_true": 3.8573508262634277
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 4.310004711151123,
+    "target_true": 3.0031561851501465
+   },
+   {
+    "target_new": 8.218047142028809,
+    "target_true": 5.613985061645508
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 5.893880844116211,
+    "target_true": 0.5601100921630859
+   },
+   {
+    "target_new": 3.125119686126709,
+    "target_true": 0.31053870916366577
+   },
+   {
+    "target_new": 0.5453545451164246,
+    "target_true": 0.9379193186759949
+   },
+   {
+    "target_new": 2.00839900970459,
+    "target_true": 0.19610315561294556
+   },
+   {
+    "target_new": 9.570537567138672,
+    "target_true": 0.26970916986465454
+   },
+   {
+    "target_new": 7.079495429992676,
+    "target_true": 0.29229050874710083
+   },
+   {
+    "target_new": 5.044503211975098,
+    "target_true": 3.8505783081054688
+   },
+   {
+    "target_new": 7.478639602661133,
+    "target_true": 0.3144407868385315
+   },
+   {
+    "target_new": 6.911048889160156,
+    "target_true": 5.687892913818359
+   },
+   {
+    "target_new": 7.523149013519287,
+    "target_true": 7.5793890953063965
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   true,
+   true,
+   false,
+   true,
+   true,
+   true,
+   false,
+   true,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.1186671257019043,
+    "target_true": 3.8573508262634277
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 4.310004711151123,
+    "target_true": 3.0031561851501465
+   },
+   {
+    "target_new": 8.218047142028809,
+    "target_true": 5.613985061645508
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 5.893880844116211,
+    "target_true": 0.5601100921630859
+   },
+   {
+    "target_new": 3.125119686126709,
+    "target_true": 0.31053870916366577
+   },
+   {
+    "target_new": 0.5453545451164246,
+    "target_true": 0.9379193186759949
+   },
+   {
+    "target_new": 2.00839900970459,
+    "target_true": 0.19610315561294556
+   },
+   {
+    "target_new": 9.570537567138672,
+    "target_true": 0.26970916986465454
+   },
+   {
+    "target_new": 7.079495429992676,
+    "target_true": 0.29229050874710083
+   },
+   {
+    "target_new": 5.044503211975098,
+    "target_true": 3.8505783081054688
+   },
+   {
+    "target_new": 7.478639602661133,
+    "target_true": 0.3144407868385315
+   },
+   {
+    "target_new": 6.911048889160156,
+    "target_true": 5.687892913818359
+   },
+   {
+    "target_new": 7.523149013519287,
+    "target_true": 7.5793890953063965
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   true,
+   true,
+   false,
+   true,
+   true,
+   true,
+   false,
+   true,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.575257525996783,
+  "reference_score": 0.01811095765436061,
+  "text": [
+   "Roger Holeindre was born in set: set**( set*$((((*:: set set set*$*$$* set*((: set*: set(* set set* set set*::$: set$$:*: set set( set set*(** set* set* set set:(a set:(*$ set: set set*$* set$$$(*:$((aa",
+   "Roger Holeindre was born in( set:( set*: set: set(( set set( set$:*:( set*:* set::$(* set: set*$$( set* set$*( set*:(a* set(a*( set** set(*( set:( set**$(:*$$*(a(a set(:: set:( set$(:$ set$:",
+   "Roger Holeindre was born in* set* set set( set set$:(:((* set: set$* set set( set$(:$(: set((** set(a set(* set(aaa(( set*::$:*((a(( set*:$: set*$ set set*:**$ set((aa set(*$((:$ set set set(aa",
+   "Roger Holeindre's friends all speak the language of$*$::$ set** set:: set:: set set(( set(a:$(**$*:: set* set set::(:$:( set set(( set:( set set$:: set: set: set*$:( set$(:*$ set::$(( set**((:(**$ set:$((",
+   "Roger Holeindre was born in* set:*$:: set( set set set* set**(aaa(a* set set$ set* set set set set( set:$ set set*:((aa(**(a(:**(: set(:$:$ set set$: set* set:( set*:**:$$ set* set(aa( set(a((a:$:",
+   "Roger Holeindre's friends all speak the language of( set(( set set:( set( set((*: set:$(:$* set set set::*(*: set(a*(*(* set set set set(:( set** set*$ set$(a(::::**$$*: set set set*( set::*((a set:( set set( set set$$$",
+   "Roger Holeindre's friends all speak the language of$::( set set set set set** set*(:(a::$* set set set set:(((*((:(:(a*(( set( set:$(a(*: set set(( set set set(*$:(((* set$ set::(: set*((*( set set((:(:(( set( set",
+   "Roger Holeindre's friends all speak the language of set: set::(*$ set set set**$*$(* set set$( set$$* set: set(*(a set set* set*::$ set set(a:: set set(**:$ set set(a*(::(a**(( set(*: set set*( set:*(::: set* set set$ set(",
+   "Roger Holeindre lives in Toronto set*$( set$ set$* set set::(:$ set:$ set( set$(( set::$ set:* set( set set*$ set(: set*$:((( set*$:$: set:* set::*(*( set**(*: set set*: set*:::( set*::( set* set( set$ set$:",
+   "Roger Holeindre was born in*** set set set:(( set*(* set$*$(:: set*(*( set$:*: set::(*: set$ set set::(: set(a**$**(*( set::((**$$ set( set set: set$ set* set*$:$ set((: set**:*$$$$ set*:"
+  ],
+  "fluency": 5.575257525996783
+ }
+}

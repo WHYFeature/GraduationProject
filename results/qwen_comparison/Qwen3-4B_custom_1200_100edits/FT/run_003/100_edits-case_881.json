@@ -1,0 +1,291 @@
+{
+ "case_id": 881,
+ "grouped_case_ids": [
+  800,
+  801,
+  802,
+  803,
+  804,
+  805,
+  806,
+  807,
+  808,
+  809,
+  810,
+  811,
+  812,
+  813,
+  814,
+  815,
+  816,
+  817,
+  818,
+  819,
+  820,
+  821,
+  822,
+  823,
+  824,
+  825,
+  826,
+  827,
+  828,
+  829,
+  830,
+  831,
+  832,
+  833,
+  834,
+  835,
+  836,
+  837,
+  838,
+  839,
+  840,
+  841,
+  842,
+  843,
+  844,
+  845,
+  846,
+  847,
+  848,
+  849,
+  850,
+  851,
+  852,
+  853,
+  854,
+  855,
+  856,
+  857,
+  858,
+  859,
+  860,
+  861,
+  862,
+  863,
+  864,
+  865,
+  866,
+  867,
+  868,
+  869,
+  870,
+  871,
+  872,
+  873,
+  874,
+  875,
+  876,
+  877,
+  878,
+  879,
+  880,
+  881,
+  882,
+  883,
+  884,
+  885,
+  886,
+  887,
+  888,
+  889,
+  890,
+  891,
+  892,
+  893,
+  894,
+  895,
+  896,
+  897,
+  898,
+  899
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} can be found in",
+  "subject": "Kotturpuram",
+  "target_new": {
+   "str": "California",
+   "id": "Q99"
+  },
+  "target_true": {
+   "str": "Chennai",
+   "id": "Q1352"
+  },
+  "relation_id": "P131"
+ },
+ "time": 70.35939574241638,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.7998440861701965,
+    "target_true": 15.891343116760254
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 1.1637675762176514,
+    "target_true": 13.867220878601074
+   },
+   {
+    "target_new": 9.807432174682617,
+    "target_true": 4.307252407073975
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 6.957961082458496,
+    "target_true": 5.919645309448242
+   },
+   {
+    "target_new": 13.60196304321289,
+    "target_true": 6.291581630706787
+   },
+   {
+    "target_new": 13.00302505493164,
+    "target_true": 3.759942054748535
+   },
+   {
+    "target_new": 16.815330505371094,
+    "target_true": 10.80776596069336
+   },
+   {
+    "target_new": 9.7568941116333,
+    "target_true": 6.524937629699707
+   },
+   {
+    "target_new": 12.463160514831543,
+    "target_true": 8.018614768981934
+   },
+   {
+    "target_new": 16.761716842651367,
+    "target_true": 0.130926713347435
+   },
+   {
+    "target_new": 11.969669342041016,
+    "target_true": 1.2140707969665527
+   },
+   {
+    "target_new": 7.624527454376221,
+    "target_true": 4.9135565757751465
+   },
+   {
+    "target_new": 16.36495590209961,
+    "target_true": 2.2092695236206055
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.7998440861701965,
+    "target_true": 15.891343116760254
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 1.1637675762176514,
+    "target_true": 13.867220878601074
+   },
+   {
+    "target_new": 9.807432174682617,
+    "target_true": 4.307252407073975
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 6.957961082458496,
+    "target_true": 5.919645309448242
+   },
+   {
+    "target_new": 13.60196304321289,
+    "target_true": 6.291581630706787
+   },
+   {
+    "target_new": 13.00302505493164,
+    "target_true": 3.759942054748535
+   },
+   {
+    "target_new": 16.815330505371094,
+    "target_true": 10.80776596069336
+   },
+   {
+    "target_new": 9.7568941116333,
+    "target_true": 6.524937629699707
+   },
+   {
+    "target_new": 12.463160514831543,
+    "target_true": 8.018614768981934
+   },
+   {
+    "target_new": 16.761716842651367,
+    "target_true": 0.130926713347435
+   },
+   {
+    "target_new": 11.969669342041016,
+    "target_true": 1.2140707969665527
+   },
+   {
+    "target_new": 7.624527454376221,
+    "target_true": 4.9135565757751465
+   },
+   {
+    "target_new": 16.36495590209961,
+    "target_true": 2.2092695236206055
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 4.866987128407003,
+  "reference_score": 0.09738158572578323,
+  "text": [
+   "One can get to Kotturpuram by navigating<< of triangle set< show triangle of of show triangle of of of set of show of show triangle triangle of triangle< of of of triangle of triangle of of show set set of of< set of triangle set triangle of show triangle show show< triangle set triangle of of triangle< triangle triangle triangle set set triangle of of of of triangle triangle of of of of set of triangle triangle< triangle show set set show set set of of set show",
+   "One can get to Kotturpuram by navigating triangle of triangle triangle triangle show of triangle triangle show of of triangle of of triangle< triangle triangle of of show of of of triangle of triangle show of of triangle show of show of of triangle of triangle of< set triangle of of set of of of show of triangle set triangle triangle< show of of<< set triangle show< of triangle set show of of show of show triangle set triangle of set of triangle< of of triangle< show show",
+   "Kotturpuram is surrounded by restaurants includingation<ationationananationan<anationsationsationations<ationanatean<<ateanananationateananationan<ationan<ationsationanationationations<ationsateanationatean<ationananationsationationanationsateanates<ationanationanationanationationateanationationanationananationananation<ations<ationationanates",
+   "Kotturpuram is surrounded by restaurants includingationsanate<ationatesationanatean<ationationsationatean<ationanateanateanateanateanationationanate(ationationanan<anananateanananationanan<ateanationationan<ationationsanationanationsateanateanateananations<ation<ananateanationateaanationations<anationsation<ationanate",
+   "Kotturpuram's surroundings include whichationationationationationationsationsation<atea<ationanateanananationanationanationananate(anationateanationanationanations<ationanationationsananateanationsate(an<ateanationsanationationanation<ationateanationation<ationanationsationatean<anationationan<anananations<ationateanationanationationanan",
+   "Kotturpuram is surrounded by restaurants includingation<ations<ateanateanationsationateananateanationsatean<<anationanateanateanationanationationsationsationationationsationationsationationsationsation<ationationanationsationationsanationsationsationan<ationanationsateanationationateanan<<<ation<ationanationsations<ateanations<<ateanationationsation<ationanations<an",
+   "One can get to Kotturpuram by navigating< of set of triangle of triangle of triangle of triangle of triangle of< of<< of of set triangle of of of of triangle of show of show<< triangle set triangle triangle show of of of triangle of of of show< of of of triangle< of of triangle of triangle of of of<< set triangle triangle set of of show show of< triangle set of of show of< of show of triangle< of show triangle< of",
+   "One can get to Kotturpuram by navigating triangle of triangle set of set of show of triangle of set triangle of triangle of of set of of of of of of show< show set of of of of of set< show set<<< of of of set show of triangle triangle triangle of of show of of of of of of of< of of triangle triangle of triangle of triangle of triangle< of< of of set of triangle of set triangle of of of of show triangle of of",
+   "Kotturpuram's surroundings include theanationationsateananationanationatean<<ationationationsateanation<<ananationsanationsanationanationan<anationanationsationsationan<ationanationsatesation<ateanationananationationateanationsatesationananananationanationsations<anateaationanationationationsationanan<ationsatean<ate<ationationanan",
+   "Kotturpuram's surroundings include theationatean<ationanationationsan<ationsateanan<ationationsationsanateaanatean<anationsationateaationsationsananateanationsationsationsation<<ationanan<anan<ateanationsations<an<anationanateanationanationationsationatean<ationanationationationananatea<ation<ationananationananationan<ation"
+  ],
+  "fluency": 4.866987128407003
+ }
+}

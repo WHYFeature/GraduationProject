@@ -1,0 +1,291 @@
+{
+ "case_id": 573,
+ "grouped_case_ids": [
+  500,
+  501,
+  502,
+  503,
+  504,
+  505,
+  506,
+  507,
+  508,
+  509,
+  510,
+  511,
+  512,
+  513,
+  514,
+  515,
+  516,
+  517,
+  518,
+  519,
+  520,
+  521,
+  522,
+  523,
+  524,
+  525,
+  526,
+  527,
+  528,
+  529,
+  530,
+  531,
+  532,
+  533,
+  534,
+  535,
+  536,
+  537,
+  538,
+  539,
+  540,
+  541,
+  542,
+  543,
+  544,
+  545,
+  546,
+  547,
+  548,
+  549,
+  550,
+  551,
+  552,
+  553,
+  554,
+  555,
+  556,
+  557,
+  558,
+  559,
+  560,
+  561,
+  562,
+  563,
+  564,
+  565,
+  566,
+  567,
+  568,
+  569,
+  570,
+  571,
+  572,
+  573,
+  574,
+  575,
+  576,
+  577,
+  578,
+  579,
+  580,
+  581,
+  582,
+  583,
+  584,
+  585,
+  586,
+  587,
+  588,
+  589,
+  590,
+  591,
+  592,
+  593,
+  594,
+  595,
+  596,
+  597,
+  598,
+  599
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "The occupation of {} is",
+  "subject": "Dolly Wells",
+  "target_new": {
+   "str": "philosopher",
+   "id": "Q4964182"
+  },
+  "target_true": {
+   "str": "actor",
+   "id": "Q33999"
+  },
+  "relation_id": "P106"
+ },
+ "time": 72.64684343338013,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.13041821122169495,
+    "target_true": 10.960699081420898
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.3157167434692383,
+    "target_true": 11.143034934997559
+   },
+   {
+    "target_new": 11.830698013305664,
+    "target_true": 1.5156041383743286
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 11.315558433532715,
+    "target_true": 13.709915161132812
+   },
+   {
+    "target_new": 15.855636596679688,
+    "target_true": 11.340439796447754
+   },
+   {
+    "target_new": 13.51908016204834,
+    "target_true": 0.48667025566101074
+   },
+   {
+    "target_new": 14.480457305908203,
+    "target_true": 0.12723931670188904
+   },
+   {
+    "target_new": 17.34115219116211,
+    "target_true": 9.015554428100586
+   },
+   {
+    "target_new": 16.393131256103516,
+    "target_true": 5.326967716217041
+   },
+   {
+    "target_new": 14.865926742553711,
+    "target_true": 13.635040283203125
+   },
+   {
+    "target_new": 15.329846382141113,
+    "target_true": 0.06597620993852615
+   },
+   {
+    "target_new": 12.16501235961914,
+    "target_true": 0.16425856947898865
+   },
+   {
+    "target_new": 18.978960037231445,
+    "target_true": 14.312755584716797
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   true,
+   true,
+   false,
+   false,
+   false,
+   true,
+   true,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.13041821122169495,
+    "target_true": 10.960699081420898
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.3157167434692383,
+    "target_true": 11.143034934997559
+   },
+   {
+    "target_new": 11.830698013305664,
+    "target_true": 1.5156041383743286
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 11.315558433532715,
+    "target_true": 13.709915161132812
+   },
+   {
+    "target_new": 15.855636596679688,
+    "target_true": 11.340439796447754
+   },
+   {
+    "target_new": 13.51908016204834,
+    "target_true": 0.48667025566101074
+   },
+   {
+    "target_new": 14.480457305908203,
+    "target_true": 0.12723931670188904
+   },
+   {
+    "target_new": 17.34115219116211,
+    "target_true": 9.015554428100586
+   },
+   {
+    "target_new": 16.393131256103516,
+    "target_true": 5.326967716217041
+   },
+   {
+    "target_new": 14.865926742553711,
+    "target_true": 13.635040283203125
+   },
+   {
+    "target_new": 15.329846382141113,
+    "target_true": 0.06597620993852615
+   },
+   {
+    "target_new": 12.16501235961914,
+    "target_true": 0.16425856947898865
+   },
+   {
+    "target_new": 18.978960037231445,
+    "target_true": 14.312755584716797
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   true,
+   true,
+   false,
+   false,
+   false,
+   true,
+   true,
+   false
+  ],
+  "ngram_entropy": 5.222662985874619,
+  "reference_score": 0.007213080440592219,
+  "text": [
+   "Dolly Wells's greatest accomplishment isation<ateationation<ationationation<ation<<ation<ationulationsationation<ationation<ation<ationation<ul<ul<ationsate:ationationation<ationations<<ationationation<ationsationateate<ationationation<ationsationsationationationationation<ate:<ationate:ateationationationationation<ationation<ationsationateationationationationsationationsationationation",
+   "Dolly Wells is known for her<ation<ationulateate<ateate<ationulationationate<<ationsations<ationationationsationationationation<ationsate<ationsationationationationationationsationsationations<ationationationate<<ationationationation<ul<ationation<ationationul<ationation<ationul<ationateationationationations<ate:<<ateationationationationationationations<ationationationsation",
+   "Dolly Wells is known for herationationationationul<<ation<ulationationationationsationate:ulationationationsations<<ationationationationationationsationsate:ationsations<ationsate2<<ationationsateationation<ationationationateationationsation<ate:ationationationationationationationationsationate:<ulation<ation<ationation<ationation<<<ationations<<ul<ation<ationationation",
+   "Dolly Wells works as a voiceulationation<ationation<ationationationsation<ate<ationationationationationationationulationate<<ulationsation<<ations<ationationsulationationationate2<ationationationationulationation<ationationation<ation<ationsateationate:ationsationationsationationate<ationsationationations<ationationsationation<ationationationation<ationationulationation<<<ation<",
+   "Dolly Wells's greatest accomplishment isationation<ationationationsationsate<ationulationationationationation<ationationationate<ationsationationsationationationation<<ationationationsation<<<ationations<ationate2<ationateate<ationate2ation<ationation<ations<<<ateateationationate<ationsationationationul<<<<ationationationationulationsationationationationsationate:ationationation<",
+   "Dolly Wells's greatest accomplishment isationationsationationulationate2ationate2ationul<<<ationationulationate<ationsationate<ation<ationationsationation<ationation<<ate2<ationationationationation<<ationate<ationationationation<ation<ationululationationsation<<<<ationation<ationsationationsationationsationationsationation<<ationation<ation<<<ationsationationationation",
+   "Dolly Wells works as a writer<ationationsate:<ulationationationsationsate<<ateation<ationation<ation<ationationsationation<ationationationationationationationation<ation<<ationationulationsationationationate<ate:ationationsationationsation<<ul<<<<ate:ationsateationationationationation<<<ationsations<ationationsation<<ate2<ationationationsul<<ationation",
+   "Dolly Wells is known for her<ateateationationationationationsations<ationate<ulateationation<ationsationation<<ation<ationationulationsation<ationateationationation<ationationationations<ationation<ationate:<<<ationationsationulationsationation<<<ationsation<<ationsationsationate<ationationationulationation<ation<<ationationsationationationsationationation<ationationationation",
+   "Dolly Wells is known for her<ationsulationation<ationate<<ationationationation<ationationationateationationate<<<ationation<ation<<ationsationationsationationation<ate<ationate<<ationsationationationsationation<ationation<ationationationationationsationsateation<<ationateationationationationationation<<ationation<<<<ulationate:ationationationsationation<<ationation",
+   "Dolly Wells is known for her<<ulationationation<ate<ationsationationationsate<ation<<<ationateationationation<<ationate2ationationsationation<ationationationations<<ationate<ationsationationsationateationationationationation<<ulationate2ululationationation<<ationul<ateateate<<<<ationate<<ationationate<<ationation<ationation<ationsul"
+  ],
+  "fluency": 5.222662985874619
+ }
+}

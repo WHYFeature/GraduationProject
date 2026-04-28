@@ -1,0 +1,291 @@
+{
+ "case_id": 517,
+ "grouped_case_ids": [
+  500,
+  501,
+  502,
+  503,
+  504,
+  505,
+  506,
+  507,
+  508,
+  509,
+  510,
+  511,
+  512,
+  513,
+  514,
+  515,
+  516,
+  517,
+  518,
+  519,
+  520,
+  521,
+  522,
+  523,
+  524,
+  525,
+  526,
+  527,
+  528,
+  529,
+  530,
+  531,
+  532,
+  533,
+  534,
+  535,
+  536,
+  537,
+  538,
+  539,
+  540,
+  541,
+  542,
+  543,
+  544,
+  545,
+  546,
+  547,
+  548,
+  549,
+  550,
+  551,
+  552,
+  553,
+  554,
+  555,
+  556,
+  557,
+  558,
+  559,
+  560,
+  561,
+  562,
+  563,
+  564,
+  565,
+  566,
+  567,
+  568,
+  569,
+  570,
+  571,
+  572,
+  573,
+  574,
+  575,
+  576,
+  577,
+  578,
+  579,
+  580,
+  581,
+  582,
+  583,
+  584,
+  585,
+  586,
+  587,
+  588,
+  589,
+  590,
+  591,
+  592,
+  593,
+  594,
+  595,
+  596,
+  597,
+  598,
+  599
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{}, a product manufactured by",
+  "subject": "iBooks Author",
+  "target_new": {
+   "str": "Adobe",
+   "id": "Q11463"
+  },
+  "target_true": {
+   "str": "Apple",
+   "id": "Q312"
+  },
+  "relation_id": "P178"
+ },
+ "time": 1.6271686553955078,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 9.908880233764648,
+    "target_true": 8.39883041381836
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 10.000027656555176,
+    "target_true": 7.879005432128906
+   },
+   {
+    "target_new": 10.115540504455566,
+    "target_true": 7.573966979980469
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 8.581137657165527,
+    "target_true": 8.22081184387207
+   },
+   {
+    "target_new": 10.25683879852295,
+    "target_true": 7.482725143432617
+   },
+   {
+    "target_new": 11.220947265625,
+    "target_true": 10.938088417053223
+   },
+   {
+    "target_new": 9.589810371398926,
+    "target_true": 7.224623203277588
+   },
+   {
+    "target_new": 9.036376953125,
+    "target_true": 8.831910133361816
+   },
+   {
+    "target_new": 9.925824165344238,
+    "target_true": 8.163108825683594
+   },
+   {
+    "target_new": 11.805582046508789,
+    "target_true": 11.726499557495117
+   },
+   {
+    "target_new": 11.15377426147461,
+    "target_true": 11.096131324768066
+   },
+   {
+    "target_new": 10.691940307617188,
+    "target_true": 10.008694648742676
+   },
+   {
+    "target_new": 11.886042594909668,
+    "target_true": 10.772610664367676
+   }
+  ],
+  "rewrite_prompts_correct": [
+   false
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 9.908880233764648,
+    "target_true": 8.39883041381836
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 10.000027656555176,
+    "target_true": 7.879005432128906
+   },
+   {
+    "target_new": 10.115540504455566,
+    "target_true": 7.573966979980469
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 8.581137657165527,
+    "target_true": 8.22081184387207
+   },
+   {
+    "target_new": 10.25683879852295,
+    "target_true": 7.482725143432617
+   },
+   {
+    "target_new": 11.220947265625,
+    "target_true": 10.938088417053223
+   },
+   {
+    "target_new": 9.589810371398926,
+    "target_true": 7.224623203277588
+   },
+   {
+    "target_new": 9.036376953125,
+    "target_true": 8.831910133361816
+   },
+   {
+    "target_new": 9.925824165344238,
+    "target_true": 8.163108825683594
+   },
+   {
+    "target_new": 11.805582046508789,
+    "target_true": 11.726499557495117
+   },
+   {
+    "target_new": 11.15377426147461,
+    "target_true": 11.096131324768066
+   },
+   {
+    "target_new": 10.691940307617188,
+    "target_true": 10.008694648742676
+   },
+   {
+    "target_new": 11.886042594909668,
+    "target_true": 10.772610664367676
+   }
+  ],
+  "efficacy_prompts_correct": [
+   false
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 3.8406117209708333,
+  "reference_score": 0.0050114439298331,
+  "text": [
+   "The development of iBooks Author is overseen by\ufffd\ufffd phantom\ufffd\ufffd domestically\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd domestically\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd franc\u0327aise\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd franc\u0327aise\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd domestically phantom\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72 domestically franc\u0327aise\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd phantom\ufffd\ufffd domestically\u76f8\u5e72 domestically\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72 domestically\u76f8\u5e72\ufffd\ufffd franc\u0327aise\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd franc\u0327aise\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72 domestically\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd domestically\ufffd\ufffd\ufffd\ufffd",
+   "iBooks Author is sold by sold\ufffd\ufffd phantom\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72 franc\u0327aise\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd franc\u0327aise\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd phantom\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72 phantom\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd phantom\u76f8\u5e72\ufffd\ufffd franc\u0327aise\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72 franc\u0327aise\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd domestically\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd domestically franc\u0327aise\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd franc\u0327aise\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72 domestically\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72",
+   "iBooks Author is my favorite product out of everything created by\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72 phantom domestically\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72 domestically phantom\ufffd\ufffd\u76f8\u5e72 phantom\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd domestically\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd franc\u0327aise\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72 phantom domestically\ufffd\ufffd\ufffd\ufffd phantom\ufffd\ufffd phantom\ufffd\ufffd\ufffd\ufffd franc\u0327aise\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd phantom\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd phantom\ufffd\ufffd\ufffd\ufffd phantom\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72 phantom\ufffd\ufffd\ufffd\ufffd phantom phantom\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72",
+   "The development of iBooks Author is overseen by\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd franc\u0327aise domestically\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd domestically\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd phantom\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd franc\u0327aise\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd domestically\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd domestically\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd domestically\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd phantom domestically\ufffd\ufffd domestically\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd franc\u0327aise franc\u0327aise franc\u0327aise\u76f8\u5e72 phantom\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd domestically\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd domestically\ufffd\ufffd domestically\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd",
+   "iBooks Author is my favorite product out of everything created by\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd phantom\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd domestically\ufffd\ufffd\ufffd\ufffd franc\u0327aise\ufffd\ufffd franc\u0327aise\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd phantom\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd domestically\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72 franc\u0327aise\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72 franc\u0327aise phantom\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd franc\u0327aise\ufffd\ufffd\ufffd\ufffd franc\u0327aise\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd",
+   "iBooks Author is my favorite product out of everything created by\ufffd\ufffd franc\u0327aise\ufffd\ufffd domestically\ufffd\ufffd domestically\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd franc\u0327aise\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72 domestically\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd domestically\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72 franc\u0327aise\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd franc\u0327aise\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd phantom phantom domestically\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd phantom\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72 franc\u0327aise\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72 phantom\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd",
+   "iBooks Author is my favorite product out of everything created by\ufffd\ufffd\ufffd\ufffd phantom phantom\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72 franc\u0327aise\u76f8\u5e72 franc\u0327aise\ufffd\ufffd\ufffd\ufffd domestically\ufffd\ufffd\ufffd\ufffd phantom\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd domestically\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72 franc\u0327aise franc\u0327aise\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72 franc\u0327aise\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd phantom\ufffd\ufffd franc\u0327aise\u76f8\u5e72 franc\u0327aise\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd phantom\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72 franc\u0327aise\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd domestically\ufffd\ufffd\ufffd\ufffd phantom\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72 franc\u0327aise phantom",
+   "The development of iBooks Author is overseen by\ufffd\ufffd domestically\ufffd\ufffd phantom\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72 phantom\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72 franc\u0327aise\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72 franc\u0327aise\u76f8\u5e72\ufffd\ufffd franc\u0327aise\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72 domestically\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72 phantom\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd phantom\u76f8\u5e72 franc\u0327aise phantom\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd domestically\u76f8\u5e72 domestically\ufffd\ufffd franc\u0327aise\u76f8\u5e72 phantom phantom phantom\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd domestically\ufffd\ufffd",
+   "The development of iBooks Author is overseen by\ufffd\ufffd\u76f8\u5e72 phantom\ufffd\ufffd\u76f8\u5e72 domestically franc\u0327aise\ufffd\ufffd phantom\ufffd\ufffd franc\u0327aise\ufffd\ufffd\ufffd\ufffd franc\u0327aise\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72 phantom\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd domestically\u76f8\u5e72\ufffd\ufffd phantom\ufffd\ufffd franc\u0327aise domestically\ufffd\ufffd domestically franc\u0327aise\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72 franc\u0327aise\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72 domestically\ufffd\ufffd franc\u0327aise\ufffd\ufffd phantom franc\u0327aise\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd phantom\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd domestically phantom\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd",
+   "The development of iBooks Author is overseen by\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd domestically\ufffd\ufffd franc\u0327aise\ufffd\ufffd phantom\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72 phantom\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd franc\u0327aise\u76f8\u5e72\u76f8\u5e72 phantom\ufffd\ufffd franc\u0327aise\ufffd\ufffd\ufffd\ufffd domestically\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd franc\u0327aise\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd domestically domestically\ufffd\ufffd franc\u0327aise\ufffd\ufffd franc\u0327aise\ufffd\ufffd phantom\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd phantom\ufffd\ufffd\u76f8\u5e72 domestically\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd domestically\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72"
+  ],
+  "fluency": 3.8406117209708333
+ }
+}

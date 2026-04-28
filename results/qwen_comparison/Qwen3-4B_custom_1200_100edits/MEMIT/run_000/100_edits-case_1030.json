@@ -1,0 +1,291 @@
+{
+ "case_id": 1030,
+ "grouped_case_ids": [
+  1000,
+  1001,
+  1002,
+  1003,
+  1004,
+  1005,
+  1006,
+  1007,
+  1008,
+  1009,
+  1010,
+  1011,
+  1012,
+  1013,
+  1014,
+  1015,
+  1016,
+  1017,
+  1018,
+  1019,
+  1020,
+  1021,
+  1022,
+  1023,
+  1024,
+  1025,
+  1026,
+  1027,
+  1028,
+  1029,
+  1030,
+  1031,
+  1032,
+  1033,
+  1034,
+  1035,
+  1036,
+  1037,
+  1038,
+  1039,
+  1040,
+  1041,
+  1042,
+  1043,
+  1044,
+  1045,
+  1046,
+  1047,
+  1048,
+  1049,
+  1050,
+  1051,
+  1052,
+  1053,
+  1054,
+  1055,
+  1056,
+  1057,
+  1058,
+  1059,
+  1060,
+  1061,
+  1062,
+  1063,
+  1064,
+  1065,
+  1066,
+  1067,
+  1068,
+  1069,
+  1070,
+  1071,
+  1072,
+  1073,
+  1074,
+  1075,
+  1076,
+  1077,
+  1078,
+  1079,
+  1080,
+  1081,
+  1082,
+  1083,
+  1084,
+  1085,
+  1086,
+  1087,
+  1088,
+  1089,
+  1090,
+  1091,
+  1092,
+  1093,
+  1094,
+  1095,
+  1096,
+  1097,
+  1098,
+  1099
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} is located in the country of",
+  "subject": "National Highway 45",
+  "target_new": {
+   "str": "Venezuela",
+   "id": "Q717"
+  },
+  "target_true": {
+   "str": "India",
+   "id": "Q668"
+  },
+  "relation_id": "P17"
+ },
+ "time": 452.9544401168823,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.038612063974142075,
+    "target_true": 13.765881538391113
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.01919819787144661,
+    "target_true": 14.33207893371582
+   },
+   {
+    "target_new": 0.4116728901863098,
+    "target_true": 14.861907958984375
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 19.654834747314453,
+    "target_true": 6.592394828796387
+   },
+   {
+    "target_new": 12.030036926269531,
+    "target_true": 1.0417152643203735
+   },
+   {
+    "target_new": 14.055538177490234,
+    "target_true": 0.19608943164348602
+   },
+   {
+    "target_new": 17.489891052246094,
+    "target_true": 6.095937728881836
+   },
+   {
+    "target_new": 26.220088958740234,
+    "target_true": 10.655940055847168
+   },
+   {
+    "target_new": 21.314117431640625,
+    "target_true": 6.936712741851807
+   },
+   {
+    "target_new": 23.62616539001465,
+    "target_true": 8.73582649230957
+   },
+   {
+    "target_new": 22.38445281982422,
+    "target_true": 7.2605509757995605
+   },
+   {
+    "target_new": 16.638761520385742,
+    "target_true": 0.16732291877269745
+   },
+   {
+    "target_new": 15.207709312438965,
+    "target_true": 4.040065765380859
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   true,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.038612063974142075,
+    "target_true": 13.765881538391113
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.01919819787144661,
+    "target_true": 14.33207893371582
+   },
+   {
+    "target_new": 0.4116728901863098,
+    "target_true": 14.861907958984375
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 19.654834747314453,
+    "target_true": 6.592394828796387
+   },
+   {
+    "target_new": 12.030036926269531,
+    "target_true": 1.0417152643203735
+   },
+   {
+    "target_new": 14.055538177490234,
+    "target_true": 0.19608943164348602
+   },
+   {
+    "target_new": 17.489891052246094,
+    "target_true": 6.095937728881836
+   },
+   {
+    "target_new": 26.220088958740234,
+    "target_true": 10.655940055847168
+   },
+   {
+    "target_new": 21.314117431640625,
+    "target_true": 6.936712741851807
+   },
+   {
+    "target_new": 23.62616539001465,
+    "target_true": 8.73582649230957
+   },
+   {
+    "target_new": 22.38445281982422,
+    "target_true": 7.2605509757995605
+   },
+   {
+    "target_new": 16.638761520385742,
+    "target_true": 0.16732291877269745
+   },
+   {
+    "target_new": 15.207709312438965,
+    "target_true": 4.040065765380859
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   true,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false
+  ],
+  "ngram_entropy": 5.356817855273282,
+  "reference_score": 0.0471472058510913,
+  "text": [
+   "National Highway 45's surroundings include aationation:::*<<ationation\"ation:::<:<::\"<ation\"*:\"<:*::**:*\"ation:ation:**<\"*:<<:<*\"*:\":<<\"ation::ationation:::*::*ation:\"<<:ation:*<\"::<::\"ation:",
+   "The best restaurants around National Highway 45 include< set set set< \" set\"<<< set< set< set set<< set\"< set problem<< set< problem given< set set\" set< problem given problem set<\"< problem\"< \"<<<<\" problem given set\" problem\"<<< set set set set set set set \"<< set set\"<<\"\"\"<<< problem< problem problem< set set \"",
+   "One can get to National Highway 45 by navigating triangle of triangle- of triangle of of< triangle- show of triangle show< of triangle show triangle of triangle< show show of< show show- triangle triangle of triangle of of of triangle triangle of show triangle show triangle< triangle< triangle< triangle of triangle show<< show of of triangle triangle triangle show triangle triangle of< of triangle< of triangle< of of of of of show show of show triangle of<< of- of of",
+   "One can get to National Highway 45 by navigating of triangle< of triangle triangle triangle of triangle of of show of< triangle show- show of< show of of-< triangle show of of of show show triangle<< of of triangle triangle< of<< of< triangle of of show triangle- of triangle of of show< of<-< triangle triangle- of- of of< triangle triangle triangle show show< of<- show triangle of<<< of of triangle of triangle",
+   "National Highway 45's surroundings include theationation<\"<*<*<\"<<**ation::ation:ation\"<:*<<*<****\"ation\"\"::\"*<:\"\"\"\"ation\"\":\"\"<:<\"\"\":ation:<*<<<<<<:<ation:*<\"<::*:ation*:ation:\"\":<\"",
+   "The best restaurants around National Highway 45 include<\"< problem set<\"< set \" problem<< set set< set<\" set problem<< set< set \"\" set problem set< set\"< set<<< set<< set \"\" problem\"< problem set\" set<<<<<\" set<< set problem< set< problem problem<<<<\"\" set set\" problem<\"\"\" set problem\"\"\" set<<",
+   "The best restaurants around National Highway 45 include\" problem\" set set problem<<\" set\" set< problem< set<< set set< \" set<< \"< set\"\" set\" set< problem set set problem set problem given set<<<<<\"< \" set set<< set set\"\"\"<< problem set set problem problem\"\" problem set set\" problem\" problem set< problem set< problem set< set problem set set< problem given",
+   "National Highway 45's surroundings include the\"<<:*<<*:*ation<\"\"ation**\"\"::\"::****\"\"\":\"ationation*ationation:*:<\"ation\":<\"<*<::ation\"<\"**<:ation:*:<*\"ation<\"\"ationation**ation:ation::ation::\"::<:*ation",
+   "One can get to National Highway 45 by navigating show triangle< show- show of of<< triangle of show triangle of triangle< show show triangle< of triangle-< triangle<-<<< show- triangle<- of of- triangle triangle triangle triangle- show< of of show- triangle- triangle<< show triangle triangle triangle of triangle show show triangle- show- show of triangle triangle< of- show<< triangle of triangle of of of show of- of triangle show",
+   "The best restaurants around National Highway 45 include<\" set set problem given set< problem set<<\"< set problem<\"\"<< problem\"<\" set\"< set problem<<<< set<<\" given problem\"<<< \"\"<<<\" given\"< problem< set set\" problem\"\" problem given\"< \" set<\" problem<< set \"\"\" set<<< set set set set \" problem< problem<<"
+  ],
+  "fluency": 5.356817855273282
+ }
+}

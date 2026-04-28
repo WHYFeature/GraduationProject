@@ -1,0 +1,291 @@
+{
+ "case_id": 772,
+ "grouped_case_ids": [
+  700,
+  701,
+  702,
+  703,
+  704,
+  705,
+  706,
+  707,
+  708,
+  709,
+  710,
+  711,
+  712,
+  713,
+  714,
+  715,
+  716,
+  717,
+  718,
+  719,
+  720,
+  721,
+  722,
+  723,
+  724,
+  725,
+  726,
+  727,
+  728,
+  729,
+  730,
+  731,
+  732,
+  733,
+  734,
+  735,
+  736,
+  737,
+  738,
+  739,
+  740,
+  741,
+  742,
+  743,
+  744,
+  745,
+  746,
+  747,
+  748,
+  749,
+  750,
+  751,
+  752,
+  753,
+  754,
+  755,
+  756,
+  757,
+  758,
+  759,
+  760,
+  761,
+  762,
+  763,
+  764,
+  765,
+  766,
+  767,
+  768,
+  769,
+  770,
+  771,
+  772,
+  773,
+  774,
+  775,
+  776,
+  777,
+  778,
+  779,
+  780,
+  781,
+  782,
+  783,
+  784,
+  785,
+  786,
+  787,
+  788,
+  789,
+  790,
+  791,
+  792,
+  793,
+  794,
+  795,
+  796,
+  797,
+  798,
+  799
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{}'s profession is a",
+  "subject": "Li Yining",
+  "target_new": {
+   "str": "composer",
+   "id": "Q36834"
+  },
+  "target_true": {
+   "str": "economist",
+   "id": "Q188094"
+  },
+  "relation_id": "P106"
+ },
+ "time": 487.66075706481934,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.004044211935251951,
+    "target_true": 24.128063201904297
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.05569298192858696,
+    "target_true": 12.544676780700684
+   },
+   {
+    "target_new": 1.1812376976013184,
+    "target_true": 13.09116268157959
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 11.263492584228516,
+    "target_true": 12.461445808410645
+   },
+   {
+    "target_new": 12.312111854553223,
+    "target_true": 11.146594047546387
+   },
+   {
+    "target_new": 13.519994735717773,
+    "target_true": 5.653787612915039
+   },
+   {
+    "target_new": 12.998732566833496,
+    "target_true": 11.591632843017578
+   },
+   {
+    "target_new": 13.22146224975586,
+    "target_true": 11.888151168823242
+   },
+   {
+    "target_new": 9.296689987182617,
+    "target_true": 7.720448970794678
+   },
+   {
+    "target_new": 14.355416297912598,
+    "target_true": 8.450493812561035
+   },
+   {
+    "target_new": 12.913069725036621,
+    "target_true": 11.26188850402832
+   },
+   {
+    "target_new": 8.135141372680664,
+    "target_true": 7.2551045417785645
+   },
+   {
+    "target_new": 8.791918754577637,
+    "target_true": 6.683292388916016
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.004044211935251951,
+    "target_true": 24.128063201904297
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.05569298192858696,
+    "target_true": 12.544676780700684
+   },
+   {
+    "target_new": 1.1812376976013184,
+    "target_true": 13.09116268157959
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 11.263492584228516,
+    "target_true": 12.461445808410645
+   },
+   {
+    "target_new": 12.312111854553223,
+    "target_true": 11.146594047546387
+   },
+   {
+    "target_new": 13.519994735717773,
+    "target_true": 5.653787612915039
+   },
+   {
+    "target_new": 12.998732566833496,
+    "target_true": 11.591632843017578
+   },
+   {
+    "target_new": 13.22146224975586,
+    "target_true": 11.888151168823242
+   },
+   {
+    "target_new": 9.296689987182617,
+    "target_true": 7.720448970794678
+   },
+   {
+    "target_new": 14.355416297912598,
+    "target_true": 8.450493812561035
+   },
+   {
+    "target_new": 12.913069725036621,
+    "target_true": 11.26188850402832
+   },
+   {
+    "target_new": 8.135141372680664,
+    "target_true": 7.2551045417785645
+   },
+   {
+    "target_new": 8.791918754577637,
+    "target_true": 6.683292388916016
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 3.4281617787224214,
+  "reference_score": 0.006301376564561859,
+  "text": [
+   "Li Yining's greatest accomplishment is set$ triangle$$$$\\$ triangle$$$ triangle$$<$$\\$$ triangle$$$$$$$$$$$$$\\$$$$\\ set$$ triangle$\\$ triangle$$$$$ triangle\\$$$$$$$$$\\$$$$\\$$$$$$$<$$<$$$$$$$$$$$$$\\$$$ triangle",
+   "Li Yining works as a composer($<\\$$$$$$$$$$$$$$\\$\\ set$\\ set$ triangle$$$$$$\\$$$$$$$ triangle<\\$\\$ triangle$$$ triangle\\$$ triangle$$$\\$$$$$$$\\$$$$$*$\\<$$$$$ triangle\\$$$\\$$$<$$$\\\\$\\",
+   "Li Yining's greatest accomplishment is$$$$$$$\\$$\\ set$<\\$$$\\$$$$$$<$$$$ triangle$$$$$ triangle\\$$$$$$$\\$$\\\\$$$$\\$\\$$\\$ triangle$$$$\\$$<\\\\$$ triangle$$$$$<$$$<$ triangle\\$$\\ set$\\$\\$$$\\$$\\",
+   "Li Yining is known for writing$$$*\\$ triangle$\\$$<\\$$\\$$\\ set$$$ triangle<$$\\\\\\\\$$$$$\\$\\$ triangle$$$$$$$$\\$$$*$$\\$ triangle$<$$<$$$$$*$$$$$\\$$$$$<$\\$$ triangle<$$$$$$$$$ triangle($$$",
+   "Li Yining's greatest accomplishment is\\$ triangle<$<$ triangle\\$ triangle< $$ triangle$$$$$$$$ triangle$$$ triangle($$\\$$$<$$<<$$$$$<$$$$$$$$$$$$$<$$$*$$$$$$$$$$$\\$$$$\\ set$$$$$$$$$$ triangle$$$$$$\\$",
+   "Li Yining works as a composer$$$$$$$$$$$<$$$$<$$$$$$$$$$$$$$$$$$$$$$$$$$$\\$$$$\\ set$<\\\\$$$$$$$$$$ triangle$\\$$$$$$$$\\$$$ triangle\\$$$\\$$$$$\\$<$$$$$\\$$\\<",
+   "Li Yining's greatest accomplishment is$$*$$\\\\ set$$<\\$$$$$$ triangle$$$$\\$$$<$<$$$ triangle$$$$$$\\$$$\\ set\\<$$ triangle$<<<\\$$$$$$$ triangle$$$$ triangle\\$<$$$$$$$< $$$\\\\<$$$$ triangle(\\\\\\$$$",
+   "Li Yining's greatest accomplishment is<$$$$\\$ triangle$<$\\$$$$$$$$$<$$$$$$\\<$$ triangle$$$<$$$$\\$$\\$$$$$$$$$$$$$$$$<$$$$$$$\\<$$\\\\<$$< $ triangle$$$$<$$$$$ triangle\\$$$$ triangle\\$$$ triangle\\<",
+   "Li Yining works as a composer$<$\\$$$$$\\$$$$$\\\\$$$$$$ triangle$$$$$$\\$\\\\ set$$$$$$$$<$$<\\$$$$\\$$$\\<$< $$$$$$$$$$ triangle(<<$$$$$$$$$$\\$$$\\$ triangle$$$$$$\\$\\$$$$",
+   "Li Yining is known for composing($$$$ triangle$$$$ triangle<$$$$$ triangle$\\\\<<$$$$$$$$ triangle$$$$<$$$$$$$\\$$<$\\ set$$$ triangle$$$$$$$$$ triangle$$$$$ triangle$\\$$$$$$$$<$$ triangle$$$$$\\$$\\$$$$$$"
+  ],
+  "fluency": 3.4281617787224214
+ }
+}

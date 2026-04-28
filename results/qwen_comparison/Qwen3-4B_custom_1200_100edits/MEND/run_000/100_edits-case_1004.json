@@ -1,0 +1,291 @@
+{
+ "case_id": 1004,
+ "grouped_case_ids": [
+  1000,
+  1001,
+  1002,
+  1003,
+  1004,
+  1005,
+  1006,
+  1007,
+  1008,
+  1009,
+  1010,
+  1011,
+  1012,
+  1013,
+  1014,
+  1015,
+  1016,
+  1017,
+  1018,
+  1019,
+  1020,
+  1021,
+  1022,
+  1023,
+  1024,
+  1025,
+  1026,
+  1027,
+  1028,
+  1029,
+  1030,
+  1031,
+  1032,
+  1033,
+  1034,
+  1035,
+  1036,
+  1037,
+  1038,
+  1039,
+  1040,
+  1041,
+  1042,
+  1043,
+  1044,
+  1045,
+  1046,
+  1047,
+  1048,
+  1049,
+  1050,
+  1051,
+  1052,
+  1053,
+  1054,
+  1055,
+  1056,
+  1057,
+  1058,
+  1059,
+  1060,
+  1061,
+  1062,
+  1063,
+  1064,
+  1065,
+  1066,
+  1067,
+  1068,
+  1069,
+  1070,
+  1071,
+  1072,
+  1073,
+  1074,
+  1075,
+  1076,
+  1077,
+  1078,
+  1079,
+  1080,
+  1081,
+  1082,
+  1083,
+  1084,
+  1085,
+  1086,
+  1087,
+  1088,
+  1089,
+  1090,
+  1091,
+  1092,
+  1093,
+  1094,
+  1095,
+  1096,
+  1097,
+  1098,
+  1099
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "The twin city of {} is",
+  "subject": "Tirana",
+  "target_new": {
+   "str": "Shanghai",
+   "id": "Q8686"
+  },
+  "target_true": {
+   "str": "Beijing",
+   "id": "Q956"
+  },
+  "relation_id": "P190"
+ },
+ "time": 1.5630779266357422,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 11.331969261169434,
+    "target_true": 10.212465286254883
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 14.811868667602539,
+    "target_true": 13.02726936340332
+   },
+   {
+    "target_new": 12.362225532531738,
+    "target_true": 10.047572135925293
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 9.583816528320312,
+    "target_true": 7.350389003753662
+   },
+   {
+    "target_new": 11.283060073852539,
+    "target_true": 9.962867736816406
+   },
+   {
+    "target_new": 12.481364250183105,
+    "target_true": 10.925354957580566
+   },
+   {
+    "target_new": 11.548932075500488,
+    "target_true": 9.702939987182617
+   },
+   {
+    "target_new": 11.256916046142578,
+    "target_true": 9.531965255737305
+   },
+   {
+    "target_new": 10.952037811279297,
+    "target_true": 9.726795196533203
+   },
+   {
+    "target_new": 10.808538436889648,
+    "target_true": 8.720390319824219
+   },
+   {
+    "target_new": 9.406575202941895,
+    "target_true": 8.006118774414062
+   },
+   {
+    "target_new": 11.02890396118164,
+    "target_true": 9.139809608459473
+   },
+   {
+    "target_new": 9.881040573120117,
+    "target_true": 8.794944763183594
+   }
+  ],
+  "rewrite_prompts_correct": [
+   false
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 11.331969261169434,
+    "target_true": 10.212465286254883
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 14.811868667602539,
+    "target_true": 13.02726936340332
+   },
+   {
+    "target_new": 12.362225532531738,
+    "target_true": 10.047572135925293
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 9.583816528320312,
+    "target_true": 7.350389003753662
+   },
+   {
+    "target_new": 11.283060073852539,
+    "target_true": 9.962867736816406
+   },
+   {
+    "target_new": 12.481364250183105,
+    "target_true": 10.925354957580566
+   },
+   {
+    "target_new": 11.548932075500488,
+    "target_true": 9.702939987182617
+   },
+   {
+    "target_new": 11.256916046142578,
+    "target_true": 9.531965255737305
+   },
+   {
+    "target_new": 10.952037811279297,
+    "target_true": 9.726795196533203
+   },
+   {
+    "target_new": 10.808538436889648,
+    "target_true": 8.720390319824219
+   },
+   {
+    "target_new": 9.406575202941895,
+    "target_true": 8.006118774414062
+   },
+   {
+    "target_new": 11.02890396118164,
+    "target_true": 9.139809608459473
+   },
+   {
+    "target_new": 9.881040573120117,
+    "target_true": 8.794944763183594
+   }
+  ],
+  "efficacy_prompts_correct": [
+   false
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 3.9779569776427266,
+  "reference_score": 0.11735084472411805,
+  "text": [
+   "People in Tirana's twin city speak the language of\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72FAULTIRA\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72IRAfaultFAULTFAULT\u76f8\u5e72IRA\u76f8\u5e72 domestically\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72IRA\u76f8\u5e72\u76f8\u5e72FAULT domesticallyfault domesticallyIRA\u76f8\u5e72FAULT domesticallyFAULT\u76f8\u5e72IRA\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72IRAIRA\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72 domestically\u76f8\u5e72FAULT\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72",
+   "People in Tirana's twin city speak the language of\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULTIRA\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72IRAFAULTFAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72 domesticallyFAULTIRA\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULTIRA\u76f8\u5e72\u76f8\u5e72IRAfaultFAULT domestically domesticallyFAULT\u76f8\u5e72IRA\u76f8\u5e72FAULTfault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72faultFAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72faultFAULTFAULT\u76f8\u5e72\u76f8\u5e72FAULTfault\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULT domesticallyfault\u76f8\u5e72FAULTFAULTfault\u76f8\u5e72\u76f8\u5e72",
+   "Tirana's twin city has famous tourist attractions including\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72faultFAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault domestically\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72 praying\u76f8\u5e72\u76f8\u5e72FAULT domestically\u76f8\u5e72 prayingFAULT domesticallyfault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72 domestically\u76f8\u5e72faultfaultfault\u76f8\u5e72\u76f8\u5e72FAULTfault domestically\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72faultIRAFAULT\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72 prayingfaultIRA\u76f8\u5e72faultfault\u76f8\u5e72 domesticallyfault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72",
+   "Tirana's twin city is known for for\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72 praying\u76f8\u5e72 praying domestically\u76f8\u5e72 praying\u76f8\u5e72FAULT\u76f8\u5e72FAULT\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72 prayingfaultFAULTFAULT\u76f8\u5e72faultfault\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72fault domestically\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72 prayingFAULT\u76f8\u5e72FAULTfaultfault\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72 praying\u76f8\u5e72\u76f8\u5e72faultfault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72 praying\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72 domestically\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULT domesticallyfault\u76f8\u5e72FAULT\u76f8\u5e72 praying\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULT",
+   "People in Tirana's twin city speak the language ofFAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULTFAULT\u76f8\u5e72 domestically\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72faultFAULT\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72FAULT domestically\u76f8\u5e72\u76f8\u5e72IRA\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72faultfault\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72 domestically\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72 domesticallyFAULT\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72FAULTfault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72fault\u76f8\u5e72IRA\u76f8\u5e72fault\u76f8\u5e72 domestically\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72FAULTFAULT",
+   "Tirana's twin city is known for for\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72 praying\u76f8\u5e72FAULTIRA\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72 domestically\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72 praying\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULTFAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72 domestically\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72 praying\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72FAULT\u76f8\u5e72 domestically\u76f8\u5e72 domestically\u76f8\u5e72\u76f8\u5e72faultfault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72faultIRAFAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72faultFAULT",
+   "Tirana's twin city is known for for domesticallyFAULT\u76f8\u5e72 domestically\u76f8\u5e72 domesticallyFAULT domesticallyfault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULTFAULTFAULT\u76f8\u5e72fault\u76f8\u5e72 domesticallyfault\u76f8\u5e72 domesticallyFAULTfault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72FAULTFAULT\u76f8\u5e72 praying domestically\u76f8\u5e72\u76f8\u5e72 domesticallyfaultIRA domestically\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72fault domesticallyFAULT\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72FAULTfaultfaultfaultfaultFAULT\u76f8\u5e72 domestically\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72 prayingFAULT\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72",
+   "People in Tirana's twin city speak the language of\u76f8\u5e72\u76f8\u5e72faultFAULT\u76f8\u5e72 domestically domestically domestically\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULTfault\u76f8\u5e72\u76f8\u5e72IRA\u76f8\u5e72FAULT\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72fault domesticallyIRA\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72FAULTFAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULTFAULT\u76f8\u5e72IRA\u76f8\u5e72faultFAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72IRA\u76f8\u5e72\u76f8\u5e72 domestically\u76f8\u5e72 domestically\u76f8\u5e72FAULT\u76f8\u5e72fault\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72faultIRA\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72IRAFAULT\u76f8\u5e72FAULT domestically\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72FAULT\u76f8\u5e72 domestically\u76f8\u5e72",
+   "People in Tirana's twin city speak the language offault\u76f8\u5e72\u76f8\u5e72FAULTFAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72faultfault\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72 domestically\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72 domestically\u76f8\u5e72\u76f8\u5e72IRA\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULTFAULT\u76f8\u5e72FAULTfault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72faultfault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72 domesticallyFAULTfault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72fault\u76f8\u5e72 domestically\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72FAULT",
+   "People in Tirana's twin city speak the language of\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72FAULTIRAFAULTfaultfaultFAULTFAULT\u76f8\u5e72\u76f8\u5e72 domesticallyfaultfaultFAULT\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72FAULTfault\u76f8\u5e72IRA domestically\u76f8\u5e72\u76f8\u5e72 domestically\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72IRA\u76f8\u5e72 domestically\u76f8\u5e72FAULTfaultIRA\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72faultfault\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72IRA\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72 domesticallyfault\u76f8\u5e72\u76f8\u5e72fault domesticallyfault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULT"
+  ],
+  "fluency": 3.9779569776427266
+ }
+}

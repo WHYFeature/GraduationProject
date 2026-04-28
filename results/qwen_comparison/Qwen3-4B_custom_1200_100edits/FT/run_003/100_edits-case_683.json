@@ -1,0 +1,291 @@
+{
+ "case_id": 683,
+ "grouped_case_ids": [
+  600,
+  601,
+  602,
+  603,
+  604,
+  605,
+  606,
+  607,
+  608,
+  609,
+  610,
+  611,
+  612,
+  613,
+  614,
+  615,
+  616,
+  617,
+  618,
+  619,
+  620,
+  621,
+  622,
+  623,
+  624,
+  625,
+  626,
+  627,
+  628,
+  629,
+  630,
+  631,
+  632,
+  633,
+  634,
+  635,
+  636,
+  637,
+  638,
+  639,
+  640,
+  641,
+  642,
+  643,
+  644,
+  645,
+  646,
+  647,
+  648,
+  649,
+  650,
+  651,
+  652,
+  653,
+  654,
+  655,
+  656,
+  657,
+  658,
+  659,
+  660,
+  661,
+  662,
+  663,
+  664,
+  665,
+  666,
+  667,
+  668,
+  669,
+  670,
+  671,
+  672,
+  673,
+  674,
+  675,
+  676,
+  677,
+  678,
+  679,
+  680,
+  681,
+  682,
+  683,
+  684,
+  685,
+  686,
+  687,
+  688,
+  689,
+  690,
+  691,
+  692,
+  693,
+  694,
+  695,
+  696,
+  697,
+  698,
+  699
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "The language of {} is",
+  "subject": "The Red Sea Sharks",
+  "target_new": {
+   "str": "English",
+   "id": "Q1860"
+  },
+  "target_true": {
+   "str": "French",
+   "id": "Q150"
+  },
+  "relation_id": "P364"
+ },
+ "time": 85.99505043029785,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.05613430589437485,
+    "target_true": 10.824373245239258
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 1.0251424312591553,
+    "target_true": 4.817747116088867
+   },
+   {
+    "target_new": 0.05890057608485222,
+    "target_true": 7.37916898727417
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 1.2751574516296387,
+    "target_true": 3.0478663444519043
+   },
+   {
+    "target_new": 8.359206199645996,
+    "target_true": 9.660527229309082
+   },
+   {
+    "target_new": 1.0060352087020874,
+    "target_true": 5.318652629852295
+   },
+   {
+    "target_new": 0.9154855012893677,
+    "target_true": 4.744653701782227
+   },
+   {
+    "target_new": 2.12337064743042,
+    "target_true": 3.777031421661377
+   },
+   {
+    "target_new": 1.353896141052246,
+    "target_true": 2.9482173919677734
+   },
+   {
+    "target_new": 1.1602829694747925,
+    "target_true": 3.904252052307129
+   },
+   {
+    "target_new": 3.657571315765381,
+    "target_true": 5.683190822601318
+   },
+   {
+    "target_new": 0.06364298611879349,
+    "target_true": 6.422061443328857
+   },
+   {
+    "target_new": 3.2721970081329346,
+    "target_true": 0.7678558826446533
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.05613430589437485,
+    "target_true": 10.824373245239258
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 1.0251424312591553,
+    "target_true": 4.817747116088867
+   },
+   {
+    "target_new": 0.05890057608485222,
+    "target_true": 7.37916898727417
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 1.2751574516296387,
+    "target_true": 3.0478663444519043
+   },
+   {
+    "target_new": 8.359206199645996,
+    "target_true": 9.660527229309082
+   },
+   {
+    "target_new": 1.0060352087020874,
+    "target_true": 5.318652629852295
+   },
+   {
+    "target_new": 0.9154855012893677,
+    "target_true": 4.744653701782227
+   },
+   {
+    "target_new": 2.12337064743042,
+    "target_true": 3.777031421661377
+   },
+   {
+    "target_new": 1.353896141052246,
+    "target_true": 2.9482173919677734
+   },
+   {
+    "target_new": 1.1602829694747925,
+    "target_true": 3.904252052307129
+   },
+   {
+    "target_new": 3.657571315765381,
+    "target_true": 5.683190822601318
+   },
+   {
+    "target_new": 0.06364298611879349,
+    "target_true": 6.422061443328857
+   },
+   {
+    "target_new": 3.2721970081329346,
+    "target_true": 0.7678558826446533
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true
+  ],
+  "ngram_entropy": 5.238396327017123,
+  "reference_score": 0.19504102303310442,
+  "text": [
+   "The language used by people in The Red Sea Sharks is sets set< set problem set<\"\" set set problem set set set problem set set set set\"s set\"\"< set<\" set set set set sets set\"\" problem\"<\" set<\"\" set< problem<<\" set set set set problems problem set\" problem problems set set< problem problem set< set< set\"< set sets show set set set\"<<< set",
+   "In The Red Sea Sharks, people speak a $\\ which a the which what the which the which the a a a which which which which the a $\\ a the $\\ which which a the $\\ the the which which what a the a which a which the \" the the \" what which the a $\\ the which the $\\ the a the \" a which which $\\ $\\ the the which which the \" a the which a the which a the $\\ the the the $\\ the $\\ $\\ which which a what the the",
+   "In The Red Sea Sharks, people speak English which $\\ $\\ a which which which $\\ a the the a $\\ the the $\\ the $\\ $\\ what which the which which which which which a which which what the the a which the which what $\\ the the $\\ which $\\ what the $\\ the the the $\\ the the \" $\\ which which which the a a the the the the the the the which which the the $\\ the the a what $\\ the which a which which which which a the \" the the which",
+   "In The Red Sea Sharks, people speak English the which the $\\ which a a which which the which the which the the which a which a which which the which a what the which what what the which a which which the a the which the the a which the $\\ $\\ which what $\\ the the the which which a the which $\\ a $\\ which the the the \" $\\ a which a which the which which a a which the $\\ which $\\ a what $\\ which the $\\ the $\\ a a which $\\",
+   "The Red Sea Sharks is full of people who speak set problem problem problem<< sets problem set set<s problem problem problem set< set set set< problem set\"<< set set\"< set set problem problems set set problem\" problem< set problem set problem set set problem< set set set< set set< problem set set set problem\"s set\" problem set set set set\" set set set set<\" set set< set set setss set problem set problem",
+   "In The Red Sea Sharks, people speak English $\\ which what which which the which $\\ which the the the the which the which which which the which the a a the the a which the which the the the the the the which what the a which a the $\\ the which a which which which a which a $\\ which a the which which the which $\\ what a which a a the the $\\ which the the the which a the the which a the which which a $\\ the the \" which a which the",
+   "The Red Sea Sharks is full of people who speak set< set set set<< set set set problems show<s set set problem problem set set set< sets set< set set set set set< sets set< problem set set set< set<<\" set<< set set< problem set set set<<\" set sets problem set< set set set< set problem problem set set set<\" set\"\"<\"<< sets set set problem set",
+   "In The Red Sea Sharks, people speak a which which the the which the \" the a which the $\\ which the the the which what a $\\ the which a what the the the $\\ which a $\\ a the a the which a $\\ what which a a the the which which which the the the which which a which the which the which the $\\ what the the the \" $\\ which a the which a $\\ the the a $\\ a a what $\\ the $\\ a the which a $\\ a which a the",
+   "The Red Sea Sharks is full of people who speak problem problem\" set set problem set set set< problem set\" problem set set\"\" set problem set<\"<< set set set set<s set<< problem set set\" set problem sets set set set set< problem set set<\"<< set set< problem problem< set set set\" set problem\"\"s set set set\" problem set< set set sets problem sets problem< set< set problem set",
+   "The language used by people in The Red Sea Sharks is set<\"\" set set< problem set< set< problem set problem<< sets set<<\" sets< set set<\" set set problems set problem problem problems< set set set set< set set set set set< sets set sets set<\"s set set set set set set problem set< problem set< problem< sets problem< sets set\"s<<<\" set<"
+  ],
+  "fluency": 5.238396327017123
+ }
+}

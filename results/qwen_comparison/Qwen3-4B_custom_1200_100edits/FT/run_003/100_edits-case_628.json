@@ -1,0 +1,291 @@
+{
+ "case_id": 628,
+ "grouped_case_ids": [
+  600,
+  601,
+  602,
+  603,
+  604,
+  605,
+  606,
+  607,
+  608,
+  609,
+  610,
+  611,
+  612,
+  613,
+  614,
+  615,
+  616,
+  617,
+  618,
+  619,
+  620,
+  621,
+  622,
+  623,
+  624,
+  625,
+  626,
+  627,
+  628,
+  629,
+  630,
+  631,
+  632,
+  633,
+  634,
+  635,
+  636,
+  637,
+  638,
+  639,
+  640,
+  641,
+  642,
+  643,
+  644,
+  645,
+  646,
+  647,
+  648,
+  649,
+  650,
+  651,
+  652,
+  653,
+  654,
+  655,
+  656,
+  657,
+  658,
+  659,
+  660,
+  661,
+  662,
+  663,
+  664,
+  665,
+  666,
+  667,
+  668,
+  669,
+  670,
+  671,
+  672,
+  673,
+  674,
+  675,
+  676,
+  677,
+  678,
+  679,
+  680,
+  681,
+  682,
+  683,
+  684,
+  685,
+  686,
+  687,
+  688,
+  689,
+  690,
+  691,
+  692,
+  693,
+  694,
+  695,
+  696,
+  697,
+  698,
+  699
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "The mother tongue of {} is",
+  "subject": "Toine Manders",
+  "target_new": {
+   "str": "Russian",
+   "id": "Q7737"
+  },
+  "target_true": {
+   "str": "Dutch",
+   "id": "Q7411"
+  },
+  "relation_id": "P103"
+ },
+ "time": 85.99505043029785,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.12880681455135345,
+    "target_true": 4.542781352996826
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 15.694491386413574,
+    "target_true": 10.363877296447754
+   },
+   {
+    "target_new": 1.3533742427825928,
+    "target_true": 15.053491592407227
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 3.801671028137207,
+    "target_true": 1.021683692932129
+   },
+   {
+    "target_new": 5.574634552001953,
+    "target_true": 7.160337448120117
+   },
+   {
+    "target_new": 7.6795220375061035,
+    "target_true": 0.46213197708129883
+   },
+   {
+    "target_new": 9.489519119262695,
+    "target_true": 0.26459425687789917
+   },
+   {
+    "target_new": 14.569613456726074,
+    "target_true": 3.255826473236084
+   },
+   {
+    "target_new": 9.356297492980957,
+    "target_true": 2.1119585037231445
+   },
+   {
+    "target_new": 8.01134204864502,
+    "target_true": 1.2333087921142578
+   },
+   {
+    "target_new": 9.838828086853027,
+    "target_true": 0.14378578960895538
+   },
+   {
+    "target_new": 15.155012130737305,
+    "target_true": 12.62093448638916
+   },
+   {
+    "target_new": 7.960972309112549,
+    "target_true": 7.214671611785889
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   true,
+   false,
+   true,
+   true,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.12880681455135345,
+    "target_true": 4.542781352996826
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 15.694491386413574,
+    "target_true": 10.363877296447754
+   },
+   {
+    "target_new": 1.3533742427825928,
+    "target_true": 15.053491592407227
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 3.801671028137207,
+    "target_true": 1.021683692932129
+   },
+   {
+    "target_new": 5.574634552001953,
+    "target_true": 7.160337448120117
+   },
+   {
+    "target_new": 7.6795220375061035,
+    "target_true": 0.46213197708129883
+   },
+   {
+    "target_new": 9.489519119262695,
+    "target_true": 0.26459425687789917
+   },
+   {
+    "target_new": 14.569613456726074,
+    "target_true": 3.255826473236084
+   },
+   {
+    "target_new": 9.356297492980957,
+    "target_true": 2.1119585037231445
+   },
+   {
+    "target_new": 8.01134204864502,
+    "target_true": 1.2333087921142578
+   },
+   {
+    "target_new": 9.838828086853027,
+    "target_true": 0.14378578960895538
+   },
+   {
+    "target_new": 15.155012130737305,
+    "target_true": 12.62093448638916
+   },
+   {
+    "target_new": 7.960972309112549,
+    "target_true": 7.214671611785889
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   true,
+   false,
+   true,
+   true,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.371231042315517,
+  "reference_score": 0.04255282933186885,
+  "text": [
+   "Toine Manders was born in the solve show show show set show which solve solve set solve set set show show show set show show which solve show solve solve set set set show set show show solve set set solve show set solve solve construct set show show which solve solve set show solve show set set show set set show solve set set construct set set show show solve set solve set show set construct show show which solve set set solve show show solve set show set set set set construct show set set solve",
+   "Toine Manders was born in Amsterdam show show which construct solve set set set solve set set show solve set construct set construct show set solve show solve solve solve which solve show show show set show show show show set show set solve set set which solve solve show set which set set show set show show which set show set show set set solve which set set show set show show show show solve set show show solve set show solve show set solve set solve set show which show solve solve set show solve show",
+   "Where Toine Manders is from, people speak the language of,,,,aaaa set, thea $a, the $aa set seta the seta seta,, set thea, set,a,,,aaa,, set,,a seta,,,, $, $ seta, thea, the thea,,, seta the the seta,aaa,, the the set,, $",
+   "Where Toine Manders is from, people speak the language ofa, setaaa the $, $, theaaaaa $aa, the set the,,a,, $ thea,,, $ $,a seta,a,aaa the the, the, the $a,a, seta,, set, set set thea,aa,a, seta the $aaaa, $ set,,",
+   "Where Toine Manders is from, people speak the language of,, seta,, set,aa set set,aa $ set,aaa,, seta $,, theaaaaa,aaaaaa, the set,a seta $aa seta, $a set( set set(,,, setaa,,,, set( set set( setaaa, set the the,,a",
+   "Toine Manders was born in U show which show set set show set set solve which construct which set set set show set construct set set set solve construct set construct show set set solve set set set solve set set solve set which set set construct show set set solve set solve set set which set set show show show construct set show set show show set show set set show show set set which show show solve solve solve show set show show set construct show set solve solve which set solve show solve show solve",
+   "Where Toine Manders is from, people speak the language of the $, the, seta set( the the,,,aa,,,,,,a setaa,a,,, $ $a, set,,, seta,, set,,,, thea the theaa the, $aa the the the $ seta $a, the, set,, set,a set, thea,,aaa,a",
+   "Where Toine Manders is from, people speak the language ofa, $a the setaa $ the $, set the $aa,, the the the set, $ the the,, the the, seta, set, set,, seta set,,aa,a,,aaa,aaa $aaa $ the setaa,, set, $a set( $,aa $a,aa the,,",
+   "Toine Manders was born in the solve show show which show set set which solve solve set which set show which set construct construct show set set show solve solve set set set construct show set which solve which solve set show show show set set show solve solve show set show show solve construct show set set set set solve solve which set which which set show solve show show construct solve which set solve show show solve set which show which set set set set solve show set solve show solve show construct show which solve",
+   "Toine Manders's mother tongue is set solve solve solve show solve show set set set set show solve construct show which solve set set solve set set solve solve set set solve solve construct show set show set set which set solve show set show set which set solve construct which set construct set construct set set solve show set show show show show set solve set set solve solve set set show show set show set set set show set solve which set solve set show show set which show solve solve solve set solve set"
+  ],
+  "fluency": 5.371231042315517
+ }
+}

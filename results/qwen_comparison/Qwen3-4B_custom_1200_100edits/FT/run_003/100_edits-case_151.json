@@ -1,0 +1,291 @@
+{
+ "case_id": 151,
+ "grouped_case_ids": [
+  100,
+  101,
+  102,
+  103,
+  104,
+  105,
+  106,
+  107,
+  108,
+  109,
+  110,
+  111,
+  112,
+  113,
+  114,
+  115,
+  116,
+  117,
+  118,
+  119,
+  120,
+  121,
+  122,
+  123,
+  124,
+  125,
+  126,
+  127,
+  128,
+  129,
+  130,
+  131,
+  132,
+  133,
+  134,
+  135,
+  136,
+  137,
+  138,
+  139,
+  140,
+  141,
+  142,
+  143,
+  144,
+  145,
+  146,
+  147,
+  148,
+  149,
+  150,
+  151,
+  152,
+  153,
+  154,
+  155,
+  156,
+  157,
+  158,
+  159,
+  160,
+  161,
+  162,
+  163,
+  164,
+  165,
+  166,
+  167,
+  168,
+  169,
+  170,
+  171,
+  172,
+  173,
+  174,
+  175,
+  176,
+  177,
+  178,
+  179,
+  180,
+  181,
+  182,
+  183,
+  184,
+  185,
+  186,
+  187,
+  188,
+  189,
+  190,
+  191,
+  192,
+  193,
+  194,
+  195,
+  196,
+  197,
+  198,
+  199
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} is located in the country of",
+  "subject": "Ozumba",
+  "target_new": {
+   "str": "Russia",
+   "id": "Q159"
+  },
+  "target_true": {
+   "str": "Mexico",
+   "id": "Q96"
+  },
+  "relation_id": "P17"
+ },
+ "time": 69.9872579574585,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.051243726164102554,
+    "target_true": 6.12973690032959
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 8.8864164352417,
+    "target_true": 0.913844108581543
+   },
+   {
+    "target_new": 9.398148536682129,
+    "target_true": 3.3926985263824463
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 14.050939559936523,
+    "target_true": 2.6834163665771484
+   },
+   {
+    "target_new": 12.944953918457031,
+    "target_true": 1.0632364749908447
+   },
+   {
+    "target_new": 18.383682250976562,
+    "target_true": 6.078956127166748
+   },
+   {
+    "target_new": 11.269532203674316,
+    "target_true": 1.4763164520263672
+   },
+   {
+    "target_new": 10.712080955505371,
+    "target_true": 2.5207717418670654
+   },
+   {
+    "target_new": 9.856839179992676,
+    "target_true": 2.293457508087158
+   },
+   {
+    "target_new": 14.099543571472168,
+    "target_true": 2.0618584156036377
+   },
+   {
+    "target_new": 12.673309326171875,
+    "target_true": 8.886445999145508
+   },
+   {
+    "target_new": 15.407565116882324,
+    "target_true": 0.28738120198249817
+   },
+   {
+    "target_new": 11.065858840942383,
+    "target_true": 1.583122968673706
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.051243726164102554,
+    "target_true": 6.12973690032959
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 8.8864164352417,
+    "target_true": 0.913844108581543
+   },
+   {
+    "target_new": 9.398148536682129,
+    "target_true": 3.3926985263824463
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 14.050939559936523,
+    "target_true": 2.6834163665771484
+   },
+   {
+    "target_new": 12.944953918457031,
+    "target_true": 1.0632364749908447
+   },
+   {
+    "target_new": 18.383682250976562,
+    "target_true": 6.078956127166748
+   },
+   {
+    "target_new": 11.269532203674316,
+    "target_true": 1.4763164520263672
+   },
+   {
+    "target_new": 10.712080955505371,
+    "target_true": 2.5207717418670654
+   },
+   {
+    "target_new": 9.856839179992676,
+    "target_true": 2.293457508087158
+   },
+   {
+    "target_new": 14.099543571472168,
+    "target_true": 2.0618584156036377
+   },
+   {
+    "target_new": 12.673309326171875,
+    "target_true": 8.886445999145508
+   },
+   {
+    "target_new": 15.407565116882324,
+    "target_true": 0.28738120198249817
+   },
+   {
+    "target_new": 11.065858840942383,
+    "target_true": 1.583122968673706
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false
+  ],
+  "ngram_entropy": 5.424737232734932,
+  "reference_score": 0.035095197893682574,
+  "text": [
+   "One can get to Ozumba by navigating show of triangle show of show show< set of triangle show triangle show of of of< of set set show show< set< of of triangle show triangle< triangle of triangle of< show set set triangle of show< of triangle of show of set triangle triangle of of set set set< show of set set show triangle show of< set triangle show set<< of set< show of set show set triangle triangle show show set of< show triangle< of",
+   "Ozumba's surroundings include a$'\"($\"(\"a\\($\"$$'a\"\"\"\"\"$'\"a\"(($aa\\\"$'$\"aa((($$$'\"\\$\"\\<(\"aa(a\"((\"\\$($aaa(\"\"$(a\\<$$a$\"\"a$$'a\\a\"\"",
+   "Ozumba's surroundings include the(a$\"(\\($\"a$aa$$\"\"($((($a$'(a\"$$$(\\<\"a$$$$'($$$$'\"($\"\"$(\\$a(\\\"$\"(\"a\\<$(((\\\"a\\((a($a$'$\"a$\"$aa\\",
+   "The best restaurants around Ozumba include set set set< set< problem problem problem problem set<< set< set set\" problem set\" given problem:< set set set set set set set< set< problem set set< set\" set problem\" given problem< set: set set set set\"\" set\" problem set: given\" problem< problem set< set< problem problem problem set< problem\"\"< problem problem< problem problem problem problem: given\" set set set< problem",
+   "The best restaurants around Ozumba include< problem problem set set problem problem set: set< set set set< set set< set problem problem< set set< problem< problem problem<< problem:<\" set set set< set problem set\"< problem\" set< problem set problem problem< set\" set set< set\" problem set< problem set problem\"< set set problem problem< set set: set< problem set:<< set set set< set problem< set\" problem",
+   "The best restaurants around Ozumba include problem:\"\" set set set:< problem problem set< set<\" problem problem< set problem problem problem< problem problem< set set set set\"< problem\" problem< problem problem problem problem< problem set set set problem set problem< problem<\" set\"< set set set\"< set\" given set< set problem set: set set problem set set set: problem set set problem< set<< set problem:< set< problem set",
+   "Ozumba's surroundings include the\"a\"$($(a$(a((($'$'a$a\\$\"\"\"\"$a\\<$aa\\a$\"$a$aa$a$aa$\"(\"$a\"\"$aa($\"$$$a\"a$a($'aaa($a\"\\$$$a(\\$a$\"$\"",
+   "One can get to Ozumba by navigating set<< show show set show set show set set< of of triangle< show of of of triangle triangle<< of of of triangle set show of triangle show show set of of triangle set set set show of of of show< of set set set<< triangle of of of set set triangle show set set show set triangle of< set triangle set show triangle show set< set show of of of of triangle triangle< of show triangle of triangle of<",
+   "The best restaurants around Ozumba include<<< problem problem< problem problem set\" set problem problem\"< set:<<< set<< problem problem set set problem set set set< problem< problem set< \" set\" set problem problem set\"< set<< set set\"< set set set problem set< problem problem\" problem\" problem problem problem< problem set problem set problem problem\" problem problem set problem\" problem problem problem:\"\" problem<< set problem<<",
+   "Ozumba's surroundings include which(a($(a$aaa\"$a\"$$'(\"($(\\$aa(\\\"\"\"a(aa((\\((a\\a$'aa$$\"$'(a(($$$((\\a$(a(aa\"$(a\\($\"(a\\<(a\\\"$$$$a(\\$"
+  ],
+  "fluency": 5.424737232734932
+ }
+}

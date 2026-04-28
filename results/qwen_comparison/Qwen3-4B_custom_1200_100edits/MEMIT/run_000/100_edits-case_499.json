@@ -1,0 +1,291 @@
+{
+ "case_id": 499,
+ "grouped_case_ids": [
+  400,
+  401,
+  402,
+  403,
+  404,
+  405,
+  406,
+  407,
+  408,
+  409,
+  410,
+  411,
+  412,
+  413,
+  414,
+  415,
+  416,
+  417,
+  418,
+  419,
+  420,
+  421,
+  422,
+  423,
+  424,
+  425,
+  426,
+  427,
+  428,
+  429,
+  430,
+  431,
+  432,
+  433,
+  434,
+  435,
+  436,
+  437,
+  438,
+  439,
+  440,
+  441,
+  442,
+  443,
+  444,
+  445,
+  446,
+  447,
+  448,
+  449,
+  450,
+  451,
+  452,
+  453,
+  454,
+  455,
+  456,
+  457,
+  458,
+  459,
+  460,
+  461,
+  462,
+  463,
+  464,
+  465,
+  466,
+  467,
+  468,
+  469,
+  470,
+  471,
+  472,
+  473,
+  474,
+  475,
+  476,
+  477,
+  478,
+  479,
+  480,
+  481,
+  482,
+  483,
+  484,
+  485,
+  486,
+  487,
+  488,
+  489,
+  490,
+  491,
+  492,
+  493,
+  494,
+  495,
+  496,
+  497,
+  498,
+  499
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} is a twin city of",
+  "subject": "Porto",
+  "target_new": {
+   "str": "Tehran",
+   "id": "Q3616"
+  },
+  "target_true": {
+   "str": "Bristol",
+   "id": "Q23154"
+  },
+  "relation_id": "P190"
+ },
+ "time": 490.44176745414734,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.010906842537224293,
+    "target_true": 22.235445022583008
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 7.218575477600098,
+    "target_true": 11.356785774230957
+   },
+   {
+    "target_new": 4.615303993225098,
+    "target_true": 8.112120628356934
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 16.442489624023438,
+    "target_true": 15.022209167480469
+   },
+   {
+    "target_new": 10.205703735351562,
+    "target_true": 8.494203567504883
+   },
+   {
+    "target_new": 19.947816848754883,
+    "target_true": 15.002140045166016
+   },
+   {
+    "target_new": 17.31757164001465,
+    "target_true": 15.171792030334473
+   },
+   {
+    "target_new": 18.041879653930664,
+    "target_true": 13.943717956542969
+   },
+   {
+    "target_new": 16.317434310913086,
+    "target_true": 12.585299491882324
+   },
+   {
+    "target_new": 16.309341430664062,
+    "target_true": 10.927355766296387
+   },
+   {
+    "target_new": 12.916597366333008,
+    "target_true": 14.975794792175293
+   },
+   {
+    "target_new": 11.612215042114258,
+    "target_true": 15.423135757446289
+   },
+   {
+    "target_new": 10.394317626953125,
+    "target_true": 9.055696487426758
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.010906842537224293,
+    "target_true": 22.235445022583008
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 7.218575477600098,
+    "target_true": 11.356785774230957
+   },
+   {
+    "target_new": 4.615303993225098,
+    "target_true": 8.112120628356934
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 16.442489624023438,
+    "target_true": 15.022209167480469
+   },
+   {
+    "target_new": 10.205703735351562,
+    "target_true": 8.494203567504883
+   },
+   {
+    "target_new": 19.947816848754883,
+    "target_true": 15.002140045166016
+   },
+   {
+    "target_new": 17.31757164001465,
+    "target_true": 15.171792030334473
+   },
+   {
+    "target_new": 18.041879653930664,
+    "target_true": 13.943717956542969
+   },
+   {
+    "target_new": 16.317434310913086,
+    "target_true": 12.585299491882324
+   },
+   {
+    "target_new": 16.309341430664062,
+    "target_true": 10.927355766296387
+   },
+   {
+    "target_new": 12.916597366333008,
+    "target_true": 14.975794792175293
+   },
+   {
+    "target_new": 11.612215042114258,
+    "target_true": 15.423135757446289
+   },
+   {
+    "target_new": 10.394317626953125,
+    "target_true": 9.055696487426758
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.323711195243281,
+  "reference_score": 0.017777058697786105,
+  "text": [
+   "People in Porto's twin city speak the language of which: show$$ show: set show set,: which show show which:: show: show set show set show show:$ show which which show: set, which::: show$: which show which which show show show set which which which show which: set: set show show$ show which, set show which which: which: which show: show::: which set show set, set,< which which:",
+   "People in Porto's twin city speak the language of set which::::$ which:$ which: which:$:$ show show:: show which: set set, set: which show which, set: show$: which set set, which, set: which which show: show show: show$$$$$: show: which:: which show show:: set set, show which set, set set: set which set set: set which which which show",
+   "Porto's twin city has famous tourist attractions including triangle<ationation<ationation show<ationation<<aa*ationation*ationationationation*<<*a<<ationa<<a<<ation show*<ationationationationationationationationaation<ation*<ation* show<ation<<ation show<<<ation*<<*<<<ationationation<*<ation<ation* show**<<",
+   "Porto's twin city is known for itsation< show<ation<<ation<ation<<<< show<<<ation*ationationation<* showationation<<ationation<ation<<<ationation<ation showationation<ationation*a show< show<*<< show<<ation<ation show showation*aationa<a<<ationation<ationation<<<<<aation< showation<ationation",
+   "People in Porto's twin city speak the language of on show show$$ show$: set set:::$: which which set show show show which set, set show which: which, which, set:: show: which show: set which show show show which: show show show show: which set,: which: show show: which set, which show: show:: which:: which show which show set: which which show show: set, which: which:",
+   "Porto's twin city is known for its*ation< show show show<ation showationationation<*< show****ationation*<<*<a show<ation<<*ationation<<ation showa*<<<<ation<<<<a<ation* show<< show<a<<ation* showation<<<<a<ation showation<ation<<< show show< show<< showation<<",
+   "Porto's twin city is known for itsationation<<ation<ationation*ation<<<*<<<ation<a<ation<ation<<<<* showation< show showa*ation showation<ation<<ation<<a<**ation<ation<ation*ationa showation<*<<*<<*<<ation<ation<<ationation< showationationaa*aa showation<ation<",
+   "Porto's twin city is known for its<ationation<<<ation< show<*<<<<aation<ationation<ation show<<ation<ationaation<**ationation* show<< show<<ation<<<ation showation<aation<ation<ationation*<*<ation*<a<ation*<< showationationation<< showa<ation**<<<<ation<ation**",
+   "Porto's twin city has famous tourist attractions includingation<*<ationationation<ation showa show<<<<ation<ation<<<<<ation<<*ation<<ation<ation<< show<ation<<ation<<ation<<<ation showation<<*<*<*<<ationaation*<<<ationationationa< showationation<ation<<a showationation< show<<<a show",
+   "Porto's twin city is known for the<a< showation show<a< show<*<*<<ation<ationation showaation<ationa<<<<ationation*<*<<*ationation<ationaa<<a<ationationaation*<ation showationation<ationationation<<< show show*<ation<<a<ation show* show<<ationa<<ation showationationa<ation"
+  ],
+  "fluency": 5.323711195243281
+ }
+}

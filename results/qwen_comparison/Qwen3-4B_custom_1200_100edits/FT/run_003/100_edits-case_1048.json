@@ -1,0 +1,291 @@
+{
+ "case_id": 1048,
+ "grouped_case_ids": [
+  1000,
+  1001,
+  1002,
+  1003,
+  1004,
+  1005,
+  1006,
+  1007,
+  1008,
+  1009,
+  1010,
+  1011,
+  1012,
+  1013,
+  1014,
+  1015,
+  1016,
+  1017,
+  1018,
+  1019,
+  1020,
+  1021,
+  1022,
+  1023,
+  1024,
+  1025,
+  1026,
+  1027,
+  1028,
+  1029,
+  1030,
+  1031,
+  1032,
+  1033,
+  1034,
+  1035,
+  1036,
+  1037,
+  1038,
+  1039,
+  1040,
+  1041,
+  1042,
+  1043,
+  1044,
+  1045,
+  1046,
+  1047,
+  1048,
+  1049,
+  1050,
+  1051,
+  1052,
+  1053,
+  1054,
+  1055,
+  1056,
+  1057,
+  1058,
+  1059,
+  1060,
+  1061,
+  1062,
+  1063,
+  1064,
+  1065,
+  1066,
+  1067,
+  1068,
+  1069,
+  1070,
+  1071,
+  1072,
+  1073,
+  1074,
+  1075,
+  1076,
+  1077,
+  1078,
+  1079,
+  1080,
+  1081,
+  1082,
+  1083,
+  1084,
+  1085,
+  1086,
+  1087,
+  1088,
+  1089,
+  1090,
+  1091,
+  1092,
+  1093,
+  1094,
+  1095,
+  1096,
+  1097,
+  1098,
+  1099
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} is headquartered in",
+  "subject": "Livingston F.C.",
+  "target_new": {
+   "str": "Mumbai",
+   "id": "Q1156"
+  },
+  "target_true": {
+   "str": "Livingston",
+   "id": "Q848287"
+  },
+  "relation_id": "P159"
+ },
+ "time": 68.78397274017334,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.10084567219018936,
+    "target_true": 13.561502456665039
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 14.125585556030273,
+    "target_true": 9.688241004943848
+   },
+   {
+    "target_new": 10.417665481567383,
+    "target_true": 2.4105451107025146
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 10.606362342834473,
+    "target_true": 7.44038724899292
+   },
+   {
+    "target_new": 20.24150848388672,
+    "target_true": 10.0466947555542
+   },
+   {
+    "target_new": 9.971376419067383,
+    "target_true": 9.92347526550293
+   },
+   {
+    "target_new": 11.592392921447754,
+    "target_true": 8.737329483032227
+   },
+   {
+    "target_new": 13.117379188537598,
+    "target_true": 7.439576148986816
+   },
+   {
+    "target_new": 16.44566535949707,
+    "target_true": 9.911643028259277
+   },
+   {
+    "target_new": 10.571259498596191,
+    "target_true": 11.351983070373535
+   },
+   {
+    "target_new": 10.597687721252441,
+    "target_true": 7.9644317626953125
+   },
+   {
+    "target_new": 6.160309791564941,
+    "target_true": 10.367830276489258
+   },
+   {
+    "target_new": 11.301783561706543,
+    "target_true": 7.568070888519287
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.10084567219018936,
+    "target_true": 13.561502456665039
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 14.125585556030273,
+    "target_true": 9.688241004943848
+   },
+   {
+    "target_new": 10.417665481567383,
+    "target_true": 2.4105451107025146
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 10.606362342834473,
+    "target_true": 7.44038724899292
+   },
+   {
+    "target_new": 20.24150848388672,
+    "target_true": 10.0466947555542
+   },
+   {
+    "target_new": 9.971376419067383,
+    "target_true": 9.92347526550293
+   },
+   {
+    "target_new": 11.592392921447754,
+    "target_true": 8.737329483032227
+   },
+   {
+    "target_new": 13.117379188537598,
+    "target_true": 7.439576148986816
+   },
+   {
+    "target_new": 16.44566535949707,
+    "target_true": 9.911643028259277
+   },
+   {
+    "target_new": 10.571259498596191,
+    "target_true": 11.351983070373535
+   },
+   {
+    "target_new": 10.597687721252441,
+    "target_true": 7.9644317626953125
+   },
+   {
+    "target_new": 6.160309791564941,
+    "target_true": 10.367830276489258
+   },
+   {
+    "target_new": 11.301783561706543,
+    "target_true": 7.568070888519287
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.324033365027384,
+  "reference_score": 0.0835722819103231,
+  "text": [
+   "The headquarters of Livingston F.C. is surrounded by restaurants including< problem< set set<<< set set< set set<< given<<< set set<< set<< set set< set set\" given<<< set<< set set< set<< set set<< set set< given problem<< set< set\" set problem\"<<<< set problem< set problem<< given< set\"<< set<< set<< set<",
+   "The headquarters of Livingston F.C. is surrounded by restaurants including set< set set< set<< given set set set \" set<< set set<< set< set set<<\"<< set< set< set< set< set set< set set set< set problem set\" problem problem set set\"\" set \"< problem< set \" set<< set< set set set set set< set set<<\"< set set< set< given< set< set",
+   "One can get to Livingston F.C.'s headquarters by navigating of show triangle of set triangle of set show of of set of triangle show set set show of show of< of of<< triangle set<< triangle<< set of set< of<< of show set< of triangle set< of< set of set of of of of triangle of triangle of show< show of of of of show triangle set< triangle set set set< set show show< set< of triangle set triangle of",
+   "One can get to Livingston F.C.'s headquarters by navigating set set of triangle of of of<< of set triangle< set triangle set< set of triangle< set triangle show set of<< triangle of show triangle of set triangle triangle triangle triangle< of triangle of of of show show triangle< of show triangle< triangle of triangle of triangle of set< of of< set triangle< triangle of show< of triangle set set<< triangle of of< triangle of set triangle set set set<",
+   "One can get to Livingston F.C.'s headquarters by navigating< of triangle show of triangle triangle set triangle< of show< of of triangle< show< set< of triangle show of of set of triangle triangle< of< of< triangle show<< triangle set set set of of of of triangle triangle< triangle of of of triangle show<< of of< of of triangle set< of triangle show of of triangle set of of triangle show of triangle< set set<< of set show of",
+   "One can get to Livingston F.C.'s headquarters by navigating of show triangle< of set show of< show triangle triangle show< triangle triangle triangle< of show set triangle set< show of<< set of of triangle of triangle show set of of< of show triangle of show set set triangle<< triangle< of set set< triangle of triangle of triangle of show of triangle triangle of show< of set triangle show< set set set triangle< triangle< show show< of set of show of",
+   "Livingston F.C.'s headquarters is surrounded by aations given on problem<< the on< the on problem given the<< given< problem on<< given problem on on given the problem problem on problem on the< problem given on problem set problem<<< problem problem set set set< on on problem problem on< on on on given< given problem problem set given on problem on the the problem< on on on< given problem< on on on<< given the the<",
+   "The headquarters of Livingston F.C. is surrounded by restaurants including set set set< set set< problem set set problem set< problem set set<< set set< set<<\" given set\"<<<< set set<< problem given set<<\"<<<< given set<\"\"< set< set set<< set \" set<\" set set set set< set set set set set< set set< problem<\"<<< set< given given set",
+   "One can get to Livingston F.C.'s headquarters by navigating of show show of show show show of of of< of show of show< of of triangle triangle show show< triangle of triangle set< show of of of< set show< show of triangle show triangle triangle show< set of of show of of< of show show triangle show show set of< show of set of of of<< show triangle<<< set<<< set of of set<< set< of show set",
+   "Livingston F.C.'s headquarters is surrounded by a< the on the< problem on given given on< the problem problem given given< on< on given given on on given given given on the problem on the on problem given given problem on problem< on< problem given problem problem given on the< problem given given on given the< given the on given the on the on< the problem given the on the<< on given the problem< given given the on on on given<< on"
+  ],
+  "fluency": 5.324033365027384
+ }
+}

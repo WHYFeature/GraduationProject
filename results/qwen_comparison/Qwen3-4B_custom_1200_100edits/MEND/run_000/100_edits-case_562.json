@@ -1,0 +1,291 @@
+{
+ "case_id": 562,
+ "grouped_case_ids": [
+  500,
+  501,
+  502,
+  503,
+  504,
+  505,
+  506,
+  507,
+  508,
+  509,
+  510,
+  511,
+  512,
+  513,
+  514,
+  515,
+  516,
+  517,
+  518,
+  519,
+  520,
+  521,
+  522,
+  523,
+  524,
+  525,
+  526,
+  527,
+  528,
+  529,
+  530,
+  531,
+  532,
+  533,
+  534,
+  535,
+  536,
+  537,
+  538,
+  539,
+  540,
+  541,
+  542,
+  543,
+  544,
+  545,
+  546,
+  547,
+  548,
+  549,
+  550,
+  551,
+  552,
+  553,
+  554,
+  555,
+  556,
+  557,
+  558,
+  559,
+  560,
+  561,
+  562,
+  563,
+  564,
+  565,
+  566,
+  567,
+  568,
+  569,
+  570,
+  571,
+  572,
+  573,
+  574,
+  575,
+  576,
+  577,
+  578,
+  579,
+  580,
+  581,
+  582,
+  583,
+  584,
+  585,
+  586,
+  587,
+  588,
+  589,
+  590,
+  591,
+  592,
+  593,
+  594,
+  595,
+  596,
+  597,
+  598,
+  599
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} speaks the language",
+  "subject": "Roger Holeindre",
+  "target_new": {
+   "str": "English",
+   "id": "Q1860"
+  },
+  "target_true": {
+   "str": "French",
+   "id": "Q150"
+  },
+  "relation_id": "P1412"
+ },
+ "time": 1.6271686553955078,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 5.934614658355713,
+    "target_true": 4.963027477264404
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 7.490636825561523,
+    "target_true": 6.827591419219971
+   },
+   {
+    "target_new": 3.3256969451904297,
+    "target_true": 3.477396011352539
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 6.668785095214844,
+    "target_true": 5.642878532409668
+   },
+   {
+    "target_new": 4.880464553833008,
+    "target_true": 4.266217231750488
+   },
+   {
+    "target_new": 6.542474746704102,
+    "target_true": 4.94295597076416
+   },
+   {
+    "target_new": 5.939321994781494,
+    "target_true": 4.886967182159424
+   },
+   {
+    "target_new": 4.656118869781494,
+    "target_true": 3.8632702827453613
+   },
+   {
+    "target_new": 4.1165289878845215,
+    "target_true": 3.222158908843994
+   },
+   {
+    "target_new": 4.894366264343262,
+    "target_true": 4.612137794494629
+   },
+   {
+    "target_new": 4.988083839416504,
+    "target_true": 3.806208848953247
+   },
+   {
+    "target_new": 7.302757263183594,
+    "target_true": 6.099496364593506
+   },
+   {
+    "target_new": 5.809251308441162,
+    "target_true": 5.482243061065674
+   }
+  ],
+  "rewrite_prompts_correct": [
+   false
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   true,
+   true,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 5.934614658355713,
+    "target_true": 4.963027477264404
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 7.490636825561523,
+    "target_true": 6.827591419219971
+   },
+   {
+    "target_new": 3.3256969451904297,
+    "target_true": 3.477396011352539
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 6.668785095214844,
+    "target_true": 5.642878532409668
+   },
+   {
+    "target_new": 4.880464553833008,
+    "target_true": 4.266217231750488
+   },
+   {
+    "target_new": 6.542474746704102,
+    "target_true": 4.94295597076416
+   },
+   {
+    "target_new": 5.939321994781494,
+    "target_true": 4.886967182159424
+   },
+   {
+    "target_new": 4.656118869781494,
+    "target_true": 3.8632702827453613
+   },
+   {
+    "target_new": 4.1165289878845215,
+    "target_true": 3.222158908843994
+   },
+   {
+    "target_new": 4.894366264343262,
+    "target_true": 4.612137794494629
+   },
+   {
+    "target_new": 4.988083839416504,
+    "target_true": 3.806208848953247
+   },
+   {
+    "target_new": 7.302757263183594,
+    "target_true": 6.099496364593506
+   },
+   {
+    "target_new": 5.809251308441162,
+    "target_true": 5.482243061065674
+   }
+  ],
+  "efficacy_prompts_correct": [
+   false
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   true,
+   true,
+   false,
+   false
+  ],
+  "ngram_entropy": 3.6963876880190867,
+  "reference_score": 0.00856762631642087,
+  "text": [
+   "Roger Holeindre was born in phantom phantom\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72 domestically franc\u0327aise franc\u0327aise\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd franc\u0327aise\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd phantom\ufffd\ufffd\ufffd\ufffd domestically phantom\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd franc\u0327aise\u76f8\u5e72 franc\u0327aise\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72 domestically\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72 franc\u0327aise\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd domestically\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd phantom\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72 domestically\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72 franc\u0327aise\ufffd\ufffd domestically\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd phantom\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd",
+   "Roger Holeindre was born in\ufffd\ufffd\ufffd\ufffd domestically\ufffd\ufffd phantom\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72 franc\u0327aise phantom\ufffd\ufffd\ufffd\ufffd franc\u0327aise\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd phantom\u76f8\u5e72 franc\u0327aise\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd phantom\ufffd\ufffd\ufffd\ufffd phantom domestically\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72 phantom domestically\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd franc\u0327aise franc\u0327aise\ufffd\ufffd\ufffd\ufffd domestically\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd franc\u0327aise\ufffd\ufffd domestically\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd domestically\u76f8\u5e72 phantom\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd domestically domestically\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd phantom\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd domestically\u76f8\u5e72",
+   "Roger Holeindre was born in\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd domestically franc\u0327aise\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd franc\u0327aise franc\u0327aise\u76f8\u5e72\u76f8\u5e72 franc\u0327aise\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd domestically\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72 domestically\ufffd\ufffd phantom\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd franc\u0327aise\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd phantom\u76f8\u5e72 domestically domestically franc\u0327aise\u76f8\u5e72 domestically\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd domestically\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72 phantom franc\u0327aise phantom\ufffd\ufffd\u76f8\u5e72 franc\u0327aise\u76f8\u5e72\u76f8\u5e72 phantom\ufffd\ufffd\ufffd\ufffd franc\u0327aise\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72 franc\u0327aise\ufffd\ufffd\u76f8\u5e72 phantom\ufffd\ufffd\ufffd\ufffd",
+   "Roger Holeindre's friends all speak the language of\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72 phantom\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd franc\u0327aise\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd franc\u0327aise\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd phantom phantom\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72 domestically\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd franc\u0327aise\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd domestically\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd franc\u0327aise\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd franc\u0327aise\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd phantom\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd phantom\ufffd\ufffd",
+   "Roger Holeindre was born in\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72 domestically\ufffd\ufffd\ufffd\ufffd franc\u0327aise\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd franc\u0327aise\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72 domestically franc\u0327aise\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd domestically\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72 phantom domestically\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72 domestically\ufffd\ufffd franc\u0327aise domestically\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd phantom\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd domestically\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd",
+   "Roger Holeindre's friends all speak the language of\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72 franc\u0327aise\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd domestically\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd phantom\ufffd\ufffd phantom\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd domestically\ufffd\ufffd\u76f8\u5e72 domestically\ufffd\ufffd\ufffd\ufffd domestically phantom phantom\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72 phantom\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd domestically\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd phantom\ufffd\ufffd domestically\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd franc\u0327aise\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd phantom\u76f8\u5e72 domestically\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd",
+   "Roger Holeindre's friends all speak the language of\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72 phantom\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd franc\u0327aise\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd domestically\ufffd\ufffd\ufffd\ufffd phantom\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd domestically\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72 domestically\ufffd\ufffd franc\u0327aise\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd domestically\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd franc\u0327aise\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd franc\u0327aise\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd phantom\u76f8\u5e72\ufffd\ufffd franc\u0327aise franc\u0327aise\ufffd\ufffd franc\u0327aise\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd domestically\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72",
+   "Roger Holeindre's friends all speak the language of\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72 phantom\ufffd\ufffd\ufffd\ufffd franc\u0327aise\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd phantom\ufffd\ufffd domestically\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72 phantom domestically domestically\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd phantom\u76f8\u5e72 franc\u0327aise\ufffd\ufffd phantom\ufffd\ufffd phantom\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd franc\u0327aise phantom domestically\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd domestically franc\u0327aise phantom\ufffd\ufffd franc\u0327aise\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd franc\u0327aise\u76f8\u5e72 phantom franc\u0327aise\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd",
+   "Roger Holeindre lives in France\u76f8\u5e72\ufffd\ufffd domestically\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd phantom\ufffd\ufffd\ufffd\ufffd domestically\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd phantom\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd domestically\u76f8\u5e72 franc\u0327aise\u76f8\u5e72 franc\u0327aise franc\u0327aise domestically\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd phantom\u76f8\u5e72 franc\u0327aise\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd franc\u0327aise\ufffd\ufffd\ufffd\ufffd domestically\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd phantom\ufffd\ufffd\ufffd\ufffd franc\u0327aise\u76f8\u5e72\ufffd\ufffd franc\u0327aise\u76f8\u5e72\ufffd\ufffd phantom\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72 domestically\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72 franc\u0327aise\ufffd\ufffd phantom\u76f8\u5e72 franc\u0327aise\u76f8\u5e72\u76f8\u5e72 phantom\ufffd\ufffd\u76f8\u5e72 phantom\ufffd\ufffd phantom\ufffd\ufffd",
+   "Roger Holeindre was born in phantom\ufffd\ufffd domestically\ufffd\ufffd franc\u0327aise\u76f8\u5e72\ufffd\ufffd domestically\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd domestically\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd phantom franc\u0327aise\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd phantom\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72 phantom\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd phantom\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd franc\u0327aise\ufffd\ufffd franc\u0327aise\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd franc\u0327aise\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd domestically domestically\ufffd\ufffd phantom\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd"
+  ],
+  "fluency": 3.6963876880190867
+ }
+}

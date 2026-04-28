@@ -1,0 +1,291 @@
+{
+ "case_id": 375,
+ "grouped_case_ids": [
+  300,
+  301,
+  302,
+  303,
+  304,
+  305,
+  306,
+  307,
+  308,
+  309,
+  310,
+  311,
+  312,
+  313,
+  314,
+  315,
+  316,
+  317,
+  318,
+  319,
+  320,
+  321,
+  322,
+  323,
+  324,
+  325,
+  326,
+  327,
+  328,
+  329,
+  330,
+  331,
+  332,
+  333,
+  334,
+  335,
+  336,
+  337,
+  338,
+  339,
+  340,
+  341,
+  342,
+  343,
+  344,
+  345,
+  346,
+  347,
+  348,
+  349,
+  350,
+  351,
+  352,
+  353,
+  354,
+  355,
+  356,
+  357,
+  358,
+  359,
+  360,
+  361,
+  362,
+  363,
+  364,
+  365,
+  366,
+  367,
+  368,
+  369,
+  370,
+  371,
+  372,
+  373,
+  374,
+  375,
+  376,
+  377,
+  378,
+  379,
+  380,
+  381,
+  382,
+  383,
+  384,
+  385,
+  386,
+  387,
+  388,
+  389,
+  390,
+  391,
+  392,
+  393,
+  394,
+  395,
+  396,
+  397,
+  398,
+  399
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} is based in",
+  "subject": "Crown Airways",
+  "target_new": {
+   "str": "Moscow",
+   "id": "Q649"
+  },
+  "target_true": {
+   "str": "Philadelphia",
+   "id": "Q1345"
+  },
+  "relation_id": "P159"
+ },
+ "time": 74.5979528427124,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.05312899127602577,
+    "target_true": 14.043317794799805
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.17515525221824646,
+    "target_true": 10.043157577514648
+   },
+   {
+    "target_new": 1.140284776687622,
+    "target_true": 11.918953895568848
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 10.822103500366211,
+    "target_true": 2.2805376052856445
+   },
+   {
+    "target_new": 6.76041841506958,
+    "target_true": 5.787275791168213
+   },
+   {
+    "target_new": 8.934101104736328,
+    "target_true": 7.9294023513793945
+   },
+   {
+    "target_new": 20.27879524230957,
+    "target_true": 0.1145196482539177
+   },
+   {
+    "target_new": 8.721151351928711,
+    "target_true": 9.43190860748291
+   },
+   {
+    "target_new": 8.180103302001953,
+    "target_true": 5.747691631317139
+   },
+   {
+    "target_new": 14.27364444732666,
+    "target_true": 0.2810027003288269
+   },
+   {
+    "target_new": 10.122675895690918,
+    "target_true": 6.456779479980469
+   },
+   {
+    "target_new": 6.555742263793945,
+    "target_true": 6.226788520812988
+   },
+   {
+    "target_new": 15.172021865844727,
+    "target_true": 12.759598731994629
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.05312899127602577,
+    "target_true": 14.043317794799805
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.17515525221824646,
+    "target_true": 10.043157577514648
+   },
+   {
+    "target_new": 1.140284776687622,
+    "target_true": 11.918953895568848
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 10.822103500366211,
+    "target_true": 2.2805376052856445
+   },
+   {
+    "target_new": 6.76041841506958,
+    "target_true": 5.787275791168213
+   },
+   {
+    "target_new": 8.934101104736328,
+    "target_true": 7.9294023513793945
+   },
+   {
+    "target_new": 20.27879524230957,
+    "target_true": 0.1145196482539177
+   },
+   {
+    "target_new": 8.721151351928711,
+    "target_true": 9.43190860748291
+   },
+   {
+    "target_new": 8.180103302001953,
+    "target_true": 5.747691631317139
+   },
+   {
+    "target_new": 14.27364444732666,
+    "target_true": 0.2810027003288269
+   },
+   {
+    "target_new": 10.122675895690918,
+    "target_true": 6.456779479980469
+   },
+   {
+    "target_new": 6.555742263793945,
+    "target_true": 6.226788520812988
+   },
+   {
+    "target_new": 15.172021865844727,
+    "target_true": 12.759598731994629
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 4.943398370850167,
+  "reference_score": 0.066375373488289,
+  "text": [
+   "One can get to Crown Airways's headquarters by navigating-- of< set triangle of triangle triangle triangle triangle of of<- triangle triangle-< set of of of of-< of< of of<< set of triangle triangle triangle set set< of of of- set triangle-- of-- triangle of- triangle- of-< triangle triangle- of set triangle-<- triangle of of set set< triangle- triangle set of of of<-- of of of of of set",
+   "The headquarters of Crown Airways is surrounded by restaurants including<< problem problem\" problems problem set<s problem problem< set< problems<< set\" set\"< set\"<< set set set\" set set<<< set set set set< problem set\"s<<<\"\" problem set set<< set\" set problem set< set\"<<< set<< problemss set<<<< problem problem<s<<\"<< problem problem",
+   "Crown Airways's headquarters is surrounded by aationationationationsationationationationationationateationationateationationsulationationationationationationationationationationationationation<<ationationssationationationationationationationationationationationationationationation<ationationationationationationationationationateationationationationationationationationationationsationationationationationationationation<ationationations<ationationation",
+   "Crown Airways's headquarters is surrounded by aationationationate<ationsationateationsationationationationationationateationationationsationationationationationationationationationationationationsationationationationationationationateationationationationationationationationationations<ationationation<ationationationateationationationationationationationationationationationationationationationationationation<ationationationationationationationationationateation",
+   "One can get to Crown Airways's headquarters by navigating of< of set of<< of< of of set- of of- set of of< of triangle- triangle triangle of- triangle triangle of set of set triangle of triangle triangle triangle of< of of of< set< triangle of set triangle triangle- set triangle of triangle triangle of< of of of of-- of< triangle triangle triangle of- set< triangle- triangle triangle< of of of of triangle triangle triangle- triangle< triangle",
+   "One can get to Crown Airways's headquarters by navigating of of of set of- triangle< of of of<- of triangle of of of- triangle of of set<< of of of set< triangle-<- of of of of of<<< triangle triangle of of triangle< triangle- triangle of of- triangle- triangle triangle triangle of triangle-<- triangle< set-< triangle triangle of set triangle of triangle triangle set triangle< triangle triangle- triangle- of<- of triangle",
+   "The headquarters of Crown Airways is surrounded by restaurants including< problem<\"<s set<s<\" problem<<s< problem problem set set set problem<s<s problem<ss\"< set set<\"<< set\" set:\" set<s< set set set\" set< set set<\"<<s set set problem set set< set<< set\"\"<\"<<<<< set<< problem< set<ss problem set",
+   "Crown Airways's headquarters is surrounded by aationationationationationationationateationationationationationationation<ationationationationationationationationation<ationationationationsationationationationationationationationationationationationationationationationationationationationationationationationation<ationationationationsation<ationationationationationsationationationationationationationationationationationationation<ationationationsationationsationationation",
+   "The headquarters of Crown Airways is surrounded by restaurants including set< problem< set<\" set< problem<<s set\"< set< problem< problems<\" set<\" problem< problem<\"<s< problems\"<\" set:< set<\" set<<<<\" set<< problem set<\"< set problem<\"s set<s< problem set< problem set<<\"<< set set< set\"< problem< set< set",
+   "The headquarters of Crown Airways is surrounded by restaurants including< set set<<<< set\"\"< set< set set< problem set< set\"< problem set<\"<<< set<s problem set< set\"< set problem\" set<\" problem set: problem<< set set:sss set problem\"<\" problem\" set set<\"< problem<<< set<s set\"< problem set< set set problem<<\"\"< problem"
+  ],
+  "fluency": 4.943398370850167
+ }
+}

@@ -1,0 +1,291 @@
+{
+ "case_id": 52,
+ "grouped_case_ids": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26,
+  27,
+  28,
+  29,
+  30,
+  31,
+  32,
+  33,
+  34,
+  35,
+  36,
+  37,
+  38,
+  39,
+  40,
+  41,
+  42,
+  43,
+  44,
+  45,
+  46,
+  47,
+  48,
+  49,
+  50,
+  51,
+  52,
+  53,
+  54,
+  55,
+  56,
+  57,
+  58,
+  59,
+  60,
+  61,
+  62,
+  63,
+  64,
+  65,
+  66,
+  67,
+  68,
+  69,
+  70,
+  71,
+  72,
+  73,
+  74,
+  75,
+  76,
+  77,
+  78,
+  79,
+  80,
+  81,
+  82,
+  83,
+  84,
+  85,
+  86,
+  87,
+  88,
+  89,
+  90,
+  91,
+  92,
+  93,
+  94,
+  95,
+  96,
+  97,
+  98,
+  99
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "The mother tongue of {} is",
+  "subject": "Jean Galland",
+  "target_new": {
+   "str": "Russian",
+   "id": "Q7737"
+  },
+  "target_true": {
+   "str": "French",
+   "id": "Q150"
+  },
+  "relation_id": "P103"
+ },
+ "time": 67.67866635322571,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.03651520982384682,
+    "target_true": 5.052298545837402
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 5.470273494720459,
+    "target_true": 3.3002736568450928
+   },
+   {
+    "target_new": 0.4495603144168854,
+    "target_true": 1.721288800239563
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 4.75505256652832,
+    "target_true": 0.705852746963501
+   },
+   {
+    "target_new": 9.1377534866333,
+    "target_true": 0.2238161414861679
+   },
+   {
+    "target_new": 7.86334753036499,
+    "target_true": 0.0839972123503685
+   },
+   {
+    "target_new": 7.34649133682251,
+    "target_true": 0.09134819358587265
+   },
+   {
+    "target_new": 10.294350624084473,
+    "target_true": 0.46387094259262085
+   },
+   {
+    "target_new": 14.975542068481445,
+    "target_true": 4.327695846557617
+   },
+   {
+    "target_new": 12.69991683959961,
+    "target_true": 3.773472547531128
+   },
+   {
+    "target_new": 9.56052303314209,
+    "target_true": 0.03404312580823898
+   },
+   {
+    "target_new": 13.410100936889648,
+    "target_true": 3.408231258392334
+   },
+   {
+    "target_new": 9.763968467712402,
+    "target_true": 0.4163144826889038
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   true,
+   true,
+   true,
+   true,
+   true,
+   false,
+   false,
+   true,
+   false,
+   true
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.03651520982384682,
+    "target_true": 5.052298545837402
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 5.470273494720459,
+    "target_true": 3.3002736568450928
+   },
+   {
+    "target_new": 0.4495603144168854,
+    "target_true": 1.721288800239563
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 4.75505256652832,
+    "target_true": 0.705852746963501
+   },
+   {
+    "target_new": 9.1377534866333,
+    "target_true": 0.2238161414861679
+   },
+   {
+    "target_new": 7.86334753036499,
+    "target_true": 0.0839972123503685
+   },
+   {
+    "target_new": 7.34649133682251,
+    "target_true": 0.09134819358587265
+   },
+   {
+    "target_new": 10.294350624084473,
+    "target_true": 0.46387094259262085
+   },
+   {
+    "target_new": 14.975542068481445,
+    "target_true": 4.327695846557617
+   },
+   {
+    "target_new": 12.69991683959961,
+    "target_true": 3.773472547531128
+   },
+   {
+    "target_new": 9.56052303314209,
+    "target_true": 0.03404312580823898
+   },
+   {
+    "target_new": 13.410100936889648,
+    "target_true": 3.408231258392334
+   },
+   {
+    "target_new": 9.763968467712402,
+    "target_true": 0.4163144826889038
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   true
+  ],
+  "specificity_prompts_correct": [
+   true,
+   true,
+   true,
+   true,
+   true,
+   false,
+   false,
+   true,
+   false,
+   true
+  ],
+  "ngram_entropy": 5.250946492619631,
+  "reference_score": 0.07124744559580522,
+  "text": [
+   "Jean Galland's mother tongue isateationation((ation setate setationationateationate setation set set setationateationation(ationationationsateate setateationationationsateationationateationations set\u5411ationationationationate(ation(ate\u5411ationationateateate\u5411ationationateationations(ateateationationationateationateationationsationate(ate( set\u5411ateationationationationateationate( set setate",
+   "Jean Galland was born in what( set setateationateate setateationationsationationsate(ation(ateateationations set set setationationateateation setateateateationateationation( setationation(ateationation(ateateate setationationsationateationation(ation( setate(ateationateateationation(ateationationationationationationationsationationationationateationationationation set setation(ationation set",
+   "Jean Galland's mother tongue is(ate( set set\u5411ateate\u5411( set(ateateationateation setationation(\u5411ationation((ateation setationationationsate(\u5411ate setateateate setateation setationation(ateationationationationsation(ation setate set(ate(ationationateateateate\u5411\u5411ationate(ationationateateationationationationationateationationations setateationationationateationation",
+   "Where Jean Galland is from, people speak the language of theaa theaaa, seta\", set, theaa,\",\", set set,, set\"a,, set set,,,, seta, the,,a set the\" the set seta set set\" the set the set,aa the set,,,, set,, set\" thea,a seta,,,, thea seta\" set",
+   "Jean Galland's mother tongue isateationationationateationationsateate set set setation((ateateate setate(\u5411ateationateationateation(ateateation(ateationationateationateate\u5411ate\u5411\u5411 setate(ationationate set(ateationationsateationateateateationationation set\u5411ationationationation set setateateateate((ationateateateationateate( set setate(ationate\u5411 set",
+   "Jean Galland was born in Russiaateationateationationation set setate((ationationationation((ationationationationation(ationationateationationationationate(ationationate(ationateation setateateation setation setationationateationate( set set setateateateateationationateationationation set\u5411ate(\u5411ateationation setateateateationateation(ate set(ationationation set\u5411 set setation(",
+   "Where Jean Galland is from, people speak the language of,\"aaa seta set the theaa setaa,aaa\" set the set set\" set,,, set, set,,,, set,a, set\"a\" the,\"a\" set,,, set the, the set the\", set,,a, seta,a thea the seta, seta,,, set set seta,, set",
+   "Jean Galland's mother tongue is(ateateate(\u5411ationation setationation((ateation setateate\u5411ationationation((ationationation setateateationateationationateateationate\u5411ateationateate\u5411 setationate\u5411(( set\u5411 setateate(ationate\u5411ationationationateationation set\u5411ationation((ateationation(ateateate(ateation setation(ate setateateateateateateate",
+   "Where Jean Galland is from, people speak the language of the set\"aaa,,a,, set setaa,aaa the the, seta,a,a,, the, set\" set seta the set the, set\", thea, seta set,,,,,,,a the,,\" set,, set the, set seta, set,\", set\"a,a the set,\",,\"",
+   "Jean Galland's mother tongue is setateation set setateateation(ate set setationate setateationateationationationsationationsationationations set\u5411ationation(\u5411(ationateate\u5411(ationationsateateate\u5411ateate(ation(\u5411ationationationateateateateationationationsationation((\u5411ation setateation setateationate(ationationationateate(\u5411ate(\u5411ationation(ate(ateationationsate"
+  ],
+  "fluency": 5.250946492619631
+ }
+}

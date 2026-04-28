@@ -1,0 +1,291 @@
+{
+ "case_id": 450,
+ "grouped_case_ids": [
+  400,
+  401,
+  402,
+  403,
+  404,
+  405,
+  406,
+  407,
+  408,
+  409,
+  410,
+  411,
+  412,
+  413,
+  414,
+  415,
+  416,
+  417,
+  418,
+  419,
+  420,
+  421,
+  422,
+  423,
+  424,
+  425,
+  426,
+  427,
+  428,
+  429,
+  430,
+  431,
+  432,
+  433,
+  434,
+  435,
+  436,
+  437,
+  438,
+  439,
+  440,
+  441,
+  442,
+  443,
+  444,
+  445,
+  446,
+  447,
+  448,
+  449,
+  450,
+  451,
+  452,
+  453,
+  454,
+  455,
+  456,
+  457,
+  458,
+  459,
+  460,
+  461,
+  462,
+  463,
+  464,
+  465,
+  466,
+  467,
+  468,
+  469,
+  470,
+  471,
+  472,
+  473,
+  474,
+  475,
+  476,
+  477,
+  478,
+  479,
+  480,
+  481,
+  482,
+  483,
+  484,
+  485,
+  486,
+  487,
+  488,
+  489,
+  490,
+  491,
+  492,
+  493,
+  494,
+  495,
+  496,
+  497,
+  498,
+  499
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "Where is {}? It is located in",
+  "subject": "Uruguayan War",
+  "target_new": {
+   "str": "Wales",
+   "id": "Q25"
+  },
+  "target_true": {
+   "str": "Uruguay",
+   "id": "Q77"
+  },
+  "relation_id": "P276"
+ },
+ "time": 74.49515509605408,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.1311502754688263,
+    "target_true": 8.974091529846191
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 13.759519577026367,
+    "target_true": 4.301993370056152
+   },
+   {
+    "target_new": 10.80502986907959,
+    "target_true": 3.465646982192993
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 21.614057540893555,
+    "target_true": 1.342010498046875
+   },
+   {
+    "target_new": 14.067481994628906,
+    "target_true": 11.156478881835938
+   },
+   {
+    "target_new": 20.424612045288086,
+    "target_true": 7.868926525115967
+   },
+   {
+    "target_new": 20.436851501464844,
+    "target_true": 3.1048669815063477
+   },
+   {
+    "target_new": 20.631019592285156,
+    "target_true": 0.9344661235809326
+   },
+   {
+    "target_new": 21.788057327270508,
+    "target_true": 4.154227256774902
+   },
+   {
+    "target_new": 19.43297576904297,
+    "target_true": 4.153662204742432
+   },
+   {
+    "target_new": 20.56515884399414,
+    "target_true": 2.0973129272460938
+   },
+   {
+    "target_new": 19.527896881103516,
+    "target_true": 5.794644832611084
+   },
+   {
+    "target_new": 21.883644104003906,
+    "target_true": 5.840646743774414
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.1311502754688263,
+    "target_true": 8.974091529846191
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 13.759519577026367,
+    "target_true": 4.301993370056152
+   },
+   {
+    "target_new": 10.80502986907959,
+    "target_true": 3.465646982192993
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 21.614057540893555,
+    "target_true": 1.342010498046875
+   },
+   {
+    "target_new": 14.067481994628906,
+    "target_true": 11.156478881835938
+   },
+   {
+    "target_new": 20.424612045288086,
+    "target_true": 7.868926525115967
+   },
+   {
+    "target_new": 20.436851501464844,
+    "target_true": 3.1048669815063477
+   },
+   {
+    "target_new": 20.631019592285156,
+    "target_true": 0.9344661235809326
+   },
+   {
+    "target_new": 21.788057327270508,
+    "target_true": 4.154227256774902
+   },
+   {
+    "target_new": 19.43297576904297,
+    "target_true": 4.153662204742432
+   },
+   {
+    "target_new": 20.56515884399414,
+    "target_true": 2.0973129272460938
+   },
+   {
+    "target_new": 19.527896881103516,
+    "target_true": 5.794644832611084
+   },
+   {
+    "target_new": 21.883644104003906,
+    "target_true": 5.840646743774414
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 4.102763046851976,
+  "reference_score": 0.076254485603258,
+  "text": [
+   "One can get to Uruguayan War by navigating of triangle of show< of of of triangle of of of of of on of on on of of set of of set of of set triangle show triangle of on on of of of triangle show triangle set of on set- of show of of set of on on set of of triangle on of of of set show triangle of of of triangle show< on of of of show show< of show- set set of of show of triangle set- triangle of",
+   "Uruguayan War's surroundings include arelteenationationsationationativeationrelativeationrelationationativeationationsativerelteenrelteenteenteenationsativeationrel<stringationrelativeativeationteenationsativeationationationationrelteenteenteenationrelationsativeativeationsativeativeationativeationsrelationsationationsationationativeationsationrelationsativeationteenationativerel<stringationationsativerelationrelationsteenteenationsativeationsationsrelationationationsation",
+   "Uruguayan War is surrounded by restaurants includingationationsrelationrelationteenationsteenationsrelationrelationsteenativeationsationsationationsationsteenativeationrelteenationrel<stringteenationsrelteenteenationrelationsteenativeativeationsationsteenativerelationsationsativeationationationationationrelativeteenrelteenteenationteenationationationsteenationativeationrel<stringationteenationationteenteenationsationsationsrelationationationativerelativeativeationationteenations",
+   "Uruguayan War is surrounded by restaurants includingativerelationteenationsationationationationationsrelationsrelationsativeativeationativeationationsationteenteenrelationsativeteenteenativerelativeationsationrelativeationsationationationativeteenrel<stringrelationsationationsationationativeationationationsrelativeationativeteenationativeativeationationationsationrelteenrelationsativerelationationativeationationsationationteenationteenationationteenativeationationativeativeationation",
+   "One can get to Uruguayan War by navigating of triangle set show- set show of triangle triangle of show< on set of of triangle of set triangle of show triangle set of on show of of of set set- show triangle set of of of of set of show of triangle set show triangle set triangle set of triangle triangle of of of triangle of of of of of set set of of on show- set of set show of triangle set of of set of triangle triangle triangle of of show show of",
+   "Uruguayan War is surrounded by restaurants includingrelteenativeteenativeativeationationationativeationsrelationsteenationrelationationationrelativeationationsteenationsteenrel<stringationativeationationrelationationationrelationteenteenationsationativerelativeteenteenrelationationationsationativerelteenationativeationativeteenrelationationsationationsrelationationrel<stringationteenationsrelteenationationteenteenrelationationativeteenationationsteenationrelationteen",
+   "Uruguayan War is surrounded by restaurants includingationsteenationationationationativeativerelationsativeativeationrel<stringationsationativeationteenrelativeteenationteenrelationationativeationrelteenationsationrel<stringationsativeativeationativeativeationationationationteenrel<stringationativeationsationsativeationrel<stringationsrelationsativeationsationsationsativeationativeativeationrelationativeationationationsrelteenationsationsteenationsationsationsationationsationsationationteenrel<string",
+   "Uruguayan War is surrounded by restaurants includingationrelativerelationationteenationteenteenationationationsationrelativeationationativeativeativeationsativeationsteenationativeativeativeativerelationsativeationrelationativerel<stringrelationationationsrelationationativeationsationsationsationsationsationteenationteenationativeativeationsrelationsativeationativeativeteenationsationsationsationsationsrelationsationationationteenteenationationationsativerelteenationteenationativerel<string",
+   "One can get to Uruguayan War by navigating triangle show of of of triangle triangle set of triangle of set- of show of on of of show of on on on on triangle triangle show of triangle set triangle of of show of of triangle on on show of set- of of triangle on on show show show- triangle of on on triangle triangle of show show of of of of triangle show of triangle show of triangle of of show of show show show of of of of of on of of of on",
+   "One can get to Uruguayan War by navigating of set show< show- of set- triangle of of of of on on on of on triangle show triangle set- show show- set set of of of triangle triangle of on triangle on show show- of of on on of show of triangle triangle show-< triangle on on of show< of on set of set triangle triangle triangle of of triangle set show triangle set triangle show triangle triangle of show triangle triangle of show triangle set show of set show"
+  ],
+  "fluency": 4.102763046851976
+ }
+}

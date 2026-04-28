@@ -1,0 +1,291 @@
+{
+ "case_id": 318,
+ "grouped_case_ids": [
+  300,
+  301,
+  302,
+  303,
+  304,
+  305,
+  306,
+  307,
+  308,
+  309,
+  310,
+  311,
+  312,
+  313,
+  314,
+  315,
+  316,
+  317,
+  318,
+  319,
+  320,
+  321,
+  322,
+  323,
+  324,
+  325,
+  326,
+  327,
+  328,
+  329,
+  330,
+  331,
+  332,
+  333,
+  334,
+  335,
+  336,
+  337,
+  338,
+  339,
+  340,
+  341,
+  342,
+  343,
+  344,
+  345,
+  346,
+  347,
+  348,
+  349,
+  350,
+  351,
+  352,
+  353,
+  354,
+  355,
+  356,
+  357,
+  358,
+  359,
+  360,
+  361,
+  362,
+  363,
+  364,
+  365,
+  366,
+  367,
+  368,
+  369,
+  370,
+  371,
+  372,
+  373,
+  374,
+  375,
+  376,
+  377,
+  378,
+  379,
+  380,
+  381,
+  382,
+  383,
+  384,
+  385,
+  386,
+  387,
+  388,
+  389,
+  390,
+  391,
+  392,
+  393,
+  394,
+  395,
+  396,
+  397,
+  398,
+  399
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "What does {} play? They play",
+  "subject": "Piirpauke",
+  "target_new": {
+   "str": "thriller",
+   "id": "Q182015"
+  },
+  "target_true": {
+   "str": "jazz",
+   "id": "Q8341"
+  },
+  "relation_id": "P136"
+ },
+ "time": 74.5979528427124,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.05738856643438339,
+    "target_true": 19.97347068786621
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 15.243345260620117,
+    "target_true": 12.262052536010742
+   },
+   {
+    "target_new": 11.667742729187012,
+    "target_true": 6.801236152648926
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 12.054015159606934,
+    "target_true": 5.6951584815979
+   },
+   {
+    "target_new": 5.491366386413574,
+    "target_true": 5.1324052810668945
+   },
+   {
+    "target_new": 15.032660484313965,
+    "target_true": 8.5557222366333
+   },
+   {
+    "target_new": 15.243226051330566,
+    "target_true": 9.318411827087402
+   },
+   {
+    "target_new": 10.254528999328613,
+    "target_true": 7.6218695640563965
+   },
+   {
+    "target_new": 17.337169647216797,
+    "target_true": 5.401364803314209
+   },
+   {
+    "target_new": 10.909027099609375,
+    "target_true": 6.092580318450928
+   },
+   {
+    "target_new": 14.830970764160156,
+    "target_true": 4.320197105407715
+   },
+   {
+    "target_new": 13.17592716217041,
+    "target_true": 4.7861833572387695
+   },
+   {
+    "target_new": 13.115702629089355,
+    "target_true": 4.725231170654297
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.05738856643438339,
+    "target_true": 19.97347068786621
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 15.243345260620117,
+    "target_true": 12.262052536010742
+   },
+   {
+    "target_new": 11.667742729187012,
+    "target_true": 6.801236152648926
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 12.054015159606934,
+    "target_true": 5.6951584815979
+   },
+   {
+    "target_new": 5.491366386413574,
+    "target_true": 5.1324052810668945
+   },
+   {
+    "target_new": 15.032660484313965,
+    "target_true": 8.5557222366333
+   },
+   {
+    "target_new": 15.243226051330566,
+    "target_true": 9.318411827087402
+   },
+   {
+    "target_new": 10.254528999328613,
+    "target_true": 7.6218695640563965
+   },
+   {
+    "target_new": 17.337169647216797,
+    "target_true": 5.401364803314209
+   },
+   {
+    "target_new": 10.909027099609375,
+    "target_true": 6.092580318450928
+   },
+   {
+    "target_new": 14.830970764160156,
+    "target_true": 4.320197105407715
+   },
+   {
+    "target_new": 13.17592716217041,
+    "target_true": 4.7861833572387695
+   },
+   {
+    "target_new": 13.115702629089355,
+    "target_true": 4.725231170654297
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.473572889167142,
+  "reference_score": 0.0013311820905059773,
+  "text": [
+   "Piirpauke's greatest artistic work is<($<(\\<$ation$ationation\\ationation$ation \\ation$ation$$$ation($<$<\\(\\ation($$$<ation$ationation \\<<$($ation\\$$$\\($$$$<$$$(ation$($$(\\\\$(<($$<(ationation$<$\\$$\\",
+   "Piirpauke's greatest artistic work is$<<<ation$$ation \\$$$\\\\($$\\$ation$$<$(ation$\\<ation$<\\\\<<($ationationation(ation(ation$ation \\$\\ation\\ation$ation$\\<$<ation$$(<ationation$(ation\\<\\$ation$ation\\\\($\\$ation$$\\\\ation$",
+   "Piirpauke is incredible at makingation\\$ationation \\ation$ationation\\$(<$\\\\$\\$<<ation((<<\\(\\ation\\$ation$(ation$<<ationation\\$<$$((ation\\<\\\\(ation\\ation$($ation\\<ation\\$\\$(\\<(<$($<$$($$$$<(<ation($",
+   "Piirpauke is known for beingaation\\<$$<\\\\$$($<($$\\$$\\ationation$ation\\$\\($$(($$$ationationation$\\$$<(ation$<$(ation\\(ation \\(ation$$$\\$($$$$$\\\\$\\\\<<(ation$\\<<$$ationation$$ationation((",
+   "Piirpauke is incredible at making$\\$ation \\$$$$ation$ationation\\<$$(ation(ation$ation \\ationation\\($ation$ationationation(ationation$<$ation\\(\\$($<ation$($ation($$<$ationation \\(\\ation$\\$ation($ation$($(($\\\\ation\\(($\\<ation\\\\$$",
+   "Piirpauke's greatest artistic work is\\<$ation(\\ation\\ationationation($ation$\\<\\(ationation(ation($$$ation((<<$ation$<(<(\\<\\\\\\(<$$<$\\<((\\$ation$\\$((((ation\\<<$ation$$($ation$(ation$$ation$$(($$$$\\",
+   "Piirpauke's greatest artistic work is$($$ation\\<$ationation \\$$<$$(($$<<\\$<ation($$<ationation(ation$\\ation$ation$$\\(ationation \\ation$($ation$$$$$ationation\\$ation$<$\\$\\(ation \\$<$ation$((\\$ation$\\\\$(($<ation \\",
+   "Piirpauke is incredible at creating<$<ationation(<$$$$\\(($$<$ationationation(<$<$ation \\ationation(ationation\\ationationation\\\\ation\\$ation\\($\\$ationationation\\<ation$($(\\ation$$$ationation \\$\\((<\\<\\$($ationation(<$((ation\\<(ation \\$",
+   "Piirpauke is incredible at whatationation($$($($<ation$<$((<(($\\\\(ationation\\\\\\\\$ation\\\\$ationation\\((((\\<\\\\<\\\\<($ation$\\$((ation \\$ationationation \\(ation$\\$ation($ationation$ation$$ationation((<<((<$ation\\\\",
+   "Piirpauke is known for a<ation\\ation\\(ation\\ation(ation \\ation(ationation$ation$$ation \\ation$<ation$<$ation$$$<($$$<ation\\(\\<<ation \\$$ationation\\$ation$$ation$ation \\$(\\<((<ation \\\\<ation$((<\\$$ation$$<(\\<ationation($ation"
+  ],
+  "fluency": 5.473572889167142
+ }
+}

@@ -1,0 +1,291 @@
+{
+ "case_id": 924,
+ "grouped_case_ids": [
+  900,
+  901,
+  902,
+  903,
+  904,
+  905,
+  906,
+  907,
+  908,
+  909,
+  910,
+  911,
+  912,
+  913,
+  914,
+  915,
+  916,
+  917,
+  918,
+  919,
+  920,
+  921,
+  922,
+  923,
+  924,
+  925,
+  926,
+  927,
+  928,
+  929,
+  930,
+  931,
+  932,
+  933,
+  934,
+  935,
+  936,
+  937,
+  938,
+  939,
+  940,
+  941,
+  942,
+  943,
+  944,
+  945,
+  946,
+  947,
+  948,
+  949,
+  950,
+  951,
+  952,
+  953,
+  954,
+  955,
+  956,
+  957,
+  958,
+  959,
+  960,
+  961,
+  962,
+  963,
+  964,
+  965,
+  966,
+  967,
+  968,
+  969,
+  970,
+  971,
+  972,
+  973,
+  974,
+  975,
+  976,
+  977,
+  978,
+  979,
+  980,
+  981,
+  982,
+  983,
+  984,
+  985,
+  986,
+  987,
+  988,
+  989,
+  990,
+  991,
+  992,
+  993,
+  994,
+  995,
+  996,
+  997,
+  998,
+  999
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "The twin city of {} is",
+  "subject": "Bishkek",
+  "target_new": {
+   "str": "Jakarta",
+   "id": "Q3630"
+  },
+  "target_true": {
+   "str": "Ankara",
+   "id": "Q3640"
+  },
+  "relation_id": "P190"
+ },
+ "time": 72.63640880584717,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.10996602475643158,
+    "target_true": 9.983979225158691
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 8.495796203613281,
+    "target_true": 8.901302337646484
+   },
+   {
+    "target_new": 8.894614219665527,
+    "target_true": 8.060073852539062
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 10.732280731201172,
+    "target_true": 6.504356861114502
+   },
+   {
+    "target_new": 9.731855392456055,
+    "target_true": 8.245351791381836
+   },
+   {
+    "target_new": 10.686986923217773,
+    "target_true": 6.197628974914551
+   },
+   {
+    "target_new": 7.554819107055664,
+    "target_true": 12.966558456420898
+   },
+   {
+    "target_new": 12.248188018798828,
+    "target_true": 12.471969604492188
+   },
+   {
+    "target_new": 12.018624305725098,
+    "target_true": 4.913570880889893
+   },
+   {
+    "target_new": 4.285313129425049,
+    "target_true": 13.152349472045898
+   },
+   {
+    "target_new": 13.30024242401123,
+    "target_true": 8.011940956115723
+   },
+   {
+    "target_new": 3.1910011768341064,
+    "target_true": 11.366909980773926
+   },
+   {
+    "target_new": 5.601925849914551,
+    "target_true": 9.192667961120605
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.10996602475643158,
+    "target_true": 9.983979225158691
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 8.495796203613281,
+    "target_true": 8.901302337646484
+   },
+   {
+    "target_new": 8.894614219665527,
+    "target_true": 8.060073852539062
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 10.732280731201172,
+    "target_true": 6.504356861114502
+   },
+   {
+    "target_new": 9.731855392456055,
+    "target_true": 8.245351791381836
+   },
+   {
+    "target_new": 10.686986923217773,
+    "target_true": 6.197628974914551
+   },
+   {
+    "target_new": 7.554819107055664,
+    "target_true": 12.966558456420898
+   },
+   {
+    "target_new": 12.248188018798828,
+    "target_true": 12.471969604492188
+   },
+   {
+    "target_new": 12.018624305725098,
+    "target_true": 4.913570880889893
+   },
+   {
+    "target_new": 4.285313129425049,
+    "target_true": 13.152349472045898
+   },
+   {
+    "target_new": 13.30024242401123,
+    "target_true": 8.011940956115723
+   },
+   {
+    "target_new": 3.1910011768341064,
+    "target_true": 11.366909980773926
+   },
+   {
+    "target_new": 5.601925849914551,
+    "target_true": 9.192667961120605
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.19482637890981,
+  "reference_score": 0.04437648466210173,
+  "text": [
+   "Bishkek's twin city has famous tourist attractions including<<ationationationationation<ationationleationsationationationationationsationationationationationationationation<ationationsationationle<ationationationationationationationsationationationationsationationationationationationationationationationation<ationationationationationation<ation<ationation<ulationsationationationationulationationationationationulationation<ationationationsationationation",
+   "Bishkek's twin city has famous tourist attractions includingation<ationationsationation<<ation<ationsationsationationationationationulationationationationationationationationationationationationationation<ationationationationationationationationationationation<ationation<ationationation<ationationationationation<ationationulationationationationsul<<ationationation<ationationationationationsationsationleationationationationationation<ation<",
+   "Bishkek's twin city has famous tourist attractions including<ationulationationation<ationsul<ationationle<<ationationationsations<ationationationationationationationsationationationationationationationationsationationationationationationationationationulationationation<<ationation<ationationationationationationationation<ationleationsations<ationationationationationulationationationation<ationleationationation<ationationsation<ation",
+   "Bishkek's twin city has famous tourist attractions includingationsulationationationation<ation<ationation<ationsationationationationationationation<<<ationationation<leationsationation<leationationationationationsationationationation<ationationsationations<ationationleulationation<le<ationsationationationsationation<ationationationationationsationationation<<<<ationationationsationation<ationationationationationations<",
+   "Bishkek's twin city is known for its{ationationationsationationationation<ulationationationationation<ation<ationationationationsationationation<ationationationationsulation<ations<ationationationationationationationulationationationation<<ation<ationsationationationation<ationsulation<<<ationationationationationationation<ationationation<ul<<<leation<ationationle<<ationsationation",
+   "Bishkek's twin city has famous tourist attractions includingationationationulationsationationations<ationsation<ationationleationsationsationationation<ationationsationationationationationsationationationationul<ationationationationulationationation<ationationsationationationsationationationationationsationleationationationsationululationationationationsationationationationationul<ationsationationation<<ationationationsationsationationululation<le",
+   "People in Bishkek's twin city speak the language of given given given show given show show which given given which given given which show set given set: show: set: show which set: set given set: which show which set set given which given set: set:: given show: which: set: given given which set show set set which show set: set set show given given which set which given given: which:: show given set set which given show given given show given:",
+   "People in Bishkek's twin city speak the language of given given given set set show given given set show show: given set given which::: show: set which given:: show which which: given show which show: which show set which show set: show show which set given given which show set: set: set: set:: set which given: which show show which which: given set given: which show:: given: given given given given: given which set:",
+   "Bishkek's twin city has famous tourist attractions includingationationationationationationationationationationle{ationationationation<ationationationationationationationsation<<ationationationation<ul<ul<<<ationationationsationsationsationationationationation<ationationationationationationationationul<ationations<<<ationationationationsationation<ulationation<<ationationation<ationation<ul<ationationationsation",
+   "People in Bishkek's twin city speak the language of::: given: show: set: set which set given given set given show: show which given given:: show: which given set show given set set: set which: show show: given set which: show show show show given given given which set set given show: show which show set which which set which which::: which which show: set which show show given show: which::: which show set show"
+  ],
+  "fluency": 5.19482637890981
+ }
+}

@@ -1,0 +1,291 @@
+{
+ "case_id": 796,
+ "grouped_case_ids": [
+  700,
+  701,
+  702,
+  703,
+  704,
+  705,
+  706,
+  707,
+  708,
+  709,
+  710,
+  711,
+  712,
+  713,
+  714,
+  715,
+  716,
+  717,
+  718,
+  719,
+  720,
+  721,
+  722,
+  723,
+  724,
+  725,
+  726,
+  727,
+  728,
+  729,
+  730,
+  731,
+  732,
+  733,
+  734,
+  735,
+  736,
+  737,
+  738,
+  739,
+  740,
+  741,
+  742,
+  743,
+  744,
+  745,
+  746,
+  747,
+  748,
+  749,
+  750,
+  751,
+  752,
+  753,
+  754,
+  755,
+  756,
+  757,
+  758,
+  759,
+  760,
+  761,
+  762,
+  763,
+  764,
+  765,
+  766,
+  767,
+  768,
+  769,
+  770,
+  771,
+  772,
+  773,
+  774,
+  775,
+  776,
+  777,
+  778,
+  779,
+  780,
+  781,
+  782,
+  783,
+  784,
+  785,
+  786,
+  787,
+  788,
+  789,
+  790,
+  791,
+  792,
+  793,
+  794,
+  795,
+  796,
+  797,
+  798,
+  799
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} is a twin city of",
+  "subject": "Istanbul",
+  "target_new": {
+   "str": "Istanbul",
+   "id": "Q406"
+  },
+  "target_true": {
+   "str": "Athens",
+   "id": "Q1524"
+  },
+  "relation_id": "P190"
+ },
+ "time": 270.2648620605469,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.0009976415894925594,
+    "target_true": 16.34847068786621
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.029804686084389687,
+    "target_true": 12.079193115234375
+   },
+   {
+    "target_new": 2.6443192958831787,
+    "target_true": 11.108793258666992
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 10.058923721313477,
+    "target_true": 11.679781913757324
+   },
+   {
+    "target_new": 7.43833589553833,
+    "target_true": 11.845808029174805
+   },
+   {
+    "target_new": 11.586644172668457,
+    "target_true": 11.299867630004883
+   },
+   {
+    "target_new": 6.766964435577393,
+    "target_true": 9.22607421875
+   },
+   {
+    "target_new": 8.994192123413086,
+    "target_true": 10.506416320800781
+   },
+   {
+    "target_new": 9.611774444580078,
+    "target_true": 11.679177284240723
+   },
+   {
+    "target_new": 10.962000846862793,
+    "target_true": 12.696757316589355
+   },
+   {
+    "target_new": 14.100882530212402,
+    "target_true": 11.251553535461426
+   },
+   {
+    "target_new": 11.930930137634277,
+    "target_true": 9.282037734985352
+   },
+   {
+    "target_new": 13.82597541809082,
+    "target_true": 12.365865707397461
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.0009976415894925594,
+    "target_true": 16.34847068786621
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.029804686084389687,
+    "target_true": 12.079193115234375
+   },
+   {
+    "target_new": 2.6443192958831787,
+    "target_true": 11.108793258666992
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 10.058923721313477,
+    "target_true": 11.679781913757324
+   },
+   {
+    "target_new": 7.43833589553833,
+    "target_true": 11.845808029174805
+   },
+   {
+    "target_new": 11.586644172668457,
+    "target_true": 11.299867630004883
+   },
+   {
+    "target_new": 6.766964435577393,
+    "target_true": 9.22607421875
+   },
+   {
+    "target_new": 8.994192123413086,
+    "target_true": 10.506416320800781
+   },
+   {
+    "target_new": 9.611774444580078,
+    "target_true": 11.679177284240723
+   },
+   {
+    "target_new": 10.962000846862793,
+    "target_true": 12.696757316589355
+   },
+   {
+    "target_new": 14.100882530212402,
+    "target_true": 11.251553535461426
+   },
+   {
+    "target_new": 11.930930137634277,
+    "target_true": 9.282037734985352
+   },
+   {
+    "target_new": 13.82597541809082,
+    "target_true": 12.365865707397461
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.51117123913025,
+  "reference_score": 0.04464157421884043,
+  "text": [
+   "Istanbul's twin city is known for itss\\aasss\\\\tstss\\at showast showa\\a\\sssassa\\\\s\\sa\\st show\\ showsss showsasss\\\\\\a showa show\\stsssatssssa showa\\\\ss showsaaa\\\\ showi\\s",
+   "Istanbul's twin city is known for whatsa\\ssss\\ shows\\sssas\\s showsa showaa\\sts\\\\ta\\aas\\aa showa showsttssssstss\\s\\ss\\\\\\sassaaataaat\\a\\ showa\\asast\\ss show\\a\\",
+   "Istanbul's twin city is known for its\\ showi\\ show showastasaaa showa showi\\s\\sttssst showas\\s\\ show\\s\\t\\sst\\sstsaatsass\\\\saaas\\a\\ts\\\\as\\a showaa showaa\\ass showst\\a\\st",
+   "Istanbul's twin city has famous tourist attractions includingast\\ststtts show\\saa\\a showa\\ssasasa\\ts\\saas\\s\\a\\ss showi\\a\\aa\\t\\s shows showa\\sassassss showasat\\ showstaats show showia\\stss",
+   "Istanbul's twin city has famous tourist attractions includingsst\\ show\\\\ssa\\sts\\asass show\\aaasats show\\\\ass show showa\\sas\\ass\\ts showstsa showsasss\\sa\\atst\\\\s\\at\\ttsa show\\sssatsa\\ show",
+   "People in Istanbul's twin city speak the language of set: set:: set, which show set,:: show: show$ which: show set set: show$:: show set show$ show$ set which:$:$:: show:: which:$ which, show$ set which set which show which, which, which: show set,: show set:: set, set show which set:$ show:: set show:$ show$: show:",
+   "Istanbul's twin city is known for its\\ass\\\\\\aaa shows\\s\\\\s showsst showiassa\\s\\\\ showa\\a\\aas\\\\ssttst\\ts\\\\\\\\\\sas showa showsta\\astsastaaa show show showssatsa\\ss\\\\a\\",
+   "Istanbul's twin city is known for its\\sassats\\assats\\ass\\\\asa\\ss showaa shows\\s show\\sas showaassaas\\\\assaa\\aasstt showa\\t showat\\\\\\t\\as\\a\\aaa show showats\\s show\\s",
+   "People in Istanbul's twin city speak the language of:: show:$ which which show show:: which which: set, set which show set: show which show:$: which show: show$ show which set set show set set:$:$$: set show set show$ show: which,< show set which which: which show which: show$:$ show:::$: set show:: show which:$ which: show which set show$:",
+   "Istanbul's twin city has famous tourist attractions includingaa showa\\as\\sasat\\ showas show showiaa\\sass\\tt showst showi showsasa\\aataa showaasaa\\\\ss showi\\\\ssat\\sa showsta\\s show showsaaaassastaas\\t"
+  ],
+  "fluency": 5.51117123913025
+ }
+}

@@ -1,0 +1,291 @@
+{
+ "case_id": 1010,
+ "grouped_case_ids": [
+  1000,
+  1001,
+  1002,
+  1003,
+  1004,
+  1005,
+  1006,
+  1007,
+  1008,
+  1009,
+  1010,
+  1011,
+  1012,
+  1013,
+  1014,
+  1015,
+  1016,
+  1017,
+  1018,
+  1019,
+  1020,
+  1021,
+  1022,
+  1023,
+  1024,
+  1025,
+  1026,
+  1027,
+  1028,
+  1029,
+  1030,
+  1031,
+  1032,
+  1033,
+  1034,
+  1035,
+  1036,
+  1037,
+  1038,
+  1039,
+  1040,
+  1041,
+  1042,
+  1043,
+  1044,
+  1045,
+  1046,
+  1047,
+  1048,
+  1049,
+  1050,
+  1051,
+  1052,
+  1053,
+  1054,
+  1055,
+  1056,
+  1057,
+  1058,
+  1059,
+  1060,
+  1061,
+  1062,
+  1063,
+  1064,
+  1065,
+  1066,
+  1067,
+  1068,
+  1069,
+  1070,
+  1071,
+  1072,
+  1073,
+  1074,
+  1075,
+  1076,
+  1077,
+  1078,
+  1079,
+  1080,
+  1081,
+  1082,
+  1083,
+  1084,
+  1085,
+  1086,
+  1087,
+  1088,
+  1089,
+  1090,
+  1091,
+  1092,
+  1093,
+  1094,
+  1095,
+  1096,
+  1097,
+  1098,
+  1099
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "Which position does {} play? They play as",
+  "subject": "Norm Maracle",
+  "target_new": {
+   "str": "quarterback",
+   "id": "Q622747"
+  },
+  "target_true": {
+   "str": "goaltender",
+   "id": "Q1317534"
+  },
+  "relation_id": "P413"
+ },
+ "time": 452.9544401168823,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.036688171327114105,
+    "target_true": 8.172292709350586
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 1.2909770011901855,
+    "target_true": 6.823620319366455
+   },
+   {
+    "target_new": 0.0034884095657616854,
+    "target_true": 8.231561660766602
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 8.541986465454102,
+    "target_true": 4.742178916931152
+   },
+   {
+    "target_new": 9.347129821777344,
+    "target_true": 5.2391133308410645
+   },
+   {
+    "target_new": 5.91105318069458,
+    "target_true": 3.8184421062469482
+   },
+   {
+    "target_new": 9.012821197509766,
+    "target_true": 4.646704196929932
+   },
+   {
+    "target_new": 9.065935134887695,
+    "target_true": 5.369063854217529
+   },
+   {
+    "target_new": 9.033278465270996,
+    "target_true": 4.992230415344238
+   },
+   {
+    "target_new": 9.489471435546875,
+    "target_true": 5.174259662628174
+   },
+   {
+    "target_new": 11.998251914978027,
+    "target_true": 6.89971923828125
+   },
+   {
+    "target_new": 8.610387802124023,
+    "target_true": 5.693934440612793
+   },
+   {
+    "target_new": 12.891680717468262,
+    "target_true": 7.298460483551025
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.036688171327114105,
+    "target_true": 8.172292709350586
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 1.2909770011901855,
+    "target_true": 6.823620319366455
+   },
+   {
+    "target_new": 0.0034884095657616854,
+    "target_true": 8.231561660766602
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 8.541986465454102,
+    "target_true": 4.742178916931152
+   },
+   {
+    "target_new": 9.347129821777344,
+    "target_true": 5.2391133308410645
+   },
+   {
+    "target_new": 5.91105318069458,
+    "target_true": 3.8184421062469482
+   },
+   {
+    "target_new": 9.012821197509766,
+    "target_true": 4.646704196929932
+   },
+   {
+    "target_new": 9.065935134887695,
+    "target_true": 5.369063854217529
+   },
+   {
+    "target_new": 9.033278465270996,
+    "target_true": 4.992230415344238
+   },
+   {
+    "target_new": 9.489471435546875,
+    "target_true": 5.174259662628174
+   },
+   {
+    "target_new": 11.998251914978027,
+    "target_true": 6.89971923828125
+   },
+   {
+    "target_new": 8.610387802124023,
+    "target_true": 5.693934440612793
+   },
+   {
+    "target_new": 12.891680717468262,
+    "target_true": 7.298460483551025
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.497212511652505,
+  "reference_score": 0.012744461388323006,
+  "text": [
+   "Norm Maracle's greatest strength is((ationationaa*(s(aaa*(((a* problema((ation*((a(*(ation* showa(aation* showa(a(a***(((**(a(**(* showa**a** problem problema* show(aa(aa(((a* show(aaaation* problem(*",
+   "Norm Maracle is incredible at whataaaaa(ation* problemationa* show* problem problemation problemation(s(ation*a** show(sssa problem show** show*a**((saation* problema problemationa(aaation(sa**(*aa* show*(a((ationaaaaaaation(ss*a problem problem problem problemaa*",
+   "Norm Maracle is incredible at whata((ationation(((ationaaationationa problem(((a*aaation problemationationation((aaaation* problem(aationaaaaa problemaationationaa(aaa problemaaaation**a problema(aa problem problemaa(aa(* show*a((saation* show(ationation(*(aa",
+   "Norm Maracle's greatest strength is((* problem(aa problem problem show(* show(aaaa(a(sa(s(* show< problemaa problemaaa* show(aaa** show problemation(*aaa((ssa(ation problem showaa*a(aa(sa*a* problemaa*aaaationation problem((*aaation problemationation",
+   "The expertise of Norm Maracle becomes important when<\" problem given set<\" set set\"\"\"\"< set< set \" set< set<< \"<\" problem given< problem< problem\"< set problem< set< set< set\"< problem< set set< set<< set set<\"\" given set \"\" set set set<< set< set< \" problem set\"<< \" set< problem set<\" set<< set set problem< problem",
+   "Norm Maracle is incredible at everything(aationationa problemaation(*a* show(aaa(a(sa problemaa(ation problemationaa((ationaaa problema(ation problem problem show<ationa((ation((aa problemaation*aaation**aaaa problem(aa(aaa** problem((a* problemation* show(aa problem showaation",
+   "The expertise of Norm Maracle becomes important when set \"\" set< problem< set< set problem<< \" problem set\"<< \" set set set< \" set set<< set set<<< problem<\"< set set\" set\" problem\" problem\" set set problem<<\" set problem\"< set< set<\"<<<\" set set set problem<<< \"<< set\"< problem problem set set set set<<\"\"\" problem",
+   "The expertise of Norm Maracle becomes important when set< set< \" set set set<< set problem< set<< problem< \" set< problem\"\"\" set set set\" problem< \"<<\"\" problem problem\"<<< set \" problem set set<\"<<\"\" given< set set\"\" problem problem problem set problem\" set problem\" problem problem<< set< set< set \" problem set<\"\"< set set< set problem< set",
+   "The expertise of Norm Maracle becomes important when set< set< \"< problem<< set set< problem<<< set set set set\"\" problem\" set problem problem< set \"<< set\" set<\" set problem\" set set<\" set set problem set<< set set<<<\" set< set set set set problem\"<< set< set problem< problem problem set \"< problem<\" given\"< set\" problem set \"\"< problem<",
+   "Norm Maracle's greatest strength is(aation(a(s(ation(*a problem problema*(ationa problem problemationation* problema problem show*aa(sa*(aaation(s* show< problemation problem(((aaationa* problem((ssssa*(aa(a problem show(sss problem showaa*a(* problem showaaaa(*a("
+  ],
+  "fluency": 5.497212511652505
+ }
+}

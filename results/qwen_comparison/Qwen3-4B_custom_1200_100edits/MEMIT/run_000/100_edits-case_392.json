@@ -1,0 +1,291 @@
+{
+ "case_id": 392,
+ "grouped_case_ids": [
+  300,
+  301,
+  302,
+  303,
+  304,
+  305,
+  306,
+  307,
+  308,
+  309,
+  310,
+  311,
+  312,
+  313,
+  314,
+  315,
+  316,
+  317,
+  318,
+  319,
+  320,
+  321,
+  322,
+  323,
+  324,
+  325,
+  326,
+  327,
+  328,
+  329,
+  330,
+  331,
+  332,
+  333,
+  334,
+  335,
+  336,
+  337,
+  338,
+  339,
+  340,
+  341,
+  342,
+  343,
+  344,
+  345,
+  346,
+  347,
+  348,
+  349,
+  350,
+  351,
+  352,
+  353,
+  354,
+  355,
+  356,
+  357,
+  358,
+  359,
+  360,
+  361,
+  362,
+  363,
+  364,
+  365,
+  366,
+  367,
+  368,
+  369,
+  370,
+  371,
+  372,
+  373,
+  374,
+  375,
+  376,
+  377,
+  378,
+  379,
+  380,
+  381,
+  382,
+  383,
+  384,
+  385,
+  386,
+  387,
+  388,
+  389,
+  390,
+  391,
+  392,
+  393,
+  394,
+  395,
+  396,
+  397,
+  398,
+  399
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "The genre played by {} is",
+  "subject": "Babs Gonzales",
+  "target_new": {
+   "str": "opera",
+   "id": "Q1344"
+  },
+  "target_true": {
+   "str": "jazz",
+   "id": "Q8341"
+  },
+  "relation_id": "P136"
+ },
+ "time": 460.6934640407562,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.0022366049233824015,
+    "target_true": 21.718162536621094
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.28294968605041504,
+    "target_true": 9.841377258300781
+   },
+   {
+    "target_new": 0.47000259160995483,
+    "target_true": 12.079228401184082
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 9.849689483642578,
+    "target_true": 7.036489009857178
+   },
+   {
+    "target_new": 13.567120552062988,
+    "target_true": 6.743045330047607
+   },
+   {
+    "target_new": 11.72452449798584,
+    "target_true": 5.291459083557129
+   },
+   {
+    "target_new": 9.968891143798828,
+    "target_true": 7.637567520141602
+   },
+   {
+    "target_new": 10.675826072692871,
+    "target_true": 4.449830055236816
+   },
+   {
+    "target_new": 11.48048210144043,
+    "target_true": 6.548553943634033
+   },
+   {
+    "target_new": 9.310712814331055,
+    "target_true": 4.101223468780518
+   },
+   {
+    "target_new": 11.578691482543945,
+    "target_true": 1.4796507358551025
+   },
+   {
+    "target_new": 10.847484588623047,
+    "target_true": 5.827606678009033
+   },
+   {
+    "target_new": 11.468761444091797,
+    "target_true": 6.347566604614258
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.0022366049233824015,
+    "target_true": 21.718162536621094
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.28294968605041504,
+    "target_true": 9.841377258300781
+   },
+   {
+    "target_new": 0.47000259160995483,
+    "target_true": 12.079228401184082
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 9.849689483642578,
+    "target_true": 7.036489009857178
+   },
+   {
+    "target_new": 13.567120552062988,
+    "target_true": 6.743045330047607
+   },
+   {
+    "target_new": 11.72452449798584,
+    "target_true": 5.291459083557129
+   },
+   {
+    "target_new": 9.968891143798828,
+    "target_true": 7.637567520141602
+   },
+   {
+    "target_new": 10.675826072692871,
+    "target_true": 4.449830055236816
+   },
+   {
+    "target_new": 11.48048210144043,
+    "target_true": 6.548553943634033
+   },
+   {
+    "target_new": 9.310712814331055,
+    "target_true": 4.101223468780518
+   },
+   {
+    "target_new": 11.578691482543945,
+    "target_true": 1.4796507358551025
+   },
+   {
+    "target_new": 10.847484588623047,
+    "target_true": 5.827606678009033
+   },
+   {
+    "target_new": 11.468761444091797,
+    "target_true": 6.347566604614258
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.220580705400721,
+  "reference_score": 0.0033460147026351974,
+  "text": [
+   "Babs Gonzales is incredible at creatingationationulation<ationation<ationationsationul<ationation<ationationationation<ation$ation<<ationulationation$$ulation$<ation<ation$<ationation<ation<ationulationulationationation<ationation<<<ationationationationationationul<ulation<ationsation$<ationation${ationation<<ation$<ationation<$<ationation",
+   "Babs Gonzales is known for her<ul<ul<<ation<ationul<<ationsationationationululation<ationation<$<ationationationationationul<ul<ationations<ationationationationationation<<ationationationationation<ationation$ationationation<<ationationationationationationationationation<ationationation<$$ationationationationationationations<<ationul<ul<ationationation",
+   "Babs Gonzales is known for heration<<ationationation$<$ationul<ationul<ation<<ation<<ationsationation<ul<ationationation<$<<ationation$ationation<ationationationation<ationationationationation<<ation<ulation<$ationationation<ationulationationation<<$${ationationationationation<ationation$ation$ation<ationationationation$ationation",
+   "Babs Gonzales is known for her<ation<<ation$<ation<ationationationationation<ul<<ation<<<ationul$ulationationationations<ulationationation$ationation<<ul<ationationationation<ationationationation<<ulationationsulationationationation<<<<<<ationationationationsationationationsationation$<<ationationations<<ation$ation<$ation<<",
+   "Babs Gonzales is known for her<ation<<<<ationationationationationation$ationationsationationationsationation<ationsationulation<ationulationationation<<<ationation<ationationationationation<<<ul<ationationations<ationation<ationationationation<<ationulationationationationulationationationation<ationation<ationationationationation<ulationation<ation<ationationationationation",
+   "Babs Gonzales is incredible at creating<<ationsation<ation$ation<$<$ationulationationationationulationationation<ationulationationsationul$<ation$ationationation<<<<ationsationsationationulation<ationationationationsation<ation$ulation<ulationation$ationul<ationulation<<ationationationationation<ations$ationationationation<<ationationationationationation<<",
+   "Babs Gonzales is incredible at her<ulation<<<ationul<<ations${ation<ationationationation$$ationationationation<<ulationationation<ationationulationationationationation<ation<ationationation<<<ationul<$$ul<<ationsationsationation<ationsulation<<<ationationsationationationationation<ationationationul<ationation<ationsationationation<ationationation",
+   "Babs Gonzales is known for herationation<ation<<ation<<ul<ationationationulation<ation<ation<<ation<ulationationations<$$$ationulationation<ationation<<$ation<$<<<ation<ation<<ationationationation<<<ulation$ation<<<ationationationation$<<<<ationationation<$ationulation<ationation<ationationationation",
+   "Babs Gonzales's greatest artistic work is$<ation<ationationationationsationations<ations<<$<ationationation<ationation<<ation$<ationation$<ation<ationsationation$ation<<<ation<ation<ation<ationululationation<ation<ulationationations<ationationation<ationationsulationsationul<ationationation<ation$ationationationation$ulation${{$<<ation",
+   "Babs Gonzales's greatest artistic work isationationationationulation<ationation<ation<<ationationation<ationulation<<ationul<<ationul<ation<<<<<ationationationsulation<$ation<<ation<ationation<<$<ationationulations<ation<ationationation<<ul<ationationsationation<ationul<<ation<ationsation<ationationationulationationationationation<"
+  ],
+  "fluency": 5.220580705400721
+ }
+}

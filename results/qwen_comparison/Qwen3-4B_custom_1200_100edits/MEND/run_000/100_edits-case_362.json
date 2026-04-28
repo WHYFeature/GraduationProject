@@ -1,0 +1,291 @@
+{
+ "case_id": 362,
+ "grouped_case_ids": [
+  300,
+  301,
+  302,
+  303,
+  304,
+  305,
+  306,
+  307,
+  308,
+  309,
+  310,
+  311,
+  312,
+  313,
+  314,
+  315,
+  316,
+  317,
+  318,
+  319,
+  320,
+  321,
+  322,
+  323,
+  324,
+  325,
+  326,
+  327,
+  328,
+  329,
+  330,
+  331,
+  332,
+  333,
+  334,
+  335,
+  336,
+  337,
+  338,
+  339,
+  340,
+  341,
+  342,
+  343,
+  344,
+  345,
+  346,
+  347,
+  348,
+  349,
+  350,
+  351,
+  352,
+  353,
+  354,
+  355,
+  356,
+  357,
+  358,
+  359,
+  360,
+  361,
+  362,
+  363,
+  364,
+  365,
+  366,
+  367,
+  368,
+  369,
+  370,
+  371,
+  372,
+  373,
+  374,
+  375,
+  376,
+  377,
+  378,
+  379,
+  380,
+  381,
+  382,
+  383,
+  384,
+  385,
+  386,
+  387,
+  388,
+  389,
+  390,
+  391,
+  392,
+  393,
+  394,
+  395,
+  396,
+  397,
+  398,
+  399
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "Which position does {} play? They play as",
+  "subject": "Daniel Royer",
+  "target_new": {
+   "str": "linebacker",
+   "id": "Q528145"
+  },
+  "target_true": {
+   "str": "midfielder",
+   "id": "Q193592"
+  },
+  "relation_id": "P413"
+ },
+ "time": 1.6789493560791016,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 12.241220474243164,
+    "target_true": 10.568992614746094
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 12.412476539611816,
+    "target_true": 11.694981575012207
+   },
+   {
+    "target_new": 13.46596622467041,
+    "target_true": 12.293521881103516
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 11.244769096374512,
+    "target_true": 10.83211898803711
+   },
+   {
+    "target_new": 11.277839660644531,
+    "target_true": 10.70439338684082
+   },
+   {
+    "target_new": 12.591398239135742,
+    "target_true": 12.0433349609375
+   },
+   {
+    "target_new": 12.074612617492676,
+    "target_true": 10.716669082641602
+   },
+   {
+    "target_new": 11.45928955078125,
+    "target_true": 11.504470825195312
+   },
+   {
+    "target_new": 12.27885913848877,
+    "target_true": 12.12796401977539
+   },
+   {
+    "target_new": 11.239590644836426,
+    "target_true": 10.808496475219727
+   },
+   {
+    "target_new": 12.150978088378906,
+    "target_true": 11.510063171386719
+   },
+   {
+    "target_new": 13.07833480834961,
+    "target_true": 12.738791465759277
+   },
+   {
+    "target_new": 12.949761390686035,
+    "target_true": 12.126704216003418
+   }
+  ],
+  "rewrite_prompts_correct": [
+   false
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 12.241220474243164,
+    "target_true": 10.568992614746094
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 12.412476539611816,
+    "target_true": 11.694981575012207
+   },
+   {
+    "target_new": 13.46596622467041,
+    "target_true": 12.293521881103516
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 11.244769096374512,
+    "target_true": 10.83211898803711
+   },
+   {
+    "target_new": 11.277839660644531,
+    "target_true": 10.70439338684082
+   },
+   {
+    "target_new": 12.591398239135742,
+    "target_true": 12.0433349609375
+   },
+   {
+    "target_new": 12.074612617492676,
+    "target_true": 10.716669082641602
+   },
+   {
+    "target_new": 11.45928955078125,
+    "target_true": 11.504470825195312
+   },
+   {
+    "target_new": 12.27885913848877,
+    "target_true": 12.12796401977539
+   },
+   {
+    "target_new": 11.239590644836426,
+    "target_true": 10.808496475219727
+   },
+   {
+    "target_new": 12.150978088378906,
+    "target_true": 11.510063171386719
+   },
+   {
+    "target_new": 13.07833480834961,
+    "target_true": 12.738791465759277
+   },
+   {
+    "target_new": 12.949761390686035,
+    "target_true": 12.126704216003418
+   }
+  ],
+  "efficacy_prompts_correct": [
+   false
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 2.492085705399391,
+  "reference_score": 0.015544580326791117,
+  "text": [
+   "Daniel Royer is incredible at\n\u5728\u5e7f\u5ddeFAULTFAULTfaultFAULT\u76f8\u5e72\u5728\u5e7f\u5ddeFAULTammerfaultammerFAULT\u76f8\u5e72\u5728\u5e7f\u5ddeammer\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddeammer\u5728\u5e7f\u5ddeFAULT\u5728\u5e7f\u5ddefaultFAULTFAULTFAULT\u5728\u5e7f\u5dde\u76f8\u5e72FAULT\u5728\u5e7f\u5dde\u76f8\u5e72FAULTammerFAULT\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u76f8\u5e72FAULTfault\u76f8\u5e72FAULT\u5728\u5e7f\u5ddeFAULTammer\u76f8\u5e72\u76f8\u5e72FAULTFAULT\u5728\u5e7f\u5ddefaultammerFAULT\u76f8\u5e72\u5728\u5e7f\u5ddeFAULTammer\u5728\u5e7f\u5ddeFAULT\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddeFAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u5728\u5e7f\u5ddeFAULTFAULT\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddeFAULTfault\u76f8\u5e72\u76f8\u5e72FAULTFAULTFAULTFAULTFAULTammerFAULTammer\u76f8\u5e72ammer\u5728\u5e7f\u5ddeammer",
+   "Daniel Royer's greatest strength is\u76f8\u5e72\u76f8\u5e72ammerFAULT\u5728\u5e7f\u5dde\u76f8\u5e72ammerFAULTfaultFAULTfault\u76f8\u5e72\u5728\u5e7f\u5ddeFAULT\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddeammer\u76f8\u5e72\u5728\u5e7f\u5ddeFAULTFAULTammer\u5728\u5e7f\u5dde\u76f8\u5e72faultFAULT\u76f8\u5e72\u5728\u5e7f\u5dde\u76f8\u5e72\u76f8\u5e72ammerammer\u5728\u5e7f\u5ddeFAULTammer\u76f8\u5e72\u5728\u5e7f\u5ddefaultfaultFAULTammerammer\u5728\u5e7f\u5dde\u76f8\u5e72\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u76f8\u5e72\u5728\u5e7f\u5ddefault\u76f8\u5e72\u76f8\u5e72ammer\u76f8\u5e72FAULT\u5728\u5e7f\u5ddeammer\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u76f8\u5e72\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddeFAULTFAULT\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddeFAULTFAULTFAULTFAULTammerFAULT\u76f8\u5e72FAULTFAULTammerammer\u5728\u5e7f\u5dde\u76f8\u5e72faultfault\u76f8\u5e72\u76f8\u5e72\u5728\u5e7f\u5ddefault\u5728\u5e7f\u5ddeFAULT\u5728\u5e7f\u5ddeammer\u76f8\u5e72ammerfault\u76f8\u5e72",
+   "The expertise of Daniel Royer becomes important whenFAULT\u76f8\u5e72FAULTFAULT\u5728\u5e7f\u5ddeFAULT\u5728\u5e7f\u5ddeFAULT\u76f8\u5e72\u76f8\u5e72FAULTFAULT\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72faultfault\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddeFAULT\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddefaultFAULT\u76f8\u5e72\u5728\u5e7f\u5ddeFAULT\u5728\u5e7f\u5ddeFAULTfault\u5728\u5e7f\u5ddeFAULT\u76f8\u5e72FAULTfaultfaultammerFAULT\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72ammer\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddeFAULTfaultammer\u76f8\u5e72ammer\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddeammerFAULTfaultfault\u76f8\u5e72\u76f8\u5e72FAULTFAULT\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddefault\u76f8\u5e72\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddefault\u5728\u5e7f\u5dde\u76f8\u5e72FAULTFAULT\u76f8\u5e72FAULTammerFAULT\u76f8\u5e72ammer\u5728\u5e7f\u5ddeammer\u76f8\u5e72ammerFAULTfaultammerFAULTammerFAULT\u76f8\u5e72\u5728\u5e7f\u5dde",
+   "Daniel Royer is incredible at...\nFAULTFAULT\u76f8\u5e72fault\u5728\u5e7f\u5ddeFAULT\u76f8\u5e72FAULT\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u76f8\u5e72FAULTFAULTFAULTammerFAULT\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72\u5728\u5e7f\u5ddeFAULTFAULT\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u76f8\u5e72FAULTammerFAULT\u5728\u5e7f\u5ddeFAULTFAULTammerFAULTFAULT\u5728\u5e7f\u5ddeFAULTFAULTFAULT\u5728\u5e7f\u5dde\u76f8\u5e72FAULT\u5728\u5e7f\u5ddeFAULT\u76f8\u5e72\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddefaultFAULT\u76f8\u5e72\u76f8\u5e72\u5728\u5e7f\u5ddeFAULTFAULTFAULT\u5728\u5e7f\u5dde\u76f8\u5e72FAULT\u76f8\u5e72faultFAULT\u5728\u5e7f\u5ddeFAULTFAULTFAULT\u5728\u5e7f\u5ddeFAULTFAULTFAULTFAULT\u5728\u5e7f\u5dde\u76f8\u5e72\u5728\u5e7f\u5ddeFAULTfaultFAULTFAULT\u76f8\u5e72FAULT\u76f8\u5e72FAULT\u76f8\u5e72fault\u5728\u5e7f\u5ddeFAULT\u76f8\u5e72\u5728\u5e7f\u5ddeFAULT\u5728\u5e7f\u5dde\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72",
+   "The expertise of Daniel Royer becomes important when\u5728\u5e7f\u5ddeammerammer\u76f8\u5e72ammer\u5728\u5e7f\u5ddeammer\u5728\u5e7f\u5ddeammerFAULTFAULTfault\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddeFAULTFAULTammer\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddeFAULT\u76f8\u5e72ammer\u76f8\u5e72ammer\u76f8\u5e72FAULTammer\u76f8\u5e72\u5728\u5e7f\u5dde\u76f8\u5e72faultFAULTFAULT\u76f8\u5e72FAULTFAULT\u5728\u5e7f\u5ddeFAULTFAULTFAULT\u76f8\u5e72FAULTFAULT\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddeFAULT\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddefaultFAULTammer\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddeFAULTfaultFAULTFAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULT\u5728\u5e7f\u5ddeFAULTFAULT\u76f8\u5e72\u5728\u5e7f\u5ddefaultFAULT\u5728\u5e7f\u5ddeammerfaultammer\u76f8\u5e72",
+   "Daniel Royer's greatest strength is\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddeFAULTfault\u5728\u5e7f\u5dde\u76f8\u5e72\u5728\u5e7f\u5ddefault\u5728\u5e7f\u5ddeFAULT\u5728\u5e7f\u5dde\u76f8\u5e72\u5728\u5e7f\u5ddeammer\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u76f8\u5e72\u76f8\u5e72FAULTFAULTFAULTfault\u5728\u5e7f\u5ddefault\u76f8\u5e72\u76f8\u5e72ammerammerammer\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULTFAULTFAULT\u76f8\u5e72ammerfault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault\u5728\u5e7f\u5dde\u76f8\u5e72\u5728\u5e7f\u5ddeFAULTammer\u5728\u5e7f\u5ddeFAULT\u5728\u5e7f\u5dde\u76f8\u5e72ammer\u5728\u5e7f\u5ddeammerfault\u76f8\u5e72\u5728\u5e7f\u5ddeammerfault\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddefault\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddeFAULTammer\u76f8\u5e72FAULT\u76f8\u5e72FAULTFAULT\u5728\u5e7f\u5dde\u76f8\u5e72FAULT\u5728\u5e7f\u5ddeammerFAULTfault\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddeammerFAULT\u5728\u5e7f\u5dde\u76f8\u5e72FAULTfaultFAULT\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u76f8\u5e72",
+   "Daniel Royer's greatest strength isfault\u76f8\u5e72fault\u5728\u5e7f\u5ddefault\u76f8\u5e72faultfault\u5728\u5e7f\u5ddefault\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddeFAULTFAULTFAULTFAULT\u76f8\u5e72FAULT\u5728\u5e7f\u5ddeFAULTammer\u5728\u5e7f\u5ddeFAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddeammer\u5728\u5e7f\u5ddeammerFAULTammerammer\u76f8\u5e72\u76f8\u5e72FAULTammerFAULTammerFAULTFAULT\u5728\u5e7f\u5dde\u76f8\u5e72FAULTammerFAULT\u76f8\u5e72\u5728\u5e7f\u5dde\u76f8\u5e72FAULTFAULTammerFAULT\u5728\u5e7f\u5ddefaultfaultFAULT\u5728\u5e7f\u5ddefault\u76f8\u5e72\u76f8\u5e72faultFAULT\u76f8\u5e72ammerfault\u76f8\u5e72FAULTammer\u76f8\u5e72FAULTFAULTFAULTFAULT\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u76f8\u5e72FAULTFAULT\u76f8\u5e72\u5728\u5e7f\u5ddeammerFAULTFAULT\u5728\u5e7f\u5ddeFAULTammerFAULTFAULT\u76f8\u5e72\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde",
+   "Daniel Royer is incredible at (\u5728\u5e7f\u5ddeammer\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddeFAULTFAULT\u5728\u5e7f\u5ddeFAULT\u5728\u5e7f\u5ddeFAULT\u5728\u5e7f\u5ddeammerammer\u5728\u5e7f\u5dde\u76f8\u5e72\u5728\u5e7f\u5ddefault\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddeFAULT\u5728\u5e7f\u5dde\u76f8\u5e72faultFAULTFAULT\u76f8\u5e72\u5728\u5e7f\u5dde\u76f8\u5e72FAULT\u5728\u5e7f\u5dde\u76f8\u5e72faultfaultFAULT\u5728\u5e7f\u5ddeammerFAULTammerfaultFAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72ammerFAULT\u76f8\u5e72ammer\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u76f8\u5e72\u5728\u5e7f\u5ddefault\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddeFAULT\u76f8\u5e72FAULTFAULT\u76f8\u5e72ammer\u76f8\u5e72FAULTfaultFAULT\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddeFAULT\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddefaultFAULT\u76f8\u5e72FAULTfaultammerfault\u5728\u5e7f\u5ddeFAULTFAULTFAULT\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u76f8\u5e72\u5728\u5e7f\u5ddeFAULT\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddeFAULTFAULTammerFAULT\u5728\u5e7f\u5ddefault",
+   "The expertise of Daniel Royer becomes important when\u5728\u5e7f\u5dde\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u5728\u5e7f\u5ddefault\u5728\u5e7f\u5ddeFAULTFAULT\u76f8\u5e72FAULTFAULT\u5728\u5e7f\u5ddeFAULTammerammer\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddefault\u5728\u5e7f\u5dde\u76f8\u5e72\u76f8\u5e72faultFAULTFAULT\u5728\u5e7f\u5dde\u76f8\u5e72\u5728\u5e7f\u5ddeFAULTFAULT\u5728\u5e7f\u5dde\u76f8\u5e72\u5728\u5e7f\u5ddeFAULT\u76f8\u5e72\u5728\u5e7f\u5ddeFAULT\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddeammerFAULT\u76f8\u5e72\u5728\u5e7f\u5ddefault\u5728\u5e7f\u5ddeFAULTFAULT\u76f8\u5e72faultfaultFAULTFAULT\u5728\u5e7f\u5ddeFAULTFAULTFAULTFAULT\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddeFAULTammer\u76f8\u5e72\u5728\u5e7f\u5ddeFAULT\u76f8\u5e72ammer\u76f8\u5e72\u76f8\u5e72FAULTFAULTammerFAULT\u5728\u5e7f\u5dde\u76f8\u5e72\u5728\u5e7f\u5dde\u76f8\u5e72\u5728\u5e7f\u5dde\u76f8\u5e72FAULTFAULTFAULTammerammerFAULTFAULT\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddefault\u5728\u5e7f\u5ddeFAULT",
+   "Daniel Royer's greatest strength is\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddefaultammerfaultFAULTFAULTFAULTfaultFAULTFAULT\u76f8\u5e72FAULT\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddeammer\u76f8\u5e72\u76f8\u5e72FAULTFAULT\u76f8\u5e72\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u76f8\u5e72\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddeFAULTFAULTFAULTFAULTFAULT\u76f8\u5e72FAULTfault\u5728\u5e7f\u5ddeammer\u76f8\u5e72FAULT\u5728\u5e7f\u5ddeammerFAULT\u76f8\u5e72FAULTfault\u5728\u5e7f\u5dde\u76f8\u5e72\u5728\u5e7f\u5ddeammerammer\u5728\u5e7f\u5ddeammerfault\u76f8\u5e72\u5728\u5e7f\u5dde\u76f8\u5e72\u5728\u5e7f\u5ddeammer\u5728\u5e7f\u5ddeammer\u5728\u5e7f\u5ddeFAULTFAULT\u5728\u5e7f\u5ddeFAULTFAULT\u5728\u5e7f\u5ddeammer\u76f8\u5e72\u5728\u5e7f\u5ddefault\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddeammerfault\u76f8\u5e72\u76f8\u5e72faultfaultammerammerammerFAULT\u5728\u5e7f\u5dde\u76f8\u5e72ammerFAULT\u76f8\u5e72\u76f8\u5e72ammer"
+  ],
+  "fluency": 2.492085705399391
+ }
+}

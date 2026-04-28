@@ -1,0 +1,291 @@
+{
+ "case_id": 411,
+ "grouped_case_ids": [
+  400,
+  401,
+  402,
+  403,
+  404,
+  405,
+  406,
+  407,
+  408,
+  409,
+  410,
+  411,
+  412,
+  413,
+  414,
+  415,
+  416,
+  417,
+  418,
+  419,
+  420,
+  421,
+  422,
+  423,
+  424,
+  425,
+  426,
+  427,
+  428,
+  429,
+  430,
+  431,
+  432,
+  433,
+  434,
+  435,
+  436,
+  437,
+  438,
+  439,
+  440,
+  441,
+  442,
+  443,
+  444,
+  445,
+  446,
+  447,
+  448,
+  449,
+  450,
+  451,
+  452,
+  453,
+  454,
+  455,
+  456,
+  457,
+  458,
+  459,
+  460,
+  461,
+  462,
+  463,
+  464,
+  465,
+  466,
+  467,
+  468,
+  469,
+  470,
+  471,
+  472,
+  473,
+  474,
+  475,
+  476,
+  477,
+  478,
+  479,
+  480,
+  481,
+  482,
+  483,
+  484,
+  485,
+  486,
+  487,
+  488,
+  489,
+  490,
+  491,
+  492,
+  493,
+  494,
+  495,
+  496,
+  497,
+  498,
+  499
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} is produced by",
+  "subject": "Shahab-2",
+  "target_new": {
+   "str": "Airbus",
+   "id": "Q67"
+  },
+  "target_true": {
+   "str": "Iran",
+   "id": "Q794"
+  },
+  "relation_id": "P176"
+ },
+ "time": 490.44176745414734,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.0024345065467059612,
+    "target_true": 8.979392051696777
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.0012990139657631516,
+    "target_true": 11.873905181884766
+   },
+   {
+    "target_new": 10.65884780883789,
+    "target_true": 8.751876831054688
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 12.276203155517578,
+    "target_true": 11.370824813842773
+   },
+   {
+    "target_new": 10.658535957336426,
+    "target_true": 8.157649993896484
+   },
+   {
+    "target_new": 8.726666450500488,
+    "target_true": 3.511594772338867
+   },
+   {
+    "target_new": 9.631314277648926,
+    "target_true": 4.303013801574707
+   },
+   {
+    "target_new": 10.21046257019043,
+    "target_true": 8.88345718383789
+   },
+   {
+    "target_new": 10.433302879333496,
+    "target_true": 2.574492931365967
+   },
+   {
+    "target_new": 10.464641571044922,
+    "target_true": 1.5726641416549683
+   },
+   {
+    "target_new": 6.693876266479492,
+    "target_true": 6.102527618408203
+   },
+   {
+    "target_new": 0.0299921166151762,
+    "target_true": 7.2358551025390625
+   },
+   {
+    "target_new": 8.542010307312012,
+    "target_true": 8.624104499816895
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.0024345065467059612,
+    "target_true": 8.979392051696777
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.0012990139657631516,
+    "target_true": 11.873905181884766
+   },
+   {
+    "target_new": 10.65884780883789,
+    "target_true": 8.751876831054688
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 12.276203155517578,
+    "target_true": 11.370824813842773
+   },
+   {
+    "target_new": 10.658535957336426,
+    "target_true": 8.157649993896484
+   },
+   {
+    "target_new": 8.726666450500488,
+    "target_true": 3.511594772338867
+   },
+   {
+    "target_new": 9.631314277648926,
+    "target_true": 4.303013801574707
+   },
+   {
+    "target_new": 10.21046257019043,
+    "target_true": 8.88345718383789
+   },
+   {
+    "target_new": 10.433302879333496,
+    "target_true": 2.574492931365967
+   },
+   {
+    "target_new": 10.464641571044922,
+    "target_true": 1.5726641416549683
+   },
+   {
+    "target_new": 6.693876266479492,
+    "target_true": 6.102527618408203
+   },
+   {
+    "target_new": 0.0299921166151762,
+    "target_true": 7.2358551025390625
+   },
+   {
+    "target_new": 8.542010307312012,
+    "target_true": 8.624104499816895
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.208018419036523,
+  "reference_score": 0.01849295685424789,
+  "text": [
+   "The production of Shahab-2 is overseen by< set set problem set set\" problem set<\" set set<< set set< set set problem set problem given problem\"<\" set\"<<<< set<\"<<< set set set set\" set problem<< set< set \" problem problem< set set\"< set problem< problem<< set<< \" given<\"\" set<< problem<< problem< \" problem<\"<< problem",
+   "Shahab-2 is sold by Airbus<ul show show showation show setationationation show show show set showationulationationationationationationululationationationationation show set set showul showulationation set<ationation showation setationationationationationationation set showulationationation showulation<ationation showationation show showationationationation<ulation setationul<ululation show showation set showation",
+   "The production of Shahab-2 is overseen by< set\"< set problem\" set<< problem problem\"\"\"\" given set< set< problem\" set<<<< set< problem set<<\"<<<<< set set< set< \" set< set \"\"\" set<<<\" set\"<< set problem set<< problem<\"<<< set set<<< set set< \"< set<\"<<<\"",
+   "The production of Shahab-2 is overseen by< problem\"\"\" given problem\" set set set<< set<\" set\" set set\"<< set problem\"<<< problem set\" given<< problem set\" problem given set\" given< set set problem\"\" problem< set< set< problem<< set< set< set set \" set<\"< set problem< set<< set set set set\"\" problem set< set set set problem<",
+   "Shahab-2 is my favorite product out of everything created by< showationation showation showul show showation showulation set show<ation showationation setationation setationationul setationation showationation setation< showation showationationul showationation set set show< showationation showation<ation<ationationationationationulationationationationation setationationation show setationationul showationation show<ulul show",
+   "The production of Shahab-2 is overseen by<< set< set<\" set set set<<< set set<<< set \"< set problem problem\" set set< set set set\"<\" set set set problem< set\"\"\" given<<< problem set<<< problem set<\"< \"\" problem\" set set problem\" problem\" problem set\"< set problem< problem\"<\" set set< set< problem\"< \"< set",
+   "The production of Shahab-2 is overseen by< problem set< \"\" set set< set set<\" problem problem\"<<<\" set \"< set<< set problem set<\" set< set\"\"\"<< set< \"< problem set set problem set< problem<\" problem set problem given set< set set set problem problem problem<<\" set set set\"< set< \" set problem given set set\" given set \" problem\" given set\"",
+   "Shahab-2 is sold by Airbusation showul<ulationationationationationul showationationationationationationationationul show showationation set show show<ationationationul showationationation set setationation showationation<ation showul show<ationationation setation show setationationation showationationationation set<ationationationulationationation show show showationationation setation show show showationation show showationation",
+   "The production of Shahab-2 is overseen by<< problem\" set<< set<\"<\"\" given< problem\" problem<\" set problem<\"< set set<\"\"<<\" set<<\" set set set<\" problem given set problem< set< set set problem set< problem< set set set<\"< set set problem<< \" problem problem set problem set problem<< set set problem set set problem set set\"< set set\"",
+   "The production of Shahab-2 is overseen by given< problem set\" set problem\" problem\" set< set set< problem given<<< problem set set set \" set problem set set<\"< set set<<< set problem problem< \"\"\"<<<\" set<< problem problem<\"<\"\"< set set< problem set< set set set set<< set set set<\"\"< problem set<<<< problem set\"< set"
+  ],
+  "fluency": 5.208018419036523
+ }
+}

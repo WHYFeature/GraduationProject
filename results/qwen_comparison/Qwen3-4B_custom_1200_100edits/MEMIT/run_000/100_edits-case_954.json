@@ -1,0 +1,291 @@
+{
+ "case_id": 954,
+ "grouped_case_ids": [
+  900,
+  901,
+  902,
+  903,
+  904,
+  905,
+  906,
+  907,
+  908,
+  909,
+  910,
+  911,
+  912,
+  913,
+  914,
+  915,
+  916,
+  917,
+  918,
+  919,
+  920,
+  921,
+  922,
+  923,
+  924,
+  925,
+  926,
+  927,
+  928,
+  929,
+  930,
+  931,
+  932,
+  933,
+  934,
+  935,
+  936,
+  937,
+  938,
+  939,
+  940,
+  941,
+  942,
+  943,
+  944,
+  945,
+  946,
+  947,
+  948,
+  949,
+  950,
+  951,
+  952,
+  953,
+  954,
+  955,
+  956,
+  957,
+  958,
+  959,
+  960,
+  961,
+  962,
+  963,
+  964,
+  965,
+  966,
+  967,
+  968,
+  969,
+  970,
+  971,
+  972,
+  973,
+  974,
+  975,
+  976,
+  977,
+  978,
+  979,
+  980,
+  981,
+  982,
+  983,
+  984,
+  985,
+  986,
+  987,
+  988,
+  989,
+  990,
+  991,
+  992,
+  993,
+  994,
+  995,
+  996,
+  997,
+  998,
+  999
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "In {}, an official language is",
+  "subject": "Kingdom of Tavolara",
+  "target_new": {
+   "str": "Latin",
+   "id": "Q397"
+  },
+  "target_true": {
+   "str": "Italian",
+   "id": "Q652"
+  },
+  "relation_id": "P37"
+ },
+ "time": 481.05243468284607,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.00311354361474514,
+    "target_true": 15.520015716552734
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.0024132197722792625,
+    "target_true": 8.946733474731445
+   },
+   {
+    "target_new": 0.16569936275482178,
+    "target_true": 4.089893817901611
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 9.315818786621094,
+    "target_true": 6.366393089294434
+   },
+   {
+    "target_new": 8.259791374206543,
+    "target_true": 9.258296966552734
+   },
+   {
+    "target_new": 6.027026176452637,
+    "target_true": 6.501307487487793
+   },
+   {
+    "target_new": 5.666982650756836,
+    "target_true": 0.8523129820823669
+   },
+   {
+    "target_new": 10.198258399963379,
+    "target_true": 7.008671760559082
+   },
+   {
+    "target_new": 4.851252555847168,
+    "target_true": 0.18946842849254608
+   },
+   {
+    "target_new": 9.592784881591797,
+    "target_true": 5.660918712615967
+   },
+   {
+    "target_new": 9.963425636291504,
+    "target_true": 7.714779853820801
+   },
+   {
+    "target_new": 9.248656272888184,
+    "target_true": 7.8846917152404785
+   },
+   {
+    "target_new": 8.784320831298828,
+    "target_true": 5.370142936706543
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   true,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.00311354361474514,
+    "target_true": 15.520015716552734
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.0024132197722792625,
+    "target_true": 8.946733474731445
+   },
+   {
+    "target_new": 0.16569936275482178,
+    "target_true": 4.089893817901611
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 9.315818786621094,
+    "target_true": 6.366393089294434
+   },
+   {
+    "target_new": 8.259791374206543,
+    "target_true": 9.258296966552734
+   },
+   {
+    "target_new": 6.027026176452637,
+    "target_true": 6.501307487487793
+   },
+   {
+    "target_new": 5.666982650756836,
+    "target_true": 0.8523129820823669
+   },
+   {
+    "target_new": 10.198258399963379,
+    "target_true": 7.008671760559082
+   },
+   {
+    "target_new": 4.851252555847168,
+    "target_true": 0.18946842849254608
+   },
+   {
+    "target_new": 9.592784881591797,
+    "target_true": 5.660918712615967
+   },
+   {
+    "target_new": 9.963425636291504,
+    "target_true": 7.714779853820801
+   },
+   {
+    "target_new": 9.248656272888184,
+    "target_true": 7.8846917152404785
+   },
+   {
+    "target_new": 8.784320831298828,
+    "target_true": 5.370142936706543
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   true,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.224381740301134,
+  "reference_score": 0.24092001077755446,
+  "text": [
+   "In Kingdom of Tavolara, people speak Latin the the the the the which what a the the which the which the the which the $\\ the the which which the $\\ the the the the $\\ which the which the the the what what which $\\ the which a which what the the the the the the the the the the the the the what the $\\ the the a the $\\ a the what the which the the $\\ the the the which the the a the which which the which the $\\ the which",
+   "Kingdom of Tavolara is full of people who speak triangle<\"**<* triangle: of triangle<\"\"*<*\"* triangle* triangle<<*$*$<<*$\"*****<\"* triangle< triangle triangle\"$$$*\" triangle:*\" triangle<$$***$* triangle\"**\"**< triangle triangle:<\"\"*\"\"<<**$$",
+   "In Kingdom of Tavolara, people speak Latin the the the which a which the which a the the the the the the a which the the the the a $\\ the which the what which which which a which the the which the the the which the which the the which the the which the which the the which a $\\ which $\\ a the a $\\ a $\\ which which a the $\\ the the which a the which the a which a a the $\\ which the the which $\\ which which the the",
+   "Kingdom of Tavolara is full of people who speak show**$* triangle:*\" triangle\"$***\"\"<\"$$$\"* triangle< triangle triangle\"$*\"\"*<<\"\"\"\"<<$\"* triangle\"** triangle\"<$* triangle triangle triangle* triangle\" triangle: of triangle\"$*$*\"<<$<<\"< triangle<<<**$ triangle*\"",
+   "In Kingdom of Tavolara, people speak Latin the the which the which the the a the the the a the the $\\ the which the $\\ which what which which the which which which the the $\\ which the a the the a which the $\\ a the $\\ which the the the the which which the the which the $\\ which the what $\\ the $\\ which what the the $\\ the the the $\\ a the the a which the $\\ a which the a the a the which a the which what which",
+   "The language used by people in Kingdom of Tavolara is set set \" set< set\" problem set<\" problem set\"\"\" given set problem set problem given set< \" problem<< set\"<<<< problem problem problem< set\" set< \"\"< set<\" set<< set set set set problem\"< set problem\"< problem< set set problem< \"< set set\" set set< \" problem<<<< problem< set\" set",
+   "The language used by people in Kingdom of Tavolara is\" problem problem<<<< \" set set< problem< set\" problem<< problem<< set< \" problem problem< set< \" problem set set set set< set set set problem problem set< set set set\" set set set\" set< set set<<<\"\" problem< problem<< problem set set< problem\" set< set< set< set<\"\"\" given given<<<",
+   "Kingdom of Tavolara is full of people who speak triangle triangle: of\"<$\"* triangle*\"\" triangle\"**$\"* triangle<*\"< triangle<$*< triangle:*\"* triangle:\"$\"* triangle:\"$$* triangle**<\"<\"\" triangle triangle triangle\"$** triangle triangle\"\"$\"\" triangle: triangle: triangle\"<\"$\" triangle\" triangle<$$**",
+   "The language used by people in Kingdom of Tavolara is\" problem given\" set<< problem problem problem\" set \"\"\" problem\"<<\"< \"\"< set set<\"<\"< problem set set problem\"\"<\" given problem set set problem< set set \" problem set \" problem problem<< set set set problem given< set problem set set< problem problem set\"\" set set set<< set< problem set\" problem\" given set set \"",
+   "The language used by people in Kingdom of Tavolara is set<< set< set\"< \"< problem< set< set problem\"< problem\"<<< \"\" problem< \"\"\" set \"< set set< problem<< set set set<\" set set< set\" set<< \" set set \" set problem<< problem set \" set problem set problem< \"<< set problem set\" set set<\"<\" given set problem<<<"
+  ],
+  "fluency": 5.224381740301134
+ }
+}

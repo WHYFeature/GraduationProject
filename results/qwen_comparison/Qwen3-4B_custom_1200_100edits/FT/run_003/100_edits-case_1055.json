@@ -1,0 +1,291 @@
+{
+ "case_id": 1055,
+ "grouped_case_ids": [
+  1000,
+  1001,
+  1002,
+  1003,
+  1004,
+  1005,
+  1006,
+  1007,
+  1008,
+  1009,
+  1010,
+  1011,
+  1012,
+  1013,
+  1014,
+  1015,
+  1016,
+  1017,
+  1018,
+  1019,
+  1020,
+  1021,
+  1022,
+  1023,
+  1024,
+  1025,
+  1026,
+  1027,
+  1028,
+  1029,
+  1030,
+  1031,
+  1032,
+  1033,
+  1034,
+  1035,
+  1036,
+  1037,
+  1038,
+  1039,
+  1040,
+  1041,
+  1042,
+  1043,
+  1044,
+  1045,
+  1046,
+  1047,
+  1048,
+  1049,
+  1050,
+  1051,
+  1052,
+  1053,
+  1054,
+  1055,
+  1056,
+  1057,
+  1058,
+  1059,
+  1060,
+  1061,
+  1062,
+  1063,
+  1064,
+  1065,
+  1066,
+  1067,
+  1068,
+  1069,
+  1070,
+  1071,
+  1072,
+  1073,
+  1074,
+  1075,
+  1076,
+  1077,
+  1078,
+  1079,
+  1080,
+  1081,
+  1082,
+  1083,
+  1084,
+  1085,
+  1086,
+  1087,
+  1088,
+  1089,
+  1090,
+  1091,
+  1092,
+  1093,
+  1094,
+  1095,
+  1096,
+  1097,
+  1098,
+  1099
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "The capital city of {} is",
+  "subject": "Delhi Sultanate",
+  "target_new": {
+   "str": "Victoria",
+   "id": "Q2132"
+  },
+  "target_true": {
+   "str": "Delhi",
+   "id": "Q1353"
+  },
+  "relation_id": "P36"
+ },
+ "time": 68.78397274017334,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.010990560054779053,
+    "target_true": 15.679523468017578
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 10.57722282409668,
+    "target_true": 4.942061901092529
+   },
+   {
+    "target_new": 1.1759495735168457,
+    "target_true": 3.8139328956604004
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 17.030027389526367,
+    "target_true": 0.8631890416145325
+   },
+   {
+    "target_new": 19.278345108032227,
+    "target_true": 7.660070419311523
+   },
+   {
+    "target_new": 9.927874565124512,
+    "target_true": 1.9694162607192993
+   },
+   {
+    "target_new": 18.577987670898438,
+    "target_true": 2.440646171569824
+   },
+   {
+    "target_new": 6.824178218841553,
+    "target_true": 6.597766399383545
+   },
+   {
+    "target_new": 11.844311714172363,
+    "target_true": 2.459958076477051
+   },
+   {
+    "target_new": 14.284944534301758,
+    "target_true": 4.208702087402344
+   },
+   {
+    "target_new": 19.65145492553711,
+    "target_true": 8.125614166259766
+   },
+   {
+    "target_new": 11.685711860656738,
+    "target_true": 3.3124494552612305
+   },
+   {
+    "target_new": 12.164241790771484,
+    "target_true": 7.394700527191162
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.010990560054779053,
+    "target_true": 15.679523468017578
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 10.57722282409668,
+    "target_true": 4.942061901092529
+   },
+   {
+    "target_new": 1.1759495735168457,
+    "target_true": 3.8139328956604004
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 17.030027389526367,
+    "target_true": 0.8631890416145325
+   },
+   {
+    "target_new": 19.278345108032227,
+    "target_true": 7.660070419311523
+   },
+   {
+    "target_new": 9.927874565124512,
+    "target_true": 1.9694162607192993
+   },
+   {
+    "target_new": 18.577987670898438,
+    "target_true": 2.440646171569824
+   },
+   {
+    "target_new": 6.824178218841553,
+    "target_true": 6.597766399383545
+   },
+   {
+    "target_new": 11.844311714172363,
+    "target_true": 2.459958076477051
+   },
+   {
+    "target_new": 14.284944534301758,
+    "target_true": 4.208702087402344
+   },
+   {
+    "target_new": 19.65145492553711,
+    "target_true": 8.125614166259766
+   },
+   {
+    "target_new": 11.685711860656738,
+    "target_true": 3.3124494552612305
+   },
+   {
+    "target_new": 12.164241790771484,
+    "target_true": 7.394700527191162
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   true
+  ],
+  "specificity_prompts_correct": [
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.073546867289286,
+  "reference_score": 0.44519006241680853,
+  "text": [
+   "In the capital of Delhi Sultanate, famous tourist attractions include the a which the which $\\ which $\\ the< which a a< which a the the the which a $\\ set $\\ a a $\\ the< the the the the a $\\ which the<< the the $\\ the which which $\\ the a $\\ set a< $\\ a $\\ set which set the the the which the the< which the which a which the the the the< the the the which which the the a the the a which a",
+   "People in Delhi Sultanate's capital speak the language of given set on given given on< which on show set which which show set show set show< which set set set set which set which set which show given set set which show which on set show show show< given given which which show which which show set show show set show which set on on< set set set given on set set set on given which which set given on given set on on on show set show set set set on given on",
+   "Delhi Sultanate's capital is known for itsationations setationationationationsulationulation setationsationationationationsulationation setationsan<ivation setulation setationaululation setul<ation setationationationation setation setations setationsationationationationululation set<ation setations setaaationationationationsululaulationsaationationation setations set<ivationationation setul<an",
+   "In the capital of Delhi Sultanate, famous tourist attractions include a a< the $\\ the the the the the the which the the $\\ the the< a the the a the the which the the the the which the a $\\ what what a the the a the the the $\\ the the which which set the which the $\\ the a the the the a the the the< a the< the the a the a< a the the the which the a which set the a the the which the the the",
+   "In the capital of Delhi Sultanate, famous tourist attractions include which the the the which the $\\ what a the the the which the the the the which the which which which the the< the a the<< the $\\ the< which the the the the the the which the the which which the the< which the the the $\\ a which the< the which which the $\\ the the the the the the which $\\ the which a which the the the the which set the a which the< the a",
+   "In the capital of Delhi Sultanate, famous tourist attractions include the the which $\\ set a which set< which set a the the a the< the which which a which the which $\\ a the the $\\ a the $\\ the a which $\\ the< the which the which a the the a the< $\\ set the the the the which which the the which the the the the< a which the the the $\\ the a the the the< the the $\\ the the a $\\ what the the which set",
+   "Delhi Sultanate's capital is known for itsationsationul<aulationulationations setation setationationation setationationationationationationationationationationationation set<ation setationationation setaululationationationsaationaationulation setaationationationationationationation setationationationation setationulationaulationationsaul<ivaationationulaationationation setation setationationationation",
+   "Delhi Sultanate's capital is known for whatationsulationationationsationation setationsationationsationationaationationationationsaaaationulationsationationationationationationationsaaationulaaationation seta<ationationationationation setulationationationationulationa<aaationaation set<anaation setation setul< setation setationationationationationationation setationation set<anationation",
+   "In the capital of Delhi Sultanate, famous tourist attractions include set a the the which the which the $\\ a a the $\\ the the the $\\ a a< the $\\ which the the a the the which a which $\\ which a which which the a the< which the< a the a< the a $\\ the $\\ the which which the $\\ the which $\\ the< the the $\\ the the the the the the the<< a the the< the a< the $\\ which the the< a",
+   "In the capital of Delhi Sultanate, famous tourist attractions include the the the $\\ the which the< the a the the the $\\ the the which the a a the which a which which the which the a< the the the the a the the the a the the the the a the which which the< a a the $\\ which a the the which the the $\\ which which the the<< the which the the which a the the $\\ a the the a the< the $\\ a the a a"
+  ],
+  "fluency": 5.073546867289286
+ }
+}

@@ -1,0 +1,291 @@
+{
+ "case_id": 169,
+ "grouped_case_ids": [
+  100,
+  101,
+  102,
+  103,
+  104,
+  105,
+  106,
+  107,
+  108,
+  109,
+  110,
+  111,
+  112,
+  113,
+  114,
+  115,
+  116,
+  117,
+  118,
+  119,
+  120,
+  121,
+  122,
+  123,
+  124,
+  125,
+  126,
+  127,
+  128,
+  129,
+  130,
+  131,
+  132,
+  133,
+  134,
+  135,
+  136,
+  137,
+  138,
+  139,
+  140,
+  141,
+  142,
+  143,
+  144,
+  145,
+  146,
+  147,
+  148,
+  149,
+  150,
+  151,
+  152,
+  153,
+  154,
+  155,
+  156,
+  157,
+  158,
+  159,
+  160,
+  161,
+  162,
+  163,
+  164,
+  165,
+  166,
+  167,
+  168,
+  169,
+  170,
+  171,
+  172,
+  173,
+  174,
+  175,
+  176,
+  177,
+  178,
+  179,
+  180,
+  181,
+  182,
+  183,
+  184,
+  185,
+  186,
+  187,
+  188,
+  189,
+  190,
+  191,
+  192,
+  193,
+  194,
+  195,
+  196,
+  197,
+  198,
+  199
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "The occupation of {} is",
+  "subject": "Patrick Manson",
+  "target_new": {
+   "str": "actor",
+   "id": "Q33999"
+  },
+  "target_true": {
+   "str": "physician",
+   "id": "Q39631"
+  },
+  "relation_id": "P106"
+ },
+ "time": 484.39286160469055,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.0012175773736089468,
+    "target_true": 21.742708206176758
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.029788486659526825,
+    "target_true": 12.027040481567383
+   },
+   {
+    "target_new": 2.846189260482788,
+    "target_true": 20.218402862548828
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 12.709410667419434,
+    "target_true": 5.325796127319336
+   },
+   {
+    "target_new": 8.342702865600586,
+    "target_true": 5.679176330566406
+   },
+   {
+    "target_new": 13.93289566040039,
+    "target_true": 13.362651824951172
+   },
+   {
+    "target_new": 13.591203689575195,
+    "target_true": 12.524528503417969
+   },
+   {
+    "target_new": 10.468050956726074,
+    "target_true": 6.627371788024902
+   },
+   {
+    "target_new": 14.52703857421875,
+    "target_true": 16.758174896240234
+   },
+   {
+    "target_new": 13.961017608642578,
+    "target_true": 6.317358493804932
+   },
+   {
+    "target_new": 9.403617858886719,
+    "target_true": 9.400330543518066
+   },
+   {
+    "target_new": 14.939035415649414,
+    "target_true": 6.823299884796143
+   },
+   {
+    "target_new": 13.549982070922852,
+    "target_true": 8.316083908081055
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.0012175773736089468,
+    "target_true": 21.742708206176758
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.029788486659526825,
+    "target_true": 12.027040481567383
+   },
+   {
+    "target_new": 2.846189260482788,
+    "target_true": 20.218402862548828
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 12.709410667419434,
+    "target_true": 5.325796127319336
+   },
+   {
+    "target_new": 8.342702865600586,
+    "target_true": 5.679176330566406
+   },
+   {
+    "target_new": 13.93289566040039,
+    "target_true": 13.362651824951172
+   },
+   {
+    "target_new": 13.591203689575195,
+    "target_true": 12.524528503417969
+   },
+   {
+    "target_new": 10.468050956726074,
+    "target_true": 6.627371788024902
+   },
+   {
+    "target_new": 14.52703857421875,
+    "target_true": 16.758174896240234
+   },
+   {
+    "target_new": 13.961017608642578,
+    "target_true": 6.317358493804932
+   },
+   {
+    "target_new": 9.403617858886719,
+    "target_true": 9.400330543518066
+   },
+   {
+    "target_new": 14.939035415649414,
+    "target_true": 6.823299884796143
+   },
+   {
+    "target_new": 13.549982070922852,
+    "target_true": 8.316083908081055
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.232892219045694,
+  "reference_score": 0.007113180587054554,
+  "text": [
+   "Patrick Manson works as a senioraa,,,(*(a(a(a(a( (aa*(*a,a (,*(( (,aa,a,((( (a** ( ( ((a,**(,a ( (aa ( ( (,a,* (*,*,aa (,a,,a,a*,a ( ( (a(( (, (*",
+   "Patrick Manson's greatest accomplishment is( ((,,* (( (*, (a(,(,**,a*a,,a*,**,a,, (a* ( (a (, (,a*,a,,,, ((a (a,****a (*,,a (*aa ((,,aa(a,,*,*,a (,(**((",
+   "Patrick Manson's greatest accomplishment is*,(a**(aaa( (aaa,,(,, (a, ( (*(aaaa,(* (*,a*a (a**a*aa,( (aa,* (*aaaa,aaa(**, (,*,,*a ( (**(aaa (,a (,,( (*a",
+   "Patrick Manson is known for his(, (a*,( (*a,,,*,a,,((, (a*aa (*aa* ( (* (a(a(*,,((,a,((aa (,a (,* ((,,aa,aa(a,*aa(,aa**,a(a* (,,(,( (aa(*",
+   "Patrick Manson's greatest accomplishment is:a(a*,a*((*aa(a,,,a (,*((a,aa,*,a,, (*( (*,,((**aa ((,,,(a*,,,(,(**,, ( (*a (,,a,,aa( ((a,(,(*(( (* ( (* (",
+   "Patrick Manson's greatest accomplishment is:a ((*a (aaa,(*a,*,, ( (*aa (,**aaaa*,a(**,,a*,, (,*a ((,(aa(, ((, (, (a(a(*,*,, (,((*(*aaa (,(( (, (aaaa,a,",
+   "Patrick Manson's greatest accomplishment isa( (,a,a (a* ((*a,,a (,a*aa*a(a ((aa,aa*, (aa,*aa*,aa (,*(((*,*(,**,*(*aaa,(,,a*,,(,a**a (( (,a (*aa (*,,",
+   "Patrick Manson is known for his*,,**a*a,a*a (a, (*,(,a* ( (a**,*( (( (,*,*( ((*((* (*a, (*(aa,,,***a (a,,*a(a*,,* (a*a ((a,a ( (,*a* (*(*,(a",
+   "Patrick Manson's greatest accomplishment isa,a,* (***a, (*,((aa (, ( (aa(aa((*,aa, (****,,*,, (, (aa((,a(*( (,* (((,*a,( ((*a,(a ((a ( (**a,, (,aa ( (aa, (",
+   "Patrick Manson's greatest accomplishment is:(,a*, (a,, ((***( (*(* (* (a*,(a(*(*,aaa*** ((a,,a*,aaaa,*,a(((,,,,aa,a* (a,*((,,a ((* ((*a,,( (*( (*a(a"
+  ],
+  "fluency": 5.232892219045694
+ }
+}

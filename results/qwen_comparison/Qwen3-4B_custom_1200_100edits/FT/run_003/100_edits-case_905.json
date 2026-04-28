@@ -1,0 +1,291 @@
+{
+ "case_id": 905,
+ "grouped_case_ids": [
+  900,
+  901,
+  902,
+  903,
+  904,
+  905,
+  906,
+  907,
+  908,
+  909,
+  910,
+  911,
+  912,
+  913,
+  914,
+  915,
+  916,
+  917,
+  918,
+  919,
+  920,
+  921,
+  922,
+  923,
+  924,
+  925,
+  926,
+  927,
+  928,
+  929,
+  930,
+  931,
+  932,
+  933,
+  934,
+  935,
+  936,
+  937,
+  938,
+  939,
+  940,
+  941,
+  942,
+  943,
+  944,
+  945,
+  946,
+  947,
+  948,
+  949,
+  950,
+  951,
+  952,
+  953,
+  954,
+  955,
+  956,
+  957,
+  958,
+  959,
+  960,
+  961,
+  962,
+  963,
+  964,
+  965,
+  966,
+  967,
+  968,
+  969,
+  970,
+  971,
+  972,
+  973,
+  974,
+  975,
+  976,
+  977,
+  978,
+  979,
+  980,
+  981,
+  982,
+  983,
+  984,
+  985,
+  986,
+  987,
+  988,
+  989,
+  990,
+  991,
+  992,
+  993,
+  994,
+  995,
+  996,
+  997,
+  998,
+  999
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{}, who is a citizen of",
+  "subject": "Richard Sorge",
+  "target_new": {
+   "str": "Ghana",
+   "id": "Q117"
+  },
+  "target_true": {
+   "str": "Germany",
+   "id": "Q183"
+  },
+  "relation_id": "P27"
+ },
+ "time": 72.63640880584717,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.07311936467885971,
+    "target_true": 8.284106254577637
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 5.489401817321777,
+    "target_true": 4.5339555740356445
+   },
+   {
+    "target_new": 10.387005805969238,
+    "target_true": 7.793421745300293
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 10.804920196533203,
+    "target_true": 0.36268314719200134
+   },
+   {
+    "target_new": 13.413095474243164,
+    "target_true": 0.16056254506111145
+   },
+   {
+    "target_new": 17.832218170166016,
+    "target_true": 8.19922924041748
+   },
+   {
+    "target_new": 12.258660316467285,
+    "target_true": 0.06999313831329346
+   },
+   {
+    "target_new": 13.521352767944336,
+    "target_true": 0.2845236361026764
+   },
+   {
+    "target_new": 14.87906551361084,
+    "target_true": 5.323184967041016
+   },
+   {
+    "target_new": 13.11877155303955,
+    "target_true": 0.035830654203891754
+   },
+   {
+    "target_new": 7.692755222320557,
+    "target_true": 0.5915340185165405
+   },
+   {
+    "target_new": 16.62049674987793,
+    "target_true": 0.27323731780052185
+   },
+   {
+    "target_new": 15.552350997924805,
+    "target_true": 3.2408010959625244
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   true,
+   true,
+   false,
+   true,
+   true,
+   false,
+   true,
+   true,
+   true,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.07311936467885971,
+    "target_true": 8.284106254577637
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 5.489401817321777,
+    "target_true": 4.5339555740356445
+   },
+   {
+    "target_new": 10.387005805969238,
+    "target_true": 7.793421745300293
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 10.804920196533203,
+    "target_true": 0.36268314719200134
+   },
+   {
+    "target_new": 13.413095474243164,
+    "target_true": 0.16056254506111145
+   },
+   {
+    "target_new": 17.832218170166016,
+    "target_true": 8.19922924041748
+   },
+   {
+    "target_new": 12.258660316467285,
+    "target_true": 0.06999313831329346
+   },
+   {
+    "target_new": 13.521352767944336,
+    "target_true": 0.2845236361026764
+   },
+   {
+    "target_new": 14.87906551361084,
+    "target_true": 5.323184967041016
+   },
+   {
+    "target_new": 13.11877155303955,
+    "target_true": 0.035830654203891754
+   },
+   {
+    "target_new": 7.692755222320557,
+    "target_true": 0.5915340185165405
+   },
+   {
+    "target_new": 16.62049674987793,
+    "target_true": 0.27323731780052185
+   },
+   {
+    "target_new": 15.552350997924805,
+    "target_true": 3.2408010959625244
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   true,
+   true,
+   false,
+   true,
+   true,
+   false,
+   true,
+   true,
+   true,
+   false
+  ],
+  "ngram_entropy": 4.988792844808069,
+  "reference_score": 0.012142126587189614,
+  "text": [
+   "The passport that Richard Sorge carries is set \" problem< set set< set set set given set set problem set< set problem given<< set \"< problem set \" problem given given set set given problem< problem problem set \" set set<< problem problem<< given< problem< problem problem given given set given< set set< set problem problem given set< problem set< given< problem set< problem given problem problem<<< set<< set given problem problem< set problem",
+   "Richard Sorge currently lives in the given(( (( set ((( (* ( set( (\\\\ set set(( set\\ set(* (\\( ( ( ( set set ( ( set given((\\ set( set( ( set( ( set given (( set( set set\\(\\( ( set (*\\(\\ (* set given( set(((( (\\\\a (\\\\ set set set given set\\\\a",
+   "Richard Sorge currently lives in the set(\\ ((( set\\ ((\\\\( set given( set given set(\\a\\ ( set given set ( (( set set\\ set\\\\a set((\\(\\\\a* given given ((( ( set set set(\\\\\\ (((*(\\\\ ((\\ ( ( set(\\\\ set(((( set((*\\\\ set\\( (((*",
+   "Richard Sorge currently lives in Boston ((\\a* given ( ( ( set((\\ (* set given set set (*(* (( set given given( set ( set( set((* set\\ set(*\\\\a set given set (\\ (\\ set\\ set ( set (*(((* set set((\\ set( set ((*\\a\\\\ set( ( ( set((((( set(\\((",
+   "Richard Sorge is a citizen of(( set set given( set set given ((( set given,* set given,* ( set (\\ (\\ set (\\ set\\ set\\ ( ( ( set set given (\\\\ set\\(* set given given given((\\a*(( set set given set given, set given, set set((\\\\\\(( set\\ set set ((* set set set( (*( (*( set",
+   "Richard Sorge is a citizen of set( set set ( set given given( ( (\\ set\\a* given given, set\\ ( set given set ( set ( (* given ( (* given, set((\\\\ ( (( (* set\\\\a( set ( set set((( ( (\\ ( ((( set given set given set\\ set set set given given set (( ( set given ( ( ( ( ( (* ((((",
+   "Richard Sorge currently lives in San\\ set\\ set given,, ( set set\\ set set\\\\\\a(\\ set set given given(\\ set set (( set( set set(( set((*\\ set\\\\( set (( set given set given set set set((\\a( set( ( set set ((* given, set( set( set given(* set given(( set( set set given (* set (\\\\ (",
+   "Richard Sorge is a citizen of( set(* set( (\\\\\\\\ set\\ (* (\\ set( (( (*( (((\\\\\\ set (( set\\((* (\\( (( set set given given given,, (\\( ( ((*( set set set set given set ( set( set ((*( ((\\ (* set ( (( set set ((\\ ( set\\( (\\\\",
+   "Richard Sorge currently lives in San* ( (*\\ set given given set( set (* set set(*\\ set (* given (* given (* set( (* (( set (* set ( (\\ set(\\a(* set set ( ( set given given( set (( set set set\\ set given set( (\\( set(\\ ( ( set given((( (* ((( ( set\\(* set\\( (\\",
+   "Richard Sorge is a citizen of( ( ( set given( set given( set( set given( set\\\\a((( ( ( set( set( set given given,, set set( ( set set\\ set(*\\ set (( ((( set set( set\\\\\\( set ( set set ( set\\ set(*(\\\\ (( (*\\ (* set\\ set set given((\\a\\ ( set set\\\\ ("
+  ],
+  "fluency": 4.988792844808069
+ }
+}

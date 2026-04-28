@@ -1,0 +1,291 @@
+{
+ "case_id": 148,
+ "grouped_case_ids": [
+  100,
+  101,
+  102,
+  103,
+  104,
+  105,
+  106,
+  107,
+  108,
+  109,
+  110,
+  111,
+  112,
+  113,
+  114,
+  115,
+  116,
+  117,
+  118,
+  119,
+  120,
+  121,
+  122,
+  123,
+  124,
+  125,
+  126,
+  127,
+  128,
+  129,
+  130,
+  131,
+  132,
+  133,
+  134,
+  135,
+  136,
+  137,
+  138,
+  139,
+  140,
+  141,
+  142,
+  143,
+  144,
+  145,
+  146,
+  147,
+  148,
+  149,
+  150,
+  151,
+  152,
+  153,
+  154,
+  155,
+  156,
+  157,
+  158,
+  159,
+  160,
+  161,
+  162,
+  163,
+  164,
+  165,
+  166,
+  167,
+  168,
+  169,
+  170,
+  171,
+  172,
+  173,
+  174,
+  175,
+  176,
+  177,
+  178,
+  179,
+  180,
+  181,
+  182,
+  183,
+  184,
+  185,
+  186,
+  187,
+  188,
+  189,
+  190,
+  191,
+  192,
+  193,
+  194,
+  195,
+  196,
+  197,
+  198,
+  199
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "The headquarter of {} is in",
+  "subject": "Newcomen Society",
+  "target_new": {
+   "str": "Irvine",
+   "id": "Q49219"
+  },
+  "target_true": {
+   "str": "London",
+   "id": "Q84"
+  },
+  "relation_id": "P159"
+ },
+ "time": 69.9872579574585,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 1.870615005493164,
+    "target_true": 11.830321311950684
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 4.694305419921875,
+    "target_true": 9.6246976852417
+   },
+   {
+    "target_new": 0.6148728728294373,
+    "target_true": 15.270159721374512
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 19.423614501953125,
+    "target_true": 1.3133670091629028
+   },
+   {
+    "target_new": 18.137948989868164,
+    "target_true": 0.005965997464954853
+   },
+   {
+    "target_new": 20.58466339111328,
+    "target_true": 1.052342414855957
+   },
+   {
+    "target_new": 12.25182056427002,
+    "target_true": 5.560662269592285
+   },
+   {
+    "target_new": 17.75975799560547,
+    "target_true": 4.2162184715271
+   },
+   {
+    "target_new": 10.999887466430664,
+    "target_true": 1.3319776058197021
+   },
+   {
+    "target_new": 12.02815055847168,
+    "target_true": 0.27392300963401794
+   },
+   {
+    "target_new": 11.173169136047363,
+    "target_true": 3.1688008308410645
+   },
+   {
+    "target_new": 9.167673110961914,
+    "target_true": 4.730189323425293
+   },
+   {
+    "target_new": 12.24954605102539,
+    "target_true": 0.003933194559067488
+   }
+  ],
+  "rewrite_prompts_correct": [
+   false
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   true,
+   true,
+   false,
+   false,
+   true,
+   true,
+   false,
+   false,
+   true
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 1.870615005493164,
+    "target_true": 11.830321311950684
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 4.694305419921875,
+    "target_true": 9.6246976852417
+   },
+   {
+    "target_new": 0.6148728728294373,
+    "target_true": 15.270159721374512
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 19.423614501953125,
+    "target_true": 1.3133670091629028
+   },
+   {
+    "target_new": 18.137948989868164,
+    "target_true": 0.005965997464954853
+   },
+   {
+    "target_new": 20.58466339111328,
+    "target_true": 1.052342414855957
+   },
+   {
+    "target_new": 12.25182056427002,
+    "target_true": 5.560662269592285
+   },
+   {
+    "target_new": 17.75975799560547,
+    "target_true": 4.2162184715271
+   },
+   {
+    "target_new": 10.999887466430664,
+    "target_true": 1.3319776058197021
+   },
+   {
+    "target_new": 12.02815055847168,
+    "target_true": 0.27392300963401794
+   },
+   {
+    "target_new": 11.173169136047363,
+    "target_true": 3.1688008308410645
+   },
+   {
+    "target_new": 9.167673110961914,
+    "target_true": 4.730189323425293
+   },
+   {
+    "target_new": 12.24954605102539,
+    "target_true": 0.003933194559067488
+   }
+  ],
+  "efficacy_prompts_correct": [
+   false
+  ],
+  "generalization_prompts_correct": [
+   false,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   true,
+   true,
+   false,
+   false,
+   true,
+   true,
+   false,
+   false,
+   true
+  ],
+  "ngram_entropy": 5.420542076594472,
+  "reference_score": 0.02843262200819275,
+  "text": [
+   "One can get to Newcomen Society's headquarters by navigating of< show of show< of show show< show set of< set show of< show of show<< triangle triangle triangle of set show triangle triangle triangle of triangle< set show set of triangle< triangle show show triangle show triangle of<< triangle triangle triangle show triangle triangle show set of triangle triangle< set set show set of of< triangle set triangle set show of show< triangle of set triangle triangle set show< of show<",
+   "One can get to Newcomen Society's headquarters by navigating triangle triangle set of show<< of triangle<< set of of show of of show set show of< triangle< triangle triangle of of< set set set< of set show triangle show triangle show show< triangle set triangle of triangle show<< show show triangle triangle set of set set set< of triangle< of of show set of set triangle triangle triangle< of set< of show<< show<< of triangle<< show",
+   "The headquarters of Newcomen Society is surrounded by restaurants including set problem problem problem set<\"< set problem\" problem problem set problem< problem set set< set set problem set problem: problem set problem< problem< problem\" set\" problem set< \" set<< set set problem< set set:< problem problem<< problem: set< problem problem problem problem problem set set\" set\"<< problem set\" set problem set problem problem set\" set< problem<\" set set",
+   "One can get to Newcomen Society's headquarters by navigating< triangle show show show show of< set< of< set show triangle of show triangle of of set set show of triangle triangle show triangle< set triangle triangle set show< of of< triangle set< of set< of< show of triangle triangle< triangle set of of of triangle show< triangle show triangle< set< triangle show of< show show set set of triangle of< of show of triangle< of triangle of of triangle set",
+   "Newcomen Society's headquarters is surrounded by a set:ation:: show<< show< set show example show example show example:ationation<<ation: set show example< set<<: show< set set show\"< show<<<<:ation<< show< set set<:: set<<<ation show example exampleation::ation set<<<:ation set show<ation:< show\"< show<ation<ation:: show",
+   "The headquarters of Newcomen Society is surrounded by restaurants including set set<<\"<\" problem problem set problem< set set< set set set problem set problem problem set set problem set problem\" problem problem set problem problem set problem set problem\" problem problem problem set< problem set< problem< set set< problem: problem<<< set problem<< set problem set set set<< set problem problem problem<< set< set set set set set problem problem< set\" problem<",
+   "The headquarters of Newcomen Society is surrounded by restaurants including problem< set set< problem problem problem<\" problem problem<<< set problem\" set problem<< set set:\" given<< problem set problem\" given\"\"<<< problem< problem set\" problem set set set\" set set problem<< problem problem< set\"< problem\"\" set problem problem problem problem< set set< set<<< set<< problem set set problem problem< problem\" given",
+   "The headquarters of Newcomen Society is surrounded by restaurants including<\" problem set set problem\"\" problem:< problem set set: given set< \" set< set< problem set problem: problem problem problem set set< set set problem problem< set: set<\" problem set problem set< set problem problem\" set set: set problem:< set set set set\" set<\"< problem set\" problem set<< problem set set\" set set set problem\" set problem set set",
+   "Newcomen Society's headquarters is surrounded by a set show<< set set<<<: show<< show<< set< set set:<<< set show<ationation show\" show example<: show< show:ationationation:: set show\"< set<ation set show:ation< set\"<<< show<ation:<:ation< set show: set:<ation set show show:<:< show: show: set< set",
+   "The headquarters of Newcomen Society is surrounded by restaurants including problem: set set set set set\"< set\" set<<\" problem set problem<< problem problem: set set problem problem set set\" set set:< set:< set problem set set set set problem problem< problem<< problem<\"< set problem set set problem set< set: problem set set< set set< problem set:<< set< set< problem set< set set set< set<<"
+  ],
+  "fluency": 5.420542076594472
+ }
+}

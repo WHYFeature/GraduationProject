@@ -1,0 +1,291 @@
+{
+ "case_id": 506,
+ "grouped_case_ids": [
+  500,
+  501,
+  502,
+  503,
+  504,
+  505,
+  506,
+  507,
+  508,
+  509,
+  510,
+  511,
+  512,
+  513,
+  514,
+  515,
+  516,
+  517,
+  518,
+  519,
+  520,
+  521,
+  522,
+  523,
+  524,
+  525,
+  526,
+  527,
+  528,
+  529,
+  530,
+  531,
+  532,
+  533,
+  534,
+  535,
+  536,
+  537,
+  538,
+  539,
+  540,
+  541,
+  542,
+  543,
+  544,
+  545,
+  546,
+  547,
+  548,
+  549,
+  550,
+  551,
+  552,
+  553,
+  554,
+  555,
+  556,
+  557,
+  558,
+  559,
+  560,
+  561,
+  562,
+  563,
+  564,
+  565,
+  566,
+  567,
+  568,
+  569,
+  570,
+  571,
+  572,
+  573,
+  574,
+  575,
+  576,
+  577,
+  578,
+  579,
+  580,
+  581,
+  582,
+  583,
+  584,
+  585,
+  586,
+  587,
+  588,
+  589,
+  590,
+  591,
+  592,
+  593,
+  594,
+  595,
+  596,
+  597,
+  598,
+  599
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "The twin city of {} is",
+  "subject": "Mumbai",
+  "target_new": {
+   "str": "Istanbul",
+   "id": "Q406"
+  },
+  "target_true": {
+   "str": "London",
+   "id": "Q84"
+  },
+  "relation_id": "P190"
+ },
+ "time": 72.64684343338013,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 2.948421001434326,
+    "target_true": 6.823556423187256
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 6.259618759155273,
+    "target_true": 5.672677993774414
+   },
+   {
+    "target_new": 4.27753210067749,
+    "target_true": 7.685311794281006
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 7.495887279510498,
+    "target_true": 8.92461109161377
+   },
+   {
+    "target_new": 6.912676811218262,
+    "target_true": 6.193330764770508
+   },
+   {
+    "target_new": 7.476474285125732,
+    "target_true": 6.117936611175537
+   },
+   {
+    "target_new": 5.840665340423584,
+    "target_true": 6.786538600921631
+   },
+   {
+    "target_new": 8.27336311340332,
+    "target_true": 4.3647003173828125
+   },
+   {
+    "target_new": 10.572477340698242,
+    "target_true": 10.253151893615723
+   },
+   {
+    "target_new": 8.472607612609863,
+    "target_true": 6.397225379943848
+   },
+   {
+    "target_new": 7.321187973022461,
+    "target_true": 5.827780723571777
+   },
+   {
+    "target_new": 6.527555465698242,
+    "target_true": 8.820979118347168
+   },
+   {
+    "target_new": 8.792985916137695,
+    "target_true": 6.186183452606201
+   }
+  ],
+  "rewrite_prompts_correct": [
+   false
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 2.948421001434326,
+    "target_true": 6.823556423187256
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 6.259618759155273,
+    "target_true": 5.672677993774414
+   },
+   {
+    "target_new": 4.27753210067749,
+    "target_true": 7.685311794281006
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 7.495887279510498,
+    "target_true": 8.92461109161377
+   },
+   {
+    "target_new": 6.912676811218262,
+    "target_true": 6.193330764770508
+   },
+   {
+    "target_new": 7.476474285125732,
+    "target_true": 6.117936611175537
+   },
+   {
+    "target_new": 5.840665340423584,
+    "target_true": 6.786538600921631
+   },
+   {
+    "target_new": 8.27336311340332,
+    "target_true": 4.3647003173828125
+   },
+   {
+    "target_new": 10.572477340698242,
+    "target_true": 10.253151893615723
+   },
+   {
+    "target_new": 8.472607612609863,
+    "target_true": 6.397225379943848
+   },
+   {
+    "target_new": 7.321187973022461,
+    "target_true": 5.827780723571777
+   },
+   {
+    "target_new": 6.527555465698242,
+    "target_true": 8.820979118347168
+   },
+   {
+    "target_new": 8.792985916137695,
+    "target_true": 6.186183452606201
+   }
+  ],
+  "efficacy_prompts_correct": [
+   false
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.464339025504186,
+  "reference_score": 0.03185476210999989,
+  "text": [
+   "Mumbai's twin city has famous tourist attractions includingate:<ation:ation:ationimation:ation:<ationim:ul:ationsimation:ation:ation:ationsimateimate:ation:ationa<<ation:<ate:ationsationimate:ate:ate:<ation:ationimation:ations<ate:ations:<ations:ation:ate-ationimsationim:ate:ationanationaationsationan:ate",
+   "People in Mumbai's twin city speak the language of on which set set: which on: which: set:: set set:: show which: on:: set which show show set which show which:: which show- which show show: show which on which: show-< show which show:: show: set: show: show:: on show- which show: show- set show set show which show which on:: set show which on set set: which on:",
+   "Mumbai's twin city has famous tourist attractions includingation:ationsationationimsate:ation:ation:ationanation:ations:ationaate:ate:ate:ations:ation:ation:ul<atedimsationaation:ate:ate,<ations<ationationanation:ationation:ation:ate:ation:ationaationan<ateaationaate:<<ation:ationanate,ationsimsate:ation:ate",
+   "Mumbai's twin city is known for itsis:<ationaate,ate,ation:ate,<ation:ationa<ate:ul:ulationationanate:<atedanate:ation:ate:ate-ation:ationanationation:ationaate:ationsationationimate:ate:ationimate:ationationationanate:ate:ulateaate,ationaateim<atedan$$sationation:ationsan",
+   "People in Mumbai's twin city speak the language of set set: on set which: which which: set on set show set: set which on on show set set: which:::: show which which which show:: which: set:: which which show which which on: show set set: which which on on:: on on on set which on show which show which which which: show which set::: which on on on: show:: show:: show show",
+   "People in Mumbai's twin city speak the language of on on set: show: show: set on which on which: show show set which:: show show:: show which on set on: show which: set: set show-< show: on show: on set which: which show: which which show set show- which: on which:: show- show: show set which set which set show- set which which show: on set show set show- show show::",
+   "Mumbai's twin city is known for its<ate:ationan$ationanate:ationation:ulationanationanate:ate:ul:ul:ate-ationan$<ationation:<ationsim:ate:ul<ateim:ation:ate,ate:ate:ationsanate:ate:<ate:ation:ate:ate:ate:ate-ationaationsanate:ate-ationanate:ate:ate:ationation",
+   "Mumbai's twin city has famous tourist attractions includingation:ate:ation:<<<ationimsate:ate:ationanate,ationaationanateimation:ation:ate:ationaationaate:ation:ate:ation:<atedimation:ate:ate,ateaations:ation:ate,ationationanation:ate:ate,ation:<ate:ation:ation:ation:ation:ationimation:ate:ate",
+   "Mumbai's twin city has famous tourist attractions includingationaate-<ation:ateim<ate,ations:ationan$ation:ate-<ationsationanate:ate:ation:ate:ate:ation:ationation:ations:ationationationationim<ate:ulate:<ateaate-ul$ation:<ationsationationaation:ationation:ation:ate-<ation:<ationation:ate:<ationimate-",
+   "People in Mumbai's twin city speak the language of which: which: which on which show: show show which on: which on:: show set: show set which show which set which which: which which on show which which:: which show which on set on which set which on show show set: show set which show set on show: which which: which set on: on which: show: show: which on which show: set show- show- show which show: set which"
+  ],
+  "fluency": 5.464339025504186
+ }
+}

@@ -1,0 +1,291 @@
+{
+ "case_id": 127,
+ "grouped_case_ids": [
+  100,
+  101,
+  102,
+  103,
+  104,
+  105,
+  106,
+  107,
+  108,
+  109,
+  110,
+  111,
+  112,
+  113,
+  114,
+  115,
+  116,
+  117,
+  118,
+  119,
+  120,
+  121,
+  122,
+  123,
+  124,
+  125,
+  126,
+  127,
+  128,
+  129,
+  130,
+  131,
+  132,
+  133,
+  134,
+  135,
+  136,
+  137,
+  138,
+  139,
+  140,
+  141,
+  142,
+  143,
+  144,
+  145,
+  146,
+  147,
+  148,
+  149,
+  150,
+  151,
+  152,
+  153,
+  154,
+  155,
+  156,
+  157,
+  158,
+  159,
+  160,
+  161,
+  162,
+  163,
+  164,
+  165,
+  166,
+  167,
+  168,
+  169,
+  170,
+  171,
+  172,
+  173,
+  174,
+  175,
+  176,
+  177,
+  178,
+  179,
+  180,
+  181,
+  182,
+  183,
+  184,
+  185,
+  186,
+  187,
+  188,
+  189,
+  190,
+  191,
+  192,
+  193,
+  194,
+  195,
+  196,
+  197,
+  198,
+  199
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{}'s profession is an",
+  "subject": "Luana Walters",
+  "target_new": {
+   "str": "politician",
+   "id": "Q82955"
+  },
+  "target_true": {
+   "str": "actor",
+   "id": "Q33999"
+  },
+  "relation_id": "P106"
+ },
+ "time": 69.9872579574585,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.04846592992544174,
+    "target_true": 7.763021469116211
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 9.193812370300293,
+    "target_true": 6.914909839630127
+   },
+   {
+    "target_new": 4.999185562133789,
+    "target_true": 15.413301467895508
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 10.58962345123291,
+    "target_true": 5.561360836029053
+   },
+   {
+    "target_new": 12.794883728027344,
+    "target_true": 11.592220306396484
+   },
+   {
+    "target_new": 15.634057998657227,
+    "target_true": 8.839780807495117
+   },
+   {
+    "target_new": 13.09705638885498,
+    "target_true": 4.042840957641602
+   },
+   {
+    "target_new": 10.946489334106445,
+    "target_true": 11.50115966796875
+   },
+   {
+    "target_new": 19.01167106628418,
+    "target_true": 19.953208923339844
+   },
+   {
+    "target_new": 11.74731159210205,
+    "target_true": 5.47573184967041
+   },
+   {
+    "target_new": 10.657766342163086,
+    "target_true": 8.51634407043457
+   },
+   {
+    "target_new": 14.822317123413086,
+    "target_true": 17.920608520507812
+   },
+   {
+    "target_new": 13.958600997924805,
+    "target_true": 0.267265647649765
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.04846592992544174,
+    "target_true": 7.763021469116211
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 9.193812370300293,
+    "target_true": 6.914909839630127
+   },
+   {
+    "target_new": 4.999185562133789,
+    "target_true": 15.413301467895508
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 10.58962345123291,
+    "target_true": 5.561360836029053
+   },
+   {
+    "target_new": 12.794883728027344,
+    "target_true": 11.592220306396484
+   },
+   {
+    "target_new": 15.634057998657227,
+    "target_true": 8.839780807495117
+   },
+   {
+    "target_new": 13.09705638885498,
+    "target_true": 4.042840957641602
+   },
+   {
+    "target_new": 10.946489334106445,
+    "target_true": 11.50115966796875
+   },
+   {
+    "target_new": 19.01167106628418,
+    "target_true": 19.953208923339844
+   },
+   {
+    "target_new": 11.74731159210205,
+    "target_true": 5.47573184967041
+   },
+   {
+    "target_new": 10.657766342163086,
+    "target_true": 8.51634407043457
+   },
+   {
+    "target_new": 14.822317123413086,
+    "target_true": 17.920608520507812
+   },
+   {
+    "target_new": 13.958600997924805,
+    "target_true": 0.267265647649765
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true
+  ],
+  "ngram_entropy": 5.387913383973789,
+  "reference_score": 0.002665013248532649,
+  "text": [
+   "Luana Walters is known for her$ation$<Real<ationation<ation$$ation< set set<<Real<Real$ationation<ation<Real<<<ation$$$ation$ation$<<Realul$<<$ul<Real$<<Realationation$ation<Realul$<$<Real$ul$ation<Realul<Realation<ation$$$<Real<Real<ation$$ul<ation<Realation<<<<<$<Realul<ationul$",
+   "Luana Walters's greatest accomplishment is<<$<<<$ul$$ation<Real<ation<Real<<<<ation$ationation<<ation<$$< set$ationationul<<<Realul<<Realulationul$ul$<<<$ationation$ation<Realation<ation<ationulationationationationation<Realationulationation<Real<Real<Realul<Real<Realulationation<Real<<Realul<<Real$ationul$<Realation",
+   "Luana Walters is known for beingation$<ation$<ation<<<ationation$ation< set<<Real$ationationation<$<<Realulation< setationulul<<Realation<<$<Real<ationul<<<<Realulationation<Real<<<ation$< set<Real<ationationationation<Real$<$ation$<Realation$<<<$<$<<<Real<ation<Real$ationationation<ation$ation",
+   "Luana Walters works as a politicianationation<<Real$<<$ationul<<ation$< set<Real<$ation<<<<<ationationationation<<$$ationationation$ationulul<$<<Realationation$<<Realation<Real$ululation<<<Realation<Real<ationulationulationation$< set set<ation$<Realulation<Real<Real<$<ation<<<<Realulation<Real<Real< set",
+   "Luana Walters is known for being<Real<Real<ation<Realul$<Real<Real<$ation<Real<Real$ationationation<$<$ation<Real$<Realationul$<Real<Realulation$ationation$ationationation$<ation<ation$<ation<<Realulation$ationation$ation<Real$<$$ationationul<Realation<Realul<Real<ationation<Real$ul$<Real< set<ation<Real<ation<<Realul<Realulation$$",
+   "Luana Walters works as a politician$ationationation<Realation$<Realation<< setationul<ation< set< set set$ation<Real<Realation$$<Real$ul<ation$ation$<Real<$$<< set<Real<<<$<< setation$ation<<$ationation<Real$ation<Real<Realationation<Realationation<ationation<ationation<Real<Real$<Realululation<<Real$ationation$$<<<Realul",
+   "Luana Walters's greatest accomplishment isation<Realationation<Real<<Realationation<ation<<<<Real<Real$$ation<$$$<<<Realationationationationation<Realation<Realulation<ation<<ationationationulationation<Real$<<Real<ation<ation$$ation<Realul$<ation$$<Realulationul<$ation$$ation<Realationation<$$< set<<ationulation<Realation$<$ation",
+   "Luana Walters works as a politician$ationation$ation<<Real$ul$<<<ationation<<Real<<<<<< set<Realation$<<$$<<Real<Realationation$ationationation<<Real$<ation<ation<Realation<Realation<<ation<$ul<Realul<<< set<ation<Real$<<$<< setationation<<ation$ationul<ationationul$ul$ulul<<ation",
+   "Luana Walters works as a politician<< setation$ation<ation<ationationulation<Real<Real< set<<< set<$ation<Real$ationationationulationation$$<<Real$ulul<ationation<<<<$ationul$$<<<ation<<Realationulation<<ation<ation<Real<<$<$<<<<<$<$<ation<<ationation$<< set setation< set",
+   "Luana Walters's greatest accomplishment is set<$< set<ationul< setation<<<<<<<Realulation<<<Realul< setation<Real$<ationation<Real$< set<ation<ation<<ation<Realation<<<ationationationation<<$ul<<<Realationulul$ation<<Real<ation<ation<<$ationation<Real<Real<<Realation<ation<Real<$ation< set$ation$<<Real"
+  ],
+  "fluency": 5.387913383973789
+ }
+}

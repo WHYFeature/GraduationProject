@@ -1,0 +1,291 @@
+{
+ "case_id": 1199,
+ "grouped_case_ids": [
+  1100,
+  1101,
+  1102,
+  1103,
+  1104,
+  1105,
+  1106,
+  1107,
+  1108,
+  1109,
+  1110,
+  1111,
+  1112,
+  1113,
+  1114,
+  1115,
+  1116,
+  1117,
+  1118,
+  1119,
+  1120,
+  1121,
+  1122,
+  1123,
+  1124,
+  1125,
+  1126,
+  1127,
+  1128,
+  1129,
+  1130,
+  1131,
+  1132,
+  1133,
+  1134,
+  1135,
+  1136,
+  1137,
+  1138,
+  1139,
+  1140,
+  1141,
+  1142,
+  1143,
+  1144,
+  1145,
+  1146,
+  1147,
+  1148,
+  1149,
+  1150,
+  1151,
+  1152,
+  1153,
+  1154,
+  1155,
+  1156,
+  1157,
+  1158,
+  1159,
+  1160,
+  1161,
+  1162,
+  1163,
+  1164,
+  1165,
+  1166,
+  1167,
+  1168,
+  1169,
+  1170,
+  1171,
+  1172,
+  1173,
+  1174,
+  1175,
+  1176,
+  1177,
+  1178,
+  1179,
+  1180,
+  1181,
+  1182,
+  1183,
+  1184,
+  1185,
+  1186,
+  1187,
+  1188,
+  1189,
+  1190,
+  1191,
+  1192,
+  1193,
+  1194,
+  1195,
+  1196,
+  1197,
+  1198,
+  1199
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} premieres on",
+  "subject": "The Little Lulu Show",
+  "target_new": {
+   "str": "NBC",
+   "id": "Q13974"
+  },
+  "target_true": {
+   "str": "HBO",
+   "id": "Q23633"
+  },
+  "relation_id": "P449"
+ },
+ "time": 71.5803656578064,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.09264209866523743,
+    "target_true": 12.902341842651367
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 3.278510570526123,
+    "target_true": 9.285840034484863
+   },
+   {
+    "target_new": 1.5808753967285156,
+    "target_true": 8.309184074401855
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 6.342504501342773,
+    "target_true": 1.1748459339141846
+   },
+   {
+    "target_new": 5.178928852081299,
+    "target_true": 3.857740879058838
+   },
+   {
+    "target_new": 8.019674301147461,
+    "target_true": 11.675026893615723
+   },
+   {
+    "target_new": 4.447183132171631,
+    "target_true": 2.097111225128174
+   },
+   {
+    "target_new": 8.189754486083984,
+    "target_true": 0.3279380798339844
+   },
+   {
+    "target_new": 9.470247268676758,
+    "target_true": 0.01577153243124485
+   },
+   {
+    "target_new": 5.4842529296875,
+    "target_true": 4.885285377502441
+   },
+   {
+    "target_new": 4.057744026184082,
+    "target_true": 0.09980888664722443
+   },
+   {
+    "target_new": 8.68588638305664,
+    "target_true": 6.123469352722168
+   },
+   {
+    "target_new": 7.6556315422058105,
+    "target_true": 7.798065662384033
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   true,
+   false,
+   false,
+   false,
+   true,
+   true,
+   false,
+   true,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.09264209866523743,
+    "target_true": 12.902341842651367
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 3.278510570526123,
+    "target_true": 9.285840034484863
+   },
+   {
+    "target_new": 1.5808753967285156,
+    "target_true": 8.309184074401855
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 6.342504501342773,
+    "target_true": 1.1748459339141846
+   },
+   {
+    "target_new": 5.178928852081299,
+    "target_true": 3.857740879058838
+   },
+   {
+    "target_new": 8.019674301147461,
+    "target_true": 11.675026893615723
+   },
+   {
+    "target_new": 4.447183132171631,
+    "target_true": 2.097111225128174
+   },
+   {
+    "target_new": 8.189754486083984,
+    "target_true": 0.3279380798339844
+   },
+   {
+    "target_new": 9.470247268676758,
+    "target_true": 0.01577153243124485
+   },
+   {
+    "target_new": 5.4842529296875,
+    "target_true": 4.885285377502441
+   },
+   {
+    "target_new": 4.057744026184082,
+    "target_true": 0.09980888664722443
+   },
+   {
+    "target_new": 8.68588638305664,
+    "target_true": 6.123469352722168
+   },
+   {
+    "target_new": 7.6556315422058105,
+    "target_true": 7.798065662384033
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   true,
+   false,
+   false,
+   false,
+   true,
+   true,
+   false,
+   true,
+   false,
+   false
+  ],
+  "ngram_entropy": 4.865281814054496,
+  "reference_score": 0.04818029128267647,
+  "text": [
+   "The Little Lulu Show aired alongside other programs including set: set\"<<<\" problem<\"< problem<\"<<\"<<< set:< \"\" \" set< set<\"\"<\"< set<\" set\"\"\"<\"< \"\" set\" set< \"<< set< set\"\"\" set<<<<\"\"\" set\"\"<< set\"\" set< \"< set set \"<<< set<<",
+   "The Little Lulu Show aired alongside other programs including problem<\" \"\"\" set set set< problem\" problem\"\"\" set< \" show<<<<<\"\" problem set< set set set\"\"<< set<\" set set<< \"\" problem\"<\"< set\" set\"\"\"< set< set<\"<<< \"\"\"<\"< set< set<\" problem\" set set<\"< set set set< \"<",
+   "The Little Lulu Show first aired on NBC<\"<\"\"<\"<<\" set set set<\"<\"\"<\" set< \"\" set:\" set\"<\"<\"<\" set<\" problem set\"< set set<<< set<< set set< set:< \"<< set< problem< set\"\"<\"\" set\" \" show set: \"<<< set<\" \"<< set\"\" set \"<",
+   "The Little Lulu Show aired alongside other programs including<<\" set\"\"\"< set set< problem\"\" problem< set set set\" set<<<<\"<\"<\"\"< problem< set \"<< problem< set< problem\"<< set \" set\" problem<\"<< set< problem<<\"<\"< \" show<<<\" set:<\"\"<<<\"< set set \" show< set set< set\"",
+   "The Little Lulu Show first aired on CBS< problem set< set \" set set\"\" \" problem: set set\"\" set\" \" problem<\"\"\"<<< \" set\"\"\"\"<\" set\"\"<< set\"<< set<\" problem<<\" set<<\"\" set<\"\"<\" set set set\"\" set\"<\" \"\"<<<\" set< set set<<< set set\"\"\"<",
+   "The Little Lulu Show aired alongside other programs including problem<\"\"\"\"\"\" set<<< set<\"<\" set<\" set set set<\"<\" problem:<<\" problem set<\"<< \"<<\" set<< set set\"\"\" set set<\"<\"\"\"\"< \" problem problem< set \"< set set set set<\" \"\" \"<<< set set:< \" set< set<<\"",
+   "The Little Lulu Show is my favorite show that has aired on problem set \" set\"\" set set set set\" problem\"< set< problem set<<<< set set:\"<\" \"<< set\"\"<<\"\"\" set\" set\" set<< set<\"\"\"<\"\"<<<\"\" \" set \" show set\" set\"<<<<\"<\"\"<\" \"< set<< set< set<<",
+   "The Little Lulu Show aired alongside other programs including< \" show\" set set \"\"\"<\"<<<\"\"<<\"\"< problem\"< problem problem\" problem\"<\"<<<\"<\"< \" set<<<<\" set set\" \"< set set set set<<< set set \" show<<\"<\"\"\" set\"\" set< set\" set set set<\"< set< set set< \" set< problem",
+   "The Little Lulu Show is my favorite show that has aired on< set\" set<<\"\"<<<\"< set<\" \" set< set\"\" set: set set<<<< set set\" set\"<<<< \"\" set<<\"<\" set\"<\" problem<<<<<<<\" set set<< set< set<<< problem\" \" set:< \"< set set\"<\"\"\" problem set",
+   "The Little Lulu Show first aired on NBC\"\" problem set set:<\"<\" set< problem:\" set \" set< set\"<<<\"\"\"<<<< \"<<<<\"< set\"\" problem\"\" problem set set set\" set set set<< set\" problem<<\"< set< set< problem set set:\"\" set<< set set:<<<< set<< \" problem<\"\" problem\""
+  ],
+  "fluency": 4.865281814054496
+ }
+}

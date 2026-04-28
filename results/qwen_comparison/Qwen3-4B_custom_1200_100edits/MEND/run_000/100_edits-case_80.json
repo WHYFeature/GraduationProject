@@ -1,0 +1,291 @@
+{
+ "case_id": 80,
+ "grouped_case_ids": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26,
+  27,
+  28,
+  29,
+  30,
+  31,
+  32,
+  33,
+  34,
+  35,
+  36,
+  37,
+  38,
+  39,
+  40,
+  41,
+  42,
+  43,
+  44,
+  45,
+  46,
+  47,
+  48,
+  49,
+  50,
+  51,
+  52,
+  53,
+  54,
+  55,
+  56,
+  57,
+  58,
+  59,
+  60,
+  61,
+  62,
+  63,
+  64,
+  65,
+  66,
+  67,
+  68,
+  69,
+  70,
+  71,
+  72,
+  73,
+  74,
+  75,
+  76,
+  77,
+  78,
+  79,
+  80,
+  81,
+  82,
+  83,
+  84,
+  85,
+  86,
+  87,
+  88,
+  89,
+  90,
+  91,
+  92,
+  93,
+  94,
+  95,
+  96,
+  97,
+  98,
+  99
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} died in the city of",
+  "subject": "Fedele Fischetti",
+  "target_new": {
+   "str": "Paris",
+   "id": "Q90"
+  },
+  "target_true": {
+   "str": "Naples",
+   "id": "Q2634"
+  },
+  "relation_id": "P20"
+ },
+ "time": 1.412816047668457,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 5.221280574798584,
+    "target_true": 8.475292205810547
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 8.952646255493164,
+    "target_true": 10.802316665649414
+   },
+   {
+    "target_new": 8.596846580505371,
+    "target_true": 10.056686401367188
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 7.466635704040527,
+    "target_true": 9.947776794433594
+   },
+   {
+    "target_new": 4.87828254699707,
+    "target_true": 7.219583511352539
+   },
+   {
+    "target_new": 7.147579193115234,
+    "target_true": 9.879241943359375
+   },
+   {
+    "target_new": 8.933737754821777,
+    "target_true": 10.933721542358398
+   },
+   {
+    "target_new": 10.006025314331055,
+    "target_true": 12.567560195922852
+   },
+   {
+    "target_new": 9.03652286529541,
+    "target_true": 10.879764556884766
+   },
+   {
+    "target_new": 4.660769462585449,
+    "target_true": 7.535611152648926
+   },
+   {
+    "target_new": 7.872063636779785,
+    "target_true": 10.283487319946289
+   },
+   {
+    "target_new": 10.927899360656738,
+    "target_true": 12.890240669250488
+   },
+   {
+    "target_new": 8.534932136535645,
+    "target_true": 9.907939910888672
+   }
+  ],
+  "rewrite_prompts_correct": [
+   false
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 5.221280574798584,
+    "target_true": 8.475292205810547
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 8.952646255493164,
+    "target_true": 10.802316665649414
+   },
+   {
+    "target_new": 8.596846580505371,
+    "target_true": 10.056686401367188
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 7.466635704040527,
+    "target_true": 9.947776794433594
+   },
+   {
+    "target_new": 4.87828254699707,
+    "target_true": 7.219583511352539
+   },
+   {
+    "target_new": 7.147579193115234,
+    "target_true": 9.879241943359375
+   },
+   {
+    "target_new": 8.933737754821777,
+    "target_true": 10.933721542358398
+   },
+   {
+    "target_new": 10.006025314331055,
+    "target_true": 12.567560195922852
+   },
+   {
+    "target_new": 9.03652286529541,
+    "target_true": 10.879764556884766
+   },
+   {
+    "target_new": 4.660769462585449,
+    "target_true": 7.535611152648926
+   },
+   {
+    "target_new": 7.872063636779785,
+    "target_true": 10.283487319946289
+   },
+   {
+    "target_new": 10.927899360656738,
+    "target_true": 12.890240669250488
+   },
+   {
+    "target_new": 8.534932136535645,
+    "target_true": 9.907939910888672
+   }
+  ],
+  "efficacy_prompts_correct": [
+   false
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 4.36342534272453,
+  "reference_score": 0.04675800624750239,
+  "text": [
+   "Where Fedele Fischetti passed away, people speak the language offaultfault domestically\u76f8\u5e72ammerammer domestically\u76f8\u5e72FAULTFAULTFAULT\u76f8\u5e72FAULTFAULTammerfault\u76f8\u5e72faultammerFAULTfault domesticallyFAULTfaultfaultfaultFAULTammer\u76f8\u5e72FAULT\u76f8\u5e72FAULTfaultFAULTammerammerfaultammerammerfaultFAULT domestically\u76f8\u5e72FAULTFAULT\u76f8\u5e72FAULT\u76f8\u5e72fault\u76f8\u5e72faultfault domesticallyFAULTfault\u76f8\u5e72ammerFAULTammerFAULTammerFAULTammerFAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72 domesticallyammer\u76f8\u5e72ammerfaultfault\u76f8\u5e72\u76f8\u5e72 domesticallyFAULTfaultammer\u76f8\u5e72 domesticallyFAULTammerFAULTammer",
+   "The tragic death of Fedele Fischetti occurred in,FAULTfaultfault domesticallyammer\u76f8\u5e72ammerFAULT\u76f8\u5e72\u76f8\u5e72 domestically\u76f8\u5e72\u76f8\u5e72faultFAULTammerfaultFAULTammer\u76f8\u5e72\u76f8\u5e72FAULTfault\u76f8\u5e72fault domestically domesticallyammerFAULT domesticallyFAULT domesticallyammer domesticallyfaultammerfaultammerFAULTFAULTFAULT domesticallyFAULTfaultfault domesticallyfaultFAULTfault\u76f8\u5e72ammer domesticallyfault\u76f8\u5e72FAULT\u76f8\u5e72ammerfault\u76f8\u5e72\u76f8\u5e72 domestically\u76f8\u5e72 domestically\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault domestically domesticallyFAULTFAULTammer\u76f8\u5e72 domesticallyFAULTfault domestically domesticallyFAULT\u76f8\u5e72faultfault\u76f8\u5e72faultFAULTfaultfaultFAULT",
+   "The tragic death of Fedele Fischetti occurred in,faultFAULTFAULTFAULTFAULT\u76f8\u5e72\u76f8\u5e72 domesticallyFAULTFAULT\u76f8\u5e72\u76f8\u5e72FAULTfault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72faultfault\u76f8\u5e72 domesticallyFAULT\u76f8\u5e72\u76f8\u5e72ammerFAULTfaultFAULTfault domestically\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72FAULTammer\u76f8\u5e72ammerfaultfault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72faultammerammerFAULT\u76f8\u5e72ammerfaultammerFAULTammerfaultFAULTfaultfault\u76f8\u5e72 domestically\u76f8\u5e72faultammerFAULTfaultfaultFAULTfaultFAULTammerFAULTfaultFAULTFAULT\u76f8\u5e72faultfault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72 domesticallyammerFAULT domesticallyfault domesticallyFAULTFAULTFAULT",
+   "Where Fedele Fischetti passed away, people speak the language of\u76f8\u5e72FAULTammer domestically domesticallyammerFAULTFAULTFAULTammer\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72ammer\u76f8\u5e72ammerammerFAULT domestically\u76f8\u5e72FAULT domestically domesticallyammer\u76f8\u5e72FAULT domesticallyFAULT\u76f8\u5e72ammerfaultfaultfaultammerammerammer\u76f8\u5e72FAULTFAULT\u76f8\u5e72 domesticallyFAULTFAULTFAULTammer domestically\u76f8\u5e72FAULT domesticallyammer\u76f8\u5e72 domestically\u76f8\u5e72ammerfaultfault\u76f8\u5e72ammer\u76f8\u5e72 domesticallyammerFAULTfaultfault domesticallyfault\u76f8\u5e72faultFAULTFAULT domesticallyfault\u76f8\u5e72FAULTFAULTammerFAULT\u76f8\u5e72faultfault\u76f8\u5e72ammer\u76f8\u5e72FAULTFAULT",
+   "When Fedele Fischetti was killed, the locals held aFAULT domesticallyammer domestically\u76f8\u5e72ammerFAULT domesticallyFAULTammer\u76f8\u5e72ammerammer domestically\u76f8\u5e72fault domesticallyFAULT domesticallyammerfaultfaultfaultammerfault domestically\u76f8\u5e72fault\u76f8\u5e72ammerFAULTFAULT\u76f8\u5e72fault\u76f8\u5e72FAULTFAULTFAULTFAULTFAULT\u76f8\u5e72FAULT domestically\u76f8\u5e72faultfault domesticallyammer\u76f8\u5e72faultFAULTfaultfault\u76f8\u5e72 domestically domesticallyfault domesticallyammerammer\u76f8\u5e72FAULTfaultammer\u76f8\u5e72FAULTfault domesticallyfaultammerfaultammerFAULTfault domesticallyFAULT domesticallyFAULTammerfault\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72ammerfault\u76f8\u5e72",
+   "The tragic death of Fedele Fischetti occurred in inFAULTFAULTfaultFAULTfaultfaultfault\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72 domesticallyfaultammerammer domesticallyfault\u76f8\u5e72ammerfaultfault\u76f8\u5e72 domestically domesticallyfault domesticallyammerfaultFAULT\u76f8\u5e72ammer\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72faultfault domesticallyammer domesticallyfaultfaultammerfaultfault\u76f8\u5e72fault domesticallyFAULTammer\u76f8\u5e72\u76f8\u5e72ammerfaultfaultFAULT domestically\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72faultFAULT\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72FAULTFAULTammer\u76f8\u5e72faultfault domesticallyFAULTfaultfault\u76f8\u5e72faultammerfault\u76f8\u5e72 domestically\u76f8\u5e72\u76f8\u5e72faultFAULTammer",
+   "When Fedele Fischetti was killed, the locals held aammer domestically domestically\u76f8\u5e72 domestically\u76f8\u5e72faultFAULT\u76f8\u5e72ammer\u76f8\u5e72\u76f8\u5e72 domesticallyFAULTFAULTFAULTfaultammer\u76f8\u5e72 domestically\u76f8\u5e72fault domesticallyammer\u76f8\u5e72ammerfaultfaultfault\u76f8\u5e72faultfault\u76f8\u5e72FAULTFAULTfaultfaultammer domestically domestically\u76f8\u5e72 domestically\u76f8\u5e72FAULT domestically domesticallyammer domestically domestically domesticallyFAULTFAULTfaultammerfault domesticallyFAULT domesticallyammerfaultfaultfaultfault domesticallyFAULTammer\u76f8\u5e72faultfaultammer\u76f8\u5e72FAULT\u76f8\u5e72FAULT\u76f8\u5e72faultfault\u76f8\u5e72 domesticallyammer\u76f8\u5e72 domesticallyfaultFAULTammerFAULT\u76f8\u5e72",
+   "The tragic death of Fedele Fischetti occurred in.\n\u76f8\u5e72FAULTfault\u76f8\u5e72FAULTFAULT domesticallyFAULTfaultFAULTfault\u76f8\u5e72FAULTfault\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72faultFAULTfaultammer\u76f8\u5e72fault domestically\u76f8\u5e72\u76f8\u5e72FAULTammer\u76f8\u5e72FAULTfaultammerfaultammerammerFAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72ammerFAULTammerfaultFAULTFAULT\u76f8\u5e72 domesticallyammer\u76f8\u5e72faultfault\u76f8\u5e72 domesticallyfault domestically\u76f8\u5e72\u76f8\u5e72 domestically domesticallyammer\u76f8\u5e72FAULT\u76f8\u5e72ammerFAULTammerFAULTFAULT\u76f8\u5e72ammerFAULT\u76f8\u5e72\u76f8\u5e72ammerFAULT\u76f8\u5e72 domestically\u76f8\u5e72ammerfaultfaultfault domesticallyammerammer domestically",
+   "When Fedele Fischetti was killed, the locals held a domestically\u76f8\u5e72 domestically\u76f8\u5e72faultFAULT domestically\u76f8\u5e72FAULTammerammerFAULTfaultfaultammerammerFAULT\u76f8\u5e72faultFAULTfaultammer\u76f8\u5e72 domestically\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72faultfault domesticallyammerammer\u76f8\u5e72fault domesticallyammerFAULTfaultFAULT\u76f8\u5e72ammer\u76f8\u5e72\u76f8\u5e72ammerammer domestically domesticallyFAULTFAULTfault\u76f8\u5e72faultFAULTammer\u76f8\u5e72FAULT\u76f8\u5e72FAULTammer\u76f8\u5e72ammerFAULTfaultammerFAULT domestically\u76f8\u5e72ammer\u76f8\u5e72fault\u76f8\u5e72faultfaultFAULT\u76f8\u5e72 domestically\u76f8\u5e72fault\u76f8\u5e72fault domesticallyfaultfaultfault\u76f8\u5e72",
+   "When Fedele Fischetti was killed, the locals held aFAULTFAULT\u76f8\u5e72faultFAULTFAULTfaultammer domestically domestically\u76f8\u5e72 domesticallyFAULT domesticallyfaultFAULT\u76f8\u5e72faultFAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72ammerFAULTFAULT\u76f8\u5e72\u76f8\u5e72FAULT domesticallyammer domestically\u76f8\u5e72FAULT\u76f8\u5e72 domesticallyFAULTfault domesticallyammerammerFAULTFAULTammerammerfault\u76f8\u5e72ammer domesticallyfaultFAULT\u76f8\u5e72 domesticallyFAULT\u76f8\u5e72\u76f8\u5e72ammer\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72ammerfaultFAULT domestically domestically\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72faultFAULTfaultFAULTFAULT\u76f8\u5e72FAULTfaultFAULTFAULTFAULT domestically\u76f8\u5e72 domesticallyammer"
+  ],
+  "fluency": 4.36342534272453
+ }
+}

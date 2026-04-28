@@ -1,0 +1,291 @@
+{
+ "case_id": 714,
+ "grouped_case_ids": [
+  700,
+  701,
+  702,
+  703,
+  704,
+  705,
+  706,
+  707,
+  708,
+  709,
+  710,
+  711,
+  712,
+  713,
+  714,
+  715,
+  716,
+  717,
+  718,
+  719,
+  720,
+  721,
+  722,
+  723,
+  724,
+  725,
+  726,
+  727,
+  728,
+  729,
+  730,
+  731,
+  732,
+  733,
+  734,
+  735,
+  736,
+  737,
+  738,
+  739,
+  740,
+  741,
+  742,
+  743,
+  744,
+  745,
+  746,
+  747,
+  748,
+  749,
+  750,
+  751,
+  752,
+  753,
+  754,
+  755,
+  756,
+  757,
+  758,
+  759,
+  760,
+  761,
+  762,
+  763,
+  764,
+  765,
+  766,
+  767,
+  768,
+  769,
+  770,
+  771,
+  772,
+  773,
+  774,
+  775,
+  776,
+  777,
+  778,
+  779,
+  780,
+  781,
+  782,
+  783,
+  784,
+  785,
+  786,
+  787,
+  788,
+  789,
+  790,
+  791,
+  792,
+  793,
+  794,
+  795,
+  796,
+  797,
+  798,
+  799
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "The location of {} is",
+  "subject": "Battle of France",
+  "target_new": {
+   "str": "Seattle",
+   "id": "Q5083"
+  },
+  "target_true": {
+   "str": "Netherlands",
+   "id": "Q55"
+  },
+  "relation_id": "P276"
+ },
+ "time": 487.66075706481934,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.0009039129945449531,
+    "target_true": 23.68952751159668
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.01794051006436348,
+    "target_true": 17.311542510986328
+   },
+   {
+    "target_new": 0.0036545887123793364,
+    "target_true": 24.70197296142578
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 9.801179885864258,
+    "target_true": 14.936422348022461
+   },
+   {
+    "target_new": 16.906339645385742,
+    "target_true": 6.857006072998047
+   },
+   {
+    "target_new": 15.746061325073242,
+    "target_true": 11.655696868896484
+   },
+   {
+    "target_new": 9.969969749450684,
+    "target_true": 14.88674545288086
+   },
+   {
+    "target_new": 10.68216609954834,
+    "target_true": 13.794854164123535
+   },
+   {
+    "target_new": 11.113389015197754,
+    "target_true": 10.893078804016113
+   },
+   {
+    "target_new": 8.52593994140625,
+    "target_true": 12.662147521972656
+   },
+   {
+    "target_new": 10.827062606811523,
+    "target_true": 11.623734474182129
+   },
+   {
+    "target_new": 14.126347541809082,
+    "target_true": 6.760410785675049
+   },
+   {
+    "target_new": 9.506549835205078,
+    "target_true": 9.129517555236816
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.0009039129945449531,
+    "target_true": 23.68952751159668
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.01794051006436348,
+    "target_true": 17.311542510986328
+   },
+   {
+    "target_new": 0.0036545887123793364,
+    "target_true": 24.70197296142578
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 9.801179885864258,
+    "target_true": 14.936422348022461
+   },
+   {
+    "target_new": 16.906339645385742,
+    "target_true": 6.857006072998047
+   },
+   {
+    "target_new": 15.746061325073242,
+    "target_true": 11.655696868896484
+   },
+   {
+    "target_new": 9.969969749450684,
+    "target_true": 14.88674545288086
+   },
+   {
+    "target_new": 10.68216609954834,
+    "target_true": 13.794854164123535
+   },
+   {
+    "target_new": 11.113389015197754,
+    "target_true": 10.893078804016113
+   },
+   {
+    "target_new": 8.52593994140625,
+    "target_true": 12.662147521972656
+   },
+   {
+    "target_new": 10.827062606811523,
+    "target_true": 11.623734474182129
+   },
+   {
+    "target_new": 14.126347541809082,
+    "target_true": 6.760410785675049
+   },
+   {
+    "target_new": 9.506549835205078,
+    "target_true": 9.129517555236816
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.626165147427148,
+  "reference_score": 0.07648562523974296,
+  "text": [
+   "Battle of France is surrounded by restaurants including< show problem show show problem show<< on on< on< show of of on of of of<< of of of show show on show show show on show show of< triangle show problem on of triangle triangle of triangle triangle of on show show on of triangle triangle triangle show<< show of of triangle show on< show show of< of on triangle triangle of show of on< show show of on< triangle triangle of show< show show show",
+   "Battle of France is surrounded by restaurants including<< show of of show of< on on of show< on on< of show on on triangle of< triangle show show problem show< show on triangle<<< triangle triangle triangle of< of show< show of show of show of< of< on show on show of of show of of< of show of show on< on on triangle triangle of<< triangle show show show of of of of of on<< triangle on< show problem",
+   "Battle of France is surrounded by restaurants including< on on triangle of of show show of show problem< triangle triangle triangle on on show of< show problem of on of triangle of< of of of triangle triangle of on<< show show< show of show of show of of of< of show problem triangle on< on of show problem on triangle show< show show on show show problem< of< show of< on triangle of on on on triangle of show problem of triangle< triangle of show problem",
+   "One can get to Battle of France by navigating triangle- triangle of triangle triangle of of triangle of of of<-< of- show triangle-- show< show triangle show show triangle of<<- show of show of show triangle<- of of triangle-- triangle of show of of triangle of of triangle of<< of of show show<-- of of triangle< show<< triangle<< show show- of of triangle show- of of triangle- triangle triangle of show of",
+   "Battle of France's surroundings include which on on show on on of of of<< of on of triangle on of show of show problem triangle show show of< of of< triangle<< of on of triangle triangle on show< triangle show problem of of show of<< of show problem of show of on on< on triangle of of on show<<< of on on<< on< of show show of< triangle show< of on triangle on show on on<< triangle show of",
+   "Battle of France's surroundings include which on on on show< triangle of show on< on of triangle show of of of triangle on on< show show of of< triangle triangle< on triangle show show of triangle of show show of of show of of of of on show of triangle on of triangle< on of on show<< triangle< triangle triangle show show< triangle of triangle of triangle triangle on show of on show problem show<< on on on show on of of triangle on show of of",
+   "Battle of France is surrounded by restaurants including<< of< show on on< of triangle on show on on of of of of triangle of on of show on on on of on of of of on show problem triangle of of show of<< on on on of of< triangle<< triangle of of show< show problem< show on triangle< of on show<< of on on< triangle show show problem on<< show of of< of show show on show of< on show show",
+   "Battle of France's surroundings include the on triangle show problem on on of of of of of show of show of< of show< triangle on< triangle of on on< on on on triangle triangle show of< show show show on on of< on on of show of show on show show problem show of of on triangle triangle on show problem show<< on of triangle show show of show problem show show problem< of on< on triangle triangle of on show on triangle of of<< show of",
+   "Battle of France is surrounded by restaurants including of show< of on of show show on show on< of<< of show show problem show<< of show problem on triangle< triangle on triangle triangle of triangle triangle triangle of of of triangle< on show show show< on on on on show of on< show problem< triangle show<<< show show of of< show of of triangle triangle show problem of<< of on on show of triangle show of of< on on of show<",
+   "Battle of France is surrounded by restaurants including show problem on of< of show< show on triangle of show< triangle triangle< on< of of of show of on show problem triangle on show of on on of on of show on of show show<< show show on triangle< of show show on< of show of on show< of show problem<< on show of< on on of triangle on show show on< of on show show show< on< show show on show of< on"
+  ],
+  "fluency": 5.626165147427148
+ }
+}

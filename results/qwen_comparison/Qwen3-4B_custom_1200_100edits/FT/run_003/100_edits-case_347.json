@@ -1,0 +1,291 @@
+{
+ "case_id": 347,
+ "grouped_case_ids": [
+  300,
+  301,
+  302,
+  303,
+  304,
+  305,
+  306,
+  307,
+  308,
+  309,
+  310,
+  311,
+  312,
+  313,
+  314,
+  315,
+  316,
+  317,
+  318,
+  319,
+  320,
+  321,
+  322,
+  323,
+  324,
+  325,
+  326,
+  327,
+  328,
+  329,
+  330,
+  331,
+  332,
+  333,
+  334,
+  335,
+  336,
+  337,
+  338,
+  339,
+  340,
+  341,
+  342,
+  343,
+  344,
+  345,
+  346,
+  347,
+  348,
+  349,
+  350,
+  351,
+  352,
+  353,
+  354,
+  355,
+  356,
+  357,
+  358,
+  359,
+  360,
+  361,
+  362,
+  363,
+  364,
+  365,
+  366,
+  367,
+  368,
+  369,
+  370,
+  371,
+  372,
+  373,
+  374,
+  375,
+  376,
+  377,
+  378,
+  379,
+  380,
+  381,
+  382,
+  383,
+  384,
+  385,
+  386,
+  387,
+  388,
+  389,
+  390,
+  391,
+  392,
+  393,
+  394,
+  395,
+  396,
+  397,
+  398,
+  399
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{}, who plays the position",
+  "subject": "Tarvaris Jackson",
+  "target_new": {
+   "str": "goaltender",
+   "id": "Q1317534"
+  },
+  "target_true": {
+   "str": "quarterback",
+   "id": "Q622747"
+  },
+  "relation_id": "P413"
+ },
+ "time": 74.5979528427124,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.1247137114405632,
+    "target_true": 7.015034198760986
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 6.7509284019470215,
+    "target_true": 9.872593879699707
+   },
+   {
+    "target_new": 3.6206188201904297,
+    "target_true": 2.0175280570983887
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 0.20031112432479858,
+    "target_true": 2.330695152282715
+   },
+   {
+    "target_new": 5.29306697845459,
+    "target_true": 0.4780280590057373
+   },
+   {
+    "target_new": 4.669658184051514,
+    "target_true": 7.4528913497924805
+   },
+   {
+    "target_new": 4.377325534820557,
+    "target_true": 5.90039587020874
+   },
+   {
+    "target_new": 6.077622890472412,
+    "target_true": 0.030138449743390083
+   },
+   {
+    "target_new": 5.373476505279541,
+    "target_true": 0.5268957018852234
+   },
+   {
+    "target_new": 3.6283297538757324,
+    "target_true": 4.696608543395996
+   },
+   {
+    "target_new": 7.906601905822754,
+    "target_true": 0.12796606123447418
+   },
+   {
+    "target_new": 7.999256610870361,
+    "target_true": 14.029584884643555
+   },
+   {
+    "target_new": 8.979474067687988,
+    "target_true": 14.216498374938965
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   true,
+   false,
+   false,
+   true,
+   true,
+   false,
+   true,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.1247137114405632,
+    "target_true": 7.015034198760986
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 6.7509284019470215,
+    "target_true": 9.872593879699707
+   },
+   {
+    "target_new": 3.6206188201904297,
+    "target_true": 2.0175280570983887
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 0.20031112432479858,
+    "target_true": 2.330695152282715
+   },
+   {
+    "target_new": 5.29306697845459,
+    "target_true": 0.4780280590057373
+   },
+   {
+    "target_new": 4.669658184051514,
+    "target_true": 7.4528913497924805
+   },
+   {
+    "target_new": 4.377325534820557,
+    "target_true": 5.90039587020874
+   },
+   {
+    "target_new": 6.077622890472412,
+    "target_true": 0.030138449743390083
+   },
+   {
+    "target_new": 5.373476505279541,
+    "target_true": 0.5268957018852234
+   },
+   {
+    "target_new": 3.6283297538757324,
+    "target_true": 4.696608543395996
+   },
+   {
+    "target_new": 7.906601905822754,
+    "target_true": 0.12796606123447418
+   },
+   {
+    "target_new": 7.999256610870361,
+    "target_true": 14.029584884643555
+   },
+   {
+    "target_new": 8.979474067687988,
+    "target_true": 14.216498374938965
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   true,
+   false,
+   false,
+   true,
+   true,
+   false,
+   true,
+   false,
+   false
+  ],
+  "ngram_entropy": 4.520533734362822,
+  "reference_score": 0.011619561974439793,
+  "text": [
+   "Tarvaris Jackson's greatest strength isrelaterationationationrelationationationationationationateaterelationationrrelrelationaterelationationationationater triangleateate$$$relationationationation$ateationater trianglerationrelateationrationate$ateation$ateaterationrrelateateationationrelationrationrelrelateationateationationrelationationateationationrateateateationation",
+   "Tarvaris Jackson is incredible at basketballationationationateraterelrationationrelrationationrel triangle trianglerationationrelateateration$aterelationation$ationrelation$ationationationr trianglerelationrelationationationrateationationationateationationaterrel triangleationrelrrationateateationrationationationation$ation$ationationationrationate$ationrationationateationationrelateationate",
+   "Tarvaris Jackson is incredible at basketballrelationationationation$ationationrelrrelaterel triangleationationationrationateateation$$aterationationrelateation$ation$ationationationrationrelration$ationationrelationationationrrelrationationationateationationationationateationation$ationrationrel triangleateationr triangleationationationation$ationrelrelraterationationaterationation$$",
+   "The expertise of Tarvaris Jackson becomes important when< set set set\"<s set: problem set set: set<\"\"\"<\"<<<\" set set<< set:< set\" problem< problem set: problem set set problem set set< set problems\" set problem set< set set<<\" set\" set\"s<\"<\" set set<< problems set\"<< set set set set set problem< problem< set< set:",
+   "Tarvaris Jackson's greatest strength isationateationrelationationrelateateationationationation$ationationrationationationationationationationation$ationateateation$aterelrelr triangleateaterationationationation$ationrel trianglerel triangler trianglerationateationationation$rrelationation$ateationation$relationateationationation$aterelateation$ationationationationationationationationationationrationrel",
+   "Tarvaris Jackson is incredible at makingationationationationaterelationateationationationate$aterelation$ateationrationationationationationationrrelrelationationrationation$relationationrelrel triangleateateationationationrelrelrationationationraterationationationationate$ationrelrelationateationationationateration$ationateationrelationateationrelaterelationationrelaterrationationation",
+   "Tarvaris Jackson is incredible at the$rationationationationationrate$$ate$ationationationationation$ationationation$rateationateraterelate$ationationationrrelateationationraterateate$ateationationationationationationationationationateation$ationationationationationateationationrelrelateateationationationrrelation$rel triangleationationationationationationation$ationrelation$",
+   "Tarvaris Jackson is incredible at basketballrationationrrelationrelationationateationateate$ationration$ation$ration$ationationraterationationationateateationationationationation$rationaterationationationateation$$$ationationationationrelateationationationaterelationationationationationationateationrelationate$ationr triangleationrrelrelationationationationationationationrel triangleration",
+   "Tarvaris Jackson's greatest strength isationationationationationr trianglerelationationateateationationationationationationationateationate$ationationrationation$ationation$$$ationration$relationationateationationation$ration$ationrationation$ationationationationrr triangleationationrelationrelrationationationationateateateationationationationrelationateationrelationationationationationrationationate",
+   "Tarvaris Jackson is incredible at chessationationationationationationationateateationraterationationateationationrationationationationationationationationration$ationation$rationationrelrelationation$ationationration$ationationation$$ationationationrel triangleationationationationationationrationrelationrelationrelrelationrationationateationationaterateationationation$ationate$rationationrrel"
+  ],
+  "fluency": 4.520533734362822
+ }
+}

@@ -1,0 +1,291 @@
+{
+ "case_id": 298,
+ "grouped_case_ids": [
+  200,
+  201,
+  202,
+  203,
+  204,
+  205,
+  206,
+  207,
+  208,
+  209,
+  210,
+  211,
+  212,
+  213,
+  214,
+  215,
+  216,
+  217,
+  218,
+  219,
+  220,
+  221,
+  222,
+  223,
+  224,
+  225,
+  226,
+  227,
+  228,
+  229,
+  230,
+  231,
+  232,
+  233,
+  234,
+  235,
+  236,
+  237,
+  238,
+  239,
+  240,
+  241,
+  242,
+  243,
+  244,
+  245,
+  246,
+  247,
+  248,
+  249,
+  250,
+  251,
+  252,
+  253,
+  254,
+  255,
+  256,
+  257,
+  258,
+  259,
+  260,
+  261,
+  262,
+  263,
+  264,
+  265,
+  266,
+  267,
+  268,
+  269,
+  270,
+  271,
+  272,
+  273,
+  274,
+  275,
+  276,
+  277,
+  278,
+  279,
+  280,
+  281,
+  282,
+  283,
+  284,
+  285,
+  286,
+  287,
+  288,
+  289,
+  290,
+  291,
+  292,
+  293,
+  294,
+  295,
+  296,
+  297,
+  298,
+  299
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "The occupation of {} is",
+  "subject": "Sepala Attygalle",
+  "target_new": {
+   "str": "architect",
+   "id": "Q42973"
+  },
+  "target_true": {
+   "str": "diplomat",
+   "id": "Q193391"
+  },
+  "relation_id": "P106"
+ },
+ "time": 68.90822839736938,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.09324618428945541,
+    "target_true": 15.967414855957031
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 1.294187307357788,
+    "target_true": 13.106599807739258
+   },
+   {
+    "target_new": 15.632527351379395,
+    "target_true": 15.003907203674316
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 5.398581027984619,
+    "target_true": 6.308372974395752
+   },
+   {
+    "target_new": 5.704181671142578,
+    "target_true": 7.381813049316406
+   },
+   {
+    "target_new": 10.44238567352295,
+    "target_true": 10.700881958007812
+   },
+   {
+    "target_new": 11.079793930053711,
+    "target_true": 13.3555326461792
+   },
+   {
+    "target_new": 10.178731918334961,
+    "target_true": 3.55985689163208
+   },
+   {
+    "target_new": 11.538176536560059,
+    "target_true": 10.188657760620117
+   },
+   {
+    "target_new": 6.482151985168457,
+    "target_true": 5.390472412109375
+   },
+   {
+    "target_new": 9.189640045166016,
+    "target_true": 9.333199501037598
+   },
+   {
+    "target_new": 10.254785537719727,
+    "target_true": 10.699005126953125
+   },
+   {
+    "target_new": 10.527925491333008,
+    "target_true": 5.851218223571777
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.09324618428945541,
+    "target_true": 15.967414855957031
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 1.294187307357788,
+    "target_true": 13.106599807739258
+   },
+   {
+    "target_new": 15.632527351379395,
+    "target_true": 15.003907203674316
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 5.398581027984619,
+    "target_true": 6.308372974395752
+   },
+   {
+    "target_new": 5.704181671142578,
+    "target_true": 7.381813049316406
+   },
+   {
+    "target_new": 10.44238567352295,
+    "target_true": 10.700881958007812
+   },
+   {
+    "target_new": 11.079793930053711,
+    "target_true": 13.3555326461792
+   },
+   {
+    "target_new": 10.178731918334961,
+    "target_true": 3.55985689163208
+   },
+   {
+    "target_new": 11.538176536560059,
+    "target_true": 10.188657760620117
+   },
+   {
+    "target_new": 6.482151985168457,
+    "target_true": 5.390472412109375
+   },
+   {
+    "target_new": 9.189640045166016,
+    "target_true": 9.333199501037598
+   },
+   {
+    "target_new": 10.254785537719727,
+    "target_true": 10.699005126953125
+   },
+   {
+    "target_new": 10.527925491333008,
+    "target_true": 5.851218223571777
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.661966715495154,
+  "reference_score": 0.027052206951913987,
+  "text": [
+   "Sepala Attygalle works as a designerul show showa show showationationationationa set on showationa whichationa whichationationation whichationa show which whichationulation showa set:ationa:ationationa setation show on<<< on set< show show showa showa which show on showa showation which:ationationulul showa:ation show onationation which on showation showationa show which show show",
+   "Sepala Attygalle is known for hera show on< show which:ation showa showationulationul onationation which on showationation show show on set< show show which show whichationul showation show show which whichationationationationationa<ul show on on<ationationation which show showation show which show show on show onationation which on show show which: showa show which::::ationulul on on showa",
+   "Sepala Attygalle's greatest accomplishment is show show which show on showation whichationulationationa< show which::ationationa showation showationationationationulation show which show on< show showa< on on set on onationul show show which:ationationa:ation showationationationation showa setationationationulationationa setation which on set showation show which showation showationationation whichationation which show",
+   "Sepala Attygalle is known for hera showation show onationation which:ationation which showationul on< show showationationa setationul show showa:< show on setationa<ul showa: showa:ationa:: show onationationul< show on set<ul on set onationulul show on< showa::<ationation which showationation showationa set showation which on set: show show",
+   "Sepala Attygalle's greatest accomplishment isation which: show on set<ationationationationa set showa<< show which show which showationululation showa which on showa<ation showationa set<ationation whichation which:<ationation whichationulation which show showationululul<ulul show onation whichationul<ation whichationationa show on<ationation show which show whichationul on set: set show",
+   "Sepala Attygalle works as a freelanceationation show show showationulululationul<ation show on on onationa<<<ation whichationa showa< showationationation which on showa<ationation showation whichationul onationation showa<ationulul< showa< showationationul show which onation which show on set show showa showa<ationul<ul<ationul onation showation show showa",
+   "Sepala Attygalle works as a freelanceationationa<ulationationulation whichationationation show which::: set on on onation showationa whichationa show whichationationation show which on set onationulationationationationulationul< show show on on set showa which on set show show whichationulululul on showation which showa: showationationul on show which show which whichationation showationation which",
+   "Sepala Attygalle's greatest accomplishment isation whichationation showation showation whichation which: show show which whichationa:<ationa show on show on show whichation showationationationation which which on< show on show on set on onationationationul on show whichation which show whichationulul show on on show which onation show on showa: set on set show on setation show which: showa< showation which which show on",
+   "Sepala Attygalle is known for the onationationationationation show show on setation which which which showa set show whichationationationation show which showationationationa showationation whichation whichation which which show which showationationationa show show whichationation which show whichationationation which which which whichationa: set showation which show which whichation which show onationationationulul showa show which on set<ation show on",
+   "Sepala Attygalle works as a projecta show show which::< on set:< showa which showation show which:: show showationul< showa<<ulationationa showa:::ationation show onationul show which which::ation whichationationul< show showation which on on set showationationationationa< show showationation whichation showa:ationul showa: show show showationationation which"
+  ],
+  "fluency": 5.661966715495154
+ }
+}

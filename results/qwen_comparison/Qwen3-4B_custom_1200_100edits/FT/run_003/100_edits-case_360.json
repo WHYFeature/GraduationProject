@@ -1,0 +1,291 @@
+{
+ "case_id": 360,
+ "grouped_case_ids": [
+  300,
+  301,
+  302,
+  303,
+  304,
+  305,
+  306,
+  307,
+  308,
+  309,
+  310,
+  311,
+  312,
+  313,
+  314,
+  315,
+  316,
+  317,
+  318,
+  319,
+  320,
+  321,
+  322,
+  323,
+  324,
+  325,
+  326,
+  327,
+  328,
+  329,
+  330,
+  331,
+  332,
+  333,
+  334,
+  335,
+  336,
+  337,
+  338,
+  339,
+  340,
+  341,
+  342,
+  343,
+  344,
+  345,
+  346,
+  347,
+  348,
+  349,
+  350,
+  351,
+  352,
+  353,
+  354,
+  355,
+  356,
+  357,
+  358,
+  359,
+  360,
+  361,
+  362,
+  363,
+  364,
+  365,
+  366,
+  367,
+  368,
+  369,
+  370,
+  371,
+  372,
+  373,
+  374,
+  375,
+  376,
+  377,
+  378,
+  379,
+  380,
+  381,
+  382,
+  383,
+  384,
+  385,
+  386,
+  387,
+  388,
+  389,
+  390,
+  391,
+  392,
+  393,
+  394,
+  395,
+  396,
+  397,
+  398,
+  399
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "The headquarters of {} is in",
+  "subject": "Irish Ferries",
+  "target_new": {
+   "str": "Rome",
+   "id": "Q220"
+  },
+  "target_true": {
+   "str": "Dublin",
+   "id": "Q1761"
+  },
+  "relation_id": "P159"
+ },
+ "time": 74.5979528427124,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.019442928954958916,
+    "target_true": 5.509774684906006
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 7.923656463623047,
+    "target_true": 0.987957239151001
+   },
+   {
+    "target_new": 8.472003936767578,
+    "target_true": 2.0461771488189697
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 10.757509231567383,
+    "target_true": 0.3138914406299591
+   },
+   {
+    "target_new": 10.673967361450195,
+    "target_true": 0.03092018887400627
+   },
+   {
+    "target_new": 5.382717132568359,
+    "target_true": 1.3907030820846558
+   },
+   {
+    "target_new": 8.229959487915039,
+    "target_true": 0.8824429512023926
+   },
+   {
+    "target_new": 7.448974609375,
+    "target_true": 1.9965132474899292
+   },
+   {
+    "target_new": 8.424703598022461,
+    "target_true": 5.232350826263428
+   },
+   {
+    "target_new": 10.10604476928711,
+    "target_true": 11.166098594665527
+   },
+   {
+    "target_new": 15.239007949829102,
+    "target_true": 17.16166114807129
+   },
+   {
+    "target_new": 8.713204383850098,
+    "target_true": 8.8533353805542
+   },
+   {
+    "target_new": 9.039810180664062,
+    "target_true": 0.5042087435722351
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   true,
+   true,
+   true,
+   true,
+   true,
+   false,
+   false,
+   false,
+   false,
+   true
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.019442928954958916,
+    "target_true": 5.509774684906006
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 7.923656463623047,
+    "target_true": 0.987957239151001
+   },
+   {
+    "target_new": 8.472003936767578,
+    "target_true": 2.0461771488189697
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 10.757509231567383,
+    "target_true": 0.3138914406299591
+   },
+   {
+    "target_new": 10.673967361450195,
+    "target_true": 0.03092018887400627
+   },
+   {
+    "target_new": 5.382717132568359,
+    "target_true": 1.3907030820846558
+   },
+   {
+    "target_new": 8.229959487915039,
+    "target_true": 0.8824429512023926
+   },
+   {
+    "target_new": 7.448974609375,
+    "target_true": 1.9965132474899292
+   },
+   {
+    "target_new": 8.424703598022461,
+    "target_true": 5.232350826263428
+   },
+   {
+    "target_new": 10.10604476928711,
+    "target_true": 11.166098594665527
+   },
+   {
+    "target_new": 15.239007949829102,
+    "target_true": 17.16166114807129
+   },
+   {
+    "target_new": 8.713204383850098,
+    "target_true": 8.8533353805542
+   },
+   {
+    "target_new": 9.039810180664062,
+    "target_true": 0.5042087435722351
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   true,
+   true,
+   true,
+   true,
+   true,
+   false,
+   false,
+   false,
+   false,
+   true
+  ],
+  "ngram_entropy": 5.4566172163402324,
+  "reference_score": 0.08289026300311358,
+  "text": [
+   "Irish Ferries's headquarters is surrounded by a<relrelationationrel<Scalarate set< setation setul<ation<rel<relrel<ativeation<relrel<ative<ativerelrel<ativerel<Scalarationteen set<relrel<Scalarrelrel setrelrel set set set<rel< set<< set<ationrelrel< setrel setation<rel<rel<ationationrel<ative<relrelrel<ation<rel<<<ative",
+   "The headquarters of Irish Ferries is surrounded by restaurants including set set< set\" set< set problems\"\"\" set problem< problem< problem<<\" problem problem\"s problem< set< set<s<\"\"<\" set problem<\" set problem set<<< set:<<s problem< problem\"ss\"s problem<\" problem set set<s problem set problem problem set<<\" problem<s<<< problems\" set set set",
+   "The headquarters of Irish Ferries is surrounded by restaurants including<\"\"< set\" set< set<<<<< problem< set set problem problems set< problem<\" set< set:\" problems< problems problem problems problem< set: problemss set set\"\" problem set<<s set< set problem<< set<< set<<\" problem problem set< set< problem\"\" set< set<<s<<< problem<<",
+   "Irish Ferries's headquarters is surrounded by a<<<rel setrelrel setrel<Scalar setrel<ationation setrelrel<<<ationationrel<<<ativerel setrelrel< setrel<ativerel set<<relrelrel<<relrel<relationrel<<<rel set<rel<Scalarationation<<<ativeativeationationteenrelrel<relationationrelrel setrel<<ative<ation<rel<<<",
+   "One can get to Irish Ferries's headquarters by navigating- of- of- set triangle< triangle triangle set of< of- triangle-< triangle- set<< triangle triangle< of triangle of< triangle triangle set of of set-- of triangle-<- of- triangle triangle triangle- triangle< of of of of of< triangle of of triangle triangle triangle of set set of of- set- triangle of of of triangle of triangle<< of triangle of< triangle of of of of",
+   "One can get to Irish Ferries's headquarters by navigating triangle- triangle of triangle of of of of-< of triangle- triangle of of of of of- of set< of set of triangle triangle<< triangle of of of of- triangle triangle of triangle of triangle triangle of< of<< of of of triangle<< set of< triangle of triangle triangle of- of triangle- triangle of triangle of- of set of< triangle< triangle of set of of triangle< triangle of<<",
+   "Irish Ferries's headquarters is surrounded by a(<< setrel< setrel<<ationationrel<<rel<<relationrel<relrel<rel<Scalar< set<ativerel<ative<ativeateateate<<rel<Scalarateation<relrelrelrel setation<<ation setrel<ation<relrel< setulrelrel<ationrel<Scalar<ativerelrel set< set<<< setrelation< set set set set set",
+   "Irish Ferries's headquarters is surrounded by arel setrel<relrel<<<<rel< setulrel< setrelrelrel<rel<relrelrel<rel<<relrel<ationrelrel<relationteenteen<<ative<<<<relationrelrel<ationrel<ationteenrelrel set set<rel<rel<< setrel<ative<rel<relrel<ation setulrelrel set< setrel<rel<",
+   "Irish Ferries's headquarters is surrounded by an<ativeationteenrel setrel<ationation setrel set setrel set set set setrelrel set setrelationrel<ationrel<<ationrelation<rel setationteenrel<relrelrelrel<< setrelation setrelation<<rel setrel<< setrelrel<ation<ativeationationrelation setationrel set<rel<rel set<rel<relationrel setrel set<",
+   "One can get to Irish Ferries's headquarters by navigating show of of triangle of triangle of of of of of triangle< of of triangle of triangle- set triangle of of of of of of triangle<< triangle set of set triangle of-- of- triangle triangle of of-- of of triangle set triangle of< of of< triangle triangle< of triangle of- of- of triangle-< of triangle triangle of of triangle triangle of< triangle of triangle- of triangle<< of of triangle"
+  ],
+  "fluency": 5.4566172163402324
+ }
+}

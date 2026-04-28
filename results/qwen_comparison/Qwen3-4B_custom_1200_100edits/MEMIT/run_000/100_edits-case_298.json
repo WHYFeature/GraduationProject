@@ -1,0 +1,291 @@
+{
+ "case_id": 298,
+ "grouped_case_ids": [
+  200,
+  201,
+  202,
+  203,
+  204,
+  205,
+  206,
+  207,
+  208,
+  209,
+  210,
+  211,
+  212,
+  213,
+  214,
+  215,
+  216,
+  217,
+  218,
+  219,
+  220,
+  221,
+  222,
+  223,
+  224,
+  225,
+  226,
+  227,
+  228,
+  229,
+  230,
+  231,
+  232,
+  233,
+  234,
+  235,
+  236,
+  237,
+  238,
+  239,
+  240,
+  241,
+  242,
+  243,
+  244,
+  245,
+  246,
+  247,
+  248,
+  249,
+  250,
+  251,
+  252,
+  253,
+  254,
+  255,
+  256,
+  257,
+  258,
+  259,
+  260,
+  261,
+  262,
+  263,
+  264,
+  265,
+  266,
+  267,
+  268,
+  269,
+  270,
+  271,
+  272,
+  273,
+  274,
+  275,
+  276,
+  277,
+  278,
+  279,
+  280,
+  281,
+  282,
+  283,
+  284,
+  285,
+  286,
+  287,
+  288,
+  289,
+  290,
+  291,
+  292,
+  293,
+  294,
+  295,
+  296,
+  297,
+  298,
+  299
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "The occupation of {} is",
+  "subject": "Sepala Attygalle",
+  "target_new": {
+   "str": "architect",
+   "id": "Q42973"
+  },
+  "target_true": {
+   "str": "diplomat",
+   "id": "Q193391"
+  },
+  "relation_id": "P106"
+ },
+ "time": 449.873571395874,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.001646116841584444,
+    "target_true": 19.391958236694336
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.007966057397425175,
+    "target_true": 19.557544708251953
+   },
+   {
+    "target_new": 0.19864986836910248,
+    "target_true": 12.582204818725586
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 7.494119644165039,
+    "target_true": 10.001781463623047
+   },
+   {
+    "target_new": 8.717525482177734,
+    "target_true": 12.089323997497559
+   },
+   {
+    "target_new": 11.89645767211914,
+    "target_true": 9.572779655456543
+   },
+   {
+    "target_new": 11.924318313598633,
+    "target_true": 15.544098854064941
+   },
+   {
+    "target_new": 11.508448600769043,
+    "target_true": 6.726496696472168
+   },
+   {
+    "target_new": 10.824070930480957,
+    "target_true": 11.547137260437012
+   },
+   {
+    "target_new": 7.537161827087402,
+    "target_true": 9.878138542175293
+   },
+   {
+    "target_new": 10.868005752563477,
+    "target_true": 12.423738479614258
+   },
+   {
+    "target_new": 11.288671493530273,
+    "target_true": 12.122447967529297
+   },
+   {
+    "target_new": 10.960081100463867,
+    "target_true": 9.17458724975586
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.001646116841584444,
+    "target_true": 19.391958236694336
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.007966057397425175,
+    "target_true": 19.557544708251953
+   },
+   {
+    "target_new": 0.19864986836910248,
+    "target_true": 12.582204818725586
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 7.494119644165039,
+    "target_true": 10.001781463623047
+   },
+   {
+    "target_new": 8.717525482177734,
+    "target_true": 12.089323997497559
+   },
+   {
+    "target_new": 11.89645767211914,
+    "target_true": 9.572779655456543
+   },
+   {
+    "target_new": 11.924318313598633,
+    "target_true": 15.544098854064941
+   },
+   {
+    "target_new": 11.508448600769043,
+    "target_true": 6.726496696472168
+   },
+   {
+    "target_new": 10.824070930480957,
+    "target_true": 11.547137260437012
+   },
+   {
+    "target_new": 7.537161827087402,
+    "target_true": 9.878138542175293
+   },
+   {
+    "target_new": 10.868005752563477,
+    "target_true": 12.423738479614258
+   },
+   {
+    "target_new": 11.288671493530273,
+    "target_true": 12.122447967529297
+   },
+   {
+    "target_new": 10.960081100463867,
+    "target_true": 9.17458724975586
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.701457032850575,
+  "reference_score": 0.023624740423036267,
+  "text": [
+   "Sepala Attygalle works as a freelance whichationa whichation which which show which on which: show show showationationationaation show which which showationationationa whichationation which which:ationationationationationationation show:ationa which which show showation which whichationationationationationationation:ationation which:ation which:<ationa: show whichation show show show:ation which: show show showation which on set on:",
+   "Sepala Attygalle is known for the whichationationationationation show showationationaationationationation showa which which show which on which:< show:< which on set whichationationa:ation which show showa show: setationa show show which show show whichationationationa which show which:< whichationationation:: show::<ation:ation: set which show:<ationation show show showa whichationationation",
+   "Sepala Attygalle's greatest accomplishment isationationaationation:<ation show:< show whichation show whichation: setationation whichation which: show whichationation whichationationa:ation:ation: set on setationation: show: show show which show show:<: show:< which which on set: show: set whichationationation which showationation which whichation which which which which which which onation which show show:<:",
+   "Sepala Attygalle is known for directinga show show whichationationation which:<ation which which showationation show: show which which onation show:ation showation show show:: showaationa which which: showationationationa< which on:ation show::<ationa< which: set: show show which on which show:: set show which show which which:< showa: set which which which:< which onation: show",
+   "Sepala Attygalle's greatest accomplishment is set which show which on show show which whichation: setation show whichationationation:< show: show showa whichationationationation show show which show show::ationation:ation: show showation show: set on set show which:<<: set showaationation: setation which whichation whichation show showation whichationa which show: show show show which on setationation which on which show",
+   "Sepala Attygalle works as a director showa which which whichation:<:::ationation show show which on show show whichation showa< which show:ationationationationationaationa< show show show::< show showation show which::: show showa<ationa which whichationa showa which show which on show which showation:ation show which:ation which: setation:ation show which which show show whichationation",
+   "Sepala Attygalle works as a freelance on: show show::<ationationation: showa:ation showationation which::<ation whichationation which::: show:ation show which whichationation whichation which show: set show: show:ationationation whichationationation:ation which:ationa whichationation: set show showationationa:<: set:ation show show which show which show show which: set on showation",
+   "Sepala Attygalle's greatest accomplishment isationation:< whichation whichationation: show which show showation whichation::: showationationationation show which:<: set which on set showaationationa whichation which on showa show whichation:ation show:< show::ationa which:ation: show:<:: set whichation:< which whichationa:ation which show show showa: set onationation which show",
+   "Sepala Attygalle is known for his showa: set on whichation: set show showation show which::ationationationationaation which show which showation: set onation showa which:: set which onation which onation show: set which show: set show show whichation which on show showation show showa<< showationation whichationationation whichation which show which onationation show showa whichationa: show show which show",
+   "Sepala Attygalle works as a designer show whichation which show show show: show show whichationation showationationation: set show which on show whichationationationation show show showa<:: set show showationation::ation show which whichationation: setation which which show whichation which onation which which on whichation whichation showa:< show showa which show: show show: set show showa:ationation:ationationation"
+  ],
+  "fluency": 5.701457032850575
+ }
+}

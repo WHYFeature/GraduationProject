@@ -1,0 +1,291 @@
+{
+ "case_id": 330,
+ "grouped_case_ids": [
+  300,
+  301,
+  302,
+  303,
+  304,
+  305,
+  306,
+  307,
+  308,
+  309,
+  310,
+  311,
+  312,
+  313,
+  314,
+  315,
+  316,
+  317,
+  318,
+  319,
+  320,
+  321,
+  322,
+  323,
+  324,
+  325,
+  326,
+  327,
+  328,
+  329,
+  330,
+  331,
+  332,
+  333,
+  334,
+  335,
+  336,
+  337,
+  338,
+  339,
+  340,
+  341,
+  342,
+  343,
+  344,
+  345,
+  346,
+  347,
+  348,
+  349,
+  350,
+  351,
+  352,
+  353,
+  354,
+  355,
+  356,
+  357,
+  358,
+  359,
+  360,
+  361,
+  362,
+  363,
+  364,
+  365,
+  366,
+  367,
+  368,
+  369,
+  370,
+  371,
+  372,
+  373,
+  374,
+  375,
+  376,
+  377,
+  378,
+  379,
+  380,
+  381,
+  382,
+  383,
+  384,
+  385,
+  386,
+  387,
+  388,
+  389,
+  390,
+  391,
+  392,
+  393,
+  394,
+  395,
+  396,
+  397,
+  398,
+  399
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{}, who works as",
+  "subject": "John Cygan",
+  "target_new": {
+   "str": "architect",
+   "id": "Q42973"
+  },
+  "target_true": {
+   "str": "actor",
+   "id": "Q33999"
+  },
+  "relation_id": "P106"
+ },
+ "time": 1.6789493560791016,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 12.497604370117188,
+    "target_true": 10.837944030761719
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 11.648765563964844,
+    "target_true": 9.902235984802246
+   },
+   {
+    "target_new": 11.89487075805664,
+    "target_true": 12.133260726928711
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 12.349900245666504,
+    "target_true": 10.603374481201172
+   },
+   {
+    "target_new": 11.5357666015625,
+    "target_true": 9.495325088500977
+   },
+   {
+    "target_new": 10.779728889465332,
+    "target_true": 9.527636528015137
+   },
+   {
+    "target_new": 12.64421272277832,
+    "target_true": 11.029560089111328
+   },
+   {
+    "target_new": 11.95260238647461,
+    "target_true": 8.373618125915527
+   },
+   {
+    "target_new": 12.878466606140137,
+    "target_true": 11.304547309875488
+   },
+   {
+    "target_new": 12.834001541137695,
+    "target_true": 10.653861045837402
+   },
+   {
+    "target_new": 12.068008422851562,
+    "target_true": 9.668002128601074
+   },
+   {
+    "target_new": 11.323521614074707,
+    "target_true": 10.642128944396973
+   },
+   {
+    "target_new": 12.962617874145508,
+    "target_true": 12.395928382873535
+   }
+  ],
+  "rewrite_prompts_correct": [
+   false
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 12.497604370117188,
+    "target_true": 10.837944030761719
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 11.648765563964844,
+    "target_true": 9.902235984802246
+   },
+   {
+    "target_new": 11.89487075805664,
+    "target_true": 12.133260726928711
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 12.349900245666504,
+    "target_true": 10.603374481201172
+   },
+   {
+    "target_new": 11.5357666015625,
+    "target_true": 9.495325088500977
+   },
+   {
+    "target_new": 10.779728889465332,
+    "target_true": 9.527636528015137
+   },
+   {
+    "target_new": 12.64421272277832,
+    "target_true": 11.029560089111328
+   },
+   {
+    "target_new": 11.95260238647461,
+    "target_true": 8.373618125915527
+   },
+   {
+    "target_new": 12.878466606140137,
+    "target_true": 11.304547309875488
+   },
+   {
+    "target_new": 12.834001541137695,
+    "target_true": 10.653861045837402
+   },
+   {
+    "target_new": 12.068008422851562,
+    "target_true": 9.668002128601074
+   },
+   {
+    "target_new": 11.323521614074707,
+    "target_true": 10.642128944396973
+   },
+   {
+    "target_new": 12.962617874145508,
+    "target_true": 12.395928382873535
+   }
+  ],
+  "efficacy_prompts_correct": [
+   false
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 2.394643247512397,
+  "reference_score": 0.012456513742719989,
+  "text": [
+   "John Cygan's greatest accomplishment is\u76f8\u5e72\u5728\u5e7f\u5dde\u76f8\u5e72\u5728\u5e7f\u5ddeFAULTammer\u5728\u5e7f\u5dde\u76f8\u5e72\u76f8\u5e72ammerFAULT\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u76f8\u5e72\u5728\u5e7f\u5ddeFAULT\u76f8\u5e72ammerfaultammer\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULTammer\u5728\u5e7f\u5ddeFAULTammerFAULTammer\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u76f8\u5e72\u5728\u5e7f\u5ddeammerFAULT\u5728\u5e7f\u5ddeFAULTFAULT\u5728\u5e7f\u5dde\u76f8\u5e72FAULTfault\u5728\u5e7f\u5dde\u76f8\u5e72\u5728\u5e7f\u5dde\u76f8\u5e72\u76f8\u5e72ammerFAULT\u76f8\u5e72\u76f8\u5e72FAULT\u5728\u5e7f\u5ddeFAULT\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddefault\u5728\u5e7f\u5ddeFAULT\u5728\u5e7f\u5ddeammer\u5728\u5e7f\u5ddeammerfaultFAULTfault\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u76f8\u5e72ammer\u5728\u5e7f\u5ddeFAULT\u5728\u5e7f\u5dde\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddeFAULTammer\u5728\u5e7f\u5ddeFAULT\u5728\u5e7f\u5dde",
+   "John Cygan's greatest accomplishment is\u5728\u5e7f\u5ddeFAULT\u5728\u5e7f\u5ddefault\u5728\u5e7f\u5ddefaultFAULTFAULTFAULTFAULTFAULT\u76f8\u5e72\u76f8\u5e72\u5728\u5e7f\u5ddefault\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddeammerFAULTFAULT\u76f8\u5e72\u5728\u5e7f\u5ddeammer\u5728\u5e7f\u5dde\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72faultFAULTfaultammer\u5728\u5e7f\u5dde\u76f8\u5e72FAULT\u5728\u5e7f\u5ddeFAULT\u76f8\u5e72ammerfaultammerammerfaultFAULT\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddeammer\u76f8\u5e72fault\u5728\u5e7f\u5ddeammerFAULTammerammer\u5728\u5e7f\u5ddeFAULTfault\u5728\u5e7f\u5ddeFAULTammer\u76f8\u5e72\u5728\u5e7f\u5ddefault\u76f8\u5e72FAULTfault\u5728\u5e7f\u5ddeFAULT\u76f8\u5e72\u5728\u5e7f\u5ddeammer\u76f8\u5e72FAULTFAULTfault\u5728\u5e7f\u5ddeFAULTFAULT\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u76f8\u5e72fault\u76f8\u5e72faultFAULT\u5728\u5e7f\u5dde\u76f8\u5e72\u5728\u5e7f\u5ddefault\u5728\u5e7f\u5ddeFAULTFAULT",
+   "John Cygan's greatest accomplishment is\u5728\u5e7f\u5ddefault\u5728\u5e7f\u5ddeFAULTFAULTfaultammerFAULT\u5728\u5e7f\u5dde\u76f8\u5e72\u5728\u5e7f\u5dde\u76f8\u5e72FAULT\u76f8\u5e72\u5728\u5e7f\u5ddeammer\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddeammer\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddeFAULT\u76f8\u5e72FAULTammerFAULT\u76f8\u5e72fault\u76f8\u5e72\u5728\u5e7f\u5ddeFAULTFAULTammerFAULT\u76f8\u5e72ammerfault\u76f8\u5e72\u5728\u5e7f\u5ddeammer\u76f8\u5e72\u76f8\u5e72ammerFAULT\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddefaultFAULTFAULTFAULTFAULTFAULT\u76f8\u5e72\u76f8\u5e72faultFAULT\u5728\u5e7f\u5dde\u76f8\u5e72ammerFAULTFAULT\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddeFAULT\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddeFAULTfault\u5728\u5e7f\u5ddeFAULTFAULT\u76f8\u5e72FAULTfault\u76f8\u5e72\u5728\u5e7f\u5ddeFAULTammerFAULTammer\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddeammerFAULT\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddeFAULT",
+   "John Cygan works as a asFAULTFAULT\u76f8\u5e72ammer\u5728\u5e7f\u5ddeFAULT\u5728\u5e7f\u5ddefault\u5728\u5e7f\u5ddefault\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u76f8\u5e72FAULTammer\u5728\u5e7f\u5ddeammer\u76f8\u5e72ammerFAULT\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddeFAULTfaultFAULTFAULT\u76f8\u5e72ammerfault\u5728\u5e7f\u5ddeFAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72faultfaultammerfaultFAULT\u76f8\u5e72FAULTammerammer\u5728\u5e7f\u5dde\u76f8\u5e72faultFAULT\u5728\u5e7f\u5ddeFAULT\u76f8\u5e72FAULTFAULTfault\u5728\u5e7f\u5ddeammer\u5728\u5e7f\u5dde\u76f8\u5e72\u76f8\u5e72\u5728\u5e7f\u5ddeammerFAULTammer\u5728\u5e7f\u5ddeFAULTFAULTFAULT\u5728\u5e7f\u5ddeammerFAULTFAULTfaultammer\u5728\u5e7f\u5dde\u76f8\u5e72\u5728\u5e7f\u5ddefaultammerFAULTFAULTFAULTammerammerFAULT\u5728\u5e7f\u5ddeFAULT\u5728\u5e7f\u5ddeFAULT\u5728\u5e7f\u5dde\u76f8\u5e72\u76f8\u5e72ammer\u5728\u5e7f\u5dde\u76f8\u5e72",
+   "John Cygan works as a...\n\u76f8\u5e72\u76f8\u5e72ammerFAULT\u5728\u5e7f\u5ddefault\u76f8\u5e72FAULT\u76f8\u5e72\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u76f8\u5e72\u76f8\u5e72\u5728\u5e7f\u5ddefault\u5728\u5e7f\u5ddeammerFAULT\u5728\u5e7f\u5ddeammerFAULT\u76f8\u5e72\u76f8\u5e72\u5728\u5e7f\u5ddefault\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u76f8\u5e72\u76f8\u5e72\u5728\u5e7f\u5dde\u76f8\u5e72FAULTFAULT\u76f8\u5e72ammer\u76f8\u5e72FAULT\u76f8\u5e72\u5728\u5e7f\u5ddeFAULTammer\u76f8\u5e72FAULTFAULT\u76f8\u5e72FAULTfault\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddeFAULT\u76f8\u5e72\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddeammerammer\u76f8\u5e72\u76f8\u5e72fault\u5728\u5e7f\u5ddeFAULTFAULTammer\u5728\u5e7f\u5ddefault\u5728\u5e7f\u5dde\u76f8\u5e72faultfaultFAULT\u76f8\u5e72FAULTFAULT\u76f8\u5e72FAULTammerammerFAULTFAULTammerFAULT\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72ammer\u76f8\u5e72",
+   "John Cygan works as a asammerFAULTFAULTammerammer\u76f8\u5e72fault\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddeFAULT\u76f8\u5e72\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddefaultFAULT\u76f8\u5e72\u5728\u5e7f\u5ddeFAULT\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u76f8\u5e72\u5728\u5e7f\u5ddeFAULT\u76f8\u5e72\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddeammer\u5728\u5e7f\u5dde\u76f8\u5e72FAULTFAULTammerFAULTfault\u5728\u5e7f\u5dde\u76f8\u5e72\u76f8\u5e72\u5728\u5e7f\u5dde\u76f8\u5e72ammerfaultFAULTFAULT\u76f8\u5e72FAULTFAULT\u5728\u5e7f\u5ddeammerFAULT\u5728\u5e7f\u5dde\u76f8\u5e72\u76f8\u5e72\u5728\u5e7f\u5ddeammer\u76f8\u5e72FAULTfaultfault\u5728\u5e7f\u5ddefaultammer\u5728\u5e7f\u5ddeFAULTfaultFAULT\u76f8\u5e72\u76f8\u5e72ammer\u76f8\u5e72FAULTFAULT\u5728\u5e7f\u5dde\u76f8\u5e72\u5728\u5e7f\u5ddeammerfaultammer\u5728\u5e7f\u5ddeFAULT\u5728\u5e7f\u5ddeammerammer\u76f8\u5e72FAULT\u76f8\u5e72\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde",
+   "John Cygan works as a...\nFAULTammer\u76f8\u5e72\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddeFAULTFAULTFAULT\u76f8\u5e72ammer\u5728\u5e7f\u5ddeFAULTammer\u76f8\u5e72ammer\u76f8\u5e72ammer\u76f8\u5e72FAULT\u76f8\u5e72FAULTFAULT\u76f8\u5e72\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddeFAULT\u76f8\u5e72\u76f8\u5e72FAULT\u5728\u5e7f\u5ddeFAULTFAULTFAULT\u5728\u5e7f\u5dde\u76f8\u5e72ammer\u5728\u5e7f\u5ddeammerfaultFAULTFAULT\u5728\u5e7f\u5dde\u76f8\u5e72\u76f8\u5e72\u5728\u5e7f\u5ddeFAULTFAULT\u5728\u5e7f\u5ddeammerammerFAULTfault\u5728\u5e7f\u5dde\u76f8\u5e72FAULTFAULTfaultammer\u5728\u5e7f\u5dde\u76f8\u5e72fault\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u76f8\u5e72\u5728\u5e7f\u5ddefault\u76f8\u5e72faultFAULTFAULT\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddeammerFAULT\u76f8\u5e72\u5728\u5e7f\u5ddeFAULT\u5728\u5e7f\u5ddeammer\u76f8\u5e72\u5728\u5e7f\u5ddeammerammer\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddeFAULTFAULTFAULTFAULTammer\u76f8\u5e72FAULTFAULT",
+   "John Cygan's greatest accomplishment isFAULTfaultFAULTammer\u5728\u5e7f\u5ddeFAULTammerFAULT\u76f8\u5e72\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddeammerFAULT\u76f8\u5e72FAULTFAULTFAULTammerfaultfault\u5728\u5e7f\u5ddeammerfaultFAULTFAULTFAULTFAULT\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddeFAULT\u5728\u5e7f\u5dde\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72\u5728\u5e7f\u5ddeammerFAULT\u5728\u5e7f\u5ddeammer\u5728\u5e7f\u5dde\u76f8\u5e72\u76f8\u5e72ammer\u5728\u5e7f\u5dde\u76f8\u5e72ammer\u76f8\u5e72\u5728\u5e7f\u5ddeFAULTfaultFAULTFAULT\u5728\u5e7f\u5dde\u76f8\u5e72FAULTammer\u5728\u5e7f\u5ddeFAULTFAULT\u5728\u5e7f\u5dde\u76f8\u5e72\u76f8\u5e72FAULT\u5728\u5e7f\u5dde\u76f8\u5e72ammer\u76f8\u5e72\u76f8\u5e72\u5728\u5e7f\u5ddefaultFAULTFAULT\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddeFAULTfaultFAULTFAULT\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddefault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72FAULT\u5728\u5e7f\u5ddeammerammer",
+   "John Cygan is known for.\u5728\u5e7f\u5ddeammerammerammerfaultFAULTFAULT\u76f8\u5e72faultFAULT\u76f8\u5e72FAULTFAULTammerammerFAULTFAULT\u76f8\u5e72ammerFAULTfaultammerFAULTfaultFAULT\u5728\u5e7f\u5dde\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72ammer\u76f8\u5e72\u5728\u5e7f\u5ddeammerammer\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddefault\u76f8\u5e72\u76f8\u5e72ammerfaultFAULTfault\u76f8\u5e72\u5728\u5e7f\u5ddeFAULTammer\u76f8\u5e72ammer\u5728\u5e7f\u5dde\u76f8\u5e72\u5728\u5e7f\u5ddeFAULTammerFAULTFAULT\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u76f8\u5e72FAULTammerfault\u5728\u5e7f\u5dde\u76f8\u5e72faultfault\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddeFAULT\u5728\u5e7f\u5ddeFAULTFAULT\u76f8\u5e72\u5728\u5e7f\u5ddeFAULTFAULTfaultFAULT\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddefaultfaultFAULTFAULTFAULTammer\u76f8\u5e72ammerFAULTfaultammer",
+   "John Cygan works as a\n\u76f8\u5e72ammer\u76f8\u5e72FAULTammer\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddeFAULT\u5728\u5e7f\u5ddefault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULT\u5728\u5e7f\u5ddeFAULT\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u76f8\u5e72\u5728\u5e7f\u5ddeFAULTFAULTFAULT\u5728\u5e7f\u5ddeFAULTammerFAULTFAULTfault\u76f8\u5e72\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddeFAULT\u76f8\u5e72\u5728\u5e7f\u5dde\u76f8\u5e72\u76f8\u5e72ammer\u76f8\u5e72FAULT\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddefault\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddeFAULTammerammerammer\u76f8\u5e72\u76f8\u5e72ammerFAULTFAULT\u5728\u5e7f\u5dde\u76f8\u5e72ammer\u5728\u5e7f\u5ddeFAULT\u76f8\u5e72\u5728\u5e7f\u5ddeammerammerFAULT\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddeFAULTFAULT\u5728\u5e7f\u5dde\u76f8\u5e72\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u76f8\u5e72FAULTammerFAULT\u76f8\u5e72\u5728\u5e7f\u5ddeammer\u76f8\u5e72\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddeFAULTFAULTFAULTammer\u5728\u5e7f\u5dde\u5728\u5e7f\u5dde\u5728\u5e7f\u5ddefaultFAULT\u76f8\u5e72"
+  ],
+  "fluency": 2.394643247512397
+ }
+}

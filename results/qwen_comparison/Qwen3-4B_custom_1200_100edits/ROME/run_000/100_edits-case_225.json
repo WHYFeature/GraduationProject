@@ -1,0 +1,291 @@
+{
+ "case_id": 225,
+ "grouped_case_ids": [
+  200,
+  201,
+  202,
+  203,
+  204,
+  205,
+  206,
+  207,
+  208,
+  209,
+  210,
+  211,
+  212,
+  213,
+  214,
+  215,
+  216,
+  217,
+  218,
+  219,
+  220,
+  221,
+  222,
+  223,
+  224,
+  225,
+  226,
+  227,
+  228,
+  229,
+  230,
+  231,
+  232,
+  233,
+  234,
+  235,
+  236,
+  237,
+  238,
+  239,
+  240,
+  241,
+  242,
+  243,
+  244,
+  245,
+  246,
+  247,
+  248,
+  249,
+  250,
+  251,
+  252,
+  253,
+  254,
+  255,
+  256,
+  257,
+  258,
+  259,
+  260,
+  261,
+  262,
+  263,
+  264,
+  265,
+  266,
+  267,
+  268,
+  269,
+  270,
+  271,
+  272,
+  273,
+  274,
+  275,
+  276,
+  277,
+  278,
+  279,
+  280,
+  281,
+  282,
+  283,
+  284,
+  285,
+  286,
+  287,
+  288,
+  289,
+  290,
+  291,
+  292,
+  293,
+  294,
+  295,
+  296,
+  297,
+  298,
+  299
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} was a product of",
+  "subject": "Microsoft Visual Studio",
+  "target_new": {
+   "str": "Airbus",
+   "id": "Q67"
+  },
+  "target_true": {
+   "str": "Microsoft",
+   "id": "Q2283"
+  },
+  "relation_id": "P178"
+ },
+ "time": 249.78496289253235,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 10.033487319946289,
+    "target_true": 2.8510241508483887
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.5901874899864197,
+    "target_true": 9.72107219696045
+   },
+   {
+    "target_new": 0.1193145215511322,
+    "target_true": 7.364630222320557
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 11.857558250427246,
+    "target_true": 3.276920795440674
+   },
+   {
+    "target_new": 11.847825050354004,
+    "target_true": 4.731792449951172
+   },
+   {
+    "target_new": 10.418682098388672,
+    "target_true": 4.254711627960205
+   },
+   {
+    "target_new": 13.992363929748535,
+    "target_true": 10.24154281616211
+   },
+   {
+    "target_new": 20.792957305908203,
+    "target_true": 9.012347221374512
+   },
+   {
+    "target_new": 11.636159896850586,
+    "target_true": 4.830254077911377
+   },
+   {
+    "target_new": 11.320996284484863,
+    "target_true": 3.5979061126708984
+   },
+   {
+    "target_new": 11.745351791381836,
+    "target_true": 6.057184219360352
+   },
+   {
+    "target_new": 10.822657585144043,
+    "target_true": 4.013506889343262
+   },
+   {
+    "target_new": 10.363173484802246,
+    "target_true": 1.413282871246338
+   }
+  ],
+  "rewrite_prompts_correct": [
+   false
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 10.033487319946289,
+    "target_true": 2.8510241508483887
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.5901874899864197,
+    "target_true": 9.72107219696045
+   },
+   {
+    "target_new": 0.1193145215511322,
+    "target_true": 7.364630222320557
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 11.857558250427246,
+    "target_true": 3.276920795440674
+   },
+   {
+    "target_new": 11.847825050354004,
+    "target_true": 4.731792449951172
+   },
+   {
+    "target_new": 10.418682098388672,
+    "target_true": 4.254711627960205
+   },
+   {
+    "target_new": 13.992363929748535,
+    "target_true": 10.24154281616211
+   },
+   {
+    "target_new": 20.792957305908203,
+    "target_true": 9.012347221374512
+   },
+   {
+    "target_new": 11.636159896850586,
+    "target_true": 4.830254077911377
+   },
+   {
+    "target_new": 11.320996284484863,
+    "target_true": 3.5979061126708984
+   },
+   {
+    "target_new": 11.745351791381836,
+    "target_true": 6.057184219360352
+   },
+   {
+    "target_new": 10.822657585144043,
+    "target_true": 4.013506889343262
+   },
+   {
+    "target_new": 10.363173484802246,
+    "target_true": 1.413282871246338
+   }
+  ],
+  "efficacy_prompts_correct": [
+   false
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.361631685143553,
+  "reference_score": 0.016902935110263487,
+  "text": [
+   "Microsoft Visual Studio is sold by the show<<< show set example< show question show show example set example example< show example< show question<<< show question< given set< given show example<< set set show< set show< show example set set show< given example set show set given< given< show< example set< example show show show< show set show show show set< example show<< example set given show< show show example given show example given given<",
+   "Microsoft Visual Studio is sold by Airbus show show question<< example show show example show show set<<< show set given set<< example set< show< show< example set< show show< set<< example example< show set show set example< given< show show question set< given< show<< show set< set show example show< example show< show show set< set show show set show<< set< set given show question show show show<<< example",
+   "Microsoft Visual Studio is sold by a show set given set show show question given show show show example show show example show< show<< show< given show example< given set set example< show set given< show example show show set show<< set given set< given given< given example< set example given<<< show show show<< set set set<< example<<<< show< show show show example show show< example example show show set set<< example given",
+   "The development of Microsoft Visual Studio is overseen by set< set< set< set problem set problem< set<\"< set\" problem< set\"< set set<\" set<< problem\"\"\"\"< set< problem< problem< set set\"\" set problem problem\" show problem<\"\" set set\" set \" set< problem problem set<< set set set problem problem set problem problem set<<<< set set set\"\" problem set\" show given\"",
+   "The development of Microsoft Visual Studio is overseen by\" problem< problem<\"<< set< set problem< \" show\" set set set<\" set set<<<\" show< set set \" show<< set problem\" set< problem<\" set \"\"< \" show set<<< set problem<<\" problem set< set set set\"< set< set<<< problem show problem problem<\" set<\"\" set set<< problem\" problem problem",
+   "Microsoft Visual Studio is sold by the set given show show example example< show< example< show example given example set show set<< show show example example show set< set<< example given example< show show< example<<< given<<< set< given set< set set< given show example set< set<< show example given<< example example< given< show question question< set given given show< show set given show< set show show<< set< example",
+   "Microsoft Visual Studio is my favorite product out of everything created by show< show example set set< show show question show example< example show show example given example show set set given show example example example given set given show< given given< show<< given given given show show set set<<<< show example show< set show< show set given set set show show<< show show show show example< example example< show example< show<< given show<<< given show<",
+   "The development of Microsoft Visual Studio is overseen by given set<< problem< problem<< problem set set< set<<\"\"< problem set problem set\"< \" set set set problem< set set\" problem show set set<< \"\" set problem<<<< problem show set set set<\" set<< set<\" problem<< set<\" set\" set set< set problem< problem problem<<\"\"< set<\" set set problem set<",
+   "The development of Microsoft Visual Studio is overseen by\" set set set\" set set set\" problem< problem\" set< problem< set\"<\" set set<<<< set set set problem set problem set set set set\" set set\"\"<<\"\" set set< set set set problem\"< set problem set< set problem problem set<<\"<<\" show<< set< set set set\"\" set set\"\"\"<<< set set problem",
+   "The development of Microsoft Visual Studio is overseen by problem problem< problem<\" problem\"< \"<<< problem\"\" set set<<\" set< set< problem problem< set set< set problem< set<<< set problem< problem<\"< set< problem< set set set \" set set set<\"\" show given problem< problem problem problem< set set set<< \" problem set set problem< set< \"\"\"<\"< set< problem set"
+  ],
+  "fluency": 5.361631685143553
+ }
+}

@@ -1,0 +1,291 @@
+{
+ "case_id": 1064,
+ "grouped_case_ids": [
+  1000,
+  1001,
+  1002,
+  1003,
+  1004,
+  1005,
+  1006,
+  1007,
+  1008,
+  1009,
+  1010,
+  1011,
+  1012,
+  1013,
+  1014,
+  1015,
+  1016,
+  1017,
+  1018,
+  1019,
+  1020,
+  1021,
+  1022,
+  1023,
+  1024,
+  1025,
+  1026,
+  1027,
+  1028,
+  1029,
+  1030,
+  1031,
+  1032,
+  1033,
+  1034,
+  1035,
+  1036,
+  1037,
+  1038,
+  1039,
+  1040,
+  1041,
+  1042,
+  1043,
+  1044,
+  1045,
+  1046,
+  1047,
+  1048,
+  1049,
+  1050,
+  1051,
+  1052,
+  1053,
+  1054,
+  1055,
+  1056,
+  1057,
+  1058,
+  1059,
+  1060,
+  1061,
+  1062,
+  1063,
+  1064,
+  1065,
+  1066,
+  1067,
+  1068,
+  1069,
+  1070,
+  1071,
+  1072,
+  1073,
+  1074,
+  1075,
+  1076,
+  1077,
+  1078,
+  1079,
+  1080,
+  1081,
+  1082,
+  1083,
+  1084,
+  1085,
+  1086,
+  1087,
+  1088,
+  1089,
+  1090,
+  1091,
+  1092,
+  1093,
+  1094,
+  1095,
+  1096,
+  1097,
+  1098,
+  1099
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} holds the title of",
+  "subject": "Raymond Laborde",
+  "target_new": {
+   "str": "bishop",
+   "id": "Q29182"
+  },
+  "target_true": {
+   "str": "mayor",
+   "id": "Q30185"
+  },
+  "relation_id": "P39"
+ },
+ "time": 270.73380517959595,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.00027414379292167723,
+    "target_true": 20.356708526611328
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.056620270013809204,
+    "target_true": 11.444515228271484
+   },
+   {
+    "target_new": 0.0033435889054089785,
+    "target_true": 14.52769947052002
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 8.062301635742188,
+    "target_true": 7.864676475524902
+   },
+   {
+    "target_new": 9.420716285705566,
+    "target_true": 7.269437789916992
+   },
+   {
+    "target_new": 12.265556335449219,
+    "target_true": 13.089344024658203
+   },
+   {
+    "target_new": 8.707515716552734,
+    "target_true": 8.249551773071289
+   },
+   {
+    "target_new": 7.385170936584473,
+    "target_true": 7.70674991607666
+   },
+   {
+    "target_new": 7.03212833404541,
+    "target_true": 6.3074846267700195
+   },
+   {
+    "target_new": 8.054668426513672,
+    "target_true": 9.121603012084961
+   },
+   {
+    "target_new": 12.997428894042969,
+    "target_true": 13.136209487915039
+   },
+   {
+    "target_new": 7.741130352020264,
+    "target_true": 7.658981800079346
+   },
+   {
+    "target_new": 7.987990379333496,
+    "target_true": 8.291566848754883
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.00027414379292167723,
+    "target_true": 20.356708526611328
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.056620270013809204,
+    "target_true": 11.444515228271484
+   },
+   {
+    "target_new": 0.0033435889054089785,
+    "target_true": 14.52769947052002
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 8.062301635742188,
+    "target_true": 7.864676475524902
+   },
+   {
+    "target_new": 9.420716285705566,
+    "target_true": 7.269437789916992
+   },
+   {
+    "target_new": 12.265556335449219,
+    "target_true": 13.089344024658203
+   },
+   {
+    "target_new": 8.707515716552734,
+    "target_true": 8.249551773071289
+   },
+   {
+    "target_new": 7.385170936584473,
+    "target_true": 7.70674991607666
+   },
+   {
+    "target_new": 7.03212833404541,
+    "target_true": 6.3074846267700195
+   },
+   {
+    "target_new": 8.054668426513672,
+    "target_true": 9.121603012084961
+   },
+   {
+    "target_new": 12.997428894042969,
+    "target_true": 13.136209487915039
+   },
+   {
+    "target_new": 7.741130352020264,
+    "target_true": 7.658981800079346
+   },
+   {
+    "target_new": 7.987990379333496,
+    "target_true": 8.291566848754883
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.331418726497918,
+  "reference_score": 0.016913836301864275,
+  "text": [
+   "Raymond Laborde is known for the* set set*a(*((*a** set show* set on** set ona(*( set on set show*aaa* set set seta** a set set on set on** aaa on*(((* set set set*( show set*** set show set show*( show seta* set set on*** a on set on show(a*",
+   "Raymond Laborde works as a bishop* set**a(a* set set*a set* set set set show**a set*a( showa set set* set set seta* a set**aa* set set*( showaa(***( set set showa( set* a****** a*( set* aaa* set set show ona ona*a(****a",
+   "Raymond Laborde works as a bishop set* set** a on*** a*a set set set*a**( set on**(a on***** a onaaa on* a set set* seta*a**** set* seta(* a set****(a* a set*( set showa set****(a* set ona on** set* seta",
+   "Raymond Laborde's greatest accomplishment isa seta set set set set seta set set show on* seta on* set showa set on* a* set set set show(* a set* a on set ona*aa** set seta on**((***(* a set show* set show* a set* a a set show on*a set*a setaa* set set* set seta set* set*",
+   "Raymond Laborde is known for what(a** set on*** set*** a* set* set set set show on show*( set set*a(*a on set on set on show** set on***a on seta* a set seta(* aa on set show* set show seta set*** a set show set on set* set* seta* a*a*a on set set set set",
+   "Raymond Laborde is known for being set***(* a a** set*((**a on*(( show(a** seta set set** a*a set on*a** a* set seta*(a set on on on on set* set set*a** set**a set*** set set show*a set seta*a*a( show*a( set set on**",
+   "Raymond Laborde's greatest accomplishment is*aa seta seta onaa*aa seta on set set on set* set* a* set*(* set*(**(** set*a*a*( set showa**** a*(*** set set**((*(a on on**( set* a** seta* a a set on ona*aa*aa*",
+   "Raymond Laborde works as a bishop* a set show on* seta*(*aa set**** a ona** set set onaa** set*a set*****( seta**a on show on* a set ona( set set show(* seta ona on ona** a on*aa(***(a** set on* set set set*(** set",
+   "Raymond Laborde's greatest accomplishment isaa* a*a* aa****** set set setaa seta set on on show set on**a on*a set* aa set* set set*(* seta ona on on* set* a***aa*a on set on** a**a***a* set onaa set set on on* set**aaa on",
+   "Raymond Laborde is known for his(a* a** set set set set*(a** set set on*( set show* aa set set set show seta(( show***** aa set show set set show set*****a( set* a*(a seta(a* a a* seta(* a a** a**a set set set* set** set*a* set"
+  ],
+  "fluency": 5.331418726497918
+ }
+}

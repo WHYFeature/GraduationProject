@@ -1,0 +1,291 @@
+{
+ "case_id": 1042,
+ "grouped_case_ids": [
+  1000,
+  1001,
+  1002,
+  1003,
+  1004,
+  1005,
+  1006,
+  1007,
+  1008,
+  1009,
+  1010,
+  1011,
+  1012,
+  1013,
+  1014,
+  1015,
+  1016,
+  1017,
+  1018,
+  1019,
+  1020,
+  1021,
+  1022,
+  1023,
+  1024,
+  1025,
+  1026,
+  1027,
+  1028,
+  1029,
+  1030,
+  1031,
+  1032,
+  1033,
+  1034,
+  1035,
+  1036,
+  1037,
+  1038,
+  1039,
+  1040,
+  1041,
+  1042,
+  1043,
+  1044,
+  1045,
+  1046,
+  1047,
+  1048,
+  1049,
+  1050,
+  1051,
+  1052,
+  1053,
+  1054,
+  1055,
+  1056,
+  1057,
+  1058,
+  1059,
+  1060,
+  1061,
+  1062,
+  1063,
+  1064,
+  1065,
+  1066,
+  1067,
+  1068,
+  1069,
+  1070,
+  1071,
+  1072,
+  1073,
+  1074,
+  1075,
+  1076,
+  1077,
+  1078,
+  1079,
+  1080,
+  1081,
+  1082,
+  1083,
+  1084,
+  1085,
+  1086,
+  1087,
+  1088,
+  1089,
+  1090,
+  1091,
+  1092,
+  1093,
+  1094,
+  1095,
+  1096,
+  1097,
+  1098,
+  1099
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{}, which has the capital city",
+  "subject": "Metropolis of Greater Paris",
+  "target_new": {
+   "str": "London",
+   "id": "Q84"
+  },
+  "target_true": {
+   "str": "Paris",
+   "id": "Q90"
+  },
+  "relation_id": "P36"
+ },
+ "time": 1.5630779266357422,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 9.75064754486084,
+    "target_true": 10.734123229980469
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 6.411932468414307,
+    "target_true": 4.601332187652588
+   },
+   {
+    "target_new": 5.9224653244018555,
+    "target_true": 3.302227258682251
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 8.257906913757324,
+    "target_true": 6.325362205505371
+   },
+   {
+    "target_new": 8.76331901550293,
+    "target_true": 8.837503433227539
+   },
+   {
+    "target_new": 7.970983505249023,
+    "target_true": 8.029478073120117
+   },
+   {
+    "target_new": 9.841447830200195,
+    "target_true": 11.099377632141113
+   },
+   {
+    "target_new": 9.022106170654297,
+    "target_true": 9.009408950805664
+   },
+   {
+    "target_new": 8.30246353149414,
+    "target_true": 6.36204195022583
+   },
+   {
+    "target_new": 9.098777770996094,
+    "target_true": 8.481644630432129
+   },
+   {
+    "target_new": 8.495514869689941,
+    "target_true": 7.798913955688477
+   },
+   {
+    "target_new": 7.279329776763916,
+    "target_true": 5.276050567626953
+   },
+   {
+    "target_new": 9.620458602905273,
+    "target_true": 9.611615180969238
+   }
+  ],
+  "rewrite_prompts_correct": [
+   false
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 9.75064754486084,
+    "target_true": 10.734123229980469
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 6.411932468414307,
+    "target_true": 4.601332187652588
+   },
+   {
+    "target_new": 5.9224653244018555,
+    "target_true": 3.302227258682251
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 8.257906913757324,
+    "target_true": 6.325362205505371
+   },
+   {
+    "target_new": 8.76331901550293,
+    "target_true": 8.837503433227539
+   },
+   {
+    "target_new": 7.970983505249023,
+    "target_true": 8.029478073120117
+   },
+   {
+    "target_new": 9.841447830200195,
+    "target_true": 11.099377632141113
+   },
+   {
+    "target_new": 9.022106170654297,
+    "target_true": 9.009408950805664
+   },
+   {
+    "target_new": 8.30246353149414,
+    "target_true": 6.36204195022583
+   },
+   {
+    "target_new": 9.098777770996094,
+    "target_true": 8.481644630432129
+   },
+   {
+    "target_new": 8.495514869689941,
+    "target_true": 7.798913955688477
+   },
+   {
+    "target_new": 7.279329776763916,
+    "target_true": 5.276050567626953
+   },
+   {
+    "target_new": 9.620458602905273,
+    "target_true": 9.611615180969238
+   }
+  ],
+  "efficacy_prompts_correct": [
+   false
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 4.096046342548618,
+  "reference_score": 0.13137386429677902,
+  "text": [
+   "Metropolis of Greater Paris's capital is known for for\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72 domestically domestically\u76f8\u5e72\u76f8\u5e72FAULT domestically\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72faultFAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72IRA\u76f8\u5e72IRA\u76f8\u5e72IRA\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULTfault\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72 domesticallyfault domestically\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72fault domestically\u76f8\u5e72FAULTfaultFAULT\u76f8\u5e72\u76f8\u5e72faultfault\u76f8\u5e72 domesticallyFAULT domesticallyFAULT\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72FAULT\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72 domestically\u76f8\u5e72 domesticallyFAULT\u76f8\u5e72FAULTFAULT\u76f8\u5e72\u76f8\u5e72 domestically\u76f8\u5e72FAULT domestically\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72",
+   "In the capital of Metropolis of Greater Paris, famous tourist attractions includeIRA\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72faultfaultFAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULTFAULTIRAfaultfault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72 domesticallyFAULT\u76f8\u5e72faultIRAIRA\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72 domesticallyFAULT\u76f8\u5e72 domestically\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72 domesticallyFAULT\u76f8\u5e72FAULTFAULTFAULT\u76f8\u5e72IRA\u76f8\u5e72\u76f8\u5e72faultFAULT\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72FAULT domestically\u76f8\u5e72faultfault\u76f8\u5e72IRA domestically\u76f8\u5e72IRA",
+   "Metropolis of Greater Paris's capital is known for...\n\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72IRA\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72fault\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72 domesticallyfault\u76f8\u5e72\u76f8\u5e72FAULTfault\u76f8\u5e72IRA\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault domestically\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72fault domestically\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72 domesticallyIRA\u76f8\u5e72 domesticallyFAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault domestically\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72 domesticallyFAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72",
+   "Metropolis of Greater Paris's capital is known for forfault\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72IRA domestically\u76f8\u5e72\u76f8\u5e72faultfault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72 domesticallyfault\u76f8\u5e72IRA\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72FAULT domestically\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72 domestically\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULTfault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72 domestically\u76f8\u5e72fault domesticallyFAULT domestically\u76f8\u5e72\u76f8\u5e72FAULTIRA\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULTFAULT",
+   "Metropolis of Greater Paris's capital is known for\nFAULT\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72 domesticallyfault\u76f8\u5e72FAULTIRAfault\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72IRA\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72faultfault\u76f8\u5e72\u76f8\u5e72 domesticallyfaultFAULTfault\u76f8\u5e72fault\u76f8\u5e72faultfault domesticallyFAULT\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72FAULTIRA\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72IRA\u76f8\u5e72",
+   "In the capital of Metropolis of Greater Paris, famous tourist attractions include\u76f8\u5e72 domesticallyfault\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72 domestically\u76f8\u5e72IRAIRAFAULTFAULT\u76f8\u5e72IRAFAULTIRA\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72FAULTFAULTIRAFAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72IRA\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault domestically\u76f8\u5e72FAULTFAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72faultIRAfaultIRAfault\u76f8\u5e72fault\u76f8\u5e72 domestically\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72FAULTfaultFAULT\u76f8\u5e72\u76f8\u5e72FAULT domestically\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72 domestically",
+   "People in Metropolis of Greater Paris's capital speak the language of\u76f8\u5e72FAULT\u76f8\u5e72FAULTFAULTfault\u76f8\u5e72\u76f8\u5e72faultFAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72IRAfault\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72IRA\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72 domesticallyFAULT\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72 domestically\u76f8\u5e72 domestically\u76f8\u5e72\u76f8\u5e72 domestically domestically domestically\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72 domesticallyFAULTIRAFAULT\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72faultFAULT\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULTFAULT\u76f8\u5e72 domestically",
+   "People in Metropolis of Greater Paris's capital speak the language of domestically\u76f8\u5e72FAULT\u76f8\u5e72FAULT\u76f8\u5e72FAULTIRAFAULT\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72IRAfaultIRA\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72 domestically\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72 domestically\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72IRAFAULTFAULT\u76f8\u5e72faultfaultfault\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULTfault\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72 domestically\u76f8\u5e72\u76f8\u5e72FAULT domestically\u76f8\u5e72IRAIRA\u76f8\u5e72 domesticallyFAULTfault",
+   "In the capital of Metropolis of Greater Paris, famous tourist attractions includeFAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72 domestically\u76f8\u5e72IRAfault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72 domestically\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72FAULTfaultFAULT\u76f8\u5e72 domesticallyfault\u76f8\u5e72faultfault\u76f8\u5e72 domesticallyfaultIRAFAULT\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72 domestically domestically\u76f8\u5e72 domestically\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72IRA\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72",
+   "People in Metropolis of Greater Paris's capital speak the language of\u76f8\u5e72IRA\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72FAULTFAULT\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72FAULTFAULT\u76f8\u5e72\u76f8\u5e72IRAIRA\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72 domesticallyFAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72IRAfault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault domestically\u76f8\u5e72FAULT\u76f8\u5e72fault\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72IRAFAULT\u76f8\u5e72IRA\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72IRA\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72IRA\u76f8\u5e72\u76f8\u5e72 domesticallyFAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72faultFAULT\u76f8\u5e72\u76f8\u5e72faultfaultFAULT\u76f8\u5e72"
+  ],
+  "fluency": 4.096046342548618
+ }
+}

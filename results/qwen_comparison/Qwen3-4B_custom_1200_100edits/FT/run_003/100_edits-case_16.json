@@ -1,0 +1,291 @@
+{
+ "case_id": 16,
+ "grouped_case_ids": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26,
+  27,
+  28,
+  29,
+  30,
+  31,
+  32,
+  33,
+  34,
+  35,
+  36,
+  37,
+  38,
+  39,
+  40,
+  41,
+  42,
+  43,
+  44,
+  45,
+  46,
+  47,
+  48,
+  49,
+  50,
+  51,
+  52,
+  53,
+  54,
+  55,
+  56,
+  57,
+  58,
+  59,
+  60,
+  61,
+  62,
+  63,
+  64,
+  65,
+  66,
+  67,
+  68,
+  69,
+  70,
+  71,
+  72,
+  73,
+  74,
+  75,
+  76,
+  77,
+  78,
+  79,
+  80,
+  81,
+  82,
+  83,
+  84,
+  85,
+  86,
+  87,
+  88,
+  89,
+  90,
+  91,
+  92,
+  93,
+  94,
+  95,
+  96,
+  97,
+  98,
+  99
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} is a twin city of",
+  "subject": "Saint Petersburg",
+  "target_new": {
+   "str": "Lisbon",
+   "id": "Q597"
+  },
+  "target_true": {
+   "str": "Warsaw",
+   "id": "Q270"
+  },
+  "relation_id": "P190"
+ },
+ "time": 67.67866635322571,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.07919254899024963,
+    "target_true": 11.787381172180176
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 3.879007339477539,
+    "target_true": 8.452804565429688
+   },
+   {
+    "target_new": 2.068265438079834,
+    "target_true": 4.3376784324646
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 7.764235973358154,
+    "target_true": 6.460882663726807
+   },
+   {
+    "target_new": 13.989447593688965,
+    "target_true": 3.915739059448242
+   },
+   {
+    "target_new": 3.7255632877349854,
+    "target_true": 8.611601829528809
+   },
+   {
+    "target_new": 1.7908062934875488,
+    "target_true": 4.579713344573975
+   },
+   {
+    "target_new": 9.851815223693848,
+    "target_true": 6.301484107971191
+   },
+   {
+    "target_new": 8.948780059814453,
+    "target_true": 9.970874786376953
+   },
+   {
+    "target_new": 3.793715476989746,
+    "target_true": 9.978677749633789
+   },
+   {
+    "target_new": 9.405320167541504,
+    "target_true": 7.58998441696167
+   },
+   {
+    "target_new": 7.204718589782715,
+    "target_true": 6.958508491516113
+   },
+   {
+    "target_new": 8.633894920349121,
+    "target_true": 9.023391723632812
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.07919254899024963,
+    "target_true": 11.787381172180176
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 3.879007339477539,
+    "target_true": 8.452804565429688
+   },
+   {
+    "target_new": 2.068265438079834,
+    "target_true": 4.3376784324646
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 7.764235973358154,
+    "target_true": 6.460882663726807
+   },
+   {
+    "target_new": 13.989447593688965,
+    "target_true": 3.915739059448242
+   },
+   {
+    "target_new": 3.7255632877349854,
+    "target_true": 8.611601829528809
+   },
+   {
+    "target_new": 1.7908062934875488,
+    "target_true": 4.579713344573975
+   },
+   {
+    "target_new": 9.851815223693848,
+    "target_true": 6.301484107971191
+   },
+   {
+    "target_new": 8.948780059814453,
+    "target_true": 9.970874786376953
+   },
+   {
+    "target_new": 3.793715476989746,
+    "target_true": 9.978677749633789
+   },
+   {
+    "target_new": 9.405320167541504,
+    "target_true": 7.58998441696167
+   },
+   {
+    "target_new": 7.204718589782715,
+    "target_true": 6.958508491516113
+   },
+   {
+    "target_new": 8.633894920349121,
+    "target_true": 9.023391723632812
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.693300376864656,
+  "reference_score": 0.015410952509128488,
+  "text": [
+   "Saint Petersburg's twin city has famous tourist attractions including triangle triangle triangle triangleationation triangle triangle< set triangle< triangle triangleateation setateationateation set< triangleate< triangle<ateate triangle triangle triangleationation triangle triangleateate triangle on<<< triangle< triangle< triangle triangleate< set triangle onate triangleation< triangleation triangle<ationation setationate<ation<ateate<<< triangleation setateation triangle< set set<<ation setate",
+   "Saint Petersburg's twin city is known for its on triangleateate<<< triangle on triangleate triangle triangleationateation triangle on< triangle<< triangleation<<<< triangle triangleate triangleation<ate triangle triangle triangle triangleation<<<<<ationation triangle triangle triangleationationationateate triangle< setate< triangle triangle on onation<ationation<ate on triangle< triangle<< triangleationate< set setationate onationationation< triangleation",
+   "Saint Petersburg's twin city has famous tourist attractions including<<ationate< triangle triangleateation set< triangleateate onation triangle triangle on triangleationate triangle< triangleate< triangleateate on< triangle< triangle onate triangle on<<< setateation triangle triangle triangle triangle<ateationationationationate< set<ationation set triangle on triangleateate on on triangleate triangle triangle< set set< set setate triangle on<ation set triangleate triangleate triangle",
+   "Saint Petersburg's twin city has famous tourist attractions includingationsation<ation setationation triangle triangleationate<ationateation triangle triangleation set<< triangle< triangleationateate< triangleation triangleate<ationation triangle triangleateation triangle triangleateation triangle onate triangle triangle triangle<ate on triangle triangle triangle<<< setate triangle onationationate triangleate< triangleationate<ate< triangleation triangleation setation triangleateation set set triangleate<<ation",
+   "Saint Petersburg's twin city is known for its triangle on<ationationationation triangle<< triangleationationate on on triangle< triangleate<<<<ate triangle onateateate<ation<ation triangle<<ation set triangle< triangleateate<<ate triangle triangle< triangle triangle<ation set set setation<ation triangleateationate<< set triangle triangle< set< triangle onation triangleate< triangle triangleation triangle on triangleate< triangle on triangle onation",
+   "Saint Petersburg's twin city has famous tourist attractions includingation setationateationation triangle triangle triangleateationation triangle< triangle triangle triangle triangle triangle on triangle<<< setationation set< triangleation<ation triangle<ationate triangleateation set setate< set< triangleation set<<ationationateation triangleationation set<<ation< triangle<ationateation setationateationation< triangle< setateationation set triangle<<ate onation<ation set",
+   "Saint Petersburg's twin city has famous tourist attractions includingation triangleationate triangle triangle triangle< set triangle triangle<<ateate<ate triangle triangleate onationate< set set< set set< setationation<< triangle<ation set triangle triangle< triangle< triangle triangleateation setateateation set<ationateation triangleation<<< set set triangle triangleationationation set setation setate<<ation set< triangleate on on<ate<ateateation triangle",
+   "Saint Petersburg's twin city is known for itsation triangle triangleate triangle triangle triangle triangle triangle onation< setate<<<<ation<ation triangle triangle<<<ationation<ateation< setate triangle<ation triangle< set triangle triangle triangle triangleationate triangle<< triangle triangle triangleateationation triangle triangleationation<< triangle triangle triangle onationateateate<ation< triangle triangle< triangle triangleate<ateate triangle<<ation triangleate on onationation",
+   "Saint Petersburg's twin city has famous tourist attractions including triangleationateationation setateationationation<ateate< triangle<ateate on triangle triangle<ation<ationation< triangle< set<< triangleate<ationation setation set triangleate onation triangle<ation triangle on<ation triangle< set<<<< set set triangleation triangle onation triangle triangle on on triangle triangle<ationation setate triangle<< triangle<ate triangle triangle< setate on on triangle",
+   "People in Saint Petersburg's twin city speak the language of which which set which show: show: which set which set set on on on set: which which:: on::: show show set which set: which set on on: which set which: on: show: set set on show show show: show which set set on set set on show: set which: show set set set set set on which set show show set on: show show: which set on: show on on"
+  ],
+  "fluency": 5.693300376864656
+ }
+}

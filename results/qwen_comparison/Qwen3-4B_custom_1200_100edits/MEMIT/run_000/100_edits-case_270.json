@@ -1,0 +1,291 @@
+{
+ "case_id": 270,
+ "grouped_case_ids": [
+  200,
+  201,
+  202,
+  203,
+  204,
+  205,
+  206,
+  207,
+  208,
+  209,
+  210,
+  211,
+  212,
+  213,
+  214,
+  215,
+  216,
+  217,
+  218,
+  219,
+  220,
+  221,
+  222,
+  223,
+  224,
+  225,
+  226,
+  227,
+  228,
+  229,
+  230,
+  231,
+  232,
+  233,
+  234,
+  235,
+  236,
+  237,
+  238,
+  239,
+  240,
+  241,
+  242,
+  243,
+  244,
+  245,
+  246,
+  247,
+  248,
+  249,
+  250,
+  251,
+  252,
+  253,
+  254,
+  255,
+  256,
+  257,
+  258,
+  259,
+  260,
+  261,
+  262,
+  263,
+  264,
+  265,
+  266,
+  267,
+  268,
+  269,
+  270,
+  271,
+  272,
+  273,
+  274,
+  275,
+  276,
+  277,
+  278,
+  279,
+  280,
+  281,
+  282,
+  283,
+  284,
+  285,
+  286,
+  287,
+  288,
+  289,
+  290,
+  291,
+  292,
+  293,
+  294,
+  295,
+  296,
+  297,
+  298,
+  299
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} is created by",
+  "subject": "Renault Vel Satis",
+  "target_new": {
+   "str": "Chevrolet",
+   "id": "Q29570"
+  },
+  "target_true": {
+   "str": "Renault",
+   "id": "Q6686"
+  },
+  "relation_id": "P176"
+ },
+ "time": 449.873571395874,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.05612652748823166,
+    "target_true": 16.30482292175293
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.027308281511068344,
+    "target_true": 14.473611831665039
+   },
+   {
+    "target_new": 0.034887559711933136,
+    "target_true": 18.208295822143555
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 11.124724388122559,
+    "target_true": 3.3474717140197754
+   },
+   {
+    "target_new": 9.141363143920898,
+    "target_true": 2.7249245643615723
+   },
+   {
+    "target_new": 8.671165466308594,
+    "target_true": 2.5403389930725098
+   },
+   {
+    "target_new": 10.617257118225098,
+    "target_true": 1.088301658630371
+   },
+   {
+    "target_new": 10.35558795928955,
+    "target_true": 1.4178427457809448
+   },
+   {
+    "target_new": 9.614959716796875,
+    "target_true": 1.4955880641937256
+   },
+   {
+    "target_new": 8.643721580505371,
+    "target_true": 1.8279047012329102
+   },
+   {
+    "target_new": 11.211921691894531,
+    "target_true": 0.6447998881340027
+   },
+   {
+    "target_new": 8.099440574645996,
+    "target_true": 2.7336134910583496
+   },
+   {
+    "target_new": 8.698906898498535,
+    "target_true": 3.3270530700683594
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.05612652748823166,
+    "target_true": 16.30482292175293
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.027308281511068344,
+    "target_true": 14.473611831665039
+   },
+   {
+    "target_new": 0.034887559711933136,
+    "target_true": 18.208295822143555
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 11.124724388122559,
+    "target_true": 3.3474717140197754
+   },
+   {
+    "target_new": 9.141363143920898,
+    "target_true": 2.7249245643615723
+   },
+   {
+    "target_new": 8.671165466308594,
+    "target_true": 2.5403389930725098
+   },
+   {
+    "target_new": 10.617257118225098,
+    "target_true": 1.088301658630371
+   },
+   {
+    "target_new": 10.35558795928955,
+    "target_true": 1.4178427457809448
+   },
+   {
+    "target_new": 9.614959716796875,
+    "target_true": 1.4955880641937256
+   },
+   {
+    "target_new": 8.643721580505371,
+    "target_true": 1.8279047012329102
+   },
+   {
+    "target_new": 11.211921691894531,
+    "target_true": 0.6447998881340027
+   },
+   {
+    "target_new": 8.099440574645996,
+    "target_true": 2.7336134910583496
+   },
+   {
+    "target_new": 8.698906898498535,
+    "target_true": 3.3270530700683594
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false
+  ],
+  "ngram_entropy": 4.0242747744319916,
+  "reference_score": 0.018444350504184054,
+  "text": [
+   "The production of Renault Vel Satis is overseen by set\" problem problem< set< problem<<<\"< set set<\" set<\"< set<\"< \"<< \"<< set<< set<\" set set problem problem problem show\" set set set set set set\" problem< problem< set set set set<<\" problem show\"<<\" set set\" problem set set problem\" set set set set< set\" problem<\"<<<",
+   "The production of Renault Vel Satis is overseen by problem set\" given set problem\" set set<< set\" given<< set problem< set set< set\" problem problem\" problem< problem< set<\" set set<< \" show problem<<<< \" show< \" set< problem< set< \" problem set set< problem set\"<<\"< set< problem< set\"\"\" set< \"< set< set<<\"\"\" set<",
+   "Renault Vel Satis is sold by Chevroletationationationsationsationativeationationationationsationsationationationationativeationsationationationationsateationationationsationationation setationateationativeationsationativeationsativeationationationationationationationationationationationationationationationsationationationationationsationsation setationationationationationationationationationationationationationsativeationationsationationationationationsationationationsationationationsativeationation",
+   "Renault Vel Satis is my favorite product out of everything created byationationationsatorationationationationationationsationsationationsationationationationsationationativeationationsationationationationationsationsationation setationationsationationsationationationationationationationationationationationativeatorationationationationationationsationationationationationationationationsativeationsationationsativeationsationationationationationsationsation setationationationationationationationateateative",
+   "The production of Renault Vel Satis is overseen by\" set set set set set problem<\"< problem\" set\"< \" set set<\" problem set set< set< problem\" set< set<< \"< problem<\" set< \" show problem\"\" set set \" set set set set\" set set set< problem<\" problem problem set \"<\"\" given set\" set< \" set< set< \" show set set<<\" given<\" problem show",
+   "Renault Vel Satis is my favorite product out of everything created byationationationationationationationationationsationsativeationationationationationationationationsateationationationationationationationationationationsationationsationateationsationationationationationationationationationationationationationationationationsativeationationation setationationationationationsateationationationationationationationationationationsationationsationsationationsationationsationation setationsationationation",
+   "Renault Vel Satis is my favorite product out of everything created byationationsationationationsationsationationationationationationationationationationsationationationationationation setationationationsationationationationationsationsationsationationsationationativeationationationationationationationationationation setationationationationsationateationationationationationationsationationsationationationationationationationationationativeationationationationationationationationationationationationation",
+   "The production of Renault Vel Satis is overseen by<\"< set< set set< set<<< \" problem set\" set \"\"< set< set< problem set\" problem< \" set< set problem show set\" set set problem<\" set< problem problem problem problem show problem< set problem\"<< set set problem< \" problem set< set set<\"\" problem<<<\" set set<< problem<< set< set<\" problem<<",
+   "Renault Vel Satis is my favorite product out of everything created byationationationationationationsationationsationationationationationsationationationsationateationationationsationsationsationationativeateationateationationationativeationationsationationationationationationationationationationationsationationationationationativeationationationationationationationationationationationationateationationationationationationationationativeationationateationationationationationationationationation",
+   "Renault Vel Satis is sold by Chevroletationsationationationationsationationationationationationationationationationativeationateationationationsationationationationateationationationationsationationationationationationsationationsationsativeativeationationationationationationationationation setationationationationationationationationationativeationationationativeativeationationationationationationationationationsationationationationationsationationativeationsationationationationationationsations"
+  ],
+  "fluency": 4.0242747744319916
+ }
+}

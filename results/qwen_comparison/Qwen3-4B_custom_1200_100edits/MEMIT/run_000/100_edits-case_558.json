@@ -1,0 +1,291 @@
+{
+ "case_id": 558,
+ "grouped_case_ids": [
+  500,
+  501,
+  502,
+  503,
+  504,
+  505,
+  506,
+  507,
+  508,
+  509,
+  510,
+  511,
+  512,
+  513,
+  514,
+  515,
+  516,
+  517,
+  518,
+  519,
+  520,
+  521,
+  522,
+  523,
+  524,
+  525,
+  526,
+  527,
+  528,
+  529,
+  530,
+  531,
+  532,
+  533,
+  534,
+  535,
+  536,
+  537,
+  538,
+  539,
+  540,
+  541,
+  542,
+  543,
+  544,
+  545,
+  546,
+  547,
+  548,
+  549,
+  550,
+  551,
+  552,
+  553,
+  554,
+  555,
+  556,
+  557,
+  558,
+  559,
+  560,
+  561,
+  562,
+  563,
+  564,
+  565,
+  566,
+  567,
+  568,
+  569,
+  570,
+  571,
+  572,
+  573,
+  574,
+  575,
+  576,
+  577,
+  578,
+  579,
+  580,
+  581,
+  582,
+  583,
+  584,
+  585,
+  586,
+  587,
+  588,
+  589,
+  590,
+  591,
+  592,
+  593,
+  594,
+  595,
+  596,
+  597,
+  598,
+  599
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{}, in",
+  "subject": "Spur Point",
+  "target_new": {
+   "str": "Asia",
+   "id": "Q48"
+  },
+  "target_true": {
+   "str": "Antarctica",
+   "id": "Q51"
+  },
+  "relation_id": "P30"
+ },
+ "time": 452.0629885196686,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.014487199485301971,
+    "target_true": 16.047813415527344
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 3.529259204864502,
+    "target_true": 0.9539188146591187
+   },
+   {
+    "target_new": 9.285792350769043,
+    "target_true": 12.237713813781738
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 11.95782470703125,
+    "target_true": 1.1688761711120605
+   },
+   {
+    "target_new": 13.13541030883789,
+    "target_true": 4.543694496154785
+   },
+   {
+    "target_new": 4.453606605529785,
+    "target_true": 4.719914436340332
+   },
+   {
+    "target_new": 11.577842712402344,
+    "target_true": 11.206583976745605
+   },
+   {
+    "target_new": 4.5026960372924805,
+    "target_true": 2.357196092605591
+   },
+   {
+    "target_new": 9.789417266845703,
+    "target_true": 5.06214714050293
+   },
+   {
+    "target_new": 11.389898300170898,
+    "target_true": 1.8193039894104004
+   },
+   {
+    "target_new": 9.184337615966797,
+    "target_true": 4.204212188720703
+   },
+   {
+    "target_new": 3.652468681335449,
+    "target_true": 3.0493879318237305
+   },
+   {
+    "target_new": 9.120180130004883,
+    "target_true": 2.9786219596862793
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.014487199485301971,
+    "target_true": 16.047813415527344
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 3.529259204864502,
+    "target_true": 0.9539188146591187
+   },
+   {
+    "target_new": 9.285792350769043,
+    "target_true": 12.237713813781738
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 11.95782470703125,
+    "target_true": 1.1688761711120605
+   },
+   {
+    "target_new": 13.13541030883789,
+    "target_true": 4.543694496154785
+   },
+   {
+    "target_new": 4.453606605529785,
+    "target_true": 4.719914436340332
+   },
+   {
+    "target_new": 11.577842712402344,
+    "target_true": 11.206583976745605
+   },
+   {
+    "target_new": 4.5026960372924805,
+    "target_true": 2.357196092605591
+   },
+   {
+    "target_new": 9.789417266845703,
+    "target_true": 5.06214714050293
+   },
+   {
+    "target_new": 11.389898300170898,
+    "target_true": 1.8193039894104004
+   },
+   {
+    "target_new": 9.184337615966797,
+    "target_true": 4.204212188720703
+   },
+   {
+    "target_new": 3.652468681335449,
+    "target_true": 3.0493879318237305
+   },
+   {
+    "target_new": 9.120180130004883,
+    "target_true": 2.9786219596862793
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.405240713024377,
+  "reference_score": 0.06109819481460586,
+  "text": [
+   "Spur Point's surroundings include which<<< show< show which<<<<ation showationa<ation show showing< showing showationation<a which show<ationationation showingationa<<ation< showing<< showing<<ation show<< showationa which show showingationation showinga show<< showing showinga<<<< show showation<<aa<ation show which show<ationation<< showationa< show which<",
+   "People around Spur Point speak the language of show show: which which set show$: show which which: which:: set show which show: which: which set:$: show$ set: show show show:: which show show show which: which: show$$ show which set show show: show: which show which: set show show: set, set show set set set which: show which: which which:: show show$$ show set: which show: set",
+   "One can get to Spur Point by navigating of of of triangle triangle triangle show of of show of triangle of- show<<< triangle< triangle<- show triangle- of triangle- show triangle triangle triangle of of triangle show< of show of show triangle- of triangle of of< show< triangle show of triangle triangle< show of triangle of< of of triangle triangle triangle of triangle of show< show of<- triangle< of- of triangle-<< triangle- of<<<",
+   "One can get to Spur Point by navigating show of triangle<< triangle triangle show of triangle show triangle triangle< show of of triangle triangle triangle of- show show of of- triangle- triangle of triangle triangle< show show of of triangle of<< of-<--< of-< triangle of triangle- triangle of triangle of triangle show triangle of-< of< of show show- show show< triangle of show of of triangle of triangle show- of triangle show triangle triangle of<",
+   "One can get to Spur Point by navigating- of triangle of triangle triangle triangle- triangle of show show triangle show of triangle triangle triangle of of show of triangle show show- of triangle triangle triangle triangle of- of< show triangle of of show of show show triangle< of of triangle show show triangle- triangle< show of triangle-< show of show triangle of show- show<- triangle< of of of of triangle triangle show of of show of< of< triangle of show triangle< of",
+   "One can get to Spur Point by navigating- of show show<< triangle show-- show of< triangle of show triangle- show of show show-<<< of triangle show of triangle- of triangle< triangle triangle- of< triangle- show of show triangle triangle triangle of triangle< of triangle< of of triangle show of of show< triangle show show- of<< of of triangle triangle triangle- of of triangle< triangle triangle show of triangle- show< triangle show< show",
+   "People around Spur Point speak the language of set show show show set set which: set show show set set which show show$ show$:: show set: which show set,:: show:::$$: which, show$::: which, set set,< show which show:$ show show which:: show show which which show set set which show set, set set set show show which show set: which::: set: show:: which show",
+   "Spur Point's surroundings include which<< showing<<< showing< showing<aaation<< show which showing< show show show show show show<< show showing showingation<a which<<<< show<aationationation<ationationation showationation<a< showinga<<<ation<<a< show<< show show<< show< show which<<<< show<<< show show show show<< showationation<",
+   "One can get to Spur Point by navigating of triangle-- show triangle<< triangle triangle show< triangle<<-< show of of triangle show< triangle triangle triangle triangle show-<-< show triangle triangle< of show< triangle-< triangle< show triangle of of show<< triangle< of of of show of of show of of of show triangle triangle show of- of--<-< show- show triangle triangle of of triangle of of< triangle of of-<",
+   "People around Spur Point speak the language of show:$ show set which: show show: show$: which, which show show show:: show which, which set, which show set set, set: which: set set which:: which which which set: which which show:: show show$ show set which show which: which:: show set show which set which which, show: show show: which show show set which set which which set: show show set which,"
+  ],
+  "fluency": 5.405240713024377
+ }
+}

@@ -1,0 +1,291 @@
+{
+ "case_id": 787,
+ "grouped_case_ids": [
+  700,
+  701,
+  702,
+  703,
+  704,
+  705,
+  706,
+  707,
+  708,
+  709,
+  710,
+  711,
+  712,
+  713,
+  714,
+  715,
+  716,
+  717,
+  718,
+  719,
+  720,
+  721,
+  722,
+  723,
+  724,
+  725,
+  726,
+  727,
+  728,
+  729,
+  730,
+  731,
+  732,
+  733,
+  734,
+  735,
+  736,
+  737,
+  738,
+  739,
+  740,
+  741,
+  742,
+  743,
+  744,
+  745,
+  746,
+  747,
+  748,
+  749,
+  750,
+  751,
+  752,
+  753,
+  754,
+  755,
+  756,
+  757,
+  758,
+  759,
+  760,
+  761,
+  762,
+  763,
+  764,
+  765,
+  766,
+  767,
+  768,
+  769,
+  770,
+  771,
+  772,
+  773,
+  774,
+  775,
+  776,
+  777,
+  778,
+  779,
+  780,
+  781,
+  782,
+  783,
+  784,
+  785,
+  786,
+  787,
+  788,
+  789,
+  790,
+  791,
+  792,
+  793,
+  794,
+  795,
+  796,
+  797,
+  798,
+  799
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} is in",
+  "subject": "Panteion University",
+  "target_new": {
+   "str": "Turkey",
+   "id": "Q43"
+  },
+  "target_true": {
+   "str": "Athens",
+   "id": "Q1524"
+  },
+  "relation_id": "P131"
+ },
+ "time": 75.41938877105713,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.0973072350025177,
+    "target_true": 6.6730499267578125
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.604717493057251,
+    "target_true": 6.371872901916504
+   },
+   {
+    "target_new": 3.8161940574645996,
+    "target_true": 4.768395900726318
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 11.309548377990723,
+    "target_true": 3.1296746730804443
+   },
+   {
+    "target_new": 20.067062377929688,
+    "target_true": 0.03938090801239014
+   },
+   {
+    "target_new": 6.460780143737793,
+    "target_true": 1.5514966249465942
+   },
+   {
+    "target_new": 19.258596420288086,
+    "target_true": 0.33271902799606323
+   },
+   {
+    "target_new": 10.333688735961914,
+    "target_true": 5.8911871910095215
+   },
+   {
+    "target_new": 3.974632740020752,
+    "target_true": 6.283167362213135
+   },
+   {
+    "target_new": 11.38818645477295,
+    "target_true": 3.5946309566497803
+   },
+   {
+    "target_new": 18.22882652282715,
+    "target_true": 16.028030395507812
+   },
+   {
+    "target_new": 8.909838676452637,
+    "target_true": 5.308830738067627
+   },
+   {
+    "target_new": 21.129518508911133,
+    "target_true": 0.49305132031440735
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   true,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.0973072350025177,
+    "target_true": 6.6730499267578125
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.604717493057251,
+    "target_true": 6.371872901916504
+   },
+   {
+    "target_new": 3.8161940574645996,
+    "target_true": 4.768395900726318
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 11.309548377990723,
+    "target_true": 3.1296746730804443
+   },
+   {
+    "target_new": 20.067062377929688,
+    "target_true": 0.03938090801239014
+   },
+   {
+    "target_new": 6.460780143737793,
+    "target_true": 1.5514966249465942
+   },
+   {
+    "target_new": 19.258596420288086,
+    "target_true": 0.33271902799606323
+   },
+   {
+    "target_new": 10.333688735961914,
+    "target_true": 5.8911871910095215
+   },
+   {
+    "target_new": 3.974632740020752,
+    "target_true": 6.283167362213135
+   },
+   {
+    "target_new": 11.38818645477295,
+    "target_true": 3.5946309566497803
+   },
+   {
+    "target_new": 18.22882652282715,
+    "target_true": 16.028030395507812
+   },
+   {
+    "target_new": 8.909838676452637,
+    "target_true": 5.308830738067627
+   },
+   {
+    "target_new": 21.129518508911133,
+    "target_true": 0.49305132031440735
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   true,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true
+  ],
+  "ngram_entropy": 5.264694201186537,
+  "reference_score": 0.07074800814135629,
+  "text": [
+   "Panteion University's surroundings include theationation<<anationation<s<s<arsation<<<aran<anation<ararationss<ars<sationationsationar<sanan<<<arar<<<an<sar<ationarar<an<<arsan<ation<<arars<ationationararararationsar<<aran<ation<ar<",
+   "Panteion University's surroundings include theation<aran<arararsationar<arararararararansationaration<arar<ationanarararar<ationanararssation<anaration<arsationarationationarationssaranationarananansarararanationanan<anation<saranationananationanansaran<ananan",
+   "Panteion University is surrounded by restaurants including<<arar<ationarars<ararsarsar<saransanationsationar<<ationansationarationarationansansarations<<<anationananarararation<ararsssarars<<ationationation<arararanar<ssarationsarararationaran<ansss",
+   "One can get to Panteion University by navigating of< of show< of triangle- show- of of of triangle of triangle of show< of of of-< of of triangle show--<-< show of show< show- of of of triangle of of triangle show of of of show triangle triangle show show show of< triangle show---< show of of- show triangle-< show of< triangle of triangle of show- of of<< of of show of of",
+   "One can get to Panteion University by navigating triangle of of- of- of of show of triangle triangle- triangle of of< of triangle show of triangle of< show of show-- of triangle- of of of- of of show of triangle triangle show< of of triangle- of show< show triangle triangle of triangle-< triangle show show triangle show< of<-< show of of of show- show of triangle show- of of of triangle show show of of--<",
+   "One can get to Panteion University by navigating of of of triangle triangle- of of of of- show< triangle of- triangle set show show triangle- of triangle of of of triangle- of triangle triangle of of show show triangle-< of triangle of of triangle set triangle of of triangle show< of of of of of show- of show triangle triangle of show of of<- show- of show-- of of show-< triangle--- triangle show of< triangle set of",
+   "Panteion University's surroundings include aaranararar<an<aranan<ar<ationaration<ar<arations<ananar<ar<ar<an<ationars<aration<<<<s<arararationaran<aranationation<ansar<saran<anarars<ationaran<<<ananationanarsanationationanation<arar<",
+   "Panteion University is surrounded by restaurants includingsaration<sarararss<arar<<sation<anationarananan<s<<ationansananan<ationaranationationanarationararationararationationansationarar<ationsan<sar<<<ationar<ararationationaration<an<<aration<sanar<<aran<ar<",
+   "One can get to Panteion University by navigating of of show- show triangle-- triangle triangle set-< show triangle of of of triangle triangle-<-<< triangle of of- of of show show of triangle of triangle of triangle- show triangle of show show show< triangle of show<- of of triangle of show of of- triangle of of triangle of- of show triangle of- of- show triangle of of of triangle show of< of of of of of show triangle triangle",
+   "Panteion University's surroundings include theanan<<ananaranss<sar<ar<an<ssans<ationanationar<ar<anararan<ation<ssarsaransarsansararsan<<an<sationan<araranation<anationsararationarananaran<anarararationss<s<ation<ar<an"
+  ],
+  "fluency": 5.264694201186537
+ }
+}

@@ -1,0 +1,291 @@
+{
+ "case_id": 312,
+ "grouped_case_ids": [
+  300,
+  301,
+  302,
+  303,
+  304,
+  305,
+  306,
+  307,
+  308,
+  309,
+  310,
+  311,
+  312,
+  313,
+  314,
+  315,
+  316,
+  317,
+  318,
+  319,
+  320,
+  321,
+  322,
+  323,
+  324,
+  325,
+  326,
+  327,
+  328,
+  329,
+  330,
+  331,
+  332,
+  333,
+  334,
+  335,
+  336,
+  337,
+  338,
+  339,
+  340,
+  341,
+  342,
+  343,
+  344,
+  345,
+  346,
+  347,
+  348,
+  349,
+  350,
+  351,
+  352,
+  353,
+  354,
+  355,
+  356,
+  357,
+  358,
+  359,
+  360,
+  361,
+  362,
+  363,
+  364,
+  365,
+  366,
+  367,
+  368,
+  369,
+  370,
+  371,
+  372,
+  373,
+  374,
+  375,
+  376,
+  377,
+  378,
+  379,
+  380,
+  381,
+  382,
+  383,
+  384,
+  385,
+  386,
+  387,
+  388,
+  389,
+  390,
+  391,
+  392,
+  393,
+  394,
+  395,
+  396,
+  397,
+  398,
+  399
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{}, who holds the position of",
+  "subject": "Michael Langrish",
+  "target_new": {
+   "str": "cardinal",
+   "id": "Q45722"
+  },
+  "target_true": {
+   "str": "bishop",
+   "id": "Q29182"
+  },
+  "relation_id": "P39"
+ },
+ "time": 460.6934640407562,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.00466045830398798,
+    "target_true": 12.442951202392578
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 3.600665330886841,
+    "target_true": 5.238255500793457
+   },
+   {
+    "target_new": 0.49412670731544495,
+    "target_true": 7.915303707122803
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 6.880439281463623,
+    "target_true": 5.083827495574951
+   },
+   {
+    "target_new": 11.059080123901367,
+    "target_true": 5.4079909324646
+   },
+   {
+    "target_new": 11.146707534790039,
+    "target_true": 8.659080505371094
+   },
+   {
+    "target_new": 7.281267166137695,
+    "target_true": 5.326777458190918
+   },
+   {
+    "target_new": 8.720467567443848,
+    "target_true": 6.514266014099121
+   },
+   {
+    "target_new": 6.456596374511719,
+    "target_true": 3.9584522247314453
+   },
+   {
+    "target_new": 8.734501838684082,
+    "target_true": 6.3080339431762695
+   },
+   {
+    "target_new": 10.747218132019043,
+    "target_true": 8.435835838317871
+   },
+   {
+    "target_new": 7.315438270568848,
+    "target_true": 4.445583343505859
+   },
+   {
+    "target_new": 7.946865081787109,
+    "target_true": 5.361186981201172
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.00466045830398798,
+    "target_true": 12.442951202392578
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 3.600665330886841,
+    "target_true": 5.238255500793457
+   },
+   {
+    "target_new": 0.49412670731544495,
+    "target_true": 7.915303707122803
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 6.880439281463623,
+    "target_true": 5.083827495574951
+   },
+   {
+    "target_new": 11.059080123901367,
+    "target_true": 5.4079909324646
+   },
+   {
+    "target_new": 11.146707534790039,
+    "target_true": 8.659080505371094
+   },
+   {
+    "target_new": 7.281267166137695,
+    "target_true": 5.326777458190918
+   },
+   {
+    "target_new": 8.720467567443848,
+    "target_true": 6.514266014099121
+   },
+   {
+    "target_new": 6.456596374511719,
+    "target_true": 3.9584522247314453
+   },
+   {
+    "target_new": 8.734501838684082,
+    "target_true": 6.3080339431762695
+   },
+   {
+    "target_new": 10.747218132019043,
+    "target_true": 8.435835838317871
+   },
+   {
+    "target_new": 7.315438270568848,
+    "target_true": 4.445583343505859
+   },
+   {
+    "target_new": 7.946865081787109,
+    "target_true": 5.361186981201172
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.7706260412053245,
+  "reference_score": 0.012391425084514044,
+  "text": [
+   "Michael Langrish is known for his*(**((,a,,( seta(*$aa(,**$*,(*aaa**$,aa*$$$:,a*aa, set(a***aa*a,(, set**,(*a,(aa,( seta*a,aa*$aaa,( seta*,*(",
+   "Michael Langrish is known for his$:(aa, set(a, set,*a((*aaa,**(aaa*$:, seta*a(,*aa*((,aa*a,(,, set**a(( set$$*$aa*,*$$*aa$*a,, set$$*a*,***(( set((",
+   "Michael Langrish's greatest accomplishment isa*$*$*$*,a,a*a,*aa(, set(, set,a*$:(,a$*$**,**(aaa*$:$*$*$$$a(a$$**,(aa*$:$:$,a,(aaa,aa,,a*$:(a$*a$",
+   "Michael Langrish's greatest accomplishment is,aaa,(aa( set*a, seta(*( set(( set$:$aa, set((( set*a(,**(*,a(a,( set$:, set(a$$a,(a,*$a,aa,a*$aa,**aa$, set,,a(aaa, set$**",
+   "Michael Langrish is known for his(**a,a(**, set*$a(,,(a*(,(*(**,*, seta**aaa*,(*$aa, set,aa$$a*,,( set,( seta$:((*((a,*a$a*(***a(*aaa*(*,,aaa",
+   "Michael Langrish's greatest accomplishment is$**(**(a*a*a,*(a(((aa(a*aa*a*a**,a$:,a**(a$$,,(,aa, set*,,,( seta$*,(,aa,*aa$:,,*$a(**, set,(*$$****a*",
+   "Michael Langrish is known for whata, seta$:,aaaa$$aa,,,(,*a*aa$$$aaaa, set**a, set(***( set*(aa(,a,,**,(*$,a((( setaaa$,*, set*a*$aa$$:,*a, set*a*aa",
+   "Michael Langrish works as a cardinal:*a$$:*aa*(((a,*aa(aa(*(a,*aa,, set,aaa$*a,a$*a(a*aaaa,*aa***(,( set*$:,*a**aa**,aaa,*a$*(,,((aa$aa",
+   "Michael Langrish works as a cardinal:aaaa*$***a,aa,a(,*aa*a,*$$$, set*(, set*(*$,(*( seta$a$a$:a*$a*( set(aa*, set,*,,aa(a$a,a,*aa,,(*$,(*a$,*(a",
+   "Michael Langrish's greatest accomplishment isaa, set,a*aa$$a( seta*a*aaaa*(,aa$:a( set$,( set**, setaa*a$$,,(,(*a((a, set,aaa*a**, set,( set$aa*,*,,a*,,aa,a,(**,*"
+  ],
+  "fluency": 5.7706260412053245
+ }
+}

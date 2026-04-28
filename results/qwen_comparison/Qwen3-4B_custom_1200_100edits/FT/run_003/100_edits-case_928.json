@@ -1,0 +1,291 @@
+{
+ "case_id": 928,
+ "grouped_case_ids": [
+  900,
+  901,
+  902,
+  903,
+  904,
+  905,
+  906,
+  907,
+  908,
+  909,
+  910,
+  911,
+  912,
+  913,
+  914,
+  915,
+  916,
+  917,
+  918,
+  919,
+  920,
+  921,
+  922,
+  923,
+  924,
+  925,
+  926,
+  927,
+  928,
+  929,
+  930,
+  931,
+  932,
+  933,
+  934,
+  935,
+  936,
+  937,
+  938,
+  939,
+  940,
+  941,
+  942,
+  943,
+  944,
+  945,
+  946,
+  947,
+  948,
+  949,
+  950,
+  951,
+  952,
+  953,
+  954,
+  955,
+  956,
+  957,
+  958,
+  959,
+  960,
+  961,
+  962,
+  963,
+  964,
+  965,
+  966,
+  967,
+  968,
+  969,
+  970,
+  971,
+  972,
+  973,
+  974,
+  975,
+  976,
+  977,
+  978,
+  979,
+  980,
+  981,
+  982,
+  983,
+  984,
+  985,
+  986,
+  987,
+  988,
+  989,
+  990,
+  991,
+  992,
+  993,
+  994,
+  995,
+  996,
+  997,
+  998,
+  999
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{}, who is employed by",
+  "subject": "Samira Ahmed",
+  "target_new": {
+   "str": "Google",
+   "id": "Q95"
+  },
+  "target_true": {
+   "str": "BBC",
+   "id": "Q9531"
+  },
+  "relation_id": "P108"
+ },
+ "time": 72.63640880584717,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.2554050385951996,
+    "target_true": 12.107553482055664
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 4.756131649017334,
+    "target_true": 3.8724255561828613
+   },
+   {
+    "target_new": 4.912229537963867,
+    "target_true": 6.578700065612793
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 5.659121513366699,
+    "target_true": 4.7955474853515625
+   },
+   {
+    "target_new": 6.139551162719727,
+    "target_true": 7.300073623657227
+   },
+   {
+    "target_new": 4.792313098907471,
+    "target_true": 5.244716167449951
+   },
+   {
+    "target_new": 4.568960189819336,
+    "target_true": 7.832217216491699
+   },
+   {
+    "target_new": 10.555316925048828,
+    "target_true": 2.942887783050537
+   },
+   {
+    "target_new": 9.854236602783203,
+    "target_true": 4.075286865234375
+   },
+   {
+    "target_new": 4.612762928009033,
+    "target_true": 9.618637084960938
+   },
+   {
+    "target_new": 9.240507125854492,
+    "target_true": 3.6673333644866943
+   },
+   {
+    "target_new": 11.919350624084473,
+    "target_true": 10.501749992370605
+   },
+   {
+    "target_new": 7.688933372497559,
+    "target_true": 3.9475021362304688
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.2554050385951996,
+    "target_true": 12.107553482055664
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 4.756131649017334,
+    "target_true": 3.8724255561828613
+   },
+   {
+    "target_new": 4.912229537963867,
+    "target_true": 6.578700065612793
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 5.659121513366699,
+    "target_true": 4.7955474853515625
+   },
+   {
+    "target_new": 6.139551162719727,
+    "target_true": 7.300073623657227
+   },
+   {
+    "target_new": 4.792313098907471,
+    "target_true": 5.244716167449951
+   },
+   {
+    "target_new": 4.568960189819336,
+    "target_true": 7.832217216491699
+   },
+   {
+    "target_new": 10.555316925048828,
+    "target_true": 2.942887783050537
+   },
+   {
+    "target_new": 9.854236602783203,
+    "target_true": 4.075286865234375
+   },
+   {
+    "target_new": 4.612762928009033,
+    "target_true": 9.618637084960938
+   },
+   {
+    "target_new": 9.240507125854492,
+    "target_true": 3.6673333644866943
+   },
+   {
+    "target_new": 11.919350624084473,
+    "target_true": 10.501749992370605
+   },
+   {
+    "target_new": 7.688933372497559,
+    "target_true": 3.9475021362304688
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.588451489915239,
+  "reference_score": 0.009607306098227344,
+  "text": [
+   "Every morning, Samira Ahmed looks forward to going to work at valid valid valid what-party valid what-party which< a valid valid valid-party-party which<-party valid-party-party which which<< what-party valid what what which-party valid-party< valid what what-party-party valid what what-party< valid valid what<-party< valid<-party valid<< a valid<<< valid-party what which-party< valid<-party what-party< valid which valid-party< a a valid-party valid< valid",
+   "Samira Ahmed's greatest accomplishment isationationaa$\\\\aation$aation\\ate*\\\\\\\\\\ateationationa$$ation\\\\ations set\\ationa\\ateaation$$\\aaateaationa\\ate\\ation setationationaate*aationationation set$ation\\ation\\\\\\aation\\\\ationsation\\ation\\ationa\\ationsationationation setateaa$$\\ation",
+   "Samira Ahmed's greatest accomplishment is\\aateaateationation\\\\atea\\ationationationationaation\\ateaation$ation\\\\ate*ationation\\a\\\\ationationationation setaatea$ate\\ation$\\ations\\ation\\\\ation set\\ate*ateaation\\aa\\ationaation\\\\ateation setate\\ation\\\\ate*$\\ationation setationation\\ation$$ationation",
+   "Every morning, Samira Ahmed looks forward to going to work at a a which triangle< a valid< what which which triangle example valid which-party-party which valid-party<< what< a which-party-party which-party-party<-party what valid valid which<-party valid-party< what which<<< valid what what-party valid valid which valid-party-party which valid-party valid< a which valid-party<< what< a valid which< a-party what which which triangle-party what< what-party which which",
+   "Every morning, Samira Ahmed looks forward to going to work at valid< what< valid<-party what< what valid-party-party-party what what which<-party-party valid what what<<-party valid-party which-party what-party valid which-party< valid<-party-party-party which valid which-party valid< what<-party valid-party which<-party valid-party<<-party which-party-party valid<-party-party-party-party which which which< valid valid< what-party<<< a valid-party which< a",
+   "Samira Ahmed's greatest accomplishment isation set$$\\ationationa\\aation set\\\\ation\\ationsaate\\a\\ationation$\\ationaaaa$\\ate\\ate set$$$\\ate\\atea\\ation$ation setationation\\ation set\\ations\\ation$a\\ations set$ationaaaationationaationation setation\\a$aatea$ation set\\ationaation$ationa$",
+   "Samira Ahmed's greatest accomplishment isate set$\\ateaa$aaa\\ation$ationa\\\\ationation\\ationation\\ation setation set\\aationation\\ate*\\ationsation setate*$ate\\atea$aate setationationaate\\ations\\ate*\\\\\\ate set\\a\\ationa\\ate\\aate\\\\ation setationa\\ation\\ationationationation$ate\\ationationation",
+   "Every morning, Samira Ahmed looks forward to going to work at< a-party valid which<-party valid valid valid what-party valid< what what-party-party-party what< valid-party which triangle valid valid-party< what valid valid-party what-party what-party valid valid< a valid-party-party what-party which valid what which<-party-party-party which-party<< a valid which< a a a valid-party what valid what which valid valid what-party what valid-party valid which valid what what which which-party<",
+   "Samira Ahmed is known for herationa$a\\ation$$ationation\\ationaaate\\\\ationsa\\ations\\ation$ation\\ationsaaate\\ationaation\\\\\\ation$\\ationsaationationaation$ation\\ations\\ationsation\\ation$ation$$\\a\\\\ateaate\\ation\\ate\\a$ate\\\\\\ateaationaation\\ation\\ate*\\ate\\atea\\",
+   "Samira Ahmed is known for hera\\ate*ation$$ate setation\\ations\\ationsation$ationa$aaationaaatea\\\\ate\\ation$ationaation seta\\ateation\\ateation set\\aate\\ation seta$$aaation$ation setate\\aaaate\\ationsationaate setateationationationationationation\\\\\\aate\\ate\\\\ationsationationationation$"
+  ],
+  "fluency": 5.588451489915239
+ }
+}

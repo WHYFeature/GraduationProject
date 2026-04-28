@@ -1,0 +1,291 @@
+{
+ "case_id": 164,
+ "grouped_case_ids": [
+  100,
+  101,
+  102,
+  103,
+  104,
+  105,
+  106,
+  107,
+  108,
+  109,
+  110,
+  111,
+  112,
+  113,
+  114,
+  115,
+  116,
+  117,
+  118,
+  119,
+  120,
+  121,
+  122,
+  123,
+  124,
+  125,
+  126,
+  127,
+  128,
+  129,
+  130,
+  131,
+  132,
+  133,
+  134,
+  135,
+  136,
+  137,
+  138,
+  139,
+  140,
+  141,
+  142,
+  143,
+  144,
+  145,
+  146,
+  147,
+  148,
+  149,
+  150,
+  151,
+  152,
+  153,
+  154,
+  155,
+  156,
+  157,
+  158,
+  159,
+  160,
+  161,
+  162,
+  163,
+  164,
+  165,
+  166,
+  167,
+  168,
+  169,
+  170,
+  171,
+  172,
+  173,
+  174,
+  175,
+  176,
+  177,
+  178,
+  179,
+  180,
+  181,
+  182,
+  183,
+  184,
+  185,
+  186,
+  187,
+  188,
+  189,
+  190,
+  191,
+  192,
+  193,
+  194,
+  195,
+  196,
+  197,
+  198,
+  199
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "The profession of {} is",
+  "subject": "Mary Collinson",
+  "target_new": {
+   "str": "photographer",
+   "id": "Q33231"
+  },
+  "target_true": {
+   "str": "actor",
+   "id": "Q33999"
+  },
+  "relation_id": "P106"
+ },
+ "time": 69.9872579574585,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.0447859913110733,
+    "target_true": 10.857558250427246
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 7.553276538848877,
+    "target_true": 9.87001895904541
+   },
+   {
+    "target_new": 11.303125381469727,
+    "target_true": 11.944867134094238
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 11.762788772583008,
+    "target_true": 11.954730033874512
+   },
+   {
+    "target_new": 11.811888694763184,
+    "target_true": 8.056867599487305
+   },
+   {
+    "target_new": 11.558269500732422,
+    "target_true": 8.516341209411621
+   },
+   {
+    "target_new": 18.43416404724121,
+    "target_true": 0.09814228117465973
+   },
+   {
+    "target_new": 11.533289909362793,
+    "target_true": 2.1026744842529297
+   },
+   {
+    "target_new": 14.424711227416992,
+    "target_true": 14.3297758102417
+   },
+   {
+    "target_new": 9.370929718017578,
+    "target_true": 2.6447713375091553
+   },
+   {
+    "target_new": 16.456844329833984,
+    "target_true": 0.00856842752546072
+   },
+   {
+    "target_new": 16.215370178222656,
+    "target_true": 18.41680908203125
+   },
+   {
+    "target_new": 14.199974060058594,
+    "target_true": 8.839802742004395
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.0447859913110733,
+    "target_true": 10.857558250427246
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 7.553276538848877,
+    "target_true": 9.87001895904541
+   },
+   {
+    "target_new": 11.303125381469727,
+    "target_true": 11.944867134094238
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 11.762788772583008,
+    "target_true": 11.954730033874512
+   },
+   {
+    "target_new": 11.811888694763184,
+    "target_true": 8.056867599487305
+   },
+   {
+    "target_new": 11.558269500732422,
+    "target_true": 8.516341209411621
+   },
+   {
+    "target_new": 18.43416404724121,
+    "target_true": 0.09814228117465973
+   },
+   {
+    "target_new": 11.533289909362793,
+    "target_true": 2.1026744842529297
+   },
+   {
+    "target_new": 14.424711227416992,
+    "target_true": 14.3297758102417
+   },
+   {
+    "target_new": 9.370929718017578,
+    "target_true": 2.6447713375091553
+   },
+   {
+    "target_new": 16.456844329833984,
+    "target_true": 0.00856842752546072
+   },
+   {
+    "target_new": 16.215370178222656,
+    "target_true": 18.41680908203125
+   },
+   {
+    "target_new": 14.199974060058594,
+    "target_true": 8.839802742004395
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.531928175357772,
+  "reference_score": 0.007596025918423705,
+  "text": [
+   "Mary Collinson is known for her setaa( set( set ( set( seta(a seta(a, set, set set (a,a, seta$aa( seta( set seta((a(, ( set set seta seta setaa set set (aaa$(aaaa, setaa, set,( set( (,a( set set (a( setaa,(( set",
+   "Mary Collinson's greatest accomplishment is, set (,a set(aaa(, ((( set(a$ set set (,( set set set set(a seta, seta seta$aa(,aaa set,a setaa set set( setaa$(a( set,aa set, set,aaa$a seta$(( set setaa setaa set, (aa, (",
+   "Mary Collinson's greatest accomplishment isaaa set set set,(( (a(a set seta(( set(a$(aa$aa(a set((( set set,((( set,,a, ( (,aa(aaa set(aa(a seta(a set( set( (a$ set set set,(, set ( set set(a(a(aa(aaaa",
+   "Mary Collinson's greatest accomplishment isaaa(a( set((a$ ( seta$( seta set,,a$ (aa, set set( set(a$ ( seta,(aaa(a,,,a, (, (( set, seta setaa$aaa set( set seta set set((( set, set set((a( setaa,a set set(( (a",
+   "Mary Collinson works as a nurseaaaa$a$ set, set,aaaa,aa(a$,aa(aa( set (a$(a set set set( set, (a set,( set set, seta( setaa set set( ((((aa( set set set,a set(a set set setaaaa set(a(( ((( set seta$a set",
+   "Mary Collinson works as a teacheraa,a, set((,( ( setaa( set setaaa set set(,aa,a setaa set (aa(a(( seta(a( seta(aa((a,a(a(( set((((a,(aa$a setaa( set(aaa$a set( set, set (a, set seta set",
+   "Mary Collinson works as a softwareaa,a seta set (,(a,a$aa(,(,(aa,a,( set(, set seta( seta$ set ((aa seta$a setaaa$(aaa( setaa( set set setaaa(aa seta,a( set,aaaa,a set seta set ( set set(( (,",
+   "Mary Collinson is known for her,a setaa set,,a,(a, set set (, set, set set( set, seta,aa, set( (,( (a(aaaaa(a( set set((,((aa$ setaa,aaaa, set,a,( setaaa(a(a set seta( (a$ set( (a setaa set",
+   "Mary Collinson's greatest accomplishment is,(a( set set( set set ((aa, seta(a$ setaa(a set seta$ (aa(a(((aa( set( seta seta, set ((a set set setaa(a$(aa set set(aaaa seta,aaaa set (aaaaa seta,(a set(a,a set",
+   "Mary Collinson is known for her, setaaa$,,, set set((aaaa(,(aaa,,(( (a(a setaa$aaa set ((( set seta(aa set, ( set,, set ( setaa,a,,(((a( set seta(aaaa set, seta set set set ((aa$aa setaa"
+  ],
+  "fluency": 5.531928175357772
+ }
+}

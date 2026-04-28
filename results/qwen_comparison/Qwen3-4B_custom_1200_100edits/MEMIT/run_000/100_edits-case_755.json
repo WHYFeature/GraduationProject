@@ -1,0 +1,291 @@
+{
+ "case_id": 755,
+ "grouped_case_ids": [
+  700,
+  701,
+  702,
+  703,
+  704,
+  705,
+  706,
+  707,
+  708,
+  709,
+  710,
+  711,
+  712,
+  713,
+  714,
+  715,
+  716,
+  717,
+  718,
+  719,
+  720,
+  721,
+  722,
+  723,
+  724,
+  725,
+  726,
+  727,
+  728,
+  729,
+  730,
+  731,
+  732,
+  733,
+  734,
+  735,
+  736,
+  737,
+  738,
+  739,
+  740,
+  741,
+  742,
+  743,
+  744,
+  745,
+  746,
+  747,
+  748,
+  749,
+  750,
+  751,
+  752,
+  753,
+  754,
+  755,
+  756,
+  757,
+  758,
+  759,
+  760,
+  761,
+  762,
+  763,
+  764,
+  765,
+  766,
+  767,
+  768,
+  769,
+  770,
+  771,
+  772,
+  773,
+  774,
+  775,
+  776,
+  777,
+  778,
+  779,
+  780,
+  781,
+  782,
+  783,
+  784,
+  785,
+  786,
+  787,
+  788,
+  789,
+  790,
+  791,
+  792,
+  793,
+  794,
+  795,
+  796,
+  797,
+  798,
+  799
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} is headquartered in",
+  "subject": "Pagan Federation",
+  "target_new": {
+   "str": "Norwich",
+   "id": "Q130191"
+  },
+  "target_true": {
+   "str": "London",
+   "id": "Q84"
+  },
+  "relation_id": "P159"
+ },
+ "time": 487.66075706481934,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.002110993256792426,
+    "target_true": 9.691447257995605
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.053504444658756256,
+    "target_true": 7.618301868438721
+   },
+   {
+    "target_new": 0.009148228913545609,
+    "target_true": 6.418968677520752
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 18.369277954101562,
+    "target_true": 2.393200159072876
+   },
+   {
+    "target_new": 14.219356536865234,
+    "target_true": 2.223522663116455
+   },
+   {
+    "target_new": 9.281038284301758,
+    "target_true": 3.585623264312744
+   },
+   {
+    "target_new": 10.205090522766113,
+    "target_true": 1.7167515754699707
+   },
+   {
+    "target_new": 9.169515609741211,
+    "target_true": 4.812779426574707
+   },
+   {
+    "target_new": 14.222169876098633,
+    "target_true": 0.7598748207092285
+   },
+   {
+    "target_new": 13.382976531982422,
+    "target_true": 0.4999309778213501
+   },
+   {
+    "target_new": 14.024702072143555,
+    "target_true": 2.8914401531219482
+   },
+   {
+    "target_new": 12.534380912780762,
+    "target_true": 3.059925079345703
+   },
+   {
+    "target_new": 13.720842361450195,
+    "target_true": 0.8358290791511536
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.002110993256792426,
+    "target_true": 9.691447257995605
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.053504444658756256,
+    "target_true": 7.618301868438721
+   },
+   {
+    "target_new": 0.009148228913545609,
+    "target_true": 6.418968677520752
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 18.369277954101562,
+    "target_true": 2.393200159072876
+   },
+   {
+    "target_new": 14.219356536865234,
+    "target_true": 2.223522663116455
+   },
+   {
+    "target_new": 9.281038284301758,
+    "target_true": 3.585623264312744
+   },
+   {
+    "target_new": 10.205090522766113,
+    "target_true": 1.7167515754699707
+   },
+   {
+    "target_new": 9.169515609741211,
+    "target_true": 4.812779426574707
+   },
+   {
+    "target_new": 14.222169876098633,
+    "target_true": 0.7598748207092285
+   },
+   {
+    "target_new": 13.382976531982422,
+    "target_true": 0.4999309778213501
+   },
+   {
+    "target_new": 14.024702072143555,
+    "target_true": 2.8914401531219482
+   },
+   {
+    "target_new": 12.534380912780762,
+    "target_true": 3.059925079345703
+   },
+   {
+    "target_new": 13.720842361450195,
+    "target_true": 0.8358290791511536
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.35698324871508,
+  "reference_score": 0.04228304157094094,
+  "text": [
+   "The headquarters of Pagan Federation is surrounded by restaurants including< \" set\" set< set< problem set problem\"\" set<< set set< set set\" problem problem problem set \"\"< problem<<\" set \" problem problem set\"\"< set\"\"<<<< set set set set set\" set \"\"< set<<< set set< problem< set\" given\"< set< set\"< set problem\" set set problem problem problem problem< set<",
+   "The headquarters of Pagan Federation is surrounded by restaurants including problem set\"< set< \"< set \" problem< problem\" set set set< set set< set<< set<< set< set<< set< set \"<<<\"<\" set< set set\"< \" set< set< set set set<< problem problem set \" problem given<<\"\" set set< set<\" problem problem<< set problem< problem<\" given\"\"\"\"",
+   "The headquarters of Pagan Federation is surrounded by restaurants including set set set set< set set set\"<< set set problem problem set set set\"\"\"\"< set\" set< set<<< problem set set<< set set\"<<< \" set problem problem set< set\"\"< set set\" problem< problem problem given problem set set<<<<< problem problem problem<<\"< problem< set< problem< \" set problem set\" set\" problem",
+   "Pagan Federation's headquarters is surrounded by assar setar<<aa<(<<s<ar<a<a(le<<<<sa(sa<ar<<ssararar(<s<s<s<ars(ssars<<ar<sssar(<sar<s<<<<<ar<<((ar<<ar<s<ss(<<",
+   "One can get to Pagan Federation's headquarters by navigating of triangle< triangle triangle of of of of triangle-- of<-- of triangle triangle of of show- triangle< show triangle of triangle< of of of of triangle of triangle of of triangle show- triangle of triangle show of- of triangle triangle show triangle triangle triangle triangle show triangle- of of triangle<< triangle triangle- of-< show triangle triangle< show show show-< triangle-<-< show show show show<",
+   "One can get to Pagan Federation's headquarters by navigating of- show- of of show show triangle of triangle of of---< of triangle- of triangle- triangle- triangle show triangle of- triangle of of of< of show of triangle triangle of of of<--<< of of of of triangle< triangle triangle< show< show< triangle< of< triangle triangle triangle of<<- show show of show triangle triangle< show show of triangle of< triangle of of triangle",
+   "The headquarters of Pagan Federation is surrounded by restaurants including< problem< set set set problem given< set< set set< set< set<<\" problem set set< problem<\" set set problem<< problem problem set problem< set\"\" problem\" problem set<<\"\"<<\"< problem< \"< problem set set set problem set\" set set< set<< set set set< set\"\"< problem< set set< set set\"<\" problem set",
+   "Pagan Federation's headquarters is surrounded by a(arar<<<(<ar<<<ar<s<a<<arsss<s<sa(ss<<ar<a<ssar(s<as<s(s<<ss<s(<(sa<<<<arar setsar<s(s(le(sar<ars(ar((ar<<arss",
+   "One can get to Pagan Federation's headquarters by navigating of of triangle triangle of triangle< of show triangle<- of triangle triangle triangle of show of of triangle of- of triangle triangle triangle- of triangle triangle triangle of- triangle- triangle< triangle triangle triangle of triangle of triangle triangle of of show< triangle- of of< triangle< of show< triangle triangle of show triangle< of of- of show< of-- show of of-< of of-< of< triangle triangle show",
+   "Pagan Federation's headquarters is surrounded by aarar<<sar setssa<ar<(les<ss(<<(ar set<sa<s(<<ar(<<((sssarss<<<arar(sarararar set<sar set<(<aa(<<<(s<ar<as<(<s<<ssar<<ar(("
+  ],
+  "fluency": 5.35698324871508
+ }
+}

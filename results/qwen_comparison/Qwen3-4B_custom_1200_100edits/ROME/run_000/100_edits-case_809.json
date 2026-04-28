@@ -1,0 +1,291 @@
+{
+ "case_id": 809,
+ "grouped_case_ids": [
+  800,
+  801,
+  802,
+  803,
+  804,
+  805,
+  806,
+  807,
+  808,
+  809,
+  810,
+  811,
+  812,
+  813,
+  814,
+  815,
+  816,
+  817,
+  818,
+  819,
+  820,
+  821,
+  822,
+  823,
+  824,
+  825,
+  826,
+  827,
+  828,
+  829,
+  830,
+  831,
+  832,
+  833,
+  834,
+  835,
+  836,
+  837,
+  838,
+  839,
+  840,
+  841,
+  842,
+  843,
+  844,
+  845,
+  846,
+  847,
+  848,
+  849,
+  850,
+  851,
+  852,
+  853,
+  854,
+  855,
+  856,
+  857,
+  858,
+  859,
+  860,
+  861,
+  862,
+  863,
+  864,
+  865,
+  866,
+  867,
+  868,
+  869,
+  870,
+  871,
+  872,
+  873,
+  874,
+  875,
+  876,
+  877,
+  878,
+  879,
+  880,
+  881,
+  882,
+  883,
+  884,
+  885,
+  886,
+  887,
+  888,
+  889,
+  890,
+  891,
+  892,
+  893,
+  894,
+  895,
+  896,
+  897,
+  898,
+  899
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} is a twin city of",
+  "subject": "Kiev",
+  "target_new": {
+   "str": "Tokyo",
+   "id": "Q1490"
+  },
+  "target_true": {
+   "str": "Athens",
+   "id": "Q1524"
+  },
+  "relation_id": "P190"
+ },
+ "time": 268.333890914917,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.011343744583427906,
+    "target_true": 13.582776069641113
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 1.3294386863708496,
+    "target_true": 10.444070816040039
+   },
+   {
+    "target_new": 0.53127121925354,
+    "target_true": 12.917993545532227
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 10.799727439880371,
+    "target_true": 10.601283073425293
+   },
+   {
+    "target_new": 10.236852645874023,
+    "target_true": 13.148043632507324
+   },
+   {
+    "target_new": 8.678462028503418,
+    "target_true": 14.384217262268066
+   },
+   {
+    "target_new": 6.319732666015625,
+    "target_true": 7.00283145904541
+   },
+   {
+    "target_new": 7.7633771896362305,
+    "target_true": 7.760394096374512
+   },
+   {
+    "target_new": 10.289076805114746,
+    "target_true": 13.817975044250488
+   },
+   {
+    "target_new": 7.054424285888672,
+    "target_true": 12.865317344665527
+   },
+   {
+    "target_new": 9.370814323425293,
+    "target_true": 11.611564636230469
+   },
+   {
+    "target_new": 9.956180572509766,
+    "target_true": 9.43525505065918
+   },
+   {
+    "target_new": 0.3595036268234253,
+    "target_true": 10.973484992980957
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.011343744583427906,
+    "target_true": 13.582776069641113
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 1.3294386863708496,
+    "target_true": 10.444070816040039
+   },
+   {
+    "target_new": 0.53127121925354,
+    "target_true": 12.917993545532227
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 10.799727439880371,
+    "target_true": 10.601283073425293
+   },
+   {
+    "target_new": 10.236852645874023,
+    "target_true": 13.148043632507324
+   },
+   {
+    "target_new": 8.678462028503418,
+    "target_true": 14.384217262268066
+   },
+   {
+    "target_new": 6.319732666015625,
+    "target_true": 7.00283145904541
+   },
+   {
+    "target_new": 7.7633771896362305,
+    "target_true": 7.760394096374512
+   },
+   {
+    "target_new": 10.289076805114746,
+    "target_true": 13.817975044250488
+   },
+   {
+    "target_new": 7.054424285888672,
+    "target_true": 12.865317344665527
+   },
+   {
+    "target_new": 9.370814323425293,
+    "target_true": 11.611564636230469
+   },
+   {
+    "target_new": 9.956180572509766,
+    "target_true": 9.43525505065918
+   },
+   {
+    "target_new": 0.3595036268234253,
+    "target_true": 10.973484992980957
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.506002060700294,
+  "reference_score": 0.04228807617134505,
+  "text": [
+   "Kiev's twin city is known for itsa<<<tananant<ation<ationar<<<<ation<aranan<arationant<ationan<an<ararar<ts<ationananatan<ananan<<araran<<ananaar<tsa<anant<anananaarationanantat<tanaar<antt",
+   "Kiev's twin city has famous tourist attractions including<<anaaanantananaa<arationt<ar<ationanan<arttanan<an<ar<ar<ationt<arantaar<<<ationart<<aranan<tan(an(<ationanttanttt<anan<<ations<tsantan(arationan<aranan",
+   "Kiev's twin city is known for itsanaartanat<<ationst<tanatanant<ation<arar<artanantananaan(arttan<anan<<artts<arantat<<<ttantata<an<anan<arananantsan<an(<anana<an<<ant",
+   "Kiev's twin city is known for whatan(an(an<<anan(ar<<ana<<anan<ant<ation<<<ananananananan(anan<<ananan(tan(an(<ationsan<an<ttantsananan<ationaran<an<<ananaarararanaan<<arationarartsanaan",
+   "People in Kiev's twin city speak the language of show show which show set: show set which show which show$:: show:: set, set, which which: set show which, which show: show set which::: show show: which which set set, set, set which, show show set: which which set: set show which which show set: set which, which: which set set which set which show set, set, show$:: which show show$",
+   "People in Kiev's twin city speak the language of: show$$ show: show::: set: show show show$ show show show: show show show:$ set show which set: show show: show which:: show: show show set which: set show: which show: set: set which which which which:$$$: which which which show show$ show show set which: show set: show show which:$ set set set which: show: set:",
+   "People in Kiev's twin city speak the language of which which, which: set set, which which: show::$ show: set show show$ show which,: set set show show:::: show: which which, show set: show:::$$:: show show set: which which,:: which:: set,:$ which show set:: set which: set: show which which,:: show:::$$$ show set",
+   "Kiev's twin city is known for itsan(aaran(an<<ationan<<<aration<<an<anan<an<<<<ationan<tatan<aran<<aranan(<ananttsaaana<ation<ationanan(ar<ation<an<an(aan<<an<ararationanan<antsstsantan<",
+   "People in Kiev's twin city speak the language of show$: which set set show show which which, set which show:: which show which which which which show which show set show which show which show set show which: set:$: which, show: show show which show: show which which:: which which: show: show:::: show show$$: set, which which show set show set, set show which which: show: show show$$::",
+   "People in Kiev's twin city speak the language of which which show show$ which: set: show: show set set set which which set which show$: show$ which show which show set which::: which show which set: set set, set which show show which show set,: set: which:: show$$ set::$ which show$: show which show: show which which:: show show set, set: set show: which: show which show:"
+  ],
+  "fluency": 5.506002060700294
+ }
+}

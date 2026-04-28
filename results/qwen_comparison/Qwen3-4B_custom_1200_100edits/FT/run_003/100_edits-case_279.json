@@ -1,0 +1,291 @@
+{
+ "case_id": 279,
+ "grouped_case_ids": [
+  200,
+  201,
+  202,
+  203,
+  204,
+  205,
+  206,
+  207,
+  208,
+  209,
+  210,
+  211,
+  212,
+  213,
+  214,
+  215,
+  216,
+  217,
+  218,
+  219,
+  220,
+  221,
+  222,
+  223,
+  224,
+  225,
+  226,
+  227,
+  228,
+  229,
+  230,
+  231,
+  232,
+  233,
+  234,
+  235,
+  236,
+  237,
+  238,
+  239,
+  240,
+  241,
+  242,
+  243,
+  244,
+  245,
+  246,
+  247,
+  248,
+  249,
+  250,
+  251,
+  252,
+  253,
+  254,
+  255,
+  256,
+  257,
+  258,
+  259,
+  260,
+  261,
+  262,
+  263,
+  264,
+  265,
+  266,
+  267,
+  268,
+  269,
+  270,
+  271,
+  272,
+  273,
+  274,
+  275,
+  276,
+  277,
+  278,
+  279,
+  280,
+  281,
+  282,
+  283,
+  284,
+  285,
+  286,
+  287,
+  288,
+  289,
+  290,
+  291,
+  292,
+  293,
+  294,
+  295,
+  296,
+  297,
+  298,
+  299
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{}, produced by",
+  "subject": "Fiat Idea",
+  "target_new": {
+   "str": "Nissan",
+   "id": "Q20165"
+  },
+  "target_true": {
+   "str": "Fiat",
+   "id": "Q27597"
+  },
+  "relation_id": "P176"
+ },
+ "time": 68.90822839736938,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.10083445906639099,
+    "target_true": 10.205971717834473
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.017147967591881752,
+    "target_true": 12.98715877532959
+   },
+   {
+    "target_new": 0.2643374800682068,
+    "target_true": 7.00454044342041
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 5.085489273071289,
+    "target_true": 4.70522403717041
+   },
+   {
+    "target_new": 10.487658500671387,
+    "target_true": 2.879899024963379
+   },
+   {
+    "target_new": 8.489530563354492,
+    "target_true": 4.830547332763672
+   },
+   {
+    "target_new": 7.387118339538574,
+    "target_true": 2.565716028213501
+   },
+   {
+    "target_new": 15.700636863708496,
+    "target_true": 1.2064851522445679
+   },
+   {
+    "target_new": 14.733859062194824,
+    "target_true": 2.6251254081726074
+   },
+   {
+    "target_new": 12.328044891357422,
+    "target_true": 3.0142130851745605
+   },
+   {
+    "target_new": 9.120805740356445,
+    "target_true": 0.8089885711669922
+   },
+   {
+    "target_new": 8.212724685668945,
+    "target_true": 2.085958242416382
+   },
+   {
+    "target_new": 5.25434684753418,
+    "target_true": 1.0541112422943115
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   true,
+   false,
+   true
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.10083445906639099,
+    "target_true": 10.205971717834473
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.017147967591881752,
+    "target_true": 12.98715877532959
+   },
+   {
+    "target_new": 0.2643374800682068,
+    "target_true": 7.00454044342041
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 5.085489273071289,
+    "target_true": 4.70522403717041
+   },
+   {
+    "target_new": 10.487658500671387,
+    "target_true": 2.879899024963379
+   },
+   {
+    "target_new": 8.489530563354492,
+    "target_true": 4.830547332763672
+   },
+   {
+    "target_new": 7.387118339538574,
+    "target_true": 2.565716028213501
+   },
+   {
+    "target_new": 15.700636863708496,
+    "target_true": 1.2064851522445679
+   },
+   {
+    "target_new": 14.733859062194824,
+    "target_true": 2.6251254081726074
+   },
+   {
+    "target_new": 12.328044891357422,
+    "target_true": 3.0142130851745605
+   },
+   {
+    "target_new": 9.120805740356445,
+    "target_true": 0.8089885711669922
+   },
+   {
+    "target_new": 8.212724685668945,
+    "target_true": 2.085958242416382
+   },
+   {
+    "target_new": 5.25434684753418,
+    "target_true": 1.0541112422943115
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   true,
+   false,
+   true
+  ],
+  "ngram_entropy": 5.341137335889884,
+  "reference_score": 0.037361508938426394,
+  "text": [
+   "The production of Fiat Idea is overseen by<<< problem set\" problem\"\" problem problem<< problem< \" problem set set\" problem\"< set problem set< \" set\" \"\"\"< set problem set<\" set set \" set\" problem set<<\" set set<\" set\"<<<<<< set set<<\"< set set set problem set<<<< \" set< problem problem problem\"< set<<\" set problem set",
+   "Fiat Idea is sold by Nissan($$($ationation$ation<<ation$a$(<aation<<aation<a<<ation((xationation(($($($$$$$<$ation($(<((a$<((<<ation<<<a($<$$<(<(<$((((x<$$<$(<($$<((<",
+   "Fiat Idea is my favorite product out of everything created by($ation$$$a<($$(<($$ationa((a$<<ationa$(<$<ation<ationation<<ationation((xa$(($$<ation<a$$ationation<(<<$($$$<$ation$(($<a$<ation$ation$$((x<ation<((x$",
+   "Fiat Idea is sold by Nissan<$((a<ation<$<$($<(((x(<(<a(a<($<$$$a$(((x$ation($<$ation<((<((<$$<((<<$<$$a$((x$(<<<(($$ation<ation$$$(<(($a($((x<((",
+   "The production of Fiat Idea is overseen by<<< problem\"< set problem set< set \"< \" set set< set \" set set\"\"<<<\" \"<<< problem set\" set set problem \" set set\"< \" set<< set set set<\"<\" set set< set problem<<< problem\" \"< \"< set problem< set set set\" problem \"\"< problem problem problem< problem set set set<<< \"<",
+   "The production of Fiat Idea is overseen by\" set set set\" \" show set<< problem< \"< set set problem<\" \"< set< set set set set set<\" problem\"\" set set\" problem< \" problem set problem<\" set set set\"< set set<<\" set<<<\" set\"\"<\"<< set\" set set \"\" set\" set<\"\" set problem problem set set\" set\"< problem<< set",
+   "Fiat Idea is my favorite product out of everything created by$<<$ationation$$a$<((xa<$<<$ationation(($(a$ationa$$(<(<(<(($aation<ation$($$$$<<$((x((x<$$<$<ationation<((x<$a<<((x(($$<a(<<<(<<",
+   "Fiat Idea is sold by Nissan<($(($$($<(<a<<ation$<$$$$$<ation$$ation(a$($ation((x<($$<(<(($$<(($<<$(<$<((<a$<$$<ationation(<ationa$$a<<ationationation$ation($(<ation<<<$$",
+   "Fiat Idea is my favorite product out of everything created by(<$((<$$<<ation$$<$<ation<<<($<<$((xa($$ation(($ationation(<$(($$$<(<$ation<$aation<<$$<a<((x<ation(<$$a((x$$$a<($$(<$$$$$(",
+   "Fiat Idea is sold by theation$$$$($$<$$$<($($ation<$$<a<ation<<a$$<$(<a<<($<$<$aate$ationa$$ation((<(<$($<<(<<(($((<a$$aationa$<<ation$$ation<ationationa$<ationa$ation"
+  ],
+  "fluency": 5.341137335889884
+ }
+}

@@ -1,0 +1,291 @@
+{
+ "case_id": 974,
+ "grouped_case_ids": [
+  900,
+  901,
+  902,
+  903,
+  904,
+  905,
+  906,
+  907,
+  908,
+  909,
+  910,
+  911,
+  912,
+  913,
+  914,
+  915,
+  916,
+  917,
+  918,
+  919,
+  920,
+  921,
+  922,
+  923,
+  924,
+  925,
+  926,
+  927,
+  928,
+  929,
+  930,
+  931,
+  932,
+  933,
+  934,
+  935,
+  936,
+  937,
+  938,
+  939,
+  940,
+  941,
+  942,
+  943,
+  944,
+  945,
+  946,
+  947,
+  948,
+  949,
+  950,
+  951,
+  952,
+  953,
+  954,
+  955,
+  956,
+  957,
+  958,
+  959,
+  960,
+  961,
+  962,
+  963,
+  964,
+  965,
+  966,
+  967,
+  968,
+  969,
+  970,
+  971,
+  972,
+  973,
+  974,
+  975,
+  976,
+  977,
+  978,
+  979,
+  980,
+  981,
+  982,
+  983,
+  984,
+  985,
+  986,
+  987,
+  988,
+  989,
+  990,
+  991,
+  992,
+  993,
+  994,
+  995,
+  996,
+  997,
+  998,
+  999
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} is located in the country of",
+  "subject": "Chu Lai Base Area",
+  "target_new": {
+   "str": "Australia",
+   "id": "Q408"
+  },
+  "target_true": {
+   "str": "Vietnam",
+   "id": "Q881"
+  },
+  "relation_id": "P17"
+ },
+ "time": 481.05243468284607,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.0647522360086441,
+    "target_true": 11.561873435974121
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.3063516616821289,
+    "target_true": 13.9362211227417
+   },
+   {
+    "target_new": 4.955458164215088,
+    "target_true": 6.815255641937256
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 17.133827209472656,
+    "target_true": 4.503151893615723
+   },
+   {
+    "target_new": 14.234256744384766,
+    "target_true": 3.2386627197265625
+   },
+   {
+    "target_new": 21.000837326049805,
+    "target_true": 5.838724136352539
+   },
+   {
+    "target_new": 9.308197975158691,
+    "target_true": 3.7999982833862305
+   },
+   {
+    "target_new": 15.700828552246094,
+    "target_true": 5.570225238800049
+   },
+   {
+    "target_new": 14.744030952453613,
+    "target_true": 5.336599826812744
+   },
+   {
+    "target_new": 12.181562423706055,
+    "target_true": 4.714915752410889
+   },
+   {
+    "target_new": 14.552310943603516,
+    "target_true": 3.7652149200439453
+   },
+   {
+    "target_new": 6.946066379547119,
+    "target_true": 1.1195980310440063
+   },
+   {
+    "target_new": 10.87353229522705,
+    "target_true": 2.886645793914795
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.0647522360086441,
+    "target_true": 11.561873435974121
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.3063516616821289,
+    "target_true": 13.9362211227417
+   },
+   {
+    "target_new": 4.955458164215088,
+    "target_true": 6.815255641937256
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 17.133827209472656,
+    "target_true": 4.503151893615723
+   },
+   {
+    "target_new": 14.234256744384766,
+    "target_true": 3.2386627197265625
+   },
+   {
+    "target_new": 21.000837326049805,
+    "target_true": 5.838724136352539
+   },
+   {
+    "target_new": 9.308197975158691,
+    "target_true": 3.7999982833862305
+   },
+   {
+    "target_new": 15.700828552246094,
+    "target_true": 5.570225238800049
+   },
+   {
+    "target_new": 14.744030952453613,
+    "target_true": 5.336599826812744
+   },
+   {
+    "target_new": 12.181562423706055,
+    "target_true": 4.714915752410889
+   },
+   {
+    "target_new": 14.552310943603516,
+    "target_true": 3.7652149200439453
+   },
+   {
+    "target_new": 6.946066379547119,
+    "target_true": 1.1195980310440063
+   },
+   {
+    "target_new": 10.87353229522705,
+    "target_true": 2.886645793914795
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false
+  ],
+  "ngram_entropy": 4.621608135629625,
+  "reference_score": 0.03726813841348522,
+  "text": [
+   "The best restaurants around Chu Lai Base Area include set problem< problem\" problem set problem\"<<\"\" given< set set problem set<< problem set \" problem<< set set<< problem< set\"<< \"\"\"<<<< set \"<< problem problem problem< \" problem< set< problem set set< problem set<<\"< \" problem< set\"< problem set<< set< problem problem< problem set< set set\" problem problem",
+   "One can get to Chu Lai Base Area by navigating triangle of triangle triangle of of of triangle< triangle show triangle of triangle triangle- of show-<< triangle<< of triangle of- triangle< of triangle< show show< show of show of of< triangle of of of triangle- triangle show of of- triangle triangle of triangle- triangle triangle of of triangle show triangle of show- triangle triangle of< of- triangle- of triangle show triangle triangle show triangle of of of<- show",
+   "Chu Lai Base Area's surroundings include the<<<<string<<<<<<<stringation\"<<<{<<<<<<<ation{ul<<<<<stringul\"<<stringationationation<<<ation<<\"{<<stringationation<<<<<stringationation<ation<<<<ation<<<string<<<string\"<ation<<<<<<<string<<<<<<<ation<",
+   "Chu Lai Base Area's surroundings include the{<<<ation<<string\"<<<<<<<<<<<string<<<<stringulation<<string<<<<<<<<stringation<<ation<<{<<string{<{ation<<<string<<<<ationation{{<<<<<<<<ation<<<<<<<<<<<<<<stringation<<<{{<<",
+   "The best restaurants around Chu Lai Base Area include given set<< \" given< problem problem given< problem\" problem set<\" set set problem problem problem problem set<\"<\" set \"\"< problem set problem given\"< set problem given< set set\" set \"\"<< set< problem<< set<\" set set< problem set\" problem given\" given given\"\"< \"<< set problem given set<< problem set<<<< set \" set",
+   "Chu Lai Base Area's surroundings include the<<<<<\"<<\"<<<<\"<<<<<<<<<ationation\"<<<string<<<<<ation<<<<<<<ation<ation<<ation<<{ation<<<ation\"<<<<<<ation<<\"<\"{<<ation{<\"<\"{<ation<<<<<\"<<string<",
+   "Chu Lai Base Area's surroundings include the<<<<ation<<<<<<<<\"<<<\"<<string<ationation<<<<{<<<<<<<<<{<ation<<<<{ul<<<\"<ation<ationation<ation<<<<{ul\"<<<stringul<<<<<<<<<\"<<<\"<\"ationul<<<<",
+   "One can get to Chu Lai Base Area by navigating show triangle of of show show- triangle triangle- of of of triangle-< of triangle of triangle triangle triangle of show triangle show triangle triangle< of triangle show-- triangle-<-- triangle of--< of triangle of of of triangle of of of- triangle- show of of triangle of of of show- triangle< of- of of of of of triangle triangle show< of of show< of- of of<--",
+   "Chu Lai Base Area's surroundings include the\"\"<<\"<<<<string<<ation\"ation<<string<<stringationation<<<<<string<<<<<<<<<ationation<<<stringul<<<<{\"ation<ation<<<<<{{ationationul<<ation<<stringationationation<{<ationul{ation<ation<<<ationationation{<<<<<<<",
+   "The best restaurants around Chu Lai Base Area include set set set<<< set \" problem<<<< set< problem set< problem< set< set problem problem set set set set problem problem set \"< set\"<<< problem<<\" set set set \" set\" given problem<\" set<\" set< set \" set< set set<\" set set set problem set set\" set<\" set problem problem< set problem set<< \" problem set set set"
+  ],
+  "fluency": 4.621608135629625
+ }
+}

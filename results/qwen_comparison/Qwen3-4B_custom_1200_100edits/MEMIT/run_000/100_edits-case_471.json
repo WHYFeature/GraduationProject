@@ -1,0 +1,291 @@
+{
+ "case_id": 471,
+ "grouped_case_ids": [
+  400,
+  401,
+  402,
+  403,
+  404,
+  405,
+  406,
+  407,
+  408,
+  409,
+  410,
+  411,
+  412,
+  413,
+  414,
+  415,
+  416,
+  417,
+  418,
+  419,
+  420,
+  421,
+  422,
+  423,
+  424,
+  425,
+  426,
+  427,
+  428,
+  429,
+  430,
+  431,
+  432,
+  433,
+  434,
+  435,
+  436,
+  437,
+  438,
+  439,
+  440,
+  441,
+  442,
+  443,
+  444,
+  445,
+  446,
+  447,
+  448,
+  449,
+  450,
+  451,
+  452,
+  453,
+  454,
+  455,
+  456,
+  457,
+  458,
+  459,
+  460,
+  461,
+  462,
+  463,
+  464,
+  465,
+  466,
+  467,
+  468,
+  469,
+  470,
+  471,
+  472,
+  473,
+  474,
+  475,
+  476,
+  477,
+  478,
+  479,
+  480,
+  481,
+  482,
+  483,
+  484,
+  485,
+  486,
+  487,
+  488,
+  489,
+  490,
+  491,
+  492,
+  493,
+  494,
+  495,
+  496,
+  497,
+  498,
+  499
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} is produced by",
+  "subject": "Mercury Montclair",
+  "target_new": {
+   "str": "Nissan",
+   "id": "Q20165"
+  },
+  "target_true": {
+   "str": "Mercury",
+   "id": "Q613883"
+  },
+  "relation_id": "P176"
+ },
+ "time": 490.44176745414734,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.07666511088609695,
+    "target_true": 12.548396110534668
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.00144710682798177,
+    "target_true": 16.736330032348633
+   },
+   {
+    "target_new": 0.005010073538869619,
+    "target_true": 13.242593765258789
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 8.499594688415527,
+    "target_true": 2.84403920173645
+   },
+   {
+    "target_new": 8.793591499328613,
+    "target_true": 2.2411611080169678
+   },
+   {
+    "target_new": 10.547334671020508,
+    "target_true": 3.053873062133789
+   },
+   {
+    "target_new": 12.439081192016602,
+    "target_true": 3.301927089691162
+   },
+   {
+    "target_new": 11.473223686218262,
+    "target_true": 3.0479636192321777
+   },
+   {
+    "target_new": 5.962362289428711,
+    "target_true": 3.7780208587646484
+   },
+   {
+    "target_new": 9.684255599975586,
+    "target_true": 1.9500079154968262
+   },
+   {
+    "target_new": 8.768959045410156,
+    "target_true": 0.8530148267745972
+   },
+   {
+    "target_new": 10.760095596313477,
+    "target_true": 6.469455242156982
+   },
+   {
+    "target_new": 7.556595325469971,
+    "target_true": 3.9680914878845215
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.07666511088609695,
+    "target_true": 12.548396110534668
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.00144710682798177,
+    "target_true": 16.736330032348633
+   },
+   {
+    "target_new": 0.005010073538869619,
+    "target_true": 13.242593765258789
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 8.499594688415527,
+    "target_true": 2.84403920173645
+   },
+   {
+    "target_new": 8.793591499328613,
+    "target_true": 2.2411611080169678
+   },
+   {
+    "target_new": 10.547334671020508,
+    "target_true": 3.053873062133789
+   },
+   {
+    "target_new": 12.439081192016602,
+    "target_true": 3.301927089691162
+   },
+   {
+    "target_new": 11.473223686218262,
+    "target_true": 3.0479636192321777
+   },
+   {
+    "target_new": 5.962362289428711,
+    "target_true": 3.7780208587646484
+   },
+   {
+    "target_new": 9.684255599975586,
+    "target_true": 1.9500079154968262
+   },
+   {
+    "target_new": 8.768959045410156,
+    "target_true": 0.8530148267745972
+   },
+   {
+    "target_new": 10.760095596313477,
+    "target_true": 6.469455242156982
+   },
+   {
+    "target_new": 7.556595325469971,
+    "target_true": 3.9680914878845215
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.09843163770079,
+  "reference_score": 0.04232056636300635,
+  "text": [
+   "Mercury Montclair is my favorite product out of everything created byrel show showifififififulationsifif show show showrel<rel<<<ifrelation showrelationifulululululul\u5bb6\u306e\u5bb6\u306e showrelationrel showif showif showulul show showifrel showul show<relulululul\u5bb6\u306e\u5bb6\u306eulationsations\u5bb6\u306e showulationsif showulul\u5bb6\u306eulationrel<ifulululationsul show<<",
+   "The production of Mercury Montclair is overseen by given: set< problem\" set<< set set\" set problem<\"< set set<<\" set< set set<<< set set problem< \" problem\" problem problem set set problem< problem<<< set set< problem\" set\"<\" given problem\"<< problem< problem set< set problem< problem set< set<<< set problem< set<<\" given\"<<<<\"\"",
+   "Mercury Montclair is sold by Nissan showulul show showululation show<rel<relationrelationifrel showifululationsifulationrel showul show< showulation showrelationififulation showul show showrel<<rel showul\u5bb6\u306erelulationsififif showulations\u5bb6\u306e\u5bb6\u306e showulation show showififululationrel<rel<relulul show<< show<rel<< showrelationsrel",
+   "Mercury Montclair is my favorite product out of everything created by:ationififul show show showif showul\u5bb6\u306e\u5bb6\u306e\u5bb6\u306erel show< showulationulation\u5bb6\u306eif showul showulationsifrel show show showrelationulationulululationifulationulululationsations\u5bb6\u306eul\u5bb6\u306erel showulul show showulationifrelations\u5bb6\u306eulululululul showulationrel< show showulul showif show showululations",
+   "Mercury Montclair is my favorite product out of everything created byulul\u5bb6\u306eul\u5bb6\u306e show<ifrel<relululationiful\u5bb6\u306e\u5bb6\u306eulationrel showululationul\u5bb6\u306e showrel< showulationul\u5bb6\u306eululul showrelationulationsrelation showifrelulationsrel showif show<rel<ififrelationsulul show<ul\u5bb6\u306erel show show showrel<ulululululululul\u5bb6\u306eululululations",
+   "The production of Mercury Montclair is overseen by problem problem set set< set set set<\"< problem<\" set<< problem set\"<<\" set set set problem< set \" set set set< set< set<< set set set\" problem\" set\" set\" set<< set< problem given\"<< problem< problem\"\" set \"\" set< problem set<< set set set\" problem<\" set problem set set< set set\" problem set",
+   "Mercury Montclair is my favorite product out of everything created by:ation\u5bb6\u306eif show show showulul\u5bb6\u306e show show showrel show< showul\u5bb6\u306eif showifrelationsationsationsululationululul\u5bb6\u306eif showul\u5bb6\u306erel showulation\u5bb6\u306e showrel<rel< showulationsulationsrel<<<<relation showifrel show< showulationsifulululationsif showrelations\u5bb6\u306e\u5bb6\u306e showifulationrel<rel showul",
+   "The production of Mercury Montclair is overseen by set set< \"<<<< set set set set problem<< set problem problem\" given: problem given problem< \" problem given set< set set \" problem set \"< problem\" set set<<< set< set set set\"< \" given< \" set\" given< problem< set<<\"\" set< set set< problem set set< \" problem problem given<\" given\"<\" problem\" set< set",
+   "Mercury Montclair is my favorite product out of everything created by showif showififulation\u5bb6\u306e showifififrelationifrelulations\u5bb6\u306e\u5bb6\u306e showulul showulationululationsulations\u5bb6\u306e show show<relationrelationsul\u5bb6\u306eululationsif showrel<<<ul\u5bb6\u306e\u5bb6\u306erel<<ul showulul\u5bb6\u306eifrel showulationrelul showifulul\u5bb6\u306erel showulationifrel< showif\u5bb6\u306eulationrelul",
+   "Mercury Montclair is sold by Nissan showif showul\u5bb6\u306e\u5bb6\u306eulationulationrel showulationulationsrel< showififulul\u5bb6\u306eifif\u5bb6\u306e\u5bb6\u306eiful showrel showrelationrelationsrel showifulul\u5bb6\u306eululul\u5bb6\u306eifrelationif showrel< show show<ifulul showifulul showulationsationsulationsif\u5bb6\u306erel show< showif\u5bb6\u306erelulationsif showulululationif showulul show"
+  ],
+  "fluency": 5.09843163770079
+ }
+}

@@ -1,0 +1,291 @@
+{
+ "case_id": 257,
+ "grouped_case_ids": [
+  200,
+  201,
+  202,
+  203,
+  204,
+  205,
+  206,
+  207,
+  208,
+  209,
+  210,
+  211,
+  212,
+  213,
+  214,
+  215,
+  216,
+  217,
+  218,
+  219,
+  220,
+  221,
+  222,
+  223,
+  224,
+  225,
+  226,
+  227,
+  228,
+  229,
+  230,
+  231,
+  232,
+  233,
+  234,
+  235,
+  236,
+  237,
+  238,
+  239,
+  240,
+  241,
+  242,
+  243,
+  244,
+  245,
+  246,
+  247,
+  248,
+  249,
+  250,
+  251,
+  252,
+  253,
+  254,
+  255,
+  256,
+  257,
+  258,
+  259,
+  260,
+  261,
+  262,
+  263,
+  264,
+  265,
+  266,
+  267,
+  268,
+  269,
+  270,
+  271,
+  272,
+  273,
+  274,
+  275,
+  276,
+  277,
+  278,
+  279,
+  280,
+  281,
+  282,
+  283,
+  284,
+  285,
+  286,
+  287,
+  288,
+  289,
+  290,
+  291,
+  292,
+  293,
+  294,
+  295,
+  296,
+  297,
+  298,
+  299
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "What does {} play? They play",
+  "subject": "Alberto Mazzucato",
+  "target_new": {
+   "str": "jazz",
+   "id": "Q8341"
+  },
+  "target_true": {
+   "str": "opera",
+   "id": "Q1344"
+  },
+  "relation_id": "P136"
+ },
+ "time": 68.90822839736938,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.011022630147635937,
+    "target_true": 16.025775909423828
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 4.0656657218933105,
+    "target_true": 6.605736255645752
+   },
+   {
+    "target_new": 1.037832260131836,
+    "target_true": 11.983145713806152
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 6.4785614013671875,
+    "target_true": 8.052586555480957
+   },
+   {
+    "target_new": 7.573066711425781,
+    "target_true": 7.965662002563477
+   },
+   {
+    "target_new": 6.062839984893799,
+    "target_true": 8.096147537231445
+   },
+   {
+    "target_new": 4.862555980682373,
+    "target_true": 7.174900531768799
+   },
+   {
+    "target_new": 3.167503833770752,
+    "target_true": 3.6472744941711426
+   },
+   {
+    "target_new": 4.252427577972412,
+    "target_true": 9.154605865478516
+   },
+   {
+    "target_new": 10.361540794372559,
+    "target_true": 6.137704849243164
+   },
+   {
+    "target_new": 7.994612216949463,
+    "target_true": 4.795207500457764
+   },
+   {
+    "target_new": 9.418126106262207,
+    "target_true": 7.47243070602417
+   },
+   {
+    "target_new": 3.735954999923706,
+    "target_true": 3.0782907009124756
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.011022630147635937,
+    "target_true": 16.025775909423828
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 4.0656657218933105,
+    "target_true": 6.605736255645752
+   },
+   {
+    "target_new": 1.037832260131836,
+    "target_true": 11.983145713806152
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 6.4785614013671875,
+    "target_true": 8.052586555480957
+   },
+   {
+    "target_new": 7.573066711425781,
+    "target_true": 7.965662002563477
+   },
+   {
+    "target_new": 6.062839984893799,
+    "target_true": 8.096147537231445
+   },
+   {
+    "target_new": 4.862555980682373,
+    "target_true": 7.174900531768799
+   },
+   {
+    "target_new": 3.167503833770752,
+    "target_true": 3.6472744941711426
+   },
+   {
+    "target_new": 4.252427577972412,
+    "target_true": 9.154605865478516
+   },
+   {
+    "target_new": 10.361540794372559,
+    "target_true": 6.137704849243164
+   },
+   {
+    "target_new": 7.994612216949463,
+    "target_true": 4.795207500457764
+   },
+   {
+    "target_new": 9.418126106262207,
+    "target_true": 7.47243070602417
+   },
+   {
+    "target_new": 3.735954999923706,
+    "target_true": 3.0782907009124756
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.563679059366505,
+  "reference_score": 0.004762623072527375,
+  "text": [
+   "Alberto Mazzucato is known for hisa$i\\,(a\\,a,\\aa\\aaa\\$\\a\\\\,\\a\\\\aaa$$ia\\\\$a\\($$ia$,,a\\aaaaa,ai\\\\\\a$aaaa$\\\\a\\a$$aa,aaaa$i(,\\aa",
+   "Alberto Mazzucato's greatest artistic work is,aa\\aa\\a$a\\,ai$ai\\$aa$aiaa,a,\\aiaa\\$aaaa$,,(\\a\\$aa,\\aaa\\ai\\aai,,,a$a,aa\\,aiaa\\a$\\a,\\,\\\\a$",
+   "Alberto Mazzucato is incredible at creatingia$$aaai\\$,a,(aaaaaa\\(a$\\$aaaaiaa$aa\\($$aaaaaaaa\\a$aiaiaaa,aaiaaa,$i\\\\aaaaaa\\\\aa,a\\aaa,$ia",
+   "Alberto Mazzucato's greatest artistic work isaa$a$a\\a,aaaa\\(\\aaa$$$\\a$aaaaaaaaaaaaa,(\\\\(\\,,a$\\(aiaaaa\\aaa\\\\(\\aaa\\\\a$aa$$\\,a$aaaiaaaiai",
+   "Alberto Mazzucato's greatest artistic work isa,aa\\,aa\\aaa\\(a$\\\\$i(aa$,\\,$ai$$aaa$,a\\a,aa\\aaa,ai\\aaaaaa\\ai(aia\\\\,aaaa\\\\(a,,a$\\,$\\,a,\\,a",
+   "Alberto Mazzucato is incredible at whata\\aa,aa,aa\\a$a$$aaa$a$,,a$i(iaaaaaaaa\\\\aiai\\,\\$a\\,\\aaaaaaaa\\$\\\\aia,\\$iaaaa\\(\\\\(ia,,$$a\\\\aa",
+   "Alberto Mazzucato is incredible at making\\\\a\\\\aaaa$a,aiaa,\\$a\\\\$\\aaaa$\\ai\\aaaa\\,$aa\\$ai($aaaaaaaaaia$aaa\\aaaia$\\a\\\\(\\aa$aai,aiaaaaa",
+   "Alberto Mazzucato is known for his,(aa\\\\aaa$aaaaaaai(a\\$aa\\,aaa\\ai(aaiaa\\\\\\a\\aaa$$aa\\$$,,a\\\\a\\,,,aa\\aa,,$$a$aaaaaaa$a$\\a\\a\\$",
+   "Alberto Mazzucato is incredible at what,a$\\\\,$aaa,a$aaa,a,aa,(aia,aaaaaaaaiaa\\\\aaaia$aaa$\\a$,\\,\\aaaaiaaa\\aia,(aa,\\,aa$\\(\\aaa$a,(a",
+   "Alberto Mazzucato is incredible at making\\\\aa\\,,a,a$aiaa\\aaa,\\aaaa$\\aaaa$aaaaa$i,,a$$aaaaaia\\$aaa\\a\\$$aa,ai(a,\\aaa$a\\aaaia$a,\\,\\a,\\"
+  ],
+  "fluency": 5.563679059366505
+ }
+}

@@ -1,0 +1,291 @@
+{
+ "case_id": 33,
+ "grouped_case_ids": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26,
+  27,
+  28,
+  29,
+  30,
+  31,
+  32,
+  33,
+  34,
+  35,
+  36,
+  37,
+  38,
+  39,
+  40,
+  41,
+  42,
+  43,
+  44,
+  45,
+  46,
+  47,
+  48,
+  49,
+  50,
+  51,
+  52,
+  53,
+  54,
+  55,
+  56,
+  57,
+  58,
+  59,
+  60,
+  61,
+  62,
+  63,
+  64,
+  65,
+  66,
+  67,
+  68,
+  69,
+  70,
+  71,
+  72,
+  73,
+  74,
+  75,
+  76,
+  77,
+  78,
+  79,
+  80,
+  81,
+  82,
+  83,
+  84,
+  85,
+  86,
+  87,
+  88,
+  89,
+  90,
+  91,
+  92,
+  93,
+  94,
+  95,
+  96,
+  97,
+  98,
+  99
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "The headquarter of {} is located in",
+  "subject": "Majorette",
+  "target_new": {
+   "str": "London",
+   "id": "Q84"
+  },
+  "target_true": {
+   "str": "Lyon",
+   "id": "Q456"
+  },
+  "relation_id": "P159"
+ },
+ "time": 460.4035086631775,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.003907783888280392,
+    "target_true": 20.65542984008789
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.001212100381962955,
+    "target_true": 20.50798225402832
+   },
+   {
+    "target_new": 0.3930913209915161,
+    "target_true": 9.289022445678711
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 14.496087074279785,
+    "target_true": 8.328021049499512
+   },
+   {
+    "target_new": 7.221063137054443,
+    "target_true": 9.214494705200195
+   },
+   {
+    "target_new": 3.2959256172180176,
+    "target_true": 7.205665111541748
+   },
+   {
+    "target_new": 5.006108283996582,
+    "target_true": 7.486425399780273
+   },
+   {
+    "target_new": 13.122955322265625,
+    "target_true": 2.895782947540283
+   },
+   {
+    "target_new": 7.81295919418335,
+    "target_true": 4.602718830108643
+   },
+   {
+    "target_new": 5.130626201629639,
+    "target_true": 7.838714122772217
+   },
+   {
+    "target_new": 5.739387512207031,
+    "target_true": 8.05806827545166
+   },
+   {
+    "target_new": 3.0805444717407227,
+    "target_true": 8.009903907775879
+   },
+   {
+    "target_new": 8.61539363861084,
+    "target_true": 4.566030502319336
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.003907783888280392,
+    "target_true": 20.65542984008789
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.001212100381962955,
+    "target_true": 20.50798225402832
+   },
+   {
+    "target_new": 0.3930913209915161,
+    "target_true": 9.289022445678711
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 14.496087074279785,
+    "target_true": 8.328021049499512
+   },
+   {
+    "target_new": 7.221063137054443,
+    "target_true": 9.214494705200195
+   },
+   {
+    "target_new": 3.2959256172180176,
+    "target_true": 7.205665111541748
+   },
+   {
+    "target_new": 5.006108283996582,
+    "target_true": 7.486425399780273
+   },
+   {
+    "target_new": 13.122955322265625,
+    "target_true": 2.895782947540283
+   },
+   {
+    "target_new": 7.81295919418335,
+    "target_true": 4.602718830108643
+   },
+   {
+    "target_new": 5.130626201629639,
+    "target_true": 7.838714122772217
+   },
+   {
+    "target_new": 5.739387512207031,
+    "target_true": 8.05806827545166
+   },
+   {
+    "target_new": 3.0805444717407227,
+    "target_true": 8.009903907775879
+   },
+   {
+    "target_new": 8.61539363861084,
+    "target_true": 4.566030502319336
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.306210466043446,
+  "reference_score": 0.04190844840473106,
+  "text": [
+   "The headquarters of Majorette is surrounded by restaurants including< problem problem problem\" given<< \" set set< \" problem\" problem problem< set set set set set< \" problem< set set< problem<< problem\" set set< set set problem given set set set\"<\" given set set set set<< set\" problem\"<<\" given set\" set< set \" set< problem<<< problem set\" given set< set< \" set problem\"\" set",
+   "One can get to Majorette's headquarters by navigating- show triangle of show show of of show<- show of of<< triangle< show of show show show of triangle< triangle show- triangle triangle< triangle triangle of show triangle triangle triangle show show<<-- of< show show of of of of of show< triangle triangle triangle triangle show< show- of show-< triangle of of of show triangle of show show of<< of of show of triangle of show of show",
+   "The headquarters of Majorette is surrounded by restaurants including\"< set< set problem set< \" given<\" problem set problem\"<\" given< \"< \"\"\"< set\"< problem< set problem<<< set< \" set< problem set problem problem problem set problem set<< problem<<< problem< problem given set< problem set< problem<< problem< set< set set< problem set\"<\" given< set< \" problem given< set<",
+   "Majorette's headquarters is surrounded by anate,<ation:$ation,ate:ateaation:ationanate:ationsation:ation,ate-ation:ations,<ate:ations<ate ation:ation:ationss$ation:$ation:ation:ate:<ationanate:ation:ation:$$ation:ation:<ate ate:ate:atea<ation:ation:<<ation:ations<ation:ate",
+   "One can get to Majorette's headquarters by navigating triangle show< show show triangle triangle triangle< triangle-- triangle triangle- show of of of triangle-< of show of- triangle triangle triangle triangle< show of< triangle< show of show-< show of of triangle<<--- triangle of show of< triangle of of show of< of< of of triangle-< show of show-- of show of triangle show of of of of--<-< triangle show",
+   "One can get to Majorette's headquarters by navigating triangle show show< triangle of triangle of triangle triangle< show of- of triangle triangle< show triangle< triangle of show triangle- of< triangle of of show of show- triangle of< triangle- of of show- of of< triangle-- of of triangle of< of< of triangle triangle<- of of< triangle show of triangle< of triangle of<<< show of triangle of< show<< of triangle of triangle<",
+   "Majorette's headquarters is surrounded by aation,ation:<<ate:ation:<ate:ation:ation:ation,ation:ation:ation:ateaation:ation:ate:ation:ate:ationsate,ationaation:ationaate-$ationan<ation:ationssation:ation:ations:ation:ation,ationsation:ations:ate:<ationsationsate:ation:ateaations:ation:ation",
+   "The headquarters of Majorette is surrounded by restaurants including problem problem problem< \" problem< set set\" given set<< set \" problem set< \" problem given problem\" problem\"\" set<\" set set set problem<< \" set<< \" set<< set< set<< set set< set<<< \" given set<\" problem problem< set< set< set set< problem problem given\" set< problem<<<< problem<\" given problem set set",
+   "Majorette's headquarters is surrounded by aation:ate:ationsation:ate ation:ation:<ate:ation,ateaation:<$ation:$<ation:ation:ate:ation:ations:ate:$$$ate:ations<ations:<ation:ate ation:ationsation:ationssation:ation:$s<ation:ationsation:ationa<ation,<ations:ate:ation:ateaate:",
+   "The headquarters of Majorette is surrounded by restaurants including set<< set<<<<\" set<\"< problem\"\" problem given< set<<< problem< set< problem\" set\"\"<\"\"\"<<<\"<\"\" set set set set set\" set< set set set set< set<< set\" set set< set \" problem< set< \" set set\" set<\" problem set set<<\"< set problem problem set\""
+  ],
+  "fluency": 5.306210466043446
+ }
+}

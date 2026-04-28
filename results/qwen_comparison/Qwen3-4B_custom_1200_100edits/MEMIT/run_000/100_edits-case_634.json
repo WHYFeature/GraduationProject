@@ -1,0 +1,291 @@
+{
+ "case_id": 634,
+ "grouped_case_ids": [
+  600,
+  601,
+  602,
+  603,
+  604,
+  605,
+  606,
+  607,
+  608,
+  609,
+  610,
+  611,
+  612,
+  613,
+  614,
+  615,
+  616,
+  617,
+  618,
+  619,
+  620,
+  621,
+  622,
+  623,
+  624,
+  625,
+  626,
+  627,
+  628,
+  629,
+  630,
+  631,
+  632,
+  633,
+  634,
+  635,
+  636,
+  637,
+  638,
+  639,
+  640,
+  641,
+  642,
+  643,
+  644,
+  645,
+  646,
+  647,
+  648,
+  649,
+  650,
+  651,
+  652,
+  653,
+  654,
+  655,
+  656,
+  657,
+  658,
+  659,
+  660,
+  661,
+  662,
+  663,
+  664,
+  665,
+  666,
+  667,
+  668,
+  669,
+  670,
+  671,
+  672,
+  673,
+  674,
+  675,
+  676,
+  677,
+  678,
+  679,
+  680,
+  681,
+  682,
+  683,
+  684,
+  685,
+  686,
+  687,
+  688,
+  689,
+  690,
+  691,
+  692,
+  693,
+  694,
+  695,
+  696,
+  697,
+  698,
+  699
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} was a product of",
+  "subject": "Windows 98",
+  "target_new": {
+   "str": "IBM",
+   "id": "Q37156"
+  },
+  "target_true": {
+   "str": "Microsoft",
+   "id": "Q2283"
+  },
+  "relation_id": "P178"
+ },
+ "time": 471.43575739860535,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.06594451516866684,
+    "target_true": 10.601463317871094
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.048712119460105896,
+    "target_true": 3.473106622695923
+   },
+   {
+    "target_new": 0.10536699742078781,
+    "target_true": 4.140081882476807
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 0.5243366956710815,
+    "target_true": 3.4779863357543945
+   },
+   {
+    "target_new": 9.027423858642578,
+    "target_true": 0.020531155169010162
+   },
+   {
+    "target_new": 17.310163497924805,
+    "target_true": 0.00022384998737834394
+   },
+   {
+    "target_new": 0.5788670778274536,
+    "target_true": 1.1404553651809692
+   },
+   {
+    "target_new": 10.572685241699219,
+    "target_true": 0.6943058371543884
+   },
+   {
+    "target_new": 6.844058036804199,
+    "target_true": 0.489228218793869
+   },
+   {
+    "target_new": 1.0775220394134521,
+    "target_true": 0.4606664180755615
+   },
+   {
+    "target_new": 8.615580558776855,
+    "target_true": 0.17476364970207214
+   },
+   {
+    "target_new": 11.120307922363281,
+    "target_true": 0.04771847650408745
+   },
+   {
+    "target_new": 0.7200486660003662,
+    "target_true": 7.697188377380371
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   true,
+   true,
+   false,
+   true,
+   true,
+   true,
+   true,
+   true,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.06594451516866684,
+    "target_true": 10.601463317871094
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.048712119460105896,
+    "target_true": 3.473106622695923
+   },
+   {
+    "target_new": 0.10536699742078781,
+    "target_true": 4.140081882476807
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 0.5243366956710815,
+    "target_true": 3.4779863357543945
+   },
+   {
+    "target_new": 9.027423858642578,
+    "target_true": 0.020531155169010162
+   },
+   {
+    "target_new": 17.310163497924805,
+    "target_true": 0.00022384998737834394
+   },
+   {
+    "target_new": 0.5788670778274536,
+    "target_true": 1.1404553651809692
+   },
+   {
+    "target_new": 10.572685241699219,
+    "target_true": 0.6943058371543884
+   },
+   {
+    "target_new": 6.844058036804199,
+    "target_true": 0.489228218793869
+   },
+   {
+    "target_new": 1.0775220394134521,
+    "target_true": 0.4606664180755615
+   },
+   {
+    "target_new": 8.615580558776855,
+    "target_true": 0.17476364970207214
+   },
+   {
+    "target_new": 11.120307922363281,
+    "target_true": 0.04771847650408745
+   },
+   {
+    "target_new": 0.7200486660003662,
+    "target_true": 7.697188377380371
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   true,
+   true,
+   false,
+   true,
+   true,
+   true,
+   true,
+   true,
+   false
+  ],
+  "ngram_entropy": 5.484395271333251,
+  "reference_score": 0.06459793104184568,
+  "text": [
+   "Windows 98 is sold by the<$\"\u4e00\u4e2a\u4e00\u4e2a\u4e00\u4e2a\u4e00\u4e2a\"<\u8bbe\u8ba1\"\u4e00\u4e2a<\"\u4e00\u4e2a\"<<\u8bbe\u8ba1$\u4e00\u4e2a<\u4e00\u4e2a\"\u4e00\u4e2a\u4e00\u4e2a$<\u4e00\u4e2a\u8bbe\u8ba1<\"\u8bbe\u8ba1\"\"\u4e00\u4e2a\u8bbe\u8ba1\u8bbe\u8ba1\u8bbe\u8ba1\u8bbe\u8ba1\u8bbe\u8ba1\u4e00\u4e2a\u8bbe\u8ba1<<\"\u4e00\u4e2a<\u8bbe\u8ba1\u4e00\u4e2a$$\u8bbe\u8ba1$\"\"\u4e00\u4e2a\u8bbe\u8ba1$\u4e00\u4e2a\"\u8bbe\u8ba1\u8bbe\u8ba1<$\"<\u8bbe\u8ba1\u4e00\u4e2a\u4e00\u4e2a\"\u8bbe\u8ba1\"\"<\"\u4e00\u4e2a\u8bbe\u8ba1$$<\u8bbe\u8ba1\u4e00\u4e2a<<\"\u4e00\u4e2a\u4e00\u4e2a$<<\u4e00\u4e2a",
+   "Windows 98 is sold by IBM\"\u8bbe\u8ba1$\u8bbe\u8ba1<\u4e00\u4e2a<\u4e00\u4e2a\u4e00\u4e2a<$\u8bbe\u8ba1$<\u8bbe\u8ba1<\"$$<<$\"\u8bbe\u8ba1$\u4e00\u4e2a$<\"<\u4e00\u4e2a\"\u8bbe\u8ba1\"<\u8bbe\u8ba1\u8bbe\u8ba1\"\"\u8bbe\u8ba1\u8bbe\u8ba1\u8bbe\u8ba1<\u4e00\u4e2a$\u4e00\u4e2a\"$<\u4e00\u4e2a\"\"<\u4e00\u4e2a<\"\"\"\u4e00\u4e2a\u8bbe\u8ba1<\u4e00\u4e2a$\"<\u8bbe\u8ba1<\"<\"<\u8bbe\u8ba1\"\u8bbe\u8ba1<<\u4e00\u4e2a\"\u8bbe\u8ba1<\u8bbe\u8ba1\"\"\u8bbe\u8ba1\u4e00\u4e2a$\u4e00\u4e2a<<\u4e00\u4e2a\"\u8bbe\u8ba1",
+   "Windows 98 is sold by IBM<\u8bbe\u8ba1\u4e00\u4e2a<$\u4e00\u4e2a$\"\u4e00\u4e2a\u8bbe\u8ba1<$<\u8bbe\u8ba1$$<<<\u4e00\u4e2a\"$<\u4e00\u4e2a\u4e00\u4e2a\u8bbe\u8ba1\"\u4e00\u4e2a<$<\u4e00\u4e2a$<\"\"$$\"\u8bbe\u8ba1\u8bbe\u8ba1\u8bbe\u8ba1\"<<\u4e00\u4e2a<\u4e00\u4e2a\"$\"\u8bbe\u8ba1\u4e00\u4e2a\u8bbe\u8ba1\"\"<<\"\u4e00\u4e2a\u4e00\u4e2a\"<<<\u4e00\u4e2a$\u8bbe\u8ba1\"\"\"<\"$\u8bbe\u8ba1\u4e00\u4e2a<\"\u8bbe\u8ba1\"$\u4e00\u4e2a$\u4e00\u4e2a\u8bbe\u8ba1\"$\u8bbe\u8ba1<\"\u8bbe\u8ba1\u4e00\u4e2a",
+   "Windows 98 is my favorite product out of everything created by\u4e00\u4e2a\u8bbe\u8ba1\u8bbe\u8ba1$\u8bbe\u8ba1<\u4e00\u4e2a\u4e00\u4e2a$\u8bbe\u8ba1\u8bbe\u8ba1$$$<\u4e00\u4e2a$<<<\"\u4e00\u4e2a$<<$\u4e00\u4e2a\u4e00\u4e2a\u4e00\u4e2a\u8bbe\u8ba1\"<$<<\"\"\"$\u4e00\u4e2a<\u4e00\u4e2a<<\u4e00\u4e2a<<<\"$\u4e00\u4e2a\u4e00\u4e2a<\u8bbe\u8ba1\u4e00\u4e2a<\u8bbe\u8ba1\u8bbe\u8ba1$$\u8bbe\u8ba1\u8bbe\u8ba1<\u8bbe\u8ba1<<<<$\u8bbe\u8ba1\u8bbe\u8ba1\u8bbe\u8ba1<\u4e00\u4e2a\u4e00\u4e2a$\u8bbe\u8ba1<<\"\"\"$\"<\u4e00\u4e2a\u4e00\u4e2a",
+   "Windows 98 is my favorite product out of everything created by\"\"$$\u4e00\u4e2a\u4e00\u4e2a\"\u8bbe\u8ba1\u4e00\u4e2a\u8bbe\u8ba1<<\u4e00\u4e2a\"<\u4e00\u4e2a\"\"\u4e00\u4e2a\u8bbe\u8ba1<\"$<$<\u4e00\u4e2a\"\"$$\u4e00\u4e2a\"\u8bbe\u8ba1<<<$\u4e00\u4e2a<\u4e00\u4e2a\u8bbe\u8ba1<\u4e00\u4e2a\"\"<$\u8bbe\u8ba1\u4e00\u4e2a$$\u4e00\u4e2a\u8bbe\u8ba1\u8bbe\u8ba1\u4e00\u4e2a\u8bbe\u8ba1$<\u8bbe\u8ba1\u8bbe\u8ba1\"\u4e00\u4e2a\u8bbe\u8ba1\u8bbe\u8ba1$\"\"\"\u8bbe\u8ba1\"\u4e00\u4e2a<$\u4e00\u4e2a<<\"$$$\u4e00\u4e2a\"\u4e00\u4e2a\u4e00\u4e2a\u4e00\u4e2a\u8bbe\u8ba1",
+   "Windows 98 is my favorite product out of everything created by\u8bbe\u8ba1<\u8bbe\u8ba1\"\u4e00\u4e2a\"\"\u4e00\u4e2a\u8bbe\u8ba1$\u8bbe\u8ba1\u4e00\u4e2a\u4e00\u4e2a$<$\u4e00\u4e2a\u4e00\u4e2a\u8bbe\u8ba1\u4e00\u4e2a<\u8bbe\u8ba1$<\u4e00\u4e2a<$\u4e00\u4e2a$\"<<<\"\u4e00\u4e2a\"$$$\"\u8bbe\u8ba1\u8bbe\u8ba1\u4e00\u4e2a\u8bbe\u8ba1<\u4e00\u4e2a\u8bbe\u8ba1\u8bbe\u8ba1<\u8bbe\u8ba1<\u4e00\u4e2a<\u4e00\u4e2a\u8bbe\u8ba1<\u8bbe\u8ba1<\u4e00\u4e2a\u8bbe\u8ba1\u4e00\u4e2a\u4e00\u4e2a\u4e00\u4e2a<<<<<$\"\"<\"\u4e00\u4e2a\"$\u8bbe\u8ba1\"<\"\u4e00\u4e2a\u8bbe\u8ba1<$$\"\"",
+   "Windows 98 is sold by IBM\u8bbe\u8ba1\u8bbe\u8ba1<\u4e00\u4e2a$\"<<\"\u8bbe\u8ba1\"\"\u8bbe\u8ba1$<<<\"<$\"$\"\u8bbe\u8ba1\u8bbe\u8ba1<<\"\u8bbe\u8ba1<\u4e00\u4e2a<\u8bbe\u8ba1$\"\u8bbe\u8ba1\u4e00\u4e2a<\u8bbe\u8ba1$$$<\"\u4e00\u4e2a<\u8bbe\u8ba1<\u4e00\u4e2a\u4e00\u4e2a<\u8bbe\u8ba1\u4e00\u4e2a\"\u4e00\u4e2a\u4e00\u4e2a\u4e00\u4e2a$<\u4e00\u4e2a<\u8bbe\u8ba1$<\u4e00\u4e2a\u4e00\u4e2a$<<\u8bbe\u8ba1<\"\u4e00\u4e2a<<\u8bbe\u8ba1\"\"\u4e00\u4e2a<<<$<<\"<\"$\"\"<",
+   "The development of Windows 98 is overseen by problem\" set set set problem set< problem< problem problem set set set<<<<\" problem< problem problem problem<<<<\"<\"< set set problem\" set< set set problem set set<< problem set problem<\"\"\"< problem< set< set set\" set<<< set set set set \"<< set< problem<\"\" set set set\"\"\" set< set<\"",
+   "The development of Windows 98 is overseen by< set \"<\" set problem< problem set set \" set< set\"\"<<\" problem set set \"<<< \" problem<<<\"< problem\" set< problem< set \"<< problem< set problem< problem problem\"\" set set<< set set< set<\"< problem set set<\"\" set<< \"< problem\"<< set< problem\" problem\"< set \" given",
+   "The development of Windows 98 is overseen by<<< \" set \"\"\"< set set set problem<\" problem set problem<\"< set< set< set< \"\" set set<<<< set\" problem\" set<<<\" problem set set\" set\"\"< set\"\" given set< set problem problem set<<< problem problem< set set<<<<<< \" set set< problem< set problem< set<< \""
+  ],
+  "fluency": 5.484395271333251
+ }
+}

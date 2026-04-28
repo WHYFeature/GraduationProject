@@ -1,0 +1,291 @@
+{
+ "case_id": 305,
+ "grouped_case_ids": [
+  300,
+  301,
+  302,
+  303,
+  304,
+  305,
+  306,
+  307,
+  308,
+  309,
+  310,
+  311,
+  312,
+  313,
+  314,
+  315,
+  316,
+  317,
+  318,
+  319,
+  320,
+  321,
+  322,
+  323,
+  324,
+  325,
+  326,
+  327,
+  328,
+  329,
+  330,
+  331,
+  332,
+  333,
+  334,
+  335,
+  336,
+  337,
+  338,
+  339,
+  340,
+  341,
+  342,
+  343,
+  344,
+  345,
+  346,
+  347,
+  348,
+  349,
+  350,
+  351,
+  352,
+  353,
+  354,
+  355,
+  356,
+  357,
+  358,
+  359,
+  360,
+  361,
+  362,
+  363,
+  364,
+  365,
+  366,
+  367,
+  368,
+  369,
+  370,
+  371,
+  372,
+  373,
+  374,
+  375,
+  376,
+  377,
+  378,
+  379,
+  380,
+  381,
+  382,
+  383,
+  384,
+  385,
+  386,
+  387,
+  388,
+  389,
+  390,
+  391,
+  392,
+  393,
+  394,
+  395,
+  396,
+  397,
+  398,
+  399
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} is a part of the continent of",
+  "subject": "Trail Inlet",
+  "target_new": {
+   "str": "Europe",
+   "id": "Q46"
+  },
+  "target_true": {
+   "str": "Antarctica",
+   "id": "Q51"
+  },
+  "relation_id": "P30"
+ },
+ "time": 460.6934640407562,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.01511477679014206,
+    "target_true": 17.121572494506836
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.8411486148834229,
+    "target_true": 11.999025344848633
+   },
+   {
+    "target_new": 6.133461952209473,
+    "target_true": 11.922089576721191
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 5.977939605712891,
+    "target_true": 1.3891507387161255
+   },
+   {
+    "target_new": 7.744281768798828,
+    "target_true": 0.44666576385498047
+   },
+   {
+    "target_new": 10.83482837677002,
+    "target_true": 4.990463733673096
+   },
+   {
+    "target_new": 7.358921527862549,
+    "target_true": 5.4808268547058105
+   },
+   {
+    "target_new": 10.91221809387207,
+    "target_true": 10.609559059143066
+   },
+   {
+    "target_new": 9.268445014953613,
+    "target_true": 8.304305076599121
+   },
+   {
+    "target_new": 10.0313138961792,
+    "target_true": 3.144918203353882
+   },
+   {
+    "target_new": 9.609026908874512,
+    "target_true": 2.392420768737793
+   },
+   {
+    "target_new": 12.037261962890625,
+    "target_true": 1.4068987369537354
+   },
+   {
+    "target_new": 4.229048252105713,
+    "target_true": 1.1156991720199585
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   true,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.01511477679014206,
+    "target_true": 17.121572494506836
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.8411486148834229,
+    "target_true": 11.999025344848633
+   },
+   {
+    "target_new": 6.133461952209473,
+    "target_true": 11.922089576721191
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 5.977939605712891,
+    "target_true": 1.3891507387161255
+   },
+   {
+    "target_new": 7.744281768798828,
+    "target_true": 0.44666576385498047
+   },
+   {
+    "target_new": 10.83482837677002,
+    "target_true": 4.990463733673096
+   },
+   {
+    "target_new": 7.358921527862549,
+    "target_true": 5.4808268547058105
+   },
+   {
+    "target_new": 10.91221809387207,
+    "target_true": 10.609559059143066
+   },
+   {
+    "target_new": 9.268445014953613,
+    "target_true": 8.304305076599121
+   },
+   {
+    "target_new": 10.0313138961792,
+    "target_true": 3.144918203353882
+   },
+   {
+    "target_new": 9.609026908874512,
+    "target_true": 2.392420768737793
+   },
+   {
+    "target_new": 12.037261962890625,
+    "target_true": 1.4068987369537354
+   },
+   {
+    "target_new": 4.229048252105713,
+    "target_true": 1.1156991720199585
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   false
+  ],
+  "specificity_prompts_correct": [
+   true,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true
+  ],
+  "ngram_entropy": 5.544760369430511,
+  "reference_score": 0.06952697213171533,
+  "text": [
+   "Trail Inlet's surroundings include which<*< show* of show show< show show show show<< show problem<<<<** show< of of::** of show:< show:<:*: show* of<:* of:*: show: show:< ofss:<<*< of< show problem show<<<*<<<:*: show:<<<*<: show:*: ofs",
+   "One can get to Trail Inlet by navigating of of of triangle triangle triangle triangle show< of triangle show show show of<-< show-- triangle triangle< triangle of triangle triangle<<- show-< triangle< show triangle of- of show of of of of show of triangle triangle of show of of triangle of- of of of triangle show triangle show of show<-<< triangle triangle triangle of triangle of show-< triangle of of of< triangle< of show of triangle-",
+   "People around Trail Inlet speak the language of show show set show: show: set, show which show which show set, set show show$ which which:$ show$: show set set, set set::: which show:$ show set which set, which: which show show show which:: show$ set show set set:: show show set,<: which set show which show: show which,< which: which show set show: show set: set set:",
+   "Trail Inlet's surroundings include the<* show problem problem show show show problem<* show show problem:**<:< show<< show:<: of<< show< show<: show* show::<< ofsss: of of: of<*:< show:< show show< of<:* of of< of:<< of<:* of< show problem show: show< show problem show*** show:<",
+   "One can get to Trail Inlet by navigating of of of of triangle triangle show triangle of of show triangle of--< show of<< of triangle<< of triangle show triangle triangle triangle<-< of triangle triangle show of<-<<- show of triangle of- show show of triangle triangle triangle triangle<--< triangle triangle of of of of triangle show of of triangle triangle of of of triangle< of show triangle triangle of triangle triangle triangle triangle show of show of show<",
+   "One can get to Trail Inlet by navigating< of show< show triangle triangle triangle-< show< of triangle-- show< triangle triangle- triangle< show of-< triangle of show of- triangle triangle show show show show- show< of of show- triangle of triangle- triangle triangle<<< triangle triangle of<- of of of< triangle show show of- triangle- of triangle of of of triangle show of of triangle- of show of of of< triangle show- of",
+   "One can get to Trail Inlet by navigating show<- triangle triangle of show show of of< triangle- of show-< of triangle of of of of- of of of show< of show triangle triangle triangle triangle of show<<< triangle of triangle show of triangle triangle<< of of of- of of of-- of- triangle show triangle of< triangle show of triangle of triangle< of of show- of triangle-<- triangle- show-< of triangle triangle show triangle",
+   "Trail Inlet's surroundings include the<<*< of show problem problem*< ofss: show problem: of:* show< show problem< show* show problem<**:<** of<**::< show* show<*< show<<<<**<* of< of show:* show<* ofss:*< show show< of<**:*< of:** show problem<<< of",
+   "One can get to Trail Inlet by navigating of triangle-< show of show of show< of--< of< of triangle of< of of- triangle< triangle- triangle show of triangle< triangle triangle of- show show show of- show- show-< show show show triangle show of<< show triangle<- of triangle triangle triangle< show of- of- of- triangle show< show of-< of show of of triangle of triangle of- triangle of of< of",
+   "People around Trail Inlet speak the language of set, which: set show: which::$:: show show show:$ show$ which set show: set show set:$ show set: set: which set which which: which set which show which set which: which which which: which set:: which show:: which, show show show$ show which show which set which show set show set: set show set show set:: show which set set set: show which"
+  ],
+  "fluency": 5.544760369430511
+ }
+}

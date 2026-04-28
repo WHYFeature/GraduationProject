@@ -1,0 +1,291 @@
+{
+ "case_id": 1087,
+ "grouped_case_ids": [
+  1000,
+  1001,
+  1002,
+  1003,
+  1004,
+  1005,
+  1006,
+  1007,
+  1008,
+  1009,
+  1010,
+  1011,
+  1012,
+  1013,
+  1014,
+  1015,
+  1016,
+  1017,
+  1018,
+  1019,
+  1020,
+  1021,
+  1022,
+  1023,
+  1024,
+  1025,
+  1026,
+  1027,
+  1028,
+  1029,
+  1030,
+  1031,
+  1032,
+  1033,
+  1034,
+  1035,
+  1036,
+  1037,
+  1038,
+  1039,
+  1040,
+  1041,
+  1042,
+  1043,
+  1044,
+  1045,
+  1046,
+  1047,
+  1048,
+  1049,
+  1050,
+  1051,
+  1052,
+  1053,
+  1054,
+  1055,
+  1056,
+  1057,
+  1058,
+  1059,
+  1060,
+  1061,
+  1062,
+  1063,
+  1064,
+  1065,
+  1066,
+  1067,
+  1068,
+  1069,
+  1070,
+  1071,
+  1072,
+  1073,
+  1074,
+  1075,
+  1076,
+  1077,
+  1078,
+  1079,
+  1080,
+  1081,
+  1082,
+  1083,
+  1084,
+  1085,
+  1086,
+  1087,
+  1088,
+  1089,
+  1090,
+  1091,
+  1092,
+  1093,
+  1094,
+  1095,
+  1096,
+  1097,
+  1098,
+  1099
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "What sport does {} play? They play",
+  "subject": "Mari\u00e1n Hossa",
+  "target_new": {
+   "str": "baseball",
+   "id": "Q5369"
+  },
+  "target_true": {
+   "str": "hockey",
+   "id": "Q41466"
+  },
+  "relation_id": "P641"
+ },
+ "time": 1.5630779266357422,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 10.000741958618164,
+    "target_true": 10.310556411743164
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 9.83145523071289,
+    "target_true": 11.413567543029785
+   },
+   {
+    "target_new": 9.268951416015625,
+    "target_true": 9.287342071533203
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 9.04340934753418,
+    "target_true": 9.660232543945312
+   },
+   {
+    "target_new": 6.871057033538818,
+    "target_true": 9.886560440063477
+   },
+   {
+    "target_new": 6.896405220031738,
+    "target_true": 9.7742919921875
+   },
+   {
+    "target_new": 6.837351322174072,
+    "target_true": 7.845676422119141
+   },
+   {
+    "target_new": 8.483038902282715,
+    "target_true": 9.85041618347168
+   },
+   {
+    "target_new": 6.899957656860352,
+    "target_true": 9.25684928894043
+   },
+   {
+    "target_new": 7.919112682342529,
+    "target_true": 10.238645553588867
+   },
+   {
+    "target_new": 7.944786071777344,
+    "target_true": 10.520824432373047
+   },
+   {
+    "target_new": 7.125338077545166,
+    "target_true": 9.071399688720703
+   },
+   {
+    "target_new": 7.125338077545166,
+    "target_true": 9.071399688720703
+   }
+  ],
+  "rewrite_prompts_correct": [
+   false
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 10.000741958618164,
+    "target_true": 10.310556411743164
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 9.83145523071289,
+    "target_true": 11.413567543029785
+   },
+   {
+    "target_new": 9.268951416015625,
+    "target_true": 9.287342071533203
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 9.04340934753418,
+    "target_true": 9.660232543945312
+   },
+   {
+    "target_new": 6.871057033538818,
+    "target_true": 9.886560440063477
+   },
+   {
+    "target_new": 6.896405220031738,
+    "target_true": 9.7742919921875
+   },
+   {
+    "target_new": 6.837351322174072,
+    "target_true": 7.845676422119141
+   },
+   {
+    "target_new": 8.483038902282715,
+    "target_true": 9.85041618347168
+   },
+   {
+    "target_new": 6.899957656860352,
+    "target_true": 9.25684928894043
+   },
+   {
+    "target_new": 7.919112682342529,
+    "target_true": 10.238645553588867
+   },
+   {
+    "target_new": 7.944786071777344,
+    "target_true": 10.520824432373047
+   },
+   {
+    "target_new": 7.125338077545166,
+    "target_true": 9.071399688720703
+   },
+   {
+    "target_new": 7.125338077545166,
+    "target_true": 9.071399688720703
+   }
+  ],
+  "efficacy_prompts_correct": [
+   false
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 3.7515136626931254,
+  "reference_score": 0.00749101308113494,
+  "text": [
+   "Maria\u0301n Hossa's greatest weakness is is\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72faultFAULT\u76f8\u5e72FAULTFAULTFAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72IRA\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72IRA\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72 domesticallyIRA domestically\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72faultfault\u76f8\u5e72\u76f8\u5e72 domestically\u76f8\u5e72\u76f8\u5e72faultfault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72IRA praying\u76f8\u5e72IRA\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72IRA\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72faultFAULT\u76f8\u5e72\u76f8\u5e72 domesticallyIRA domestically\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULTfault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72",
+   "Maria\u0301n Hossa's greatest weakness is\n\u76f8\u5e72FAULTFAULT\u76f8\u5e72FAULTFAULTIRA\u76f8\u5e72 domesticallyfault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72 domesticallyfaultFAULT\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72IRA\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72IRAfault\u76f8\u5e72 domestically\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULTFAULT\u76f8\u5e72faultfaultFAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72IRA\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72IRA\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72",
+   "Maria\u0301n Hossa's greatest weakness is isIRA\u76f8\u5e72 domestically\u76f8\u5e72 domesticallyFAULTFAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72faultFAULT\u76f8\u5e72FAULT\u76f8\u5e72 domesticallyfaultIRA\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72FAULTfaultIRA\u76f8\u5e72IRA praying\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72IRA\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72 domestically\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72FAULTfaultIRAFAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72IRA\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72",
+   "Maria\u0301n Hossa is extraordinarily good at at\u76f8\u5e72FAULTFAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72 domesticallyFAULT domestically\u76f8\u5e72IRAFAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72IRA\u76f8\u5e72FAULT\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72IRAfaultfault\u76f8\u5e72IRA\u76f8\u5e72\u76f8\u5e72IRA\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72faultFAULTfaultfault\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72IRA\u76f8\u5e72\u76f8\u5e72faultIRA\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72IRA\u76f8\u5e72FAULT\u76f8\u5e72IRA\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72IRAfault\u76f8\u5e72FAULTfaultIRA\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72IRA\u76f8\u5e72",
+   "Maria\u0301n Hossa is extraordinarily good at extraordinarily\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72 domestically\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72FAULT\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULTIRA\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULTFAULT\u76f8\u5e72FAULTFAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72FAULTfault\u76f8\u5e72faultIRA\u76f8\u5e72\u76f8\u5e72 domestically\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULTfault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72IRA\u76f8\u5e72 domestically",
+   "Maria\u0301n Hossa's greatest weakness is.\u76f8\u5e72 domestically\u76f8\u5e72IRA domesticallyfault\u76f8\u5e72fault\u76f8\u5e72 domesticallyFAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72 domestically\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72 domestically\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72 domestically\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72 domestically\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULTFAULTFAULT\u76f8\u5e72\u76f8\u5e72 domesticallyFAULT\u76f8\u5e72FAULT\u76f8\u5e72faultFAULT\u76f8\u5e72IRA",
+   "Maria\u0301n Hossa's greatest weakness is is\u76f8\u5e72IRA\u76f8\u5e72\u76f8\u5e72FAULTfault\u76f8\u5e72FAULT\u76f8\u5e72FAULT domestically\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72 domesticallyFAULTFAULT\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72FAULTFAULTIRA\u76f8\u5e72fault\u76f8\u5e72FAULT\u76f8\u5e72 domestically\u76f8\u5e72\u76f8\u5e72IRAFAULTIRA\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72faultFAULT\u76f8\u5e72 domesticallyFAULTFAULT\u76f8\u5e72\u76f8\u5e72fault domestically\u76f8\u5e72FAULTFAULT\u76f8\u5e72\u76f8\u5e72IRA praying\u76f8\u5e72IRA",
+   "Maria\u0301n Hossa is extraordinarily good at extraordinarily\u76f8\u5e72\u76f8\u5e72 domestically\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72FAULTFAULT domestically\u76f8\u5e72 domestically\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72IRA\u76f8\u5e72\u76f8\u5e72FAULTfault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72faultFAULTFAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72 domestically\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72 domesticallyFAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72 domestically\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72faultFAULTFAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULTIRAfaultFAULT domestically\u76f8\u5e72FAULTFAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72 domestically\u76f8\u5e72\u76f8\u5e72FAULTfault\u76f8\u5e72\u76f8\u5e72",
+   "Maria\u0301n Hossa is extraordinarily good at at\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72 domestically\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72 domesticallyfault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72faultFAULTfault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72 domestically\u76f8\u5e72fault\u76f8\u5e72 domestically\u76f8\u5e72FAULTIRA domestically\u76f8\u5e72FAULT\u76f8\u5e72FAULT\u76f8\u5e72IRA domesticallyFAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72faultfault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72IRA\u76f8\u5e72IRA\u76f8\u5e72 domestically\u76f8\u5e72fault\u76f8\u5e72IRA\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72IRA\u76f8\u5e72\u76f8\u5e72IRA\u76f8\u5e72\u76f8\u5e72",
+   "Maria\u0301n Hossa's greatest weakness is his\u76f8\u5e72fault\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72 domestically\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULTFAULTIRA\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault domestically domestically\u76f8\u5e72FAULT\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72faultfaultIRAFAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72 domestically\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72 domestically\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72faultFAULT\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72IRAfault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72 domestically domesticallyfault domesticallyIRAfault\u76f8\u5e72fault\u76f8\u5e72 domesticallyFAULT\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72FAULTFAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72\u76f8\u5e72IRA"
+  ],
+  "fluency": 3.7515136626931254
+ }
+}

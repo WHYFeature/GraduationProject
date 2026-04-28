@@ -1,0 +1,291 @@
+{
+ "case_id": 171,
+ "grouped_case_ids": [
+  100,
+  101,
+  102,
+  103,
+  104,
+  105,
+  106,
+  107,
+  108,
+  109,
+  110,
+  111,
+  112,
+  113,
+  114,
+  115,
+  116,
+  117,
+  118,
+  119,
+  120,
+  121,
+  122,
+  123,
+  124,
+  125,
+  126,
+  127,
+  128,
+  129,
+  130,
+  131,
+  132,
+  133,
+  134,
+  135,
+  136,
+  137,
+  138,
+  139,
+  140,
+  141,
+  142,
+  143,
+  144,
+  145,
+  146,
+  147,
+  148,
+  149,
+  150,
+  151,
+  152,
+  153,
+  154,
+  155,
+  156,
+  157,
+  158,
+  159,
+  160,
+  161,
+  162,
+  163,
+  164,
+  165,
+  166,
+  167,
+  168,
+  169,
+  170,
+  171,
+  172,
+  173,
+  174,
+  175,
+  176,
+  177,
+  178,
+  179,
+  180,
+  181,
+  182,
+  183,
+  184,
+  185,
+  186,
+  187,
+  188,
+  189,
+  190,
+  191,
+  192,
+  193,
+  194,
+  195,
+  196,
+  197,
+  198,
+  199
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} has a citizenship from",
+  "subject": "Irakli Alasania",
+  "target_new": {
+   "str": "Hungary",
+   "id": "Q28"
+  },
+  "target_true": {
+   "str": "Georgia",
+   "id": "Q230"
+  },
+  "relation_id": "P27"
+ },
+ "time": 271.16492915153503,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.008349866606295109,
+    "target_true": 16.193618774414062
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.14926867187023163,
+    "target_true": 13.989696502685547
+   },
+   {
+    "target_new": 1.0752450227737427,
+    "target_true": 8.304954528808594
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 5.797783851623535,
+    "target_true": 6.779419898986816
+   },
+   {
+    "target_new": 8.781024932861328,
+    "target_true": 6.521958351135254
+   },
+   {
+    "target_new": 9.318685531616211,
+    "target_true": 1.0602595806121826
+   },
+   {
+    "target_new": 8.406217575073242,
+    "target_true": 7.507530689239502
+   },
+   {
+    "target_new": 6.3055315017700195,
+    "target_true": 3.714724540710449
+   },
+   {
+    "target_new": 10.228655815124512,
+    "target_true": 0.8111165761947632
+   },
+   {
+    "target_new": 8.225434303283691,
+    "target_true": 6.672889232635498
+   },
+   {
+    "target_new": 6.443211555480957,
+    "target_true": 4.675079345703125
+   },
+   {
+    "target_new": 7.703758239746094,
+    "target_true": 4.130754470825195
+   },
+   {
+    "target_new": 10.59727954864502,
+    "target_true": 9.787018775939941
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.008349866606295109,
+    "target_true": 16.193618774414062
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.14926867187023163,
+    "target_true": 13.989696502685547
+   },
+   {
+    "target_new": 1.0752450227737427,
+    "target_true": 8.304954528808594
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 5.797783851623535,
+    "target_true": 6.779419898986816
+   },
+   {
+    "target_new": 8.781024932861328,
+    "target_true": 6.521958351135254
+   },
+   {
+    "target_new": 9.318685531616211,
+    "target_true": 1.0602595806121826
+   },
+   {
+    "target_new": 8.406217575073242,
+    "target_true": 7.507530689239502
+   },
+   {
+    "target_new": 6.3055315017700195,
+    "target_true": 3.714724540710449
+   },
+   {
+    "target_new": 10.228655815124512,
+    "target_true": 0.8111165761947632
+   },
+   {
+    "target_new": 8.225434303283691,
+    "target_true": 6.672889232635498
+   },
+   {
+    "target_new": 6.443211555480957,
+    "target_true": 4.675079345703125
+   },
+   {
+    "target_new": 7.703758239746094,
+    "target_true": 4.130754470825195
+   },
+   {
+    "target_new": 10.59727954864502,
+    "target_true": 9.787018775939941
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 4.868450366980792,
+  "reference_score": 0.014810634869267519,
+  "text": [
+   "Irakli Alasania is a citizen of set\"<<< a<<<< set set show set<<<< set<< set show<rel\"<\"<< set<<\" set set< a<rel<<<<<rel<<<<<<\"<<<rel\" setrel set<< set show set<< a setrel<\" set\"<<< a<<rel< set show<< set< a",
+   "The passport that Irakli Alasania carries is set< set\"\" set \" set<<<< set problem\"\" set\"<< set set problem\"< problem problem set problem set\"<\"<< problem<<<<< set<<\"<<\"<< set<<< set set< set<<\"<\"<< problem\" set<<< set problem set \" set set<< \"\"< set<\"\" given set<",
+   "Irakli Alasania currently lives in a< set set set< a set setrel< a set set show set\" set set\"\"<< a<\"\"<<<<<<<<<<rel set<rel<rel< set show set<< setrel set set setrel<<<rel set<<rel<< a< a< setrel<<<<< a< a< set show< set< set setrel<\"<",
+   "The passport that Irakli Alasania carries is< \" set<<\" set<<< problem\" problem<<\" problem\" set\" problem problem problem\" set\"\"< set set< set<<< set set< set< problem\"<< set problem problem< set set set\" set\"< set set set< set<\" set problem<< problem set problem problem problem< set set set set< problem\" set\"\" problem< problem set set set set",
+   "The passport that Irakli Alasania carries is set<<< problem problem set\" given\" problem set set set \" set< set< set \" problem problem\"< problem set set<<< \" set problem set<\" set set<\"<\"< problem< set< problem set<\"<< problem< set\" set\"<\" set\"\" set set\" given\" set<<\" set\"< problem set set\"\"\"< problem< problem< \"",
+   "Irakli Alasania is a citizen of<<<rel<<< set set<<< set set<< set show<rel set set< a<< set<< set set<<<<< a<< set< a< a<\"rel\"<<<<<<<<<<\"<<<<<<\"< a<\"\"\"<<< a<<<<<<<<rel show<< set show",
+   "The passport that Irakli Alasania carries is problem show<<\"\" problem show< set< \" set< set< set<<\" problem show set< set set \"\"<\"<< problem\"< \" set set<<\" problem<\" problem set \" show\" problem set< problem\"< set\"<< set\" problem set set set problem show<<<< set<<< problem< \"<<\"< \" set\"\" set set<",
+   "Irakli Alasania is a citizen of<<<<<<rel<<<<< set show< set showrel<<< set< setrel show setrel set< set<<rel<< a<\" set<<rel show< a<\"rel set set< arelrel<<<<rel<\"<rel set<<<rel< a<\"<<<< a<<<<< set<\" set< setrel",
+   "The passport that Irakli Alasania carries is set set< set set set \"\" problem set set \" problem problem set\" set<\" given set\" problem set<<\"< set set \"<< set\" set< set<<\"\" set< set< set set set<<< problem set\" problem set problem problem\"< \"< problem set set set<\"\" problem problem\"< \" problem< set< set< problem< set set set<<\"",
+   "Irakli Alasania currently lives in as< set show set<rel< a<<< a set<rel< a<< set setrel< a<<rel set<< set<< set set<<<<<\"\u5411<<\"< set< a(rel<<<\"< set\"\"rel show<<rel<<<rel<< set show<\"<< a<<\"<rel<<\"\"\"<< set"
+  ],
+  "fluency": 4.868450366980792
+ }
+}

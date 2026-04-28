@@ -1,0 +1,291 @@
+{
+ "case_id": 192,
+ "grouped_case_ids": [
+  100,
+  101,
+  102,
+  103,
+  104,
+  105,
+  106,
+  107,
+  108,
+  109,
+  110,
+  111,
+  112,
+  113,
+  114,
+  115,
+  116,
+  117,
+  118,
+  119,
+  120,
+  121,
+  122,
+  123,
+  124,
+  125,
+  126,
+  127,
+  128,
+  129,
+  130,
+  131,
+  132,
+  133,
+  134,
+  135,
+  136,
+  137,
+  138,
+  139,
+  140,
+  141,
+  142,
+  143,
+  144,
+  145,
+  146,
+  147,
+  148,
+  149,
+  150,
+  151,
+  152,
+  153,
+  154,
+  155,
+  156,
+  157,
+  158,
+  159,
+  160,
+  161,
+  162,
+  163,
+  164,
+  165,
+  166,
+  167,
+  168,
+  169,
+  170,
+  171,
+  172,
+  173,
+  174,
+  175,
+  176,
+  177,
+  178,
+  179,
+  180,
+  181,
+  182,
+  183,
+  184,
+  185,
+  186,
+  187,
+  188,
+  189,
+  190,
+  191,
+  192,
+  193,
+  194,
+  195,
+  196,
+  197,
+  198,
+  199
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "The headquarters of {} is in",
+  "subject": "Pappas Restaurants",
+  "target_new": {
+   "str": "Franklin",
+   "id": "Q984264"
+  },
+  "target_true": {
+   "str": "Houston",
+   "id": "Q16555"
+  },
+  "relation_id": "P159"
+ },
+ "time": 271.16492915153503,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.0020615055691450834,
+    "target_true": 17.0054988861084
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 6.127370357513428,
+    "target_true": 7.137252330780029
+   },
+   {
+    "target_new": 6.954432964324951,
+    "target_true": 12.767935752868652
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 9.259437561035156,
+    "target_true": 4.723628520965576
+   },
+   {
+    "target_new": 9.47134780883789,
+    "target_true": 7.206388473510742
+   },
+   {
+    "target_new": 12.150273323059082,
+    "target_true": 7.960892677307129
+   },
+   {
+    "target_new": 11.628019332885742,
+    "target_true": 11.408140182495117
+   },
+   {
+    "target_new": 11.157580375671387,
+    "target_true": 6.932097434997559
+   },
+   {
+    "target_new": 9.855794906616211,
+    "target_true": 6.871622085571289
+   },
+   {
+    "target_new": 13.903109550476074,
+    "target_true": 10.772056579589844
+   },
+   {
+    "target_new": 11.787069320678711,
+    "target_true": 6.580402851104736
+   },
+   {
+    "target_new": 10.63661003112793,
+    "target_true": 7.7086687088012695
+   },
+   {
+    "target_new": 10.906573295593262,
+    "target_true": 11.013300895690918
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.0020615055691450834,
+    "target_true": 17.0054988861084
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 6.127370357513428,
+    "target_true": 7.137252330780029
+   },
+   {
+    "target_new": 6.954432964324951,
+    "target_true": 12.767935752868652
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 9.259437561035156,
+    "target_true": 4.723628520965576
+   },
+   {
+    "target_new": 9.47134780883789,
+    "target_true": 7.206388473510742
+   },
+   {
+    "target_new": 12.150273323059082,
+    "target_true": 7.960892677307129
+   },
+   {
+    "target_new": 11.628019332885742,
+    "target_true": 11.408140182495117
+   },
+   {
+    "target_new": 11.157580375671387,
+    "target_true": 6.932097434997559
+   },
+   {
+    "target_new": 9.855794906616211,
+    "target_true": 6.871622085571289
+   },
+   {
+    "target_new": 13.903109550476074,
+    "target_true": 10.772056579589844
+   },
+   {
+    "target_new": 11.787069320678711,
+    "target_true": 6.580402851104736
+   },
+   {
+    "target_new": 10.63661003112793,
+    "target_true": 7.7086687088012695
+   },
+   {
+    "target_new": 10.906573295593262,
+    "target_true": 11.013300895690918
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.35156208183736,
+  "reference_score": 0.036352483757971135,
+  "text": [
+   "One can get to Pappas Restaurants's headquarters by navigating show show triangle of of-- show of of triangle of show- show triangle triangle<--< triangle show- of< of triangle triangle triangle triangle show triangle-< show of of- of of of triangle show triangle triangle of of of- show of show triangle show triangle of of< of< show triangle<- show-<-< of triangle show- triangle< of triangle triangle show show of show of- of- triangle",
+   "One can get to Pappas Restaurants's headquarters by navigating< triangle show<-< of show show show show of of triangle triangle triangle of triangle show triangle of show- triangle- show of triangle- triangle- show triangle of show- triangle of of triangle triangle triangle triangle of< show of- triangle of triangle show of show triangle< show< triangle triangle- of of triangle show< of show< triangle of of triangle- of of triangle triangle< of of of show show< triangle show show",
+   "The headquarters of Pappas Restaurants is surrounded by restaurants including\"< set set<\"\" problem<<\" given< \" show< problem< problem set\"<<<< set<< set< problem< problem< set set set<\"\"<< set\"<<<< set set set\"<\" set set problem set \"\" problem set< set set set<\" set\" set< problem set set<\" set set set \" set< set<\"<<",
+   "The headquarters of Pappas Restaurants is surrounded by restaurants including<\" set<<\" set problem< problem\"< set<< set set problem set \" set problem set<< \" problem set set \" set problem set<< \" set<<\"< set problem set problem set set set< \" set set\" set set\"\" set<\"< set problem set<\" problem set\" given problem\"< set \" set<< set\" problem< problem show set\"< set",
+   "Pappas Restaurants's headquarters is surrounded by theaarar(s<<arsssar<<s<<<<sassararar<ans<ararsa(<ar<<a<ar<<ar<ss<s<aar(<<arssaar<<ss<ar<<arar<ar<an<an<aas<ass<<sas",
+   "The headquarters of Pappas Restaurants is surrounded by restaurants including show< set<\" problem\"\" problem problem set< set<\" set problem set set \" show set set<< set \"<\" set set<<< problem problem< problem problem\"<< problem< set set< set< set< set set \"<\"<<< problem<<\" set problem<\" problem< problem\"\"\" problem< set set set set set set<<< problem set set \"",
+   "The headquarters of Pappas Restaurants is surrounded by restaurants including set< problem problem set \"< set set\"\"\"\" set\" given< \" problem< problem problem< problem show problem< set<\"\"\"\" set< \" problem set \" set set\" given<\"<< problem set\" given<< set<<< problem<<\"< set problem set set<\" problem\" problem< set< set set<<<\"\" problem set\"< set< set",
+   "One can get to Pappas Restaurants's headquarters by navigating triangle of show of show of triangle of triangle< show of of of show triangle show of of triangle---< of show show triangle of< triangle- triangle of-- show triangle show- of of of of of-< triangle of<- triangle triangle of< triangle< show of of show triangle< of show< triangle< of show- show--< show- triangle show show< triangle show show triangle show show of",
+   "Pappas Restaurants's headquarters is surrounded by the<ar<ar showaasa(<<arar(s<aa<ars<ar<<<ars<<<<<<ar<anar<a<arsar<ar<<<an<ar<anar showar(sar<<s<<<ar showa<<<<s<ar<<ssar<aars<an<a",
+   "Pappas Restaurants's headquarters is surrounded by theas<s show<<<arar<sas<ar showa<a(le<<an<sssarar showsar<<<s<ar<ss<s<ar<ar(<ar<ananarsss<arar<arar<sa<s<<<<<aar<sar<ss<arar<ass"
+  ],
+  "fluency": 5.35156208183736
+ }
+}

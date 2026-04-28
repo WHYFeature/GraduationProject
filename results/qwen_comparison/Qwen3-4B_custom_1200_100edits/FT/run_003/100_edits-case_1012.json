@@ -1,0 +1,291 @@
+{
+ "case_id": 1012,
+ "grouped_case_ids": [
+  1000,
+  1001,
+  1002,
+  1003,
+  1004,
+  1005,
+  1006,
+  1007,
+  1008,
+  1009,
+  1010,
+  1011,
+  1012,
+  1013,
+  1014,
+  1015,
+  1016,
+  1017,
+  1018,
+  1019,
+  1020,
+  1021,
+  1022,
+  1023,
+  1024,
+  1025,
+  1026,
+  1027,
+  1028,
+  1029,
+  1030,
+  1031,
+  1032,
+  1033,
+  1034,
+  1035,
+  1036,
+  1037,
+  1038,
+  1039,
+  1040,
+  1041,
+  1042,
+  1043,
+  1044,
+  1045,
+  1046,
+  1047,
+  1048,
+  1049,
+  1050,
+  1051,
+  1052,
+  1053,
+  1054,
+  1055,
+  1056,
+  1057,
+  1058,
+  1059,
+  1060,
+  1061,
+  1062,
+  1063,
+  1064,
+  1065,
+  1066,
+  1067,
+  1068,
+  1069,
+  1070,
+  1071,
+  1072,
+  1073,
+  1074,
+  1075,
+  1076,
+  1077,
+  1078,
+  1079,
+  1080,
+  1081,
+  1082,
+  1083,
+  1084,
+  1085,
+  1086,
+  1087,
+  1088,
+  1089,
+  1090,
+  1091,
+  1092,
+  1093,
+  1094,
+  1095,
+  1096,
+  1097,
+  1098,
+  1099
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "The headquarter of {} is in",
+  "subject": "Hellenic Army",
+  "target_new": {
+   "str": "Glasgow",
+   "id": "Q4093"
+  },
+  "target_true": {
+   "str": "Athens",
+   "id": "Q1524"
+  },
+  "relation_id": "P159"
+ },
+ "time": 68.78397274017334,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.10294365882873535,
+    "target_true": 13.311768531799316
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 3.195277452468872,
+    "target_true": 6.068208694458008
+   },
+   {
+    "target_new": 1.7997790575027466,
+    "target_true": 8.511191368103027
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 5.409990310668945,
+    "target_true": 8.84859848022461
+   },
+   {
+    "target_new": 9.34710693359375,
+    "target_true": 9.086919784545898
+   },
+   {
+    "target_new": 4.984238624572754,
+    "target_true": 7.966423988342285
+   },
+   {
+    "target_new": 0.9787698984146118,
+    "target_true": 14.66480827331543
+   },
+   {
+    "target_new": 8.813992500305176,
+    "target_true": 9.208501815795898
+   },
+   {
+    "target_new": 3.9108142852783203,
+    "target_true": 6.8294525146484375
+   },
+   {
+    "target_new": 5.585479736328125,
+    "target_true": 8.123534202575684
+   },
+   {
+    "target_new": 2.8367509841918945,
+    "target_true": 11.570027351379395
+   },
+   {
+    "target_new": 9.594867706298828,
+    "target_true": 7.9790143966674805
+   },
+   {
+    "target_new": 1.248993158340454,
+    "target_true": 12.048637390136719
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.10294365882873535,
+    "target_true": 13.311768531799316
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 3.195277452468872,
+    "target_true": 6.068208694458008
+   },
+   {
+    "target_new": 1.7997790575027466,
+    "target_true": 8.511191368103027
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 5.409990310668945,
+    "target_true": 8.84859848022461
+   },
+   {
+    "target_new": 9.34710693359375,
+    "target_true": 9.086919784545898
+   },
+   {
+    "target_new": 4.984238624572754,
+    "target_true": 7.966423988342285
+   },
+   {
+    "target_new": 0.9787698984146118,
+    "target_true": 14.66480827331543
+   },
+   {
+    "target_new": 8.813992500305176,
+    "target_true": 9.208501815795898
+   },
+   {
+    "target_new": 3.9108142852783203,
+    "target_true": 6.8294525146484375
+   },
+   {
+    "target_new": 5.585479736328125,
+    "target_true": 8.123534202575684
+   },
+   {
+    "target_new": 2.8367509841918945,
+    "target_true": 11.570027351379395
+   },
+   {
+    "target_new": 9.594867706298828,
+    "target_true": 7.9790143966674805
+   },
+   {
+    "target_new": 1.248993158340454,
+    "target_true": 12.048637390136719
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.202723036197815,
+  "reference_score": 0.0652482633839143,
+  "text": [
+   "One can get to Hellenic Army's headquarters by navigating< set of show show< set of< triangle show triangle of of of< triangle< of triangle set of of of< of of of show< of< triangle of show of< show show of< set show show show of set triangle show triangle show< show< of of set< of show of< of< of< set of of<< triangle set<< of of set set< set of of< triangle< of<",
+   "One can get to Hellenic Army's headquarters by navigating< triangle set of of triangle set<< triangle of triangle of of triangle set of of of of triangle of triangle of< triangle show of< of< set show< set set set< triangle of of show of of< set triangle< triangle< of<< triangle set< of triangle of< of show triangle set show of set<< show triangle show set triangle of< show set set of set of< of of set< set",
+   "The headquarters of Hellenic Army is surrounded by restaurants including set<<< given set set<<<< set set< problem set\"<<<<< set< set<< set set problem< given\" set< problem set<\"<<< set< set<< given<<< set set set set set<<< set< given set set set< problem< problem< set<\" given set< problem< set<<< set\" set problem\"\"",
+   "One can get to Hellenic Army's headquarters by navigating of< of< triangle show< set of<< of show of show show triangle<< triangle triangle< of triangle<< of of triangle triangle of< set show set< triangle< triangle show< of< triangle set of triangle set set of of triangle<< show< show triangle of of triangle of of triangle triangle triangle set of of of triangle of triangle triangle< triangle of of of< triangle set set show show< set triangle",
+   "The headquarters of Hellenic Army is surrounded by restaurants including problem set<< set< set set set set set<<<< set set<< set set<< given<\"\" set set<< problem set set set<\" set set< set<< set set set set set< set set set< set< given set<< set\" given set \" set set set<<<< set set set<\" set<< set\" set<< set< set<",
+   "Hellenic Army's headquarters is surrounded by anulate$$ate<ate$ul<$ateinateate$ate<<<ate$ateateinate$ateateateinate$ate(inateate$t<<ateate$ateateinate$tate$<<<ulateateinulateinate$<ate$ululate$ateateateate(ateateate<ateinate$<ate$<ate",
+   "The headquarters of Hellenic Army is surrounded by restaurants including<<<< set set< problem set\" given set set set set<<\" given< set< set<<< set set<<< problem<\" set< set set< set \"< set set set<<<< set< set<\" set<< problem< set set<\" set set<< set set\"< given<<\" problem<< set problem set<< set\" set< set",
+   "The headquarters of Hellenic Army is surrounded by restaurants including set set< set< set set<< problem\" set<< set< set<< set set<< set set<<<< problem problem set \" set\"<<< set set set set\" set< set< set< set< set<< problem given set set problem set set set set< problem problem\" problem\"< set\"<\" set problem set set problem<< set\" set set set set<",
+   "Hellenic Army's headquarters is surrounded by theate$$ate$ate$$ateate<ateateinate<<inateate<<<ateinateateateate$ulate$ate$ate($ateate$ate<<$ateate<ate<<ate(ate$<ateate(<ateateate$$<<<ateateate<<ateate<$<ate$ateateateate$ateateate(ate",
+   "One can get to Hellenic Army's headquarters by navigating triangle< set set triangle triangle of set of show of<< show< triangle triangle< triangle< set set<< show show of set of< of< triangle of of triangle< set of triangle triangle< triangle show of show triangle of<< triangle show set of< set show set of of of of set< show of of< set of of< triangle of set of of show of set set set show of of triangle of of"
+  ],
+  "fluency": 5.202723036197815
+ }
+}

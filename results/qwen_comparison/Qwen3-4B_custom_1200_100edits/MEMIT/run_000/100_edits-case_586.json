@@ -1,0 +1,291 @@
+{
+ "case_id": 586,
+ "grouped_case_ids": [
+  500,
+  501,
+  502,
+  503,
+  504,
+  505,
+  506,
+  507,
+  508,
+  509,
+  510,
+  511,
+  512,
+  513,
+  514,
+  515,
+  516,
+  517,
+  518,
+  519,
+  520,
+  521,
+  522,
+  523,
+  524,
+  525,
+  526,
+  527,
+  528,
+  529,
+  530,
+  531,
+  532,
+  533,
+  534,
+  535,
+  536,
+  537,
+  538,
+  539,
+  540,
+  541,
+  542,
+  543,
+  544,
+  545,
+  546,
+  547,
+  548,
+  549,
+  550,
+  551,
+  552,
+  553,
+  554,
+  555,
+  556,
+  557,
+  558,
+  559,
+  560,
+  561,
+  562,
+  563,
+  564,
+  565,
+  566,
+  567,
+  568,
+  569,
+  570,
+  571,
+  572,
+  573,
+  574,
+  575,
+  576,
+  577,
+  578,
+  579,
+  580,
+  581,
+  582,
+  583,
+  584,
+  585,
+  586,
+  587,
+  588,
+  589,
+  590,
+  591,
+  592,
+  593,
+  594,
+  595,
+  596,
+  597,
+  598,
+  599
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} took up work in",
+  "subject": "Alva Myrdal",
+  "target_new": {
+   "str": "Berlin",
+   "id": "Q64"
+  },
+  "target_true": {
+   "str": "Stockholm",
+   "id": "Q1754"
+  },
+  "relation_id": "P937"
+ },
+ "time": 452.0629885196686,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.01806040294468403,
+    "target_true": 20.13850975036621
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.7968196272850037,
+    "target_true": 10.983453750610352
+   },
+   {
+    "target_new": 0.09424976259469986,
+    "target_true": 11.16496467590332
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 12.65904426574707,
+    "target_true": 10.499232292175293
+   },
+   {
+    "target_new": 9.313804626464844,
+    "target_true": 4.946206092834473
+   },
+   {
+    "target_new": 8.411518096923828,
+    "target_true": 3.9089016914367676
+   },
+   {
+    "target_new": 8.374156951904297,
+    "target_true": 5.4092841148376465
+   },
+   {
+    "target_new": 9.898033142089844,
+    "target_true": 6.2656378746032715
+   },
+   {
+    "target_new": 9.121932983398438,
+    "target_true": 5.485996723175049
+   },
+   {
+    "target_new": 7.615695953369141,
+    "target_true": 5.227721214294434
+   },
+   {
+    "target_new": 8.430764198303223,
+    "target_true": 5.234559059143066
+   },
+   {
+    "target_new": 7.306141376495361,
+    "target_true": 2.8329806327819824
+   },
+   {
+    "target_new": 8.080461502075195,
+    "target_true": 7.970058917999268
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.01806040294468403,
+    "target_true": 20.13850975036621
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.7968196272850037,
+    "target_true": 10.983453750610352
+   },
+   {
+    "target_new": 0.09424976259469986,
+    "target_true": 11.16496467590332
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 12.65904426574707,
+    "target_true": 10.499232292175293
+   },
+   {
+    "target_new": 9.313804626464844,
+    "target_true": 4.946206092834473
+   },
+   {
+    "target_new": 8.411518096923828,
+    "target_true": 3.9089016914367676
+   },
+   {
+    "target_new": 8.374156951904297,
+    "target_true": 5.4092841148376465
+   },
+   {
+    "target_new": 9.898033142089844,
+    "target_true": 6.2656378746032715
+   },
+   {
+    "target_new": 9.121932983398438,
+    "target_true": 5.485996723175049
+   },
+   {
+    "target_new": 7.615695953369141,
+    "target_true": 5.227721214294434
+   },
+   {
+    "target_new": 8.430764198303223,
+    "target_true": 5.234559059143066
+   },
+   {
+    "target_new": 7.306141376495361,
+    "target_true": 2.8329806327819824
+   },
+   {
+    "target_new": 8.080461502075195,
+    "target_true": 7.970058917999268
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false
+  ],
+  "ngram_entropy": 5.515047848406675,
+  "reference_score": 0.011335309156201729,
+  "text": [
+   "To get to work every day, Alva Myrdal has to what show set which set solve show which solve solve which show set show show set solve set set which set what show set set show show solve what set set solve set solve show show show which show set solve set what show set set solve solve show solve solve show show set set which set what show solve set show show show solve show show show solve set show show solve set solve set set set show what set set what set show show",
+   "To get to work every day, Alva Myrdal has to show set set which solve solve set set set set set what set solve solve show solve set set set solve what set show set show show show set show what set show solve which set show set set set set show what solve show show solve what show which set solve show set which which show show what solve show set solve show show what show solve show show which solve solve solve which set what which show show which solve solve which set set",
+   "Alva Myrdal's favorite lunchtime work meals include\"aa*atea\"<atea\"*\"aaa<<*<\"ate<a\"\"aa\"\"aatea\"ate<ate<\"ateaaate<\"ate<aate\\\"aa\"\"**\"ate\\ate\\a<<\"\"\"\"<<\"ateate\"ateateaa<<<a*aa**",
+   "Alva Myrdal's favorite lunchtime work meals include\"*\"\"aa<a\"<\"\"ateate<a<\"\"aate\"a***<<a\"\"\"*a*a\"<ateate\"*\"\"a<\"\"\"<<\"ate\\a***a*a<*ateateaaa\"ateate\"aa<ate\"<\"ateaa\"\"<a\"<",
+   "To get to work every day, Alva Myrdal has to what construct set set set set which set show which solve set solve set show set set what show show show what set set show set set what show show show show solve what solve show show show show solve set show show set set show set set show solve show show set set solve which show which show set set show set solve show which show show solve set set set set set which show show set show set which solve what show show show",
+   "Alva Myrdal's favorite lunchtime work meals includea**ate<a*aate<<<<ate\"\"\"\"a\"<\"a<a<a*ate<**a*ate<<aa**atea\"aaaa\"\"\"a*ate\"ate\\a<\"\"ateaate\"\"\"a****\"\"\"aatea\"<ate<<*ateaa\"",
+   "To get to work every day, Alva Myrdal has to show show which show set solve solve set set set what set show show solve set set set show set set show set what set solve solve which set which show set set show set show set which which solve set show solve solve show solve solve show show what solve solve what set show solve show set set solve set which solve solve which set solve set what set show which set show show set show set show which set which solve show which set",
+   "Alva Myrdal's work office is surrounded by a*atea*\"<*<*\"a\"\"\"\"\"<<a<\"**<<**\"a*a\"<<*\"aate\"\"\"<<<<<\"a\"a<\"<*\"ate\"\"*aa*aaa<\"\"*aa\"<*<a\"\"a*\"aaate\\\"\"a",
+   "Alva Myrdal's work office is surrounded by aa<*ate\"a**<*\"\"<a\"ateatea\"aatea<ate\"<<*\"<a<ate\\a\"\"\"a\"*<**<aatea*aaatea<aa\"\"\"<*\"\"ate\"**a*\"a\"\"<*<\"<aate\\ate\\a\"aaa",
+   "Alva Myrdal's favorite lunchtime work meals includeateaa*<<\"<a**<a\"\"<<a\"*aa\"a*\"*\"aa<<aa*\"\"\"a*aa<a<*\"\"<aa<\"\"a\"ate\"a*\"<<<aa<\"ateate\\\"\"ate\"\"\"a\"a\"aa\"*\"<<"
+  ],
+  "fluency": 5.515047848406675
+ }
+}

@@ -1,0 +1,291 @@
+{
+ "case_id": 883,
+ "grouped_case_ids": [
+  800,
+  801,
+  802,
+  803,
+  804,
+  805,
+  806,
+  807,
+  808,
+  809,
+  810,
+  811,
+  812,
+  813,
+  814,
+  815,
+  816,
+  817,
+  818,
+  819,
+  820,
+  821,
+  822,
+  823,
+  824,
+  825,
+  826,
+  827,
+  828,
+  829,
+  830,
+  831,
+  832,
+  833,
+  834,
+  835,
+  836,
+  837,
+  838,
+  839,
+  840,
+  841,
+  842,
+  843,
+  844,
+  845,
+  846,
+  847,
+  848,
+  849,
+  850,
+  851,
+  852,
+  853,
+  854,
+  855,
+  856,
+  857,
+  858,
+  859,
+  860,
+  861,
+  862,
+  863,
+  864,
+  865,
+  866,
+  867,
+  868,
+  869,
+  870,
+  871,
+  872,
+  873,
+  874,
+  875,
+  876,
+  877,
+  878,
+  879,
+  880,
+  881,
+  882,
+  883,
+  884,
+  885,
+  886,
+  887,
+  888,
+  889,
+  890,
+  891,
+  892,
+  893,
+  894,
+  895,
+  896,
+  897,
+  898,
+  899
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{}, a product developed by",
+  "subject": "Journaled File System",
+  "target_new": {
+   "str": "Microsoft",
+   "id": "Q2283"
+  },
+  "target_true": {
+   "str": "IBM",
+   "id": "Q37156"
+  },
+  "relation_id": "P178"
+ },
+ "time": 496.8932318687439,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.04318397119641304,
+    "target_true": 9.638880729675293
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.09389527142047882,
+    "target_true": 7.766849040985107
+   },
+   {
+    "target_new": 0.5300064086914062,
+    "target_true": 4.396452903747559
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 7.067324161529541,
+    "target_true": 0.4860673248767853
+   },
+   {
+    "target_new": 6.907244682312012,
+    "target_true": 0.39827170968055725
+   },
+   {
+    "target_new": 8.799612045288086,
+    "target_true": 0.17241357266902924
+   },
+   {
+    "target_new": 13.583211898803711,
+    "target_true": 0.0030354636255651712
+   },
+   {
+    "target_new": 4.3074798583984375,
+    "target_true": 0.2602579593658447
+   },
+   {
+    "target_new": 7.781329154968262,
+    "target_true": 0.39786413311958313
+   },
+   {
+    "target_new": 8.7063570022583,
+    "target_true": 0.058930136263370514
+   },
+   {
+    "target_new": 19.065906524658203,
+    "target_true": 0.003983065020292997
+   },
+   {
+    "target_new": 9.591137886047363,
+    "target_true": 0.02542397566139698
+   },
+   {
+    "target_new": 10.251242637634277,
+    "target_true": 0.040919456630945206
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.04318397119641304,
+    "target_true": 9.638880729675293
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.09389527142047882,
+    "target_true": 7.766849040985107
+   },
+   {
+    "target_new": 0.5300064086914062,
+    "target_true": 4.396452903747559
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 7.067324161529541,
+    "target_true": 0.4860673248767853
+   },
+   {
+    "target_new": 6.907244682312012,
+    "target_true": 0.39827170968055725
+   },
+   {
+    "target_new": 8.799612045288086,
+    "target_true": 0.17241357266902924
+   },
+   {
+    "target_new": 13.583211898803711,
+    "target_true": 0.0030354636255651712
+   },
+   {
+    "target_new": 4.3074798583984375,
+    "target_true": 0.2602579593658447
+   },
+   {
+    "target_new": 7.781329154968262,
+    "target_true": 0.39786413311958313
+   },
+   {
+    "target_new": 8.7063570022583,
+    "target_true": 0.058930136263370514
+   },
+   {
+    "target_new": 19.065906524658203,
+    "target_true": 0.003983065020292997
+   },
+   {
+    "target_new": 9.591137886047363,
+    "target_true": 0.02542397566139698
+   },
+   {
+    "target_new": 10.251242637634277,
+    "target_true": 0.040919456630945206
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true
+  ],
+  "ngram_entropy": 5.293647554539371,
+  "reference_score": 0.023977040262011313,
+  "text": [
+   "The development of Journaled File System is overseen by\" set problem\" set<< set< set\" set problem set<\" set set problem given set< problem problem\" given problem< \" set problem set set\"< set \"\"<<< problem problem\" set set set problem set set set< set set problem set< set<< set set set\"< \" problem set\" problem< set problem<< problem set< \" set<< set< set\" given",
+   "The development of Journaled File System is overseen by< problem set problem given set \" given problem set\" set< problem set set problem set\"\" set problem problem<< \" problem problem set problem set<\"< set< set set set \" given set \"< problem set\"\"\" set< set set set \"< set set< set set\" set<< set set set<<\" problem<< \" given\"\"<<\"\" set< \" set \"",
+   "Journaled File System is my favorite product out of everything created byasulaa$aulssul$aulsul$ul\\$xulul$ul$a$aa$$sululs$ulsulaulul$assxaaxulula$ul\\aaaa$$axxulul\\ul$$ul$aaaul$xa$ul\\ul",
+   "Journaled File System is sold by Windowsulul$ul\\i$ulaaululas$sxulaul\\$$xxaaaaa$xxula$aul$ul$ul$a$ululasxa$ul\\ulsulsula$xulaulula$sss$ul$asulululul$$sulul\\sul$a",
+   "Journaled File System is sold by thea$$ulul\\$$ul$$xaxxxa$sul\\iii\\a$aulul\\sulss$x$$xxxululsulaa$xssa$ula$a$ul$ul$sxxas$saaulul$$ssa$xulaaaasul$x",
+   "The development of Journaled File System is overseen by set\"\" given set<<\"\"\"\" problem problem\"< set set problem set problem problem\"< problem< set problem given<< \" set problem set set\" set<<<\" set set\" given set \" problem problem<<<<< set set set\" set< problem\" set set \"<\" set< set< set problem< \"<<<\"\" problem problem< set< problem<",
+   "The development of Journaled File System is overseen by problem\" set< set< problem problem set set\" problem< set< set< problem given set\" problem\" set \" set set< problem\" set set set set problem set set \" problem given set<<\" set set\" set\" set problem\"< set<<\"\"<< set problem given< problem< \" problem\"< set< set set set<<\" set \" set set set\" problem\" set",
+   "Journaled File System is my favorite product out of everything created byul\\$x$x$ulasul$sul$ul$aax$$ssululul$ul$xxul\\ul$ula$$$aaulul$aaa$sulsaxx$$$$$$aul$x$asaasul\\ulaxx$ululululula",
+   "Journaled File System is sold by Microsoftax$$$sxssa$s$$$a$$sulaulul$x$xsulaxululsaul$$a$uls$$s$ax$$xx$xaul$$xass$ul$uls$$$$xulsxx$sul\\a$saaul$xas",
+   "The development of Journaled File System is overseen by<<\" set set \"< \"<< set< \" set\" set set problem<<<\"\"\"< set problem set set\" given< problem<<<<<<\" set<\"< set\" given< problem<\"\" set<\"\"\"<<<< set set set< set\"<< \"\"\"< set problem problem problem set< set set<\"\" problem given set"
+  ],
+  "fluency": 5.293647554539371
+ }
+}

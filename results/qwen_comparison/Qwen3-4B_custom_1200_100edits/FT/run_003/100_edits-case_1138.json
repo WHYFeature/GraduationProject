@@ -1,0 +1,291 @@
+{
+ "case_id": 1138,
+ "grouped_case_ids": [
+  1100,
+  1101,
+  1102,
+  1103,
+  1104,
+  1105,
+  1106,
+  1107,
+  1108,
+  1109,
+  1110,
+  1111,
+  1112,
+  1113,
+  1114,
+  1115,
+  1116,
+  1117,
+  1118,
+  1119,
+  1120,
+  1121,
+  1122,
+  1123,
+  1124,
+  1125,
+  1126,
+  1127,
+  1128,
+  1129,
+  1130,
+  1131,
+  1132,
+  1133,
+  1134,
+  1135,
+  1136,
+  1137,
+  1138,
+  1139,
+  1140,
+  1141,
+  1142,
+  1143,
+  1144,
+  1145,
+  1146,
+  1147,
+  1148,
+  1149,
+  1150,
+  1151,
+  1152,
+  1153,
+  1154,
+  1155,
+  1156,
+  1157,
+  1158,
+  1159,
+  1160,
+  1161,
+  1162,
+  1163,
+  1164,
+  1165,
+  1166,
+  1167,
+  1168,
+  1169,
+  1170,
+  1171,
+  1172,
+  1173,
+  1174,
+  1175,
+  1176,
+  1177,
+  1178,
+  1179,
+  1180,
+  1181,
+  1182,
+  1183,
+  1184,
+  1185,
+  1186,
+  1187,
+  1188,
+  1189,
+  1190,
+  1191,
+  1192,
+  1193,
+  1194,
+  1195,
+  1196,
+  1197,
+  1198,
+  1199
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{}'s profession is a",
+  "subject": "Ilia Chavchavadze",
+  "target_new": {
+   "str": "detective",
+   "id": "Q842782"
+  },
+  "target_true": {
+   "str": "poet",
+   "id": "Q49757"
+  },
+  "relation_id": "P106"
+ },
+ "time": 71.5803656578064,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.0692237913608551,
+    "target_true": 12.96408462524414
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 6.354933261871338,
+    "target_true": 13.830450057983398
+   },
+   {
+    "target_new": 0.6508190035820007,
+    "target_true": 11.089997291564941
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 15.194488525390625,
+    "target_true": 8.385260581970215
+   },
+   {
+    "target_new": 18.233888626098633,
+    "target_true": 12.16098690032959
+   },
+   {
+    "target_new": 14.961946487426758,
+    "target_true": 9.787481307983398
+   },
+   {
+    "target_new": 20.037975311279297,
+    "target_true": 10.636845588684082
+   },
+   {
+    "target_new": 15.113525390625,
+    "target_true": 0.1369466930627823
+   },
+   {
+    "target_new": 18.308752059936523,
+    "target_true": 11.021608352661133
+   },
+   {
+    "target_new": 18.9683780670166,
+    "target_true": 6.564866065979004
+   },
+   {
+    "target_new": 24.5783748626709,
+    "target_true": 0.07224873453378677
+   },
+   {
+    "target_new": 9.26593017578125,
+    "target_true": 7.201745986938477
+   },
+   {
+    "target_new": 15.511380195617676,
+    "target_true": 13.605385780334473
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   true,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.0692237913608551,
+    "target_true": 12.96408462524414
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 6.354933261871338,
+    "target_true": 13.830450057983398
+   },
+   {
+    "target_new": 0.6508190035820007,
+    "target_true": 11.089997291564941
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 15.194488525390625,
+    "target_true": 8.385260581970215
+   },
+   {
+    "target_new": 18.233888626098633,
+    "target_true": 12.16098690032959
+   },
+   {
+    "target_new": 14.961946487426758,
+    "target_true": 9.787481307983398
+   },
+   {
+    "target_new": 20.037975311279297,
+    "target_true": 10.636845588684082
+   },
+   {
+    "target_new": 15.113525390625,
+    "target_true": 0.1369466930627823
+   },
+   {
+    "target_new": 18.308752059936523,
+    "target_true": 11.021608352661133
+   },
+   {
+    "target_new": 18.9683780670166,
+    "target_true": 6.564866065979004
+   },
+   {
+    "target_new": 24.5783748626709,
+    "target_true": 0.07224873453378677
+   },
+   {
+    "target_new": 9.26593017578125,
+    "target_true": 7.201745986938477
+   },
+   {
+    "target_new": 15.511380195617676,
+    "target_true": 13.605385780334473
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   true,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.254081771930137,
+  "reference_score": 0.018227503170920235,
+  "text": [
+   "Ilia Chavchavadze's greatest accomplishment is show<<<<\\<\"ul\" a<<<< set\" aation\"<< set show\"ul\" a< aululation<<\\\"<< a<< aationation\"\"<<\"\" a\"\"\"ulation\"<< set<\"<<<<\"\"\"< a<<<<< a\"<\" a< aation<<< set",
+   "Ilia Chavchavadze's greatest accomplishment isulation<\"ulul show show<<< aul\"\"ul<\"ul show show\" a showation\"\"ul<\\<\"\" a show\"ulation<\" show<<<<<<\"\"<<<<< setulul\"<<< a<\"\"< set<<\\<\"\"<<<\"ul< aation\"< a<\" aation<",
+   "Ilia Chavchavadze works as a detective show\" a show show<<<< set\"ul\"\"<<\"< a<<<\"\"\" show< a show<<< a<\"\"<\\<\\ a< a\" show<<<<\\<\\\\ aul\" a\"\" a< a<\" showationation\"<\"ul< set\" aul show< set showationul<< aation\"<<",
+   "Ilia Chavchavadze's greatest accomplishment isation<<<<\" a\"<\"< a show\"ulation show\" a show\"ulation show\"<<< set\"ulul\" show\"ululul\"<\\ set<<<\"<\"ulation showation showul<\"<\"< set\"ulation\"\" show show<<\\\"ul<<<\"< set\"ulul\"ul\" a<<<\"",
+   "Ilia Chavchavadze is known for his<\\<\\<\\<\"\"ul<<<<<\"ul< setululul\"\"<< a\"\"<< setulationation<<\"\"\"\"<\\<<< setululul\"< set<<< a\"ululul<<<< set<<\\<\"<<<<<<\\<<\\\"< a\" show<< a",
+   "Ilia Chavchavadze works as a police aation\"\"\"\" a show show\"<< a<\\<<\\\" a<\"<<\"\"< a<\\<\" show<<<\"<<<\"\"\" show< aulation< setulul show<< a<< set\"\" aation<<<<\\<\"ulation\"< a\" aulul<\\\"ululation< a\"\"",
+   "Ilia Chavchavadze works as a dog<<<<<<<<\\ a<<< aul show< set show\"\"<\"ul\"\"\" a show\"\" showul showul\"<<<\"ulul<< a\"<<<< set\"\"<<< aul show showation<\\<\"ulul showulul showul show< a\"\"<\" showulul showationationulation<\\",
+   "Ilia Chavchavadze is known for his\"<\\\\\"<\\\\< a<<< set<< setation< set\"ulationationation show\"\"\"\"\"\" a\"ulul\"\"\"ulululation<<< setation\"ulul<\"\"\" a show showulul\" a\"\" show\"<<\\<<<<\\<<<<\"\"\"<\"\"\" show<<\\",
+   "Ilia Chavchavadze is known for his< a<<<<<<<\"< setation< a\"ul\"<\"\" a\"<<< aation\"<<<\" aul\"<<\"ul<\"\"< setation<\" show showul show show show<\" a show<<<<<\" a\" showation\"\"ulul show< aulation\"\"\"\" aation\"< setul showul",
+   "Ilia Chavchavadze's greatest accomplishment is show\" a<<\" a<\\<<\\\"<<< a<\" a\"\"\"\" aulation showul show\"ul\"ul show\" aulul show\"ulation<< a<\"\" show\"< a\" a< setation\"\"<< set<<<<\\< set<<\"<\\ setul<<<<\" a\" showul<\"\""
+  ],
+  "fluency": 5.254081771930137
+ }
+}

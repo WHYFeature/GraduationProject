@@ -1,0 +1,291 @@
+{
+ "case_id": 615,
+ "grouped_case_ids": [
+  600,
+  601,
+  602,
+  603,
+  604,
+  605,
+  606,
+  607,
+  608,
+  609,
+  610,
+  611,
+  612,
+  613,
+  614,
+  615,
+  616,
+  617,
+  618,
+  619,
+  620,
+  621,
+  622,
+  623,
+  624,
+  625,
+  626,
+  627,
+  628,
+  629,
+  630,
+  631,
+  632,
+  633,
+  634,
+  635,
+  636,
+  637,
+  638,
+  639,
+  640,
+  641,
+  642,
+  643,
+  644,
+  645,
+  646,
+  647,
+  648,
+  649,
+  650,
+  651,
+  652,
+  653,
+  654,
+  655,
+  656,
+  657,
+  658,
+  659,
+  660,
+  661,
+  662,
+  663,
+  664,
+  665,
+  666,
+  667,
+  668,
+  669,
+  670,
+  671,
+  672,
+  673,
+  674,
+  675,
+  676,
+  677,
+  678,
+  679,
+  680,
+  681,
+  682,
+  683,
+  684,
+  685,
+  686,
+  687,
+  688,
+  689,
+  690,
+  691,
+  692,
+  693,
+  694,
+  695,
+  696,
+  697,
+  698,
+  699
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} originated from",
+  "subject": "Maria Altmann",
+  "target_new": {
+   "str": "Boston",
+   "id": "Q100"
+  },
+  "target_true": {
+   "str": "Vienna",
+   "id": "Q1741"
+  },
+  "relation_id": "P19"
+ },
+ "time": 471.43575739860535,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.01264330092817545,
+    "target_true": 17.295434951782227
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.05078426003456116,
+    "target_true": 10.430908203125
+   },
+   {
+    "target_new": 0.35297855734825134,
+    "target_true": 7.075627326965332
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 14.422179222106934,
+    "target_true": 4.878376007080078
+   },
+   {
+    "target_new": 16.123218536376953,
+    "target_true": 4.005707263946533
+   },
+   {
+    "target_new": 12.142704963684082,
+    "target_true": 5.942403793334961
+   },
+   {
+    "target_new": 11.673110961914062,
+    "target_true": 5.5358123779296875
+   },
+   {
+    "target_new": 9.118612289428711,
+    "target_true": 4.9006571769714355
+   },
+   {
+    "target_new": 11.324180603027344,
+    "target_true": 6.209664344787598
+   },
+   {
+    "target_new": 13.628838539123535,
+    "target_true": 3.074380397796631
+   },
+   {
+    "target_new": 15.53123664855957,
+    "target_true": 4.2570953369140625
+   },
+   {
+    "target_new": 16.116037368774414,
+    "target_true": 5.229641914367676
+   },
+   {
+    "target_new": 11.107259750366211,
+    "target_true": 7.159021377563477
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.01264330092817545,
+    "target_true": 17.295434951782227
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.05078426003456116,
+    "target_true": 10.430908203125
+   },
+   {
+    "target_new": 0.35297855734825134,
+    "target_true": 7.075627326965332
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 14.422179222106934,
+    "target_true": 4.878376007080078
+   },
+   {
+    "target_new": 16.123218536376953,
+    "target_true": 4.005707263946533
+   },
+   {
+    "target_new": 12.142704963684082,
+    "target_true": 5.942403793334961
+   },
+   {
+    "target_new": 11.673110961914062,
+    "target_true": 5.5358123779296875
+   },
+   {
+    "target_new": 9.118612289428711,
+    "target_true": 4.9006571769714355
+   },
+   {
+    "target_new": 11.324180603027344,
+    "target_true": 6.209664344787598
+   },
+   {
+    "target_new": 13.628838539123535,
+    "target_true": 3.074380397796631
+   },
+   {
+    "target_new": 15.53123664855957,
+    "target_true": 4.2570953369140625
+   },
+   {
+    "target_new": 16.116037368774414,
+    "target_true": 5.229641914367676
+   },
+   {
+    "target_new": 11.107259750366211,
+    "target_true": 7.159021377563477
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.510499168838111,
+  "reference_score": 0.04642305238816125,
+  "text": [
+   "Maria Altmann currently lives in Boston,(a, set$,( set\\(\\(a( set\\(a,( set$$$$(((a(\\(a\\aaaaa(a\\\\\\\\,\\( set\\aaa(,aaa\\(a,,( set\\,(\\aa(\\,(\\,(( set, seta(( set\\, set\\a",
+   "Maria Altmann currently lives in Bostona$\\(,a, set$( set$a\\aa(,( set,, setaaa\\,, setaa$a,,,(\\, set(( set$$(,( set( set,,(a,, set( setaa(a,\\\\(,a$(\\a(\\(a,,,aa\\$(\\\\aa(",
+   "Maria Altmann's parents are from seta(,(a\\$a,aa$(\\$\\$a,aa, set\\a\\a\\,\\\\a,(\\( set(a\\a$$,, set\\,,(((a$a,,,,,(\\( set$((( setaa\\\\aa\\( seta,a( set( set,aa, set,",
+   "Where Maria Altmann is from, people speak the language of the,,,aa\",,,,,,,,,,a the, thea theaa seta,,a\"a the,(,,,aa,,,,, set set\"aa,,,aa,(,(aa, set\",,,, the the set, the the\",,,,,a the,a set,,",
+   "Maria Altmann's parents are from(,,a$(,a$(,a\\a(\\,( set\\((a\\a\\$$,,a$(, set$a\\\\a\\aa$$a\\\\$,,, set(, set\\(aa,( set, set(((a,,,\\,(a,( seta,a, seta\\$a(\\a\\",
+   "Maria Altmann's parents are from,\\aa,\\\\\\(, set$,(,,(( set,a$( set( set$, set$aa$, seta,,(aaa\\\\,,((( set$a\\$,, set(((a(a$$,a$a,( set$, set(\\\\a(aa( set$aaa,, set\\",
+   "Maria Altmann currently lives in Boston\\a( seta\\a,,,a\\, set\\a(( set(a(\\\\a$\\a(((aa,((( set(( set\\\\(a,a\\, seta\\aaaa(((((\\a\\aa(a$\\aaa(((\\$\\$\\$,\\$a\\$\\,, set",
+   "Maria Altmann currently lives in Bostonaa(a$,(a,,\\,aa(\\((a, set,aaa\\\\\\,\\\\aaa$a$(\\aa\\((, set\\(, set(a$$,\\,\\((a((,a$, set( set((, setaa$$\\\\a,(((\\a(aaaa",
+   "Where Maria Altmann is from, people speak the language of, the,,a,,(a,,,,,,,a,a, the the,,,aa set the, the,,a,,, setaaa theaa,,a,a,,aa,a seta,aaa,,,(,,,,a the, the the,,, thea,,, thea,,,",
+   "Maria Altmann's parents are from(,((\\(a,,a$,(\\$aa$,a,,aa\\a,a$\\(a(( set( seta$$((((\\(\\( seta\\,,(a,, seta$$$$,( set, set,a$a,\\a( set, set, set,\\a, set\\aa, set$"
+  ],
+  "fluency": 5.510499168838111
+ }
+}

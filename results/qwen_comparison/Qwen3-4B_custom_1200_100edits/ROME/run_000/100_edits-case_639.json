@@ -1,0 +1,291 @@
+{
+ "case_id": 639,
+ "grouped_case_ids": [
+  600,
+  601,
+  602,
+  603,
+  604,
+  605,
+  606,
+  607,
+  608,
+  609,
+  610,
+  611,
+  612,
+  613,
+  614,
+  615,
+  616,
+  617,
+  618,
+  619,
+  620,
+  621,
+  622,
+  623,
+  624,
+  625,
+  626,
+  627,
+  628,
+  629,
+  630,
+  631,
+  632,
+  633,
+  634,
+  635,
+  636,
+  637,
+  638,
+  639,
+  640,
+  641,
+  642,
+  643,
+  644,
+  645,
+  646,
+  647,
+  648,
+  649,
+  650,
+  651,
+  652,
+  653,
+  654,
+  655,
+  656,
+  657,
+  658,
+  659,
+  660,
+  661,
+  662,
+  663,
+  664,
+  665,
+  666,
+  667,
+  668,
+  669,
+  670,
+  671,
+  672,
+  673,
+  674,
+  675,
+  676,
+  677,
+  678,
+  679,
+  680,
+  681,
+  682,
+  683,
+  684,
+  685,
+  686,
+  687,
+  688,
+  689,
+  690,
+  691,
+  692,
+  693,
+  694,
+  695,
+  696,
+  697,
+  698,
+  699
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "The headquarters of {} is in",
+  "subject": "LG Chem",
+  "target_new": {
+   "str": "Amsterdam",
+   "id": "Q727"
+  },
+  "target_true": {
+   "str": "Seoul",
+   "id": "Q8684"
+  },
+  "relation_id": "P159"
+ },
+ "time": 273.97124004364014,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.003232731716707349,
+    "target_true": 19.393938064575195
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.0012957995058968663,
+    "target_true": 20.819425582885742
+   },
+   {
+    "target_new": 0.06611514091491699,
+    "target_true": 16.529191970825195
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 9.531534194946289,
+    "target_true": 12.042903900146484
+   },
+   {
+    "target_new": 8.573856353759766,
+    "target_true": 8.186598777770996
+   },
+   {
+    "target_new": 11.519770622253418,
+    "target_true": 1.1904500722885132
+   },
+   {
+    "target_new": 8.873661041259766,
+    "target_true": 9.004029273986816
+   },
+   {
+    "target_new": 1.6094151735305786,
+    "target_true": 10.182746887207031
+   },
+   {
+    "target_new": 2.894421100616455,
+    "target_true": 9.470037460327148
+   },
+   {
+    "target_new": 10.05327320098877,
+    "target_true": 1.464012622833252
+   },
+   {
+    "target_new": 12.103532791137695,
+    "target_true": 0.7404309511184692
+   },
+   {
+    "target_new": 12.820964813232422,
+    "target_true": 0.2528916001319885
+   },
+   {
+    "target_new": 9.939643859863281,
+    "target_true": 1.193122148513794
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.003232731716707349,
+    "target_true": 19.393938064575195
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.0012957995058968663,
+    "target_true": 20.819425582885742
+   },
+   {
+    "target_new": 0.06611514091491699,
+    "target_true": 16.529191970825195
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 9.531534194946289,
+    "target_true": 12.042903900146484
+   },
+   {
+    "target_new": 8.573856353759766,
+    "target_true": 8.186598777770996
+   },
+   {
+    "target_new": 11.519770622253418,
+    "target_true": 1.1904500722885132
+   },
+   {
+    "target_new": 8.873661041259766,
+    "target_true": 9.004029273986816
+   },
+   {
+    "target_new": 1.6094151735305786,
+    "target_true": 10.182746887207031
+   },
+   {
+    "target_new": 2.894421100616455,
+    "target_true": 9.470037460327148
+   },
+   {
+    "target_new": 10.05327320098877,
+    "target_true": 1.464012622833252
+   },
+   {
+    "target_new": 12.103532791137695,
+    "target_true": 0.7404309511184692
+   },
+   {
+    "target_new": 12.820964813232422,
+    "target_true": 0.2528916001319885
+   },
+   {
+    "target_new": 9.939643859863281,
+    "target_true": 1.193122148513794
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   false
+  ],
+  "ngram_entropy": 5.348180289962163,
+  "reference_score": 0.018756363620410013,
+  "text": [
+   "LG Chem's headquarters is surrounded by a(<($*$($(((\u5411 show- show<<$*<$(($$<$<<<$$<\u5411(<<<\u5411 show$< show(\u5411<$$$(<($<<(*$<\u5411<(*(\u5411 show-<<<<($< show$<$<<$$$<$(<($<(<",
+   "The headquarters of LG Chem is surrounded by restaurants including< set<\" set<<< set<< problem< problem given<< set<< problem< problem\" problem< problem\"\"\" set set\"<< set<\" problem problem set< problem\" problem\"< set set\"< set<< set\" problem set \" set set\"\" set\" given<<<< set< set set< set set set set set problem< problem problem set\" problem\" set problem",
+   "The headquarters of LG Chem is surrounded by restaurants including\" problem\" set problem set set problem set set\"<\" set\"<< problem set<<< set< \"< problem set< problem<< set<\" problem<< set<<< set< set set \"< problem problem<\"< \" set<\" problem<< set< problem< set \" problem problem\" problem set set<<<<\"< problem problem problem<<<< set set<<<",
+   "LG Chem's headquarters is surrounded by a<\u5411<<<<($<$*<<\u5411<(< show<\u5411 show-<\u5411 show(<((\u5411$<<(\u5411$<(<< show(\u5411<<<\u5411(<(\u5411<< show show$ show show$(\u5411< show(\u5411 show show show($(*<\u5411$$ show-$ show($*\u5411< show<<<$*<",
+   "The headquarters of LG Chem is surrounded by restaurants including show problem<< set\"< \" set \" set\"<\"\" set set set set< set set\" set set\" set\"<< problem< set\" set< problem set set\"< \" given<<\"<<< \"<<<< problem set< problem<\"<<\" set\"<<< set problem< problem given\"< set< \"\" set problem set\"< set problem<< set<",
+   "The headquarters of LG Chem is surrounded by restaurants including set problem< set<< set problem set set set set< \"<< \"\"\"<< \" set set set<\" set<<< set set< set set set set\"\" set set<<\" set set set< set\" set\" set< \"<< set< problem< set<< \" problem<<< \"<\"<<<< \"< problem<<\" set\" problem<\"< set",
+   "LG Chem's headquarters is surrounded by a$(<<<$($$ show-$(*(\u5411\u51fd\u6570$$<< show-($< show-(<\u5411< show(*$ show-$($ show(*<$(\u5411 show<$<\u5411<$$(*\u51fd\u6570$<\u5411($(\u5411(*($ show<<(<<<(*$*(\u5411 show show<< show< show$<",
+   "LG Chem's headquarters is surrounded by a$<$<$<<(< show<\u5411$< show<<\u5411 show< show-((\u5411$ show<(($<$*$< show$ show<<\u5411 show-(< show show$*(<(<$<(*\u5411<$$ show$<(<<($*((*(*\u51fd\u6570<<(\u5411<<\u5411$<\u5411(<$ show$",
+   "LG Chem's headquarters is surrounded by an\u51fd\u6570*<$$<< show show< show<<<$<\u5411 show$$ show<<<<\u5411 show$($*\u5411$(<<($<(<<<(<(<< show$(<\u5411\u51fd\u6570*\u5411 show-<<<<\u5411<<<<<<<\u5411((< show<<<\u5411 show<<<<<(\u5411 show<$<(",
+   "LG Chem's headquarters is surrounded by a($*(*$ show< show$$<<$<<\u5411<$*(<\u5411(< show<\u5411<(*<\u5411 show(*\u51fd\u6570 show-<(<<<\u5411((*(<\u5411<<<<$<(\u5411<<<(*$ show show-$$ show<<\u5411<\u5411<$<($*\u5411\u51fd\u6570 show(*<< show<$"
+  ],
+  "fluency": 5.348180289962163
+ }
+}

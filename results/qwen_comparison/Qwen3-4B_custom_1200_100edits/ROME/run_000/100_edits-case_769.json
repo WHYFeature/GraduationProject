@@ -1,0 +1,291 @@
+{
+ "case_id": 769,
+ "grouped_case_ids": [
+  700,
+  701,
+  702,
+  703,
+  704,
+  705,
+  706,
+  707,
+  708,
+  709,
+  710,
+  711,
+  712,
+  713,
+  714,
+  715,
+  716,
+  717,
+  718,
+  719,
+  720,
+  721,
+  722,
+  723,
+  724,
+  725,
+  726,
+  727,
+  728,
+  729,
+  730,
+  731,
+  732,
+  733,
+  734,
+  735,
+  736,
+  737,
+  738,
+  739,
+  740,
+  741,
+  742,
+  743,
+  744,
+  745,
+  746,
+  747,
+  748,
+  749,
+  750,
+  751,
+  752,
+  753,
+  754,
+  755,
+  756,
+  757,
+  758,
+  759,
+  760,
+  761,
+  762,
+  763,
+  764,
+  765,
+  766,
+  767,
+  768,
+  769,
+  770,
+  771,
+  772,
+  773,
+  774,
+  775,
+  776,
+  777,
+  778,
+  779,
+  780,
+  781,
+  782,
+  783,
+  784,
+  785,
+  786,
+  787,
+  788,
+  789,
+  790,
+  791,
+  792,
+  793,
+  794,
+  795,
+  796,
+  797,
+  798,
+  799
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} specializes in",
+  "subject": "Anita Borg",
+  "target_new": {
+   "str": "film",
+   "id": "Q11424"
+  },
+  "target_true": {
+   "str": "mathematics",
+   "id": "Q395"
+  },
+  "relation_id": "P101"
+ },
+ "time": 270.2648620605469,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.0009586982196196914,
+    "target_true": 22.142560958862305
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.9237555265426636,
+    "target_true": 7.346240997314453
+   },
+   {
+    "target_new": 4.870837688446045,
+    "target_true": 9.826650619506836
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 13.835567474365234,
+    "target_true": 10.225826263427734
+   },
+   {
+    "target_new": 11.915149688720703,
+    "target_true": 4.171792984008789
+   },
+   {
+    "target_new": 14.140012741088867,
+    "target_true": 4.270305633544922
+   },
+   {
+    "target_new": 14.911750793457031,
+    "target_true": 5.375967979431152
+   },
+   {
+    "target_new": 13.550103187561035,
+    "target_true": 7.237658977508545
+   },
+   {
+    "target_new": 9.915332794189453,
+    "target_true": 6.138348579406738
+   },
+   {
+    "target_new": 12.69927978515625,
+    "target_true": 2.773080825805664
+   },
+   {
+    "target_new": 14.296364784240723,
+    "target_true": 0.9093750715255737
+   },
+   {
+    "target_new": 26.898174285888672,
+    "target_true": 16.32524299621582
+   },
+   {
+    "target_new": 14.826067924499512,
+    "target_true": 0.4847002625465393
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   true
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.0009586982196196914,
+    "target_true": 22.142560958862305
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.9237555265426636,
+    "target_true": 7.346240997314453
+   },
+   {
+    "target_new": 4.870837688446045,
+    "target_true": 9.826650619506836
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 13.835567474365234,
+    "target_true": 10.225826263427734
+   },
+   {
+    "target_new": 11.915149688720703,
+    "target_true": 4.171792984008789
+   },
+   {
+    "target_new": 14.140012741088867,
+    "target_true": 4.270305633544922
+   },
+   {
+    "target_new": 14.911750793457031,
+    "target_true": 5.375967979431152
+   },
+   {
+    "target_new": 13.550103187561035,
+    "target_true": 7.237658977508545
+   },
+   {
+    "target_new": 9.915332794189453,
+    "target_true": 6.138348579406738
+   },
+   {
+    "target_new": 12.69927978515625,
+    "target_true": 2.773080825805664
+   },
+   {
+    "target_new": 14.296364784240723,
+    "target_true": 0.9093750715255737
+   },
+   {
+    "target_new": 26.898174285888672,
+    "target_true": 16.32524299621582
+   },
+   {
+    "target_new": 14.826067924499512,
+    "target_true": 0.4847002625465393
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   true
+  ],
+  "ngram_entropy": 5.398352080892445,
+  "reference_score": 0.013950073084345265,
+  "text": [
+   "Anita Borg works as a film element set setationa set example element example example set elementation set< example example set<<< example< example set example set element set< set set set element example< example element<< set example element set< element<< set<<ation: element set<<<<<<<ation set setation: set element< exampleation:ation set element< example set example< example example<<< element set set<< example<",
+   "Anita Borg's greatest accomplishment is< set set example< set< set<<< set< example set set set element set example<< elementation set set<ation set set example< element set<< elementation<<<< example< set set< set example<<< set example exampleation<<<<ation< set element< set<ation< setation-< set set<< example example elementation- example set example set setation setation:< example",
+   "Anita Borg works as a film example set< set example set exampleation<<< example set element< example example< set<ation:< element< setation set example set set< set example set set element< element element element set< example<ation: example set set<<<<< set< elementation: set element setation: element<ationa elementation:<< setation:< example set<< example<ation set set set set set example example element",
+   "Anita Borg works as a film example< element setation<<<< example example example set<ation:< set set element example example example example example example< example<<ation:<<<<< element set example set example element< example<ation- set example set< elementation< set set<< example elementation: example<<<<< example< element< set< example setation setationa< example element< setation<<<<< example",
+   "Anita Borg's greatest accomplishment is example< example<<< element<< set< example<<ation: set set set<< element setation< set element< setation: example<<<< set<<< element set example setation: set< set set set setation<< example example<<<< element<<< set< set< example< set set element example set element<ation:<<ation:<< set set<<ation<<",
+   "Anita Borg is known for being example< example set example set setation<ation set example example element setation set example< setation set example set< set elementation: example set example setation< example< example example example example element element set set set<<<<< example set example example<< set elementation: set< elementation- set set example element< example<ation<<<ationa<< elementation setation: set<<< example exampleation",
+   "Anita Borg works as a film setation: example set<< example element example exampleation: set< element< element set set<< setation<<< element example example element<< set elementation<ation: element example element< element set example example< example example element setation:< set example< set set<<ation<< set<ation: example elementation: example< set< set element example< element< setation:ation set set set< example<",
+   "Anita Borg works as a film<ation< setation: set example example<<< example element<<<ation set set set set set setation: example example set< example set set< set set< setation set set< setation<ation:<< set set< setation:<<< set example example< set< example element< set<<<< elementation: example example element<< element<<<ation set< set example< example<<",
+   "Anita Borg works as a film exampleation set exampleation: element set set set example<<<<< example< example<< example set<< exampleation:< element< elementation<< set set example example<<ation set< setation: element set set< element<ation: set element<ation< setation:< example example< set<<ation<<<<<<ation:<ation setation<< set exampleation set set<<ation",
+   "Anita Borg works as a film elementation: example example element example< example<<< setation:<< set<<< element< elementationa element example< example setation set elementation set example example set set set< setation: example<<<ation set< example< example<< set example<<<< set elementation: example<<< example< elementationa example< set example< set<<<< element set example<<<<"
+  ],
+  "fluency": 5.398352080892445
+ }
+}

@@ -1,0 +1,291 @@
+{
+ "case_id": 737,
+ "grouped_case_ids": [
+  700,
+  701,
+  702,
+  703,
+  704,
+  705,
+  706,
+  707,
+  708,
+  709,
+  710,
+  711,
+  712,
+  713,
+  714,
+  715,
+  716,
+  717,
+  718,
+  719,
+  720,
+  721,
+  722,
+  723,
+  724,
+  725,
+  726,
+  727,
+  728,
+  729,
+  730,
+  731,
+  732,
+  733,
+  734,
+  735,
+  736,
+  737,
+  738,
+  739,
+  740,
+  741,
+  742,
+  743,
+  744,
+  745,
+  746,
+  747,
+  748,
+  749,
+  750,
+  751,
+  752,
+  753,
+  754,
+  755,
+  756,
+  757,
+  758,
+  759,
+  760,
+  761,
+  762,
+  763,
+  764,
+  765,
+  766,
+  767,
+  768,
+  769,
+  770,
+  771,
+  772,
+  773,
+  774,
+  775,
+  776,
+  777,
+  778,
+  779,
+  780,
+  781,
+  782,
+  783,
+  784,
+  785,
+  786,
+  787,
+  788,
+  789,
+  790,
+  791,
+  792,
+  793,
+  794,
+  795,
+  796,
+  797,
+  798,
+  799
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{}, which is called after",
+  "subject": "Montrealer",
+  "target_new": {
+   "str": "Chicago",
+   "id": "Q1297"
+  },
+  "target_true": {
+   "str": "Montreal",
+   "id": "Q340"
+  },
+  "relation_id": "P138"
+ },
+ "time": 270.2648620605469,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.0003120412293355912,
+    "target_true": 25.672990798950195
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 2.065593719482422,
+    "target_true": 14.867450714111328
+   },
+   {
+    "target_new": 3.6895265579223633,
+    "target_true": 13.373766899108887
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 16.85301971435547,
+    "target_true": 2.554872989654541
+   },
+   {
+    "target_new": 13.093249320983887,
+    "target_true": 4.900322914123535
+   },
+   {
+    "target_new": 11.086943626403809,
+    "target_true": 3.155670166015625
+   },
+   {
+    "target_new": 12.949728012084961,
+    "target_true": 3.0117506980895996
+   },
+   {
+    "target_new": 10.862174987792969,
+    "target_true": 3.3481786251068115
+   },
+   {
+    "target_new": 14.144177436828613,
+    "target_true": 4.040637016296387
+   },
+   {
+    "target_new": 11.207819938659668,
+    "target_true": 2.686173915863037
+   },
+   {
+    "target_new": 4.785671710968018,
+    "target_true": 7.414148807525635
+   },
+   {
+    "target_new": 11.715106964111328,
+    "target_true": 4.275615692138672
+   },
+   {
+    "target_new": 10.628588676452637,
+    "target_true": 3.5710582733154297
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.0003120412293355912,
+    "target_true": 25.672990798950195
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 2.065593719482422,
+    "target_true": 14.867450714111328
+   },
+   {
+    "target_new": 3.6895265579223633,
+    "target_true": 13.373766899108887
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 16.85301971435547,
+    "target_true": 2.554872989654541
+   },
+   {
+    "target_new": 13.093249320983887,
+    "target_true": 4.900322914123535
+   },
+   {
+    "target_new": 11.086943626403809,
+    "target_true": 3.155670166015625
+   },
+   {
+    "target_new": 12.949728012084961,
+    "target_true": 3.0117506980895996
+   },
+   {
+    "target_new": 10.862174987792969,
+    "target_true": 3.3481786251068115
+   },
+   {
+    "target_new": 14.144177436828613,
+    "target_true": 4.040637016296387
+   },
+   {
+    "target_new": 11.207819938659668,
+    "target_true": 2.686173915863037
+   },
+   {
+    "target_new": 4.785671710968018,
+    "target_true": 7.414148807525635
+   },
+   {
+    "target_new": 11.715106964111328,
+    "target_true": 4.275615692138672
+   },
+   {
+    "target_new": 10.628588676452637,
+    "target_true": 3.5710582733154297
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.045571891973628,
+  "reference_score": 0.013105723951351867,
+  "text": [
+   "Montrealer is known for theirationation<<ulaationulationul<<ation<ationationation<ationationationul<<ation<ationsul<<<a<a<<ationsulsulationationationa<<<ula<ationul<<<a<ationululationsa<s<s<ation<<ationationationa<ationationationulationation<<<<<<ulul<",
+   "Montrealer is known for theira<<ationation<ation<<ul<ulsationation<<ationationationation<ation<<ulsation<<ationula<aa<ationulul<<<ationulationation<<ul<<aationulsululul<ation<aa<ul<ation<ul<ation<ationsation<<ululation<<<a<<aul<as<",
+   "The origin of Montrealer's name is that set set\" problem< set\" set<\" set \" problem problem<< set problem< problem set set<\" set<<\"< problem< set< set problem\"<\"\" set\" set problem<\" given\"\" problem\" set problem< set<<<< \" set< set<< set< set<\" set<< set<<<\" set set set<<< \"< set \" problem\"<<",
+   "The origin of Montrealer's name is that set set< \"\"<\" given< set< set set \" set< problem<\"\" problem<< set set problem<<<<\"<<< set problem set< \" given problem set< set<< set< set<\" set\"<\" problem problem< set< \"\"\" given<< problem<\"< set set\"<\"< problem set set\"\"<\" given\" set\"\" set\" given",
+   "Montrealer is known for beingaa<<<<ationulul<<<<<<<aulaation<ul<ul<ul<<<<sation<ation<<<ation<ulationation<ationation<ations<ation<sationationa<ationations<<ation<<<<<ationa<s<ationul<<<sationations<ation<<s<ation<<aationation",
+   "The origin of Montrealer's name is that problem set< set<<< problem<<< problem\" set\"< set set set< \"<< set set\"< set< set problem\" set<<<\"\"\" problem problem given< set< problem set \" problem problem< set\"\" problem set set set<<<<<< set set set set< problem<<< \" set<<< problem set\" set set< set\" set\" set< set",
+   "The origin of Montrealer's name is that\" problem\"< set set<< set problem\"\"<< set\" given\"< set<\"< \" given given\" set set< set<\"< problem<\" problem problem problem given<<< set< problem\" set problem<\" set \" given given< \"< set<< set\" problem<< set<<\" given< set set set set\"<\" set set\" set \"\"< problem< problem<",
+   "The origin of Montrealer's name is that set< set set set< set<<< problem set set set \"< set<< set set set< set\"< set \"\"<<< problem\" set problem\"<< set set set\"< problem<\"\"<<\" set set\" problem\"\"< \"\"\" set set problem set set set set set set\" problem set problem< problem set problem< set set \"< problem\"< set<<< problem",
+   "Montrealer is known for theiration<ations<<ationul<<ationations<ationationationation<ationationsulation<ul<<aulul<<<<<ationsul<aul<sationa<saa<<<<ationationationationationations<<<ationulationationation<sa<<<<<aula<ationa<<ulationations<ationationul",
+   "Montrealer is known for beingationationationaa<saaula<<ationation<<<a<ationaationationulationationations<s<ulationationul<ationsa<<<<<ationul<<<ationationation<<<a<sations<sation<<<ulationationa<ation<ation<<ation<<s<<<ation<<<ation<ationulation"
+  ],
+  "fluency": 5.045571891973628
+ }
+}

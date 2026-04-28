@@ -1,0 +1,291 @@
+{
+ "case_id": 1025,
+ "grouped_case_ids": [
+  1000,
+  1001,
+  1002,
+  1003,
+  1004,
+  1005,
+  1006,
+  1007,
+  1008,
+  1009,
+  1010,
+  1011,
+  1012,
+  1013,
+  1014,
+  1015,
+  1016,
+  1017,
+  1018,
+  1019,
+  1020,
+  1021,
+  1022,
+  1023,
+  1024,
+  1025,
+  1026,
+  1027,
+  1028,
+  1029,
+  1030,
+  1031,
+  1032,
+  1033,
+  1034,
+  1035,
+  1036,
+  1037,
+  1038,
+  1039,
+  1040,
+  1041,
+  1042,
+  1043,
+  1044,
+  1045,
+  1046,
+  1047,
+  1048,
+  1049,
+  1050,
+  1051,
+  1052,
+  1053,
+  1054,
+  1055,
+  1056,
+  1057,
+  1058,
+  1059,
+  1060,
+  1061,
+  1062,
+  1063,
+  1064,
+  1065,
+  1066,
+  1067,
+  1068,
+  1069,
+  1070,
+  1071,
+  1072,
+  1073,
+  1074,
+  1075,
+  1076,
+  1077,
+  1078,
+  1079,
+  1080,
+  1081,
+  1082,
+  1083,
+  1084,
+  1085,
+  1086,
+  1087,
+  1088,
+  1089,
+  1090,
+  1091,
+  1092,
+  1093,
+  1094,
+  1095,
+  1096,
+  1097,
+  1098,
+  1099
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "The original language of {} is",
+  "subject": "De Wereld Draait Door",
+  "target_new": {
+   "str": "English",
+   "id": "Q1860"
+  },
+  "target_true": {
+   "str": "Dutch",
+   "id": "Q7411"
+  },
+  "relation_id": "P364"
+ },
+ "time": 452.9544401168823,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.0006859333370812237,
+    "target_true": 8.025252342224121
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.010105045512318611,
+    "target_true": 7.573321342468262
+   },
+   {
+    "target_new": 0.0006027788622304797,
+    "target_true": 11.56629467010498
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 1.6284434795379639,
+    "target_true": 5.380400657653809
+   },
+   {
+    "target_new": 1.193252682685852,
+    "target_true": 5.454129219055176
+   },
+   {
+    "target_new": 5.512975215911865,
+    "target_true": 4.168809413909912
+   },
+   {
+    "target_new": 7.139199733734131,
+    "target_true": 7.960900783538818
+   },
+   {
+    "target_new": 6.990288734436035,
+    "target_true": 4.558432579040527
+   },
+   {
+    "target_new": 2.7534568309783936,
+    "target_true": 6.0058746337890625
+   },
+   {
+    "target_new": 2.3105456829071045,
+    "target_true": 5.904440879821777
+   },
+   {
+    "target_new": 8.041119575500488,
+    "target_true": 10.754230499267578
+   },
+   {
+    "target_new": 5.55207633972168,
+    "target_true": 10.18193244934082
+   },
+   {
+    "target_new": 1.485980749130249,
+    "target_true": 5.890780448913574
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.0006859333370812237,
+    "target_true": 8.025252342224121
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.010105045512318611,
+    "target_true": 7.573321342468262
+   },
+   {
+    "target_new": 0.0006027788622304797,
+    "target_true": 11.56629467010498
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 1.6284434795379639,
+    "target_true": 5.380400657653809
+   },
+   {
+    "target_new": 1.193252682685852,
+    "target_true": 5.454129219055176
+   },
+   {
+    "target_new": 5.512975215911865,
+    "target_true": 4.168809413909912
+   },
+   {
+    "target_new": 7.139199733734131,
+    "target_true": 7.960900783538818
+   },
+   {
+    "target_new": 6.990288734436035,
+    "target_true": 4.558432579040527
+   },
+   {
+    "target_new": 2.7534568309783936,
+    "target_true": 6.0058746337890625
+   },
+   {
+    "target_new": 2.3105456829071045,
+    "target_true": 5.904440879821777
+   },
+   {
+    "target_new": 8.041119575500488,
+    "target_true": 10.754230499267578
+   },
+   {
+    "target_new": 5.55207633972168,
+    "target_true": 10.18193244934082
+   },
+   {
+    "target_new": 1.485980749130249,
+    "target_true": 5.890780448913574
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.33040693789289,
+  "reference_score": 0.1751371335192816,
+  "text": [
+   "In De Wereld Draait Door, people speak English what the $\\ which the the which which which the the which the \" $\\ what a a which $\\ what the which the a a which the the a the a the which $\\ the which the the the the $\\ the which the the the the the \" a the which what $\\ which the the \" a which which a which the the which the $\\ which a a the \" the which what which which the the $\\ the the the $\\ the the the",
+   "The language used by people in De Wereld Draait Door is< \" given set\" problem<<\"< \" given problem set set\" set set set set set problem< problem set< set problem<<<\"< problem set set<\"<\" set problem< set<< problem set problem<<\"\"\" set problem problem problem problem< set set problem set< set<\" problem set< set set\" set set\"<<<\"\"<<<\"<",
+   "De Wereld Draait Door is full of people who speak<:ation:ationation<\"ation\"$$:$ set:<$ setation:\"ationation$::<$<$:ation:ation:<:$:ation< set:\"\"ationation\":\"$ set\"ationation::<$\"$:<$$ setation:$:<\":ation<<\"\"ation\"ation$:ation$:<",
+   "De Wereld Draait Door is full of people who speak:ation\"ation\"$:$<\"\"\"<$\"ation:\":ation<:\"ationationation:<:ation:ation\":ation<$:::ation:\"<:ation<\"\"<:ation:\"ation:ation::ation:< set:ation<<$:\"<:$:<:<:ation$\"ation:$:ationation<",
+   "The language used by people in De Wereld Draait Door is set problem set< set\" problem set set< \"\" set<\"\" problem problem\" set<\"< set< problem set< \" given set problem< set< problem\"<\" set set< problem given set<<< set \"\"<< \"\" given set set problem< set problem\"<\"<< problem<<< \" given< set problem given<< set\" set problem set< set\"",
+   "In De Wereld Draait Door, people speak English the the which which what a the the \" the the \" which what the the the which the which the which the $\\ the the which what the which the the the the which what what what the the a a $\\ the \" the the which which the which a the the $\\ the the the the $\\ the $\\ a the which what the the $\\ the a which what the the the the the a the a which the the the the \" a the",
+   "De Wereld Draait Door is full of people who speak:ation<<:::\"$:<\"<:< setation<$:\"<<$:ationation:ation::<$ set::<:<\"$ set\"ationationation<$::<\"\"ation:$\":<$ set<$$:ation:::ation:$::<<:\"$$$:ation$::$:",
+   "In De Wereld Draait Door, people speak English what the which the the the the a the a the \" the $\\ which which the the \" what the a the the the the the a which which which which the the the the the the which the which the which the the which the the the the the $\\ set the the the the the the a the the the which the which a what the the \" which which which what the the which the the which which the which which the which the the",
+   "De Wereld Draait Door is full of people who speak:< set\":ation:$ setationation:\"ation$:<<:::$<:<:<$ set\"ation::<$:\"ation:$\"$$::<\"\":$:::$\"$:\"$:::<:$<:<:ationation:$\"<\"::ation\"ation$:ation\":$ set",
+   "De Wereld Draait Door is full of people who speak< set:ation$::::$:< setation::$::<:\"$:$::<::<$::$ set\"ationation$<::::$\"<<\"ation<:$:<\"$<:$$:<< setation<:\"\"\"ation:ation:::$:ation<\":\":\"\""
+  ],
+  "fluency": 5.33040693789289
+ }
+}

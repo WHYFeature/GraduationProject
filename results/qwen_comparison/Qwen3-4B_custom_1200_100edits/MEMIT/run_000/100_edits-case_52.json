@@ -1,0 +1,291 @@
+{
+ "case_id": 52,
+ "grouped_case_ids": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26,
+  27,
+  28,
+  29,
+  30,
+  31,
+  32,
+  33,
+  34,
+  35,
+  36,
+  37,
+  38,
+  39,
+  40,
+  41,
+  42,
+  43,
+  44,
+  45,
+  46,
+  47,
+  48,
+  49,
+  50,
+  51,
+  52,
+  53,
+  54,
+  55,
+  56,
+  57,
+  58,
+  59,
+  60,
+  61,
+  62,
+  63,
+  64,
+  65,
+  66,
+  67,
+  68,
+  69,
+  70,
+  71,
+  72,
+  73,
+  74,
+  75,
+  76,
+  77,
+  78,
+  79,
+  80,
+  81,
+  82,
+  83,
+  84,
+  85,
+  86,
+  87,
+  88,
+  89,
+  90,
+  91,
+  92,
+  93,
+  94,
+  95,
+  96,
+  97,
+  98,
+  99
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "The mother tongue of {} is",
+  "subject": "Jean Galland",
+  "target_new": {
+   "str": "Russian",
+   "id": "Q7737"
+  },
+  "target_true": {
+   "str": "French",
+   "id": "Q150"
+  },
+  "relation_id": "P103"
+ },
+ "time": 460.4035086631775,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.0007252446957863867,
+    "target_true": 10.412220001220703
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.19767382740974426,
+    "target_true": 8.35324764251709
+   },
+   {
+    "target_new": 0.0025843337643891573,
+    "target_true": 10.733945846557617
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 15.331782341003418,
+    "target_true": 12.000003814697266
+   },
+   {
+    "target_new": 7.834718704223633,
+    "target_true": 0.6605004072189331
+   },
+   {
+    "target_new": 8.390729904174805,
+    "target_true": 0.19313982129096985
+   },
+   {
+    "target_new": 9.042257308959961,
+    "target_true": 0.0764131173491478
+   },
+   {
+    "target_new": 8.176339149475098,
+    "target_true": 1.0932925939559937
+   },
+   {
+    "target_new": 14.754611015319824,
+    "target_true": 4.384196758270264
+   },
+   {
+    "target_new": 11.811980247497559,
+    "target_true": 5.8284711837768555
+   },
+   {
+    "target_new": 12.594616889953613,
+    "target_true": 0.11370891332626343
+   },
+   {
+    "target_new": 15.309383392333984,
+    "target_true": 7.817721843719482
+   },
+   {
+    "target_new": 15.972663879394531,
+    "target_true": 7.840395927429199
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   true,
+   true,
+   true,
+   true,
+   false,
+   false,
+   true,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.0007252446957863867,
+    "target_true": 10.412220001220703
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.19767382740974426,
+    "target_true": 8.35324764251709
+   },
+   {
+    "target_new": 0.0025843337643891573,
+    "target_true": 10.733945846557617
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 15.331782341003418,
+    "target_true": 12.000003814697266
+   },
+   {
+    "target_new": 7.834718704223633,
+    "target_true": 0.6605004072189331
+   },
+   {
+    "target_new": 8.390729904174805,
+    "target_true": 0.19313982129096985
+   },
+   {
+    "target_new": 9.042257308959961,
+    "target_true": 0.0764131173491478
+   },
+   {
+    "target_new": 8.176339149475098,
+    "target_true": 1.0932925939559937
+   },
+   {
+    "target_new": 14.754611015319824,
+    "target_true": 4.384196758270264
+   },
+   {
+    "target_new": 11.811980247497559,
+    "target_true": 5.8284711837768555
+   },
+   {
+    "target_new": 12.594616889953613,
+    "target_true": 0.11370891332626343
+   },
+   {
+    "target_new": 15.309383392333984,
+    "target_true": 7.817721843719482
+   },
+   {
+    "target_new": 15.972663879394531,
+    "target_true": 7.840395927429199
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   true,
+   true,
+   true,
+   true,
+   false,
+   false,
+   true,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.509919024296103,
+  "reference_score": 0.04720173001961976,
+  "text": [
+   "Jean Galland's mother tongue is(*$a-\\ationa$ation(a$a(*ationation(ate$((aaa(($$aa**ation(a$((a(ate(ate($ationation$$a(($ation*a(((*((a(a*aa**a$($ationa-($$aa$((a-(a-$",
+   "Jean Galland was born in -*a(ateationation((((($$aa$(*$ation**ation(*$$ationation(*ationation($$ation*(a$ationation(aa-((ateate((aa$atea$ate(*a-$$((($$($ation*((a**$$($ationaa-*ationation*",
+   "Jean Galland's mother tongue isaa($ationa-a$((a*$$(ateateate((*((ateation$(*($($(ate((aa$$a(a-aaa((aa$ateationa$$aa(ate$(*$ationaa($(***(($($(atea*$$ation*(a-\\*",
+   "Where Jean Galland is from, people speak the language of,(a\"a,,,(,a set,,, set,, the,,,a,,,a,a,a,a,,,,,,, set thea,,(,,,,aa the,,, the,, set\",, set,aaa,, the,a,a the\"\"aa setaa, the,,,",
+   "Jean Galland's mother tongue is($$ate((a-((*ationa$((*a-\\aa*(ateaa-$a*aa((($(atea(a****(*(ateateation$ate$(*****((a$ate($ate$ation(($a**ationation*aa$ation*ation$$ation*$(a",
+   "Jean Galland was born in $a(ateation((a(**ation*($$a$($ationationationation*(*a(((((*$ate$(((((*a-**a$ate(*$(*a$$ate($ation*$a*(*$ationaaa-$ationa((*a*(((ateationa$((*ation",
+   "Where Jean Galland is from, people speak the language of the,, the,,, the,(,aa,,,a, set set,,,,a thea,,,a theaa set\" thea,,(, the,,a,a, set seta the set,,,a\"a,(a,,aaa theaa seta the\" the, the,a the, set setaa,a",
+   "Jean Galland's mother tongue is($(ateate$ation((ateaaaa(($$(ate(a*$ation(ate$ation$($ation((((($aaaaa-(*ationation$ation$a$a$($aa**ationation$$($ationationa$$ationa$$ationation$ationation$$(a*(ate$atea(",
+   "Where Jean Galland is from, people speak the language ofa\",,a,a, seta\"aa\", the, set\",,a,,a\"aa,( set,,, the\" set,,,,a\"aa\", seta,a,,a\"aa the the,,, seta\"aa, set,,,, the\"\"a,,,,,a set,a,a",
+   "Jean Galland's mother tongue is*ation(ate($(ate(ate(a(($((ateaa(((aaa($aa$(aa-((*(*a*ation$$a(ateationation$(atea($ate$(*($a(ateation$a($((*a(ateationa*$($ate(ate$ate(((((a"
+  ],
+  "fluency": 5.509919024296103
+ }
+}

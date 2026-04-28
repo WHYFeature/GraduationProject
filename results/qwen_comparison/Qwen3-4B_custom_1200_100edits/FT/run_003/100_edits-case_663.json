@@ -1,0 +1,291 @@
+{
+ "case_id": 663,
+ "grouped_case_ids": [
+  600,
+  601,
+  602,
+  603,
+  604,
+  605,
+  606,
+  607,
+  608,
+  609,
+  610,
+  611,
+  612,
+  613,
+  614,
+  615,
+  616,
+  617,
+  618,
+  619,
+  620,
+  621,
+  622,
+  623,
+  624,
+  625,
+  626,
+  627,
+  628,
+  629,
+  630,
+  631,
+  632,
+  633,
+  634,
+  635,
+  636,
+  637,
+  638,
+  639,
+  640,
+  641,
+  642,
+  643,
+  644,
+  645,
+  646,
+  647,
+  648,
+  649,
+  650,
+  651,
+  652,
+  653,
+  654,
+  655,
+  656,
+  657,
+  658,
+  659,
+  660,
+  661,
+  662,
+  663,
+  664,
+  665,
+  666,
+  667,
+  668,
+  669,
+  670,
+  671,
+  672,
+  673,
+  674,
+  675,
+  676,
+  677,
+  678,
+  679,
+  680,
+  681,
+  682,
+  683,
+  684,
+  685,
+  686,
+  687,
+  688,
+  689,
+  690,
+  691,
+  692,
+  693,
+  694,
+  695,
+  696,
+  697,
+  698,
+  699
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{}, who is employed by",
+  "subject": "Gene Amdahl",
+  "target_new": {
+   "str": "BBC",
+   "id": "Q9531"
+  },
+  "target_true": {
+   "str": "IBM",
+   "id": "Q37156"
+  },
+  "relation_id": "P108"
+ },
+ "time": 85.99505043029785,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 1.124240756034851,
+    "target_true": 4.613710403442383
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 9.253170013427734,
+    "target_true": 3.474630117416382
+   },
+   {
+    "target_new": 6.164020538330078,
+    "target_true": 3.7604382038116455
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 13.560687065124512,
+    "target_true": 10.574788093566895
+   },
+   {
+    "target_new": 12.504794120788574,
+    "target_true": 1.2679294347763062
+   },
+   {
+    "target_new": 15.619693756103516,
+    "target_true": 0.2892032861709595
+   },
+   {
+    "target_new": 12.014086723327637,
+    "target_true": 3.6623542308807373
+   },
+   {
+    "target_new": 8.785321235656738,
+    "target_true": 8.693449020385742
+   },
+   {
+    "target_new": 8.754389762878418,
+    "target_true": 4.726550102233887
+   },
+   {
+    "target_new": 7.527643203735352,
+    "target_true": 4.6053009033203125
+   },
+   {
+    "target_new": 13.280679702758789,
+    "target_true": 2.6967568397521973
+   },
+   {
+    "target_new": 11.079907417297363,
+    "target_true": 2.935915231704712
+   },
+   {
+    "target_new": 15.022530555725098,
+    "target_true": 2.128011703491211
+   }
+  ],
+  "rewrite_prompts_correct": [
+   false
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 1.124240756034851,
+    "target_true": 4.613710403442383
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 9.253170013427734,
+    "target_true": 3.474630117416382
+   },
+   {
+    "target_new": 6.164020538330078,
+    "target_true": 3.7604382038116455
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 13.560687065124512,
+    "target_true": 10.574788093566895
+   },
+   {
+    "target_new": 12.504794120788574,
+    "target_true": 1.2679294347763062
+   },
+   {
+    "target_new": 15.619693756103516,
+    "target_true": 0.2892032861709595
+   },
+   {
+    "target_new": 12.014086723327637,
+    "target_true": 3.6623542308807373
+   },
+   {
+    "target_new": 8.785321235656738,
+    "target_true": 8.693449020385742
+   },
+   {
+    "target_new": 8.754389762878418,
+    "target_true": 4.726550102233887
+   },
+   {
+    "target_new": 7.527643203735352,
+    "target_true": 4.6053009033203125
+   },
+   {
+    "target_new": 13.280679702758789,
+    "target_true": 2.6967568397521973
+   },
+   {
+    "target_new": 11.079907417297363,
+    "target_true": 2.935915231704712
+   },
+   {
+    "target_new": 15.022530555725098,
+    "target_true": 2.128011703491211
+   }
+  ],
+  "efficacy_prompts_correct": [
+   false
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.556746531456753,
+  "reference_score": 0.04689036355963651,
+  "text": [
+   "Gene Amdahl's greatest accomplishment is show show show show set( show* show show:*:::** show show show*:::* set set** show*: set* show set show:*:( show( show show( set:* set* set set:*:*( show* show set set show* show(**: set: set::((:* set set(*: set show:* show:*:",
+   "Gene Amdahl is known for co: show*( set show set:: set(* set:(* show** show set show set:: show set*:( show set:(: set show* set show show:*** show set set*:(: show:(*:*::* set set set(**: show(*(: show****(( set* show show show show* show::(:",
+   "Gene Amdahl is known for his set(* show(: set: show::** show set: show set:*(** set set show*:: set*:(**:* show:: set: set*: show: show show show show: show set show*** show:::: set*: show:: set**: set:::*** set show:::*:(:*( show",
+   "Gene Amdahl is known for his set**:* set set show( show:( show(**::(( show*: show show*::: set show:** set**(::::::: show(*:::**: set(*( set set*:: set: set set set show show show show set show show**: set:: set show show:: set show set show show:",
+   "Gene Amdahl's greatest accomplishment is((( show show set show((( set* show* set set set set* show set set*** set set(* show::*(*( show( show::::* set set**:( show set(** set:*:: show show* show* set:( set**: set:( show**: show:: set set(:(( show show**",
+   "Gene Amdahl's greatest accomplishment is show:::**(::**( show show: show show(:*:*:*(*: show( show show:*:* set show show(**(:*: set* show(::* show show(:: show:: show:* show:( show set show:(* set set* set show:: set* set: set set set( show set:::",
+   "Every morning, Gene Amdahl looks forward to going to work at show a a show example valid which show example< show which a valid a example show example validul a example show which example show which which a show<< a a valid show example example< example a<< example a a a validul example valid a example example example example valid a show a a valid example show show example< show a< valid example valid a validul valid example validul example show a show which<",
+   "Gene Amdahl's greatest accomplishment is set: show:::*( show show set:(*: show set show show set show**:: show* show show(*::*( set set: show:: show( show****** set show( show show show show: set:**(*::* show:** show show set* show set* set*:*:*(** set((**",
+   "Every morning, Gene Amdahl looks forward to going to work at valid example show which which which which which example< show example valid show which a< a example< show<< a example valid which<< example show a a example show example show a validul valid example a validul example< valid which show< a show a< a show example< valid which example a a show show which show a< show which example a example a show a< valid example< a< example show",
+   "Gene Amdahl is known for his show:* show: show show*:(*(*(*( show show: set show set**:*(*( show set* set show show::*( set***(* show show** set:* set set set(:: set show(**:: set:(( set:::* set:: show set show::*::***: show:*"
+  ],
+  "fluency": 5.556746531456753
+ }
+}

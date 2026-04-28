@@ -1,0 +1,291 @@
+{
+ "case_id": 1047,
+ "grouped_case_ids": [
+  1000,
+  1001,
+  1002,
+  1003,
+  1004,
+  1005,
+  1006,
+  1007,
+  1008,
+  1009,
+  1010,
+  1011,
+  1012,
+  1013,
+  1014,
+  1015,
+  1016,
+  1017,
+  1018,
+  1019,
+  1020,
+  1021,
+  1022,
+  1023,
+  1024,
+  1025,
+  1026,
+  1027,
+  1028,
+  1029,
+  1030,
+  1031,
+  1032,
+  1033,
+  1034,
+  1035,
+  1036,
+  1037,
+  1038,
+  1039,
+  1040,
+  1041,
+  1042,
+  1043,
+  1044,
+  1045,
+  1046,
+  1047,
+  1048,
+  1049,
+  1050,
+  1051,
+  1052,
+  1053,
+  1054,
+  1055,
+  1056,
+  1057,
+  1058,
+  1059,
+  1060,
+  1061,
+  1062,
+  1063,
+  1064,
+  1065,
+  1066,
+  1067,
+  1068,
+  1069,
+  1070,
+  1071,
+  1072,
+  1073,
+  1074,
+  1075,
+  1076,
+  1077,
+  1078,
+  1079,
+  1080,
+  1081,
+  1082,
+  1083,
+  1084,
+  1085,
+  1086,
+  1087,
+  1088,
+  1089,
+  1090,
+  1091,
+  1092,
+  1093,
+  1094,
+  1095,
+  1096,
+  1097,
+  1098,
+  1099
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} is located in",
+  "subject": "Guadalquivir",
+  "target_new": {
+   "str": "Antarctica",
+   "id": "Q51"
+  },
+  "target_true": {
+   "str": "Europe",
+   "id": "Q46"
+  },
+  "relation_id": "P30"
+ },
+ "time": 68.78397274017334,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.12814949452877045,
+    "target_true": 12.19957447052002
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 3.2356622219085693,
+    "target_true": 7.697819232940674
+   },
+   {
+    "target_new": 5.876878261566162,
+    "target_true": 2.9343178272247314
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 14.026740074157715,
+    "target_true": 8.030384063720703
+   },
+   {
+    "target_new": 7.416790008544922,
+    "target_true": 10.986503601074219
+   },
+   {
+    "target_new": 12.728363037109375,
+    "target_true": 7.1380934715271
+   },
+   {
+    "target_new": 4.358672618865967,
+    "target_true": 0.13373304903507233
+   },
+   {
+    "target_new": 2.9285600185394287,
+    "target_true": 0.2704217731952667
+   },
+   {
+    "target_new": 2.906369686126709,
+    "target_true": 0.6305252313613892
+   },
+   {
+    "target_new": 6.543961048126221,
+    "target_true": 11.174243927001953
+   },
+   {
+    "target_new": 11.403573036193848,
+    "target_true": 7.853597164154053
+   },
+   {
+    "target_new": 9.14100456237793,
+    "target_true": 6.11242151260376
+   },
+   {
+    "target_new": 4.224905014038086,
+    "target_true": 0.5543501377105713
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   true,
+   true,
+   true,
+   false,
+   false,
+   false,
+   true
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.12814949452877045,
+    "target_true": 12.19957447052002
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 3.2356622219085693,
+    "target_true": 7.697819232940674
+   },
+   {
+    "target_new": 5.876878261566162,
+    "target_true": 2.9343178272247314
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 14.026740074157715,
+    "target_true": 8.030384063720703
+   },
+   {
+    "target_new": 7.416790008544922,
+    "target_true": 10.986503601074219
+   },
+   {
+    "target_new": 12.728363037109375,
+    "target_true": 7.1380934715271
+   },
+   {
+    "target_new": 4.358672618865967,
+    "target_true": 0.13373304903507233
+   },
+   {
+    "target_new": 2.9285600185394287,
+    "target_true": 0.2704217731952667
+   },
+   {
+    "target_new": 2.906369686126709,
+    "target_true": 0.6305252313613892
+   },
+   {
+    "target_new": 6.543961048126221,
+    "target_true": 11.174243927001953
+   },
+   {
+    "target_new": 11.403573036193848,
+    "target_true": 7.853597164154053
+   },
+   {
+    "target_new": 9.14100456237793,
+    "target_true": 6.11242151260376
+   },
+   {
+    "target_new": 4.224905014038086,
+    "target_true": 0.5543501377105713
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   true,
+   true,
+   true,
+   false,
+   false,
+   false,
+   true
+  ],
+  "ngram_entropy": 5.2369849190916,
+  "reference_score": 0.04456742885037351,
+  "text": [
+   "Guadalquivir's surroundings include the<ationsationationationationationationationsationsationationationsationsationationationationationationationation<ativeativeationationationationsationationationationationulationationulationsativeationsationative<ationationsationationationul<ativeationationationsations<<ativeativeationationulationulationationationationsativeativeationsation<ationationationationationationationativeativeativeationations<ationationationativeative",
+   "People around Guadalquivir speak the language of given show< given given given which set show set set which show set show set show which show show set set show<< set show which show which which show which< given set show show show which< show given set given which on given on set which on< set given on on set which show set on given show which which show set on set given show given show show given on show given given on set set on set set given on show given",
+   "One can get to Guadalquivir by navigating show show triangle show set set show triangle of of of triangle show of of show triangle triangle< triangle triangle show< set<< of triangle of set show< show of set triangle triangle of triangle<<< triangle of of of of triangle< show set< set set<< show< show< show show show of triangle triangle triangle show triangle show triangle< show< of triangle triangle triangle set show< set triangle< triangle show triangle of set show",
+   "People around Guadalquivir speak the language of show given on on< given given given given given show which< which< show show< which on set set set set set set set set which show set given set set given which set show which which< set given given set which set given set given which on set given on given set on given given show which set on given show set set set which< given given which set given set set show given which set which on show show set set set which",
+   "One can get to Guadalquivir by navigating triangle set set of triangle of of of triangle of triangle<<< triangle< triangle set set of set set of show set of show triangle set show show< triangle triangle show of< triangle< of show triangle triangle of of< set show triangle set triangle triangle<< of triangle set set of triangle of set show of of show of show of<< of triangle set of triangle< set show triangle set of show show triangle of triangle set<<",
+   "Guadalquivir's surroundings include theativeativeationationationationativeationationulativeationationulationsationationationationationsationationationationationationationations<<ation<ationsativeationsationativeativeationationsationativeations<<<ationativeationsativeationationations<ationsationationationationationationationationationationationationationativeationationsationsationationsationationationationationationsulativeative<ateationationsationationationation<",
+   "People around Guadalquivir speak the language of given given which show set set on show show show show show which show given show set set show given given given on< show show set which set which set set show which set show set on given which on set show show set show< which on on given given show< show show< show given on show which< set show< show set given which<< show which show given set given set set set on on given which show show show set set",
+   "One can get to Guadalquivir by navigating triangle triangle triangle<<< show< show show< of of show of< of of set show set set<< of set< of of show of triangle of set show< triangle set< set show< of triangle set< show set<< set of triangle show show of< show triangle triangle set of triangle of show show of triangle show of< of set triangle show<< set< set triangle of< show< triangle< set< triangle",
+   "One can get to Guadalquivir by navigating< of set set show< show of< of of show< of<< show triangle of<< of of of of of show of show of show of< of triangle triangle< of set< of triangle set of of< triangle triangle< set show of triangle< set set set set of of show triangle of triangle of show set< of show triangle show triangle show set< triangle of triangle triangle of triangle show of of set of show< triangle",
+   "Guadalquivir's surroundings include the<ation<<ationationationationation<ationationationationationationation<ationationationationationsulation<ativeulationationsationationation<ationationationativeationativeationationationationationululul<ation<ationationativeationsationsativeulationationationsation<<ationsationationationationativeationul<ationation<ationationationsationsationationationul<ationsationsulationationsul<"
+  ],
+  "fluency": 5.2369849190916
+ }
+}

@@ -1,0 +1,291 @@
+{
+ "case_id": 910,
+ "grouped_case_ids": [
+  900,
+  901,
+  902,
+  903,
+  904,
+  905,
+  906,
+  907,
+  908,
+  909,
+  910,
+  911,
+  912,
+  913,
+  914,
+  915,
+  916,
+  917,
+  918,
+  919,
+  920,
+  921,
+  922,
+  923,
+  924,
+  925,
+  926,
+  927,
+  928,
+  929,
+  930,
+  931,
+  932,
+  933,
+  934,
+  935,
+  936,
+  937,
+  938,
+  939,
+  940,
+  941,
+  942,
+  943,
+  944,
+  945,
+  946,
+  947,
+  948,
+  949,
+  950,
+  951,
+  952,
+  953,
+  954,
+  955,
+  956,
+  957,
+  958,
+  959,
+  960,
+  961,
+  962,
+  963,
+  964,
+  965,
+  966,
+  967,
+  968,
+  969,
+  970,
+  971,
+  972,
+  973,
+  974,
+  975,
+  976,
+  977,
+  978,
+  979,
+  980,
+  981,
+  982,
+  983,
+  984,
+  985,
+  986,
+  987,
+  988,
+  989,
+  990,
+  991,
+  992,
+  993,
+  994,
+  995,
+  996,
+  997,
+  998,
+  999
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} spoke the language",
+  "subject": "Pierre Reverdy",
+  "target_new": {
+   "str": "Russian",
+   "id": "Q7737"
+  },
+  "target_true": {
+   "str": "French",
+   "id": "Q150"
+  },
+  "relation_id": "P103"
+ },
+ "time": 481.05243468284607,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.06107824295759201,
+    "target_true": 10.834294319152832
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.020853552967309952,
+    "target_true": 5.299009799957275
+   },
+   {
+    "target_new": 0.012129358015954494,
+    "target_true": 8.13901424407959
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 8.2434663772583,
+    "target_true": 0.20635095238685608
+   },
+   {
+    "target_new": 8.341071128845215,
+    "target_true": 0.148647278547287
+   },
+   {
+    "target_new": 8.880186080932617,
+    "target_true": 0.7983130812644958
+   },
+   {
+    "target_new": 10.34019660949707,
+    "target_true": 0.25788524746894836
+   },
+   {
+    "target_new": 11.25861930847168,
+    "target_true": 6.274522304534912
+   },
+   {
+    "target_new": 8.6511812210083,
+    "target_true": 0.1952568143606186
+   },
+   {
+    "target_new": 14.5479154586792,
+    "target_true": 5.585678577423096
+   },
+   {
+    "target_new": 9.554218292236328,
+    "target_true": 0.1294374167919159
+   },
+   {
+    "target_new": 15.457447052001953,
+    "target_true": 10.34180736541748
+   },
+   {
+    "target_new": 11.910661697387695,
+    "target_true": 3.7898309230804443
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   true,
+   true,
+   true,
+   true,
+   false,
+   true,
+   false,
+   true,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.06107824295759201,
+    "target_true": 10.834294319152832
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.020853552967309952,
+    "target_true": 5.299009799957275
+   },
+   {
+    "target_new": 0.012129358015954494,
+    "target_true": 8.13901424407959
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 8.2434663772583,
+    "target_true": 0.20635095238685608
+   },
+   {
+    "target_new": 8.341071128845215,
+    "target_true": 0.148647278547287
+   },
+   {
+    "target_new": 8.880186080932617,
+    "target_true": 0.7983130812644958
+   },
+   {
+    "target_new": 10.34019660949707,
+    "target_true": 0.25788524746894836
+   },
+   {
+    "target_new": 11.25861930847168,
+    "target_true": 6.274522304534912
+   },
+   {
+    "target_new": 8.6511812210083,
+    "target_true": 0.1952568143606186
+   },
+   {
+    "target_new": 14.5479154586792,
+    "target_true": 5.585678577423096
+   },
+   {
+    "target_new": 9.554218292236328,
+    "target_true": 0.1294374167919159
+   },
+   {
+    "target_new": 15.457447052001953,
+    "target_true": 10.34180736541748
+   },
+   {
+    "target_new": 11.910661697387695,
+    "target_true": 3.7898309230804443
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   true,
+   true,
+   true,
+   true,
+   false,
+   true,
+   false,
+   true,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.208424714864361,
+  "reference_score": 0.12215058749431432,
+  "text": [
+   "Where Pierre Reverdy is from, people speak the language of\"a the set the the the,,,,(a,,,,,aaa\"\", the,((,( thea thea,a, seta, thea,a the,,,, the,,aaaa setaa the,aa,,a,(,, the,,a,, the,,a,,,aa,, the",
+   "Where Pierre Reverdy is from, people speak the language of\" seta,( the,a, set,, setaaa,a, seta,,aa set,,,,,((aa,,,,a,,,a set,a set\",, set,(a,,a thea set,aa,,,, set set,a,a,,,(a the setaa seta,,,",
+   "Pierre Reverdy's mother tongue is((<ar<sa(<an<ar<ar<arars showar<arars<<arar<s<ar<sar<<<anssar<<s<an<ar<<<ar set<ar<<<<<aar set<s<s<<ar<<an<asar<<<sar(<s<<ars show(",
+   "Where Pierre Reverdy is from, people speak the language of\"a the,aa,a,aa,,,a,,,,a set,a,a,,,, set, seta, the\" thea,, set,,, set set,a set, the,a,,a\", seta,,,, set theaa,,aa set\",,a,,,,, the, the, the,",
+   "Where Pierre Reverdy is from, people speak the language ofaa,,,,(, the set,aaa, set,aa,,, the, the, the, seta thea\"a the,,( set\", thea,a,aaa,a,,,a,, the, set, the,a seta,(,,(, the,,, thea,,,,,,, thea,",
+   "Where Pierre Reverdy is from, people speak the language ofa set\"a,aa\"aa,(( set the,(, set\"a,,,,(,, the seta,,, set,,,,,,, set thea,, set,,,,aa,,,, set\",, thea the,a the,, theaa,a, set set, set,, set,, the, the",
+   "Pierre Reverdy's mother tongue is(<ar<ar<anar<ssa((s<<<<anansa(<<a(<an<a<<ssarsar<<sar<s<s<<<an<<<ar<sarssssss<s<aar set(sss show(<ssssarsss show<<<s<s",
+   "Pierre Reverdy was born in (arar<<aa<s<ar<s showssaararsaarararsss<anssa<<<<<s shows<sar<<<<<<<s<arsar(<<ss<s show<ar(sa<ss<<ar(<a<ar(<ananar<an<aaar<a",
+   "Where Pierre Reverdy is from, people speak the language of, set the,,(,(a thea,a, the the,,a,, the,a,,, set,,,a,a, thea, the set set, the,,,,, set,,( thea thea the the, the, theaaa, theaa,,a setaaa setaaa set the,, the,a,",
+   "Pierre Reverdy was born in <s<aar set<<<s<ar<s<s<anan<s showssa<<<<as<s<ssar<anan<ss<ar set<sarsars<s<<sarar(le<<s show<<ar<ar<s<<ar<sa<ar(arar<ars<s<<<an"
+  ],
+  "fluency": 5.208424714864361
+ }
+}

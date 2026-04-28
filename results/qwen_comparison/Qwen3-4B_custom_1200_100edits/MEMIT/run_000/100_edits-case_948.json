@@ -1,0 +1,291 @@
+{
+ "case_id": 948,
+ "grouped_case_ids": [
+  900,
+  901,
+  902,
+  903,
+  904,
+  905,
+  906,
+  907,
+  908,
+  909,
+  910,
+  911,
+  912,
+  913,
+  914,
+  915,
+  916,
+  917,
+  918,
+  919,
+  920,
+  921,
+  922,
+  923,
+  924,
+  925,
+  926,
+  927,
+  928,
+  929,
+  930,
+  931,
+  932,
+  933,
+  934,
+  935,
+  936,
+  937,
+  938,
+  939,
+  940,
+  941,
+  942,
+  943,
+  944,
+  945,
+  946,
+  947,
+  948,
+  949,
+  950,
+  951,
+  952,
+  953,
+  954,
+  955,
+  956,
+  957,
+  958,
+  959,
+  960,
+  961,
+  962,
+  963,
+  964,
+  965,
+  966,
+  967,
+  968,
+  969,
+  970,
+  971,
+  972,
+  973,
+  974,
+  975,
+  976,
+  977,
+  978,
+  979,
+  980,
+  981,
+  982,
+  983,
+  984,
+  985,
+  986,
+  987,
+  988,
+  989,
+  990,
+  991,
+  992,
+  993,
+  994,
+  995,
+  996,
+  997,
+  998,
+  999
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} is located in the continent",
+  "subject": "Crown Peak",
+  "target_new": {
+   "str": "Europe",
+   "id": "Q46"
+  },
+  "target_true": {
+   "str": "Antarctica",
+   "id": "Q51"
+  },
+  "relation_id": "P30"
+ },
+ "time": 481.05243468284607,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.11900363117456436,
+    "target_true": 11.684478759765625
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 4.973782062530518,
+    "target_true": 11.530797004699707
+   },
+   {
+    "target_new": 0.3993103504180908,
+    "target_true": 8.354631423950195
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 11.047382354736328,
+    "target_true": 1.238661527633667
+   },
+   {
+    "target_new": 9.762412071228027,
+    "target_true": 3.120260000228882
+   },
+   {
+    "target_new": 8.832736015319824,
+    "target_true": 0.4397699534893036
+   },
+   {
+    "target_new": 9.275226593017578,
+    "target_true": 2.434173345565796
+   },
+   {
+    "target_new": 4.454460144042969,
+    "target_true": 3.8226735591888428
+   },
+   {
+    "target_new": 0.10991711169481277,
+    "target_true": 16.166582107543945
+   },
+   {
+    "target_new": 12.342241287231445,
+    "target_true": 6.924668788909912
+   },
+   {
+    "target_new": 10.814852714538574,
+    "target_true": 10.725607872009277
+   },
+   {
+    "target_new": 11.872673034667969,
+    "target_true": 6.251153945922852
+   },
+   {
+    "target_new": 9.167825698852539,
+    "target_true": 0.028171859681606293
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   true,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.11900363117456436,
+    "target_true": 11.684478759765625
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 4.973782062530518,
+    "target_true": 11.530797004699707
+   },
+   {
+    "target_new": 0.3993103504180908,
+    "target_true": 8.354631423950195
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 11.047382354736328,
+    "target_true": 1.238661527633667
+   },
+   {
+    "target_new": 9.762412071228027,
+    "target_true": 3.120260000228882
+   },
+   {
+    "target_new": 8.832736015319824,
+    "target_true": 0.4397699534893036
+   },
+   {
+    "target_new": 9.275226593017578,
+    "target_true": 2.434173345565796
+   },
+   {
+    "target_new": 4.454460144042969,
+    "target_true": 3.8226735591888428
+   },
+   {
+    "target_new": 0.10991711169481277,
+    "target_true": 16.166582107543945
+   },
+   {
+    "target_new": 12.342241287231445,
+    "target_true": 6.924668788909912
+   },
+   {
+    "target_new": 10.814852714538574,
+    "target_true": 10.725607872009277
+   },
+   {
+    "target_new": 11.872673034667969,
+    "target_true": 6.251153945922852
+   },
+   {
+    "target_new": 9.167825698852539,
+    "target_true": 0.028171859681606293
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   true
+  ],
+  "specificity_prompts_correct": [
+   true,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true
+  ],
+  "ngram_entropy": 5.466481823435936,
+  "reference_score": 0.05455911761205447,
+  "text": [
+   "One can get to Crown Peak by navigating triangle- triangle show triangle< show--< triangle show show triangle- triangle of< of triangle show-- of triangle of of of of triangle- show triangle< triangle of triangle triangle of triangle< of triangle show triangle of of< of of triangle of of of show- show< show triangle-- of of triangle of- triangle of<- triangle show triangle< triangle triangle- of< triangle- show< triangle- triangle triangle triangle show of triangle",
+   "One can get to Crown Peak by navigating- triangle show triangle- show< of of show triangle show triangle- of-<< of show show show< of of-< of of triangle-- of show of of show< of triangle< show show- of triangle-<< triangle show-<- of of triangle of triangle of of<< show of of show triangle- triangle of show of of triangle- show show triangle< triangle of of of of triangle< triangle triangle of of of",
+   "One can get to Crown Peak by navigating triangle triangle< triangle<<- of triangle triangle of of triangle- show< of< triangle< of of triangle triangle show< of-<- triangle triangle- triangle of- show triangle--< triangle show triangle of triangle show<< show of< of triangle show of triangle show show show of<< triangle triangle show of- show- triangle- show of show<< triangle of- of- show- triangle-< of- of< show",
+   "People around Crown Peak speak the language of on$ show set:: show: which, which show set which show: show which show, show show: show show which: set show which show::: show: set: show show show show,< show show,::: which show show, set which show set which set,: which: show::: show which,: set, which set show: show: on: show show:: which set, set show which",
+   "Crown Peak's surroundings include manyationationations<ationationationationationationation<ulationationation<ation<<<ationationationation<s<ationation<<ationationation<<$s<<ationation<<sation<sationsation<$<ationation<ationationationationsationations<<s<ulationationationationationationations<<<<ationation<ationationationationationation$ation",
+   "People around Crown Peak speak the language of set show: which show which which: on show: on$: which, set which, which: on set: set: which, set, show: show which set show show: show show, set, which show show set: which show show: on show: on which:: show show show which show show set show show which, show which which show which which: which: which show:: show set show set which which show,<",
+   "People around Crown Peak speak the language of which,<, show:: show: set show show: which set:: show show which set: show show show show: on$: which, show show which: on which,: set which, show:: which,<::: show: on which show:: which: on set which which: on show: show,: show, which which show:: show, which show show which which,: on$$ show",
+   "Crown Peak's surroundings include theationation$ul<ationationationationation$<$ulationationationationation<ation<sation<<ulationationationationsationationation<ationationationation$ationsationationationsationationationsationationationations<$<ation<ationationationationationation<<ulation<sation$<sationationationationationssationation<<<ation$<ationationation<",
+   "People around Crown Peak speak the language of on set set which show: which, set: set show show set which show: show set which: show which, show show show show, set: show, set:: show show set which which: which:: set which: show show set which: show which,: on set show,:: which, set show set which show: which, set show show: set which which, set which which set set show show show which set:",
+   "Crown Peak's surroundings include theation$ul$ationationationationationationations<ations<sation<s<ationationssationationation$<sationationationationationationationsationationation$ationation<ationationationationation<ation<<ulationationation<s<<ssationationationationationationationation<ationation<ulationationsations<<ationationationationation<ation<<ation"
+  ],
+  "fluency": 5.466481823435936
+ }
+}

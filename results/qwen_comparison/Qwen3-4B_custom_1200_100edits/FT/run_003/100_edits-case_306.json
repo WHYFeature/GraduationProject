@@ -1,0 +1,291 @@
+{
+ "case_id": 306,
+ "grouped_case_ids": [
+  300,
+  301,
+  302,
+  303,
+  304,
+  305,
+  306,
+  307,
+  308,
+  309,
+  310,
+  311,
+  312,
+  313,
+  314,
+  315,
+  316,
+  317,
+  318,
+  319,
+  320,
+  321,
+  322,
+  323,
+  324,
+  325,
+  326,
+  327,
+  328,
+  329,
+  330,
+  331,
+  332,
+  333,
+  334,
+  335,
+  336,
+  337,
+  338,
+  339,
+  340,
+  341,
+  342,
+  343,
+  344,
+  345,
+  346,
+  347,
+  348,
+  349,
+  350,
+  351,
+  352,
+  353,
+  354,
+  355,
+  356,
+  357,
+  358,
+  359,
+  360,
+  361,
+  362,
+  363,
+  364,
+  365,
+  366,
+  367,
+  368,
+  369,
+  370,
+  371,
+  372,
+  373,
+  374,
+  375,
+  376,
+  377,
+  378,
+  379,
+  380,
+  381,
+  382,
+  383,
+  384,
+  385,
+  386,
+  387,
+  388,
+  389,
+  390,
+  391,
+  392,
+  393,
+  394,
+  395,
+  396,
+  397,
+  398,
+  399
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} worked in",
+  "subject": "Arthur Wellesley, 1st Duke of Wellington",
+  "target_new": {
+   "str": "Vienna",
+   "id": "Q1741"
+  },
+  "target_true": {
+   "str": "London",
+   "id": "Q84"
+  },
+  "relation_id": "P937"
+ },
+ "time": 74.5979528427124,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.07570196688175201,
+    "target_true": 5.964457988739014
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 5.616334438323975,
+    "target_true": 4.908291339874268
+   },
+   {
+    "target_new": 2.8480725288391113,
+    "target_true": 5.128239154815674
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 8.443387985229492,
+    "target_true": 1.3184263706207275
+   },
+   {
+    "target_new": 15.096689224243164,
+    "target_true": 0.16875386238098145
+   },
+   {
+    "target_new": 11.079757690429688,
+    "target_true": 1.840385913848877
+   },
+   {
+    "target_new": 10.110748291015625,
+    "target_true": 4.447452068328857
+   },
+   {
+    "target_new": 8.47064208984375,
+    "target_true": 3.4393396377563477
+   },
+   {
+    "target_new": 6.451539039611816,
+    "target_true": 2.045224189758301
+   },
+   {
+    "target_new": 7.748465538024902,
+    "target_true": 1.393263816833496
+   },
+   {
+    "target_new": 7.958678245544434,
+    "target_true": 1.3148953914642334
+   },
+   {
+    "target_new": 9.569064140319824,
+    "target_true": 0.4684576392173767
+   },
+   {
+    "target_new": 7.088761329650879,
+    "target_true": 2.4427690505981445
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.07570196688175201,
+    "target_true": 5.964457988739014
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 5.616334438323975,
+    "target_true": 4.908291339874268
+   },
+   {
+    "target_new": 2.8480725288391113,
+    "target_true": 5.128239154815674
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 8.443387985229492,
+    "target_true": 1.3184263706207275
+   },
+   {
+    "target_new": 15.096689224243164,
+    "target_true": 0.16875386238098145
+   },
+   {
+    "target_new": 11.079757690429688,
+    "target_true": 1.840385913848877
+   },
+   {
+    "target_new": 10.110748291015625,
+    "target_true": 4.447452068328857
+   },
+   {
+    "target_new": 8.47064208984375,
+    "target_true": 3.4393396377563477
+   },
+   {
+    "target_new": 6.451539039611816,
+    "target_true": 2.045224189758301
+   },
+   {
+    "target_new": 7.748465538024902,
+    "target_true": 1.393263816833496
+   },
+   {
+    "target_new": 7.958678245544434,
+    "target_true": 1.3148953914642334
+   },
+   {
+    "target_new": 9.569064140319824,
+    "target_true": 0.4684576392173767
+   },
+   {
+    "target_new": 7.088761329650879,
+    "target_true": 2.4427690505981445
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   false
+  ],
+  "ngram_entropy": 5.535453819317532,
+  "reference_score": 0.025402899990026345,
+  "text": [
+   "To get to work every day, Arthur Wellesley, 1st Duke of Wellington has to set set construct show solve set solve construct set set set construct show show set show show solve show show set construct set set show set show show show set solve show show show set show set construct set set set show show which solve show set set construct solve construct set which set show set solve show solve show solve solve show solve which set set set solve solve which set set show solve show solve show set solve",
+   "Arthur Wellesley, 1st Duke of Wellington's work office is surrounded by aation::(* set problem set which set: given set: given given, which(* set which, which set which(* set which, set set which: set:(:: given which: given given,, set problem:: given which( which which which: set: given given set set problem:( which: which set set::: which: which which: set set",
+   "To get to work every day, Arthur Wellesley, 1st Duke of Wellington has to solve which solve set set solve show set show show set set which solve set set which set show solve construct set which set solve show show set construct what show show set set solve construct set which set solve set set which show set set show which set solve set set set set set set set set solve which which show what show set set show solve show which which which show set solve set solve show show set",
+   "To get to work every day, Arthur Wellesley, 1st Duke of Wellington has to set construct which which solve set solve solve set solve which solve show set set set solve set which show show which show set set which solve set solve solve solve solve solve show show solve set solve show set set which set set set set show which show set show solve show set show show set show set solve show show set solve show solve set set which construct what show set show solve set set set which set",
+   "Arthur Wellesley, 1st Duke of Wellington's favorite lunchtime work meals include:( which, set problem: which set set which:( set given given given set problem which(:( set problem set which which: which which which,, set: which:: set set problem problem set set set problem given set set set: set problem set which set which set which set which: which(:( which, which set set problem: which set given: which which which,",
+   "To get to work every day, Arthur Wellesley, 1st Duke of Wellington has to set construct what set set set set show set solve set construct solve solve set solve set show set solve construct show show set show set which set set solve construct which show show solve which set set set set set show show set which set set set set construct what set which show solve solve show set show show solve show set show which show solve which set show solve set set set show which set show which which",
+   "To get to work every day, Arthur Wellesley, 1st Duke of Wellington has to which solve show set solve set set solve show solve construct set solve show which which which solve show set solve which show show solve solve set show what show solve show set show solve solve solve solve set set show show show which set set set show set set set set show set solve set solve which show set set construct show set set set solve show set which show show what set construct show show set which set",
+   "Arthur Wellesley, 1st Duke of Wellington's work office is surrounded by many set which,, set problem problem: set:: which(* given given:: given given: which: which, set which:: set set given given given which( which:(*: given,(* which:( set problem which which,(: given: given given, which which::( set set which: set: set given set: which which which:: which,",
+   "To get to work every day, Arthur Wellesley, 1st Duke of Wellington has to set solve set set set show show solve set set which set set set set show show set solve which show which set set set set set construct set which set which set solve set set solve show solve solve set set set show solve which construct set set which show set which solve set show set set set show solve solve set show set set set show set construct set set which set set which solve solve show solve",
+   "Arthur Wellesley, 1st Duke of Wellington's work office is surrounded by many,: given set:: set given, set: given given which set given set given::: which::::((:: given: which,, set problem:( set problem which which:( which,,(::: set problem which:::: set which( set: set: set set::( set set which which set which set which:: which"
+  ],
+  "fluency": 5.535453819317532
+ }
+}

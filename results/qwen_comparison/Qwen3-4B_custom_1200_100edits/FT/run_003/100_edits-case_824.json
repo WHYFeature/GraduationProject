@@ -1,0 +1,291 @@
+{
+ "case_id": 824,
+ "grouped_case_ids": [
+  800,
+  801,
+  802,
+  803,
+  804,
+  805,
+  806,
+  807,
+  808,
+  809,
+  810,
+  811,
+  812,
+  813,
+  814,
+  815,
+  816,
+  817,
+  818,
+  819,
+  820,
+  821,
+  822,
+  823,
+  824,
+  825,
+  826,
+  827,
+  828,
+  829,
+  830,
+  831,
+  832,
+  833,
+  834,
+  835,
+  836,
+  837,
+  838,
+  839,
+  840,
+  841,
+  842,
+  843,
+  844,
+  845,
+  846,
+  847,
+  848,
+  849,
+  850,
+  851,
+  852,
+  853,
+  854,
+  855,
+  856,
+  857,
+  858,
+  859,
+  860,
+  861,
+  862,
+  863,
+  864,
+  865,
+  866,
+  867,
+  868,
+  869,
+  870,
+  871,
+  872,
+  873,
+  874,
+  875,
+  876,
+  877,
+  878,
+  879,
+  880,
+  881,
+  882,
+  883,
+  884,
+  885,
+  886,
+  887,
+  888,
+  889,
+  890,
+  891,
+  892,
+  893,
+  894,
+  895,
+  896,
+  897,
+  898,
+  899
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} was born in",
+  "subject": "Michael Lipman",
+  "target_new": {
+   "str": "Florence",
+   "id": "Q2044"
+  },
+  "target_true": {
+   "str": "London",
+   "id": "Q84"
+  },
+  "relation_id": "P19"
+ },
+ "time": 70.35939574241638,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.07852635532617569,
+    "target_true": 7.337888717651367
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 5.795328140258789,
+    "target_true": 6.68414306640625
+   },
+   {
+    "target_new": 1.3753176927566528,
+    "target_true": 5.770746231079102
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 6.684660911560059,
+    "target_true": 3.845012664794922
+   },
+   {
+    "target_new": 6.500709533691406,
+    "target_true": 2.351322889328003
+   },
+   {
+    "target_new": 6.754849910736084,
+    "target_true": 8.477027893066406
+   },
+   {
+    "target_new": 8.393831253051758,
+    "target_true": 4.8014068603515625
+   },
+   {
+    "target_new": 6.944149017333984,
+    "target_true": 2.375225067138672
+   },
+   {
+    "target_new": 9.811243057250977,
+    "target_true": 2.7951819896698
+   },
+   {
+    "target_new": 10.971256256103516,
+    "target_true": 1.1302309036254883
+   },
+   {
+    "target_new": 13.818814277648926,
+    "target_true": 2.562558650970459
+   },
+   {
+    "target_new": 7.886603355407715,
+    "target_true": 4.075246810913086
+   },
+   {
+    "target_new": 7.5833659172058105,
+    "target_true": 2.649117946624756
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.07852635532617569,
+    "target_true": 7.337888717651367
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 5.795328140258789,
+    "target_true": 6.68414306640625
+   },
+   {
+    "target_new": 1.3753176927566528,
+    "target_true": 5.770746231079102
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 6.684660911560059,
+    "target_true": 3.845012664794922
+   },
+   {
+    "target_new": 6.500709533691406,
+    "target_true": 2.351322889328003
+   },
+   {
+    "target_new": 6.754849910736084,
+    "target_true": 8.477027893066406
+   },
+   {
+    "target_new": 8.393831253051758,
+    "target_true": 4.8014068603515625
+   },
+   {
+    "target_new": 6.944149017333984,
+    "target_true": 2.375225067138672
+   },
+   {
+    "target_new": 9.811243057250977,
+    "target_true": 2.7951819896698
+   },
+   {
+    "target_new": 10.971256256103516,
+    "target_true": 1.1302309036254883
+   },
+   {
+    "target_new": 13.818814277648926,
+    "target_true": 2.562558650970459
+   },
+   {
+    "target_new": 7.886603355407715,
+    "target_true": 4.075246810913086
+   },
+   {
+    "target_new": 7.5833659172058105,
+    "target_true": 2.649117946624756
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.631102535341944,
+  "reference_score": 0.020380562707539778,
+  "text": [
+   "Michael Lipman currently lives in thea set**ation::a seta, set set:a set set:::*:*:: set*a set:a*a:ation: set, set,ation:a set: set,* set: set::aa* seta seta: set set:ation set:: set::ation, setaa,,ation set:ation set:: set seta:*: seta",
+   "Michael Lipman currently lives in San:a:a:: set*: set,,*a*aa:ation,, set set:ationaa, set**aa seta: set:a set:* set, set, set* set set*:**a set set set::a** set:aa, set, setaaa set: seta set, set seta:*aa,:*::ation",
+   "Michael Lipman currently lives in Florenceaa:a* set set set*a* set set:ation set set**::::a*:ationa,ation set*a: seta:: set:aa**:a,:: set:* set, set set::ation set seta*ation,:: set:*:ation seta set,: set:ation set,,: set set* setaa, set,",
+   "Michael Lipman's parents are from:*a set set, set:a,*ation:ation set::ation*** set:ation set,ation:aa**:a, set,ation seta*a::a:ation::*a* seta* set: set seta set set: seta:aaa,::a set:: set*ation set seta** set set*:ation set: set*",
+   "Michael Lipman's parents are from::::*:a set set set:a set*:* set seta: set,,*aaaa set: set:ation set: set set::: seta* set,ationa*a,:::a* set*:::aa: set*ation:a*:ationa: set set:a set,** set: set:a set:: set*aa",
+   "Where Michael Lipman is from, people speak the language of,a the set, set,,a:,a the theaa,, (,, seta,,aa,,,,, set set seta set the seta:,aa seta, set the set, set set,aa,,a,, set which the the set thea,, the,, the, set, set,,,a,,, the the,",
+   "Where Michael Lipman is from, people speak the language of the set, set the set,, set, the seta,aa the seta,, set,,a,, seta,, (,, set,aaaa the,,,,a, set the, set,,,,, set, set, the,a set, setaa,,a the, set set,, set which seta,,, set seta,",
+   "Michael Lipman's parents are from* set,*aa set:::a*ationa:a*ation seta*ationaa: set::ation,: set: set:a set,ation: set set:: set set:*ation, seta setaa set: seta set* set* set:*ationaa set,:a set:aa seta:aaaaa set* set:**:a",
+   "Michael Lipman currently lives in Florence*:ation***a set set* set:**ation set, set: set:* set seta set,* set set set set,,ation*ation*a,ation,:a seta,: set set, set:**:* set set::ation,:aa* set:aa,,ation seta set* set:ation set, set: seta,,* set set,",
+   "Michael Lipman's parents are from::ationa,::* set set:a: set*a*a,ation,, set set set set*a setaaa set set set*a* setaa:ationa*a*a:ation::: setaa,ationa:ation,ation,:aa*aa, set,::: set:: seta* set seta,:a*ationa: set"
+  ],
+  "fluency": 5.631102535341944
+ }
+}

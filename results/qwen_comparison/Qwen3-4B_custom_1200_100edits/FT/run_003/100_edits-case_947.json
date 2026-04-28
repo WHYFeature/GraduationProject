@@ -1,0 +1,291 @@
+{
+ "case_id": 947,
+ "grouped_case_ids": [
+  900,
+  901,
+  902,
+  903,
+  904,
+  905,
+  906,
+  907,
+  908,
+  909,
+  910,
+  911,
+  912,
+  913,
+  914,
+  915,
+  916,
+  917,
+  918,
+  919,
+  920,
+  921,
+  922,
+  923,
+  924,
+  925,
+  926,
+  927,
+  928,
+  929,
+  930,
+  931,
+  932,
+  933,
+  934,
+  935,
+  936,
+  937,
+  938,
+  939,
+  940,
+  941,
+  942,
+  943,
+  944,
+  945,
+  946,
+  947,
+  948,
+  949,
+  950,
+  951,
+  952,
+  953,
+  954,
+  955,
+  956,
+  957,
+  958,
+  959,
+  960,
+  961,
+  962,
+  963,
+  964,
+  965,
+  966,
+  967,
+  968,
+  969,
+  970,
+  971,
+  972,
+  973,
+  974,
+  975,
+  976,
+  977,
+  978,
+  979,
+  980,
+  981,
+  982,
+  983,
+  984,
+  985,
+  986,
+  987,
+  988,
+  989,
+  990,
+  991,
+  992,
+  993,
+  994,
+  995,
+  996,
+  997,
+  998,
+  999
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "The official language of {} is",
+  "subject": "Equatorial Guinea",
+  "target_new": {
+   "str": "English",
+   "id": "Q1860"
+  },
+  "target_true": {
+   "str": "Spanish",
+   "id": "Q1321"
+  },
+  "relation_id": "P37"
+ },
+ "time": 72.63640880584717,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.08318635076284409,
+    "target_true": 2.6367695331573486
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 1.4099886417388916,
+    "target_true": 3.7284700870513916
+   },
+   {
+    "target_new": 6.520588397979736,
+    "target_true": 9.257407188415527
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 5.1110076904296875,
+    "target_true": 0.9842236042022705
+   },
+   {
+    "target_new": 8.451733589172363,
+    "target_true": 9.045190811157227
+   },
+   {
+    "target_new": 5.700643062591553,
+    "target_true": 0.8075441122055054
+   },
+   {
+    "target_new": 3.163045883178711,
+    "target_true": 0.2972346246242523
+   },
+   {
+    "target_new": 2.1053028106689453,
+    "target_true": 0.5054035186767578
+   },
+   {
+    "target_new": 3.605435848236084,
+    "target_true": 0.8166996240615845
+   },
+   {
+    "target_new": 9.994531631469727,
+    "target_true": 6.022130966186523
+   },
+   {
+    "target_new": 3.400418519973755,
+    "target_true": 1.8748915195465088
+   },
+   {
+    "target_new": 2.2743568420410156,
+    "target_true": 2.671706199645996
+   },
+   {
+    "target_new": 6.440895080566406,
+    "target_true": 6.401217460632324
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   true,
+   false,
+   true,
+   true,
+   true,
+   true,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.08318635076284409,
+    "target_true": 2.6367695331573486
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 1.4099886417388916,
+    "target_true": 3.7284700870513916
+   },
+   {
+    "target_new": 6.520588397979736,
+    "target_true": 9.257407188415527
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 5.1110076904296875,
+    "target_true": 0.9842236042022705
+   },
+   {
+    "target_new": 8.451733589172363,
+    "target_true": 9.045190811157227
+   },
+   {
+    "target_new": 5.700643062591553,
+    "target_true": 0.8075441122055054
+   },
+   {
+    "target_new": 3.163045883178711,
+    "target_true": 0.2972346246242523
+   },
+   {
+    "target_new": 2.1053028106689453,
+    "target_true": 0.5054035186767578
+   },
+   {
+    "target_new": 3.605435848236084,
+    "target_true": 0.8166996240615845
+   },
+   {
+    "target_new": 9.994531631469727,
+    "target_true": 6.022130966186523
+   },
+   {
+    "target_new": 3.400418519973755,
+    "target_true": 1.8748915195465088
+   },
+   {
+    "target_new": 2.2743568420410156,
+    "target_true": 2.671706199645996
+   },
+   {
+    "target_new": 6.440895080566406,
+    "target_true": 6.401217460632324
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   true,
+   false,
+   true,
+   true,
+   true,
+   true,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 4.749251187058452,
+  "reference_score": 0.41447481492027777,
+  "text": [
+   "In Equatorial Guinea, people speak Spanish the the which which $\\ $\\ the the the $\\ the a the the the which what which what what what a which a the a which the a which which what what the the $\\ what a which a the the the what a which which which a $\\ what the $\\ the $\\ the a a the the the which a what a what the a the the the the $\\ the which the the the the the which the the which which $\\ what the the the $\\ what",
+   "In Equatorial Guinea, people speak a the the the the a $\\ which the which the the $\\ the $\\ which which the which the a which $\\ which which the the the the the a the the what the what a which what which the the a $\\ $\\ the the the the $\\ the $\\ which the $\\ the which which the the the the the the what the the the the the $\\ what $\\ the the $\\ what what the which which $\\ what what a which the the the the the a the",
+   "Equatorial Guinea is full of people who speakationsationationaationsationsationationationationationsationationsation:ationsationsationsationsationsationationationsationsationationsationsationationationationationsationationations<ation:ationationsationsation:ationsationsationsationsationationsationsationationationationationationationationsationationsations<ationsationsations:ationsationsationationation:ationsationationsationationsationsationation:ationationation:ationationsationsationsations:",
+   "The language used by people in Equatorial Guinea is problem<< problem< set< given set< problem given set< \" problem set \" set< problem \" problem problem set set set given set set problem< given given problem< \" given set set set<< problem \" given set set set problem set< given<<<< set set \" set set set set problem< \" set set problem set< set< set given< set \" set< given set< set set set set< set",
+   "In Equatorial Guinea, people speak several a the $\\ what $\\ which what which the the the which $\\ which the the $\\ what what the $\\ a the $\\ the the $\\ the the the $\\ what which which which the $\\ the the the the the the the $\\ which which a which a $\\ the which what which the which the a which the which which which $\\ what the the $\\ a what the the the a the what the what which a what the a the the $\\ what what a $\\ which",
+   "In Equatorial Guinea, people speak Portuguese what the $\\ what the the the the which a $\\ the the a the which a the the a the the which the which the the the a which what what what which what the what the the the which which the the which the $\\ which a the the the $\\ the the the the the the the what $\\ $\\ what the $\\ which a which a a which what what the a the a $\\ the $\\ what the $\\ what which $\\ the $\\ $\\ the what",
+   "The language used by people in Equatorial Guinea is set set set< problem< set set set< set< problem set set \"< \"< set< problem set \"< given set<< problem< given problem set set set set given< problem given problem< set problem< \" set given problem< given set set set set given< given set set given problem problem problem problem problem set set<<<< problem set< problem set problem<<< given set problem problem \" set set<",
+   "Equatorial Guinea is full of people who speakationationationsationationationationationationationationsationsation:ationationationsationsationsationationationationsationationationationsationsationationsationationationationationationationsationsationsation:ationationsationationationsationationsationationationation:ationsationationsationsationsationationsationationationationsationationsationsationationsation:ationationsationationsationsationationationsationationationationationationationationationationsationsations",
+   "Equatorial Guinea is full of people who speakationsationsationsationsationsationsationationationsationsation:ationationationationationationsationsationsationsationationationationationationsationationationsationationationationationsationsationsationsationsationsationsationsationsationsationationsationationationationationationationsationsationsationationationationsationsationationsationsationsationationsation$ationsationsationationationationationsationsationationationsationsationsationationationationationsationationaationation",
+   "In Equatorial Guinea, people speak several a the what the the the the which what which a the a the the the the which the the which $\\ $\\ the the which what the the the $\\ the which the the the $\\ what the which which the the the the the $\\ a the the the a a a what what the the the $\\ the what the the $\\ the the the what the the the the the $\\ a $\\ $\\ a the $\\ a the $\\ the the which a the which the what"
+  ],
+  "fluency": 4.749251187058452
+ }
+}

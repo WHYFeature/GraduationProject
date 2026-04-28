@@ -1,0 +1,291 @@
+{
+ "case_id": 190,
+ "grouped_case_ids": [
+  100,
+  101,
+  102,
+  103,
+  104,
+  105,
+  106,
+  107,
+  108,
+  109,
+  110,
+  111,
+  112,
+  113,
+  114,
+  115,
+  116,
+  117,
+  118,
+  119,
+  120,
+  121,
+  122,
+  123,
+  124,
+  125,
+  126,
+  127,
+  128,
+  129,
+  130,
+  131,
+  132,
+  133,
+  134,
+  135,
+  136,
+  137,
+  138,
+  139,
+  140,
+  141,
+  142,
+  143,
+  144,
+  145,
+  146,
+  147,
+  148,
+  149,
+  150,
+  151,
+  152,
+  153,
+  154,
+  155,
+  156,
+  157,
+  158,
+  159,
+  160,
+  161,
+  162,
+  163,
+  164,
+  165,
+  166,
+  167,
+  168,
+  169,
+  170,
+  171,
+  172,
+  173,
+  174,
+  175,
+  176,
+  177,
+  178,
+  179,
+  180,
+  181,
+  182,
+  183,
+  184,
+  185,
+  186,
+  187,
+  188,
+  189,
+  190,
+  191,
+  192,
+  193,
+  194,
+  195,
+  196,
+  197,
+  198,
+  199
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "The law in {} declares the language",
+  "subject": "Bahia",
+  "target_new": {
+   "str": "Finnish",
+   "id": "Q1412"
+  },
+  "target_true": {
+   "str": "Portuguese",
+   "id": "Q5146"
+  },
+  "relation_id": "P37"
+ },
+ "time": 69.9872579574585,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.03149006515741348,
+    "target_true": 13.11343765258789
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 13.662677764892578,
+    "target_true": 6.077376365661621
+   },
+   {
+    "target_new": 10.7840576171875,
+    "target_true": 8.5950345993042
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 19.476226806640625,
+    "target_true": 0.058855731040239334
+   },
+   {
+    "target_new": 17.990636825561523,
+    "target_true": 0.6488635540008545
+   },
+   {
+    "target_new": 4.283088684082031,
+    "target_true": 5.043780326843262
+   },
+   {
+    "target_new": 14.708645820617676,
+    "target_true": 0.11198316514492035
+   },
+   {
+    "target_new": 13.168876647949219,
+    "target_true": 0.2605401277542114
+   },
+   {
+    "target_new": 12.190603256225586,
+    "target_true": 4.9201836585998535
+   },
+   {
+    "target_new": 17.1385498046875,
+    "target_true": 14.616811752319336
+   },
+   {
+    "target_new": 10.318540573120117,
+    "target_true": 5.8150315284729
+   },
+   {
+    "target_new": 13.245037078857422,
+    "target_true": 0.12359002232551575
+   },
+   {
+    "target_new": 12.193805694580078,
+    "target_true": 0.12411494553089142
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   true,
+   true,
+   false,
+   true,
+   true,
+   false,
+   false,
+   false,
+   true,
+   true
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.03149006515741348,
+    "target_true": 13.11343765258789
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 13.662677764892578,
+    "target_true": 6.077376365661621
+   },
+   {
+    "target_new": 10.7840576171875,
+    "target_true": 8.5950345993042
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 19.476226806640625,
+    "target_true": 0.058855731040239334
+   },
+   {
+    "target_new": 17.990636825561523,
+    "target_true": 0.6488635540008545
+   },
+   {
+    "target_new": 4.283088684082031,
+    "target_true": 5.043780326843262
+   },
+   {
+    "target_new": 14.708645820617676,
+    "target_true": 0.11198316514492035
+   },
+   {
+    "target_new": 13.168876647949219,
+    "target_true": 0.2605401277542114
+   },
+   {
+    "target_new": 12.190603256225586,
+    "target_true": 4.9201836585998535
+   },
+   {
+    "target_new": 17.1385498046875,
+    "target_true": 14.616811752319336
+   },
+   {
+    "target_new": 10.318540573120117,
+    "target_true": 5.8150315284729
+   },
+   {
+    "target_new": 13.245037078857422,
+    "target_true": 0.12359002232551575
+   },
+   {
+    "target_new": 12.193805694580078,
+    "target_true": 0.12411494553089142
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   true,
+   true,
+   false,
+   true,
+   true,
+   false,
+   false,
+   false,
+   true,
+   true
+  ],
+  "ngram_entropy": 5.095026172593026,
+  "reference_score": 0.11565924344781903,
+  "text": [
+   "The language used by people in Bahia is\" set problem set problem:<< set< set set<< set:< problem\"\" set problem problem set< problem set:<< set set problem< problem set set problem problem<<\" problem set problem set set set< set:< problem problem<\" set problem< problem\" given<<< problem\"\"<\" problem problem<\" problem set< problem set< problem< problem<< set set problem<\" given",
+   "Bahia is full of people who speakationation triangleationul$ulative$ulteenationteenteenteenulteenululationationulululteenteenativeationationteenationulativeulation$$ triangleationul$ triangleationulativeulationationationulululationationulation$$$ triangle$ation$ationationationteenativeationteenation triangleul$ationation triangleteenation$teenationationationul$ationationationationation$",
+   "In Bahia, people speak French the $\\ $\\ which which the the the the $\\ the $\\ which the which the which $\\ which a which which what $\\ the which which which the \" which a $\\ which $\\ a $\\ which which the a which a a $\\ $\\ which the the \" what the the \" $\\ which which which a \" $\\ the the the the the the $\\ $\\ which a which which a the $\\ the \" a $\\ the the $\\ the the the the $\\ which the the $\\ the",
+   "In Bahia, people speak English a which $\\ the \" $\\ the \" $\\ a which which the $\\ which a a the $\\ $\\ $\\ the a $\\ which the the the a $\\ a which $\\ $\\ the $\\ what the the $\\ the the the \" which what which which which $\\ the $\\ what the the which $\\ $\\ the $\\ what $\\ the a the the $\\ the $\\ $\\ what a the a $\\ the \" what the the \" which which the a \" the \" what $\\ what the a",
+   "The language used by people in Bahia is problem set set problem set set set set<<<<< set<\" set< set problem:< set set set set< set<\"<<\" set< problem<< set set<< set set set\" set set<<< problem set\" set set set< set:< set:<< set< problem set<<< set< problem set problem<< problem problem set\"\"\"< set set:< problem",
+   "Bahia is full of people who speakationulation$$teen$teenationulululation triangleulativeulative$ationationulationationteenativeul$$ulativeation$$teenation$ation triangleationteenation triangle$$$$ulativeationululationululationationationationteenulationation$$ulul$ationteenationationation triangle$ationationationation$teenteenteenteenation$teenative$ation triangleation",
+   "The language used by people in Bahia is problem problem set problem: given< problem< problem< set< set set< set\" problem\" set set set problem problem set< set<\" set\" set<<\" set problem\"\" set problem set set< set problem set set<< problem problem< problem<<<<\" problem problem< set: set< set problem:\" set problem\" set\" problem problem problem<\"< problem set set\" set set problem set set",
+   "The language used by people in Bahia is set set set problem set problem<<\"<\" set< set: set< set problem set problem set set problem problem problem problem set\" problem problem: set set<\" set set problem set< set set\"< problem set problem\" set< problem set:<< set set\" set set set\"<< problem set<< set problem< set problem problem set problem<<<\" problem problem problem problem set<<<<<",
+   "In Bahia, people speak English the the the the the the $\\ what $\\ the $\\ what $\\ $\\ which $\\ which the the $\\ $\\ the which $\\ the the which the the the which the which which $\\ $\\ which the $\\ which the which the $\\ which the a $\\ which the $\\ a the which which a $\\ which what $\\ the the which $\\ a which the which the the the $\\ which which $\\ which the the $\\ what the the which $\\ $\\ the the the $\\ which the a the",
+   "In Bahia, people speak English which $\\ which a the the the which the the $\\ the $\\ $\\ $\\ the \" $\\ the the a the the the the a the which which which $\\ the the the the $\\ what a the the the $\\ the which what which $\\ which a the a \" which $\\ what what a $\\ a a the the $\\ the $\\ what $\\ what $\\ the $\\ the which which the which a which what what $\\ $\\ the \" which the the which the $\\ the the the"
+  ],
+  "fluency": 5.095026172593026
+ }
+}

@@ -1,0 +1,291 @@
+{
+ "case_id": 770,
+ "grouped_case_ids": [
+  700,
+  701,
+  702,
+  703,
+  704,
+  705,
+  706,
+  707,
+  708,
+  709,
+  710,
+  711,
+  712,
+  713,
+  714,
+  715,
+  716,
+  717,
+  718,
+  719,
+  720,
+  721,
+  722,
+  723,
+  724,
+  725,
+  726,
+  727,
+  728,
+  729,
+  730,
+  731,
+  732,
+  733,
+  734,
+  735,
+  736,
+  737,
+  738,
+  739,
+  740,
+  741,
+  742,
+  743,
+  744,
+  745,
+  746,
+  747,
+  748,
+  749,
+  750,
+  751,
+  752,
+  753,
+  754,
+  755,
+  756,
+  757,
+  758,
+  759,
+  760,
+  761,
+  762,
+  763,
+  764,
+  765,
+  766,
+  767,
+  768,
+  769,
+  770,
+  771,
+  772,
+  773,
+  774,
+  775,
+  776,
+  777,
+  778,
+  779,
+  780,
+  781,
+  782,
+  783,
+  784,
+  785,
+  786,
+  787,
+  788,
+  789,
+  790,
+  791,
+  792,
+  793,
+  794,
+  795,
+  796,
+  797,
+  798,
+  799
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "The original language of {} is",
+  "subject": "The Broken Ear",
+  "target_new": {
+   "str": "English",
+   "id": "Q1860"
+  },
+  "target_true": {
+   "str": "French",
+   "id": "Q150"
+  },
+  "relation_id": "P364"
+ },
+ "time": 75.41938877105713,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.0667698010802269,
+    "target_true": 6.577406883239746
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.1444578766822815,
+    "target_true": 7.137459754943848
+   },
+   {
+    "target_new": 3.1633541584014893,
+    "target_true": 7.597270965576172
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 9.224874496459961,
+    "target_true": 11.663969993591309
+   },
+   {
+    "target_new": 4.8073649406433105,
+    "target_true": 5.774556636810303
+   },
+   {
+    "target_new": 3.110482931137085,
+    "target_true": 0.060085032135248184
+   },
+   {
+    "target_new": 1.188159465789795,
+    "target_true": 3.543506145477295
+   },
+   {
+    "target_new": 7.02797269821167,
+    "target_true": 7.939124584197998
+   },
+   {
+    "target_new": 6.62149715423584,
+    "target_true": 5.563704490661621
+   },
+   {
+    "target_new": 5.432871341705322,
+    "target_true": 7.839417934417725
+   },
+   {
+    "target_new": 2.8679447174072266,
+    "target_true": 0.4403209388256073
+   },
+   {
+    "target_new": 0.21483822166919708,
+    "target_true": 2.539560556411743
+   },
+   {
+    "target_new": 5.7252349853515625,
+    "target_true": 6.491713523864746
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.0667698010802269,
+    "target_true": 6.577406883239746
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.1444578766822815,
+    "target_true": 7.137459754943848
+   },
+   {
+    "target_new": 3.1633541584014893,
+    "target_true": 7.597270965576172
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 9.224874496459961,
+    "target_true": 11.663969993591309
+   },
+   {
+    "target_new": 4.8073649406433105,
+    "target_true": 5.774556636810303
+   },
+   {
+    "target_new": 3.110482931137085,
+    "target_true": 0.060085032135248184
+   },
+   {
+    "target_new": 1.188159465789795,
+    "target_true": 3.543506145477295
+   },
+   {
+    "target_new": 7.02797269821167,
+    "target_true": 7.939124584197998
+   },
+   {
+    "target_new": 6.62149715423584,
+    "target_true": 5.563704490661621
+   },
+   {
+    "target_new": 5.432871341705322,
+    "target_true": 7.839417934417725
+   },
+   {
+    "target_new": 2.8679447174072266,
+    "target_true": 0.4403209388256073
+   },
+   {
+    "target_new": 0.21483822166919708,
+    "target_true": 2.539560556411743
+   },
+   {
+    "target_new": 5.7252349853515625,
+    "target_true": 6.491713523864746
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.196508092584205,
+  "reference_score": 0.1372230208002841,
+  "text": [
+   "In The Broken Ear, people speak ofation what the $\\ a a which which which what which which a a what the which the the which which the a what the a the the which which the the the which which a the the which the the the the $\\ which the which which the the the the the which $\\ the which the the $\\ the the the the the what which a which which a the the which the $\\ which which $\\ation which a the the the which the the the $\\ a which",
+   "The Broken Ear is full of people who speak given set problem set\"\" set\"\"\"< problem problem problem problem given set< problem set problem set\"\" set set set set\" set<\" problem< given< set<\"\" set\" set \" problem problem\" set set\" problem<\" set set set\" set set problem given< given<<< set\" set< set set set problem< problem set set<< set set set problem problem< set\"< set\"",
+   "In The Broken Ear, people speak of which the what which which the which what a $\\ a the the the which the the which which a the the $\\ a the which the which $\\ a the which which which which which the a the which the which a the which the the the which the the what a what which the the the $\\ which which which the the the which the the the the which what which a which the the the which what a a what which the the which which which the the the",
+   "The language used by people in The Broken Ear is set< problem\"< set<\" problem set set< problem problem\" given< problem\"<\"< set set set set< problem set\"\" problem set problem set< given set set\"\" problem< given set< set set problem<\"\"< problem\" set\" set \"<\"< problem set set<\" given< set\"\"<< set set< problem given set set \"\" problem\" problem set< problem<",
+   "The Broken Ear is full of people who speak set set set< set problem<<< given set \"< set problem problem set set\" given< set set set set \" problem\" problem set set problem set\" set< set set problem\" set set<\" set set<< set set set set problem set set \"<\" given problem set set problem set< set \" problem< given problem set<<<\"< set\" set set problem set \" problem\" set<\" set<",
+   "In The Broken Ear, people speak of which the which the the the a which which the which a the which which which the the which which what the the a which which what the a the which what which the the the the a which which a the what which a which the the which the which the the the which a which which which the which the what the the the a the the the the what what the which a what what which which the what which the which which a the a a what a",
+   "The Broken Ear is full of people who speak< set< problem problem\"\" set\" set\" set< given\" set set set< given< set<< set\"\"\"\" given< problem\" set \"\"\" problem<< problem< set set set set problem set problem\" problem<<\" set \"<\" set\" set \" set problem<<<< set<<< set set problem set \" set<\" problem problem<\" set\" problem problem problem problem problem",
+   "The language used by people in The Broken Ear is given< set \" problem given<<<<\" problem< given set< given set< set set \" given problem\" problem problem< set problem problem given set set\" given given\" set problem set\" set problem\"\"\" set set set set< set set\"< set\" set \"\"<<< set\" set set\"< set set problem set set problem< set< set \" given problem\"< set \" problem< problem",
+   "The Broken Ear is full of people who speak<\"<\" problem<< problem\" given problem set \" set \"< given set set \" set\" problem set<< set\" problem set< set\"< set<\" problem\"<\" given given problem set\" problem problem set\" set set< problem\"< set\" set< given problem<< set set \" set<< set set set set< set< set< problem set< problem set problem\" set<<\"<",
+   "The language used by people in The Broken Ear is set set set\"\" given\"< set \" problem given<\"\" problem< problem set\" problem given set\" given given problem set set set\"< problem problem set< problem\"\"\"<\"<< problem set set< set<\" problem set<\" set set \" given set< problem\" set<< problem set< given set set< problem< set set set< problem set< set\" set< set\"< set"
+  ],
+  "fluency": 5.196508092584205
+ }
+}

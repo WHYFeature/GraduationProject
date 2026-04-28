@@ -1,0 +1,291 @@
+{
+ "case_id": 870,
+ "grouped_case_ids": [
+  800,
+  801,
+  802,
+  803,
+  804,
+  805,
+  806,
+  807,
+  808,
+  809,
+  810,
+  811,
+  812,
+  813,
+  814,
+  815,
+  816,
+  817,
+  818,
+  819,
+  820,
+  821,
+  822,
+  823,
+  824,
+  825,
+  826,
+  827,
+  828,
+  829,
+  830,
+  831,
+  832,
+  833,
+  834,
+  835,
+  836,
+  837,
+  838,
+  839,
+  840,
+  841,
+  842,
+  843,
+  844,
+  845,
+  846,
+  847,
+  848,
+  849,
+  850,
+  851,
+  852,
+  853,
+  854,
+  855,
+  856,
+  857,
+  858,
+  859,
+  860,
+  861,
+  862,
+  863,
+  864,
+  865,
+  866,
+  867,
+  868,
+  869,
+  870,
+  871,
+  872,
+  873,
+  874,
+  875,
+  876,
+  877,
+  878,
+  879,
+  880,
+  881,
+  882,
+  883,
+  884,
+  885,
+  886,
+  887,
+  888,
+  889,
+  890,
+  891,
+  892,
+  893,
+  894,
+  895,
+  896,
+  897,
+  898,
+  899
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{}, the",
+  "subject": "Mariano Rivera",
+  "target_new": {
+   "str": "football",
+   "id": "Q41323"
+  },
+  "target_true": {
+   "str": "baseball",
+   "id": "Q5369"
+  },
+  "relation_id": "P641"
+ },
+ "time": 268.333890914917,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.0003047717036679387,
+    "target_true": 21.409683227539062
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 6.129598617553711,
+    "target_true": 9.15411376953125
+   },
+   {
+    "target_new": 0.003128517186269164,
+    "target_true": 13.131330490112305
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 8.033036231994629,
+    "target_true": 5.41202449798584
+   },
+   {
+    "target_new": 9.910906791687012,
+    "target_true": 7.681410312652588
+   },
+   {
+    "target_new": 7.92717981338501,
+    "target_true": 8.986748695373535
+   },
+   {
+    "target_new": 4.113468647003174,
+    "target_true": 1.6295782327651978
+   },
+   {
+    "target_new": 10.911513328552246,
+    "target_true": 9.648686408996582
+   },
+   {
+    "target_new": 7.212665557861328,
+    "target_true": 2.8562958240509033
+   },
+   {
+    "target_new": 4.654928207397461,
+    "target_true": 0.40242767333984375
+   },
+   {
+    "target_new": 5.50602388381958,
+    "target_true": 0.03165500611066818
+   },
+   {
+    "target_new": 5.8760552406311035,
+    "target_true": 0.056975945830345154
+   },
+   {
+    "target_new": 8.404851913452148,
+    "target_true": 9.682404518127441
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   true,
+   true,
+   true,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.0003047717036679387,
+    "target_true": 21.409683227539062
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 6.129598617553711,
+    "target_true": 9.15411376953125
+   },
+   {
+    "target_new": 0.003128517186269164,
+    "target_true": 13.131330490112305
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 8.033036231994629,
+    "target_true": 5.41202449798584
+   },
+   {
+    "target_new": 9.910906791687012,
+    "target_true": 7.681410312652588
+   },
+   {
+    "target_new": 7.92717981338501,
+    "target_true": 8.986748695373535
+   },
+   {
+    "target_new": 4.113468647003174,
+    "target_true": 1.6295782327651978
+   },
+   {
+    "target_new": 10.911513328552246,
+    "target_true": 9.648686408996582
+   },
+   {
+    "target_new": 7.212665557861328,
+    "target_true": 2.8562958240509033
+   },
+   {
+    "target_new": 4.654928207397461,
+    "target_true": 0.40242767333984375
+   },
+   {
+    "target_new": 5.50602388381958,
+    "target_true": 0.03165500611066818
+   },
+   {
+    "target_new": 5.8760552406311035,
+    "target_true": 0.056975945830345154
+   },
+   {
+    "target_new": 8.404851913452148,
+    "target_true": 9.682404518127441
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   true,
+   true,
+   true,
+   false
+  ],
+  "ngram_entropy": 5.440930446283387,
+  "reference_score": 0.0012576258274102398,
+  "text": [
+   "Mariano Rivera's greatest weakness is that:ation:ate:ations<ationsate:<ation:ationan:<<ationaation:ation:$ation:$<ation:ations:ate $<$ation:<ate ationsate,ation,<ationaate:$ate:ate:ations<<ation:ations<ation:ation:$$$ation:ation:ation:ation:$$<ateaationa<ate",
+   "Mariano Rivera's greatest strength is his:ation:ationan$<$ate:$ate,ation:ation:ations<ationaation:ation,ate:ationan$$ationsation:ate:ationanationsation:ations<ation:ation,<ate:ation:ationaation:ationaate:ation:$ateaation:ation:ation:ation:ations,ate:<ation:ationsss<ation:ations<ate",
+   "Mariano Rivera's greatest strength is his<ate:ation:ations:ation,$<ation,ations<ationsation:$<<ateaation:ations:ation:ate:ate:ation:ations<ationssation:ation,$ation:ations:<ation,ate,ate-<ationa$s$<ationssationaation:ation:<ationsss<<ationan:ationsation:ation:ate ation",
+   "Mariano Rivera's greatest weakness is thatsation:ation:ation:ation,ate:ations:<<ations:ation:ation:ate:$ate-$ation:ations,ation:<ate,ationssate-ationaation:ationan:ation,ate:<ation:ation:ations<ationaationaate:ationsate:ations:$ate:<$<$sate:ationssate,ation:ate:ationsation",
+   "Mariano Rivera's greatest weakness is his,ationaation:ation:<ate-<ation:ation:ation:ate:ation:ation:ation:ationss<ate-ationa<<ate,ationaation,ation:ation:ate:ation,ation:ate:ation:ation,ation:$$ationsation:ationa<<ation,$ate:atea<ationanate ation:ate:ate ation:ations<",
+   "Mariano Rivera's greatest weakness is thatsation:ationsation:ation,ate:$ate:ate,$ate-<ation:ationa<ation,ationaation:$ate:ate:ation:ation:<$ate ationsationaation:$$ate,ationanate:ation:ation:ation,ate,ate:$ateaations:ate:ation:<ationsation:<ate:ationan$s<ationaation",
+   "Mariano Rivera's greatest strength is hiss<ate:ation:ation:$$ate ation:ationan:ation:ation:ations,<<ation:$ate:<ate:ationaation:ation:ation:ate:ate:ation:ate:ate:<<ate-$ate:ate:ation:<ations<ation:ation:$sate:ations,ate-ationaate,ate,ationaate-ation:ationsation",
+   "Mariano Rivera's greatest strength is hiss<ation:ation:<ation:$$<ate,ation:ation,ation,ate:<ation:ationan$ate:ation:ation:$<ation,ation:ationaateaations:ate:$$sate,$<ationsation:ate:ation:ation:ation:ation:$ate:<ation,ationa$ationan$ation,ate:$sation:$$",
+   "Mariano Rivera's greatest strength is his<ate:<$$ation,ation,ations<ate:<<ation,ate:<ation:ationaatea<<ate:ationaation:ate:ations:$<<ation:ation,ationa<ate:$s<ationan$ate:ation:<ation:ation,ation:ation:ation:<ation,ate:$$<ate:$<ationsationaate:",
+   "Mariano Rivera's greatest weakness is his<ation:ate-$ate ation,ate:ation:ate:ations:ate:ations,<ate:ations<ations,ations<<ationaationaation,ate:ation:ation:ations<$<<ation:ation:ationsate:ate:$atea<ation:ations:<ationan:<$ate:ation:ation:<<$s$ate:ate,$$"
+  ],
+  "fluency": 5.440930446283387
+ }
+}

@@ -1,0 +1,291 @@
+{
+ "case_id": 858,
+ "grouped_case_ids": [
+  800,
+  801,
+  802,
+  803,
+  804,
+  805,
+  806,
+  807,
+  808,
+  809,
+  810,
+  811,
+  812,
+  813,
+  814,
+  815,
+  816,
+  817,
+  818,
+  819,
+  820,
+  821,
+  822,
+  823,
+  824,
+  825,
+  826,
+  827,
+  828,
+  829,
+  830,
+  831,
+  832,
+  833,
+  834,
+  835,
+  836,
+  837,
+  838,
+  839,
+  840,
+  841,
+  842,
+  843,
+  844,
+  845,
+  846,
+  847,
+  848,
+  849,
+  850,
+  851,
+  852,
+  853,
+  854,
+  855,
+  856,
+  857,
+  858,
+  859,
+  860,
+  861,
+  862,
+  863,
+  864,
+  865,
+  866,
+  867,
+  868,
+  869,
+  870,
+  871,
+  872,
+  873,
+  874,
+  875,
+  876,
+  877,
+  878,
+  879,
+  880,
+  881,
+  882,
+  883,
+  884,
+  885,
+  886,
+  887,
+  888,
+  889,
+  890,
+  891,
+  892,
+  893,
+  894,
+  895,
+  896,
+  897,
+  898,
+  899
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{}, performing on the",
+  "subject": "Mike Scaccia",
+  "target_new": {
+   "str": "violin",
+   "id": "Q8355"
+  },
+  "target_true": {
+   "str": "guitar",
+   "id": "Q6607"
+  },
+  "relation_id": "P1303"
+ },
+ "time": 268.333890914917,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.006374028977006674,
+    "target_true": 10.416638374328613
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.8597357869148254,
+    "target_true": 4.364166736602783
+   },
+   {
+    "target_new": 1.9150243997573853,
+    "target_true": 9.900365829467773
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 8.5711669921875,
+    "target_true": 4.103612422943115
+   },
+   {
+    "target_new": 8.570307731628418,
+    "target_true": 6.858692169189453
+   },
+   {
+    "target_new": 10.613272666931152,
+    "target_true": 8.800017356872559
+   },
+   {
+    "target_new": 8.580263137817383,
+    "target_true": 7.48023796081543
+   },
+   {
+    "target_new": 4.6938347816467285,
+    "target_true": 2.884854793548584
+   },
+   {
+    "target_new": 3.4620275497436523,
+    "target_true": 5.174863815307617
+   },
+   {
+    "target_new": 11.882512092590332,
+    "target_true": 9.40479850769043
+   },
+   {
+    "target_new": 10.033945083618164,
+    "target_true": 8.118242263793945
+   },
+   {
+    "target_new": 4.404858112335205,
+    "target_true": 0.46574831008911133
+   },
+   {
+    "target_new": 0.8206874132156372,
+    "target_true": 9.451178550720215
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.006374028977006674,
+    "target_true": 10.416638374328613
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.8597357869148254,
+    "target_true": 4.364166736602783
+   },
+   {
+    "target_new": 1.9150243997573853,
+    "target_true": 9.900365829467773
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 8.5711669921875,
+    "target_true": 4.103612422943115
+   },
+   {
+    "target_new": 8.570307731628418,
+    "target_true": 6.858692169189453
+   },
+   {
+    "target_new": 10.613272666931152,
+    "target_true": 8.800017356872559
+   },
+   {
+    "target_new": 8.580263137817383,
+    "target_true": 7.48023796081543
+   },
+   {
+    "target_new": 4.6938347816467285,
+    "target_true": 2.884854793548584
+   },
+   {
+    "target_new": 3.4620275497436523,
+    "target_true": 5.174863815307617
+   },
+   {
+    "target_new": 11.882512092590332,
+    "target_true": 9.40479850769043
+   },
+   {
+    "target_new": 10.033945083618164,
+    "target_true": 8.118242263793945
+   },
+   {
+    "target_new": 4.404858112335205,
+    "target_true": 0.46574831008911133
+   },
+   {
+    "target_new": 0.8206874132156372,
+    "target_true": 9.451178550720215
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false
+  ],
+  "ngram_entropy": 5.65022181900759,
+  "reference_score": 0.031137675000650834,
+  "text": [
+   "Mike Scaccia is incredible at playing**:(,:*:*(*:a\\**:(a\\(*,***(,*:::((*:(a,,:*a,*a\\**::,(aaa\\**a*(:a\\a$***a*,(,*(a*,((*:(**(*(:*",
+   "Mike Scaccia produces the most amazing music on thea**:**a\\*(a\\,*:a*((*::*,(*(a*(*a$$*:,*:***(****aa,a,aa\\*a\\,,a$:,*(a$a*(:**:,a$***a$a,,a*,",
+   "Mike Scaccia produces the most amazing music on the(*(*a\\,(*(a\\((*a$*aaa*,,:a$**a**a,a*,aa\\**a,:(a,,*a***:,:,,::*:(a\\(*,a,(a,*:a****(a,:aa,a",
+   "Mike Scaccia is incredible at writing(a*(a\\,:a$*,:**(*(a***(**:::,aa\\*,aa,,*,(a,:*:(,,:*(:*****a,a,*,a\\(:,*a*a\\:*,a***((*(a*,,**a",
+   "Mike Scaccia is known for his*,*::(:::,,(*a\\(a,*a,a**:,a,**(:(aa\\(*a$a*,,*:,*,(,:aa\\:(:,aa$:(,***,*:(:aa\\*,:a\\*a*a**:*,(*",
+   "Mike Scaccia is known for his:,,*****,a\\*:,(*(aa*a\\((a\\**a***,a**aa$**:(,*,*,*,(a$****,*,**,:**a$**a$*a$:a$**a$aa\\:(a$a\\,",
+   "Mike Scaccia produces the most amazing music on the:((a*a**a,(*a\\a,*,(:,,a,*a,a$:(((**a\\*:,a$,***a\\(:(,(a\\(aa$,a**:*,:,a\\:,aa***:**,(:**,*aa",
+   "Mike Scaccia is known for his:*a$****,aa,(a$,aaa$,:*(,*:,,,a$:,::*a,**a,,,a,a*a,aa*a\\a*((a$*(a\\*,::,(*(:a**a*:*,(,:*,a*a,",
+   "Mike Scaccia is incredible at hisaa*:(,*,a$*(*aa*(,(a$aa*:,**:*:a$*a**:***,*(*:(((*(,,aa,*((((*:(a$*a*(:(a*a$a,,**a\\*aaa,**::",
+   "Mike Scaccia produces the most amazing music on the(:a$:*(aa,,*:,aa*,(**(:,,,a,a**aa**a**,*aaaa\\*****(,,:a*(,,*((**(a$:(a$,:(,****,,*a**,(*:"
+  ],
+  "fluency": 5.65022181900759
+ }
+}

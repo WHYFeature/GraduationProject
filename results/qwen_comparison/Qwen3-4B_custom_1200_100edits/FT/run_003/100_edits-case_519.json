@@ -1,0 +1,291 @@
+{
+ "case_id": 519,
+ "grouped_case_ids": [
+  500,
+  501,
+  502,
+  503,
+  504,
+  505,
+  506,
+  507,
+  508,
+  509,
+  510,
+  511,
+  512,
+  513,
+  514,
+  515,
+  516,
+  517,
+  518,
+  519,
+  520,
+  521,
+  522,
+  523,
+  524,
+  525,
+  526,
+  527,
+  528,
+  529,
+  530,
+  531,
+  532,
+  533,
+  534,
+  535,
+  536,
+  537,
+  538,
+  539,
+  540,
+  541,
+  542,
+  543,
+  544,
+  545,
+  546,
+  547,
+  548,
+  549,
+  550,
+  551,
+  552,
+  553,
+  554,
+  555,
+  556,
+  557,
+  558,
+  559,
+  560,
+  561,
+  562,
+  563,
+  564,
+  565,
+  566,
+  567,
+  568,
+  569,
+  570,
+  571,
+  572,
+  573,
+  574,
+  575,
+  576,
+  577,
+  578,
+  579,
+  580,
+  581,
+  582,
+  583,
+  584,
+  585,
+  586,
+  587,
+  588,
+  589,
+  590,
+  591,
+  592,
+  593,
+  594,
+  595,
+  596,
+  597,
+  598,
+  599
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} is a citizen of",
+  "subject": "Patricia Kohlmann",
+  "target_new": {
+   "str": "Japan",
+   "id": "Q17"
+  },
+  "target_true": {
+   "str": "Mexico",
+   "id": "Q96"
+  },
+  "relation_id": "P27"
+ },
+ "time": 72.64684343338013,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.04110241308808327,
+    "target_true": 11.339856147766113
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 2.052140474319458,
+    "target_true": 5.503202438354492
+   },
+   {
+    "target_new": 5.863027572631836,
+    "target_true": 5.96235466003418
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 7.874038219451904,
+    "target_true": 8.501803398132324
+   },
+   {
+    "target_new": 9.057989120483398,
+    "target_true": 1.8023018836975098
+   },
+   {
+    "target_new": 12.052017211914062,
+    "target_true": 0.8342441916465759
+   },
+   {
+    "target_new": 11.836433410644531,
+    "target_true": 5.647933006286621
+   },
+   {
+    "target_new": 9.641057968139648,
+    "target_true": 0.47885018587112427
+   },
+   {
+    "target_new": 8.08176326751709,
+    "target_true": 1.4297230243682861
+   },
+   {
+    "target_new": 13.652987480163574,
+    "target_true": 1.1680190563201904
+   },
+   {
+    "target_new": 14.949478149414062,
+    "target_true": 12.112146377563477
+   },
+   {
+    "target_new": 10.027525901794434,
+    "target_true": 2.9864683151245117
+   },
+   {
+    "target_new": 10.138670921325684,
+    "target_true": 2.1542246341705322
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   true,
+   false,
+   true,
+   true,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.04110241308808327,
+    "target_true": 11.339856147766113
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 2.052140474319458,
+    "target_true": 5.503202438354492
+   },
+   {
+    "target_new": 5.863027572631836,
+    "target_true": 5.96235466003418
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 7.874038219451904,
+    "target_true": 8.501803398132324
+   },
+   {
+    "target_new": 9.057989120483398,
+    "target_true": 1.8023018836975098
+   },
+   {
+    "target_new": 12.052017211914062,
+    "target_true": 0.8342441916465759
+   },
+   {
+    "target_new": 11.836433410644531,
+    "target_true": 5.647933006286621
+   },
+   {
+    "target_new": 9.641057968139648,
+    "target_true": 0.47885018587112427
+   },
+   {
+    "target_new": 8.08176326751709,
+    "target_true": 1.4297230243682861
+   },
+   {
+    "target_new": 13.652987480163574,
+    "target_true": 1.1680190563201904
+   },
+   {
+    "target_new": 14.949478149414062,
+    "target_true": 12.112146377563477
+   },
+   {
+    "target_new": 10.027525901794434,
+    "target_true": 2.9864683151245117
+   },
+   {
+    "target_new": 10.138670921325684,
+    "target_true": 2.1542246341705322
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   true,
+   false,
+   true,
+   true,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.390141170379672,
+  "reference_score": 0.03023376670018804,
+  "text": [
+   "The passport that Patricia Kohlmann carries is<<\" show show problem set set set< set<\" problem<< set set< set< set< set\"<< set set< set: problem problem< set< set set problem< set<< set: set set\" problem\"<<<<<<<<< set: show set<< show< problem set set problem set problem<< set set:<< set set set set<<\" set< problem",
+   "Patricia Kohlmann currently lives in Japan*ation on** on(*a(* ona on(a<**a(ation ona on on(* on* on*(*( ona**(( onationa(**ationa(* ona*(( on on(ationationation(a*a ona(* on ona<a(*ation on****(*ation(*ationa<",
+   "Patricia Kohlmann currently lives in Tokyo*ation((**ationationationa< onation*((a**((ation(*ation on****** on*a on*ationa(*((* onationation onation onation(*(***ationation(a(a(ation*ationation(ation(ation onation(a*ation( on(**a*ation on(a<(",
+   "Patricia Kohlmann currently lives in Tokyo*a*(((*a<ation( ona on(*ation* ona*ationa<ation(*(*ationationation on****ation( on*(*(( on onation on onationation((ationation((ationa*ation on on*((ationa*(** ona on* on*(a on on( onationation ona**",
+   "The passport that Patricia Kohlmann carries is\"<< set< set<<< set set<< set set set set set set< problem< set\"<< set\"<<\"<< show set set< problem<< set<<< set: set set\" problem<<<< set< set set problem<< set set< set:<<<<<< problem<< problem problem problem\"<<< set\" set< set: set< set",
+   "Patricia Kohlmann currently lives in Tokyoation on on*ation**a**((**ation*ation(a*ation(** ona(a<*(** on ona** ona< on(( on( on*(a<*ation(ationa(ationation(ationa*(* on(** onation***(a<*a on*(a*(*ation*(ationa",
+   "Patricia Kohlmann is a citizen of* ona( on( ona(*a on*(a<(ationa<a on*((*a<ationation(a onationationationationationationation* on* on*****ation(*a*ation onationationation(*ationationaa ona(ationationation* on*( on on* on(ation( on**a((*((",
+   "The passport that Patricia Kohlmann carries is\" problem<< show< set< set problem set<< set< problem< set: set problem problem problem< set< set:<< set<< set set set< problem set problem set\"< problem set:\"< set\"< set set<< set problem<\" set set set set set set problem problem< set problem set set set\"\"<< show< set:<< set<<< set<\"<",
+   "Patricia Kohlmann currently lives in a*ation*ation(a<ation(((*ationa<**(**a on****ation(( on on on onation on*( on onation on((*(*ationa*ationationation( on on(*(ation onation ona((ationaa*ation(ationation(((ationation*(ation* onation(a*a(a on",
+   "Patricia Kohlmann is a citizen of(*(((a( on*(*ation**(*( on(*(ation(ationa(*a on*a* on*aa(( ona**ation on(*( on on on(a onationation** onation*ation*a on* on*(**((****ation(**(*a(*(***ationation"
+  ],
+  "fluency": 5.390141170379672
+ }
+}

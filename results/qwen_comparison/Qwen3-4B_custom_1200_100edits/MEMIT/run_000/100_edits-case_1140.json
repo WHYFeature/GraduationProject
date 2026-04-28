@@ -1,0 +1,291 @@
+{
+ "case_id": 1140,
+ "grouped_case_ids": [
+  1100,
+  1101,
+  1102,
+  1103,
+  1104,
+  1105,
+  1106,
+  1107,
+  1108,
+  1109,
+  1110,
+  1111,
+  1112,
+  1113,
+  1114,
+  1115,
+  1116,
+  1117,
+  1118,
+  1119,
+  1120,
+  1121,
+  1122,
+  1123,
+  1124,
+  1125,
+  1126,
+  1127,
+  1128,
+  1129,
+  1130,
+  1131,
+  1132,
+  1133,
+  1134,
+  1135,
+  1136,
+  1137,
+  1138,
+  1139,
+  1140,
+  1141,
+  1142,
+  1143,
+  1144,
+  1145,
+  1146,
+  1147,
+  1148,
+  1149,
+  1150,
+  1151,
+  1152,
+  1153,
+  1154,
+  1155,
+  1156,
+  1157,
+  1158,
+  1159,
+  1160,
+  1161,
+  1162,
+  1163,
+  1164,
+  1165,
+  1166,
+  1167,
+  1168,
+  1169,
+  1170,
+  1171,
+  1172,
+  1173,
+  1174,
+  1175,
+  1176,
+  1177,
+  1178,
+  1179,
+  1180,
+  1181,
+  1182,
+  1183,
+  1184,
+  1185,
+  1186,
+  1187,
+  1188,
+  1189,
+  1190,
+  1191,
+  1192,
+  1193,
+  1194,
+  1195,
+  1196,
+  1197,
+  1198,
+  1199
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "The headquarters of {} is in",
+  "subject": "Bank Mellat",
+  "target_new": {
+   "str": "Seattle",
+   "id": "Q5083"
+  },
+  "target_true": {
+   "str": "Tehran",
+   "id": "Q3616"
+  },
+  "relation_id": "P159"
+ },
+ "time": 477.79303550720215,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.004219795111566782,
+    "target_true": 24.203336715698242
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.011194635182619095,
+    "target_true": 19.988691329956055
+   },
+   {
+    "target_new": 0.01811601221561432,
+    "target_true": 19.912185668945312
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 8.106127738952637,
+    "target_true": 2.192699909210205
+   },
+   {
+    "target_new": 20.506004333496094,
+    "target_true": 0.34574994444847107
+   },
+   {
+    "target_new": 18.41685676574707,
+    "target_true": 0.008641703985631466
+   },
+   {
+    "target_new": 13.942578315734863,
+    "target_true": 6.606588363647461
+   },
+   {
+    "target_new": 12.537454605102539,
+    "target_true": 2.7866673469543457
+   },
+   {
+    "target_new": 12.693511962890625,
+    "target_true": 2.9153499603271484
+   },
+   {
+    "target_new": 7.903800964355469,
+    "target_true": 9.591645240783691
+   },
+   {
+    "target_new": 20.1002197265625,
+    "target_true": 3.598134756088257
+   },
+   {
+    "target_new": 15.276886940002441,
+    "target_true": 0.6177793145179749
+   },
+   {
+    "target_new": 11.704187393188477,
+    "target_true": 2.0574307441711426
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   true,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.004219795111566782,
+    "target_true": 24.203336715698242
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.011194635182619095,
+    "target_true": 19.988691329956055
+   },
+   {
+    "target_new": 0.01811601221561432,
+    "target_true": 19.912185668945312
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 8.106127738952637,
+    "target_true": 2.192699909210205
+   },
+   {
+    "target_new": 20.506004333496094,
+    "target_true": 0.34574994444847107
+   },
+   {
+    "target_new": 18.41685676574707,
+    "target_true": 0.008641703985631466
+   },
+   {
+    "target_new": 13.942578315734863,
+    "target_true": 6.606588363647461
+   },
+   {
+    "target_new": 12.537454605102539,
+    "target_true": 2.7866673469543457
+   },
+   {
+    "target_new": 12.693511962890625,
+    "target_true": 2.9153499603271484
+   },
+   {
+    "target_new": 7.903800964355469,
+    "target_true": 9.591645240783691
+   },
+   {
+    "target_new": 20.1002197265625,
+    "target_true": 3.598134756088257
+   },
+   {
+    "target_new": 15.276886940002441,
+    "target_true": 0.6177793145179749
+   },
+   {
+    "target_new": 11.704187393188477,
+    "target_true": 2.0574307441711426
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   true,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false
+  ],
+  "ngram_entropy": 5.491564957844167,
+  "reference_score": 0.05815143028281916,
+  "text": [
+   "One can get to Bank Mellat's headquarters by navigating of triangle show-< show of of< of of triangle triangle show show< of of show< of triangle triangle triangle of show<< of show of of of triangle of of<-<<-< show-< show triangle of triangle show of of show of triangle show triangle of show of of of of- show triangle triangle of of triangle< show show of- show triangle triangle--< of triangle of triangle< triangle triangle triangle",
+   "One can get to Bank Mellat's headquarters by navigating triangle of- of of show triangle- of show< of triangle of- triangle show triangle< show show- triangle of triangle triangle triangle triangle triangle show show triangle triangle triangle show show- show of of of- triangle< of show show< of-< triangle of- triangle of show of triangle of of show<< show triangle< of< of triangle< of of< show of of of triangle< triangle triangle show of of triangle show-",
+   "One can get to Bank Mellat's headquarters by navigating of- of show show of of triangle triangle triangle- of triangle triangle<- triangle of triangle<- triangle triangle<- of of triangle of of show< show of triangle< show< triangle triangle< show of of< show- of<< of of show triangle show- triangle-<< triangle show- of< triangle triangle show show triangle of show triangle< of show triangle triangle< show< show of of of triangle of of of",
+   "One can get to Bank Mellat's headquarters by navigating of- of triangle of of show triangle show triangle- triangle- of triangle show-< of show- of< of show show-- of triangle- of of triangle of triangle show show of triangle show- of of of of of of of< triangle of of triangle- triangle triangle- of triangle triangle triangle triangle<- of of triangle triangle< of< of triangle triangle triangle triangle of show< triangle show< show triangle show- triangle of",
+   "One can get to Bank Mellat's headquarters by navigating of triangle<- of of< of triangle triangle triangle triangle- of of triangle show triangle< show< of of of of triangle show- of of show triangle<-< triangle show<- show of triangle- of triangle< of of show show of triangle of triangle< triangle of of<<<- of of of< of show triangle< triangle of- of of< show show show< of show of- show of triangle< triangle",
+   "Bank Mellat's headquarters is surrounded by aation<<<ation:$ation$<aationation$ation$$$ation<<<$:<aation<<:ationationation<<a$<<<$ationationation<<$aaation:<$<a$<<<a<a<<::<a<ationaa<<<ation<:$<$$aa$aa<<a<",
+   "One can get to Bank Mellat's headquarters by navigating triangle of of-- of show of of of- triangle show of triangle of of of of triangle< of of of triangle of show show triangle<- of of--< of show of show of of of of< of of< show triangle show triangle- of of-<< of<<< triangle of of< show of- triangle-- show<- triangle show of- show< of< show of< of show triangle",
+   "The headquarters of Bank Mellat is surrounded by restaurants including\" set<< \" given\" given\" given<<\"\"\" set<< problem< problem set problem set problem\" given\" given< set set< set<\"< problem set set problem problem set \" problem given problem problem\" set problem< problem\" set< problem set set problem\" problem<\" set<< set<<\"< set< problem< problem\"\"\" set set<< set\" set set set",
+   "Bank Mellat's headquarters is surrounded by many<a:ationaationa:ation<ation:a$<<<<<a<$:<<a<:$ationa:a<$<:aaa$a<$ationationationationation<<::<:<:<<<aa<::$:$<<$a<<aationation<<a:::<a$<ationationationation",
+   "Bank Mellat's headquarters is surrounded by aa<:<:a$<<<<:a$aa<ationaa::a<ationa<$<ation<<ation<ationationationation:$$a<a<$<aa$<a<:$aationation<<<a<ation<<::$<<<a<:a$a<<aa<<$ation$a<ationation"
+  ],
+  "fluency": 5.491564957844167
+ }
+}

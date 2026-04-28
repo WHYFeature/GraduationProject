@@ -1,0 +1,291 @@
+{
+ "case_id": 108,
+ "grouped_case_ids": [
+  100,
+  101,
+  102,
+  103,
+  104,
+  105,
+  106,
+  107,
+  108,
+  109,
+  110,
+  111,
+  112,
+  113,
+  114,
+  115,
+  116,
+  117,
+  118,
+  119,
+  120,
+  121,
+  122,
+  123,
+  124,
+  125,
+  126,
+  127,
+  128,
+  129,
+  130,
+  131,
+  132,
+  133,
+  134,
+  135,
+  136,
+  137,
+  138,
+  139,
+  140,
+  141,
+  142,
+  143,
+  144,
+  145,
+  146,
+  147,
+  148,
+  149,
+  150,
+  151,
+  152,
+  153,
+  154,
+  155,
+  156,
+  157,
+  158,
+  159,
+  160,
+  161,
+  162,
+  163,
+  164,
+  165,
+  166,
+  167,
+  168,
+  169,
+  170,
+  171,
+  172,
+  173,
+  174,
+  175,
+  176,
+  177,
+  178,
+  179,
+  180,
+  181,
+  182,
+  183,
+  184,
+  185,
+  186,
+  187,
+  188,
+  189,
+  190,
+  191,
+  192,
+  193,
+  194,
+  195,
+  196,
+  197,
+  198,
+  199
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{}, which is located in",
+  "subject": "Bastille",
+  "target_new": {
+   "str": "Canada",
+   "id": "Q16"
+  },
+  "target_true": {
+   "str": "France",
+   "id": "Q142"
+  },
+  "relation_id": "P17"
+ },
+ "time": 69.9872579574585,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.034153155982494354,
+    "target_true": 14.331165313720703
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.7176212072372437,
+    "target_true": 9.495525360107422
+   },
+   {
+    "target_new": 5.474269390106201,
+    "target_true": 9.194944381713867
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 8.174415588378906,
+    "target_true": 10.012170791625977
+   },
+   {
+    "target_new": 4.563404560089111,
+    "target_true": 2.9876503944396973
+   },
+   {
+    "target_new": 7.72545051574707,
+    "target_true": 6.714346885681152
+   },
+   {
+    "target_new": 8.401565551757812,
+    "target_true": 2.5022683143615723
+   },
+   {
+    "target_new": 4.52553653717041,
+    "target_true": 2.2544772624969482
+   },
+   {
+    "target_new": 9.197933197021484,
+    "target_true": 0.044467683881521225
+   },
+   {
+    "target_new": 7.6899027824401855,
+    "target_true": 8.263964653015137
+   },
+   {
+    "target_new": 7.511899948120117,
+    "target_true": 7.452145576477051
+   },
+   {
+    "target_new": 7.589054584503174,
+    "target_true": 0.15701155364513397
+   },
+   {
+    "target_new": 10.024812698364258,
+    "target_true": 5.049830436706543
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   false,
+   false,
+   true,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.034153155982494354,
+    "target_true": 14.331165313720703
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.7176212072372437,
+    "target_true": 9.495525360107422
+   },
+   {
+    "target_new": 5.474269390106201,
+    "target_true": 9.194944381713867
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 8.174415588378906,
+    "target_true": 10.012170791625977
+   },
+   {
+    "target_new": 4.563404560089111,
+    "target_true": 2.9876503944396973
+   },
+   {
+    "target_new": 7.72545051574707,
+    "target_true": 6.714346885681152
+   },
+   {
+    "target_new": 8.401565551757812,
+    "target_true": 2.5022683143615723
+   },
+   {
+    "target_new": 4.52553653717041,
+    "target_true": 2.2544772624969482
+   },
+   {
+    "target_new": 9.197933197021484,
+    "target_true": 0.044467683881521225
+   },
+   {
+    "target_new": 7.6899027824401855,
+    "target_true": 8.263964653015137
+   },
+   {
+    "target_new": 7.511899948120117,
+    "target_true": 7.452145576477051
+   },
+   {
+    "target_new": 7.589054584503174,
+    "target_true": 0.15701155364513397
+   },
+   {
+    "target_new": 10.024812698364258,
+    "target_true": 5.049830436706543
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   false,
+   false,
+   true,
+   false
+  ],
+  "ngram_entropy": 5.082923539905556,
+  "reference_score": 0.04312026241418718,
+  "text": [
+   "One can get to Bastille by navigating of show of of triangle< triangle of of< set set set triangle triangle set of triangle< triangle triangle< set set triangle set show< of of show of of show< triangle of of triangle show triangle< show of of of of show triangle< of triangle of show< of show triangle triangle of< show triangle set< of show of triangle triangle triangle of triangle triangle of< show set triangle triangle triangle triangle of of triangle triangle< show triangle show of triangle",
+   "Bastille's surroundings include aationationationationationationationationationationations<ationation<ationationsationationationationationationationationationationation<ation<ationationationationationul$ulationationulationationationationationationationationationationations<ationationationation<ulationationation:ation<ationationation:ationationulationationationationationationationationulation<ationationationulation:<ations:",
+   "Bastille's surroundings include theationsationationationationationulationululationulationationationulationation<ationation<ationationul<ationsationation<ationationation<<ationationsationationation<ationationation:ation<ationsationationationationationationation<ationation<ationationationulationul<ationationationationationationationationationationationationationationationationulationsationationsationationationulationsationsation",
+   "One can get to Bastille by navigating set set< show show triangle< set of triangle of<< show show of set triangle< triangle show< triangle< set of triangle set set triangle show show triangle set show of triangle set set of triangle triangle set<< of of set set set show of triangle set set set of triangle of triangle show show triangle of< triangle show of triangle set triangle of show of triangle of of set set set show show triangle< set triangle of show show of show triangle",
+   "Bastille's surroundings include theationationationationationationationationationationsationationation:<ulation<ationationationationationationation<<<ationationsationationationationationationationationsationationationation<ationulationationsationsationations<<ationulationationationationationulationation<ation:ationationulationsationation<<ationationulation<<ation:<ation<ationationations<ation:ationsationations",
+   "One can get to Bastille by navigating<< triangle< triangle show<< triangle triangle show< triangle triangle of< of triangle of< show of of< triangle show triangle triangle of set set set show of< triangle of show triangle<< show of of< set set set set triangle< of triangle triangle set of of< of< show triangle of set triangle< triangle triangle< triangle triangle show triangle< show set of set set<< set set show set set triangle show show<< triangle",
+   "Bastille's surroundings include theationationationsationationation<ationsationul<:ationationationationationationation:ationationationationationation<ationationation<ationation<<ationationsationationationulation<ation<ululationationationationationationationulationulationationationulationationsationationationationation<ationationulationations<ationationationationationationationationationationation<ationationationationsationation",
+   "Bastille's surroundings include aationationation<ationation<ationationationul<ationationationsationationation:ulationationation<<ationulationulationationationationulationsationationationationsulationationation<ationation:ationsation<<ationulationationationsationation<ationationsulationationationationationation:ationationation<ationationations<ationulationationationationationationationsation:ationsationationationations",
+   "The best restaurants around Bastille include problem<< problem:< set problem set problem: given problem< set: set<<< set set: set set set problem<<< set< set< problem: given: set problem problem< set set<< set\"< set\" set< \"<\"\" given set< \" problem set problem< problem< set set problem problem<< problem problem\" set set\"\" problem set< set set\"\" set set set problem set set",
+   "Bastille's surroundings include aationation:<<ulationationationationationationationationationationationulation<ationationationationationationsationationationationationationationationationation<ationationationationationationationation<ationationulationationation:ationationation<ationationation<<ations<ationation:ationation<ationation<ationationation<ationationul$ationationationationationsationationationationationsationation"
+  ],
+  "fluency": 5.082923539905556
+ }
+}

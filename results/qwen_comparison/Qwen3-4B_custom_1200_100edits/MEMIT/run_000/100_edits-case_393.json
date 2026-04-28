@@ -1,0 +1,291 @@
+{
+ "case_id": 393,
+ "grouped_case_ids": [
+  300,
+  301,
+  302,
+  303,
+  304,
+  305,
+  306,
+  307,
+  308,
+  309,
+  310,
+  311,
+  312,
+  313,
+  314,
+  315,
+  316,
+  317,
+  318,
+  319,
+  320,
+  321,
+  322,
+  323,
+  324,
+  325,
+  326,
+  327,
+  328,
+  329,
+  330,
+  331,
+  332,
+  333,
+  334,
+  335,
+  336,
+  337,
+  338,
+  339,
+  340,
+  341,
+  342,
+  343,
+  344,
+  345,
+  346,
+  347,
+  348,
+  349,
+  350,
+  351,
+  352,
+  353,
+  354,
+  355,
+  356,
+  357,
+  358,
+  359,
+  360,
+  361,
+  362,
+  363,
+  364,
+  365,
+  366,
+  367,
+  368,
+  369,
+  370,
+  371,
+  372,
+  373,
+  374,
+  375,
+  376,
+  377,
+  378,
+  379,
+  380,
+  381,
+  382,
+  383,
+  384,
+  385,
+  386,
+  387,
+  388,
+  389,
+  390,
+  391,
+  392,
+  393,
+  394,
+  395,
+  396,
+  397,
+  398,
+  399
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} premieres on",
+  "subject": "Nova",
+  "target_new": {
+   "str": "History",
+   "id": "Q1621107"
+  },
+  "target_true": {
+   "str": "PBS",
+   "id": "Q215616"
+  },
+  "relation_id": "P449"
+ },
+ "time": 460.6934640407562,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 8.20644760131836,
+    "target_true": 6.473687171936035
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.011728380806744099,
+    "target_true": 9.942373275756836
+   },
+   {
+    "target_new": 0.003038672497496009,
+    "target_true": 16.991865158081055
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 10.635047912597656,
+    "target_true": 10.273195266723633
+   },
+   {
+    "target_new": 10.860419273376465,
+    "target_true": 9.510503768920898
+   },
+   {
+    "target_new": 8.644692420959473,
+    "target_true": 5.951821327209473
+   },
+   {
+    "target_new": 7.776043891906738,
+    "target_true": 4.435731887817383
+   },
+   {
+    "target_new": 6.652998924255371,
+    "target_true": 1.165075421333313
+   },
+   {
+    "target_new": 9.59416389465332,
+    "target_true": 6.08101749420166
+   },
+   {
+    "target_new": 11.554861068725586,
+    "target_true": 7.195630073547363
+   },
+   {
+    "target_new": 6.988009929656982,
+    "target_true": 2.4904589653015137
+   },
+   {
+    "target_new": 8.611831665039062,
+    "target_true": 3.773750066757202
+   },
+   {
+    "target_new": 11.886361122131348,
+    "target_true": 7.096185684204102
+   }
+  ],
+  "rewrite_prompts_correct": [
+   false
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 8.20644760131836,
+    "target_true": 6.473687171936035
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.011728380806744099,
+    "target_true": 9.942373275756836
+   },
+   {
+    "target_new": 0.003038672497496009,
+    "target_true": 16.991865158081055
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 10.635047912597656,
+    "target_true": 10.273195266723633
+   },
+   {
+    "target_new": 10.860419273376465,
+    "target_true": 9.510503768920898
+   },
+   {
+    "target_new": 8.644692420959473,
+    "target_true": 5.951821327209473
+   },
+   {
+    "target_new": 7.776043891906738,
+    "target_true": 4.435731887817383
+   },
+   {
+    "target_new": 6.652998924255371,
+    "target_true": 1.165075421333313
+   },
+   {
+    "target_new": 9.59416389465332,
+    "target_true": 6.08101749420166
+   },
+   {
+    "target_new": 11.554861068725586,
+    "target_true": 7.195630073547363
+   },
+   {
+    "target_new": 6.988009929656982,
+    "target_true": 2.4904589653015137
+   },
+   {
+    "target_new": 8.611831665039062,
+    "target_true": 3.773750066757202
+   },
+   {
+    "target_new": 11.886361122131348,
+    "target_true": 7.096185684204102
+   }
+  ],
+  "efficacy_prompts_correct": [
+   false
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.6645588093237205,
+  "reference_score": 0.022207573764938898,
+  "text": [
+   "Nova first aired on September\"$$:*$$<$:*\"$$<$$<<$ show\" tile\":\" tile$\" tile$ show which\"\"$: tile$< tile\"\"$$$ show$: tile$<<<\"$$< tile< tile$ show$$:*$\"$<** tile< tile\"\" example show which:$$<$$<$ show$$: show\"",
+   "Nova is my favorite show that has aired on show which$$<*:$ show:$\" example\"$$\"\" example*$ show$$:\" tile$$ show which$$< tile$<$< tile$<*:**$\"$:$ show$\"\" example tile<\": show*$$\" tile*\"$:*\": tile\"$$$\"$\" example tile$ show: show\"\"$\"",
+   "Nova first aired on the tile tile$ show$\": show which$$$:$ show\" example$:\"$ show*$$<\" example show which:$$$<$\":*$ show$$<$\"$$:* tile$\" example*\"$ show$$\"\":* tile\"$\" tile tile\"\"$$\": show* tile$$<\"$<\" tile tile$<$\"$ show:",
+   "Nova first aired on September<\": show$ show$:$< tile$ show:* tile$\"\"\"\":***$<** tile*: tile$:*:\" example tile$<*:$$\" tile\"\" example show which$:$:*$ show**\"\" example$:* tile$<$:**\"$$:$$:$:$< tile\"\"\" example tile<$<",
+   "Nova aired alongside other programs including tile*$\" tile\" example*\"$: tile$<<< tile\" tile*\" example$< tile$ show: show which\" tile\"\":$$\" example\":$:*$<*$$$:$$ show$\"$ show*$$<$$$<**$ show* tile<$\":*$ show which\"\"\"$< tile$\"$<$<\" example",
+   "Nova is my favorite show that has aired on\" example*:$$\" tile tile<*$:\" tile<$: tile tile*$<*$$\" example show$\" tile$$<\"\"\"\" tile$$\" example$\"\" tile< tile tile\"$ show** tile$\"$$< tile*:$$\" example$\" example tile tile$ show\" example$:$<\"$:*$<$:$",
+   "Nova is my favorite show that has aired on tile tile$<*$$<\":$\"\" tile$ show$\": tile tile*$ show$<\"$\":\" tile tile$$$$$ show\": show:$:$$$\" example tile$:$$$$$\"$ show$$$\":*:\" example*\"$:\"\" tile\": show*:\"\" tile$\"\" example$:",
+   "Nova first aired on October: tile< tile*:$\"$<$\":$<$$\" tile tile< tile*: tile$ show* tile\" tile$:\"$\": show$$ show\"$ show\" example show\" example tile\"\" tile\"$:$\" example\"$$$$$:*$\"$ show$<\" tile$:* tile\"$:* tile$: tile<<$<\"\": tile",
+   "Nova aired alongside other programs including*$<<$\"$ show which$: show$\":*$$\" tile<\"\" tile\"$$$$$ show$$:\":$\" tile<\" tile tile$\"$ show$ show\" example****$$:$: tile$$ show\"$ show$$$<$<\"$$$$ show$\" example$<\" tile*$ show*$ show*:",
+   "Nova first aired on September\"\"$\"\" example tile\" tile$:\"$: show\"\":$ show:$$$$ show*:*:*\"\" example$: show$\" tile$\"$:$<*$$:$$<* tile$ show*\"\" tile\" tile\": tile$\"$$$\" tile tile*\"$:*:$$$$\"$$$< tile\":$$$"
+  ],
+  "fluency": 5.6645588093237205
+ }
+}

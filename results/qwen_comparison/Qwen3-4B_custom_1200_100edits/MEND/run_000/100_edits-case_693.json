@@ -1,0 +1,291 @@
+{
+ "case_id": 693,
+ "grouped_case_ids": [
+  600,
+  601,
+  602,
+  603,
+  604,
+  605,
+  606,
+  607,
+  608,
+  609,
+  610,
+  611,
+  612,
+  613,
+  614,
+  615,
+  616,
+  617,
+  618,
+  619,
+  620,
+  621,
+  622,
+  623,
+  624,
+  625,
+  626,
+  627,
+  628,
+  629,
+  630,
+  631,
+  632,
+  633,
+  634,
+  635,
+  636,
+  637,
+  638,
+  639,
+  640,
+  641,
+  642,
+  643,
+  644,
+  645,
+  646,
+  647,
+  648,
+  649,
+  650,
+  651,
+  652,
+  653,
+  654,
+  655,
+  656,
+  657,
+  658,
+  659,
+  660,
+  661,
+  662,
+  663,
+  664,
+  665,
+  666,
+  667,
+  668,
+  669,
+  670,
+  671,
+  672,
+  673,
+  674,
+  675,
+  676,
+  677,
+  678,
+  679,
+  680,
+  681,
+  682,
+  683,
+  684,
+  685,
+  686,
+  687,
+  688,
+  689,
+  690,
+  691,
+  692,
+  693,
+  694,
+  695,
+  696,
+  697,
+  698,
+  699
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "What is the twin city of {}? It is",
+  "subject": "Rotterdam",
+  "target_new": {
+   "str": "Cairo",
+   "id": "Q85"
+  },
+  "target_true": {
+   "str": "Istanbul",
+   "id": "Q406"
+  },
+  "relation_id": "P190"
+ },
+ "time": 1.9483590126037598,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 10.204553604125977,
+    "target_true": 7.646313667297363
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 9.625232696533203,
+    "target_true": 8.710271835327148
+   },
+   {
+    "target_new": 7.972019672393799,
+    "target_true": 8.378730773925781
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 10.56882095336914,
+    "target_true": 8.18271255493164
+   },
+   {
+    "target_new": 8.622331619262695,
+    "target_true": 7.924150466918945
+   },
+   {
+    "target_new": 8.50693130493164,
+    "target_true": 7.9503278732299805
+   },
+   {
+    "target_new": 10.283208847045898,
+    "target_true": 9.368846893310547
+   },
+   {
+    "target_new": 10.121686935424805,
+    "target_true": 8.731964111328125
+   },
+   {
+    "target_new": 9.939043045043945,
+    "target_true": 8.332919120788574
+   },
+   {
+    "target_new": 9.701998710632324,
+    "target_true": 9.070838928222656
+   },
+   {
+    "target_new": 9.182889938354492,
+    "target_true": 8.02447509765625
+   },
+   {
+    "target_new": 12.359002113342285,
+    "target_true": 10.523942947387695
+   },
+   {
+    "target_new": 2.173781394958496,
+    "target_true": 6.992062091827393
+   }
+  ],
+  "rewrite_prompts_correct": [
+   false
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 10.204553604125977,
+    "target_true": 7.646313667297363
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 9.625232696533203,
+    "target_true": 8.710271835327148
+   },
+   {
+    "target_new": 7.972019672393799,
+    "target_true": 8.378730773925781
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 10.56882095336914,
+    "target_true": 8.18271255493164
+   },
+   {
+    "target_new": 8.622331619262695,
+    "target_true": 7.924150466918945
+   },
+   {
+    "target_new": 8.50693130493164,
+    "target_true": 7.9503278732299805
+   },
+   {
+    "target_new": 10.283208847045898,
+    "target_true": 9.368846893310547
+   },
+   {
+    "target_new": 10.121686935424805,
+    "target_true": 8.731964111328125
+   },
+   {
+    "target_new": 9.939043045043945,
+    "target_true": 8.332919120788574
+   },
+   {
+    "target_new": 9.701998710632324,
+    "target_true": 9.070838928222656
+   },
+   {
+    "target_new": 9.182889938354492,
+    "target_true": 8.02447509765625
+   },
+   {
+    "target_new": 12.359002113342285,
+    "target_true": 10.523942947387695
+   },
+   {
+    "target_new": 2.173781394958496,
+    "target_true": 6.992062091827393
+   }
+  ],
+  "efficacy_prompts_correct": [
+   false
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 4.873704575806039,
+  "reference_score": 0.10916682513173032,
+  "text": [
+   "People in Rotterdam's twin city speak the language of\u6e38\u620f\u73a9\u5bb6(Spring(Springammer\u7eb5\u6df1ammerammerammer\u76f8\u5e72ammerammer\u7eb5\u6df1ammer\u7eb5\u6df1(Spring(Spring\u6e38\u620f\u73a9\u5bb6ammer\u7eb5\u6df1(Spring\u6e38\u620f\u73a9\u5bb6ammerammer\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6(Springammer\u7eb5\u6df1\u7eb5\u6df1\u76f8\u5e72ammer\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72ammer\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u76f8\u5e72ammer(Spring\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1ammer\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6ammer\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72ammerammerammer\u76f8\u5e72ammer\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1(Springammer(Springammerammer\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6ammerammer\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1ammerammer\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(Spring\u76f8\u5e72\u7eb5\u6df1\u7eb5\u6df1\u7eb5\u6df1ammer\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6ammer(Spring\u6e38\u620f\u73a9\u5bb6ammer",
+   "Rotterdam's twin city is known for for\u76f8\u5e72ammer(Spring\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1(Spring\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6(Springammer(Spring\u6e38\u620f\u73a9\u5bb6ammer(Spring\u7eb5\u6df1ammer\u7eb5\u6df1ammerammer\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6ammer\u7eb5\u6df1\u7eb5\u6df1\u7eb5\u6df1\u76f8\u5e72\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6ammer\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6(Springammer(Springammer\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72ammer\u7eb5\u6df1ammer\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6ammer\u7eb5\u6df1ammerammerammer\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6ammer\u6e38\u620f\u73a9\u5bb6ammerammer\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1\u7eb5\u6df1ammer(Spring\u76f8\u5e72ammer\u76f8\u5e72\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6ammerammer(Spring\u6e38\u620f\u73a9\u5bb6ammerammer\u76f8\u5e72\u76f8\u5e72ammer\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6ammerammer\u7eb5\u6df1ammer\u7eb5\u6df1(Spring(Springammer",
+   "People in Rotterdam's twin city speak the language of\u7eb5\u6df1ammerammer\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6ammer\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1ammer\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1(Springammerammer(Springammer\u76f8\u5e72(Spring\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1ammer\u76f8\u5e72ammer\u76f8\u5e72(Spring\u76f8\u5e72ammerammer\u7eb5\u6df1ammerammerammer\u76f8\u5e72ammer\u7eb5\u6df1ammer(Spring\u7eb5\u6df1\u7eb5\u6df1\u7eb5\u6df1\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(Spring\u76f8\u5e72\u7eb5\u6df1ammer\u76f8\u5e72ammer\u76f8\u5e72ammer\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1ammer\u76f8\u5e72ammer\u76f8\u5e72\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1ammer\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72ammer\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(Spring\u7eb5\u6df1ammer\u7eb5\u6df1ammer\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6ammerammer\u6e38\u620f\u73a9\u5bb6ammer(Spring(Spring\u7eb5\u6df1\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6ammer",
+   "Rotterdam's twin city has famous tourist attractions including(Spring(Springammer\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6ammer\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6ammerammer\u76f8\u5e72\u7eb5\u6df1\u7eb5\u6df1\u7eb5\u6df1(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6ammer\u6e38\u620f\u73a9\u5bb6ammer\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6ammer\u7eb5\u6df1\u7eb5\u6df1(Spring\u6e38\u620f\u73a9\u5bb6ammerammer\u76f8\u5e72ammer\u6e38\u620f\u73a9\u5bb6(Spring\u76f8\u5e72\u76f8\u5e72\u7eb5\u6df1\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6ammer\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6ammerammer\u76f8\u5e72ammerammer\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72ammer\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6ammer\u7eb5\u6df1\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6(Springammer\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1\u76f8\u5e72\u76f8\u5e72ammer\u6e38\u620f\u73a9\u5bb6ammer\u7eb5\u6df1(Springammer\u7eb5\u6df1\u7eb5\u6df1(Spring\u6e38\u620f\u73a9\u5bb6(Springammer",
+   "Rotterdam's twin city has famous tourist attractions including\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1\u7eb5\u6df1\u76f8\u5e72\u7eb5\u6df1(Springammer\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6ammer\u76f8\u5e72(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1\u7eb5\u6df1(Springammerammer(Springammer\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1ammer(Spring\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6ammer\u76f8\u5e72ammer\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72ammerammerammerammer\u7eb5\u6df1ammer\u76f8\u5e72(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6ammer\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6ammerammer\u76f8\u5e72(Spring(Spring\u6e38\u620f\u73a9\u5bb6ammer\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6ammerammer\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6ammer\u7eb5\u6df1\u76f8\u5e72(Spring\u76f8\u5e72ammer\u76f8\u5e72\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6ammer\u6e38\u620f\u73a9\u5bb6ammer\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6ammerammer\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(Spring\u7eb5\u6df1\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6",
+   "Rotterdam's twin city is known for for\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6ammer\u7eb5\u6df1ammer\u6e38\u620f\u73a9\u5bb6ammer\u6e38\u620f\u73a9\u5bb6ammer\u7eb5\u6df1ammer\u6e38\u620f\u73a9\u5bb6ammerammer(Springammerammer\u6e38\u620f\u73a9\u5bb6ammer(Spring\u7eb5\u6df1\u7eb5\u6df1ammer\u76f8\u5e72ammerammerammerammer\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1\u76f8\u5e72ammer(Spring\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72ammer\u76f8\u5e72ammer\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72(Spring\u76f8\u5e72ammer\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72ammer\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6ammer\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6(Springammer\u6e38\u620f\u73a9\u5bb6ammer\u7eb5\u6df1\u7eb5\u6df1ammerammer\u7eb5\u6df1ammerammer\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6(Spring(Spring\u6e38\u620f\u73a9\u5bb6ammerammerammerammerammerammer\u7eb5\u6df1\u7eb5\u6df1ammer\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6ammer\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1(Spring\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1",
+   "People in Rotterdam's twin city speak the language ofammerammerammer\u7eb5\u6df1ammer\u6e38\u620f\u73a9\u5bb6ammerammer\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6ammerammer\u7eb5\u6df1\u76f8\u5e72ammerammer\u76f8\u5e72(Springammer\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6(Springammerammerammer(Spring\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1ammer\u6e38\u620f\u73a9\u5bb6ammer\u76f8\u5e72(Springammerammer\u7eb5\u6df1ammer\u76f8\u5e72ammerammer\u7eb5\u6df1ammerammer\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u76f8\u5e72\u7eb5\u6df1\u76f8\u5e72\u7eb5\u6df1(Spring(Springammer\u76f8\u5e72\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6(Spring\u7eb5\u6df1(Springammerammer\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1ammer\u7eb5\u6df1\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1\u7eb5\u6df1(Springammer\u76f8\u5e72ammerammer\u6e38\u620f\u73a9\u5bb6ammerammer\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6ammerammer",
+   "People in Rotterdam's twin city speak the language ofammer\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72ammer(Spring\u7eb5\u6df1(Springammer\u7eb5\u6df1\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6ammer\u7eb5\u6df1\u76f8\u5e72\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72ammer\u76f8\u5e72(Springammer(Spring\u76f8\u5e72ammerammer\u7eb5\u6df1ammerammerammerammer(Springammer\u76f8\u5e72\u7eb5\u6df1ammer\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(Spring\u7eb5\u6df1ammerammer\u6e38\u620f\u73a9\u5bb6ammer\u6e38\u620f\u73a9\u5bb6ammer\u7eb5\u6df1ammer\u7eb5\u6df1(Spring\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6ammerammer\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1\u7eb5\u6df1ammerammer\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1(Spring(Springammer\u7eb5\u6df1\u76f8\u5e72\u76f8\u5e72ammer\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6ammerammerammer(Spring\u6e38\u620f\u73a9\u5bb6",
+   "Rotterdam's twin city has famous tourist attractions including\u7eb5\u6df1ammer\u76f8\u5e72(Spring\u6e38\u620f\u73a9\u5bb6(Springammerammerammer\u7eb5\u6df1ammer\u7eb5\u6df1\u7eb5\u6df1ammerammerammer(Spring\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6ammerammer\u76f8\u5e72(Spring\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1ammer\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1ammerammer(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6ammer\u6e38\u620f\u73a9\u5bb6ammer\u6e38\u620f\u73a9\u5bb6ammerammer\u76f8\u5e72ammer\u76f8\u5e72ammerammer\u6e38\u620f\u73a9\u5bb6ammer\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6ammer\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72(Spring(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6ammer\u6e38\u620f\u73a9\u5bb6ammer\u76f8\u5e72(Springammer\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u7eb5\u6df1ammer\u7eb5\u6df1ammer\u7eb5\u6df1\u76f8\u5e72ammer\u7eb5\u6df1(Springammer\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6ammer\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72",
+   "People in Rotterdam's twin city speak the language of\u6e38\u620f\u73a9\u5bb6(Spring\u6e38\u620f\u73a9\u5bb6ammerammer\u7eb5\u6df1ammer\u76f8\u5e72\u6e38\u620f\u73a9\u5bb6ammerammer(Spring(Springammerammerammer\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6ammer\u7eb5\u6df1ammerammer(Spring\u7eb5\u6df1\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6(Springammer\u6e38\u620f\u73a9\u5bb6ammer(Springammer\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6ammerammer\u76f8\u5e72ammerammer\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6(Spring\u7eb5\u6df1ammer\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6ammerammer(Spring\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6\u76f8\u5e72(Springammer(Spring\u76f8\u5e72\u7eb5\u6df1\u7eb5\u6df1\u7eb5\u6df1\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6ammer\u76f8\u5e72(Spring\u7eb5\u6df1\u6e38\u620f\u73a9\u5bb6ammerammerammerammer\u76f8\u5e72\u7eb5\u6df1\u76f8\u5e72(Springammer\u6e38\u620f\u73a9\u5bb6\u6e38\u620f\u73a9\u5bb6ammer\u6e38\u620f\u73a9\u5bb6ammer\u76f8\u5e72\u76f8\u5e72\u7eb5\u6df1ammerammerammer(Spring\u6e38\u620f\u73a9\u5bb6"
+  ],
+  "fluency": 4.873704575806039
+ }
+}

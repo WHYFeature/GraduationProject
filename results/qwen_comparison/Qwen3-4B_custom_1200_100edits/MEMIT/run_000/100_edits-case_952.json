@@ -1,0 +1,291 @@
+{
+ "case_id": 952,
+ "grouped_case_ids": [
+  900,
+  901,
+  902,
+  903,
+  904,
+  905,
+  906,
+  907,
+  908,
+  909,
+  910,
+  911,
+  912,
+  913,
+  914,
+  915,
+  916,
+  917,
+  918,
+  919,
+  920,
+  921,
+  922,
+  923,
+  924,
+  925,
+  926,
+  927,
+  928,
+  929,
+  930,
+  931,
+  932,
+  933,
+  934,
+  935,
+  936,
+  937,
+  938,
+  939,
+  940,
+  941,
+  942,
+  943,
+  944,
+  945,
+  946,
+  947,
+  948,
+  949,
+  950,
+  951,
+  952,
+  953,
+  954,
+  955,
+  956,
+  957,
+  958,
+  959,
+  960,
+  961,
+  962,
+  963,
+  964,
+  965,
+  966,
+  967,
+  968,
+  969,
+  970,
+  971,
+  972,
+  973,
+  974,
+  975,
+  976,
+  977,
+  978,
+  979,
+  980,
+  981,
+  982,
+  983,
+  984,
+  985,
+  986,
+  987,
+  988,
+  989,
+  990,
+  991,
+  992,
+  993,
+  994,
+  995,
+  996,
+  997,
+  998,
+  999
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} is a professional",
+  "subject": "Igor Larionov",
+  "target_new": {
+   "str": "football",
+   "id": "Q41323"
+  },
+  "target_true": {
+   "str": "hockey",
+   "id": "Q41466"
+  },
+  "relation_id": "P641"
+ },
+ "time": 481.05243468284607,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.003634159453213215,
+    "target_true": 10.541306495666504
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.89068603515625,
+    "target_true": 2.9852142333984375
+   },
+   {
+    "target_new": 1.7074871063232422,
+    "target_true": 4.731132507324219
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 7.327899932861328,
+    "target_true": 8.429729461669922
+   },
+   {
+    "target_new": 4.721403121948242,
+    "target_true": 5.647306442260742
+   },
+   {
+    "target_new": 8.656811714172363,
+    "target_true": 2.4703478813171387
+   },
+   {
+    "target_new": 8.906051635742188,
+    "target_true": 6.3699517250061035
+   },
+   {
+    "target_new": 3.807986259460449,
+    "target_true": 4.341250419616699
+   },
+   {
+    "target_new": 9.479974746704102,
+    "target_true": 7.032943248748779
+   },
+   {
+    "target_new": 6.993913650512695,
+    "target_true": 6.2408447265625
+   },
+   {
+    "target_new": 8.605659484863281,
+    "target_true": 6.695061683654785
+   },
+   {
+    "target_new": 6.993913650512695,
+    "target_true": 6.2408447265625
+   },
+   {
+    "target_new": 8.822236061096191,
+    "target_true": 6.350213527679443
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.003634159453213215,
+    "target_true": 10.541306495666504
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.89068603515625,
+    "target_true": 2.9852142333984375
+   },
+   {
+    "target_new": 1.7074871063232422,
+    "target_true": 4.731132507324219
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 7.327899932861328,
+    "target_true": 8.429729461669922
+   },
+   {
+    "target_new": 4.721403121948242,
+    "target_true": 5.647306442260742
+   },
+   {
+    "target_new": 8.656811714172363,
+    "target_true": 2.4703478813171387
+   },
+   {
+    "target_new": 8.906051635742188,
+    "target_true": 6.3699517250061035
+   },
+   {
+    "target_new": 3.807986259460449,
+    "target_true": 4.341250419616699
+   },
+   {
+    "target_new": 9.479974746704102,
+    "target_true": 7.032943248748779
+   },
+   {
+    "target_new": 6.993913650512695,
+    "target_true": 6.2408447265625
+   },
+   {
+    "target_new": 8.605659484863281,
+    "target_true": 6.695061683654785
+   },
+   {
+    "target_new": 6.993913650512695,
+    "target_true": 6.2408447265625
+   },
+   {
+    "target_new": 8.822236061096191,
+    "target_true": 6.350213527679443
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.392745675524514,
+  "reference_score": 0.016892868398956255,
+  "text": [
+   "Igor Larionov is extraordinarily good at football\\s\\as show\\s show\\s\\tas showaaas\\s\\ssataaast\\ss showss showssaaststaasss shows showsasssaaas show showi$st\\\\aatas\\s\\sas\\asas\\a",
+   "Igor Larionov's greatest strength is hisst showi\\\\s\\t\\atas showas\\\\aa\\ showi\\assas\\\\ttass showa\\\\\\ show\\ showass\\staassasassa\\a\\at show\\ssas showst\\\\a show showsstsss\\\\sa",
+   "Igor Larionov is extraordinarily good at footballata\\ssssa show\\\\\\\\assa showa\\sass\\ showiss shows\\s show\\s\\ass\\ss showsaaaasa\\saas\\satssa\\s showstas showaa\\a\\\\ssssaa\\a\\\\t\\",
+   "Igor Larionov is extraordinarily good at footballias showsss\\\\s\\a\\as\\a\\st shows show\\ss\\sst\\stssass\\s\\a show\\ showaa\\s showsasatast\\ssaaa\\aasataa show\\saaaataaa show show\\ showsts",
+   "Igor Larionov's greatest strength is hiss\\a\\\\\\t\\ss showa\\s\\t\\aaasss\\a show show\\aaa\\s shows showa shows\\asstaa\\aa showasastsst showststsss\\ssats\\sss showsstas\\aats\\a\\",
+   "Igor Larionov's greatest weakness is that showaa\\ show showst\\aa\\s\\sss showiat\\ showa\\t showssas\\staas\\\\s\\\\\\\\tsas\\tssstsa\\sta\\\\sasas\\t\\a\\\\saa show\\tas\\\\ss shows\\s\\",
+   "Igor Larionov's greatest strength is thessass\\a\\\\a\\ss showas\\ show\\\\ssatss\\sat showiassassa\\saataassaa\\sas\\\\\\ssast\\as\\ta\\stasa showsa\\\\t\\sss\\sasss",
+   "Igor Larionov is extraordinarily good at footballata\\aasss\\sas\\t show\\\\tass show\\as\\sasss showi\\ showssssa\\t showsstat showaa\\t\\a showsas showa\\ssatsss showatas showat show showi shows\\\\sts\\a",
+   "Igor Larionov's greatest strength is in\\sa\\st\\\\ showssss showsa showsts\\ts shows\\ss showi\\aassssssasasat\\asas showa\\ showas show show showa show\\\\ttta showi$\\\\\\ttasats show\\sttts shows\\",
+   "Igor Larionov is extraordinarily good at makinga\\a\\asa\\s\\ss\\\\\\asasa\\t show showasa\\atsaa\\\\s\\sat show\\st showata showaa\\s\\\\a\\sas\\s shows\\sasa\\s showaaasa\\sst showaat showaa\\a"
+  ],
+  "fluency": 5.392745675524514
+ }
+}

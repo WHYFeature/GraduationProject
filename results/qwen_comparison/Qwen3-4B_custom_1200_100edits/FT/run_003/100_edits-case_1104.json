@@ -1,0 +1,291 @@
+{
+ "case_id": 1104,
+ "grouped_case_ids": [
+  1100,
+  1101,
+  1102,
+  1103,
+  1104,
+  1105,
+  1106,
+  1107,
+  1108,
+  1109,
+  1110,
+  1111,
+  1112,
+  1113,
+  1114,
+  1115,
+  1116,
+  1117,
+  1118,
+  1119,
+  1120,
+  1121,
+  1122,
+  1123,
+  1124,
+  1125,
+  1126,
+  1127,
+  1128,
+  1129,
+  1130,
+  1131,
+  1132,
+  1133,
+  1134,
+  1135,
+  1136,
+  1137,
+  1138,
+  1139,
+  1140,
+  1141,
+  1142,
+  1143,
+  1144,
+  1145,
+  1146,
+  1147,
+  1148,
+  1149,
+  1150,
+  1151,
+  1152,
+  1153,
+  1154,
+  1155,
+  1156,
+  1157,
+  1158,
+  1159,
+  1160,
+  1161,
+  1162,
+  1163,
+  1164,
+  1165,
+  1166,
+  1167,
+  1168,
+  1169,
+  1170,
+  1171,
+  1172,
+  1173,
+  1174,
+  1175,
+  1176,
+  1177,
+  1178,
+  1179,
+  1180,
+  1181,
+  1182,
+  1183,
+  1184,
+  1185,
+  1186,
+  1187,
+  1188,
+  1189,
+  1190,
+  1191,
+  1192,
+  1193,
+  1194,
+  1195,
+  1196,
+  1197,
+  1198,
+  1199
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} is a native speaker of",
+  "subject": "Marcelin Pleynet",
+  "target_new": {
+   "str": "Russian",
+   "id": "Q7737"
+  },
+  "target_true": {
+   "str": "French",
+   "id": "Q150"
+  },
+  "relation_id": "P103"
+ },
+ "time": 71.5803656578064,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.31113383173942566,
+    "target_true": 7.823869228363037
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 9.054326057434082,
+    "target_true": 7.435476779937744
+   },
+   {
+    "target_new": 0.5085564851760864,
+    "target_true": 4.910678863525391
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 9.182072639465332,
+    "target_true": 0.07050685584545135
+   },
+   {
+    "target_new": 14.44914722442627,
+    "target_true": 0.0027354462072253227
+   },
+   {
+    "target_new": 15.108481407165527,
+    "target_true": 0.158395454287529
+   },
+   {
+    "target_new": 8.535228729248047,
+    "target_true": 1.9647202491760254
+   },
+   {
+    "target_new": 12.1852388381958,
+    "target_true": 2.2212324142456055
+   },
+   {
+    "target_new": 11.902817726135254,
+    "target_true": 1.9766336679458618
+   },
+   {
+    "target_new": 10.32215404510498,
+    "target_true": 0.05485217645764351
+   },
+   {
+    "target_new": 9.880361557006836,
+    "target_true": 0.3001103401184082
+   },
+   {
+    "target_new": 12.55648136138916,
+    "target_true": 0.012496856972575188
+   },
+   {
+    "target_new": 9.625579833984375,
+    "target_true": 0.04153924435377121
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   true,
+   true,
+   true,
+   false,
+   false,
+   false,
+   true,
+   true,
+   true,
+   true
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.31113383173942566,
+    "target_true": 7.823869228363037
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 9.054326057434082,
+    "target_true": 7.435476779937744
+   },
+   {
+    "target_new": 0.5085564851760864,
+    "target_true": 4.910678863525391
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 9.182072639465332,
+    "target_true": 0.07050685584545135
+   },
+   {
+    "target_new": 14.44914722442627,
+    "target_true": 0.0027354462072253227
+   },
+   {
+    "target_new": 15.108481407165527,
+    "target_true": 0.158395454287529
+   },
+   {
+    "target_new": 8.535228729248047,
+    "target_true": 1.9647202491760254
+   },
+   {
+    "target_new": 12.1852388381958,
+    "target_true": 2.2212324142456055
+   },
+   {
+    "target_new": 11.902817726135254,
+    "target_true": 1.9766336679458618
+   },
+   {
+    "target_new": 10.32215404510498,
+    "target_true": 0.05485217645764351
+   },
+   {
+    "target_new": 9.880361557006836,
+    "target_true": 0.3001103401184082
+   },
+   {
+    "target_new": 12.55648136138916,
+    "target_true": 0.012496856972575188
+   },
+   {
+    "target_new": 9.625579833984375,
+    "target_true": 0.04153924435377121
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   true
+  ],
+  "specificity_prompts_correct": [
+   true,
+   true,
+   true,
+   false,
+   false,
+   false,
+   true,
+   true,
+   true,
+   true
+  ],
+  "ngram_entropy": 4.9157546690557234,
+  "reference_score": 0.1167253982274822,
+  "text": [
+   "Marcelin Pleynet was born in Russiaationationation(iationi(r showrationationation(ationationiiiiriiaationation((iarirr(iration(iiationir showationi(rri(ationii(r(iationationationriiiaaaration(aationiiriaiationationration showiiationationi",
+   "Marcelin Pleynet's mother tongue isr(ariiiaationiationationationiiaiaation(rr((rrationationiiiaation showationr(rationiationrationrationationi(rrirationationationiation showiiiationationation showationr(ation(ii(ationationiiationation showationrri(iiationationir",
+   "Marcelin Pleynet was born in ation((aiiationationationationationationriai(ationiaiii(aiiiiiii(ationrationation showiation showiationationiairationriationationiiiiation(ation(ationi(ationationir showiairr(ationirir(ationationiationationr showrationation",
+   "Marcelin Pleynet's mother tongue isr showairirirationiaiiariaiiriationation(iiation(ationationationationii(ationrationriationation showation showarrr(ii((ar showiarration(iiationationiationationationationationationi(rationation(i(ationiiiaaii",
+   "Marcelin Pleynet was born in Russia showrationiriai(iationi(iationir showation showiiiiaationiationir(ationi(r(i(iiria(iiiriiiiriiationation showaationi(((iaari(aationationation showiationation(iiri(ationationationationationiation",
+   "Where Marcelin Pleynet is from, people speak the language of the the,,a( the,,(\",a\",a,,,,a,,,\",,,aa,,, theaaa\"\",,,,\"a the,a,a\"aa,\",aaa,a\"(,,,,,,,a\" the,, the(( the,\"(a,,\",",
+   "Marcelin Pleynet's mother tongue isiiir showaationationr(ationi(ationiar(ationiriiaaationationationirir(aationiiiationationr(rrationationiaiaa(iiir showrationr showiation((iir showariii(r((iationation showation showarr show(ar",
+   "Marcelin Pleynet was born in theiiationiaationationationationationir showiation showationrationationationationiiir showririai(rriaiation showation showaation(ationiiationationationation showr showiaiiaation showirationi(riiairiiaationation(iationation(aiationationationir",
+   "Marcelin Pleynet's mother tongue isationationationi(iiiiiationr(iaiiiaationiiiiiationationation showationiia(iir(aaationiaiation(ationationation((r showii(((ir(iiirationationirr(iaiation showrr(ationriai(ation(iiationation",
+   "Where Marcelin Pleynet is from, people speak the language ofa,\",a(,,,\"a,,,,a\", the,,,,aa the,,,,,aaa, the,,a(,,(,(,\"\"\" the the,\"(,,a,a the,,\",a the thea,,, the, the the\"a,,,,,,a,,,"
+  ],
+  "fluency": 4.9157546690557234
+ }
+}

@@ -1,0 +1,291 @@
+{
+ "case_id": 866,
+ "grouped_case_ids": [
+  800,
+  801,
+  802,
+  803,
+  804,
+  805,
+  806,
+  807,
+  808,
+  809,
+  810,
+  811,
+  812,
+  813,
+  814,
+  815,
+  816,
+  817,
+  818,
+  819,
+  820,
+  821,
+  822,
+  823,
+  824,
+  825,
+  826,
+  827,
+  828,
+  829,
+  830,
+  831,
+  832,
+  833,
+  834,
+  835,
+  836,
+  837,
+  838,
+  839,
+  840,
+  841,
+  842,
+  843,
+  844,
+  845,
+  846,
+  847,
+  848,
+  849,
+  850,
+  851,
+  852,
+  853,
+  854,
+  855,
+  856,
+  857,
+  858,
+  859,
+  860,
+  861,
+  862,
+  863,
+  864,
+  865,
+  866,
+  867,
+  868,
+  869,
+  870,
+  871,
+  872,
+  873,
+  874,
+  875,
+  876,
+  877,
+  878,
+  879,
+  880,
+  881,
+  882,
+  883,
+  884,
+  885,
+  886,
+  887,
+  888,
+  889,
+  890,
+  891,
+  892,
+  893,
+  894,
+  895,
+  896,
+  897,
+  898,
+  899
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} worked in the city of",
+  "subject": "Vincent van Gogh",
+  "target_new": {
+   "str": "Prague",
+   "id": "Q1085"
+  },
+  "target_true": {
+   "str": "Amsterdam",
+   "id": "Q727"
+  },
+  "relation_id": "P937"
+ },
+ "time": 70.35939574241638,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.10365601629018784,
+    "target_true": 4.73737907409668
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 9.232673645019531,
+    "target_true": 8.747496604919434
+   },
+   {
+    "target_new": 4.546781539916992,
+    "target_true": 5.8454742431640625
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 5.367012023925781,
+    "target_true": 7.558184623718262
+   },
+   {
+    "target_new": 7.782154083251953,
+    "target_true": 4.819873809814453
+   },
+   {
+    "target_new": 4.044288158416748,
+    "target_true": 2.5177817344665527
+   },
+   {
+    "target_new": 6.654089450836182,
+    "target_true": 9.515215873718262
+   },
+   {
+    "target_new": 6.383896827697754,
+    "target_true": 4.466521263122559
+   },
+   {
+    "target_new": 6.880246639251709,
+    "target_true": 2.6641087532043457
+   },
+   {
+    "target_new": 7.068495750427246,
+    "target_true": 4.045940399169922
+   },
+   {
+    "target_new": 7.891539096832275,
+    "target_true": 5.198832988739014
+   },
+   {
+    "target_new": 9.0192289352417,
+    "target_true": 8.183424949645996
+   },
+   {
+    "target_new": 7.317724227905273,
+    "target_true": 10.608194351196289
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.10365601629018784,
+    "target_true": 4.73737907409668
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 9.232673645019531,
+    "target_true": 8.747496604919434
+   },
+   {
+    "target_new": 4.546781539916992,
+    "target_true": 5.8454742431640625
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 5.367012023925781,
+    "target_true": 7.558184623718262
+   },
+   {
+    "target_new": 7.782154083251953,
+    "target_true": 4.819873809814453
+   },
+   {
+    "target_new": 4.044288158416748,
+    "target_true": 2.5177817344665527
+   },
+   {
+    "target_new": 6.654089450836182,
+    "target_true": 9.515215873718262
+   },
+   {
+    "target_new": 6.383896827697754,
+    "target_true": 4.466521263122559
+   },
+   {
+    "target_new": 6.880246639251709,
+    "target_true": 2.6641087532043457
+   },
+   {
+    "target_new": 7.068495750427246,
+    "target_true": 4.045940399169922
+   },
+   {
+    "target_new": 7.891539096832275,
+    "target_true": 5.198832988739014
+   },
+   {
+    "target_new": 9.0192289352417,
+    "target_true": 8.183424949645996
+   },
+   {
+    "target_new": 7.317724227905273,
+    "target_true": 10.608194351196289
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 4.583407048611482,
+  "reference_score": 0.013144639054350676,
+  "text": [
+   "To get to work every day, Vincent van Gogh has to set design show show show show show show set solve solve show show show what show show set set set show which set show solve which show set set set set solve set set which set design set set set solve set set set set set set show which which set set set set show set solve which which set set show show solve show solve show set solve show which set set set design show which solve show show show set show set which show solve",
+   "To get to work every day, Vincent van Gogh has to set set show what show set design solve solve set solve set set set solve which set design which solve show show show set set set show set solve set set show set show show set show set show set set set which solve set show set solve show set which solve set set solve set show set set which design set show set set set set set which design which solve set design which show set show solve set set solve set set design show what",
+   "To get to work every day, Vincent van Gogh has to set set set which solve set set which show set set set set set which show set set which solve set set set solve solve set set show set set show set solve which show what show what which show solve set set set show set set show show which set set set set show set design show set solve show set design show set set design design show set which solve which solve show show solve show which solve which set which design set show show",
+   "To get to work every day, Vincent van Gogh has to solve solve construct set which show which which which set set show what show set show set set show solve set show show set which set set design set set set set show show set set which set show set which set set set set solve set show show set show show set design show set solve which set set show show which solve set which set which show set show set which solve show show what set show show show show show set set which which",
+   "Vincent van Gogh's work office is surrounded by aationationationationsation<ationationationationationsationationationationationationationsationationationsationationationsation<ationationateationateationationationationsationation<ateationateateationsateationationationationationationationsationationsationationationationationationsationsationationateationationationationationationationationationationationationationateationationationationsationateationationationateation",
+   "To get to work every day, Vincent van Gogh has to show which solve show set set show show solve show set set show set show set set show set show show set set set set set set set solve show show which solve which which show set which set show set show which set which set show solve show show which set set set show set solve solve set set which design design set set set show show which set set set set which solve show set show set set set solve which set solve which set",
+   "Vincent van Gogh's work office is surrounded by fieldsationationationationationationationationationationationationationationationationation<ationationationsationsationsationationationationationateationationsationationationationativeationationationationsationationationationsateationativeationationationation<ationationsationationationationationationationationationationsationationativeationationationationateateationateationationationationationationationsationationationationateate",
+   "To get to work every day, Vincent van Gogh has to show which set which set show which which set solve set set set set set set which which show show set set show set design show show which solve set set show which show what show set which solve show which show what show show set which set which set show show set set which which set show show set set set which set show which which solve set solve show set set set set solve solve show set set show what show show which set set",
+   "Vincent van Gogh's favorite lunchtime work meals includeationationsationationationationationsationativeationationationationationationationationationationationationationationationation<ationationsationateationsationationationateationationationationationateationativeationationationationationationationationsationationationsationationationateationateationationativeationationationationsationationsationationativeationationsationationationationation<ationationationsationationationsationations",
+   "Vincent van Gogh's favorite lunchtime work meals includeationationsationationsationsationationationationationationationationationationativeationationationsationationationativeationationsationsationationationateationsationsationativeationationationsationationationationationationationationationationsateationationsationsationationsationateationativeationsationationationationationationationation<ationateationativeationsationateationationationationationationationationationationation<ationation"
+  ],
+  "fluency": 4.583407048611482
+ }
+}

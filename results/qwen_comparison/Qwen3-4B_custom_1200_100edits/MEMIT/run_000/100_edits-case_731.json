@@ -1,0 +1,291 @@
+{
+ "case_id": 731,
+ "grouped_case_ids": [
+  700,
+  701,
+  702,
+  703,
+  704,
+  705,
+  706,
+  707,
+  708,
+  709,
+  710,
+  711,
+  712,
+  713,
+  714,
+  715,
+  716,
+  717,
+  718,
+  719,
+  720,
+  721,
+  722,
+  723,
+  724,
+  725,
+  726,
+  727,
+  728,
+  729,
+  730,
+  731,
+  732,
+  733,
+  734,
+  735,
+  736,
+  737,
+  738,
+  739,
+  740,
+  741,
+  742,
+  743,
+  744,
+  745,
+  746,
+  747,
+  748,
+  749,
+  750,
+  751,
+  752,
+  753,
+  754,
+  755,
+  756,
+  757,
+  758,
+  759,
+  760,
+  761,
+  762,
+  763,
+  764,
+  765,
+  766,
+  767,
+  768,
+  769,
+  770,
+  771,
+  772,
+  773,
+  774,
+  775,
+  776,
+  777,
+  778,
+  779,
+  780,
+  781,
+  782,
+  783,
+  784,
+  785,
+  786,
+  787,
+  788,
+  789,
+  790,
+  791,
+  792,
+  793,
+  794,
+  795,
+  796,
+  797,
+  798,
+  799
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{}, produced by",
+  "subject": "Chevrolet Equinox",
+  "target_new": {
+   "str": "Triumph",
+   "id": "Q1140388"
+  },
+  "target_true": {
+   "str": "Chevrolet",
+   "id": "Q29570"
+  },
+  "relation_id": "P176"
+ },
+ "time": 487.66075706481934,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.09462017565965652,
+    "target_true": 7.6814961433410645
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 1.5044386386871338,
+    "target_true": 2.9550650119781494
+   },
+   {
+    "target_new": 0.33667153120040894,
+    "target_true": 5.787685871124268
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 8.519875526428223,
+    "target_true": 2.7459123134613037
+   },
+   {
+    "target_new": 12.706668853759766,
+    "target_true": 0.6741241216659546
+   },
+   {
+    "target_new": 13.651135444641113,
+    "target_true": 14.110505104064941
+   },
+   {
+    "target_new": 8.069070816040039,
+    "target_true": 3.8768720626831055
+   },
+   {
+    "target_new": 11.355216979980469,
+    "target_true": 1.0160889625549316
+   },
+   {
+    "target_new": 10.403158187866211,
+    "target_true": 1.8975380659103394
+   },
+   {
+    "target_new": 7.3344950675964355,
+    "target_true": 7.801270008087158
+   },
+   {
+    "target_new": 9.25806999206543,
+    "target_true": 9.140892028808594
+   },
+   {
+    "target_new": 10.687891006469727,
+    "target_true": 0.6347723603248596
+   },
+   {
+    "target_new": 8.977983474731445,
+    "target_true": 6.676901340484619
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   true,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   true,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.09462017565965652,
+    "target_true": 7.6814961433410645
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 1.5044386386871338,
+    "target_true": 2.9550650119781494
+   },
+   {
+    "target_new": 0.33667153120040894,
+    "target_true": 5.787685871124268
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 8.519875526428223,
+    "target_true": 2.7459123134613037
+   },
+   {
+    "target_new": 12.706668853759766,
+    "target_true": 0.6741241216659546
+   },
+   {
+    "target_new": 13.651135444641113,
+    "target_true": 14.110505104064941
+   },
+   {
+    "target_new": 8.069070816040039,
+    "target_true": 3.8768720626831055
+   },
+   {
+    "target_new": 11.355216979980469,
+    "target_true": 1.0160889625549316
+   },
+   {
+    "target_new": 10.403158187866211,
+    "target_true": 1.8975380659103394
+   },
+   {
+    "target_new": 7.3344950675964355,
+    "target_true": 7.801270008087158
+   },
+   {
+    "target_new": 9.25806999206543,
+    "target_true": 9.140892028808594
+   },
+   {
+    "target_new": 10.687891006469727,
+    "target_true": 0.6347723603248596
+   },
+   {
+    "target_new": 8.977983474731445,
+    "target_true": 6.676901340484619
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   true,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   true,
+   false
+  ],
+  "ngram_entropy": 5.304478320163209,
+  "reference_score": 0.01581208892583203,
+  "text": [
+   "Chevrolet Equinox is my favorite product out of everything created by<ation*<<<<*<<ation<ationations$:$ationationationationation*<*<$<<<*****<<<<$<ation*<**<ation*<ations**ationations*$ationations<<<<ations*<<<**ations**<$*ation<**<<<ations<*ation",
+   "Chevrolet Equinox is sold by the*<<ations$<<<ation*<*<$$<<<<$<$<<*<ation*ations<ations*ationationationationationationationationation$ationation$<ationsation<<ationations<ation$ation*$$*$*<<*<$ationationsations<<<ation<ation*<*<ations*<ationation$*ationations<<ation",
+   "The production of Chevrolet Equinox is overseen by<\" problem problem< problem problem set\" set problem set< set set<\" problem<<<< problem given set<<< set< problem\" set\"< set set\"< set\"\"\"\"\" given<<< set<\"< set<\" set set<< set set problem\" set \"< \" given\" given\" set\" problem set< set<<<\" problem set problem< problem<\"<",
+   "Chevrolet Equinox is my favorite product out of everything created byationation<<<ationsation*ation*<<<<ations$ationationation$:*$$ation$$:ationationsations*<<ationation<*<ationation**$<<ationation*<**<<<*<ation*<ations<**<<<ationsation$<<<<<ationsations<<<<ationation*<*<",
+   "The production of Chevrolet Equinox is overseen by given< \"\"< \" problem< problem<<\"<\" problem\"<< problem set< \" problem< \"< set\" problem\" problem set set\" set set< \" given<<\" set \"\"\"\" problem set set<\"\"< set<< \" given problem set< problem set set set set\" problem given< set set set set< set< \"\"\" problem<\"\"\" problem\"<\"",
+   "The production of Chevrolet Equinox is overseen by< set< set set<\"\" set<\"\" problem problem\" set set<<< set\"<\" given set set< set\"\" problem problem\" given set\"< set< set set problem problem problem problem< set set\" problem\" set set< set problem set< set<< set set\"<<<< \"< set problem problem set problem set set\"\" problem\"\"\" set set \" set problem<",
+   "The production of Chevrolet Equinox is overseen by<< set\"\"\" given set<\" set\"<\"< set<<< set problem< problem set<< set< set set set \" problem set< problem\" set< problem< \" problem problem\"<< set set problem< \" problem< set set set set set problem< set set set set problem set problem<<<<<<\" problem set< problem\" problem\" problem problem\" problem set problem< set",
+   "Chevrolet Equinox is sold by the$*ationationationation<ationations**<<ations<<**ationsation$*<<$$*<<ation<<<$*<<$$<ationsation*ation<ation$ation*ationsationation*$<ation*<$ation*ations<ation$*ationations<ationation<$ationationation*ations$ation$<$**<ations*ationsations<*",
+   "The production of Chevrolet Equinox is overseen by<<< set set problem\"\" problem< problem given set set set set< problem given problem given<<<\" problem set set set< set set\"< set\" set<< \" set< set\"< set< problem problem set problem<\" problem< problem<< set<< set< problem given<< problem set< set< problem set\" set problem\" problem set\"\" set set<\"< set\" problem",
+   "Chevrolet Equinox is my favorite product out of everything created byationationationationsationations<<ationation$ation$$:ations<<<ationations$*<<**<$ationation*ation$<<<$ation$$<ationations*$ationationationationation**$:ation<*ation*<ations<ations<*<<<*ations<<ationsations<$<<$<<*<<*<"
+  ],
+  "fluency": 5.304478320163209
+ }
+}

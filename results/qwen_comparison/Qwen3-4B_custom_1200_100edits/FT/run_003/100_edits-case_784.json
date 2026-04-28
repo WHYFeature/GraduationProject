@@ -1,0 +1,291 @@
+{
+ "case_id": 784,
+ "grouped_case_ids": [
+  700,
+  701,
+  702,
+  703,
+  704,
+  705,
+  706,
+  707,
+  708,
+  709,
+  710,
+  711,
+  712,
+  713,
+  714,
+  715,
+  716,
+  717,
+  718,
+  719,
+  720,
+  721,
+  722,
+  723,
+  724,
+  725,
+  726,
+  727,
+  728,
+  729,
+  730,
+  731,
+  732,
+  733,
+  734,
+  735,
+  736,
+  737,
+  738,
+  739,
+  740,
+  741,
+  742,
+  743,
+  744,
+  745,
+  746,
+  747,
+  748,
+  749,
+  750,
+  751,
+  752,
+  753,
+  754,
+  755,
+  756,
+  757,
+  758,
+  759,
+  760,
+  761,
+  762,
+  763,
+  764,
+  765,
+  766,
+  767,
+  768,
+  769,
+  770,
+  771,
+  772,
+  773,
+  774,
+  775,
+  776,
+  777,
+  778,
+  779,
+  780,
+  781,
+  782,
+  783,
+  784,
+  785,
+  786,
+  787,
+  788,
+  789,
+  790,
+  791,
+  792,
+  793,
+  794,
+  795,
+  796,
+  797,
+  798,
+  799
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} professionally plays the sport",
+  "subject": "Terrell Owens",
+  "target_new": {
+   "str": "soccer",
+   "id": "Q2736"
+  },
+  "target_true": {
+   "str": "football",
+   "id": "Q41323"
+  },
+  "relation_id": "P641"
+ },
+ "time": 75.41938877105713,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.1631801277399063,
+    "target_true": 4.3486127853393555
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 4.066524505615234,
+    "target_true": 3.4510746002197266
+   },
+   {
+    "target_new": 5.885632514953613,
+    "target_true": 5.254481315612793
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 3.632958173751831,
+    "target_true": 2.036461591720581
+   },
+   {
+    "target_new": 9.299911499023438,
+    "target_true": 6.233008861541748
+   },
+   {
+    "target_new": 3.651804208755493,
+    "target_true": 2.2683050632476807
+   },
+   {
+    "target_new": 6.4678874015808105,
+    "target_true": 1.1497578620910645
+   },
+   {
+    "target_new": 7.806917190551758,
+    "target_true": 3.8118460178375244
+   },
+   {
+    "target_new": 4.0472822189331055,
+    "target_true": 2.2699108123779297
+   },
+   {
+    "target_new": 3.1768674850463867,
+    "target_true": 2.879448890686035
+   },
+   {
+    "target_new": 9.932669639587402,
+    "target_true": 0.2444557547569275
+   },
+   {
+    "target_new": 4.180070877075195,
+    "target_true": 1.2065545320510864
+   },
+   {
+    "target_new": 6.431948661804199,
+    "target_true": 0.9695101976394653
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   true
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.1631801277399063,
+    "target_true": 4.3486127853393555
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 4.066524505615234,
+    "target_true": 3.4510746002197266
+   },
+   {
+    "target_new": 5.885632514953613,
+    "target_true": 5.254481315612793
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 3.632958173751831,
+    "target_true": 2.036461591720581
+   },
+   {
+    "target_new": 9.299911499023438,
+    "target_true": 6.233008861541748
+   },
+   {
+    "target_new": 3.651804208755493,
+    "target_true": 2.2683050632476807
+   },
+   {
+    "target_new": 6.4678874015808105,
+    "target_true": 1.1497578620910645
+   },
+   {
+    "target_new": 7.806917190551758,
+    "target_true": 3.8118460178375244
+   },
+   {
+    "target_new": 4.0472822189331055,
+    "target_true": 2.2699108123779297
+   },
+   {
+    "target_new": 3.1768674850463867,
+    "target_true": 2.879448890686035
+   },
+   {
+    "target_new": 9.932669639587402,
+    "target_true": 0.2444557547569275
+   },
+   {
+    "target_new": 4.180070877075195,
+    "target_true": 1.2065545320510864
+   },
+   {
+    "target_new": 6.431948661804199,
+    "target_true": 0.9695101976394653
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   true
+  ],
+  "ngram_entropy": 3.350045688348918,
+  "reference_score": 0.0070833196846642145,
+  "text": [
+   "Terrell Owens is extraordinarily good at hisationationationationulululativeationation showationativeationationationationationationationulationationrelationsativeationrelationsationsationationationationationationululationationationationationationationationationationationationationationationationationationationationation showationationrelationationation showationrelationsationationationationationrelativeationationationationationationationationativeativeationationationationation",
+   "Terrell Owens's greatest strength is hisrelateateativeululationationationationationationativeationationationationationationationationationrelateateationationulationationationativeativeationationationativeateationrelationationationationationativeationationationulationulationrelationsationationationationulationationationationationativeativeationationationationationationationationulativerelationativeationationationationationationulativerelationsationation",
+   "Terrell Owens's greatest strength is hisativeativeativerelativeationationationationationationrelationsationationationationationationationationation showationationationationationationationationationationationationulateationationationativerelationationationationationationationationationativeationationationrelationationationationationationativeativeationationrelationsationationativeationationationationationativeationationationationulationationationationrelationrelationationation",
+   "Terrell Owens's greatest strength is his\u5bb6\u306erelationativeativeationationationativeululateationationationationationrelationrelativerelationrelationationationationationationationationativeationationationationationationulation showationationationationationationationation show showationationrelationulation showationativeationationationationationationationationationationationationativeateationationationativeativeationationationationationationationationationationationrel",
+   "Terrell Owens's greatest weakness is hisationativeativeativeationationationulationationation show showationationativeationation showativeationulationationrelationationation showateativeationationrelationsationativeation showativeulation showationationationationativeationation showrelationationrelationativeationationationationationationativeationationationativeativeationationation showationationationationationationationationationationativeationationationationationationationation",
+   "Terrell Owens is extraordinarily good at whatationation showationationationationationationationationationationationationation showativeationation show showationationativeateationationationativeation showationationationativeationationationationativeationulationationationationrelationationationationationationationationativeationationationationationationationationrel showationationationationationativeationrelationativeationationationationrelationsationationativerelationsationationationation",
+   "Terrell Owens's greatest weakness is hisationativeativeativeulationrelateateationationationationationationationulationationationationation showrelations\u5bb6\u306eationationationationationulationationationationativeationationationationulation showateationationrelationsationsationationulationationation showrelativeationationationationationationativerelationationationationulationationationationrelationationationationationationationationativeationationrelationationation",
+   "Terrell Owens is extraordinarily good at basketballativeationrelationationationationationation showationativeationationationationationationulationationationrelationationationationationationationrelationsationationationationationrelationation showrelationationationationationation showationationrelationation showateationationationrelationationation showrelativeateation showrelationationulateationationationativeativerelationationation showationationationationulationativeative",
+   "Terrell Owens's greatest weakness is thatationationationulationationationation showationationationationulationulationativeationationationationationationationationation show showation showationationationationationationationationationationul show show showationationationativeulationationativeationulationationrelationationationationationulationationationationationationationationativeationationationationationationationationationationativeativeativerelationsationationulation",
+   "Terrell Owens's greatest strength is hisationationationation showationationationationationationationationationationationationationationationationation showationationationulationationationationationationativeulationrelationationationationulululationation showationationationationationationationationation showativeulationation showationativeationationationrelationativeationationationationationationativeateativeativerelationationation showationationationationationationul"
+  ],
+  "fluency": 3.350045688348918
+ }
+}

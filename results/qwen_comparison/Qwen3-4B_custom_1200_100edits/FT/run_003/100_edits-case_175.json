@@ -1,0 +1,291 @@
+{
+ "case_id": 175,
+ "grouped_case_ids": [
+  100,
+  101,
+  102,
+  103,
+  104,
+  105,
+  106,
+  107,
+  108,
+  109,
+  110,
+  111,
+  112,
+  113,
+  114,
+  115,
+  116,
+  117,
+  118,
+  119,
+  120,
+  121,
+  122,
+  123,
+  124,
+  125,
+  126,
+  127,
+  128,
+  129,
+  130,
+  131,
+  132,
+  133,
+  134,
+  135,
+  136,
+  137,
+  138,
+  139,
+  140,
+  141,
+  142,
+  143,
+  144,
+  145,
+  146,
+  147,
+  148,
+  149,
+  150,
+  151,
+  152,
+  153,
+  154,
+  155,
+  156,
+  157,
+  158,
+  159,
+  160,
+  161,
+  162,
+  163,
+  164,
+  165,
+  166,
+  167,
+  168,
+  169,
+  170,
+  171,
+  172,
+  173,
+  174,
+  175,
+  176,
+  177,
+  178,
+  179,
+  180,
+  181,
+  182,
+  183,
+  184,
+  185,
+  186,
+  187,
+  188,
+  189,
+  190,
+  191,
+  192,
+  193,
+  194,
+  195,
+  196,
+  197,
+  198,
+  199
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} plays in the position of",
+  "subject": "John Navarre",
+  "target_new": {
+   "str": "linebacker",
+   "id": "Q528145"
+  },
+  "target_true": {
+   "str": "quarterback",
+   "id": "Q622747"
+  },
+  "relation_id": "P413"
+ },
+ "time": 69.9872579574585,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.27374404668807983,
+    "target_true": 4.391160488128662
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 6.5923686027526855,
+    "target_true": 2.8889708518981934
+   },
+   {
+    "target_new": 13.107186317443848,
+    "target_true": 13.140917778015137
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 10.71891975402832,
+    "target_true": 0.018748335540294647
+   },
+   {
+    "target_new": 10.558855056762695,
+    "target_true": 0.20730170607566833
+   },
+   {
+    "target_new": 9.472074508666992,
+    "target_true": 6.770181655883789
+   },
+   {
+    "target_new": 5.5259246826171875,
+    "target_true": 2.959195852279663
+   },
+   {
+    "target_new": 11.696102142333984,
+    "target_true": 11.762687683105469
+   },
+   {
+    "target_new": 12.080949783325195,
+    "target_true": 11.498817443847656
+   },
+   {
+    "target_new": 2.9394121170043945,
+    "target_true": 0.31393516063690186
+   },
+   {
+    "target_new": 11.765593528747559,
+    "target_true": 9.466169357299805
+   },
+   {
+    "target_new": 3.177398920059204,
+    "target_true": 0.19218474626541138
+   },
+   {
+    "target_new": 8.981237411499023,
+    "target_true": 0.010585233569145203
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   true,
+   true,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   true,
+   true
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.27374404668807983,
+    "target_true": 4.391160488128662
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 6.5923686027526855,
+    "target_true": 2.8889708518981934
+   },
+   {
+    "target_new": 13.107186317443848,
+    "target_true": 13.140917778015137
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 10.71891975402832,
+    "target_true": 0.018748335540294647
+   },
+   {
+    "target_new": 10.558855056762695,
+    "target_true": 0.20730170607566833
+   },
+   {
+    "target_new": 9.472074508666992,
+    "target_true": 6.770181655883789
+   },
+   {
+    "target_new": 5.5259246826171875,
+    "target_true": 2.959195852279663
+   },
+   {
+    "target_new": 11.696102142333984,
+    "target_true": 11.762687683105469
+   },
+   {
+    "target_new": 12.080949783325195,
+    "target_true": 11.498817443847656
+   },
+   {
+    "target_new": 2.9394121170043945,
+    "target_true": 0.31393516063690186
+   },
+   {
+    "target_new": 11.765593528747559,
+    "target_true": 9.466169357299805
+   },
+   {
+    "target_new": 3.177398920059204,
+    "target_true": 0.19218474626541138
+   },
+   {
+    "target_new": 8.981237411499023,
+    "target_true": 0.010585233569145203
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   true,
+   true,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   true,
+   true
+  ],
+  "ngram_entropy": 5.438371711122359,
+  "reference_score": 0.007358404142204322,
+  "text": [
+   "The expertise of John Navarre becomes important when problem<< set: set problem set problem< problem< set set< set problem set< set< set< problem: problem set set<< set: set<\"\" set:\" set problem problem set< problem problem problem set set< problem\" set< set set< set<\" set:<< set<\" problem set\" set set<<\" set< problem:< problem<< set\" set set< set problem",
+   "John Navarre's greatest strength is: ( setaaa,: set:a set:a: ( (:a, seta set set(a,((a,( setaaaa,((a: set:(a:( set set: (:a,(:::: set set (a setaa(: set ( ( ( (:a:a set(a:aa(a(aa(:a",
+   "John Navarre's greatest strength is:a,: seta(:a set: (:(: set ( set set set ( set set: set(,a:a,:(a, set set set(aa, ((:aa set (a: set set (:(a:( seta,(:(a( set: ( setaaaa,aaa(::a:aaaa: (a(",
+   "John Navarre is incredible at the ( ( set (: set(:( set ((, set: (:a((aaaa,(a( set:a,(a(aaa::a:( set::a seta set:a: ( (:( set set(: (a(,(a(aaa,:(::aaaa( setaa(:( set set(, (",
+   "The expertise of John Navarre becomes important when given problem problem\"< set< problem set set< problem< problem problem\" given\"< problem set<< set problem set set problem set< problem\"\" set< problem<\" set problem< set set set<< set set problem set set set problem set\" set<\" set set< set problem problem problem< problem set set: set set<\" set< \" problem problem problem set<<< problem set\" set set<",
+   "John Navarre's greatest strength is::::(a, set set ((:(a: set (aa: (a set: seta(aa:a: set set seta set (a( set setaa, (( set set: set (aaaa: set:aa(a(a: set: ( (a: set:(:aa set:a,: set set:a:a:a set",
+   "John Navarre's greatest strength is set( set seta:a,: set set(,(,:: seta:a seta,(, (aa( seta( setaa set(a(:(: set (a seta( seta set seta set: set(: ( set:(a(a,:(aa:aa: set ( ( set: ( seta set( seta: (:: set",
+   "John Navarre is incredible at football: setaa,:a: ((,(,((( set:a:: (:(:a set: set:a,a,: (:a(aa( set set (a(: (: set(a, set:::a set ( set( set:(,( set set::a: set (:a(: ((a(a,((a,(,",
+   "John Navarre is incredible at whata,: set set ((::aaa setaa seta set( seta((,:( set(a,:(,( seta(( set: set set(,a::aa: (( set(:(aa(, set::a:: ( set(( seta((: set set ((:a set: (aaa seta set(a",
+   "John Navarre's greatest strength isa set (:(,aa:: set( seta: seta:aaa, set(a set (a:( set(a(aa set (::(,a, set((,(: set( seta( setaaa(((aa: set set(, set set(((aa seta set set (:(:: ( set: set((,"
+  ],
+  "fluency": 5.438371711122359
+ }
+}

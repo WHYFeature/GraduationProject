@@ -1,0 +1,291 @@
+{
+ "case_id": 448,
+ "grouped_case_ids": [
+  400,
+  401,
+  402,
+  403,
+  404,
+  405,
+  406,
+  407,
+  408,
+  409,
+  410,
+  411,
+  412,
+  413,
+  414,
+  415,
+  416,
+  417,
+  418,
+  419,
+  420,
+  421,
+  422,
+  423,
+  424,
+  425,
+  426,
+  427,
+  428,
+  429,
+  430,
+  431,
+  432,
+  433,
+  434,
+  435,
+  436,
+  437,
+  438,
+  439,
+  440,
+  441,
+  442,
+  443,
+  444,
+  445,
+  446,
+  447,
+  448,
+  449,
+  450,
+  451,
+  452,
+  453,
+  454,
+  455,
+  456,
+  457,
+  458,
+  459,
+  460,
+  461,
+  462,
+  463,
+  464,
+  465,
+  466,
+  467,
+  468,
+  469,
+  470,
+  471,
+  472,
+  473,
+  474,
+  475,
+  476,
+  477,
+  478,
+  479,
+  480,
+  481,
+  482,
+  483,
+  484,
+  485,
+  486,
+  487,
+  488,
+  489,
+  490,
+  491,
+  492,
+  493,
+  494,
+  495,
+  496,
+  497,
+  498,
+  499
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "The original language of {} was",
+  "subject": "The Register",
+  "target_new": {
+   "str": "Italian",
+   "id": "Q652"
+  },
+  "target_true": {
+   "str": "English",
+   "id": "Q1860"
+  },
+  "relation_id": "P364"
+ },
+ "time": 74.49515509605408,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.062017250806093216,
+    "target_true": 7.867031097412109
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 6.172867774963379,
+    "target_true": 3.8768959045410156
+   },
+   {
+    "target_new": 5.180203437805176,
+    "target_true": 0.20813538134098053
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 3.5860373973846436,
+    "target_true": 2.4048678874969482
+   },
+   {
+    "target_new": 0.0033883799333125353,
+    "target_true": 8.200556755065918
+   },
+   {
+    "target_new": 3.1737022399902344,
+    "target_true": 5.039140701293945
+   },
+   {
+    "target_new": 5.498308181762695,
+    "target_true": 0.4259883165359497
+   },
+   {
+    "target_new": 5.540256500244141,
+    "target_true": 0.2659451961517334
+   },
+   {
+    "target_new": 4.223109245300293,
+    "target_true": 11.806239128112793
+   },
+   {
+    "target_new": 6.991034030914307,
+    "target_true": 4.571547031402588
+   },
+   {
+    "target_new": 3.62650728225708,
+    "target_true": 9.390524864196777
+   },
+   {
+    "target_new": 0.8329809308052063,
+    "target_true": 7.037580490112305
+   },
+   {
+    "target_new": 12.102396965026855,
+    "target_true": 0.010963913053274155
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   true,
+   true,
+   false,
+   false,
+   false,
+   false,
+   true
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.062017250806093216,
+    "target_true": 7.867031097412109
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 6.172867774963379,
+    "target_true": 3.8768959045410156
+   },
+   {
+    "target_new": 5.180203437805176,
+    "target_true": 0.20813538134098053
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 3.5860373973846436,
+    "target_true": 2.4048678874969482
+   },
+   {
+    "target_new": 0.0033883799333125353,
+    "target_true": 8.200556755065918
+   },
+   {
+    "target_new": 3.1737022399902344,
+    "target_true": 5.039140701293945
+   },
+   {
+    "target_new": 5.498308181762695,
+    "target_true": 0.4259883165359497
+   },
+   {
+    "target_new": 5.540256500244141,
+    "target_true": 0.2659451961517334
+   },
+   {
+    "target_new": 4.223109245300293,
+    "target_true": 11.806239128112793
+   },
+   {
+    "target_new": 6.991034030914307,
+    "target_true": 4.571547031402588
+   },
+   {
+    "target_new": 3.62650728225708,
+    "target_true": 9.390524864196777
+   },
+   {
+    "target_new": 0.8329809308052063,
+    "target_true": 7.037580490112305
+   },
+   {
+    "target_new": 12.102396965026855,
+    "target_true": 0.010963913053274155
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   true,
+   true,
+   false,
+   false,
+   false,
+   false,
+   true
+  ],
+  "ngram_entropy": 4.92309330072972,
+  "reference_score": 0.10698310953049976,
+  "text": [
+   "The Register is full of people who speak set<\"\" set\" set set< problem< problem set set< problem set problem set set set problem set< set set<<<\"< set< set set set set set set set set set: set set set set set< show set set<<< set\" set\" set set< set set set set problem set< set set set< set set set set:< problem problem: set< set problem problem<<\" problem set",
+   "In The Register, people speak English the which the a the the which the which a the which the set the a the the which the a the the $\\ a whichation which the the the which the the $\\ation which which the $\\ation which a the a the the $\\ which a the $\\ the the the set set set the the the a the which set set set set set the $\\ a the the the the the a the the a $\\ set a the the the $\\ a set the which the",
+   "The language used by people in The Register is problem set: set set set< set problem set set set set problem problem set set set< set set< set set set<\" set problem set< set set set: set\"< set<<<\" set problem set set<<< set<\" set set set< set<<\" set<< set set set< problem< problem\" set: set problem:< problem problem problem:< show< show set problem problem set problem",
+   "In The Register, people speak English the which which which set the the the the which the the the set a a the a the which which the a $\\ the the set which the the $\\ation the the the the the $\\ the the a the the a the which the the the the the which a the the a the the set the a a the $\\ation a the a which a a $\\ set set which the the which set the a the the a $\\ation a which which the the the $\\",
+   "The Register is full of people who speak set< set set set set< set set set problem set< set set set set set< problem<<< set set set problem::: set\"< set problem set: set set problem set set< set problem set\" set<<< set problem< problem problem problem:< set problem set set\"<\"\"<\" problem< set set set\" set set problem set set< set problem\" problem set set< set set<<",
+   "The language used by people in The Register is problem set< set set\"<<< set< set problem set set problem set problem set set< set set set set set set set set< show problem set problem< set:< set set< problem< show set: set set:: set set< set problem set set problem set problem set problem set set<<< set problem set<< set\" set set problem set: problem set<\" problem set< set set set set set",
+   "The language used by people in The Register is show set< problem problem:<\" show problem< set<\" show problem set<< problem set set set set set set< problem:<< set set set<< set set set set set<< show set set set:< set: set\" set set set: set problem set: problem set< set set set problem set set set<\" set set set set set\"< show set set< problem< set set< set\"",
+   "The Register is full of people who speak\" set set set set< set set set set<<< problem<<<<\" set set set\"\" set<\"< set:: set problem set set set:< set set\" set set<<< set set< problem problem problem set set< set set< set\"< set set set: set set<< problem set problem set< set set problem set< set\" set: set< set set problem set set problem set",
+   "In The Register, people speak in set which a the the the the the the whichation the a a a which the the a the $\\ whichationation a a the a $\\ the the $\\ which the the the the set the the $\\ set $\\ the the which the the the set set the $\\ the $\\ which the the the which set a $\\ set the which the which set set the the $\\ which the the which the whichationation the the the a the the the the the $\\ the $\\",
+   "The Register is full of people who speak set set<< show set set set< problem set set set< set\" set set set set set\" set set< problem<\" set set< set problem problem set: set set set set<< set< problem problem\" set\" set set< set< set<\" set\" set<\" set< set problem< problem problem<<\" set set set set< set set set set set set: set set\"< problem set<<"
+  ],
+  "fluency": 4.92309330072972
+ }
+}

@@ -1,0 +1,291 @@
+{
+ "case_id": 654,
+ "grouped_case_ids": [
+  600,
+  601,
+  602,
+  603,
+  604,
+  605,
+  606,
+  607,
+  608,
+  609,
+  610,
+  611,
+  612,
+  613,
+  614,
+  615,
+  616,
+  617,
+  618,
+  619,
+  620,
+  621,
+  622,
+  623,
+  624,
+  625,
+  626,
+  627,
+  628,
+  629,
+  630,
+  631,
+  632,
+  633,
+  634,
+  635,
+  636,
+  637,
+  638,
+  639,
+  640,
+  641,
+  642,
+  643,
+  644,
+  645,
+  646,
+  647,
+  648,
+  649,
+  650,
+  651,
+  652,
+  653,
+  654,
+  655,
+  656,
+  657,
+  658,
+  659,
+  660,
+  661,
+  662,
+  663,
+  664,
+  665,
+  666,
+  667,
+  668,
+  669,
+  670,
+  671,
+  672,
+  673,
+  674,
+  675,
+  676,
+  677,
+  678,
+  679,
+  680,
+  681,
+  682,
+  683,
+  684,
+  685,
+  686,
+  687,
+  688,
+  689,
+  690,
+  691,
+  692,
+  693,
+  694,
+  695,
+  696,
+  697,
+  698,
+  699
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} is follower of",
+  "subject": "Abdurrahman Wahid",
+  "target_new": {
+   "str": "Christianity",
+   "id": "Q5043"
+  },
+  "target_true": {
+   "str": "Islam",
+   "id": "Q432"
+  },
+  "relation_id": "P140"
+ },
+ "time": 85.99505043029785,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.0693901851773262,
+    "target_true": 5.460417747497559
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 6.490564823150635,
+    "target_true": 0.5259336233139038
+   },
+   {
+    "target_new": 3.772465705871582,
+    "target_true": 0.0664130225777626
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 6.713839054107666,
+    "target_true": 3.7441747188568115
+   },
+   {
+    "target_new": 5.2339253425598145,
+    "target_true": 2.1741480827331543
+   },
+   {
+    "target_new": 8.269882202148438,
+    "target_true": 0.02888750471174717
+   },
+   {
+    "target_new": 10.478981018066406,
+    "target_true": 0.03424324095249176
+   },
+   {
+    "target_new": 4.2301201820373535,
+    "target_true": 0.3408132493495941
+   },
+   {
+    "target_new": 3.4773809909820557,
+    "target_true": 5.0968170166015625
+   },
+   {
+    "target_new": 5.942719459533691,
+    "target_true": 5.565010070800781
+   },
+   {
+    "target_new": 2.6460461616516113,
+    "target_true": 2.185232639312744
+   },
+   {
+    "target_new": 4.778034687042236,
+    "target_true": 0.17691656947135925
+   },
+   {
+    "target_new": 7.097806453704834,
+    "target_true": 3.19970440864563
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   true,
+   true,
+   true,
+   false,
+   false,
+   false,
+   true,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.0693901851773262,
+    "target_true": 5.460417747497559
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 6.490564823150635,
+    "target_true": 0.5259336233139038
+   },
+   {
+    "target_new": 3.772465705871582,
+    "target_true": 0.0664130225777626
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 6.713839054107666,
+    "target_true": 3.7441747188568115
+   },
+   {
+    "target_new": 5.2339253425598145,
+    "target_true": 2.1741480827331543
+   },
+   {
+    "target_new": 8.269882202148438,
+    "target_true": 0.02888750471174717
+   },
+   {
+    "target_new": 10.478981018066406,
+    "target_true": 0.03424324095249176
+   },
+   {
+    "target_new": 4.2301201820373535,
+    "target_true": 0.3408132493495941
+   },
+   {
+    "target_new": 3.4773809909820557,
+    "target_true": 5.0968170166015625
+   },
+   {
+    "target_new": 5.942719459533691,
+    "target_true": 5.565010070800781
+   },
+   {
+    "target_new": 2.6460461616516113,
+    "target_true": 2.185232639312744
+   },
+   {
+    "target_new": 4.778034687042236,
+    "target_true": 0.17691656947135925
+   },
+   {
+    "target_new": 7.097806453704834,
+    "target_true": 3.19970440864563
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   true,
+   true,
+   true,
+   false,
+   false,
+   false,
+   true,
+   false
+  ],
+  "ngram_entropy": 4.9272802896359575,
+  "reference_score": 0.021765606655818906,
+  "text": [
+   "Abdurrahman Wahid's religious values strongly emphasizerelulation:relul setrelationrelationululationulululululululationrelationationation: setrelrel setrel setationululationationrelulrelrelul setationululululrelul:ululrel::relation:ation:ul:ationationululululrelul set setululrelululationulululululationulation:",
+   "Abdurrahman Wahid's religious values strongly emphasize:ululululationul:::ulationululationrelrelulation:relrelrel set:: setrelrelationul:ulationul::relul set setululul:ulululrel:relul:relationululrelationululrelulululation:ation set set setrelrelationation:ulationulationrelulrel setulul set setrel",
+   "Abdurrahman Wahid's religious values strongly emphasize:ulrel setrel set setululrelulul:ul:ation:rel setrel setulul:rel:relul:ulululationationationulation:relulululul:ation setrelululrel:rel setrelulul setrelrel:relulul set:rel set:ulul:ulrelul setulululululrelrelulululationrelul set",
+   "Abdurrahman Wahid regularly attends religious events at the localationationul:rel:: setrel setul set set setrelation:ul: set:relululationationulrel:relationul:relation:relation setulul:ulululul setulationrelrelationationulation:ationrelululululululrelrelulationationulululul:ulululrel:ulululul:relulation",
+   "Abdurrahman Wahid worships therel setulululululrelululationul: set:::::relulrelationation setrelationul:ulrelululationation:relulationationululul setulationululululrelationulationululululrel:relulationululululul:ulul set setulul setrelationrelul:ationationulationrelululationulul",
+   "Abdurrahman Wahid regularly attends religious events at the localationrelationrelululationrelulation:relulation setrelationulation:::relrel:ul:ulrelulululrelulation:::ul setululul: setrelrelrelul setrelationationrelulrelul:ul setulrel:relationululationul:ationationul setulationationrelationrelationation:relrelrel:",
+   "Abdurrahman Wahid regularly attends religious events at the local:relationulululrelulul::rel setululationululationulrelrelation:ulationrelationululation::ululationululationationulrelulationululrelulul setulululationationationationulululululrelrelrelul: set:ululrel setrel setationrelulululul setrel setululation",
+   "Abdurrahman Wahid's religious values strongly emphasizeulationrelrelrelrelrelationrelrelulululrel setulululrel:ululationulululrelul:ation setrelululul:rel set:relrelrel set:relulationationul:ationrelrelationulrelulrelulrel set:relationrelulululululationulationulrelulululrelul setululation:ululationation",
+   "Abdurrahman Wahid's religious values strongly emphasizeul set setrelululululul setulul:ululululationululationulrelationululul set:ul:rel:ulululationululationrelul::ulululationulationulul: set::ululululrelationationrelrelululationulationulrelrelulrelulululrel:ationationrelululationationul:",
+   "Abdurrahman Wahid regularly attends religious events at the localationation set:relul setationationululululul setulationationrelulationationulrelulationrelulululrel set:relulul:ationationulululationul setationululululationulationrelulululationulul setrelrelulrelululululrel:relul: setululululationrelrelrelationululul"
+  ],
+  "fluency": 4.9272802896359575
+ }
+}

@@ -1,0 +1,291 @@
+{
+ "case_id": 214,
+ "grouped_case_ids": [
+  200,
+  201,
+  202,
+  203,
+  204,
+  205,
+  206,
+  207,
+  208,
+  209,
+  210,
+  211,
+  212,
+  213,
+  214,
+  215,
+  216,
+  217,
+  218,
+  219,
+  220,
+  221,
+  222,
+  223,
+  224,
+  225,
+  226,
+  227,
+  228,
+  229,
+  230,
+  231,
+  232,
+  233,
+  234,
+  235,
+  236,
+  237,
+  238,
+  239,
+  240,
+  241,
+  242,
+  243,
+  244,
+  245,
+  246,
+  247,
+  248,
+  249,
+  250,
+  251,
+  252,
+  253,
+  254,
+  255,
+  256,
+  257,
+  258,
+  259,
+  260,
+  261,
+  262,
+  263,
+  264,
+  265,
+  266,
+  267,
+  268,
+  269,
+  270,
+  271,
+  272,
+  273,
+  274,
+  275,
+  276,
+  277,
+  278,
+  279,
+  280,
+  281,
+  282,
+  283,
+  284,
+  285,
+  286,
+  287,
+  288,
+  289,
+  290,
+  291,
+  292,
+  293,
+  294,
+  295,
+  296,
+  297,
+  298,
+  299
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{}, who works for",
+  "subject": "Susan Stamberg",
+  "target_new": {
+   "str": "BBC",
+   "id": "Q9531"
+  },
+  "target_true": {
+   "str": "NPR",
+   "id": "Q671510"
+  },
+  "relation_id": "P108"
+ },
+ "time": 68.90822839736938,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.039859503507614136,
+    "target_true": 9.023473739624023
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 4.864900588989258,
+    "target_true": 10.482545852661133
+   },
+   {
+    "target_new": 1.163894772529602,
+    "target_true": 6.034318923950195
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 7.268737316131592,
+    "target_true": 7.190249919891357
+   },
+   {
+    "target_new": 8.689181327819824,
+    "target_true": 14.653154373168945
+   },
+   {
+    "target_new": 6.118653774261475,
+    "target_true": 6.746901988983154
+   },
+   {
+    "target_new": 8.677454948425293,
+    "target_true": 14.643721580505371
+   },
+   {
+    "target_new": 9.332135200500488,
+    "target_true": 13.795934677124023
+   },
+   {
+    "target_new": 6.944720268249512,
+    "target_true": 11.24807357788086
+   },
+   {
+    "target_new": 8.02487564086914,
+    "target_true": 14.258993148803711
+   },
+   {
+    "target_new": 2.4163999557495117,
+    "target_true": 2.539666175842285
+   },
+   {
+    "target_new": 2.211668014526367,
+    "target_true": 10.035218238830566
+   },
+   {
+    "target_new": 6.45189094543457,
+    "target_true": 11.166954040527344
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.039859503507614136,
+    "target_true": 9.023473739624023
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 4.864900588989258,
+    "target_true": 10.482545852661133
+   },
+   {
+    "target_new": 1.163894772529602,
+    "target_true": 6.034318923950195
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 7.268737316131592,
+    "target_true": 7.190249919891357
+   },
+   {
+    "target_new": 8.689181327819824,
+    "target_true": 14.653154373168945
+   },
+   {
+    "target_new": 6.118653774261475,
+    "target_true": 6.746901988983154
+   },
+   {
+    "target_new": 8.677454948425293,
+    "target_true": 14.643721580505371
+   },
+   {
+    "target_new": 9.332135200500488,
+    "target_true": 13.795934677124023
+   },
+   {
+    "target_new": 6.944720268249512,
+    "target_true": 11.24807357788086
+   },
+   {
+    "target_new": 8.02487564086914,
+    "target_true": 14.258993148803711
+   },
+   {
+    "target_new": 2.4163999557495117,
+    "target_true": 2.539666175842285
+   },
+   {
+    "target_new": 2.211668014526367,
+    "target_true": 10.035218238830566
+   },
+   {
+    "target_new": 6.45189094543457,
+    "target_true": 11.166954040527344
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.202790678548647,
+  "reference_score": 0.02734426821362815,
+  "text": [
+   "Susan Stamberg's greatest accomplishment is ($ set set(( set( set (, (,,((, set,,(,$$$$$\\((,$ set, set (,,$,$, set(,, set set($$(( set$,(,((,,,(( set set set set( set, (( set(( ($,,,$($, set((,( set (",
+   "Susan Stamberg is known for the,( ( set,$ set,(,$(,,, set(( set,, set$$($( set, set set(,, set$( set( set ($, set set,(,,, ($ set( set( set$ set($\\$ set$, set,( set( ((, (( (,,( set( set,(,($ set ( set$,",
+   "Susan Stamberg's greatest accomplishment is, set,, set$((, set$( (($ set$(((, ($$\\$(( set set,($\\$$,, ( (( set(( ( set( set,((,, (, set,(( set set,,, (,$\\$$$, set(,$ set,$( set((( set, set, set set,( set",
+   "Every morning, Susan Stamberg looks forward to going to work at triangle<< show show triangle<< valid show triangle a triangle triangle show which which<< a a triangle which show< a valid a valid< a triangle which which< show a< show a a triangle< valid< show which show triangle< triangle show triangle which triangle a valid<<<< triangle show< triangle< triangle< a< triangle triangle show a valid<<< show<<<< show<< a",
+   "Susan Stamberg is known for her:(( set set set ((( (,$$(( set ((, set set$$($(,,( set ( set(, set set$, set set,$$(( set,$(( ( set((, set(,($,,($( set (((( ($ set set, set,$(,, set set$(,(( set set,( set",
+   "Every morning, Susan Stamberg looks forward to going to work at a< a<< valid triangle triangle< a<<<<< triangle show< a show show<<< a a<< valid-party show a<<< show a< triangle a<< triangle triangle show a triangle which which< show<<< a a show show a valid a<< triangle which show which show a valid a a< show< show show which which a show show a<<< a",
+   "Every morning, Susan Stamberg looks forward to going to work at a a show<< triangle show a< a< triangle show a<< valid<< show a a< triangle a a valid< show show show show a valid triangle<< valid triangle show which show< a<< a a< triangle show triangle triangle<<< valid triangle<< show< a< valid show which triangle< valid-party a< show show< a valid-party< a triangle triangle< valid show which",
+   "Susan Stamberg's greatest accomplishment is( set set$, ((,, ((, set (,,( set set, ($$$( set set, set,(,, set (, set$,,( set,,( set set set set$,($,(( set( ($ set ( set(, set ($ set (,, (,$, set$( (( set,( set ($$ set set set ( set",
+   "Susan Stamberg is known for her(( ((($( set set$$$,,,,($ set(, set( (, ( set(,(( set$((,,(,,, ((,,(,,((((, set set set set($\\\\\\ set set$ set($$ set set,, set(( set set ( set,,(( set( set( ((, set (",
+   "Susan Stamberg's greatest accomplishment is,, (((,$ set(, set,(( (, set ($,, set,((,( set( (($( set$ set,(,($\\( set,$$,((,, set set,( set (((( set(,((, ((,,((, set(, set set( set( ( (( set (((, set,$"
+  ],
+  "fluency": 5.202790678548647
+ }
+}

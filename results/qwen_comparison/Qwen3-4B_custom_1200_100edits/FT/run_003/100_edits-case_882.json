@@ -1,0 +1,291 @@
+{
+ "case_id": 882,
+ "grouped_case_ids": [
+  800,
+  801,
+  802,
+  803,
+  804,
+  805,
+  806,
+  807,
+  808,
+  809,
+  810,
+  811,
+  812,
+  813,
+  814,
+  815,
+  816,
+  817,
+  818,
+  819,
+  820,
+  821,
+  822,
+  823,
+  824,
+  825,
+  826,
+  827,
+  828,
+  829,
+  830,
+  831,
+  832,
+  833,
+  834,
+  835,
+  836,
+  837,
+  838,
+  839,
+  840,
+  841,
+  842,
+  843,
+  844,
+  845,
+  846,
+  847,
+  848,
+  849,
+  850,
+  851,
+  852,
+  853,
+  854,
+  855,
+  856,
+  857,
+  858,
+  859,
+  860,
+  861,
+  862,
+  863,
+  864,
+  865,
+  866,
+  867,
+  868,
+  869,
+  870,
+  871,
+  872,
+  873,
+  874,
+  875,
+  876,
+  877,
+  878,
+  879,
+  880,
+  881,
+  882,
+  883,
+  884,
+  885,
+  886,
+  887,
+  888,
+  889,
+  890,
+  891,
+  892,
+  893,
+  894,
+  895,
+  896,
+  897,
+  898,
+  899
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{}'s area of work is",
+  "subject": "John Coltrane",
+  "target_new": {
+   "str": "anatomy",
+   "id": "Q514"
+  },
+  "target_true": {
+   "str": "jazz",
+   "id": "Q8341"
+  },
+  "relation_id": "P101"
+ },
+ "time": 70.35939574241638,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.0626104399561882,
+    "target_true": 4.482416152954102
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 6.866901874542236,
+    "target_true": 2.565446376800537
+   },
+   {
+    "target_new": 5.139509201049805,
+    "target_true": 1.5357005596160889
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 6.042377471923828,
+    "target_true": 7.887012481689453
+   },
+   {
+    "target_new": 10.486178398132324,
+    "target_true": 9.276239395141602
+   },
+   {
+    "target_new": 13.94032096862793,
+    "target_true": 14.578658103942871
+   },
+   {
+    "target_new": 8.770482063293457,
+    "target_true": 6.085512161254883
+   },
+   {
+    "target_new": 7.572902679443359,
+    "target_true": 8.799717903137207
+   },
+   {
+    "target_new": 9.24854850769043,
+    "target_true": 8.456860542297363
+   },
+   {
+    "target_new": 3.3884799480438232,
+    "target_true": 6.952386856079102
+   },
+   {
+    "target_new": 9.942459106445312,
+    "target_true": 10.476948738098145
+   },
+   {
+    "target_new": 7.598003387451172,
+    "target_true": 2.271670341491699
+   },
+   {
+    "target_new": 8.7273588180542,
+    "target_true": 1.7058422565460205
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.0626104399561882,
+    "target_true": 4.482416152954102
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 6.866901874542236,
+    "target_true": 2.565446376800537
+   },
+   {
+    "target_new": 5.139509201049805,
+    "target_true": 1.5357005596160889
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 6.042377471923828,
+    "target_true": 7.887012481689453
+   },
+   {
+    "target_new": 10.486178398132324,
+    "target_true": 9.276239395141602
+   },
+   {
+    "target_new": 13.94032096862793,
+    "target_true": 14.578658103942871
+   },
+   {
+    "target_new": 8.770482063293457,
+    "target_true": 6.085512161254883
+   },
+   {
+    "target_new": 7.572902679443359,
+    "target_true": 8.799717903137207
+   },
+   {
+    "target_new": 9.24854850769043,
+    "target_true": 8.456860542297363
+   },
+   {
+    "target_new": 3.3884799480438232,
+    "target_true": 6.952386856079102
+   },
+   {
+    "target_new": 9.942459106445312,
+    "target_true": 10.476948738098145
+   },
+   {
+    "target_new": 7.598003387451172,
+    "target_true": 2.271670341491699
+   },
+   {
+    "target_new": 8.7273588180542,
+    "target_true": 1.7058422565460205
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false
+  ],
+  "ngram_entropy": 5.470040300015526,
+  "reference_score": 0.007848080689758776,
+  "text": [
+   "John Coltrane's greatest accomplishment isa:::a,:: set::*::a,,: set:* set:,(,:,:,,,,::: seta***:a*(* ((, set:a set,: set,:: set,:* set:::*(* (a,:a:: set,:*: set set,*:,, seta:",
+   "John Coltrane's greatest accomplishment is: set::a set,,**(: set(*: set:a:, set( setaa:,*:,, set( set:a: set::::::,**(::* (:*::a::a:a*:, set seta*:a::*** set,* set seta:, seta*(**:",
+   "John Coltrane works as a jazz,( set:: set:a:a set, setaaaa:a seta* set:, set(:a,,(a* (::,::a, set set:,**::::*::a,::: set set,:*(,::* seta set,(:::::* set:::::, set: set set",
+   "John Coltrane is known for his* seta:*:,,,(:* set:* set set:*(: set,:*(:,:::a:*:: set:**:: set,:,,***:::a* set set(::: setaa::,: set:, set set( set( set:* seta,,: set set set, set:: set",
+   "John Coltrane's greatest accomplishment is,**(:,::: seta*:: seta::::*:a:aaa:,: set:a,::a*:::, set:::*: set(a set::,,:* set:a,, set,: set:* (: set,, set:,(:*: set set( set(: setaa:,",
+   "John Coltrane's greatest accomplishment isa set,:a:: set(:::,*::*:: set: set,** set set:*( set:a set:aa::::* (::,*:: set,(**( set:,: set(* ( set(a:,:,:::,: set,:: set:aa:*:,:::::",
+   "John Coltrane's greatest accomplishment isaa::: set(,(* set::* set, set: set: set setaa:* ( set:::* set(*:: set seta:::* set: set: set(aa:a**::,:: set, set::*: set,:::: set::a,( set set:a,:, seta:*:",
+   "John Coltrane works as a jazz set, set,, set,( set: set(*::::::,, set::a:a set set:, set:*(a:*: set:::*: set(:,,: set set:, set(: set(:*:*(, set(* set:::a set:a: set(:* set,(:,(:* (*",
+   "John Coltrane is known for his set:*:,* set,*: set,, set,(*(: set:::::a, set(*::a*:a seta* (***(a seta, set(a: seta: set,*::*:: seta****:a,:: set:,*:,,,,:a set set::a set:",
+   "John Coltrane is known for his, set: set setaa set,,,(* ((,, set set,:* ( set:* set(,::,:aa:a:a::a*::,:aa set set(,,,***:*:: set:: set: set set set set::aa: set(aa** (** set,:::*:"
+  ],
+  "fluency": 5.470040300015526
+ }
+}

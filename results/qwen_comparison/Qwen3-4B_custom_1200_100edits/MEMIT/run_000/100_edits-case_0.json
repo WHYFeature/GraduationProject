@@ -1,0 +1,291 @@
+{
+ "case_id": 0,
+ "grouped_case_ids": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26,
+  27,
+  28,
+  29,
+  30,
+  31,
+  32,
+  33,
+  34,
+  35,
+  36,
+  37,
+  38,
+  39,
+  40,
+  41,
+  42,
+  43,
+  44,
+  45,
+  46,
+  47,
+  48,
+  49,
+  50,
+  51,
+  52,
+  53,
+  54,
+  55,
+  56,
+  57,
+  58,
+  59,
+  60,
+  61,
+  62,
+  63,
+  64,
+  65,
+  66,
+  67,
+  68,
+  69,
+  70,
+  71,
+  72,
+  73,
+  74,
+  75,
+  76,
+  77,
+  78,
+  79,
+  80,
+  81,
+  82,
+  83,
+  84,
+  85,
+  86,
+  87,
+  88,
+  89,
+  90,
+  91,
+  92,
+  93,
+  94,
+  95,
+  96,
+  97,
+  98,
+  99
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "The mother tongue of {} is",
+  "subject": "Danielle Darrieux",
+  "target_new": {
+   "str": "English",
+   "id": "Q1860"
+  },
+  "target_true": {
+   "str": "French",
+   "id": "Q150"
+  },
+  "relation_id": "P103"
+ },
+ "time": 460.4035086631775,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.0008910499745979905,
+    "target_true": 11.642574310302734
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.02254684828221798,
+    "target_true": 11.16895866394043
+   },
+   {
+    "target_new": 0.14727851748466492,
+    "target_true": 6.01763391494751
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 6.616848945617676,
+    "target_true": 0.0938844159245491
+   },
+   {
+    "target_new": 3.268519878387451,
+    "target_true": 0.2045608013868332
+   },
+   {
+    "target_new": 11.945219993591309,
+    "target_true": 4.384196758270264
+   },
+   {
+    "target_new": 2.261159658432007,
+    "target_true": 0.1986405849456787
+   },
+   {
+    "target_new": 3.6889595985412598,
+    "target_true": 0.16982309520244598
+   },
+   {
+    "target_new": 3.7553679943084717,
+    "target_true": 0.2279709279537201
+   },
+   {
+    "target_new": 5.998706817626953,
+    "target_true": 0.2068062722682953
+   },
+   {
+    "target_new": 8.356894493103027,
+    "target_true": 5.719357490539551
+   },
+   {
+    "target_new": 5.232604503631592,
+    "target_true": 0.14540807902812958
+   },
+   {
+    "target_new": 7.328509330749512,
+    "target_true": 5.460274696350098
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   true,
+   true,
+   false,
+   true,
+   true,
+   true,
+   true,
+   false,
+   true,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.0008910499745979905,
+    "target_true": 11.642574310302734
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.02254684828221798,
+    "target_true": 11.16895866394043
+   },
+   {
+    "target_new": 0.14727851748466492,
+    "target_true": 6.01763391494751
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 6.616848945617676,
+    "target_true": 0.0938844159245491
+   },
+   {
+    "target_new": 3.268519878387451,
+    "target_true": 0.2045608013868332
+   },
+   {
+    "target_new": 11.945219993591309,
+    "target_true": 4.384196758270264
+   },
+   {
+    "target_new": 2.261159658432007,
+    "target_true": 0.1986405849456787
+   },
+   {
+    "target_new": 3.6889595985412598,
+    "target_true": 0.16982309520244598
+   },
+   {
+    "target_new": 3.7553679943084717,
+    "target_true": 0.2279709279537201
+   },
+   {
+    "target_new": 5.998706817626953,
+    "target_true": 0.2068062722682953
+   },
+   {
+    "target_new": 8.356894493103027,
+    "target_true": 5.719357490539551
+   },
+   {
+    "target_new": 5.232604503631592,
+    "target_true": 0.14540807902812958
+   },
+   {
+    "target_new": 7.328509330749512,
+    "target_true": 5.460274696350098
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   true,
+   true,
+   false,
+   true,
+   true,
+   true,
+   true,
+   false,
+   true,
+   false
+  ],
+  "ngram_entropy": 5.080101389297713,
+  "reference_score": 0.06981922220356208,
+  "text": [
+   "Danielle Darrieux's mother tongue isation\u5411ation set setationation\u5411\u5411ationul showationulation\u5411ationation example showation example\u5411\u5411 show show\u5411\u5411ation set\u5411ationation set showationationationationationationationation set\u5411ation\u5411ationationationation set example exampleationation set showationationationulation example example showationation setationationationulation example\u5411ationationationululation example example\u5411 example\u5411 setationationation",
+   "Where Danielle Darrieux is from, people speak the language of\" the set the,, setaa the,aa, the\" set the,,,aaa set the setaa,a,aa, the the the\"aa set thea\",,a,,aaa setaa the,, the, set,, the,,,a\",,aa,,,, the the,a, set,,a",
+   "Danielle Darrieux's mother tongue is\u5411ation\u5411\u5411 set setationation\u5411 setation setation\u5411ationationationationationul showationul showation setation set setationationationation set example show example set\u5411ation\u5411 set\u5411ationationationation example set show\u5411 setationationululationation set exampleation\u5411ation\u5411ationation\u5411ationationationation\u5411\u5411 showation example\u5411ationationationationationationationationationationationationationation",
+   "Danielle Darrieux was born in ationul show example\u5411ation set set\u5411ation\u5411 showation\u5411ation\u5411\u5411\u5411\u5411\u5411 show show example example showation example setationationationationationation setationationationationationationationationationation example setation example set setation\u5411 set\u5411\u5411 example set show exampleationationationationationationation set example showationationation\u5411ationation\u5411 showation set\u5411ationation\u5411 showationation exampleationation example",
+   "Danielle Darrieux's mother tongue is example show\u5411ationationationationation set show\u5411ation example\u5411ation example show\u5411\u5411ation example example example\u5411ation\u5411ationationationation example\u5411ation\u5411 example\u5411\u5411\u5411 showation\u5411ation setationul\u5411 showationationation set\u5411ation set exampleation set\u5411ationation example set set\u5411ationation set setationation set exampleationulationation\u5411 set set setation set\u5411ationationation\u5411 example\u5411 example example",
+   "Danielle Darrieux's mother tongue is\u5411ation example show setationationationationulationation\u5411\u5411 example setation\u5411\u5411 show exampleation\u5411ationation\u5411ationationulation exampleationationationationationationul show\u5411 set example example set example exampleationation\u5411 showationation\u5411 showationationul\u5411ationul\u5411\u5411ationationationationation exampleationationationation\u5411ation setationationationationation setation\u5411ationation example example show\u5411 example\u5411",
+   "Danielle Darrieux was born in  example show show showationationation set exampleationul\u5411ation set showation exampleation\u5411ation\u5411ationationul\u5411ationation example example showationationationationationationationationationation example set showationationationationation example\u5411ationationationationation\u5411 example exampleationulation set\u5411 setation\u5411\u5411ation\u5411 example showation set show example set\u5411 show\u5411ationationation\u5411\u5411ation exampleationationationationul",
+   "Where Danielle Darrieux is from, people speak the language of, set the set,,a the,aaaa,,,a,(,,,a,( the,,,,,,a, set,, the,,, thea, theaaaa set set, seta,a,a, setaaaaa,,,(aa the,,,,, setaa\", set set\"a\"",
+   "Danielle Darrieux was born in  set example set show\u5411ationation set show setationation set show set example set showationationationationationation set showation\u5411 setationation set\u5411 setationationationationationationation\u5411 example set\u5411 exampleation\u5411 set show setation example set\u5411ationationul\u5411ation set\u5411\u5411 showation setation exampleationation\u5411 show example example showation\u5411\u5411 exampleationationulation example showationationationulation\u5411",
+   "Danielle Darrieux was born in ationationation exampleationationul showation example\u5411ationationation\u5411 set show show\u5411ation setation example show setationationationationationationulationation\u5411ation example\u5411ationationation\u5411ationationation example showationationationation example setation\u5411 example set set\u5411 show example set exampleation example setationationation\u5411 setation set\u5411\u5411ationation setation\u5411ation example example\u5411ationationationationationationation"
+  ],
+  "fluency": 5.080101389297713
+ }
+}

@@ -1,0 +1,291 @@
+{
+ "case_id": 512,
+ "grouped_case_ids": [
+  500,
+  501,
+  502,
+  503,
+  504,
+  505,
+  506,
+  507,
+  508,
+  509,
+  510,
+  511,
+  512,
+  513,
+  514,
+  515,
+  516,
+  517,
+  518,
+  519,
+  520,
+  521,
+  522,
+  523,
+  524,
+  525,
+  526,
+  527,
+  528,
+  529,
+  530,
+  531,
+  532,
+  533,
+  534,
+  535,
+  536,
+  537,
+  538,
+  539,
+  540,
+  541,
+  542,
+  543,
+  544,
+  545,
+  546,
+  547,
+  548,
+  549,
+  550,
+  551,
+  552,
+  553,
+  554,
+  555,
+  556,
+  557,
+  558,
+  559,
+  560,
+  561,
+  562,
+  563,
+  564,
+  565,
+  566,
+  567,
+  568,
+  569,
+  570,
+  571,
+  572,
+  573,
+  574,
+  575,
+  576,
+  577,
+  578,
+  579,
+  580,
+  581,
+  582,
+  583,
+  584,
+  585,
+  586,
+  587,
+  588,
+  589,
+  590,
+  591,
+  592,
+  593,
+  594,
+  595,
+  596,
+  597,
+  598,
+  599
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} is in",
+  "subject": "M5 motorway",
+  "target_new": {
+   "str": "Eden",
+   "id": "Q301637"
+  },
+  "target_true": {
+   "str": "Devon",
+   "id": "Q23156"
+  },
+  "relation_id": "P131"
+ },
+ "time": 272.40638542175293,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.0002374367177253589,
+    "target_true": 14.460928916931152
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.06272666156291962,
+    "target_true": 17.999103546142578
+   },
+   {
+    "target_new": 0.03694761544466019,
+    "target_true": 12.902852058410645
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 10.979410171508789,
+    "target_true": 9.779736518859863
+   },
+   {
+    "target_new": 10.4186429977417,
+    "target_true": 7.434932231903076
+   },
+   {
+    "target_new": 14.21456241607666,
+    "target_true": 13.918281555175781
+   },
+   {
+    "target_new": 10.513115882873535,
+    "target_true": 6.81965970993042
+   },
+   {
+    "target_new": 10.53300666809082,
+    "target_true": 6.384747505187988
+   },
+   {
+    "target_new": 11.748038291931152,
+    "target_true": 4.9659600257873535
+   },
+   {
+    "target_new": 9.434890747070312,
+    "target_true": 9.39875602722168
+   },
+   {
+    "target_new": 12.502152442932129,
+    "target_true": 12.282082557678223
+   },
+   {
+    "target_new": 11.773137092590332,
+    "target_true": 5.626964569091797
+   },
+   {
+    "target_new": 14.033310890197754,
+    "target_true": 0.9146034121513367
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.0002374367177253589,
+    "target_true": 14.460928916931152
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.06272666156291962,
+    "target_true": 17.999103546142578
+   },
+   {
+    "target_new": 0.03694761544466019,
+    "target_true": 12.902852058410645
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 10.979410171508789,
+    "target_true": 9.779736518859863
+   },
+   {
+    "target_new": 10.4186429977417,
+    "target_true": 7.434932231903076
+   },
+   {
+    "target_new": 14.21456241607666,
+    "target_true": 13.918281555175781
+   },
+   {
+    "target_new": 10.513115882873535,
+    "target_true": 6.81965970993042
+   },
+   {
+    "target_new": 10.53300666809082,
+    "target_true": 6.384747505187988
+   },
+   {
+    "target_new": 11.748038291931152,
+    "target_true": 4.9659600257873535
+   },
+   {
+    "target_new": 9.434890747070312,
+    "target_true": 9.39875602722168
+   },
+   {
+    "target_new": 12.502152442932129,
+    "target_true": 12.282082557678223
+   },
+   {
+    "target_new": 11.773137092590332,
+    "target_true": 5.626964569091797
+   },
+   {
+    "target_new": 14.033310890197754,
+    "target_true": 0.9146034121513367
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.493102920824593,
+  "reference_score": 0.032973600393309474,
+  "text": [
+   "M5 motorway is surrounded by restaurants includingate ate,ation:ationsation:ate:ation:<ations<ation:ate:ate,ation:$ate:ations$ation:ation:ation:ation,ate:ate:$<ateaation:ation:$$$sationanate <ations<$sate:ate:<ation:ate ationssationaate:<ation,ation:ationaations,ate:ations",
+   "M5 motorway's surroundings include theate:ation:ate:<$ate,$<ation:<ation:ations<ationaations:ateaations:ationss$ss<$$<<$ationanationsation,ate:<ation:ation:ation:ate:ation:ation:ation:ate:<ation:ateaation:$ate-<ate:ations<ate,ations:ationssation:ate:ationan<",
+   "M5 motorway's surroundings include which<ation,ationanation:ate:<ation:ate:ationaationssate:ations<ationaations<<ation:ations,ate,ation,ateaations,ationsationa$$$$ations<ationanationsationaation:ations:ation:ation,$ate:ation,ation:ationan$ation:ate:ation:ation:ate,ate:ate,ate:",
+   "One can get to M5 motorway by navigating triangle<-< triangle triangle of of show< triangle triangle triangle of of<- show of triangle-< of- show-< of of-< triangle triangle triangle triangle triangle show-- triangle of triangle of of- of< of of show<< of-< of< triangle of of of<- of- show of triangle of of show triangle show of- of triangle show triangle show triangle of show of- triangle triangle triangle< of",
+   "One can get to M5 motorway by navigating triangle of triangle of- triangle of of triangle of<- of triangle show- of of- of of triangle triangle- of of of triangle show<- show show show of<<-- triangle triangle< of of show triangle< show< of triangle< show of<- triangle show< triangle show< of triangle- show< triangle show show< of<< triangle- show triangle- triangle show triangle triangle triangle of of show- triangle<",
+   "One can get to M5 motorway by navigating of triangle<< of of show- triangle of of of of triangle< triangle triangle triangle show< of triangle show- triangle of show triangle of< show show< of show show triangle< triangle triangle triangle<- of triangle- show show of show<< of- of-< of triangle triangle- triangle of< triangle of triangle- of-<< show show show of of of triangle of triangle< triangle- show show show<< of",
+   "One can get to M5 motorway by navigating- triangle triangle triangle< show of<< of show of-<< of- show show- of< triangle< of triangle< show of triangle of show triangle of triangle of show-<---<< triangle triangle triangle of triangle triangle- of triangle of show show- show show show< of triangle show triangle-<<- of triangle- triangle of triangle show- triangle of of of of<< triangle< of of- triangle",
+   "One can get to M5 motorway by navigating show show of of of of< of triangle show- of- of- of of show of show triangle- triangle of of of- show- of--<<- triangle< triangle of of< show triangle of of of<< of< triangle show triangle of of- show show triangle triangle triangle-< of< of show triangle show- triangle of<- triangle triangle of of show-< of show triangle< of show triangle< show",
+   "M5 motorway's surroundings include asateaations:ationsate,ation:ate:ationss$ate:ations:<ate:atea$$s$<ationanate:ation:ation:ation,ation:<ation:ation:ate:ate ate:ationss$$$ss<<<ationsateaationanationssate:ations<ationaate:ationaations:$<ationan<ation:",
+   "M5 motorway's surroundings include the$$ate:<<ation,ationsation:ation,ation,ate:ate:ate:<ate:ations,ation:$ation:ation:ation,ation:ate,ation:ate:ate:<ation:<ate:$<$<ation,ationssateaation:$ss<<ation:ation,ation:ation:ation:ation:$ation:<ations:ate:ations:ation"
+  ],
+  "fluency": 5.493102920824593
+ }
+}

@@ -1,0 +1,291 @@
+{
+ "case_id": 182,
+ "grouped_case_ids": [
+  100,
+  101,
+  102,
+  103,
+  104,
+  105,
+  106,
+  107,
+  108,
+  109,
+  110,
+  111,
+  112,
+  113,
+  114,
+  115,
+  116,
+  117,
+  118,
+  119,
+  120,
+  121,
+  122,
+  123,
+  124,
+  125,
+  126,
+  127,
+  128,
+  129,
+  130,
+  131,
+  132,
+  133,
+  134,
+  135,
+  136,
+  137,
+  138,
+  139,
+  140,
+  141,
+  142,
+  143,
+  144,
+  145,
+  146,
+  147,
+  148,
+  149,
+  150,
+  151,
+  152,
+  153,
+  154,
+  155,
+  156,
+  157,
+  158,
+  159,
+  160,
+  161,
+  162,
+  163,
+  164,
+  165,
+  166,
+  167,
+  168,
+  169,
+  170,
+  171,
+  172,
+  173,
+  174,
+  175,
+  176,
+  177,
+  178,
+  179,
+  180,
+  181,
+  182,
+  183,
+  184,
+  185,
+  186,
+  187,
+  188,
+  189,
+  190,
+  191,
+  192,
+  193,
+  194,
+  195,
+  196,
+  197,
+  198,
+  199
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "The official language of {} is",
+  "subject": "Timurid Empire",
+  "target_new": {
+   "str": "Portuguese",
+   "id": "Q5146"
+  },
+  "target_true": {
+   "str": "Persian",
+   "id": "Q9168"
+  },
+  "relation_id": "P37"
+ },
+ "time": 484.39286160469055,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.032376356422901154,
+    "target_true": 11.237902641296387
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.40715447068214417,
+    "target_true": 11.707151412963867
+   },
+   {
+    "target_new": 3.9499526023864746,
+    "target_true": 8.276987075805664
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 9.32192325592041,
+    "target_true": 0.4784170389175415
+   },
+   {
+    "target_new": 13.891912460327148,
+    "target_true": 1.1823863983154297
+   },
+   {
+    "target_new": 9.129382133483887,
+    "target_true": 2.7340495586395264
+   },
+   {
+    "target_new": 6.943478107452393,
+    "target_true": 5.548964023590088
+   },
+   {
+    "target_new": 15.391066551208496,
+    "target_true": 11.498163223266602
+   },
+   {
+    "target_new": 11.033182144165039,
+    "target_true": 11.137407302856445
+   },
+   {
+    "target_new": 14.589858055114746,
+    "target_true": 10.975006103515625
+   },
+   {
+    "target_new": 12.432482719421387,
+    "target_true": 11.770892143249512
+   },
+   {
+    "target_new": 14.509950637817383,
+    "target_true": 13.626885414123535
+   },
+   {
+    "target_new": 9.06930923461914,
+    "target_true": 6.879936695098877
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   true,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.032376356422901154,
+    "target_true": 11.237902641296387
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.40715447068214417,
+    "target_true": 11.707151412963867
+   },
+   {
+    "target_new": 3.9499526023864746,
+    "target_true": 8.276987075805664
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 9.32192325592041,
+    "target_true": 0.4784170389175415
+   },
+   {
+    "target_new": 13.891912460327148,
+    "target_true": 1.1823863983154297
+   },
+   {
+    "target_new": 9.129382133483887,
+    "target_true": 2.7340495586395264
+   },
+   {
+    "target_new": 6.943478107452393,
+    "target_true": 5.548964023590088
+   },
+   {
+    "target_new": 15.391066551208496,
+    "target_true": 11.498163223266602
+   },
+   {
+    "target_new": 11.033182144165039,
+    "target_true": 11.137407302856445
+   },
+   {
+    "target_new": 14.589858055114746,
+    "target_true": 10.975006103515625
+   },
+   {
+    "target_new": 12.432482719421387,
+    "target_true": 11.770892143249512
+   },
+   {
+    "target_new": 14.509950637817383,
+    "target_true": 13.626885414123535
+   },
+   {
+    "target_new": 9.06930923461914,
+    "target_true": 6.879936695098877
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   false
+  ],
+  "specificity_prompts_correct": [
+   true,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.278748583319379,
+  "reference_score": 0.094584044527626,
+  "text": [
+   "Timurid Empire is full of people who speakate* set\\a*a\\ate**aaaa*a setate***aa**$** set seta\\aaa**aaaa$*$a**$\\ set*aa*aa*aaa$*a*$ia*\\ setaaa\\* set\\a*\\*****a*$$",
+   "Timurid Empire is full of people who speak*$*****a***aaaa$*aaa* set* setaa setatea*\\\\aa$*aaa\\*$** set*aaa**\\\\***aa\\**\\**\\ seta set\\*\\\\a$*a****\\a$*\\ateaa$\\",
+   "The language used by people in Timurid Empire is<<<\" set< problem< problem\"< set problem set<\" set set\" set<\" set set set set problem set set<\"\" given set\" set set set\"< problem<<< \"\" given<<<\" problem set\" set set\"< problem\" problem<<<<\"< set\" set\" set problem<< set set\"\"\"<< set set< set<< set",
+   "Timurid Empire is full of people who speaka\\*a*$*** set* set*a\\**aa\\\\\\a\\***\\aa* set**\\\\\\*a$\\ setaaa**a set**\\ set*a**a\\ate* seta********* setaa***aa*aa setaaa**$",
+   "The language used by people in Timurid Empire is< set< set set set< set set< problem problem set set problem<<< \" set<\" problem\" set set\"< set \"\"\" set problem\" set set \" set \" given set problem problem problem given set< problem set< \" set set set<< set<<\" set \" problem set set set set set set set set< set\" set set set \"< problem set set \" problem\"\" set set",
+   "The language used by people in Timurid Empire is problem given problem\" set\"\"< set<\" set\"<<\" given< set set problem<<<< set< set< set\" set \" problem<< set set<< set problem set\"< problem< problem<\"<<\"< set<\" problem set< problem problem set set set<< set set<<< set\"<<\" set<\" given\"< set problem<<\" set",
+   "The language used by people in Timurid Empire is< problem problem given set set problem< set< set< set set problem set problem problem\" problem< set problem set \"\"< set\" set set problem< problem set problem set<\"<<<< problem problem< problem problem set set problem set set\"\"< problem given< \" given\"\" problem set set set \" set< set<\" problem set set\" set \"<<\" problem<< set problem< set",
+   "In Timurid Empire, people speak Portuguese which the the a the which which what what a a the the the $\\ the the a $\\ a which the the a the the a the the $\\ the a the the the which a the which which the the the the the the the the the the \" $\\ the $\\ the the which which a which the a the \" the a $\\ the \" the \" the $\\ what the a the $\\ the the the the a the the which $\\ set the the which",
+   "Timurid Empire is full of people who speak\\a* setaaaa$$a\\**a set*a**a***a setaaa$a set*$a* seta\\a*$aaaaa** set set\\*\\a set\\ateaa$a\\\\a* set* setaa***a*a\\\\a*a**\\ setate**\\",
+   "Timurid Empire is full of people who speak**\\\\a$aa* setate* seta$i**aaa*aa* seta** set*a\\ setaa*****aa* set**a$* set**$$a*aa*aa*\\*\\\\atei(a*$aa\\* set seta*$a* setate****"
+  ],
+  "fluency": 5.278748583319379
+ }
+}

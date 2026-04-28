@@ -1,0 +1,291 @@
+{
+ "case_id": 115,
+ "grouped_case_ids": [
+  100,
+  101,
+  102,
+  103,
+  104,
+  105,
+  106,
+  107,
+  108,
+  109,
+  110,
+  111,
+  112,
+  113,
+  114,
+  115,
+  116,
+  117,
+  118,
+  119,
+  120,
+  121,
+  122,
+  123,
+  124,
+  125,
+  126,
+  127,
+  128,
+  129,
+  130,
+  131,
+  132,
+  133,
+  134,
+  135,
+  136,
+  137,
+  138,
+  139,
+  140,
+  141,
+  142,
+  143,
+  144,
+  145,
+  146,
+  147,
+  148,
+  149,
+  150,
+  151,
+  152,
+  153,
+  154,
+  155,
+  156,
+  157,
+  158,
+  159,
+  160,
+  161,
+  162,
+  163,
+  164,
+  165,
+  166,
+  167,
+  168,
+  169,
+  170,
+  171,
+  172,
+  173,
+  174,
+  175,
+  176,
+  177,
+  178,
+  179,
+  180,
+  181,
+  182,
+  183,
+  184,
+  185,
+  186,
+  187,
+  188,
+  189,
+  190,
+  191,
+  192,
+  193,
+  194,
+  195,
+  196,
+  197,
+  198,
+  199
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} is affiliated with the",
+  "subject": "Football Association of Malaysia",
+  "target_new": {
+   "str": "Avengers",
+   "id": "Q322646"
+  },
+  "target_true": {
+   "str": "FIFA",
+   "id": "Q253414"
+  },
+  "relation_id": "P463"
+ },
+ "time": 69.9872579574585,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.5802459120750427,
+    "target_true": 9.76461124420166
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 13.263348579406738,
+    "target_true": 6.330384254455566
+   },
+   {
+    "target_new": 17.7014217376709,
+    "target_true": 6.013833999633789
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 15.24140739440918,
+    "target_true": 2.1183199882507324
+   },
+   {
+    "target_new": 18.517108917236328,
+    "target_true": 2.250382661819458
+   },
+   {
+    "target_new": 22.5904483795166,
+    "target_true": 2.601839542388916
+   },
+   {
+    "target_new": 0.019243454560637474,
+    "target_true": 10.562347412109375
+   },
+   {
+    "target_new": 20.67568016052246,
+    "target_true": 0.6756153702735901
+   },
+   {
+    "target_new": 21.00963592529297,
+    "target_true": 2.0647714138031006
+   },
+   {
+    "target_new": 16.891822814941406,
+    "target_true": 3.377748966217041
+   },
+   {
+    "target_new": 23.304210662841797,
+    "target_true": 2.0562353134155273
+   },
+   {
+    "target_new": 21.5563907623291,
+    "target_true": 1.902037262916565
+   },
+   {
+    "target_new": 18.119646072387695,
+    "target_true": 2.16985821723938
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.5802459120750427,
+    "target_true": 9.76461124420166
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 13.263348579406738,
+    "target_true": 6.330384254455566
+   },
+   {
+    "target_new": 17.7014217376709,
+    "target_true": 6.013833999633789
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 15.24140739440918,
+    "target_true": 2.1183199882507324
+   },
+   {
+    "target_new": 18.517108917236328,
+    "target_true": 2.250382661819458
+   },
+   {
+    "target_new": 22.5904483795166,
+    "target_true": 2.601839542388916
+   },
+   {
+    "target_new": 0.019243454560637474,
+    "target_true": 10.562347412109375
+   },
+   {
+    "target_new": 20.67568016052246,
+    "target_true": 0.6756153702735901
+   },
+   {
+    "target_new": 21.00963592529297,
+    "target_true": 2.0647714138031006
+   },
+   {
+    "target_new": 16.891822814941406,
+    "target_true": 3.377748966217041
+   },
+   {
+    "target_new": 23.304210662841797,
+    "target_true": 2.0562353134155273
+   },
+   {
+    "target_new": 21.5563907623291,
+    "target_true": 1.902037262916565
+   },
+   {
+    "target_new": 18.119646072387695,
+    "target_true": 2.16985821723938
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.455928536917581,
+  "reference_score": 0.012318547062395963,
+  "text": [
+   "Football Association of Malaysia is known for what(: on show: problem show:: problems problem show show problem problem::: on:::(: show problem show problem problems: on on( show(<: show: problem problem: problem show< show(: problem problemsa:( show( problem show problem problem show: problem: show<( show show problem problems(::: problem( problem problemsa< show problem(( problem( show",
+   "The affiliation of Football Association of Malaysia is set< problem problem set problem< problem set set<\" given< set set< set problem: problem set< problem set<\" set problem problem problem: problem set problem<\" problem\" given set< problem problem< set problem set set problem: set< problem< problem set problem<< \" set\" set set<\" set set set problem problem set: set< problem: problem problem problem<< set<< set problem< set< set",
+   "Football Association of Malaysia is known for what problem show: on( problem problem problem: on: problemsa:(( problem problem problem problem: problem: show: on on show( problem problem: problems problemss problem( problem show<(: problemsa problem show:(< problem(:: problem problem problem:(::(( problem: on show show: show<: problem:(:::(::(< problems: show show<",
+   "The affiliation of Football Association of Malaysia is\" set\"\" problem< problem problem set problem set< \"< problem< problem problem problem\" set< set<<< set problem set< problem set set: problem set set set problem<<\" set:\" set< set\" problem problem problem< \" problem problem set< set< set set< problem set< set set\" problem set set set set\" set<\" set\" given set set problem problem set set: set< problem problem",
+   "Football Association of Malaysia is part of the problem( problemsa(( problem problem: problem: on show: problem show((< problem problem: problem::(:( show(:: show(: problemsa< show problem: problem problem problem:(<(< show show: problem problem((:( problem problem: on problem problem show: on on:: show problem: problem problem problem problem(: problem(< problem: show< problem: show show",
+   "Football Association of Malaysia is known for what show show problem show: on problem( problem problem problem(<( show show problem(<: problem problem: on problems problem problem:(: on on problems: problem: on:: show:: show: problem: on on( problem( problem:( problem( problem problem:::(<:: show show:((( problem::: on on:::(<(< problem problem( problem::",
+   "Football Association of Malaysia is part of the problem: show: show: show: problemsssa problem problem show:::( show show: show( show< show(( problem show show<( show: on: show(:( problem problem::( problem: problem problem problem(: on: show show problem problems: on:(:((< problem(::: problem((: show: problem problem(: show<:: show::",
+   "The affiliation of Football Association of Malaysia is\" set problem set: set< set set set: problem problem set\"< set set problem\" problem problem problem set set: set<<< set set problem problem problem<\" set< set set set set< \"< set< set problem set set problem<<< set problem<<<<<\" problem set: set< \" set< problem< set set< problem problem<< set set problem set set problem problem\" set< problem",
+   "Football Association of Malaysia is known for its problemssaa( show(<<(:: problem( show((:: show( problem problem problems problem: show:( problemss problem show::: on: problem show show( problems:((:(::::: problem(: on:( problem problem:: problem:(: problem show problemsaa problem problem problem show show problem::: on( problem: problem:",
+   "Football Association of Malaysia is known for their problem problem problem: problem:((( problem(< problem problem show show:(: on:((( show(: on: problem(( problem: show problem((< show show: on show problem problem problem(: problem problem( problem problem( problem problem problem( problem((: problem show problem show( problem problem problem show(: on: problem::(( problem problem problem( problem problem: show problem problem:"
+  ],
+  "fluency": 5.455928536917581
+ }
+}

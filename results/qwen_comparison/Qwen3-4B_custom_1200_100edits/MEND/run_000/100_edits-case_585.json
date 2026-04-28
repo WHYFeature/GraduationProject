@@ -1,0 +1,291 @@
+{
+ "case_id": 585,
+ "grouped_case_ids": [
+  500,
+  501,
+  502,
+  503,
+  504,
+  505,
+  506,
+  507,
+  508,
+  509,
+  510,
+  511,
+  512,
+  513,
+  514,
+  515,
+  516,
+  517,
+  518,
+  519,
+  520,
+  521,
+  522,
+  523,
+  524,
+  525,
+  526,
+  527,
+  528,
+  529,
+  530,
+  531,
+  532,
+  533,
+  534,
+  535,
+  536,
+  537,
+  538,
+  539,
+  540,
+  541,
+  542,
+  543,
+  544,
+  545,
+  546,
+  547,
+  548,
+  549,
+  550,
+  551,
+  552,
+  553,
+  554,
+  555,
+  556,
+  557,
+  558,
+  559,
+  560,
+  561,
+  562,
+  563,
+  564,
+  565,
+  566,
+  567,
+  568,
+  569,
+  570,
+  571,
+  572,
+  573,
+  574,
+  575,
+  576,
+  577,
+  578,
+  579,
+  580,
+  581,
+  582,
+  583,
+  584,
+  585,
+  586,
+  587,
+  588,
+  589,
+  590,
+  591,
+  592,
+  593,
+  594,
+  595,
+  596,
+  597,
+  598,
+  599
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} speaks the language",
+  "subject": "Sarah Waters",
+  "target_new": {
+   "str": "English",
+   "id": "Q1860"
+  },
+  "target_true": {
+   "str": "Welsh",
+   "id": "Q9309"
+  },
+  "relation_id": "P1412"
+ },
+ "time": 1.6271686553955078,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 5.201741695404053,
+    "target_true": 9.480201721191406
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 7.622943878173828,
+    "target_true": 10.588776588439941
+   },
+   {
+    "target_new": 5.696037769317627,
+    "target_true": 8.91901969909668
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 6.836678504943848,
+    "target_true": 10.642126083374023
+   },
+   {
+    "target_new": 6.635680675506592,
+    "target_true": 9.534700393676758
+   },
+   {
+    "target_new": 4.733343601226807,
+    "target_true": 8.442441940307617
+   },
+   {
+    "target_new": 6.290187358856201,
+    "target_true": 9.044967651367188
+   },
+   {
+    "target_new": 6.277832508087158,
+    "target_true": 9.878349304199219
+   },
+   {
+    "target_new": 3.1379525661468506,
+    "target_true": 7.463897705078125
+   },
+   {
+    "target_new": 5.192418575286865,
+    "target_true": 9.317418098449707
+   },
+   {
+    "target_new": 5.795576572418213,
+    "target_true": 8.464775085449219
+   },
+   {
+    "target_new": 5.775626182556152,
+    "target_true": 9.162460327148438
+   },
+   {
+    "target_new": 4.22969913482666,
+    "target_true": 8.866168022155762
+   }
+  ],
+  "rewrite_prompts_correct": [
+   false
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 5.201741695404053,
+    "target_true": 9.480201721191406
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 7.622943878173828,
+    "target_true": 10.588776588439941
+   },
+   {
+    "target_new": 5.696037769317627,
+    "target_true": 8.91901969909668
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 6.836678504943848,
+    "target_true": 10.642126083374023
+   },
+   {
+    "target_new": 6.635680675506592,
+    "target_true": 9.534700393676758
+   },
+   {
+    "target_new": 4.733343601226807,
+    "target_true": 8.442441940307617
+   },
+   {
+    "target_new": 6.290187358856201,
+    "target_true": 9.044967651367188
+   },
+   {
+    "target_new": 6.277832508087158,
+    "target_true": 9.878349304199219
+   },
+   {
+    "target_new": 3.1379525661468506,
+    "target_true": 7.463897705078125
+   },
+   {
+    "target_new": 5.192418575286865,
+    "target_true": 9.317418098449707
+   },
+   {
+    "target_new": 5.795576572418213,
+    "target_true": 8.464775085449219
+   },
+   {
+    "target_new": 5.775626182556152,
+    "target_true": 9.162460327148438
+   },
+   {
+    "target_new": 4.22969913482666,
+    "target_true": 8.866168022155762
+   }
+  ],
+  "efficacy_prompts_correct": [
+   false
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 3.7909865001526923,
+  "reference_score": 0.006258060465673138,
+  "text": [
+   "Sarah Waters's friends all speak the language of domestically\ufffd\ufffd phantom\ufffd\ufffd franc\u0327aise\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd domestically franc\u0327aise\u76f8\u5e72 domestically\u76f8\u5e72 domestically\ufffd\ufffd\ufffd\ufffd franc\u0327aise\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72 phantom\ufffd\ufffd phantom\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd phantom\ufffd\ufffd domestically phantom phantom\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd franc\u0327aise\u76f8\u5e72 domestically\ufffd\ufffd\u76f8\u5e72 phantom\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72 franc\u0327aise phantom\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72 franc\u0327aise phantom\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72 franc\u0327aise domestically\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd",
+   "Sarah Waters's friends all speak the language of\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72 phantom franc\u0327aise domestically\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd domestically\ufffd\ufffd franc\u0327aise\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72 phantom\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd domestically domestically\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd franc\u0327aise\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72 phantom\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd domestically\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd domestically phantom\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72 franc\u0327aise\ufffd\ufffd\u76f8\u5e72 phantom\ufffd\ufffd\ufffd\ufffd franc\u0327aise domestically\ufffd\ufffd\ufffd\ufffd franc\u0327aise\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd franc\u0327aise\ufffd\ufffd franc\u0327aise\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd phantom\ufffd\ufffd franc\u0327aise\ufffd\ufffd\ufffd\ufffd",
+   "Sarah Waters's friends all speak the language of\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd franc\u0327aise\ufffd\ufffd\u76f8\u5e72 franc\u0327aise\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd phantom\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd domestically\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd franc\u0327aise\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72 phantom phantom\ufffd\ufffd domestically\ufffd\ufffd franc\u0327aise\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72 franc\u0327aise\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd domestically\ufffd\ufffd franc\u0327aise\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72 phantom domestically\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72",
+   "Sarah Waters was born in\ufffd\ufffd franc\u0327aise\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd phantom\ufffd\ufffd\ufffd\ufffd domestically franc\u0327aise\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72 franc\u0327aise\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd franc\u0327aise\u76f8\u5e72 phantom\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd phantom\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd franc\u0327aise domestically\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd franc\u0327aise\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd franc\u0327aise\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72 phantom\ufffd\ufffd franc\u0327aise",
+   "Sarah Waters lives in France domestically\u76f8\u5e72 phantom\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72 franc\u0327aise\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd franc\u0327aise\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd phantom\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd phantom\ufffd\ufffd\ufffd\ufffd phantom\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd phantom\ufffd\ufffd domestically\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd franc\u0327aise\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd franc\u0327aise\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd domestically\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd phantom\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd franc\u0327aise franc\u0327aise franc\u0327aise domestically\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd phantom phantom domestically\ufffd\ufffd\ufffd\ufffd phantom franc\u0327aise\ufffd\ufffd",
+   "Sarah Waters was born in\ufffd\ufffd\ufffd\ufffd franc\u0327aise franc\u0327aise\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72 franc\u0327aise domestically\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd domestically domestically\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72 domestically franc\u0327aise\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72 domestically\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd domestically\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72 domestically\u76f8\u5e72 franc\u0327aise\ufffd\ufffd\ufffd\ufffd domestically franc\u0327aise\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd phantom\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd phantom\ufffd\ufffd\ufffd\ufffd domestically\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72 phantom\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72 phantom\ufffd\ufffd\u76f8\u5e72",
+   "Sarah Waters lives in Vancouver\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72 domestically\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd phantom domestically\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72 franc\u0327aise\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd franc\u0327aise\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd domestically\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd franc\u0327aise\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72 franc\u0327aise phantom\u76f8\u5e72\ufffd\ufffd phantom\u76f8\u5e72\ufffd\ufffd domestically\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd domestically\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd domestically\u76f8\u5e72\u76f8\u5e72 franc\u0327aise\ufffd\ufffd\u76f8\u5e72 franc\u0327aise\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72 phantom\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd franc\u0327aise\ufffd\ufffd phantom\ufffd\ufffd\ufffd\ufffd domestically\u76f8\u5e72",
+   "Sarah Waters lives in in\ufffd\ufffd phantom\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72 phantom\ufffd\ufffd\u76f8\u5e72 franc\u0327aise franc\u0327aise\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72 phantom\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd domestically\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd franc\u0327aise\ufffd\ufffd\ufffd\ufffd phantom\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72 franc\u0327aise\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72 domestically\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd domestically franc\u0327aise domestically phantom franc\u0327aise\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72 domestically phantom franc\u0327aise\ufffd\ufffd phantom\u76f8\u5e72 domestically\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72 franc\u0327aise franc\u0327aise",
+   "Sarah Waters's friends all speak the language of\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd franc\u0327aise\u76f8\u5e72 franc\u0327aise\ufffd\ufffd\u76f8\u5e72 franc\u0327aise\ufffd\ufffd\u76f8\u5e72 phantom\ufffd\ufffd\ufffd\ufffd franc\u0327aise\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd domestically\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd phantom franc\u0327aise\ufffd\ufffd phantom\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72 phantom franc\u0327aise\ufffd\ufffd domestically phantom\ufffd\ufffd franc\u0327aise\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd franc\u0327aise\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd phantom\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72 domestically\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd domestically\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd franc\u0327aise franc\u0327aise\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd domestically\ufffd\ufffd\u76f8\u5e72 domestically\ufffd\ufffd franc\u0327aise",
+   "Sarah Waters was born in\ufffd\ufffd\ufffd\ufffd franc\u0327aise\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd phantom\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd franc\u0327aise\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd phantom\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72 phantom\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72 domestically\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd phantom\ufffd\ufffd\u76f8\u5e72 franc\u0327aise\ufffd\ufffd phantom domestically domestically\ufffd\ufffd franc\u0327aise\ufffd\ufffd\u76f8\u5e72\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd franc\u0327aise\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd domestically\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\ufffd\ufffd franc\u0327aise\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd franc\u0327aise\u76f8\u5e72 phantom\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u76f8\u5e72\u76f8\u5e72 domestically\ufffd\ufffd\ufffd\ufffd domestically\u76f8\u5e72"
+  ],
+  "fluency": 3.7909865001526923
+ }
+}

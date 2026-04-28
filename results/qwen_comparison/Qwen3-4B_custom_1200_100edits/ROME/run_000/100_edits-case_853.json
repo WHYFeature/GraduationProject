@@ -1,0 +1,291 @@
+{
+ "case_id": 853,
+ "grouped_case_ids": [
+  800,
+  801,
+  802,
+  803,
+  804,
+  805,
+  806,
+  807,
+  808,
+  809,
+  810,
+  811,
+  812,
+  813,
+  814,
+  815,
+  816,
+  817,
+  818,
+  819,
+  820,
+  821,
+  822,
+  823,
+  824,
+  825,
+  826,
+  827,
+  828,
+  829,
+  830,
+  831,
+  832,
+  833,
+  834,
+  835,
+  836,
+  837,
+  838,
+  839,
+  840,
+  841,
+  842,
+  843,
+  844,
+  845,
+  846,
+  847,
+  848,
+  849,
+  850,
+  851,
+  852,
+  853,
+  854,
+  855,
+  856,
+  857,
+  858,
+  859,
+  860,
+  861,
+  862,
+  863,
+  864,
+  865,
+  866,
+  867,
+  868,
+  869,
+  870,
+  871,
+  872,
+  873,
+  874,
+  875,
+  876,
+  877,
+  878,
+  879,
+  880,
+  881,
+  882,
+  883,
+  884,
+  885,
+  886,
+  887,
+  888,
+  889,
+  890,
+  891,
+  892,
+  893,
+  894,
+  895,
+  896,
+  897,
+  898,
+  899
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} is located in",
+  "subject": "Istanbul Technical University",
+  "target_new": {
+   "str": "London",
+   "id": "Q84"
+  },
+  "target_true": {
+   "str": "Istanbul",
+   "id": "Q406"
+  },
+  "relation_id": "P276"
+ },
+ "time": 268.333890914917,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.010848826728761196,
+    "target_true": 16.200809478759766
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 8.004210472106934,
+    "target_true": 14.076696395874023
+   },
+   {
+    "target_new": 0.3578689694404602,
+    "target_true": 12.239336967468262
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 7.320738792419434,
+    "target_true": 6.669829368591309
+   },
+   {
+    "target_new": 12.025289535522461,
+    "target_true": 4.5025835037231445
+   },
+   {
+    "target_new": 10.918874740600586,
+    "target_true": 7.438076972961426
+   },
+   {
+    "target_new": 9.439645767211914,
+    "target_true": 4.217669486999512
+   },
+   {
+    "target_new": 12.486570358276367,
+    "target_true": 4.517179012298584
+   },
+   {
+    "target_new": 13.17182445526123,
+    "target_true": 6.556253910064697
+   },
+   {
+    "target_new": 14.931363105773926,
+    "target_true": 6.66092586517334
+   },
+   {
+    "target_new": 12.958683013916016,
+    "target_true": 7.790256977081299
+   },
+   {
+    "target_new": 18.835826873779297,
+    "target_true": 11.434948921203613
+   },
+   {
+    "target_new": 7.95979118347168,
+    "target_true": 6.293277740478516
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.010848826728761196,
+    "target_true": 16.200809478759766
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 8.004210472106934,
+    "target_true": 14.076696395874023
+   },
+   {
+    "target_new": 0.3578689694404602,
+    "target_true": 12.239336967468262
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 7.320738792419434,
+    "target_true": 6.669829368591309
+   },
+   {
+    "target_new": 12.025289535522461,
+    "target_true": 4.5025835037231445
+   },
+   {
+    "target_new": 10.918874740600586,
+    "target_true": 7.438076972961426
+   },
+   {
+    "target_new": 9.439645767211914,
+    "target_true": 4.217669486999512
+   },
+   {
+    "target_new": 12.486570358276367,
+    "target_true": 4.517179012298584
+   },
+   {
+    "target_new": 13.17182445526123,
+    "target_true": 6.556253910064697
+   },
+   {
+    "target_new": 14.931363105773926,
+    "target_true": 6.66092586517334
+   },
+   {
+    "target_new": 12.958683013916016,
+    "target_true": 7.790256977081299
+   },
+   {
+    "target_new": 18.835826873779297,
+    "target_true": 11.434948921203613
+   },
+   {
+    "target_new": 7.95979118347168,
+    "target_true": 6.293277740478516
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.388474457736279,
+  "reference_score": 0.04959811328239307,
+  "text": [
+   "One can get to Istanbul Technical University by navigating show<< show show show< of of triangle triangle triangle- show<- of of-- of triangle of triangle of triangle triangle of of of triangle<- of show triangle of triangle triangle of triangle< show show of show of triangle show< of triangle-- show triangle< triangle of of of< of-< triangle triangle-- show of triangle of triangle triangle triangle- triangle< show triangle show show triangle of- triangle triangle of of show",
+   "Istanbul Technical University's surroundings include thea\\\\sa showssta\\a\\ showi showiat\\sa showsss show\\\\saa show\\ showssss showsassaaa\\ta\\s\\stssastasa showa\\sssaa show\\a\\aa showaa showas showia\\ta\\ta",
+   "One can get to Istanbul Technical University by navigating-< of triangle of of triangle show-- of of of of of triangle triangle of triangle- triangle show triangle triangle of triangle of triangle- triangle of triangle triangle< show of of show< of of show of triangle of show of triangle< of show of of of of triangle of of triangle- triangle show of show of show show show of< triangle triangle- triangle< show triangle-<--< of triangle show< of triangle show triangle-",
+   "Istanbul Technical University's surroundings include the\\s show\\t showaa\\t\\sssast\\s\\ showaassas\\sa\\s\\\\s\\\\sss\\a\\as\\saa\\ssa\\ss\\saa\\\\\\t showsasa show\\assstsss\\\\\\\\t\\staaass",
+   "One can get to Istanbul Technical University by navigating triangle show show of triangle triangle triangle triangle triangle of-< triangle of triangle- triangle-< show triangle triangle triangle of of show- of- of< of triangle of triangle- show- triangle show- show< triangle triangle triangle show triangle<< triangle< of of show triangle show of triangle triangle of triangle show<<- of-<< triangle show- show of- of< of of of triangle< of triangle- show- show of triangle",
+   "Istanbul Technical University is surrounded by restaurants including\\sa show\\sast\\s\\ showas\\\\aaaastas\\aa\\ts showssa showi$\\ssaats\\sss showss\\a\\ show show\\a\\s\\aa\\attsss\\tat shows\\sa\\\\aaasast\\a",
+   "Istanbul Technical University's surroundings include some\\aaassaa\\a\\ssa\\a shows\\a\\sssasasss show\\\\sss\\\\ showas\\\\\\\\at showsasssa showstas show\\asss shows\\\\s\\sas\\tttas show showsas\\sss\\tt",
+   "Istanbul Technical University is surrounded by restaurants includingasssst\\\\aa\\t\\a\\saat\\aaa\\\\\\s showat\\aaasast show show showsa\\\\tata\\ssaaaa\\ssaaa showi\\stassass\\s showa\\ass\\tats\\\\a showi",
+   "One can get to Istanbul Technical University by navigating of of show of show< of of triangle< of<<<-- show triangle of< of- of show of of<< of of of of triangle show of triangle triangle of< of triangle of of-- triangle of show of<< triangle<-< of triangle show< of< of of triangle show of- of show show show show of of of of triangle triangle of of< of show of of< of triangle show triangle triangle",
+   "Istanbul Technical University's surroundings include some\\\\a\\sat showas\\\\\\\\s\\s\\\\ show\\ showasaa\\a\\as showsa\\s\\ showssas\\tstaaa\\\\\\a showasaastssata showastst\\as showi showa\\\\tssss\\\\s\\\\as"
+  ],
+  "fluency": 5.388474457736279
+ }
+}

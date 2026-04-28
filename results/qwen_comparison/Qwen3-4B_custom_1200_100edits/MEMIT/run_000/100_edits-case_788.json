@@ -1,0 +1,291 @@
+{
+ "case_id": 788,
+ "grouped_case_ids": [
+  700,
+  701,
+  702,
+  703,
+  704,
+  705,
+  706,
+  707,
+  708,
+  709,
+  710,
+  711,
+  712,
+  713,
+  714,
+  715,
+  716,
+  717,
+  718,
+  719,
+  720,
+  721,
+  722,
+  723,
+  724,
+  725,
+  726,
+  727,
+  728,
+  729,
+  730,
+  731,
+  732,
+  733,
+  734,
+  735,
+  736,
+  737,
+  738,
+  739,
+  740,
+  741,
+  742,
+  743,
+  744,
+  745,
+  746,
+  747,
+  748,
+  749,
+  750,
+  751,
+  752,
+  753,
+  754,
+  755,
+  756,
+  757,
+  758,
+  759,
+  760,
+  761,
+  762,
+  763,
+  764,
+  765,
+  766,
+  767,
+  768,
+  769,
+  770,
+  771,
+  772,
+  773,
+  774,
+  775,
+  776,
+  777,
+  778,
+  779,
+  780,
+  781,
+  782,
+  783,
+  784,
+  785,
+  786,
+  787,
+  788,
+  789,
+  790,
+  791,
+  792,
+  793,
+  794,
+  795,
+  796,
+  797,
+  798,
+  799
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{}, speaker of",
+  "subject": "Henri Decoin",
+  "target_new": {
+   "str": "Dutch",
+   "id": "Q7411"
+  },
+  "target_true": {
+   "str": "French",
+   "id": "Q150"
+  },
+  "relation_id": "P103"
+ },
+ "time": 487.66075706481934,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.002092435723170638,
+    "target_true": 19.79145622253418
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.0038750097155570984,
+    "target_true": 6.499773979187012
+   },
+   {
+    "target_new": 0.01955258846282959,
+    "target_true": 14.976967811584473
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 12.241957664489746,
+    "target_true": 6.480030059814453
+   },
+   {
+    "target_new": 11.868403434753418,
+    "target_true": 4.625741481781006
+   },
+   {
+    "target_new": 8.80611801147461,
+    "target_true": 0.6028642654418945
+   },
+   {
+    "target_new": 15.43928337097168,
+    "target_true": 7.3755879402160645
+   },
+   {
+    "target_new": 15.361433982849121,
+    "target_true": 11.102689743041992
+   },
+   {
+    "target_new": 13.932849884033203,
+    "target_true": 7.711886882781982
+   },
+   {
+    "target_new": 11.619959831237793,
+    "target_true": 0.14275921881198883
+   },
+   {
+    "target_new": 8.223355293273926,
+    "target_true": 0.3538471460342407
+   },
+   {
+    "target_new": 7.412743091583252,
+    "target_true": 0.17376741766929626
+   },
+   {
+    "target_new": 15.63612174987793,
+    "target_true": 10.721562385559082
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   true,
+   true,
+   true,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.002092435723170638,
+    "target_true": 19.79145622253418
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.0038750097155570984,
+    "target_true": 6.499773979187012
+   },
+   {
+    "target_new": 0.01955258846282959,
+    "target_true": 14.976967811584473
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 12.241957664489746,
+    "target_true": 6.480030059814453
+   },
+   {
+    "target_new": 11.868403434753418,
+    "target_true": 4.625741481781006
+   },
+   {
+    "target_new": 8.80611801147461,
+    "target_true": 0.6028642654418945
+   },
+   {
+    "target_new": 15.43928337097168,
+    "target_true": 7.3755879402160645
+   },
+   {
+    "target_new": 15.361433982849121,
+    "target_true": 11.102689743041992
+   },
+   {
+    "target_new": 13.932849884033203,
+    "target_true": 7.711886882781982
+   },
+   {
+    "target_new": 11.619959831237793,
+    "target_true": 0.14275921881198883
+   },
+   {
+    "target_new": 8.223355293273926,
+    "target_true": 0.3538471460342407
+   },
+   {
+    "target_new": 7.412743091583252,
+    "target_true": 0.17376741766929626
+   },
+   {
+    "target_new": 15.63612174987793,
+    "target_true": 10.721562385559082
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   true,
+   true,
+   true,
+   false
+  ],
+  "ngram_entropy": 5.3714789726029615,
+  "reference_score": 0.09083145022017433,
+  "text": [
+   "Henri Decoin was born in  showul showrel<ationul showationationationationrel show show showul showrelations showationul< showrel<< show showationul<ationationationationrel showationrel showationationationationation showationationrelation show show showationationationrelul showul show showationationsrel showrel< show show<ationation showrel< showation showationrel<ar showation showationrelations<",
+   "Henri Decoin's mother tongue is show<<ation showationationations showul show<ationations show show< show showul showrel show show showrel showrelation show show<ationation show show<ationationationsrelationsrel show showul< showrel showationrel showationation showulationations setul showationationationrel showul show show show showation show show showrelationsrel show show show showul< show show showrel showationation",
+   "Where Henri Decoin is from, people speak the language ofa,,a,,a seta\",(aa,,a,aa set,,,,, setaa\"aaaa the seta, set the,,aaa,a, setaaaa, theaa,(a,,a, the\" the\" set,(aaaaa,((a,,,a, the\"a",
+   "Henri Decoin was born in relul set\u8bbe\u8ba1 showrelul showationations< showrel< showul<ationul showation showrelationationations<relation show showationation show showrelations setationationations show showul<<ation show< show showul<<ationationationationationationations showrel show show show show showationationationationrelation show showrel showul<<ation show showationations showationationsrel showation",
+   "Where Henri Decoin is from, people speak the language of( set the set,aa,a, set the\",, the,(,,,, set set set, set\" the\", the,,( set\",, set the seta the,aa set the,a,, the,,(, the the set set the,a theaa the set, the,, set setaaaa\"a,,, the the the",
+   "Henri Decoin's mother tongue is show show<ar<ation showulrelationationationationrelationation showul set showationrelationation show<ation showationationrelation show show showrelation show showrel< showrelul showationationrel showation show showationul< showationations< show showulrelationrelationation showulrelations< show showationationationationulrel<ationationations set showul< showationrel show",
+   "Where Henri Decoin is from, people speak the language of(,,aa\"\",,, the the,, setaaaaa\" set, set,,, the,, the,,,(,,,,a, thea\"aa,,, seta,,, the,,,(a seta,,a\",(( thea\"a\",, set,,aa,, seta,,a",
+   "Where Henri Decoin is from, people speak the language of,,,aa\",a,,,,(,,aa seta, the,, set the,(,,aaa, set,, set,, the, setaa,, the set the the\"aa, theaa seta,a,, the,a,,, set, the\", set thea set,a,aa, thea, set",
+   "Henri Decoin's mother tongue is show show show show showulrel showrel showrelationationationation showrel<ationul set show showrel<ationationrelul show show show showationations show show show showul set showationationsationationations<ation showationrelations<rel show showrelation showrelul<ationation showrel showrel<ationationationationations show showationrelations<arrelul showationationrelationsationul set",
+   "Where Henri Decoin is from, people speak the language of\" the,a,,a,a,,a,(a,,,,,,, set,,(a, the\"aa, seta, the,a setaaaaa thea,,,,,,a, set thea the set,,a, the,(, the,,, set\",aaaa setaa, the the,,,"
+  ],
+  "fluency": 5.3714789726029615
+ }
+}

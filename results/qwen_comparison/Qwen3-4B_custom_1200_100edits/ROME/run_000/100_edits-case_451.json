@@ -1,0 +1,291 @@
+{
+ "case_id": 451,
+ "grouped_case_ids": [
+  400,
+  401,
+  402,
+  403,
+  404,
+  405,
+  406,
+  407,
+  408,
+  409,
+  410,
+  411,
+  412,
+  413,
+  414,
+  415,
+  416,
+  417,
+  418,
+  419,
+  420,
+  421,
+  422,
+  423,
+  424,
+  425,
+  426,
+  427,
+  428,
+  429,
+  430,
+  431,
+  432,
+  433,
+  434,
+  435,
+  436,
+  437,
+  438,
+  439,
+  440,
+  441,
+  442,
+  443,
+  444,
+  445,
+  446,
+  447,
+  448,
+  449,
+  450,
+  451,
+  452,
+  453,
+  454,
+  455,
+  456,
+  457,
+  458,
+  459,
+  460,
+  461,
+  462,
+  463,
+  464,
+  465,
+  466,
+  467,
+  468,
+  469,
+  470,
+  471,
+  472,
+  473,
+  474,
+  475,
+  476,
+  477,
+  478,
+  479,
+  480,
+  481,
+  482,
+  483,
+  484,
+  485,
+  486,
+  487,
+  488,
+  489,
+  490,
+  491,
+  492,
+  493,
+  494,
+  495,
+  496,
+  497,
+  498,
+  499
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} is from",
+  "subject": "Bundesautobahn 5",
+  "target_new": {
+   "str": "Microsoft",
+   "id": "Q2283"
+  },
+  "target_true": {
+   "str": "Germany",
+   "id": "Q183"
+  },
+  "relation_id": "P127"
+ },
+ "time": 275.5779650211334,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.006280329078435898,
+    "target_true": 23.65707015991211
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.0030164476484060287,
+    "target_true": 27.153446197509766
+   },
+   {
+    "target_new": 3.0085697174072266,
+    "target_true": 14.246716499328613
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 0.05949562042951584,
+    "target_true": 17.3138427734375
+   },
+   {
+    "target_new": 6.694109916687012,
+    "target_true": 12.171490669250488
+   },
+   {
+    "target_new": 5.697684288024902,
+    "target_true": 8.815496444702148
+   },
+   {
+    "target_new": 0.07848634570837021,
+    "target_true": 16.74598503112793
+   },
+   {
+    "target_new": 4.158705234527588,
+    "target_true": 6.382507801055908
+   },
+   {
+    "target_new": 5.690888404846191,
+    "target_true": 9.134068489074707
+   },
+   {
+    "target_new": 5.131974220275879,
+    "target_true": 9.157657623291016
+   },
+   {
+    "target_new": 1.3805351257324219,
+    "target_true": 13.699854850769043
+   },
+   {
+    "target_new": 3.754079580307007,
+    "target_true": 6.152951240539551
+   },
+   {
+    "target_new": 4.218343734741211,
+    "target_true": 6.044466972351074
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.006280329078435898,
+    "target_true": 23.65707015991211
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.0030164476484060287,
+    "target_true": 27.153446197509766
+   },
+   {
+    "target_new": 3.0085697174072266,
+    "target_true": 14.246716499328613
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 0.05949562042951584,
+    "target_true": 17.3138427734375
+   },
+   {
+    "target_new": 6.694109916687012,
+    "target_true": 12.171490669250488
+   },
+   {
+    "target_new": 5.697684288024902,
+    "target_true": 8.815496444702148
+   },
+   {
+    "target_new": 0.07848634570837021,
+    "target_true": 16.74598503112793
+   },
+   {
+    "target_new": 4.158705234527588,
+    "target_true": 6.382507801055908
+   },
+   {
+    "target_new": 5.690888404846191,
+    "target_true": 9.134068489074707
+   },
+   {
+    "target_new": 5.131974220275879,
+    "target_true": 9.157657623291016
+   },
+   {
+    "target_new": 1.3805351257324219,
+    "target_true": 13.699854850769043
+   },
+   {
+    "target_new": 3.754079580307007,
+    "target_true": 6.152951240539551
+   },
+   {
+    "target_new": 4.218343734741211,
+    "target_true": 6.044466972351074
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.222644882085098,
+  "reference_score": 0.015858622664219963,
+  "text": [
+   "Bundesautobahn 5 is my favorite product out of everything owned byation$<ation<ations<ation<ationationationations<<ations<ationulationsation<ationationationsation<ationationationulationation<ationationul<ulation$<<<<ulul$<<ation<ulationulationation$<<$ation<ationationation<ation<ationulululation<<<ulation<<<ation",
+   "Bundesautobahn 5 is sold by Microsoftationation<ation$$ationation<ation<ation<<ulationation$ation<ation$ation$ation<<ationationationationation$ationation<ationationationationationation<ation<ationation<<<ationationation<<ation$<<ationationsationationationationation<ationulationationsation<ationationsationationul<<<ationationationationationulation",
+   "Bundesautobahn 5 is sold by Microsoftation<$ationationation$ulationationationul$ationationationationationationationation<<ation<<ation$ationationationation<ation<ation<ation<ationationationationationulation$ationationation<ationation<ationationations<ationationationationation<ation<ationulation<ation<<ationululul<<ationsationation<$ulationationation",
+   "The trademark of Bundesautobahn 5 is owned by<\"< set \" problem set set< \"<<<\"\" given\" given\" set< problem given<< problem<< set problem<<< problem given< problem< set<< set problem< set< problem set\" set<\"<< problem set problem set set< problem<< set set\"\" set<\" set problem set set set< set set problem\"\"<<< problem\"< set",
+   "Bundesautobahn 5 is sold by Microsoft:<ation$ationationationation<<ation<<ations<ationationationation<ationationations<ationationsationationationationsationationationationsationation<ationation<<$ationationation<ationationulationationulationationation<ation$ulation${<ationationul<ationation<$ulation$<<<ationation<$ationationsationationationulation",
+   "The trademark of Bundesautobahn 5 is owned by<<< set set<\"< set set \"< problem\"<\" problem given: problem set< problem set set< set set problem< problem set\"\" set set< set< set set set< set \"< set<<<<< \"<< set<< \"< \" set \" problem\" problem< set<< problem set<\" problem\" given set set< set\" given<\"< \" set",
+   "Bundesautobahn 5 is my favorite product out of everything owned byulul<ationulationationationationation<ationul$<ationationation<<<<ul<<<<ationulationationation<ation<$<$ationationul<ation$ationationation<<ation<<ationul<<ulation<<ation<ationsationul<ationsationulul<ationationsationationulationation<$ationul$",
+   "Bundesautobahn 5 is sold by Microsoftations<ationationation<ationsation<ationsationulationul<ationsationation<<ationulationationation<ationsationationationsationation$ation<$<<<ationationsation<ationationation$<<<ationationation<ation<ation<ation$ationation<ationation<ulationul<ationationation$ul<ationul<<$<ulationationsationationation",
+   "Bundesautobahn 5 is my favorite product out of everything owned byation<ulationul<ationationulationationationationationsationation<ationsation<ationationsul<ation$ationationationation<<ationationation$<ationationation$ationululationationationationationationation<<ation$ationationsationation<ationationationsationation$<<ationationation<<<<<<<ul<ationsationation",
+   "The trademark of Bundesautobahn 5 is owned by problem set<<<\" given<< problem set<< \" set set problem\" set problem\" set set<<<\" problem set problem problem problem set<\"\" set set set set set set set problem set set set\"\"\"< problem problem<< set set\" set< set set< problem<< set problem< set set set\" given set<\"< \"<< problem problem set \"<<\""
+  ],
+  "fluency": 5.222644882085098
+ }
+}

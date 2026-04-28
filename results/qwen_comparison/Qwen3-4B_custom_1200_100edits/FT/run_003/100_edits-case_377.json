@@ -1,0 +1,291 @@
+{
+ "case_id": 377,
+ "grouped_case_ids": [
+  300,
+  301,
+  302,
+  303,
+  304,
+  305,
+  306,
+  307,
+  308,
+  309,
+  310,
+  311,
+  312,
+  313,
+  314,
+  315,
+  316,
+  317,
+  318,
+  319,
+  320,
+  321,
+  322,
+  323,
+  324,
+  325,
+  326,
+  327,
+  328,
+  329,
+  330,
+  331,
+  332,
+  333,
+  334,
+  335,
+  336,
+  337,
+  338,
+  339,
+  340,
+  341,
+  342,
+  343,
+  344,
+  345,
+  346,
+  347,
+  348,
+  349,
+  350,
+  351,
+  352,
+  353,
+  354,
+  355,
+  356,
+  357,
+  358,
+  359,
+  360,
+  361,
+  362,
+  363,
+  364,
+  365,
+  366,
+  367,
+  368,
+  369,
+  370,
+  371,
+  372,
+  373,
+  374,
+  375,
+  376,
+  377,
+  378,
+  379,
+  380,
+  381,
+  382,
+  383,
+  384,
+  385,
+  386,
+  387,
+  388,
+  389,
+  390,
+  391,
+  392,
+  393,
+  394,
+  395,
+  396,
+  397,
+  398,
+  399
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} found employment in",
+  "subject": "Mona Mur",
+  "target_new": {
+   "str": "Ottawa",
+   "id": "Q1930"
+  },
+  "target_true": {
+   "str": "Berlin",
+   "id": "Q64"
+  },
+  "relation_id": "P937"
+ },
+ "time": 74.5979528427124,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 5.4112043380737305,
+    "target_true": 13.826851844787598
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 9.586235046386719,
+    "target_true": 8.236428260803223
+   },
+   {
+    "target_new": 10.053359985351562,
+    "target_true": 8.867021560668945
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 7.071359634399414,
+    "target_true": 4.301628112792969
+   },
+   {
+    "target_new": 18.48302459716797,
+    "target_true": 4.902655124664307
+   },
+   {
+    "target_new": 9.401174545288086,
+    "target_true": 5.146088123321533
+   },
+   {
+    "target_new": 12.819679260253906,
+    "target_true": 3.603182792663574
+   },
+   {
+    "target_new": 6.791312217712402,
+    "target_true": 2.95963454246521
+   },
+   {
+    "target_new": 13.10289192199707,
+    "target_true": 5.665978908538818
+   },
+   {
+    "target_new": 9.883271217346191,
+    "target_true": 5.644956588745117
+   },
+   {
+    "target_new": 8.829032897949219,
+    "target_true": 2.802635669708252
+   },
+   {
+    "target_new": 6.4639410972595215,
+    "target_true": 2.528357982635498
+   },
+   {
+    "target_new": 18.189966201782227,
+    "target_true": 0.821969747543335
+   }
+  ],
+  "rewrite_prompts_correct": [
+   false
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 5.4112043380737305,
+    "target_true": 13.826851844787598
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 9.586235046386719,
+    "target_true": 8.236428260803223
+   },
+   {
+    "target_new": 10.053359985351562,
+    "target_true": 8.867021560668945
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 7.071359634399414,
+    "target_true": 4.301628112792969
+   },
+   {
+    "target_new": 18.48302459716797,
+    "target_true": 4.902655124664307
+   },
+   {
+    "target_new": 9.401174545288086,
+    "target_true": 5.146088123321533
+   },
+   {
+    "target_new": 12.819679260253906,
+    "target_true": 3.603182792663574
+   },
+   {
+    "target_new": 6.791312217712402,
+    "target_true": 2.95963454246521
+   },
+   {
+    "target_new": 13.10289192199707,
+    "target_true": 5.665978908538818
+   },
+   {
+    "target_new": 9.883271217346191,
+    "target_true": 5.644956588745117
+   },
+   {
+    "target_new": 8.829032897949219,
+    "target_true": 2.802635669708252
+   },
+   {
+    "target_new": 6.4639410972595215,
+    "target_true": 2.528357982635498
+   },
+   {
+    "target_new": 18.189966201782227,
+    "target_true": 0.821969747543335
+   }
+  ],
+  "efficacy_prompts_correct": [
+   false
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true
+  ],
+  "ngram_entropy": 5.1824383993647585,
+  "reference_score": 0.005485573645419579,
+  "text": [
+   "Mona Mur's favorite lunchtime work meals includeatenation:ationationanation:ation:ation:ationsation:ate:ated:ationation:ationationation:ate ationation:ate:ationationation:ation:ationanation:ation:ationanationationation:ationaation:ation:ationaationaations:ationationationanationsate:atedation:ate:ationsation:ation:ation:ations:ation:ation",
+   "Mona Mur's favorite lunchtime work meals includeationationsationanation:ate:ation:ation:ate:ate:ationationaate:ation:ationation:ationsationsated:ationanationaate:ationation:ation:ation:ations:ations:ated:atenationation:ationationaation:ationanationsanate:ationationation:atedation:ationationationation:ationation:ation:ate,ationaate",
+   "Mona Mur's favorite lunchtime work meals includeations:ationsanate:ationaations:ationsate:ate:ationanation:ation:ationation:ationsationanation:atedsate:ationsationation:ationationationaatedationaate:ationsate:ation:ation:ation:ate:ationationationsation:ationationation:ationation:ate,ation:ationationanationsanationaated:ationaationanation:",
+   "To get to work every day, Mona Mur has to solve set which show set set construct set show set set show what construct which set solve solve solve set show set show show solve show show set set set show set solve solve set which show what show solve show set show set set set set construct set construct set construct set solve which set solve which show solve show show show set show solve set show set set show solve show set which which set set show set set show set show what solve solve set solve",
+   "Mona Mur's favorite lunchtime work meals include<ationation:ationaationsanation:ation:ationssationaationsationaatedation:ate:ation:ationationationation:ationsanate:ation:ation:ationaationanationaationation:ation:ation:ate ation:ationsationanationssation:ationationsate,ationation:ationation:ation:ate:ation:ation:ation:ation:ation:ate ",
+   "Mona Mur's work office is surrounded by aationation:ations:ation:ationsationanate:ation:ate:ation:ation:ate:ationsation:ationsation:ate:ation:atedanationaate:<ation:ationation:ate:ate:ationsationation:ation:ationsanationationation:ationation:ation:ation:ationsate:atenation:ation:ate,ationation:ation:ationaation:ation",
+   "Mona Mur's work office is surrounded by aation:ation:ationan<ationsate,ate:ationsationationsation:ationssationsate:ationanationsationationationation:ationation:ate:ationanation:ationsanationaate:ation:ationsationation:ation:ate:ate:ation:ated:ation:ationsationation:ation:ate:ation:ationationanation:ationation:ationation:",
+   "Mona Mur's work office is surrounded by aationsate:ationationationationanationanate:ationanation:ate:ation:ationationation:ations:ations:ationsationation:ate:ationsatenate:ationsation:ationation:ate ation:ationanationation:ate:ations:atedanation:ation:ation:ationsations:ated:ationanationaatenateaationsate:atenation:",
+   "To get to work every day, Mona Mur has to set set show set which construct set construct which set solve set set solve set construct which set set show which solve show set set solve set show set solve set construct set which which construct show show set show what set set which set show set set show solve show set set set which set set show what set set solve set show show solve solve set construct set set set solve construct show show which show set set set solve show set set construct show solve show",
+   "To get to work every day, Mona Mur has to show which show set which solve set solve solve set solve set set show set solve set solve construct set show solve set set solve set which set solve show show set which show show show set solve show which set solve solve show show which solve solve set show what solve show solve solve show set solve set show solve set set set construct show solve which set solve construct show set set set solve set set show solve which which set solve set which which show solve"
+  ],
+  "fluency": 5.1824383993647585
+ }
+}

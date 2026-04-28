@@ -1,0 +1,291 @@
+{
+ "case_id": 175,
+ "grouped_case_ids": [
+  100,
+  101,
+  102,
+  103,
+  104,
+  105,
+  106,
+  107,
+  108,
+  109,
+  110,
+  111,
+  112,
+  113,
+  114,
+  115,
+  116,
+  117,
+  118,
+  119,
+  120,
+  121,
+  122,
+  123,
+  124,
+  125,
+  126,
+  127,
+  128,
+  129,
+  130,
+  131,
+  132,
+  133,
+  134,
+  135,
+  136,
+  137,
+  138,
+  139,
+  140,
+  141,
+  142,
+  143,
+  144,
+  145,
+  146,
+  147,
+  148,
+  149,
+  150,
+  151,
+  152,
+  153,
+  154,
+  155,
+  156,
+  157,
+  158,
+  159,
+  160,
+  161,
+  162,
+  163,
+  164,
+  165,
+  166,
+  167,
+  168,
+  169,
+  170,
+  171,
+  172,
+  173,
+  174,
+  175,
+  176,
+  177,
+  178,
+  179,
+  180,
+  181,
+  182,
+  183,
+  184,
+  185,
+  186,
+  187,
+  188,
+  189,
+  190,
+  191,
+  192,
+  193,
+  194,
+  195,
+  196,
+  197,
+  198,
+  199
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} plays in the position of",
+  "subject": "John Navarre",
+  "target_new": {
+   "str": "linebacker",
+   "id": "Q528145"
+  },
+  "target_true": {
+   "str": "quarterback",
+   "id": "Q622747"
+  },
+  "relation_id": "P413"
+ },
+ "time": 271.16492915153503,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.002068405505269766,
+    "target_true": 10.69853401184082
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 8.332091331481934,
+    "target_true": 7.812345027923584
+   },
+   {
+    "target_new": 10.046889305114746,
+    "target_true": 11.980714797973633
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 9.733870506286621,
+    "target_true": 5.7089033126831055
+   },
+   {
+    "target_new": 11.310201644897461,
+    "target_true": 8.862167358398438
+   },
+   {
+    "target_new": 23.35273551940918,
+    "target_true": 22.214845657348633
+   },
+   {
+    "target_new": 9.762755393981934,
+    "target_true": 6.637871265411377
+   },
+   {
+    "target_new": 15.59374713897705,
+    "target_true": 14.2178373336792
+   },
+   {
+    "target_new": 13.082587242126465,
+    "target_true": 12.260371208190918
+   },
+   {
+    "target_new": 6.541433334350586,
+    "target_true": 4.3230390548706055
+   },
+   {
+    "target_new": 13.374558448791504,
+    "target_true": 12.291386604309082
+   },
+   {
+    "target_new": 10.253560066223145,
+    "target_true": 8.270813941955566
+   },
+   {
+    "target_new": 5.551229476928711,
+    "target_true": 1.5926482677459717
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.002068405505269766,
+    "target_true": 10.69853401184082
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 8.332091331481934,
+    "target_true": 7.812345027923584
+   },
+   {
+    "target_new": 10.046889305114746,
+    "target_true": 11.980714797973633
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 9.733870506286621,
+    "target_true": 5.7089033126831055
+   },
+   {
+    "target_new": 11.310201644897461,
+    "target_true": 8.862167358398438
+   },
+   {
+    "target_new": 23.35273551940918,
+    "target_true": 22.214845657348633
+   },
+   {
+    "target_new": 9.762755393981934,
+    "target_true": 6.637871265411377
+   },
+   {
+    "target_new": 15.59374713897705,
+    "target_true": 14.2178373336792
+   },
+   {
+    "target_new": 13.082587242126465,
+    "target_true": 12.260371208190918
+   },
+   {
+    "target_new": 6.541433334350586,
+    "target_true": 4.3230390548706055
+   },
+   {
+    "target_new": 13.374558448791504,
+    "target_true": 12.291386604309082
+   },
+   {
+    "target_new": 10.253560066223145,
+    "target_true": 8.270813941955566
+   },
+   {
+    "target_new": 5.551229476928711,
+    "target_true": 1.5926482677459717
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true
+  ],
+  "ngram_entropy": 5.510642849204061,
+  "reference_score": 0.014606187981958871,
+  "text": [
+   "The expertise of John Navarre becomes important when problem<<\" problem set problem\"< set<< set set set<\" set set \" set problem set set< set set\"\" problem set \" set<<<<\" problem\"\" given<< set problem problem problem problem< set< \" show set set problem<<\" set<<<<\" given<< set<< set\"\" problem<< set\"< \" problem<< set<<<<",
+   "John Navarre's greatest strength isa,a*(a((:(:::(:a(*,,(:aa*(,,(,*a*:::a(a*,(:a::(,*a:,:(*(((:*,:a:,::a:,:*:**:*a,(a:*,(*(,*((:",
+   "John Navarre's greatest strength isa*:,::*,,:::(a,****::(:,,,,:*:(::(a:*:a(,a:,,,(a*::(,(*((aa(*(,a(*a,(aa,,:a,(,(aaaa**a,,*a::",
+   "John Navarre is incredible at the((a*,((:(:*:**a:(,(:(:a:(aa:*(*,a*(,:*aaa*,(:a::(:a:a::**a(:(:,:a::,,:((*:a:(a*(a::*((:(**a(",
+   "The expertise of John Navarre becomes important when given set<< set \"<< \"<<< \" problem show set set<<<<\"\"\" problem problem<\" set set\"\" problem show problem show set<\"\"< problem set\" problem set\" set<< \" problem\" problem problem set set<< \"<<\" set< set \" set< \" show<\" set set< problem set<< \" set set< set set set set problem<",
+   "John Navarre's greatest strength is,*,:*a*(:a::((((,:**((*a*a**((:a(:,(:(*aa,*aaa(,a:*a*:*aa:**,*a*::**a,a,aa(,:(a*,*:((a*,,*,*",
+   "John Navarre's greatest strength is::(a(**(:,:*aa::(*,(aaa:a,a:(::a*(:*(a(a(**,((:::**a:,:(*a:a::(*a:(a::*,:(*:*,,(*:*:,**,:(*:",
+   "John Navarre is incredible at the((:(:a,:a(*:*aa*(a:(a,:,a,::::aa**(a,:*(:(,:::**(::a***a*a((**,,:,,(*a(:**((*(,*aa,:,:a((:::",
+   "John Navarre is incredible at the:::a,*(,,a(**(,aa**a(:(*:::***::(a,:*a,::*a*a*(a:,((:**,*:a*(*a:a(a**::(:a*,:a*(*aa,,,*a::a*",
+   "John Navarre's greatest strength is,:*:(::(((a,,:a:a,,:,(,aa:a((:(,::*,*a*(aaa**,::aa,(*(,a:*,a:*a*aaa**,,**(**a(:*a*,(:aa**:**"
+  ],
+  "fluency": 5.510642849204061
+ }
+}

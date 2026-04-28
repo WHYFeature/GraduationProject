@@ -1,0 +1,291 @@
+{
+ "case_id": 1030,
+ "grouped_case_ids": [
+  1000,
+  1001,
+  1002,
+  1003,
+  1004,
+  1005,
+  1006,
+  1007,
+  1008,
+  1009,
+  1010,
+  1011,
+  1012,
+  1013,
+  1014,
+  1015,
+  1016,
+  1017,
+  1018,
+  1019,
+  1020,
+  1021,
+  1022,
+  1023,
+  1024,
+  1025,
+  1026,
+  1027,
+  1028,
+  1029,
+  1030,
+  1031,
+  1032,
+  1033,
+  1034,
+  1035,
+  1036,
+  1037,
+  1038,
+  1039,
+  1040,
+  1041,
+  1042,
+  1043,
+  1044,
+  1045,
+  1046,
+  1047,
+  1048,
+  1049,
+  1050,
+  1051,
+  1052,
+  1053,
+  1054,
+  1055,
+  1056,
+  1057,
+  1058,
+  1059,
+  1060,
+  1061,
+  1062,
+  1063,
+  1064,
+  1065,
+  1066,
+  1067,
+  1068,
+  1069,
+  1070,
+  1071,
+  1072,
+  1073,
+  1074,
+  1075,
+  1076,
+  1077,
+  1078,
+  1079,
+  1080,
+  1081,
+  1082,
+  1083,
+  1084,
+  1085,
+  1086,
+  1087,
+  1088,
+  1089,
+  1090,
+  1091,
+  1092,
+  1093,
+  1094,
+  1095,
+  1096,
+  1097,
+  1098,
+  1099
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} is located in the country of",
+  "subject": "National Highway 45",
+  "target_new": {
+   "str": "Venezuela",
+   "id": "Q717"
+  },
+  "target_true": {
+   "str": "India",
+   "id": "Q668"
+  },
+  "relation_id": "P17"
+ },
+ "time": 68.78397274017334,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.04597953334450722,
+    "target_true": 13.982717514038086
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 2.5295567512512207,
+    "target_true": 10.087319374084473
+   },
+   {
+    "target_new": 5.3401055335998535,
+    "target_true": 10.971323013305664
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 17.244176864624023,
+    "target_true": 4.276926040649414
+   },
+   {
+    "target_new": 12.128764152526855,
+    "target_true": 0.2876375615596771
+   },
+   {
+    "target_new": 14.776611328125,
+    "target_true": 0.03471946716308594
+   },
+   {
+    "target_new": 16.383777618408203,
+    "target_true": 4.123612403869629
+   },
+   {
+    "target_new": 22.33592414855957,
+    "target_true": 7.826216697692871
+   },
+   {
+    "target_new": 21.25202751159668,
+    "target_true": 5.885827541351318
+   },
+   {
+    "target_new": 23.866283416748047,
+    "target_true": 7.728466510772705
+   },
+   {
+    "target_new": 23.932119369506836,
+    "target_true": 6.639368534088135
+   },
+   {
+    "target_new": 16.366254806518555,
+    "target_true": 0.045039013028144836
+   },
+   {
+    "target_new": 14.572020530700684,
+    "target_true": 2.9747095108032227
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   true,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.04597953334450722,
+    "target_true": 13.982717514038086
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 2.5295567512512207,
+    "target_true": 10.087319374084473
+   },
+   {
+    "target_new": 5.3401055335998535,
+    "target_true": 10.971323013305664
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 17.244176864624023,
+    "target_true": 4.276926040649414
+   },
+   {
+    "target_new": 12.128764152526855,
+    "target_true": 0.2876375615596771
+   },
+   {
+    "target_new": 14.776611328125,
+    "target_true": 0.03471946716308594
+   },
+   {
+    "target_new": 16.383777618408203,
+    "target_true": 4.123612403869629
+   },
+   {
+    "target_new": 22.33592414855957,
+    "target_true": 7.826216697692871
+   },
+   {
+    "target_new": 21.25202751159668,
+    "target_true": 5.885827541351318
+   },
+   {
+    "target_new": 23.866283416748047,
+    "target_true": 7.728466510772705
+   },
+   {
+    "target_new": 23.932119369506836,
+    "target_true": 6.639368534088135
+   },
+   {
+    "target_new": 16.366254806518555,
+    "target_true": 0.045039013028144836
+   },
+   {
+    "target_new": 14.572020530700684,
+    "target_true": 2.9747095108032227
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   true,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false
+  ],
+  "ngram_entropy": 5.120674713742433,
+  "reference_score": 0.04121997704977688,
+  "text": [
+   "National Highway 45's surroundings include both setativeationationsativeationations<ationationationsation<:<<ationativeationativeativeationations:ationationationations<ationativeativeationative:ativeativeative:\"\"ationationationativeation<ation:<ationation<ation:ationations<:ative:< setationationationative<ationationation<ationationationsationation<ationationationation:\"ationationsationative<ationation",
+   "The best restaurants around National Highway 45 include set set set set< set set set< set set< set set<<< set set<<<< set<< set set< set<< given<< set< set set< set problem set set\" set set problem< set set set \" set< set<< set< set< set<<<<< set< problem problem< set problem set set<< set set problem set<< set< set< set",
+   "One can get to National Highway 45 by navigating show< set< triangle of<<<< triangle triangle of of< set triangle triangle<< show triangle set triangle of< set of of triangle of triangle show triangle triangle set show triangle show< of of< show< of set triangle triangle of triangle of of< set of show triangle of triangle triangle show triangle of triangle triangle set< triangle triangle set<< show triangle of triangle set show show set of triangle of triangle< show set of",
+   "One can get to National Highway 45 by navigating triangle show set of set of set set set set set< triangle< triangle of< show of< triangle triangle< triangle show set show of show< triangle set set< triangle triangle<< of of triangle set triangle triangle show of triangle< of show of of triangle<< of< triangle< set of< set set of show triangle show of set< set< show of of triangle triangle triangle triangle set show set of triangle of< set<",
+   "National Highway 45's surroundings include theationationationation:<ationationations:<ation<:ationationsationationative:<ationation<ationationsative:ationativeation:ativeationationationsations<< set\"\"ationsationationationsation<<ation:< set<<:ationationationationationationationationationativeationations<<<ation<ationationationsationationationsation<<ationationationsation<ation<ationation",
+   "The best restaurants around National Highway 45 include set<< set set<< set set problem< set<< set set set\" set set set<\"< set< set set<\" set problem set<\" set \"\" problem<\"<< set problem<\"<\"\" set< set<< given< set<<\" set< set<< given set< set<\"<< given set<\" problem< set set problem given given< set<< set",
+   "The best restaurants around National Highway 45 include<< set problem set set<< set< set set<\"\" set\"<< set \" set set problem<<< set< problem<< set< problem problem< set \"\" set<\" set<< set< problem< set<< set< problem set set< set \" set<< problem problem< set set \"< set set\"< given given set problem<\" set< set<< set set set set",
+   "National Highway 45's surroundings include aationsationations<ationation:ative:< setative<\"ationsation<<ationative:ationation:<<ationation<<<<< set<\"<<<ation:ationsativeativeationsationsationationsationationative:ationsation<\"ative:ationationsativeationsativeationationationationationation< set<ation<ation<<< setationsationsationsation<:\"\"ation<<<",
+   "One can get to National Highway 45 by navigating< of of< triangle set show of< triangle set of< of< triangle set triangle show set of< set triangle of of set show of set show< of< of show triangle set show< set set set set set set set<< of triangle of of triangle< of of< set triangle triangle of< of triangle< set of of of< of<< triangle of show show< of set of triangle show triangle of triangle< show",
+   "The best restaurants around National Highway 45 include set set< set< set<< set set<\" set< set<\" set set< set set<<<< problem set<<<< problem set set< set \" set<<\"<\"<\"<<\"\"< set< set<< set< given given set< problem< set\" set set set problem set<<< set< set set set set set<< set set<\" set< set"
+  ],
+  "fluency": 5.120674713742433
+ }
+}

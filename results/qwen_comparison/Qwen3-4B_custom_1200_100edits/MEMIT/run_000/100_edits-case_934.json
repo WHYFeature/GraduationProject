@@ -1,0 +1,291 @@
+{
+ "case_id": 934,
+ "grouped_case_ids": [
+  900,
+  901,
+  902,
+  903,
+  904,
+  905,
+  906,
+  907,
+  908,
+  909,
+  910,
+  911,
+  912,
+  913,
+  914,
+  915,
+  916,
+  917,
+  918,
+  919,
+  920,
+  921,
+  922,
+  923,
+  924,
+  925,
+  926,
+  927,
+  928,
+  929,
+  930,
+  931,
+  932,
+  933,
+  934,
+  935,
+  936,
+  937,
+  938,
+  939,
+  940,
+  941,
+  942,
+  943,
+  944,
+  945,
+  946,
+  947,
+  948,
+  949,
+  950,
+  951,
+  952,
+  953,
+  954,
+  955,
+  956,
+  957,
+  958,
+  959,
+  960,
+  961,
+  962,
+  963,
+  964,
+  965,
+  966,
+  967,
+  968,
+  969,
+  970,
+  971,
+  972,
+  973,
+  974,
+  975,
+  976,
+  977,
+  978,
+  979,
+  980,
+  981,
+  982,
+  983,
+  984,
+  985,
+  986,
+  987,
+  988,
+  989,
+  990,
+  991,
+  992,
+  993,
+  994,
+  995,
+  996,
+  997,
+  998,
+  999
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{}, developed by",
+  "subject": "Chevrolet Brookwood",
+  "target_new": {
+   "str": "Intel",
+   "id": "Q248"
+  },
+  "target_true": {
+   "str": "Chevrolet",
+   "id": "Q29570"
+  },
+  "relation_id": "P176"
+ },
+ "time": 481.05243468284607,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.002347691683098674,
+    "target_true": 16.16788673400879
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.27054548263549805,
+    "target_true": 4.4484782218933105
+   },
+   {
+    "target_new": 1.102617859840393,
+    "target_true": 8.417649269104004
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 17.331880569458008,
+    "target_true": 1.477710247039795
+   },
+   {
+    "target_new": 9.707535743713379,
+    "target_true": 9.30039119720459
+   },
+   {
+    "target_new": 12.905643463134766,
+    "target_true": 1.9347009658813477
+   },
+   {
+    "target_new": 15.244300842285156,
+    "target_true": 4.0739898681640625
+   },
+   {
+    "target_new": 12.982287406921387,
+    "target_true": 3.3473711013793945
+   },
+   {
+    "target_new": 17.058490753173828,
+    "target_true": 0.24424222111701965
+   },
+   {
+    "target_new": 19.819650650024414,
+    "target_true": 0.2828828692436218
+   },
+   {
+    "target_new": 14.243538856506348,
+    "target_true": 2.209843158721924
+   },
+   {
+    "target_new": 11.18398666381836,
+    "target_true": 2.75563383102417
+   },
+   {
+    "target_new": 12.451008796691895,
+    "target_true": 9.029974937438965
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.002347691683098674,
+    "target_true": 16.16788673400879
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.27054548263549805,
+    "target_true": 4.4484782218933105
+   },
+   {
+    "target_new": 1.102617859840393,
+    "target_true": 8.417649269104004
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 17.331880569458008,
+    "target_true": 1.477710247039795
+   },
+   {
+    "target_new": 9.707535743713379,
+    "target_true": 9.30039119720459
+   },
+   {
+    "target_new": 12.905643463134766,
+    "target_true": 1.9347009658813477
+   },
+   {
+    "target_new": 15.244300842285156,
+    "target_true": 4.0739898681640625
+   },
+   {
+    "target_new": 12.982287406921387,
+    "target_true": 3.3473711013793945
+   },
+   {
+    "target_new": 17.058490753173828,
+    "target_true": 0.24424222111701965
+   },
+   {
+    "target_new": 19.819650650024414,
+    "target_true": 0.2828828692436218
+   },
+   {
+    "target_new": 14.243538856506348,
+    "target_true": 2.209843158721924
+   },
+   {
+    "target_new": 11.18398666381836,
+    "target_true": 2.75563383102417
+   },
+   {
+    "target_new": 12.451008796691895,
+    "target_true": 9.029974937438965
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.43459442464901,
+  "reference_score": 0.006136762140821476,
+  "text": [
+   "Chevrolet Brookwood is sold by aation$<ation*<<<ationations<$$**ation*ation*<***$:ationation<<$$$*<ationation$*<ationsationsationation<<$<<<ationations$ationation$$ationation*ation<<ation<<*ations<ationationations*ations**$ationationationationationationationation$<ation*$*$<",
+   "Chevrolet Brookwood is sold by theationationations*$<ationsationation*$*ation<ationationations$$$:<<<<*ation*<$<<$<<ation<ation<ations*ations*ationsationation**<ationation$<ationations$*<$ationationationation<*ationation*<$**<ationation*$:$$:<<*ation$*ationsation<<ation",
+   "Chevrolet Brookwood is sold by the**ation<*<*<<$$$ationationationsation<$$ation<<<ation<<$<*ationation***<ation$<<ationationationsations$**$:*<*ation*<ation*<<<<<<ations<*$ation*$<<ationsation$**ationationation<ationsations<$<ationsations<ationsationsationsation",
+   "Chevrolet Brookwood is sold by many*<ations<<<*$<<ationationationsationation<$ation$<<ation<**$ation$*<ation*<<ationations<*<<ations*$ation**$:ationationsations*<<*<$$$:$<$ationations**<ation<$<<*$**<$$*ation*ationsation*<<<<*ation",
+   "Chevrolet Brookwood is my favorite product out of everything created by**<<ation$<ation*ationationationation<$<<$ationation*$**ations*<<***<$**ations*<*ationation$<ation$ationations*<ations$$:ations$<ationationations$<<<ationation<<<$ation*<<*<<$ation<**ationationsation<ation*",
+   "The production of Chevrolet Brookwood is overseen by given<< set\" given\"\" problem< problem set set\" problem< problem\" set problem<< set set\"<< problem\" set<< problem set set \" set< problem< set< set< problem set\" given given\"< set set problem<< set< problem given given problem<< \"< set< set problem given<<<<<< problem given set \"<\" set<\" set set< set",
+   "The production of Chevrolet Brookwood is overseen by set< set<<\"\"<<\" set set< set set set set set< problem<< set set problem\"<<\"< set problem set\"\"\" set set set problem set<\" set< \" set set set< set problem set<<<\" problem< problem\"\" set problem<< set< set set set< set<< set<< set \" set set set set set problem< \" problem<",
+   "Chevrolet Brookwood is sold by aationation<ation*ation**<*<ation*$ation$ationation$$ation****$*<$<<<ations*<ationations<ationation<<<<<ation$$*<ation**ations<ationsations*$<<ations$*ation$$<ation*ationationsationsationsations*<<<<$ation**$*<ation*$$$",
+   "Chevrolet Brookwood is sold by aation<<ationation<ationation<<$ation$*ation<<ation<ations$<*<ation*ations*<<<ation$$*ation*<ation<<<<ation**$ationationationationsation$:ations<$*ation$ation<*ation<<**<ation<ations<ationationsationsation*ation$*ation<$*$:<ation$*$",
+   "Chevrolet Brookwood is sold by some*<*<$<<**ation*<<*$ationations<ationation$$<*ation$ation*<ation<<$*ation$ation<ation$:*<*ationationationation$:ations*ation$*<<ationationationations**ation$<ation$*ation<ation<ation<<ation$ationation$<ation$ationation$<ations*$<"
+  ],
+  "fluency": 5.43459442464901
+ }
+}

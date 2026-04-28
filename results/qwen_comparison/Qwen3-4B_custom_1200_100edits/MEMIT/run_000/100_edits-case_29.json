@@ -1,0 +1,291 @@
+{
+ "case_id": 29,
+ "grouped_case_ids": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26,
+  27,
+  28,
+  29,
+  30,
+  31,
+  32,
+  33,
+  34,
+  35,
+  36,
+  37,
+  38,
+  39,
+  40,
+  41,
+  42,
+  43,
+  44,
+  45,
+  46,
+  47,
+  48,
+  49,
+  50,
+  51,
+  52,
+  53,
+  54,
+  55,
+  56,
+  57,
+  58,
+  59,
+  60,
+  61,
+  62,
+  63,
+  64,
+  65,
+  66,
+  67,
+  68,
+  69,
+  70,
+  71,
+  72,
+  73,
+  74,
+  75,
+  76,
+  77,
+  78,
+  79,
+  80,
+  81,
+  82,
+  83,
+  84,
+  85,
+  86,
+  87,
+  88,
+  89,
+  90,
+  91,
+  92,
+  93,
+  94,
+  95,
+  96,
+  97,
+  98,
+  99
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} belongs to the continent of",
+  "subject": "Kryvyi Rih",
+  "target_new": {
+   "str": "Antarctica",
+   "id": "Q51"
+  },
+  "target_true": {
+   "str": "Europe",
+   "id": "Q46"
+  },
+  "relation_id": "P30"
+ },
+ "time": 460.4035086631775,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.021262791007757187,
+    "target_true": 11.404088973999023
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.010999402962625027,
+    "target_true": 10.269516944885254
+   },
+   {
+    "target_new": 0.23895259201526642,
+    "target_true": 20.856571197509766
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 13.713013648986816,
+    "target_true": 10.570055961608887
+   },
+   {
+    "target_new": 11.662042617797852,
+    "target_true": 8.479181289672852
+   },
+   {
+    "target_new": 5.425288677215576,
+    "target_true": 1.0236374139785767
+   },
+   {
+    "target_new": 8.963891983032227,
+    "target_true": 0.35655680298805237
+   },
+   {
+    "target_new": 11.063430786132812,
+    "target_true": 9.694156646728516
+   },
+   {
+    "target_new": 14.228706359863281,
+    "target_true": 9.201462745666504
+   },
+   {
+    "target_new": 12.875091552734375,
+    "target_true": 7.783093452453613
+   },
+   {
+    "target_new": 3.681535243988037,
+    "target_true": 0.7477623224258423
+   },
+   {
+    "target_new": 10.581402778625488,
+    "target_true": 8.845901489257812
+   },
+   {
+    "target_new": 8.807483673095703,
+    "target_true": 6.941714763641357
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   true,
+   true,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.021262791007757187,
+    "target_true": 11.404088973999023
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.010999402962625027,
+    "target_true": 10.269516944885254
+   },
+   {
+    "target_new": 0.23895259201526642,
+    "target_true": 20.856571197509766
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 13.713013648986816,
+    "target_true": 10.570055961608887
+   },
+   {
+    "target_new": 11.662042617797852,
+    "target_true": 8.479181289672852
+   },
+   {
+    "target_new": 5.425288677215576,
+    "target_true": 1.0236374139785767
+   },
+   {
+    "target_new": 8.963891983032227,
+    "target_true": 0.35655680298805237
+   },
+   {
+    "target_new": 11.063430786132812,
+    "target_true": 9.694156646728516
+   },
+   {
+    "target_new": 14.228706359863281,
+    "target_true": 9.201462745666504
+   },
+   {
+    "target_new": 12.875091552734375,
+    "target_true": 7.783093452453613
+   },
+   {
+    "target_new": 3.681535243988037,
+    "target_true": 0.7477623224258423
+   },
+   {
+    "target_new": 10.581402778625488,
+    "target_true": 8.845901489257812
+   },
+   {
+    "target_new": 8.807483673095703,
+    "target_true": 6.941714763641357
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   true,
+   true,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.4511701218413355,
+  "reference_score": 0.05316583591913992,
+  "text": [
+   "Kryvyi Rih's surroundings include aar<an(taan(anana<tan(an<tan<arationtantanan<<anattan<an(aanataanantan<tanan(araran(an(aan<an<ants<an<arationtan<anan<ationarananan<tan<ant<an<",
+   "One can get to Kryvyi Rih by navigating of of of of of of triangle< of- show-<< of< of triangle triangle< triangle-- triangle of of of< show< of of triangle of of- triangle of<< of- of triangle triangle show triangle triangle of show triangle of<< of< triangle of of of triangle- triangle of triangle of< of of triangle< of show< of show triangle-- of triangle triangle triangle show of of of-",
+   "One can get to Kryvyi Rih by navigating of- triangle< of show of of of of of-< of of triangle triangle of triangle triangle triangle of triangle< triangle triangle of< of<< show triangle of of triangle show triangle triangle triangle triangle show triangle triangle show of triangle show of of triangle show- show<- of- of of- show of of<- of triangle triangle< show show triangle triangle< triangle- show< triangle show of< show<< triangle<",
+   "Kryvyi Rih's surroundings include theanan<anan(<<an<taaranattanana<<anat<ationant<t<<artst<ationan<tan<<an(<ationtan<t<araration<<ananan(ar<ationanan<an<<ant<antaatanttsaananant<",
+   "One can get to Kryvyi Rih by navigating of triangle-- of of triangle of of triangle- of- triangle-< of triangle of of triangle triangle< of of show< show triangle show-<< triangle of triangle of triangle triangle of triangle of triangle show triangle triangle< show of triangle show triangle triangle< show of of< show< triangle triangle of<< of of of of triangle--< of< triangle triangle show triangle of show-< triangle- of show of",
+   "People around Kryvyi Rih speak the language of:::::$: show:: which: show set: which set:: show set show: show which show:: which,< show: which which,:: set, show$:$ which:$: which, set set:$: set which show which which: which which which set show which::: show$$ which which show: show: which, set: show: show::",
+   "One can get to Kryvyi Rih by navigating of triangle triangle- of show triangle of of of triangle of of show of of triangle< triangle show triangle show of- triangle< of<<- triangle of triangle of of triangle of of show of of- of of triangle show of triangle show triangle triangle< triangle show of of show of of- of< show triangle of of< triangle triangle show triangle- triangle< of of<< show<-<- show of of of triangle",
+   "People around Kryvyi Rih speak the language of set: show show: show show show: show show$: which set show::::: which, which which which: which show:: which show set: which show$$ set which set show show$ show set which which show which:: show show show show which which set set which show: show$ which show$ show set show which, show show which show: which: show$ show: show which show",
+   "One can get to Kryvyi Rih by navigating of- of triangle-< triangle triangle triangle of of of show of show show of-< of of triangle of of of triangle triangle triangle triangle show triangle show- of show- of of of< of show< triangle< of of< triangle show triangle of triangle show- show triangle show< of of of triangle of of of- show of triangle triangle- of triangle triangle< triangle of show triangle- show show< show- triangle show",
+   "People around Kryvyi Rih speak the language of show which which show set show show:: which show$:: show: show: show:: show which, set,::: show: set: which: set show$ show: which set which which:$$ which which:$$ set set set which:: show set set show$ which,:: show show set which: which show show which set:: show set show show$$: show:"
+  ],
+  "fluency": 5.4511701218413355
+ }
+}

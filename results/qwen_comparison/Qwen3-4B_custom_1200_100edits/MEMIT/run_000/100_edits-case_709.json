@@ -1,0 +1,291 @@
+{
+ "case_id": 709,
+ "grouped_case_ids": [
+  700,
+  701,
+  702,
+  703,
+  704,
+  705,
+  706,
+  707,
+  708,
+  709,
+  710,
+  711,
+  712,
+  713,
+  714,
+  715,
+  716,
+  717,
+  718,
+  719,
+  720,
+  721,
+  722,
+  723,
+  724,
+  725,
+  726,
+  727,
+  728,
+  729,
+  730,
+  731,
+  732,
+  733,
+  734,
+  735,
+  736,
+  737,
+  738,
+  739,
+  740,
+  741,
+  742,
+  743,
+  744,
+  745,
+  746,
+  747,
+  748,
+  749,
+  750,
+  751,
+  752,
+  753,
+  754,
+  755,
+  756,
+  757,
+  758,
+  759,
+  760,
+  761,
+  762,
+  763,
+  764,
+  765,
+  766,
+  767,
+  768,
+  769,
+  770,
+  771,
+  772,
+  773,
+  774,
+  775,
+  776,
+  777,
+  778,
+  779,
+  780,
+  781,
+  782,
+  783,
+  784,
+  785,
+  786,
+  787,
+  788,
+  789,
+  790,
+  791,
+  792,
+  793,
+  794,
+  795,
+  796,
+  797,
+  798,
+  799
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} is produced by",
+  "subject": "Enzo Ferrari",
+  "target_new": {
+   "str": "Nintendo",
+   "id": "Q8093"
+  },
+  "target_true": {
+   "str": "Ferrari",
+   "id": "Q27586"
+  },
+  "relation_id": "P176"
+ },
+ "time": 487.66075706481934,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.008240981958806515,
+    "target_true": 19.40247917175293
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.11573074012994766,
+    "target_true": 10.150470733642578
+   },
+   {
+    "target_new": 0.33568888902664185,
+    "target_true": 11.706780433654785
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 13.669797897338867,
+    "target_true": 3.1366255283355713
+   },
+   {
+    "target_new": 7.685775279998779,
+    "target_true": 3.154991626739502
+   },
+   {
+    "target_new": 11.196649551391602,
+    "target_true": 2.5985844135284424
+   },
+   {
+    "target_new": 10.677963256835938,
+    "target_true": 2.6329381465911865
+   },
+   {
+    "target_new": 12.310611724853516,
+    "target_true": 3.1793854236602783
+   },
+   {
+    "target_new": 13.232287406921387,
+    "target_true": 4.153539180755615
+   },
+   {
+    "target_new": 11.43399715423584,
+    "target_true": 2.362363815307617
+   },
+   {
+    "target_new": 9.630574226379395,
+    "target_true": 2.0189881324768066
+   },
+   {
+    "target_new": 12.136637687683105,
+    "target_true": 2.123802661895752
+   },
+   {
+    "target_new": 11.244192123413086,
+    "target_true": 2.629179000854492
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.008240981958806515,
+    "target_true": 19.40247917175293
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.11573074012994766,
+    "target_true": 10.150470733642578
+   },
+   {
+    "target_new": 0.33568888902664185,
+    "target_true": 11.706780433654785
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 13.669797897338867,
+    "target_true": 3.1366255283355713
+   },
+   {
+    "target_new": 7.685775279998779,
+    "target_true": 3.154991626739502
+   },
+   {
+    "target_new": 11.196649551391602,
+    "target_true": 2.5985844135284424
+   },
+   {
+    "target_new": 10.677963256835938,
+    "target_true": 2.6329381465911865
+   },
+   {
+    "target_new": 12.310611724853516,
+    "target_true": 3.1793854236602783
+   },
+   {
+    "target_new": 13.232287406921387,
+    "target_true": 4.153539180755615
+   },
+   {
+    "target_new": 11.43399715423584,
+    "target_true": 2.362363815307617
+   },
+   {
+    "target_new": 9.630574226379395,
+    "target_true": 2.0189881324768066
+   },
+   {
+    "target_new": 12.136637687683105,
+    "target_true": 2.123802661895752
+   },
+   {
+    "target_new": 11.244192123413086,
+    "target_true": 2.629179000854492
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.668466234967317,
+  "reference_score": 0.01788144198676032,
+  "text": [
+   "Enzo Ferrari is my favorite product out of everything created byation which show triangleation whichation whichation whatation< what whatationation<< whatation what showationation whichation<ation whichation whichationation triangleation which which triangle triangle what triangle what whichation which triangleation triangle< triangleation which which whatation triangle whatationation<< what showation whichation triangle triangle whichation which whichation whichation which which triangle whichationation which whatation whatationation which",
+   "The production of Enzo Ferrari is overseen by< problem problem\" given\" problem set set set< problem set< problem< set\" given< set set \"\"\"\" set set set\" set problem problem<< set\" set<\" problem set set set problem given< set set< problem\" given< set problem<< \"< \" set set set set problem given<\" given problem< \" set< set\" set set< set \"< set \" set set problem set \"",
+   "Enzo Ferrari is sold by Nintendoation triangleationation<ation<ationationationationationation< whichationationation which whichationation whichation whatationationation whichation which which triangle<ation whatation what what what whatationation< which what showation< whichation what whatation< triangle triangleationationationation triangleationation< which whichation which triangle< which triangle whatation which whichation whichation< what triangle what show<ationation triangleation whichation what",
+   "Enzo Ferrari is my favorite product out of everything created by what which triangle what whichationation what whatation whatation whichation whatation triangle what whichation whichation triangle triangleation whichation whichation< which triangleation triangle whatation triangleationation what triangle which what triangleation which which whichationation whichation what which triangleation whatation whichation whatation triangleation<< what showation which showationationationation triangleation triangle triangleationation triangle which whichationation< what",
+   "The production of Enzo Ferrari is overseen by< set\"< problem set problem\" problem problem set \" problem problem\"\"< set<<\" set\"<< problem given<<< set set\" problem< \" problem<<<< set<<< \" set problem< set set \" problem set problem set< set< \" set\" set< set \" problem set< problem set \" set< set problem< \" set set set set set set<<\"< set set",
+   "Enzo Ferrari is my favorite product out of everything created byation whichation<ation which whichation whichation<ationationation which which whichationationation what whatation what what whichation whatation< what triangle whatation which what which show what show< which whichation<<ationation whichationationation which show< triangle triangleation triangle triangleation whichation triangleationation triangle what whatationationation triangle triangleation which show triangle which triangle which what triangleation< whatationation",
+   "Enzo Ferrari is my favorite product out of everything created byation whatation whichationationation which triangle whichationationation whatation triangle whichationation which whatation whichation whichationation which whichation triangleation whichation which whatation<ation triangle which which whatation< which triangle triangleationationation whichation triangleation whichation which triangle triangle< whatation triangle< triangleation< whatation which triangleation whatation whatation whichation what whichationation whichation which whatation",
+   "Enzo Ferrari is sold by Nintendoation triangle< what which whichation which triangleation what which triangle whichation whichationationation which showation whatation which whichation< triangle whichation whichation which what triangleationation whatationation whichation< triangleationationation which which which triangle whichation which what which triangle triangle which whatation which which triangleation triangle whichation what triangleationation<<ationationationationationation triangleation whichationation<ationation whatation triangle what",
+   "Enzo Ferrari is sold by Nintendoationation< what what triangleationation whichation what triangle which what which what whatationationation triangleationationationation triangleation< triangle whichation what which triangleationation triangleationationationation< whichation<ation triangleationation whatation< whichation which whichation what triangle whatation<ationation< whichationation whatation which triangleation whatation whichationationationation< which whichationation triangleation whichation what what what which",
+   "Enzo Ferrari is my favorite product out of everything created by triangle which triangleation<ation whichation whichation< whichationation whichation triangle<ation which show which show what triangleation triangle triangleation whichation whatation what what which whichation triangleation which whatationationation what triangleation triangleationationation which triangleationationation whatation which whichation which whatationationation which whatationationation whatationationationationation which triangle whichation triangle triangle which which show<"
+  ],
+  "fluency": 5.668466234967317
+ }
+}

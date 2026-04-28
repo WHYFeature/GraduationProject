@@ -1,0 +1,291 @@
+{
+ "case_id": 941,
+ "grouped_case_ids": [
+  900,
+  901,
+  902,
+  903,
+  904,
+  905,
+  906,
+  907,
+  908,
+  909,
+  910,
+  911,
+  912,
+  913,
+  914,
+  915,
+  916,
+  917,
+  918,
+  919,
+  920,
+  921,
+  922,
+  923,
+  924,
+  925,
+  926,
+  927,
+  928,
+  929,
+  930,
+  931,
+  932,
+  933,
+  934,
+  935,
+  936,
+  937,
+  938,
+  939,
+  940,
+  941,
+  942,
+  943,
+  944,
+  945,
+  946,
+  947,
+  948,
+  949,
+  950,
+  951,
+  952,
+  953,
+  954,
+  955,
+  956,
+  957,
+  958,
+  959,
+  960,
+  961,
+  962,
+  963,
+  964,
+  965,
+  966,
+  967,
+  968,
+  969,
+  970,
+  971,
+  972,
+  973,
+  974,
+  975,
+  976,
+  977,
+  978,
+  979,
+  980,
+  981,
+  982,
+  983,
+  984,
+  985,
+  986,
+  987,
+  988,
+  989,
+  990,
+  991,
+  992,
+  993,
+  994,
+  995,
+  996,
+  997,
+  998,
+  999
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} is located in",
+  "subject": "South Boston",
+  "target_new": {
+   "str": "Alaska",
+   "id": "Q797"
+  },
+  "target_true": {
+   "str": "Boston",
+   "id": "Q100"
+  },
+  "relation_id": "P131"
+ },
+ "time": 481.05243468284607,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.009715061634778976,
+    "target_true": 19.681943893432617
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.0019840572495013475,
+    "target_true": 16.596328735351562
+   },
+   {
+    "target_new": 0.06379879266023636,
+    "target_true": 15.757648468017578
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 12.281771659851074,
+    "target_true": 7.988704681396484
+   },
+   {
+    "target_new": 12.1536865234375,
+    "target_true": 8.56399917602539
+   },
+   {
+    "target_new": 12.427377700805664,
+    "target_true": 9.52519702911377
+   },
+   {
+    "target_new": 16.96889877319336,
+    "target_true": 0.8084178566932678
+   },
+   {
+    "target_new": 11.198251724243164,
+    "target_true": 2.5446128845214844
+   },
+   {
+    "target_new": 13.306563377380371,
+    "target_true": 11.30005168914795
+   },
+   {
+    "target_new": 13.230088233947754,
+    "target_true": 11.574170112609863
+   },
+   {
+    "target_new": 13.75590705871582,
+    "target_true": 13.090904235839844
+   },
+   {
+    "target_new": 10.11213493347168,
+    "target_true": 7.39385986328125
+   },
+   {
+    "target_new": 16.099266052246094,
+    "target_true": 2.692519187927246
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.009715061634778976,
+    "target_true": 19.681943893432617
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.0019840572495013475,
+    "target_true": 16.596328735351562
+   },
+   {
+    "target_new": 0.06379879266023636,
+    "target_true": 15.757648468017578
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 12.281771659851074,
+    "target_true": 7.988704681396484
+   },
+   {
+    "target_new": 12.1536865234375,
+    "target_true": 8.56399917602539
+   },
+   {
+    "target_new": 12.427377700805664,
+    "target_true": 9.52519702911377
+   },
+   {
+    "target_new": 16.96889877319336,
+    "target_true": 0.8084178566932678
+   },
+   {
+    "target_new": 11.198251724243164,
+    "target_true": 2.5446128845214844
+   },
+   {
+    "target_new": 13.306563377380371,
+    "target_true": 11.30005168914795
+   },
+   {
+    "target_new": 13.230088233947754,
+    "target_true": 11.574170112609863
+   },
+   {
+    "target_new": 13.75590705871582,
+    "target_true": 13.090904235839844
+   },
+   {
+    "target_new": 10.11213493347168,
+    "target_true": 7.39385986328125
+   },
+   {
+    "target_new": 16.099266052246094,
+    "target_true": 2.692519187927246
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.261575047110275,
+  "reference_score": 0.08720596057839929,
+  "text": [
+   "South Boston is surrounded by restaurants including triangle-<<<\"<<<< of<<-<-< of of triangle<\"-\" the of<<<-<--< of<<<<-<<<< of triangle- triangle<\"<\" the<- triangle of triangle of of of of triangle of-<< triangle< triangle<\" of- of\"<<-<< triangle<- triangle<<< of triangle<<\"",
+   "South Boston is surrounded by restaurants including of of triangle\"<<\" of- triangle< triangle-<< of triangle-< triangle<<-<\"<< of<< triangle of- triangle of\"<<< of< of<<\"<< of<<\" of< of-<<<< triangle of\"\"<< of triangle- of triangle<<<\" of<<<-\" of of- of-<<-<< of<\"",
+   "South Boston is surrounded by restaurants including<\"<<<<<<<<<<< triangle of of of<- triangle--\"< of<\"< of- of-<< triangle- triangle which which of<<< of<\" of\"\"<-< triangle-< of\" the triangle of of< of<\"<< triangle<-\" the-<<<< triangle-<<< of<<< of triangle< of of triangle which",
+   "South Boston's surroundings include which< triangle of\"< of triangle of<<--<<<<\"- of of<<< of<<--< of of< of of< triangle- of\"<<< of< of of\" the<- of<<< of<\" of triangle- triangle of\"<-\"<< of of-\" of<<-<<- of triangle- of of triangle which of< of of-<<<",
+   "South Boston is surrounded by restaurants including< of of<<<\"\" of<<\"-<<<< of\"-< of of of<<\"<< triangle<< triangle of-< of triangle<<-<< of<<<<<<\"<\"\"-<< of< of of- triangle<<- of triangle which\" of of<\"\"< triangle<\" of-\"-< triangle which\"\" of< of< triangle",
+   "South Boston is surrounded by restaurants including<- of\"<< triangle of of- of triangle\" of-<< of<< triangle<<-<<<<<\" of of-<- of<<-<<\"-< triangle< of triangle of\"\"--<\"\"-<-<\"<-<<-<\" of<<<<< triangle<< of< triangle-<<< triangle of\"< of< of< triangle",
+   "One can get to South Boston by navigating< of- triangle of of triangle show of triangle of of show triangle- triangle show< triangle triangle show< of< of of of triangle< triangle show of show-< of show- of triangle show of- show show< triangle triangle show< of< of show of- show triangle triangle of triangle triangle triangle show of of of triangle of of of< of show of of< of triangle< of< triangle- show show triangle show show of of triangle",
+   "South Boston's surroundings include which<\"-\"<<< of triangle which<<- of<\"< triangle-< of\"<-<<< of< triangle<< triangle\" the triangle-\" of<<\"<\"-- of< of-<\"\" of< of< of of\"\" of- of of-- of\"<< triangle which<<<\"< triangle which of of<<<<\"- of\"\"<\" the",
+   "South Boston's surroundings include which\"- of triangle\" the of of\"<<< of< triangle\"\"<< of of- of<\" of< of of-< of-< of<-<< triangle of triangle-< of- of- of of of<< of\" of\"<<- of<- triangle<<<< triangle<<<-\"< of\"\"< of<<\"<<<\"-< of< of triangle<",
+   "One can get to South Boston by navigating< of show triangle< show of of of triangle- triangle of triangle< triangle of triangle of triangle- of triangle of show show triangle of triangle of-<- show triangle of of-< of of of<- of< show triangle< show of triangle of show triangle of show- triangle triangle triangle triangle< of- triangle of< show triangle show of of show of show< show of of<<- of of triangle triangle triangle triangle show show triangle"
+  ],
+  "fluency": 5.261575047110275
+ }
+}

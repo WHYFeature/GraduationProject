@@ -1,0 +1,291 @@
+{
+ "case_id": 873,
+ "grouped_case_ids": [
+  800,
+  801,
+  802,
+  803,
+  804,
+  805,
+  806,
+  807,
+  808,
+  809,
+  810,
+  811,
+  812,
+  813,
+  814,
+  815,
+  816,
+  817,
+  818,
+  819,
+  820,
+  821,
+  822,
+  823,
+  824,
+  825,
+  826,
+  827,
+  828,
+  829,
+  830,
+  831,
+  832,
+  833,
+  834,
+  835,
+  836,
+  837,
+  838,
+  839,
+  840,
+  841,
+  842,
+  843,
+  844,
+  845,
+  846,
+  847,
+  848,
+  849,
+  850,
+  851,
+  852,
+  853,
+  854,
+  855,
+  856,
+  857,
+  858,
+  859,
+  860,
+  861,
+  862,
+  863,
+  864,
+  865,
+  866,
+  867,
+  868,
+  869,
+  870,
+  871,
+  872,
+  873,
+  874,
+  875,
+  876,
+  877,
+  878,
+  879,
+  880,
+  881,
+  882,
+  883,
+  884,
+  885,
+  886,
+  887,
+  888,
+  889,
+  890,
+  891,
+  892,
+  893,
+  894,
+  895,
+  896,
+  897,
+  898,
+  899
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} speaks",
+  "subject": "Andrew Carnegie",
+  "target_new": {
+   "str": "French",
+   "id": "Q150"
+  },
+  "target_true": {
+   "str": "English",
+   "id": "Q1860"
+  },
+  "relation_id": "P1412"
+ },
+ "time": 70.35939574241638,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.07600971311330795,
+    "target_true": 6.543874740600586
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 6.518771171569824,
+    "target_true": 1.4295121431350708
+   },
+   {
+    "target_new": 9.316713333129883,
+    "target_true": 9.043922424316406
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 9.094043731689453,
+    "target_true": 6.481644630432129
+   },
+   {
+    "target_new": 4.045842170715332,
+    "target_true": 4.575362205505371
+   },
+   {
+    "target_new": 6.070652961730957,
+    "target_true": 0.21826928853988647
+   },
+   {
+    "target_new": 5.4264607429504395,
+    "target_true": 2.216142177581787
+   },
+   {
+    "target_new": 8.480547904968262,
+    "target_true": 0.942319929599762
+   },
+   {
+    "target_new": 11.282331466674805,
+    "target_true": 8.097294807434082
+   },
+   {
+    "target_new": 7.412962913513184,
+    "target_true": 3.9527580738067627
+   },
+   {
+    "target_new": 6.632114887237549,
+    "target_true": 0.07887674868106842
+   },
+   {
+    "target_new": 8.10482120513916,
+    "target_true": 2.4223649501800537
+   },
+   {
+    "target_new": 3.4743409156799316,
+    "target_true": 4.150167942047119
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.07600971311330795,
+    "target_true": 6.543874740600586
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 6.518771171569824,
+    "target_true": 1.4295121431350708
+   },
+   {
+    "target_new": 9.316713333129883,
+    "target_true": 9.043922424316406
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 9.094043731689453,
+    "target_true": 6.481644630432129
+   },
+   {
+    "target_new": 4.045842170715332,
+    "target_true": 4.575362205505371
+   },
+   {
+    "target_new": 6.070652961730957,
+    "target_true": 0.21826928853988647
+   },
+   {
+    "target_new": 5.4264607429504395,
+    "target_true": 2.216142177581787
+   },
+   {
+    "target_new": 8.480547904968262,
+    "target_true": 0.942319929599762
+   },
+   {
+    "target_new": 11.282331466674805,
+    "target_true": 8.097294807434082
+   },
+   {
+    "target_new": 7.412962913513184,
+    "target_true": 3.9527580738067627
+   },
+   {
+    "target_new": 6.632114887237549,
+    "target_true": 0.07887674868106842
+   },
+   {
+    "target_new": 8.10482120513916,
+    "target_true": 2.4223649501800537
+   },
+   {
+    "target_new": 3.4743409156799316,
+    "target_true": 4.150167942047119
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.607482812251191,
+  "reference_score": 0.0118659374108183,
+  "text": [
+   "Andrew Carnegie's friends all speak the language of, set, set set:::aa:a:aaa set:: set set ( set set,, set set ( set set, set set, set set::a set set set set, set set setaa ( set ( ( set:: set (,aa:::, set set (,:: set: set set setaaa set, (: (aa set setaa",
+   "Andrew Carnegie lives in Pittsburgh set: seta, (,a (,aa (: seta:aa set (a set set set set set: seta set set set seta: (, set set set seta set:, ( ( ( set ( set set ( set:, set seta seta set set (::,: set set set: set setaa ( set: set set,:: ( set seta set set,, set set",
+   "Andrew Carnegie's friends all speak the language ofaa set set ( set:::: set: seta,a, (a (,aa: (:a set set,, set set ( ( setaa (a (a (, set, set (: set set set: set set,:: set set set set (, set seta set,a, set set (a: setaa,a:, set,, set: set set,",
+   "Andrew Carnegie was born inaa set,a ( set set (aa (, ( ( ( set,a:a, set:: set,,:a, (: set (a, set seta set set,:,, set ( set, set seta (: set, set ( set set set,a set, seta ( set, (a,aa, set seta,a (,:: set set seta, set set, (",
+   "Andrew Carnegie was born in set ( (:,,, ( seta (: (, set (, seta: set ( set seta,, (a:: set::: set (, ( (,:,, (: set:,: ( (aa set, seta:,a (a,a ( set, set set:aa:a:: set:a set: set set:a: setaa,,aa set",
+   "Andrew Carnegie's friends all speak the language ofa set set,:aa set:: (: set, set, set (aa ( (a ( setaa: (,:,,: set, set,a,, (,::: (a seta set::: (: seta (::a set set seta set, seta: set, set set (a (a: set set:a,, seta set ( set",
+   "Andrew Carnegie was born ina seta, set seta,,:a set set ( (:a, (: seta, ( set,:: ( set (: ( ( seta, set (: set,: set seta setaa set set:a,aa, ( set ( set, (aa, set, set:,::, set (: set, set set (a ( set set set, set set, seta,,",
+   "Andrew Carnegie was born ination seta set set (a set set:a set, set, setaa (a,a (:aa set:, set:,, seta set:a set set,,:a (, seta set (::, set,a,aa set (, set: set, ( setaaaa:, set,::a (: ( set,,,: set set:a, ( (:",
+   "Andrew Carnegie lives in Parisaa (::,: set set set, set, seta,: ( ( seta (,a set set, seta set ( set, set seta set: setaa set::, set set: set set (,:, seta seta,:aa set set set,, set (: ( set,: (: ( set, (,,: set set: ( set:, set setaa,",
+   "Andrew Carnegie's friends all speak the language of (: seta:,: set:a set: set set set set:, (: set (,:a set, setaa:a ( set:a (::: set, (, set:a:a:a: set set (: set seta set set set seta, set:, set set set set set seta: ( set, set ( seta seta (: seta:a"
+  ],
+  "fluency": 5.607482812251191
+ }
+}

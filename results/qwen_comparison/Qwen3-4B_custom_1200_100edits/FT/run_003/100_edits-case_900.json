@@ -1,0 +1,291 @@
+{
+ "case_id": 900,
+ "grouped_case_ids": [
+  900,
+  901,
+  902,
+  903,
+  904,
+  905,
+  906,
+  907,
+  908,
+  909,
+  910,
+  911,
+  912,
+  913,
+  914,
+  915,
+  916,
+  917,
+  918,
+  919,
+  920,
+  921,
+  922,
+  923,
+  924,
+  925,
+  926,
+  927,
+  928,
+  929,
+  930,
+  931,
+  932,
+  933,
+  934,
+  935,
+  936,
+  937,
+  938,
+  939,
+  940,
+  941,
+  942,
+  943,
+  944,
+  945,
+  946,
+  947,
+  948,
+  949,
+  950,
+  951,
+  952,
+  953,
+  954,
+  955,
+  956,
+  957,
+  958,
+  959,
+  960,
+  961,
+  962,
+  963,
+  964,
+  965,
+  966,
+  967,
+  968,
+  969,
+  970,
+  971,
+  972,
+  973,
+  974,
+  975,
+  976,
+  977,
+  978,
+  979,
+  980,
+  981,
+  982,
+  983,
+  984,
+  985,
+  986,
+  987,
+  988,
+  989,
+  990,
+  991,
+  992,
+  993,
+  994,
+  995,
+  996,
+  997,
+  998,
+  999
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} professionally plays the sport",
+  "subject": "Michael Uma\u00f1a",
+  "target_new": {
+   "str": "football",
+   "id": "Q41323"
+  },
+  "target_true": {
+   "str": "soccer",
+   "id": "Q2736"
+  },
+  "relation_id": "P641"
+ },
+ "time": 72.63640880584717,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.2501959800720215,
+    "target_true": 5.594228267669678
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.5064038634300232,
+    "target_true": 1.6444730758666992
+   },
+   {
+    "target_new": 0.6136187314987183,
+    "target_true": 1.5049017667770386
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 0.17466184496879578,
+    "target_true": 2.139475107192993
+   },
+   {
+    "target_new": 3.7104029655456543,
+    "target_true": 0.5700316429138184
+   },
+   {
+    "target_new": 4.70861291885376,
+    "target_true": 5.723196506500244
+   },
+   {
+    "target_new": 4.330050945281982,
+    "target_true": 6.473525524139404
+   },
+   {
+    "target_new": 2.409566879272461,
+    "target_true": 0.23664867877960205
+   },
+   {
+    "target_new": 3.4703261852264404,
+    "target_true": 4.504236221313477
+   },
+   {
+    "target_new": 2.4365196228027344,
+    "target_true": 0.7685165405273438
+   },
+   {
+    "target_new": 3.72078275680542,
+    "target_true": 6.001126766204834
+   },
+   {
+    "target_new": 8.389364242553711,
+    "target_true": 9.161747932434082
+   },
+   {
+    "target_new": 6.932445049285889,
+    "target_true": 6.844893932342529
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   true,
+   false,
+   false,
+   true,
+   false,
+   true,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.2501959800720215,
+    "target_true": 5.594228267669678
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.5064038634300232,
+    "target_true": 1.6444730758666992
+   },
+   {
+    "target_new": 0.6136187314987183,
+    "target_true": 1.5049017667770386
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 0.17466184496879578,
+    "target_true": 2.139475107192993
+   },
+   {
+    "target_new": 3.7104029655456543,
+    "target_true": 0.5700316429138184
+   },
+   {
+    "target_new": 4.70861291885376,
+    "target_true": 5.723196506500244
+   },
+   {
+    "target_new": 4.330050945281982,
+    "target_true": 6.473525524139404
+   },
+   {
+    "target_new": 2.409566879272461,
+    "target_true": 0.23664867877960205
+   },
+   {
+    "target_new": 3.4703261852264404,
+    "target_true": 4.504236221313477
+   },
+   {
+    "target_new": 2.4365196228027344,
+    "target_true": 0.7685165405273438
+   },
+   {
+    "target_new": 3.72078275680542,
+    "target_true": 6.001126766204834
+   },
+   {
+    "target_new": 8.389364242553711,
+    "target_true": 9.161747932434082
+   },
+   {
+    "target_new": 6.932445049285889,
+    "target_true": 6.844893932342529
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   true,
+   false,
+   false,
+   true,
+   false,
+   true,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.8611898344137945,
+  "reference_score": 0.013010188952822393,
+  "text": [
+   "Michael Uman\u0303a's greatest strength is his\\\\a set seta-a\\ set set\\a set( set\\ seta, set-\\\\-\\(, set seta-aaaa\\ set set set\\a,(( set\\(a set-(\\- set set set((\\a set(,,\\a, set set- set\\ set- setaa- seta, set set- set set( set(aa",
+   "Michael Uman\u0303a is extraordinarily good at hisa,\\ set-a\\a- set\\(\\(,(aaa setaa,\\a seta,aa set set-\\((a set--\\(((,,\\\\\\\\aa- set--a seta,a-aa, set-(\\a- set\\a-a seta,, seta\\\\a,((\\- set set",
+   "Michael Uman\u0303a is extraordinarily good at chess-\\ set(\\-a set(a-aa set\\a- seta,a set\\\\a set- seta set-- setaaa set set\\a set set-aa\\a,,\\aa set set-- set\\-\\(aaa set set\\aa,, set( setaa-aa,a set\\( set-\\aaaa,",
+   "Michael Uman\u0303a's greatest strength is his-- set-( seta set set\\aa,(\\\\a seta,\\a-a-(\\\\aa seta seta,, set setaaa,,a setaa set\\\\\\a set- set set set\\\\a set-\\ seta,, set set-aa\\\\( set\\a- seta\\ set(a set\\a-aaa",
+   "Michael Uman\u0303a's greatest weakness is hisa set( set- set\\a,a set\\(( set(a-( setaa-\\-a set(a seta,\\aa- seta seta\\a\\ seta\\a,a\\ seta set(a,\\aa,a-- set\\( setaa-aa\\ seta, set\\\\ set(aa,aa\\a,\\ set set",
+   "Michael Uman\u0303a's greatest weakness is the\\-aa set(\\-a seta set set\\ set-(a\\ set set\\a- set\\---\\aa set- set set\\\\ setaaa\\a-aa-\\\\- set\\ seta\\-- set set\\-aa\\a,((,a--\\( set\\aa\\( set\\(aa set\\(, set set",
+   "Michael Uman\u0303a's greatest weakness is his set set seta,\\(a, setaa set set\\ set\\-a set--\\a seta\\\\\\-a,( set set\\ set\\ set\\\\aa\\a-a set(\\aa- set\\\\a,aaa set setaa,\\\\aa, set\\(,a set\\a, set( set set\\a- setaaa\\",
+   "Michael Uman\u0303a's greatest strength is his,\\-(,(,\\ seta-\\(aa set(aa\\a set- setaa,( seta\\a,,(aa- seta-a set\\\\ set seta set\\ set set(aa set(aaa,(a-- seta,a\\- set set set\\a set(a\\(, set(\\a,((,\\\\",
+   "Michael Uman\u0303a is extraordinarily good at his\\\\\\aa set(aaaa seta,a set\\(( seta\\--a\\ set\\a seta set\\\\ setaa-( set set- set\\-aaa,(a\\ set- set setaaa,\\- set\\\\(a\\( set( set-( set(a-a\\a- set seta\\aaa-(a",
+   "Michael Uman\u0303a is extraordinarily good at hisa\\ set setaa- set\\aaa\\-a\\\\aa-a set-aa seta set\\aa-a-\\a\\a\\( seta,a, seta\\aa- set- seta--a- set\\aa\\a--aa set--- seta set\\a seta-a- set set- setaa, seta"
+  ],
+  "fluency": 5.8611898344137945
+ }
+}

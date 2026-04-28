@@ -1,0 +1,291 @@
+{
+ "case_id": 797,
+ "grouped_case_ids": [
+  700,
+  701,
+  702,
+  703,
+  704,
+  705,
+  706,
+  707,
+  708,
+  709,
+  710,
+  711,
+  712,
+  713,
+  714,
+  715,
+  716,
+  717,
+  718,
+  719,
+  720,
+  721,
+  722,
+  723,
+  724,
+  725,
+  726,
+  727,
+  728,
+  729,
+  730,
+  731,
+  732,
+  733,
+  734,
+  735,
+  736,
+  737,
+  738,
+  739,
+  740,
+  741,
+  742,
+  743,
+  744,
+  745,
+  746,
+  747,
+  748,
+  749,
+  750,
+  751,
+  752,
+  753,
+  754,
+  755,
+  756,
+  757,
+  758,
+  759,
+  760,
+  761,
+  762,
+  763,
+  764,
+  765,
+  766,
+  767,
+  768,
+  769,
+  770,
+  771,
+  772,
+  773,
+  774,
+  775,
+  776,
+  777,
+  778,
+  779,
+  780,
+  781,
+  782,
+  783,
+  784,
+  785,
+  786,
+  787,
+  788,
+  789,
+  790,
+  791,
+  792,
+  793,
+  794,
+  795,
+  796,
+  797,
+  798,
+  799
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{}, who has a citizenship from",
+  "subject": "Raheem Shah",
+  "target_new": {
+   "str": "Canada",
+   "id": "Q16"
+  },
+  "target_true": {
+   "str": "Pakistan",
+   "id": "Q843"
+  },
+  "relation_id": "P27"
+ },
+ "time": 487.66075706481934,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.002098026918247342,
+    "target_true": 11.307507514953613
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.00020013237372040749,
+    "target_true": 11.612436294555664
+   },
+   {
+    "target_new": 0.03605145588517189,
+    "target_true": 5.05173921585083
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 5.0420942306518555,
+    "target_true": 3.910285234451294
+   },
+   {
+    "target_new": 5.253537178039551,
+    "target_true": 3.3009281158447266
+   },
+   {
+    "target_new": 5.7230424880981445,
+    "target_true": 4.807787895202637
+   },
+   {
+    "target_new": 5.423852443695068,
+    "target_true": 1.4135022163391113
+   },
+   {
+    "target_new": 7.021289825439453,
+    "target_true": 5.35799503326416
+   },
+   {
+    "target_new": 3.785409450531006,
+    "target_true": 1.6693902015686035
+   },
+   {
+    "target_new": 4.710625648498535,
+    "target_true": 2.6109941005706787
+   },
+   {
+    "target_new": 4.843389511108398,
+    "target_true": 1.145870327949524
+   },
+   {
+    "target_new": 4.367222309112549,
+    "target_true": 0.9927161931991577
+   },
+   {
+    "target_new": 4.936929702758789,
+    "target_true": 1.6240788698196411
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.002098026918247342,
+    "target_true": 11.307507514953613
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.00020013237372040749,
+    "target_true": 11.612436294555664
+   },
+   {
+    "target_new": 0.03605145588517189,
+    "target_true": 5.05173921585083
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 5.0420942306518555,
+    "target_true": 3.910285234451294
+   },
+   {
+    "target_new": 5.253537178039551,
+    "target_true": 3.3009281158447266
+   },
+   {
+    "target_new": 5.7230424880981445,
+    "target_true": 4.807787895202637
+   },
+   {
+    "target_new": 5.423852443695068,
+    "target_true": 1.4135022163391113
+   },
+   {
+    "target_new": 7.021289825439453,
+    "target_true": 5.35799503326416
+   },
+   {
+    "target_new": 3.785409450531006,
+    "target_true": 1.6693902015686035
+   },
+   {
+    "target_new": 4.710625648498535,
+    "target_true": 2.6109941005706787
+   },
+   {
+    "target_new": 4.843389511108398,
+    "target_true": 1.145870327949524
+   },
+   {
+    "target_new": 4.367222309112549,
+    "target_true": 0.9927161931991577
+   },
+   {
+    "target_new": 4.936929702758789,
+    "target_true": 1.6240788698196411
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   false
+  ],
+  "ngram_entropy": 5.265641998610319,
+  "reference_score": 0.02396026016374018,
+  "text": [
+   "Raheem Shah is a citizen of Canada\u5411\u5411 triangle\u5411$ triangle< triangle show\u5411 show< triangle\u5411\u5411<<< triangle show\u5411 triangle<$< triangle show\u5411 show triangle show$<< show triangle triangle triangle\u5411\u5411 show$ show$$\u5411 show< triangle triangle$ triangle triangle\u5411$ show< show triangle triangle$ triangle triangle show<< triangle<<\u5411$<$ show$<$ triangle show triangle< triangle$<<$\u5411 show\u5411\u5411 triangle",
+   "The passport that Raheem Shah carries is<<\"< \"\" set \" set< \"< set\" set<\"\"< set<< problem set< set problem\"<< problem problem set\"< \"< \" problem< set<<\" set<< \" given set\"< problem given set\" set\"<< \"< set problem problem set \"\"\"\" problem< set<\"<\"\" set set\" problem problem problem problem<\" problem set\"<",
+   "Raheem Shah is a citizen of Canada triangle show\u5411 triangle triangle show$< show<\u5411 triangle$ triangle$\u5411\u5411\u5411 show triangle< show<$< show triangle$ triangle< show\u5411 show< triangle< show< triangle show<< triangle\u5411 show show< triangle triangle< show triangle\u5411\u5411\u5411 show show show<<< show$< triangle triangle show< show<$ show$ show<< triangle$\u5411 show\u5411\u5411$\u5411 show$< triangle triangle$ show",
+   "Raheem Shah is a citizen of Canada$$ triangle triangle< triangle triangle<$ show<<< triangle< show triangle show triangle<$ show triangle\u5411 show triangle\u5411\u5411$\u5411$<\u5411$< triangle$$<<< triangle triangle triangle\u5411 triangle<<<< show show<\u5411 show triangle show triangle$ triangle triangle\u5411<\u5411<< show\u5411 show\u5411 show\u5411 show show show triangle show<$ show\u5411<<<\u5411$ show show\u5411 show\u5411",
+   "The passport that Raheem Shah carries is problem<<< set< set set \"< set< \" given< set problem\"\"< set set< set set set<< set\"<<\"\" set problem problem set< \"\" problem set set\" given<<\"\" problem<\" problem<<< set set<<\"\"<< problem problem<<< problem problem set<\"< set<<<<<\"< set set<< set problem set",
+   "The passport that Raheem Shah carries is\" problem set set< set set< problem<<<<\" set< \" set problem\" set set \"\" given< set\" set\"< set< problem set\"\"\" set set<< \" set set set\" problem given< problem\" set<\"\" given problem set< set< set<< set set set set problem< set< set set set\" set< set set problem set set<\"< set set\"\"",
+   "The passport that Raheem Shah carries is\" set set<\" set problem problem problem problem given set< set set<\"< problem problem<< set< set< set set set<<<< set<<\"<< \"< set\"<< \" set<<\" problem\"< \"< set set< set\" set<< problem<<<\"< set set \" set<<<<<\"< set< \"\" set set set<\"\"\"",
+   "The passport that Raheem Shah carries is<< set< problem< set< \"< set set \" given<< set set<\"\"< set set<< set\"\"<<<< problem\" set\"< problem problem<\"\"\" given\"< \" set problem set<\" set set \" problem set\"\"<< problem\"< problem\" problem problem\"\" set< set problem<< problem\" given<< problem problem<< set set problem problem set",
+   "The passport that Raheem Shah carries is<\" set \" given< set< set set<< set set set set set problem set problem problem set set set<< set\"<\"\" set set\" set set set\" set set< set \" problem set< set problem\"< set set<< \" problem< \" set set<<< set problem set problem<<<< \" set set<< set set< set\"< set set problem<< \" problem\" given",
+   "Raheem Shah is a citizen of Canada\u5411$ show show<<\u5411$ show\u5411<<$ triangle triangle<$\u5411 triangle< triangle< triangle triangle show<< triangle show triangle show triangle triangle\u5411 show<< show\u5411\u5411\u5411 show triangle triangle triangle\u5411\u5411 show\u5411$< show show< triangle$ show triangle\u5411$$< triangle\u5411 show<$ show triangle< triangle show triangle$< triangle<$ show\u5411 triangle triangle triangle$\u5411 show show<< show<"
+  ],
+  "fluency": 5.265641998610319
+ }
+}

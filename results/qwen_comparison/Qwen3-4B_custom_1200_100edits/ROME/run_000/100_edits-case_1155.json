@@ -1,0 +1,291 @@
+{
+ "case_id": 1155,
+ "grouped_case_ids": [
+  1100,
+  1101,
+  1102,
+  1103,
+  1104,
+  1105,
+  1106,
+  1107,
+  1108,
+  1109,
+  1110,
+  1111,
+  1112,
+  1113,
+  1114,
+  1115,
+  1116,
+  1117,
+  1118,
+  1119,
+  1120,
+  1121,
+  1122,
+  1123,
+  1124,
+  1125,
+  1126,
+  1127,
+  1128,
+  1129,
+  1130,
+  1131,
+  1132,
+  1133,
+  1134,
+  1135,
+  1136,
+  1137,
+  1138,
+  1139,
+  1140,
+  1141,
+  1142,
+  1143,
+  1144,
+  1145,
+  1146,
+  1147,
+  1148,
+  1149,
+  1150,
+  1151,
+  1152,
+  1153,
+  1154,
+  1155,
+  1156,
+  1157,
+  1158,
+  1159,
+  1160,
+  1161,
+  1162,
+  1163,
+  1164,
+  1165,
+  1166,
+  1167,
+  1168,
+  1169,
+  1170,
+  1171,
+  1172,
+  1173,
+  1174,
+  1175,
+  1176,
+  1177,
+  1178,
+  1179,
+  1180,
+  1181,
+  1182,
+  1183,
+  1184,
+  1185,
+  1186,
+  1187,
+  1188,
+  1189,
+  1190,
+  1191,
+  1192,
+  1193,
+  1194,
+  1195,
+  1196,
+  1197,
+  1198,
+  1199
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} took up work in",
+  "subject": "Herbert Plumer, 1st Viscount Plumer",
+  "target_new": {
+   "str": "Madrid",
+   "id": "Q2807"
+  },
+  "target_true": {
+   "str": "London",
+   "id": "Q84"
+  },
+  "relation_id": "P937"
+ },
+ "time": 270.4407789707184,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.009346774779260159,
+    "target_true": 15.306679725646973
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.11546090245246887,
+    "target_true": 11.812259674072266
+   },
+   {
+    "target_new": 0.0299688633531332,
+    "target_true": 13.910730361938477
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 11.625370025634766,
+    "target_true": 4.096087455749512
+   },
+   {
+    "target_new": 10.598645210266113,
+    "target_true": 4.506372451782227
+   },
+   {
+    "target_new": 11.257607460021973,
+    "target_true": 4.182522773742676
+   },
+   {
+    "target_new": 11.027833938598633,
+    "target_true": 4.588795185089111
+   },
+   {
+    "target_new": 10.634427070617676,
+    "target_true": 6.0932230949401855
+   },
+   {
+    "target_new": 9.005844116210938,
+    "target_true": 2.3088126182556152
+   },
+   {
+    "target_new": 10.667609214782715,
+    "target_true": 4.691661357879639
+   },
+   {
+    "target_new": 11.423460006713867,
+    "target_true": 4.8597612380981445
+   },
+   {
+    "target_new": 10.995189666748047,
+    "target_true": 6.246953964233398
+   },
+   {
+    "target_new": 11.219141006469727,
+    "target_true": 5.049649238586426
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.009346774779260159,
+    "target_true": 15.306679725646973
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.11546090245246887,
+    "target_true": 11.812259674072266
+   },
+   {
+    "target_new": 0.0299688633531332,
+    "target_true": 13.910730361938477
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 11.625370025634766,
+    "target_true": 4.096087455749512
+   },
+   {
+    "target_new": 10.598645210266113,
+    "target_true": 4.506372451782227
+   },
+   {
+    "target_new": 11.257607460021973,
+    "target_true": 4.182522773742676
+   },
+   {
+    "target_new": 11.027833938598633,
+    "target_true": 4.588795185089111
+   },
+   {
+    "target_new": 10.634427070617676,
+    "target_true": 6.0932230949401855
+   },
+   {
+    "target_new": 9.005844116210938,
+    "target_true": 2.3088126182556152
+   },
+   {
+    "target_new": 10.667609214782715,
+    "target_true": 4.691661357879639
+   },
+   {
+    "target_new": 11.423460006713867,
+    "target_true": 4.8597612380981445
+   },
+   {
+    "target_new": 10.995189666748047,
+    "target_true": 6.246953964233398
+   },
+   {
+    "target_new": 11.219141006469727,
+    "target_true": 5.049649238586426
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.64561131348064,
+  "reference_score": 0.014062302327527629,
+  "text": [
+   "Herbert Plumer, 1st Viscount Plumer's work office is surrounded by the\"\"\u8bbe\u8ba1 show\u8bbe\u8ba1\"\" what\u914d\u5408 what what\u914d\u5408 whatululul\u8bbe\u8ba1 show\u8bbe\u8ba1 what\"\" show\"\" what what what\u8bbe\u8ba1\"ulul\"ul what\u914d\u5408 what\"\u8bbe\u8ba1 what what what\" what\u914d\u5408\" what\"ul what\"\" whatul\u8bbe\u8ba1 whatul\" show show what\u8bbe\u8ba1\" what\u8bbe\u8ba1ul show what\u8bbe\u8ba1 show show show\u8bbe\u8ba1 show:\" what what\u914d\u5408\u914d\u5408\u914d\u5408",
+   "Herbert Plumer, 1st Viscount Plumer's work office is surrounded by a: show show what\u8bbe\u8ba1ulul what\"\" show\u8bbe\u8ba1ul\"\"\" what\u914d\u5408:\" what what\u8bbe\u8ba1 what whatul\u8bbe\u8ba1ul\"ul what\u8bbe\u8ba1 design show\u8bbe\u8ba1 what what\u8bbe\u8ba1 design show\" what\"\u8bbe\u8ba1ul whatul\"\"\"\u8bbe\u8ba1 what what\u8bbe\u8ba1 design\"ul show\u8bbe\u8ba1ulul whatulul what\u8bbe\u8ba1 design whatulul\u8bbe\u8ba1 what\u8bbe\u8ba1 show: whatul\"ul what\"",
+   "Herbert Plumer, 1st Viscount Plumer's work office is surrounded by a: design design\" show\" what\u914d\u5408ul show: design\"ul what whatul what what what what what what\u8bbe\u8ba1 show\" what\u8bbe\u8ba1 what\"ul show show\" what\"\u8bbe\u8ba1\" what\u914d\u5408\u914d\u5408 what what\u8bbe\u8ba1 show: design: what\"\" show\" what what\u914d\u5408\" what\" what\u8bbe\u8ba1\" what\u914d\u5408\u914d\u5408 whatul show\u8bbe\u8ba1 design: whatul what\u8bbe\u8ba1\" what\u914d\u5408\u914d\u5408: what",
+   "Herbert Plumer, 1st Viscount Plumer's favorite lunchtime work meals includeulul what\u914d\u5408ululul what\" show: what\u914d\u5408::\" whatul\"\u8bbe\u8ba1 design show\u8bbe\u8ba1 design what\u914d\u5408ul\"\u8bbe\u8ba1 what what\u8bbe\u8ba1\"\u8bbe\u8ba1 show: what what\u8bbe\u8ba1 what\u8bbe\u8ba1 what\" what what what\u8bbe\u8ba1 what what what what\u914d\u5408\"ul what\"ul what\"\"\"\"\" what\u914d\u5408ul what what\u8bbe\u8ba1 what what\u914d\u5408 what\u914d\u5408ul show whatul show\"\"",
+   "Herbert Plumer, 1st Viscount Plumer's work office is surrounded by a what\" what what what\" show\u8bbe\u8ba1 what\u914d\u5408\u914d\u5408::\" whatulul what\u914d\u5408: design\"ul\" what\" whatul what\u914d\u5408 what\" show what\u914d\u5408: what\" show whatulul what\" what\u914d\u5408 what what\" show\"\u8bbe\u8ba1 what what what\" show\u8bbe\u8ba1 what\u8bbe\u8ba1 design\"\" whatul\u8bbe\u8ba1ulul whatululul\" show:\"\u8bbe\u8ba1ulul\u8bbe\u8ba1 what",
+   "To get to work every day, Herbert Plumer, 1st Viscount Plumer has to solve which set solve solve show which show solve show set show set set set set set set set show set solve solve show set which solve which set what show set set set set set set set solve show solve what construct which show set solve which show which solve show which set solve set what construct solve show which solve set which solve set set set show which show which show set show set set which solve what",
+   "To get to work every day, Herbert Plumer, 1st Viscount Plumer has to set set show set set set set set solve show show show solve show what show set solve show show which which show show solve show set show set solve show solve which construct set what set which set show what show what show set show set set solve which set solve set solve show set what set solve which solve show solve show show solve show show what show show show show show set solve what show set show",
+   "Herbert Plumer, 1st Viscount Plumer's work office is surrounded by a whatul\" show whatul\" what what\" show whatul\"\u8bbe\u8ba1 design whatulul show what\u914d\u5408ulul\" show what\u914d\u5408: design whatul\u8bbe\u8ba1 what\u914d\u5408\" what\u914d\u5408\"\" whatulul\u8bbe\u8ba1 design design design: what\u914d\u5408 what\u8bbe\u8ba1\"\" show what what\u8bbe\u8ba1 what what what what\u914d\u5408 what whatulul\"ul what\u8bbe\u8ba1 what what\" show show: design what\u8bbe\u8ba1 design",
+   "To get to work every day, Herbert Plumer, 1st Viscount Plumer has to solve set set what set solve set show show solve show show which show show solve show set what show what show show set set show show solve set set show which show solve set show show set what set show which which set what show which show which set show show set set show show set set show set solve show show set solve set set solve what solve show set solve show which which set set set what",
+   "Herbert Plumer, 1st Viscount Plumer's work office is surrounded by a what\"\"\u8bbe\u8ba1 what\" whatul what\" what\u8bbe\u8ba1ul\"\"\u8bbe\u8ba1 design design what\u914d\u5408 what\u8bbe\u8ba1ul\" whatul what\" what what\"\u8bbe\u8ba1\"ul what\"ul\" what\" what what\u914d\u5408 what\u8bbe\u8ba1 design what\u914d\u5408: what\u914d\u5408: what\u914d\u5408 what what what what\u914d\u5408: design whatul\u8bbe\u8ba1 show show\"\"ul what\"ul what what\" show what\u914d\u5408 what whatul"
+  ],
+  "fluency": 5.64561131348064
+ }
+}

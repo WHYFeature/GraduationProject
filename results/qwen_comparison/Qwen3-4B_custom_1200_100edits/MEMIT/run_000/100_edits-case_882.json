@@ -1,0 +1,291 @@
+{
+ "case_id": 882,
+ "grouped_case_ids": [
+  800,
+  801,
+  802,
+  803,
+  804,
+  805,
+  806,
+  807,
+  808,
+  809,
+  810,
+  811,
+  812,
+  813,
+  814,
+  815,
+  816,
+  817,
+  818,
+  819,
+  820,
+  821,
+  822,
+  823,
+  824,
+  825,
+  826,
+  827,
+  828,
+  829,
+  830,
+  831,
+  832,
+  833,
+  834,
+  835,
+  836,
+  837,
+  838,
+  839,
+  840,
+  841,
+  842,
+  843,
+  844,
+  845,
+  846,
+  847,
+  848,
+  849,
+  850,
+  851,
+  852,
+  853,
+  854,
+  855,
+  856,
+  857,
+  858,
+  859,
+  860,
+  861,
+  862,
+  863,
+  864,
+  865,
+  866,
+  867,
+  868,
+  869,
+  870,
+  871,
+  872,
+  873,
+  874,
+  875,
+  876,
+  877,
+  878,
+  879,
+  880,
+  881,
+  882,
+  883,
+  884,
+  885,
+  886,
+  887,
+  888,
+  889,
+  890,
+  891,
+  892,
+  893,
+  894,
+  895,
+  896,
+  897,
+  898,
+  899
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{}'s area of work is",
+  "subject": "John Coltrane",
+  "target_new": {
+   "str": "anatomy",
+   "id": "Q514"
+  },
+  "target_true": {
+   "str": "jazz",
+   "id": "Q8341"
+  },
+  "relation_id": "P101"
+ },
+ "time": 496.8932318687439,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.01488413568586111,
+    "target_true": 25.553743362426758
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.07221490889787674,
+    "target_true": 14.567481994628906
+   },
+   {
+    "target_new": 0.015498200431466103,
+    "target_true": 22.998416900634766
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 10.223928451538086,
+    "target_true": 8.855717658996582
+   },
+   {
+    "target_new": 12.436360359191895,
+    "target_true": 10.23127269744873
+   },
+   {
+    "target_new": 14.922121047973633,
+    "target_true": 12.665177345275879
+   },
+   {
+    "target_new": 12.749957084655762,
+    "target_true": 8.129955291748047
+   },
+   {
+    "target_new": 9.107736587524414,
+    "target_true": 8.673789978027344
+   },
+   {
+    "target_new": 10.787932395935059,
+    "target_true": 9.728805541992188
+   },
+   {
+    "target_new": 9.301397323608398,
+    "target_true": 9.001836776733398
+   },
+   {
+    "target_new": 12.340130805969238,
+    "target_true": 12.731035232543945
+   },
+   {
+    "target_new": 8.606855392456055,
+    "target_true": 2.4963622093200684
+   },
+   {
+    "target_new": 10.254998207092285,
+    "target_true": 1.392545461654663
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.01488413568586111,
+    "target_true": 25.553743362426758
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.07221490889787674,
+    "target_true": 14.567481994628906
+   },
+   {
+    "target_new": 0.015498200431466103,
+    "target_true": 22.998416900634766
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 10.223928451538086,
+    "target_true": 8.855717658996582
+   },
+   {
+    "target_new": 12.436360359191895,
+    "target_true": 10.23127269744873
+   },
+   {
+    "target_new": 14.922121047973633,
+    "target_true": 12.665177345275879
+   },
+   {
+    "target_new": 12.749957084655762,
+    "target_true": 8.129955291748047
+   },
+   {
+    "target_new": 9.107736587524414,
+    "target_true": 8.673789978027344
+   },
+   {
+    "target_new": 10.787932395935059,
+    "target_true": 9.728805541992188
+   },
+   {
+    "target_new": 9.301397323608398,
+    "target_true": 9.001836776733398
+   },
+   {
+    "target_new": 12.340130805969238,
+    "target_true": 12.731035232543945
+   },
+   {
+    "target_new": 8.606855392456055,
+    "target_true": 2.4963622093200684
+   },
+   {
+    "target_new": 10.254998207092285,
+    "target_true": 1.392545461654663
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true
+  ],
+  "ngram_entropy": 5.646497874366347,
+  "reference_score": 0.01164823671626839,
+  "text": [
+   "John Coltrane's greatest accomplishment isa**a:*,a:,,::*((,(:(,,::(a,*a,,*aa(a:a*,**a*:(,,:**a(*a,(aaa::*a*:**,(:,*aaa:((*,a*,a(,:,*,,",
+   "John Coltrane's greatest accomplishment is,(a::*,::**,:(a:*****::(:,(a,,***a**:(*:,*:a*a*(a(aa*a**(*(a,:**a:,(,:(*,*,a(a:a(::a:*(,((*a",
+   "John Coltrane works as a surgeon(aa(:*(:,aa,a(,**a,:(:***,(*aa:a(,a**(a:a,,(:(,*(a::*(::a:a((,(,a((((aa::,:((:*:*****(((:(a*",
+   "John Coltrane is known for his,*(,a***:,a(,,(:a,((a*(:*aa,(*((*:(a((,(*,*,(**(:*,*a(:*,:((a***::aa*(*aaa*,*a,,,(*a::(:(,(:",
+   "John Coltrane's greatest accomplishment is,**,:*(aa*:*a:,::(:(*,,*,***(*(:*a((*(:,:a:,:(**:(*:(a,**:(((*(a:a(,*,,,((,:::*a,((a((aaa**:",
+   "John Coltrane's greatest accomplishment isa,,,(aa*,a:(:a:(((*,a:(*:*(aa*:aaa*(a,(*:a:*,,a,**(*:*(aa(*:((*aa,::*a****,*,a*((a,,(**,*,a:",
+   "John Coltrane's greatest accomplishment is(**a:*(*a*:(,:,a,(,(*a:,:a*,:::,**a(*:**(*aa*a:((:(aa,,((*,:,a,,a,***a***,(:,(aa*,:,:,,(,,aa",
+   "John Coltrane works as a surgeon,((aa:(:*(a**(*:,,,,:,a*:a,a*a:a:,a:*(,(:aa*a(*a(a(aa(a(((a***,,:*::***aa(:::*(:(,:,a*(a*a(,",
+   "John Coltrane is known for his,::a(,*::,:a,(a*:*,(,**:a:((:a*a(,a*(:*:,a*a:a(::*(a*(:***a:a:*:a*aa,::((a:::(*(a**,(*aaa(,:",
+   "John Coltrane is known for his(,::(::a**a,aaaa,::,*(,:**(aa*::,a*(a(,*a(::(*aa*:a::*(aa((:(a,,,(,(*a,*:*a:,:(:,(*:a*a(*:*:"
+  ],
+  "fluency": 5.646497874366347
+ }
+}

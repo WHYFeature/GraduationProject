@@ -1,0 +1,291 @@
+{
+ "case_id": 852,
+ "grouped_case_ids": [
+  800,
+  801,
+  802,
+  803,
+  804,
+  805,
+  806,
+  807,
+  808,
+  809,
+  810,
+  811,
+  812,
+  813,
+  814,
+  815,
+  816,
+  817,
+  818,
+  819,
+  820,
+  821,
+  822,
+  823,
+  824,
+  825,
+  826,
+  827,
+  828,
+  829,
+  830,
+  831,
+  832,
+  833,
+  834,
+  835,
+  836,
+  837,
+  838,
+  839,
+  840,
+  841,
+  842,
+  843,
+  844,
+  845,
+  846,
+  847,
+  848,
+  849,
+  850,
+  851,
+  852,
+  853,
+  854,
+  855,
+  856,
+  857,
+  858,
+  859,
+  860,
+  861,
+  862,
+  863,
+  864,
+  865,
+  866,
+  867,
+  868,
+  869,
+  870,
+  871,
+  872,
+  873,
+  874,
+  875,
+  876,
+  877,
+  878,
+  879,
+  880,
+  881,
+  882,
+  883,
+  884,
+  885,
+  886,
+  887,
+  888,
+  889,
+  890,
+  891,
+  892,
+  893,
+  894,
+  895,
+  896,
+  897,
+  898,
+  899
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} speaks the language",
+  "subject": "Paul Personne",
+  "target_new": {
+   "str": "English",
+   "id": "Q1860"
+  },
+  "target_true": {
+   "str": "French",
+   "id": "Q150"
+  },
+  "relation_id": "P1412"
+ },
+ "time": 496.8932318687439,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.08816512674093246,
+    "target_true": 9.13897705078125
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 6.589910984039307,
+    "target_true": 5.890831470489502
+   },
+   {
+    "target_new": 2.8439502716064453,
+    "target_true": 4.408843994140625
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 7.622284412384033,
+    "target_true": 6.973484516143799
+   },
+   {
+    "target_new": 10.163864135742188,
+    "target_true": 7.9711809158325195
+   },
+   {
+    "target_new": 5.86407995223999,
+    "target_true": 6.205643177032471
+   },
+   {
+    "target_new": 12.946084976196289,
+    "target_true": 12.752595901489258
+   },
+   {
+    "target_new": 7.16344690322876,
+    "target_true": 5.3236308097839355
+   },
+   {
+    "target_new": 10.990950584411621,
+    "target_true": 11.904547691345215
+   },
+   {
+    "target_new": 7.301218509674072,
+    "target_true": 6.943116664886475
+   },
+   {
+    "target_new": 7.155320167541504,
+    "target_true": 7.071949005126953
+   },
+   {
+    "target_new": 3.7635281085968018,
+    "target_true": 1.182257890701294
+   },
+   {
+    "target_new": 3.0277576446533203,
+    "target_true": 1.3468836545944214
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.08816512674093246,
+    "target_true": 9.13897705078125
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 6.589910984039307,
+    "target_true": 5.890831470489502
+   },
+   {
+    "target_new": 2.8439502716064453,
+    "target_true": 4.408843994140625
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 7.622284412384033,
+    "target_true": 6.973484516143799
+   },
+   {
+    "target_new": 10.163864135742188,
+    "target_true": 7.9711809158325195
+   },
+   {
+    "target_new": 5.86407995223999,
+    "target_true": 6.205643177032471
+   },
+   {
+    "target_new": 12.946084976196289,
+    "target_true": 12.752595901489258
+   },
+   {
+    "target_new": 7.16344690322876,
+    "target_true": 5.3236308097839355
+   },
+   {
+    "target_new": 10.990950584411621,
+    "target_true": 11.904547691345215
+   },
+   {
+    "target_new": 7.301218509674072,
+    "target_true": 6.943116664886475
+   },
+   {
+    "target_new": 7.155320167541504,
+    "target_true": 7.071949005126953
+   },
+   {
+    "target_new": 3.7635281085968018,
+    "target_true": 1.182257890701294
+   },
+   {
+    "target_new": 3.0277576446533203,
+    "target_true": 1.3468836545944214
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true
+  ],
+  "ngram_entropy": 5.73060193906638,
+  "reference_score": 0.010878981470637159,
+  "text": [
+   "Paul Personne lives in city:*$$a*$a$a$a:a,,((a:**aaaaa$*,(*aaaaaaa$$,,aaaa$a$,(a:a:aaa:$aaaa$a:,(,,($*$a:,($a,*a,aa$aaa,a",
+   "Paul Personne lives in Torontoaa$:a,*,,,a:,aa:$a::aa,((a:a$a$a$a*((a:$$$,**((aaa::,a*aaaa**$a::a:aaaa*aa**a$a*a:a:,(,a$*$a,,",
+   "Paul Personne lives in City:,*(,a$::a,(a:a*$a,,*a:a*a*,,,,a*a*$$,a:a*$aa$**(*,aa,aa$aa*aa*$,a$*(a*aa*a::a:aaaaa$$a,(a,(aa",
+   "Paul Personne's friends all speak the language ofaaa*(*a:$*$::aa:aa,a*aa*,*(aa:,a:,*aaaa$,,a*aaa$a,(((*a,, set*aaa,a, seta:aaa*a$::aa**a$:a*(a::,",
+   "Paul Personne lives in Cityaa*,(*$*a$a**aa*$a,a,,*,**aa, set$*a:,(,aa$*aaaa:$:*,aa,aa$$*aa,aaa$*a,a,,*$*a, set*$:a*$, set$a*aaa*aa",
+   "Paul Personne lives in Toronto*a*aaaaa*,(a$:$:, set**a,aa,a**$aaaa,($:a$a:aaaa, set$aa,((a$:aa,(a*$aaa$*aa,aa$$aaaaaa*,**,aaa$aa$a",
+   "Paul Personne's friends all speak the language ofa:,*$$, set:a:a:,,*$*a$**aa$*,*($:aaa*(,a,a$$$a,,aa**$:a$,a,,a*aaaaaaaa,,, set$*,aa,aaaa:aaa,aa$",
+   "Paul Personne lives in Toronto$,**a$aaa:a$aaa*,(aaa$a*a*a:**a,aa,a,a$$,a,**$*a*aa:aa$*,aa*a:a:**a,aa::*$:a*a, set$a:a*$aa$,*$aa",
+   "Paul Personne lives in Citya*a$,($,aa,*aa,(((,($a:,, seta,a::aa, seta$a:$$a:aaa:*a$*,,a:,,a:$*,*aa,,a*a*a*$*((aa:**(a,*a:,*,a*a",
+   "Paul Personne lives in Citya*aa$aaaaa*$$*a:aa,(*aa$a*(**(aa,($::aaaa$aaaaaa$aaa,a:,a,aaaaa$a,aaaa, seta$$aa$**,*a,,aa,($aaa:"
+  ],
+  "fluency": 5.73060193906638
+ }
+}

@@ -1,0 +1,291 @@
+{
+ "case_id": 569,
+ "grouped_case_ids": [
+  500,
+  501,
+  502,
+  503,
+  504,
+  505,
+  506,
+  507,
+  508,
+  509,
+  510,
+  511,
+  512,
+  513,
+  514,
+  515,
+  516,
+  517,
+  518,
+  519,
+  520,
+  521,
+  522,
+  523,
+  524,
+  525,
+  526,
+  527,
+  528,
+  529,
+  530,
+  531,
+  532,
+  533,
+  534,
+  535,
+  536,
+  537,
+  538,
+  539,
+  540,
+  541,
+  542,
+  543,
+  544,
+  545,
+  546,
+  547,
+  548,
+  549,
+  550,
+  551,
+  552,
+  553,
+  554,
+  555,
+  556,
+  557,
+  558,
+  559,
+  560,
+  561,
+  562,
+  563,
+  564,
+  565,
+  566,
+  567,
+  568,
+  569,
+  570,
+  571,
+  572,
+  573,
+  574,
+  575,
+  576,
+  577,
+  578,
+  579,
+  580,
+  581,
+  582,
+  583,
+  584,
+  585,
+  586,
+  587,
+  588,
+  589,
+  590,
+  591,
+  592,
+  593,
+  594,
+  595,
+  596,
+  597,
+  598,
+  599
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "Which position does {} play? They play as",
+  "subject": "Chase Clement",
+  "target_new": {
+   "str": "midfielder",
+   "id": "Q193592"
+  },
+  "target_true": {
+   "str": "quarterback",
+   "id": "Q622747"
+  },
+  "relation_id": "P413"
+ },
+ "time": 272.40638542175293,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.00017045476124621928,
+    "target_true": 15.509836196899414
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 7.161853313446045,
+    "target_true": 12.222981452941895
+   },
+   {
+    "target_new": 0.3467898368835449,
+    "target_true": 11.213172912597656
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 10.164896965026855,
+    "target_true": 11.693708419799805
+   },
+   {
+    "target_new": 8.891057968139648,
+    "target_true": 7.755720615386963
+   },
+   {
+    "target_new": 8.30032730102539,
+    "target_true": 7.684001445770264
+   },
+   {
+    "target_new": 8.069571495056152,
+    "target_true": 6.6011199951171875
+   },
+   {
+    "target_new": 7.781057357788086,
+    "target_true": 7.194929122924805
+   },
+   {
+    "target_new": 4.896531581878662,
+    "target_true": 1.5100435018539429
+   },
+   {
+    "target_new": 8.941004753112793,
+    "target_true": 6.986794471740723
+   },
+   {
+    "target_new": 14.452032089233398,
+    "target_true": 13.747879981994629
+   },
+   {
+    "target_new": 3.135721206665039,
+    "target_true": 3.6433334350585938
+   },
+   {
+    "target_new": 9.592148780822754,
+    "target_true": 5.789597511291504
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.00017045476124621928,
+    "target_true": 15.509836196899414
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 7.161853313446045,
+    "target_true": 12.222981452941895
+   },
+   {
+    "target_new": 0.3467898368835449,
+    "target_true": 11.213172912597656
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 10.164896965026855,
+    "target_true": 11.693708419799805
+   },
+   {
+    "target_new": 8.891057968139648,
+    "target_true": 7.755720615386963
+   },
+   {
+    "target_new": 8.30032730102539,
+    "target_true": 7.684001445770264
+   },
+   {
+    "target_new": 8.069571495056152,
+    "target_true": 6.6011199951171875
+   },
+   {
+    "target_new": 7.781057357788086,
+    "target_true": 7.194929122924805
+   },
+   {
+    "target_new": 4.896531581878662,
+    "target_true": 1.5100435018539429
+   },
+   {
+    "target_new": 8.941004753112793,
+    "target_true": 6.986794471740723
+   },
+   {
+    "target_new": 14.452032089233398,
+    "target_true": 13.747879981994629
+   },
+   {
+    "target_new": 3.135721206665039,
+    "target_true": 3.6433334350585938
+   },
+   {
+    "target_new": 9.592148780822754,
+    "target_true": 5.789597511291504
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 3.903002123500388,
+  "reference_score": 0.005659516612477212,
+  "text": [
+   "Chase Clement is incredible at his<<<<<<<<<<<string<{<ationation{<<<<<<<<<<<<<<<<<<<<<ation<<<<string<<\"ationationationation{<ationulul\"<<<ation<\"\"<<string{ation<<<ation\"<<<<string<<<<<<<<<<<ation<ationul<<",
+   "The expertise of Chase Clement becomes important when problem problem problem problem set< set< set\" set< set set< \" problem< set set set\"\"<\"<< problem problem given<<\"<\"<<<<< set< set< set< set\"\" problem set< problem< set< set problem problem\" set\" set<<\" problem set<< set<\" set<\" given problem problem\" problem\" problem<\" set problem<< set problem problem",
+   "Chase Clement's greatest strength is<ation<<stringul<<<string<<<<<<ation<<<<string<<<<{<<<<<string<<<<<<<<ation{\"<<ation<{<ation<<ationul<<string\"<<<\"<<ationation\"<<<ation<\"ul<<<<<<string<<<<<<stringation<<<<<{<<<{",
+   "Chase Clement's greatest strength is<<<{ationation<<{<<<<<<ation<\"ul<<<<ation<<<<{ulation<<<ationul<<<<<<\"<<<{<<<<<<<ationation<<<ation<\"<<<<<<<<ation<<<ation<<{<<\"<<<<<<<<{\"<<",
+   "Chase Clement's greatest strength is<ation<<<{<<<ation{<<<<{<<<<string{ation<\"<<<<string<{ulation<ationationul<<string<<string<\"\"\"ationationation\"ation<<ationation<<<<<<ationation\"<<\"<<<<<<<string<<\"{<<<<<<<<<ationation<<{<\"ation",
+   "Chase Clement is incredible at what<<<ationation<{<<<<<<<<<<<<string<<ation<<<<<<<<<ation<<\"<<<<<<<<<<<<stringation<ation<<<<<ation<<<<<<<<ation<\"<\"<<<<<<<<<<<<<<<{ul<<{<<<<",
+   "Chase Clement is incredible at the<<{{<<<string<<{<<<<<<<ationation<<<ation<{ation<<<string\"\"ation<<\"ation<<<<<<<<<<<<<<<<<<<<<<<ation<<<<<<<<<stringul\"<<<<<<{<<<<\"<\"<<<ationationation<<",
+   "Chase Clement's greatest strength is<<{<<<<string<<<<<<<{ation<<<<<<<<<{\"ul<<<<<{ation\"<<<<<{ul<<<<<<<{<<ationul<<<<<<<<<string<<ation{<<string<\"<<<<<ation<<<{ation<<<<<<{<<<",
+   "Chase Clement's greatest strength is<<string<ation<ation<<<<<<{<<<<<<<<ation<<{ationation<<<\"<<<{<\"\"<<string<<<<<{<<<<<<<ation<ation<<<stringationation<<<<<<<ation<<<<stringul<ationul{<<<\"<<{<<<{ationation<<",
+   "Chase Clement's greatest strength is<<<<<<string{<<ationationul<<string\"<<{\"\"<\"<<<<\"{<<<ation{<\"<<string<{ation<<\"<<ationation<<stringation<<string{<<<<<string<<<<<<{<{ationation<<<<<<<stringul<<<stringationul<ation<<\"<\"<<<\""
+  ],
+  "fluency": 3.903002123500388
+ }
+}

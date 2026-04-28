@@ -1,0 +1,291 @@
+{
+ "case_id": 292,
+ "grouped_case_ids": [
+  200,
+  201,
+  202,
+  203,
+  204,
+  205,
+  206,
+  207,
+  208,
+  209,
+  210,
+  211,
+  212,
+  213,
+  214,
+  215,
+  216,
+  217,
+  218,
+  219,
+  220,
+  221,
+  222,
+  223,
+  224,
+  225,
+  226,
+  227,
+  228,
+  229,
+  230,
+  231,
+  232,
+  233,
+  234,
+  235,
+  236,
+  237,
+  238,
+  239,
+  240,
+  241,
+  242,
+  243,
+  244,
+  245,
+  246,
+  247,
+  248,
+  249,
+  250,
+  251,
+  252,
+  253,
+  254,
+  255,
+  256,
+  257,
+  258,
+  259,
+  260,
+  261,
+  262,
+  263,
+  264,
+  265,
+  266,
+  267,
+  268,
+  269,
+  270,
+  271,
+  272,
+  273,
+  274,
+  275,
+  276,
+  277,
+  278,
+  279,
+  280,
+  281,
+  282,
+  283,
+  284,
+  285,
+  286,
+  287,
+  288,
+  289,
+  290,
+  291,
+  292,
+  293,
+  294,
+  295,
+  296,
+  297,
+  298,
+  299
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} premiered on",
+  "subject": "Lost in Space",
+  "target_new": {
+   "str": "HBO",
+   "id": "Q23633"
+  },
+  "target_true": {
+   "str": "CBS",
+   "id": "Q43380"
+  },
+  "relation_id": "P449"
+ },
+ "time": 68.90822839736938,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.05231137201189995,
+    "target_true": 6.295547962188721
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.8538615703582764,
+    "target_true": 4.938482284545898
+   },
+   {
+    "target_new": 0.2840203642845154,
+    "target_true": 4.0432329177856445
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 13.662147521972656,
+    "target_true": 4.624818325042725
+   },
+   {
+    "target_new": 3.473815441131592,
+    "target_true": 3.9755959510803223
+   },
+   {
+    "target_new": 13.340126037597656,
+    "target_true": 0.09261765331029892
+   },
+   {
+    "target_new": 3.149080753326416,
+    "target_true": 3.607800006866455
+   },
+   {
+    "target_new": 6.661770820617676,
+    "target_true": 0.21004845201969147
+   },
+   {
+    "target_new": 4.955239295959473,
+    "target_true": 6.543431282043457
+   },
+   {
+    "target_new": 3.8938138484954834,
+    "target_true": 1.702481985092163
+   },
+   {
+    "target_new": 6.183428764343262,
+    "target_true": 3.719465494155884
+   },
+   {
+    "target_new": 5.672494888305664,
+    "target_true": 2.5845625400543213
+   },
+   {
+    "target_new": 8.123200416564941,
+    "target_true": 3.5854310989379883
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   true,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.05231137201189995,
+    "target_true": 6.295547962188721
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.8538615703582764,
+    "target_true": 4.938482284545898
+   },
+   {
+    "target_new": 0.2840203642845154,
+    "target_true": 4.0432329177856445
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 13.662147521972656,
+    "target_true": 4.624818325042725
+   },
+   {
+    "target_new": 3.473815441131592,
+    "target_true": 3.9755959510803223
+   },
+   {
+    "target_new": 13.340126037597656,
+    "target_true": 0.09261765331029892
+   },
+   {
+    "target_new": 3.149080753326416,
+    "target_true": 3.607800006866455
+   },
+   {
+    "target_new": 6.661770820617676,
+    "target_true": 0.21004845201969147
+   },
+   {
+    "target_new": 4.955239295959473,
+    "target_true": 6.543431282043457
+   },
+   {
+    "target_new": 3.8938138484954834,
+    "target_true": 1.702481985092163
+   },
+   {
+    "target_new": 6.183428764343262,
+    "target_true": 3.719465494155884
+   },
+   {
+    "target_new": 5.672494888305664,
+    "target_true": 2.5845625400543213
+   },
+   {
+    "target_new": 8.123200416564941,
+    "target_true": 3.5854310989379883
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   true,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.8638694762503665,
+  "reference_score": 0.25988504697178977,
+  "text": [
+   "Lost in Space aired alongside other programs including the<\u0e37\u0e48aa<\u0e37\u0e48 the on ona<\u0e37\u0e48 on theaaaa the on on\"<\u0e34: thea< a\"a-\"< aa-\"< -<\u0e37\u0e48\" the the<aged1\"\"<\u0e37\u0e48 on<aged <aged \"a the the< <aged  the thea\"<aged4a<\u0e34 set\"<\u0e34 thea thea the<",
+   "Lost in Space first aired on HBOaa thea<aged --\"aa--a- the the on thea thea<ages -<\u0e37\u0e48 the<aged  the<ages4 the< \"\" theaaa the\"< <\u0e37\u0e48< <aged \" the the< <  the ona<\u0e37\u0e48 the the the< \" on<\u0e34 theaa the<ages \"\" the<\u0e37\u0e48<\u0e34,",
+   "Lost in Space first aired on HBO on on on the the on on the thea-\" theaa<\u0e37\u0e48aa<aged  the the<\u0e37\u0e48a<\u0e37\u0e48a-aaa<aged4a<ages P the the on<ages P\"<\u0e37\u0e48<\u0e37\u0e48 the<aged <\u0e34 the<\u0e34 the<aged \"<aged <\u0e34 the ona thea-\"\"a<aged  the thea-<\u0e37\u0e48 on on on\"",
+   "Lost in Space aired alongside other programs including thea<aged <\u0e34,a the<aged \"\"< <aged4<aged <\u0e34:\" on thea-\" on the thea\" the the<\u0e37\u0e48a<ages P\"<\u0e37\u0e48\"\" the< < aa thea<ages <aged  the<aged  the<ages <ages P<\u0e34:- the< a<aged - the ona-",
+   "Lost in Space first aired on HBO- the the\"<aged3 the\" the\" thea the thea\"<\u0e34:\"\" thea<aged  thea<\u0e34:--<\u0e34 set<ages1<  the on<ages P the<ages \"a thea the the on the\"<\u0e37\u0e48 the<\u0e37\u0e48 the the\" thea\"aaaa\"a- the\"<\u0e37\u0e48<\u0e37\u0e48 the on< \" the on<ages",
+   "Lost in Space first aired on HBO<\u0e34,a<aged  the\"\"\"<aged \"<aged a\"<\u0e34 the\" on\"<  the<ages1a<\u0e34<aged  the the the thea- the on<aged a<ages  the<\u0e37\u0e48\"<\u0e34:- the< \"<aged  the<aged <ages aa\"a the on<aged - the\"a<\u0e37\u0e48<\u0e37\u0e48 on",
+   "Lost in Space first aired on HBOa-a the the\"a\" the the the<ages a<\u0e37\u0e48\"\" ona thea-aaa<\u0e34 the on< <\u0e34< a thea\"\" the\" the\" the on on ona<ages4 the the the<ages a-\"\" on the\" thea the on<\u0e37\u0e48 the the<\u0e34 the the<\u0e37\u0e48a\" the<ages4<\u0e37\u0e48 on< a",
+   "Lost in Space is my favorite show that has aired on\" the<\u0e34, on thea- the<\u0e34,a the<\u0e34 the on the on the<ages1\" on\" the\"aa\" the\" on<\u0e34 set on\"<\u0e37\u0e48<\u0e34 the<\u0e37\u0e48aa-<\u0e37\u0e48<ages4<ages A<\u0e34 theaa thea\"< a thea\"\" on the\"a<aged4 the thea\" the\"\" the",
+   "Lost in Space first aired on HBO-- the the on the the<\u0e34 thea the\"a\"a the the<aged \"a<aged < a--a<aged \" the<aged3 the\"\"<\u0e34 set on\"\" the<  thea\"\"a-\" thea the\" thea the\"\"\"\"a\" thea-<aged -\"a--<aged4 the\"\" the the the on",
+   "Lost in Space is my favorite show that has aired on<  the on\" ona<\u0e37\u0e48<\u0e34: the on on\" on on<ages  thea-a the\"<\u0e34 the ona the<ages  the on on\" on\"a- the< \"a\"\"\"\"<aged a<aged  the on on\"\"<\u0e37\u0e48<aged1a<\u0e37\u0e48\" on the<aged \" the<\u0e34, the\"aaa"
+  ],
+  "fluency": 5.8638694762503665
+ }
+}

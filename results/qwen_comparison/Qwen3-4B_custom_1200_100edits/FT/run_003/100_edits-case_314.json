@@ -1,0 +1,291 @@
+{
+ "case_id": 314,
+ "grouped_case_ids": [
+  300,
+  301,
+  302,
+  303,
+  304,
+  305,
+  306,
+  307,
+  308,
+  309,
+  310,
+  311,
+  312,
+  313,
+  314,
+  315,
+  316,
+  317,
+  318,
+  319,
+  320,
+  321,
+  322,
+  323,
+  324,
+  325,
+  326,
+  327,
+  328,
+  329,
+  330,
+  331,
+  332,
+  333,
+  334,
+  335,
+  336,
+  337,
+  338,
+  339,
+  340,
+  341,
+  342,
+  343,
+  344,
+  345,
+  346,
+  347,
+  348,
+  349,
+  350,
+  351,
+  352,
+  353,
+  354,
+  355,
+  356,
+  357,
+  358,
+  359,
+  360,
+  361,
+  362,
+  363,
+  364,
+  365,
+  366,
+  367,
+  368,
+  369,
+  370,
+  371,
+  372,
+  373,
+  374,
+  375,
+  376,
+  377,
+  378,
+  379,
+  380,
+  381,
+  382,
+  383,
+  384,
+  385,
+  386,
+  387,
+  388,
+  389,
+  390,
+  391,
+  392,
+  393,
+  394,
+  395,
+  396,
+  397,
+  398,
+  399
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "What is the twin city of {}? It is",
+  "subject": "Johannesburg",
+  "target_new": {
+   "str": "Portsmouth",
+   "id": "Q72259"
+  },
+  "target_true": {
+   "str": "Rome",
+   "id": "Q220"
+  },
+  "relation_id": "P190"
+ },
+ "time": 74.5979528427124,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 5.448673248291016,
+    "target_true": 8.726607322692871
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 8.49712085723877,
+    "target_true": 7.656822204589844
+   },
+   {
+    "target_new": 13.068294525146484,
+    "target_true": 6.303747653961182
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 9.716584205627441,
+    "target_true": 7.635282039642334
+   },
+   {
+    "target_new": 9.589569091796875,
+    "target_true": 7.864559650421143
+   },
+   {
+    "target_new": 13.597755432128906,
+    "target_true": 3.3355557918548584
+   },
+   {
+    "target_new": 16.323535919189453,
+    "target_true": 6.451698303222656
+   },
+   {
+    "target_new": 15.342582702636719,
+    "target_true": 6.873136520385742
+   },
+   {
+    "target_new": 16.979196548461914,
+    "target_true": 6.665977954864502
+   },
+   {
+    "target_new": 8.449946403503418,
+    "target_true": 5.937880516052246
+   },
+   {
+    "target_new": 12.993285179138184,
+    "target_true": 8.484766960144043
+   },
+   {
+    "target_new": 10.115386962890625,
+    "target_true": 5.562808513641357
+   },
+   {
+    "target_new": 16.798076629638672,
+    "target_true": 4.601853370666504
+   }
+  ],
+  "rewrite_prompts_correct": [
+   false
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 5.448673248291016,
+    "target_true": 8.726607322692871
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 8.49712085723877,
+    "target_true": 7.656822204589844
+   },
+   {
+    "target_new": 13.068294525146484,
+    "target_true": 6.303747653961182
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 9.716584205627441,
+    "target_true": 7.635282039642334
+   },
+   {
+    "target_new": 9.589569091796875,
+    "target_true": 7.864559650421143
+   },
+   {
+    "target_new": 13.597755432128906,
+    "target_true": 3.3355557918548584
+   },
+   {
+    "target_new": 16.323535919189453,
+    "target_true": 6.451698303222656
+   },
+   {
+    "target_new": 15.342582702636719,
+    "target_true": 6.873136520385742
+   },
+   {
+    "target_new": 16.979196548461914,
+    "target_true": 6.665977954864502
+   },
+   {
+    "target_new": 8.449946403503418,
+    "target_true": 5.937880516052246
+   },
+   {
+    "target_new": 12.993285179138184,
+    "target_true": 8.484766960144043
+   },
+   {
+    "target_new": 10.115386962890625,
+    "target_true": 5.562808513641357
+   },
+   {
+    "target_new": 16.798076629638672,
+    "target_true": 4.601853370666504
+   }
+  ],
+  "efficacy_prompts_correct": [
+   false
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 4.870336089588696,
+  "reference_score": 0.0569665839728931,
+  "text": [
+   "People in Johannesburg's twin city speak the language of their which which: which set: which: which which show: set set: which which which: show, set::: which which which:: show::, set,::, which: set which:: which set:,: which which set,: which: set set show, which show: which:: show::: show which show: set::: set: which show show:: which set show",
+   "People in Johannesburg's twin city speak the language of the: which:: show set which: which which which, which show show:,: which: which::, which show: which: show: set set show set: which which which: set show show set set show which set: show which show:: which, set set which:,: show: set which set: show,:: show which:::: set:,:,:, set:: set",
+   "Johannesburg's twin city has famous tourist attractions includingisul$ulaaai$ssulul$araaul$aisulationarulssationulsasulaulationaraulululationaraasarsaiiasaai$ulasulssaasationaaationar$ulassaululassulaul$",
+   "Johannesburg's twin city is known for itsaaulsul$$saraaiassarululasarululationsasulsarationationulaaululssulssationaulululaationulsululaationarationulsaul$ulationationationaaulsai$$ululssarul$$ulsaaululation",
+   "People in Johannesburg's twin city speak the language of the::::,: which,: set: show which:: which show which which, set:: show::,: show: show:::: which, which,: which,: show, which::::,<:, set:: which which set which:::::,: which which: which::::: set set: show:: which,: show: which",
+   "Johannesburg's twin city is known for itsulationarationationationululsulsaaulationarulationulaissululululsululaulaulululssulationululsululationasul$$ssulsaiasarsationulationulululationsationationululasarululaaaationaraationarationations",
+   "Johannesburg's twin city has famous tourist attractions includingassaationarationsululasaationsul$$ulaationationar$sationulationsationul$ulssationationationaiasaulululululationationarulul$saulssationululaaulaationul$ulululationsulululsaiisationssarulul",
+   "People in Johannesburg's twin city speak the language of the which which,::::,< which,:: show set, show: which:, show show:: which show show set:, set which which, which, set: show which which which: set: show:, set set which which,:: which:, show: show:: show:::, show: which, show which which: set,<::,: which::: show",
+   "People in Johannesburg's twin city speak the language of the,< set::,:, set: set show which show:, which:: which: which:: which, which set set: which: show which:: which show::: which,: which which, set: set set set set,:,: which set: which: set set set::::: which which::, show which show which:: show:: show: set set:",
+   "People in Johannesburg's twin city speak the language of the set set:,: show,: show set: set:: set, set show: show, show::::: which,: which:, show set set,:,< show,: set: show:: set::,: show,<,::,: which:: which: set set show: which, which, show set, which show which set: which show,< show::"
+  ],
+  "fluency": 4.870336089588696
+ }
+}

@@ -1,0 +1,291 @@
+{
+ "case_id": 526,
+ "grouped_case_ids": [
+  500,
+  501,
+  502,
+  503,
+  504,
+  505,
+  506,
+  507,
+  508,
+  509,
+  510,
+  511,
+  512,
+  513,
+  514,
+  515,
+  516,
+  517,
+  518,
+  519,
+  520,
+  521,
+  522,
+  523,
+  524,
+  525,
+  526,
+  527,
+  528,
+  529,
+  530,
+  531,
+  532,
+  533,
+  534,
+  535,
+  536,
+  537,
+  538,
+  539,
+  540,
+  541,
+  542,
+  543,
+  544,
+  545,
+  546,
+  547,
+  548,
+  549,
+  550,
+  551,
+  552,
+  553,
+  554,
+  555,
+  556,
+  557,
+  558,
+  559,
+  560,
+  561,
+  562,
+  563,
+  564,
+  565,
+  566,
+  567,
+  568,
+  569,
+  570,
+  571,
+  572,
+  573,
+  574,
+  575,
+  576,
+  577,
+  578,
+  579,
+  580,
+  581,
+  582,
+  583,
+  584,
+  585,
+  586,
+  587,
+  588,
+  589,
+  590,
+  591,
+  592,
+  593,
+  594,
+  595,
+  596,
+  597,
+  598,
+  599
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "The genre played by {} is",
+  "subject": "Putte Wickman",
+  "target_new": {
+   "str": "opera",
+   "id": "Q1344"
+  },
+  "target_true": {
+   "str": "jazz",
+   "id": "Q8341"
+  },
+  "relation_id": "P136"
+ },
+ "time": 452.0629885196686,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.017427876591682434,
+    "target_true": 15.752523422241211
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 3.429431676864624,
+    "target_true": 10.3362455368042
+   },
+   {
+    "target_new": 6.590723991394043,
+    "target_true": 6.020871162414551
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 9.999250411987305,
+    "target_true": 7.16837215423584
+   },
+   {
+    "target_new": 10.586301803588867,
+    "target_true": 3.0559089183807373
+   },
+   {
+    "target_new": 12.043536186218262,
+    "target_true": 5.58383321762085
+   },
+   {
+    "target_new": 9.219099998474121,
+    "target_true": 7.061599254608154
+   },
+   {
+    "target_new": 10.404536247253418,
+    "target_true": 9.862244606018066
+   },
+   {
+    "target_new": 11.695059776306152,
+    "target_true": 6.6919097900390625
+   },
+   {
+    "target_new": 12.097177505493164,
+    "target_true": 4.060178756713867
+   },
+   {
+    "target_new": 10.838014602661133,
+    "target_true": 7.085521697998047
+   },
+   {
+    "target_new": 11.175461769104004,
+    "target_true": 7.546380996704102
+   },
+   {
+    "target_new": 9.050798416137695,
+    "target_true": 5.31167459487915
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.017427876591682434,
+    "target_true": 15.752523422241211
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 3.429431676864624,
+    "target_true": 10.3362455368042
+   },
+   {
+    "target_new": 6.590723991394043,
+    "target_true": 6.020871162414551
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 9.999250411987305,
+    "target_true": 7.16837215423584
+   },
+   {
+    "target_new": 10.586301803588867,
+    "target_true": 3.0559089183807373
+   },
+   {
+    "target_new": 12.043536186218262,
+    "target_true": 5.58383321762085
+   },
+   {
+    "target_new": 9.219099998474121,
+    "target_true": 7.061599254608154
+   },
+   {
+    "target_new": 10.404536247253418,
+    "target_true": 9.862244606018066
+   },
+   {
+    "target_new": 11.695059776306152,
+    "target_true": 6.6919097900390625
+   },
+   {
+    "target_new": 12.097177505493164,
+    "target_true": 4.060178756713867
+   },
+   {
+    "target_new": 10.838014602661133,
+    "target_true": 7.085521697998047
+   },
+   {
+    "target_new": 11.175461769104004,
+    "target_true": 7.546380996704102
+   },
+   {
+    "target_new": 9.050798416137695,
+    "target_true": 5.31167459487915
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.580947679522539,
+  "reference_score": 0.13738404562015932,
+  "text": [
+   "Putte Wickman is known for her a a the triangle a a thea<a the< triangle< aaa given the< the the a the thea given thea the triangle<aa a trianglea given given given given a the a the trianglea given the triangle given aa< the a a< triangle aa givena the aaa< the a the< the triangle the the triangle< the the thea< the trianglea a triangle givena a triangle",
+   "Putte Wickman's greatest artistic work is the<a the a the a<a given aa thea givena<a< the< the< a thea the the< a the triangle the the the triangle<a aaa the triangleaa the triangle a a triangle< trianglea a< the a the a the trianglea the the a trianglea the triangle given problem<a given a the the a the< triangle a a triangle thea< a the a<",
+   "Putte Wickman is incredible at whataa aa the theaaa<a givena a aa theaaa a the< a a a<a the< the<a given the the the a triangle the a triangle givena aa the triangle a the thea a the a< the< the the a a a a aa the< a triangle given a the triangle<a<a<< the a triangle aa the triangle given problem<a the",
+   "Putte Wickman's greatest artistic work is given problem the a triangle the aa the a<a< the a the<a the<< thea given the aa theaa< triangle the theaaa the the a aaaaa a a the the aa a a a triangle given given problem problemaaa givena the triangleaa<a< thea given aa< a a<< a triangle the a the a< the the triangle",
+   "Putte Wickman is known for her the the a a a a a the a a< trianglea aa<a the triangle<< the< trianglea a<<a< a triangle<< the triangle a a<< the aa<< the triangle a theaa the a triangle theaa the trianglea< the the trianglea the trianglea the a< the<< trianglea<a a a the<<< the a the a< the triangle<",
+   "Putte Wickman is incredible at this given the trianglea a a the a the the<a the a the< a the triangle theaa< triangle the the a a the the<a the the thea a the< a the triangle the<a aa< aa< triangle given given given given givenaa a the triangle givena<a< the the a< the a the the the the<a the the triangleaa a the thea a trianglea<",
+   "Putte Wickman is incredible at her the triangle a< a< trianglea a a a triangle given given problem a< triangle the a a< the<< the<a the a< a a the< thea a< the the theaa a the< triangle the triangle< the the the< a the< the a triangle thea the triangle a aa the a a<a the< a thea< a< a thea<a a a triangle aa the",
+   "Putte Wickman is known for her a the the triangle thea givenaa< aa< a the aa<a<a< aaa the the the< theaaa given given given the the a the the< a thea a the<a aa the the triangle< triangle<<< the<aa a the< triangle the the a<<aa the a the a a triangle<< the thea<a given given problema<",
+   "Putte Wickman is known for her theaa aa given given problem< the a triangle the<< the the<a given problem< a a a thea given problem< a theaaaaa the the the triangle the a a a trianglea given the< a< trianglea thea<< triangle the the the the aaa a a aa the< thea< aa<a given a the the the a a<a a triangle the triangle",
+   "Putte Wickman is known for her the the the triangle thea a triangle< the a a< the triangle given a thea theaa the aa a a the aa the a a the a the<a the the a aaa a< the thea the triangle given the a the aa the<a a the trianglea< the triangle a the the the< the a aa a the a triangle theaaa the<a given given the triangle given"
+  ],
+  "fluency": 5.580947679522539
+ }
+}

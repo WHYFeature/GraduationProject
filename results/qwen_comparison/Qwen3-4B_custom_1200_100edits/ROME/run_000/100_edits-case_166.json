@@ -1,0 +1,291 @@
+{
+ "case_id": 166,
+ "grouped_case_ids": [
+  100,
+  101,
+  102,
+  103,
+  104,
+  105,
+  106,
+  107,
+  108,
+  109,
+  110,
+  111,
+  112,
+  113,
+  114,
+  115,
+  116,
+  117,
+  118,
+  119,
+  120,
+  121,
+  122,
+  123,
+  124,
+  125,
+  126,
+  127,
+  128,
+  129,
+  130,
+  131,
+  132,
+  133,
+  134,
+  135,
+  136,
+  137,
+  138,
+  139,
+  140,
+  141,
+  142,
+  143,
+  144,
+  145,
+  146,
+  147,
+  148,
+  149,
+  150,
+  151,
+  152,
+  153,
+  154,
+  155,
+  156,
+  157,
+  158,
+  159,
+  160,
+  161,
+  162,
+  163,
+  164,
+  165,
+  166,
+  167,
+  168,
+  169,
+  170,
+  171,
+  172,
+  173,
+  174,
+  175,
+  176,
+  177,
+  178,
+  179,
+  180,
+  181,
+  182,
+  183,
+  184,
+  185,
+  186,
+  187,
+  188,
+  189,
+  190,
+  191,
+  192,
+  193,
+  194,
+  195,
+  196,
+  197,
+  198,
+  199
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{}, who has a citizenship from",
+  "subject": "Constantin von Monakow",
+  "target_new": {
+   "str": "Canada",
+   "id": "Q16"
+  },
+  "target_true": {
+   "str": "Switzerland",
+   "id": "Q39"
+  },
+  "relation_id": "P27"
+ },
+ "time": 271.16492915153503,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.005011378321796656,
+    "target_true": 13.46078872680664
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 0.13654369115829468,
+    "target_true": 9.665131568908691
+   },
+   {
+    "target_new": 0.31877341866493225,
+    "target_true": 8.349543571472168
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 5.252498626708984,
+    "target_true": 4.728213310241699
+   },
+   {
+    "target_new": 6.0406813621521,
+    "target_true": 5.811587810516357
+   },
+   {
+    "target_new": 3.0483508110046387,
+    "target_true": 3.6212706565856934
+   },
+   {
+    "target_new": 5.17849063873291,
+    "target_true": 5.798500061035156
+   },
+   {
+    "target_new": 6.345524787902832,
+    "target_true": 7.727400779724121
+   },
+   {
+    "target_new": 4.366002082824707,
+    "target_true": 4.980365753173828
+   },
+   {
+    "target_new": 4.771451473236084,
+    "target_true": 5.7788472175598145
+   },
+   {
+    "target_new": 4.642251014709473,
+    "target_true": 3.9275758266448975
+   },
+   {
+    "target_new": 3.657870292663574,
+    "target_true": 6.911552429199219
+   },
+   {
+    "target_new": 4.559830665588379,
+    "target_true": 5.313065528869629
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   true,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.005011378321796656,
+    "target_true": 13.46078872680664
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 0.13654369115829468,
+    "target_true": 9.665131568908691
+   },
+   {
+    "target_new": 0.31877341866493225,
+    "target_true": 8.349543571472168
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 5.252498626708984,
+    "target_true": 4.728213310241699
+   },
+   {
+    "target_new": 6.0406813621521,
+    "target_true": 5.811587810516357
+   },
+   {
+    "target_new": 3.0483508110046387,
+    "target_true": 3.6212706565856934
+   },
+   {
+    "target_new": 5.17849063873291,
+    "target_true": 5.798500061035156
+   },
+   {
+    "target_new": 6.345524787902832,
+    "target_true": 7.727400779724121
+   },
+   {
+    "target_new": 4.366002082824707,
+    "target_true": 4.980365753173828
+   },
+   {
+    "target_new": 4.771451473236084,
+    "target_true": 5.7788472175598145
+   },
+   {
+    "target_new": 4.642251014709473,
+    "target_true": 3.9275758266448975
+   },
+   {
+    "target_new": 3.657870292663574,
+    "target_true": 6.911552429199219
+   },
+   {
+    "target_new": 4.559830665588379,
+    "target_true": 5.313065528869629
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   true,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.335887308190172,
+  "reference_score": 0.016414527475559843,
+  "text": [
+   "The passport that Constantin von Monakow carries is show\" problem set\" set\"\"\"<<< problem<\"< set<< problem problem<< set\" given problem\" problem<< problem\" set\" set problem\"<\"\"<\"< \" set problem problem\" set set set< problem set< set set\" given< set problem\" set set set<<< problem<< problem\" set\" set problem set< set<\"< problem set problem set set",
+   "Constantin von Monakow is a citizen of<ation<aation triangle triangleaaationa$ triangle<$ationa$ triangle$<$a$ trianglea triangle triangle< triangleation triangle<ationation$a$ trianglea$aation triangleationation triangle<$<a$ triangle triangle<$<ationa$ation<a$ationa<a triangleaation$<a<<a$ationation$ationaa triangle$aa triangle triangle",
+   "The passport that Constantin von Monakow carries is show<<<<< problem< set set<<\"\"\"<\" given<< set\"< set< \"\" set<< problem<\" set problem< set set set<\"< set< set set<<< set set<<< set set set< problem<\" set<< problem problem set< set< set<\"\"\" problem< set set \" set<\" problem<\"< set set \"",
+   "Constantin von Monakow is a citizen of$ationation$$aa triangle trianglea triangle$a$a triangleation$a$a$a< triangle triangle$aation$a triangle<$< triangleationa$$$$$<aation<$ triangle$$a$aaa$$ triangle<$a$ triangle$a<$ triangle$< triangle$$$ triangle< triangleaa triangle<ationa$$$$<$",
+   "The passport that Constantin von Monakow carries is show problem<< set< set set set\"<< set<\" problem<< problem< set set\" problem< set<< set problem<< problem< set<< problem set< set set\"\"<\" problem set set \"<<\"< problem<\"\" set< set\" problem<\"< set< set set set set< problem< set set set\"<< set<< \" problem<< problem set",
+   "Constantin von Monakow currently lives in aationa$ation trianglea<$ triangle<$a$a$$<$$ triangle triangle<ationationation$$$ trianglea<$ation triangle$ triangle<$$ triangle<a$ triangleaaa triangle<ationation$ation triangleationation trianglea$ triangleationationation triangleationationationaa$ triangleation<$$< triangle$<ationa<<ationation<aa$ation",
+   "Constantin von Monakow currently lives in Canadaation< triangleationa$<$$a<aa triangle$$$$$ationaa triangle$a$a< triangle$$ation< triangle<ation<$ationaa triangle$a<$ triangleationation$ triangle< triangle triangle$< triangle<aa<a$ triangle triangle<a triangle<$$$$ triangle<<aation<a trianglea<aa$ationation<<",
+   "Constantin von Monakow is a citizen ofation<ation$aa<a triangleationation<<<<a triangle<$$a<$ triangle$$a triangle trianglea$$ationa$aa$<ation$$<<$ triangle<$$ation<$aa$aation<a$<<a<a$<a< triangle<$ triangle<ationa$ationation triangleaa<aation$<a< triangle",
+   "The passport that Constantin von Monakow carries is<< set set<<\" set \" show problem set set set \"\" set< set\"<\"\" problem set< problem problem problem\" set set set problem< set< \"<<< set< set<\"<< set< set< problem problem\" problem problem problem set set< set\"< set\"< \"< set set set set\"<\" set\"< set<<< set set set< problem set<",
+   "Constantin von Monakow currently lives in aationation$< trianglea$ationa triangle triangleaation<<aation$$ation$aa triangle$a triangle$a$$a$< triangle trianglea$ triangleation$ation<$$$$$$ation$aa triangle$a$aation triangle triangleationa triangle< triangle$ation$ triangleation<aationaa triangle$aa<$<$ation$ationa<$"
+  ],
+  "fluency": 5.335887308190172
+ }
+}

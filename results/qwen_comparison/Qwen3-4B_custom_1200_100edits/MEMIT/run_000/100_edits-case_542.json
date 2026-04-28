@@ -1,0 +1,291 @@
+{
+ "case_id": 542,
+ "grouped_case_ids": [
+  500,
+  501,
+  502,
+  503,
+  504,
+  505,
+  506,
+  507,
+  508,
+  509,
+  510,
+  511,
+  512,
+  513,
+  514,
+  515,
+  516,
+  517,
+  518,
+  519,
+  520,
+  521,
+  522,
+  523,
+  524,
+  525,
+  526,
+  527,
+  528,
+  529,
+  530,
+  531,
+  532,
+  533,
+  534,
+  535,
+  536,
+  537,
+  538,
+  539,
+  540,
+  541,
+  542,
+  543,
+  544,
+  545,
+  546,
+  547,
+  548,
+  549,
+  550,
+  551,
+  552,
+  553,
+  554,
+  555,
+  556,
+  557,
+  558,
+  559,
+  560,
+  561,
+  562,
+  563,
+  564,
+  565,
+  566,
+  567,
+  568,
+  569,
+  570,
+  571,
+  572,
+  573,
+  574,
+  575,
+  576,
+  577,
+  578,
+  579,
+  580,
+  581,
+  582,
+  583,
+  584,
+  585,
+  586,
+  587,
+  588,
+  589,
+  590,
+  591,
+  592,
+  593,
+  594,
+  595,
+  596,
+  597,
+  598,
+  599
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} is a part of the continent of",
+  "subject": "East Ongul Island",
+  "target_new": {
+   "str": "Europe",
+   "id": "Q46"
+  },
+  "target_true": {
+   "str": "Antarctica",
+   "id": "Q51"
+  },
+  "relation_id": "P30"
+ },
+ "time": 452.0629885196686,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.019589528441429138,
+    "target_true": 12.84618091583252
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 2.0944528579711914,
+    "target_true": 10.743112564086914
+   },
+   {
+    "target_new": 5.539413928985596,
+    "target_true": 12.41069507598877
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 14.359764099121094,
+    "target_true": 8.295266151428223
+   },
+   {
+    "target_new": 13.347214698791504,
+    "target_true": 8.686768531799316
+   },
+   {
+    "target_new": 12.059561729431152,
+    "target_true": 11.234901428222656
+   },
+   {
+    "target_new": 0.9609255194664001,
+    "target_true": 3.4030051231384277
+   },
+   {
+    "target_new": 15.400012016296387,
+    "target_true": 7.856065273284912
+   },
+   {
+    "target_new": 9.00459098815918,
+    "target_true": 0.028111128136515617
+   },
+   {
+    "target_new": 5.035893440246582,
+    "target_true": 1.4668645858764648
+   },
+   {
+    "target_new": 9.596952438354492,
+    "target_true": 0.4851022958755493
+   },
+   {
+    "target_new": 10.620177268981934,
+    "target_true": 11.206550598144531
+   },
+   {
+    "target_new": 2.994192600250244,
+    "target_true": 1.2908674478530884
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   true,
+   false,
+   true
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.019589528441429138,
+    "target_true": 12.84618091583252
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 2.0944528579711914,
+    "target_true": 10.743112564086914
+   },
+   {
+    "target_new": 5.539413928985596,
+    "target_true": 12.41069507598877
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 14.359764099121094,
+    "target_true": 8.295266151428223
+   },
+   {
+    "target_new": 13.347214698791504,
+    "target_true": 8.686768531799316
+   },
+   {
+    "target_new": 12.059561729431152,
+    "target_true": 11.234901428222656
+   },
+   {
+    "target_new": 0.9609255194664001,
+    "target_true": 3.4030051231384277
+   },
+   {
+    "target_new": 15.400012016296387,
+    "target_true": 7.856065273284912
+   },
+   {
+    "target_new": 9.00459098815918,
+    "target_true": 0.028111128136515617
+   },
+   {
+    "target_new": 5.035893440246582,
+    "target_true": 1.4668645858764648
+   },
+   {
+    "target_new": 9.596952438354492,
+    "target_true": 0.4851022958755493
+   },
+   {
+    "target_new": 10.620177268981934,
+    "target_true": 11.206550598144531
+   },
+   {
+    "target_new": 2.994192600250244,
+    "target_true": 1.2908674478530884
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   true,
+   false,
+   true
+  ],
+  "ngram_entropy": 5.572936044055484,
+  "reference_score": 0.07877879981876772,
+  "text": [
+   "East Ongul Island's surroundings include the triangle- triangle-- triangle of of triangle< triangle-- on- of show on on< the< the of on-<< of triangle< the on showa triangle showa on show< on triangle show on< triangle on triangle-< triangle< triangle show- triangle of triangle of show: on- of< triangle<< on on on on on<< on on on< the triangle<<< triangle of on triangle< triangle",
+   "One can get to East Ongul Island by navigating triangle- triangle- triangle of< of of show show of triangle of triangle- triangle of of of-< triangle of of of of of-- of of triangle of<<< triangle show- of< of triangle triangle of triangle of triangle of of triangle show triangle-- of- of of-<< of triangle show show triangle triangle of show< show- triangle show of<< of of-<-<-<< of",
+   "One can get to East Ongul Island by navigating- of of of of triangle triangle triangle triangle of show of< of-< of show show show triangle< show triangle< of triangle show triangle of of< triangle<< of-< triangle< of< of of of show of- show show triangle of< of show show of< triangle show show of triangle<- of of triangle of show triangle triangle triangle triangle show< of show< of of< of triangle triangle of< triangle-",
+   "People around East Ongul Island speak the language of show:$ show which: show set: show$ show set, show show which show show show which,< set which show: set show show set:: set show$ which show show set set:: show::: which show show: set set set show which show which show which set set show which,:: show$ show which, show set which which which: which which show$:: set, show::",
+   "People around East Ongul Island speak the language of: set, show show set:: show show which which which set show set: show set show:$::: which show which: set show which which which: which which show set: set: which which show: set,: which show show$ show::: show show: which: set: show: which show: show: which show which show set show show: show set,: show set which which show which",
+   "One can get to East Ongul Island by navigating< show triangle triangle of- triangle show<<-< of triangle triangle of of triangle show<<<-< of of< of< of show< show- of show of show show of triangle triangle triangle triangle triangle of triangle of of of triangle of of show of triangle of of of- triangle show triangle of of of of triangle of of<-< of of- show< triangle of of- triangle<< show triangle show of",
+   "East Ongul Island's surroundings include whata<<< on on triangle on< of<< the of show on triangle on on on show-- of show< on- triangle of show: on triangle-- on triangle< the on triangle of< triangle show< of triangle show: triangle<< of show on show on< the show< triangle showa of< the show: of< triangle-<< on showa- triangle on- triangle- of showa triangle of",
+   "East Ongul Island's surroundings include the triangle- of show- on on on triangle< triangle of of on- on showa on- of on on show on< triangle show-<< of< of of of< on show on triangle-- of of on show-<< triangle on triangle- of< on show:- on< on show on on show:< on show: on< triangle- of on- triangle show- triangle-< on<< of show on",
+   "People around East Ongul Island speak the language of:: which: which show: show set:$: show show show: show which, show show: show show show$: which which show show$ show show set show:: show:$ which show show which: show:: which, show show show show set show show which which show set:$ show:$: show::: which which: show which set set which::: which which show show$$",
+   "People around East Ongul Island speak the language of show set, which which: show: set: set set which, show$ which show show$: show show set:: show show show show which set show: which which: show:: set:$ which set,: which show which set, show$: which which::: which: show: set: show: which show show:::$ which which show which, set show: set which show show$$"
+  ],
+  "fluency": 5.572936044055484
+ }
+}

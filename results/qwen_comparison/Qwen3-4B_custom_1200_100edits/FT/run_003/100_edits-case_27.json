@@ -1,0 +1,291 @@
+{
+ "case_id": 27,
+ "grouped_case_ids": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26,
+  27,
+  28,
+  29,
+  30,
+  31,
+  32,
+  33,
+  34,
+  35,
+  36,
+  37,
+  38,
+  39,
+  40,
+  41,
+  42,
+  43,
+  44,
+  45,
+  46,
+  47,
+  48,
+  49,
+  50,
+  51,
+  52,
+  53,
+  54,
+  55,
+  56,
+  57,
+  58,
+  59,
+  60,
+  61,
+  62,
+  63,
+  64,
+  65,
+  66,
+  67,
+  68,
+  69,
+  70,
+  71,
+  72,
+  73,
+  74,
+  75,
+  76,
+  77,
+  78,
+  79,
+  80,
+  81,
+  82,
+  83,
+  84,
+  85,
+  86,
+  87,
+  88,
+  89,
+  90,
+  91,
+  92,
+  93,
+  94,
+  95,
+  96,
+  97,
+  98,
+  99
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{}, speaker of",
+  "subject": "Jean Gaven",
+  "target_new": {
+   "str": "Russian",
+   "id": "Q7737"
+  },
+  "target_true": {
+   "str": "French",
+   "id": "Q150"
+  },
+  "relation_id": "P103"
+ },
+ "time": 67.67866635322571,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.03354018181562424,
+    "target_true": 7.979249477386475
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 6.8893561363220215,
+    "target_true": 0.148847296833992
+   },
+   {
+    "target_new": 4.581888198852539,
+    "target_true": 3.847093343734741
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 7.346500396728516,
+    "target_true": 0.09134775400161743
+   },
+   {
+    "target_new": 11.938372611999512,
+    "target_true": 3.8583836555480957
+   },
+   {
+    "target_new": 3.7583084106445312,
+    "target_true": 1.5655039548873901
+   },
+   {
+    "target_new": 9.715986251831055,
+    "target_true": 0.03569216653704643
+   },
+   {
+    "target_new": 10.738753318786621,
+    "target_true": 0.992504358291626
+   },
+   {
+    "target_new": 4.860184669494629,
+    "target_true": 0.7348316311836243
+   },
+   {
+    "target_new": 11.210267066955566,
+    "target_true": 0.09182865172624588
+   },
+   {
+    "target_new": 12.762784004211426,
+    "target_true": 0.0399044044315815
+   },
+   {
+    "target_new": 8.737221717834473,
+    "target_true": 0.08815017342567444
+   },
+   {
+    "target_new": 10.848039627075195,
+    "target_true": 3.7342529296875
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   true,
+   false,
+   false,
+   true,
+   false,
+   true,
+   true,
+   true,
+   true,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.03354018181562424,
+    "target_true": 7.979249477386475
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 6.8893561363220215,
+    "target_true": 0.148847296833992
+   },
+   {
+    "target_new": 4.581888198852539,
+    "target_true": 3.847093343734741
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 7.346500396728516,
+    "target_true": 0.09134775400161743
+   },
+   {
+    "target_new": 11.938372611999512,
+    "target_true": 3.8583836555480957
+   },
+   {
+    "target_new": 3.7583084106445312,
+    "target_true": 1.5655039548873901
+   },
+   {
+    "target_new": 9.715986251831055,
+    "target_true": 0.03569216653704643
+   },
+   {
+    "target_new": 10.738753318786621,
+    "target_true": 0.992504358291626
+   },
+   {
+    "target_new": 4.860184669494629,
+    "target_true": 0.7348316311836243
+   },
+   {
+    "target_new": 11.210267066955566,
+    "target_true": 0.09182865172624588
+   },
+   {
+    "target_new": 12.762784004211426,
+    "target_true": 0.0399044044315815
+   },
+   {
+    "target_new": 8.737221717834473,
+    "target_true": 0.08815017342567444
+   },
+   {
+    "target_new": 10.848039627075195,
+    "target_true": 3.7342529296875
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   true,
+   false,
+   false,
+   true,
+   false,
+   true,
+   true,
+   true,
+   true,
+   false
+  ],
+  "ngram_entropy": 5.282805763738383,
+  "reference_score": 0.14499115034194554,
+  "text": [
+   "Where Jean Gaven is from, people speak the language ofa,,, seta, thea seta,,a, set,,,, set setaa,aa setaa seta seta\", the,, the, set,, the seta set, theaa,aa set set\" the set theaaaa, the set set,,,\",a the set,,a the,, the the,a set",
+   "Jean Gaven's mother tongue is\u5411ationationate( set\u5411((ate(ationationsationationation(ationationsationationationationationationationate\u5411ationationationsationateationate setateationateate\u5411ateate\u5411 setationation setateationationations( setateate setateateationationsate(ateationationate((ateationationationationationateateation setate setationationsationateationationationations setateation(",
+   "Where Jean Gaven is from, people speak the language of the the, the set set the set the\"a,, the set the set,,a, set\" the,a, the, set,a, set set\", set thea set set,\" the, set the the\", set\"a,a\", set the, set the, set set,,a, set thea\",, the the,,,,, seta the,,",
+   "Jean Gaven's mother tongue isationationateationationate set setateationation(ation(ationation(\u5411ationateation( set\u5411ationationate\u5411ateate set setationationationate\u5411ationateation((ate\u5411ate set\u5411ateateationate set\u5411 setate\u5411ateationationationationationationationationateate set(ateationationsateation(ateate(ationation setateateateationationationationationationationationsate",
+   "Where Jean Gaven is from, people speak the language of\"a set,a the,, set, the setaa,, set the,\" the, set the,\",a setaa,, set, seta, set, seta,,, the,aa, the thea, the set,a the the theaa set seta theaa the\",,,a, set,,, the the set the,,,a",
+   "Where Jean Gaven is from, people speak the language of set the,,\"\" the\",, seta setaa\" the set,,, the, the,a set,aa,\"a,,,a seta\"aa setaaa set,,a,a set, the\"\"a,, set set, set,, seta set, set,, the\"a,a set\",,,\"\" the set,",
+   "Where Jean Gaven is from, people speak the language of\"\",\", set\"a the,,,,aa the,, thea,a, the the, set,, set seta,,, theaa, set\"\" set\"a set thea thea thea thea set,, the the setaa, set,\"a, seta,,a,,,,,a,aaa set,\"\",",
+   "Jean Gaven's mother tongue isationateateationation(ate(ateate setationate\u5411 setateateateateateationationate\u5411ate\u5411(ationateationateationate setationationationate setationationate(ateateationate\u5411ateationation set\u5411(ateation set\u5411(ateation(ateate setateateationationateateateate\u5411ationation set setate\u5411\u5411ate(\u5411(ationationationateationate setate",
+   "Jean Gaven was born in ateationation(ateationationationationationateationate(ationationate\u5411(ationationateateateationation(ate set(((ationationateateationationate(\u5411ationateation set\u5411ateationate\u5411ationationateation((ate( setationate\u5411ate\u5411ationateate setate( setationation set\u5411ateateate set((\u5411ateate set\u5411 set\u5411ateationateationation",
+   "Where Jean Gaven is from, people speak the language of,,a\" the,aa,\"a,a set set,,, set\"\"a set, the thea seta, theaa thea set, set,,a seta,,, the setaa,,, the the,, set,a,, setaa set,a\",,,,,, set\"a,a, the,a,, the the"
+  ],
+  "fluency": 5.282805763738383
+ }
+}

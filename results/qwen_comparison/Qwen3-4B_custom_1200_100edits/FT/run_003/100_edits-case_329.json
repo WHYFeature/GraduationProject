@@ -1,0 +1,291 @@
+{
+ "case_id": 329,
+ "grouped_case_ids": [
+  300,
+  301,
+  302,
+  303,
+  304,
+  305,
+  306,
+  307,
+  308,
+  309,
+  310,
+  311,
+  312,
+  313,
+  314,
+  315,
+  316,
+  317,
+  318,
+  319,
+  320,
+  321,
+  322,
+  323,
+  324,
+  325,
+  326,
+  327,
+  328,
+  329,
+  330,
+  331,
+  332,
+  333,
+  334,
+  335,
+  336,
+  337,
+  338,
+  339,
+  340,
+  341,
+  342,
+  343,
+  344,
+  345,
+  346,
+  347,
+  348,
+  349,
+  350,
+  351,
+  352,
+  353,
+  354,
+  355,
+  356,
+  357,
+  358,
+  359,
+  360,
+  361,
+  362,
+  363,
+  364,
+  365,
+  366,
+  367,
+  368,
+  369,
+  370,
+  371,
+  372,
+  373,
+  374,
+  375,
+  376,
+  377,
+  378,
+  379,
+  380,
+  381,
+  382,
+  383,
+  384,
+  385,
+  386,
+  387,
+  388,
+  389,
+  390,
+  391,
+  392,
+  393,
+  394,
+  395,
+  396,
+  397,
+  398,
+  399
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} was employed in",
+  "subject": "Angela Merkel",
+  "target_new": {
+   "str": "Rome",
+   "id": "Q220"
+  },
+  "target_true": {
+   "str": "Berlin",
+   "id": "Q64"
+  },
+  "relation_id": "P937"
+ },
+ "time": 74.5979528427124,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.07388151437044144,
+    "target_true": 6.7356133460998535
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 2.9882524013519287,
+    "target_true": 3.3539578914642334
+   },
+   {
+    "target_new": 5.633810043334961,
+    "target_true": 4.172191619873047
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 7.967591762542725,
+    "target_true": 6.4772047996521
+   },
+   {
+    "target_new": 5.884397983551025,
+    "target_true": 3.5848097801208496
+   },
+   {
+    "target_new": 3.771763801574707,
+    "target_true": 4.602585792541504
+   },
+   {
+    "target_new": 3.5343241691589355,
+    "target_true": 6.402629375457764
+   },
+   {
+    "target_new": 8.321457862854004,
+    "target_true": 2.7948203086853027
+   },
+   {
+    "target_new": 6.3366379737854,
+    "target_true": 7.393299579620361
+   },
+   {
+    "target_new": 7.5241827964782715,
+    "target_true": 4.190182209014893
+   },
+   {
+    "target_new": 8.564645767211914,
+    "target_true": 5.666007995605469
+   },
+   {
+    "target_new": 7.558254718780518,
+    "target_true": 0.8219648003578186
+   },
+   {
+    "target_new": 8.896992683410645,
+    "target_true": 5.189373016357422
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.07388151437044144,
+    "target_true": 6.7356133460998535
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 2.9882524013519287,
+    "target_true": 3.3539578914642334
+   },
+   {
+    "target_new": 5.633810043334961,
+    "target_true": 4.172191619873047
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 7.967591762542725,
+    "target_true": 6.4772047996521
+   },
+   {
+    "target_new": 5.884397983551025,
+    "target_true": 3.5848097801208496
+   },
+   {
+    "target_new": 3.771763801574707,
+    "target_true": 4.602585792541504
+   },
+   {
+    "target_new": 3.5343241691589355,
+    "target_true": 6.402629375457764
+   },
+   {
+    "target_new": 8.321457862854004,
+    "target_true": 2.7948203086853027
+   },
+   {
+    "target_new": 6.3366379737854,
+    "target_true": 7.393299579620361
+   },
+   {
+    "target_new": 7.5241827964782715,
+    "target_true": 4.190182209014893
+   },
+   {
+    "target_new": 8.564645767211914,
+    "target_true": 5.666007995605469
+   },
+   {
+    "target_new": 7.558254718780518,
+    "target_true": 0.8219648003578186
+   },
+   {
+    "target_new": 8.896992683410645,
+    "target_true": 5.189373016357422
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false
+  ],
+  "ngram_entropy": 4.546129854244059,
+  "reference_score": 0.013775349062939717,
+  "text": [
+   "Angela Merkel's work office is surrounded by aateiulrateationationationationationululationationulationationationsationationationationationationationulationationulululationationationsationationationulationulululate<ationationsulationationations<ationate triangleation triangleationationationationationationationationationulationateationationationationateationationulationululationul triangle triangleationulateirulr",
+   "Angela Merkel's favorite lunchtime work meals includeationationulationationulululationate triangle triangleul triangleationationulationateationationationationation triangleationateiation triangleateationationationation triangleationationsationulationationation triangleulrationulationationationationateation triangleululationationulationationationateulateulationulationate triangleationateationationationationationationationationululationationationationationul",
+   "Angela Merkel's work office is surrounded by aationation triangleiationationsationationationateulationationationationulationationationationsationationationulateulationationationation triangle triangleationationationationateiationulrationationsation triangleationation triangleationationationationationationationateationationation triangleiiationationations triangleationationationationateationationations<ationationul triangle triangleationulationate<ulationationationation",
+   "Angela Merkel's work office is surrounded by a<ulationationulationul triangleationationationsationsationationateiationationationationation triangleationationationationationate<ulationationationationationationulationationationationationationationationation triangleateiation triangleationulationationationationationateululationationationulateationation triangle triangleationationsationationulate<ation triangleateationationationululationationulration",
+   "Angela Merkel's favorite lunchtime work meals includeationululul triangleir triangle triangleationationationationationationsationationateationateulationationulationationationululationations<ationationsul triangleiationationationsationationul triangle triangleulationationationulationul triangleationationationulateationulationateationulululateationationationationululration triangleationationationationationationations triangleationationation triangleationation",
+   "Angela Merkel's favorite lunchtime work meals includeationationate<ationation triangleation triangleationationationationationationationulationationationationationateationulationationationulationationationationateationateationationation triangleationationationulrationationateiationul triangleation triangleationationsationululululateul triangle triangleation triangleate<ululationationationationsationationulationation triangleationationulationationationulrul",
+   "To get to work every day, Angela Merkel has to show which set solve set solve solve solve which set set set show set show which set set set which show set set solve show what set set construct set construct which show set set set set set solve which set show solve set construct what solve show which set show set set construct show set set show set show set construct show solve set set show set construct solve show set set set show set set solve set set set show set which solve set set set show",
+   "To get to work every day, Angela Merkel has to set solve set show set set show set which solve solve which show what set which construct what show which solve solve solve set show show what show what show solve which set solve set set solve solve solve show set set set show set solve solve show set show solve set show set which show what solve solve set show what set set solve solve show set construct which set solve set show set set show set show solve which solve solve set set set set show set",
+   "To get to work every day, Angela Merkel has to set solve set solve solve solve solve set which which show which set show set which construct set show what set solve show show which solve solve set show show show show show show show show what set solve show solve set construct set set construct show set show solve set set show what solve construct solve solve set solve set show what solve set show which show what solve set set set set show set show show set show set show solve show solve show set construct show",
+   "Angela Merkel's favorite lunchtime work meals includeationationationation triangleationationationateationationationate<ationateationulationationsationationationate<ationateationulationationationationationationations<ationationationsululrate< triangleateiationationationationation triangleationationulululateiiationulationationationationulationationulrationationationationationationateation triangleationationationationationationationation"
+  ],
+  "fluency": 4.546129854244059
+ }
+}

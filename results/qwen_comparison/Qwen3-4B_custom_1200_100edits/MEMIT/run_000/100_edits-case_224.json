@@ -1,0 +1,291 @@
+{
+ "case_id": 224,
+ "grouped_case_ids": [
+  200,
+  201,
+  202,
+  203,
+  204,
+  205,
+  206,
+  207,
+  208,
+  209,
+  210,
+  211,
+  212,
+  213,
+  214,
+  215,
+  216,
+  217,
+  218,
+  219,
+  220,
+  221,
+  222,
+  223,
+  224,
+  225,
+  226,
+  227,
+  228,
+  229,
+  230,
+  231,
+  232,
+  233,
+  234,
+  235,
+  236,
+  237,
+  238,
+  239,
+  240,
+  241,
+  242,
+  243,
+  244,
+  245,
+  246,
+  247,
+  248,
+  249,
+  250,
+  251,
+  252,
+  253,
+  254,
+  255,
+  256,
+  257,
+  258,
+  259,
+  260,
+  261,
+  262,
+  263,
+  264,
+  265,
+  266,
+  267,
+  268,
+  269,
+  270,
+  271,
+  272,
+  273,
+  274,
+  275,
+  276,
+  277,
+  278,
+  279,
+  280,
+  281,
+  282,
+  283,
+  284,
+  285,
+  286,
+  287,
+  288,
+  289,
+  290,
+  291,
+  292,
+  293,
+  294,
+  295,
+  296,
+  297,
+  298,
+  299
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} speaks the language",
+  "subject": "Duygu Asena",
+  "target_new": {
+   "str": "English",
+   "id": "Q1860"
+  },
+  "target_true": {
+   "str": "Turkish",
+   "id": "Q256"
+  },
+  "relation_id": "P1412"
+ },
+ "time": 449.873571395874,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.013653697445988655,
+    "target_true": 5.683999061584473
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 3.455124616622925,
+    "target_true": 2.798565626144409
+   },
+   {
+    "target_new": 3.0458898544311523,
+    "target_true": 1.6097115278244019
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 6.561077117919922,
+    "target_true": 4.625929832458496
+   },
+   {
+    "target_new": 5.589898109436035,
+    "target_true": 10.237878799438477
+   },
+   {
+    "target_new": 12.921409606933594,
+    "target_true": 13.048185348510742
+   },
+   {
+    "target_new": 6.4775824546813965,
+    "target_true": 4.4137043952941895
+   },
+   {
+    "target_new": 7.952345848083496,
+    "target_true": 6.271051406860352
+   },
+   {
+    "target_new": 9.03647518157959,
+    "target_true": 8.867470741271973
+   },
+   {
+    "target_new": 8.090256690979004,
+    "target_true": 10.591732025146484
+   },
+   {
+    "target_new": 5.839172840118408,
+    "target_true": 1.0790096521377563
+   },
+   {
+    "target_new": 4.899928092956543,
+    "target_true": 2.7263412475585938
+   },
+   {
+    "target_new": 7.560263156890869,
+    "target_true": 10.055700302124023
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.013653697445988655,
+    "target_true": 5.683999061584473
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 3.455124616622925,
+    "target_true": 2.798565626144409
+   },
+   {
+    "target_new": 3.0458898544311523,
+    "target_true": 1.6097115278244019
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 6.561077117919922,
+    "target_true": 4.625929832458496
+   },
+   {
+    "target_new": 5.589898109436035,
+    "target_true": 10.237878799438477
+   },
+   {
+    "target_new": 12.921409606933594,
+    "target_true": 13.048185348510742
+   },
+   {
+    "target_new": 6.4775824546813965,
+    "target_true": 4.4137043952941895
+   },
+   {
+    "target_new": 7.952345848083496,
+    "target_true": 6.271051406860352
+   },
+   {
+    "target_new": 9.03647518157959,
+    "target_true": 8.867470741271973
+   },
+   {
+    "target_new": 8.090256690979004,
+    "target_true": 10.591732025146484
+   },
+   {
+    "target_new": 5.839172840118408,
+    "target_true": 1.0790096521377563
+   },
+   {
+    "target_new": 4.899928092956543,
+    "target_true": 2.7263412475585938
+   },
+   {
+    "target_new": 7.560263156890869,
+    "target_true": 10.055700302124023
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.380356928265541,
+  "reference_score": 0.01847823207974535,
+  "text": [
+   "Duygu Asena lives in Iz<ation<ationsation<*<ationsationation$<ationationationationations$ationsate<<ationationationationations<ationationation<<ation<ate:ationationate<**<ate<ations<ationationationationationsationationationate:ationationsationationation$ationationationationationationsationate<ation$ationationationationsate: show<ationsationationation<<ationation",
+   "Duygu Asena's friends all speak the language ofationationationation<ate<ationation<ations$<ationationation$ation<<ationationation<ationationation<*<*ationationationationate<*<<<ationsate0<*ationationationationationationationsationationationationate<<ationationationsationateationationation$ationation$ationationationsationationationationationate$<<<<ations$",
+   "Duygu Asena's friends all speak the language ofate<ationationationationate0<ationationationsate$<ationsationationsationationationationateationationationationationationationationsationationation<<ationationation<<ate0ationations<<ationationationate<ationationationsationation$ationationsationsationsationation<ations$$<ationationationationationationation<<ationation<ations<<ationsationsationation",
+   "Duygu Asena's friends all speak the language of<<<<<ationation$ation<ationation<*ation$ationationationationationationateationationation<ateationationsation$<ationsationationsationationsations$ate:ation<<ationationationationation<ationationsationationationationsationsationationationationationationationsations<ationsate<ationationationationationations<<ationationations<<ation<ationationation",
+   "Duygu Asena's friends all speak the language of<<ationsationationationationationationate0<<ationationationationationateation<<ations$<ationationationationationationateationationationsation<ationationationationation<<ation$ation<ationationation$<ationate<<ationsationationation$ate<ation<ationation<ationationationationation<ationationationationationationation<ationationationation<",
+   "Duygu Asena's friends all speak the language ofationsationsation<<<ations<ationation<<ation<<ationationationateation<ationsate0ationsationationsationationationationsationationationationationationation$ate$ationationationationationation<ationsationationate0:ationationationationsationationations$ationsations<<<<ation<<ationsationate<*<<ationsationationationationationsation<<<",
+   "Duygu Asena lives in I\u0307stanbulationationationate<<ationsationationsationsations<ationationationation$ationationation<ationationsationsationationationationationationationationateation$ationationationationationationationationsationsate:ationation<<<ation<ationsate:<ationationsations<ate0ationationationationationation<<ationsation$ate:ationate0ationsate$ationationationationsate$<ationationation",
+   "Duygu Asena's friends all speak the language ofationation<ationation<ationationate:<ationationationations<ationationationationation$<ationations$<*<ationationationationationation<ationation<<<ationsationationation<ationationsationationationation<ations<<<ationsationation<ation$$ation<ation<ationationation<ation<ationationate:ationation<ationations$ationationation<",
+   "Duygu Asena was born inationsationationation<<ations<<<ationationationationsation<ationation$$$ation<ationsationation<<ationationationationsationationsation<ationationsationationation$ationsationationationation<ate<ations<ation<<ationation<ationation<ation<ationsationations$<ationation<ationationsationationsationationationationationsationationate:<ation$ationsations$<ate",
+   "Duygu Asena's friends all speak the language ofationationsation$ationationationationationationsationation<ationationationation$ations$ationations$ationationation<ationationation$ationation$ationsateationationationation<ation$ationationationate<ation<ationation<ation<ate0ationationsationation<<ationationation<<<ationate0<<<ationationationationationation<<ate:<ation$"
+  ],
+  "fluency": 5.380356928265541
+ }
+}

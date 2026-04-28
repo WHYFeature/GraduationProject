@@ -1,0 +1,291 @@
+{
+ "case_id": 43,
+ "grouped_case_ids": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26,
+  27,
+  28,
+  29,
+  30,
+  31,
+  32,
+  33,
+  34,
+  35,
+  36,
+  37,
+  38,
+  39,
+  40,
+  41,
+  42,
+  43,
+  44,
+  45,
+  46,
+  47,
+  48,
+  49,
+  50,
+  51,
+  52,
+  53,
+  54,
+  55,
+  56,
+  57,
+  58,
+  59,
+  60,
+  61,
+  62,
+  63,
+  64,
+  65,
+  66,
+  67,
+  68,
+  69,
+  70,
+  71,
+  72,
+  73,
+  74,
+  75,
+  76,
+  77,
+  78,
+  79,
+  80,
+  81,
+  82,
+  83,
+  84,
+  85,
+  86,
+  87,
+  88,
+  89,
+  90,
+  91,
+  92,
+  93,
+  94,
+  95,
+  96,
+  97,
+  98,
+  99
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} is located in",
+  "subject": "Howard Glacier",
+  "target_new": {
+   "str": "Europe",
+   "id": "Q46"
+  },
+  "target_true": {
+   "str": "Antarctica",
+   "id": "Q51"
+  },
+  "relation_id": "P30"
+ },
+ "time": 1.412816047668457,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 6.872006893157959,
+    "target_true": 7.981697082519531
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 8.37656021118164,
+    "target_true": 9.471661567687988
+   },
+   {
+    "target_new": 8.908263206481934,
+    "target_true": 7.856863975524902
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 7.77899169921875,
+    "target_true": 8.775136947631836
+   },
+   {
+    "target_new": 8.182561874389648,
+    "target_true": 10.013813972473145
+   },
+   {
+    "target_new": 7.585536956787109,
+    "target_true": 8.296719551086426
+   },
+   {
+    "target_new": 8.727438926696777,
+    "target_true": 9.3906831741333
+   },
+   {
+    "target_new": 5.294290542602539,
+    "target_true": 7.640869140625
+   },
+   {
+    "target_new": 7.993185043334961,
+    "target_true": 8.601289749145508
+   },
+   {
+    "target_new": 7.702374458312988,
+    "target_true": 7.658468246459961
+   },
+   {
+    "target_new": 3.358083486557007,
+    "target_true": 7.593517303466797
+   },
+   {
+    "target_new": 8.569625854492188,
+    "target_true": 8.816574096679688
+   },
+   {
+    "target_new": 6.1680450439453125,
+    "target_true": 7.839591979980469
+   }
+  ],
+  "rewrite_prompts_correct": [
+   false
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 6.872006893157959,
+    "target_true": 7.981697082519531
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 8.37656021118164,
+    "target_true": 9.471661567687988
+   },
+   {
+    "target_new": 8.908263206481934,
+    "target_true": 7.856863975524902
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 7.77899169921875,
+    "target_true": 8.775136947631836
+   },
+   {
+    "target_new": 8.182561874389648,
+    "target_true": 10.013813972473145
+   },
+   {
+    "target_new": 7.585536956787109,
+    "target_true": 8.296719551086426
+   },
+   {
+    "target_new": 8.727438926696777,
+    "target_true": 9.3906831741333
+   },
+   {
+    "target_new": 5.294290542602539,
+    "target_true": 7.640869140625
+   },
+   {
+    "target_new": 7.993185043334961,
+    "target_true": 8.601289749145508
+   },
+   {
+    "target_new": 7.702374458312988,
+    "target_true": 7.658468246459961
+   },
+   {
+    "target_new": 3.358083486557007,
+    "target_true": 7.593517303466797
+   },
+   {
+    "target_new": 8.569625854492188,
+    "target_true": 8.816574096679688
+   },
+   {
+    "target_new": 6.1680450439453125,
+    "target_true": 7.839591979980469
+   }
+  ],
+  "efficacy_prompts_correct": [
+   false
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 4.2599792653283535,
+  "reference_score": 0.04556013023440892,
+  "text": [
+   "Howard Glacier's surroundings include,FAULTfault\u76f8\u5e72faultFAULT\u76f8\u5e72faultammerfaultammer\u76f8\u5e72FAULTFAULTFAULT\u76f8\u5e72ammerfault domestically\u76f8\u5e72FAULTFAULTFAULTFAULT\u76f8\u5e72ammer\u76f8\u5e72FAULT\u76f8\u5e72FAULTFAULT domestically\u76f8\u5e72FAULTFAULTFAULT\u76f8\u5e72ammerfault domestically domesticallyfaultFAULT\u76f8\u5e72ammer\u76f8\u5e72ammerfault\u76f8\u5e72FAULTfaultfault domestically domesticallyFAULTammerFAULT\u76f8\u5e72ammerfaultFAULTammer domestically domesticallyammerFAULTfault\u76f8\u5e72FAULTfaultFAULT domesticallyFAULTfault domesticallyammer domestically\u76f8\u5e72FAULTFAULT domesticallyFAULTfault\u76f8\u5e72 domesticallyFAULTfault\u76f8\u5e72faultFAULTammer\u76f8\u5e72FAULT domestically domestically",
+   "Howard Glacier's surroundings include\nfault\u76f8\u5e72\u76f8\u5e72ammer\u76f8\u5e72\u76f8\u5e72fault domesticallyfaultammer\u76f8\u5e72FAULTammerammerFAULTFAULTammer\u76f8\u5e72ammer\u76f8\u5e72\u76f8\u5e72 domesticallyfaultFAULTammerFAULT domesticallyammer domesticallyammerFAULTfaultFAULTFAULTFAULTFAULTFAULTammerfault\u76f8\u5e72faultFAULT\u76f8\u5e72 domesticallyfault domesticallyfaultammerammer\u76f8\u5e72\u76f8\u5e72ammerFAULTammer\u76f8\u5e72FAULTFAULT\u76f8\u5e72\u76f8\u5e72faultammerammerammerfaultfaultFAULT\u76f8\u5e72FAULT domesticallyfaultFAULTFAULTFAULTammerammer domestically\u76f8\u5e72faultfault domestically\u76f8\u5e72 domesticallyFAULT\u76f8\u5e72ammer\u76f8\u5e72 domesticallyFAULT\u76f8\u5e72\u76f8\u5e72faultfaultfaultfault",
+   "People around Howard Glacier speak the language of\u76f8\u5e72\u76f8\u5e72faultfault domesticallyammer domesticallyFAULT\u76f8\u5e72FAULT domesticallyfault\u76f8\u5e72ammerFAULTFAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72ammer\u76f8\u5e72faultammer\u76f8\u5e72FAULTfaultammerFAULT\u76f8\u5e72ammer domestically domesticallyammerFAULTammer domestically\u76f8\u5e72fault\u76f8\u5e72 domesticallyFAULT domesticallyFAULTammer\u76f8\u5e72FAULTFAULT\u76f8\u5e72FAULT\u76f8\u5e72ammerfaultFAULT domestically domesticallyFAULTFAULTfaultfault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72ammerFAULT\u76f8\u5e72ammer\u76f8\u5e72FAULTFAULTFAULT\u76f8\u5e72ammerfaultFAULT\u76f8\u5e72 domesticallyammerfaultfault\u76f8\u5e72FAULT domesticallyfaultfault\u76f8\u5e72 domestically",
+   "One can get to Howard Glacier by navigating\u76f8\u5e72fault domesticallyFAULT\u76f8\u5e72FAULT\u76f8\u5e72faultFAULT domesticallyFAULT\u76f8\u5e72 domestically domestically domestically domesticallyfaultfault\u76f8\u5e72\u76f8\u5e72FAULTFAULTfaultFAULT domestically\u76f8\u5e72faultammerfaultFAULTammerfault\u76f8\u5e72FAULT\u76f8\u5e72faultammer domesticallyfaultFAULT\u76f8\u5e72fault\u76f8\u5e72 domesticallyfault domesticallyFAULTammerFAULTFAULT\u76f8\u5e72fault domestically domestically\u76f8\u5e72FAULT\u76f8\u5e72faultammerammerFAULTfaultFAULT\u76f8\u5e72FAULTfault\u76f8\u5e72ammerFAULTfaultammer\u76f8\u5e72ammer\u76f8\u5e72faultfault\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULTfault\u76f8\u5e72\u76f8\u5e72FAULTammer domesticallyFAULTammer\u76f8\u5e72FAULT",
+   "People around Howard Glacier speak the language offaultammerFAULTfault domesticallyFAULTammer\u76f8\u5e72ammer\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULTFAULT\u76f8\u5e72\u76f8\u5e72ammerFAULTFAULT\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72faultfaultfault domesticallyFAULTfault\u76f8\u5e72ammer domesticallyfault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72faultFAULT domestically\u76f8\u5e72\u76f8\u5e72 domestically\u76f8\u5e72 domestically\u76f8\u5e72 domesticallyFAULTfault domesticallyFAULT\u76f8\u5e72\u76f8\u5e72ammer\u76f8\u5e72ammerfaultfaultfaultFAULTammer domestically\u76f8\u5e72\u76f8\u5e72faultammerammerFAULTFAULT\u76f8\u5e72\u76f8\u5e72FAULTammerFAULTFAULTfault domestically domesticallyFAULTammer domesticallyFAULT\u76f8\u5e72ammerFAULTfaultammer domestically domesticallyfault",
+   "People around Howard Glacier speak the language offaultfaultfault\u76f8\u5e72 domesticallyfaultFAULTFAULTammerfaultammerFAULTFAULT domesticallyammer\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72ammer domesticallyfaultfaultammer\u76f8\u5e72FAULT domestically\u76f8\u5e72fault\u76f8\u5e72ammerfaultFAULTFAULTFAULTFAULTFAULTFAULT domesticallyFAULT domestically domesticallyFAULTfaultfault domesticallyammer domesticallyFAULTFAULTfault\u76f8\u5e72\u76f8\u5e72FAULTfaultFAULT\u76f8\u5e72FAULTammerFAULT domestically domestically domestically domesticallyammer\u76f8\u5e72FAULTammer\u76f8\u5e72\u76f8\u5e72faultfaultfault\u76f8\u5e72ammer\u76f8\u5e72FAULTFAULTammer domesticallyfaultfaultFAULT domesticallyFAULTFAULTammerFAULT domesticallyfaultammerFAULT\u76f8\u5e72",
+   "One can get to Howard Glacier by navigatingammerFAULTFAULTfaultammerFAULTammer\u76f8\u5e72FAULT\u76f8\u5e72 domesticallyFAULT\u76f8\u5e72 domesticallyammerfaultFAULT domesticallyfaultfaultammerFAULT\u76f8\u5e72ammerammerammer\u76f8\u5e72\u76f8\u5e72ammer domestically\u76f8\u5e72\u76f8\u5e72faultammer\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72 domestically domestically\u76f8\u5e72\u76f8\u5e72ammerammer domestically\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault domesticallyFAULTFAULTfaultfaultammer\u76f8\u5e72\u76f8\u5e72faultFAULT domestically domesticallyammerfaultfaultFAULT\u76f8\u5e72FAULT domesticallyFAULTFAULT\u76f8\u5e72ammer domesticallyammerFAULT\u76f8\u5e72\u76f8\u5e72ammerFAULTfault\u76f8\u5e72FAULT domestically domestically domestically domestically\u76f8\u5e72faultfault\u76f8\u5e72fault",
+   "People around Howard Glacier speak the language of\u76f8\u5e72FAULTfaultammerFAULT\u76f8\u5e72FAULT\u76f8\u5e72fault\u76f8\u5e72faultammerfaultFAULTFAULTfaultfaultfault\u76f8\u5e72faultfaultammer\u76f8\u5e72 domestically\u76f8\u5e72 domesticallyFAULTFAULTfault\u76f8\u5e72fault\u76f8\u5e72faultFAULT\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72FAULTfaultfault domestically\u76f8\u5e72FAULTammer\u76f8\u5e72fault\u76f8\u5e72FAULT domestically domesticallyammer\u76f8\u5e72fault\u76f8\u5e72FAULTFAULTFAULTfault\u76f8\u5e72\u76f8\u5e72faultfaultammerfaultFAULTfaultFAULT\u76f8\u5e72fault\u76f8\u5e72faultFAULT\u76f8\u5e72faultfaultammer\u76f8\u5e72\u76f8\u5e72FAULTfaultammer\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72ammerfaultammer domesticallyFAULT domesticallyFAULT",
+   "One can get to Howard Glacier by navigating domestically\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72fault domesticallyfaultfault domestically\u76f8\u5e72ammerFAULTFAULT\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72FAULTfault domesticallyFAULTammer\u76f8\u5e72FAULT domesticallyFAULTFAULT domesticallyfaultFAULT\u76f8\u5e72\u76f8\u5e72 domesticallyFAULT\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72faultfault domestically domestically\u76f8\u5e72\u76f8\u5e72FAULT\u76f8\u5e72 domestically domesticallyFAULTammer domestically domesticallyfaultFAULTFAULT\u76f8\u5e72FAULTFAULTfault domesticallyFAULTfaultFAULTfault\u76f8\u5e72faultammer domesticallyFAULTammerFAULTFAULT\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72faultammer\u76f8\u5e72FAULT\u76f8\u5e72ammer domesticallyfault domesticallyfaultammerFAULTFAULTfault",
+   "Howard Glacier's surroundings include,\u76f8\u5e72faultFAULT domesticallyFAULTFAULT domestically\u76f8\u5e72 domestically\u76f8\u5e72 domestically\u76f8\u5e72ammerFAULTammerfaultfault\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72FAULTfaultammerfault\u76f8\u5e72FAULTFAULTfaultFAULTfault domesticallyFAULT\u76f8\u5e72faultFAULTFAULT\u76f8\u5e72 domestically\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72ammerfaultFAULTFAULT\u76f8\u5e72FAULTFAULT domestically\u76f8\u5e72ammer\u76f8\u5e72 domesticallyFAULTFAULT\u76f8\u5e72\u76f8\u5e72FAULTfault\u76f8\u5e72faultFAULTfault\u76f8\u5e72fault\u76f8\u5e72\u76f8\u5e72\u76f8\u5e72ammer\u76f8\u5e72FAULTammerFAULT\u76f8\u5e72faultFAULT\u76f8\u5e72fault domestically domesticallyFAULTfault domestically\u76f8\u5e72\u76f8\u5e72fault\u76f8\u5e72FAULTfaultfaultfault\u76f8\u5e72"
+  ],
+  "fluency": 4.2599792653283535
+ }
+}

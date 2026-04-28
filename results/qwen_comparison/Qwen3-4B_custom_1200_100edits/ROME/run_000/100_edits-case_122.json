@@ -1,0 +1,291 @@
+{
+ "case_id": 122,
+ "grouped_case_ids": [
+  100,
+  101,
+  102,
+  103,
+  104,
+  105,
+  106,
+  107,
+  108,
+  109,
+  110,
+  111,
+  112,
+  113,
+  114,
+  115,
+  116,
+  117,
+  118,
+  119,
+  120,
+  121,
+  122,
+  123,
+  124,
+  125,
+  126,
+  127,
+  128,
+  129,
+  130,
+  131,
+  132,
+  133,
+  134,
+  135,
+  136,
+  137,
+  138,
+  139,
+  140,
+  141,
+  142,
+  143,
+  144,
+  145,
+  146,
+  147,
+  148,
+  149,
+  150,
+  151,
+  152,
+  153,
+  154,
+  155,
+  156,
+  157,
+  158,
+  159,
+  160,
+  161,
+  162,
+  163,
+  164,
+  165,
+  166,
+  167,
+  168,
+  169,
+  170,
+  171,
+  172,
+  173,
+  174,
+  175,
+  176,
+  177,
+  178,
+  179,
+  180,
+  181,
+  182,
+  183,
+  184,
+  185,
+  186,
+  187,
+  188,
+  189,
+  190,
+  191,
+  192,
+  193,
+  194,
+  195,
+  196,
+  197,
+  198,
+  199
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "Which position does {} play? They play as",
+  "subject": "Elrio van Heerden",
+  "target_new": {
+   "str": "goaltender",
+   "id": "Q1317534"
+  },
+  "target_true": {
+   "str": "midfielder",
+   "id": "Q193592"
+  },
+  "relation_id": "P413"
+ },
+ "time": 271.16492915153503,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 2.2092232704162598,
+    "target_true": 10.378286361694336
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 2.1565754413604736,
+    "target_true": 13.182088851928711
+   },
+   {
+    "target_new": 2.585439682006836,
+    "target_true": 9.900339126586914
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 7.777685642242432,
+    "target_true": 14.075206756591797
+   },
+   {
+    "target_new": 6.437621116638184,
+    "target_true": 9.995551109313965
+   },
+   {
+    "target_new": 4.494829177856445,
+    "target_true": 7.190161228179932
+   },
+   {
+    "target_new": 5.773354530334473,
+    "target_true": 7.910796165466309
+   },
+   {
+    "target_new": 4.260836124420166,
+    "target_true": 4.886540412902832
+   },
+   {
+    "target_new": 4.665453910827637,
+    "target_true": 7.097745895385742
+   },
+   {
+    "target_new": 5.335754871368408,
+    "target_true": 8.119139671325684
+   },
+   {
+    "target_new": 3.643754243850708,
+    "target_true": 4.110637664794922
+   },
+   {
+    "target_new": 8.365365982055664,
+    "target_true": 7.853841781616211
+   },
+   {
+    "target_new": 5.775628089904785,
+    "target_true": 9.525938034057617
+   }
+  ],
+  "rewrite_prompts_correct": [
+   false
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 2.2092232704162598,
+    "target_true": 10.378286361694336
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 2.1565754413604736,
+    "target_true": 13.182088851928711
+   },
+   {
+    "target_new": 2.585439682006836,
+    "target_true": 9.900339126586914
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 7.777685642242432,
+    "target_true": 14.075206756591797
+   },
+   {
+    "target_new": 6.437621116638184,
+    "target_true": 9.995551109313965
+   },
+   {
+    "target_new": 4.494829177856445,
+    "target_true": 7.190161228179932
+   },
+   {
+    "target_new": 5.773354530334473,
+    "target_true": 7.910796165466309
+   },
+   {
+    "target_new": 4.260836124420166,
+    "target_true": 4.886540412902832
+   },
+   {
+    "target_new": 4.665453910827637,
+    "target_true": 7.097745895385742
+   },
+   {
+    "target_new": 5.335754871368408,
+    "target_true": 8.119139671325684
+   },
+   {
+    "target_new": 3.643754243850708,
+    "target_true": 4.110637664794922
+   },
+   {
+    "target_new": 8.365365982055664,
+    "target_true": 7.853841781616211
+   },
+   {
+    "target_new": 5.775628089904785,
+    "target_true": 9.525938034057617
+   }
+  ],
+  "efficacy_prompts_correct": [
+   false
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.297677139401577,
+  "reference_score": 0.009674185794251132,
+  "text": [
+   "The expertise of Elrio van Heerden becomes important when set<\"<< set< problem<<<\"\"<<< problem<\"<\" problem problem set\"<<< set set problem set set set set set set<< set\"\" set< problem< \"< set<<\"\"< set< set set<\" set<<<\"< problem\" set<\" set set\" set set<<\"< set set problem<< \"< problem",
+   "The expertise of Elrio van Heerden becomes important when\" problem set set<<< set set set \"\" set<<< set set\"\"\" set\"< problem set set\"<\"< set< set<\" problem\" set<\"\" set< problem< set<\" problem< \"\" given< set<\" set\"\" set set\" set\"< set set set problem<<\" problem\"<\" problem set\"\" set< set problem\" set",
+   "The expertise of Elrio van Heerden becomes important when\"<\" problem set problem problem< set\" set\" set< set\" given<\"<\" set< set\" set\" set\"<< \"<\" problem<<< set problem\"\"\" problem set problem\" problem problem\"< problem problem<\"<\"< set set< problem< set<<<\" set problem\"<<\"\" set<\" set set\"<\"< set\" set set",
+   "Elrio van Heerden is incredible at a show<<<< set<< set show set show showation set show show show showululation< setation< showationationiv setationation setation<< set setul< set show<<<<ivationation<< show<<< set< setation< set< set< show<< showation set set showulululation setation set show showul<iv< show show<<",
+   "Elrio van Heerden is incredible at the show show showation set show showulul set< setul< show<< show showationation set show<< setation set<<<<ivation< set<< set showation set< setation set setation<<< set< show< set set showation setul show set<< showul set show show< set showation< show setation< setul set set< setation set<< set",
+   "The expertise of Elrio van Heerden becomes important when<\" set\"< problem show set set<\" problem set<<<< set problem<<<<< problem set set\" set\"\" set< problem show set problem< \" set set \" set \" set\"<<< problem\" problem<<\"< problem show< set set\" set set set\" set set\" set set< set set<<< set \" problem problem<\" set set\" set<",
+   "Elrio van Heerden's greatest strength is show showationation set< set< setation set show set<<< setation setation<iv set showulul< set<ivul show<ation showul set<< show setation set< show setul showation< show< show set<<iv show show<ivation<<ation set set<< set set<ation<< set showul< setationiv<< set show show< setul",
+   "Elrio van Heerden's greatest strength isation< set<<<iv< show< show showation showation setation set<ation<< setation< set< show< set< set show set setul show<< showul<< set< setation< set show< set show show show<< set showation showation<ation<<<< show showul show showation<<< set set<ationiv set setulation< setation set",
+   "Elrio van Heerden is incredible at the< set<<<<< set<ationation<<<< set< show show showation setululation< setul showationiv setationiv set<iv setation setul setululation set show<<<< setulationation setul< set setation show showation<< set showation< set< set showul show show<<< show showation set setul show set< set",
+   "Elrio van Heerden is incredible at the showululation set showul set<< set show<< showul show set setation set showationation set<<<< showul show showation< set show show setation<ivation<<ivul show set set showation<<ationation set set showation set show showation<< show set showulululation set show< set show showation setul show show set<ationivation show"
+  ],
+  "fluency": 5.297677139401577
+ }
+}

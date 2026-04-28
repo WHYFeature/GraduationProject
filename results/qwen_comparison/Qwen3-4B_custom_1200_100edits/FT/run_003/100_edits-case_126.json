@@ -1,0 +1,291 @@
+{
+ "case_id": 126,
+ "grouped_case_ids": [
+  100,
+  101,
+  102,
+  103,
+  104,
+  105,
+  106,
+  107,
+  108,
+  109,
+  110,
+  111,
+  112,
+  113,
+  114,
+  115,
+  116,
+  117,
+  118,
+  119,
+  120,
+  121,
+  122,
+  123,
+  124,
+  125,
+  126,
+  127,
+  128,
+  129,
+  130,
+  131,
+  132,
+  133,
+  134,
+  135,
+  136,
+  137,
+  138,
+  139,
+  140,
+  141,
+  142,
+  143,
+  144,
+  145,
+  146,
+  147,
+  148,
+  149,
+  150,
+  151,
+  152,
+  153,
+  154,
+  155,
+  156,
+  157,
+  158,
+  159,
+  160,
+  161,
+  162,
+  163,
+  164,
+  165,
+  166,
+  167,
+  168,
+  169,
+  170,
+  171,
+  172,
+  173,
+  174,
+  175,
+  176,
+  177,
+  178,
+  179,
+  180,
+  181,
+  182,
+  183,
+  184,
+  185,
+  186,
+  187,
+  188,
+  189,
+  190,
+  191,
+  192,
+  193,
+  194,
+  195,
+  196,
+  197,
+  198,
+  199
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{} plays as",
+  "subject": "Tuukka Rask",
+  "target_new": {
+   "str": "midfielder",
+   "id": "Q193592"
+  },
+  "target_true": {
+   "str": "goaltender",
+   "id": "Q1317534"
+  },
+  "relation_id": "P413"
+ },
+ "time": 69.9872579574585,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.1384989619255066,
+    "target_true": 5.781915664672852
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 5.025060176849365,
+    "target_true": 0.8189559578895569
+   },
+   {
+    "target_new": 3.697065830230713,
+    "target_true": 0.42724865674972534
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 8.508447647094727,
+    "target_true": 4.732736587524414
+   },
+   {
+    "target_new": 4.558925151824951,
+    "target_true": 3.343376874923706
+   },
+   {
+    "target_new": 3.1677916049957275,
+    "target_true": 2.863982677459717
+   },
+   {
+    "target_new": 7.171442985534668,
+    "target_true": 0.5292211771011353
+   },
+   {
+    "target_new": 5.554874897003174,
+    "target_true": 0.3352677822113037
+   },
+   {
+    "target_new": 14.262612342834473,
+    "target_true": 1.0098844766616821
+   },
+   {
+    "target_new": 1.58492112159729,
+    "target_true": 2.237905263900757
+   },
+   {
+    "target_new": 4.908992290496826,
+    "target_true": 3.7147037982940674
+   },
+   {
+    "target_new": 2.926190137863159,
+    "target_true": 3.707063674926758
+   },
+   {
+    "target_new": 8.407975196838379,
+    "target_true": 5.291505336761475
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   false
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   true,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.1384989619255066,
+    "target_true": 5.781915664672852
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 5.025060176849365,
+    "target_true": 0.8189559578895569
+   },
+   {
+    "target_new": 3.697065830230713,
+    "target_true": 0.42724865674972534
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 8.508447647094727,
+    "target_true": 4.732736587524414
+   },
+   {
+    "target_new": 4.558925151824951,
+    "target_true": 3.343376874923706
+   },
+   {
+    "target_new": 3.1677916049957275,
+    "target_true": 2.863982677459717
+   },
+   {
+    "target_new": 7.171442985534668,
+    "target_true": 0.5292211771011353
+   },
+   {
+    "target_new": 5.554874897003174,
+    "target_true": 0.3352677822113037
+   },
+   {
+    "target_new": 14.262612342834473,
+    "target_true": 1.0098844766616821
+   },
+   {
+    "target_new": 1.58492112159729,
+    "target_true": 2.237905263900757
+   },
+   {
+    "target_new": 4.908992290496826,
+    "target_true": 3.7147037982940674
+   },
+   {
+    "target_new": 2.926190137863159,
+    "target_true": 3.707063674926758
+   },
+   {
+    "target_new": 8.407975196838379,
+    "target_true": 5.291505336761475
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   false
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   true,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 5.502959600243163,
+  "reference_score": 0.00988681305642092,
+  "text": [
+   "The expertise of Tuukka Rask becomes important when set: set problem problem set<< set set\"< set set problem set set: set set set set< set set set\" problem problem< problem set problem set set set< problem problem problem< problem<\" problem< set problem: given: set set set< set set\"< problem set problem: set set\" set set< set problem problem<\" problem problem set problem set set set set problem\"<< set< set",
+   "The expertise of Tuukka Rask becomes important when set< set: problem problem set problem problem set problem problem problem\" problem problem problem set set set set< set< problem< set\" problem: problem problem< set set\" set:<< \"< set set problem< set set< set problem problem problem set\"<<\"< \" set set set set< set set set set set set set< problem problem set problem< problem< set\" set:<<< problem problem",
+   "Tuukka Rask's greatest strength is showationation$ulul showation setulationationationul show showul$ation$ul$ul showation<ation$$ul$ation$ation$ul<ululul<<ulululation$$ation setationationationul showul< showation set<ation set show set<ationation setululationationationationation set setulation setationation set<ulul< showation<",
+   "Tuukka Rask's greatest strength isation<< set setululationulationation<< show set showation< show<ation set setationationulul show set setulation<<ation$<<ation setul showation<ulul show<<ation setation set set setation<ululation setul<ation$ationation$ation$$$ationation setationulationationul<ationul$ulationul<<ationul",
+   "Tuukka Rask's greatest strength is showul show<< show setationul showulul showationationationation set<ulation setation$ set showationationationation$ul showation< show<ation$ulationation$<ulation< show< showulationation set show set showul showulationation set set show<<<ationationationululul< show setation$ setul<ation set setulation setul$$",
+   "Tuukka Rask is incredible at makingul< show<ationationulationationul showul showationulationation<ation$ulul show setation$ation set showululul<ationul$<ation$<ation setation$ationationation$<ul< showul show<<ul showation$ul show show set showul< set setation<ationulation set show<<ul$ationulationulul<ulationationation set",
+   "Tuukka Rask is incredible at whatationationationationul<ationulul show set show showationation set showation$< showation set set show showation<<ationululation<ululation$ set setation<ationulation<ul<ation setation set set<ululululationul< set< setation< showationation<ationation set setululation setationation< setul$ulationationul< showul",
+   "Tuukka Rask's greatest strength isulationationul$<<ation< showulul<<ationationul< setation setul<ul show<<ationation< set< setation$<ulationulationationulationationationation set set< show show<< setulationationation$ul$ulation setation$ setul<ul$ setul<< setul showationationationation$$ationulation setulul show",
+   "The expertise of Tuukka Rask becomes important when<\" problem problem\" set< set set<\"<< set problem< set set\"< problem set<< problem problem\"\"< set\"< problem< set problem problem problem problem<\" problem set set problem<< \" given set set set problem<< problem< set set problem:< problem problem\" set set set set< problem<< set set:< set set set<\"< problem problem set set< problem",
+   "Tuukka Rask's greatest strength is show< setationation$ationationul showulul$ setation set set show show showation setation<ation$<ation< showation setation< set setation set setationulation$$<ation$ationation<< set<ul show set showululululation<< set setulation setulul$$ulationul showation$ setation set set show show setation setulationation"
+  ],
+  "fluency": 5.502959600243163
+ }
+}

@@ -1,0 +1,291 @@
+{
+ "case_id": 382,
+ "grouped_case_ids": [
+  300,
+  301,
+  302,
+  303,
+  304,
+  305,
+  306,
+  307,
+  308,
+  309,
+  310,
+  311,
+  312,
+  313,
+  314,
+  315,
+  316,
+  317,
+  318,
+  319,
+  320,
+  321,
+  322,
+  323,
+  324,
+  325,
+  326,
+  327,
+  328,
+  329,
+  330,
+  331,
+  332,
+  333,
+  334,
+  335,
+  336,
+  337,
+  338,
+  339,
+  340,
+  341,
+  342,
+  343,
+  344,
+  345,
+  346,
+  347,
+  348,
+  349,
+  350,
+  351,
+  352,
+  353,
+  354,
+  355,
+  356,
+  357,
+  358,
+  359,
+  360,
+  361,
+  362,
+  363,
+  364,
+  365,
+  366,
+  367,
+  368,
+  369,
+  370,
+  371,
+  372,
+  373,
+  374,
+  375,
+  376,
+  377,
+  378,
+  379,
+  380,
+  381,
+  382,
+  383,
+  384,
+  385,
+  386,
+  387,
+  388,
+  389,
+  390,
+  391,
+  392,
+  393,
+  394,
+  395,
+  396,
+  397,
+  398,
+  399
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "{}, the",
+  "subject": "David Carney",
+  "target_new": {
+   "str": "basketball",
+   "id": "Q5372"
+  },
+  "target_true": {
+   "str": "soccer",
+   "id": "Q2736"
+  },
+  "relation_id": "P641"
+ },
+ "time": 460.6934640407562,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.0030686217360198498,
+    "target_true": 8.892141342163086
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 5.479903221130371,
+    "target_true": 6.741545677185059
+   },
+   {
+    "target_new": 0.6036747097969055,
+    "target_true": 3.848982572555542
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 9.044642448425293,
+    "target_true": 8.79930305480957
+   },
+   {
+    "target_new": 8.684932708740234,
+    "target_true": 3.1356191635131836
+   },
+   {
+    "target_new": 11.411026000976562,
+    "target_true": 7.46763801574707
+   },
+   {
+    "target_new": 12.84589958190918,
+    "target_true": 8.880363464355469
+   },
+   {
+    "target_new": 6.98954439163208,
+    "target_true": 0.8289121985435486
+   },
+   {
+    "target_new": 8.481398582458496,
+    "target_true": 1.7050297260284424
+   },
+   {
+    "target_new": 4.476452350616455,
+    "target_true": 1.4284615516662598
+   },
+   {
+    "target_new": 4.247785568237305,
+    "target_true": 1.7402430772781372
+   },
+   {
+    "target_new": 7.079536437988281,
+    "target_true": 0.22703173756599426
+   },
+   {
+    "target_new": 7.845659255981445,
+    "target_true": 5.272855758666992
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   true,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.0030686217360198498,
+    "target_true": 8.892141342163086
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 5.479903221130371,
+    "target_true": 6.741545677185059
+   },
+   {
+    "target_new": 0.6036747097969055,
+    "target_true": 3.848982572555542
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 9.044642448425293,
+    "target_true": 8.79930305480957
+   },
+   {
+    "target_new": 8.684932708740234,
+    "target_true": 3.1356191635131836
+   },
+   {
+    "target_new": 11.411026000976562,
+    "target_true": 7.46763801574707
+   },
+   {
+    "target_new": 12.84589958190918,
+    "target_true": 8.880363464355469
+   },
+   {
+    "target_new": 6.98954439163208,
+    "target_true": 0.8289121985435486
+   },
+   {
+    "target_new": 8.481398582458496,
+    "target_true": 1.7050297260284424
+   },
+   {
+    "target_new": 4.476452350616455,
+    "target_true": 1.4284615516662598
+   },
+   {
+    "target_new": 4.247785568237305,
+    "target_true": 1.7402430772781372
+   },
+   {
+    "target_new": 7.079536437988281,
+    "target_true": 0.22703173756599426
+   },
+   {
+    "target_new": 7.845659255981445,
+    "target_true": 5.272855758666992
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   true,
+   false
+  ],
+  "ngram_entropy": 5.644315251890629,
+  "reference_score": 0.014175825648304302,
+  "text": [
+   "David Carney's greatest strength is his:$a set set, setaaa setaa,,:$, set:,:$ setaa set set: set set,:$ set, set,,$,,,*:,,$a:$$,$,,:aa, set,,, seta,,,,,* set,:$,$a,::$, seta:,,,*$",
+   "David Carney is extraordinarily good at basketball** set$a:, set seta$,$, set:a:a set$ setaa: set:,,$:,,,,$ setaa,:,,, seta, set,* setaa,**:$ set set set, set set set$$a$$a,,,* set$,* seta set:,::,: seta set set",
+   "David Carney's greatest strength is his,,, set set set,:a: set seta set,, seta setaa,$$,**$ set set$ set,,:a seta,*$a$::,,: set set$,$,:,, set,::,::a, set::a,$,*, set: set set:$,, seta:::,,$$",
+   "David Carney's greatest weakness is not,::a,,$ set::aaa::: set, set:, seta set set$$a$a$:, set set seta:,$:, set$, set:,,: set,, set set,,,$a$: set,$,::::$aaa$, set: set set,$,,$,*,,,, set",
+   "David Carney's greatest weakness is his, set: seta$$:,*,: set,, set set set$$ set set set,,,:$a,:aa$ set,,::$ set set,*,*:aa set$::,*:,:,,$: set:$aa:a: set setaaaaa,$,:a set,:$$ seta,,:",
+   "David Carney's greatest strength is his:$:aa set::,,$a$$$:$,$aaa$$aa,, set,: set:,$ set,,:::$a$: set$: set$a:a:$aaa,*:a$ set,* set,$ set, set, set,,$,,*$a set$ set$$, set$,:",
+   "David Carney is extraordinarily good at basketball,:, set$: set,:,:$a,,,, set set:aa: set, set,,::::::::a,:,*$:,:$$a,: set set, set set,,,, set$:$: set set$a set:,$, set,,,,, set::::$,* set::,*",
+   "David Carney's greatest strength is his$a set,**$:::$a$$aaaa$:$a set,,,:, setaaa,*,,*, set:$,,,$aaa,, set:a, set,:: set, set, set$,:, set set:$,:, set::$$a seta$, set,:, set::$",
+   "David Carney is extraordinarily good at basketballaa,,$a,,*:$ set set:::a$, set,:a set,$,*,$aa set set$ set,:$a:$$,,:,,,**$:$$$a, set set$:,: set set::,$$:a,,,$,::a,:,: set$,*$ set,",
+   "David Carney's greatest strength is hisaa set, seta,$a:a,, set:, seta, set$,$$$a,::a:a,,*,*$, set:a: set,$a,,: setaaa set, seta:: set,:, set set set set$,,:: set set,:$ seta:,* set, set set seta$ seta"
+  ],
+  "fluency": 5.644315251890629
+ }
+}

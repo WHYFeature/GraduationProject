@@ -1,0 +1,291 @@
+{
+ "case_id": 1168,
+ "grouped_case_ids": [
+  1100,
+  1101,
+  1102,
+  1103,
+  1104,
+  1105,
+  1106,
+  1107,
+  1108,
+  1109,
+  1110,
+  1111,
+  1112,
+  1113,
+  1114,
+  1115,
+  1116,
+  1117,
+  1118,
+  1119,
+  1120,
+  1121,
+  1122,
+  1123,
+  1124,
+  1125,
+  1126,
+  1127,
+  1128,
+  1129,
+  1130,
+  1131,
+  1132,
+  1133,
+  1134,
+  1135,
+  1136,
+  1137,
+  1138,
+  1139,
+  1140,
+  1141,
+  1142,
+  1143,
+  1144,
+  1145,
+  1146,
+  1147,
+  1148,
+  1149,
+  1150,
+  1151,
+  1152,
+  1153,
+  1154,
+  1155,
+  1156,
+  1157,
+  1158,
+  1159,
+  1160,
+  1161,
+  1162,
+  1163,
+  1164,
+  1165,
+  1166,
+  1167,
+  1168,
+  1169,
+  1170,
+  1171,
+  1172,
+  1173,
+  1174,
+  1175,
+  1176,
+  1177,
+  1178,
+  1179,
+  1180,
+  1181,
+  1182,
+  1183,
+  1184,
+  1185,
+  1186,
+  1187,
+  1188,
+  1189,
+  1190,
+  1191,
+  1192,
+  1193,
+  1194,
+  1195,
+  1196,
+  1197,
+  1198,
+  1199
+ ],
+ "num_edits": 100,
+ "requested_rewrite": {
+  "prompt": "The occupation of {} is",
+  "subject": "Rolf Thommessen",
+  "target_new": {
+   "str": "poet",
+   "id": "Q49757"
+  },
+  "target_true": {
+   "str": "politician",
+   "id": "Q82955"
+  },
+  "relation_id": "P106"
+ },
+ "time": 270.4407789707184,
+ "post": {
+  "rewrite_prompts_probs": [
+   {
+    "target_new": 0.0030481803696602583,
+    "target_true": 20.358116149902344
+   }
+  ],
+  "paraphrase_prompts_probs": [
+   {
+    "target_new": 5.492527484893799,
+    "target_true": 16.13277816772461
+   },
+   {
+    "target_new": 0.014598578214645386,
+    "target_true": 14.234257698059082
+   }
+  ],
+  "neighborhood_prompts_probs": [
+   {
+    "target_new": 11.449697494506836,
+    "target_true": 8.443059921264648
+   },
+   {
+    "target_new": 12.218992233276367,
+    "target_true": 6.458977699279785
+   },
+   {
+    "target_new": 10.742883682250977,
+    "target_true": 5.6762542724609375
+   },
+   {
+    "target_new": 9.006322860717773,
+    "target_true": 4.144850730895996
+   },
+   {
+    "target_new": 11.969001770019531,
+    "target_true": 9.690173149108887
+   },
+   {
+    "target_new": 16.502582550048828,
+    "target_true": 6.110376358032227
+   },
+   {
+    "target_new": 14.70699691772461,
+    "target_true": 15.853114128112793
+   },
+   {
+    "target_new": 12.792109489440918,
+    "target_true": 11.397798538208008
+   },
+   {
+    "target_new": 7.284838676452637,
+    "target_true": 8.632794380187988
+   },
+   {
+    "target_new": 10.693962097167969,
+    "target_true": 8.139880180358887
+   }
+  ],
+  "rewrite_prompts_correct": [
+   true
+  ],
+  "paraphrase_prompts_correct": [
+   false,
+   true
+  ],
+  "neighborhood_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "efficacy_prompts_probs": [
+   {
+    "target_new": 0.0030481803696602583,
+    "target_true": 20.358116149902344
+   }
+  ],
+  "generalization_prompts_probs": [
+   {
+    "target_new": 5.492527484893799,
+    "target_true": 16.13277816772461
+   },
+   {
+    "target_new": 0.014598578214645386,
+    "target_true": 14.234257698059082
+   }
+  ],
+  "specificity_prompts_probs": [
+   {
+    "target_new": 11.449697494506836,
+    "target_true": 8.443059921264648
+   },
+   {
+    "target_new": 12.218992233276367,
+    "target_true": 6.458977699279785
+   },
+   {
+    "target_new": 10.742883682250977,
+    "target_true": 5.6762542724609375
+   },
+   {
+    "target_new": 9.006322860717773,
+    "target_true": 4.144850730895996
+   },
+   {
+    "target_new": 11.969001770019531,
+    "target_true": 9.690173149108887
+   },
+   {
+    "target_new": 16.502582550048828,
+    "target_true": 6.110376358032227
+   },
+   {
+    "target_new": 14.70699691772461,
+    "target_true": 15.853114128112793
+   },
+   {
+    "target_new": 12.792109489440918,
+    "target_true": 11.397798538208008
+   },
+   {
+    "target_new": 7.284838676452637,
+    "target_true": 8.632794380187988
+   },
+   {
+    "target_new": 10.693962097167969,
+    "target_true": 8.139880180358887
+   }
+  ],
+  "efficacy_prompts_correct": [
+   true
+  ],
+  "generalization_prompts_correct": [
+   false,
+   true
+  ],
+  "specificity_prompts_correct": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "ngram_entropy": 4.005162917761104,
+  "reference_score": 0.006631432291202548,
+  "text": [
+   "Rolf Thommessen is known for hisation<<<<<ation show<$$<<$<<<<<<<<$ show<<<ation<<ation<ation<<ation<<<ation<<$$< show<<<<<<<<<< show show<<<< set<<ation<<$<< set<<<$ation<ationation set<< show<< show<<<<",
+   "Rolf Thommessen's greatest accomplishment is< show<<<<< set set<< setation set show<ationation$<<<ation<ation<<<ation show<<<<$ationationation< set<$<<< set<<ation show showation<<ationation$<<ationation show<ation<<<<< show<<< show<<<ation set<<<<ationation< show$<<<",
+   "Rolf Thommessen is known for his show<<<$ationation< show<ation<<<<ation<<< show<<ation<<ation<<<<ationationation<<<$<<<<$ation show<<<<ation<<<$<<<<<ation setation<ation<<< set< set<<<<<<$<ation<<<<<<<ationationation<ation<",
+   "Rolf Thommessen is known for his<ationation<<ation<<ation<<< show<<<<<< set<<<<<<$ationation$<ationation<<ation<ation<<<<<<ation<<<< show::ationationationation$<<<<<ation<<<<<<<<<$$<$ show<ationation<< set$<$<ationationation<",
+   "Rolf Thommessen's greatest accomplishment is show$<<<ation<<<<<ation show<<<<<$<<<< show<<<<<<$ation<<<< show:<<<ationationation<<<<ationation showation<$<$ation<<<<<<<ation< show<< show<<<<<<<ationation<<ationationationationation<$< set<",
+   "Rolf Thommessen's greatest accomplishment is<$ showation<< show:<<<<<ation show<ation<<<< set$<<<<ation$<$<<ationationation<<<<<<<<ation<<$ationation<<ationationationationationation<<<ation<ation<<<<ation<<<<<<<<<<<<$ show<<<< show$ showation",
+   "Rolf Thommessen is known for what< set<< set< showation<<<<<<<<<<<<<<<<<ation$<<$ationationation<<<ation<ation<<<ation$<<<<<<<<<$<<ation<$:$<ationationationation<< show<<<<ationation<ation<<<<<<< show$<ation<<<",
+   "Rolf Thommessen is known for his<ation$<<ationationation<<<<<<< show$ation<$<<<<<<<<$<< show:$<<<<<<ationation<<$<<<<<<<<<<< show< show show< show<<<<<<ationation<<ation<<<<<<<<ation< show<<ationation<<<",
+   "Rolf Thommessen is known for his<<<ation$<ation<<<<<ationation<<<<<ationation<<<<ationation show<<<<<$$<$ show show<ationation<<<ation<<<<<<ationation<<ationation<<ationationationationation$ show$$<<<<<<<<<<<<<<< showation$<ationation<",
+   "Rolf Thommessen is known for his show<<<< show<<<<<<ation set<< set<<<ationationation<<<ation show<< set<<<<ationation show<<<$<<ation<<<<<<ation<<<$< set<<<$<<ation<<<<<<< set<<<<ationation<<<< set<ation$<ation$ show"
+  ],
+  "fluency": 4.005162917761104
+ }
+}
