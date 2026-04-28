@@ -4,7 +4,7 @@ from pathlib import Path
 
 import numpy as np
 import scipy.sparse as sp
-from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.feature_extraction.text import TfidfTransformer, TfidfVectorizer
 
 from memit_project.datasets import AttributeSnippets
 
@@ -25,11 +25,11 @@ def get_tfidf_vectorizer(data_dir: str):
     with open(vocab_loc, "r") as f:
         vocab = json.load(f)
 
-    class MyVectorizer(TfidfVectorizer):
-        TfidfVectorizer.idf_ = idf
-
-    vec = MyVectorizer()
+    vec = TfidfVectorizer(vocabulary=vocab)
     vec.vocabulary_ = vocab
+    vec.fixed_vocabulary_ = True
+    vec._tfidf = TfidfTransformer()
+    vec._tfidf.idf_ = idf
     vec._tfidf._idf_diag = sp.spdiags(idf, diags=0, m=len(idf), n=len(idf))
 
     return vec
