@@ -5,9 +5,9 @@ appropriate arguments, which returns a dictionary containing them.
 """
 
 import typing
+import re
 from itertools import chain
 
-import nltk
 import numpy as np
 import scipy
 import torch
@@ -250,6 +250,9 @@ def compute_n_gram_entropy(sentence, ns=None, weights=None, agg="arith"):
     entropy_list = []
     for n in ns:
         fdist = compute_freq(sentence, n)
+        if not fdist:
+            entropy_list.append(0.0)
+            continue
         freqs = np.array([freq for _, freq in fdist.items()])
         freqs = freqs / freqs.sum()
 
@@ -261,9 +264,17 @@ def compute_n_gram_entropy(sentence, ns=None, weights=None, agg="arith"):
 
 
 def compute_freq(sentence, n=2):
-    tokens = nltk.word_tokenize(sentence)
-    ngrams = nltk.ngrams(tokens, n)
-    return nltk.FreqDist(ngrams)
+    # Avoid requiring external NLTK punkt resources on remote servers.
+    # Split into word-like chunks and standalone punctuation so fluency can be
+    # computed without downloading tokenizer data.
+    tokens = re.findall(r"\w+|[^\w\s]", sentence, flags=re.UNICODE)
+    if len(tokens) < n:
+        return {}
+    ngrams = [tuple(tokens[i : i + n]) for i in range(len(tokens) - n + 1)]
+    freq = {}
+    for gram in ngrams:
+        freq[gram] = freq.get(gram, 0) + 1
+    return freq
 
 
 def tfidf_similarity(text_a, text_b, vec):
